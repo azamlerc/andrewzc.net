@@ -1,0 +1,3619 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>🧑‍🎤 Song Titles</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+  <style>
+  
+    table {
+      border-spacing: 0;
+    }
+  
+    td {
+      padding: 10px;
+      vertical-align: top;
+      font: 12pt Avenir;
+    }
+
+  
+    .matrix_label {
+      font: 12pt Avenir;
+      color: #999;
+    }
+  
+    .header td {
+      font: 16pt Avenir;
+      color: #999;
+    }
+    
+    .en, .fr, .nl, .ru, .es, .de, .it, .pl, .cz {
+      min-width: 180px;
+    }
+    
+    .ru {
+    	font-weight: lighter;
+    }
+
+    .checkboxes {
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    tr .thing {
+      padding: 7px 10px 7px 10px;
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    td a {
+      color: #444;
+    }
+    
+    table.main tr:nth-child(even) {
+      background-color: #EEEEEE80;
+    }
+    
+    table.checkboxes {
+      
+    }
+    
+    table.checkboxes tr td {
+       padding: 0px 20px 0px 0px;
+       width: 80px;
+    }
+    
+    .en, .ru { background-color: rgba(255,0,0,0.08); }
+    .nl, .cz { background-color: rgba(255,165,0,0.08); }
+    .de, .pl { background-color: rgba(255,255,0,0.08); }
+    .fr { background-color: rgba(0,128,0,0.08); }
+    .es { background-color: rgba(0,0,255,0.08); }
+    .it { background-color: rgba(128,0,128,0.08); }
+
+  </style>
+</head>
+<body>
+	<div class="headline">
+		🧑‍🎤 Song Titles
+  </div>
+  <div class="checkboxes">
+  <table class="checkboxes">
+    <tr>
+      <td><input type="checkbox" id="en" onclick="check('en')"/> English</td>
+      <td><input type="checkbox" id="nl" onclick="check('nl')"/> Dutch</td>
+      <td><input type="checkbox" id="de" onclick="check('de')"/> German</td>
+      <td><input type="checkbox" id="fr" onclick="check('fr')"/> French</td>
+      <td><input type="checkbox" id="es" onclick="check('es')"/> Spanish</td>
+      <td><input type="checkbox" id="it" onclick="check('it')"/> Italian</td>
+      <td><input type="checkbox" id="ru" onclick="check('ru')"/> Russian</td>
+      <td><input type="checkbox" id="cz" onclick="check('cz')"/> Czech</td>
+      <td><input type="checkbox" id="pl" onclick="check('pl')"/> Polish</td>
+    </tr>
+  </table>
+  <br>
+  </div>
+  <table class="main" id="main-table">
+    <tr class="header">
+      <td class="thing">
+      <td class="en">🇺🇸 English</td>
+      <td class="nl">🇳🇱 Dutch</td>
+      <td class="de">🇩🇪 German</td>
+      <td class="fr">🇫🇷 French</td>
+      <td class="es">🇪🇸 Spanish</td>
+      <td class="it">🇮🇹 Italian</td>
+      <td class="ru">🇷🇺 Russian</td>
+      <td class="cz">🇨🇿 Czech</td>
+      <td class="pl">🇵🇱 Polish</td>
+    </tr>
+
+    <tr class="code">
+      <td class="thing">🏔</td>
+      <td class="en">Ain’t no mountain high enough</td>
+      <td class="nl">Geen berg is hoog genoeg</td>
+      <td class="de">Kein Berg ist hoch genug</td>
+      <td class="fr">Aucune montagne n’est assez haute</td>
+      <td class="es">Ninguna montaña es lo suficientemente alta</td>
+      <td class="it">Nessuna montagna è abbastanza alta</td>
+      <td class="ru">Ни одна гора не достаточно высока</td>
+      <td class="cz">Žádná hora není dost vysoká</td>
+      <td class="pl">Żadna góra nie jest wystarczająco wysoka</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🗼</td>
+      <td class="en">All along the watchtower</td>
+      <td class="nl">Helemaal tot de wachttoren</td>
+      <td class="de">Am Wachturm entlang</td>
+      <td class="fr">Tout le long de la tour de guet</td>
+      <td class="es">A lo largo de la torre de vigilancia</td>
+      <td class="it">Lungo tutta la torre di guardia</td>
+      <td class="ru">По всей сторожевой башни</td>
+      <td class="cz">Všude podél strážní věže</td>
+      <td class="pl">Wzdłuż wieży strażniczej</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍻</td>
+      <td class="en">All I want to do</td>
+      <td class="nl">Alles wat ik wil doen</td>
+      <td class="de">Alles was ich tun möchte</td>
+      <td class="fr">Tout ce que je veux faire</td>
+      <td class="es">Todo lo que quiero hacer</td>
+      <td class="it">Tutto quello che voglio fare</td>
+      <td class="ru">Все, что я хочу сделать</td>
+      <td class="cz">Všechno, co chci dělat</td>
+      <td class="pl">Wszystko, co chcę zrobić</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👜</td>
+      <td class="en">All she wants is</td>
+      <td class="nl">Het enige wat ze wil is</td>
+      <td class="de">Alles, was sie will, ist</td>
+      <td class="fr">Tout ce qu’elle veut c’est</td>
+      <td class="es">Todo lo que ella quiere es</td>
+      <td class="it">Tutto quello che vuole è</td>
+      <td class="ru">Все, что она хочет, это</td>
+      <td class="cz">Jediné, co chce, je</td>
+      <td class="pl">Wszystko czego chce to</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🫶</td>
+      <td class="en">All that I need is to be loved</td>
+      <td class="nl">Alles wat ik nodig heb, is geliefd te zijn</td>
+      <td class="de">Alles, was ich brauche, ist geliebt zu werden</td>
+      <td class="fr">Tout ce dont j’ai besoin c’est d’être aimé</td>
+      <td class="es">Todo lo que necesito es ser amado</td>
+      <td class="it">Tutto ciò di cui ho bisogno è essere amato</td>
+      <td class="ru">Все, что мне нужно, это быть любимым</td>
+      <td class="cz">Vše, co potřebuji, je být milován</td>
+      <td class="pl">Wszystko czego potrzebuję to być kochanym</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💁‍♀️</td>
+      <td class="en">All that she wants</td>
+      <td class="nl">Alles wat ze wil</td>
+      <td class="de">Alles was Sie will</td>
+      <td class="fr">Tout ce qu’elle veut</td>
+      <td class="es">Todo lo que ella quiere</td>
+      <td class="it">Tutto quello che lei vuole</td>
+      <td class="ru">Все, что она хочет</td>
+      <td class="cz">Všechno, co chce</td>
+      <td class="pl">Wszystko czego chce</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛫</td>
+      <td class="en">All that you can’t leave behind</td>
+      <td class="nl">Alles wat je niet achter kunt laten</td>
+      <td class="de">Alles, was Sie nicht zurücklassen können</td>
+      <td class="fr">Tout ce que tu ne peux pas laisser derrière</td>
+      <td class="es">Todo lo que no puedes dejar atrás</td>
+      <td class="it">Tutto ciò che non puoi lasciarti alle spalle</td>
+      <td class="ru">Все, что вы не можете оставить позади</td>
+      <td class="cz">Vše, co nemůžete nechat za sebou</td>
+      <td class="pl">Wszystko, czego nie możesz zostawić za sobą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">✅</td>
+      <td class="en">All these things that I’ve done</td>
+      <td class="nl">Al deze dingen die ik gedaan heb</td>
+      <td class="de">All die Dinge die ich getan habe</td>
+      <td class="fr">Toutes ces choses que j’ai faites</td>
+      <td class="es">Todas estas cosas que he hecho</td>
+      <td class="it">Tutte queste cose che ho fatto</td>
+      <td class="ru">Все то, что я сделал</td>
+      <td class="cz">Všechny tyto věci, které jsem udělal</td>
+      <td class="pl">Te wszystkie rzeczy, które zrobiłem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔫</td>
+      <td class="en">Always outnumbered, never outgunned</td>
+      <td class="nl">Altijd in de minderheid, nooit in de minderheid</td>
+      <td class="de">Immer in Unterzahl, niemals geschlagen</td>
+      <td class="fr">Toujours en infériorité numérique, jamais en infériorité de calibres</td>
+      <td class="es">Superados en número siempre, nunca superados</td>
+      <td class="it">Sempre in inferiorità numerica, mai in inferiorità numerica</td>
+      <td class="ru">Всегда в меньшинстве, никогда не превосходил</td>
+      <td class="cz">Vždy v přesile, nikdy v přesile</td>
+      <td class="pl">Zawsze w przewadze liczebnej, nigdy w uzbrojeniu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎗</td>
+      <td class="en">Always something there to remind me</td>
+      <td class="nl">Altijd iets daar om me eraan te herinneren</td>
+      <td class="de">Es gibt immer etwas, das mich daran erinnert</td>
+      <td class="fr">Toujours quelque chose là pour me rappeler</td>
+      <td class="es">Siempre algo ahí para recordarme</td>
+      <td class="it">C’è sempre qualcosa che mi ricorda</td>
+      <td class="ru">Всегда что-то там, чтобы напомнить мне</td>
+      <td class="cz">Vždy mi něco připomene</td>
+      <td class="pl">Zawsze coś mi przypomina</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🇺🇸</td>
+      <td class="en">America is not the world</td>
+      <td class="nl">Amerika is niet de wereld</td>
+      <td class="de">Amerika ist nicht die Welt</td>
+      <td class="fr">L’Amérique n’est pas le monde</td>
+      <td class="es">Estados Unidos no es el mundo</td>
+      <td class="it">L’America non è il mondo</td>
+      <td class="ru">Америка это не мир</td>
+      <td class="cz">Amerika není svět</td>
+      <td class="pl">Ameryka to nie świat</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👼</td>
+      <td class="en">Angel of Harlem</td>
+      <td class="nl">Engel van Haarlem</td>
+      <td class="de">Engel von Harlem</td>
+      <td class="fr">Ange de Harlem</td>
+      <td class="es">Ángel de Harlem</td>
+      <td class="it">Angelo di Harlem</td>
+      <td class="ru">Ангел Харлема</td>
+      <td class="cz">Anděl z Harlemu</td>
+      <td class="pl">Anioł z Harlemu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧱</td>
+      <td class="en">Another brick in the wall</td>
+      <td class="nl">Nog een baksteen in de muur</td>
+      <td class="de">Ein weiterer Stein in der Mauer</td>
+      <td class="fr">Une autre brique dans le mur</td>
+      <td class="es">Otro ladrillo en la pared</td>
+      <td class="it">Another brick in the wall</td>
+      <td class="ru">Очередной кирпич в стене</td>
+      <td class="cz">Další cihla ve zdi</td>
+      <td class="pl">Kolejna cegła w murze</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌈</td>
+      <td class="en">Any colour you like</td>
+      <td class="nl">Elke gewenste kleur</td>
+      <td class="de">Jede Farbe, die Sie mögen</td>
+      <td class="fr">N’importe quelle couleur que vous aimez</td>
+      <td class="es">Cualquier color que te guste</td>
+      <td class="it">Qualsiasi colore che ti piace</td>
+      <td class="ru">Любой цвет, который вам нравится</td>
+      <td class="cz">Jakákoli barva, kterou chcete</td>
+      <td class="pl">Jakikolwiek kolor lubisz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔌</td>
+      <td class="en">Are friends electric?</td>
+      <td class="nl">Zijn vrienden elektrisch?</td>
+      <td class="de">Sind Freunde elektrisch?</td>
+      <td class="fr">Les amis sont-ils électriques ?</td>
+      <td class="es">¿Los amigos son eléctricos?</td>
+      <td class="it">Gli amici sono elettrici?</td>
+      <td class="ru">Друзья электрические?</td>
+      <td class="cz">Jsou přátelé električtí?</td>
+      <td class="pl">Czy przyjaciele są elektryczni?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⚙️</td>
+      <td class="en">Automatic for the people</td>
+      <td class="nl">Automatisch voor de mensen</td>
+      <td class="de">Automatisch für die Menschen</td>
+      <td class="fr">Automatique pour le peuple</td>
+      <td class="es">Automático para la gente</td>
+      <td class="it">Automatico per le persone</td>
+      <td class="ru">Автомат для людей</td>
+      <td class="cz">Automaticky pro lidi</td>
+      <td class="pl">Automat dla ludzi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😎</td>
+      <td class="en">Back in the high life again</td>
+      <td class="nl">Weer terug in het hoge leven</td>
+      <td class="de">Zurück im High Life</td>
+      <td class="fr">De retour dans la grande vie</td>
+      <td class="es">De vuelta en la alta vida de nuevo</td>
+      <td class="it">Di nuovo nella bella vita</td>
+      <td class="ru">Снова в светской жизни</td>
+      <td class="cz">Znovu do vysokého života</td>
+      <td class="pl">Z powrotem w high life ponownie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🇷🇺</td>
+      <td class="en">Back in the USSR</td>
+      <td class="nl">Terug in de Sovjet-Unie</td>
+      <td class="de">Zurück in der Sowjetunion</td>
+      <td class="fr">De retour en Union soviétique</td>
+      <td class="es">De vuelta en la Unión Soviética</td>
+      <td class="it">Di nuovo in Unione Sovietica</td>
+      <td class="ru">Снова в Советском Союзе</td>
+      <td class="cz">Zpátky v SSSR</td>
+      <td class="pl">Z powrotem w Związku Radzieckim</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💊</td>
+      <td class="en">Bad medicine</td>
+      <td class="nl">Slechte medicijnen</td>
+      <td class="de">Schlechte Medizin</td>
+      <td class="fr">Mauvais médicament</td>
+      <td class="es">Medicina mala</td>
+      <td class="it">Cattiva medicina</td>
+      <td class="ru">Плохая медицина</td>
+      <td class="cz">Špatná medicína</td>
+      <td class="pl">Zła Medycyna</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧑‍🤝‍🧑</td>
+      <td class="en">Be near me</td>
+      <td class="nl">Wees bij mij</td>
+      <td class="de">Sei in meiner Nähe</td>
+      <td class="fr">Soyez près de moi</td>
+      <td class="es">Estar cerca de mí</td>
+      <td class="it">Stai vicino a me</td>
+      <td class="ru">Будь рядом со мной</td>
+      <td class="cz">Buďte blízko mě</td>
+      <td class="pl">Bądź blisko mnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌃</td>
+      <td class="en">Because the night</td>
+      <td class="nl">Omdat de nacht</td>
+      <td class="de">Wegen der Nacht</td>
+      <td class="fr">Parce que la nuit</td>
+      <td class="es">Porque la noche</td>
+      <td class="it">Perchè la notte</td>
+      <td class="ru">Потому что ночь</td>
+      <td class="cz">Protože noc</td>
+      <td class="pl">Bo w nocy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📸</td>
+      <td class="en">Been caught stealing</td>
+      <td class="nl">Betrapt op stelen</td>
+      <td class="de">Wurde beim Stehlen erwischt</td>
+      <td class="fr">J’ai été surpris en train de voler</td>
+      <td class="es">Sido atrapado robando</td>
+      <td class="it">Sorpreso a rubare</td>
+      <td class="ru">Был пойман на краже</td>
+      <td class="cz">Byl přistižen při krádeži</td>
+      <td class="pl">Złapany na kradzieży</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎼</td>
+      <td class="en">Bittersweet symphony</td>
+      <td class="nl">Bitterzoete symfonie</td>
+      <td class="de">Bittersüße Symphonie</td>
+      <td class="fr">Symphonie douce-amère</td>
+      <td class="es">Sinfonía agridulce</td>
+      <td class="it">Sinfonia agrodolce</td>
+      <td class="ru">Кисло-сладкая симфония</td>
+      <td class="cz">Hořkosladká symfonie</td>
+      <td class="pl">Słodko-gorzka symfonia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔺</td>
+      <td class="en">Bizarre love triangle</td>
+      <td class="nl">Bizarre liefdesdriehoek</td>
+      <td class="de">Bizarre Liebesdreieck</td>
+      <td class="fr">Bizarre triangle amoureux</td>
+      <td class="es">Extraño triángulo amoroso</td>
+      <td class="it">Un bizzarro triangolo amoroso</td>
+      <td class="ru">Странный любовный треугольник</td>
+      <td class="cz">Bizarní milostný trojúhelník</td>
+      <td class="pl">Dziwny trójkąt miłosny</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🩸</td>
+      <td class="en">Blood sugar sex magic</td>
+      <td class="nl">Bloedsuiker seks magie</td>
+      <td class="de">Blutzucker-Sexmagie</td>
+      <td class="fr">Magie du sexe de la glycémie</td>
+      <td class="es">Magia sexual con azúcar en la sangre</td>
+      <td class="it">Magia sessuale di zucchero nel sangue</td>
+      <td class="ru">Магия секса с сахаром в крови</td>
+      <td class="cz">Sexuální magie s cukrem v krvi</td>
+      <td class="pl">Magia seksualna cukru we krwi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🇺🇸</td>
+      <td class="en">Born in the USA</td>
+      <td class="nl">Geboren in de Verenigde Staten</td>
+      <td class="de">Geboren in den Vereinigten Staaten</td>
+      <td class="fr">Né aux États-Unis</td>
+      <td class="es">Nacido en los Estados Unidos</td>
+      <td class="it">Nato negli Stati Uniti</td>
+      <td class="ru">Родился в Соединенных Штатах</td>
+      <td class="cz">Narozen ve Spojených státech</td>
+      <td class="pl">Urodzony w Stanach Zjednoczonych</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👶</td>
+      <td class="en">Born to be my baby</td>
+      <td class="nl">Geboren om mijn baby te zijn</td>
+      <td class="de">Geboren um mein Baby zu sein</td>
+      <td class="fr">Né pour être mon bébé</td>
+      <td class="es">Nacido para ser mi bebe</td>
+      <td class="it">Nato per essere il mio bambino</td>
+      <td class="ru">Родился, чтобы быть моим ребенком</td>
+      <td class="cz">Narozen jako moje dítě</td>
+      <td class="pl">Urodzony, by być moim dzieckiem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">↔️</td>
+      <td class="en">Both sides now</td>
+      <td class="nl">Beide kanten nu</td>
+      <td class="de">Beide Seiten jetzt</td>
+      <td class="fr">Des deux cotés maintenant</td>
+      <td class="es">Ahora ambos lados</td>
+      <td class="it">Adesso entrambi i lati</td>
+      <td class="ru">Обе стороны сейчас</td>
+      <td class="cz">Teď obě strany</td>
+      <td class="pl">Teraz obie strony</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❤️‍🩹</td>
+      <td class="en">Boulevard of broken dreams</td>
+      <td class="nl">Singel van gebroken dromen</td>
+      <td class="de">Boulevard der zerbrochenen Träume</td>
+      <td class="fr">Boulevard des rêves brisés</td>
+      <td class="es">Bulevar de los sueños rotos</td>
+      <td class="it">Viale dei sogni infranti</td>
+      <td class="ru">Бульвар разбитых снов</td>
+      <td class="cz">Bulvár zlomených snů</td>
+      <td class="pl">Bulwar niespełnionych marzeń</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥞</td>
+      <td class="en">Breakfast in America</td>
+      <td class="nl">Ontbijt in Amerika</td>
+      <td class="de">Frühstück in Amerika</td>
+      <td class="fr">Petit-déjeuner en Amérique</td>
+      <td class="es">Desayuno en América</td>
+      <td class="it">Colazione in America</td>
+      <td class="ru">Завтрак в Америке</td>
+      <td class="cz">Snídaně v Americe</td>
+      <td class="pl">Śniadanie w Ameryce</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌊</td>
+      <td class="en">Bridge over troubled water</td>
+      <td class="nl">Brug over onrustige wateren</td>
+      <td class="de">Brücke über unruhigem Wasser</td>
+      <td class="fr">Un pont au dessus d’eaux troubles</td>
+      <td class="es">Puente sobre aguas turbulentas</td>
+      <td class="it">Ponte su acque movimentate</td>
+      <td class="ru">Мост над неспокойной водой</td>
+      <td class="cz">Most přes rozbouřenou vodu</td>
+      <td class="pl">Most nad wzburzoną wodą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⚡️</td>
+      <td class="en">Bring me to life</td>
+      <td class="nl">Breng me tot leven</td>
+      <td class="de">Erwecke mich zum Leben</td>
+      <td class="fr">Apportez-moi à la vie</td>
+      <td class="es">Vuélveme a la vida</td>
+      <td class="it">Portami alla vita</td>
+      <td class="ru">Верни меня к жизни</td>
+      <td class="cz">Přiveď mě k životu</td>
+      <td class="pl">Przywróć mnie do życia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕵️‍♀️</td>
+      <td class="en">Building a mystery</td>
+      <td class="nl">Een mysterie bouwen</td>
+      <td class="de">Ein Geheimnis aufbauen</td>
+      <td class="fr">Construire un mystère</td>
+      <td class="es">Construyendo un misterio</td>
+      <td class="it">Costruire un mistero</td>
+      <td class="ru">Создание тайны</td>
+      <td class="cz">Budování záhady</td>
+      <td class="pl">Budowanie tajemnicy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🦋</td>
+      <td class="en">Bullet with butterfly wings</td>
+      <td class="nl">Kogel met vlindervleugels</td>
+      <td class="de">Kugel mit Schmetterlingsflügeln</td>
+      <td class="fr">Balle avec des ailes de papillon</td>
+      <td class="es">Bala con alas de mariposa</td>
+      <td class="it">Proiettile con ali di farfalla</td>
+      <td class="ru">Пуля с крыльями бабочки</td>
+      <td class="cz">Kulka s motýlími křídly</td>
+      <td class="pl">Pocisk ze skrzydłami motyla</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥃</td>
+      <td class="en">Call me when you’re sober</td>
+      <td class="nl">Bel me wanneer je nuchter bent</td>
+      <td class="de">Ruf mich an, wenn du nüchtern bist</td>
+      <td class="fr">Appelle moi quand tu es sobre</td>
+      <td class="es">Llámame cuando estés sobrio</td>
+      <td class="it">Chiamami quando sei sobrio</td>
+      <td class="ru">Позвони мне, когда протрезвеешь</td>
+      <td class="cz">Zavolej mi až budeš střízlivý</td>
+      <td class="pl">Zadzwoń do mnie, kiedy będziesz trzeźwy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👤</td>
+      <td class="en">Cast no shadow</td>
+      <td class="nl">Werp geen schaduw</td>
+      <td class="de">Wirf keinen Schatten</td>
+      <td class="fr">Ne projette aucune ombre</td>
+      <td class="es">No dejes sombra</td>
+      <td class="it">Non proiettare ombra</td>
+      <td class="ru">Не отбрасывает тени</td>
+      <td class="cz">Nevrhejte žádný stín</td>
+      <td class="pl">Nie rzuca żadnego cienia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👌</td>
+      <td class="en">Closer to fine</td>
+      <td class="nl">Dichter bij prima</td>
+      <td class="de">Näher an der Perfektion</td>
+      <td class="fr">Plus proche de la perfection</td>
+      <td class="es">Más cerca de la perfección</td>
+      <td class="it">Più vicino alla perfezione</td>
+      <td class="ru">Ближе к совершенству</td>
+      <td class="cz">Blíž k pokutě</td>
+      <td class="pl">Bliżej grzywny</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🪟</td>
+      <td class="en">Come to my window</td>
+      <td class="nl">Kom naar mijn raam</td>
+      <td class="de">Komm an mein Fenster</td>
+      <td class="fr">Viens à ma fenêtre</td>
+      <td class="es">Ven a mi ventana</td>
+      <td class="it">Vieni alla mia finestra</td>
+      <td class="ru">Подойди к моему окну</td>
+      <td class="cz">Pojď k mému oknu</td>
+      <td class="pl">Chodź do mojego okna</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😨</td>
+      <td class="en">Cool blue reason</td>
+      <td class="nl">Koele blauwe reden</td>
+      <td class="de">Cooler blauer Grund</td>
+      <td class="fr">Raisons bleues fraîches</td>
+      <td class="es">Motivo azul fresco</td>
+      <td class="it">Fantastico motivo blu</td>
+      <td class="ru">Крутая синяя причина</td>
+      <td class="cz">Cool modrý důvod</td>
+      <td class="pl">Fajny niebieski powód</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤪</td>
+      <td class="en">Crazy in love</td>
+      <td class="nl">Over de oren verliefd</td>
+      <td class="de">Verrückt verliebt</td>
+      <td class="fr">Fou amoureux</td>
+      <td class="es">Locamente enamorado</td>
+      <td class="it">Pazzo d’amore</td>
+      <td class="ru">Без ума от любви</td>
+      <td class="cz">Šíleně zamilovaný</td>
+      <td class="pl">Zakochani po uszy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚗</td>
+      <td class="en">Daddy’s gonna pay for your crashed car</td>
+      <td class="nl">Papa gaat voor je verongelukte auto betalen</td>
+      <td class="de">Papa wird für dein verunglücktes Auto bezahlen</td>
+      <td class="fr">Papa va payer pour ta voiture accidentée</td>
+      <td class="es">Papi va a pagar por tu carro chocado</td>
+      <td class="it">Papà pagherà per la tua macchina incidentata</td>
+      <td class="ru">Папа заплатит за твою разбитую машину</td>
+      <td class="cz">Táta zaplatí za tvé havarované auto</td>
+      <td class="pl">Tatuś zapłaci za twój rozbity samochód</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏩</td>
+      <td class="en">Damn I wish I was your lover</td>
+      <td class="nl">Verdorie, ik wou dat ik je minnaar was</td>
+      <td class="de">Verdammt, ich wünschte, ich wäre dein Liebhaber</td>
+      <td class="fr">Putain j’aimerais être ton amant</td>
+      <td class="es">Maldita sea, desearía ser tu amante</td>
+      <td class="it">Accidenti, vorrei essere il tuo amante</td>
+      <td class="ru">Черт, я хотел бы быть твоим любовником</td>
+      <td class="cz">Sakra, kéž bych byl tvůj milenec</td>
+      <td class="pl">Cholera, chciałbym być twoim kochankiem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕺</td>
+      <td class="en">Dancing in the dark</td>
+      <td class="nl">Dansen in het donker</td>
+      <td class="de">Tanzen im Dunkeln</td>
+      <td class="fr">Dansant dans le noir</td>
+      <td class="es">Bailando en la oscuridad</td>
+      <td class="it">Danzando nel buio</td>
+      <td class="ru">Танцуя в темноте</td>
+      <td class="cz">Tanec ve tmě</td>
+      <td class="pl">Tańczyć w ciemności</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👑</td>
+      <td class="en">Dancing queen</td>
+      <td class="nl">Danskoningin</td>
+      <td class="de">Tanzkönigin</td>
+      <td class="fr">Reine de la danse</td>
+      <td class="es">Reina del baile</td>
+      <td class="it">Regina danzante</td>
+      <td class="ru">Танцующая королева</td>
+      <td class="cz">Tančící královna</td>
+      <td class="pl">Królowa tańca</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👡</td>
+      <td class="en">Diamonds on the soles of her shoes</td>
+      <td class="nl">Diamanten op de zolen van haar schoenen</td>
+      <td class="de">Diamanten auf den Sohlen ihrer Schuhe</td>
+      <td class="fr">Diamants sur la semelle de ses chaussures</td>
+      <td class="es">Diamantes en las suelas de sus zapatos</td>
+      <td class="it">Diamanti sulle suole delle sue scarpe</td>
+      <td class="ru">Бриллианты на подошвах ее туфель</td>
+      <td class="cz">Diamanty na podrážkách jejích bot</td>
+      <td class="pl">Diamenty na podeszwach jej butów</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👩‍👦</td>
+      <td class="en">Does your mother know</td>
+      <td class="nl">Weet je moeder het</td>
+      <td class="de">Weiß deine Mutter</td>
+      <td class="fr">Votre mère sait-elle</td>
+      <td class="es">Lo sabe tu madre</td>
+      <td class="it">Tua madre sa</td>
+      <td class="ru">Ваша мать знает</td>
+      <td class="cz">Ví to tvoje matka?</td>
+      <td class="pl">Czy Twoja matka wie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙅</td>
+      <td class="en">Don’t dream that it is over</td>
+      <td class="nl">Droom niet dat het voorbij is</td>
+      <td class="de">Träume nicht davon, dass es vorbei ist</td>
+      <td class="fr">Ne rêve pas que c’est fini</td>
+      <td class="es">No sueñes que se acabó</td>
+      <td class="it">Non sognare che sia finita</td>
+      <td class="ru">Не мечтай, что все кончено</td>
+      <td class="cz">Nesni o tom, že je konec</td>
+      <td class="pl">Nie śnij, że to koniec</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚰</td>
+      <td class="en">Don’t drink the water</td>
+      <td class="nl">Drink het water niet</td>
+      <td class="de">Trinken Sie das Wasser nicht</td>
+      <td class="fr">Ne bois pas l’eau</td>
+      <td class="es">No bebas el agua</td>
+      <td class="it">Non bere l’acqua</td>
+      <td class="ru">Не пейте воду</td>
+      <td class="cz">Nepijte vodu</td>
+      <td class="pl">Nie pij wody</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❤️</td>
+      <td class="en">Don’t funk with my heart</td>
+      <td class="nl">Funk niet met mijn hart</td>
+      <td class="de">Funke nicht mit meinem Herzen</td>
+      <td class="fr">Ne t’amuse pas avec mon coeur</td>
+      <td class="es">No juegues con mi corazón</td>
+      <td class="it">Non scherzare con il mio cuore</td>
+      <td class="ru">Не фанкай с моим сердцем</td>
+      <td class="cz">Netrapte se mým srdcem</td>
+      <td class="pl">Nie baw się moim sercem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😡</td>
+      <td class="en">Don’t look back in anger</td>
+      <td class="nl">Kijk niet boos achterom</td>
+      <td class="de">Schauen Sie nicht wütend zurück</td>
+      <td class="fr">Ne regarde pas en arrière avec colère</td>
+      <td class="es">No mires atrás con ira</td>
+      <td class="it">Non guardare indietro con rabbia</td>
+      <td class="ru">Не оглядывайся в гневе</td>
+      <td class="cz">Neohlížej se ve vzteku</td>
+      <td class="pl">Nie oglądaj się w gniewie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎰</td>
+      <td class="en">Don’t make me come to Vegas</td>
+      <td class="nl">Laat me niet naar Vegas komen</td>
+      <td class="de">Lass mich nicht nach Vegas kommen</td>
+      <td class="fr">Ne me fais pas venir à Vegas</td>
+      <td class="es">No me hagas venir a Las Vegas</td>
+      <td class="it">Non farmi venire a Las Vegas</td>
+      <td class="ru">Не заставляй меня приезжать в Вегас</td>
+      <td class="cz">Nenuťte mě do Vegas</td>
+      <td class="pl">Nie każ mi przyjeżdżać do Vegas</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚭</td>
+      <td class="en">Don’t smoke in bed</td>
+      <td class="nl">Rook niet in bed</td>
+      <td class="de">Rauchen Sie nicht im Bett</td>
+      <td class="fr">Ne fumez pas au lit</td>
+      <td class="es">No fumes en la cama</td>
+      <td class="it">Non fumare a letto</td>
+      <td class="ru">Не курите в постели</td>
+      <td class="cz">Nekuřte v posteli</td>
+      <td class="pl">Nie pal w łóżku</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤔</td>
+      <td class="en">Don’t you forget about me</td>
+      <td class="nl">Vergeet mij niet</td>
+      <td class="de">Vergiss mich nicht</td>
+      <td class="fr">Ne m’oublie pas</td>
+      <td class="es">No te olvides de mi</td>
+      <td class="it">Non dimenticarti di me</td>
+      <td class="ru">Не забывай обо мне</td>
+      <td class="cz">nezapomeň na mě</td>
+      <td class="pl">Nie zapomnij o mnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☠️</td>
+      <td class="en">Dying in your arms tonight</td>
+      <td class="nl">Sterven in je armen vanavond</td>
+      <td class="de">Heute Nacht in deinen Armen sterben</td>
+      <td class="fr">Mourir dans tes bras ce soir</td>
+      <td class="es">Morir en tus brazos esta noche</td>
+      <td class="it">Morire tra le tue braccia stanotte</td>
+      <td class="ru">Умереть в твоих объятиях сегодня вечером</td>
+      <td class="cz">Dnes večer umírat ve tvém náručí</td>
+      <td class="pl">Umrzeć w twoich ramionach tej nocy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">7️⃣</td>
+      <td class="en">Edge of seventeen</td>
+      <td class="nl">Rand van zeventien</td>
+      <td class="de">Rand von siebzehn</td>
+      <td class="fr">Bord de dix-sept</td>
+      <td class="es">Casi diecisiete</td>
+      <td class="it">Bordo di diciassette</td>
+      <td class="ru">Край семнадцати</td>
+      <td class="cz">Hrana sedmnácti</td>
+      <td class="pl">Krawędź siedemnastu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧠</td>
+      <td class="en">Einstein on the beach</td>
+      <td class="nl">Einstein op het strand</td>
+      <td class="de">Einstein am Strand</td>
+      <td class="fr">Einstein sur la plage</td>
+      <td class="es">Einstein en la playa</td>
+      <td class="it">Einstein sulla spiaggia</td>
+      <td class="ru">Эйнштейн на пляже</td>
+      <td class="cz">Einstein na pláži</td>
+      <td class="pl">Einsteina na plaży</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤫</td>
+      <td class="en">Enjoy the silence</td>
+      <td class="nl">Geniet van de stilte</td>
+      <td class="de">Genießen Sie die Ruhe</td>
+      <td class="fr">Profitez du silence</td>
+      <td class="es">Disfruta del silencio</td>
+      <td class="it">Godersi il silenzio</td>
+      <td class="ru">Наслаждайся тишиной</td>
+      <td class="cz">Užijte si ticho</td>
+      <td class="pl">Cieszyć się ciszą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">✨</td>
+      <td class="en">Even better than the real thing</td>
+      <td class="nl">Zelfs beter dan het echte ding</td>
+      <td class="de">Noch besser als das echte Ding</td>
+      <td class="fr">Même mieux que la vraie chose</td>
+      <td class="es">Aún mejor que el auténtico</td>
+      <td class="it">Anche meglio della cosa reale</td>
+      <td class="ru">Даже лучше, чем настоящая вещь</td>
+      <td class="cz">Ještě lepší než ve skutečnosti</td>
+      <td class="pl">Nawet lepsze niż prawdziwa rzecz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥀</td>
+      <td class="en">Every rose has its thorn</td>
+      <td class="nl">Elke roos heeft zijn doorn</td>
+      <td class="de">Jede Rose hat Dornen</td>
+      <td class="fr">Chaque rose a son épine</td>
+      <td class="es">Cada rosa tiene su espina</td>
+      <td class="it">Ogni rosa ha la sua spina</td>
+      <td class="ru">У каждой розы есть шип</td>
+      <td class="cz">Každá růže má svůj trn</td>
+      <td class="pl">Nie ma róży bez kolców</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☠️</td>
+      <td class="en">Every time we live together we die a bit more</td>
+      <td class="nl">Elke keer dat we samenwonen, sterven we een beetje meer</td>
+      <td class="de">Jedes Mal, wenn wir zusammenleben, sterben wir ein bisschen mehr</td>
+      <td class="fr">A chaque fois qu’on vit ensemble on meurt un peu plus</td>
+      <td class="es">Cada vez que vivimos juntos morimos un poco más</td>
+      <td class="it">Ogni volta che viviamo insieme moriamo un po’ di più</td>
+      <td class="ru">Каждый раз, когда мы живем вместе, мы умираем немного больше</td>
+      <td class="cz">Pokaždé, když spolu žijeme, umíráme o něco víc</td>
+      <td class="pl">Za każdym razem, gdy mieszkamy razem, umieramy trochę więcej</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎁</td>
+      <td class="en">Everybody wants the same thing</td>
+      <td class="nl">Iedereen wil hetzelfde</td>
+      <td class="de">Jeder will das Gleiche</td>
+      <td class="fr">Tout le monde veut la même chose</td>
+      <td class="es">Todos quieren lo mismo</td>
+      <td class="it">Tutti vogliono la stessa cosa</td>
+      <td class="ru">Все хотят одного и того же</td>
+      <td class="cz">Všichni chtějí to samé</td>
+      <td class="pl">Wszyscy chcą tego samego</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌍</td>
+      <td class="en">Everybody wants to rule the world</td>
+      <td class="nl">Iedereen wil de wereld overheersen</td>
+      <td class="de">Jeder will die Welt regieren</td>
+      <td class="fr">Tout le monde veut diriger le monde</td>
+      <td class="es">Todo el mundo quiere gobernar el mundo</td>
+      <td class="it">Tutti vogliono governare il mondo</td>
+      <td class="ru">Каждый хочет править миром</td>
+      <td class="cz">Každý chce vládnout světu</td>
+      <td class="pl">Każdy chce rządzić światem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📕</td>
+      <td class="en">Everyday I write the book</td>
+      <td class="nl">Elke dag schrijf ik het boek</td>
+      <td class="de">Jeden Tag schreibe ich das Buch</td>
+      <td class="fr">Chaque jour j’écris le livre</td>
+      <td class="es">Todos los días escribo el libro</td>
+      <td class="it">Ogni giorno scrivo il libro</td>
+      <td class="ru">Каждый день я пишу книгу</td>
+      <td class="cz">Každý den píšu knihu</td>
+      <td class="pl">Codziennie piszę książkę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😣</td>
+      <td class="en">Everyone else is doing it so why can’t we?</td>
+      <td class="nl">Iedereen doet het, dus waarom wij niet?</td>
+      <td class="de">Alle anderen tun es, warum können wir das nicht auch?</td>
+      <td class="fr">Tout le monde le fait alors pourquoi pas nous ?</td>
+      <td class="es">Todos los demás lo están haciendo, ¿por qué no podemos nosotros?</td>
+      <td class="it">Tutti gli altri lo stanno facendo, quindi perché non possiamo?</td>
+      <td class="ru">Все остальные так делают, почему мы не можем?</td>
+      <td class="cz">Dělají to všichni ostatní, tak proč ne my?</td>
+      <td class="pl">Wszyscy inni to robią, więc dlaczego my nie możemy?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛵️</td>
+      <td class="en">Expedition impossible</td>
+      <td class="nl">Expeditie onmogelijk</td>
+      <td class="de">Expedition unmöglich</td>
+      <td class="fr">Expédition impossible</td>
+      <td class="es">Expedición imposible</td>
+      <td class="it">Spedizione impossibile</td>
+      <td class="ru">Экспедиция невозможна</td>
+      <td class="cz">Expedice nemožná</td>
+      <td class="pl">Wyprawa niemożliwa</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌳</td>
+      <td class="en">Fake plastic trees</td>
+      <td class="nl">Neppe plastische bomen</td>
+      <td class="de">Falsche Plastikbäume</td>
+      <td class="fr">Faux arbres en plastique</td>
+      <td class="es">Árboles de plástico falsos</td>
+      <td class="it">Alberi finti di plastica</td>
+      <td class="ru">Искусственные пластиковые деревья</td>
+      <td class="cz">Falešné plastové stromy</td>
+      <td class="pl">Sztuczne plastikowe drzewa</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☃️</td>
+      <td class="en">Fifty words for snow</td>
+      <td class="nl">Vijftig woorden voor sneeuw</td>
+      <td class="de">Fünfzig Wörter für Schnee</td>
+      <td class="fr">Cinquante mots pour la neige</td>
+      <td class="es">Cincuenta palabras para la nieve</td>
+      <td class="it">Cinquanta parole per la neve</td>
+      <td class="ru">Пятьдесят слов о снеге</td>
+      <td class="cz">Padesát slov pro sníh</td>
+      <td class="pl">Pięćdziesiąt słów o śniegu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏴‍☠️</td>
+      <td class="en">First of the gang to die</td>
+      <td class="nl">De eerste van de bende die sterft</td>
+      <td class="de">Der erste der Truppe, der stirbt</td>
+      <td class="fr">Premier du gang à mourir</td>
+      <td class="es">El primero de la banda en morir</td>
+      <td class="it">Il primo della banda a morire</td>
+      <td class="ru">Первый из банды, чтобы умереть</td>
+      <td class="cz">První z gangu zemře</td>
+      <td class="pl">Pierwszy z gangu, który zginął</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👀</td>
+      <td class="en">First time I saw your face</td>
+      <td class="nl">De eerste keer dat ik je gezicht zag</td>
+      <td class="de">Zum ersten Mal habe ich dein Gesicht gesehen</td>
+      <td class="fr">La première fois que j’ai vu ton visage</td>
+      <td class="es">Primera vez que vi tu cara</td>
+      <td class="it">La prima volta che ho visto la tua faccia</td>
+      <td class="ru">Впервые я увидел твое лицо</td>
+      <td class="cz">Poprvé jsem viděl tvou tvář</td>
+      <td class="pl">Pierwszy raz zobaczyłem twoją twarz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🪦</td>
+      <td class="en">Forever may not be long enough</td>
+      <td class="nl">Voor altijd is misschien niet lang genoeg</td>
+      <td class="de">Die Ewigkeit ist vielleicht nicht lang genug</td>
+      <td class="fr">Pour toujours peut ne pas être assez long</td>
+      <td class="es">Para siempre puede no ser lo suficientemente largo</td>
+      <td class="it">Per sempre potrebbe non essere abbastanza lungo</td>
+      <td class="ru">Навсегда может быть недостаточно долго</td>
+      <td class="cz">Navždy nemusí být dost dlouhá doba</td>
+      <td class="pl">Wieczność może nie wystarczyć</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">4️⃣</td>
+      <td class="en">Friend is a four letter word</td>
+      <td class="nl">Vriend is een woord van vier letters</td>
+      <td class="de">Freund ist ein Wort mit vier Buchstaben</td>
+      <td class="fr">Ami est un mot de quatre lettres</td>
+      <td class="es">Amigo es una palabra de cuatro letras</td>
+      <td class="it">Amico è una parola di quattro lettere</td>
+      <td class="ru">Друг - слово из четырех букв</td>
+      <td class="cz">Přítel je čtyřpísmenné slovo</td>
+      <td class="pl">Przyjaciel to czteroliterowe słowo</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💊</td>
+      <td class="en">Girl you have no faith in medicine</td>
+      <td class="nl">Meisje, je hebt geen vertrouwen in de geneeskunde</td>
+      <td class="de">Mädchen, du hast kein Vertrauen in die Medizin</td>
+      <td class="fr">Chérie tu n’as aucune foi en la médecine</td>
+      <td class="es">Chica, no tienes fe en la medicina</td>
+      <td class="it">Ragazza, non hai fiducia nella medicina</td>
+      <td class="ru">Девочка, ты не веришь в медицину</td>
+      <td class="cz">Holka, ty nevěříš v medicínu</td>
+      <td class="pl">Dziewczyno, nie wierzysz w medycynę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👫</td>
+      <td class="en">Girls and boys</td>
+      <td class="nl">Meisjes en jongens</td>
+      <td class="de">Mädchen und Jungen</td>
+      <td class="fr">Les filles et les garçons</td>
+      <td class="es">Niñas y niños</td>
+      <td class="it">Ragazze e ragazzi</td>
+      <td class="ru">Девочки и мальчики</td>
+      <td class="cz">Dívky a chlapci</td>
+      <td class="pl">Dziewczyny i chłopcy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥳</td>
+      <td class="en">Girls just want to have fun</td>
+      <td class="nl">Meiden willen gewoon plezier hebben</td>
+      <td class="de">Mädchen wollen einfach nur Spaß haben</td>
+      <td class="fr">Les filles veulent juste s’amuser</td>
+      <td class="es">Las chicas solo quieren divertirse</td>
+      <td class="it">Le ragazze vogliono solo divertirsi</td>
+      <td class="ru">Девчонки просто хотят веселиться</td>
+      <td class="cz">Holky se prostě chtějí bavit</td>
+      <td class="pl">Dziewczyny chcą się po prostu dobrze bawić</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☮️</td>
+      <td class="en">Give peace a chance</td>
+      <td class="nl">Geef vrede een kans</td>
+      <td class="de">Gib dem Frieden eine Chance</td>
+      <td class="fr">Donner une chance à la paix</td>
+      <td class="es">Dale a la paz una oportunidad</td>
+      <td class="it">Dare una possibilità alla pace</td>
+      <td class="ru">Дайте миру шанс</td>
+      <td class="cz">Dej míru šanci</td>
+      <td class="pl">Dać szansę pokojowi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">↗️</td>
+      <td class="en">Go your own way</td>
+      <td class="nl">Je eigen weg gaan</td>
+      <td class="de">Gehen Sie Ihren eigenen Weg</td>
+      <td class="fr">Suis ton propre chemin</td>
+      <td class="es">Ve por tu propio camino</td>
+      <td class="it">Seguire la propria strada</td>
+      <td class="ru">Иди своей дорогой</td>
+      <td class="cz">Jděte svou vlastní cestou</td>
+      <td class="pl">Idź swoją drogą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😥</td>
+      <td class="en">Gonna make you sweat</td>
+      <td class="nl">Ik ga je laten zweten</td>
+      <td class="de">Wird dich ins Schwitzen bringen</td>
+      <td class="fr">Va te faire transpirer</td>
+      <td class="es">Voy a hacerte sudar</td>
+      <td class="it">Ti farà sudare</td>
+      <td class="ru">Собираюсь заставить вас потеть</td>
+      <td class="cz">Zapotíš se</td>
+      <td class="pl">Sprawię, że będziesz się pocić</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎭</td>
+      <td class="en">Good times, bad times</td>
+      <td class="nl">Goede tijden, slechte tijden</td>
+      <td class="de">Gute Zeiten, schlechte Zeiten</td>
+      <td class="fr">Bons moments, mauvais moments</td>
+      <td class="es">Buenos y malos tiempos</td>
+      <td class="it">Tempi felici, tempi difficili</td>
+      <td class="ru">Хорошие времена, плохие времена</td>
+      <td class="cz">Dobré časy, špatné časy</td>
+      <td class="pl">Dobre czasy złe czasy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❤️</td>
+      <td class="en">Groove is in the heart</td>
+      <td class="nl">Groef zit in het hart</td>
+      <td class="de">Groove liegt im Herzen</td>
+      <td class="fr">Groove est dans le coeur</td>
+      <td class="es">Groove está en el corazón</td>
+      <td class="it">Il ritmo è nel cuore</td>
+      <td class="ru">Грув в сердце</td>
+      <td class="cz">Drážka je v srdci</td>
+      <td class="pl">Groove jest w sercu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔫</td>
+      <td class="en">Happiness is a warm gun</td>
+      <td class="nl">Geluk is een warm wapen</td>
+      <td class="de">Glück ist eine warme Pistole</td>
+      <td class="fr">Le bonheur est un pistolet chaud</td>
+      <td class="es">La felicidad es un arma caliente</td>
+      <td class="it">La felicità è una pistola calda</td>
+      <td class="ru">Счастье - это теплый пистолет</td>
+      <td class="cz">Štěstí je teplá zbraň</td>
+      <td class="pl">Szczęście to ciepły pistolet</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😖</td>
+      <td class="en">Hard to handle</td>
+      <td class="nl">Moeilijk om mee om te gaan</td>
+      <td class="de">Schwer mit umzugehen</td>
+      <td class="fr">Difficile à gérer</td>
+      <td class="es">Difícil de manejar</td>
+      <td class="it">Difficile da gestire</td>
+      <td class="ru">Трудно справиться</td>
+      <td class="cz">Těžko zvládnutelné</td>
+      <td class="pl">Trudny w obsłudze</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥛</td>
+      <td class="en">Heart of glass</td>
+      <td class="nl">Hart van glas</td>
+      <td class="de">Herz aus Glas</td>
+      <td class="fr">Coeur de verre</td>
+      <td class="es">Corazón de vidrio</td>
+      <td class="it">Cuore di vetro</td>
+      <td class="ru">Стеклянное сердце</td>
+      <td class="cz">Skleněné srdce</td>
+      <td class="pl">Serce ze szkła</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚉</td>
+      <td class="en">Heartbreak station</td>
+      <td class="nl">Hartverscheurend station</td>
+      <td class="de">Herzschmerz-Station</td>
+      <td class="fr">Gare du chagrin</td>
+      <td class="es">Estación de angustia</td>
+      <td class="it">Stazione del crepacuore</td>
+      <td class="ru">Станция разбитых сердец</td>
+      <td class="cz">Stanice zlomení srdce</td>
+      <td class="pl">Stacja złamanych serc</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌟</td>
+      <td class="en">Heaven is a place on earth</td>
+      <td class="nl">De hemel is een plaats op aarde</td>
+      <td class="de">Der Himmel ist ein Platz auf Erden</td>
+      <td class="fr">Le paradis est un endroit sur terre</td>
+      <td class="es">El cielo es un lugar en la Tierra</td>
+      <td class="it">Il paradiso è un posto sulla terra</td>
+      <td class="ru">Рай это место на земле</td>
+      <td class="cz">Nebe je místo na zemi</td>
+      <td class="pl">Niebo jest miejscem na ziemi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😭</td>
+      <td class="en">Heaven knows I’m miserable now</td>
+      <td class="nl">De hemel weet dat ik me nu ellendig voel</td>
+      <td class="de">Der Himmel weiß, dass es mir jetzt schlecht geht</td>
+      <td class="fr">Dieu sait que je suis misérable maintenant</td>
+      <td class="es">El cielo sabe que ahora soy miserable</td>
+      <td class="it">Il cielo sa che sono infelice adesso</td>
+      <td class="ru">Небеса знают, что я несчастен сейчас</td>
+      <td class="cz">Nebe ví, že jsem teď nešťastný</td>
+      <td class="pl">Niebo wie, że jestem teraz nieszczęśliwy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌦</td>
+      <td class="en">Here comes the rain again</td>
+      <td class="nl">Hier komt de regen weer</td>
+      <td class="de">Hier kommt der Regen wieder</td>
+      <td class="fr">Voici à nouveau la pluie</td>
+      <td class="es">Aquí viene la lluvia otra vez</td>
+      <td class="it">Ecco che arriva di nuovo la pioggia</td>
+      <td class="ru">Вот идет дождь снова</td>
+      <td class="cz">A znovu přichází déšť</td>
+      <td class="pl">Znowu zaczyna padać</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧑‍🤝‍🧑</td>
+      <td class="en">Here with me</td>
+      <td class="nl">Hier bij mij</td>
+      <td class="de">Hier mit mir</td>
+      <td class="fr">Ici avec moi</td>
+      <td class="es">Aquí conmigo</td>
+      <td class="it">Qui con me</td>
+      <td class="ru">Здесь со мной</td>
+      <td class="cz">Tady se mnou</td>
+      <td class="pl">Tutaj ze mną</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤗</td>
+      <td class="en">Hold me now</td>
+      <td class="nl">Hou me nu vast</td>
+      <td class="de">Halt mich jetzt</td>
+      <td class="fr">Retiens moi</td>
+      <td class="es">Abrázame ahora</td>
+      <td class="it">Tienimi adesso</td>
+      <td class="ru">Держи меня сейчас</td>
+      <td class="cz">Teď mě drž</td>
+      <td class="pl">Trzymaj mnie teraz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😯</td>
+      <td class="en">Hold me, thrill me, kiss me, kill me</td>
+      <td class="nl">Houd me vast, prikkel me, kus me, dood me</td>
+      <td class="de">Halte mich, errege mich, küsse mich, töte mich</td>
+      <td class="fr">Tiens-moi, fais-moi frémir, embrasse-moi, tue-moi</td>
+      <td class="es">Abrázame, estremeceme, bésame, mátame</td>
+      <td class="it">Stringimi, emozionami, baciami, uccidimi</td>
+      <td class="ru">Обними меня, волнуй меня, целуй меня, убей меня</td>
+      <td class="cz">Drž mě, vzruš mě, polib mě, zabij mě</td>
+      <td class="pl">Trzymaj mnie, wstrząśnij mną, pocałuj mnie, zabij mnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥺</td>
+      <td class="en">How can anybody possibly know how I feel</td>
+      <td class="nl">Hoe kan iemand weten hoe ik me voel</td>
+      <td class="de">Wie kann irgendjemand wissen, wie ich mich fühle?</td>
+      <td class="fr">Comment quelqu’un peut-il savoir ce que je ressens</td>
+      <td class="es">¿Cómo puede alguien saber cómo me siento?</td>
+      <td class="it">Come può qualcuno sapere come mi sento</td>
+      <td class="ru">Как кто-нибудь может знать, что я чувствую</td>
+      <td class="cz">Jak může někdo vědět, jak se cítím</td>
+      <td class="pl">Skąd ktokolwiek może wiedzieć, jak się czuję</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⏰</td>
+      <td class="en">How soon is now?</td>
+      <td class="nl">Hoe vroeg is nu?</td>
+      <td class="de">Wie bald ist es jetzt?</td>
+      <td class="fr">Combien de temps est-il maintenant&nbsp;?</td>
+      <td class="es">¿Que tan pronto es ahora?</td>
+      <td class="it">Quanto tempo è adesso?</td>
+      <td class="ru">Как скоро сейчас?</td>
+      <td class="cz">Jak brzo je teď?</td>
+      <td class="pl">Jak szybko jest teraz?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🐺</td>
+      <td class="en">Hungry like the wolf</td>
+      <td class="nl">Hongerig als een wolf</td>
+      <td class="de">Hungrig wie ein Wolf</td>
+      <td class="fr">Faim comme le loup</td>
+      <td class="es">Hambriento como el lobo</td>
+      <td class="it">Affamato come un lupo</td>
+      <td class="ru">Голодные как волк</td>
+      <td class="cz">Hladový jako vlk</td>
+      <td class="pl">Głodny jak wilk</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👋</td>
+      <td class="en">I can’t be with you</td>
+      <td class="nl">Ik kan niet bij je zijn</td>
+      <td class="de">Ich kann nicht bei dir sein</td>
+      <td class="fr">Je ne peux pas être avec toi</td>
+      <td class="es">no puedo estar contigo</td>
+      <td class="it">Non posso stare con te</td>
+      <td class="ru">Я не могу быть с тобой</td>
+      <td class="cz">nemůžu být s tebou</td>
+      <td class="pl">Nie mogę być z tobą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥰</td>
+      <td class="en">I can’t help falling in love with you</td>
+      <td class="nl">Ik kan het niet helpen dat ik verliefd op je word</td>
+      <td class="de">Ich kann nicht anders, als mich in dich zu verlieben</td>
+      <td class="fr">Je ne peux pas m’empêcher de tomber amoureux de toi</td>
+      <td class="es">No puedo evitar enamorarme de ti</td>
+      <td class="it">Non posso fare a meno di innamorarmi di te</td>
+      <td class="ru">Я не могу не влюбиться в тебя</td>
+      <td class="cz">Nemůžu si pomoct, abych se do tebe zamiloval</td>
+      <td class="pl">Nie mogę się w tobie zakochać</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌧</td>
+      <td class="en">I can’t stand the rain</td>
+      <td class="nl">Ik kan niet tegen de regen</td>
+      <td class="de">Ich kann den Regen nicht ertragen</td>
+      <td class="fr">Je ne supporte pas la pluie</td>
+      <td class="es">no soporto la lluvia</td>
+      <td class="it">Non sopporto la pioggia</td>
+      <td class="ru">Я терпеть не могу дождь</td>
+      <td class="cz">nesnesu déšť</td>
+      <td class="pl">Nie mogę znieść deszczu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⬇️</td>
+      <td class="en">I can’t stand up for falling down</td>
+      <td class="nl">Ik kan niet opstaan om te vallen</td>
+      <td class="de">Ich kann nicht aufstehen, weil ich hingefallen bin</td>
+      <td class="fr">Je ne supporte pas de tomber</td>
+      <td class="es">No puedo levantarme por caerme</td>
+      <td class="it">Non posso alzarmi per essere caduto</td>
+      <td class="ru">Я не могу встать, чтобы упасть</td>
+      <td class="cz">Nemohu se postavit, abych spadl</td>
+      <td class="pl">Nie mogę wstać po upadku</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👩🏻‍🦲</td>
+      <td class="en">I do not want what I haven’t got</td>
+      <td class="nl">Ik wil niet wat ik niet heb</td>
+      <td class="de">Ich will nicht, was ich nicht habe</td>
+      <td class="fr">Je ne veux pas ce que je n’ai pas</td>
+      <td class="es">No quiero lo que no tengo</td>
+      <td class="it">Non voglio quello che non ho</td>
+      <td class="ru">Я не хочу того, чего у меня нет</td>
+      <td class="cz">nechci to, co nemám</td>
+      <td class="pl">Nie chcę tego, czego nie mam</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧘</td>
+      <td class="en">I don’t know what you want but I can’t give it anymore</td>
+      <td class="nl">Ik weet niet wat je wilt, maar ik kan het niet meer geven</td>
+      <td class="de">Ich weiß nicht, was du willst, aber ich kann es nicht mehr geben</td>
+      <td class="fr">Je ne sais pas ce que tu veux mais je ne peux plus te le donner</td>
+      <td class="es">No sé lo que quieres pero ya no puedo dártelo</td>
+      <td class="it">Non so cosa vuoi ma non posso più dartelo</td>
+      <td class="ru">Я не знаю, чего ты хочешь, но я больше не могу этого дать</td>
+      <td class="cz">Nevím, co chceš, ale už ti to nemůžu dát</td>
+      <td class="pl">Nie wiem czego chcesz, ale nie mogę już tego dać</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚫</td>
+      <td class="en">I don’t want your love</td>
+      <td class="nl">Ik wil je liefde niet</td>
+      <td class="de">Ich will deine Liebe nicht</td>
+      <td class="fr">Je ne veux pas de ton amour</td>
+      <td class="es">No quiero tu amor</td>
+      <td class="it">Non voglio il tuo amore</td>
+      <td class="ru">Я не хочу твоей любви</td>
+      <td class="cz">nechci tvou lásku</td>
+      <td class="pl">Nie chcę twojej miłości</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❤️‍🔥</td>
+      <td class="en">I hate myself for loving you</td>
+      <td class="nl">Ik haat mezelf omdat ik van je hou</td>
+      <td class="de">Ich hasse mich dafür, dich zu lieben</td>
+      <td class="fr">Je me déteste de t’aimer</td>
+      <td class="es">Me odio por amarte</td>
+      <td class="it">Mi odio per amarti</td>
+      <td class="ru">Я ненавижу себя за любовь к тебе</td>
+      <td class="cz">Nesnáším se za to, že tě miluji</td>
+      <td class="pl">Nienawidzę siebie za kochanie Ciebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛪️</td>
+      <td class="en">I have forgiven Jesus</td>
+      <td class="nl">Ik heb Jezus vergeven</td>
+      <td class="de">Ich habe Jesus vergeben</td>
+      <td class="fr">J’ai pardonné à Jésus</td>
+      <td class="es">He perdonado a jesus</td>
+      <td class="it">Ho perdonato Gesù</td>
+      <td class="ru">Я простил Иисуса</td>
+      <td class="cz">Ježíši jsem odpustil</td>
+      <td class="pl">Wybaczyłem Jezusowi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😤</td>
+      <td class="en">I just don’t know what to do with myself</td>
+      <td class="nl">Ik weet gewoon niet wat ik met mezelf aan moet</td>
+      <td class="de">Ich weiß einfach nicht, was ich mit mir anfangen soll</td>
+      <td class="fr">Je ne sais pas quoi faire de moi</td>
+      <td class="es">Simplemente no sé qué hacer conmigo mismo</td>
+      <td class="it">Non so proprio cosa fare di me stesso</td>
+      <td class="ru">Я просто не знаю, что делать с собой</td>
+      <td class="cz">prostě nevím co se sebou</td>
+      <td class="pl">Po prostu nie wiem, co ze sobą zrobić</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔍</td>
+      <td class="en">I still haven’t found what I’m looking for</td>
+      <td class="nl">Ik heb nog steeds niet gevonden wat ik zoek</td>
+      <td class="de">Ich habe immer noch nicht gefunden, was ich suche</td>
+      <td class="fr">Je n’ai toujours pas trouvé ce que je cherche</td>
+      <td class="es">aun no he encontrado lo que busco</td>
+      <td class="it">Non ho ancora trovato quello che sto cercando</td>
+      <td class="ru">Я до сих пор не нашел то, что ищу</td>
+      <td class="cz">Stále jsem nenašel, co hledám</td>
+      <td class="pl">Nadal nie znalazłem tego, czego szukam</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👩‍❤️‍💋‍👩</td>
+      <td class="en">I think we’re alone now</td>
+      <td class="nl">Ik denk dat we nu alleen zijn</td>
+      <td class="de">Ich denke wir sind jetzt alleine</td>
+      <td class="fr">Je pense que nous sommes seuls maintenant</td>
+      <td class="es">Creo que estamos solos ahora</td>
+      <td class="it">Penso che siamo soli ora</td>
+      <td class="ru">Я думаю, что мы сейчас одни</td>
+      <td class="cz">Myslím, že jsme teď sami</td>
+      <td class="pl">Myślę, że jesteśmy teraz sami</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👇</td>
+      <td class="en">I touch myself</td>
+      <td class="nl">Ik raak mezelf aan</td>
+      <td class="de">Ich berühre mich selbst</td>
+      <td class="fr">Je me touche</td>
+      <td class="es">Yo me toco a mi mismo</td>
+      <td class="it">Mi tocco</td>
+      <td class="ru">Я себя трогаю</td>
+      <td class="cz">Dotýkám se sebe</td>
+      <td class="pl">Dotykam się</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚶‍♂️</td>
+      <td class="en">I walk the line</td>
+      <td class="nl">Ik loop langs de lijn</td>
+      <td class="de">Ich bleibe auf dem rechten Weg</td>
+      <td class="fr">je marche sur la ligne</td>
+      <td class="es">Camino la linea</td>
+      <td class="it">Cammino sulla linea</td>
+      <td class="ru">Я иду по линии</td>
+      <td class="cz">Jdu po linii</td>
+      <td class="pl">Idę po linie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💓</td>
+      <td class="en">I want to know what love is</td>
+      <td class="nl">Ik wil weten wat liefde is</td>
+      <td class="de">Ich möchte wissen, was Liebe ist</td>
+      <td class="fr">Je veux savoir ce qu’est l’amour</td>
+      <td class="es">Quiero saber lo que es el amor</td>
+      <td class="it">Voglio sapere cos’è l’amore</td>
+      <td class="ru">Я хочу знать, что такое любовь</td>
+      <td class="cz">Chci vědět co je láska</td>
+      <td class="pl">Chcę wiedzieć czym jest miłość</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😍</td>
+      <td class="en">I will always love you</td>
+      <td class="nl">Ik zal altijd van je blijven houden</td>
+      <td class="de">Ich werde dich immer lieben</td>
+      <td class="fr">Je vous aimerai toujours</td>
+      <td class="es">Siempre te querré</td>
+      <td class="it">Lo ti amerò per sempre</td>
+      <td class="ru">Я всегда буду любить тебя</td>
+      <td class="cz">Vždy tě budu milovat</td>
+      <td class="pl">Zawsze będę cię kochał</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤪</td>
+      <td class="en">I wouldn’t normally do this kind of thing</td>
+      <td class="nl">Normaal gesproken zou ik dit soort dingen niet doen</td>
+      <td class="de">Normalerweise würde ich so etwas nicht tun</td>
+      <td class="fr">Normalement je ne ferais pas ce genre de chose</td>
+      <td class="es">Normalmente no haría este tipo de cosas</td>
+      <td class="it">Normalmente non farei questo genere di cose</td>
+      <td class="ru">обычно я бы не стал делать такие вещи</td>
+      <td class="cz">Normálně bych takovou věc nedělal</td>
+      <td class="pl">Normalnie nie zrobiłbym czegoś takiego</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☺️</td>
+      <td class="en">I’ll be there for you</td>
+      <td class="nl">Ik zal er voor je zijn</td>
+      <td class="de">Ich werde für dich da sein</td>
+      <td class="fr">Je serai là pour vous</td>
+      <td class="es">Ahí estaré para ti</td>
+      <td class="it">Sarò lì per te</td>
+      <td class="ru">Я буду рядом с тобой</td>
+      <td class="cz">Budu tady pro tebe</td>
+      <td class="pl">Będę tam dla Ciebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😴</td>
+      <td class="en">I’ll sleep when I’m dead</td>
+      <td class="nl">Ik zal slapen wanneer ik dood ben</td>
+      <td class="de">Ich schlafe wenn ich tot bin</td>
+      <td class="fr">Je dormirai quand je serai mort</td>
+      <td class="es">Dormiré cuando esté muerto</td>
+      <td class="it">Dormirò quando sarò morto</td>
+      <td class="ru">Высплюсь на том свете</td>
+      <td class="cz">Budu spát, až budu mrtvý</td>
+      <td class="pl">Wyśpię się po śmierci</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍑</td>
+      <td class="en">I’m too sexy</td>
+      <td class="nl">Ik ben te sexy</td>
+      <td class="de">Ich bin zu sexy</td>
+      <td class="fr">je suis trop sexy</td>
+      <td class="es">Soy demasiado sexy</td>
+      <td class="it">Sono troppo sexy</td>
+      <td class="ru">Я слишком сексуален</td>
+      <td class="cz">jsem příliš sexy</td>
+      <td class="pl">Jestem zbyt seksowny</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕙</td>
+      <td class="en">If I could turn back time</td>
+      <td class="nl">Als ik de tijd kon terugdraaien</td>
+      <td class="de">Wenn ich die Zeit zurückdrehen könnte</td>
+      <td class="fr">Si je pouvais remonter le temps</td>
+      <td class="es">Si pudiera regresar el tiempo</td>
+      <td class="it">Se potessi tornare indietro nel tempo</td>
+      <td class="ru">Если бы время можно повернуть вспять</td>
+      <td class="cz">Kdybych mohl vrátit čas</td>
+      <td class="pl">Gdybym mógł cofnąć czas</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙏</td>
+      <td class="en">If I ever lose my faith in you</td>
+      <td class="nl">Als ik ooit mijn vertrouwen in jou verlies</td>
+      <td class="de">Wenn ich jemals mein Vertrauen in dich verliere</td>
+      <td class="fr">Si jamais je perds ma foi en toi</td>
+      <td class="es">Si alguna vez pierdo mi fe en ti</td>
+      <td class="it">Se mai dovessi perdere la mia fede in te</td>
+      <td class="ru">Если я когда-нибудь потеряю веру в тебя</td>
+      <td class="cz">Jestli v tebe někdy ztratím víru</td>
+      <td class="pl">Jeśli kiedykolwiek stracę wiarę w ciebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💵</td>
+      <td class="en">If I had a million dollars</td>
+      <td class="nl">Als ik een miljoen dollar had</td>
+      <td class="de">Wenn ich eine Million Dollar hätte</td>
+      <td class="fr">Si j’avais un million de dollars</td>
+      <td class="es">Si tuviera un millón de dólares</td>
+      <td class="it">Se avessi un milione di dollari</td>
+      <td class="ru">Если бы у меня был миллион долларов</td>
+      <td class="cz">Kdybych měl milion dolarů</td>
+      <td class="pl">Gdybym miał milion dolarów</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤰</td>
+      <td class="en">If I was your mother</td>
+      <td class="nl">Als ik je moeder was</td>
+      <td class="de">Wenn ich deine Mutter wäre</td>
+      <td class="fr">Si j’étais ta mère</td>
+      <td class="es">Si yo fuera tu madre</td>
+      <td class="it">Se fossi tua madre</td>
+      <td class="ru">Если бы я была твоей матерью</td>
+      <td class="cz">Kdybych byla tvoje matka</td>
+      <td class="pl">Gdybym była twoją matką</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔮</td>
+      <td class="en">If you could read my mind</td>
+      <td class="nl">Als je mijn gedachten kon lezen</td>
+      <td class="de">Wenn du meine Gedanken lesen könntest</td>
+      <td class="fr">Si vous pouviez lire mon esprit</td>
+      <td class="es">Si pudieras leer mi mente</td>
+      <td class="it">Se potessi leggere la mia mente</td>
+      <td class="ru">Если бы вы могли читать мои мысли</td>
+      <td class="cz">Kdybys mi mohl číst myšlenky</td>
+      <td class="pl">Jeśli mógłbyś czytać mi w myślach</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕊</td>
+      <td class="en">If you love somebody set them free</td>
+      <td class="nl">Als je van iemand houdt, laat hem dan vrij</td>
+      <td class="de">Wenn du jemanden liebst, dann lass ihn frei</td>
+      <td class="fr">Si vous aimez quelqu’un, libérez-le</td>
+      <td class="es">Si amas a alguien déjalo libre</td>
+      <td class="it">Se ami qualcuno lascialo libero</td>
+      <td class="ru">Если вы любите кого-то, освободите их</td>
+      <td class="cz">Pokud někoho miluješ, dej mu svobodu</td>
+      <td class="pl">Jeśli kogoś kochasz uwolnij go</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☠️</td>
+      <td class="en">Invaders must die</td>
+      <td class="nl">Indringers moeten dood</td>
+      <td class="de">Eindringlinge müssen sterben</td>
+      <td class="fr">Les envahisseurs doivent mourir</td>
+      <td class="es">Los invasores deben morir</td>
+      <td class="it">Gli invasori devono morire</td>
+      <td class="ru">Завоеватели должны умереть</td>
+      <td class="cz">Útočníci musí zemřít</td>
+      <td class="pl">Najeźdźcy muszą umrzeć</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🇮🇪</td>
+      <td class="en">Irish blood, English heart</td>
+      <td class="nl">Iers bloed, Engels hart</td>
+      <td class="de">Irisches Blut, englisches Herz</td>
+      <td class="fr">Sang irlandais, cœur anglais</td>
+      <td class="es">Sangre irlandesa, corazón inglés</td>
+      <td class="it">Sangue irlandese, cuore inglese</td>
+      <td class="ru">Ирландская кровь, английское сердце</td>
+      <td class="cz">Irská krev, anglické srdce</td>
+      <td class="pl">Irlandzka krew, angielskie serce</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❓</td>
+      <td class="en">Is there something I should know?</td>
+      <td class="nl">Is er iets dat ik moet weten?</td>
+      <td class="de">Gibt es etwas, das ich wissen sollte?</td>
+      <td class="fr">Y a-t-il quelque chose que je devrais savoir ?</td>
+      <td class="es">¿Hay algo que deba saber?</td>
+      <td class="it">C’è qualcosa che dovrei sapere?</td>
+      <td class="ru">Есть что-то, что я должен знать?</td>
+      <td class="cz">Je něco, co bych měl vědět?</td>
+      <td class="pl">Czy jest coś, co powinienem wiedzieć?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💨</td>
+      <td class="en">It can’t come quickly enough</td>
+      <td class="nl">Het kan niet snel genoeg komen</td>
+      <td class="de">Es kann nicht schnell genug kommen</td>
+      <td class="fr">Ça ne peut pas venir assez vite</td>
+      <td class="es">No puede llegar lo suficientemente rápido</td>
+      <td class="it">Non può arrivare abbastanza velocemente</td>
+      <td class="ru">Это не может произойти достаточно быстро</td>
+      <td class="cz">Nemůže to přijít dostatečně rychle</td>
+      <td class="pl">Nie może nadejść wystarczająco szybko</td>
+    </tr>
+		<tr class="code">
+			<td class="thing">🤯</td>
+			<td class="en">It's the end of the world as we know it, and I feel fine</td>
+			<td class="nl">Het is het einde van de wereld zoals wij die kennen, en ik voel me prima</td>
+			<td class="de">Es ist das Ende der Welt, wie wir sie kennen, und mir geht es gut</td>
+			<td class="fr">C'est la fin du monde tel que nous le connaissons, et je me sens bien</td>
+			<td class="es">Es el fin del mundo tal como lo conocemos, y me siento bien</td>
+			<td class="it">È la fine del mondo come lo conosciamo e mi sento bene</td>
+			<td class="ru">Это конец света, каким мы его знаем, и я чувствую себя прекрасно</td>
+			<td class="cz">Je to konec světa, jak ho známe, a já se cítím dobře</td>
+			<td class="pl">To koniec świata, jaki znamy, i czuję się dobrze</td>
+		</tr>
+    <tr class="code">
+      <td class="thing">💘</td>
+      <td class="en">It’s true that we love one another</td>
+      <td class="nl">Het is waar dat we van elkaar houden</td>
+      <td class="de">Es ist wahr, dass wir uns lieben</td>
+      <td class="fr">C’est vrai qu’on s’aime</td>
+      <td class="es">Es verdad que nos amamos</td>
+      <td class="it">È vero che ci amiamo</td>
+      <td class="ru">Это правда, что мы любим друг друга</td>
+      <td class="cz">Je pravda, že se milujeme</td>
+      <td class="pl">To prawda, że się kochamy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛋</td>
+      <td class="en">Italian leather sofa</td>
+      <td class="nl">Italiaanse leren bank</td>
+      <td class="de">Italienisches Ledersofa</td>
+      <td class="fr">Canapé en cuir italien</td>
+      <td class="es">Sofá de cuero italiano</td>
+      <td class="it">Divano in pelle italiana</td>
+      <td class="ru">Итальянский кожаный диван</td>
+      <td class="cz">Italská kožená pohovka</td>
+      <td class="pl">Włoska skórzana sofa</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👫</td>
+      <td class="en">Jenny was a friend of mine</td>
+      <td class="nl">Jenny was een vriendin van mij</td>
+      <td class="de">Jenny war eine Freundin von mir</td>
+      <td class="fr">Jenny était une de mes amies</td>
+      <td class="es">Jenny era amiga mia</td>
+      <td class="it">Jenny era una mia amica</td>
+      <td class="ru">Дженни была моей подругой</td>
+      <td class="cz">Jenny byla moje kamarádka</td>
+      <td class="pl">Jenny była moją przyjaciółką</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛪️</td>
+      <td class="en">Jesus of suburbia</td>
+      <td class="nl">Jezus van suburbia</td>
+      <td class="de">Jesus der Vorstadt</td>
+      <td class="fr">Jesus de banlieue</td>
+      <td class="es">Jesús de los suburbios</td>
+      <td class="it">Gesù di periferia</td>
+      <td class="ru">Иисус из пригорода</td>
+      <td class="cz">Ježíš z předměstí</td>
+      <td class="pl">Jezus z przedmieścia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😘</td>
+      <td class="en">Kiss them for me</td>
+      <td class="nl">Kus ze voor me</td>
+      <td class="de">Küsse sie für mich</td>
+      <td class="fr">Embrasse-les pour moi</td>
+      <td class="es">Bésalos por mí</td>
+      <td class="it">Baciali per me</td>
+      <td class="ru">Поцелуй их для меня</td>
+      <td class="cz">Polib je za mě</td>
+      <td class="pl">Pocałuj je ode mnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚪</td>
+      <td class="en">Knocking on heaven’s door</td>
+      <td class="nl">Kloppen op de deur van de hemel</td>
+      <td class="de">Am Himmelstor klopfen</td>
+      <td class="fr">Frapper à la porte du paradis</td>
+      <td class="es">Llamando a la puerta del cielo</td>
+      <td class="it">Bussare alla porta del paradiso</td>
+      <td class="ru">Достучаться до небес</td>
+      <td class="cz">Klepat na nebeskou bránu</td>
+      <td class="pl">Pukanie do bram niebios</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙄</td>
+      <td class="en">Knowing me, knowing you</td>
+      <td class="nl">Mij kennen, jou kennen</td>
+      <td class="de">Mich kennen, dich kennen</td>
+      <td class="fr">Me connaissant, te connaissant</td>
+      <td class="es">Conociéndome, conociéndote</td>
+      <td class="it">Conoscendomi, conoscendoti</td>
+      <td class="ru">Зная меня, зная тебя</td>
+      <td class="cz">Znám sebe, znám tebe</td>
+      <td class="pl">Znając mnie, znając ciebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💭</td>
+      <td class="en">Last night I dreamed that somebody loved me</td>
+      <td class="nl">Vannacht droomde ik dat iemand van me hield</td>
+      <td class="de">Letzte Nacht habe ich geträumt, dass mich jemand liebt</td>
+      <td class="fr">La nuit dernière j’ai rêvé que quelqu’un m’aimait</td>
+      <td class="es">Anoche soñé que alguien me amaba</td>
+      <td class="it">La scorsa notte ho sognato che qualcuno mi amava</td>
+      <td class="ru">Прошлой ночью мне приснилось, что кто-то любит меня</td>
+      <td class="cz">Včera v noci se mi zdálo, že mě někdo miluje</td>
+      <td class="pl">Zeszłej nocy śniło mi się, że ktoś mnie kocha</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙌</td>
+      <td class="en">Lay your hands on me</td>
+      <td class="nl">Leg je handen op mij</td>
+      <td class="de">Lege deine Hände auf mich</td>
+      <td class="fr">Pose tes mains sur moi</td>
+      <td class="es">Pon tus manos en mi</td>
+      <td class="it">Metti le tue mani su di me</td>
+      <td class="ru">Возложи на меня руки</td>
+      <td class="cz">Polož na mě ruce</td>
+      <td class="pl">Połóż na mnie ręce</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎙</td>
+      <td class="en">Let me entertain you</td>
+      <td class="nl">Laat me je vermaken</td>
+      <td class="de">Lasst mich euch unterhalten</td>
+      <td class="fr">Laissez-moi vous divertir</td>
+      <td class="es">Déjame entretenerte</td>
+      <td class="it">Lascia che ti intrattenga</td>
+      <td class="ru">Позволь мне развлечь тебя</td>
+      <td class="cz">Nech mě tě zabavit</td>
+      <td class="pl">Pozwól mi cię zabawić</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💸</td>
+      <td class="en">Life for rent</td>
+      <td class="nl">Leven te huur</td>
+      <td class="de">Leben zur Miete</td>
+      <td class="fr">Vie à louer</td>
+      <td class="es">Vida en alquiler</td>
+      <td class="it">Vita in affitto</td>
+      <td class="ru">Жизнь в аренду</td>
+      <td class="cz">Život k pronájmu</td>
+      <td class="pl">Życie do wynajęcia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🪨</td>
+      <td class="en">Like a rolling stone</td>
+      <td class="nl">Als een rollende steen</td>
+      <td class="de">Wie ein rollender Stein</td>
+      <td class="fr">Comme une pierre qui roule</td>
+      <td class="es">Como una piedra rodante</td>
+      <td class="it">Come una pietra rotolante</td>
+      <td class="ru">Как катящийся камень</td>
+      <td class="cz">Jako valící se kámen</td>
+      <td class="pl">Jak toczący się kamień</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👂</td>
+      <td class="en">Listen to your heart</td>
+      <td class="nl">Luister naar je hart</td>
+      <td class="de">Hör auf dein Herz</td>
+      <td class="fr">Écoutez votre cœur</td>
+      <td class="es">Escucha a tu corazón</td>
+      <td class="it">Ascolta il tuo cuore</td>
+      <td class="ru">Слушай свое сердце</td>
+      <td class="cz">Naslouchej svému srdci</td>
+      <td class="pl">Posłuchaj swojego serca</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☠️</td>
+      <td class="en">Live and let die</td>
+      <td class="nl">Leef en laat sterven</td>
+      <td class="de">Leben und Sterben lassen</td>
+      <td class="fr">Vivre et laisser mourir</td>
+      <td class="es">Vive y deja morir</td>
+      <td class="it">Vivi e lascia morire</td>
+      <td class="ru">Живи и дай умереть</td>
+      <td class="cz">Žij a nech zemřít</td>
+      <td class="pl">Żyj i pozwól umrzeć</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🇬🇧</td>
+      <td class="en">London calling</td>
+      <td class="nl">Londen belt</td>
+      <td class="de">London ruft</td>
+      <td class="fr">Londres appelle</td>
+      <td class="es">Londres llamando</td>
+      <td class="it">Londra chiama</td>
+      <td class="ru">Лондон зовет</td>
+      <td class="cz">Volání Londýna</td>
+      <td class="pl">Londyn dzwoni</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙏</td>
+      <td class="en">Losing my religion</td>
+      <td class="nl">Mijn religie verliezen</td>
+      <td class="de">Meine Religion geht verloren</td>
+      <td class="fr">Perte de ma religion</td>
+      <td class="es">Perdiendo mi religión</td>
+      <td class="it">Perdendo la mia fede</td>
+      <td class="ru">Теряю свою веру</td>
+      <td class="cz">Ztrácím víru</td>
+      <td class="pl">Utrata mojej religii</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛗</td>
+      <td class="en">Love in an elevator</td>
+      <td class="nl">Liefde in een lift</td>
+      <td class="de">Liebe in einem Fahrstuhl</td>
+      <td class="fr">L’amour dans un ascenseur</td>
+      <td class="es">Amor en un ascensor</td>
+      <td class="it">Amore in ascensore</td>
+      <td class="ru">Любовь в лифте</td>
+      <td class="cz">Láska ve výtahu</td>
+      <td class="pl">Miłość w windzie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎩</td>
+      <td class="en">Love is a bourgeois construct</td>
+      <td class="nl">Liefde is een burgerlijke constructie</td>
+      <td class="de">Liebe ist ein bürgerliches Konstrukt</td>
+      <td class="fr">L’amour est une construction bourgeoise</td>
+      <td class="es">El amor es una construcción burguesa</td>
+      <td class="it">L’amore è un costrutto borghese</td>
+      <td class="ru">Любовь - это буржуазная конструкция</td>
+      <td class="cz">Láska je buržoazní konstrukt</td>
+      <td class="pl">Miłość jest tworem burżuazji</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏚</td>
+      <td class="en">Love shack</td>
+      <td class="nl">Liefdesnest</td>
+      <td class="de">Liebesnest</td>
+      <td class="fr">Cabane d’amour</td>
+      <td class="es">Choza de amor</td>
+      <td class="it">Baracca dell’amore</td>
+      <td class="ru">Хижина любви</td>
+      <td class="cz">Chatrč lásky</td>
+      <td class="pl">Chata miłości</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💔</td>
+      <td class="en">Love will tear us apart</td>
+      <td class="nl">Liefde drijft ons uiteen</td>
+      <td class="de">Liebe wird uns auseinander reißen</td>
+      <td class="fr">L’amour nous déchirera</td>
+      <td class="es">El amor nos desgarrará</td>
+      <td class="it">L’amore ci farà a pezzi</td>
+      <td class="ru">Любовь разорвет нас на части</td>
+      <td class="cz">Láska nás rozdělí</td>
+      <td class="pl">Miłość nas rozdzieli</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💍</td>
+      <td class="en">Lucy in the sky with diamonds</td>
+      <td class="nl">Lucy in de lucht met diamanten</td>
+      <td class="de">Lucy im Himmel mit diamanten</td>
+      <td class="fr">Lucie dans le ciel avec des diamants</td>
+      <td class="es">Lucy en el cielo con diamantes</td>
+      <td class="it">Lucy nel cielo con i diamanti</td>
+      <td class="ru">Люси в небесах с алмазами</td>
+      <td class="cz">Lucy na obloze s diamanty</td>
+      <td class="pl">Lucy na niebie z diamentami</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤑</td>
+      <td class="en">Money for nothing</td>
+      <td class="nl">Geld voor niets</td>
+      <td class="de">Geld für nichts</td>
+      <td class="fr">De l’argent pour rien</td>
+      <td class="es">Dinero para nada</td>
+      <td class="it">Denaro per niente</td>
+      <td class="ru">Деньги ни за что</td>
+      <td class="cz">Peníze za nic</td>
+      <td class="pl">Pieniądze za nic</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛌</td>
+      <td class="en">Need you tonight</td>
+      <td class="nl">Ik heb je vanavond nodig</td>
+      <td class="de">Brauche dich heute Abend</td>
+      <td class="fr">Besoin de toi ce soir</td>
+      <td class="es">Te necesito esta noche</td>
+      <td class="it">Ho bisogno di te stanotte</td>
+      <td class="ru">Ты нужен сегодня вечером</td>
+      <td class="cz">Potřebuji tě dnes večer</td>
+      <td class="pl">Potrzebuję Cię wieczorem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👨🏻‍🦰</td>
+      <td class="en"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Never gonna give you up</a></td>
+      <td class="nl"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Je nooit opgeven</a></td>
+      <td class="de"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ich werde dich niemals aufgeben</a></td>
+      <td class="fr"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ne va jamais vous abandonner</a></td>
+      <td class="es"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nunca voy a abandonarte</a></td>
+      <td class="it"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Non ti arrenderò mai</a></td>
+      <td class="ru"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Никогда не отдам тебя</a></td>
+      <td class="cz"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nikdy se tě nevzdám</a></td>
+      <td class="pl"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nigdy nie zamierzam z ciebie zrezygnować</a></td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤗</td>
+      <td class="en">Never let me go</td>
+      <td class="nl">Laat me nooit meer gaan</td>
+      <td class="de">Lass mich niemals gehen</td>
+      <td class="fr">Ne me laisse jamais partir</td>
+      <td class="es">Nunca me dejes ir</td>
+      <td class="it">Non lasciarmi mai andare</td>
+      <td class="ru">Никогда не отпускай меня</td>
+      <td class="cz">Nikdy mě nenech odejít</td>
+      <td class="pl">Nigdy nie pozwól mi odejść</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💔</td>
+      <td class="en">Never tear us apart</td>
+      <td class="nl">Haal ons nooit uit elkaar</td>
+      <td class="de">Zerreiße uns niemals</td>
+      <td class="fr">Jamais nous separe</td>
+      <td class="es">Nunca nos separes</td>
+      <td class="it">Non ci dividerà</td>
+      <td class="ru">Никогда не разлучит нас</td>
+      <td class="cz">Nikdy nás neroztrhejte</td>
+      <td class="pl">Nigdy nas nie rozdzielaj</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🫣</td>
+      <td class="en">Never there</td>
+      <td class="nl">Nooit daar</td>
+      <td class="de">Niemals dort</td>
+      <td class="fr">Jamais là</td>
+      <td class="es">Nunca ahí</td>
+      <td class="it">Mai lì</td>
+      <td class="ru">Никогда там</td>
+      <td class="cz">Nikdy tam</td>
+      <td class="pl">Nigdy tam</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏊‍♂️</td>
+      <td class="en">Night swimming</td>
+      <td class="nl">Nachtzwemmen</td>
+      <td class="de">Nachtschwimmen</td>
+      <td class="fr">Baignade de nuit</td>
+      <td class="es">Natación nocturna</td>
+      <td class="it">Nuoto notturno</td>
+      <td class="ru">Ночное плавание</td>
+      <td class="cz">Noční plavání</td>
+      <td class="pl">Nocne pływanie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">9️⃣</td>
+      <td class="en">Ninety nine problems</td>
+      <td class="nl">Negenennegentig problemen</td>
+      <td class="de">Neunundneunzig Probleme</td>
+      <td class="fr">Quatre-vingt-dix-neuf problèmes</td>
+      <td class="es">Noventa y nueve problemas</td>
+      <td class="it">Novantanove problemi</td>
+      <td class="ru">Девяносто девять проблем</td>
+      <td class="cz">Devadesát devět problémů</td>
+      <td class="pl">Dziewięćdziesiąt dziewięć problemów</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😘</td>
+      <td class="en">No more I love yous</td>
+      <td class="nl">Geen ik hou van jou’s meer</td>
+      <td class="de">Ich liebe dich nicht mehr</td>
+      <td class="fr">Plus de je t’aime</td>
+      <td class="es">Ningún "Te quiero" más</td>
+      <td class="it">Non più ti amo</td>
+      <td class="ru">Я больше не люблю тебя</td>
+      <td class="cz">Už ne, miluji tě</td>
+      <td class="pl">Żadnych "Kocham Cię</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎶</td>
+      <td class="en">No more sweet music</td>
+      <td class="nl">Geen zoete muziek meer</td>
+      <td class="de">Keine süße Musik mehr</td>
+      <td class="fr">Plus de musique douce</td>
+      <td class="es">No más música dulce</td>
+      <td class="it">Niente più dolce musica</td>
+      <td class="ru">Нет больше сладкой музыки</td>
+      <td class="cz">Už žádná sladká hudba</td>
+      <td class="pl">Nigdy więcej słodkiej muzyki</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌧</td>
+      <td class="en">No rain</td>
+      <td class="nl">Geen regen</td>
+      <td class="de">Kein Regen</td>
+      <td class="fr">Pas de pluie</td>
+      <td class="es">No llueve</td>
+      <td class="it">Niente pioggia</td>
+      <td class="ru">Дождя нет</td>
+      <td class="cz">Žádný déšť</td>
+      <td class="pl">Nie ma deszczu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😬</td>
+      <td class="en">Nobody’s fault but mine</td>
+      <td class="nl">Niemands schuld behalve de mijne</td>
+      <td class="de">Allein meine Schuld</td>
+      <td class="fr">Personne n’est la faute mais la mienne</td>
+      <td class="es">La culpa es solo mia</td>
+      <td class="it">Non è colpa di nessuno, ma mia</td>
+      <td class="ru">Никто не виноват, кроме меня</td>
+      <td class="cz">Nikdo za to nemůže, jen já</td>
+      <td class="pl">Niczyja wina, tylko moja</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕯</td>
+      <td class="en">Nothing else matters</td>
+      <td class="nl">Niets anders doet ertoe</td>
+      <td class="de">Das ist alles, was zählt</td>
+      <td class="fr">Rien d’autre ne compte</td>
+      <td class="es">Nada más importa</td>
+      <td class="it">Non importa nient’altro</td>
+      <td class="ru">Остальное не важно</td>
+      <td class="cz">Na ničem jiném nezáleží</td>
+      <td class="pl">Nie ma niczego ważniejszego</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔀</td>
+      <td class="en">One way or another</td>
+      <td class="nl">Op een of andere manier</td>
+      <td class="de">In gewisser Weise</td>
+      <td class="fr">D’une façon ou d’une autre</td>
+      <td class="es">De una manera u otra</td>
+      <td class="it">In un modo o nell’altro</td>
+      <td class="ru">Так или иначе</td>
+      <td class="cz">Tak či onak</td>
+      <td class="pl">Tak, czy inaczej</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌙</td>
+      <td class="en">Only if for a night</td>
+      <td class="nl">Alleen als het voor een nacht is</td>
+      <td class="de">Nur für eine Nacht</td>
+      <td class="fr">Seulement si c’est pour une nuit</td>
+      <td class="es">Solo si es por una noche</td>
+      <td class="it">Solo se per una notte</td>
+      <td class="ru">Только если на ночь</td>
+      <td class="cz">Jen kdyby na noc</td>
+      <td class="pl">Tylko jeśli na noc</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤪</td>
+      <td class="en">Oops I did it again</td>
+      <td class="nl">Oeps ik deed het opnieuw</td>
+      <td class="de">Ups, ich habe es wieder getan</td>
+      <td class="fr">Oups je l’ai encore fait</td>
+      <td class="es">Ups lo hice de nuevo</td>
+      <td class="it">Ops l’ho fatto di nuovo</td>
+      <td class="ru">К сожалению я сделал это снова</td>
+      <td class="cz">No ne, udělal jsem to znovu</td>
+      <td class="pl">Ups znowu to zrobiłem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌊</td>
+      <td class="en">Pain lies on the riverside</td>
+      <td class="nl">Pijn ligt aan de rivierzijd</td>
+      <td class="de">Der Schmerz liegt am Flussufer</td>
+      <td class="fr">La douleur se trouve au bord de la rivière</td>
+      <td class="es">El dolor yace en la orilla del río</td>
+      <td class="it">Il dolore giace sulla riva del fiume</td>
+      <td class="ru">Боль лежит на берегу реки</td>
+      <td class="cz">Bolest leží na břehu řeky</td>
+      <td class="pl">Ból leży na brzegu rzeki</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌆</td>
+      <td class="en">Paradise city</td>
+      <td class="nl">Paradijselijke stad</td>
+      <td class="de">Paradies-Stadt</td>
+      <td class="fr">Ville du paradis</td>
+      <td class="es">Ciudad Paraiso</td>
+      <td class="it">Città paradiso</td>
+      <td class="ru">Райский город</td>
+      <td class="cz">Rajské město</td>
+      <td class="pl">Miasto raj</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤔</td>
+      <td class="en">Perhaps perhaps perhaps</td>
+      <td class="nl">Misschien, misschien, misschien</td>
+      <td class="de">Vielleicht vielleicht vielleicht</td>
+      <td class="fr">Peut-être, peut-être, peut-être</td>
+      <td class="es">Quizás quizás quizás</td>
+      <td class="it">Forse forse forse</td>
+      <td class="ru">Возможно, возможно, возможно</td>
+      <td class="cz">Možná možná možná</td>
+      <td class="pl">Może może może</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛪️</td>
+      <td class="en">Personal Jesus</td>
+      <td class="nl">Persoonlijke Jezus</td>
+      <td class="de">Persöhnlicher Jesus</td>
+      <td class="fr">Jésus personnel</td>
+      <td class="es">Jesús personal</td>
+      <td class="it">Gesù personale</td>
+      <td class="ru">Персональный Иисус</td>
+      <td class="cz">Osobní Ježíš</td>
+      <td class="pl">Osobisty Jezus</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😡</td>
+      <td class="en">Pretty hate machine</td>
+      <td class="nl">Mooie haatmachine</td>
+      <td class="de">Hübsche Hassmaschine</td>
+      <td class="fr">Jolie machine à détester</td>
+      <td class="es">Bonita máquina de odio</td>
+      <td class="it">Bella macchina dell’odio</td>
+      <td class="ru">Довольно ненавистная машина</td>
+      <td class="cz">Docela nenávistný stroj</td>
+      <td class="pl">Niezła maszyna nienawiści</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍷</td>
+      <td class="en">Red red wine</td>
+      <td class="nl">Rode rode wijn</td>
+      <td class="de">Rot Rotwein</td>
+      <td class="fr">Du vin trés rouge</td>
+      <td class="es">Vino rojo rojo</td>
+      <td class="it">Vino rosso rosso</td>
+      <td class="ru">Красное красное вино</td>
+      <td class="cz">Červené červené víno</td>
+      <td class="pl">Czerwone czerwone wino</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⏱</td>
+      <td class="en">Right here, right now</td>
+      <td class="nl">Hier en nu</td>
+      <td class="de">Genau hier, genau jetzt</td>
+      <td class="fr">Ici, maintenant</td>
+      <td class="es">Aquí y ahora</td>
+      <td class="it">Proprio qui, proprio ora</td>
+      <td class="ru">Здесь и сейчас</td>
+      <td class="cz">Tady právě teď</td>
+      <td class="pl">Tu i teraz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏃‍♀️</td>
+      <td class="en">Running up that hill (a deal with god)</td>
+      <td class="nl">Die heuvel oprennen (een akkoord met god)</td>
+      <td class="de">Den Hügel hinauflaufen (ein Deal mit Gott)</td>
+      <td class="fr">Courir sur cette colline (un accord avec Dieu)</td>
+      <td class="es">Corriendo por esa colina (un trato con Dios)</td>
+      <td class="it">Correndo su quella collina (un patto con Dio)</td>
+      <td class="ru">Бег на этот холм (сделка с богом)</td>
+      <td class="cz">Běžet na ten kopec (dohoda s bohem)</td>
+      <td class="pl">Wbiegając na to wzgórze (umowa z bogiem)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏖</td>
+      <td class="en">Sand in my shoes</td>
+      <td class="nl">Zand in mijn schoenen</td>
+      <td class="de">Sand in meinen Schuhen</td>
+      <td class="fr">Sable dans mes chaussures</td>
+      <td class="es">Arena en mis zapatos</td>
+      <td class="it">Sabbia nelle mie scarpe</td>
+      <td class="ru">Песок в моих ботинках</td>
+      <td class="cz">Písek v mých botách</td>
+      <td class="pl">Piasek w moich butach</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👋</td>
+      <td class="en">Say goodbye to Hollywood</td>
+      <td class="nl">Zeg vaarwel tegen Hollywood</td>
+      <td class="de">Verabschieden Sie sich von Hollywood</td>
+      <td class="fr">Dites adieu à Hollywood</td>
+      <td class="es">Di adiós a Hollywood</td>
+      <td class="it">Dì addio a Hollywood</td>
+      <td class="ru">Попрощайтесь с Голливудом</td>
+      <td class="cz">Rozlučte se s Hollywoodem</td>
+      <td class="pl">Pożegnaj się z Hollywoodem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍝</td>
+      <td class="en">Scenes from an Italian restaurant</td>
+      <td class="nl">Scènes uit een Italiaans restaurant</td>
+      <td class="de">Szenen aus einem italienischen Restaurant</td>
+      <td class="fr">Scènes d’un restaurant italien</td>
+      <td class="es">Escenas de un restaurante italiano</td>
+      <td class="it">Scene da un ristorante italiano</td>
+      <td class="ru">Сцены из итальянского ресторана</td>
+      <td class="cz">Scény z italské restaurace</td>
+      <td class="pl">Sceny z włoskiej restauracji</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧓</td>
+      <td class="en">See you when you’re forty</td>
+      <td class="nl">Tot ziens als je veertig bent</td>
+      <td class="de">Wir sehen uns, wenn du vierzig bist</td>
+      <td class="fr">Rendez-vous quand vous aurez quarante ans</td>
+      <td class="es">Nos vemos cuando tengas cuarenta</td>
+      <td class="it">Ci vediamo quando avrai quarant’anni</td>
+      <td class="ru">Увидимся, когда тебе будет сорок</td>
+      <td class="cz">Uvidíme se ve čtyřiceti</td>
+      <td class="pl">Do zobaczenia po czterdziestce</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎭</td>
+      <td class="en">Selling the drama</td>
+      <td class="nl">Het drama verkopen</td>
+      <td class="de">Verkaufe das Drama</td>
+      <td class="fr">Vendre le drame</td>
+      <td class="es">vendiendo el teatro</td>
+      <td class="it">Vendere il dramma</td>
+      <td class="ru">Продажа драмы</td>
+      <td class="cz">Prodej dramatu</td>
+      <td class="pl">Sprzedam dramat</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🪟</td>
+      <td class="en">She came in through the bathroom window</td>
+      <td class="nl">Ze kwam binnen door het badkamerraam</td>
+      <td class="de">Sie kam durch das Badezimmerfenster herein</td>
+      <td class="fr">Elle est entrée par la fenêtre de la salle de bain</td>
+      <td class="es">Ella entró por la ventana del baño</td>
+      <td class="it">È entrata dalla finestra del bagno</td>
+      <td class="ru">Она вошла через окно в ванной</td>
+      <td class="cz">Vešla oknem do koupelny</td>
+      <td class="pl">Weszła przez okno łazienki</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤯</td>
+      <td class="en">She has lost control</td>
+      <td class="nl">Ze is de controle kwijt</td>
+      <td class="de">Sie hat die Kontrolle verloren</td>
+      <td class="fr">Elle a perdu le contrôle</td>
+      <td class="es">Ella ha perdido el control</td>
+      <td class="it">Ha perso il controllo</td>
+      <td class="ru">Она потеряла контроль</td>
+      <td class="cz">Ztratila kontrolu</td>
+      <td class="pl">Straciła kontrolę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👼</td>
+      <td class="en">She talks to angels</td>
+      <td class="nl">Ze praat met engelen</td>
+      <td class="de">Sie spricht mit Engeln</td>
+      <td class="fr">Elle parle aux anges</td>
+      <td class="es">Ella habla con los angeles</td>
+      <td class="it">Lei parla con gli angeli</td>
+      <td class="ru">Она разговаривает с ангелами</td>
+      <td class="cz">Mluví s anděly</td>
+      <td class="pl">Ona rozmawia z aniołami</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">↩️</td>
+      <td class="en">She’ll come back to me</td>
+      <td class="nl">Ze komt bij me terug</td>
+      <td class="de">Sie wird zu mir zurückkommen</td>
+      <td class="fr">Elle me reviendra</td>
+      <td class="es">Ella volverá a mí</td>
+      <td class="it">Tornerà da me</td>
+      <td class="ru">Она вернется ко мне</td>
+      <td class="cz">Vrátí se ke mně</td>
+      <td class="pl">Ona wróci do mnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💍</td>
+      <td class="en">Shine on your crazy diamond</td>
+      <td class="nl">Schijn op je gekke diamant</td>
+      <td class="de">Leuchten Sie mit Ihrem verrückten Diamanten</td>
+      <td class="fr">Briller sur votre diamant fou</td>
+      <td class="es">Brilla en tu diamante loco</td>
+      <td class="it">Brilla sul tuo pazzo diamante</td>
+      <td class="ru">Сияй на своем сумасшедшем бриллианте</td>
+      <td class="cz">Zář na tvém šíleném diamantu</td>
+      <td class="pl">Zabłyśnij swoim szalonym diamentem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😁</td>
+      <td class="en">Shiny happy people</td>
+      <td class="nl">Glanzende gelukkige mensen</td>
+      <td class="de">Strahlende fröhliche Leute</td>
+      <td class="fr">Gens heureux brillants</td>
+      <td class="es">Personas felices y brillantes</td>
+      <td class="it">Gente brillante e felice</td>
+      <td class="ru">Светящиеся от счастья люди</td>
+      <td class="cz">Zářiví šťastní lidé</td>
+      <td class="pl">Ludzie promieniujący szczęściem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛒</td>
+      <td class="en">Shoplifters of the world unite!</td>
+      <td class="nl">Winkeldieven van de wereld, verenigt u!</td>
+      <td class="de">Ladendiebe aller Welt, vereinigt euch!</td>
+      <td class="fr">Voleurs du monde, unissez-vous !</td>
+      <td class="es">Ladrones de tiendas del mundo, uníos!</td>
+      <td class="it">I taccheggiatori di tutto il mondo, unitevi!</td>
+      <td class="ru">Магазинные воришки всего мира, соединяйтесь!</td>
+      <td class="cz">Obchodníci z celého světa spojte se!</td>
+      <td class="pl">Złodzieje sklepowi z całego świata łączcie się!</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥰</td>
+      <td class="en">Since I’ve been loving you</td>
+      <td class="nl">Sinds ik van je hou</td>
+      <td class="de">Seit ich dich liebe</td>
+      <td class="fr">Depuis que je t’aime</td>
+      <td class="es">Desde que te amo</td>
+      <td class="it">Da quando mi sono innamorato di te</td>
+      <td class="ru">С тех пор как я полюбил тебя</td>
+      <td class="cz">Od té doby, co tě miluji</td>
+      <td class="pl">Odkąd Cię kocham</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥊</td>
+      <td class="en">Smack my bitch up</td>
+      <td class="nl">Smack mijn teef op</td>
+      <td class="de">Schlag meine Schlampe</td>
+      <td class="fr">Frappe ma chienne</td>
+      <td class="es">Golpea a mi perra</td>
+      <td class="it">Colpisci la mia cagna</td>
+      <td class="ru">Отшлепай мою суку</td>
+      <td class="cz">Smrkejte moji děvku</td>
+      <td class="pl">Pocałuj moją sukę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👃</td>
+      <td class="en">Smells like teen spirit</td>
+      <td class="nl">Ruikt naar pubermentaliteit</td>
+      <td class="de">Riecht nach Teenagergeist</td>
+      <td class="fr">Sent comme de l’esprit d’ados</td>
+      <td class="es">Huele a espíritu adolescente</td>
+      <td class="it">Puzza come lo spirito adolescenziale</td>
+      <td class="ru">Пахнет подростковым духом</td>
+      <td class="cz">Voní jako dospívající duch</td>
+      <td class="pl">Pachnie nastoletnim duchem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👒</td>
+      <td class="en">Smooth criminal</td>
+      <td class="nl">Gladjakker</td>
+      <td class="de">Aalglatter Gangster</td>
+      <td class="fr">Criminel lisse</td>
+      <td class="es">Criminal tranquilo</td>
+      <td class="it">Criminale liscio</td>
+      <td class="ru">Гладкий преступник</td>
+      <td class="cz">Hladký zločinec</td>
+      <td class="pl">Gładki przestępca</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📆</td>
+      <td class="en">Some days are better than others</td>
+      <td class="nl">Sommige dagen zijn beter dan andere</td>
+      <td class="de">Manche Tage sind besser als andere</td>
+      <td class="fr">Certains jours sont meilleurs que d’autres</td>
+      <td class="es">Algunos días son mejores que otros</td>
+      <td class="it">Alcuni giorni sono migliori di altri</td>
+      <td class="ru">Некоторые дни лучше, чем другие</td>
+      <td class="cz">Některé dny jsou lepší než jiné</td>
+      <td class="pl">Niektóre dni są lepsze niż inne</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🗣</td>
+      <td class="en">Somebody told me</td>
+      <td class="nl">Iemand vertelde me</td>
+      <td class="de">Jemand sagte mir</td>
+      <td class="fr">Quelqu’un m’a dit</td>
+      <td class="es">Alguien me dijo</td>
+      <td class="it">Qualcuno mi ha detto</td>
+      <td class="ru">Кто-то сказал мне</td>
+      <td class="cz">Někdo mi řekl</td>
+      <td class="pl">Ktoś mi powiedział</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🫤</td>
+      <td class="en">Someone else not me</td>
+      <td class="nl">Iemand anders niet ik</td>
+      <td class="de">Jemand anderes, nicht ich</td>
+      <td class="fr">Quelqu’un d’autre pas moi</td>
+      <td class="es">alguien mas no yo</td>
+      <td class="it">Qualcun altro non io</td>
+      <td class="ru">Кто-то другой, не я</td>
+      <td class="cz">Někdo jiný ne já</td>
+      <td class="pl">Ktoś inny, nie ja</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💬</td>
+      <td class="en">Something to talk about</td>
+      <td class="nl">Iets om over te praten</td>
+      <td class="de">Etwas, worüber man reden kann</td>
+      <td class="fr">Quelque chose a raconter</td>
+      <td class="es">Algo de que hablar</td>
+      <td class="it">Qualcosa di cui parlare</td>
+      <td class="ru">Есть о чем поговорить</td>
+      <td class="cz">Něco k povídání</td>
+      <td class="pl">Coś do rozmowy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😔</td>
+      <td class="en">Sometimes you can’t make it on your own</td>
+      <td class="nl">Soms red je het niet alleen</td>
+      <td class="de">Manchmal schafft man es nicht alleine</td>
+      <td class="fr">Parfois, vous ne pouvez pas le faire vous-même</td>
+      <td class="es">A veces no puedes hacerlo por tu cuenta</td>
+      <td class="it">A volte non puoi farcela da solo</td>
+      <td class="ru">Иногда вы не можете сделать это самостоятельно</td>
+      <td class="cz">Někdy to sami nezvládnete</td>
+      <td class="pl">Czasami nie możesz tego zrobić sam</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌱</td>
+      <td class="en">Sowing the seeds of love</td>
+      <td class="nl">De zaden van de liefde zaaien</td>
+      <td class="de">Die Saat der Liebe säen</td>
+      <td class="fr">Semer les graines de l’amour</td>
+      <td class="es">Sembrando las semillas del amor</td>
+      <td class="it">Seminando i semi dell’amore</td>
+      <td class="ru">Сея семена любви</td>
+      <td class="cz">Zasévání semínek lásky</td>
+      <td class="pl">Siać nasiona miłości</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛅️</td>
+      <td class="en">Stairway to heaven</td>
+      <td class="nl">Trap naar de hemel</td>
+      <td class="de">Treppe zum Himmel</td>
+      <td class="fr">Escalier vers le ciel</td>
+      <td class="es">Escalera al cielo</td>
+      <td class="it">Stairway to Heaven</td>
+      <td class="ru">Лестница в небо</td>
+      <td class="cz">Schodiště do nebes</td>
+      <td class="pl">Schody do nieba</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⚙️</td>
+      <td class="en">Stickshifts and safety belts</td>
+      <td class="nl">Handgeschakelde versnellingsbakken en veiligheidsgordels</td>
+      <td class="de">Schalthebel und Sicherheitsgurte</td>
+      <td class="fr">Des boîtes de vitesses manuelle et des ceintures de sécurité</td>
+      <td class="es">Transmisiones manuales y cinturones de seguridad</td>
+      <td class="it">Leva del cambio e cinture di sicurezza</td>
+      <td class="ru">Рычаги переключения передач и ремни безопасности</td>
+      <td class="cz">Stickshifty a bezpečnostní pásy</td>
+      <td class="pl">Manetki i pasy bezpieczeństwa</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⏏️</td>
+      <td class="en">Stuck in a moment you can’t get out of</td>
+      <td class="nl">Zit vast in een moment waar je niet meer uit kunt komen</td>
+      <td class="de">Du steckst in einem Moment fest, aus dem du nicht herauskommst</td>
+      <td class="fr">Coincé dans un moment dont tu ne peux pas sortir</td>
+      <td class="es">Atrapado en un momento del que no puedes salir</td>
+      <td class="it">Bloccato in un momento da cui non puoi uscire</td>
+      <td class="ru">Застрял в моменте, из которого не можешь выбраться</td>
+      <td class="cz">Zaseknutý v okamžiku, ze kterého se nemůžete dostat</td>
+      <td class="pl">Utknąłeś w momencie, z którego nie możesz się wydostać</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😍</td>
+      <td class="en">Stumbling towards ecstasy</td>
+      <td class="nl">Struikelend naar extase</td>
+      <td class="de">Der Ekstase entgegenstolpern</td>
+      <td class="fr">Trébuchant vers l’extase</td>
+      <td class="es">Tropezando hacia el éxtasis</td>
+      <td class="it">Inciampando verso l’estasi</td>
+      <td class="ru">Натыкаясь на экстаз</td>
+      <td class="cz">Klopýtání směrem k extázi</td>
+      <td class="pl">Potykając się w kierunku ekstazy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👩‍👧</td>
+      <td class="en">Sweet child of mine</td>
+      <td class="nl">Lief kind van mij</td>
+      <td class="de">Mein süßes Kind</td>
+      <td class="fr">Doux enfant à moi</td>
+      <td class="es">Dulce hijo mío</td>
+      <td class="it">Dolce figlio mio</td>
+      <td class="ru">Сладкий мой ребенок</td>
+      <td class="cz">Moje zlatíčko</td>
+      <td class="pl">Moja słodka dziecino</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍭</td>
+      <td class="en">Sweet dreams are made of this</td>
+      <td class="nl">Zoete dromen zijn hiervan gemaakt</td>
+      <td class="de">Daraus sind süße Träume gemacht</td>
+      <td class="fr">Doux rêves sont faits de cette</td>
+      <td class="es">Los dulces sueños están hechos de esto</td>
+      <td class="it">I sogni dolci sono fatti di questo</td>
+      <td class="ru">Сладкие мечты сделаны из этого</td>
+      <td class="cz">Z toho se dělají sladké sny</td>
+      <td class="pl">Słodkie sny składają się z tego</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏡</td>
+      <td class="en">Take me home tonight</td>
+      <td class="nl">Breng me naar huis vannacht</td>
+      <td class="de">Bring mich heute Abend nach Hause</td>
+      <td class="fr">Ramène moi à la maison ce soir</td>
+      <td class="es">Llévame a casa esta noche</td>
+      <td class="it">Portami a casa stanotte</td>
+      <td class="ru">Отвези меня домой сегодня вечером</td>
+      <td class="cz">Vezmi mě dnes večer domů</td>
+      <td class="pl">Zabierz mnie dzisiaj do domu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🏥</td>
+      <td class="en">Take me to the hospital</td>
+      <td class="nl">Breng me naar het ziekenhuis</td>
+      <td class="de">Bring mich zum Krankenhaus</td>
+      <td class="fr">Ramène moi à l’hôpital</td>
+      <td class="es">Llévame al hospital</td>
+      <td class="it">Portami all’ospedale</td>
+      <td class="ru">Отвезите меня в больницу</td>
+      <td class="cz">Vezmi mě do nemocnice</td>
+      <td class="pl">Zabierz mnie do szpitala</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👩‍👧‍👦</td>
+      <td class="en">Take your mama</td>
+      <td class="nl">Neem je mama</td>
+      <td class="de">Nimm deine Mama</td>
+      <td class="fr">Prends ta maman</td>
+      <td class="es">Toma a tu mamá</td>
+      <td class="it">Prendi tua mamma</td>
+      <td class="ru">Возьми свою маму</td>
+      <td class="cz">Vezmi svou mámu</td>
+      <td class="pl">Weź swoją mamę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⛱</td>
+      <td class="en">The boys of summer</td>
+      <td class="nl">De jongens van de zomer</td>
+      <td class="de">Die Jungs des Sommers</td>
+      <td class="fr">Les garçons de l’été</td>
+      <td class="es">los chicos del verano</td>
+      <td class="it">I ragazzi dell’estate</td>
+      <td class="ru">Мальчики лета</td>
+      <td class="cz">Kluci léta</td>
+      <td class="pl">Chłopcy lata</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😭</td>
+      <td class="en">The crying game</td>
+      <td class="nl">Het huilspel</td>
+      <td class="de">Das Weinspiel</td>
+      <td class="fr">Le jeu des pleurs</td>
+      <td class="es">el juego de llorar</td>
+      <td class="it">Il gioco del pianto</td>
+      <td class="ru">Плач игра</td>
+      <td class="cz">Hra s pláčem</td>
+      <td class="pl">Gra w płacz</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚧</td>
+      <td class="en">The dark end of the street</td>
+      <td class="nl">Het donkere einde van de straat</td>
+      <td class="de">Das dunkle Ende der Straße</td>
+      <td class="fr">Le bout sombre de la rue</td>
+      <td class="es">El final oscuro de la calle</td>
+      <td class="it">L’estremità oscura della strada</td>
+      <td class="ru">Темный конец улицы</td>
+      <td class="cz">Temný konec ulice</td>
+      <td class="pl">Ciemny koniec ulicy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌑</td>
+      <td class="en">The dark side of the moon</td>
+      <td class="nl">De donkere kant van de maan</td>
+      <td class="de">Die dunkle Seite des Mondes</td>
+      <td class="fr">Le côté obscur de la Lune</td>
+      <td class="es">El lado oscuro de la luna</td>
+      <td class="it">Il lato oscuro della luna</td>
+      <td class="ru">Темная сторона Луны</td>
+      <td class="cz">Odvrácená strana Měsíce</td>
+      <td class="pl">Ciemna strona księżyca</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌏</td>
+      <td class="en">The day the world went away</td>
+      <td class="nl">De dag dat de wereld verging</td>
+      <td class="de">Der Tag, an dem die Welt verschwand</td>
+      <td class="fr">Le jour où le monde est parti</td>
+      <td class="es">El día que el mundo se fue</td>
+      <td class="it">Il giorno in cui il mondo è andato via</td>
+      <td class="ru">День, когда мир ушел</td>
+      <td class="cz">Den, kdy odešel svět</td>
+      <td class="pl">Dzień, w którym świat odszedł</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😴</td>
+      <td class="en">The district sleeps alone tonight</td>
+      <td class="nl">De wijk slaapt vannacht alleen</td>
+      <td class="de">Der Bezirk schläft heute Nacht allein</td>
+      <td class="fr">Le quartier dort seul ce soir</td>
+      <td class="es">El distrito duerme solo esta noche</td>
+      <td class="it">Il distretto dorme da solo stanotte</td>
+      <td class="ru">Сегодня район спит один</td>
+      <td class="cz">Okres dnes v noci spí sám</td>
+      <td class="pl">Dzielnica śpi dziś sama</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔚</td>
+      <td class="en">The end of of the innocence</td>
+      <td class="nl">Het einde van de onschuld</td>
+      <td class="de">Das Ende der Unschuld</td>
+      <td class="fr">La fin de l’innocence</td>
+      <td class="es">El fin de la inocencia</td>
+      <td class="it">La fine dell’innocenza</td>
+      <td class="ru">Конец невиновности</td>
+      <td class="cz">Konec nevinnosti</td>
+      <td class="pl">Koniec niewinności</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌅</td>
+      <td class="en">The great gig in the sky</td>
+      <td class="nl">Het grote optreden in de lucht</td>
+      <td class="de">Der große Auftritt im Himmel</td>
+      <td class="fr">Le grand concert dans le ciel</td>
+      <td class="es">El gran concierto en el cielo</td>
+      <td class="it">Il grande concerto nel cielo</td>
+      <td class="ru">Большой концерт в небе</td>
+      <td class="cz">Skvělý koncert na obloze</td>
+      <td class="pl">Wielki koncert w niebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😄</td>
+      <td class="en">The happiest days of our lives</td>
+      <td class="nl">De gelukkigste dagen van ons leven</td>
+      <td class="de">Die glücklichsten Tage unseres Lebens</td>
+      <td class="fr">Les plus beaux jours de notre vie</td>
+      <td class="es">Los días más felices de nuestras vidas</td>
+      <td class="it">I giorni più felici della nostra vita</td>
+      <td class="ru">Самые счастливые дни нашей жизни</td>
+      <td class="cz">Nejšťastnější dny našeho života</td>
+      <td class="pl">Najszczęśliwsze dni w naszym życiu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👕</td>
+      <td class="en">The hardest button to button</td>
+      <td class="nl">De moeilijkste knop om te knopen</td>
+      <td class="de">Der härteste Knopf zur Knopf</td>
+      <td class="fr">Le bouton le plus difficile à boutonner</td>
+      <td class="es">El botón mas difícil de abrochar</td>
+      <td class="it">Il bottone più difficile da abbottonare</td>
+      <td class="ru">Самая сложная кнопка</td>
+      <td class="cz">Nejtěžší tlačítko</td>
+      <td class="pl">Najtrudniejszy guzik do guzika</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👠</td>
+      <td class="en">The last thing I need is you</td>
+      <td class="nl">Het laatste wat ik nodig heb, ben jij</td>
+      <td class="de">Das Letzte, was ich brauche, bist du</td>
+      <td class="fr">La dernière chose dont j’ai besoin c’est toi</td>
+      <td class="es">Lo último que necesito eres tú</td>
+      <td class="it">L’ultima cosa di cui ho bisogno sei tu</td>
+      <td class="ru">Последнее, что мне нужно, это ты</td>
+      <td class="cz">Poslední věc, kterou potřebuji, jsi ty</td>
+      <td class="pl">Ostatnią rzeczą, jakiej potrzebuję, jesteś ty</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👁</td>
+      <td class="en">The man with a child in his eyes</td>
+      <td class="nl">De man met een kind in zijn ogen</td>
+      <td class="de">Der Mann mit einem Kind in seinen Augen</td>
+      <td class="fr">L’homme avec un enfant dans les yeux</td>
+      <td class="es">El hombre con un niño en los ojos</td>
+      <td class="it">L’uomo con un bambino negli occhi</td>
+      <td class="ru">Мужчина с ребенком в глазах</td>
+      <td class="cz">Muž s dítětem v očích</td>
+      <td class="pl">Mężczyzna z dzieckiem w oczach</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🗽</td>
+      <td class="en">The only living boy in New York</td>
+      <td class="nl">De enige levende jongen in New York</td>
+      <td class="de">Der einzige lebende Junge in New York</td>
+      <td class="fr">Le seul garçon vivant à New York</td>
+      <td class="es">El único niño vivo en Nueva York</td>
+      <td class="it">L’unico ragazzo vivente a New York</td>
+      <td class="ru">Единственный живой мальчик в Нью-Йорке</td>
+      <td class="cz">Jediný žijící chlapec v New Yorku</td>
+      <td class="pl">Jedyny żyjący chłopiec w Nowym Jorku</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔭</td>
+      <td class="en">The other end of the telescope</td>
+      <td class="nl">Het andere uiteinde van de telescoop</td>
+      <td class="de">Das andere Ende des Teleskops</td>
+      <td class="fr">L’autre bout du télescope</td>
+      <td class="es">El otro extremo del telescopio</td>
+      <td class="it">L’altra estremità del telescopio</td>
+      <td class="ru">Другой конец телескопа</td>
+      <td class="cz">Druhý konec dalekohledu</td>
+      <td class="pl">Drugi koniec teleskopu</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👙</td>
+      <td class="en">The other side of summer</td>
+      <td class="nl">De andere kant van de zomer</td>
+      <td class="de">Die andere Seite des Sommers</td>
+      <td class="fr">L’envers de l’été</td>
+      <td class="es">El otro lado del verano</td>
+      <td class="it">L’altra faccia dell’estate</td>
+      <td class="ru">Другая сторона лета</td>
+      <td class="cz">Druhá strana léta</td>
+      <td class="pl">Druga strona lata</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💪</td>
+      <td class="en">The power of love</td>
+      <td class="nl">De kracht van de liefde</td>
+      <td class="de">Die Kraft der Liebe</td>
+      <td class="fr">Le pouvoir de l’amour</td>
+      <td class="es">El poder del amor</td>
+      <td class="it">Il potere dell’amore</td>
+      <td class="ru">Сила любви</td>
+      <td class="cz">Síla lásky</td>
+      <td class="pl">Siła miłości</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💃</td>
+      <td class="en">The rhythm of the night</td>
+      <td class="nl">Het ritme van de nacht</td>
+      <td class="de">Der Rhythmus der Nacht</td>
+      <td class="fr">Le rythme de la nuit</td>
+      <td class="es">El ritmo de la noche</td>
+      <td class="it">Il ritmo della notte</td>
+      <td class="ru">Ритм ночи</td>
+      <td class="cz">Rytmus noci</td>
+      <td class="pl">Rytm nocy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🐍</td>
+      <td class="en">The sidewinder sleeps tonight</td>
+      <td class="nl">De zijwinder slaapt vannacht</td>
+      <td class="de">Der Sidewinder schläft heute Nacht</td>
+      <td class="fr">Le serpent dort ce soir</td>
+      <td class="es">El sidewinder duerme esta noche</td>
+      <td class="it">Il sidewinder dorme stanotte</td>
+      <td class="ru">Гадюка сегодня спит</td>
+      <td class="cz">Sidewinder dnes v noci spí</td>
+      <td class="pl">Sidewinder śpi tej nocy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤫</td>
+      <td class="en">The sound of silence</td>
+      <td class="nl">Het geluid van de stilte</td>
+      <td class="de">Der Klang der Stille</td>
+      <td class="fr">Le son du silence</td>
+      <td class="es">El sonido del silencio</td>
+      <td class="it">Il suono del silenzio</td>
+      <td class="ru">Звук тишины</td>
+      <td class="cz">Zvuk ticha</td>
+      <td class="pl">Dźwięk ciszy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😑</td>
+      <td class="en">The world is full of crashing bores</td>
+      <td class="nl">De wereld zit vol met verpletterende boringen</td>
+      <td class="de">Die Welt ist voller krachender Langeweile</td>
+      <td class="fr">Le monde est plein d’ennuis qui s’écrasent</td>
+      <td class="es">El mundo está lleno de aburridos chocando</td>
+      <td class="it">Il mondo è pieno di noie che si schiantano</td>
+      <td class="ru">Мир полон грохотов</td>
+      <td class="cz">Svět je plný burácejících vrtů</td>
+      <td class="pl">Świat jest pełen rozbijających się nudziarzy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💡</td>
+      <td class="en">There is a light that never goes out</td>
+      <td class="nl">Er is een licht dat nooit uit gaat</td>
+      <td class="de">Es gibt ein Licht, das niemals erlischt</td>
+      <td class="fr">Il y a une lumière qui ne s’éteint jamais</td>
+      <td class="es">Hay una luz que nunca se apaga</td>
+      <td class="it">C’è una luce che non si spegne mai</td>
+      <td class="ru">Есть свет, который никогда не гаснет</td>
+      <td class="cz">Existuje světlo, které nikdy nezhasne</td>
+      <td class="pl">Istnieje światło, które nigdy nie gaśnie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📈</td>
+      <td class="en">Things could only get better</td>
+      <td class="nl">Dingen kunnen alleen maar beter worden</td>
+      <td class="de">Es konnte nur besser werden</td>
+      <td class="fr">Les choses ne pouvaient que s’améliorer</td>
+      <td class="es">Las cosas solo podrían mejorar</td>
+      <td class="it">Le cose potrebbero solo migliorare</td>
+      <td class="ru">Все могло только улучшиться</td>
+      <td class="cz">Věci se mohly jen zlepšit</td>
+      <td class="pl">Mogło być tylko lepiej</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛝</td>
+      <td class="en">This used to be my playground</td>
+      <td class="nl">Dit was vroeger mijn speeltuin</td>
+      <td class="de">Das war mal mein Spielplatz</td>
+      <td class="fr">C’était mon terrain de jeu</td>
+      <td class="es">Este solía ser mi patio</td>
+      <td class="it">Questo era il mio parco giochi</td>
+      <td class="ru">Раньше это была моя игровая площадка</td>
+      <td class="cz">Tohle bývalo moje hřiště</td>
+      <td class="pl">To był kiedyś mój plac zabaw</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕰</td>
+      <td class="en">Time after time</td>
+      <td class="nl">Keer op keer</td>
+      <td class="de">Immer wieder</td>
+      <td class="fr">Maintes et maintes fois</td>
+      <td class="es">Una y otra vez</td>
+      <td class="it">Di volta in volta</td>
+      <td class="ru">Раз за разом</td>
+      <td class="cz">Znovu a znovu</td>
+      <td class="pl">Czas po czasie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌕</td>
+      <td class="en">To the moon and back</td>
+      <td class="nl">Naar de maan en terug</td>
+      <td class="de">Zum Mond und zurück</td>
+      <td class="fr">Vers la lune et retour</td>
+      <td class="es">A la luna y de regreso</td>
+      <td class="it">Fino alla Luna e ritorno</td>
+      <td class="ru">До Луны и обратно</td>
+      <td class="cz">Na měsíc a zpět</td>
+      <td class="pl">Na Księżyc i z powrotem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">ℹ️</td>
+      <td class="en">Too much information</td>
+      <td class="nl">Te veel informatie</td>
+      <td class="de">Zu viel Information</td>
+      <td class="fr">Trop d’informations</td>
+      <td class="es">Demasiada información</td>
+      <td class="it">Troppe informazioni</td>
+      <td class="ru">Слишком много информации</td>
+      <td class="cz">Příliš mnoho informací</td>
+      <td class="pl">Za dużo informacji</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌒</td>
+      <td class="en">Total eclipse of the heart</td>
+      <td class="nl">Totale verduistering van het hart</td>
+      <td class="de">Totale Sonnenfinsternis des Herzens</td>
+      <td class="fr">Éclipse totale du coeur</td>
+      <td class="es">Eclipse total del corazón</td>
+      <td class="it">Eclissi totale del cuore</td>
+      <td class="ru">Полное затмение сердца</td>
+      <td class="cz">Úplné zatmění srdce</td>
+      <td class="pl">Całkowite zaćmienie serca</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌈</td>
+      <td class="en">True colors</td>
+      <td class="nl">Ware kleuren</td>
+      <td class="de">Echte Farben</td>
+      <td class="fr">Vraies couleurs</td>
+      <td class="es">Colores verdaderos</td>
+      <td class="it">Colori veri</td>
+      <td class="ru">Настоящие цвета</td>
+      <td class="cz">Skutečné barvy</td>
+      <td class="pl">Prawdziwe kolory</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">☺️</td>
+      <td class="en">Try a little tenderness</td>
+      <td class="nl">Probeer een beetje tederheid</td>
+      <td class="de">Versuchen Sie es mit etwas Zärtlichkeit</td>
+      <td class="fr">Essaye un peu de tendresse</td>
+      <td class="es">Probar un poco de ternura</td>
+      <td class="it">Prova un po’ di tenerezza</td>
+      <td class="ru">Прояви немного нежности</td>
+      <td class="cz">Zkuste trochu něhy</td>
+      <td class="pl">Spróbować trochę czułości</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🤗</td>
+      <td class="en">Trying to throw your arms around the world</td>
+      <td class="nl">Proberen je armen over de hele wereld te gooien</td>
+      <td class="de">Versuchen Sie, Ihre Arme um die Welt zu werfen</td>
+      <td class="fr">Essayant de jeter tes bras autour du monde</td>
+      <td class="es">Tratando de lanzar tus brazos alrededor del mundo</td>
+      <td class="it">Cercando di gettare le braccia in giro per il mondo</td>
+      <td class="ru">Попытка бросить руки по всему миру</td>
+      <td class="cz">Zkoušíte rozházet ruce kolem světa</td>
+      <td class="pl">Próbując rzucić ramionami dookoła świata</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😲</td>
+      <td class="en">Unbelievable</td>
+      <td class="nl">Ongelooflijk</td>
+      <td class="de">Unglaublich</td>
+      <td class="fr">Incroyable</td>
+      <td class="es">Increíble</td>
+      <td class="it">Incredibile</td>
+      <td class="ru">Невероятный</td>
+      <td class="cz">Neuvěřitelný</td>
+      <td class="pl">Nie do wiary</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌉</td>
+      <td class="en">Under the bridge</td>
+      <td class="nl">Onder de brug</td>
+      <td class="de">Unter der Brücke</td>
+      <td class="fr">Sous le pont</td>
+      <td class="es">Bajo el puente</td>
+      <td class="it">Sotto il ponte</td>
+      <td class="ru">Под мостом</td>
+      <td class="cz">Pod mostem</td>
+      <td class="pl">Pod mostem</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😴</td>
+      <td class="en">Under the table and dreaming</td>
+      <td class="nl">Onder de tafel en dromen</td>
+      <td class="de">Unter dem Tisch und träumen</td>
+      <td class="fr">Sous la table et rêver</td>
+      <td class="es">Debajo de la mesa y soñando</td>
+      <td class="it">Sotto il tavolo e sognare</td>
+      <td class="ru">Под столом и во сне</td>
+      <td class="cz">Pod stolem a sněním</td>
+      <td class="pl">Pod stołem i marząc</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📻</td>
+      <td class="en">Video killed the radio star</td>
+      <td class="nl">Video doodde de radioster</td>
+      <td class="de">Das Video tötete den Radio-Star</td>
+      <td class="fr">La vidéo a tué l’étoile de la radio</td>
+      <td class="es">El vídeo mató a la estrella de radio</td>
+      <td class="it">Il video ha ucciso la star della radio</td>
+      <td class="ru">Видео убило радиозвезду</td>
+      <td class="cz">Video zabilo rozhlasovou hvězdu</td>
+      <td class="pl">Wideo zabiło gwiazdę radia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕒</td>
+      <td class="en">Waiting for a girl like you</td>
+      <td class="nl">Wachten op een meisje zoals jij</td>
+      <td class="de">Warten auf ein Mädchen wie du</td>
+      <td class="fr">En attente d’une fille comme toi</td>
+      <td class="es">Esperando por una mujer como tu</td>
+      <td class="it">Aspettando una ragazza come te</td>
+      <td class="ru">В ожидании девушки, как вы</td>
+      <td class="cz">Čekám na dívku jako jsi ty</td>
+      <td class="pl">Czekam na dziewczynę taką jak ty</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🚶</td>
+      <td class="en">Walk on the wild side</td>
+      <td class="nl">Loop aan de wilde kant</td>
+      <td class="de">Abstecher ins Abenteuer</td>
+      <td class="fr">Marcher du côté sauvage</td>
+      <td class="es">Caminar por el lado salvaje</td>
+      <td class="it">Cammina nel lato selvaggio</td>
+      <td class="ru">Ходить по дикой стороне</td>
+      <td class="cz">Procházka po divoké straně</td>
+      <td class="pl">Spacer po dzikiej stronie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥾</td>
+      <td class="en">Walking in my shoes</td>
+      <td class="nl">In mijn schoenen lopen</td>
+      <td class="de">In meinen Schuhen gehen</td>
+      <td class="fr">Marcher dans mes chaussures</td>
+      <td class="es">Caminar en mis zapatos</td>
+      <td class="it">Camminando nelle mie scarpe</td>
+      <td class="ru">Ходить в моей обуви</td>
+      <td class="cz">Chodit ve svých botách</td>
+      <td class="pl">Chodzenie w moich butach</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕵️‍♂️</td>
+      <td class="en">Watching the detectives</td>
+      <td class="nl">Kijken naar de rechercheurs</td>
+      <td class="de">Beobachten Sie die Detektive</td>
+      <td class="fr">Regarder les détectives</td>
+      <td class="es">viendo a los detectives</td>
+      <td class="it">Guardando i detective</td>
+      <td class="ru">Наблюдая за детективами</td>
+      <td class="cz">Pozorování detektivů</td>
+      <td class="pl">Oglądanie detektywów</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔥</td>
+      <td class="en">We didn’t start the fire</td>
+      <td class="nl">We hebben het vuur niet aangestoken</td>
+      <td class="de">Wir haben das Feuer nicht gelegt</td>
+      <td class="fr">Nous n’avons pas allumé le feu</td>
+      <td class="es">No empezamos el fuego</td>
+      <td class="it">Non abbiamo appiccato il fuoco</td>
+      <td class="ru">Мы не начали огонь</td>
+      <td class="cz">Oheň jsme nezaložili</td>
+      <td class="pl">Nie rozpaliliśmy ognia</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧛‍♂️</td>
+      <td class="en">We only come out at night</td>
+      <td class="nl">We komen alleen ’s nachts buiten</td>
+      <td class="de">Wir kommen nur nachts raus</td>
+      <td class="fr">Nous ne sortons que la nuit</td>
+      <td class="es">Solo salimos de noche</td>
+      <td class="it">Usciamo solo di notte</td>
+      <td class="ru">Мы выходим только ночью</td>
+      <td class="cz">Vycházíme jen v noci</td>
+      <td class="pl">Wychodzimy tylko w nocy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👫</td>
+      <td class="en">We used to be friends</td>
+      <td class="nl">We waren vroeger vrienden</td>
+      <td class="de">Wir waren mal Freunde</td>
+      <td class="fr">Nous étions amis</td>
+      <td class="es">Soliamos ser amigos</td>
+      <td class="it">Eravamo amici</td>
+      <td class="ru">Мы были друзьями</td>
+      <td class="cz">Bývali jsme přátelé</td>
+      <td class="pl">Kiedyś byliśmy przyjaciółmi</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌞</td>
+      <td class="en">Welcome to paradise</td>
+      <td class="nl">Welkom in het paradijs</td>
+      <td class="de">Willkommen im Paradies</td>
+      <td class="fr">Bienvenue au paradis</td>
+      <td class="es">Bienvenido al paraiso</td>
+      <td class="it">Benvenuti in paradiso</td>
+      <td class="ru">Добро пожаловать в рай</td>
+      <td class="cz">Vítejte v ráji</td>
+      <td class="pl">Witaj w raju</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🐒</td>
+      <td class="en">Welcome to the jungle</td>
+      <td class="nl">Welkom in de jungle</td>
+      <td class="de">Willkommen im Dschungel</td>
+      <td class="fr">Bienvenue dans la jungle</td>
+      <td class="es">Bienvenido a la jungla</td>
+      <td class="it">Benvenuto nella giungla</td>
+      <td class="ru">Добро пожаловать в джунгли</td>
+      <td class="cz">Vítejte v džungli</td>
+      <td class="pl">Witaj w dżungli</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😒</td>
+      <td class="en">What difference does it make</td>
+      <td class="nl">Wat maakt het uit</td>
+      <td class="de">Welchen Unterschied macht es</td>
+      <td class="fr">Quelle différence cela fait</td>
+      <td class="es">Qué diferencia hace</td>
+      <td class="it">Che differenza fa</td>
+      <td class="ru">Какая разница</td>
+      <td class="cz">Jaký je v tom rozdíl</td>
+      <td class="pl">Jaką to robi różnicę</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙏</td>
+      <td class="en">What do you want from me?</td>
+      <td class="nl">Wat wil je van me?</td>
+      <td class="de">Was willst du von mir?</td>
+      <td class="fr">Que voulez-vous de moi ?</td>
+      <td class="es">¿Qué quieres de mí?</td>
+      <td class="it">Cosa vuole da me?</td>
+      <td class="ru">Чего ты хочешь от меня?</td>
+      <td class="cz">Co ode mě chceš?</td>
+      <td class="pl">Czego odemnie chcesz?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😖</td>
+      <td class="en">What have I done to deserve this</td>
+      <td class="nl">Wat heb ik gedaan om dit te verdienen</td>
+      <td class="de">Was habe ich getan, um das zu verdienen</td>
+      <td class="fr">Qu’ai-je fait pour mériter cela</td>
+      <td class="es">Qué he hecho para merecer esto</td>
+      <td class="it">Cosa ho fatto per meritarmi questo</td>
+      <td class="ru">Что я сделал, чтобы заслужить это</td>
+      <td class="cz">Čím jsem si to zasloužil</td>
+      <td class="pl">Co ja takiego zrobiłem że zasłużyłem na to</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧟‍♂️</td>
+      <td class="en">What is and what should never be</td>
+      <td class="nl">Wat is en wat nooit zou mogen zijn</td>
+      <td class="de">Was ist und was nie sein sollte</td>
+      <td class="fr">Ce qui est et ce qui ne deverait jamais être</td>
+      <td class="es">Lo que es y lo que nunca debería ser</td>
+      <td class="it">Cos’è e cosa non dovrebbe mai essere</td>
+      <td class="ru">Что есть и чего никогда не должно быть</td>
+      <td class="cz">Co je a co by nikdy nemělo být</td>
+      <td class="pl">Co jest, a co nigdy nie powinno być</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🕒</td>
+      <td class="en">What time is love?</td>
+      <td class="nl">Hoe laat is liefde?</td>
+      <td class="de">Um wie viel Uhr ist Liebe?</td>
+      <td class="fr">Quelle heure est l’amour ?</td>
+      <td class="es">¿A qué hora es el amor?</td>
+      <td class="it">A che ora è l’amore?</td>
+      <td class="ru">В какое время любовь?</td>
+      <td class="cz">V kolik hodin je láska?</td>
+      <td class="pl">O której godzinie jest miłość?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">📡</td>
+      <td class="en">What’s the frequency, Kenneth?</td>
+      <td class="nl">Wat is de frequentie, Kenneth?</td>
+      <td class="de">Wie ist die Frequenz, Kenneth?</td>
+      <td class="fr">Quelle est la fréquence, Kenneth ?</td>
+      <td class="es">¿Cuál es la frecuencia, Kenneth?</td>
+      <td class="it">Qual è la frequenza, kenneth?</td>
+      <td class="ru">Какая частота, кеннет?</td>
+      <td class="cz">Jaká je frekvence, Kennethe?</td>
+      <td class="pl">Jaka jest częstotliwość, Kenneth?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌚</td>
+      <td class="en">Whatever gets you through the night</td>
+      <td class="nl">Wat je ook de nacht door helpt</td>
+      <td class="de">Was auch immer Sie durch die Nacht bringt</td>
+      <td class="fr">Tout ce qui te fait passer la nuit</td>
+      <td class="es">Lo que sea que te ayude a pasar la noche</td>
+      <td class="it">Qualunque cosa ti aiuti a superare la notte</td>
+      <td class="ru">Что бы ты ни провел в ночи</td>
+      <td class="cz">Cokoli, co vás přenese přes noc</td>
+      <td class="pl">Cokolwiek pomoże ci przetrwać noc</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥶</td>
+      <td class="en">When it’s cold I’d like to die</td>
+      <td class="nl">Als het koud is, zou ik willen sterven</td>
+      <td class="de">Wenn es kalt ist, würde ich gerne sterben</td>
+      <td class="fr">Quand il fait froid j’aimerais mourir</td>
+      <td class="es">Cuando hace frío me gustaría morir</td>
+      <td class="it">Quando fa freddo vorrei morire</td>
+      <td class="ru">Когда холодно, я хотел бы умереть</td>
+      <td class="cz">Když je zima, chtěl bych umřít</td>
+      <td class="pl">Kiedy jest zimno, chciałbym umrzeć</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🌊</td>
+      <td class="en">When the levee breaks</td>
+      <td class="nl">Als de dijk breekt</td>
+      <td class="de">Wenn der Deich bricht</td>
+      <td class="fr">Quand la digue se brise</td>
+      <td class="es">Cuando se rompe el dique</td>
+      <td class="it">Quando l’argine si rompe</td>
+      <td class="ru">Когда дамба ломается</td>
+      <td class="cz">Když se hráz prolomí</td>
+      <td class="pl">Kiedy pęknie wał</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🛣</td>
+      <td class="en">Where the streets have no name</td>
+      <td class="nl">Waar de straten geen naam hebben</td>
+      <td class="de">Wo die Strassen keinen Namen haben</td>
+      <td class="fr">Où les rues n’ont pas de nom</td>
+      <td class="es">Donde las calles no tienen nombre</td>
+      <td class="it">Dove le strade non hanno nome</td>
+      <td class="ru">Где улицы не имеют названий</td>
+      <td class="cz">Kde ulice nemají jména</td>
+      <td class="pl">Gdzie ulice nie mają nazw</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🎸</td>
+      <td class="en">While my guitar gently weeps</td>
+      <td class="nl">Terwijl mijn gitaar zachtjes huilt</td>
+      <td class="de">Während meine Gitarre sanft weint</td>
+      <td class="fr">Pendant que ma guitare pleure doucement</td>
+      <td class="es">Mientras mi guitarra llora suavemente</td>
+      <td class="it">Mentre la mia chitarra piange dolcemente</td>
+      <td class="ru">Пока моя гитара нежно плачет</td>
+      <td class="cz">Zatímco má kytara jemně pláče</td>
+      <td class="pl">Podczas gdy moja gitara cicho łka</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🍫</td>
+      <td class="en">White chocolate space egg</td>
+      <td class="nl">Ruimte ei van witte chocolade</td>
+      <td class="de">Weißes Weltraumei aus Schokolade</td>
+      <td class="fr">Oeuf de l’espace en chocolat blanc</td>
+      <td class="es">Huevo espacial de chocolate blanco</td>
+      <td class="it">Uovo spaziale di cioccolato bianco</td>
+      <td class="ru">Космическое яйцо из белого шоколада</td>
+      <td class="cz">Vesmírné vajíčko z bílé čokolády</td>
+      <td class="pl">Kosmiczne jajko z białej czekolady</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😇</td>
+      <td class="en">Who will save your soul?</td>
+      <td class="nl">Wie zal je ziel redden?</td>
+      <td class="de">Wer wird deine Seele retten?</td>
+      <td class="fr">Qui sauvera ton âme ?</td>
+      <td class="es">¿Quién salvará tu alma?</td>
+      <td class="it">Chi salverà la tua anima?</td>
+      <td class="ru">Кто спасет твою душу?</td>
+      <td class="cz">Kdo zachrání tvou duši?</td>
+      <td class="pl">Kto uratuje twoją duszę?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⁉️</td>
+      <td class="en">Who? Where? Why?</td>
+      <td class="nl">Wie? Waar? Waarom?</td>
+      <td class="de">Wer? Wo? Warum?</td>
+      <td class="fr">Qui ? Où ? Pourquoi ?</td>
+      <td class="es">¿Quién? ¿Dónde? ¿Por qué?</td>
+      <td class="it">Chi? Dove? Perché?</td>
+      <td class="ru">Кто? Где? Почему?</td>
+      <td class="cz">Kdo? Kde? Proč?</td>
+      <td class="pl">Kto? Gdzie? Dlaczego?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🐎</td>
+      <td class="en">Who’s gonna ride your wild horses?</td>
+      <td class="nl">Wie gaat er op je wilde paarden rijden?</td>
+      <td class="de">Wer wird deine wilden Pferde reiten?</td>
+      <td class="fr">Qui va monter tes chevaux sauvages ?</td>
+      <td class="es">¿Quién va a montar tus caballos salvajes?</td>
+      <td class="it">Chi cavalcherà i tuoi cavalli selvaggi?</td>
+      <td class="ru">Кто будет кататься на твоих диких лошадях?</td>
+      <td class="cz">Kdo pojede na tvých divokých koních?</td>
+      <td class="pl">Kto będzie jeździł na twoich dzikich koniach?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👧</td>
+      <td class="en">Who’s that girl?</td>
+      <td class="nl">Wie is dat meisje?</td>
+      <td class="de">Wer ist das Mädchen?</td>
+      <td class="fr">C’est qui cette fille ?</td>
+      <td class="es">¿Quien es esa chica?</td>
+      <td class="it">Chi è quella ragazza?</td>
+      <td class="ru">Кто эта девушка?</td>
+      <td class="cz">Kdo je ta holka?</td>
+      <td class="pl">Kim jest ta dziewczyna?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🧍‍♂️</td>
+      <td class="en">Why can’t a man stand alone?</td>
+      <td class="nl">Waarom kan een man niet alleen staan?</td>
+      <td class="de">Warum kann ein Mann nicht alleine stehen?</td>
+      <td class="fr">Pourquoi un homme ne peut-il pas rester seul ?</td>
+      <td class="es">¿Por qué un hombre no puede estar solo?</td>
+      <td class="it">Perché un uomo non può stare da solo?</td>
+      <td class="ru">Почему мужчина не может стоять один?</td>
+      <td class="cz">Proč nemůže muž stát sám?</td>
+      <td class="pl">Dlaczego mężczyzna nie może stać sam?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🥰</td>
+      <td class="en">Why can’t this be love?</td>
+      <td class="nl">Waarom kan dit geen liefde zijn?</td>
+      <td class="de">Warum kann das nicht Liebe sein?</td>
+      <td class="fr">Pourquoi cela ne peut-il pas être l’amour ?</td>
+      <td class="es">¿Por qué esto no puede ser amor?</td>
+      <td class="it">Perché questo non può essere amore?</td>
+      <td class="ru">Почему это не может быть любовью?</td>
+      <td class="cz">Proč to nemůže být láska?</td>
+      <td class="pl">Dlaczego to nie może być miłość?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">❤️‍🩹</td>
+      <td class="en">Why does my heart feel so bad?</td>
+      <td class="nl">Waarom voelt mijn hart zo slecht?</td>
+      <td class="de">Warum fühlt sich mein Herz so schlecht?</td>
+      <td class="fr">Pourquoi mon cœur se sent-il si mal?</td>
+      <td class="es">¿Porqué mi corazón se siente tan mal?</td>
+      <td class="it">Perché il mio cuore si sente così male?</td>
+      <td class="ru">Почему моему сердцу так больно?</td>
+      <td class="cz">Proč se mé srdce cítí tak špatně?</td>
+      <td class="pl">Dlaczego moje serce czuje się tak źle?</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👯</td>
+      <td class="en">With a little help from my friends</td>
+      <td class="nl">Met een beetje hulp van mijn vrienden</td>
+      <td class="de">Mit ein wenig Hilfe von meinen Freunden</td>
+      <td class="fr">Avec un peu d’aide de mes amis</td>
+      <td class="es">Con una pequeña ayuda de mis amigos</td>
+      <td class="it">Con un piccolo aiuto dai miei amici</td>
+      <td class="ru">С небольшой помощью моих друзей</td>
+      <td class="cz">S malou pomocí mých přátel</td>
+      <td class="pl">Z niewielką pomocą moich przyjaciół</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🪷</td>
+      <td class="en">Within you without you</td>
+      <td class="nl">In jou zonder jou</td>
+      <td class="de">In dir ohne dich</td>
+      <td class="fr">En toi sans toi</td>
+      <td class="es">Dentro de tí sin tí</td>
+      <td class="it">Dentro di te senza di te</td>
+      <td class="ru">Внутри тебя без тебя</td>
+      <td class="cz">Uvnitř tebe bez tebe</td>
+      <td class="pl">W tobie bez ciebie</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🔒</td>
+      <td class="en">You could be mine</td>
+      <td class="nl">Je zou de mijne kunnen zijn</td>
+      <td class="de">Du könntest mein sein</td>
+      <td class="fr">Tu pourrais être mien</td>
+      <td class="es">Podrías ser mio</td>
+      <td class="it">Potresti essere mio</td>
+      <td class="ru">Ты будешь моим</td>
+      <td class="cz">Mohl bys být můj</td>
+      <td class="pl">Mógłbyś być mój</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">👍</td>
+      <td class="en">You could have it so much better</td>
+      <td class="nl">Je zou het zoveel beter kunnen hebben</td>
+      <td class="de">Du könntest es so viel besser haben</td>
+      <td class="fr">Tu pourrais l’avoir tellement mieux</td>
+      <td class="es">Podrías tenerlo mucho mejor</td>
+      <td class="it">Potresti averlo molto meglio</td>
+      <td class="ru">Вы могли бы иметь это намного лучше</td>
+      <td class="cz">Mohl bys to mít mnohem lepší</td>
+      <td class="pl">Mogłeś mieć to o wiele lepiej</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">🙇‍♂️</td>
+      <td class="en">You don’t know what love is, you just do as you’re told</td>
+      <td class="nl">Je weet niet wat liefde is, je doet gewoon wat je gezegd wordt</td>
+      <td class="de">Du weißt nicht, was Liebe ist, du tust einfach, was dir gesagt wird</td>
+      <td class="fr">Tu ne sais pas ce qu’est l’amour, tu fais juste ce qu’on te dit</td>
+      <td class="es">No sabes lo que es el amor, solo haces lo que te dicen</td>
+      <td class="it">Non sai cos’è l’amore, fai solo quello che ti viene detto</td>
+      <td class="ru">Ты не знаешь, что такое любовь, ты просто делаешь то, что тебе говорят</td>
+      <td class="cz">Nevíš, co je láska, děláš, jak ti bylo řečeno</td>
+      <td class="pl">Nie wiesz, czym jest miłość, po prostu robisz, co ci każą</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😵</td>
+      <td class="en">You know I couldn’t last</td>
+      <td class="nl">Je weet dat ik het niet vol kon houden</td>
+      <td class="de">Du weißt, ich konnte nicht durchhalten</td>
+      <td class="fr">Tu sais que je ne pourrais pas durer</td>
+      <td class="es">Sabes que no podría durar</td>
+      <td class="it">Sai che non potrei durare</td>
+      <td class="ru">Вы знаете, я не мог продолжать</td>
+      <td class="cz">Víš, že jsem nevydržel</td>
+      <td class="pl">Wiesz, że nie wytrzymam</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">😵</td>
+      <td class="en">You only tell me you love me when you’re drunk</td>
+      <td class="nl">Je vertelt me alleen dat je van me houdt als je dronken bent</td>
+      <td class="de">Du sagst mir nur, dass du mich liebst, wenn du betrunken bist</td>
+      <td class="fr">Tu me dis seulement que tu m’aimes quand tu es ivre</td>
+      <td class="es">Solo me dices que me amas cuando estás borracho</td>
+      <td class="it">Mi dici che mi ami solo quando sei ubriaco</td>
+      <td class="ru">Ты говоришь мне, что любишь меня, только когда пьян</td>
+      <td class="cz">Říkáš mi, že mě miluješ, jen když jsi opilý</td>
+      <td class="pl">Mówisz mi, że mnie kochasz, tylko kiedy jesteś pijany</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">💃</td>
+      <td class="en">Your mama don’t dance</td>
+      <td class="nl">Je moeder danst niet</td>
+      <td class="de">Deine Mama tanzt nicht</td>
+      <td class="fr">Ta mère ne danse pas</td>
+      <td class="es">Tu madre no baila</td>
+      <td class="it">Tua mamma non balla</td>
+      <td class="ru">Твоя мама не танцует</td>
+      <td class="cz">Tvoje máma netančí</td>
+      <td class="pl">Twoja mama nie tańczy</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">⏲</td>
+      <td class="en">Your time is gonna come</td>
+      <td class="nl">Jouw tijd gaat komen</td>
+      <td class="de">Deine Zeit wird kommen</td>
+      <td class="fr">Ton heure va venir</td>
+      <td class="es">Tu tiempo va a llegar</td>
+      <td class="it">Il tuo momento sta per arrivare</td>
+      <td class="ru">Ваше время придет</td>
+      <td class="cz">Tvůj čas přijde</td>
+      <td class="pl">Twój czas nadejdzie</td>
+    </tr>
+
+  </table>
+	<br>
+  <div class="caption">
+		Language similarity
+	</div>
+  <div id="results-table">
+  </div>
+  <br>
+  <table class="checkboxes">
+    <tr>
+      <td>Ignore:</td>
+      <td><input type="checkbox" id="cyrillic" onclick="setOption('cyrillic')"/> Script</td>
+      <td><input type="checkbox" id="lowercase" onclick="setOption('lowercase')"/> Case</td>
+      <td><input type="checkbox" id="accents" onclick="setOption('accents')"/> Accents</td>
+      <td><input type="checkbox" id="wordOrder" onclick="setOption('wordOrder')"/> Order</td>
+    </tr>
+  </table>
+  <script>
+    let langs = [
+      'en',
+      'nl',
+      'de',
+      'fr',
+      'es',
+      'it',
+      'ru',
+      'cz',
+      'pl',
+    ];
+    
+    let optionKeys = ['cyrillic', 'lowercase', 'accents', 'wordOrder'];
+    
+    let flags = {
+      'en': '🇺🇸',
+      'fr': '🇫🇷',
+      'nl': '🇳🇱',
+      'ru': '🇷🇺',
+      'es': '🇪🇸',
+      'de': '🇩🇪',
+      'it': '🇮🇹',
+      'pl': '🇵🇱',
+      'cz': '🇨🇿',
+    }
+    
+    function check(lang) {
+      let value = document.getElementById(lang).checked;
+      localStorage.setItem(lang, value);
+      update(lang, value);
+    }
+    
+    function setOption(option) {
+      let value = document.getElementById(option).checked;
+      localStorage.setItem(option, value);
+      measureAll();
+    }
+    
+    for (let lang of langs) {
+      let value = JSON.parse(localStorage.getItem(lang));
+      if (value === null) value = true;
+      document.getElementById(lang).checked = value;
+      update(lang, value);
+    }
+    
+    for (let option of optionKeys) {
+      let value = JSON.parse(localStorage.getItem(option));
+      if (value === null) {
+        value = option != 'wordOrder';
+        localStorage.setItem(option, value);
+      }
+      document.getElementById(option).checked = value;
+    }
+
+    function update(lang, value) {
+      for (let cell of document.getElementsByClassName(lang)) {
+        cell.style.display = value ? "table-cell" : "none";
+      }
+    }
+    
+    // GPT: remove diacritical marks from text
+    function removeDiacriticalMarks(text) {
+      const normalizedText = text.normalize('NFD');
+      const removedDiacriticalText = normalizedText.replace(/[\u0300-\u036f]/g, '');
+      return removedDiacriticalText.normalize('NFC');
+    }
+    
+    // GPT: transliterate Russian text into English text
+    function transliterateRussianToEnglish(text) {
+      const cyrillicToLatinMap = {
+        'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo', 'ж': 'zh',
+        'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+        'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts',
+        'ч': 'ch', 'ш': 'sh', 'щ': 'sch', 'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu',
+        'я': 'ya', 'А': 'A', 'Б': 'B', 'В': 'V', 'Г': 'G', 'Д': 'D', 'Е': 'E', 'Ё': 'YO',
+        'Ж': 'ZH', 'З': 'Z', 'И': 'I', 'Й': 'Y', 'К': 'K', 'Л': 'L', 'М': 'M', 'Н': 'N',
+        'О': 'O', 'П': 'P', 'Р': 'R', 'С': 'S', 'Т': 'T', 'У': 'U', 'Ф': 'F', 'Х': 'KH',
+        'Ц': 'TS', 'Ч': 'CH', 'Ш': 'SH', 'Щ': 'SCH', 'Ъ': '', 'Ы': 'Y', 'Ь': '', 'Э': 'E',
+        'Ю': 'YU', 'Я': 'YA'
+      };
+
+      return text.replace(/[а-яёА-ЯЁ]/g, function(match) {
+        return cyrillicToLatinMap[match] || match;
+      });
+    }
+    
+    function sortWords(str) {
+        return str.split(' ').sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join(' ');
+    }
+    
+    function sortString(str) {
+        return str.split('').sort((a, b) => a.localeCompare(b)).join('');
+    }
+    
+    function levenshteinDistance(a, b) {
+      const distanceMatrix = Array(b.length + 1).fill(null)
+        .map(() => Array(a.length + 1).fill(null));
+
+      for (let i = 0; i <= a.length; i += 1) {
+        distanceMatrix[0][i] = i;
+      }
+
+      for (let j = 0; j <= b.length; j += 1) {
+        distanceMatrix[j][0] = j;
+      }
+
+      for (let j = 1; j <= b.length; j += 1) {
+        for (let i = 1; i <= a.length; i += 1) {
+          const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+          distanceMatrix[j][i] = Math.min(
+            distanceMatrix[j][i - 1] + 1, // deletion
+            distanceMatrix[j - 1][i] + 1, // insertion
+            distanceMatrix[j - 1][i - 1] + indicator, // substitution
+          );
+        }
+      }
+
+      return distanceMatrix[b.length][a.length];
+    }
+    
+    function score(code1, code2) {
+      if (code1 == code2) return 1.0;
+      let distance = levenshteinDistance(code1, code2);
+      let totalLength = (code1.length + code2.length) / 2.0;
+      return (1 - (distance / totalLength)) * 1.0;
+    }
+    
+    function average(values) {
+      if (values.length == 0) return 0.0;
+      let val = values.reduce((a, b) => a + b, 0.0) / values.length;
+      return val > 0 ? val : 0.0;
+    }
+    
+    function normalizedString(text, lang, options) {
+      if (options.cyrillic && lang == 'ru') text = transliterateRussianToEnglish(text);
+      if (options.lowercase) text = text.toLowerCase();
+      if (options.accents) text = removeDiacriticalMarks(text);
+      if (options.wordOrder) text = sortString(text);
+      return text;
+    }
+    
+    function measureAll() {
+      let options = {
+        'cyrillic': JSON.parse(localStorage.getItem('cyrillic')),
+        'lowercase': JSON.parse(localStorage.getItem('lowercase')),
+        'accents': JSON.parse(localStorage.getItem('accents')),
+        'wordOrder': JSON.parse(localStorage.getItem('wordOrder')),
+      };
+      let matrix = langs.reduce((ma, la) => {
+        ma[la] = langs.reduce((mb, lb) => { 
+          mb[lb] = []; 
+          return mb; }, {});
+        return ma; }, {});
+      
+            
+      let table = document.getElementById("main-table");
+      for (let row of table.children[0].children) {
+        if (row.className == 'header') continue;
+        
+        let codes = {};
+        for (let cell of row.children) {
+          if (cell.className == 'thing') continue;
+          if (cell.innerText.length) {
+            codes[cell.className] = normalizedString(cell.innerText, cell.className, options);
+          }
+        }
+
+        for (let lang1 in codes) {
+          let code1 = codes[lang1];
+          for (let lang2 in codes) {
+            if (lang1 == lang2) continue;
+            let code2 = codes[lang2];
+            if (matrix[lang1] && matrix[lang1][lang2]) {
+              matrix[lang1][lang2].push(score(code1, code2));              
+            }
+          }
+        }
+      }
+       
+      let ranks = {};
+      
+      for (let lang1 of langs) {
+        let totals = [];
+        for (let lang2 of langs) {
+          let total = average(matrix[lang1][lang2]);
+          matrix[lang1][lang2] = total;
+          totals.push(total);
+        }
+        ranks[lang1] = average(totals);
+      }
+ 
+      // langs.sort((lang1, lang2) => ranks[lang2] - ranks[lang1]); 
+      
+      console.log(JSON.stringify(ranks))
+      console.log(JSON.stringify(matrix));
+      createTable(matrix);
+    }
+    
+    function createTable(matrix) {
+      var myTableDiv = document.getElementById("results-table");
+      myTableDiv.innerText = '';
+      
+      var table = document.createElement('table');
+      table.border='0';
+    
+      var tableBody = document.createElement('tbody');
+      table.appendChild(tableBody);
+      
+      var header = document.createElement('tr');
+      tableBody.appendChild(header);
+      var td = document.createElement('td');
+      td.appendChild(document.createTextNode(""));
+      header.appendChild(td);
+      for (let lang of langs) {
+        var td = document.createElement('td');
+        td.align = 'center';
+        td.className += ' matrix_label';
+        td.appendChild(document.createTextNode(flags[lang]));
+        header.appendChild(td);
+      }
+      
+      for (let lang1 of langs) {
+        var tr = document.createElement('tr');
+        tableBody.appendChild(tr);
+
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(flags[lang1]));
+        td.className += ' matrix_label';
+        td.align = 'center';
+        tr.appendChild(td);
+
+        for (let lang2 of langs) {
+          var td = document.createElement('td');
+          let value = lang1 != lang2 ? Math.round(matrix[lang1][lang2] * 100) : "--";
+          td.appendChild(document.createTextNode(value));
+          td.width = 45;
+          td.align = 'center';
+          if (lang1 != lang2) {
+            td.style['background-color'] = 'rgba(0,200,0,' + 1.5 * (value / 100.0) + ')';
+          }
+          tr.appendChild(td);
+        }
+      }
+
+      myTableDiv.appendChild(table);
+    }
+    
+    measureAll();
+    
+  </script>
+</body>
+</html>

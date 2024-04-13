@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>🃏 Pontifex</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../styles.css">
+	<style>
+    .text {
+    	font: 18pt Avenir; 
+    	color: #999;
+    }
+    .field {
+    	font: 24pt Menlo; 
+      color: #999;
+    }
+    .button {
+    	font: 14pt Avenir;
+      color: #999;
+      width: 100px;
+      height: 32px;
+      position: relative;
+      bottom: 2px;
+      left: 5px;
+    }
+    .label {
+      float: left;
+      width: 130px;
+    }
+    #deck {
+     	font: 18pt Menlo; 
+      color: #999;
+    }
+    .card {
+      width: 60px;
+      height: 32px;
+     	display: inline-block;
+      white-space: nowrap;
+    }
+	</style>
+</head>
+<body>
+	<div class="headline">
+		🃏 Pontifex
+	</div>
+  <div class="text">
+      Solitaire is an encryption algorithm that uses a deck of playing cards, as described in the book <a href="https://www.schneier.com/academic/solitaire/" class="link">Cryptonomicon</a> by Neal Stephenson. <br><br>
+	</div>
+  <div class="text">
+  <table>
+    <tr>
+      <td>Key:</td>
+      <td width="400"><input class="field" type="text" id="key" name="fname" size="23"></td>
+    </tr>
+    <tr>
+      <td>Source:</td>
+      <td><input class="field" type="text" id="source" name="fname" size="23"></td>
+    </tr>
+    <tr>
+      <td>Plaintext:</td>
+      <td><input class="field" type="text" id="plaintext" name="fname" size="23" disabled></td>
+      <td><input type="submit" class="button" value="Encrypt" onclick=encrypt()>
+    </tr>
+    <tr>
+      <td>Keystream:&nbsp;</td>
+      <td><input class="field" type="text" id="keystream" name="fname" size="23" disabled></td>
+    </tr>
+    <tr>
+      <td>Encrypted:</td>
+      <td><input class="field" type="text" id="encrypted" name="fname" size="23"></td>
+      <td><input type="submit" class="button" value="Decrypt" onclick=decrypt()>
+    </tr>
+    <tr>
+      <td>Status:</td>
+      <td><input class="field" type="text" id="status" name="fname" size="23" disabled></td>
+    </tr>
+    <tr>
+      <td valign="top">Deck:</td>
+      <td colspan="2"><div id="deck"></div></td>
+    </tr>
+  </table>
+  </div>
+  <script type="text/javascript" src="pontifex.js"></script>
+</body>
+</html>

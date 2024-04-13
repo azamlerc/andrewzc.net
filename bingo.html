@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>✅ Bingo</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=800" />
+	<link rel="stylesheet" href="styles.css">
+  <style>
+    
+    td {
+      white-space: nowrap;
+    }
+  
+    th {
+      text-align: center;
+      
+    }
+    table {
+      border-spacing: 0px;
+    }
+
+    .countries tr td:not(:first-child) {
+      width: 109px;
+      opacity: 0.8;
+    }
+
+    .states tr td:not(:first-child) {
+      width: 72px;
+      opacity: 0.8;
+    }
+
+  
+.ratio {
+  text-align: center;
+  color: #444;
+}  
+   
+ 
+  </style>
+</head>
+<body>
+	<div class="headline">
+    ✅ Bingo
+	</div>
+	<div class="caption">
+
+<table class="countries">
+<tr>
+	<th></th>
+	<th><div class="tooltip"><a href="countries/austria.html">🇦🇹</a><span class="tooltiptext">Austria</span></div></th>
+	<th><div class="tooltip"><a href="countries/belgium.html">🇧🇪</a><span class="tooltiptext">Belgium</span></div></th>
+	<th><div class="tooltip"><a href="countries/czechia.html">🇨🇿</a><span class="tooltiptext">Czechia</span></div></th>
+	<th><div class="tooltip"><a href="countries/france.html">🇫🇷</a><span class="tooltiptext">France</span></div></th>
+	<th><div class="tooltip"><a href="countries/germany.html">🇩🇪</a><span class="tooltiptext">Germany</span></div></th>
+	<th><div class="tooltip"><a href="countries/luxembourg.html">🇱🇺</a><span class="tooltiptext">Luxembourg</span></div></th>
+	<th><div class="tooltip"><a href="countries/netherlands.html">🇳🇱</a><span class="tooltiptext">Netherlands</span></div></th>
+	<th><div class="tooltip"><a href="countries/switzerland.html">🇨🇭</a><span class="tooltiptext">Switzerland</span></div></th>
+</tr>
+<tr>
+  <td>🏛 <a href="capitals.html">Capital</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);">1/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+</tr>
+<tr>
+  <td>🧗 <a href="highest.html">Highest</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/austria.html#highest">0</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#highest">1</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/czechia.html#highest">0</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/france.html#highest">1</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/germany.html#highest">0</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#highest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/netherlands.html#highest">1</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/switzerland.html#highest">0</a></td>
+</tr>
+<tr>
+  <td>🤿 <a href="lowest.html">Lowest</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/austria.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/czechia.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/france.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/germany.html#lowest">0</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/netherlands.html#lowest">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/switzerland.html#lowest">1</a></td>
+</tr>
+<tr>
+  <td>🧭 <a href="extremities.html">Extremeties</a>&nbsp;&nbsp;</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);"><a class="dark" href="countries/austria.html#extremeties">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#extremeties">4</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/czechia.html#extremeties">0</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);"><a class="dark" href="countries/france.html#extremeties">2</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);"><a class="dark" href="countries/germany.html#extremeties">1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#extremeties">4</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);"><a class="dark" href="countries/netherlands.html#extremeties">2</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/switzerland.html#extremeties">0</a></td>
+</tr>
+<tr>
+  <td>🚩 <a href="tripoints.html">Tripoints</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.33);"><a class="dark" href="countries/austria.html#tripoints">2/6</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#tripoints">3/3</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);"><a class="dark" href="countries/czechia.html#tripoints">1/4</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.83);"><a class="dark" href="countries/france.html#tripoints">5/6</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.67);"><a class="dark" href="countries/germany.html#tripoints">4/6</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#tripoints">3/3</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/netherlands.html#tripoints">1/1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.33);"><a class="dark" href="countries/switzerland.html#tripoints">2/6</a></td>
+</tr>
+<tr>
+  <td>🚸 <a href="confluence.html">Confluence</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.10);"><a class="dark" href="countries/austria.html#confluence">1/12</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#confluence">4/4</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/czechia.html#confluence">0/10</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.10);"><a class="dark" href="countries/france.html#confluence">1/78</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.10);"><a class="dark" href="countries/germany.html#confluence">2/48</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#confluence">1/1</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/netherlands.html#confluence">0/4</a></td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);"><a class="dark" href="countries/switzerland.html#confluence">0/5</a></td>
+</tr>
+<tr>
+  <td>🇺🇳 <a href="unesco.html">Heritage</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.86);"><a class="dark" href="countries/austria.html#unesco">6/7</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/belgium.html#unesco">12/12</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.64);"><a class="dark" href="countries/czechia.html#unesco">7/11</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.89);"><a class="dark" href="countries/france.html#unesco">32/36</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.77);"><a class="dark" href="countries/germany.html#unesco">10/13</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/luxembourg.html#unesco">1/1</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);"><a class="dark" href="countries/netherlands.html#unesco">2/2</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.60);"><a class="dark" href="countries/switzerland.html#unesco">3/5</a></td>
+</tr>
+</table>
+<br>
+<table class="states">
+<tr>
+  <td></td>
+	<th><div class="tooltip"><img class="state-small" src="images/states/ct.png"><span class="tooltiptext">Connecticut<span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/dc.png"><span class="tooltiptext">District of Columbia</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/de.png"><span class="tooltiptext">Delaware</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/ma.png"><span class="tooltiptext">Massachusetts</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/md.png"><span class="tooltiptext">Maryland</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/nh.png"><span class="tooltiptext">New Hampshire</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/nj.png"><span class="tooltiptext">New Jersey</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/ny.png"><span class="tooltiptext">New York</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/pa.png"><span class="tooltiptext">Pennsylvania</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/ri.png"><span class="tooltiptext">Rhode Island</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/vt.png"><span class="tooltiptext">Vermont</span></div></th>
+	<th><div class="tooltip"><img class="state-small" src="images/states/va.png"><span class="tooltiptext">Virginia</span></div></th>
+</tr>
+<tr>
+  <td>🏛 <a href="capitals.html">Capital</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">—</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+</tr>
+<tr>
+  <td>🧗 <a href="highest.html">Highest</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1*</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1*</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1*</td>
+</tr>
+<tr>
+  <td>🤿 <a href="lowest.html">Lowest</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1</td>
+</tr>
+<tr>
+  <td>🧭 <a href="extremities.html">Extremeties</a>&nbsp;&nbsp;</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.75);">3</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.75);">3</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);">2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);">2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);">1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);">1</td>
+</tr>
+<tr>
+  <td>🚩 <a href="tripoints.html">Tripoints</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">4/4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.80);">4/5</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1/1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">3/3</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.60);">3/5</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1/1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.50);">3/6</td>
+</tr>
+<tr>
+  <td>🚸 <a href="confluence.html">Confluence</a></td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">2/2</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">—</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">—</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">1/1</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.33);">1/3</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.25);">1/4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">5/5</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.43);">6/14</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.42);">5/12</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 1.00);">—</td>
+		<td class="ratio" style="background-color: rgba(255, 0, 0, 0.30);">0/4</td>
+		<td class="ratio" style="background-color: rgba(0, 200, 0, 0.18);">2/11</td>
+</tr>
+</table>
+
+<div class="smallSpace"><br></div>
+
+<br>
+
+🇧🇪 🇩🇪 🇳🇱 <a href="https://en.wikipedia.org/wiki/Vaalserberg">Vaalserberg</a><br>
+🇧🇪 ➡️ <a href="https://en.wikipedia.org/wiki/Krewinkel">Krewinkel</a><br>
+🇧🇪 ⬇️ <a href="https://en.wikipedia.org/wiki/Torgny_(village)">Torgny</a><br>
+🇩🇪 ⬅️ <a href="https://de.wikipedia.org/wiki/Isenbruch">Isenbruch</a><br>
+🇱🇺 ➡️ <a href="https://en.wikipedia.org/wiki/Sauer">Sauer River</a><br>
+🇱🇺 ⬅️ <a href="https://en.wikipedia.org/wiki/Surré">Surré</a><br>
+🇳🇱 ⬇️ <a href="https://nl.wikipedia.org/wiki/Kuttingen">Kuttingen</a><br>
+🇳🇱 🧗 <a href="https://en.wikipedia.org/wiki/Vaalserberg">Vaalserberg</a><br>
+🇧🇪 🧗 <a href="https://en.wikipedia.org/wiki/Signal_de_Botrange">Signal de Botrange</a><br>
+🇩🇪 <span class="airport">51°N 6°E</span> <a href="https://confluence.org/confluence.php?lat=51&lon=6">Gangelt</a><br>
+🇱🇺 <span class="airport">50°N 6°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=6">Wilwerwiltz-Enscherange</a><br>
+🇩🇪 <span class="airport">50°N 7°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=7">Kröv-Bausendorf</a><br>
+
+<hr>
+
+<div class="smallSpace"><br></div>
+
+🇩🇪 🏛 <a href="https://en.wikipedia.org/wiki/Bonn" class="strike">Bonn</a><br> 
+
+<div class="smallSpace"><br></div>
+
+🇨🇿 🧗 <a href="https://en.wikipedia.org/wiki/Sn%C4%9B%C5%BEka">Sněžka</a><br>
+🇩🇪 🧗 <a href="https://en.wikipedia.org/wiki/Zugspitze">Zugspitze</a><br>
+
+<div class="smallSpace"><br></div>
+
+🇩🇪 🤿 <a href="https://en.wikipedia.org/wiki/Neuendorf-Sachsenbande">Neuendorf-Sachsenbande</a><br>
+
+<div class="smallSpace"><br></div>
+
+🇦🇹 ⬆️ <a href="https://en.wikipedia.org/wiki/Haugschlag">Haugschlag</a><br>
+🇦🇹 ⬅️ <a href="https://en.wikipedia.org/wiki/Feldkirch">Feldkirch</a><br>
+🇨🇿 ⬆️ <a href="https://en.wikipedia.org/wiki/Severn%C3%AD">Severní</a><br> 
+🇨🇿 ➡️ <a href="https://en.wikipedia.org/wiki/Bukovec_(Frýdek-M%C3%ADstek_District)">Bukovec</a><br>
+🇨🇿 ⬇️ <a href="https://en.wikipedia.org/wiki/Vyšš%C3%AD_Brod">Vyšší Brod</a><br> 	  
+🇨🇿 ⬅️ <a href="https://en.wikipedia.org/wiki/Krásná_(Cheb_District)">Krásná</a><br>
+🇫🇷 ⬅️ <a href="https://en.wikipedia.org/wiki/Pointe_de_Corsen">Pointe de Corsen</a><br>
+🇩🇪 ➡️ <a href="https://en.wikipedia.org/wiki/Zentendorf">Zentendorf</a><br>
+🇳🇱 ➡️ <a href="https://en.wikipedia.org/wiki/Bad_Nieuweschans">Bad Nieuweschans</a><br>
+🇨🇭 ⬆️ <a href="https://en.wikipedia.org/wiki/Bargen_Schaffhausen">Bargen</a><br>
+🇨🇭 ⬇️ <a href="https://en.wikipedia.org/wiki/Pedrinate">Pedrinate</a><br>
+🇨🇭 ⬅️ <a href="https://fr.wikipedia.org/wiki/Chancy">Chancy</a><br>
+
+</div>
+<div class="text">
+
+<a href="images/bingo/bingo-europe-west.png"><img src="images/bingo/tn/bingo-europe-west.png" class="hike"></a>
+<a href="images/bingo/bingo-europe-east.png"><img src="images/bingo/tn/bingo-europe-east.png" class="hike"></a>
+
+</div>
+<div class="caption">
+
+🇦🇹 🇨🇿 🇩🇪 Nová Pec<br>
+🇦🇹 🇭🇺 🇸🇮 Sankt Martin an der Raab<br>
+🇦🇹 🇮🇹 🇸🇮 Arnoldstein<br>
+🇦🇹 🇱🇮 🇨🇭 Ruggell<br>
+🇨🇿 🇩🇪 🇵🇱 Zittau<br>
+🇨🇿 🇵🇱 🇸🇰 Hrčava<br>
+
+<div class="smallSpace"><br></div>
+
+🇨🇿 <span class="airport">51°N 15°E</span> <a href="https://confluence.org/confluence.php?lat=51&lon=15">Andělka</a><br>
+🇨🇿 <span class="airport">50°N 13°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=13">Prachomety</a><br>
+🇨🇿 <span class="airport">50°N 14°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=14">Nižbor</a><br>
+🇨🇿 <span class="airport">50°N 15°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=15">Kouřim</a><br>
+🇫🇷 <span class="airport">51°N 2°E</span> <a href="https://confluence.org/confluence.php?lat=51&lon=2">Calais</a><br> 
+🇫🇷 <span class="airport">50°N 2°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=2">Longpré-les-Corps-Saints</a><br>
+🇫🇷 <span class="airport">50°N 3°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=3">Nurlu</a><br>
+🇫🇷 <span class="airport">50°N 4°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=4">Wignehies</a><br>
+🇩🇪 <span class="airport">52°N 7°E</span> <a href="https://confluence.org/confluence.php?lat=52&lon=7">Stadtlohn-Büren</a><br>
+🇩🇪 <span class="airport">50°N 8°E</span> <a href="https://confluence.org/confluence.php?lat=50&lon=8">Oestrich-Winkel</a><br>
+🇳🇱 <span class="airport">52°N 5°E</span> <a href="https://confluence.org/confluence.php?lat=52&lon=5">Benschop, Utrecht</a><br>
+🇳🇱 <span class="airport">52°N 6°E</span> <a href="https://confluence.org/confluence.php?lat=52&lon=6">Velp, Gelderland</a><br>
+
+<div class="smallSpace"><br></div>
+
+🇦🇹 🏞 <a href="https://whc.unesco.org/en/list/772/">Fertö / Neusiedlersee</a><br>
+🇨🇿 ♨️ <a href="https://whc.unesco.org/en/list/1613/">Františkovy Lázně</a><br>
+🇨🇿 🗼 <a href="https://whc.unesco.org/en/tentativelists/5152/">Ještěd Tower</a>*<br>
+🇨🇿 ♨️ <a href="https://whc.unesco.org/en/list/1613/">Karlovy Vary</a><br>
+🇨🇿 ♨️ <a href="https://whc.unesco.org/en/list/1613/">Mariánské Lázně</a><br>
+🇫🇷 🏛 <a href="https://whc.unesco.org/en/list/164/">Arles</a><br>
+🇫🇷 🪖 <a href="https://whc.unesco.org/en/list/1283/">Arras</a><br>
+🇫🇷 🏙 <a href="https://whc.unesco.org/en/list/1256/">Bordeaux</a><br>
+🇫🇷 🏢 <a href="https://whc.unesco.org/en/list/1321">Cité Radieuse de Marseille</a><br>
+🇩🇪 ♨️ <a href="https://whc.unesco.org/en/list/1613/">Bad Ems</a><br>
+🇩🇪 ♨️ <a href="https://whc.unesco.org/en/list/1613/">Bad Kissingen</a><br>
+🇩🇪 🌳 <a href="https://whc.unesco.org/en/list/1127/">Bad Muskau</a><br>
+🇨🇭 🏰 <a href="https://whc.unesco.org/en/list/884/">Bellinzona</a><br>
+🇨🇭 🚂 <a href="https://whc.unesco.org/en/list/1276/">Rhaetian Railway</a><br>
+
+</div>
+<div class="text">
+
+<a href="images/bingo/bingo-usa-north.png"><img src="images/bingo/tn/bingo-usa-north.png" class="hike"></a>
+<a href="images/bingo/bingo-usa-south.png"><img src="images/bingo/tn/bingo-usa-south.png" class="hike"></a>
+
+</div>
+<div class="caption">
+
+<img class="state-small" src="images/states/de.png"> 🏛 Dover<br>
+<img class="state-small" src="images/states/md.png"> 🏛 Annapolis<br>
+<img class="state-small" src="images/states/vt.png"> 🏛 Montpelier<br>
+
+<div class="smallSpace"><br></div>
+
+<img class="state-small" src="images/states/de.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Ebright_Azimuth">Ebright Azimuth</a> (5 km)<br>
+<img class="state-small" src="images/states/ma.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Greylock">Mount Greylock</a> (15 km)<br>
+<img class="state-small" src="images/states/md.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Hoye-Crest">Hoye-Crest</a><br>
+<img class="state-small" src="images/states/nh.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Washington_(New_Hampshire)">Mount Washington</a><br>
+<img class="state-small" src="images/states/ny.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Marcy_(New_York)">Mount Marcy</a><br>
+<img class="state-small" src="images/states/pa.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Davis_(Pennsylvania)">Mount Davis</a><br>
+<img class="state-small" src="images/states/va.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Rogers_(Virginia)">Mount Rogers</a> (20 km)<br>
+<img class="state-small" src="images/states/vt.png"> 🧗 <a href="https://en.wikipedia.org/wiki/Mount_Mansfield">Mount Mansfield</a><br>
+
+<div class="smallSpace"><br></div>
+
+<img class="state-small" src="images/states/vt.png"> 🤿 <a href="https://en.wikipedia.org/wiki/Lake_Champlain">Lake Champlain</a><br>
+
+<div class="smallSpace"><br></div>
+
+<img class="state-small" src="images/states/md.png"> ⬅️ <a href="https://en.wikipedia.org/wiki/Crellin,_Maryland">Crellin, MD</a><br>
+<img class="state-small" src="images/states/va.png"> ⬆️ Cross Junction, VA<br>
+
+<div class="smallSpace"><br></div>
+
+<img class="state-small" src="images/states/md.png">
+<img class="state-small" src="images/states/pa.png">
+<img class="state-small" src="images/states/wv.png"> Markleysburg<br>
+
+<div class="smallSpace"><br></div>
+
+<img class="state-small" src="images/states/md.png"> <span class="airport">39°N 76°W</span> <a href="https://confluence.org/confluence.php?lat=39&lon=-76">Centreville</a><br>
+<img class="state-small" src="images/states/nh.png"> <span class="airport">44°N 72°W</span> <a href="https://confluence.org/confluence.php?lat=44&lon=-72">Grafton</a><br>
+<img class="state-small" src="images/states/nh.png"> <span class="airport">44°N 71°W</span> <a href="https://confluence.org/confluence.php?lat=44&lon=-71">Fryeburg</a><br>
+<img class="state-small" src="images/states/nh.png"> <span class="airport">43°N 72°W</span> <a href="https://confluence.org/confluence.php?lat=43&lon=-72">Hancock</a><br>
+
+<img class="state-small" src="images/states/ny.png"> <span class="airport">44°N 76°W</span> <a href="https://confluence.org/confluence.php?lat=44&lon=-76">Brownville</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">44°N 74°W</span> <a href="https://confluence.org/confluence.php?lat=44&lon=-74">Newcomb</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">43°N 76°W</span> <a href="https://confluence.org/confluence.php?lat=43&lon=-76">Manlius</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">43°N 75°W</span> <a href="https://confluence.org/confluence.php?lat=43&lon=-75">Mohawk</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">43°N 74°W</span> <a href="https://confluence.org/confluence.php?lat=43&lon=-74">Galway</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">42°N 79°W</span> <a href="https://confluence.org/confluence.php?lat=42&lon=-79">Cattaraugus</a><br>
+<img class="state-small" src="images/states/ny.png"> <span class="airport">42°N 78°W</span> <a href="https://confluence.org/confluence.php?lat=42&lon=-78">Alma</a><br>
+
+<img class="state-small" src="images/states/pa.png"> <span class="airport">41°N 78°W</span> <a href="https://confluence.org/confluence.php?lat=41&lon=-78">Moshannon</a><br>
+<img class="state-small" src="images/states/pa.png"> <span class="airport">40°N 78°W</span> <a href="https://confluence.org/confluence.php?lat=40&lon=-78">McConnellsburg</a><br>
+
+<img class="state-small" src="images/states/vt.png"> <span class="airport">45°N 73°W</span> <a href="https://confluence.org/confluence.php?lat=45&lon=-73">Franklin</a><br>
+<img class="state-small" src="images/states/vt.png"> <span class="airport">45°N 72°W</span> <a href="https://confluence.org/confluence.php?lat=45&lon=-72">Derby Line</a><br>
+<img class="state-small" src="images/states/vt.png"> <span class="airport">44°N 73°W</span> <a href="https://confluence.org/confluence.php?lat=44&lon=-73">Lincoln</a><br>
+<img class="state-small" src="images/states/vt.png"> <span class="airport">43°N 73°W</span> <a href="https://confluence.org/confluence.php?lat=43&lon=-73">West Dover</a><br>
+
+<img class="state-small" src="images/states/va.png"> <span class="airport">39°N 78°W</span> <a href="https://confluence.org/confluence.php?lat=39&lon=-78">Paris, VA</a><br>
+<img class="state-small" src="images/states/va.png"> <span class="airport">38°N 78°W</span> <a href="https://confluence.org/confluence.php?lat=38&lon=-78">Louisa</a><br>
+<img class="state-small" src="images/states/va.png"> <span class="airport">38°N 77°W</span> <a href="https://confluence.org/confluence.php?lat=38&lon=-77">Champlain</a><br>
+
+	</div>
+</body>
+</html>

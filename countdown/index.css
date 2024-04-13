@@ -1,0 +1,129 @@
+body {
+	margin: 20px;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+.layer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.link {
+	color: black;
+}
+
+
+.bulletCell {
+	position: relative;
+	width: 36px;
+	height: 30px;
+}
+
+.bullet {
+	position: absolute;
+	top: 0px;
+	width: 32;
+	height: 32;
+}
+
+.seven {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 0px;
+	left: 0;
+	text-align: center;
+	margin-left: 1px;
+	margin-top: 4px;
+	font: 14pt Avenir; 
+	color: white;
+}
+
+.local {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: purple;
+	margin: 2px;
+}
+
+.express {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-bottom: 16px solid purple;
+	top: -16px;
+}
+
+.express:after {
+	content: '';
+	position: absolute;
+	left: -16px; top: 16px;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-top: 16px solid purple;
+}
+
+.headline {
+	margin-bottom: 20px;
+	font: 48pt Avenir;
+	white-space: nowrap;
+}
+
+.items, .checkbox {
+	font: 14pt Avenir; 
+	color: #999;
+	white-space: nowrap;
+}
+
+.options {
+	font: 14pt Avenir; 
+	color: #999;
+}
+
+.caption {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.text {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.russian {
+	font: 48pt Helvetica;
+	font-weight: lighter;
+}
+
+.icon {
+	width: 43px;
+	height: 43px;
+	position: relative;
+	top: 4px;
+}
+
+.icon-large {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	top: 16px;
+}
+
+.missing {
+  color: red;
+}s {
+	
+}

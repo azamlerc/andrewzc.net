@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>💬 Transit Terms</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+  <style>
+  
+    table {
+      border-spacing: 0;
+    }
+  
+    td {
+      padding: 10px;
+      vertical-align: top;
+      font: 12pt Avenir;
+    }
+
+  
+    .matrix_label {
+      font: 12pt Avenir;
+      color: #999;
+    }
+  
+    .header td {
+      font: 16pt Avenir;
+      color: #999;
+    }
+    
+    .en, .gb, .fr, .nl, .es, .de, .it, .pt, .jp {
+      min-width: 150px;
+    }
+    
+    .ru {
+    	font-weight: lighter;
+    }
+
+    .checkboxes {
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    tr .thing {
+      padding: 7px 10px 7px 10px;
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    td a {
+      color: #444;
+    }
+    
+    table.main tr:nth-child(even) {
+      background-color: #EEEEEE80;
+    }
+    
+    table.checkboxes {
+      
+    }
+    
+    table.checkboxes tr td {
+       padding: 0px 20px 0px 0px;
+       /* width: 100px; */
+    }
+    
+    .en, .pt { background-color: rgba(255,0,0,0.08); }
+    .gb, .it { background-color: rgba(255,165,0,0.08); }
+    .de, .jp { background-color: rgba(255,255,0,0.08); }
+    .nl { background-color: rgba(0,128,0,0.08); }
+    .fr { background-color: rgba(0,0,255,0.08); }
+    .es { background-color: rgba(128,0,128,0.08); }
+
+  </style>
+</head>
+<body>
+	<div class="headline">
+		💬 Transit Terms
+  </div>
+  <div class="checkboxes">
+  <table class="checkboxes">
+    <tr>
+      <td><input type="checkbox" id="en" onclick="check('en')"/> USA</td>
+      <td><input type="checkbox" id="gb" onclick="check('gb')"/> UK</td>
+      <td><input type="checkbox" id="de" onclick="check('de')"/> German</td>
+      <td><input type="checkbox" id="nl" onclick="check('nl')"/> Dutch</td>
+      <td><input type="checkbox" id="fr" onclick="check('fr')"/> French</td>
+      <td><input type="checkbox" id="es" onclick="check('es')"/> Spanish</td>
+      <td><input type="checkbox" id="pt" onclick="check('pt')"/> Portuguese</td>
+      <td><input type="checkbox" id="it" onclick="check('it')"/> Italian</td>
+      <td><input type="checkbox" id="jp" onclick="check('jp')"/> Japanese</td>
+    </tr>
+  </table>
+  <br>
+  </div>
+  <table class="main" id="main-table">
+    <tr class="header">
+      <td class="thing">
+      <td class="en">🇺🇸 USA</td>
+      <td class="gb">🇬🇧 UK</td>
+      <td class="de">🇩🇪 German</td>
+      <td class="nl">🇳🇱 Dutch</td>
+      <td class="fr">🇫🇷 French</td>
+      <td class="es">🇪🇸 Spanish</td>
+      <td class="pt">🇵🇹 Portuguese</td>
+      <td class="it">🇮🇹 Italian</td>
+      <td class="jp">🇯🇵 Japanese</td>
+    </tr>
+
+		<tr class="code">
+			<td class="thing">🚇</td>
+			<td class="en">Metro, Subway</td>
+			<td class="gb">Underground</td>
+			<td class="de">U-Bahn</td>
+			<td class="nl">Metro</td>
+			<td class="fr">Métro</td>
+			<td class="es">Metro</td>
+			<td class="pt">Metro</td>
+			<td class="it">Metrò</td>
+			<td class="jp">Metro, Subway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">⬇️</td>
+			<td class="en">Underpass</td>
+			<td class="gb">Subway</td>
+			<td class="de">Unterführung</td>
+			<td class="nl">Fietstunnel</td>
+			<td class="fr">Passage</td>
+			<td class="es">Paso inferior</td>
+			<td class="pt">Passagem subterrânea</td>
+			<td class="it">Sottopasso</td>
+			<td class="jp">Crossing</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🥖</td>
+			<td class="en">Subway</td>
+			<td class="gb">Subway</td>
+			<td class="de">Subway</td>
+			<td class="nl">Subway</td>
+			<td class="fr">Subway</td>
+			<td class="es">Subway</td>
+			<td class="pt">Subway</td>
+			<td class="it">Subway</td>
+			<td class="jp">Subway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🚋</td>
+			<td class="en">Streetcar, Trolley</td>
+			<td class="gb">Tramway</td>
+			<td class="de">Tram</td>
+			<td class="nl">Tram</td>
+			<td class="fr">Tram</td>
+			<td class="es">Tranvía</td>
+			<td class="pt">Elétrico</td>
+			<td class="it">Tram</td>
+			<td class="jp">Tramway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🚠</td>
+			<td class="en">Tramway</td>
+			<td class="gb">Cable Car</td>
+			<td class="de">Pendelbahn</td>
+			<td class="nl">Kabelbaan</td>
+			<td class="fr">Téléphérique</td>
+			<td class="es">Teleférico</td>
+			<td class="pt">Teleférico</td>
+			<td class="it">Funivia</td>
+			<td class="jp">Ropeway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🚡</td>
+			<td class="en">Gondola Lift</td>
+			<td class="gb">Gondola Lift</td>
+			<td class="de">Gondelbahn</td>
+			<td class="nl">Gondelbaan</td>
+			<td class="fr">Télécabine</td>
+			<td class="es">Telecabina</td>
+			<td class="pt">Telecabine</td>
+			<td class="it">Cabinovia</td>
+			<td class="jp">Ropeway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🛗</td>
+			<td class="en">Elevator</td>
+			<td class="gb">Lift</td>
+			<td class="de">Lift</td>
+			<td class="nl">Lift</td>
+			<td class="fr">Ascenseur</td>
+			<td class="es">Ascensor</td>
+			<td class="pt">Elevador</td>
+			<td class="it">Ascensore</td>
+			<td class="jp">Elevator</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🪢</td>
+			<td class="en">Cable Car</td>
+			<td class="gb">Tramway</td>
+			<td class="de">Kabelstraßenbahn</td>
+			<td class="nl">Kabeltram</td>
+			<td class="fr">Tramway à traction par câble</td>
+			<td class="es">Tranvía Funicular</td>
+			<td class="pt">Carruagem de cabos</td>
+			<td class="it">Tranviaria a Trazione Funicolare</td>
+			<td class="jp">Cable Car</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🚞</td>
+			<td class="en">Inclined Plane</td>
+			<td class="gb">Funicular</td>
+			<td class="de">Standseilbahn</td>
+			<td class="nl">Kabelspoorweg</td>
+			<td class="fr">Funiculaire</td>
+			<td class="es">Funicular</td>
+			<td class="pt">Funicular</td>
+			<td class="it">Funicolare</td>
+			<td class="jp">Cable Car</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">⚙️</td>
+			<td class="en">Cog Railway</td>
+			<td class="gb">Rack Railway</td>
+			<td class="de">Zahnradbahn</td>
+			<td class="nl">Tandradspoorweg</td>
+			<td class="fr">Chemin de fer à crémaillère</td>
+			<td class="es">Ferrocarril de cremallera</td>
+			<td class="pt">Caminho de ferro de cremalheira</td>
+			<td class="it">Ferrovia a cremagliera</td>
+			<td class="jp">Rack Railway</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🛒</td>
+			<td class="en">Shopping Cart</td>
+			<td class="gb">Trolley</td>
+			<td class="de">Einkaufswagen</td>
+			<td class="nl">Winkelwagen</td>
+			<td class="fr">Chariot</td>
+			<td class="es">Carrito</td>
+			<td class="pt">Carrinho</td>
+			<td class="it">Carrello</td>
+			<td class="jp">Shopping Cart</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🐂</td>
+			<td class="en">Chariot</td>
+			<td class="gb">Chariot</td>
+			<td class="de">Streitwagen</td>
+			<td class="nl">Strijdwagen</td>
+			<td class="fr">Char</td>
+			<td class="es">Carro de guerra</td>
+			<td class="pt">Carro de guerra</td>
+			<td class="it">Carro da guerra</td>
+			<td class="jp">Chariot</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">💥</td>
+			<td class="en">Tank</td>
+			<td class="gb">Tank</td>
+			<td class="de">Kampfpanzer</td>
+			<td class="nl">Tank</td>
+			<td class="fr">Char d’assaut</td>
+			<td class="es">Carro de combate</td>
+			<td class="pt">Carro de combate</td>
+			<td class="it">Carro armato</td>
+			<td class="jp">Tank</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🚚</td>
+			<td class="en">Truck</td>
+			<td class="gb">Lorry</td>
+			<td class="de">Lastkraftwagen</td>
+			<td class="nl">Vrachtauto</td>
+			<td class="fr">Camion</td>
+			<td class="es">Camión</td>
+			<td class="pt">Camião</td>
+			<td class="it">Autocarro</td>
+			<td class="jp">Truck</td>
+		</tr>
+		<tr class="code">
+			<td class="thing">🛞</td>
+			<td class="en">Truck</td>
+			<td class="gb">Bogie</td>
+			<td class="de">Drehgestell</td>
+			<td class="nl">Draaistel</td>
+			<td class="fr">Bogie</td>
+			<td class="es">Bogíe</td>
+			<td class="pt">Truque ferroviário</td>
+			<td class="it">Carrello</td>
+			<td class="jp">Trolley</td>
+		</tr>
+
+  </table>
+	<br>
+  <div class="caption">
+		Language similarity
+	</div>
+  <div id="results-table">
+  </div>
+  <br>
+  <script>
+    let langs = [
+      'en',
+      'gb',
+      'de',
+      'nl',
+      'fr',
+      'es',
+      'pt',
+      'it',
+      'jp'
+    ];
+    
+    let optionKeys = ['lowercase', 'accents', 'wordOrder'];
+    
+    let flags = {
+      'en': '🇺🇸',
+      'gb': '🇬🇧',
+      'de': '🇩🇪',
+      'nl': '🇳🇱',
+      'fr': '🇫🇷',
+      'es': '🇪🇸',
+      'pt': '🇵🇹',
+      'it': '🇮🇹',
+      'jp': '🇯🇵',
+    }
+    
+    function check(lang) {
+      let value = document.getElementById(lang).checked;
+      localStorage.setItem(lang, value);
+      update(lang, value);
+    }
+    
+    function setOption(option) {
+      let value = document.getElementById(option).checked;
+      localStorage.setItem(option, value);
+      measureAll();
+    }
+    
+    for (let lang of langs) {
+      let value = JSON.parse(localStorage.getItem(lang));
+      if (value === null) value = true;
+      document.getElementById(lang).checked = value;
+      update(lang, value);
+    }
+    
+    function update(lang, value) {
+      for (let cell of document.getElementsByClassName(lang)) {
+        cell.style.display = value ? "table-cell" : "none";
+      }
+    }
+    
+    function sortWords(str) {
+        return str.split(' ').sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join(' ');
+    }
+    
+    function sortString(str) {
+        return str.split('').sort((a, b) => a.localeCompare(b)).join('');
+    }
+    
+    function levenshteinDistance(a, b) {
+      const distanceMatrix = Array(b.length + 1).fill(null)
+        .map(() => Array(a.length + 1).fill(null));
+
+      for (let i = 0; i <= a.length; i += 1) {
+        distanceMatrix[0][i] = i;
+      }
+
+      for (let j = 0; j <= b.length; j += 1) {
+        distanceMatrix[j][0] = j;
+      }
+
+      for (let j = 1; j <= b.length; j += 1) {
+        for (let i = 1; i <= a.length; i += 1) {
+          const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+          distanceMatrix[j][i] = Math.min(
+            distanceMatrix[j][i - 1] + 1, // deletion
+            distanceMatrix[j - 1][i] + 1, // insertion
+            distanceMatrix[j - 1][i - 1] + indicator, // substitution
+          );
+        }
+      }
+
+      return distanceMatrix[b.length][a.length];
+    }
+    
+    function score(code1, code2) {
+      if (code1 == code2) return 1.0;
+      let distance = levenshteinDistance(code1, code2);
+      let totalLength = (code1.length + code2.length) / 2.0;
+      return (1 - (distance / totalLength)) * 1.0;
+    }
+    
+    function average(values) {
+      if (values.length == 0) return 0.0;
+      let val = values.reduce((a, b) => a + b, 0.0) / values.length;
+      return val > 0 ? val : 0.0;
+    }
+    
+    function measureAll() {
+      let matrix = langs.reduce((ma, la) => {
+        ma[la] = langs.reduce((mb, lb) => { 
+          mb[lb] = []; 
+          return mb; }, {});
+        return ma; }, {});
+      
+            
+      let table = document.getElementById("main-table");
+      for (let row of table.children[0].children) {
+        if (row.className == 'header') continue;
+        
+        let codes = {};
+        for (let cell of row.children) {
+          if (cell.className == 'thing') continue;
+          if (cell.innerText.length) {
+            codes[cell.className] = cell.innerText;
+          }
+        }
+
+        for (let lang1 in codes) {
+          let code1 = codes[lang1];
+          for (let lang2 in codes) {
+            if (lang1 == lang2) continue;
+            let code2 = codes[lang2];
+            if (matrix[lang1] && matrix[lang1][lang2]) {
+              matrix[lang1][lang2].push(score(code1, code2));              
+            }
+          }
+        }
+      }
+       
+      let ranks = {};
+      
+      for (let lang1 of langs) {
+        let totals = [];
+        for (let lang2 of langs) {
+          let total = average(matrix[lang1][lang2]);
+          matrix[lang1][lang2] = total;
+          totals.push(total);
+        }
+        ranks[lang1] = average(totals);
+      }
+ 
+      // langs.sort((lang1, lang2) => ranks[lang2] - ranks[lang1]); 
+      
+      console.log(JSON.stringify(ranks))
+      console.log(JSON.stringify(matrix));
+      createTable(matrix);
+    }
+    
+    function createTable(matrix) {
+      var myTableDiv = document.getElementById("results-table");
+      myTableDiv.innerText = '';
+      
+      var table = document.createElement('table');
+      table.border='0';
+    
+      var tableBody = document.createElement('tbody');
+      table.appendChild(tableBody);
+      
+      var header = document.createElement('tr');
+      tableBody.appendChild(header);
+      var td = document.createElement('td');
+      td.appendChild(document.createTextNode(""));
+      header.appendChild(td);
+      for (let lang of langs) {
+        var td = document.createElement('td');
+        td.align = 'center';
+        td.className += ' matrix_label';
+        td.appendChild(document.createTextNode(flags[lang]));
+        header.appendChild(td);
+      }
+      
+      for (let lang1 of langs) {
+        var tr = document.createElement('tr');
+        tableBody.appendChild(tr);
+
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(flags[lang1]));
+        td.className += ' matrix_label';
+        td.align = 'center';
+        tr.appendChild(td);
+
+        for (let lang2 of langs) {
+          var td = document.createElement('td');
+          let value = lang1 != lang2 ? Math.round(matrix[lang1][lang2] * 100) : "--";
+          td.appendChild(document.createTextNode(value));
+          td.width = 45;
+          td.align = 'center';
+          if (lang1 != lang2) {
+            td.style['background-color'] = 'rgba(0,200,0,' + 1.5 * (value / 100.0) + ')';
+          }
+          tr.appendChild(td);
+        }
+      }
+
+      myTableDiv.appendChild(table);
+    }
+    
+    measureAll();
+    
+  </script>
+</body>
+</html>

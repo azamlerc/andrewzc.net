@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>🚟 Train Facts</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=800" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="headline">
+		🚟 Train Facts
+	</div>
+	<div class="caption">
+    Did you know?
+    <br><br>
+	</div>
+	<div class="caption" id="facts">
+	</div>
+  <script>
+    
+    let div = document.getElementById('facts');
+    
+    let facts = [
+      '🇸🇪 Subway stations in Stockholm were blasted out of solid rock, and they left the surfaces unfinished for a cave-like atmosphere, but painted in bright colors.',
+      '🇺🇸 You can visit the closed City Hall station on the New York Subway! At Brooklyn Bridge City Hall, board a downtown 6 train as it turns around on the City Hall loop.',
+      '🇨🇦 A grand union is a four-way intersection where trains can enter and leave from any possible combination of streets. The Toronto streetcar system has three grand unions, five three-quarter unions, four half unions, and four butterfly unions.',
+      '🇺🇸 The downtown loop on the Chicago El has an elevated three-quarter union.',
+      '🇺🇸 The State Street Subway in Chicago features one continuous platform spanning from Lake Street to Jackson Street. Trains stop at several designated “stations” along the platform.',
+      '🇺🇸 Chambers Street on the J/Z was the first station on the New York Subway built beneath a building, the Manhattan Municipal Building.',
+      '🇺🇸 The former Third Avenue Line in the Bronx used to merge into the White Plains Line at Gun Hill Road station. You can still see the track beds on the lower level of the elevated station.',
+      '🚋 The F Market line in San Francisco features restored PCC streetcars from across the United States.',
+      '🇺🇸 The following New York Subway stations were only intended to be temporary terminals: Norwood 205 St, Flushing Main St, Jamaica 179 St, Jamaica Center, and Flatbush Av. The city ran out of money to build the extensions.',
+      '🇺🇸 The New York Subway L train used to continue at grade beyond Canarsie Rockaway Parkway to Canarsie Pier. The section was closed when the line was electrified due to the number of road crossings.',
+      '🇫🇷 Paris Metro trains run on tires on lines 1, 4, 6, 11 and 14. The Montréal Metro uses similar technology.',
+      '🇫🇷 Paris trams T5 and T6 run on tires, with a single center guide rail.',
+      '🇷🇺 Stations on the circle line of the Moscow Metro are decorated with marble floors, statues and chandeliers.',
+      '🇫🇷 The VAL automatic people mover system is used by Charles de Gaulle and Orly airports in Pars, as well as the Lille, Rennes and Toulouse metros.',
+      '🇯🇵 When the atomic bomb was dropped on Hiroshima, limited tram service was restored in three days. Two trams that survived the bomb have been restored and are still in service.',
+      '🇺🇸 Queensboro Plaza on the New York Subway is the only station with a cross platform connection between A Division and B Division trains.',
+      '🚅 The Tōkaidō Shinkansen began service in Japan in October, 1964. The first Series 0 locomotive is now in a museum.',
+      '🇯🇵 Shinkansen trains in Japan have an earthquake detection system that will automatically apply the emergency brakes.',
+      '🇫🇷 Paris Metro line 1 was the first line in the world to be converted from manual to driverless operation without closing. During the transition period, some trains had drivers and others were automatic.',
+      '🇪🇬 The Cairo tram network operated from 1896 to 2015.',
+      '🇩🇿 Algiers and Cairo are the only cities in Africa with metro systems.',
+      '🇨🇿 The Tatra T3 is the most widely produced tram in the world, with over 14,000 units manufactured in Czechoslovakia (later Czechia) between 1960 and 1999.',
+      '🇬🇧 The London Underground opened in 1863, featuring broad gauge steam trains connecting seven stations.',
+      '🇺🇸 The 42 St Shuttle on the New York Subway has no signals. The three tracks each have a single train that runs back and forth, with the driver and conductor swapping responsibilities at each end.',
+      '🇯🇵 Everyone rides facing forwards on trains in Japan. When trains get to the end of the line, the conductor turns all the seats around.',
+      '🇺🇸 The track gauge on the Washington Metro is 1429mm. That’s just 6mm narrower than standard gauge.',
+      '🇷🇺 Tsar Nicholas I ordered the train line from Moscow to St. Petersburg to be built in a perfectly straight line. Legend has it that the only curve was the result of the tsar bumping his finger when holding a ruler to draw the line on the map. (In fact, the deviation was built in 1877 to avoid a steep hill.) ',
+      '🇫🇷 Line C of the Lyon Metro uses rack-and-pinion gears to climb a steep hill. Croix Paquet has the steepest platform of any station in the world, at 17% grade.',
+      '🎫 Reservations are only required for some seats on the Shinkansen in Japan.',
+      '🇩🇪 Line U55 on the Berlin U-Bahn has only three stations. It will be merged with the rest of the U5 line in 2020.',
+      '🇳🇱 The OV-Chipkaart contactless card can be used to pay for all public transportation in the Netherlands: train, metro, tram and bus.',
+      '🇫🇷 Many stations on the Paris tram T3 are named for women: Maryse Bastié, Alexandra David-Néel, Marie de Mirabel, Séverine, Adrienne Bolland, Delphine Seyrig, Ella Fitzgerald, Rosa Parks, Collete Besson, Diane Arbus, Angélique Compoint, and Marguerite Long.',
+      '🇫🇷 Every station on Paris tram T3 has a different announcement, featuring a unique musical jingle and the station name read by two different people.',
+      '🇩🇪 During the time of the Berlin Wall, lines U6 and U8 passed through parts of East Berlin without stopping.',
+      '🇺🇸 If you take a Manhattan-bound Q train from DeKalb Av and look out the window, you’ll see an artwork installation called the Masstransiscope as you pass the former Myrtle Av station.',
+      '🇫🇷 Line 15 of the Grand Paris Express will feature 36 stations in a ring around Paris, connecting to most lines.',
+      '🗾 The Shinkansen route to the northern Japanese island of Hokkaido passes through the undersea Seikan Tunnel. It has dual-gauge track to accommodate standard and high-speed trains.',
+      '🇫🇷 In the 1970s, Paris constructed the RER network by joining suburban train systems on opposite sides of the city with tunnels running through the city center.',
+      '🇬🇧 Crossrail will connect suburban rail networks on opposite sides of London with a central tunnel through the city centre, and will be known as the Elizabeth Line when it opens in… well we’ll see when it opens.',
+      '🇬🇧 Tube tunnels on the Bakerloo, Central, Jubilee, Northern, Piccadilly, Victoria and Waterloo & City lines of the London Underground have a diameter of 11 feet 8 inches.',
+      '🇬🇧 The new Blackfriars station in London spans a bridge over the Thames, with entrances on both banks of the river.',
+      '🚟 The Wuppertaler Schwebebahn is a suspension railway in Wuppertal, Germay that has been in service since 1901. Trains hang from an overhead rail and run over the River Wupper.',
+      '🇫🇷 Regional routes in France are often served by a modern autorail, a train featuring just a single car.',
+      '🇬🇧 The Leicester Square and Covent Garden stations on the London Underground are only 260 meters apart, with a journey time of twenty seconds. The single cash fare is £4.80, or £29.81 per mile.',
+      '🇬🇧 Chesham station on the London Underground is four miles from Chalfont & Latimer, the nearest station. A shuttle train runs back and forth between them.',
+      '🇳🇱 The RandstadRail line runs as a tram in the city of The Hague, and then as a train towards the suburb of Zoetermeer.',
+      '✉️ La Poste ran dedicated TGV freight trains for carrying mail from 1984 to 2015. They were bright yellow and had no windows.',
+      '🇺🇸 When the Orange Line of the Washington Metro was constructed in 1978, they constructed the foundation for the viaduct that would eventually carry the Silver Line out of the median of Interstate 66. However, engineers forgot to record how much weight the foundations could hold, so they had to rebuild them four decades later.',
+      '🇺🇸 Washington, DC had extensive streetcar service until 1962. The new DC Streetcar line has eight stations and doesn’t go anywhere useful.',
+      '🇷🇺 Moscow Metro 2 is rumored to be a separate system used just by the government, built by Stalin and the KGB.',
+      '🇺🇸 The PCC Streetcar is one of the most popular ever built, with 5000 built between 1936 and 1952. They served in 37 different cities, and many are still in service.',
+      '🇺🇸 The Ashmont–Mattapan High-Speed Line in Boston features refurbished PCC Streetcars that have been in continuous service since 1945.',
+      '🇺🇸 The Boston MBTA uses a jet-engine powered snow blower called “Snowzilla” to clear snow on tram lines.',
+      '🔥 Metra uses gas-fed heaters to melt ice along the tracks in Chicago. It gives the appearance of the tracks being on fire.',
+      '🇫🇷 The hilly section of the Paris Metro line 11 from Répubique to Jourdain was once served by a funicular tram, built by the father of the Metro, Fulgence Bienvenüe. Occasionally the cable would fail, and all the trams on the line would crash into each other down the hill.',
+      '🇬🇧 The Waterloo & City Line of the London Underground serves just two stations, Waterloo and Bank. It has no track connection with other lines, so train cars must be lifted out by crane for refurbishment.',
+      '🇺🇸 A subplot of the 1988 film Who Framed Rober Rabbit was based on the real General Motors Streetcar Conspiracy, in which GM, Firestone and Standard Oil conspired to buy streetcar systems and replace them with buses.',
+      '🇺🇸 Secaucus Junction features several NJ Transit lines that cross at a right angle, but it is not a true junction as there is no connection between the lines.',
+      '🇮🇸 There are no trains in Iceland.',
+      '🇺🇸 The Amtrak Acela Express looks like a high-speed train, but features numerous grade crossings and sections where the maximum speed is 60 mph.',
+      '🇫🇷 Paris Metro line 4 follows a circuitous path through the city center because it was supposed to pass under the Académie française, who rejected the tunnel because of the anticipated vibration.',
+      '🇨🇳 China has thirty cities with metro systems, with a total of 189 lines. Nine more systems are in development.',
+      '🇮🇹 Three of the main stations on the Rome Metro, Repubblica, Spagna and Barberini, are currently closed for repairs. Nobody knows when they will be reopened.',
+      '🇺🇸 The New York Subway has six stations called 23 St. Five are in Manhattan and one is in Queens. There were five stations called Broadway.',
+      '🇹🇷 The Marmaray Line in Istanbul runs under the Bosporus, connecting Europe and Asia.',
+      '🇩🇪 The U2 song “Zoo Station” on the album Achtung Baby is named for Zoologischer Garten station in Berlin, where the album was recorded.',
+      '🇵🇹 The Portuguese cities of Lisbon and Porto feature heritage trams that are over 100 years old.',
+      '🇫🇷 The Paris Metro line 7bis is the only line served by MF 88 rolling stock, the first type on the network featuring interconnected cars and articulated bogies.',
+      '🇺🇸 There’s a six-platform ghost station in Brooklyn called South Fourth Street that never opened. It was supposed to connect to a tunnel coming from the Second Avenue station on the F train. West Fourth Street station is so called to distinguish it from this station on the same line.',
+      '🇬🇧 The enormous Canary Wharf station on the Jubilee Line of the London Underground was built in the excavated space of a former dock.',
+      '🇺🇸 In Washington DC, streetcar tracks are still visible on O and P streets in Georgetown.',
+      '🇩🇪 When Berlin was divided by the Berlin Wall, the East German government was responsible for running the entire S-Bahn, including the section in West Berlin.',
+      '🏴󠁧󠁢󠁷󠁬󠁳󠁿 The Snowdon Mountain Railway is a rack-and-pinion railway that climbs Snowdon, the highest mountain in Wales, in Llanberis, Gwynedd, Wales.',
+      '🇫🇷 Église d’Auteuil is the least busy station on the Paris Metro by riders entering. A one way station, it only serves riders going away from Paris.',
+      '🇬🇧 Clapham Junction station in suburban London is the busiest station in Europe, with up to 180 trains per hour.',
+      '🇬🇧 The Island Line on the Isle of Wight uses refurbished London Underground 1938 Stock.',
+      '🇲🇽 El Paso and Ciudad Juárez had a unified streetcar system that crossed the US/Mexico border until 1974.',
+      '🇨🇭 The Gotthard Base Tunnel in Switzerland is the world’s longest and deepest tunnel, at 57 km long and 2,450 m deep.',
+      '🇳🇱 The Noord-Zuidlijn of the Amsterdam Metro opened in 2018, and connects the area north of the IJ with the city center.',
+      '🇸🇦 Adam Giambrone, having given up on building the BQX streetcar in Brooklyn and Queens, was hired by Saudia Arabia to design the Riyadh Metro.',
+      '🏴󠁧󠁢󠁳󠁣󠁴󠁿 The Glasgow Subway dates to 1896 and features tube trains running in a continuous loop. Originally painted orange, these trains were nicknamed the “Clockwork Orange” by the media.',
+      '🇫🇷 The Petite Ceinture railway was constructed in a circle around Paris, just inside the city walls, in 1867, and was abandoned in 1934. Parts are now used by the RER C, while other sections have been converted to rail trails.',
+      '🇫🇷 The Grand Ceinture railway was constructed in a circle around Paris, about 15 km outside the city walls, in 1886. S safections will soon be served by express trams 11, 12 and 13.',
+      '🇺🇸 Tottenville, the last stop on the Staten Island Railway, is the southernmost point in the state of New York.',
+      '🇺🇸 Montauk station, the last stop on the Long Island Rail Road, is the easternmost station in the state of New York, and was featured in the film Eternal Sunshine of the Spotless Mind.',
+      '🇺🇸 Manhattan was previously served by elevated trains on Second, Third, Sixth and Ninth Avenues. These were typically triple tracked, with express trains rising up at express stops, served by platforms directly over the local tracks.',
+      '🇺🇸 When the Ninth Avenue El was torn down, a small stub remained from Yankee Stadium to the Polo Grounds, and was served by a shuttle from 1940 to 1958.',
+      '🇺🇸 Trains once ran over the Brooklyn Bridge to an elevated station just across from City Hall in Manhattan.',
+      '🇫🇷 The tunnel that carries the Paris Metro line 4 under the Seine was constructed through marshy ground by freezing the mud.',
+      '🇫🇷 The Paris RER C runs through central Paris in a tunnel under the embankment along the left bank of the Seine, built in the 1840s. The central portion of the line is closed for a month every summer for repair work to prevent it collapsing into the river.',      
+      '🇫🇷 The world record for the fastest steel wheeled train was set by a special TGV test train at 574.8 km/h.',
+      '🇺🇸 The Z forms a skip stop service with the J, with six trains per day in each direction.',
+      '🇺🇸 Rockaway Park Beach 116 St is normally served by the Rockaway Shuttle, but there are three direct A trains per day in each direction.',
+      '🇭🇰 Passengers flying out of Hong Kong can check in downtown and then take the Airport Express to the airport with just their carry on.',
+      '🇧🇪 In many countries train traffic operates on the same side as road traffic. However, trains operate on the left in France, Belgium, Switzerland, Italy, Portugal, Sweden, Egypt, Israel, and most of South America and Southeast Asia.',
+      '🇨🇳 Rail freight from China to Europe currently has a break of gauge when entering and leaving Russia. A new Silk Road high speed line will allow continuous traffic.',
+      '🇱🇺 Luxembourg was served by trams from 1875 to 1964. A new generation of tram began service in 2017.',
+      '🇫🇷 There is a connection between lines 3bis and 7bis on the Paris Metro, with a ghost station called Haxo that was never completed.',
+      '🇧🇦 The Olympic Express began service on the Belgrade to Sarajevo route for the 1984 Winter Olympics. Interrupted by the war in 1991, service was restored in 2009.',
+      '🇺🇸 Before service began over the Williamsburg bridge, trains continued from Marcy St to the East River where passengers could change to the ferry.',
+      '🇺🇸 The Myrtle Av Line used to continue past Broadway towards downtown Brooklyn. Traces of the existing elevated structure are still visible.',
+      '🇫🇷 Wissous is a ghost station on the Grand Ceinture of Paris. It is visible from passing RER C trains, and from the OrlyVAL shuttle.',
+      '🇺🇸 The Malbone Street Wreck in 1918 was the deadliest accident on the New York Subway, with 93 fatalities. The city has since renamed the street to Empire Boulevard.',
+      '🇧🇦 The Sarajevo tram system was once served by streetcars donated by Washington, DC.',
+      '🇰🇵 The Pyongyang Metro is served by former U-Bahn trains donated by Berlin.',
+      '🇨🇦 On the Montreal Metro, doors light up in green when they’re about to open and turn red when they’re about to close.',
+      '🇫🇷 A modern rack-and-pinion railway brings visitors to the top of the Puy-de-Dôme, an extinct volcano in Clermont Ferrand, Auverge, France.',
+      '🇺🇸 Hudson Yards station features a diagonal elevator that runs parallel to one of the escalators.',
+      '🇮🇱 The Carmelit funicular metro in Haifa is Israel’s only underground transit system.',
+      '🇺🇸 When the first transcontinental railroad was completed in Promontory, Utah, the last ten miles of track were laid in just 12 hours (almost 1 mph). Two miles of tunnel for the East Side Access project will require fifteen years to build (fifteen millionths of a mph).',
+      '🇨🇦 Rouses Point is the last station on the Amtrak Adirondack Line before the Canadian border. It features in the final episode of the TV show The Americans.',
+      '🇺🇸 On the New York Subway, the conductor rides in a compoartment at the middle of the train. Before opening the doors at each station, the conductor points to a zebra-striped bar mounted above the platform to verify that the train has stopped at the correct position.',
+      '🇫🇷 The Paris Metro has a contactless farecard called Navigo. Weekly tickets always begin on Monday, and monthly tickets always begin on the first of the month.',
+      '🇺🇸 Most commuter trains terminate at New York Penn Station. This could be improved if LIRR trains terminated at Secaucus and NJ Transit trains terminated at Sunnyside. Properly joining the networks would be difficult because the networks are electrified differently.',
+      '🇺🇸 The original New York Penn Station was built in 1910, and demolished in 1963 to make room for Madison Square Garden. Its destruction led to the beginning of the landmark preservation movement in the United States.',
+      '🇺🇸 Metro Center and Gallery Place on the Washington Metro are only about two blocks apart.',
+      '🇺🇸 When the New York Subway extended platforms in all stations to accomodate ten car trains, many stations became so close together that some were closed. Ghost stations are still visible at 18 St on the 6 train, and 91 St on the 1 train. 145 St on the 3 train was never extended.',
+      '🇫🇷 The Musée d’Orsay in Paris was formerly a station called the Gare d’Orsay. When it opened in 1910, it was the first electrifield urban terminal station in the world. It is now served by through trains of the RER C.',
+      '🇫🇷 Pont Cardinet is the only mainline through station inside Paris.',
+      '🇺🇸 The Cumbres & Toltec Scenic Railroad is a 3 ft narrow-gauge heritage railroad running between Chama, New Mexico and Antonito, Colorado.',
+      '🇺🇸 In the ninteenth century, trains to New York terminated at five railroad terminals along the Hudson waterfront in New Jersey, where passengers transferred to a ferry: Weehawken, Hoboken, Pavonia, Exchange Place and Communipaw. The Weehawken ferry operated from 1700 to 1959. Hoboken is the only ferry still in use.',
+      '🇦🇪 Fish are prohibited on the Dubai Metro.',
+      '🎈 Streetcars from Brooklyn used to cross the Williamsburg Bridge and turn around at an underground terminal station. The seven baloon loops are still visible from the Essex St platforms.',
+      '🇺🇸 Several New York City train lines are triple tracked but have no regular express service. The MTA experimented with a morning express on the 4 train in 2009, in June and October to December.',
+      '🇺🇸 The SEPTA Key card is both a transit pass and an actual debit card.',
+      '🎈 The SEPTA Market-Frankford and Broad Street rapid transit lines both have balloon loops for turning trains at one end. The City Hall loop, currently used to turn trolleys, was originally used by the Market-Frankford line.',
+      '🇺🇸 The SEPTA Norristown Highspeed Line has a unique combination of characteristics. Like a train, it runs on a grade separated heavy rail line with high platforms. Like a tram, it is a single car with onboard fare collection, and makes request stops.',
+      '🇺🇸 The Rail Line is an urban park in Philadelphia created from a disused train viaduct, similar to the High Line in New York.',
+      '🇺🇸 There is a pedestrian concourse under Philadelphia City Hall linking ten stations: two each serving the Market-Frankford line, the Broad Street line, PATCO, suburban trains and trolleys.',
+      '🇺🇸 The MBTA and SEPTA are the only US transit agencies that operate all five major types of mass transit vehicles: metro, light rail, commuter rail, electric trolleybus and motor bus.',
+      '🇱🇺 Public transport on train, tram and bus is free in Luxembourg.',
+      '🇯🇵 The train station nearest to Fukushima Daiichi Nuclear Power Station is called “Ōno”.',
+      '🇲🇷 The longest train in the world is an iron ore train in Mauritania.',
+    ];
+
+    let shuffled = [];
+    let flags = [];
+    while (shuffled.length < 3) {
+      let index = Math.floor(Math.random() * facts.length);
+      let fact = facts[index];
+      let flag = fact.substring(0,4);
+
+      if (!flags.includes(flag)) {
+        shuffled.push(fact);
+        flags.push(flag);
+      }
+    }
+    
+    div.innerHTML = shuffled.join('<br><br>');
+  </script>
+</body>
+<script src="typeahead.js"></script>
+</html>

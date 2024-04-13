@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>🧑‍🏫 All The Things</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+  <style>
+  
+    table {
+      border-spacing: 0;
+    }
+  
+    td {
+      padding: 10px;
+      white-space: nowrap;
+      vertical-align: top;
+      font: 12pt Avenir;
+    }
+  
+    .matrix_label {
+      font: 12pt Avenir;
+      color: #999;
+    }
+  
+    .header td {
+      font: 16pt Avenir;
+      color: #999;
+    }
+    
+    .code td {
+      font: 10pt Menlo, sans-serif;
+      white-space: pre;
+    }
+
+    .checkboxes {
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    tr .thing {
+      padding: 7px 10px 7px 10px;
+      font: 12pt Avenir;
+      color: #999;
+    }
+    
+    table.main tr:nth-child(even) {
+      background-color: #EEEEEE80;
+    }
+    
+    table.checkboxes {
+      
+    }
+    
+    table.checkboxes tr td {
+       padding: 0px 20px 0px 0px;
+       width: 80px;
+    }
+    
+    .cpp, .kotlin, .ts { background-color: rgba(255,0,0,0.08); }
+    .clojure, .objc { background-color: rgba(255,165,0,0.08); }
+    .elixir, .php { background-color: rgba(255,255,0,0.08); }
+    .go, .python { background-color: rgba(0,128,0,0.08); }
+    .java, .ruby { background-color: rgba(0,0,255,0.08); }
+    .js, .swift { background-color: rgba(128,0,128,0.08); }
+
+  </style>
+</head>
+<body>
+	<div class="headline">
+		🧑‍🏫 All The Things
+  </div>
+  <div class="checkboxes">
+  <table class="checkboxes">
+    <tr>
+      <td><input type="checkbox" id="cpp" onclick="check('cpp')"/> C++</td>
+      <td><input type="checkbox" id="clojure" onclick="check('clojure')"/> Clojure</td>
+      <td><input type="checkbox" id="elixir" onclick="check('elixir')"/> Elixir</td>
+      <td><input type="checkbox" id="go" onclick="check('go')"/> Go</td>
+      <td><input type="checkbox" id="java" onclick="check('java')"/> Java</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="js" onclick="check('js')"/> JavaScript</td>
+      <td><input type="checkbox" id="kotlin" onclick="check('kotlin')"/> Kotlin</td>
+      <td><input type="checkbox" id="objc" onclick="check('objc')"/> Objective-C</td>
+      <td><input type="checkbox" id="php" onclick="check('php')"/> PHP</td>
+      <td><input type="checkbox" id="python" onclick="check('python')"/> Python</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="ruby" onclick="check('ruby')"/> Ruby</td>
+      <td><input type="checkbox" id="swift" onclick="check('swift')"/> Swift</td>      
+      <td><input type="checkbox" id="ts" onclick="check('ts')"/> TypeScript</td>      
+    </tr>
+  </table>
+  <br>
+  </div>
+  <table class="main" id="main-table">
+    <tr class="header">
+      <td class="thing"></td>
+      <td class="cpp">C++</td>
+      <td class="clojure">Clojure</td>
+      <td class="elixir">Elixir</td>
+      <td class="go">Go</td>
+      <td class="java">Java</td>
+      <td class="js">JavaScript</td>
+      <td class="kotlin">Kotlin</td>
+      <td class="objc">Objective-C</td>
+      <td class="php">PHP</td>
+      <td class="python">Python</td>
+      <td class="ruby">Ruby</td>
+      <td class="swift">Swift</td>
+      <td class="ts">TypeScript</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Print</td>
+      <td class="cpp">std::cout &lt;&lt; "Hello!";</td>
+      <td class="clojure">(println "Hello!")</td>
+      <td class="elixir">IO.puts "Hello!"</td>
+      <td class="go">fmt.Println("Hello!")</td>
+      <td class="java">System.out.println("Hello!");</td>
+      <td class="js">console.log('Hello!');</td>
+      <td class="kotlin">println("Hello!")</td>
+      <td class="objc">NSLog(@"Hello!");</td>
+      <td class="php">echo('Hello!');</td>
+      <td class="python">print("Hello!")</td>
+      <td class="ruby">puts "Hello!"</td>
+      <td class="swift">print("Hello!")</td>
+      <td class="ts">console.log('Hello!');</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Comment</td>
+      <td class="cpp">// Awesome!</td>
+      <td class="clojure">; Awesome!</td>
+      <td class="elixir"># Awesome!</td>
+      <td class="go">// Awesome!</td>
+      <td class="java">// Awesome!</td>
+      <td class="js">// Awesome!</td>
+      <td class="kotlin">// Awesome!</td>
+      <td class="objc">// Awesome!</td>
+      <td class="php">// Awesome!</td>
+      <td class="python"># Awesome!</td>
+      <td class="ruby"># Awesome!</td>
+      <td class="swift">// Awesome!</td>
+      <td class="ts">// Awesome!</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Inline Comment</td>
+      <td class="cpp">/* Cool! */</td>
+      <td class="clojure">--</td>
+      <td class="elixir">--</td>
+      <td class="go">/* Cool! */</td>
+      <td class="java">/* Cool! */</td>
+      <td class="js">/* Cool! */</td>
+      <td class="kotlin">/* Cool! */</td>
+      <td class="objc">/* Cool! */</td>
+      <td class="php">/* Cool! */</td>
+      <td class="python">--</td>
+      <td class="ruby">--</td>
+      <td class="swift">/* Cool! */</td>
+      <td class="ts">/* Cool! */</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Declare a constant</td>
+      <td class="cpp">const int foo = 42;</td>
+      <td class="clojure">(def foo 42)</td>
+      <td class="elixir">@foo 42</td>
+      <td class="go">foo := 42</td>
+      <td class="java">int foo = 42;</td>
+      <td class="js">const foo = 42;</td>
+      <td class="kotlin">val foo = 42</td>
+      <td class="objc">const int foo = 42;</td>
+      <td class="php">const foo = 42;</td>
+      <td class="python">FOO = 42</td>
+      <td class="ruby">Foo = 42</td>
+      <td class="swift">let foo = 42</td>
+      <td class="ts">const foo:number = 42;</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Declare a variable</td>
+      <td class="cpp">int bar = 100;</td>
+      <td class="clojure">(def bar 100)</td>
+      <td class="elixir">bar = 100</td>
+      <td class="go">bar := 100</td>
+      <td class="java">int bar = 100;</td>
+      <td class="js">let bar = 100;</td>
+      <td class="kotlin">var foo = 42</td>
+      <td class="objc">int bar = 100;</td>
+      <td class="php">$bar = 100;</td>
+      <td class="python">bar = 100</td>
+      <td class="ruby">bar = 100</td>
+      <td class="swift">var bar = 100</td>
+      <td class="ts">let bar:number = 100;</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Increment</td>
+      <td class="cpp">i++</td>
+      <td class="clojure">(inc i)</td>
+      <td class="elixir">i += 1</td>
+      <td class="go">i++</td>
+      <td class="java">i++</td>
+      <td class="js">i++</td>
+      <td class="kotlin">i++</td>
+      <td class="objc">i++</td>
+      <td class="php">$i++</td>
+      <td class="python">i++</td>
+      <td class="ruby">i += 1</td>
+      <td class="swift">i += 1</td>
+      <td class="ts">i++</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Conditional</td>
+      <td class="cpp">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="clojure">(if maybe ... ...)</td>
+      <td class="elixir">if maybe, 
+  do: ..., 
+  else: ...</td>
+      <td class="go">if maybe {
+  ...
+} else {
+  ...
+}</td>
+      <td class="java">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="js">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="kotlin">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="objc">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="php">if ($maybe) {
+  ...
+} else {
+  ...
+}</td>
+      <td class="python">if maybe:
+  ...
+else:
+  ...</td>
+      <td class="ruby">if maybe
+  ...
+else
+  ...
+end</td>
+      <td class="swift">if maybe {
+  ...
+} else {
+  ...
+}</td>
+      <td class="ts">if (maybe) {
+  ...
+} else {
+  ...
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">For Loop</td>
+      <td class="cpp">for (int i = 0; i &lt; 10; i++) {
+  
+}</td>
+      <td class="clojure">(repeat 10 ...)</td>
+      <td class="elixir">for i &lt;- 0..10, do: ...</td>
+      <td class="go">for i := 1; i &lt; 10; i++ {
+      
+}</td>
+      <td class="java">for (int i = 0; i &lt; 10; i++) {
+  
+}</td>
+      <td class="js">for (let i = 0; i &lt; 10; i++) {
+      
+}</td>
+      <td class="kotlin">for (i in 0..10) {
+
+}</td>
+      <td class="objc">for (int i = 0; i &lt; 10; i++) {
+  
+}</td>
+      <td class="php">for ($i = 0; $i &lt; 10; $i++) {
+
+} 
+</td>
+      <td class="python">for i in range(10):
+  ...</td>
+      <td class="ruby">10.times do 😍
+      
+end</td>
+      <td class="swift">for var i in 0..&lt;10 {
+
+}</td>
+      <td class="ts">for (let i:number = 0; i &lt; 10; i++) {
+      
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Concatenate Strings</td>
+      <td class="cpp">first + " " + last</td>
+      <td class="clojure">(str first " " last)</td>
+      <td class="elixir">first &lt;&gt; " " &lt;&gt; last</td>
+      <td class="go">first + " " + last</td>
+      <td class="java">first + " " + last</td>
+      <td class="js">first + " " + last</td>
+      <td class="kotlin">first + " " + last</td>
+      <td class="objc">[first stringByAppendingString: last];</td>
+      <td class="php">$first . " " . $last</td>
+      <td class="python">first + " " + last</td>
+      <td class="ruby">first + " " + last</td>
+      <td class="swift">first + " " + last</td>
+      <td class="ts">first + " " + last</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">String Interpolation</td>
+      <td class="cpp">--</td>
+      <td class="clojure">--</td>
+      <td class="elixir">"#{first} #{last}"</td>
+      <td class="go">fmt.Sprintf("%s %s", first, last)</td>
+      <td class="java">String.format("%s %s", first, last)</td>
+      <td class="js">`${first} ${last}`</td>
+      <td class="kotlin">"$first $last"</td>
+      <td class="objc">[NSString stringWithFormat:@"%@ %@", first, last]</td>
+      <td class="php">"$first $last"</td>
+      <td class="python">f'{first} {last}'</td>
+      <td class="ruby">"#{first} #{last}"</td>
+      <td class="swift">"\(first) \(last)"</td>
+      <td class="ts">`${first} ${last}`</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Ternary Operator</td>
+      <td class="cpp">maybe ? yes : no</td>
+      <td class="clojure">(if maybe yes no)</td>
+      <td class="elixir">if maybe, do: yes, else: no</td>
+      <td class="go">--</td>
+      <td class="java">maybe ? yes : no</td>
+      <td class="js">maybe ? yes : no</td>
+      <td class="kotlin">if (maybe) yes else no</td>
+      <td class="objc">maybe ? yes : no</td>
+      <td class="php">maybe ? yes : no</td>
+      <td class="python">yes if maybe else no</td>
+      <td class="ruby">maybe ? yes : no</td>
+      <td class="swift">maybe ? yes : no</td>
+      <td class="ts">maybe ? yes : no</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Null Coalescing</td>
+      <td class="cpp">--</td>
+      <td class="clojure">(or value default)</td>
+      <td class="elixir">value || default</td>
+      <td class="go">--</td>
+      <td class="java">value == null ? value : default</td>
+      <td class="js">value || default</td>
+      <td class="kotlin">value ?: default</td>
+      <td class="objc">value == nil ? value : default</td>
+      <td class="php">$value ?? $default</td>
+      <td class="python">value or default</td>
+      <td class="ruby">value.nil? ? default : value</td>
+      <td class="swift">value ?? default</td>
+      <td class="ts">value || default</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Unwrap Optional</td>
+      <td class="cpp">--</td>
+      <td class="clojure">--</td>
+      <td class="elixir">--</td>
+      <td class="go">--</td>
+      <td class="java">Optional&lt;String&gt; possibly = Optional.of("foo");
+possibly.ifPresent(definitely -> ...);</td>
+      <td class="js">--</td>
+      <td class="kotlin">var possibly: String? = whoKnows()
+var definitely = possibly?.let {
+
+}</td>
+      <td class="objc">--</td>
+      <td class="php">--</td>
+      <td class="python">--</td>
+      <td class="ruby">--</td>
+      <td class="swift">let possibly: String? = whoKnows()
+if let definitely = possibly {
+      
+}</td>
+      <td class="ts">--</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Declare function</td>
+      <td class="cpp">string hello(string name) {
+  return "Hello, " + name + "!";
+}</td>
+      <td class="clojure">(def hello [name]
+  (str "Hello, " name "!"))</td>
+      <td class="elixir">def hello(name) do
+  "Hello, #{name}!"
+end</td>
+      <td class="go">func Hello(name string) string {
+  return fmt.Sprintf("Hello, %s!", name)
+}
+</td>
+      <td class="java">String hello(String name) {
+  return "Hello, " + name + "!";
+}</td>
+      <td class="js">function hello(name) {
+  return `Hello, ${name}!`;
+}</td>
+      <td class="kotlin">fun hello(name: String): String {
+  return "Hello, $name!"
+}</td>
+      <td class="objc">- (NSString *) hello:(NSString *)name {
+  return [NSString stringWithFormat:
+    @"Hello, %@!", name];
+}</td>
+      <td class="php">function hello($name) {
+  return "Hello, $name!";
+}</td>
+      <td class="python">def hello(name):
+  return "Hello, " + name + "!"</td>
+      <td class="ruby">def hello(name)
+  return "Hello, #{name}!"
+end
+</td>
+      <td class="swift">func hello(name: String) -> String {
+  return "Hello, \(name)!"
+}</td>
+      <td class="ts">function hello(name: string): string {
+  return `Hello, ${name}!`;
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Call function</td>
+      <td class="cpp">hello("Andrew")</td>
+      <td class="clojure">(hello "Andrew")</td>
+      <td class="elixir">Greeter.hello("Andrew")</td>
+      <td class="go">Hello("Andrew")</td>
+      <td class="java">hello("Andrew")</td>
+      <td class="js">hello("Andrew")</td>
+      <td class="kotlin">hello("Andrew")</td>
+      <td class="objc">[greeter hello:@"Andrew"]</td>
+      <td class="php">hello("Andrew")</td>
+      <td class="python">hello("Andrew")</td>
+      <td class="ruby">hello("Andrew")</td>
+      <td class="swift">hello(name: "Andrew")</td>
+      <td class="ts">hello("Andrew")</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Declare Object</td>
+      <td class="cpp">class Person {
+  string first;
+  string last;
+ 
+  Person(string f, string l) {
+    first = f;
+    last = l;
+  }
+}</td>
+      <td class="clojure">--</td>
+      <td class="elixir">--</td>
+      <td class="go">type Person struct {
+  first string
+  last string
+}</td>
+      <td class="java">class Person {
+  String first;
+  String last;
+  
+  Person(String first, String last) {
+    this.first = first;
+    this.last = last;
+  }
+}</td>
+      <td class="js">class Person {
+  constructor(first, last) {
+    this.first = first;
+    this.last = last;
+  }
+}</td>
+      <td class="kotlin">class Person(first: Name, last: Name) {
+  var first = first
+  var last = last
+}</td>
+      <td class="objc">@interface Person: NSObject
+
+@property NSString *first;
+@property NSString *last;
+
++ (Line *) personWithFirst: (NSString *) first 
+                      last: (NSArray *) last;
+@end 
+
+@implementation Person
+
++ (Line *) personWithFirst: (NSString *) first 
+                      last: (NSArray *) last
+{
+  Person *person = [[Person alloc] init];
+  person.first = first;
+  person.last = last;
+  return person;
+}
+
+@end</td>
+      <td class="php">class Person {
+  private $first;
+  private $last;
+  
+  function __construct($first, $last) {
+    $this->first = $first;
+    $this->last = $last;
+  }
+}</td>
+      <td class="python">class Person:
+  def __init__(self, first, last):
+    self.first = first
+    self.last = last</td>
+      <td class="ruby">class Person
+  attr_accessor :first
+  attr_accessor :last
+  
+  def initialize(first, last)
+    @first = first
+    @last = last
+  end
+end</td>
+      <td class="swift">class Person {
+  var first: String
+  var last: String
+  
+  init(first: String, last: String) {
+    self.first = first
+    self.last = last
+  }
+}</td>
+      <td class="ts">class Person { 
+  first: string; 
+  last: string; 
+ 
+  constructor(first: string, last: string) { 
+    this.first = first;
+    this.last = last; 
+  }  
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">New Object</td>
+      <td class="cpp">Person(first, last)</td>
+      <td class="clojure">--</td>
+      <td class="elixir">--</td>
+      <td class="go">Person{first: first, last: last}</td>
+      <td class="java">new Person(first, last)</td>
+      <td class="js">new Person(first, last)</td>
+      <td class="kotlin">Person(first, last)</td>
+      <td class="objc">[Person personWithFirst:first last:last]</td>
+      <td class="php">new Person($first, $last)</td>
+      <td class="python">Person(first, last)</td>
+      <td class="ruby">Person.new(first, last)</td>
+      <td class="swift">Person(first:first, last:last)</td>
+      <td class="ts">new Person(first, last)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Array Literal</td>
+      <td class="cpp">vector&lt;string&gt; colors =
+  { "red", "orange", "yellow" };</td>
+      <td class="clojure">(def colors
+  ["red" "orange" "yellow"])</td>
+      <td class="elixir">colors = ["red", "orange", "yellow"]</td>
+      <td class="go">colors := []string{"red", "orange", "yellow"}</td>
+      <td class="java">ArrayList&lt;String&gt; colors = new ArrayList&lt;&gt;(
+  Arrays.asList("red", "orange", "yellow"));</td>
+      <td class="js">let colors = ["red", "orange", "yellow"];</td>
+      <td class="kotlin">listOf("red", "orange", "yellow")</td>
+      <td class="objc">NSMutableArray *colors = 
+  [@[@"red", @"orange", @"yellow"] mutableCopy];</td>
+      <td class="php">$colors = ["red", "orange", "yellow"];</td>
+      <td class="python">colors = ["red", "orange", "yellow"]</td>
+      <td class="ruby">colors = ["red", "orange", "yellow"]</td>
+      <td class="swift">var colors = ["red", "orange", "yellow"]</td>
+      <td class="ts">let colors[:string] =
+  ["red", "orange", "yellow"];</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Add to Array</td>
+      <td class="cpp">colors.push_back("green");</td>
+      <td class="clojure">(conj colors "green")</td>
+      <td class="elixir">["green" | colors]</td>
+      <td class="go">colors = append(colors, "green")</td>
+      <td class="java">colors.add("green")</td>
+      <td class="js">colors.push("green")</td>
+      <td class="kotlin">colors.add("green")</td>
+      <td class="objc">[colors addObject: @"green"]</td>
+      <td class="php">array_push($colors, "green")</td>
+      <td class="python">colors.append("green")</td>
+      <td class="ruby">colors.push("green")</td>
+      <td class="swift">colors.append("green")</td>
+      <td class="ts">colors.push("green")</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Search Array</td>
+      <td class="cpp">std::count(colors.begin(),
+  colors.end(), "turquoise") == 0</td>
+      <td class="clojure">(contains? colors "turquoise")</td>
+      <td class="elixir">Enum.member?(colors, "turquoise")</td>
+      <td class="go">func contains(s []string, e string) bool {
+  for _, a := range s {
+    if a == e {
+      return true
+    }
+  }
+  return false
+}</td>
+      <td class="java">colors.contains("turquoise")</td>
+      <td class="js">colors.includes("turquoise")</td>
+      <td class="kotlin">"turquoise" in colors</td>
+      <td class="objc">[colors containsObject: @"turquoise"]</td>
+      <td class="php">in_array("turquoise", $colors)</td>
+      <td class="python">"turquoise" in colors</td>
+      <td class="ruby">colors.include?("turquoise")</td>
+      <td class="swift">colors.contains("turquoise")</td>
+      <td class="ts">colors.includes("turquoise")</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Remove from Array</td>
+      <td class="cpp">colors.pop_back()</td>
+      <td class="clojure">(pop colors)</td>
+      <td class="elixir">Enum.drop(list, -1)</td>
+      <td class="go">colors = colors[:len(colors) - 1]</td>
+      <td class="java">colors.remove(colors.size() - 1)</td>
+      <td class="js">colors.pop()</td>
+      <td class="kotlin">colors.dropLast(1)</td>
+      <td class="objc">[colors removeLastObject]</td>
+      <td class="php">array_pop($colors)</td>
+      <td class="python">colors.pop()</td>
+      <td class="ruby">colors.pop</td>
+      <td class="swift">colors.popLast()</td>
+      <td class="ts">colors.pop()</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Value at Index</td>
+      <td class="cpp">colors.at(3)</td>
+      <td class="clojure">(colors 3)</td>
+      <td class="elixir">Enum.at(colors, 3)</td>
+      <td class="go">colors[3]</td>
+      <td class="java">colors.get(3)</td>
+      <td class="js">colors[3]</td>
+      <td class="kotlin">colors.get(3)</td>
+      <td class="objc">[colors objectAtIndex: 3]</td>
+      <td class="php">$colors[3]</td>
+      <td class="python">colors[3]</td>
+      <td class="ruby">colors[3]</td>
+      <td class="swift">colors[3]</td>
+      <td class="ts">colors[3]</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">First</td>
+      <td class="cpp">colors.front()</td>
+      <td class="clojure">(first colors)</td>
+      <td class="elixir">hd(colors)</td>
+      <td class="go">colors[0]</td>
+      <td class="java">colors.get(0)</td>
+      <td class="js">colors[0]</td>
+      <td class="kotlin">colors.first()</td>
+      <td class="objc">[colors firstObject]</td>
+      <td class="php">$colors[0]</td>
+      <td class="python">colors[0]</td>
+      <td class="ruby">colors.first</td>
+      <td class="swift">colors.first</td>
+      <td class="ts">colors[0]</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Last</td>
+      <td class="cpp">colors.back()</td>
+      <td class="clojure">(last colors)</td>
+      <td class="elixir">Enum.take(colors, -1)[0]</td>
+      <td class="go">colors[len(colors) - 1]</td>
+      <td class="java">colors.get(colors.size() - 1)</td>
+      <td class="js">colors[colors.length - 1]</td>
+      <td class="kotlin">colors.last()</td>
+      <td class="objc">[colors lastObject]</td>
+      <td class="php">end($colors)</td>
+      <td class="python">colors[-1]</td>
+      <td class="ruby">colors.last</td>
+      <td class="swift">colors.last</td>
+      <td class="ts">colors[colors.length - 1]</td>
+   </tr>
+   <tr class="code">
+     <td class="thing">Slice</td>
+     <td class="cpp">std::vector(colors.begin(),
+  colors.begin() + 3)</td>
+     <td class="clojure">(take colors 3)</td>
+     <td class="elixir">Enum.take(colors, 3)</td>
+     <td class="go">colors[0:3]</td>
+     <td class="java">colors.subList(0, 3)</td>
+     <td class="js">colors.slice(0, 3)</td>
+     <td class="kotlin">colors.sliceArray(0..3)</td>
+     <td class="objc">[colors subarrayWithRange: NSMakeRange(0, 3)]</td>
+     <td class="php">array_slice($colors, 0, 3)</td>
+     <td class="python">colors[0:3]</td>
+     <td class="ruby">colors[0..3]</td>
+     <td class="swift">colors[0...3]</td>
+     <td class="ts">colors.slice(0, 3)</td>
+  </tr>
+  <tr class="code">
+      <td class="thing">Enumerate Array</td>
+      <td class="cpp">for (auto & color : colors) {
+      
+}</td>
+      <td class="clojure">(for [color colors] ...)</td>
+      <td class="elixir">Enum.each(colors,
+  fn(color) -> ... end)</td>
+      <td class="go">for color := range colors {
+      
+}</td>
+      <td class="java">for (String color : colors) {
+      
+}</td>
+      <td class="js">for (let color of colors) {
+      
+}</td>
+      <td class="kotlin">for (color in colors) {
+      
+}</td>
+      <td class="objc">for (NSString *color in colors) {
+      
+}</td>
+      <td class="php">foreach ($colors as $color) {
+      
+}</td>
+      <td class="python">for color in colors:
+  ...</td>
+      <td class="ruby">colors.each do |color| 
+      
+end</td>
+      <td class="swift">for color in colors {
+      
+}</td>
+      <td class="ts">for (let color of colors) {
+      
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Concat Arrays</td>
+      <td class="cpp">std::vector&lt;string&gt; more =
+  { "blue", "purple" };
+colors.insert(colors.end(),
+  more.begin(), more.end());</td>
+      <td class="clojure">(concat colors ["blue" "purple"])</td>
+      <td class="elixir">colors ++ ["blue" "purple"]</td>
+      <td class="go">append(colors, []string{"blue", "purple"}...)</td>
+      <td class="java">ArrayList&lt;String&gt; more = new ArrayList&lt;&gt;(
+  Arrays.asList("blue", "purple"));
+colors.addAll(more);</td>
+      <td class="js">colors.concat(["blue", "purple"])</td>
+      <td class="kotlin">colors + ["blue", "purple"]</td>
+      <td class="objc">[colors arrayByAddingObjectsFromArray: 
+  @[@"blue", @"purple"]]</td>
+      <td class="php">array_merge($colors, ["blue", "purple"])</td>
+      <td class="python">colors + ["blue", "purple"]</td>
+      <td class="ruby">colors + ["blue", "purple"]</td>
+      <td class="swift">colors + ["blue", "purple"]</td>
+      <td class="ts">colors.concat(["blue", "purple"])</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Dictionary Literal</td>
+      <td class="cpp">std::map&lt;string, string&gt; greetings = {
+    { "en", "hello" },
+    { "fr", "bonjour" }
+};</td>
+      <td class="clojure">(def greetings 
+  (hash-map "en" "hello" 
+            "fr" "bonjour"))</td>
+      <td class="elixir">%{:en => "hello", :fr => "bonjour"}</td>
+      <td class="go">var lines = map[string]string{
+  "en": "hello", 
+  "fr": "bonjour"}</td>
+      <td class="java">Map&lt;String, String&gt; greetings = new HashMap&lt;&gt;() {{
+  put("en", "hello");
+  put("fr", "bonjour");
+}};</td>
+      <td class="js">let greetings = {en: "hello", 
+                 fr: "bonjour"};</td>
+      <td class="kotlin">val lines: HashMap&lt;String,String&gt; =
+  hashMapOf("en" to "hello",
+            "fr" to "bonjour")</td>
+      <td class="objc">NSMutableDictionary *greetings =
+  [@{@"en" : @"hello", 
+     @"fr" : @"bonjour"} mutableCopy];</td>
+      <td class="php">$greetings = ["en" => "hello",
+              "fr" => "bonjour"];</td>
+      <td class="python">greetings = {"en": "hello",
+             "fr": "bonjour"}</td>
+      <td class="ruby">greetings = {"en" => "hello",
+             "fr" => "bonjour"}</td>
+      <td class="swift">var greetings = ["en": "hello", 
+                 "fr": "bonjour"]</td>
+      <td class="ts">interface Dictionary {
+  en: string,
+  fr: string,
+  ru: string;
+  jp: string
+}
+let greetings: Dictionary = 
+  {en: "hello", fr: "bonjour"};</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Get Value</td>
+      <td class="cpp">greetings.at("fr")</td>
+      <td class="clojure">(get greetings "fr")</td>
+      <td class="elixir">map[:fr]</td>
+      <td class="go">greetings["fr"]</td>
+      <td class="java">greetings.get("fr")</td>
+      <td class="js">greetings["fr"]</td>
+      <td class="kotlin">greetings.get("fr")</td>
+      <td class="objc">[greetings objectForKey: @"fr"]</td>
+      <td class="php">$greetings["fr"]</td>
+      <td class="python">greetings["fr"]</td>
+      <td class="ruby">greetings["fr"]</td>
+      <td class="swift">greetings["fr"]</td>
+      <td class="ts">greetings["fr"]</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Set Value</td>
+      <td class="cpp">greetings.insert(std::pair&lt;string,
+  string&gt;("ru", "привет"));</td>
+      <td class="clojure">(assoc greetings "ru" "привет")</td>
+      <td class="elixir">Map.put(greetings, :ru, "привет")</td>
+      <td class="go">greetings["ru"] = "привет"</td>
+      <td class="java">greetings.put("ru", "привет")</td>
+      <td class="js">greetings["ru"] = "привет";</td>
+      <td class="kotlin">greetings.put("ru", "привет")</td>
+      <td class="objc">[greetings setObject: @"привет" forKey: @"ru"];</td>
+      <td class="php">$greetings["ru"] = "привет"</td>
+      <td class="python">greetings["ru"] = "привет"</td>
+      <td class="ruby">greetings["ru"] = "привет"</td>
+      <td class="swift">greetings["ru"] = "привет"</td>
+      <td class="ts">greetings["ru"] = "привет";</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Remove Value</td>
+      <td class="cpp">greetings.erase("jp")</td>
+      <td class="clojure">(dissoc greetings "jp")</td>
+      <td class="elixir">Map.delete(greetings, "jp")</td>
+      <td class="go">delete(greetings, "jp")</td>
+      <td class="java">greetings.remove("jp")</td>
+      <td class="js">delete greetings["jp"];</td>
+      <td class="kotlin">greetings.remove("jp")</td>
+      <td class="objc">[greetings removeObjectForKey: @"jp"];</td>
+      <td class="php">unset($greetings["jp"])</td>
+      <td class="python">del greetings["jp"]</td>
+      <td class="ruby">greetings.delete("jp")</td>
+      <td class="swift">greetings["jp"] = nil</td>
+      <td class="ts">delete greetings["jp"];</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Enumerate Dictionary</td>
+      <td class="cpp">std::map&lt;string,string&gt;::iterator
+    it = greetings.begin();
+while (it != greetings.end()) {
+  string key = it->first;
+  string value = it->second;
+}</td>
+      <td class="clojure">(doseq [keyval greetings] 
+  (prn (key keyval)
+       (val keyval)))</td>
+      <td class="elixir">Enum.map(greetings,
+  fn {key, value} -> ... end)</td>
+      <td class="go">for key, value := range greetings {
+      
+} </td>
+      <td class="java">for (Map.Entry&lt;String, String&gt; entry : 
+    greetings.entrySet()) {
+  String key = entry.getKey();
+  String value = entry.getValue();
+}</td>
+      <td class="js">for (let key in greetings) {
+  let value = greetings[key];
+}
+</td>
+      <td class="kotlin">for ((key, value) in greetings) {
+
+}</td>
+      <td class="objc">for (NSString* key in greetings) {
+    NSString *value = [greetings objectForKey: key];
+    ...
+}</td>
+      <td class="php">foreach ($greetings as $key => $value) {
+      
+}</td>
+      <td class="python">for key, value in enumm.items():
+  ...</td>
+      <td class="ruby">greetings.each do |key, value| 
+      
+end</td>
+      <td class="swift">for (key, value) in greetings {
+      
+}</td>
+      <td class="ts">for (let key in greetings) {
+  let value: string = greetings[key];
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Sort</td>
+      <td class="cpp">sort(colors.begin(), colors.end());</td>
+      <td class="clojure">(sort colors)</td>
+      <td class="elixir">Enum.sort(colors)</td>
+      <td class="go">sort.Strings(colors)</td>
+      <td class="java">Collections.sort(colors)</td>
+      <td class="js">colors.sort()</td>
+      <td class="kotlin">colors.sorted()</td>
+      <td class="objc">[colors sortUsingSelector: @selector(compare:)];</td>
+      <td class="php">sort($colors);</td>
+      <td class="python">colors.sort()</td>
+      <td class="ruby">colors.sort</td>
+      <td class="swift">colors.sorted()</td>
+      <td class="ts">colors.sort()</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Sort using Function</td>
+      <td class="cpp">colors.sort([](string & s1, string & s2) {
+  return s1.length() &lt; s2.length();
+});</td>
+      <td class="clojure">(sort #(compare (count %1)
+  (count %2)) colors)</td>
+      <td class="elixir">colors.sortBy { String.length }</td>
+      <td class="go">sort.Slice(colors, func(a, b string) bool {
+  return len(names[a]) &lt; len(names[b])
+})</td>
+      <td class="java">colors.stream()
+  .sorted((String a, String b) -> 
+    a.length() - b.length())
+  .collect(Collectors.toList())</td>
+      <td class="js">colors.sort((a, b) => a.length - b.length)</td>
+      <td class="kotlin">colors.sortedBy { it.length }</td>
+      <td class="objc">[colors sortArrayUsingComparator:
+  ^(NSString *a, NSString *b) {
+    return [a compare: b];
+}];</td>
+      <td class="php">function compare_length($a, $b) {
+    return strlen($a) - strlen($b);
+}
+usort($colors, "compare_length");
+</td>
+      <td class="python">colors.sort(key=len)</td>
+      <td class="ruby">colors.sort { |a, b| 
+  a.length &lt;=&gt; b.length }
+colors.sort_by { |c| c.length }</td>
+      <td class="swift">colors.sorted { $0.count &lt; $1.count }</td>
+      <td class="ts">colors.sort((a: string, b: string): number =>
+  a.length - b.length)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Filter</td>
+      <td class="cpp">filter(colors, [](string s) { 
+  return s.length() == 6; });</td>
+      <td class="clojure">(filter #(= (count %) 6) colors)</td>
+      <td class="elixir">Enum.filter(colors, fn(color) -> 
+  String.length(color) == 6 end)</td>
+      <td class="go">func Filter(sl []string,
+    f func(string) bool) []string {
+  sl2 := make([]string, 0)
+  for _, v := range sl {
+    if f(v) {
+        sl2 = append(sl2, v)
+    }
+  }
+  return sl2
+}
+Filter(colors, func(v string) bool {
+  return len(strings) == 6
+})</td>
+      <td class="java">colors.stream()
+  .filter((String s) -> s.length() == 6)
+  .collect(Collectors.toList())</td>
+      <td class="js">colors.filter((c) => c.length == 6)</td>
+      <td class="kotlin">colors.filter { color ->
+  color.length == 6 }</td>
+      <td class="objc">- (NSArray *) filter:(BOOL(^)(id object))block {
+  NSMutableArray *result = [NSMutableArray array];
+  for (id object in self) {
+    if (block(object)) {
+      [result addObject:object];
+    }
+  }
+  return result;
+}
+[colors filter:^BOOL(id value) {
+  return [value length] == 6;
+}];</td>
+      <td class="php">function filter_length($s) {
+    return strlen($s) == 6;
+}
+array_filter($colors, "filter_length");
+</td>
+      <td class="python">list(filter(lambda c: (len(c) == 6), colors))</td>
+      <td class="ruby">colors.filter { |c| c.length == 6 }</td>
+      <td class="swift">colors.filter { $0.count == 6 }</td>
+      <td class="ts">colors.filter((c: string): boolean =>
+  c.length == 6)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Map</td>
+      <td class="cpp">map(colors, [](string s) { 
+  return s.length(); });</td>
+      <td class="clojure">(map count colors)</td>
+      <td class="elixir">Enum.map(colors, String.length)</td>
+      <td class="go">func Map(sl []string,
+    f func(string) int) []int {
+  sl2 := make([]string, len(sl))
+  for i, v := range sl {
+    sl2[i] = f(v)
+  }
+  return sl2
+}
+Map(colors, len)
+</td>
+      <td class="java">colors.stream()
+  .mapToInt(String::length)
+  .collect(Collectors.toList())</td>
+      <td class="js">colors.map((c) => c.length)</td>
+      <td class="kotlin">colors.map { color -> color.length }</td>
+      <td class="objc">- (NSArray *) map:(id(^)(id object))block {
+  NSMutableArray *result = [NSMutableArray array];
+  for (id object in self) {
+    [result addObject:block(object)];
+  }
+  return result;
+}
+[colors map:^(NSString * string) {
+  return [NSNumber numberWithInt: [string length]];
+}];</td>
+      <td class="php">array_map("len", $colors) 😡</td>
+      <td class="python">map(lambda c: len(c), colors)</td>
+      <td class="ruby">colors.map { |c| c.length }</td>
+      <td class="swift">colors.map { $0.count }</td>
+      <td class="ts">colors.map((c: string): number => c.length)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Reduce</td>
+      <td class="cpp">accumulate(colors.begin(), colors.end(), 0,
+  [&](int t, string c){ 
+    return t + c.length(); });</td>
+      <td class="clojure">(reduce #(+ %1 (count %2)) colors)</td>
+      <td class="elixir">Enum.reduce(colors, 0, fn(c, t) -> 
+    String.length(c) + t end)</td>
+      <td class="go">--</td>
+      <td class="java">colors.stream()
+  .mapToInt(String::length)
+  .reduce(0, Integer::sum)</td>
+      <td class="js">colors.reduce((total, color) => 
+  total + color.length, 0)</td>
+      <td class="kotlin">colors.reduce { acc, it ->
+  acc + it.length }</td>
+      <td class="objc">- (id) reduce:(id(^)(id acc, id object))block 
+      initial:(id)initial {
+  for (id object in self) {
+    initial = block(initial, object);
+  }
+  return initial;
+}
+NSArray *numbers = @[@1, @2, @3, @4, @5];
+[numbers reduce:^id(id acc, id value) {
+  return [NSNumber numberWithInt:
+    [acc intValue] + [value intValue]];
+} initial: @0]</td>
+      <td class="php">function add_length($total, $s) {
+    return $total + strlen($s);
+}
+array_reduce($colors, "add_length", 0);</td>
+      <td class="python">reduce(lambda total, color:
+  total + len(color), colors)</td>
+      <td class="ruby">colors.reduce(0) { |total, color|
+  total + color.length } </td>
+      <td class="swift">colors.reduce(0) { total, color in 
+  total + color.count }</td>
+      <td class="ts">colors.reduce((total: number, 
+  color: string): number => 
+    total + color.length, 0)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Sum Numbers</td>
+      <td class="cpp">std::vector&lt;int&gt; numbers = { 1, 2, 3, 4, 5 };
+accumulate(numbers.begin(), numbers.end(), 0,
+  [&](int a, int b){ return a + b; });</td>
+      <td class="clojure">(reduce + [1 2 3 4 5])</td>
+      <td class="elixir">Enum.reduce([1, 2, 3, 4, 5],
+  0, fn(a, b) -> a + b end)</td>
+      <td class="go">total := 0
+for _, n := range []int{1, 2, 3, 4, 5} {
+  total += n
+}
+</td>
+      <td class="java">ArrayList&lt;Integer&gt; numbers = new ArrayList&lt;&gt;(
+  Arrays.asList(1, 2, 3, 4, 5));
+numbers.stream()
+  .reduce(0, Integer::sum)</td>
+      <td class="js">[1, 2, 3, 4, 5].reduce((a, b) => a + b)</td>
+      <td class="kotlin">val list = listOf(1, 2, 3, 4, 5)
+intList.reduce { acc, it -> acc + it }</td>
+      <td class="objc">--</td>
+      <td class="php">function add($a, $b) {
+    return $a + $b;
+}
+array_reduce([1, 2, 3, 4, 5], "add");</td>
+      <td class="python">reduce(lambda a, b: a + b, [1, 2, 3, 4, 5])</td>
+      <td class="ruby">[1, 2, 3, 4, 5].reduce(0, :+)</td>
+      <td class="swift">[1, 2, 3, 4, 5].reduce(0, +)</td>
+      <td class="ts">[1, 2, 3, 4, 5].reduce((a: number,
+  b: number): number => a + b)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Square Root</td>
+      <td class="cpp">sqrt(25)</td>
+      <td class="clojure">(Math/sqrt 25)</td>
+      <td class="elixir">:math.sqrt(x)</td>
+      <td class="go">math.Sqrt(25)</td>
+      <td class="java">Math.sqrt(25)</td>
+      <td class="js">Math.sqrt(25)</td>
+      <td class="kotlin">sqrt(25)</td>
+      <td class="objc">sqrt(25)</td>
+      <td class="php">sqrt(25)</td>
+      <td class="python">math.sqrt(25)</td>
+      <td class="ruby">Math.sqrt(25)</td>
+      <td class="swift">25.squareRoot()</td>
+      <td class="ts">Math.sqrt(25)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Absolute Value</td>
+      <td class="cpp">abs(-99)</td>
+      <td class="clojure">(Math/abs -99)</td>
+      <td class="elixir">abs(-99)</td>
+      <td class="go">math.Abs(-99)</td>
+      <td class="java">Math.abs(-99)</td>
+      <td class="js">Math.abs(-99)</td>
+      <td class="kotlin">abs(-99)</td>
+      <td class="objc">abs(-99)</td>
+      <td class="php">abs(-99)</td>
+      <td class="python">abs(-99)</td>
+      <td class="ruby">-99.abs</td>
+      <td class="swift">abs(-99)</td>
+      <td class="ts">Math.abs(-99)</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Factorial</td>
+      <td class="cpp">int factorial(int n) {
+  return n > 0 ? n * factorial(n - 1) : 1;
+}</td>
+      <td class="clojure">(defn factorial [n]
+  (reduce * (range 1 (inc n))))</td>
+      <td class="elixir">defmodule Factorial do
+  def of(0), do: 1
+  def of(n) when n > 0 do
+    n * of(n-1)
+  end
+end
+</td>
+      <td class="go">func Factorial(n int) int {
+  if n > 0 {
+    return n * Factorial(n - 1)
+  } else {
+    return 1
+  }
+} </td>
+      <td class="java">public static int factorial(int n) {
+  return n > 0 ? n * factorial(n - 1) : 1;
+}</td>
+      <td class="js">function factorial(n) {
+  return n > 0 ? n * factorial(n - 1) : 1;
+}</td>
+      <td class="kotlin">fun factorial(n: Int): Int {
+  return n > 0 ? n * factorial(n - 1) : 1
+}</td>
+      <td class="objc">int factorial(int n) {
+  return n > 0 ? n * factorial(n - 1) : 1;
+}</td>
+      <td class="php">function factorial($n) {
+  return $n > 0 ? $n * factorial($n - 1) : 1;
+}</td>
+      <td class="python">math.factorial(4)</td>
+      <td class="ruby">(1..n).inject(:*) || 1</td>
+      <td class="swift">func factorial(_ n: Int) -> Int {
+  return n > 0 ? n * factorial(n - 1) : 1
+}</td>
+      <td class="ts">function factorial(n: number): number {
+  return n > 0 ? n * factorial(n - 1) : 1;
+}</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Swap Values</td>
+      <td class="cpp">swap(a, b);</td>
+      <td class="clojure">--</td>
+      <td class="elixir">{a, b} = {b, a}</td>
+      <td class="go">a, b = b, a</td>
+      <td class="java">int temp = a;
+a = b;
+b = temp;</td>
+      <td class="js">[a, b] = [b, a]</td>
+      <td class="kotlin">a = b.also { b = a }</td>
+      <td class="objc">int temp = a;
+a = b;
+b = temp;
+</td>
+      <td class="php">$temp = $a;
+$a = $b;
+$b = $temp;</td>
+      <td class="python">a, b = b, a</td>
+      <td class="ruby">a, b = b, a</td>
+      <td class="swift">(a, b) = (b, a)</td>
+      <td class="ts">[a, b] = [b, a]</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Round</td>
+      <td class="cpp">std::round(value * 100) / 100</td>
+      <td class="clojure">(Double/parseDouble 
+  (format "%.2f" d)))
+</td>
+      <td class="elixir">Float.round(value, 2)</td>
+      <td class="go">float64(int64(value / .01)) * .01</td>
+      <td class="java">Math.round(value * 100d) / 100d</td>
+      <td class="js">+(Math.round(value + "e+2") + "e-2")</td>
+      <td class="kotlin">"%.2f".format(value).toDouble()</td>
+      <td class="objc">round(100 * num) / 100</td>
+      <td class="php">round($value, 2)</td>
+      <td class="python">round(value, 2)</td>
+      <td class="ruby">value.round(2)</td>
+      <td class="swift">(value * 100).rounded() / 100</td>
+      <td class="ts">+(Math.round(value + "e+2") + "e-2")</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Default Dict</td>
+      <td class="cpp">struct DefaultInt {
+  int i = 0;
+};
+std::map&lt;int, DefaultInt&gt; sizes;
+sizes[size]++;
+</td>
+      <td class="clojure">(update sizes size (fnil inc 0))</td>
+      <td class="elixir">Map.put(sizes, size,
+  Map.get(sizes, size, 0) + 1)</td>
+      <td class="go">sizes := make(map[int]int)
+sizes[size] = sizes[size] + 1</td>
+      <td class="java">HashMap&lt;Integer,Integer&gt; sizes = new HashMap&lt;&gt;();
+  Integer count = sizes.getOrDefault(size, 0);
+  sizes.put(size, count + 1);</td>
+      <td class="js">let sizes = {};
+sizes[size] = (sizes[size] || 0) + 1;</td>
+      <td class="kotlin">val count = sizes.get(size) ?: 0
+      sizes.put(size, count + 1)</td>
+      <td class="objc">NSMutableArray *sizes = [NSMutableArray array];
+NSNumber *count = [sizes objectForKey: size];
+int val = count != nil ? [count intValue] : 0;
+count++;
+[sizes setObject: [NSNumber numberWithInt: count] 
+          forKey: size];
+</td>
+      <td class="php">$sizes = array();
+$size = array_key_exists($size, $sizes) ? 
+  $sizes[$size] : 0;
+$size++;
+$sizes[$size] = $size;
+</td>
+      <td class="python">sizes = defaultdict(int)
+sizes[size] += 1</td>
+      <td class="ruby">sizes = Hash.new { |hash,key|
+  hash[key] = 0 }
+sizes[size] += 1</td>
+      <td class="swift">var sizes = [Int:Int]()
+sizes[size, default: 0] += 1</td>
+      <td class="ts">let sizes = {};
+sizes[size] = (sizes[size] || 0) + 1;</td>
+    </tr>
+    <tr class="code">
+      <td class="thing">Array Equality</td>
+      <td class="cpp">std::vector&lt;int&gt; target = 
+  { 73, 77, 81, 87, 93, 99 };
+if (missing == target) {
+  std::cout &lt;&lt; "Success!";
+}</td>
+      <td class="clojure">(if (= missing [73 77 81 87 93 99])
+  (println "Success!"))</td>
+      <td class="elixir">target = [73,77,81,87,93,99]
+if length(missing -- target) == 0,
+  do: IO.puts "\nSuccess!"</td>
+      <td class="go">target := []int{73, 77, 81, 87, 93, 99}
+if reflect.DeepEqual(missing, target) {
+  fmt.Println("Success!")
+}</td>
+      <td class="java">if (missing.toString()
+    .equals("[73, 77, 81, 87, 93, 99]")) {
+  System.out.println("Success!");
+}</td>
+      <td class="js">if (JSON.stringify(missing) === 
+    '[73,77,81,87,93,99]') {
+  console.log('Success!'); 
+}</td>
+      <td class="kotlin">val missingString = missing.joinToString()
+if (missingString == 
+    "73, 77, 81, 87, 93, 99") {
+  println("Success!") 
+}</td>
+      <td class="objc">if ([missing isEqualToArray: 
+    @[@73, @77, @81, @87, @93, @99]]) {
+  NSLog(@"Success!");
+}</td>
+      <td class="php">if ($missing) === [73, 77, 81, 87, 93, 99]) {
+  echo('Success!'); 
+}</td>
+      <td class="python">if missing == [73, 77, 81, 87, 93, 99]:
+  print("Success!")</td>
+      <td class="ruby">if missing == [73,77,81,87,93,99]
+  puts "Success!"
+end
+</td>
+      <td class="swift">if missing == [73, 77, 81, 87, 93, 99] {
+  print("Success!") 
+}</td>
+      <td class="ts">if (JSON.stringify(missing) === 
+    '[73,77,81,87,93,99]') {
+  console.log('Success!'); 
+}</td>
+    </tr>
+
+
+  </table>
+	<br>
+  <div class="caption">
+		Language similarity
+	</div>
+  <div id="results-table">
+  </div>
+  <script>
+    let langs = [
+      'clojure',
+      'cpp',
+      'elixir',
+      'go',
+      'java',
+      'kotlin',
+      'objc',
+      'php',
+      'python',
+      'ruby',
+      'swift',
+      'ts',
+      'js',
+    ];
+    
+    function check(lang) {
+      let value = document.getElementById(lang).checked;
+      localStorage.setItem(lang, value);
+      update(lang, value);
+    }
+    
+    for (let lang of langs) {
+      let value = JSON.parse(localStorage.getItem(lang));
+      if (value === null) value = true;
+      document.getElementById(lang).checked = value;
+      update(lang, value);
+    }
+    
+    function update(lang, value) {
+      for (let cell of document.getElementsByClassName(lang)) {
+        cell.style.display = value ? "table-cell" : "none";
+      }
+    }
+    
+    function levenshteinDistance(a, b) {
+      const distanceMatrix = Array(b.length + 1).fill(null)
+        .map(() => Array(a.length + 1).fill(null));
+
+      for (let i = 0; i <= a.length; i += 1) {
+        distanceMatrix[0][i] = i;
+      }
+
+      for (let j = 0; j <= b.length; j += 1) {
+        distanceMatrix[j][0] = j;
+      }
+
+      for (let j = 1; j <= b.length; j += 1) {
+        for (let i = 1; i <= a.length; i += 1) {
+          const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+          distanceMatrix[j][i] = Math.min(
+            distanceMatrix[j][i - 1] + 1, // deletion
+            distanceMatrix[j - 1][i] + 1, // insertion
+            distanceMatrix[j - 1][i - 1] + indicator, // substitution
+          );
+        }
+      }
+
+      return distanceMatrix[b.length][a.length];
+    }
+    
+    function score(code1, code2) {
+      if (code1 == code2) return 1.0;
+      let distance = levenshteinDistance(code1, code2);
+      let totalLength = (code1.length + code2.length) / 2.0;
+      return 1 - (distance / totalLength);
+    }
+    
+    function average(values) {
+      if (values.length == 0) return 0.0;
+      let val = values.reduce((a, b) => a + b, 0.0) / values.length;
+      return val > 0 ? val : 0.0;
+    }
+    
+    function measureAll() {
+      let matrix = langs.reduce((ma, la) => {
+        ma[la] = langs.reduce((mb, lb) => { 
+          mb[lb] = []; 
+          return mb; }, {});
+        return ma; }, {});
+      
+      
+      let table = document.getElementById("main-table");
+      for (let row of table.children[0].children) {
+        if (row.className == 'header') continue;
+        
+        let codes = {};
+        for (let cell of row.children) {
+          if (cell.className == 'thing') continue;
+          if (cell.innerText.length) 
+            codes[cell.className] = cell.innerText;
+        }
+
+        for (let lang1 in codes) {
+          let code1 = codes[lang1];
+          for (let lang2 in codes) {
+            if (lang1 == lang2) continue;
+            let code2 = codes[lang2];
+            if (matrix[lang1] && matrix[lang1][lang2]) {
+              matrix[lang1][lang2].push(score(code1, code2));              
+            }
+          }
+        }
+      }
+      
+      let ranks = {};
+      
+      for (let lang1 of langs) {
+        let totals = [];
+        for (let lang2 of langs) {
+          let total = average(matrix[lang1][lang2]);
+          matrix[lang1][lang2] = total;
+          totals.push(total);
+        }
+        ranks[lang1] = average(totals);
+      }
+ 
+      langs.sort((lang1, lang2) => ranks[lang2] - ranks[lang1]); 
+ 
+      console.log(JSON.stringify(ranks))
+      console.log(JSON.stringify(matrix));
+      createTable(matrix);
+    }
+    
+    function createTable(matrix) {
+      var myTableDiv = document.getElementById("results-table");
+      
+      var table = document.createElement('table');
+      table.border='0';
+    
+      var tableBody = document.createElement('tbody');
+      table.appendChild(tableBody);
+      
+      var header = document.createElement('tr');
+      tableBody.appendChild(header);
+      var td = document.createElement('td');
+      td.appendChild(document.createTextNode(""));
+      header.appendChild(td);
+      for (let lang of langs) {
+        var td = document.createElement('td');
+        td.align = 'center';
+        td.className += ' matrix_label';
+        td.appendChild(document.createTextNode(lang));
+        header.appendChild(td);
+      }
+      
+      for (let lang1 of langs) {
+        var tr = document.createElement('tr');
+        tableBody.appendChild(tr);
+
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(lang1));
+        td.className += ' matrix_label';
+        td.align = 'center';
+        tr.appendChild(td);
+
+        for (let lang2 of langs) {
+          var td = document.createElement('td');
+          let value = lang1 != lang2 ? Math.round(matrix[lang1][lang2] * 100) : "--";
+          td.appendChild(document.createTextNode(value));
+          td.width = 45;
+          td.align = 'center';
+          if (lang1 != lang2) {
+            td.style['background-color'] = 'rgba(0,200,0,' + (value / 100.0) + ')';
+          }
+          tr.appendChild(td);
+        }
+      }
+
+      myTableDiv.appendChild(table);
+    }
+    
+    measureAll();
+    
+  </script>
+</body>
+</html>

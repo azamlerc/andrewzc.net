@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🚇 Subway Status 🤯</title>
+	<meta charset="UTF-8">
+	<style>
+
+.orientation0 {
+   left: 0px;
+   bottom: 0px;
+ }
+
+.orientation90 {
+  transform: rotate(90deg);
+  left: 420px;
+  bottom: 420px;
+}
+
+.orientation180 {
+  transform: rotate(180deg);
+  left: 0px;
+  bottom: 0px;
+}
+
+.orientation270 {
+  transform: rotate(270deg);
+  left: 420px;
+  bottom: 420px;
+}
+
+body {
+	margin: 0px;
+	background-color: black;
+  /* overflow: hidden; */
+  font: 30pt Helvetica;
+  color: black;
+}
+
+#main {
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  position: relative;
+	background-color: white;
+}
+
+.bullet {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -11px;
+}
+
+.category {
+  font: 20pt Helvetica;
+  color: #777;
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.problem {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.station {
+  font-weight: bold;
+}
+
+	</style>
+</head>
+<body>
+<div id="main">
+</div>
+</body>
+<script>
+
+const width = 1920;
+const height = 1080;
+const rotate = false;
+const minProblems = 8;
+const maxProblems = 10;
+
+const main = document.getElementById("main");
+let orientation = 0;
+spin(rotate ? 270 : 0);
+
+document.addEventListener("keydown", function(event) {
+	switch (event.key) {
+    case "ArrowUp": spin(-180); break;
+    case "ArrowLeft": spin(-90); break;
+    case "ArrowRight": spin(90); break;
+    case "ArrowDown": spin(180); break;
+    case "Enter": reload(); break;
+		default: return;
+	}
+	event.preventDefault();
+});
+
+function spin(delta) {
+  main.classList.remove(`orientation${orientation}`);
+  orientation = (orientation + delta + 360) % 360;
+  main.classList.add(`orientation${orientation}`);
+}
+
+let lineNames = ["A", "C", "E", "B", "D", "F", "M", "G", "J", /*"Z",*/ "L", "N", "Q", "R", "W", "1", "2", "3", "4", "5", "6", "7", "S"];
+let lineGroups = [
+  ["A", "C", "E"], 
+  ["B", "D", "F", "M"],
+  ["N", "Q", "R", "W"],
+  ["1", "2", "3"],
+  ["4", "5", "6"]];
+let categories = ["Delays", "Slow Speeds", "Trains Diverted", "Part Closure", "Suspended", "No Scheduled Service"];
+let problems = {
+  "Delays": [
+    "$LINE trains are running with delays $BECAUSE $REASON.",
+    "$LINE trains are currently experiencing delays $BECAUSE $REASON.",
+    "$LINE trains are experiencing severe delays $BECAUSE $REASON.",
+    "$LINE trains are recovering from an earlier incident $BECAUSE $REASON.",
+    "$LINE trains are delayed because NYPD are responding to $REASON.",
+    "$LINE trains are delayed because FDNY are responding to $REASON.",
+    "You may wait longer for a $LINE train. We're running as much service as we can with $REASON.",
+    "It's going to take a while for the $LINE train. That's $BECAUSE $REASON."
+  ],
+  "Slow Speeds": [
+    "$LINE trains are running with slow speeds $BECAUSE $REASON.",
+    "$LINE trains are barely moving $BECAUSE $REASON.",
+    "$LINE trains have ground to a halt $BECAUSE $REASON.",
+    "$LINE trains are plodding along $BECAUSE $REASON.",
+    "$LINE trains are taking their sweet time $BECAUSE $REASON.",
+  ],
+  "Part Closure": [
+    "$LINE trains are currently not running from $STATION to $STATION $BECAUSE $REASON.",
+    "$LINE trains are skipping stations from $STATION to $STATION $BECAUSE $REASON.",
+    "$LINE trains are running in two sections up to $STATION and then from $STATION $BECAUSE $REASON.",
+  ],
+  "Trains Diverted": [
+    "$LINE trains are running over the $TRAIN line from $STATION to $STATION $BECAUSE $REASON.",
+    "$LINE trains are running express from $STATION to $STATION $BECAUSE $REASON.",
+    "$LINE trains are running local from $STATION to $STATION $BECAUSE $REASON.",
+  ],
+  "Suspended": [
+    "$LINE trains are currently suspended $BECAUSE $REASON.",
+    "$LINE trains are not running $BECAUSE $REASON.",
+    "$LINE trains are just not feeling it today.",
+    "$LINE trains are just not happening today $BECAUSE $REASON.",
+  ],
+  "No Scheduled Service": [
+    "There is currently no scheduled service on the $LINE line beacuse $NO_Z",
+    "There are no trains on the $LINE line beacuse $NO_Z",
+    "Don’t expect any service on the $LINE line today beacuse $NO_Z",
+  ]
+}
+let expansions = {
+  "$TRAIN": ["1", "2", "3", "4", "5", "6", "7", "A", "B", "C", "D", "E", "F", "G", "J", "L", "M", "N", "Q", "R", "S", "W"],
+  "$BECAUSE": [
+    "due to",
+    "because of",
+    "on account of",
+    "as a result of",
+    "$WHEN due to",
+    "$WHEN because of",
+  ],
+  "$WHEN": [
+    "until $DAY",
+    "until $DAY at $TWELVE:00&nbsp;$AMPM",
+    "until $MONTH"
+  ],
+  "$TWELVE": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+  "$AMPM": ["AM", "PM"],
+  "$DAY": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  "$MONTH": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  "$REASON": [
+    "$ANIMALS causing a short circuit",
+    "$ANIMALS in the token booth",
+    "$ANIMALS on the platfrom at $STATION",
+    "$ANIMALS on the tracks",
+    "a black hole",
+    "a blown fuse",
+    "a broken rail",
+    "a butterfly flapping its wings",
+    "a collision with a $TRAIN train that was on the wrong track",
+    "a computer virus",
+    "a disturbance in the force",
+    "a drawbridge being raised",
+    "a faulty switch",
+    "a flash mob",
+    "a flock of seagulls",
+    "a general sense of malaise",
+    "a kernel panic",
+    "a lack of funding",
+    "a light breeze",
+    "a lightning strike",
+    "a loss of gravity",
+    "a loss of power near $STATION",
+    "a malfunction in the warp core",
+    "a malware attack",
+    "a massive sinkhole in $STREET",
+    "a nuclear meltdown",
+    "a null pointer exception",
+    "a parade in a different part of town",
+    "a parade on $STREET",
+    "a passenger struck by a train at $STATION",
+    "a pathological refusal to learn from how other metros operate",
+    "a plague of locusts",
+    "a protest on $STREET",
+    "a race condition",
+    "a radiation leak at $STATION",
+    "a runaway train",
+    "a rupture in the space/time continuum",
+    "a shortage of staff",
+    "a shortage of trains",
+    "a signal failure",
+    "a stack overflow",
+    "a stock market crash",
+    "a switch malfunction at $STATION",
+    "a tornado in the vicinity of $STATION",
+    "a train being suddenly transported to Hawaii",
+    "a train derailed between stations",
+    "a train getting bricked while installing a software update",
+    "a train in need of cleaning at $STATION",
+    "a train overshooting the platform at $STATION",
+    "a train running at excessive speed",
+    "a train running off a cliff",
+    "a train running out of gas",
+    "a train splitting the switch",
+    "a train that mysteriously appeared at $STATION",
+    "a train turning left at Albuquerque",
+    "a train with a broken door at $STATION",
+    "a train with a burned-out headlight",
+    "a train with a flat tire",
+    "a train with a mechanical problem at $STATION",
+    "a train with brakes in emergency at $STATION",
+    "a tsunami at Coney Island",
+    "accessibility improvements",
+    "all your base are belong to us",
+    "an alien invasion",
+    "an earthquake near $STATION",
+    "an electrical malfunction at $STATION",
+    "an extension conflict",
+    "an infinite loop",
+    "an oil spill",
+    "an OMNY outage",
+    "an outbreak of Spanish Flu",
+    "an unauthorized person on the tracks at $STATION",
+    "an unruly passenger at $STATION",
+    "artificial intelligence",
+    "chronic fatigue",
+    "civil unrest",
+    "climate change skepticism",
+    "conspiracy theories",
+    "construction delays on the Second Avenue Subway",
+    "cryptocurrency fluctuations",
+    "daylight savings time",
+    "debris",
+    "dementors",
+    "dread about the upcoming election",
+    "elevator installation at $STATION",
+    "elevator maintenance",
+    "Elvis sightings",
+    "EMS responding to someone in need at $STREET",
+    "everything backing up",
+    "everything being on the blink",
+    "everything getting thoroughly bollocksed up",
+    "everything going a little wonky",
+    "everything going sideways",
+    "everything going tits up",
+    "everything just being a total cluster today",
+    "express trains running on the local track",
+    "fallen trees",
+    "FDNY responding to a cat stuck up a tree",
+    "general incompetence",
+    "general skepticism of anything that could be done to improve the subway",
+    "gentrification",
+    "getting stuck behind a $TRAIN train",
+    "ghost trains",
+    "global warming",
+    "Houston, we have a problem",
+    "ill-considered urban planning",
+    "landslides",
+    "lingering effects of Hurricane Sandy",
+    "local trains running on the express track",
+    "maintenance staff on strike",
+    "manufacturing delays",
+    "millenials",
+    "multiple incidents",
+    "overheating",
+    "panic in the streets of London",
+    "paranormal activity",
+    "people getting lost at $STATION",
+    "people riding outside the train",
+    "pizza rat being electrocuted",
+    "R32 trains being returned to service",
+    "ransomware",
+    "rapid unscheduled disassembly",
+    "restarting the router",
+    "running out of steam",
+    "scope creep",
+    "severe flooding",
+    "snowy conditions",
+    "solar flares",
+    "someone being on mute",
+    "someone dropping their iPhone on the track",
+    "someone forgetting their keys",
+    "someone letting the smoke out",
+    "someone tripping over the power cable",
+    "someone trying to get off the train at City Hall",
+    "a system error occurring",
+    "station improvements",
+    "supply chain disruption",
+    "that ship blocking the Suez Canal",
+    "that volcano in Iceland",
+    "the blue screen of death",
+    "the Covid-19 pandemic",
+    "the economy in Venezuela",
+    "the effects of climate change",
+    "the Malbone Street wreck",
+    "the metric system",
+    "the nationwide coin shortage",
+    "the operator's lack of experience",
+    "the oxygen scrubbers malfunctioning",
+    "the rise of the machines",
+    "the train getting lost",
+    "the train telescoping into a $TRAIN train",
+    "things going haywire",
+    "time zone differences",
+    "track fires",
+    "track replacement",
+    "trains going the wrong way",
+    "trains single-tracking",
+    "trying to figure out why the $LINE train even exists",
+    "tunnel reconstruction",
+    "an undefined variable",
+    "unplanned station closures",
+    "urban blight",
+    "urban legends",
+    "vaccine skepticism",
+    "volcanic activity",
+    "Voldemort",
+    "waiting for a software update to finish installing",
+    "wet leaves on the rails",
+    "wishing it was a $TRAIN train",
+  ],
+  "$ANIMALS": [
+    "a zebra",
+    "otters",
+    "camels",
+    "lemurs",
+    "frogs",
+    "snails",
+    "lemmings",
+    "cats",
+    "lions",
+    "an ostrich",
+    "wombats",
+    "gnus",
+    "leopards",
+    "weasels"
+  ],
+  "$STREET": [
+    "Fifth Avenue",
+    "Broadway",
+    "34th Street",
+    "Wall Street",
+    "Seventh Avenue",
+    "14th Street",
+    "59th Street",
+    "Canal Street",
+  ],
+  "$NO_Z": [
+    "it does not operate in the early morning.",
+    "it does not operate during the day.",
+    "it does not operate in the evening.",
+    "it does not operate during late nights.",
+    "it does not operate on the weekend.",
+    "it just can’t even be bothered.",
+    "who wants to take the $LINE train anyway.",
+    "there is no such thing as a $LINE train!",
+    "honestly have you ever seen a $LINE train?",
+    "if a $LINE train operates and nobody takes it, does it really exist?",
+  ]
+};
+let stations = {
+    "A": ["Inwood–207th Street", "Dyckman Street", "190th Street", "181st Street", "175th Street", "168th Street", "163rd Street–Amsterdam Avenue", "155th Street", "145th Street", "135th Street", "125th Street", "116th Street", "Cathedral Parkway–110th Street", "103rd Street", "96th Street", "86th Street", "81st Street–Museum of Natural History", "72nd Street", "59th Street–Columbus Circle", "50th Street", "42nd Street–Port Authority Bus Terminal", "34th Street–Penn Station", "23rd Street", "14th Street", "West Fourth Street–Washington Square", "Spring Street", "Canal Street", "Chambers Street", "Fulton Street", "High Street", "Jay Street–MetroTech", "Hoyt–Schermerhorn Streets", "Lafayette Avenue", "Clinton–Washington Avenues", "Franklin Avenue", "Nostrand Avenue", "Kingston–Throop Avenues", "Utica Avenue", "Ralph Avenue", "Rockaway Avenue", "Broadway Junction", "Liberty Avenue", "Van Siclen Avenue", "Shepherd Avenue", "Euclid Avenue", "Grant Avenue", "Queens", "80th Street", "88th Street", "Rockaway Boulevard", "104th Street", "111th Street", "Ozone Park–Lefferts Boulevard", "Aqueduct Racetrack", "Aqueduct–North Conduit Avenue", "Howard Beach–JFK Airport", "Broad Channel", "Beach 67th Street", "Beach 60th Street", "Beach 44th Street", "Beach 36th Street", "Beach 25th Street", "Far Rockaway–Mott Avenue", "Beach 90th Street", "Beach 98th Street", "Beach 105th Street", "Rockaway Park–Beach 116th Street"],
+    "B": ["Bedford Park Boulevard", "Kingsbridge Road", "Fordham Road", "182nd–183rd Streets", "Tremont Avenue", "174th–175th Streets", "170th Street", "167th Street", "161st Street–Yankee Stadium", "155th Street", "145th Street", "135th Street", "125th Street", "116th Street", "Cathedral Parkway–110th Street", "103rd Street", "96th Street", "86th Street", "81st Street–Museum of Natural History", "72nd Street", "59th Street–Columbus Circle", "Seventh Avenue", "47th–50th Streets–Rockefeller Center", "42nd Street–Bryant Park", "34th Street–Herald Square", "West Fourth Street–Washington Square", "Broadway–Lafayette Street", "Chrystie Street Branch", "Grand Street", "DeKalb Avenue", "Atlantic Avenue–Barclays Center", "Seventh Avenue", "Prospect Park", "Church Avenue", "Newkirk Plaza", "Kings Highway", "Sheepshead Bay", "Brighton Beach"],
+    "C": ["168th Street", "163rd Street–Amsterdam Avenue", "155th Street", "145th Street", "135th Street", "125th Street", "116th Street", "Cathedral Parkway–110th Street", "103rd Street", "96th Street", "86th Street", "81st Street–Museum of Natural History", "72nd Street", "59th Street–Columbus Circle", "50th Street", "42nd Street–Port Authority Bus Terminal", "34th Street–Penn Station", "23rd Street", "14th Street", "West Fourth Street–Washington Square", "Spring Street", "Canal Street", "Chambers Street", "Fulton Street", "High Street", "Jay Street–MetroTech", "Hoyt–Schermerhorn Streets", "Lafayette Avenue", "Clinton–Washington Avenues", "Franklin Avenue", "Nostrand Avenue", "Kingston–Throop Avenues", "Utica Avenue", "Ralph Avenue", "Rockaway Avenue", "Broadway Junction", "Liberty Avenue", "Van Siclen Avenue", "Shepherd Avenue", "Euclid Avenue", "Brighton Beach"],
+    "D": ["Norwood–205th Street", "Bedford Park Boulevard", "Kingsbridge Road", "Fordham Road", "182nd–183rd Streets", "Tremont Avenue", "174th–175th Streets", "170th Street", "167th Street", "161st Street–Yankee Stadium", "155th Street", "145th Street", "125th Street", "59th Street–Columbus Circle", "Seventh Avenue", "47th–50th Streets–Rockefeller Center", "42nd Street–Bryant Park", "34th Street–Herald Square", "West Fourth Street–Washington Square", "Broadway–Lafayette Street", "Grand Street", "DeKalb Avenue", "Atlantic Avenue–Barclays Center", "Union Street", "Ninth Street", "Prospect Avenue", "25th Street", "36th Street", "Ninth Avenue", "Fort Hamilton Parkway", "50th Street", "55th Street", "62nd Street", "71st Street", "79th Street", "18th Avenue", "20th Avenue", "Bay Parkway", "25th Avenue", "Bay 50th Street", "Coney Island–Stillwell Avenue"],
+    "E": ["Jamaica–179th Street", "169th Street", "Parsons Boulevard", "Sutphin Boulevard", "Jamaica Center–Parsons/Archer", "Sutphin Boulevard–Archer Avenue–JFK Airport", "Jamaica–Van Wyck", "Briarwood", "Kew Gardens–Union Turnpike", "75th Avenue", "Forest Hills–71st Avenue", "67th Avenue", "63rd Drive–Rego Park", "Woodhaven Boulevard", "Grand Avenue–Newtown", "Elmhurst Avenue", "Jackson Heights–Roosevelt Avenue", "65th Street", "Northern Boulevard", "46th Street", "Steinway Street", "36th Street", "Queens Plaza", "Court Square–23rd Street", "Lexington Avenue–53rd Street", "Fifth Avenue/53rd Street", "Seventh Avenue", "50th Street", "42nd Street–Port Authority Bus Terminal", "34th Street–Penn Station", "23rd Street", "14th Street", "West Fourth Street–Washington Square", "Spring Street", "Canal Street", "World Trade Center"],
+    "F": ["Jamaica–179th Street", "169th Street", "Parsons Boulevard", "Sutphin Boulevard", "Briarwood", "Kew Gardens–Union Turnpike", "75th Avenue", "Forest Hills–71st Avenue", "67th Avenue", "63rd Drive–Rego Park", "Woodhaven Boulevard", "Grand Avenue–Newtown", "Elmhurst Avenue", "Jackson Heights–Roosevelt Avenue", "65th Street", "Northern Boulevard", "46th Street", "Steinway Street", "36th Street", "Queens Plaza", "Court Square–23rd Street", "Lexington Avenue–53rd Street", "Fifth Avenue/53rd Street", "47th–50th Streets–Rockefeller Center", "42nd Street–Bryant Park", "34th Street–Herald Square", "23rd Street", "14th Street", "West Fourth Street–Washington Square", "Broadway–Lafayette Street", "Second Avenue", "Delancey Street", "East Broadway", "York Street", "Jay Street–MetroTech", "Bergen Street", "Carroll Street", "Smith–Ninth Streets", "Fourth Avenue", "Seventh Avenue", "15th Street–Prospect Park", "Fort Hamilton Parkway", "Church Avenue", "Ditmas Avenue", "18th Avenue", "Avenue I", "Bay Parkway", "Avenue N", "Avenue P", "Kings Highway", "Avenue U", "Avenue X", "Neptune Avenue", "West Eighth Street–New York Aquarium", "Coney Island–Stillwell Avenue"],
+    "G": ["Court Square", "21st Street", "Greenpoint Avenue", "Nassau Avenue", "Metropolitan Avenue", "Broadway", "Flushing Avenue", "Myrtle–Willoughby Avenues", "Bedford–Nostrand Avenues", "Classon Avenue", "Clinton–Washington Avenues", "Fulton Street", "Hoyt–Schermerhorn Streets", "Bergen Street", "Carroll Street", "Smith–Ninth Streets", "Fourth Avenue", "Seventh Avenue", "15th Street–Prospect Park", "Fort Hamilton Parkway", "Church Avenue"],
+    "M": ["57th Street", "47th–50th Streets–Rockefeller Center", "42nd Street–Bryant Park", "34th Street–Herald Square", "23rd Street", "14th Street", "West Fourth Street–Washington Square", "Broadway–Lafayette Street", "Essex Street", "Marcy Avenue", "Hewes Street", "Lorimer Street", "Flushing Avenue", "Myrtle Avenue", "Central Avenue", "Knickerbocker Avenue", "Myrtle–Wyckoff Avenues", "Seneca Avenue", "Forest Avenue", "Fresh Pond Road", "Middle Village–Metropolitan Avenue"],
+    "L": ["Eighth Avenue", "Sixth Avenue", "Union Square", "Third Avenue", "First Avenue", "Bedford Avenue", "Lorimer Street", "Graham Avenue", "Grand Street", "Montrose Avenue", "Morgan Avenue", "Jefferson Street", "DeKalb Avenue", "Myrtle–Wyckoff Avenues", "Halsey Street", "Wilson Avenue", "Bushwick Avenue–Aberdeen Street", "Broadway Junction", "Atlantic Avenue", "Sutter Avenue", "Livonia Avenue", "New Lots Avenue", "East 105th Street", "Canarsie–Rockaway Parkway"],
+    "J": ["Jamaica Center–Parsons/Archer", "Sutphin Boulevard–Archer Avenue–JFK Airport", "121st Street", "111th Street", "104th Street", "Woodhaven Boulevard", "85th Street–Forest Parkway", "75th Street–Elderts Lane", "Cypress Hills", "Crescent Street", "Norwood Avenue", "Cleveland Street", "Van Siclen Avenue", "Alabama Avenue", "Broadway Junction", "Chauncey Street", "Halsey Street", "Gates Avenue", "Kosciuszko Street", "Myrtle Avenue", "Flushing Avenue", "Lorimer Street", "Hewes Street", "Marcy Avenue", "Essex Street", "Bowery", "Canal Street", "Chambers Street", "Fulton Street", "Broad Street"],
+    "N": ["Astoria–Ditmars Boulevard", "Astoria Boulevard", "30th Avenue", "Broadway", "36th Avenue", "39th Avenue", "Queensboro Plaza", "Lexington Avenue–59th Street", "Fifth Avenue–59th Street", "57th Street–Seventh Avenue", "49th Street", "Times Square–42nd Street", "34th Street–Herald Square", "28th Street", "23rd Street", "14th Street–Union Square", "Eighth Street–New York University", "Prince Street", "Canal Street", "Canal Street", "City Hall", "Cortlandt Street", "Rector Street", "Whitehall Street–South Ferry", "Court Street", "Jay Street–MetroTech", "DeKalb Avenue", "Atlantic Avenue–Barclays Center", "Union Street", "Ninth Street", "Prospect Avenue", "25th Street", "36th Street", "45th Street", "53rd Street", "59th Street", "Eighth Avenue", "Fort Hamilton Parkway", "New Utrecht Avenue", "18th Avenue", "20th Avenue", "Bay Parkway", "Kings Highway", "Avenue U", "86th Street", "Coney Island–Stillwell Avenue"],
+    "Q": ["96th Street", "86th Street", "72nd Street", "Lexington Avenue–63rd Street", "57th Street–Seventh Avenue", "49th Street", "Times Square–42nd Street", "34th Street–Herald Square", "28th Street", "23rd Street", "14th Street–Union Square", "Eighth Street–New York University", "Prince Street", "Canal Street", "DeKalb Avenue", "Atlantic Avenue–Barclays Center", "Seventh Avenue", "Prospect Park", "Parkside Avenue", "Church Avenue", "Beverley Road", "Cortelyou Road", "Newkirk Plaza", "Avenue H", "Avenue J", "Avenue M", "Kings Highway", "Avenue U", "Neck Road", "Sheepshead Bay", "Brighton Beach", "Ocean Parkway", "West Eighth Street–New York Aquarium", "Atlantic Avenue–Barclays Center", "36th Street", "59th Street", "Eighth Avenue", "Fort Hamilton Parkway", "New Utrecht Avenue", "18th Avenue", "20th Avenue", "Bay Parkway", "Kings Highway", "Avenue U", "86th Street", "Coney Island–Stillwell Avenue"],
+    "R": ["Forest Hills–71st Avenue", "67th Avenue", "63rd Drive–Rego Park", "Woodhaven Boulevard", "Grand Avenue–Newtown", "Elmhurst Avenue", "Jackson Heights–Roosevelt Avenue", "65th Street", "Northern Boulevard", "46th Street", "Steinway Street", "36th Street", "Queens Plaza", "Lexington Avenue–59th Street", "Fifth Avenue–59th Street", "57th Street–Seventh Avenue", "49th Street", "Times Square–42nd Street", "34th Street–Herald Square", "28th Street", "23rd Street", "14th Street–Union Square", "Eighth Street–New York University", "Prince Street", "Canal Street", "City Hall", "Cortlandt Street", "Rector Street", "Whitehall Street–South Ferry", "Court Street", "Jay Street–MetroTech", "DeKalb Avenue", "Atlantic Avenue–Barclays Center", "Union Street", "Ninth Street", "Prospect Avenue", "25th Street", "36th Street", "45th Street", "53rd Street", "59th Street", "Bay Ridge Avenue", "77th Street", "86th Street", "Bay Ridge–95th Street"],
+    "W": ["Astoria–Ditmars Boulevard", "Astoria Boulevard", "30th Avenue", "Broadway", "36th Avenue", "39th Avenue", "Queensboro Plaza", "Lexington Avenue–59th Street", "Fifth Avenue–59th Street", "57th Street–Seventh Avenue", "49th Street", "Times Square–42nd Street", "34th Street–Herald Square", "28th Street", "23rd Street", "14th Street–Union Square", "Eighth Street–New York University", "Prince Street", "Canal Street", "City Hall", "Cortlandt Street", "Rector Street", "Whitehall Street–South Ferry"],
+    "Z": ["Jamaica Center–Parsons/Archer", "Sutphin Boulevard–Archer Avenue–JFK Airport", "121st Street", "111th Street", "104th Street", "Woodhaven Boulevard", "85th Street–Forest Parkway", "75th Street–Elderts Lane", "Cypress Hills", "Crescent Street", "Norwood Avenue", "Cleveland Street", "Van Siclen Avenue", "Alabama Avenue", "Broadway Junction", "Chauncey Street", "Halsey Street", "Gates Avenue", "Kosciuszko Street", "Myrtle Avenue", "Flushing Avenue", "Lorimer Street", "Hewes Street", "Marcy Avenue", "Essex Street", "Bowery", "Canal Street", "Chambers Street", "Fulton Street", "Broad Street"],
+    "1": ["Van Cortlandt Park–242nd Street", "238th Street", "231st Street", "Marble Hill–225th Street", "215th Street", "207th Street", "Dyckman Street", "191st Street", "181st Street", "168th Street", "157th Street", "145th Street", "137th Street–City College", "125th Street", "116th Street–Columbia University", "Cathedral Parkway–110th Street", "103rd Street", "96th Street", "86th Street", "79th Street", "72nd Street", "66th Street–Lincoln Center", "59th Street–Columbus Circle", "50th Street", "Times Square–42nd Street", "34th Street–Penn Station", "28th Street", "23rd Street", "18th Street", "14th Street", "Christopher Street–Sheridan Square", "Houston Street", "Canal Street", "Franklin Street", "Chambers Street", "WTC Cortlandt", "Rector Street", "South Ferry"],
+    "2": ["Wakefield–241st Street", "Nereid Avenue", "233rd Street", "225th Street", "219th Street", "Gun Hill Road", "Burke Avenue", "Allerton Avenue", "Pelham Parkway", "Bronx Park East", "East 180th Street", "West Farms Square–East Tremont Avenue", "174th Street", "Freeman Street", "Simpson Street", "Intervale Avenue", "Prospect Avenue", "Jackson Avenue", "Third Avenue–149th Street", "149th Street–Grand Concourse", "135th Street", "125th Street", "116th Street", "Central Park North–110th Street", "96th Street", "86th Street", "79th Street", "72nd Street", "66th Street–Lincoln Center", "59th Street–Columbus Circle", "50th Street", "Times Square–42nd Street", "34th Street–Penn Station", "28th Street", "23rd Street", "18th Street", "14th Street", "Christopher Street–Sheridan Square", "Houston Street", "Canal Street", "Franklin Street", "Chambers Street", "Park Place", "Fulton Street", "Wall Street", "Clark Street", "Borough Hall", "Hoyt Street", "Nevins Street", "Atlantic Avenue–Barclays Center", "Bergen Street", "Grand Army Plaza", "Eastern Parkway–Brooklyn Museum", "Franklin Avenue–Medgar Evers College", "President Street–Medgar Evers College", "Sterling Street", "Winthrop Street", "Church Avenue", "Beverly Road", "Newkirk Avenue–Little Haiti", "Flatbush Avenue–Brooklyn College"],
+    "3": ["Harlem–148th Street", "145th Street", "135th Street", "125th Street", "116th Street", "Central Park North–110th Street", "96th Street", "72nd Street", "Times Square–42nd Street", "34th Street–Penn Station", "14th Street", "Chambers Street", "Park Place", "Fulton Street", "Wall Street", "Clark Street", "Borough Hall", "Hoyt Street", "Nevins Street", "Atlantic Avenue–Barclays Center", "Bergen Street", "Grand Army Plaza", "Eastern Parkway–Brooklyn Museum", "Franklin Avenue–Medgar Evers College", "Nostrand Avenue", "Kingston Avenue", "Crown Heights–Utica Avenue", "Sutter Avenue–Rutland Road", "Saratoga Avenue", "Rockaway Avenue", "Junius Street", "Pennsylvania Avenue", "Van Siclen Avenue", "New Lots Avenue"],
+    "4": ["Woodlawn", "Mosholu Parkway", "Bedford Park Boulevard–Lehman College", "Kingsbridge Road", "Fordham Road", "183rd Street", "Burnside Avenue", "176th Street", "Mount Eden Avenue", "170th Street", "167th Street", "161st Street–Yankee Stadium", "149th Street–Grand Concourse", "138th Street–Grand Concourse", "125th Street", "116th Street", "110th Street", "103rd Street", "96th Street", "86th Street", "77th Street", "68th Street–Hunter College", "59th Street", "51st Street", "Grand Central–42nd Street", "33rd Street", "28th Street", "23rd Street", "14th Street–Union Square", "Astor Place", "Bleecker Street", "Spring Street", "Canal Street", "Brooklyn Bridge–City Hall", "Fulton Street", "Wall Street", "Bowling Green", "Borough Hall", "Nevins Street", "Atlantic Avenue–Barclays Center", "Bergen Street", "Grand Army Plaza", "Eastern Parkway–Brooklyn Museum", "Franklin Avenue–Medgar Evers College", "Nostrand Avenue", "Kingston Avenue", "Crown Heights–Utica Avenue"],
+    "5": ["Eastchester–Dyre Avenue", "Baychester Avenue", "Gun Hill Road", "Pelham Parkway", "Morris Park", "East 180th Street", "West Farms Square–East Tremont Avenue", "174th Street", "Freeman Street", "Simpson Street", "Intervale Avenue", "Prospect Avenue", "Jackson Avenue", "Third Avenue–149th Street", "149th Street–Grand Concourse", "138th Street–Grand Concourse", "125th Street", "86th Street", "59th Street", "Grand Central–42nd Street", "14th Street–Union Square", "Brooklyn Bridge–City Hall", "Fulton Street", "Wall Street", "Bowling Green", "Borough Hall", "Nevins Street", "Atlantic Avenue–Barclays Center", "Franklin Avenue–Medgar Evers College", "President Street–Medgar Evers College", "Sterling Street", "Winthrop Street", "Church Avenue", "Beverly Road", "Newkirk Avenue–Little Haiti", "Flatbush Avenue–Brooklyn College"],
+    "6": ["Pelham Bay Park", "Buhre Avenue", "Middletown Road", "Westchester Square–East Tremont Avenue", "Zerega Avenue", "Castle Hill Avenue", "Parkchester", "St. Lawrence Avenue", "Morrison Avenue–Soundview", "Elder Avenue", "Whitlock Avenue", "Hunts Point Avenue", "Longwood Avenue", "East 149th Street", "East 143rd Street–St. Mary's Street", "Cypress Avenue", "Brook Avenue", "Third Avenue–138th Street", "125th Street", "116th Street", "110th Street", "103rd Street", "96th Street", "86th Street", "77th Street", "68th Street–Hunter College", "59th Street", "51st Street", "Grand Central–42nd Street", "33rd Street", "28th Street", "23rd Street", "14th Street–Union Square", "Astor Place", "Bleecker Street", "Spring Street", "Canal Street", "Brooklyn Bridge–City Hall"],
+    "7": ["Flushing–Main Street", "Mets–Willets Point", "111th Street", "103rd Street–Corona Plaza", "Junction Boulevard", "90th Street–Elmhurst Avenue", "82nd Street–Jackson Heights", "74th Street–Broadway", "69th Street", "61st Street–Woodside", "52nd Street", "46th Street–Bliss Street", "40th Street–Lowery Street", "33rd Street–Rawson Street", "Queensboro Plaza", "Court Square", "Hunters Point Avenue", "Vernon Boulevard–Jackson Avenue", "Grand Central–42nd Street", "Fifth Avenue", "Times Square–42nd Street", "34th Street–Hudson Yards", "Flushing–Main Street", "Mets–Willets Point", "111th Street", "103rd Street–Corona Plaza", "Junction Boulevard", "90th Street–Elmhurst Avenue", "82nd Street–Jackson Heights", "74th Street–Broadway", "69th Street", "61st Street–Woodside", "52nd Street", "46th Street–Bliss Street", "40th Street–Lowery Street", "33rd Street–Rawson Street", "Queensboro Plaza", "Court Square", "Hunters Point Avenue", "Vernon Boulevard–Jackson Avenue", "Grand Central–42nd Street", "Fifth Avenue", "Times Square–42nd Street", "34th Street–Hudson Yards"],
+    "S": ["Times Square", "Grand Central"]
+};
+let ok = ["OK", "A good service is operating on all other lines", "It will all be okay", "Every little thing’s gonna be alright", "Don’t worry, be happy", "Meanwhile", "Keep calm and carry on", "Hakuna Matata"];
+
+let availableLineNames;
+let availableProblems;
+let availableExpansions;
+let availableStations;
+
+function reload() {
+  main.innerHTML = "";
+  cloneData();
+
+  let messages = {};
+  categories.forEach((category) => messages[category] = []);
+
+  for (let i = 0; i < randomBetween(minProblems, maxProblems) - 1; i++) {
+    generate(messages);
+  }
+  generate(messages, "Z"); // the Z always has a problem
+
+  categories.forEach((category) => {
+    if (messages[category].length) {
+      main.appendChild(paragraph("category", category.toUpperCase()));
+      messages[category].forEach((problem) => main.appendChild(paragraph("problem", problem)));
+    }
+  });
+
+  main.appendChild(paragraph("category", randomItem(ok).toUpperCase()));
+  let dots = paragraph("problem", availableLineNames.map((line) => lineDot(line)).join(" "));
+  dots.style.lineHeight = "1.5em";
+  main.appendChild(dots);
+}
+reload();
+
+function generate(messages, line = null) {
+  let lines = line ? [line] : getLines();
+  let category = randomItem(categories);
+  let problem = randomItem(availableProblems[category], true);
+  let prev = problem;
+  while (problem.includes("$")) {
+    let lineDots = lineDot(lines[0]);
+    if (lines.length == 2) lineDots += " and " + lineDot(lines[1]);
+    problem = problem.replace("$LINE", lineDots);
+    problem = problem.replace("$STATION", getStation(lines[0]));
+    problem = problem.replace("$STATION", getStation(lines[0]));
+    problem = problem.replace(/\$[A-Z_]*/, expand);
+    if (prev == problem) break;
+    prev = problem;
+  }
+  messages[category].push(problem);
+}
+
+function cloneData() {
+  availableLineNames = clone(lineNames);
+  availableProblems = clone(problems);
+  availableExpansions = clone(expansions);
+  availableStations = clone(stations);
+}
+
+function clone(object) {
+  return JSON.parse(JSON.stringify(object));
+}
+
+// returns an array with one or two lines (as long as they are the same color)
+function getLines() {
+  let line1 = randomItem(availableLineNames, true);
+  let line2 = randomItem(availableLineNames, false); // don't remove it yet
+  if (sameColor(line1, line2)) { // only remove it if we're going to use it
+    availableLineNames.splice(availableLineNames.indexOf(line2), 1);
+    return [line1, line2].sort();
+  } else {
+    return [line1];
+  }
+}
+
+function randomItem(array, remove = false) {
+  if (!array || array.length === 0) return undefined;
+  const randomIndex = Math.floor(Math.random() * array.length);
+  let value = array[randomIndex];
+  if (remove && array.length > 1) array.splice(randomIndex, 1);
+  return value;
+}
+
+function randomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+function expand(token) {
+  let list = availableExpansions[token];
+  if (!list) return `X_${token.substring(1)}_X`;
+  let remove = !["BECAUSE", "AMPM", "WHEN"].includes(token);
+  let response = randomItem(list, remove);
+  if (token == "$TRAIN") {
+    response = lineDot(response);
+  }
+  return response;
+}
+
+function getStation(line) {
+  return span(randomItem(availableStations[line], true), "station");
+}
+
+function lineDot(line) {
+  return `<img class="bullet" src="lines/${line.toLowerCase()}train.png">`;
+}
+
+function sameColor(a, b) {
+  for (let group of lineGroups) {
+    if (group.includes(a) && group.includes(b)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function span(text, span) {
+  return `<span class="${span}">${text}</span>`
+}
+
+function paragraph(klass, text) {
+  let p = document.createElement("p");
+  p.classList.add(klass);
+  p.innerHTML = text;
+  return p;
+}
+
+</script>
+</html>

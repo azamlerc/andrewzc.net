@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>🧭 Subway Directions</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=800" />
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		div.label {
+		  color: #999;
+		  font: 20pt Avenir;
+		}
+	</style>
+</head>
+<body>
+	<div class="headline">
+		🧭 Subway Directions
+	</div>
+  
+  <canvas id="midtown" width="900" height="2500" style="width: 900px; height: 2500px"></canvas>
+  
+  <div class="label" style="position: fixed; top: 125px; left: 740px;">
+	  click to select:<br>
+	  <input type="radio" name="mode" value="start" checked="checked" onClick="setMode('start')"> start&nbsp;
+	  <input type="radio" name="mode" value="end" onClick="setMode('end')"> end<br><br>
+	  <input type="checkbox" id="minimizeWalkingCheckbox" onchange="updateOptions()"> minimize walking<br>
+	  <input type="checkbox" id="transferCheckbox" onchange="updateOptions()"> allow transfers<br><br>
+	  <input type="checkbox" id="isochroneCheckbox" onchange="updateIsochrone()"> show isochrone<br>
+	  <input type="checkbox" id="isochrone2Checkbox" disabled="disabled" onchange="updateIsochrone()"> fuzzy mode<br>
+	  <input type="checkbox" id="animateCheckbox" onchange="updateAnimate()"> animate<br>
+	  <br>
+	  <div id="directions">Foo</div>
+	</div>
+	<script>
+function setupCanvas(canvas) {
+  let dpr = window.devicePixelRatio || 1;
+  let rect = canvas.getBoundingClientRect();
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+  let ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  return ctx;
+}
+
+let canvas = document.getElementById("midtown");
+let ctx = setupCanvas(canvas);
+let directions = document.getElementById("directions");
+
+canvas.addEventListener("mousedown", handleMousedown);
+
+let MapInfo = {
+  streetPixels: 10, // height of a street block in pixels
+  avenuePixels: 50, // width of an avenue block in pixels
+  minStreet: -55, // number of the lowest street (negative is below Houston)
+  maxStree: 171, // number of the highest street
+  minAvenue: -1, // number of the easternmost avenue (0 is Avenue A)
+  maxAvenue: 12, // number of the westernmost avenue
+  margin: 2, // pixels of padding around the map
+  leftMargin: 40, // pixels of padding on the left side (allows for labels)
+  lineWidth: 4,
+  selectedWidth: 7,
+  lineOffset: 2,
+  diagonalExtension: 0.7,
+};
+
+// map constants
+const minStreet = -55; // number of the lowest street (negative is below Houston)
+const maxStreet = 171; // number of the highest street
+const minAvenue = -1; // number of the easternmost avenue (0 is Avenue A)
+const maxAvenue = 12; // number of the westernmost avenue
+
+// checkbox options
+let allowTransfer = false;
+let allowJustWalk = true; // checks if it would be faster to walk
+let minimizeWalking = false; // tries to minimize walking time instead of total time
+let showIsochrone = false; // shows an over 
+let showIsochrone2 = false; // s
+let animate = false;
+
+// lines is an object that describes the lines to draw on the map
+// keys are the name of the line, and values are an array of points
+// points are objects with avenue and street number
+// points have an optional name
+// if a point is hidden, the point will not be drawn as a station
+// if the point has a radius, the line will curve away from that point
+const lines = {
+  "1": [
+		{av:4.5, st:-44, name:'South Ferry'},
+		{av:5, st:-36, name:'Rector St'},
+		{av:5.5, st:-28, name:'World Trade Center'},
+		{av:6, st:-19, hidden:true},
+		{av:6, st:-18, name:'Chambers St'},
+		{av:6, st:-14, name:'Frankin St'},
+		{av:6, st:-10, name:'Canal St'},
+		{av:7, st:-2, name:'Houston St'},
+		{av:7, st:4, name:'Christopher St'},
+		{av:7, st:14},
+		{av:7, st:18},
+		{av:7, st:23},
+		{av:7, st:28},
+		{av:7, st:34, name:'Penn Station'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7.5, st:46, hidden:true},
+		{av:7.5, st:50},
+		{av:7.5, st:54, hidden:true},
+		{av:8, st:59, name:'Columbus Circle',},
+		{av:9, st:66, name:'Lincoln Center'},
+		{av:10, st:72},
+		{av:10.5, st:75, hidden:true},
+		{av:10.5, st:79},
+		{av:10.5, st:86},
+		{av:10.5, st:96},
+		{av:10.5, st:103},
+		{av:10.5, st:110, name:'Cathedral Parkway'},
+		{av:10.5, st:116, name:'Columbia University'},
+		{av:10.5, st:125},
+		{av:10.5, st:137},
+		{av:10.5, st:145},
+		{av:10.5, st:157},
+		{av:10.5, st:168},
+		{av:10.5, st:171, hidden:true},
+	],
+  "2": [
+		{av:minAvenue, st:-37, hidden:true},
+		{av:3, st:-37, hidden:true, radius:25, direction:'SW'},
+		{av:3, st:-34, name:'Wall St'},
+		{av:3, st:-26, name:'Fulton St'},
+		{av:3, st:-21, hidden:true, radius:25, direction:'NE'},
+		{av:4.75, st:-21, name:'Park Place'},
+		{av:6, st:-21, hidden:true, radius:25, direction:'SW'},
+		{av:6, st:-18, name:'Chambers St'},
+		{av:6, st:-10, hidden:true},
+		{av:7, st:-2, hidden:true},
+		{av:7, st:14},
+		{av:7, st:34, name:'Penn Station'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7.5, st:46, hidden:true},
+		{av:7.5, st:50, hidden:true},
+		{av:7.5, st:54, hidden:true},
+		{av:8, st:59, hidden:true},
+		{av:9, st:66, hidden:true},
+		{av:10, st:72},
+		{av:10.5, st:75, hidden:true},
+		{av:10.5, st:96},
+		{av:10.5, st:104, hidden:true, radius:50, direction:'NW'},
+		{av:6, st:104, hidden:true, radius:50, radius:70, direction:'SE'},
+		{av:6, st:110, name:'Central Park North'},
+		{av:6, st:116},
+		{av:6, st:125},
+		{av:6, st:135},
+		{av:6, st:149, hidden:true, radius:50, radius:40, direction:'NW', dy:1},
+		{av:3.5, st:149, name:'149 St / Grand Concourse', dy:1},
+		{av:2, st:149, name:'3 Av / 149 St', dy:1},
+		{av:0, st:149, name:'Jackson Av', dy:1},
+		{av:minAvenue, st:149, hidden:true, dy:1},
+	],
+  "3": [
+		{av:7, st:14},
+		{av:7, st:34, name:'Penn Station'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7.5, st:46, hidden:true},
+		{av:7.5, st:50, hidden:true},
+		{av:7.5, st:54, hidden:true},
+		{av:8, st:59, hidden:true},
+		{av:9, st:66, hidden:true},
+		{av:10, st:72},
+		{av:10.5, st:75, hidden:true},
+		{av:10.5, st:96},
+		{av:10.5, st:104, hidden:true, radius:50, direction:'NW'},
+		{av:6, st:104, hidden:true, radius:50, radius:70, direction:'SE'},
+		{av:6, st:110, name:'Central Park North'},
+		{av:6, st:116},
+		{av:6, st:125},
+		{av:6, st:135},
+		{av:6, st:145},
+		{av:6, st:148, hidden:true, radius:25, direction:'NE'},
+		{av:7, st:148, name:'Harlem 148 St'},
+	],
+  "4": [
+		{av:minAvenue, st:-46, hidden:true},
+		{av:4, st:-46, hidden:true, radius:50, direction:'SW'},
+		{av:4, st:-40, name:'Bowling Green'},
+		{av:4, st:-34, name:'Wall St'},
+		{av:4, st:-26, name:'Fulton St'},
+		{av:4, st:-22, hidden:true},
+		{av:3.5, st:-18, name:'Brooklyn Bridge'},
+		{av:3.5, st:8, hidden:true},
+		{av:4, st:14, name:'Union Square'},
+		{av:4, st:40.5, hidden:true},
+		{av:3.75, st:42, name:'Grand Central'},
+		{av:3.5, st:43.5, hidden:true},
+		{av:3.5, st:59},
+		{av:3.5, st:86},
+		{av:3.5, st:125},
+		{av:3.5, st:138, name:'138 St / Grand Concourse'},
+		{av:3.5, st:149, name:'149 St / Grand Concourse'},
+		{av:3.5, st:151, hidden:true},
+		{av:4.5, st:159, hidden:true},
+		{av:4.5, st:161, name:'Yankee Stadium'},
+		{av:4.5, st:167},
+		{av:4.5, st:170},
+		{av:4.5, st:171, hidden:true},
+	],
+  "5": [
+		{av:4, st:14, name:'Union Square'},
+		{av:4, st:40.5, hidden:true},
+		{av:3.75, st:42, name:'Grand Central'},
+		{av:3.5, st:43.5, hidden:true},
+		{av:3.5, st:59},
+		{av:3.5, st:86},
+		{av:3.5, st:125},
+		{av:3.5, st:138, name:'138 St / Grand Concourse'},
+		{av:3.5, st:145, hidden:true},
+		{av:3.75, st:147, hidden:true},
+		{av:3.75, st:149, hidden:true, radius:25, radius:15, direction:'NW', dy:-1},
+		{av:3.5, st:149, name:'149 St / Grand Concourse', dy:-1},
+		{av:2, st:149, name:'3 Av / 149 St', dy:-1},
+		{av:0, st:149, name:'Jackson Av', dy:-1},
+		{av:minAvenue, st:149, hidden:true, dy:-1},
+	],
+  "6": [
+		{av:3.5, st:-18, name:'Brooklyn Bridge'},
+		{av:3.5, st:-10, name:'Canal St'},
+		{av:3.5, st:-2, name:'Spring St'},
+		{av:3.5, st:0},
+		{av:3.5, st:8, name:'Astor Place'},
+		{av:4, st:14, name:'Union Square'},
+		{av:4, st:23},
+		{av:4, st:28},
+		{av:4, st:33},
+		{av:4, st:40.5, hidden:true},
+		{av:3.75, st:42, name:'Grand Central'},
+		{av:3.5, st:43.5, hidden:true},
+		{av:3.5, st:51},
+		{av:3.5, st:59},
+		{av:3.5, st:68},
+		{av:3.5, st:77},
+		{av:3.5, st:86},
+		{av:3.5, st:96},
+		{av:3.5, st:103},
+		{av:3.5, st:110},
+		{av:3.5, st:116},
+		{av:3.5, st:125},
+		{av:3.5, st:138, hidden:true, radius:50, direction:'NW'},
+		{av:2, st:138, name:'3 Av / 138 St'},
+		{av:1, st:138, name:'Brook Av'},
+		{av:0, st:138, name:'Cypress Av'},
+		{av:minAvenue, st:138, hidden:true},
+	],
+  "7": [
+		{av:10.5, st:34, name:'Hudson Yards'},
+		{av:10.5, st:42, hidden:true, radius:50, direction:'NW', dy:0},
+		{av:7, st:42, name:'Times Square', dy:0},
+		{av:5, st:42, dy:0},
+		{av:3.75, st:42, name:'Grand Central', dy:0},
+		{av:minAvenue, st:42, hidden:true, dy:0},
+	],
+  "A": [
+		{av:minAvenue, st:-26, hidden:true},
+		{av:4, st:-26, name:'Fulton St'},
+		{av:5, st:-26, hidden:true, radius:50, direction:'SW'},
+		{av:5, st:-18, name:'Chambers St'},
+		{av:5, st:-10, name:'Canal St'},
+		{av:6, st:-2, hidden:true},
+		{av:6, st:4, name:'West 4 St', dx:1},
+		{av:6, st:9, hidden:true, radius:50, direction:'NE', dx:1},
+		{av:8, st:9, hidden:true, radius:50, direction:'SW'},
+		{av:8, st:14},
+		{av:8, st:34, name:'Penn Station'},
+		{av:8, st:42, name:'Port Authority'},
+		{av:8, st:59, name:'Columbus Circle', dx:1},
+		{av:8, st:121, hidden:true, dx:1},
+		{av:8.5, st:124, hidden:true, dx:1},
+		{av:8.5, st:125, dx:1},
+		{av:8.5, st:145, dx:1},
+		{av:9.3, st:155, hidden:true},
+		{av:10, st:163, hidden:true},
+		{av:10.5, st:168},
+		{av:10.77, st:171, hidden:true},
+	],
+  "B": [
+		{av:minAvenue, st:-15, hidden:true, dy:1},
+		{av:2, st:-15, hidden:true, radius:25, direction:'SW', dx:-1, dy:1},
+		{av:2, st:-10, name:'Grand St', dx:-1},
+		{av:2, st:0, hidden:true, radius:25, direction:'NE', dx:-1},
+		{av:3.5, st:0, name:'Broadway / Lafayette'},
+		{av:6, st:0, hidden:true, radius:25, direction:'SW', dx:-1},
+		{av:6, st:4, name:'West 4 St', dx:-1},
+		{av:6, st:34, name:'Herald Square'},
+		{av:6, st:42, name:'Bryant Park'},
+		{av:6, st:47},
+		{av:6, st:53, hidden:true, radius:25, direction:'NE', dy:1},
+		{av:7, st:53, dy:1},
+		{av:8, st:53, hidden:true, radius:25, direction:'SW', dx:-1, dy:1},
+		{av:8, st:59, name:'Columbus Circle', dx:-1},
+		{av:8, st:72, dx:-1},
+		{av:8, st:81, name:'Natural History Museum', dx:-1},
+		{av:8, st:86, dx:-1},
+		{av:8, st:96, dx:-1},
+		{av:8, st:103, dx:-1},
+		{av:8, st:110, dx:-1},
+		{av:8, st:116, dx:-1},
+		{av:8, st:121, hidden:true, dx:-1},
+		{av:8.5, st:124, hidden:true, dx:-1},
+		{av:8.5, st:125, dx:-1},
+		{av:8.5, st:135, dx:-1},
+		{av:8.5, st:145, dx:-1},
+	],
+  "C": [
+		{av:5, st:-18, name:'Chambers St'},
+		{av:5, st:-10, name:'Canal St'},
+		{av:6, st:-2, name:'Spring St'},
+		{av:6, st:4, name:'West 4 St', dx:1},
+		{av:6, st:9, hidden:true, radius:50, direction:'NE', dx:1},
+		{av:8, st:9, hidden:true, radius:50, direction:'SW'},
+		{av:8, st:14},
+		{av:8, st:23},
+		{av:8, st:34, name:'Penn Station'},
+		{av:8, st:42, name:'Port Authority'},
+		{av:8, st:50},
+		{av:8, st:59, name:'Columbus Circle', dx:1},
+		{av:8, st:72, dx:1},
+		{av:8, st:81, name:'Natural History Museum', dx:1},
+		{av:8, st:86, dx:1},
+		{av:8, st:96, dx:1},
+		{av:8, st:103, dx:1},
+		{av:8, st:110, dx:1},
+		{av:8, st:116, dx:1},
+		{av:8, st:121, hidden:true, dx:1},
+		{av:8.5, st:124, hidden:true, dx:1},
+		{av:8.5, st:125, dx:1},
+		{av:8.5, st:135, dx:1},
+		{av:8.5, st:145, dx:1},
+		{av:9.3, st:155},
+		{av:10, st:163},
+		{av:10.5, st:168},
+		{av:10.77, st:171, hidden:true},
+	],
+  "D": [
+		{av:minAvenue, st:-15, hidden:true, dy:1},
+		{av:2, st:-15, hidden:true, radius:25, direction:'SW', dx:-1, dy:1},
+		{av:2, st:-10, name:'Grand St', dx:-1},
+		{av:2, st:0, hidden:true, radius:25, direction:'NE', dx:-1},
+		{av:3.5, st:0, name:'Broadway / Lafayette'},
+		{av:6, st:0, hidden:true, radius:25, direction:'SW', dx:-1},
+		{av:6, st:4, name:'West 4 St', dx:-1},
+		{av:6, st:34, name:'Herald Square'},
+		{av:6, st:42, name:'Bryant Park'},
+		{av:6, st:47},
+		{av:6, st:53, hidden:true, radius:25, direction:'NE', dy:1},
+		{av:7, st:53, dy:1},
+		{av:8, st:53, hidden:true, radius:25, direction:'SW', dx:-1, dy:1},
+		{av:8, st:59, name:'Columbus Circle', dx:-1},
+		{av:8, st:121, hidden:true, dx:-1},
+		{av:8.5, st:124, hidden:true, dx:-1},
+		{av:8.5, st:125, dx:-1},
+		{av:8.5, st:145, dx:-1},
+		{av:8.5, st:155},
+		{av:8.5, st:161, hidden:true, radius:50, direction:'NW'},
+		{av:4.5, st:161, name:'Yankee Stadium'},
+		{av:3.5, st:161, hidden:true, radius:50, direction:'SE'},
+		{av:3.5, st:167},
+		{av:3.5, st:170},
+		{av:3.5, st:171, hidden:true},
+	],
+  "E": [
+		{av:5, st:-28, name:'World Trade Center'},
+		{av:5, st:-18, name:'Chambers St'},
+		{av:5, st:-10, name:'Canal St'},
+		{av:6, st:-2, name:'Spring St'},
+		{av:6, st:4, name:'West 4 St', dx:1},
+		{av:6, st:9, hidden:true, radius:50, direction:'NE', dx:1},
+		{av:8, st:9, hidden:true, radius:50, direction:'SW'},
+		{av:8, st:14},
+		{av:8, st:23},
+		{av:8, st:34, name:'Penn Station'},
+		{av:8, st:42, name:'Port Authority'},
+		{av:8, st:50},
+		{av:8, st:53, hidden:true, radius:25, direction:'NW', dy:-1},
+		{av:7, st:53, dy:-1},
+		{av:5, st:53, dy:-1},
+		{av:3, st:53, dy:-1},
+		{av:minAvenue, st:53, hidden:true, dy:-1},
+	],
+  "F": [
+		{av:minAvenue, st:-13, hidden:true},
+		{av:0.5, st:-13, hidden:true, radius:25, direction:'SW'},
+		{av:0.5, st:-10, name:'East Broadway'},
+		{av:0.5, st:-5, name:'Delancy St'},
+		{av:0.5, st:0, hidden:true, radius:25, direction:'NE'},
+		{av:2, st:0},
+		{av:3.5, st:0, name:'Broadway / Lafayette'},
+		{av:6, st:0, hidden:true, radius:25, direction:'SW', dx:-1},
+		{av:6, st:4, name:'West 4 St', dx:-1},
+		{av:6, st:14},
+		{av:6, st:23},
+		{av:6, st:34, name:'Herald Square'},
+		{av:6, st:42, name:'Bryant Park'},
+		{av:6, st:47},
+		{av:6, st:57},
+		{av:6, st:63, hidden:true, radius:50, direction:'NW', dy:-1},
+		{av:3.5, st:63, dy:-1},
+		{av:minAvenue, st:63, hidden:true, dy:-1},
+	],
+
+	      "J": [
+		{av:3.5, st:-36, name:'Broad St'},
+		{av:3.5, st:-26, name:'Fulton St'},
+		{av:3.5, st:-22, hidden:true},
+		{av:3, st:-18, name:'Chambers St'},
+		{av:3, st:-10, name:'Canal St'},
+		{av:3, st:-5, hidden:true, radius:25, direction:'NW', dy:-1},
+		{av:2.5, st:-5, name:'Bowery', dy:-1},
+		{av:0.5, st:-5, name:'Essex St', dy:-1},
+		{av:minAvenue, st:-5, hidden:true, dy:-1},
+	],
+  "L": [
+		{av:minAvenue, st:14, hidden:true},
+		{av:1, st:14},
+		{av:3, st:14},
+		{av:4, st:14, name:'Union Square'},
+		{av:6, st:14},
+		{av:8, st:14},
+	],
+  "M": [
+		{av:minAvenue, st:-5, hidden:true, dy:1},
+		{av:0.5, st:-5, name:'Essex St', dy:1},
+		{av:2, st:-5, hidden:true, radius:25, direction:'SW', dx:-1, dy:1},
+		{av:2, st:0, hidden:true, radius:25, direction:'NE', dx:-1},
+		{av:3.5, st:0, name:'Broadway / Lafayette'},
+		{av:6, st:0, hidden:true, radius:25, direction:'SW', dx:-1},
+		{av:6, st:4, name:'West 4 St', dx:-1},
+		{av:6, st:14},
+		{av:6, st:23},
+		{av:6, st:34, name:'Herald Square'},
+		{av:6, st:42, name:'Bryant Park'},
+		{av:6, st:47},
+		{av:6, st:53, hidden:true, radius:25, direction:'NW', dy:1},
+		{av:5, st:53, dy:1},
+		{av:3, st:53, dy:1},
+		{av:minAvenue, st:53, hidden:true, dy:1},
+	],
+  "N": [
+		{av:minAvenue, st:-15, hidden:true, dy:-1},
+		{av:4, st:-15, hidden:true, radius:50, direction:'SW', dy:-1},
+		{av:4, st:-10, name:'Canal St'},
+		{av:4, st:14, name:'Union Square'},
+		{av:5, st:23, hidden:true},
+		{av:5.5, st:28, hidden:true},
+		{av:6, st:34, name:'Herald Square'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7, st:49},
+		{av:7, st:57},
+		{av:7, st:59, hidden:true, radius:25, direction:'NW'},
+		{av:5, st:59},
+		{av:3.5, st:59},
+		{av:minAvenue, st:59, hidden:true},
+	],
+  "Q": [
+		{av:minAvenue, st:-15, hidden:true, dy:-1},
+		{av:4, st:-15, hidden:true, radius:50, direction:'SW', dy:-1},
+		{av:4, st:-10, name:'Canal St'},
+		{av:4, st:14, name:'Union Square'},
+		{av:5, st:23, hidden:true},
+		{av:5.5, st:28, hidden:true},
+		{av:6, st:34, name:'Herald Square'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7, st:57},
+		{av:7, st:63, hidden:true, radius:50, direction:'NW', dy:1},
+		{av:3.5, st:63, dy:1},
+		{av:2, st:63, hidden:true, radius:50, direction:'SE', dx:1, dy:1},
+		{av:2, st:72, dx:1},
+		{av:2, st:86, dx:1},
+		{av:2, st:96, dx:1},
+		{av:2, st:106, dx:1},
+		{av:2, st:116, dx:1},
+		{av:2, st:125, hidden:true, radius:50, radius:46, direction:'NE', dx:1, dy:-1},
+		{av:3.5, st:125, dy:-1},
+	],
+  "R": [
+		{av:minAvenue, st:-43, hidden:true},
+		{av:3.5, st:-43, name:'Whitehall St'},
+		{av:4.5, st:-43, hidden:true, radius:50, direction:'SW'},
+		{av:4.5, st:-36, name:'Rector St'},
+		{av:4.5, st:-28, name:'Cortland St'},
+		{av:4.5, st:-22, hidden:true},
+		{av:4, st:-18, name:'City Hall'},
+		{av:4, st:-10, name:'Canal St'},
+		{av:4, st:-2, name:'Prince St'},
+		{av:4, st:8, name:'8 St NYU'},
+		{av:4, st:14, name:'Union Square'},
+		{av:5, st:23},
+		{av:5.5, st:28},
+		{av:6, st:34, name:'Herald Square'},
+		{av:7, st:42, name:'Times Square'},
+		{av:7, st:49},
+		{av:7, st:57},
+		{av:7, st:59, hidden:true, radius:25, direction:'NW'},
+		{av:5, st:59},
+		{av:3.5, st:59},
+		{av:minAvenue, st:59, hidden:true},
+	],
+  "S": [
+		{av:7, st:42, name:'Times Square', dy:2},
+		{av:3.75, st:42, name:'Grand Central', dy:2},
+	],
+  "T": [
+		{av:2, st:-40, name:'Hanover Sq'},
+		{av:2, st:-26, name:'Seaport'},
+		{av:2, st:-18, name:'Chatham Sq'},
+		{av:2, st:-10, name:'Grand St', dx:1},
+		{av:2, st:0, dx:1},
+		{av:2, st:14},
+		{av:2, st:23},
+		{av:2, st:34},
+		{av:2, st:42},
+		{av:2, st:55, dx:-0.5},
+		{av:2, st:72, dx:-1},
+		{av:2, st:86, dx:-1},
+		{av:2, st:96, dx:-1},
+		{av:2, st:106, dx:-1},
+		{av:2, st:116, dx:-1},
+		{av:2, st:125, hidden:true, radius:50, direction:'NE', dx:-1, dy:1},
+		{av:3.5, st:125, dy:1},
+	],
+};
+
+const lineColors = {
+    "1": 'red',
+    "2": 'red',
+    "3": 'red',
+    "4": 'green',
+    "5": 'green',
+    "6": 'green',
+    "7": 'purple',
+    "A": '#2750AD',
+    "B": '#F56419',
+    "C": '#2750AD',
+    "D": '#F56419',
+    "E": '#2750AD',
+    "F": '#F56419',
+    "J": '#92683C',
+    "L": 'gray',
+    "M": '#F56419',
+    "N": '#FCCB0B',
+    "Q": '#FCCB0B',
+    "R": '#FCCB0B',
+    "S": '#666',
+    "T": 'turquoise',
+};
+
+class Point {
+  constructor(info) {
+    this.av = info.av;
+    this.st = info.st;
+    this.hidden = info.hidden;
+    this.radius = info.radius;
+    this.direction = info.direction;
+    this.dx = info.dx;
+    this.dy = info.dy;
+    
+    if (this.radius) {
+      this.updateCurveInfo();
+    }
+  }
+  
+  updateCurveInfo() {
+    if (this.direction == 'SE') {
+      this.arcStart = 0;
+      this.arcEnd = 0.5;
+      this.radiusX = -this.radius;
+      this.radiusY = -this.radius;
+    } else if (this.direction == 'SW') {
+      this.arcStart = 0.5;
+      this.arcEnd = 1.0;
+      this.radiusX = this.radius;
+      this.radiusY = -this.radius;
+    } else if (this.direction == 'NW') {
+      this.arcStart = 1.0;
+      this.arcEnd = 1.5;
+      this.radiusX = this.radius;
+      this.radiusY = this.radius;
+    } else if (this.direction == 'NE') {
+      this.arcStart = 1.5;
+      this.arcEnd = 2.0;
+      this.radiusX = -this.radius;
+      this.radiusY = this.radius;
+    }
+  }
+
+  // creates a point from a click on the map in {x,y} format
+  static fromClick(event) {
+    return new Point({av: Point.toAvenue(event.x), st: Point.toStreet(event.y)});
+  }
+
+  // converts from pixels to avenue number
+  static toAvenue(x) {
+    let avenue = maxAvenue - ((x - MapInfo.leftMargin) / MapInfo.avenuePixels);
+    if (avenue < 0) return 0;
+    if (avenue > maxAvenue) return maxAvenue;
+    return avenue;
+  }
+
+  // converts from pixels to street number
+  static toStreet(y) {
+    let street = Math.round(maxStreet - ((y - MapInfo.margin) / MapInfo.streetPixels));
+    if (street < minStreet) return minStreet;
+    if (street > maxStreet) return maxStreet;
+    return street;
+  }
+
+  // converts from avenue number to pixels
+  get x() {
+    return MapInfo.leftMargin + (maxAvenue - this.av) * MapInfo.avenuePixels;
+  }
+
+  // converts from street number to pixels
+  get y() {
+    return MapInfo.margin + (maxStreet - this.st) * MapInfo.streetPixels;
+  }
+
+  // converts from {av,st} to {x,y}, applying deltas if needed
+  xy(applyDeltas) {
+    let x = this.x;
+    let y = this.y;
+  
+    if (applyDeltas) {
+      if (this.dx) x -= this.dx * MapInfo.lineOffset;
+      if (this.dy) y -= this.dy * MapInfo.lineOffset;
+    }
+  
+    return {x,y};
+  }
+
+  // returns whether two points are equal
+  equals(other) {
+    return this.av == other.av && this.st == other.st;
+  }  
+
+  // returns the point as a string, i.e. '5/14'
+  simple() {
+    return `${this.av}/${this.st}`
+  }
+
+  // pretty prints the point
+  pretty() {
+    if (this.name) return this.name;
+    let avenue = this.av;
+    let street = Math.round(this.st);
+    if (avenue === 3.5 && street > 42) {
+      avenue = 'Lex Av';
+    } else if (avenue === 0) {
+      avenue = 'Ave A'; // TODO: support Alphabet City
+    } else {
+      avenue = Math.round(avenue) + ' Av';
+    }
+    if (street === 0) street = 'Houston';
+    return `${avenue} / ${street} St`
+  }
+}
+
+// these streets will be labeled on the map
+const majorStreets = [-46, -36, -28, -18, -10, 0, 14, 23, 34, 42, 57, 66, 72, 79, 
+  86, 96, 103, 110, 116, 125, 135, 145, 155, 170];
+
+// streets below Houston have custom labels
+const negativeStreets = {'0': 'H', '-10': 'Ca', '-18': 'Ch', '-28': 'WTC', '-36': 'R', '-46': 'SF'};
+const negativeAvenues = {'0': 'A', '-1': 'B', '-2': 'C', '-3': 'D'};
+
+// parks is an array of arrays, each of which has a SE and NW corner point
+const parks = [
+  [{av:5, st:59}, {av:8, st:110}], // Central Park
+  [{av:5.5, st:40}, {av:6, st:42}], // Bryant Park
+  [{av:4.5, st:23}, {av:5, st:26}], // Madison Square
+  [{av:4, st:14}, {av:4.5, st:17}], // Union Square
+  [{av:1.65, st:15}, {av:2.35, st:17}], // Stuyvesant Square
+  [{av:4.5, st:4}, {av:5.5, st:6}], // Washington Square
+  [{av:4.5, st:120}, {av:5.5, st:124}], // Marcus Garvey Park
+  [{av:3, st:-22}, {av:4, st:-18}], // City Hall Park
+  [{av:11, st:23}, {av:11.25, st:maxStreet}], // Hudson River Park
+  [{av:0, st:143}, {av:1, st:149}], // St. Marys Park
+  [{av:4.5, st:159}, {av:5, st:166}], // Mullaly Park
+  [{av:4, st:161}, {av:4.25, st:164}], // Joyce Kilmer Park
+  [{av:8.5, st:128}, {av:9, st:141}], // St. Nicholas Park
+  [{av:8.5, st:110}, {av:9, st:121}], // Morningside Park
+  [{av:9.4, st:11}, {av:9.6, st:34}], // High Line
+].map((park) => [new Point(park[0]), new Point(park[1])]);
+
+// rivers are an array of arrays, each of which is a polygon
+const rivers = [
+  [{av:maxAvenue, st:maxStreet}, {av:11.25, st:maxStreet}, {av:11.25, st:34}, {av:7, st:-43}, {av:6, st:-48}, {av:5, st:-49}, {av:3, st:-49}, {av:2, st:-48}, {av:1, st:-43}, {av:0.5, st:-20}, {av:minAvenue, st:-10}, {av:minAvenue, st:minStreet}, {av:maxAvenue, st:minStreet}],
+  [{av:minAvenue, st:17}, {av:-1, st:20}, {av:0, st:25}, {av:0, st:53}, {av:0, st:115}, {av:1, st:123}, {av:2, st:126}, {av:3, st:128}, {av:3.5, st:129}, {av:4, st:131}, {av:5, st:138}, {av:6, st:150}, {av:7, st:165}, {av:7, st:171}, {av:6, st:171}, {av:6, st:165}, {av:5, st:149}, {av:4, st:138}, {av:3.5, st:135}, {av:3, st:133}, {av:1, st:130}, {av:minAvenue, st:130}],
+].map((river) => river.map((point) => new Point(point)));
+
+class Draw {
+  // draws a line from the start point to the end point,
+  // with the given width and color
+  static line(start, end, width, color = 'black', dashed) {
+    ctx.beginPath();
+  
+    let point1 = start.xy(width < 7);
+    let point2 = end.xy(width < 7);
+    let sameX = point1.x == point2.x;
+    let sameY = point1.y == point2.y;
+
+    // correct for visual artifacts with diagonal lines
+    if (!sameX && !sameY) {
+      if (point1.y > point2.y) {
+        point1.y += MapInfo.diagonalExtension;
+        point2.y -= MapInfo.diagonalExtension;
+      } else {
+        point1.y -= MapInfo.diagonalExtension;
+        point2.y += MapInfo.diagonalExtension;
+      }
+    }
+
+    // if the end point is a curve point,
+    // cut off part of the line at the end
+    if (end.radius) {
+      if (sameX) { 
+        point2.y += end.radiusY;
+      } else if (sameY) {
+        point2.x += end.radiusX;
+      }
+    }
+  
+    // if the start point is a curve point,
+    // cut off part of the line at the start
+    if (start.radius) {
+      if (sameX) {
+        point1.y += start.radiusY;
+      } else if (sameY) {
+        point1.x += start.radiusX;
+      }
+    }
+  
+    ctx.moveTo(point1.x, point1.y);
+    ctx.lineTo(point2.x, point2.y);
+    ctx.lineWidth = width;
+    ctx.strokeStyle = color;
+    ctx.setLineDash(dashed ? [5,5] : []);
+    ctx.stroke();
+    ctx.closePath();
+    ctx.setLineDash([]);
+  }
+
+  // draws a station as a white circle with a black border
+  // if the station is selected, it will be larger
+  static station(point, selected, color) {
+    if (point.hidden) return;
+    ctx.beginPath();
+    ctx.arc(point.x, point.y, selected ? 8 : 5, 0, 2 * Math.PI);
+    ctx.fillStyle = color || 'white';
+    ctx.fill();
+    ctx.lineWidth = selected ? 2 : 2;
+    ctx.strokeStyle = 'black';
+    ctx.stroke();
+    ctx.closePath();
+  }
+
+  // draws a circle centered at the point with a given radius and color
+  static circle(point, radius, color) {
+    ctx.beginPath();
+    ctx.arc(point.x, point.y, radius, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.closePath();
+  }
+
+  // draws the line bullet, as a circle with the line name in the middle
+  static bullet(lineName, point) {
+    Draw.circle(point, 14, lineColors[lineName]);
+    ctx.beginPath();
+    ctx.fillStyle = 'white';
+    ctx.font = '18px Helvetica';
+    ctx.textAlign = 'center';
+    ctx.fillText(lineName, point.x, point.y + 6);
+    ctx.closePath();
+  }
+
+  // fills the rectangle defined by the bottom right and top left corners with the color
+  static fillRect(bottomRight, topLeft, color) {
+  	  ctx.fillStyle = color;
+  	  ctx.fillRect(bottomRight.x, bottomRight.y, 
+        topLeft.x - bottomRight.x, topLeft.y - bottomRight.y);
+  }
+
+  // strokes the rectangle defined by the bottom right and top left corners with the color
+  static strokeRect(bottomRight, topLeft, color) {
+  	  ctx.strokeStyle = color;
+  	  ctx.strokeRect(bottomRight.x, bottomRight.y, 
+        topLeft.x - bottomRight.x, topLeft.y - bottomRight.y);
+  }
+
+  static makePath(points) {
+    ctx.beginPath();
+    points.forEach((point, i) => {
+        if (i == 0) {
+          ctx.moveTo(point.x, point.y);
+        } else {
+          ctx.lineTo(point.x, point.y);
+        }
+    });
+    ctx.closePath();
+  }
+
+  // fills the path defined by the points with the color
+  static fillPath(points, color) {
+    Draw.makePath(points);
+    ctx.fillStyle = color;
+    ctx.fill();
+  }
+
+  // fills the path defined by the points with the color
+  static strokePath(points, color) {
+    Draw.makePath(points);
+    ctx.strokeStyle = color;
+    ctx.stroke();
+  }
+
+  // draws the grid, labels and parks
+  static grid() {
+    // draw the background color
+    Draw.fillRect(new Point({av:minAvenue, st:minStreet}), new Point({av:maxAvenue, st:maxStreet}), '#F2E9D3');
+
+    // draw the streets and their labels
+    ctx.font = "14px Avenir";
+    ctx.fillStyle = 'gray';  
+    ctx.textAlign = 'right';
+    for (let y = minStreet; y <= maxStreet; y++) {
+      let min = new Point({av:minAvenue, st:y});
+      let max = new Point({av:maxAvenue, st:y});
+      Draw.line(min, max, 1, '#BBB');
+      if (majorStreets.includes(y)) {
+        ctx.fillText(y > 0 ? y : negativeStreets[`${y}`], MapInfo.leftMargin - 8, min.y + 5);
+      }
+    }
+  
+    // draw the avenues and their labels
+    ctx.textAlign = 'center';
+    for (let x = minAvenue; x <= maxAvenue; x++) {
+      let min = new Point({av:x, st:minStreet});
+      let max = new Point({av:x, st:maxStreet});
+      Draw.line(min, max, 1, '#BBB');
+      ctx.fillText(x > 0 ? x : negativeAvenues[`${x}`], min.x, min.y + 20);
+    }
+
+    // draw the parks over the grid
+    for (let park of parks) {
+      Draw.fillRect(park[0], park[1], '#B0D5B9');
+      Draw.strokeRect(park[0], park[1], '#BBB');
+    }
+  
+    for (let river of rivers) {
+      Draw.fillPath(river, '#7ddbff');
+      Draw.strokePath(river, '#BBB');
+    }
+  }
+
+  static curve(station, selected) {
+    let point = station.xy(!selected);
+  
+    ctx.beginPath();
+    ctx.arc(point.x + station.radiusX, 
+      point.y + station.radiusY,
+      Math.abs(station.radiusX), 
+      station.arcStart * Math.PI, 
+      station.arcEnd * Math.PI);
+    ctx.stroke();
+  }
+
+  // draws the subway line with the given name
+  // if selected is true, draws everything bolder
+  // can optionally specify the start and end station indexes
+  static subwayLine(lineName, selected, start, end) {
+    let line = lines[lineName];
+    if (start === undefined) start = 0;
+    if (end === undefined) end = line.length - 1;
+
+    // start must be before end
+    // if it's not, switch them
+    if (start > end) {
+      [start, end] = [end, start];
+    }
+
+    let longestTime = 0; // the time between the furthest stations on the line 
+    let bulletPoint = null; // the point where the bullet will be drawn
+
+    for (let a = start; a <= end - 1; a++) {
+      let b = a + 1;
+      let stationA = line[a];
+      let stationB = line[b];
+    
+      // draw the line between the stations
+      let width = selected ? MapInfo.selectedWidth : MapInfo.lineWidth;
+      Draw.line(stationA, stationB, width, lineColors[lineName], false);
+
+      // draw the curve segment
+      if (stationB.radius) {
+        Draw.curve(stationB, selected);
+      }
+    
+      // if the line is selected, we want to draw the bullet 
+      // in the middle of the longest selected segment
+      if (selected) {
+        let time = Route.subwayTime(stationA, stationB);
+        if (time > longestTime) {
+          let point = Route.midpoint(stationA, stationB);
+          if (point && !startPoint.equals(point) && !endPoint.equals(point))
+            longestTime = time;
+          bulletPoint = point;
+        }
+      }
+    }  
+
+    // draw the bullet point
+    if (selected && bulletPoint) {
+      Draw.bullet(lineName, bulletPoint);
+    }
+  }
+
+  // draws all the stations on a subway line with the given name
+  static subwayStations(lineName, selected, start, end) {
+      let line = lines[lineName];
+      if (start === undefined) start = 0;
+      if (end === undefined) end = line.length - 1;
+      if (start > end) {
+        [start, end] = [end, start];
+      }
+      for (let a = start; a <= end; a++) {
+        Draw.station(line[a], selected);
+      }
+  }
+
+  // draws all the lines and stations
+  static lines() {
+    for (let lineName in lines) {
+      Draw.subwayLine(lineName, false);
+    }
+
+    for (let lineName in lines) {
+      Draw.subwayStations(lineName, false)
+    }
+  }
+
+  // draws a dashed walking route along the grid between the two points
+  // first taking the street and then taking the avenue
+  static walkingRoute(start, end) {
+    let turn = new Point({av:end.av, st:start.st});
+    Draw.line(start, turn, 5, 'black', true);  
+    Draw.line(turn, end, 5, 'black', true);  
+  }
+
+  // draws the intinerary, highlighted on the map
+  static itinerary(i) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    Draw.grid();
+    Draw.lines();
+    if (showIsochrone) drawIsochrone();
+
+    if (i.startStation && i.endStation) {
+      Draw.walkingRoute(i.home, i.startStation, 3, 'black');
+      Draw.walkingRoute(i.office, i.endStation, 3, 'black');
+      Draw.subwayLine(i.lineName, true, i.startIndex, i.endIndex);
+      Draw.subwayStations(i.lineName, true, i.startIndex, i.endIndex);
+      let messages = [
+        `start at ${i.home.pretty()}`,
+        `walk to ${i.startStation.pretty()}`,
+        `take the ${i.lineName} to ${i.endStation.pretty()}`,
+        `walk to ${i.office.pretty()}`,
+        `${Math.round(i.totalTime)} minutes total`,
+        `${Math.round(i.walkTime)} minutes walking`,
+      ];
+      showMessages(messages);
+    } else if (i.startStationA && i.startStationB) {
+      Draw.subwayLine(i.lineNameA, true, i.startIndexA, i.endIndexA);
+      Draw.subwayLine(i.lineNameB, true, i.startIndexB, i.endIndexB);
+      Draw.walkingRoute(i.home, i.startStationA, 3, 'black');
+      if (!i.endStationA.equals(i.startStationB)) {
+        Draw.walkingRoute(i.endStationA, i.startStationB, 3, 'black');  
+      }
+      Draw.walkingRoute(i.office, i.endStationB, 3, 'black');
+      Draw.subwayStations(i.lineNameA, true, i.startIndexA, i.endIndexA);
+      Draw.subwayStations(i.lineNameB, true, i.startIndexB, i.endIndexB);
+      let messages = [
+        `start at ${i.home.pretty()}`,
+        `walk to ${i.startStationA.pretty()}`,
+        `take the ${i.lineNameA} to ${i.endStationA.pretty()}`,
+      ];
+      if (!i.endStationA.equals(i.startStationB)) {
+        messages.push(`walk to ${i.startStationB.pretty()}`);
+      }
+      messages.push(`take the ${i.lineNameB} to ${i.endStationB.pretty()}`);
+      messages.push(`walk to ${i.office.pretty()}`);
+      messages.push(`${Math.round(i.totalTime)} minutes total`);
+      messages.push(`${Math.round(i.walkTime)} minutes walking`);
+      showMessages(messages);
+    } else {
+      Draw.walkingRoute(i.home, i.office);
+      let messages = [
+        `start at ${i.home.pretty()}`,
+        `walk to ${i.office.pretty()}`,
+        `${Math.round(i.totalTime)} minutes`,
+      ];
+      showMessages(messages);
+    }
+    Draw.station(i.home, true, 'red');
+    Draw.station(i.office, true, 'green');
+  }  
+}
+
+// User Interface
+
+// sets the mode for choosing which point is selected when the user clicks
+// newMode should be 'start' or 'end'
+function setMode(newMode) {
+  mode = newMode;
+}
+
+// updates options for calculating the route
+function updateOptions() {
+  minimizeWalking = document.getElementById("minimizeWalkingCheckbox").checked;
+  allowTransfer = document.getElementById("transferCheckbox").checked;
+  updateMap();
+}
+
+// updates options for drawing isochrone maps
+function updateIsochrone() {
+  showIsochrone = document.getElementById("isochroneCheckbox").checked;
+  if (showIsochrone) {
+    allowTransfer = false;
+    document.getElementById("transferCheckbox").checked = false;
+  }
+  showIsochrone2 = document.getElementById("isochrone2Checkbox").checked;
+  document.getElementById("isochrone2Checkbox").disabled = !showIsochrone;
+  updateMap();
+}
+
+// turns animation on and off
+function updateAnimate() {
+  animate = document.getElementById("animateCheckbox").checked;
+  if (animate) {
+    animateStart();
+  } else {
+    animateStop();
+  }
+}
+
+// points
+let mode = 'start'; // which point to select, either 'start' or 'stop'
+let startPoint = new Point({av:9, st:45});
+let endPoint = new Point({av:5, st:14});
+
+// called when the user clicks a point on the map
+function handleMousedown(event) {
+  let rect = canvas.getBoundingClientRect();
+  let point = Point.fromClick({x: event.clientX - rect.left, y: event.clientY - rect.top});
+  if (mode == 'start') {
+    startPoint = point;
+  } else {
+    endPoint = point;
+  }
+
+  updateMap();
+}
+
+// displays the messages on the page, one per line
+function showMessages(messages) {
+  directions.innerHTML = messages.join('<br>');
+}
+
+function initPoints() {
+  for (let lineName in lines) {
+    lines[lineName] = lines[lineName].map((info) => new Point(info));
+  }
+}
+
+initPoints();
+
+let RouteInfo = {
+  avenueBlock: 0.17, // miles
+  streetBlock: 0.05, // miles
+  walkingSpeed: 3.0, // miles per hour
+  subwaySpeed: 17.0, // miles per hour
+  entryTime: 3.0, // minutes to enter station and catch train
+  dwellTime: 0.5, // minutes to wait in each intermediate station
+  exitTime: 1.0, // minutes to exit station
+  transferTime: 3.0, // minutes to change trains
+  transferDelta: -1, // transferTime - entryTime - exitTime;
+  maxTransferWalkingTime: 0, // allow out of system transfers with this many minutes walking
+};
+
+// Route indexes
+let itineraryIndex = {};
+let walkingTimeIndex = {};
+let subwayTimeIndex = {};
+let subwayJourneyTimeIndex = {};
+let nearestStationIndex = {};
+
+class Route {
+  constructor(home, office) {
+    this.home = home;
+    this.office = office;
+  }
+
+  // Returns the east/west distance in miles between two points.
+  static avenueDistance(pointA, pointB) {
+    return Math.abs(pointA.av - pointB.av) * RouteInfo.avenueBlock;
+  }
+    
+  // Returns the north/south distance in miles between two points.
+  static streetDistance(pointA, pointB) {
+    return Math.abs(pointA.st - pointB.st) * RouteInfo.streetBlock;
+  }
+
+  // Returns the midpoint between two points
+  static midpoint(pointA, pointB) {
+    return new Point({av:(pointA.av + pointB.av) / 2, st:(pointA.st + pointB.st) / 2});
+  }
+    
+  // Minutes to walk between two points along the street grid.
+  static walkingTime(pointA, pointB) {
+    let dx = Route.avenueDistance(pointA, pointB);
+    let dy = Route.streetDistance(pointA, pointB);
+    return (dx + dy) / RouteInfo.walkingSpeed * 60.0;
+  }
+
+  // Minutes for a train to go between two adjacent stations on a line,
+  // which could go diagonally under the street grid.
+  static subwayTime(stationA, stationB) {
+    let dx = Route.avenueDistance(stationA, stationB);
+    let dy = Route.streetDistance(stationA, stationB);
+    return Math.hypot(dx, dy) / RouteInfo.subwaySpeed * 60.0;
+  }
+
+  // Time to go down a subway line between stations at certain indexes.
+  static subwayJourneyTime(lineName, startIndex, endIndex) {
+    // return the cached value if it has already been computed
+    const key = `${lineName}:${startIndex}:${endIndex}`;
+    let cachedTime = subwayJourneyTimeIndex[key];
+    if (cachedTime !== undefined) return cachedTime;
+
+    const line = lines[lineName];
+    let time = RouteInfo.entryTime;
+
+    // if going downtown, swap the stations
+    if (startIndex > endIndex) {
+      [startIndex, endIndex] = [endIndex, startIndex];
+    }
+    for (let a = startIndex; a < endIndex; a++) {
+      let b = a + 1;
+      time += Route.subwayTime(line[a], line[b]);
+      // don't need to wait for the train to leave the end station
+      if (b != endIndex && !line[b].hidden) time += RouteInfo.dwellTime;
+    }
+
+    time += RouteInfo.exitTime;
+    subwayJourneyTimeIndex[key] = time;
+    return time;
+  }
+
+  // The index of a station on a line that is nearest to a given point.
+  static indexOfNearestStation(lineName, point) {
+    // return the cached value if it has already been computed
+    const key = `${lineName}:${point.simple()}`;
+    let cachedIndex = nearestStationIndex[key];
+    if (cachedIndex !== undefined) return cachedIndex;
+
+    const line = lines[lineName];
+    let bestIndex = -1;
+    let bestTime = -1;
+
+    for (let i = 0; i < line.length; i++) {
+      if (line[i].hidden) continue;
+      let time = Route.walkingTime(line[i], point);
+      if (bestIndex == -1 || time < bestTime) {
+        bestIndex = i;
+        bestTime = time;
+      }
+    }
+
+    nearestStationIndex[key] = bestIndex;
+    return bestIndex;
+  }
+  
+  // returns an array of the best and second-best itineraries
+  calculateItineraries() {
+    // return the cached value if it has already been computed
+    const key = `${this.home.simple()}:${this.office.simple()}:` +  
+      `${allowTransfer}:${allowJustWalk}:${minimizeWalking}`;
+    let itinerary = itineraryIndex[key];
+    if (itinerary) return itinerary;
+
+    let itineraries = [];
+    for (let lineName in lines) {
+      itinerary = this.itineraryForLine(lineName);
+      if (itinerary) itineraries.push(itinerary);
+    }
+    if (allowTransfer) {
+  	  for (let lineNameA in lines) {
+  	    for (let lineNameB in lines) {
+  	      if (lineNameA !== lineNameB) {
+  	        let itinerary = this.itineraryForTwoLines(lineNameA, lineNameB);
+  	        if (itinerary) itineraries.push(itinerary);
+  	      }
+  	    }
+  	  }
+    }
+    if (allowJustWalk) {
+      let walkTime = Route.walkingTime(this.home, this.office);
+  	  itineraries.push({home: this.home, office: this.office, walkTime, totalTime: walkTime});
+    }
+    if (minimizeWalking) {
+  	  itineraries.sort((a,b) => a.walkTime - b.walkTime);
+    } else {
+      itineraries.sort((a,b) => a.totalTime - b.totalTime);  
+    }
+    itinerary = [itineraries[0], itineraries[1]];
+    itineraryIndex[key] = itinerary;
+    return itinerary;
+  }
+
+  // returns a display string summarizing the itinerary
+  printItinerary(itinerary) {
+    if (!itinerary) {
+      return '';
+    } else if (itinerary.totalTime && !itinerary.lineName && !itinerary.lineNameB) {
+      return `just walk - ${Math.round(itinerary.totalTime)} min` 
+    } else if (itinerary.lineNameA && itinerary.lineNameB) {
+      return `${itinerary.lineNameA} train from [${itinerary.startStationA}] to [${itinerary.endStationA}], ${itinerary.lineNameB} train from [${itinerary.startStationB}] to [${itinerary.endStationB}] - ${Math.round(itinerary.totalTime)} min (${Math.round(itinerary.walkTime)} walking)`;
+    } else {
+      return `${itinerary.lineName} train from [${itinerary.startStation}] to [${itinerary.endStation}] - ${Math.round(itinerary.totalTime)} min (${Math.round(itinerary.walkTime)} walking)`;
+    }
+  }
+
+  // calculats the best itinerary to go between the two points on the line with the given name
+  // an itinerary is an object with properties lineName, home, office, startIndex, endIndex,
+  // startStation, endStation, walkTime and totalTime
+  itineraryForLine(lineName) {
+    let i = {home: this.home, lineName, office: this.office};
+    let line = lines[lineName];
+    i.startIndex = Route.indexOfNearestStation(lineName, this.home);
+    i.endIndex = Route.indexOfNearestStation(lineName, this.office);
+    if (i.startIndex == i.endIndex) {
+      return null;
+    }
+    i.startStation = line[i.startIndex];
+    i.endStation = line[i.endIndex];
+    let startWalkTime = Route.walkingTime(this.home, i.startStation);
+    let endWalkTime = Route.walkingTime(i.endStation, this.office);
+    let subwayTime = Route.subwayJourneyTime(lineName, i.startIndex, i.endIndex);
+    i.walkTime = startWalkTime + endWalkTime;
+    i.totalTime = startWalkTime + subwayTime + endWalkTime;
+    return i;
+  }
+
+  // calculates the best itinerary between the two points,
+  // transfering from one line to the other
+  itineraryForTwoLines(lineNameA, lineNameB) {
+    let itineraries = [];
+    let lineA = lines[lineNameA];
+    let lineB = lines[lineNameB];
+    let startIndexA = Route.indexOfNearestStation(lineNameA, this.home);
+    let endIndexB = Route.indexOfNearestStation(lineNameB, this.office);
+    let startStationA = lineA[startIndexA];
+    let endStationB = lineB[endIndexB];
+    let startWalkTime = Route.walkingTime(this.home, startStationA);
+    let endWalkTime = Route.walkingTime(endStationB, this.office);
+    let lineLengthA = lineA.length;
+    let lineLengthB = lineB.length;
+
+    for (let endIndexA = 0; endIndexA < lineLengthA; endIndexA++) {
+      let endStationA = lineA[endIndexA];
+      if (endStationA.hidden) continue;
+      for (let startIndexB = 0; startIndexB < lineLengthB; startIndexB++) {
+        let startStationB = lineB[startIndexB];
+        if (startStationB.hidden) continue;
+      
+        let transferWalkingTime = 0;
+        if (!endStationA.equals(startStationB)) {
+          if (showIsochrone) {
+            // don't allow out-of-system transfers in isochrone mode, it's too slow
+            continue;
+          } else {
+  	        transferWalkingTime = Route.walkingTime(endStationA, startStationB);
+            if (transferWalkingTime > RouteInfo.maxTransferWalkingTime) continue;
+          }
+        }
+        let subwayTimeA = Route.subwayJourneyTime(lineNameA, startIndexA, endIndexA);
+        let subwayTimeB = Route.subwayJourneyTime(lineNameB, startIndexB, endIndexB);
+        let walkTime = startWalkTime + transferWalkingTime + endWalkTime;
+        let totalTime = subwayTimeA + subwayTimeB + walkTime;
+        if (transferWalkingTime == 0) totalTime += RouteInfo.transferDelta;
+        let itinerary = {home: this.home, lineNameA, lineNameB, office: this.office, 
+          startIndexA, endIndexA, startStationA, endStationA, startIndexB, endIndexB, 
+          startStationB, endStationB, walkTime, totalTime};
+        itineraries.push(itinerary);
+      }
+    }
+
+    if (itineraries.length) {
+      itineraries.sort((a,b) => a.totalTime - b.totalTime);
+      return itineraries[0];
+    } else {
+      return null;
+    }
+  }  
+}
+
+// the function that does all the work!
+// calcualtes the itinerary and draws it
+function updateMap() {
+  let route = new Route(startPoint, endPoint);
+  let itinerary = route.calculateItineraries()[0];
+  Draw.itinerary(itinerary);
+}
+
+updateMap();
+
+const streetBlockPiece = 1.0; // divide street blocks into chunks of this size
+const avenueBlockPiece = 0.5; // divide avenue blocks into chunks of this size
+const streetBlockHalf = streetBlockPiece / 2.0;
+const avenueBlockHalf = avenueBlockPiece / 2.0;
+
+// for every block, calcualtes the itinerary from the center of the block to the end point
+// and colors the map accordingly
+function drawIsochrone() {
+  for (let y = minStreet + streetBlockHalf; y <= maxStreet; y += streetBlockPiece) {
+    for (let x = minAvenue + avenueBlockHalf; x <= maxAvenue; x += avenueBlockPiece) {
+      let point = new Point({av:x, st:y});
+  		let route = new Route(point, endPoint);
+      let itineraries = route.calculateItineraries();
+      
+      if (showIsochrone2 && itineraries.length > 1) drawTherm(point, itineraries[1]);
+      drawTherm(point, itineraries[0]);
+    }
+  }
+  ctx.globalAlpha = 1.0;
+}
+
+// colors one block according to the color of the itinerary
+function drawTherm(point, itinerary) {
+  if (itinerary && itinerary.totalTime) {
+    ctx.globalAlpha = alphaForTime(itinerary.totalTime);
+    let color = lineColors[itinerary.lineName || itinerary.lineNameA];
+    if (!color) {
+      color = 'white';
+      ctx.globalAlpha = alphaForTime(itinerary.totalTime) * 0.75;
+    }
+    Draw.fillRect(new Point({av: point.av - avenueBlockHalf, st: point.st - streetBlockHalf}), 
+                  new Point({av: point.av + avenueBlockHalf, st: point.st + streetBlockHalf}), color);
+  }
+}
+
+// returns the amount of transparency for a given amount of minutes
+// as the time approaches an hour, the color gets fainter
+function alphaForTime(time) {
+  return Math.max(0.9 - (time - 10) / 40, 0);
+}
+
+let animateX = -0.2; // how much to move east/west with each animation step
+let animateY = 1.0; // how much to move north/south with each animation step
+let animateInterval = null; // used to stop the animation
+
+// every half second, moves the endPoint by [animateX,animateY]
+function animateStart() {
+  animateInterval = setInterval(() => {
+    endPoint.av += animateX;
+    if (endPoint.av < minAvenue || endPoint.av > maxAvenue) {
+      animateX = 0 - animateX;
+      endPoint.av += animateX;
+    }
+    endPoint.st += animateY;
+    if (endPoint.st < minStreet || endPoint.st > maxStreet) {
+      animateY = 0 - animateY;
+      endPoint.st += animateY + animateX;
+    }
+
+    updateMap();
+  }, 500);
+}
+
+// stops the animation
+function animateStop() {
+  clearInterval(animateInterval);
+}
+
+	</script>
+</body>
+</html>

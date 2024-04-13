@@ -1,0 +1,452 @@
+body {
+	background-color: white;
+	margin: 20px;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+.contents {
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	font: 18pt Avenir; 
+	color: #999;
+}
+
+.contents ul {
+	margin-top: 0px;
+}
+
+.contents ul li a {
+	color: #999;
+}
+
+.contents ul li.section {
+	color: black;
+}
+
+.contents ul li.section a {
+	color: black;
+}
+
+.link {
+	color: black;
+}
+
+.todo {
+  opacity: 0.45;	
+}
+
+.dark {
+	color: #444;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.smallSpace {
+	font: 10pt Avenir; 
+}
+
+.headline {
+	margin-bottom: 20px;
+	font: 48pt Avenir;
+	white-space: nowrap;
+	position: relative;
+	z-index: 10;
+}
+
+.items {
+	font: 48pt Avenir; 
+	color: #999;
+	white-space: nowrap;
+}
+
+.fours {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.caption {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.medium {
+	font: 36pt Avenir; 
+	color: #999;
+}
+
+.portfolio h1 {
+	font: 36pt Avenir; 
+	margin-bottom: 0pt;
+	color: black;
+}
+	
+.portfolio h2 {
+	font: 36pt Avenir; 
+	margin-bottom: 0pt;
+	color: #999;
+}
+	
+.portfolio p {
+	font: 16pt Avenir; 
+	margin-top: 8px;
+	color: #999;
+}
+
+.carousel {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+ 
+.portfolio img {
+  width: 220px;
+  height: 220px;
+  padding: 0px 20px 20px 0px;
+	flex: 0 0 auto; 
+}
+
+.portfolio img.natgeo {
+	width: 153px;
+}
+
+.portfolio a {
+  color: black;
+}
+
+.text {
+	font: 32pt Avenir; 
+	color: #999;
+	min-width: 900px;
+}
+
+.poetry {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.tiny {
+	font: 16pt Avenir; 
+	color: #999;
+	white-space: nowrap;
+}
+
+.russian {
+	font-weight: lighter;
+}
+
+.airport {
+	font: 29pt Menlo; 
+	color: #777;
+	position: relative;
+	top: -6px;
+}
+
+.caption .airport {
+	font: 16pt Menlo; 
+	top: -3px;
+}
+
+.icon {
+	width: 43px;
+	height: 43px;
+	position: relative;
+	top: 0px;
+}
+
+.hirothumb {
+	width: 120px;
+	height: 80px;
+}
+
+.icon-large {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	top: 8px;
+}
+
+.icon-large {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	top: 8px;
+}
+
+.state-large {
+  width: 61px;
+  padding: 0px 1.5px 0px 1.5px;
+	position: relative;
+	top: 8px;
+}
+
+.state-medium {
+  width: 45.75px;
+  padding: 0px 0px 0px 1px;
+	position: relative;
+	top: 4px;
+}
+
+.state-small {
+  width: 30.5px;
+  padding: 0px 0px 0px 1px;
+	position: relative;
+	top: 4px;
+}
+
+.hike {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+	display: inline-block;
+}
+
+.hiroshima tr td {
+  vertical-align: top;
+}
+
+.hiroshima tr td.items {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.russian {
+	font-weight: lighter;
+}
+
+.flags {
+	background: white;
+	margin-top: -20px;
+	margin-left: -22px;
+	border-spacing: 0px;
+}
+
+.flags-wider {
+	margin-top: -30px;	
+}
+
+.coins {
+	margin-top: -20px;
+}
+
+.flags td:not(:first-child) {
+	text-align: center;
+	padding: 2px 5px;
+}
+
+.confluence td:first-child {
+	text-align: right;
+	padding: 2px 5px;
+}
+
+.confluence td:not(:first-child) {
+	text-align: left;
+	padding: 2px 5px;
+}
+
+.flags td {
+	white-space: nowrap;
+}
+
+.flags tr>th:first-child, .flags tr>td:first-child {
+	background: white;
+	position: sticky;
+    left: 0;
+	padding-left: 19px;
+}
+  
+.flags tr>th:first-child {
+	background: white;
+	position: sticky;
+    left: 0;
+	top: 0;
+	z-index: 5;
+}
+
+.flags tr>th:first-child {
+	font-weight: normal;
+	text-align: left;
+	color: black;
+}
+
+.flags tr>th:first-child, .flags tr>td:first-child {
+	background: white;
+	position: sticky;
+    left: 0;
+	padding-left: 19px;
+}
+
+.flags tr:nth-child(even) {
+	background: #f6f6f6;
+}
+  
+.flags tr:nth-child(even) td {
+	background: #f6f6f6;
+}
+  
+.flags th:not(:first-child) {
+	padding: 0px 3px;
+	background: white;
+	text-align: center;
+	position: sticky;
+	top: 0;
+}
+
+.coins th:not(:first-child) {
+	font-weight: normal;
+	padding: 0px 7px;
+	width: 40px;
+}
+
+.coins th:nth-child(3), .coins th:nth-child(6), .coins th:nth-child(9), .coins th:nth-child(13), .coins th:nth-child(17), .coins th:nth-child(21), .coins 
+	   td:nth-child(3), .coins td:nth-child(6), .coins td:nth-child(9), .coins td:nth-child(13), .coins td:nth-child(17), .coins td:nth-child(21) {
+	border-right: solid 1px #666;
+}
+
+.flags-container {
+	overflow-x: visible;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: #666;
+	white-space: nowrap;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	padding: 0px 7px;
+	border-radius: 6px;
+	font: 18pt Avenir;
+
+	position: absolute;
+	bottom: -34px;
+	left: -5px;
+	text-align: center;
+	z-index: 200;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fraction {
+	position: relative;
+	top: 0.13em;
+	display: inline-block;
+	color: white;
+	background-color: #7892AE;
+	padding: 0px 0.08em;
+	height: 1.0em;
+	border-radius: 0.2em;
+}
+
+.fraction div {
+	position: relative;
+	top: -0.13em;
+	display: inline-block;
+}
+
+.irving {
+	background: white;
+	margin-top: -20px;
+	margin-left: -22px;
+	border-spacing: 0px;
+}
+
+.irving td {
+	white-space: nowrap;
+}
+
+.irving tr>th:first-child, .irving tr>td:first-child {
+	padding-left: 19px;
+}
+
+.irving tr:nth-child(even) td {
+	background: #f6f6f6;
+}
+  
+.irving th:not(:first-child), .irving td:not(:first-child) {
+	padding: 0px 20px;
+	text-align: center;
+}
+
+.flags-wider th:not(:first-child), .flags-wider td:not(:first-child) {
+	padding: 0px 15px;
+	text-align: center;
+}
+
+.skate {
+	width: 300px;
+}
+
+.portfolio img.iconquer {
+	width: auto;
+	vertical-align: top;
+}
+
+.stones {
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+	padding: 5px 0px 15px 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+  	background-color: black;
+  }
+
+	.headline {
+		color: white;
+	}
+	
+	a {
+		color: #666;
+	}
+
+	.link {
+		color: white;
+	}
+
+	.dark {
+		color: #BBB;
+	}
+	
+	.items, .fours, .caption, .medium, .text, .tiny {
+		color: #666;
+	}
+
+	.contents, .contents ul li a {
+		color: #666;
+	}
+
+	.contents ul li.section, .contents ul li.section a {
+		color: white;
+	}
+	
+	.portfolio a, .portfolio h1 {
+		color: white;
+	}
+	
+	.portfolio h2, .portfolio p {
+		color: #666;
+	}
+}
+
+.selected {
+	color: #43C6DB;
+}
+
