@@ -1,4 +1,12 @@
 {
+  "8-mile-corner": {
+    "been": false,
+    "coords": "36°59′35″N, 102°02′32″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/8_Mile_Corner",
+    "name": "8 Mile Corner",
+    "states": ["CO", "KS", "OK"]
+  },
   "abercorn-drift": {
     "been": false,
     "coords": "26.84006°S, 32.13470°E",
@@ -62,6 +70,22 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=44_51_09_N_19_00_38_E",
     "name": "Bijeljina"
   },
+  "blytheville": {
+    "been": false,
+    "coords": "35°55′51″N, 89°54′18″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Blytheville",
+    "name": "Blytheville",
+    "states": ["AR", "MO", "TN"]
+  },
+  "cairo": {
+    "been": false,
+    "coords": "30°2′40″N, 31°14′9″E",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Cairo",
+    "name": "Cairo",
+    "states": ["IL", "KY", "MO"]
+  },
   "cerro-de-montecristo": {
     "been": false,
     "countries": ["SV", "GT", "HN"],
@@ -73,6 +97,14 @@
     "countries": ["AR", "BO", "CL"],
     "link": "https://en.wikipedia.org/wiki/Zapaleri",
     "name": "Cerro Zapaleri"
+  },
+  "chain-bridge": {
+    "been": true,
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Chain_Bridge",
+    "name": "Chain Bridge",
+    "states": ["DC", "MD", "VA"],
+    "wikidata": "Q10513727"
   },
   "cinkasse": {
     "been": false,
@@ -89,12 +121,28 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=32_23_N_35_33_E",
     "name": "Dead Sea"
   },
+  "delaware-wedge": {
+    "been": true,
+    "coords": "39°42′52″N, 75°47′5″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Wedge_(border)",
+    "name": "Delaware Wedge",
+    "states": ["DE", "MD", "PA"]
+  },
   "draudzibas-kurgans": {
     "been": false,
     "coords": "56°09′43″N, 28°09′26″E",
     "countries": ["BY", "LV", "RU"],
     "link": "https://geohack.toolforge.org/geohack.php?params=56_09_43_N_28_09_26_E",
     "name": "Draudzības Kurgāns"
+  },
+  "dubuque": {
+    "been": false,
+    "coords": "42°30′16″N, 90°41′13″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Dubuque",
+    "name": "Dubuque",
+    "states": ["IA", "IL", "WI"]
   },
   "edirne": {
     "been": true,
@@ -125,12 +173,22 @@
     "link": "https://en.wikipedia.org/wiki/Fergana_Valley",
     "name": "Fergana Valley"
   },
+  "folsom": {
+    "been": false,
+    "coords": "38.672222222222, -121.15777777778",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Folsom",
+    "name": "Folsom",
+    "states": ["CO", "NM", "OK"],
+    "wikidata": "Q984155"
+  },
   "four-corners": {
     "been": false,
     "coords": "59°59′57.9689″N, 102°00′27.1758″W",
     "country": "CA",
     "link": "https://en.wikipedia.org/wiki/Four_corners_(Canada)",
-    "name": "Four Corners"
+    "name": "Four Corners",
+    "states": ["AZ", "CO", "NM", "UT"]
   },
   "four-shire-stone": {
     "been": false,
@@ -138,6 +196,15 @@
     "country": "GB",
     "link": "https://en.wikipedia.org/wiki/Four_Shire_Stone",
     "name": "Four Shire Stone"
+  },
+  "fremont": {
+    "been": false,
+    "coords": "37.543055555556, -121.98277777778",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Fremont",
+    "name": "Fremont",
+    "states": ["IN", "MI", "OH"],
+    "wikidata": "Q49220"
   },
   "garbolc": {
     "been": false,
@@ -182,6 +249,22 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=41_52_39_N_20_35_40_E",
     "name": "Golem Korab"
   },
+  "green-mountain": {
+    "been": true,
+    "coords": "43°57′N, 73°04′W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Green_Mountain_National_Forest",
+    "name": "Green Mountain",
+    "states": ["MA", "NY", "VT"]
+  },
+  "harpers-ferry": {
+    "been": true,
+    "coords": "39°19′40″N, 77°44′47″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Harpers_Ferry,_West_Virginia",
+    "name": "Harpers Ferry",
+    "states": ["MD", "VA", "WV"]
+  },
   "hohenau-an-der-march": {
     "been": true,
     "coords": "48°36′N, 16°54′E",
@@ -194,7 +277,8 @@
     "coords": "50.30325°N, 12.05111°E",
     "countries": ["CZ", "DE"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.30325_N_12.05111_E",
-    "name": "Hranice"
+    "name": "Hranice",
+    "strike": true
   },
   "hrcava": {
     "been": false,
@@ -216,6 +300,14 @@
     "countries": ["CN", "IN", "PK"],
     "link": "https://en.wikipedia.org/wiki/Indira_Col",
     "name": "Indira Col"
+  },
+  "jones-point-light": {
+    "been": true,
+    "coords": "38°47′25.4″N, 77°2′26.3″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Jones_Point_Light",
+    "name": "Jones Point Light",
+    "states": ["DC", "MD", "VA"]
   },
   "jongsong-peak": {
     "been": false,
@@ -243,6 +335,14 @@
     "countries": ["BW", "ZM", "ZW"],
     "link": "https://en.wikipedia.org/wiki/Kazungula",
     "name": "Kazungula"
+  },
+  "kentucky-bend": {
+    "been": false,
+    "coords": "36.53°N, 89.51°W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Kentucky_Bend",
+    "name": "Kentucky Bend",
+    "states": ["KY", "MO", "TN"]
   },
   "kerem-shalom": {
     "been": false,
@@ -302,6 +402,22 @@
     "link": "https://en.wikipedia.org/wiki/Lake_Prespa",
     "name": "Lake Prespa"
   },
+  "lake-providence": {
+    "been": false,
+    "coords": "32°48′19″N, 91°10′46″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Lake_Providence",
+    "name": "Lake Providence",
+    "states": ["AR", "LA", "MS"]
+  },
+  "laughlin": {
+    "been": false,
+    "coords": "35°8′30″N, 114°37′7″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Laughlin,_Nevada",
+    "name": "Laughlin",
+    "states": ["AZ", "CA", "NV"]
+  },
   "majdel-shams": {
     "been": true,
     "coords": "33°20′N, 35°46′E",
@@ -309,6 +425,26 @@
     "info": "(10 km)",
     "link": "https://geohack.toolforge.org/geohack.php?params=33_20_N_35_46_E",
     "name": "Majdel Shams"
+  },
+  "markleysburg": {
+    "been": false,
+    "coords": "39°44′14″N, 79°27′11″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Markleysburg",
+    "name": "Markleysburg",
+    "states": ["MD", "PA", "WV"]
+  },
+  "memphis-(15-km)": {
+    "been": true,
+    "country": "US",
+    "name": "Memphis (15 km)",
+    "states": ["AR", "MI", "TN"]
+  },
+  "memphis/a-(15-km)": {
+    "been": true,
+    "country": "US",
+    "name": "Memphis</a> (15 km)",
+    "states": ["AR", "MI", "TN"]
   },
   "mont-dolent": {
     "been": true,
@@ -325,6 +461,14 @@
     "info": "(12 km)",
     "link": "https://geohack.toolforge.org/geohack.php?params=14_46_N_12_15_W",
     "name": "Moudéri"
+  },
+  "mount-frissell": {
+    "been": true,
+    "coords": "42.051093558°N, 73.481977744°W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Mount_Frissell",
+    "name": "Mount Frissell",
+    "states": ["CT", "MA", "NY"]
   },
   "mount-roraima": {
     "been": false,
@@ -363,12 +507,28 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=44.21586_N_22.67578_E",
     "name": "Negotin"
   },
+  "northfield": {
+    "been": true,
+    "coords": "42°41′45″N, 72°27′12″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Northfield,_Massachusetts",
+    "name": "Northfield",
+    "states": ["MA", "NH", "VT"]
+  },
   "nova-pec": {
     "been": false,
     "coords": "48°46′16″N, 13°50′22″E",
     "countries": ["AT", "CZ", "DE"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48_46_16_N_13_50_22_E",
     "name": "Nová Pec"
+  },
+  "ohioville": {
+    "been": false,
+    "coords": "40°40′46″N, 80°28′17″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Ohioville",
+    "name": "Ohioville",
+    "states": ["OH", "PA", "WV"]
   },
   "pafuri-triangle": {
     "been": false,
@@ -391,6 +551,14 @@
     "info": "🏔 (13 km)",
     "link": "https://en.wikipedia.org/wiki/Pic_de_Médécourbe",
     "name": "Pic de Médécourbe"
+  },
+  "port-jervis": {
+    "been": true,
+    "coords": "41°21′26.18″N, 74°41′41″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Tri-States_Monument",
+    "name": "Port Jervis",
+    "states": ["NY", "NJ", "PA"]
   },
   "prut": {
     "been": false,
@@ -459,6 +627,15 @@
     "link": "https://en.wikipedia.org/wiki/Senkivka_(border_checkpoint)",
     "name": "Senkivka"
   },
+  "shawnee-lookout": {
+    "been": false,
+    "coords": "39.126111, -84.799444",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Shawnee_Lookout",
+    "name": "Shawnee Lookout",
+    "states": ["IN", "KY", "OH"],
+    "wikidata": "Q7491536"
+  },
   "shulep-kamak": {
     "been": false,
     "coords": "42.31173°N, 22.35980°E",
@@ -466,6 +643,31 @@
     "info": "🏔 (40 km)",
     "link": "https://geohack.toolforge.org/geohack.php?params=42.31173_N_22.35980_E",
     "name": "Shulep Kamak"
+  },
+  "sioux-falls": {
+    "been": false,
+    "coords": "43°32′11″N, 96°43′54″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Sioux_Falls",
+    "name": "Sioux Falls",
+    "states": ["IA", "MN", "SD"]
+  },
+  "south-point": {
+    "been": false,
+    "coords": "38.4192, -82.5806",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/South_Point",
+    "name": "South Point",
+    "states": ["KY", "OH", "WV"],
+    "wikidata": "Q280269"
+  },
+  "swedesboro": {
+    "been": true,
+    "coords": "39.745884°N, 75.310947°W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Swedesboro,_New_Jersey",
+    "name": "Swedesboro",
+    "states": ["DE", "NJ", "PA"]
   },
   "szeged": {
     "been": false,
@@ -480,6 +682,22 @@
     "countries": ["BY", "PL", "UA"],
     "link": "https://en.wikipedia.org/wiki/Tamašoŭka",
     "name": "Tamašoŭka"
+  },
+  "texhomex": {
+    "been": false,
+    "coords": "36°30′01.67″N, 103°00′08.58″W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Texhomex",
+    "name": "Texhomex",
+    "states": ["NM", "OK", "TX"]
+  },
+  "thompson": {
+    "been": true,
+    "country": "US",
+    "link": "http://www.ctmq.org/ct-ma-ri-tri-point/",
+    "name": "Thompson",
+    "states": ["CT", "MA", "RI"],
+    "wikidata": "Q2803433"
   },
   "trebinje": {
     "been": false,
@@ -538,6 +756,25 @@
     "countries": ["BE", "DE", "NL"],
     "link": "https://en.wikipedia.org/wiki/Vaalserberg",
     "name": "Vaalserberg"
+  },
+  "wharncliffe": {
+    "been": false,
+    "country": "US",
+    "name": "Wharncliffe",
+    "states": ["KY", "VA", "WV"],
+    "wikidata": "Q91764815"
+  },
+  "whitetop-(20-km)": {
+    "been": true,
+    "country": "US",
+    "name": "Whitetop (20 km)",
+    "states": ["NC", "TN", "VA"]
+  },
+  "whitetop/a-(20-km)": {
+    "been": true,
+    "country": "US",
+    "name": "Whitetop</a> (20 km)",
+    "states": ["NC", "TN", "VA"]
   },
   "wizajny": {
     "been": false,

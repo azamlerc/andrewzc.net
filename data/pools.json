@@ -15,37 +15,46 @@
   },
   "alte-donau": {
     "been": false,
+    "city": "Vienna",
+    "coords": "48.23251° N, 16.42025° E",
     "country": "AT",
     "link": "http://burghauptmannschaft.at",
     "name": "Alte Donau"
   },
   "amalienbad": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.17427° N, 16.37900° E",
     "country": "AT",
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/amalienbad.html",
     "name": "Amalienbad"
   },
   "aquaboulevard": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.83290° N, 2.27603° E",
     "country": "FR",
     "link": "https://www.aquaboulevard.fr/",
     "name": "Aquaboulevard"
   },
   "aquapalace-prague": {
     "been": true,
+    "city": "Prague",
     "coords": "50.0075°N, 14.571111°E",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Aquapalace_Prague",
+    "link": "https://www.aquapalace.cz/",
     "name": "Aquapalace Prague"
   },
   "arbel-guest-house": {
     "been": true,
+    "coords": "32.81341° N, 35.48316° E",
     "country": "IL",
     "link": "https://www.4shavit.com/t-en",
     "name": "Arbel Guest House"
   },
   "asser-levy": {
     "been": true,
+    "city": "New York",
     "coords": "40°44′10″N, 73°58′32″W",
     "country": "US",
     "link": "https://en.wikipedia.org/wiki/Asser_Levy_Recreation_Center",
@@ -53,26 +62,32 @@
   },
   "astoria-park": {
     "been": true,
-    "coords": "40°46′46″N, 73°55′19″W",
+    "city": "New York",
+    "coords": "40.77896° N, 73.92268° W",
     "country": "US",
     "link": "https://en.wikipedia.org/wiki/Astoria_Park#Pools",
     "name": "Astoria Park"
   },
-  "azure,-pripyat": {
+  "azure-pripyat": {
     "been": false,
+    "city": "Chernobyl",
     "coords": "51.4068°N, 30.0492°E",
     "country": "UA",
     "link": "https://en.wikipedia.org/wiki/Azure_Swimming_Pool",
-    "name": "Azure, Pripyat"
+    "name": "Azure, Pripyat",
+    "strike": true
   },
   "badanstalt": {
     "been": true,
+    "city": "Luxembourg",
+    "coords": "49.61367° N, 6.12885° E",
     "country": "LU",
     "link": "https://www.vdl.lu/fr/visiter/loisirs-et-sports/infrastructures-sportives/piscines/badanstalt",
     "name": "Badanstalt"
   },
   "bains-de-bruxelles": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.8375, 4.34611111",
     "country": "BE",
     "link": "https://fr.wikipedia.org/wiki/Bains_de_Bruxelles",
@@ -81,40 +96,48 @@
   },
   "bains-de-saint-josse-ten-noode": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.85682° N, 4.36543° E",
     "country": "BE",
     "link": "https://www.sjtn.brussels/fr/sports-loisirs/sports/piscine-communale",
     "name": "Bains de Saint-Josse-ten-Noode"
   },
   "bethesda-pool": {
     "been": true,
-    "coords": "31.781388888889, 35.235833333333",
+    "city": "Washington",
+    "coords": "38.97399° N, 77.10038° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Bethesda_Pool",
-    "name": "Bethesda Pool",
-    "wikidata": "Q831297"
+    "link": "https://www.montgomerycountymd.gov/rec/facilities/aquaticcenters/outdoorpools.html",
+    "name": "Bethesda Pool"
   },
   "betsy-head": {
     "been": true,
-    "coords": "40.6625, -73.913611111111",
+    "city": "New York",
+    "coords": "40.66296° N, 73.91271° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Betsy_Head",
-    "name": "Betsy Head",
-    "wikidata": "Q34807340"
+    "link": "https://www.nycgovparks.org/parks/betsy-head-memorial-playground/facilities/outdoor-pools/betsy-head-pool",
+    "name": "Betsy Head"
   },
   "biotop-radotin": {
     "been": false,
+    "city": "Prague",
+    "coords": "49.97943° N, 14.35926° E",
     "country": "CZ",
     "link": "http://biotopradotin.cz",
     "name": "Biotop Radotín"
   },
   "brigittenauer-bad": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.23559° N, 16.36416° E",
     "country": "AT",
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/brigittenau.html",
-    "name": "Brigittenauer Bad"
+    "name": "Brigittenauer Bad",
+    "strike": true
   },
   "brockwell-lido": {
     "been": false,
+    "city": "London",
     "coords": "51.453056°N, 0.106389°W",
     "country": "GB",
     "link": "https://en.wikipedia.org/wiki/Brockwell_Lido",
@@ -122,39 +145,46 @@
   },
   "brush-ranch": {
     "been": true,
+    "coords": "35.70726° N, 105.68250° W",
     "country": "US",
     "link": "https://www.brushranchnm.com/",
     "name": "Brush Ranch"
   },
   "bushwick": {
     "been": true,
-    "coords": "40.697°N, 73.917°W",
+    "city": "New York",
+    "coords": "40.70206° N, 73.93943° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Bushwick",
+    "link": "https://www.nycgovparks.org/parks/B310/facilities/outdoor-pools",
     "name": "Bushwick"
   },
-  "chandlers-ford,-holiday-inn": {
+  "chandlers-ford-holiday-inn": {
     "been": true,
+    "city": "Southampton",
+    "coords": "50.97130° N, 1.36949° W",
     "country": "GB",
     "name": "Chandlers Ford, Holiday Inn"
   },
   "chelsea-pool": {
     "been": true,
+    "city": "New York",
+    "coords": "40.74828° N, 74.00207° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M260/facilities/indoor-pools",
     "name": "Chelsea Pool"
   },
   "claremont": {
     "been": true,
-    "coords": "34.11, -117.71972222222",
+    "city": "New York",
+    "coords": "31.97784° S, 115.78087° E",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Claremont",
-    "name": "Claremont",
-    "wikidata": "Q506398"
+    "link": "https://www.nycgovparks.org/parks/claremont-park/facilities/outdoor-pools/claremont-pool",
+    "name": "Claremont"
   },
   "cleopatra-spring": {
     "been": true,
-    "coords": "29°12′19″N, 25°31′10″E",
+    "city": "Siwa",
+    "coords": "29.19697° N, 25.55011° E",
     "country": "EG",
     "link": "https://en.wikipedia.org/wiki/Siwa_Oasis",
     "name": "Cleopatra Spring"
@@ -168,18 +198,24 @@
   },
   "club-natacio-atletic-barceloneta": {
     "been": true,
+    "city": "Barcelona",
+    "coords": "41.37057° N, 2.18819° E",
     "country": "ES",
     "link": "https://es.wikipedia.org/wiki/Club_Natació_Atlètic_Barceloneta",
     "name": "Club Natació Atlètic Barceloneta"
   },
   "commodore-barry": {
     "been": true,
+    "city": "New York",
+    "coords": "40.69784° N, 73.97805° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/commodore-barry-park/facilities/outdoor-pools/commodore-barry-pool",
     "name": "Commodore Barry"
   },
   "constance-baker-motley": {
     "been": true,
+    "city": "New York",
+    "coords": "40.75644° N, 73.96517° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M130/facilities/indoor-pools",
     "name": "Constance Baker Motley",
@@ -187,48 +223,62 @@
   },
   "crotona": {
     "been": true,
-    "coords": "39°05′N, 17°07′E",
+    "city": "New York",
+    "coords": "40.83988° N, 73.89812° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Crotona",
+    "link": "https://www.nycgovparks.org/parks/X010/facilities/outdoor-pools",
     "name": "Crotona"
   },
   "crown-plaza-tel-aviv-beach": {
     "been": true,
+    "city": "Tel Aviv",
+    "coords": "32.08356° N, 34.76873° E",
     "country": "IL",
     "link": "https://www.ihg.com/crowneplaza/hotels/us/en/tel-aviv/tlvil/hoteldetail",
     "name": "Crown Plaza Tel Aviv Beach"
   },
   "de-blinkerd": {
     "been": true,
+    "city": "Den Haag",
+    "coords": "52.10621° N, 4.28294° E",
     "country": "NL",
     "link": "https://denhaag.com/en/de-blinkerd-swimming-pool",
     "name": "De Blinkerd"
   },
   "de-houtzagerij": {
     "been": true,
+    "city": "Den Haag",
+    "coords": "52.06997° N, 4.30403° E",
     "country": "NL",
     "link": "https://denhaag.com/en/de-houtzagerij-swimming-pool",
     "name": "De Houtzagerij"
   },
   "de-waterthor": {
     "been": true,
+    "city": "Den Haag",
+    "coords": "52.06574° N, 4.24822° E",
     "country": "NL",
     "link": "https://denhaag.com/en/de-waterthor-swimming-pool",
     "name": "De Waterthor"
   },
-  "dolphin-beach-resort,-ain-sokhna": {
+  "dolphin-beach-resort-ain-sokhna": {
     "been": true,
+    "coords": "29.53010° N, 32.37874° E",
     "country": "EG",
     "name": "Dolphin Beach Resort, Ain Sokhna"
   },
   "douglass-and-degraw": {
     "been": true,
+    "city": "New York",
+    "coords": "40.68043° N, 73.98595° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/thomas-greene-playground/facilities/outdoor-pools/douglas-and-degraw-pool",
     "name": "Douglass and DeGraw"
   },
   "dry-dock": {
     "been": true,
+    "city": "New York",
+    "coords": "40.72539° N, 73.97548° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M270/facilities/outdoor-pools",
     "name": "Dry Dock",
@@ -236,72 +286,114 @@
   },
   "dzban": {
     "been": false,
+    "city": "Prague",
+    "coords": "50.09927° N, 14.33738° E",
     "country": "CZ",
     "link": "http://koupalistedzban.cz",
     "name": "Džbán"
   },
   "el-gancho": {
     "been": true,
+    "city": "Santa Fe",
+    "coords": "35.64301° N, 105.92893° W",
     "country": "US",
     "link": "https://www.elgancho.com/",
     "name": "El Gancho"
   },
+  "fairfield-by-marriott-bengaluru": {
+    "been": true,
+    "city": "Bangalore",
+    "coords": "12.92801° N, 77.68270° E",
+    "country": "IN",
+    "link": "https://www.booking.com/hotel/in/fairfield-by-marriott-bengaluru-outer-ring-road.en-gb.html",
+    "name": "Fairfield by Marriott, Bengaluru"
+  },
   "fatnas-island": {
     "been": true,
+    "city": "Egypt",
+    "coords": "29.20392° N, 25.47885° E",
     "country": "EG",
     "link": "http://wikimapia.org/2045719/Fatnas-Island",
     "name": "Fatnas Island"
   },
+  "fisher": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75894° N, 73.86926° W",
+    "country": "US",
+    "link": "https://www.nycgovparks.org/parks/fisher-pool/facilities/outdoor-pools/fisher-pool",
+    "name": "Fisher",
+    "wikidata": "Q331432"
+  },
   "floating-pool": {
     "been": true,
+    "city": "New York",
+    "coords": "40.80486° N, 73.88827° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X307/facilities/outdoor-pools",
     "name": "Floating Pool"
   },
   "flushing-meadows": {
     "been": true,
-    "coords": "40°44′45″N, 73°50′41″W",
+    "city": "New York",
+    "coords": "40.75165° N, 73.83715° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Flushing_Meadows",
+    "link": "https://www.nycgovparks.org/parks/Q099/facilities/indoor-pools",
     "name": "Flushing Meadows"
   },
   "fluðir": {
     "been": true,
-    "coords": "64°13′N, 20°33′W",
+    "city": "Iceland",
+    "coords": "64.13738° N, 20.30940° W",
     "country": "IS",
-    "link": "https://en.wikipedia.org/wiki/Fl%C3%BA%C3%B0ir",
+    "link": "https://www.south.is/en/service/fludir-swimming-pool",
     "name": "Flúðir"
   },
   "fort-totten": {
     "been": true,
-    "coords": "47.978888888889, -99.000277777778",
+    "city": "New York",
+    "coords": "40.79220° N, 73.77461° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Fort_Totten",
-    "name": "Fort Totten",
-    "wikidata": "Q2757936"
+    "link": "https://www.nycgovparks.org/parks/fort-totten-park/facilities/outdoor-pools/fort-totten-pool",
+    "name": "Fort Totten"
   },
   "foster": {
     "been": true,
+    "city": "New York",
+    "coords": "40.83192° N, 73.92419° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X034/facilities/outdoor-pools",
     "name": "Foster",
     "wikidata": "Q21501722"
   },
+  "front-de-mer": {
+    "been": true,
+    "city": "Trouville",
+    "coords": "",
+    "country": "FR",
+    "link": "https://www.trouvillesurmer.org/loisirs/piscine-municipale-de-trouville-sur-mer/",
+    "name": "Front de Mer"
+  },
   "gertrude-ederle": {
     "been": true,
+    "city": "New York",
+    "coords": "40.77141° N, 73.98869° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M063/facilities/indoor-pools",
-    "name": "Gertrude Ederle",
-    "wikidata": "Q263287"
+    "name": "Gertrude Ederle"
   },
   "haffen": {
     "been": true,
+    "city": "New York",
+    "coords": "40.87426° N, 73.83921° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X196/facilities/outdoor-pools",
     "name": "Haffen"
   },
   "hamilton-fish": {
     "been": true,
+    "city": "New York",
+    "coords": "40.71974° N, 73.98065° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M033/facilities/outdoor-pools",
     "name": "Hamilton Fish",
@@ -309,64 +401,79 @@
   },
   "hansborough": {
     "been": true,
+    "city": "New York",
+    "coords": "40.81290° N, 73.93944° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M131/facilities/indoor-pools",
     "name": "Hansborough"
   },
   "harlem-meer": {
     "been": true,
-    "coords": "40°47′47.8″N, 73°57′6″W",
+    "city": "New York",
+    "coords": "40.79634° N, 73.95467° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Harlem_Meer",
+    "link": "https://www.nycgovparks.org/parks/M010/facilities/outdoor-pools",
     "name": "Harlem Meer"
   },
   "het-zuiderpark": {
     "been": true,
+    "city": "Den Haag",
+    "coords": "52.05285° N, 4.28713° E",
     "country": "NL",
     "link": "https://www.zuiderparkdenhaag.com/ondernemers/zwembad-het-zuiderpark/",
     "name": "Het Zuiderpark"
   },
   "hietzinger-bad": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.16842° N, 16.29410° E",
     "country": "AT",
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/kombibaeder/hietzing.html",
     "name": "Hietzinger Bad"
   },
   "highbridge": {
     "been": true,
-    "coords": "51.2189, -2.973",
+    "city": "New York",
+    "coords": "40.84247° N, 73.93336° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Highbridge",
-    "name": "Highbridge",
-    "wikidata": "Q684317"
+    "link": "https://www.nycgovparks.org/parks/M037/facilities/outdoor-pools",
+    "name": "Highbridge"
   },
   "hofn-pool": {
     "been": true,
+    "coords": "64.25391° N, 15.20853° W",
     "country": "IS",
     "link": "https://www.south.is/en/service/hofn-swimming-pool",
     "name": "Höfn Pool"
   },
   "hostivar": {
     "been": false,
+    "city": "Prague",
     "coords": "50°2′56.04″N, 14°31′27.84″E",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Hostiva%C5%99",
+    "link": "http://www.hostivarskaprehrada.cz",
     "name": "Hostivař"
   },
   "hotel-du-commerce": {
     "been": true,
+    "city": "Clerveax",
+    "coords": "50.05393° N, 6.02954° E",
     "country": "LU",
     "link": "https://www.hotelducommerce.lu/en/",
     "name": "Hotel du Commerce"
   },
   "hotel-la-perle": {
     "been": true,
+    "city": "Saint Louis",
+    "coords": "16.04210° N, 16.45755° W",
     "country": "SN",
     "link": "https://www.booking.com/hotel/sn/guest-house-la-perle.fr.html",
     "name": "Hotel La Perle"
   },
   "howard": {
     "been": true,
+    "city": "New York",
+    "coords": "40.67248° N, 73.90906° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/howard-playground/facilities/outdoor-pools/howard-pool",
     "name": "Howard",
@@ -374,31 +481,38 @@
   },
   "hreppslaug": {
     "been": true,
+    "coords": "64.53765° N, 21.70228° W",
     "country": "IS",
     "link": "https://www.west.is/en/service/hreppslaug-swimming-pool",
     "name": "Hreppslaug"
   },
   "hutteldorfer-bad": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.20295° N, 16.26435° E",
     "country": "AT",
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/huetteldorf.html",
     "name": "Hütteldorfer Bad"
   },
-  "hveragerði-": {
+  "hveragerði": {
     "been": true,
+    "coords": "64.00153° N, 21.17986° W",
     "country": "IS",
     "link": "https://www.south.is/en/service/hveragerdi-swimming-pool",
-    "name": "Hveragerði "
+    "name": "Hveragerði"
   },
   "ironmonger-row-baths": {
     "been": true,
+    "city": "London",
     "coords": "51.526643°N, 0.09483°W",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Ironmonger_Row_Baths",
+    "link": "https://www.better.org.uk/leisure-centre/london/islington/ironmonger-row-baths",
     "name": "Ironmonger Row Baths"
   },
   "jackie-robinson": {
     "been": true,
+    "city": "New York",
+    "coords": "40.82423° N, 73.94284° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M014/facilities/outdoor-pools",
     "name": "Jackie Robinson",
@@ -406,6 +520,7 @@
   },
   "jamsil": {
     "been": true,
+    "city": "Seoul",
     "coords": "37°31′16″N, 127°7′35″E",
     "country": "KR",
     "link": "https://en.wikipedia.org/wiki/Jamsil_Indoor_Swimming_Pool",
@@ -413,6 +528,8 @@
   },
   "john-jay": {
     "been": true,
+    "city": "New York",
+    "coords": "40.76946° N, 73.94886° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/john-jay-park-and-pool/facilities/outdoor-pools/john-jay-pool",
     "name": "John Jay",
@@ -420,33 +537,40 @@
   },
   "jorgerbad": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.21816° N, 16.33502° E",
     "country": "AT",
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/joergerbad.html",
     "name": "Jörgerbad"
   },
   "jubilee-pool": {
     "been": false,
+    "city": "Penzance",
     "coords": "50.114784°N, 5.531454°W",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Jubilee_Pool",
+    "link": "https://www.jubileepool.co.uk/",
     "name": "Jubilee Pool"
   },
   "kelly-pool": {
     "been": true,
+    "city": "Philadelphia",
+    "coords": "39.97916° N, 75.20788° W",
     "country": "US",
     "link": "https://myphillypark.org/explore/parks/john-b-kelly-pool/",
-    "name": "Kelly Pool",
-    "wikidata": "Q6386357"
+    "name": "Kelly Pool"
   },
   "kentish-town-baths": {
     "been": false,
+    "city": "London",
+    "coords": "51.54698° N, 0.14387° W",
     "country": "GB",
     "link": "https://www.better.org.uk/leisure-centre/london/camden/kentish-town-sports-centre",
     "name": "Kentish Town Baths"
   },
   "kileleshwa": {
     "been": true,
-    "coords": "01°16′37″S, 36°47′35″E",
+    "city": "Nairobi",
+    "coords": "1.27478° S, 36.79427° E",
     "country": "KE",
     "link": "https://en.wikipedia.org/wiki/Kileleshwa",
     "name": "Kileleshwa"
@@ -461,11 +585,11 @@
   },
   "kosciuszko": {
     "been": true,
-    "coords": "-36.44833333333333, 148.2344444",
+    "city": "New York",
+    "coords": "40.69116° N, 73.94958° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Kosciuszko",
-    "name": "Kosciuszko",
-    "wikidata": "Q55063463"
+    "link": "https://www.nycgovparks.org/parks/B351/facilities/outdoor-pools",
+    "name": "Kosciuszko"
   },
   "la-grenouillere": {
     "been": true,
@@ -478,13 +602,15 @@
   },
   "langeac": {
     "been": false,
-    "coords": "45.1011°N, 3.495°E",
+    "coords": "45.10916° N, 3.49012° E",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Langeac",
+    "link": "https://www.guide-piscine.fr/haute-loire/piscine-a-langeac-2021_P",
     "name": "Langeac"
   },
   "laquabulle": {
     "been": true,
+    "city": "Brioude",
+    "coords": "45.28343° N, 3.39832° E",
     "country": "FR",
     "link": "https://www.aquabulle-brioudesudauvergne.fr/",
     "name": "L’Aquabulle"
@@ -498,12 +624,14 @@
   },
   "lazne-zlin": {
     "been": true,
+    "coords": "49.22133° N, 17.66961° E",
     "country": "CZ",
     "link": "https://www.laznezlin.cz",
     "name": "Lázně Zlín"
   },
   "lowlands-hotel": {
     "been": true,
+    "coords": "0.04524° N, 37.65373° E",
     "country": "KE",
     "link": "https://www.lowlandshotel.com",
     "name": "Lowlands Hotel"
@@ -517,6 +645,8 @@
   },
   "mapes": {
     "been": true,
+    "city": "New York",
+    "coords": "40.84646° N, 73.88607° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X289/facilities/outdoor-pools",
     "name": "Mapes",
@@ -524,6 +654,8 @@
   },
   "marcus-garvey": {
     "been": true,
+    "city": "New York",
+    "coords": "40.80524° N, 73.94333° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M058/facilities/outdoor-pools",
     "name": "Marcus Garvey",
@@ -531,12 +663,15 @@
   },
   "marina-grande-on-halifax": {
     "been": true,
+    "city": "Daytona Beach",
+    "coords": "29.23321° N, 81.02755° W",
     "country": "US",
     "link": "https://marinagrande.info",
     "name": "Marina Grande on the Halifax"
   },
   "marriott-coral-springs": {
     "been": true,
+    "coords": "26.30994° N, 80.28357° W",
     "country": "US",
     "link": "https://www.booking.com/hotel/us/coral-springs-marriott-golf-club.html",
     "name": "Marriott Coral Springs"
@@ -545,50 +680,61 @@
     "been": false,
     "coords": "51.5136, -0.138056",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Marshall_Street_Baths",
+    "link": "https://www.everyoneactive.com/centre/marshall-street-leisure-centre/",
     "name": "Marshall Street Baths",
     "wikidata": "Q6773793"
   },
   "mcburney-ymca": {
     "been": true,
+    "city": "New York",
+    "coords": "40.73800° N, 73.99765° W",
     "country": "US",
     "link": "https://ymcanyc.org/locations/mcburney-ymca",
     "name": "McBurney YMCA"
   },
   "mccarren-park": {
     "been": true,
-    "coords": "40.721°N, 73.952°W",
+    "city": "New York",
+    "coords": "40.72023° N, 73.94931° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/McCarren_Park",
+    "link": "https://www.nycgovparks.org/parks/B058/facilities/outdoor-pools",
     "name": "McCarren Park"
   },
   "media-one-hotel": {
     "been": true,
+    "city": "Dubai",
+    "coords": "25.09011° N, 55.15277° E",
     "country": "AE",
     "link": "https://www.booking.com/hotel/ae/media-one.html",
     "name": "Media One Hotel"
   },
   "metropolitan": {
     "been": true,
+    "city": "New York",
+    "coords": "40.71502° N, 73.96030° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/B085/facilities/indoor-pools",
     "name": "Metropolitan",
     "wikidata": "Q189854"
   },
-  "motel-6,-las-vegas": {
+  "motel-6-las-vegas": {
     "been": true,
+    "city": "Las Vegas",
+    "coords": "36.09786° N, 115.18192° W",
     "country": "US",
     "link": "https://www.booking.com/hotel/us/las-vegas-5085-south-dean-martin-drive.html",
     "name": "Motel 6, Las Vegas"
   },
   "mount-baths": {
     "been": false,
+    "coords": "52.24158° N, 0.89331° W",
     "country": "GB",
     "link": "http://www.trilogyleisure.co.uk/about/mounts-baths-leisure-centre",
     "name": "Mount Baths"
   },
   "munsu-water-park": {
     "been": false,
+    "city": "Pyongyang",
     "coords": "39.0396°N, 125.7812°E",
     "country": "KP",
     "link": "https://en.wikipedia.org/wiki/Munsu_Water_Park",
@@ -596,31 +742,40 @@
   },
   "neptunium": {
     "been": false,
+    "city": "Brussels",
+    "coords": "50.86551° N, 4.37869° E",
     "country": "BE",
     "link": "https://www.tripadvisor.com/Attraction_Review-g950786-d7256735-Reviews-Neptunium-Schaerbeek_Brussels.html",
     "name": "Neptunium",
-    "wikidata": "Q1105"
+    "strike": true
   },
   "neuwaldegger-bad": {
     "been": false,
+    "city": "Vienna",
+    "coords": "48.23373° N, 16.28873° E",
     "country": "AT",
     "link": "https://www.stadt-wien.at/freizeit/sport/schwimmbaeder/neuwaldegger-bad.html",
     "name": "Neuwaldegger Bad"
   },
   "novotel-bengaluru": {
     "been": true,
+    "city": "Bangalore",
+    "coords": "12.92979° N, 77.68344° E",
     "country": "IN",
     "link": "https://all.accor.com/hotel/6453/index.en.shtml",
     "name": "Novotel Bengaluru"
   },
   "oconnor-pool": {
     "been": true,
+    "city": "Philadelphia",
+    "coords": "39.94613° N, 75.18334° W",
     "country": "US",
     "link": "https://www.phila.gov/parks-rec-finder/#/location/o-connor-pool/56a8f86e7a8cee5e3a25b0d7",
     "name": "O’Connor Pool"
   },
   "oliver-bath-house": {
     "been": true,
+    "city": "Pittsburg",
     "coords": "40°25′46.54″N, 79°59′19.83″W",
     "country": "US",
     "link": "https://en.wikipedia.org/wiki/Oliver_Bath_House",
@@ -628,6 +783,7 @@
   },
   "olympijski-bazen-otoka": {
     "been": false,
+    "city": "Sarajevo",
     "coords": "43°50′50.7″N, 18°21′34.4″E",
     "country": "BA",
     "link": "https://en.wikipedia.org/wiki/Olimpijski_Bazen_Otoka",
@@ -643,6 +799,8 @@
   },
   "overbosch": {
     "been": true,
+    "city": "Den Haag",
+    "coords": "52.08921° N, 4.34743° E",
     "country": "NL",
     "link": "https://denhaag.com/en/overbosch-swimming-pool",
     "name": "Overbosch"
@@ -656,24 +814,31 @@
   },
   "petynka": {
     "been": false,
+    "city": "Prague",
+    "coords": "50.09053° N, 14.38134° E",
     "country": "CZ",
     "link": "https://www.koupalistepetynka.cz",
     "name": "Petynka"
   },
   "piscina-da-rodovia": {
     "been": true,
+    "city": "Braga",
+    "coords": "41.55130° N, 8.40740° W",
     "country": "PT",
     "link": "https://piscinasmunicipais.pt/braga/piscina-municipal-de-rodovia-highway-pool/",
     "name": "Piscina da Rodovia"
   },
   "piscina-de-sao-vicente": {
     "been": true,
+    "city": "Lisbon",
+    "coords": "38.71416° N, 9.12549° W",
     "country": "PT",
     "link": "https://informacoeseservicos.lisboa.pt/contactos/diretorio-da-cidade/piscina-municipal-de-sao-vicente",
     "name": "Piscina de São Vicente"
   },
   "piscina-municipal-de-montjuic": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41°22′10.02″N, 2°9′54.15″E",
     "country": "ES",
     "link": "https://es.wikipedia.org/wiki/Piscina_Municipal_de_Montjuic",
@@ -681,87 +846,113 @@
   },
   "piscinas-bernat-picornell": {
     "been": true,
+    "city": "Barcelona",
+    "coords": "41.36568° N, 2.15145° E",
     "country": "ES",
     "link": "https://es.wikipedia.org/wiki/Piscinas_Bernat_Picornell",
     "name": "Piscinas Bernat Picornell"
   },
   "piscine-alfred-nakache": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.87144° N, 2.37894° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-alfred-nakache-4012",
     "name": "Piscine Alfred Nakache"
   },
   "piscine-armand-massard": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.84324° N, 2.32331° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-armand-massard-2933",
     "name": "Piscine Armand Massard"
   },
   "piscine-chateau-landon": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.88326° N, 2.36370° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-chateau-landon-2923",
     "name": "Piscine Château-Landon"
   },
   "piscine-de-la-broucheterre": {
     "been": false,
+    "city": "Charleroi",
+    "coords": "50.41701° N, 4.44630° E",
     "country": "BE",
     "link": "https://fr.wikipedia.org/wiki/Piscine_de_la_Broucheterre",
-    "name": "Piscine de la Broucheterre"
+    "name": "Piscine de la Broucheterre",
+    "strike": true
   },
   "piscine-de-la-butte-aux-cailles": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.82690° N, 2.35290° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-de-la-butte-aux-cailles-2927",
     "name": "Piscine de la Butte aux Cailles"
   },
   "piscine-dixelles": {
     "been": false,
+    "city": "Brussels",
+    "coords": "50.83274° N, 4.37865° E",
     "country": "BE",
     "link": "https://www.ixelles.be/site/222-Piscine",
     "name": "Piscine d’Ixelles"
   },
   "piscine-du-rhone": {
     "been": true,
+    "city": "Lyon",
+    "coords": "45.75291° N, 4.83720° E",
     "country": "FR",
     "link": "https://www.lyon.fr/lieu/piscines-dete-et-dhiver/centre-nautique-tony-bertrand-ex-piscine-du-rhone",
     "name": "Piscine du Rhône"
   },
   "piscine-edouard-pailleron": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.88051° N, 2.37770° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
     "name": "Piscine Edouard Pailleron"
   },
   "piscine-helios": {
     "been": false,
+    "city": "Charleroi",
     "coords": "50.40611111111111, 4.448333333333333",
     "country": "BE",
     "link": "https://fr.wikipedia.org/wiki/Piscine_Hélios",
-    "name": "Piscine Hélios",
-    "wikidata": "Q109041535"
+    "name": "Piscine Hélios"
   },
   "piscine-jaqueline-auriol": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.87640° N, 2.30586° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-jacqueline-auriol-17349",
     "name": "Piscine Jaqueline Auriol"
   },
   "piscine-josephine-baker": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.83608° N, 2.37617° E",
     "country": "FR",
     "link": "https://www.piscine-baker.fr/",
     "name": "Piscine Joséphine Baker"
   },
   "piscine-keller": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.84722° N, 2.28194° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-keller-2936",
     "name": "Piscine Keller"
   },
   "piscine-molitor": {
     "been": false,
-    "coords": "48.845144°N, 2.252869°E",
+    "city": "Paris",
+    "coords": "48.84516° N, 2.25307° E",
     "country": "FR",
     "link": "https://en.wikipedia.org/wiki/Piscine_Molitor",
     "name": "Piscine Molitor"
@@ -776,90 +967,110 @@
   },
   "piscine-pontoise": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.84912° N, 2.35179° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-pontoise-2918",
     "name": "Piscine Pontoise"
   },
   "piscine-roger-le-gall": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.84167° N, 2.41249° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-roger-le-gall-2950",
     "name": "Piscine Roger le Gall"
   },
   "piscine-saint-merri": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.85899° N, 2.35253° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-saint-merri-marie-marvingt-2",
     "name": "Piscine Saint-Merri"
   },
   "piscine-suzanne-berlioux": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.86290° N, 2.34423° E",
     "country": "FR",
     "link": "https://www.paris.fr/lieux/piscine-suzanne-berlioux-les-halles-2916",
     "name": "Piscine Suzanne Berlioux"
   },
   "piscine-victor-boin": {
     "been": false,
+    "city": "Brussels",
+    "coords": "50.82665° N, 4.34116° E",
     "country": "BE",
     "link": "https://stgilles.brussels/places/la-piscine-communale-victor-boin/",
     "name": "Piscine Victor Boin"
   },
   "plavaren-pasienky": {
     "been": true,
+    "city": "Bratislava",
+    "coords": "48.16633° N, 17.13832° E",
     "country": "SK",
     "link": "http://www.starz.sk/plavaren-pasienky-bratislava-50-m-25-m-bazen-rozvrh-plavania-verejnosti/d-1001",
     "name": "Plaváreň Pasienky"
   },
   "podoli": {
     "been": true,
-    "coords": "50.05111, 14.4275",
+    "city": "Prague",
+    "coords": "50.05149° N, 14.41801° E",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Podol%C3%AD",
-    "name": "Podolí",
-    "wikidata": "Q2638290"
+    "link": "http://www.pspodoli.cz",
+    "name": "Podolí"
   },
   "quality-inn-mount-vernon": {
     "been": true,
+    "coords": "48.43790° N, 122.34187° W",
     "country": "US",
     "link": "https://www.booking.com/hotel/us/hotel-freeway-drive-mount-vernon.html",
     "name": "Quality Inn Mount Vernon"
   },
   "rahway": {
     "been": true,
-    "coords": "40.607152°N, 74.280531°W",
+    "coords": "40.62093° N, 74.28767° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Rahway",
+    "link": "https://ucnj.org/parks-recreation/pools/",
     "name": "Rahway"
   },
   "red-hook": {
     "been": true,
-    "coords": "42.012777777778, -73.8875",
+    "city": "New York",
+    "coords": "40.67273° N, 74.00392° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Red_Hook",
-    "name": "Red Hook",
-    "wikidata": "Q1022757"
+    "link": "https://www.nycgovparks.org/parks/B126/facilities/outdoor-pools",
+    "name": "Red Hook"
   },
   "red-roof-plus-miami-airport": {
     "been": true,
+    "city": "Miami",
+    "coords": "25.80505° N, 80.26355° W",
     "country": "US",
     "link": "https://www.booking.com/hotel/us/red-roof-inn-miami-airport.html",
     "name": "Red Roof Plus Miami Airport"
   },
   "riverbank-state-park": {
     "been": true,
-    "coords": "40.825°N, 73.957°W",
+    "city": "New York",
+    "coords": "40.82628° N, 73.95694° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Riverbank_State_Park",
+    "link": "https://parks.ny.gov/parks/93/details.aspx",
     "name": "Riverbank State Park"
   },
   "romai": {
     "been": false,
+    "city": "Budapest",
+    "coords": "47.57494° N, 19.05322° E",
     "country": "HU",
     "link": "https://en.romaistrand.hu/",
     "name": "Római"
   },
   "roy-wilkins": {
     "been": true,
+    "city": "New York",
+    "coords": "40.68844° N, 73.76949° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/roy-wilkins-recreation-center/facilities/indoor-pools/roy-wilkins-pool",
     "name": "Roy Wilkins",
@@ -867,9 +1078,18 @@
   },
   "saint-flour-margeride": {
     "been": true,
+    "coords": "45.03422° N, 3.07075° E",
     "country": "FR",
     "link": "https://www.guide-piscine.fr/cantal/piscine-aqualudique-a-st-flour-527_P",
     "name": "Saint Flour Margeride"
+  },
+  "saltdean-lido": {
+    "been": false,
+    "city": "Brighton",
+    "coords": "50.80139° N, 0.04208° W",
+    "country": "GB",
+    "link": "http://saltdeanlido.co.uk/",
+    "name": "Saltdean Lido"
   },
   "saltsjobadens-friluftsbad": {
     "been": false,
@@ -878,32 +1098,33 @@
     "link": "https://sv.wikipedia.org/wiki/Saltsjöbadens_friluftsbad",
     "name": "Saltsjöbadens Friluftsbad"
   },
-  "santa-rosa,-ridgway": {
+  "santa-rosa-ridgway": {
     "been": true,
+    "coords": "38.45043° N, 122.71988° W",
     "country": "US",
     "link": "https://www.srcity.org/facilities/facility/details/Ridgway-Swim-Center-47",
     "name": "Santa Rosa, Ridgway"
   },
   "schonbrunner-bad": {
     "been": false,
+    "city": "Vienna",
+    "coords": "48.17951° N, 16.31514° E",
     "country": "AT",
     "link": "http://schoenbrunnerbad.at",
     "name": "Schönbrunner Bad"
   },
-  "schwimmhalle-finckensteinallee/span": {
+  "schwimmhalle-finckensteinallee": {
     "been": false,
+    "city": "Berlin",
+    "coords": "52.43200° N, 13.29789° E",
     "country": "DE",
     "link": "http://www.berlinerbaeder.de/baeder/schwimmhalle-finckensteinallee/",
-    "name": "Schwimmhalle Finckensteinallee</span>"
-  },
-  "schwimmhalle-finckensteinallee</span>": {
-    "been": false,
-    "country": "DE",
-    "link": "http://www.berlinerbaeder.de/baeder/schwimmhalle-finckensteinallee/",
-    "name": "Schwimmhalle Finckensteinallee</span>"
+    "name": "Schwimmhalle Finckensteinallee"
   },
   "schwimmhalle-fischerinsel": {
     "been": false,
+    "city": "Berlin",
+    "coords": "52.51246° N, 13.40430° E",
     "country": "DE",
     "link": "http://www.berlinerbaeder.de/baeder/schwimmhalle-fischerinsel/",
     "name": "Schwimmhalle Fischerinsel"
@@ -912,130 +1133,151 @@
     "been": true,
     "coords": "63°33′58.4″N, 19°36′27.3″W",
     "country": "IS",
-    "link": "https://en.wikipedia.org/wiki/Seljavallalaug",
+    "link": "https://guidetoiceland.is/travel-iceland/drive/seljavallalaug",
     "name": "Seljavallalaug"
   },
   "sheltering-arms": {
     "been": true,
-    "coords": "37°37′43″N, 77°23′14.6″W",
+    "city": "New York",
+    "coords": "40.81487° N, 73.95567° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Sheltering_Arms",
+    "link": "https://www.nycgovparks.org/parks/sheltering-arms-park/facilities/outdoor-pools/sheltering-arms-pool",
     "name": "Sheltering Arms"
   },
   "silver-spring-ymca": {
     "been": true,
+    "city": "Washington",
+    "coords": "39.01564° N, 77.01419° W",
     "country": "US",
     "link": "https://www.ymcadc.org/locations/ymca-silver-spring/",
     "name": "Silver Spring YMCA"
   },
-  "southampton,-holiday-inn": {
+  "southampton-holiday-inn": {
     "been": true,
+    "city": "Southampton",
+    "coords": "50.89906° N, 1.40884° W",
     "country": "GB",
     "link": "https://www.booking.com/hotel/gb/holiday-inn-southampton.html",
     "name": "Southampton, Holiday Inn"
   },
-  "sowell-hotel,-trouville": {
+  "sowell-hotel": {
     "been": true,
+    "city": "Trouville",
+    "coords": "49.36575° N, 0.07704° E",
     "country": "FR",
     "link": "https://www.sowell.fr/en/le-beach/",
-    "name": "Sowell Hotel, Trouville"
-  },
-  "span-class=s6saltdean-lido/span": {
-    "been": false,
-    "country": "GB",
-    "link": "http://saltdeanlido.co.uk/",
-    "name": "<span class=\"s6\">Saltdean Lido</span>"
+    "name": "Sowell Hotel"
   },
   "sportcity-woluwe-saint-pierre": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.83011° N, 4.45629° E",
     "country": "BE",
     "link": "https://www.sportcity-woluwe.be",
     "name": "Sportcity Woluwe-Saint-Pierre"
   },
   "st-johns": {
     "been": true,
-    "coords": "47.5675, -52.707222222222",
+    "city": "New York",
+    "coords": "40.67395° N, 73.93489° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/St._John%E2%80%99s",
-    "name": "St. John’s",
-    "wikidata": "Q2082"
+    "link": "https://www.nycgovparks.org/parks/B245/facilities/indoor-pools",
+    "name": "St. John’s"
   },
   "st-marys": {
     "been": false,
+    "city": "New York",
+    "coords": "40.81139° N, 73.91417° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X045/facilities/indoor-pools",
     "name": "St. Mary’s"
   },
   "stadhallenbad-wien": {
     "been": false,
+    "city": "Vienna",
+    "coords": "48.20242° N, 16.33289° E",
     "country": "AT",
     "link": "http://wienersportstaetten.at",
     "name": "Stadhallenbad Wien"
   },
   "stadtbad-charlottenburg": {
     "been": false,
+    "city": "Berlin",
+    "coords": "52.51449° N, 13.30884° E",
     "country": "DE",
     "link": "http://www.berlinerbaeder.de/baeder/stadtbad-charlottenburg-neue-halle/",
     "name": "Stadtbad Charlottenburg"
   },
   "stadtbad-mitte": {
     "been": false,
+    "city": "Berlin",
+    "coords": "52.52969° N, 13.39336° E",
     "country": "DE",
     "link": "http://www.berlinerbaeder.de/baeder/stadtbad-mitte/",
     "name": "Stadtbad Mitte"
   },
   "stadtbad-neukolln": {
     "been": false,
+    "city": "Berlin",
+    "coords": "",
     "country": "DE",
     "link": "http://www.berlinerbaeder.de/baeder/stadtbad-neukoelln/",
     "name": "Stadtbad Neukölln"
   },
   "stadtbad-schoneberg": {
     "been": false,
+    "city": "Berlin",
+    "coords": "52.47925° N, 13.43990° E",
     "country": "DE",
     "link": "https://www.berlinerbaeder.de/baeder/stadtbad-schoeneberg/",
     "name": "Stadtbad Schöneberg"
   },
-  "standard-club,-chicago": {
+  "standard-club": {
     "been": true,
+    "city": "Chicago",
+    "coords": "41.87756° N, 87.62899° W",
     "country": "US",
     "link": "http://the-standard-club.thechicagohotels.net/en/",
-    "name": "The Standard Club, Chicago"
+    "name": "The Standard Club"
   },
   "strahov": {
     "been": false,
-    "coords": "50.086, 14.39",
+    "city": "Prague",
+    "coords": "50.07999° N, 14.38947° E",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Strahov",
-    "name": "Strahov",
-    "wikidata": "Q2428381"
+    "link": "https://bazenstrahov.cz/",
+    "name": "Strahov"
   },
   "stuyvesant-high-school": {
     "been": true,
+    "city": "New York",
     "coords": "40.7179°N, 74.0138°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Stuyvesant_High_School",
+    "link": "https://bpca.ny.gov/places/community-center/",
     "name": "Stuyvesant High School"
   },
   "sunset-park": {
     "been": true,
-    "coords": "40.645555555556, -74.011944444444",
+    "city": "New York",
+    "coords": "40.64726° N, 74.00262° W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Sunset_Park",
-    "name": "Sunset Park",
-    "wikidata": "Q2270906"
+    "link": "https://www.nycgovparks.org/parks/sunset-park/facilities/outdoor-pools/sunset-park-pool",
+    "name": "Sunset Park"
   },
   "tenley-sport-&-health": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.94166° N, 77.07661° W",
     "country": "US",
     "name": "Tenley Sport & Health"
   },
   "thomas-jefferson": {
     "been": true,
+    "city": "New York",
+    "coords": "40.79330° N, 73.93599° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/thomas-jefferson-park/facilities/outdoor-pools/thomas-jefferson-pool",
-    "name": "Thomas Jefferson",
-    "wikidata": "Q11812"
+    "name": "Thomas Jefferson"
   },
   "tineside-lido": {
     "been": false,
@@ -1043,27 +1285,34 @@
     "link": "https://www.everyoneactive.com/centre/tinside-lido/",
     "name": "Tineside Lido"
   },
+  "tinside-lido": {
+    "been": false,
+    "city": "Plymouth",
+    "coords": "50.36317° N, 4.14211° W",
+    "country": "GB",
+    "link": "https://www.everyoneactive.com/centre/tinside-lido/",
+    "name": "Tinside Lido"
+  },
   "tony-dapolito": {
     "been": false,
+    "city": "New York",
+    "coords": "40.72963° N, 74.00549° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/M103/facilities/indoor-pools",
     "name": "Tony Dapolito"
   },
   "tooting-bec-lido": {
     "been": false,
+    "city": "London",
     "coords": "51°25′54″N, 0°8′21″W",
     "country": "GB",
     "link": "https://en.wikipedia.org/wiki/Tooting_Bec_Lido",
     "name": "Tooting Bec Lido"
   },
-  "trouville,-front-de-mer": {
-    "been": true,
-    "country": "FR",
-    "link": "https://www.trouvillesurmer.org/loisirs/piscine-municipale-de-trouville-sur-mer/",
-    "name": "Trouville, Front de Mer"
-  },
   "van-cortlandt": {
     "been": true,
+    "city": "New York",
+    "coords": "40.88990° N, 73.89604° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/X092/facilities/outdoor-pools",
     "name": "Van Cortlandt",
@@ -1073,48 +1322,51 @@
     "been": true,
     "coords": "53.46°N, 2.216°W",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Victoria_Baths",
+    "link": "http://www.victoriabaths.org.uk",
     "name": "Victoria Baths"
   },
-  "viscount/a": {
+  "viscount": {
     "been": true,
+    "city": "Sunnyvale",
+    "coords": "37.37153° N, 122.05880° W",
     "country": "US",
-    "name": "The Viscount</a>"
-  },
-  "viscount</a>": {
-    "been": true,
-    "country": "US",
-    "name": "The Viscount</a>"
+    "name": "The Viscount"
   },
   "wagner-houses": {
     "been": true,
+    "city": "New York",
+    "coords": "40.80199° N, 73.93334° W",
     "country": "US",
     "link": "https://www.nycgovparks.org/parks/wagner-houses-pool/facilities/outdoor-pools/wagner-pool",
     "name": "Wagner Houses"
   },
   "warrender-baths": {
     "been": false,
+    "city": "Edinburgh",
     "coords": "55°56′07″N, 3°11′49″W",
     "country": "GB-SCT",
-    "link": "https://en.wikipedia.org/wiki/Warrender_Baths",
+    "link": "https://www.edinburghleisure.co.uk/venues/warrender-swim-centre",
     "name": "Warrender Baths"
   },
   "westgate-las-vegas": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36°8′8″N, 115°9′9″W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Westgate_Las_Vegas",
+    "link": "https://www.booking.com/hotel/us/las-vegas-hotel.html",
     "name": "Westgate Las Vegas"
   },
   "wynn-hotel": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36°07′43″N, 115°9′59″W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Wynn_Hotel",
+    "link": "https://www.wynnlasvegas.com/",
     "name": "Wynn Hotel"
   },
   "yrjonkatu-swimming-hall": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60°10′4.83″N, 24°56′20.47″E",
     "country": "FI",
     "link": "https://en.wikipedia.org/wiki/Yrjönkatu_Swimming_Hall",
@@ -1122,6 +1374,8 @@
   },
   "zuiderbad": {
     "been": true,
+    "city": "Amsterdam",
+    "coords": "52.35835° N, 4.88599° E",
     "country": "NL",
     "link": "https://www.amsterdam.nl/zuiderbad/",
     "name": "Zuiderbad"
