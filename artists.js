@@ -73,6 +73,7 @@ const artistNames = {
   "Nine Inch Nails": "nine-inch-nails",
   "Oasis": "oasis",
   "Paul Simon": "paul-simon",
+  "Paula Cole": "paula-cole",
   "Pet Shop Boys": "pet-shop-boys",
   "Peter Gabriel": "peter-gabriel",
   "Pink Floyd": "pink-floyd",
