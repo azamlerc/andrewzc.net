@@ -1,28 +1,23 @@
 {
-  "8-mile-corner": {
-    "been": false,
-    "coords": "36°59′35″N, 102°02′32″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/8_Mile_Corner",
-    "name": "8 Mile Corner",
-    "states": ["CO", "KS", "OK"]
-  },
   "abercorn-drift": {
     "been": false,
     "coords": "26.84006°S, 32.13470°E",
     "countries": ["MZ", "ZA", "SZ"],
+    "icons": ["🇲🇿", "🇿🇦", "🇸🇿"],
     "link": "https://geohack.toolforge.org/geohack.php?params=26.84006_S_32.13470_E",
     "name": "Abercorn Drift"
   },
   "aguas-turbias": {
     "been": false,
     "countries": ["BZ", "GT", "MX"],
+    "icons": ["🇧🇿", "🇬🇹", "🇲🇽"],
     "name": "Aguas Turbias"
   },
   "al-kufra": {
     "been": false,
     "coords": "24°11′N, 23°17′E",
     "countries": ["EG", "LY", "SD"],
+    "icons": ["🇪🇬", "🇱🇾", "🇸🇩"],
     "link": "https://confluence.org/confluence.php?lat=22&lon=25",
     "name": "Al Kufra"
   },
@@ -30,6 +25,7 @@
     "been": false,
     "coords": "46°31′22″N, 13°42′51″E",
     "countries": ["AT", "IT", "SI"],
+    "icons": ["🇦🇹", "🇮🇹", "🇸🇮"],
     "link": "https://geohack.toolforge.org/geohack.php?params=46_31_22_N_13_42_51_E",
     "name": "Arnoldstein"
   },
@@ -37,6 +33,7 @@
     "been": false,
     "coords": "42.83345°N, 20.35291°E",
     "countries": ["XK", "ME", "RS"],
+    "icons": ["🇽🇰", "🇲🇪", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.83345_N_20.35291_E",
     "name": "Bać"
   },
@@ -44,6 +41,7 @@
     "been": false,
     "coords": "45.90860°N, 18.81436°E",
     "countries": ["HR", "HU", "RS"],
+    "icons": ["🇭🇷", "🇭🇺", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=45.90860_N_18.81436_E",
     "name": "Bački Breg"
   },
@@ -51,6 +49,7 @@
     "been": true,
     "coords": "47°33′17″N, 07°35′26″E",
     "countries": ["FR", "DE", "CH"],
+    "icons": ["🇫🇷", "🇩🇪", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Basel",
     "name": "Basel"
   },
@@ -58,58 +57,39 @@
     "been": true,
     "coords": "31°30′N, 35°29′E",
     "countries": ["IL", "JO", "PS"],
-    "info": "(4 km)",
+    "icons": ["🇮🇱", "🇯🇴", "🇵🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=31_30_N_35_29_E",
-    "name": "Bet She’an"
+    "name": "Bet She’an",
+    "reference": "4 km"
   },
   "bijeljina": {
     "been": false,
     "coords": "44°51′09″N, 19°00′38″E",
     "countries": ["BA", "HR", "RS"],
-    "info": "(40 km)",
+    "icons": ["🇧🇦", "🇭🇷", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=44_51_09_N_19_00_38_E",
-    "name": "Bijeljina"
-  },
-  "blytheville": {
-    "been": false,
-    "coords": "35°55′51″N, 89°54′18″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Blytheville",
-    "name": "Blytheville",
-    "states": ["AR", "MO", "TN"]
-  },
-  "cairo": {
-    "been": false,
-    "coords": "30°2′40″N, 31°14′9″E",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Cairo",
-    "name": "Cairo",
-    "states": ["IL", "KY", "MO"]
+    "name": "Bijeljina",
+    "reference": "40 km"
   },
   "cerro-de-montecristo": {
     "been": false,
     "countries": ["SV", "GT", "HN"],
+    "icons": ["🇸🇻", "🇬🇹", "🇭🇳"],
     "name": "Cerro de Montecristo"
   },
   "cerro-zapaleri": {
     "been": false,
     "coords": "22°48′57″S, 67°10′48″W",
     "countries": ["AR", "BO", "CL"],
+    "icons": ["🇦🇷", "🇧🇴", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Zapaleri",
     "name": "Cerro Zapaleri"
-  },
-  "chain-bridge": {
-    "been": true,
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Chain_Bridge",
-    "name": "Chain Bridge",
-    "states": ["DC", "MD", "VA"],
-    "wikidata": "Q10513727"
   },
   "cinkasse": {
     "been": false,
     "coords": "11°6′2″N, 0°0′48″E",
     "countries": ["BF", "GH", "TG"],
+    "icons": ["🇧🇫", "🇬🇭", "🇹🇬"],
     "link": "https://en.wikipedia.org/wiki/Cinkassé_Prefecture",
     "name": "Cinkassé"
   },
@@ -117,37 +97,24 @@
     "been": true,
     "coords": "32°23′N, 35°33′E",
     "countries": ["IL", "JO", "PS"],
-    "info": "(8 km)",
+    "icons": ["🇮🇱", "🇯🇴", "🇵🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=32_23_N_35_33_E",
-    "name": "Dead Sea"
-  },
-  "delaware-wedge": {
-    "been": true,
-    "coords": "39°42′52″N, 75°47′5″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Wedge_(border)",
-    "name": "Delaware Wedge",
-    "states": ["DE", "MD", "PA"]
+    "name": "Dead Sea",
+    "reference": "8 km"
   },
   "draudzibas-kurgans": {
     "been": false,
     "coords": "56°09′43″N, 28°09′26″E",
     "countries": ["BY", "LV", "RU"],
+    "icons": ["🇧🇾", "🇱🇻", "🇷🇺"],
     "link": "https://geohack.toolforge.org/geohack.php?params=56_09_43_N_28_09_26_E",
     "name": "Draudzības Kurgāns"
-  },
-  "dubuque": {
-    "been": false,
-    "coords": "42°30′16″N, 90°41′13″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Dubuque",
-    "name": "Dubuque",
-    "states": ["IA", "IL", "WI"]
   },
   "edirne": {
     "been": true,
     "coords": "41°40′37″N, 26°33′20″E",
     "countries": ["BG", "GR", "TR"],
+    "icons": ["🇧🇬", "🇬🇷", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Edirne",
     "name": "Edirne"
   },
@@ -155,7 +122,7 @@
     "been": true,
     "coords": "42°32′32.41″N, 1°44′01.78″E",
     "countries": ["AD", "FR", "ES"],
-    "info": "(5 km)",
+    "icons": ["🇦🇩", "🇫🇷", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/El_Pas_de_la_Casa",
     "name": "El Pas de la Casa"
   },
@@ -163,6 +130,7 @@
     "been": true,
     "coords": "50.130277777778, 6.1358333333333",
     "countries": ["BE", "DE", "LU"],
+    "icons": ["🇧🇪", "🇩🇪", "🇱🇺"],
     "link": "https://de.wikipedia.org/wiki/Europadenkmal",
     "name": "Europadenkmal"
   },
@@ -170,25 +138,9 @@
     "been": false,
     "coords": "40°54′03″N, 71°45′28″E",
     "countries": ["KG", "TJ", "UZ"],
+    "icons": ["🇰🇬", "🇹🇯", "🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Fergana_Valley",
     "name": "Fergana Valley"
-  },
-  "folsom": {
-    "been": false,
-    "coords": "38.672222222222, -121.15777777778",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Folsom",
-    "name": "Folsom",
-    "states": ["CO", "NM", "OK"],
-    "wikidata": "Q984155"
-  },
-  "four-corners": {
-    "been": false,
-    "coords": "59°59′57.9689″N, 102°00′27.1758″W",
-    "country": "CA",
-    "link": "https://en.wikipedia.org/wiki/Four_corners_(Canada)",
-    "name": "Four Corners",
-    "states": ["AZ", "CO", "NM", "UT"]
   },
   "four-shire-stone": {
     "been": false,
@@ -197,26 +149,20 @@
     "link": "https://en.wikipedia.org/wiki/Four_Shire_Stone",
     "name": "Four Shire Stone"
   },
-  "fremont": {
-    "been": false,
-    "coords": "37.543055555556, -121.98277777778",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Fremont",
-    "name": "Fremont",
-    "states": ["IN", "MI", "OH"],
-    "wikidata": "Q49220"
-  },
   "garbolc": {
-    "been": false,
+    "been": true,
     "coords": "47.94517°N, 22.85993°E",
     "countries": ["HU", "RO", "UA"],
+    "icons": ["🇭🇺", "🇷🇴", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Garbolc",
-    "name": "Garbolc"
+    "name": "Garbolc",
+    "reference": "15 km"
   },
   "giby": {
     "been": false,
     "coords": "53°57′17″N, 23°31′00″E",
     "countries": ["BY", "LT", "PL"],
+    "icons": ["🇧🇾", "🇱🇹", "🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=53_57_17_N_23_31_00_E",
     "name": "Giby"
   },
@@ -224,6 +170,7 @@
     "been": true,
     "coords": "45°29′N, 28°12′E",
     "countries": ["MD", "RO", "UA"],
+    "icons": ["🇲🇩", "🇷🇴", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Giurgiulești",
     "name": "Giurgiulești"
   },
@@ -231,14 +178,16 @@
     "been": true,
     "coords": "32°45′N, 35°45′E",
     "countries": ["IL", "JO", "SY"],
-    "info": "(10 km)",
+    "icons": ["🇮🇱", "🇯🇴", "🇸🇾"],
     "link": "https://geohack.toolforge.org/geohack.php?params=32_45_N_35_45_E",
-    "name": "Golan Heights"
+    "name": "Golan Heights",
+    "reference": "10 km"
   },
   "golden-triangle": {
     "been": false,
     "coords": "20°21′20″N, 100°04′53″E",
     "countries": ["LA", "MM", "TH"],
+    "icons": ["🇱🇦", "🇲🇲", "🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Golden_Triangle_(Southeast_Asia)",
     "name": "Golden Triangle"
   },
@@ -246,34 +195,20 @@
     "been": false,
     "coords": "41°52′39″N, 20°35′40″E",
     "countries": ["AL", "XK", "MK"],
+    "icons": ["🇦🇱", "🇽🇰", "🇲🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41_52_39_N_20_35_40_E",
     "name": "Golem Korab"
-  },
-  "green-mountain": {
-    "been": true,
-    "coords": "43°57′N, 73°04′W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Green_Mountain_National_Forest",
-    "name": "Green Mountain",
-    "states": ["MA", "NY", "VT"]
-  },
-  "harpers-ferry": {
-    "been": true,
-    "coords": "39°19′40″N, 77°44′47″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Harpers_Ferry,_West_Virginia",
-    "name": "Harpers Ferry",
-    "states": ["MD", "VA", "WV"]
   },
   "hohenau-an-der-march": {
     "been": true,
     "coords": "48°36′N, 16°54′E",
     "countries": ["AT", "CZ", "SK"],
+    "icons": ["🇦🇹", "🇨🇿", "🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Hohenau_an_der_March",
     "name": "Hohenau an der March"
   },
   "hranice": {
-    "been": false,
+    "been": true,
     "coords": "50.30325°N, 12.05111°E",
     "countries": ["CZ", "DE"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.30325_N_12.05111_E",
@@ -284,6 +219,7 @@
     "been": false,
     "coords": "49°31′03″N, 18°50′56″E",
     "countries": ["CZ", "PL", "SK"],
+    "icons": ["🇨🇿", "🇵🇱", "🇸🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49_31_03_N_18_50_56_E",
     "name": "Hrčava"
   },
@@ -291,6 +227,7 @@
     "been": false,
     "coords": "25°35′33″S, 054°35′35″W",
     "countries": ["AR", "BR", "PY"],
+    "icons": ["🇦🇷", "🇧🇷", "🇵🇾"],
     "link": "https://en.wikipedia.org/wiki/Triple_Frontier",
     "name": "Iguazú"
   },
@@ -298,21 +235,15 @@
     "been": false,
     "coords": "35°39′40″N, 76°48′10″E",
     "countries": ["CN", "IN", "PK"],
+    "icons": ["🇨🇳", "🇮🇳", "🇵🇰"],
     "link": "https://en.wikipedia.org/wiki/Indira_Col",
     "name": "Indira Col"
-  },
-  "jones-point-light": {
-    "been": true,
-    "coords": "38°47′25.4″N, 77°2′26.3″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Jones_Point_Light",
-    "name": "Jones Point Light",
-    "states": ["DC", "MD", "VA"]
   },
   "jongsong-peak": {
     "been": false,
     "coords": "27°53′N, 88°08′E",
     "countries": ["CN", "IN", "NP"],
+    "icons": ["🇨🇳", "🇮🇳", "🇳🇵"],
     "link": "https://en.wikipedia.org/wiki/Jongsong_Peak",
     "name": "Jongsong Peak"
   },
@@ -320,12 +251,14 @@
     "been": false,
     "coords": "2°21′18″S, 30°22′22″E",
     "countries": ["BI", "RW", "TZ"],
+    "icons": ["🇧🇮", "🇷🇼", "🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Kagera_River",
     "name": "Kagera River"
   },
   "kagitumbo": {
     "been": false,
     "countries": ["RW", "TZ", "UG"],
+    "icons": ["🇷🇼", "🇹🇿", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Kagitumbo",
     "name": "Kagitumbo"
   },
@@ -333,21 +266,15 @@
     "been": false,
     "coords": "17°47′S, 25°16′E",
     "countries": ["BW", "ZM", "ZW"],
+    "icons": ["🇧🇼", "🇿🇲", "🇿🇼"],
     "link": "https://en.wikipedia.org/wiki/Kazungula",
     "name": "Kazungula"
-  },
-  "kentucky-bend": {
-    "been": false,
-    "coords": "36.53°N, 89.51°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Kentucky_Bend",
-    "name": "Kentucky Bend",
-    "states": ["KY", "MO", "TN"]
   },
   "kerem-shalom": {
     "been": false,
     "coords": "31°13′40″N, 34°17′05″E",
     "countries": ["EG", "IL", "PS"],
+    "icons": ["🇪🇬", "🇮🇱", "🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Kerem_Shalom",
     "name": "Kerem Shalom"
   },
@@ -355,6 +282,7 @@
     "been": false,
     "coords": "46.47594°N, 16.59684°E",
     "countries": ["HR", "HU", "SI"],
+    "icons": ["🇭🇷", "🇭🇺", "🇸🇮"],
     "link": "https://geohack.toolforge.org/geohack.php?params=46.47594_N_16.59684_E",
     "name": "Kerkaszentkirály"
   },
@@ -362,22 +290,25 @@
     "been": false,
     "coords": "49.08799°N, 22.56570°E",
     "countries": ["PL", "SK", "UA"],
-    "info": "(40 km)",
+    "icons": ["🇵🇱", "🇸🇰", "🇺🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49.08799_N_22.56570_E",
-    "name": "Kremenec"
+    "name": "Kremenec",
+    "reference": "40 km"
   },
   "kumanovo": {
     "been": true,
     "coords": "42.26281°N, 21.58693°E",
     "countries": ["XK", "MK", "RS"],
-    "info": "(10 km)",
+    "icons": ["🇽🇰", "🇲🇰", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.26281_N_21.58693_E",
-    "name": "Kumanovo"
+    "name": "Kumanovo",
+    "reference": "10 km"
   },
   "lake-chad": {
     "been": false,
-    "coords": "DD°MM′SS″N, DD°MM′SS″W",
+    "coords": "13.10273° N, 14.50883° E",
     "countries": ["CM", "TD", "NG"],
+    "icons": ["🇨🇲", "🇹🇩", "🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Lake_Tchad",
     "name": "Lake Chad"
   },
@@ -385,6 +316,7 @@
     "been": false,
     "coords": "47°35′N, 9°28′E",
     "countries": ["AT", "DE", "CH"],
+    "icons": ["🇦🇹", "🇩🇪", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Constance",
     "name": "Lake Constance"
   },
@@ -392,6 +324,7 @@
     "been": false,
     "coords": "55°40′45″N, 26°38′0″E",
     "countries": ["BY", "LV", "LT"],
+    "icons": ["🇧🇾", "🇱🇻", "🇱🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=55_40_45_N_26_38_0_E",
     "name": "Lake Ludvinava"
   },
@@ -399,81 +332,50 @@
     "been": false,
     "coords": "40°54′N, 21°02′E",
     "countries": ["AL", "GR", "MK"],
+    "icons": ["🇦🇱", "🇬🇷", "🇲🇰"],
     "link": "https://en.wikipedia.org/wiki/Lake_Prespa",
     "name": "Lake Prespa"
   },
-  "lake-providence": {
+  "leticia": {
     "been": false,
-    "coords": "32°48′19″N, 91°10′46″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Lake_Providence",
-    "name": "Lake Providence",
-    "states": ["AR", "LA", "MS"]
-  },
-  "laughlin": {
-    "been": false,
-    "coords": "35°8′30″N, 114°37′7″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Laughlin,_Nevada",
-    "name": "Laughlin",
-    "states": ["AZ", "CA", "NV"]
+    "coords": "4°12′19″S, 69°55′58″W",
+    "countries": ["BR", "CO", "PE"],
+    "icons": ["🇧🇷", "🇨🇴", "🇵🇪"],
+    "link": "https://en.wikipedia.org/wiki/Leticia,_Amazonas",
+    "name": "Leticia"
   },
   "majdel-shams": {
     "been": true,
     "coords": "33°20′N, 35°46′E",
     "countries": ["IL", "LB", "SY"],
-    "info": "(10 km)",
+    "icons": ["🇮🇱", "🇱🇧", "🇸🇾"],
     "link": "https://geohack.toolforge.org/geohack.php?params=33_20_N_35_46_E",
-    "name": "Majdel Shams"
-  },
-  "markleysburg": {
-    "been": false,
-    "coords": "39°44′14″N, 79°27′11″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Markleysburg",
-    "name": "Markleysburg",
-    "states": ["MD", "PA", "WV"]
-  },
-  "memphis-(15-km)": {
-    "been": true,
-    "country": "US",
-    "name": "Memphis (15 km)",
-    "states": ["AR", "MI", "TN"]
-  },
-  "memphis/a-(15-km)": {
-    "been": true,
-    "country": "US",
-    "name": "Memphis</a> (15 km)",
-    "states": ["AR", "MI", "TN"]
+    "name": "Majdel Shams",
+    "reference": "10 km"
   },
   "mont-dolent": {
     "been": true,
     "coords": "45°55′21″N, 7°2′46″E",
     "countries": ["FR", "IT", "CH"],
-    "info": "(15 km)",
+    "icons": ["🇫🇷", "🇮🇹", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Mont_Dolent",
-    "name": "Mont Dolent"
+    "name": "Mont Dolent",
+    "reference": "15 km"
   },
   "mouderi": {
     "been": true,
     "coords": "14°46′N, 12°15′W",
     "countries": ["ML", "MR", "SN"],
-    "info": "(12 km)",
+    "icons": ["🇲🇱", "🇲🇷", "🇸🇳"],
     "link": "https://geohack.toolforge.org/geohack.php?params=14_46_N_12_15_W",
-    "name": "Moudéri"
-  },
-  "mount-frissell": {
-    "been": true,
-    "coords": "42.051093558°N, 73.481977744°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Mount_Frissell",
-    "name": "Mount Frissell",
-    "states": ["CT", "MA", "NY"]
+    "name": "Moudéri",
+    "reference": "12 km"
   },
   "mount-roraima": {
     "been": false,
     "coords": "5°08′36″N, 60°45′45″W",
     "countries": ["BR", "GY", "VE"],
+    "icons": ["🇧🇷", "🇬🇾", "🇻🇪"],
     "link": "https://en.wikipedia.org/wiki/Mount_Roraima",
     "name": "Mount Roraima"
   },
@@ -481,14 +383,16 @@
     "been": true,
     "coords": "01°24′S, 29°36′E",
     "countries": ["CD", "RW", "UG"],
-    "info": "(5 km)",
+    "icons": ["🇨🇩", "🇷🇼", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Mount_Sabyinyo",
-    "name": "Mount Sabyinyo"
+    "name": "Mount Sabyinyo",
+    "reference": "5 km"
   },
   "mpundweni-beacon": {
     "been": false,
     "coords": "25.95268°S, 31.97542°E",
     "countries": ["MZ", "ZA", "SZ"],
+    "icons": ["🇲🇿", "🇿🇦", "🇸🇿"],
     "link": "https://geohack.toolforge.org/geohack.php?params=25.95268_S_31.97542_E",
     "name": "Mpundweni Beacon"
   },
@@ -496,44 +400,32 @@
     "been": true,
     "coords": "47°03′38.54″N, 9°36′25.75″E",
     "countries": ["AT", "LI", "CH"],
-    "info": "🏔 (10 km)",
+    "icons": ["🇦🇹", "🇱🇮", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Naafkopf",
-    "name": "Naafkopf"
+    "name": "Naafkopf",
+    "reference": "10 km"
   },
   "negotin": {
     "been": false,
     "coords": "44.21586°N, 22.67578°E",
     "countries": ["BG", "RO", "RS"],
+    "icons": ["🇧🇬", "🇷🇴", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=44.21586_N_22.67578_E",
     "name": "Negotin"
   },
-  "northfield": {
-    "been": true,
-    "coords": "42°41′45″N, 72°27′12″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Northfield,_Massachusetts",
-    "name": "Northfield",
-    "states": ["MA", "NH", "VT"]
-  },
   "nova-pec": {
-    "been": false,
+    "been": true,
     "coords": "48°46′16″N, 13°50′22″E",
     "countries": ["AT", "CZ", "DE"],
+    "icons": ["🇦🇹", "🇨🇿", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48_46_16_N_13_50_22_E",
     "name": "Nová Pec"
-  },
-  "ohioville": {
-    "been": false,
-    "coords": "40°40′46″N, 80°28′17″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Ohioville",
-    "name": "Ohioville",
-    "states": ["OH", "PA", "WV"]
   },
   "pafuri-triangle": {
     "been": false,
     "coords": "22°24′05″S, 31°11′49″E",
     "countries": ["MZ", "ZA", "ZW"],
+    "icons": ["🇲🇿", "🇿🇦", "🇿🇼"],
     "link": "https://en.wikipedia.org/wiki/Makuleke",
     "name": "Pafuri Triangle"
   },
@@ -541,6 +433,7 @@
     "been": false,
     "coords": "57°31′05″N, 27°21′05″E",
     "countries": ["EE", "LV", "RU"],
+    "icons": ["🇪🇪", "🇱🇻", "🇷🇺"],
     "link": "https://geohack.toolforge.org/geohack.php?params=57_31_05_N_27_21_05_E",
     "name": "Parmu"
   },
@@ -548,45 +441,51 @@
     "been": true,
     "coords": "42°36′07″N, 01°26′32″E",
     "countries": ["AD", "FR", "ES"],
-    "info": "🏔 (13 km)",
+    "icons": ["🇦🇩", "🇫🇷", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Pic_de_Médécourbe",
-    "name": "Pic de Médécourbe"
-  },
-  "port-jervis": {
-    "been": true,
-    "coords": "41°21′26.18″N, 74°41′41″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Tri-States_Monument",
-    "name": "Port Jervis",
-    "states": ["NY", "NJ", "PA"]
+    "name": "Pic de Médécourbe",
+    "reference": "13 km"
   },
   "prut": {
     "been": false,
     "coords": "48.25957°N, 26.63016°E",
     "countries": ["MD", "RO", "UA"],
-    "info": "(40 km)",
+    "icons": ["🇲🇩", "🇷🇴", "🇺🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.25957_N_26.63016_E",
-    "name": "Prut"
+    "name": "Prut",
+    "reference": "40 km"
   },
   "rajka": {
     "been": true,
     "coords": "47.99689°N, 17.19832°E",
     "countries": ["AT", "HU", "SK"],
+    "icons": ["🇦🇹", "🇭🇺", "🇸🇰"],
     "link": "https://hu.wikipedia.org/wiki/Rajka",
     "name": "Rajka"
+  },
+  "regnitzlosau": {
+    "been": true,
+    "coords": "50.31824°N, 12.10097°E",
+    "countries": ["CZ", "DE"],
+    "icons": ["🇨🇿", "🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.31824_N_12.10097_E",
+    "name": "Regnitzlosau",
+    "strike": true
   },
   "reschen-pass": {
     "been": false,
     "coords": "46.848°N, 10.505°E",
     "countries": ["AT", "IT", "CH"],
-    "info": "🏔 (50 km)",
+    "icons": ["🇦🇹", "🇮🇹", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Reschen_Pass",
-    "name": "Reschen Pass"
+    "name": "Reschen Pass",
+    "reference": "50 km"
   },
   "rodange": {
     "been": true,
     "coords": "49°32′48″N, 5°50′23″E",
     "countries": ["BE", "FR", "LU"],
+    "icons": ["🇧🇪", "🇫🇷", "🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Rodange",
     "name": "Rodange"
   },
@@ -594,14 +493,16 @@
     "been": true,
     "coords": "47°14′36″N, 9°31′48″E",
     "countries": ["AT", "LI", "CH"],
-    "info": "(6 km)",
+    "icons": ["🇦🇹", "🇱🇮", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Ruggell",
-    "name": "Ruggell"
+    "name": "Ruggell",
+    "reference": "6 km"
   },
   "ruzizi-river": {
     "been": false,
     "coords": "02°29′27″S, 28°53′35″E",
     "countries": ["BI", "CD", "RW"],
+    "icons": ["🇧🇮", "🇨🇩", "🇷🇼"],
     "link": "https://en.wikipedia.org/wiki/Ruzizi_River",
     "name": "Ruzizi River"
   },
@@ -609,14 +510,16 @@
     "been": false,
     "coords": "46°55′N, 16°8′E",
     "countries": ["AT", "HU", "SI"],
-    "info": "(50 km)",
+    "icons": ["🇦🇹", "🇭🇺", "🇸🇮"],
     "link": "https://de.wikipedia.org/wiki/Dreiländerecke_(bei_Sankt_Martin_an_der_Raab)",
-    "name": "Sankt Martin an der Raab"
+    "name": "Sankt Martin an der Raab",
+    "reference": "50 km"
   },
   "schengen": {
     "been": true,
     "coords": "49°28′10″N, 6°21′32″E",
     "countries": ["FR", "DE", "LU"],
+    "icons": ["🇫🇷", "🇩🇪", "🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
     "name": "Schengen"
   },
@@ -624,85 +527,41 @@
     "been": false,
     "coords": "52°6′22.6″N, 31°46′52.9″E",
     "countries": ["BY", "RU", "UA"],
+    "icons": ["🇧🇾", "🇷🇺", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Senkivka_(border_checkpoint)",
     "name": "Senkivka"
-  },
-  "shawnee-lookout": {
-    "been": false,
-    "coords": "39.126111, -84.799444",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Shawnee_Lookout",
-    "name": "Shawnee Lookout",
-    "states": ["IN", "KY", "OH"],
-    "wikidata": "Q7491536"
   },
   "shulep-kamak": {
     "been": false,
     "coords": "42.31173°N, 22.35980°E",
     "countries": ["BG", "MK", "RS"],
-    "info": "🏔 (40 km)",
+    "icons": ["🇧🇬", "🇲🇰", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.31173_N_22.35980_E",
-    "name": "Shulep Kamak"
-  },
-  "sioux-falls": {
-    "been": false,
-    "coords": "43°32′11″N, 96°43′54″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Sioux_Falls",
-    "name": "Sioux Falls",
-    "states": ["IA", "MN", "SD"]
-  },
-  "south-point": {
-    "been": false,
-    "coords": "38.4192, -82.5806",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/South_Point",
-    "name": "South Point",
-    "states": ["KY", "OH", "WV"],
-    "wikidata": "Q280269"
-  },
-  "swedesboro": {
-    "been": true,
-    "coords": "39.745884°N, 75.310947°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Swedesboro,_New_Jersey",
-    "name": "Swedesboro",
-    "states": ["DE", "NJ", "PA"]
+    "name": "Shulep Kamak",
+    "reference": "40 km"
   },
   "szeged": {
-    "been": false,
+    "been": true,
     "coords": "46°8′N, 20°16′E",
     "countries": ["HU", "RO", "RS"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=46_8_20_16_E",
-    "name": "Szeged"
+    "icons": ["🇭🇺", "🇷🇴", "🇷🇸"],
+    "link": "https://hu.wikipedia.org/wiki/Triplex_Confinium",
+    "name": "Szeged",
+    "reference": "20 km"
   },
   "tamasouka": {
     "been": false,
     "coords": "51°33′20″N, 23°36′11″E",
     "countries": ["BY", "PL", "UA"],
+    "icons": ["🇧🇾", "🇵🇱", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Tamašoŭka",
     "name": "Tamašoŭka"
-  },
-  "texhomex": {
-    "been": false,
-    "coords": "36°30′01.67″N, 103°00′08.58″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Texhomex",
-    "name": "Texhomex",
-    "states": ["NM", "OK", "TX"]
-  },
-  "thompson": {
-    "been": true,
-    "country": "US",
-    "link": "http://www.ctmq.org/ct-ma-ri-tri-point/",
-    "name": "Thompson",
-    "states": ["CT", "MA", "RI"],
-    "wikidata": "Q2803433"
   },
   "trebinje": {
     "been": false,
     "coords": "42°42′43″N, 18°20′46″E",
     "countries": ["BA", "HR", "ME"],
+    "icons": ["🇧🇦", "🇭🇷", "🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Trebinje",
     "name": "Trebinje"
   },
@@ -710,6 +569,7 @@
     "been": false,
     "coords": "69°03′35.9″N, 20°32′55.1″E",
     "countries": ["FI", "NO", "SE"],
+    "icons": ["🇫🇮", "🇳🇴", "🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Three-Country_Cairn",
     "name": "Treriksröset"
   },
@@ -717,6 +577,7 @@
     "been": false,
     "coords": "69°03′06.1″N, 28°55′43.9″E",
     "countries": ["FI", "NO", "RU"],
+    "icons": ["🇫🇮", "🇳🇴", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Treriksrøysa",
     "name": "Treriksrøysa"
   },
@@ -724,22 +585,25 @@
     "been": false,
     "coords": "42.555318°N, 20.078997°E",
     "countries": ["AL", "XK", "ME"],
-    "info": "🏔 (50 km)",
+    "icons": ["🇦🇱", "🇽🇰", "🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Tromedja_(mountain_peak)",
-    "name": "Tromedja"
+    "name": "Tromedja",
+    "reference": "50 km"
   },
   "tumba-peak": {
     "been": false,
     "coords": "41°20′37″N, 22°56′40″E",
     "countries": ["BG", "GR", "MK"],
-    "info": "🏔 (40 km)",
+    "icons": ["🇧🇬", "🇬🇷", "🇲🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41_20_37_N_22_56_40_E",
-    "name": "Tumba Peak"
+    "name": "Tumba Peak",
+    "reference": "40 km"
   },
   "tumen-river": {
     "been": false,
     "coords": "42°17′34″N, 130°41′56″E",
     "countries": ["CN", "KP", "RU"],
+    "icons": ["🇨🇳", "🇰🇵", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Tumen_River",
     "name": "Tumen River"
   },
@@ -747,6 +611,7 @@
     "been": false,
     "coords": "24.7678°S, 19.9995°E",
     "countries": ["BW", "NA", "ZA"],
+    "icons": ["🇧🇼", "🇳🇦", "🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Union%27s_End",
     "name": "Union’s End"
   },
@@ -754,32 +619,15 @@
     "been": true,
     "coords": "50°45′17″N, 6°01′15″E",
     "countries": ["BE", "DE", "NL"],
+    "icons": ["🇧🇪", "🇩🇪", "🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Vaalserberg",
     "name": "Vaalserberg"
-  },
-  "wharncliffe": {
-    "been": false,
-    "country": "US",
-    "name": "Wharncliffe",
-    "states": ["KY", "VA", "WV"],
-    "wikidata": "Q91764815"
-  },
-  "whitetop-(20-km)": {
-    "been": true,
-    "country": "US",
-    "name": "Whitetop (20 km)",
-    "states": ["NC", "TN", "VA"]
-  },
-  "whitetop/a-(20-km)": {
-    "been": true,
-    "country": "US",
-    "name": "Whitetop</a> (20 km)",
-    "states": ["NC", "TN", "VA"]
   },
   "wizajny": {
     "been": false,
     "coords": "54°21′45″N, 22°47′26″E",
     "countries": ["LT", "PL", "RU"],
+    "icons": ["🇱🇹", "🇵🇱", "🇷🇺"],
     "link": "https://geohack.toolforge.org/geohack.php?params=54_21_45_N_22_47_26_E",
     "name": "Wiżajny"
   },
@@ -787,6 +635,7 @@
     "been": true,
     "coords": "48.417°N, 22.183°E",
     "countries": ["HU", "SK", "UA"],
+    "icons": ["🇭🇺", "🇸🇰", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Záhony",
     "name": "Záhony"
   },
@@ -794,13 +643,15 @@
     "been": false,
     "coords": "43°31′N, 19°13′E",
     "countries": ["BA", "ME", "RS"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=43_31_19_13_E",
+    "icons": ["🇧🇦", "🇲🇪", "🇷🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43_31_N_19_13_E",
     "name": "Zelena Glava"
   },
   "zittau": {
-    "been": false,
+    "been": true,
     "coords": "50°52′13″N, 14°49′22″E",
     "countries": ["CZ", "DE", "PL"],
+    "icons": ["🇨🇿", "🇩🇪", "🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50_52_13_N_14_49_22_E",
     "name": "Zittau"
   }

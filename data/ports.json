@@ -3,6 +3,7 @@
     "been": false,
     "coords": "24°50′00″N, 54°40′00″E",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Khalifa_Port",
     "name": "Abu Dhabi"
   },
@@ -10,6 +11,7 @@
     "been": false,
     "coords": "12.7912°N, 44.9855°E",
     "country": "YE",
+    "icons": ["🇾🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Aden",
     "name": "Aden"
   },
@@ -17,6 +19,7 @@
     "been": true,
     "coords": "31.2045796°N, 29.8800659°E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Alexandria_Port",
     "name": "Alexandria"
   },
@@ -24,6 +27,7 @@
     "been": false,
     "coords": "33°36′N, 7°37′W",
     "country": "DZ",
+    "icons": ["🇩🇿"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Casablanca",
     "name": "Algiers"
   },
@@ -31,6 +35,7 @@
     "been": true,
     "coords": "52.412°N, 4.8079°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Amsterdam",
     "name": "Amsterdam"
   },
@@ -38,6 +43,7 @@
     "been": true,
     "coords": "43°37′01″N, 13°31′00″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Ancona",
     "name": "Ancona"
   },
@@ -45,6 +51,7 @@
     "been": true,
     "coords": "51°16′12″N, 4°20′12″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Antwerp",
     "name": "Antwerp"
   },
@@ -52,6 +59,7 @@
     "been": true,
     "coords": "56.93°N, 10.1344°E",
     "country": "DK",
+    "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Aarhus",
     "name": "Århus"
   },
@@ -59,6 +67,7 @@
     "been": false,
     "coords": "64°32′N, 40°30′E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Arkhangelsk",
     "name": "Arkhangelsk"
   },
@@ -66,13 +75,16 @@
     "been": false,
     "coords": "13°01′N, 42°44′E",
     "country": "ER",
+    "icons": ["🇪🇷"],
     "link": "https://en.wikipedia.org/wiki/Assab",
-    "name": "Assab"
+    "name": "Assab",
+    "strike": true
   },
   "athens": {
     "been": false,
     "coords": "37.941944°N, 23.636111°E",
     "country": "GR",
+    "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Piraeus",
     "name": "Athens"
   },
@@ -80,6 +92,7 @@
     "been": true,
     "coords": "39.275°N, 76.5845°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Baltimore",
     "name": "Baltimore"
   },
@@ -87,6 +100,7 @@
     "been": true,
     "coords": "13°27′11″N, 16°34′39″W",
     "country": "GM",
+    "icons": ["🇬🇲"],
     "link": "https://en.wikipedia.org/wiki/Banjul",
     "name": "Banjul"
   },
@@ -94,6 +108,7 @@
     "been": true,
     "coords": "41°20′15″N, 2°9′8″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Barcelona",
     "name": "Barcelona"
   },
@@ -101,6 +116,7 @@
     "been": false,
     "coords": "30°22′00″N, 47°48′00″W",
     "country": "IQ",
+    "icons": ["🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Basra",
     "name": "Basra"
   },
@@ -108,20 +124,31 @@
     "been": false,
     "coords": "33°54′10″N, 35°31′30″E",
     "country": "LB",
+    "icons": ["🇱🇧"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Beirut",
-    "name": "Beirut"
+    "name": "Beirut",
+    "strike": true
   },
   "belfast": {
     "been": true,
     "coords": "54°37′04″N, 5°54′06″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Belfast_Harbour",
     "name": "Belfast"
+  },
+  "berbera": {
+    "been": false,
+    "country": "SO",
+    "icons": ["🇸🇴"],
+    "link": "https://en.wikipedia.org/wiki/Port_of_Berbera",
+    "name": "Berbera"
   },
   "bergen": {
     "been": true,
     "coords": "60°23′31″N, 5°18′43″E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Bergen_Port",
     "name": "Bergen"
   },
@@ -129,6 +156,7 @@
     "been": false,
     "coords": "44°50′50″N, 0°35′00″W",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_de_la_Lune",
     "name": "Bordeaux"
   },
@@ -136,13 +164,22 @@
     "been": true,
     "coords": "42°21′48.96″N, 71°2′11.77″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Boston",
     "name": "Boston"
   },
-  "buenos-aires": {
+  "boulogne-sur-mer": {
     "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Port_de_Boulogne-sur-Mer",
+    "name": "Boulogne-sur-Mer"
+  },
+  "buenos-aires": {
+    "been": false,
     "coords": "34°35′S, 58°22′W",
     "country": "AR",
+    "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Buenos_Aires",
     "name": "Buenos Aires"
   },
@@ -150,6 +187,7 @@
     "been": true,
     "coords": "35°06′14″N, 129°04′44″E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Busan",
     "name": "Busan"
   },
@@ -157,6 +195,7 @@
     "been": true,
     "coords": "50.9681°N, 1.8564°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Calais",
     "name": "Calais"
   },
@@ -164,6 +203,7 @@
     "been": false,
     "coords": "33°54′S, 18°26′E",
     "country": "ZA",
+    "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Cape_Town",
     "name": "Cape Town"
   },
@@ -171,13 +211,22 @@
     "been": false,
     "coords": "33°36′N, 7°37′W",
     "country": "MA",
+    "icons": ["🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Casablanca",
     "name": "Casablanca"
+  },
+  "chancay": {
+    "been": false,
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "link": "https://en.wikipedia.org/wiki/Chancay",
+    "name": "Chancay"
   },
   "chicago": {
     "been": true,
     "coords": "41.733°N, 87.528°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Chicago",
     "name": "Chicago"
   },
@@ -185,6 +234,7 @@
     "been": false,
     "coords": "9°21′26″N, 79°53′55″W",
     "country": "PA",
+    "icons": ["🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/Col%C3%B3n,_Panama",
     "name": "Colón"
   },
@@ -192,6 +242,7 @@
     "been": true,
     "coords": "44°10′N, 28°38′E",
     "country": "RO",
+    "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Constan%C8%9Ba",
     "name": "Constanța"
   },
@@ -199,6 +250,7 @@
     "been": false,
     "coords": "55°40′34″N, 12°34′06″E",
     "country": "DK",
+    "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Copenhagen_Malm%C3%B6_Port",
     "name": "Copenhagen"
   },
@@ -206,6 +258,7 @@
     "been": false,
     "coords": "51.85°N, 8.27°W",
     "country": "IE",
+    "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Cork",
     "name": "Cork"
   },
@@ -213,6 +266,7 @@
     "been": true,
     "coords": "6°22′N, 2°26′E",
     "country": "BJ",
+    "icons": ["🇧🇯"],
     "link": "https://fr.wikipedia.org/wiki/Port_de_Cotonou",
     "name": "Cotonou"
   },
@@ -220,6 +274,7 @@
     "been": true,
     "coords": "14.680556°N, 17.427778°W",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://en.wikipedia.org/wiki/Autonomous_Port_of_Dakar",
     "name": "Dakar"
   },
@@ -227,6 +282,7 @@
     "been": false,
     "coords": "6°50′6.40″S, 39°17′37.65″E",
     "country": "TZ",
+    "icons": ["🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Dar_es_Salaam",
     "name": "Dar es Salaam"
   },
@@ -234,6 +290,7 @@
     "been": false,
     "coords": "11.6053°N, 43.1392°E",
     "country": "DJ",
+    "icons": ["🇩🇯"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Djibouti",
     "name": "Djibouti"
   },
@@ -241,6 +298,7 @@
     "been": false,
     "coords": "25.2950°N, 51.5439°E",
     "country": "QA",
+    "icons": ["🇶🇦"],
     "link": "https://en.wikipedia.org/wiki/Doha_Port",
     "name": "Doha"
   },
@@ -248,6 +306,7 @@
     "been": true,
     "coords": "51°07′09″N, 1°19′46″E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Dover",
     "name": "Dover"
   },
@@ -255,6 +314,7 @@
     "been": true,
     "coords": "25.01126°N, 55.06116°E",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Jebel_Ali",
     "name": "Dubai"
   },
@@ -262,6 +322,7 @@
     "been": true,
     "coords": "53.34609°N, 6.20831°W",
     "country": "IE",
+    "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Dublin_Port",
     "name": "Dublin"
   },
@@ -269,6 +330,7 @@
     "been": true,
     "coords": "42°38′25″N, 18°06′30″E",
     "country": "HR",
+    "icons": ["🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Dubrovnik",
     "name": "Dubrovnik"
   },
@@ -276,6 +338,7 @@
     "been": true,
     "coords": "51.0383°N, 2.3775°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Dunkirk",
     "name": "Dunkirk"
   },
@@ -283,6 +346,7 @@
     "been": true,
     "coords": "55.98°N, 3.17°W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Leith",
     "name": "Edinburgh"
   },
@@ -290,6 +354,7 @@
     "been": false,
     "coords": "29°31′56.07″N, 34°56′25.54″E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Eilat",
     "name": "Eilat"
   },
@@ -297,6 +362,7 @@
     "been": true,
     "coords": "33°35′24″N, 130°24′06″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Fukuoka",
     "name": "Fukuoka"
   },
@@ -304,13 +370,16 @@
     "been": false,
     "coords": "31°31′33″N, 34°25′50″E",
     "country": "PS",
+    "icons": ["🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Gaza",
-    "name": "Gaza"
+    "name": "Gaza",
+    "strike": true
   },
   "gdansk": {
     "been": false,
     "coords": "54°23′36″N, 18°40′12″E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Gda%C5%84sk",
     "name": "Gdańsk"
   },
@@ -318,13 +387,22 @@
     "been": true,
     "coords": "44°24′40″N, 8°55′58″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Genoa",
     "name": "Genoa"
+  },
+  "giurgiulesti": {
+    "been": true,
+    "country": "MD",
+    "icons": ["🇲🇩"],
+    "link": "https://en.wikipedia.org/wiki/Port_of_Giurgiule%C8%99ti",
+    "name": "Giurgiulești"
   },
   "guangzhou": {
     "been": true,
     "coords": "23.093865°N, 113.437786°E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Guangzhou",
     "name": "Guangzhou"
   },
@@ -332,6 +410,7 @@
     "been": true,
     "coords": "41.8072°N, 140.7106°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Hakodate",
     "name": "Hakodate"
   },
@@ -339,6 +418,7 @@
     "been": false,
     "coords": "53.544198°N, 9.979411°E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Hamburg_Harbour",
     "name": "Hamburg"
   },
@@ -346,6 +426,7 @@
     "been": true,
     "coords": "43.2900°N, 79.8350°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Hamilton_Harbour",
     "name": "Hamilton"
   },
@@ -353,6 +434,7 @@
     "been": true,
     "coords": "51.948°N, 1.255°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Harwich_International_Port",
     "name": "Harwich"
   },
@@ -360,6 +442,7 @@
     "been": false,
     "coords": "23°7′58.87″N, 82°20′30.38″W",
     "country": "CU",
+    "icons": ["🇨🇺"],
     "link": "https://en.wikipedia.org/wiki/Havana_Harbor",
     "name": "Havana"
   },
@@ -367,6 +450,7 @@
     "been": true,
     "coords": "60°09′53″N, 24°57′30″E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Helsinki",
     "name": "Helsinki"
   },
@@ -374,6 +458,7 @@
     "been": true,
     "coords": "34°21′7.8″N, 132°27′18.43″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Hiroshima",
     "name": "Hiroshima"
   },
@@ -381,6 +466,7 @@
     "been": true,
     "coords": "51°58′52″N, 4°7′43″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Hoek_van_Holland",
     "name": "Hoek van Holland"
   },
@@ -388,6 +474,7 @@
     "been": true,
     "coords": "22°20′N, 114°8′E",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Hong_Kong",
     "name": "Hong Kong"
   },
@@ -395,6 +482,7 @@
     "been": false,
     "coords": "29°43′N, 95°15′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Houston",
     "name": "Houston"
   },
@@ -402,6 +490,7 @@
     "been": true,
     "coords": "27°15′28″N, 33°48′42″E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Hurghada",
     "name": "Hurghada"
   },
@@ -409,13 +498,22 @@
     "been": true,
     "coords": "37°29′N, 126°38′E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Incheon",
     "name": "Incheon"
+  },
+  "indiana-harbor": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Indiana_Harbor_and_Ship_Canal",
+    "name": "Indiana Harbor"
   },
   "istanbul": {
     "been": true,
     "coords": "41.0228°N, 28.9783°E",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Istanbul",
     "name": "Istanbul"
   },
@@ -423,6 +521,7 @@
     "been": false,
     "coords": "21°29′1.8348″N, 39°10′24.2646″E",
     "country": "SA",
+    "icons": ["🇸🇦"],
     "link": "https://en.wikipedia.org/wiki/Jeddah_Seaport",
     "name": "Jeddah"
   },
@@ -430,6 +529,7 @@
     "been": false,
     "coords": "54°42′01″N, 20°27′11″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kaliningrad",
     "name": "Kaliningrad"
   },
@@ -437,6 +537,7 @@
     "been": false,
     "coords": "24°33′55″N, 81°46′33″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Key_West",
     "name": "Key West"
   },
@@ -444,6 +545,7 @@
     "been": true,
     "coords": "54.3179°N, 10.1389°E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Kiel",
     "name": "Kiel"
   },
@@ -451,6 +553,7 @@
     "been": false,
     "coords": "3°0′0″N, 101°24′0″E",
     "country": "MY",
+    "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Port_Klang",
     "name": "Kuala Lumpur"
   },
@@ -458,6 +561,7 @@
     "been": true,
     "coords": "6.455027°N, 3.384082°E",
     "country": "NG",
+    "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Apapa_Port_Complex",
     "name": "Lagos"
   },
@@ -465,6 +569,7 @@
     "been": true,
     "coords": "2°16′10″S, 40°54′8″E",
     "country": "KE",
+    "icons": ["🇰🇪"],
     "link": "https://en.wikipedia.org/wiki/Lamu",
     "name": "Lamu"
   },
@@ -472,6 +577,7 @@
     "been": true,
     "coords": "54°51′06″N, 05°48′48″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Larne",
     "name": "Larne"
   },
@@ -479,6 +585,7 @@
     "been": true,
     "coords": "49°28.5′N, 0°8′E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Le_Havre",
     "name": "Le Havre"
   },
@@ -486,6 +593,7 @@
     "been": false,
     "coords": "12°2′36″S, 77°01′42″W",
     "country": "PE",
+    "icons": ["🇵🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Callao",
     "name": "Lima"
   },
@@ -493,6 +601,7 @@
     "been": true,
     "coords": "38.6989°N, 9.1692°W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Lisbon",
     "name": "Lisbon"
   },
@@ -500,6 +609,7 @@
     "been": true,
     "coords": "53.406°N, 2.996°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Liverpool",
     "name": "Liverpool"
   },
@@ -507,6 +617,7 @@
     "been": true,
     "coords": "06°07′51″N, 01°12′55″E",
     "country": "TG",
+    "icons": ["🇹🇬"],
     "link": "https://fr.wikipedia.org/wiki/Lom%C3%A9",
     "name": "Lomé"
   },
@@ -514,6 +625,7 @@
     "been": true,
     "coords": "51.5°N, 0.05°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Port_of_London",
     "name": "London"
   },
@@ -521,6 +633,7 @@
     "been": false,
     "coords": "33°45′18″N, 118°12′54″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Long_Beach",
     "name": "Long Beach"
   },
@@ -528,6 +641,7 @@
     "been": true,
     "coords": "22°11′47″N, 113°42′38″E",
     "country": "MO",
+    "icons": ["🇲🇴"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Macau",
     "name": "Macau"
   },
@@ -535,6 +649,7 @@
     "been": false,
     "coords": "59°32′21″N, 150°46′26″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Magadan",
     "name": "Magadan"
   },
@@ -542,6 +657,7 @@
     "been": false,
     "coords": "55°35′N, 12°55′E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Copenhagen_Malm%C3%B6_Port",
     "name": "Malmö"
   },
@@ -549,6 +665,7 @@
     "been": false,
     "coords": "14°35′48″N, 120°57′16″E",
     "country": "PH",
+    "icons": ["🇵🇭"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Manila",
     "name": "Manila"
   },
@@ -556,6 +673,7 @@
     "been": false,
     "coords": "47.0558333433°N, 37.50500001°E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Mariupol",
     "name": "Mariupol"
   },
@@ -563,6 +681,7 @@
     "been": false,
     "coords": "43°20′31″N, 5°20′10″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Marseille-Fos_Port",
     "name": "Marseille"
   },
@@ -570,6 +689,7 @@
     "been": false,
     "coords": "37°51′S, 144°54′E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Melbourne",
     "name": "Melbourne"
   },
@@ -577,6 +697,7 @@
     "been": true,
     "coords": "25°46′27″N, 80°10′16″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/PortMiami",
     "name": "Miami"
   },
@@ -584,6 +705,7 @@
     "been": true,
     "coords": "4°03′19″S, 39°39′07″E",
     "country": "KE",
+    "icons": ["🇰🇪"],
     "link": "https://en.wikipedia.org/wiki/Kilindini_Harbour",
     "name": "Mombasa"
   },
@@ -591,6 +713,7 @@
     "been": true,
     "coords": "43.735°N, 7.426°E",
     "country": "MC",
+    "icons": ["🇲🇨"],
     "link": "https://fr.wikipedia.org/wiki/Port_de_Monaco",
     "name": "Monaco"
   },
@@ -598,6 +721,7 @@
     "been": false,
     "coords": "18.96°N, 72.85°E",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Mumbai_Harbour",
     "name": "Mumbai"
   },
@@ -605,6 +729,7 @@
     "been": false,
     "coords": "68°58′48″N, 33°03′22″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Murmansk",
     "name": "Murmansk"
   },
@@ -612,6 +737,7 @@
     "been": false,
     "coords": "38°44′08″N, 125°24′32″E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Nampo_Shipyard",
     "name": "Nampo"
   },
@@ -619,6 +745,7 @@
     "been": true,
     "coords": "40°50′N, 14°16′E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Naples",
     "name": "Naples"
   },
@@ -626,6 +753,7 @@
     "been": true,
     "coords": "41°16′45″N, 72°55′0″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Haven_Harbor",
     "name": "New Haven"
   },
@@ -633,6 +761,7 @@
     "been": false,
     "coords": "29°56′13″N, 90°03′43″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_New_Orleans",
     "name": "New Orleans"
   },
@@ -640,6 +769,7 @@
     "been": true,
     "coords": "40°40′06″N, 74°02′44″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_New_York_and_New_Jersey",
     "name": "New York / New Jersey"
   },
@@ -647,6 +777,7 @@
     "been": false,
     "coords": "32°55′S, 151°48′E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Newcastle",
     "name": "Newcastle"
   },
@@ -654,6 +785,7 @@
     "been": true,
     "coords": "43.7034°N, 7.2663°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Port_Lympia",
     "name": "Nice"
   },
@@ -661,6 +793,7 @@
     "been": true,
     "coords": "36.9172°N, 76.3247°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Virginia_Port_Authority",
     "name": "Norfolk"
   },
@@ -668,6 +801,7 @@
     "been": false,
     "coords": "20°56′N, 17°2′W",
     "country": "MR",
+    "icons": ["🇲🇷"],
     "link": "https://en.wikipedia.org/wiki/Nouadhibou",
     "name": "Nouadhibou"
   },
@@ -675,6 +809,7 @@
     "been": true,
     "coords": "22.2758°S, 166.458°E",
     "country": "NC",
+    "icons": ["🇳🇨"],
     "link": "https://en.wikipedia.org/wiki/Noum%C3%A9a",
     "name": "Nouméa"
   },
@@ -682,6 +817,7 @@
     "been": true,
     "coords": "37°47′43.92″N, 122°17′4.57″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Oakland",
     "name": "Oakland"
   },
@@ -689,6 +825,7 @@
     "been": false,
     "coords": "46°30′13″N, 30°44′40″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Odesa",
     "name": "Odesa"
   },
@@ -696,6 +833,7 @@
     "been": true,
     "coords": "51°13′28″N, 2°54′35″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Ostend",
     "name": "Oostende"
   },
@@ -703,6 +841,7 @@
     "been": true,
     "coords": "34°38′31.0″N, 135°25′22.0″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Osaka",
     "name": "Osaka"
   },
@@ -710,6 +849,7 @@
     "been": true,
     "coords": "59.902205°N, 10.7407683°E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Port_Authority",
     "name": "Oslo"
   },
@@ -717,6 +857,7 @@
     "been": true,
     "coords": "38°07′50″N, 13°21′53″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Palermo",
     "name": "Palermo"
   },
@@ -724,6 +865,7 @@
     "been": true,
     "coords": "8.956°N, 79.58°W",
     "country": "PA",
+    "icons": ["🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/PSA_Panama_International_Terminal",
     "name": "Panama City"
   },
@@ -731,6 +873,7 @@
     "been": true,
     "coords": "39.94°N, 75.12°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Philadelphia",
     "name": "Philadelphia"
   },
@@ -738,6 +881,7 @@
     "been": true,
     "coords": "48°06′47″N, 123°26′27″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_Angeles,_Washington",
     "name": "Port Angeles"
   },
@@ -745,6 +889,7 @@
     "been": false,
     "coords": "31°15′45″N, 32°18′22″E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Port_Said",
     "name": "Port Said"
   },
@@ -752,6 +897,7 @@
     "been": false,
     "coords": "19°37′N, 37°13′E",
     "country": "SD",
+    "icons": ["🇸🇩"],
     "link": "https://en.wikipedia.org/wiki/Port_Sudan",
     "name": "Port Sudan"
   },
@@ -759,6 +905,7 @@
     "been": true,
     "coords": "17°44′S, 168°19′E",
     "country": "VU",
+    "icons": ["🇻🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_Vila",
     "name": "Port Vila"
   },
@@ -766,6 +913,7 @@
     "been": true,
     "coords": "39.3°N, 8°W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Porto",
     "name": "Porto"
   },
@@ -773,6 +921,7 @@
     "been": true,
     "coords": "14.9199°N, 23.5071°W",
     "country": "CV",
+    "icons": ["🇨🇻"],
     "link": "https://en.wikipedia.org/wiki/Praia_Harbor",
     "name": "Praia"
   },
@@ -780,13 +929,15 @@
     "been": true,
     "coords": "56°56′56″N, 24°6′23″E",
     "country": "LV",
+    "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Riga",
     "name": "Riga"
   },
   "rio-de-janeiro": {
-    "been": true,
+    "been": false,
     "coords": "22.8767°S, 43.2072°W",
     "country": "BR",
+    "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Rio_de_Janeiro",
     "name": "Rio de Janeiro"
   },
@@ -794,6 +945,7 @@
     "been": true,
     "coords": "51.885°N, 4.2867°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Rotterdam",
     "name": "Rotterdam"
   },
@@ -801,6 +953,7 @@
     "been": false,
     "coords": "10.8225°N, 106.754°E",
     "country": "VN",
+    "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Saigon_Port",
     "name": "Saigon"
   },
@@ -808,6 +961,7 @@
     "been": true,
     "coords": "16°02′N, 16°30′W",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://en.wikipedia.org/wiki/Saint-Louis,_Senegal",
     "name": "Saint Louis"
   },
@@ -815,6 +969,7 @@
     "been": true,
     "coords": "59°52′50″N, 30°11′57″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Great_Port_of_Saint_Petersburg",
     "name": "Saint Petersburg"
   },
@@ -822,6 +977,7 @@
     "been": true,
     "coords": "52°6.247′N, 4°16.095′E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Scheveningen",
     "name": "Scheveningen"
   },
@@ -829,6 +985,7 @@
     "been": true,
     "coords": "47.61388889°N, 122.35416667°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Seattle",
     "name": "Seattle"
   },
@@ -836,6 +993,7 @@
     "been": true,
     "coords": "43.4053°N, 3.6975°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Port_de_commerce_de_S%C3%A8te",
     "name": "Sète"
   },
@@ -843,6 +1001,7 @@
     "been": false,
     "coords": "44°36′56″N, 33°31′35″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Sevastopol",
     "name": "Sevastopol"
   },
@@ -850,6 +1009,7 @@
     "been": false,
     "coords": "30.626539°N, 122.064958°E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Shanghai",
     "name": "Shanghai"
   },
@@ -857,6 +1017,7 @@
     "been": true,
     "coords": "22°30′N, 113°53′E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Shenzhen",
     "name": "Shenzhen"
   },
@@ -864,6 +1025,7 @@
     "been": false,
     "coords": "1.264°N, 103.840°E",
     "country": "SG",
+    "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Singapore",
     "name": "Singapore"
   },
@@ -871,6 +1033,7 @@
     "been": true,
     "coords": "50.8965°N, 1.3968°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Southampton",
     "name": "Southampton"
   },
@@ -878,6 +1041,7 @@
     "been": true,
     "coords": "43.505079°N, 16.442156°E",
     "country": "HR",
+    "icons": ["🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Split",
     "name": "Split"
   },
@@ -885,6 +1049,7 @@
     "been": true,
     "coords": "59.351528°N, 18.109158°E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/V%C3%A4rtahamnen",
     "name": "Stockholm"
   },
@@ -892,6 +1057,7 @@
     "been": false,
     "coords": "33°51′30″S, 151°14′00″E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_Jackson",
     "name": "Sydney"
   },
@@ -899,6 +1065,7 @@
     "been": false,
     "coords": "53°25′33″N, 14°34′35″E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Szczecin",
     "name": "Szczecin"
   },
@@ -906,6 +1073,7 @@
     "been": false,
     "coords": "25°09′41.62″N, 121°21′7.71″E",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Taipei",
     "name": "Taipei"
   },
@@ -913,6 +1081,7 @@
     "been": true,
     "coords": "34°22′N, 134°3′E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Takamatsu",
     "name": "Takamatsu"
   },
@@ -920,6 +1089,7 @@
     "been": true,
     "coords": "59°26′14″N, 24°44′43″E",
     "country": "EE",
+    "icons": ["🇪🇪"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Tallinn",
     "name": "Tallinn"
   },
@@ -927,6 +1097,7 @@
     "been": false,
     "coords": "35.87498°N, 5.52071°W",
     "country": "MA",
+    "icons": ["🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Tanger-Med",
     "name": "Tangier"
   },
@@ -934,6 +1105,7 @@
     "been": true,
     "coords": "32°5′47.34″N, 34°46′23.71″E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Tel_Aviv_Port",
     "name": "Tel Aviv"
   },
@@ -941,6 +1113,7 @@
     "been": true,
     "coords": "40.636°N, 22.922°E",
     "country": "GR",
+    "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Thessaloniki",
     "name": "Thessaloniki"
   },
@@ -948,6 +1121,7 @@
     "been": true,
     "coords": "35°37′01″N, 139°47′44″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Tokyo",
     "name": "Tokyo"
   },
@@ -955,6 +1129,7 @@
     "been": true,
     "coords": "43°44′30″N, 79°22′24″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Toronto",
     "name": "Toronto"
   },
@@ -962,6 +1137,7 @@
     "been": true,
     "coords": "55.54°N, 4.66°W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Troon",
     "name": "Troon"
   },
@@ -969,6 +1145,7 @@
     "been": false,
     "coords": "36°48′23″N, 10°10′54″E",
     "country": "TN",
+    "icons": ["🇹🇳"],
     "link": "https://en.wikipedia.org/wiki/Tunis",
     "name": "Tunis"
   },
@@ -976,6 +1153,7 @@
     "been": false,
     "coords": "39.4457°N, 0.3199°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Valencia",
     "name": "Valencia"
   },
@@ -983,6 +1161,7 @@
     "been": false,
     "coords": "49°16′37″N, 123°07′15″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Vancouver",
     "name": "Vancouver"
   },
@@ -990,6 +1169,7 @@
     "been": true,
     "coords": "43°11′32″N, 27°54′26″E",
     "country": "BG",
+    "icons": ["🇧🇬"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Varna",
     "name": "Varna"
   },
@@ -997,6 +1177,7 @@
     "been": true,
     "coords": "45°26′15″N, 12°20′09″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Venice",
     "name": "Venice"
   },
@@ -1004,6 +1185,7 @@
     "been": false,
     "coords": "43°06.3′N, 131°55.3′E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Vladivostok",
     "name": "Vladivostok"
   },
@@ -1011,6 +1193,7 @@
     "been": true,
     "coords": "45.415156°N, 141.682957°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Wakkanai",
     "name": "Wakkanai"
   },
@@ -1018,6 +1201,7 @@
     "been": true,
     "coords": "51°19′49″N, 3°12′23″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Zeebrugge",
     "name": "Zeebrugge"
   },
@@ -1025,6 +1209,7 @@
     "been": false,
     "coords": "12°35′N, 16°16′W",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://en.wikipedia.org/wiki/Ziguinchor",
     "name": "Ziguinchor"
   }

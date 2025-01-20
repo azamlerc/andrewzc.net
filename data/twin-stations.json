@@ -3,7 +3,8 @@
     "been": true,
     "coords": "22.2788°N, 114.1646°E",
     "country": "SG",
-    "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Admiralty_MRT_station",
     "name": "Admiralty",
     "reference": "Singapore"
   },
@@ -11,7 +12,8 @@
     "been": true,
     "coords": "55.6877°N, 37.5733°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Kaluzhsko-Rizhskaya_line)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Saint_Petersburg_Metro)",
     "name": "Akademicheskaya",
     "reference": "Saint Petersburg"
   },
@@ -19,6 +21,7 @@
     "been": true,
     "coords": "50.849722°N, 4.453333°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Alma_(métro_de_Bruxelles)",
     "name": "Alma",
     "reference": "Brussels"
@@ -27,6 +30,7 @@
     "been": true,
     "coords": "48.864904°N, 2.300234°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Alma_-_Marceau_(métro_de_Paris)",
     "name": "Alma-Marceau",
     "reference": "Paris"
@@ -35,6 +39,7 @@
     "been": true,
     "coords": "50.074°N, 14.405°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Anděl_(Prague_Metro)",
     "name": "Anděl",
     "reference": "Prague"
@@ -43,6 +48,7 @@
     "been": true,
     "coords": "51.532°N, 0.106°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Angel_tube_station",
     "name": "Angel",
     "reference": "London"
@@ -51,14 +57,32 @@
     "been": true,
     "coords": "47.4944°N, 19.06°E",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Astoria_metro_station",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Astoria–Ditmars_Boulevard_station",
     "name": "Astoria",
     "reference": "New York"
+  },
+  "avtozavodskaya": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Avtozavodskaya",
+    "reference": "Nizhny Novgorod"
+  },
+  "belem": {
+    "been": true,
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Belém_(São_Paulo_Metro)",
+    "name": "Belém",
+    "reference": "Sāo Paulo"
   },
   "boulogne–jean-jaures": {
     "been": true,
     "coords": "48.842278°N, 2.238877°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Boulogne–Jean_Jaurès_station",
     "name": "Boulogne–Jean Jaurès",
     "reference": "Paris"
@@ -67,7 +91,8 @@
     "been": true,
     "coords": "42.3429°N, 71.0572°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Broadway_station_(MBTA)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Broadway_station_(BMT_Astoria_Line)",
     "name": "Broadway",
     "reference": "New York"
   },
@@ -75,14 +100,17 @@
     "been": true,
     "coords": "45°30′36″N, 73°33′23″W",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Champ-de-Mars_station_(Montreal_Metro)",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Champ_de_Mars_station_(Paris_Métro)",
     "name": "Champ de Mars",
-    "reference": "Paris"
+    "reference": "Paris",
+    "strike": true
   },
   "champs-elysees–clemenceau": {
     "been": true,
     "coords": "48.8674114214171°N, 2.31395945009909°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Champs-Élysées_-_Clemenceau_(métro_de_Paris)",
     "name": "Champs-Élysées–Clemenceau",
     "reference": "Paris"
@@ -91,7 +119,8 @@
     "been": true,
     "coords": "50°24′N, 04°31′E",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Châtelet,_Belgium",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Châtelet_(métro_de_Paris)",
     "name": "Châtelet",
     "reference": "Paris"
   },
@@ -99,7 +128,8 @@
     "been": true,
     "coords": "42.3522°N, 71.0627°W",
     "country": "SG",
-    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
     "name": "Chinatown",
     "reference": "Singapore"
   },
@@ -107,15 +137,17 @@
     "been": true,
     "coords": "55.7565°N, 37.6573°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
     "name": "Chkalovskaya",
-    "reference": "Saint Petersburg"
+    "reference": "Yekaterinburg"
   },
   "civic-center": {
     "been": true,
     "coords": "33.766305°N, 84.387209°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(MARTA)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center/UN_Plaza_station",
     "name": "Civic Center",
     "reference": "San Francisco"
   },
@@ -123,6 +155,7 @@
     "been": true,
     "coords": "50°50′28″N, 4°19′50″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Clemenceau_metro_station",
     "name": "Clemenceau",
     "reference": "Brussels"
@@ -130,7 +163,8 @@
   "clot": {
     "been": true,
     "country": "ES",
-    "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Barcelona)",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Valencia)",
     "name": "Clot",
     "reference": "Valencia",
     "wikidata": "Q261327"
@@ -138,6 +172,7 @@
   "congres": {
     "been": true,
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Congrés_/_Indians",
     "name": "Congres",
     "reference": "Barcelona",
@@ -147,6 +182,7 @@
     "been": true,
     "coords": "50°51′8″N, 4°21′43″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels-Congress_railway_station",
     "name": "Congress",
     "reference": "Brussels"
@@ -155,7 +191,8 @@
     "been": true,
     "coords": "48.88180771631629°N, 2.3942014575004578°E",
     "country": "AE",
-    "link": "https://fr.wikipedia.org/wiki/Danube_(métro_de_Paris)",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Danube_%28Dubai_Metro%29",
     "name": "Danube",
     "reference": "Dubai"
   },
@@ -163,6 +200,7 @@
     "been": true,
     "coords": "40.690254°N, 73.982277°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/DeKalb_Avenue_station_(BMT_lines)",
     "name": "DeKalb Avenue",
     "reference": "New York"
@@ -171,15 +209,25 @@
     "been": true,
     "coords": "40.0989°N, 75.352°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/DeKalb_Street_station",
     "name": "DeKalb Street",
     "reference": "Philadelphia"
+  },
+  "dinamo": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
+    "name": "Dinamo",
+    "reference": "Yekaterinburg"
   },
   "dorp": {
     "been": true,
     "coords": "52°03′15″N, 4°29′30″E",
     "country": "NL",
-    "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Dorp_(sneltramhalte)",
     "name": "Dorp",
     "reference": "Den Haag",
     "wikidata": "Q777867"
@@ -188,6 +236,7 @@
     "been": true,
     "coords": "50.091°N, 14.439°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Florenc_(Prague_Metro)",
     "name": "Florenc",
     "reference": "Prague"
@@ -196,6 +245,7 @@
     "been": true,
     "coords": "33.9748°N, 118.243°W",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Florence_station_(Los_Angeles_Metro)",
     "name": "Florence",
     "reference": "Los Angeles"
@@ -204,7 +254,8 @@
     "been": true,
     "coords": "28.0°N, 82.0°W",
     "country": "ES",
-    "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Florida",
     "name": "Florida",
     "reference": "Barcelona"
   },
@@ -212,7 +263,8 @@
     "been": true,
     "coords": "51.439°N, 0.053°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Forest_Hill_railway_station",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hill_station_(Muni_Metro)",
     "name": "Forest Hill",
     "reference": "San Francisco"
   },
@@ -220,7 +272,8 @@
     "been": true,
     "coords": "42.30073°N, 71.11406°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Forest_Hills_station_(MBTA)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hills–71st_Avenue_station",
     "name": "Forest Hills",
     "reference": "New York"
   },
@@ -228,7 +281,8 @@
     "been": true,
     "coords": "55.7267°N, 37.5786°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Frunzenskaya_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://www.wikiwand.com/en/Frunzenskaya_(Saint_Petersburg_Metro)",
     "name": "Frunzenskaya",
     "reference": "Saint Petersburg"
   },
@@ -236,7 +290,8 @@
     "been": true,
     "coords": "55.050556°N, 82.914722°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Gagarinskaya_(Novosibirsk_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Gagarinskaya_(Samara_Metro)",
     "name": "Gagarinskaya",
     "reference": "Samara"
   },
@@ -244,7 +299,8 @@
     "been": true,
     "coords": "50.62637778°N, 3.052213889°E",
     "country": "FR",
-    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Lille)",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)",
     "name": "Gambetta",
     "reference": "Paris"
   },
@@ -252,7 +308,8 @@
     "been": true,
     "coords": "45.751594°N, 4.853693°E",
     "country": "FR",
-    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Lyon)",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Paris)",
     "name": "Garibaldi",
     "reference": "Paris"
   },
@@ -260,7 +317,8 @@
     "been": true,
     "coords": "42.3633°N, 71.0582°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Haymarket_Metro_station",
     "name": "Haymarket",
     "reference": "Newcastle"
   },
@@ -268,7 +326,8 @@
     "been": true,
     "coords": "38.533333333333, -28.633333333333",
     "country": "BE",
-    "link": "https://es.wikipedia.org/wiki/Estación_de_Horta",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Horta_premetro_station",
     "name": "Horta",
     "reference": "Brussels",
     "wikidata": "Q990385"
@@ -276,10 +335,11 @@
   "jamaica": {
     "been": true,
     "coords": "17°58′17″N, 76°47′35″W",
-    "country": "MX",
-    "link": "https://es.wikipedia.org/wiki/Jamaica_(estación_del_Metro_de_Ciudad_de_México)",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
     "name": "Jamaica",
-    "reference": "Mexico City"
+    "reference": "New York"
   },
   "jamaica–179th-street": {
     "been": true,
@@ -293,6 +353,7 @@
     "been": true,
     "coords": "48.88179007771832°N, 2.370198369026184°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Jaurès_(métro_de_Paris)",
     "name": "Jaurès",
     "reference": "Paris"
@@ -301,6 +362,7 @@
     "been": true,
     "coords": "43.60595°N, 1.448988889°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Jean-Jaurès_(métro_de_Toulouse)",
     "name": "Jean Jaurès",
     "reference": "Toulouse"
@@ -309,24 +371,35 @@
     "been": true,
     "coords": "42°20′56.13″N, 71°5′44.19″W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Kenmore_station",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kenmore_station_(GCRTA)",
     "name": "Kenmore",
     "reference": "Cleveland"
+  },
+  "kirovskaya": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Samara_Metro",
+    "name": "Kirovskaya",
+    "reference": "Samara"
   },
   "komsomolskaya": {
     "been": true,
     "coords": "55.7748°N, 37.6549°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Chelyabinsk_Metro",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
     "name": "Komsomolskaya",
-    "reference": "Moscow",
+    "reference": "Volgograd",
     "wikidata": "Q1925744"
   },
   "leninsky-prospekt": {
     "been": true,
     "coords": "55.7077°N, 37.5861°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Saint_Petersburg_Metro)",
     "name": "Leninsky Prospekt",
     "reference": "Saint Petersburg"
   },
@@ -334,7 +407,8 @@
     "been": true,
     "coords": "12°2′36″S, 77°01′42″W",
     "country": "IT",
-    "link": "https://es.wikipedia.org/wiki/Lima_(subte_de_Buenos_Aires)",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Lima_(Milan_Metro)",
     "name": "Lima",
     "reference": "Milan"
   },
@@ -342,7 +416,8 @@
     "been": true,
     "coords": "49.6, 6.133889",
     "country": "FR",
-    "link": "https://fr.wikipedia.org/wiki/Gare_de_Luxembourg",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_du_Luxembourg",
     "name": "Luxembourg",
     "reference": "Paris",
     "wikidata": "Q801140"
@@ -351,6 +426,7 @@
     "been": true,
     "coords": "41°50′58″N, 12°28′32″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Marconi_(Rome_Metro)",
     "name": "Marconi",
     "reference": "Rome"
@@ -359,6 +435,7 @@
     "been": true,
     "coords": "51°54′48″N, 4°25′58″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Marconiplein_(metrostation)",
     "name": "Marconiplein",
     "reference": "Amsterdam"
@@ -367,7 +444,8 @@
     "been": true,
     "coords": "34.009571°N, 118.335288°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._station_(Los_Angeles_Metro)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Dr._Martin_Luther_King_Jr._Plaza_station_(Metrorail)",
     "name": "Martin Luther King",
     "reference": "Miami"
   },
@@ -375,7 +453,8 @@
     "been": true,
     "coords": "55.7701°N, 37.5958°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_%28Saint_Petersburg_Metro%29",
     "name": "Mayakovskaya",
     "reference": "Saint Petersburg"
   },
@@ -383,7 +462,8 @@
     "been": true,
     "coords": "51.513°N, 0.088°W",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Bank_and_Monument_stations",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Monument_Metro_station",
     "name": "Monument",
     "reference": "Newcastle"
   },
@@ -391,13 +471,15 @@
     "been": true,
     "coords": "56°19′17″N, 43°56′43″E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Nizhny_Novgorod_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Saint_Petersburg_Metro)",
     "name": "Moskovskaya",
     "reference": "Saint Petersburg"
   },
   "museum": {
     "been": true,
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
     "name": "Museum",
     "reference": "Antwerp",
@@ -407,23 +489,42 @@
     "been": true,
     "coords": "50.0796°N, 14.4312°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Muzeum_(Prague_Metro)",
     "name": "Muzeum",
     "reference": "Prague"
+  },
+  "namesti-miru": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Plzeň",
+    "name": "Náměstí Míru",
+    "reference": "Plzeň"
   },
   "new-dorp": {
     "been": true,
     "coords": "40.5736°N, 74.1171°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Dorp_station",
     "name": "New Dorp",
     "reference": "New York"
+  },
+  "oktyabrskaya": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Oktyabrskaya_(Novosibirsk_Metro)",
+    "name": "Oktyabrskaya",
+    "reference": "Novosibirsk"
   },
   "opera": {
     "been": true,
     "coords": "51°13′05″N, 4°24′56″E",
     "country": "FR",
-    "link": "https://nl.wikipedia.org/wiki/Opera_(premetrostation)",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Opéra_(métro_de_Paris)",
     "name": "Opera",
     "reference": "Paris"
   },
@@ -431,7 +532,8 @@
     "been": true,
     "coords": "55.73553, 37.59208",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Nizhny_Novgorod_Metro)",
     "name": "Park Kultury",
     "reference": "Nizhny Novgorod",
     "wikidata": "Q1340440"
@@ -440,7 +542,8 @@
     "been": true,
     "coords": "45°29′26.6″N, 9°13′05″E",
     "country": "FR",
-    "link": "https://es.wikipedia.org/wiki/Pasteur-AMIA_(subte_de_Buenos_Aires)",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Pasteur_(métro_de_Paris)",
     "name": "Pasteur",
     "reference": "Paris",
     "wikidata": "Q529"
@@ -448,6 +551,7 @@
   "placa-despanya": {
     "been": true,
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Plaça_d%27Espanya_station",
     "name": "Plaça d’Espanya",
     "reference": "Barcelona"
@@ -456,6 +560,7 @@
     "been": true,
     "coords": "41.375°N, 2.149°E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Metrovalencia",
     "name": "Plaça Espanya",
     "reference": "Valencia"
@@ -464,6 +569,7 @@
     "been": true,
     "coords": "45.737541°N, 4.837294°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Place_Jean_Jaurès_(métro_de_Lyon)",
     "name": "Place Jean Jaurès",
     "reference": "Lyon"
@@ -472,23 +578,34 @@
     "been": true,
     "coords": "40.4249°N, 3.70801°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://fr.wikipedia.org/wiki/Plaza_de_España_(métro_de_Madrid)",
     "name": "Plaza de España",
     "reference": "Madrid"
+  },
+  "ploshcha-lyenina": {
+    "been": true,
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://en.wikipedia.org/wiki/Ploshcha_Lyenina_(Minsk_Metro)",
+    "name": "Ploshcha Lyenina",
+    "reference": "Minsk"
   },
   "ploshchad-lenina": {
     "been": true,
     "coords": "55.03°N, 82.920556°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Ploshchad_Lenina_(Novosibirsk_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
     "name": "Ploshchad Lenina",
-    "reference": "Saint Petersburg"
+    "reference": "Volgograd"
   },
   "ploshchad-revolyutsii": {
     "been": true,
     "coords": "55.7566°N, 37.6216°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Chelyabinsk_Metro",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Revolyutsii_(Moscow_Metro)",
     "name": "Ploshchad Revolyutsii",
     "reference": "Moscow",
     "wikidata": "Q1925744"
@@ -497,7 +614,8 @@
     "been": true,
     "coords": "38.42°N, 9.10°W",
     "country": "BR",
-    "link": "https://en.wikipedia.org/wiki/Prazeres,_Lisbon",
+    "icons": ["🇧🇷"],
+    "link": "https://pt.wikipedia.org/wiki/Prazeres_(Jaboatão_dos_Guararapes)",
     "name": "Prazeres",
     "reference": "Recife"
   },
@@ -505,6 +623,7 @@
     "been": true,
     "coords": "50°0′14.16″N, 36°14′51.08″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Pushkinska_(Kharkiv_Metro)",
     "name": "Pushkinska",
     "reference": "Kharkiv"
@@ -513,15 +632,25 @@
     "been": true,
     "coords": "55.765°N, 37.6079°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_%28Saint_Petersburg_Metro%29",
     "name": "Pushkinskaya",
     "reference": "Saint Petersburg"
+  },
+  "rechnoy-vokzal": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Rechnoy_Vokzal_(Novosibirsk_Metro)",
+    "name": "Rechnoy Vokzal",
+    "reference": "Novosibirsk"
   },
   "republique": {
     "been": true,
     "coords": "45.770558°N, 4.87366°E",
     "country": "FR",
-    "link": "https://fr.wikipedia.org/wiki/République_-_Villeurbanne_(métro_de_Lyon)",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/République_(métro_de_Paris)",
     "name": "République",
     "reference": "Paris"
   },
@@ -529,14 +658,24 @@
     "been": true,
     "coords": "51.463°N, 0.3°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Richmond_station_(London)",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Richmond_station_(California)",
     "name": "Richmond",
     "reference": "San Francisco"
+  },
+  "sao-bento": {
+    "been": true,
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/São_Bento_(São_Paulo_Metro)",
+    "name": "Sāo Bento",
+    "reference": "Sāo Paulo"
   },
   "saxe-gambetta": {
     "been": true,
     "coords": "45.753799°N, 4.846988°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Saxe_-_Gambetta_(métro_de_Lyon)",
     "name": "Saxe-Gambetta",
     "reference": "Lyon"
@@ -545,7 +684,8 @@
     "been": true,
     "coords": "55.7233°N, 37.5639°E",
     "country": "RU",
-    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Moscow_Metro)",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Samara_Metro)",
     "name": "Sportivnaya",
     "reference": "Samara"
   },
@@ -553,15 +693,33 @@
     "been": true,
     "coords": "49°58′46″N, 36°15′39″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Kharkiv_Metro)",
     "name": "Sportyvna",
-    "reference": "Kyiv"
+    "reference": "Kharkiv"
+  },
+  "teatralna": {
+    "been": true,
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Teatralna_(Dnipro_Metro)",
+    "name": "Teatralna",
+    "reference": "Dnipro"
+  },
+  "teatralnaya": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Teatralnaya_%28Saint_Petersburg_Metro%29",
+    "name": "Teatralnaya",
+    "reference": "Saint Petersburg"
   },
   "uruguay": {
     "been": true,
     "coords": "34°53′S, 56°10′W",
     "country": "IT",
-    "link": "https://es.wikipedia.org/wiki/Uruguay_(subte_de_Buenos_Aires)",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Uruguay_(Milan_Metro)",
     "name": "Uruguay",
     "reference": "Milan"
   },
@@ -569,7 +727,8 @@
     "been": true,
     "coords": "37.775°N, 122.419°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Van_Ness_station",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Van_Ness–UDC_station",
     "name": "Van Ness",
     "reference": "Washington"
   },
@@ -577,15 +736,25 @@
     "been": true,
     "coords": "37.99296°N, 23.730195°E",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Victoria_metro_station,_Athens",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/London_Victoria_station",
     "name": "Victoria",
     "reference": "London"
+  },
+  "vokzalna": {
+    "been": true,
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kyiv_Metro)",
+    "name": "Vokzalna",
+    "reference": "Kyiv"
   },
   "waterloo": {
     "been": true,
     "coords": "50°25′03″N, 4°27′00″E",
     "country": "DE",
-    "link": "https://en.wikipedia.org/wiki/Waterloo_metro_station_(Charleroi)",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Waterlooplatz",
     "name": "Waterloo",
     "reference": "Hannover"
   },
@@ -593,6 +762,7 @@
     "been": true,
     "coords": "52°22′03″N, 4°54′06″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Waterlooplein_(metrostation)",
     "name": "Waterlooplein",
     "reference": "Amsterdam"
@@ -601,6 +771,7 @@
     "been": true,
     "coords": "40.7115°N, 74.0114°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/World_Trade_Center_station_(PATH)",
     "name": "World Trade Center",
     "reference": "New York"
@@ -609,6 +780,7 @@
     "been": true,
     "coords": "25.2248°N, 55.2851°E",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/World_Trade_Centre_%28Dubai_Metro%29",
     "name": "World Trade Centre",
     "reference": "Dubai"

@@ -4,6 +4,7 @@
     "city": "New York",
     "coords": "40.71818° N, 74.00482° W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://beaire.com",
     "name": "Aire Ancient Baths"
   },
@@ -11,6 +12,7 @@
     "been": false,
     "coords": "45.68952° N, 5.92006° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.thermes-aixlesbains.com",
     "name": "Aix-les-Bains"
   },
@@ -19,14 +21,23 @@
     "city": "Vienna",
     "coords": "48.17427° N, 16.37912° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/amalienbad.html",
     "name": "Amalienbad"
+  },
+  "anna-furdo": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "http://szegedtourism.hu/en/anna-bath/",
+    "name": "Anna Fürdő"
   },
   "aquaboulevard": {
     "been": true,
     "city": "Paris",
     "coords": "48.83290° N, 2.27603° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.aquaboulevard.fr",
     "name": "Aquaboulevard"
   },
@@ -34,6 +45,7 @@
     "been": false,
     "coords": "52.31093° N, 9.79415° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://aqualaatzium.de",
     "name": "AquaLaatzium"
   },
@@ -42,6 +54,7 @@
     "city": "Prague",
     "coords": "50.0075°N, 14.571111°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://www.aquapalace.cz/",
     "name": "Aquapalace Prague"
   },
@@ -49,6 +62,7 @@
     "been": false,
     "coords": "48.38276° N, 17.58574° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://aquaparktrnava.sk/aquapark",
     "name": "Aquapark Trnava"
   },
@@ -57,6 +71,7 @@
     "city": "Ljubljana",
     "coords": "46.06308° N, 14.54878° E",
     "country": "SI",
+    "icons": ["🇸🇮"],
     "link": "https://www.atlantis-vodnomesto.si",
     "name": "Atlantis Vodno Mesto"
   },
@@ -65,6 +80,7 @@
     "city": "Graz",
     "coords": "47.07205° N, 15.39985° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.holding-graz.at/de/freizeit/auster/auster-wellnessbad/",
     "name": "Auster Wellnessbad"
   },
@@ -72,6 +88,7 @@
     "been": false,
     "coords": "48°12′N, 16°21′E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "info": "(36)",
     "link": "https://www.le-naturisme.com/en/naturist-spas-austria/",
     "name": "Austria"
@@ -80,13 +97,23 @@
     "been": false,
     "coords": "49.09950° N, 7.98899° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.suedpfalz-therme.de/",
     "name": "Bad Bergzabern"
   },
+  "bad-berleburg": {
+    "been": true,
+    "coords": "51°02′59″N, 08°24′00″E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Berleburg",
+    "name": "Bad Berleburg"
+  },
   "bad-ems": {
-    "been": false,
+    "been": true,
     "coords": "50.33236° N, 7.71376° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.emser-therme.de",
     "name": "Bad Ems"
   },
@@ -94,6 +121,7 @@
     "been": false,
     "coords": "50.75523° N, 8.48210° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://lahn-dill-bergland-therme.de",
     "name": "Bad Endbach"
   },
@@ -101,27 +129,55 @@
     "been": false,
     "coords": "48.80427° N, 8.44175° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.siebentaelertherme.de/",
     "name": "Bad Herrenalb"
   },
   "bad-kissingen": {
-    "been": false,
+    "been": true,
     "coords": "50°12′N, 10°4′E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://kisssalis.de",
     "name": "Bad Kissingen"
+  },
+  "bad-rosbach": {
+    "been": true,
+    "coords": "50°17′55″N, 8°42′2″E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Rosbach_vor_der_H%C3%B6he",
+    "name": "Bad Rosbach"
+  },
+  "bad-salzungen": {
+    "been": true,
+    "coords": "50°48′42″N, 10°14′0″E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Salzungen",
+    "name": "Bad Salzungen"
   },
   "bad-schandau": {
     "been": false,
     "coords": "50°55′N, 14°9′E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.toskanaworld.net/cz/161/therme-bad-schandau/toskana-therme-bad-schandau",
     "name": "Bad Schandau"
+  },
+  "bad-steben": {
+    "been": true,
+    "coords": "50°22′N, 11°39′E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Steben",
+    "name": "Bad Steben"
   },
   "bad-voslau": {
     "been": false,
     "coords": "47°58′N, 16°13′E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.thermalbad-voeslau.at/offnungszeiten-preise/",
     "name": "Bad Vöslau"
   },
@@ -129,14 +185,24 @@
     "been": false,
     "coords": "49.23600° N, 8.88389° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.solebad-badwimpfen.de/",
     "name": "Bad Wimpfen"
+  },
+  "bad-zwesten": {
+    "been": true,
+    "coords": "51°03′N, 09°11′E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Zwesten",
+    "name": "Bad Zwesten"
   },
   "badanstalt": {
     "been": true,
     "city": "Luxembourg",
     "coords": "49.61367° N, 6.12885° E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://www.vdl.lu/fr/visiter/loisirs-et-sports/infrastructures-sportives/piscines/badanstalt",
     "name": "Badanstalt"
   },
@@ -144,6 +210,7 @@
     "been": true,
     "coords": "48.00821° N, 16.22943° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Friedrichsbad",
     "name": "Baden-Baden"
   },
@@ -151,6 +218,7 @@
     "been": true,
     "coords": "48.00821° N, 16.22943° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.roemertherme.at",
     "name": "Baden bei Wien"
   },
@@ -158,6 +226,7 @@
     "been": false,
     "coords": "44.50440° N, 3.66651° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.bagnols-les-bains.com/bien-etre-bagnols/",
     "name": "Bagnoles-les-Bains"
   },
@@ -165,6 +234,7 @@
     "been": false,
     "coords": "48.00119° N, 6.26562° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.chainethermale.fr/bains-les-bains",
     "name": "Bains-les-Bains"
   },
@@ -172,6 +242,7 @@
     "been": false,
     "coords": "46.57232° N, 16.17040° E",
     "country": "SI",
+    "icons": ["🇸🇮"],
     "link": "https://www.terme-banovci.si/en/",
     "name": "Banovci"
   },
@@ -179,6 +250,7 @@
     "been": true,
     "coords": "51.3809°N, 2.3595°W",
     "country": "GB",
+    "icons": ["🇬🇧", "🛁"],
     "link": "https://en.wikipedia.org/wiki/Roman_Baths_(Bath)",
     "name": "Bath"
   },
@@ -186,6 +258,7 @@
     "been": false,
     "coords": "25.1167°N, 121.5°E",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Beitou_District",
     "name": "Beitou District"
   },
@@ -193,13 +266,23 @@
     "been": false,
     "coords": "49.09998° N, 19.44546° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Bešeňová",
     "name": "Bešeňová"
+  },
+  "bislet-bad": {
+    "been": true,
+    "coords": "59°55′30.043″N, 10°43′52.385″E",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bislet_Baths",
+    "name": "Bislet Bad"
   },
   "blue-lagoon": {
     "been": true,
     "coords": "63.99815° N, 22.62516° W",
     "country": "IS",
+    "icons": ["🇮🇸"],
     "link": "https://www.bluelagoon.com",
     "name": "Blue Lagoon"
   },
@@ -207,6 +290,7 @@
     "been": false,
     "coords": "46.58515° N, 3.05582° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.chainethermale.fr/bourbon-l-archambault",
     "name": "Bourbon-l’Archambault"
   },
@@ -215,6 +299,7 @@
     "city": "Saarbrücken",
     "coords": "49.23116° N, 6.96339° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.erlebnisbad-calypso.de",
     "name": "Calypso",
     "wikidata": "Q48961"
@@ -224,13 +309,24 @@
     "city": "Rome",
     "coords": "41°52′46″N, 12°29′35″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Baths_of_Caracalla",
-    "name": "Caracalla"
+    "name": "Caracalla",
+    "strike": true
+  },
+  "centralbadet": {
+    "been": false,
+    "coords": "59.33626° N, 18.05921° E",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://centralbadet.se",
+    "name": "Centralbadet"
   },
   "challes-les-eaux": {
     "been": false,
     "coords": "45.55044° N, 5.98809° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Challes-les-Eaux",
     "name": "Challes-les-Eaux"
   },
@@ -238,6 +334,7 @@
     "been": false,
     "coords": "50.59058° N, 5.63228° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://chateaudesthermes.be/",
     "name": "Château de Thermes de Chaudfontaine"
   },
@@ -245,6 +342,7 @@
     "been": false,
     "coords": "46.03050° N, 2.90355° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.thermes-chateauneuf.com",
     "name": "Châteauneuf-les-Bains"
   },
@@ -253,6 +351,7 @@
     "city": "Budapest",
     "coords": "47.58519° N, 19.04185° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.csillaghegyifurdo.hu/",
     "name": "Csillaghegy Fürdő"
   },
@@ -261,6 +360,7 @@
     "city": "Budapest",
     "coords": "47.47640° N, 19.07118° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.dandarfurdo.hu",
     "name": "Dandár Fürdő"
   },
@@ -269,22 +369,25 @@
     "city": "Bratislava",
     "coords": "48.14972° N, 17.14201° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "http://www.starz.sk/sauna%2Ddelfin/os-1004/p1=1055",
     "name": "Delfín",
     "wikidata": "Q167277"
   },
   "frantiskovy-lazne": {
-    "been": false,
+    "been": true,
     "coords": "50°7′14″N, 12°21′7″E",
     "country": "CZ",
-    "link": "https://www.frantiskovylazne.cz/?mutace=en",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Franti%C5%A1kovy_L%C3%A1zn%C4%9B",
     "name": "Františkovy Lázně"
   },
   "gellert-furdo": {
-    "been": false,
+    "been": true,
     "city": "Budapest",
     "coords": "47.48385° N, 19.05253° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://www.gellertbath.hu",
     "name": "Gellért Fürdő"
   },
@@ -292,15 +395,25 @@
     "been": false,
     "coords": "52°31′N, 13°23′E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "info": "(220)",
     "link": "https://www.le-naturisme.com/en/naturist-spas-germany/",
     "name": "Germany"
+  },
+  "heiligendamm": {
+    "been": false,
+    "coords": "54°09′00″N, 11°50′00″E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Heiligendamm",
+    "name": "Heiligendamm"
   },
   "heiwajima-onsen": {
     "been": true,
     "city": "Tokyo",
     "coords": "35.58475° N, 139.74080° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://heiwajima-onsen.jp",
     "name": "Heiwajima Onsen"
   },
@@ -308,6 +421,7 @@
     "been": false,
     "coords": "51.11019° N, 5.02808° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://hezemeer.be/",
     "name": "Hezemeer"
   },
@@ -316,14 +430,25 @@
     "city": "Vienna",
     "coords": "48.16907° N, 16.29483° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/kombibaeder/hietzing.html",
     "name": "Hietzinger Bad"
+  },
+  "hogdalens-simhall": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.26458° N, 18.04120° E",
+    "country": "SE",
+    "icons": ["🇸🇪‍"],
+    "link": "https://motionera.stockholm/trana-gymma-simma/hogdalens-simhall/",
+    "name": "Högdalens Simhall"
   },
   "holthusenbad": {
     "been": false,
     "city": "Hamburg",
     "coords": "53.58968° N, 9.99045° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.baederland.de/baeder/standorte/holthusenbad/",
     "name": "Holthusenbad"
   },
@@ -332,6 +457,7 @@
     "city": "Hiroshima",
     "coords": "34.36530° N, 132.47437° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.honoyu.jp/ujina/index.html",
     "name": "Honoyu Onsen"
   },
@@ -340,14 +466,25 @@
     "city": "Berlin",
     "coords": "52.50470° N, 13.33864° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.booking.com/hotel/de/hotelpalace.html",
     "name": "Hotel Palace"
+  },
+  "hotel-victoria": {
+    "been": true,
+    "coords": "37.17327045, -3.599894032",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://www.booking.com/hotel/cz/hotelvictoriaplzen.en-gb.html",
+    "name": "Hotel Victoria",
+    "wikidata": "Q97604260"
   },
   "hutteldorfer-bad": {
     "been": true,
     "city": "Vienna",
     "coords": "48.20301° N, 16.26454° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/huetteldorf.html",
     "name": "Hütteldorfer Bad"
   },
@@ -355,12 +492,14 @@
     "been": true,
     "coords": "51.526643°N, 0.09483°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.better.org.uk/leisure-centre/london/islington/ironmonger-row-baths",
     "name": "Ironmonger Row Baths"
   },
   "japan-onsen": {
     "been": false,
     "country": "JP",
+    "icons": ["🇯🇵"],
     "info": "(55)",
     "link": "https://www.onsenjapan.net/japan-onsen-list",
     "name": "Japan Onsen"
@@ -368,6 +507,7 @@
   "jjimjilbangs": {
     "been": true,
     "country": "KR",
+    "icons": ["🇰🇷"],
     "name": "Jjimjilbangs"
   },
   "jorgerbad": {
@@ -375,6 +515,7 @@
     "city": "Vienna",
     "coords": "48.21816° N, 16.33502° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/joergerbad.html",
     "name": "Jörgerbad"
   },
@@ -383,13 +524,15 @@
     "city": "New York",
     "coords": "40.74756° N, 73.98692° W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "K-Town Sauna",
     "strike": true
   },
   "karlovy-vary": {
-    "been": false,
+    "been": true,
     "coords": "50.23439° N, 12.86985° E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://www.karlovyvary.cz/en/",
     "name": "Karlovy Vary"
   },
@@ -397,6 +540,7 @@
     "been": true,
     "coords": "40.85192° N, 74.00264° W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.thekingspa.com/",
     "name": "King Spa"
   },
@@ -404,6 +548,7 @@
     "been": false,
     "coords": "47.51060° N, 19.03827° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.kiralyfurdo.hu",
     "name": "Király Fürdő"
   },
@@ -411,6 +556,7 @@
     "been": true,
     "coords": "44.03191° N, 145.15547° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "http://www2.gol.com/users/jolsen/onsen/rausu.html",
     "name": "Kuma-no-Yu"
   },
@@ -418,6 +564,7 @@
     "been": false,
     "coords": "50.91505° N, 5.66818° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://labutteauxbois.be/",
     "name": "La Butte aux Bois"
   },
@@ -425,6 +572,7 @@
     "been": false,
     "coords": "44.77290° N, 3.04472° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.lachaldette.com/espace-bien-etre/spa-thermal/nos-installations/",
     "name": "La Chaldette"
   },
@@ -433,6 +581,7 @@
     "city": "Paris",
     "coords": "48.86249° N, 2.40031° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://le-riad.com",
     "name": "Le Riad"
   },
@@ -440,14 +589,16 @@
     "been": true,
     "coords": "46.37805° N, 7.62544° E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.leukerbad.ch/en/therme",
     "name": "Leukerbad Therme"
   },
   "lukacs-furdo": {
-    "been": false,
+    "been": true,
     "city": "Budapest",
     "coords": "47.51797° N, 19.03659° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.lukacsfurdo.hu",
     "name": "Lukács Fürdő"
   },
@@ -456,6 +607,7 @@
     "city": "Lyon",
     "coords": "45.7571, 4.81989",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Thermes_antiques_de_Lyon",
     "name": "Lyon Thermes Romains",
     "wikidata": "Q3523831"
@@ -464,13 +616,15 @@
     "been": false,
     "coords": "50.4650°N, 5.8315°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.manoirdelebioles.com/en/spa-and-sports/",
     "name": "Manoir de Lébioles"
   },
   "marianske-lazne": {
-    "been": false,
+    "been": true,
     "coords": "49°57′53″N, 12°42′4″E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://www.marianskelazne.cz/en/",
     "name": "Mariánské Lázně"
   },
@@ -479,6 +633,7 @@
     "city": "Dubai",
     "coords": "25.09011° N, 55.15277° E",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://www.booking.com/hotel/ae/media-one.html",
     "name": "Media One Hotel"
   },
@@ -486,6 +641,7 @@
     "been": true,
     "coords": "49.50205° N, 6.28285° E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Mondorf-les-Bains",
     "name": "Mondorf-les-Bains",
     "wikidata": "Q798747"
@@ -494,6 +650,7 @@
     "been": false,
     "coords": "43°52′58″N, 10°46′16″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://visitmontecatiniterme.com/things-to-do/montecatini-terme-spa-thermal-baths/",
     "name": "Montecatini Terme"
   },
@@ -501,6 +658,7 @@
     "been": true,
     "coords": "45.64082° N, 4.23550° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://lesileades.com/",
     "name": "Montrond-les-Bains"
   },
@@ -508,6 +666,7 @@
     "been": false,
     "coords": "41°59′36″N, 128°04′39″E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Paektu_Mountain",
     "name": "Mount Paektu"
   },
@@ -516,6 +675,7 @@
     "city": "Bratislava",
     "coords": "48.16633° N, 17.13832° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "http://www.starz.sk/sauna%2Dneptun/os-1005/p1=1087",
     "name": "Neptún"
   },
@@ -523,6 +683,7 @@
     "been": false,
     "coords": "46.2886°N, 2.6622°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://thermes-neris.com",
     "name": "Neris-les-Bains"
   },
@@ -530,6 +691,7 @@
     "been": false,
     "coords": "52°N, 6°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "info": "(69)",
     "link": "https://www.le-naturisme.com/en/naturist-spas-netherlands/",
     "name": "Netherlands"
@@ -538,6 +700,7 @@
     "been": false,
     "coords": "51.17508° N, 4.72344° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://nooz.be/",
     "name": "Nooz"
   },
@@ -546,6 +709,7 @@
     "city": "Bern",
     "coords": "46.94537° N, 7.44510° E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.aqua-spa-resorts.ch/en/hammam-spa-oktogon-bern",
     "name": "Octagon Hammam"
   },
@@ -554,6 +718,7 @@
     "city": "Budapest",
     "coords": "47.52903° N, 19.04686° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.palatinusstrand.hu/",
     "name": "Palatinus Strand"
   },
@@ -561,6 +726,7 @@
     "been": false,
     "coords": "47.52116° N, 19.12783° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.paskalfurdo.hu/hu",
     "name": "Paskál Fürdő"
   },
@@ -569,6 +735,7 @@
     "city": "Katowice",
     "coords": "50.30826° N, 19.06963° E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "http://www.palacsaturna.pl/",
     "name": "Pałac Saturna"
   },
@@ -577,6 +744,7 @@
     "city": "Budapest",
     "coords": "47.43542° N, 19.09092° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.pesterzsebetifurdo.hu/",
     "name": "Pesterzsébet Fürdő"
   },
@@ -585,6 +753,7 @@
     "city": "Bratislava",
     "coords": "48.16633° N, 17.13832° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "http://www.starz.sk/plavaren-pasienky-bratislava-50-m-25-m-bazen-rozvrh-plavania-verejnosti/d-1001",
     "name": "Plaváreň Pasienky"
   },
@@ -593,6 +762,7 @@
     "city": "Budapest",
     "coords": "47.59842° N, 19.06905° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.punkosdfurdo.hu/",
     "name": "Pünkösdfürdő Fürdő"
   },
@@ -600,6 +770,7 @@
     "been": true,
     "coords": "50.64620° N, 6.18479° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.roetgen-therme.de",
     "name": "Roetgen Therme"
   },
@@ -608,6 +779,7 @@
     "city": "Bratislava",
     "coords": "48.17284° N, 17.05089° E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "http://www.starz.sk/sauna%2Drosnicka/os-1006/p1=1054",
     "name": "Rosnička"
   },
@@ -616,6 +788,7 @@
     "city": "Budapest",
     "coords": "47.48916° N, 19.04782° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Rudas_Baths",
     "name": "Rudas Fürdő"
   },
@@ -624,6 +797,7 @@
     "city": "Pyongyang",
     "coords": "39.01350° N, 125.76268° E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://www.koryogroup.com/travel-guide/ryugyong-health-complex-north-korea-travel-guide",
     "name": "Ryugyong Health Complex"
   },
@@ -632,6 +806,7 @@
     "city": "Saarbrücken",
     "coords": "49.12862° N, 7.05158° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://saarland-therme.de/de/",
     "name": "Saarland Therme"
   },
@@ -640,6 +815,7 @@
     "city": "Moscow",
     "coords": "55.76427° N, 37.62058° E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Sanduny",
     "name": "Sandunovskie Baths"
   },
@@ -648,6 +824,7 @@
     "city": "Tokyo",
     "coords": "35.67571° N, 139.66871° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://sasazukasakaeyu.com",
     "name": "Sasazuka Sakaeyu"
   },
@@ -655,6 +832,7 @@
     "been": false,
     "coords": "51.14983° N, 4.46233° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fitopia.be/saunatopia/",
     "name": "Saunatopia"
   },
@@ -663,12 +841,14 @@
     "city": "Kamakura",
     "coords": "35.31125° N, 139.55255° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "name": "Shimizuyu Sento, Kamakura"
   },
   "sol-duc": {
     "been": false,
     "coords": "47.96880° N, 123.86296° W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sol_Duc_Hot_Springs",
     "name": "Sol Duc"
   },
@@ -676,6 +856,7 @@
     "been": true,
     "coords": "47.55779° N, 7.80014° E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.soleuno.ch/",
     "name": "Sole Uno"
   },
@@ -684,6 +865,7 @@
     "city": "Southampton",
     "coords": "50.89906° N, 1.40884° W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.booking.com/hotel/gb/holiday-inn-southampton.html",
     "name": "Southampton, Holiday Inn"
   },
@@ -692,13 +874,23 @@
     "city": "New York",
     "coords": "40.78748° N, 73.83691° W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://ny.spacastleusa.com",
     "name": "Spa Castle"
+  },
+  "sturebadet": {
+    "been": true,
+    "coords": "59.33580° N, 18.07314° E",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://www.sturebadet.se",
+    "name": "Sturebadet"
   },
   "sultan-suleyman-hamam": {
     "been": true,
     "coords": "41.0159°N, 28.9658°E",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Süleymaniye_Hamam",
     "name": "Sultan Süleyman Hamam"
   },
@@ -706,6 +898,7 @@
     "been": true,
     "coords": "48.86364° N, 2.35193° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://suncity-paris.fr",
     "name": "Sun City"
   },
@@ -714,13 +907,15 @@
     "city": "London",
     "coords": "51.51378° N, 0.16664° W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://britannia.merimieskirkko.fi/en/",
     "name": "Suomen Merimieskirkko"
   },
   "szechenyi-furdo": {
-    "been": false,
+    "been": true,
     "coords": "47.51865° N, 19.08205° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://www.szechenyibath.hu",
     "name": "Széchenyi Fürdő"
   },
@@ -729,6 +924,7 @@
     "city": "Tokyo",
     "coords": "35.68455° N, 139.61487° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "http://www.utsukushi-yu.com",
     "name": "Takaido Onsen"
   },
@@ -736,6 +932,7 @@
     "been": false,
     "coords": "36.84800° N, 139.04692° E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.takaragawa.com/english.html",
     "name": "Takaragawa Onsen"
   },
@@ -743,6 +940,7 @@
     "been": false,
     "coords": "39.50891° S, 71.89227° W",
     "country": "CL",
+    "icons": ["🇨🇱"],
     "link": "https://es.wikipedia.org/wiki/Termas_Geométricas",
     "name": "Termas Geométricas"
   },
@@ -750,6 +948,7 @@
     "been": false,
     "coords": "42°39′29.21″N, 11°30′58.35″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Terme_di_Saturnia",
     "name": "Terme di Saturnia"
   },
@@ -757,6 +956,7 @@
     "been": true,
     "coords": "50.91665° N, 4.48176° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.thermae.com/en/thermae-boetfort/",
     "name": "Thermae Boetfort"
   },
@@ -764,6 +964,7 @@
     "been": false,
     "coords": "50.93585° N, 4.36772° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.thermae.com/en/thermae-grimbergen",
     "name": "Thermae Grimbergen"
   },
@@ -771,13 +972,16 @@
     "been": true,
     "coords": "41°32′46.64″N, 8°25′46.52″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Roman_Thermae_of_Maximinus",
-    "name": "Thermae of Maximinus"
+    "name": "Thermae of Maximinus",
+    "strike": true
   },
   "therme-erding": {
     "been": false,
     "coords": "48.29029444, 11.88671944",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.therme-erding.de/",
     "name": "Therme Erding",
     "wikidata": "Q1575819"
@@ -787,6 +991,7 @@
     "city": "Vienna",
     "coords": "48.14454° N, 16.40156° E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.thermewien.at/en/",
     "name": "Therme Wien"
   },
@@ -794,6 +999,7 @@
     "been": true,
     "coords": "49.7527, 6.63766",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Thermen_am_Viehmarkt",
     "name": "Thermen am Viehmarkt",
     "wikidata": "Q885314"
@@ -802,6 +1008,7 @@
     "been": false,
     "coords": "50.86032° N, 4.27851° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.thermendilbeek.be/",
     "name": "Thermen Dilbeek"
   },
@@ -809,6 +1016,7 @@
     "been": false,
     "coords": "51.14368° N, 4.09179° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.katara.be/",
     "name": "Thermen Katara"
   },
@@ -816,6 +1024,7 @@
     "been": false,
     "coords": "51.03320° N, 4.30015° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://thermenlonderzeel.be/",
     "name": "Thermen Londerzeel"
   },
@@ -823,6 +1032,7 @@
     "been": true,
     "coords": "51.01528° N, 4.60167° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.thermenmineraal.be/",
     "name": "Thermen Mineraal"
   },
@@ -830,6 +1040,7 @@
     "been": true,
     "coords": "50.92241° N, 3.14617° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://thermen-r.be/",
     "name": "Thermen R"
   },
@@ -837,6 +1048,7 @@
     "been": true,
     "coords": "50.49418° N, 5.86424° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.thermesdespa.com/home/",
     "name": "Thermes de Spa"
   },
@@ -844,6 +1056,7 @@
     "been": false,
     "coords": "49.61406° N, 6.07067° E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://lesthermes.net",
     "name": "Thermes de Strassen"
   },
@@ -851,6 +1064,7 @@
     "been": false,
     "coords": "45.57412° N, 2.81087° E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.chainethermale.fr/le-mont-dore",
     "name": "Thermes du Mont Dore"
   },
@@ -858,6 +1072,7 @@
     "been": true,
     "coords": "49.749729°N, 6.642259°E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trier_Imperial_Baths",
     "name": "Trier Imperial Baths"
   },
@@ -865,13 +1080,23 @@
     "been": false,
     "coords": "47.51912° N, 19.03773° E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "http://www.irgalmasrend.hu/site/velibej/sprachen/en",
     "name": "Veli Bej Fürdője"
+  },
+  "vestkantbadet": {
+    "been": true,
+    "coords": "59.91509° N, 10.71894° E",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://www.sommerrohouse.com/en/vestkantbadet/",
+    "name": "Vestkantbadet"
   },
   "vichy": {
     "been": false,
     "coords": "46.1278°N, 3.4267°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.auvergne-thermale.com/les-stations/vichy",
     "name": "Vichy"
   },
@@ -879,6 +1104,7 @@
     "been": true,
     "coords": "50.06931° N, 7.03150° E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.vulkaneifeltherme.de/",
     "name": "Vulkaneifel Therme"
   },
@@ -886,6 +1112,7 @@
     "been": false,
     "coords": "50.87683° N, 4.24460° E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://waerwaters.com/",
     "name": "Waer Waters"
   },
@@ -894,6 +1121,7 @@
     "city": "San Jose",
     "coords": "37.33136° N, 121.90948° W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Watergarden",
     "name": "Watergarden",
     "strike": true,
@@ -904,6 +1132,7 @@
     "city": "Brno",
     "coords": "49.20557° N, 16.61149° E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://www.wellnessparkluzanky.cz",
     "name": "Wellness Park Lužánky"
   },
@@ -911,6 +1140,7 @@
     "been": false,
     "coords": "30.097615°N, 90.507219°E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Yangbajain_Geothermal_Field#Recreational_use",
     "name": "Yangbajain"
   }

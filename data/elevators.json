@@ -3,6 +3,7 @@
     "been": true,
     "coords": "40.7541°N, 74.0008°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/30_Hudson_Yards",
     "name": "30 Hudson Yards"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "50.47752°N, 4.109583°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Ascenseur_de_Strépy-Thieu",
     "name": "Ascenseur de Strépy-Thieu"
   },
@@ -17,6 +19,7 @@
     "been": true,
     "coords": "50°50′16.9″N, 4°21′04″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Poelaert_Elevators",
     "name": "Ascenseurs des Marolles"
   },
@@ -24,18 +27,21 @@
     "been": true,
     "coords": "50.4875°N, 4.1758°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Ascenseurs_à_bateaux_du_canal_du_Centre",
     "name": "Ascenseurs du Canal du Centre"
   },
   "ascensore-chiaia": {
     "been": true,
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://it.wikipedia.org/wiki/Ascensore_Chiaia",
     "name": "Ascensore Chiaia"
   },
   "ascensore-della-sanita": {
     "been": true,
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://it.wikipedia.org/wiki/Ascensore_della_Sanità",
     "name": "Ascensore della Sanità"
   },
@@ -43,12 +49,14 @@
     "been": false,
     "coords": "29.3515°N, 110.4615°E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Bailong_Elevator",
     "name": "Bailong Elevator"
   },
   "bata-paternoster": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Baťa%27s_Skyscraper#Elevators",
     "name": "Baťa Paternoster"
   },
@@ -56,17 +64,21 @@
     "been": true,
     "coords": "45.4993°N, 122.673°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Gibbs_Street_Pedestrian_Bridge",
     "name": "Gibbs Street Pedestrian Bridge"
   },
   "grund-elevator": {
     "been": true,
     "country": "LU",
+    "icons": ["🇱🇺"],
+    "link": "https://en.wikipedia.org/wiki/Grund,_Luxembourg",
     "name": "Grund Elevator"
   },
   "kopalnia-guido": {
     "been": true,
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://pl.wikipedia.org/wiki/Kopalnia_Guido",
     "name": "Kopalnia Guido"
   },
@@ -74,6 +86,7 @@
     "been": true,
     "coords": "46.9467, 7.4525",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://de.wikipedia.org/wiki/Mattelift",
     "name": "Mattelift"
   },
@@ -81,19 +94,29 @@
     "been": true,
     "coords": "43°43′52″N, 07°25′12″E",
     "country": "MC",
+    "icons": ["🇲🇨"],
     "name": "Monaco"
   },
   "oregon-city-municipal-elevator": {
     "been": true,
     "coords": "45°21′24.9″N, 122°36′27.7″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oregon_City_Municipal_Elevator",
     "name": "Oregon City Municipal Elevator"
+  },
+  "personenaufzug-bad-schandau": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Schandau_Elevator",
+    "name": "Personenaufzug Bad Schandau"
   },
   "pfaffenthal-panoramic-elevator": {
     "been": true,
     "coords": "49°36′55.87″N, 6°7′50.34″E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Pfaffenthal_Panoramic_Elevator",
     "name": "Pfaffenthal Panoramic Elevator"
   },
@@ -101,12 +124,15 @@
     "been": true,
     "coords": "40.75694444444444, -73.95472222222222",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Queensboro_Bridge",
-    "name": "Roosevelt Island"
+    "name": "Roosevelt Island",
+    "strike": true
   },
   "schloßberglift": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.graztourismus.at/de/sightseeing-kultur/sehenswuerdigkeiten/schlossberglift_shg_1484",
     "name": "Schloßberglift"
   },
@@ -114,6 +140,7 @@
     "been": true,
     "coords": "41°25′21″N, 2°07′07″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Parque_de_Atracciones_Tibidabo",
     "name": "Tibidabo"
   }

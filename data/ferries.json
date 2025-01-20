@@ -3,6 +3,7 @@
     "been": true,
     "coords": "37°49′36″N, 122°25′22″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Alcatraz_Island",
     "name": "Alcatraz"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "56.1572°N, 10.2107°E",
     "countries": ["DK", "NO"],
+    "icons": ["🇩🇰", "🇳🇴"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Oslo\">Oslo</a>",
     "link": "https://en.wikipedia.org/wiki/Aarhus",
     "name": "Århus"
@@ -18,6 +20,7 @@
     "been": true,
     "coords": "47°39′19″N, 122°32′6″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bainbridge_Island,_Washington",
     "name": "Bainbridge Island"
   },
@@ -25,6 +28,7 @@
     "been": true,
     "coords": "41°20′15″N, 2°9′8″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Barcelona#Passenger_ferries",
     "name": "Barcelona–Mallorca"
   },
@@ -32,6 +36,7 @@
     "been": true,
     "coords": "56.9833°N, 7.4667°W",
     "country": "GM",
+    "icons": ["🇬🇲"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Banjul\">Banjul</a>",
     "link": "https://en.wikipedia.org/wiki/Barra",
     "name": "Barra"
@@ -39,6 +44,7 @@
   "bridgeport–port-jefferson": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bridgeport_%26_Port_Jefferson_Ferry",
     "name": "Bridgeport–Port Jefferson",
     "wikidata": "Q4966572"
@@ -47,6 +53,7 @@
     "been": true,
     "coords": "50°56′53″N, 01°51′23″E",
     "countries": ["FR", "GB"],
+    "icons": ["🇫🇷", "🇬🇧"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Dover\">Dover</a>",
     "link": "https://en.wikipedia.org/wiki/Calais",
     "name": "Calais"
@@ -55,6 +62,7 @@
     "been": true,
     "coords": "38°30.90′N, 074°30.90′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_May–Lewes_Ferry",
     "name": "Cape May–Lewes"
   },
@@ -62,14 +70,22 @@
     "been": false,
     "coords": "06°48′58″S, 39°16′49″E",
     "country": "TZ",
+    "icons": ["🇹🇿"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Zanzibar\">Zanzibar</a>",
     "link": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
     "name": "Dar es Salaam"
+  },
+  "dunkirk–dover": {
+    "been": true,
+    "countries": ["FR", "GB"],
+    "icons": ["🇫🇷", "🇬🇧"],
+    "name": "Dunkirk–Dover"
   },
   "ellis-island": {
     "been": true,
     "coords": "40°41′58″N, 74°02′23″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Ellis_Island",
     "name": "Ellis Island"
   },
@@ -77,6 +93,7 @@
     "been": true,
     "coords": "40.601°N, 73.757°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Far_Rockaway",
     "name": "Far Rockaway"
   },
@@ -84,13 +101,16 @@
     "been": true,
     "coords": "14°08′N, 16°28′W",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://fr.wikipedia.org/wiki/Foundiougne",
-    "name": "Foundiougne"
+    "name": "Foundiougne",
+    "strike": true
   },
   "governors-island": {
     "been": true,
     "coords": "40°41′29″N, 74°0′58″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Governors_Island",
     "name": "Governors Island"
   },
@@ -98,6 +118,7 @@
     "been": true,
     "coords": "51.934°N, 1.266°E",
     "countries": ["GB", "NL"],
+    "icons": ["🇬🇧", "🇳🇱"],
     "info": "–<a href=\"https://nl.wikipedia.org/wiki/Hoek_van_Holland\">Hoek van Holland</a>",
     "link": "https://en.wikipedia.org/wiki/Harwich",
     "name": "Harwich"
@@ -106,12 +127,14 @@
     "been": true,
     "coords": "41°38′53.2″N, 70°16′45.2″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hy-Line_Cruises",
     "name": "Harwich–Nantucket"
   },
   "helsinki–kruunuvuorenranta": {
     "been": false,
     "country": "FI",
+    "icons": ["🇫🇮"],
     "name": "Helsinki–Kruunuvuorenranta"
   },
   "hong-kong": {
@@ -119,6 +142,7 @@
     "coords": "22.3°N, 114.2°E",
     "countries": ["HK", "MO"],
     "country": "HK",
+    "icons": ["🇭🇰"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Macau\">Macau</a>",
     "link": "https://en.wikipedia.org/wiki/Hong_Kong",
     "name": "Hong Kong"
@@ -127,6 +151,7 @@
     "been": true,
     "coords": "27°15′28″N, 33°48′42″E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Sharm_El_Sheikh\">Sharm El Sheikh</a>",
     "link": "https://en.wikipedia.org/wiki/Hurghada",
     "name": "Hurghada"
@@ -135,6 +160,7 @@
     "been": true,
     "coords": "54°51′06″N, 05°48′48″W",
     "countries": ["GB", "GB-SCT"],
+    "icons": ["🇬🇧", "🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Troon\">Troon</a>",
     "link": "https://en.wikipedia.org/wiki/Larne",
     "name": "Larne"
@@ -143,6 +169,7 @@
     "been": false,
     "coords": "46°31.19′N, 6°38.01′E",
     "countries": ["FR", "CH"],
+    "icons": ["🇫🇷", "🇨🇭"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Evian\">Evian</a>",
     "link": "https://en.wikipedia.org/wiki/Lausanne",
     "name": "Lausanne"
@@ -151,6 +178,7 @@
     "been": true,
     "coords": "53°24′0″N, 2°59′0″W",
     "countries": ["GB", "IE"],
+    "icons": ["🇬🇧", "🇮🇪"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Dublin\">Dublin</a>",
     "link": "https://en.wikipedia.org/wiki/Liverpool",
     "name": "Liverpool"
@@ -159,6 +187,7 @@
     "been": false,
     "coords": "43.2964°N, 5.37°E",
     "countries": ["FR", "DZ"],
+    "icons": ["🇫🇷", "🇩🇿"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Algiers\">Algiers</a>",
     "link": "https://en.wikipedia.org/wiki/Marseille",
     "name": "Marseille"
@@ -167,6 +196,7 @@
     "been": true,
     "coords": "41°24′N, 70°37′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Martha%27s_Vineyard",
     "name": "Martha’s Vineyard"
   },
@@ -174,6 +204,7 @@
     "been": true,
     "coords": "34°23′43″N, 134°3′0″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Megijima",
     "name": "Megijima"
   },
@@ -181,6 +212,7 @@
     "been": true,
     "coords": "40.83583333333333, 14.248611111111112",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Capri\">Capri</a>",
     "link": "https://en.wikipedia.org/wiki/Naples",
     "name": "Naples"
@@ -189,6 +221,7 @@
     "been": false,
     "coords": "34°41′38″N, 135°30′8″E",
     "countries": ["JP", "CN"],
+    "icons": ["🇯🇵", "🇨🇳"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Shanghai\">Shanghai</a>",
     "link": "https://en.wikipedia.org/wiki/Osaka",
     "name": "Osaka"
@@ -197,6 +230,7 @@
     "been": true,
     "coords": "59°54′48″N, 10°44′20″E",
     "countries": ["NO", "DE"],
+    "icons": ["🇳🇴", "🇩🇪"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Kiel\">Kiel</a>",
     "link": "https://en.wikipedia.org/wiki/Oslo",
     "name": "Oslo"
@@ -205,6 +239,7 @@
     "been": false,
     "coords": "38°06′40″N, 13°21′06″E",
     "countries": ["IT", "TN"],
+    "icons": ["🇮🇹", "🇹🇳"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Tunis\">Tunis</a>",
     "link": "https://en.wikipedia.org/wiki/Palermo",
     "name": "Palermo"
@@ -212,17 +247,20 @@
   "port-angeles–victoria": {
     "been": true,
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "name": "Port Angeles–Victoria"
   },
   "port-townsend–coupeville": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Port Townsend–Coupeville"
   },
   "san-juan-islands": {
     "been": true,
     "coords": "48.532066°N, 123.029251°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Juan_Islands#Water",
     "name": "San Juan Islands"
   },
@@ -230,6 +268,7 @@
     "been": true,
     "coords": "43.4053°N, 3.6975°E",
     "countries": ["FR", "MA"],
+    "icons": ["🇫🇷", "🇲🇦"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Tangier\">Tangier</a>",
     "link": "https://en.wikipedia.org/wiki/Sète",
     "name": "Sète"
@@ -238,6 +277,7 @@
     "been": false,
     "coords": "1°17′N, 103°50′E",
     "countries": ["SG", "MY"],
+    "icons": ["🇸🇬", "🇲🇾"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Tanjung_Belungkor\">Tanjung Belungkor</a>",
     "link": "https://en.wikipedia.org/wiki/Singapore",
     "name": "Singapore"
@@ -246,6 +286,7 @@
     "been": true,
     "coords": "43°30′36″N, 16°26′24″E",
     "countries": ["HR", "IT"],
+    "icons": ["🇭🇷", "🇮🇹"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Ancona\">Ancona</a>",
     "link": "https://en.wikipedia.org/wiki/Split,_Croatia",
     "name": "Split"
@@ -254,6 +295,7 @@
     "been": true,
     "coords": "40°34′19″N, 74°8′49″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Staten_Island_Ferry",
     "name": "Staten Island"
   },
@@ -261,6 +303,7 @@
     "been": false,
     "coords": "53°55′N, 14°15′E",
     "countries": ["PL", "SE"],
+    "icons": ["🇵🇱", "🇸🇪"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Ystad\">Ystad</a>",
     "link": "https://en.wikipedia.org/wiki/Świnoujście",
     "name": "Świnoujście"
@@ -269,6 +312,7 @@
     "been": true,
     "coords": "59°26′14″N, 24°44′43″E",
     "countries": ["EE", "FI"],
+    "icons": ["🇪🇪", "🇫🇮"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Helsinki\">Helsinki</a>",
     "link": "https://en.wikipedia.org/wiki/Talinn",
     "name": "Talinn"
@@ -277,6 +321,7 @@
     "been": false,
     "coords": "36.014°N, 5.606°W",
     "countries": ["ES", "MA"],
+    "icons": ["🇪🇸", "🇲🇦"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Tangier\">Tangier</a>",
     "link": "https://en.wikipedia.org/wiki/Tarifa",
     "name": "Tarifa"
@@ -285,6 +330,7 @@
     "been": false,
     "coords": "43.115, 131.8852777777778",
     "countries": ["RU", "KR"],
+    "icons": ["🇷🇺", "🇰🇷"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Donghae\">Donghae</a>",
     "link": "https://en.wikipedia.org/wiki/Vladivostok",
     "name": "Vladivostok"
@@ -293,6 +339,7 @@
     "been": true,
     "coords": "45°24′56″N, 141°40′23″E",
     "countries": ["JP", "RU"],
+    "icons": ["🇯🇵", "🇷🇺"],
     "info": "–<a href=\"https://en.wikipedia.org/wiki/Yuzhno-Sakhalinsk\">Yuzhno-Sakhalinsk</a>",
     "link": "https://en.wikipedia.org/wiki/Wakkanai",
     "name": "Wakkanai"

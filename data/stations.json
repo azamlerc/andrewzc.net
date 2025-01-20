@@ -1,4 +1,11 @@
 {
+  "aachen-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Aachen_Hauptbahnhof",
+    "name": "Aachen Hauptbahnhof"
+  },
   "aachen-hbf": {
     "been": true,
     "coords": "50.767635°N, 6.091179°E",
@@ -9,6 +16,7 @@
   "aareschlucht-ost": {
     "been": true,
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Aareschlucht_Ost_MIB_railway_station",
     "name": "Aareschlucht Ost"
   },
@@ -16,6 +24,7 @@
     "been": true,
     "coords": "52°22′42″N, 4°54′0″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Amsterdam_Centraal_station",
     "name": "Amsterdam Centraal"
   },
@@ -23,6 +32,7 @@
     "been": true,
     "coords": "51.216944444444, 4.4211111111111",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://nl.wikipedia.org/wiki/Station_Antwerpen-Centraal",
     "name": "Antwerpen Centraal",
     "wikidata": "Q800398"
@@ -31,13 +41,29 @@
     "been": true,
     "coords": "40°49′43.87″N, 140°44′4.89″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Aomori_Station",
     "name": "Aomori"
   },
+  "bad-ems": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Ems_station",
+    "name": "Bad Ems"
+  },
+  "bad-salzungen": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bad_Salzungen_station",
+    "name": "Bad Salzungen"
+  },
   "baden-baden": {
-    "been": false,
+    "been": true,
     "coords": "48.7906, 8.19083",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Bahnhof_Baden-Baden",
     "name": "Baden-Baden",
     "wikidata": "Q442698"
@@ -46,6 +72,7 @@
     "been": false,
     "coords": "33°19′25″N, 44°22′49″E",
     "country": "IQ",
+    "icons": ["🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Baghdad_Central_Station",
     "name": "Baghdad"
   },
@@ -53,6 +80,7 @@
     "been": true,
     "coords": "41°23′02″N, 2°11′10″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_França_railway_station",
     "name": "Barcelona França"
   },
@@ -60,6 +88,7 @@
     "been": true,
     "coords": "41°22′44″N, 2°08′24″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Sants_railway_station",
     "name": "Barcelona Sants"
   },
@@ -67,6 +96,7 @@
     "been": true,
     "coords": "47°33′17″N, 07°35′26″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Basel_SBB_railway_station",
     "name": "Basel"
   },
@@ -74,6 +104,7 @@
     "been": true,
     "coords": "44°48′31″N, 20°27′20″E",
     "country": "RS",
+    "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Belgrade_Main_railway_station",
     "name": "Belgrade"
   },
@@ -81,6 +112,7 @@
     "been": true,
     "coords": "52°31′17″N, 13°24′43″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz_station",
     "name": "Berlin Alexanderplatz"
   },
@@ -88,8 +120,16 @@
     "been": true,
     "coords": "52°31′13″N, 13°23′13″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Friedrichstraße_station",
     "name": "Berlin Friedrichstraße"
+  },
+  "berlin-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof",
+    "name": "Berlin Hauptbahnhof"
   },
   "berlin-hbf": {
     "been": true,
@@ -102,6 +142,7 @@
     "been": true,
     "coords": "52°30′26″N, 13°19′57″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Zoologischer_Garten_railway_station",
     "name": "Berlin Zoologischer Garten"
   },
@@ -109,6 +150,7 @@
     "been": true,
     "coords": "46°57′08.66″N, 7°26′22.50″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Bern_railway_station",
     "name": "Bern"
   },
@@ -116,6 +158,7 @@
     "been": false,
     "coords": "43°15′41″N, 2°55′40″W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Bilbao-Abando_railway_station",
     "name": "Bilbao Abando"
   },
@@ -123,6 +166,7 @@
     "been": true,
     "coords": "52.47777°N, 1.89885°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Birmingham_New_Street_railway_station",
     "name": "Birmingham New Street"
   },
@@ -130,6 +174,7 @@
     "been": true,
     "coords": "51.511667, -0.103056",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Blackfriars_railway_station",
     "name": "Blackfriars",
     "wikidata": "Q284195"
@@ -137,13 +182,22 @@
   "bologna-centrale": {
     "been": false,
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Bologna_Centrale",
     "name": "Bologna Centrale"
+  },
+  "bonn-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bonn_Hauptbahnhof",
+    "name": "Bonn Hauptbahnhof"
   },
   "boston-south-station": {
     "been": true,
     "coords": "42°21′07″N, 71°03′19″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/South_Station",
     "name": "Boston South Station"
   },
@@ -151,8 +205,16 @@
     "been": true,
     "coords": "48°09′30″N, 17°06′22″E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Bratislava_main_railway_station",
     "name": "Bratislava"
+  },
+  "bremen-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Bremen_Hauptbahnhof",
+    "name": "Bremen Hauptbahnhof"
   },
   "bremen-hbf": {
     "been": false,
@@ -166,12 +228,14 @@
     "been": true,
     "coords": "50.8288°N, 0.1411°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Brighton_railway_station",
     "name": "Brighton"
   },
   "brno-hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Brno_hlavn%C3%AD_nádraž%C3%AD",
     "name": "Brno Hlavní Nádraží"
   },
@@ -179,6 +243,7 @@
     "been": true,
     "coords": "50°50′44″N, 4°21′25″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Central_Station",
     "name": "Bruxelles Central"
   },
@@ -186,21 +251,38 @@
     "been": true,
     "coords": "50.835278, 4.335833",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Midi",
     "name": "Bruxelles Midi",
     "wikidata": "Q800587"
+  },
+  "budapest-deli": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Budapest_Déli_station",
+    "name": "Budapest Déli"
   },
   "budapest-keleti": {
     "been": true,
     "coords": "47°30′01″N, 19°05′02″E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Budapest_Keleti_station",
     "name": "Budapest Keleti"
+  },
+  "budapest-nyugati": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Budapest_Nyugati_station",
+    "name": "Budapest Nyugati"
   },
   "buffalo-exchange-street": {
     "been": true,
     "coords": "42.8783°N, 78.8738°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Buffalo–Exchange_Street_station",
     "name": "Buffalo Exchange Street"
   },
@@ -208,6 +290,7 @@
     "been": true,
     "coords": "35.11520°N, 129.04137°E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Busan_station",
     "name": "Busan"
   },
@@ -215,6 +298,7 @@
     "been": true,
     "coords": "52.194°N, 0.138°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Cambridge_railway_station",
     "name": "Cambridge"
   },
@@ -222,13 +306,29 @@
     "been": true,
     "coords": "37°30′23.62″N, 15°5′58.85″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Catania_Centrale_railway_station",
     "name": "Catania Centrale"
+  },
+  "ceske-budejovice": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%A9_Bud%C4%9Bjovice_railway_station",
+    "name": "České Budějovice"
+  },
+  "cesky-brod-": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Brod",
+    "name": "Česky Brod "
   },
   "chama": {
     "been": true,
     "coords": "36°54′N, 106°35′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cumbres_and_Toltec_Scenic_Railroad",
     "name": "Chama"
   },
@@ -236,6 +336,7 @@
     "been": true,
     "coords": "51.508°N, 0.125°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Charing_Cross_railway_station",
     "name": "Charing Cross"
   },
@@ -243,6 +344,7 @@
     "been": true,
     "coords": "50°24′17″N, 4°26′19″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Charleroi-South_railway_station",
     "name": "Charleroi"
   },
@@ -250,6 +352,7 @@
     "been": true,
     "coords": "48.8615°N, 2.3465°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Châtelet–Les_Halles",
     "name": "Châtelet–Les Halles"
   },
@@ -257,6 +360,7 @@
     "been": true,
     "coords": "41.88594°N, 87.62345°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Millennium_Station",
     "name": "Chicago Millenium"
   },
@@ -264,6 +368,7 @@
     "been": true,
     "coords": "41.878638888889, -87.64025",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago_Union_Station",
     "name": "Chicago Union Station",
     "wikidata": "Q1155989"
@@ -272,13 +377,22 @@
     "been": true,
     "coords": "47°00′45″N, 28°51′35″E",
     "country": "MD",
+    "icons": ["🇲🇩"],
     "link": "https://en.wikipedia.org/wiki/Chișinău_railway_station",
     "name": "Chișinău"
+  },
+  "chomutov": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Chomutov#Transport",
+    "name": "Chomutov"
   },
   "clapham-junction": {
     "been": true,
     "coords": "51.4646°N, 0.1705°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Clapham_Junction_railway_station",
     "name": "Clapham Junction"
   },
@@ -286,6 +400,7 @@
     "been": true,
     "coords": "45.778611, 3.100833",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Clermont-Ferrand",
     "name": "Clermont Ferrand",
     "wikidata": "Q2167884"
@@ -294,6 +409,7 @@
     "been": true,
     "coords": "6.3666666666667, 2.4166666666667",
     "country": "BJ",
+    "icons": ["🇧🇯"],
     "link": "https://fr.wikipedia.org/wiki/Cotonou",
     "name": "Cotonou",
     "wikidata": "Q43595"
@@ -302,9 +418,17 @@
     "been": true,
     "coords": "14.675799, -17.433405",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Dakar",
     "name": "Dakar",
     "wikidata": "Q3096341"
+  },
+  "darmstadt-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Darmstadt_Hauptbahnhof",
+    "name": "Darmstadt Hauptbahnhof"
   },
   "darmstadt-hbf": {
     "been": false,
@@ -318,6 +442,7 @@
     "been": true,
     "coords": "52.006667, 4.356667",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Delft",
     "name": "Delft",
     "wikidata": "Q800653"
@@ -326,6 +451,7 @@
     "been": true,
     "coords": "52°4′54″N, 4°19′45″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Den_Haag_Centraal_railway_station",
     "name": "Den Haag Centraal"
   },
@@ -333,6 +459,7 @@
     "been": true,
     "coords": "52°4′11″N, 4°19′18″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Den_Haag_HS_railway_station",
     "name": "Den Haag Hollands Spoor"
   },
@@ -340,6 +467,7 @@
     "been": true,
     "coords": "14.72027778, -17.1825",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://fr.wikipedia.org/wiki/Diamniadio",
     "name": "Diamniadio",
     "wikidata": "Q3026080"
@@ -348,9 +476,17 @@
     "been": true,
     "coords": "51.8075, 4.667778",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Dordrecht",
     "name": "Dordrecht",
     "wikidata": "Q800675"
+  },
+  "dresden-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dresden_Hauptbahnhof",
+    "name": "Dresden Hauptbahnhof"
   },
   "dresden-hbf": {
     "been": true,
@@ -358,6 +494,13 @@
     "country": "DE",
     "link": "https://en.wikipedia.org/wiki/Dresden_Hauptbahnhof",
     "name": "Dresden Hbf"
+  },
+  "dusseldorf-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Düsseldorf_Hauptbahnhof",
+    "name": "Düsseldorf Hauptbahnhof"
   },
   "dusseldorf-hbf": {
     "been": false,
@@ -370,14 +513,23 @@
     "been": true,
     "coords": "51.3752, -0.0923",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/East_Croydon_railway_station",
     "name": "East Croydon",
     "wikidata": "Q800699"
+  },
+  "edinburgh-waverley": {
+    "been": false,
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "link": "https://en.wikipedia.org/wiki/Edinburgh_Waverley_railway_station",
+    "name": "Edinburgh Waverley"
   },
   "eindhoven-centraal": {
     "been": true,
     "coords": "51.442778, 5.479722",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Eindhoven_Centraal",
     "name": "Eindhoven Centraal",
     "wikidata": "Q689942"
@@ -386,6 +538,7 @@
     "been": true,
     "coords": "52.699444, 5.287778",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Enkhuizen",
     "name": "Enkhuizen",
     "wikidata": "Q800732"
@@ -394,6 +547,7 @@
     "been": true,
     "coords": "50°55′22″N, 1°48′50″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Eurotunnel_Calais_Terminal",
     "name": "Eurotunnel Calais Terminal"
   },
@@ -401,6 +555,7 @@
     "been": true,
     "coords": "51°05′48″N, 1°08′14″E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Eurotunnel_Folkestone_Terminal",
     "name": "Eurotunnel Folkestone Terminal"
   },
@@ -408,6 +563,7 @@
     "been": true,
     "coords": "51.52849°N, 0.13702°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Euston_railway_station",
     "name": "Euston"
   },
@@ -415,9 +571,17 @@
     "been": true,
     "coords": "50.0528, 8.57",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Frankfurt_am_Main_Flughafen_Fernbahnhof",
     "name": "Frankfurt Fernbanhof",
     "wikidata": "Q371816"
+  },
+  "frankfurt-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Frankfurt_(Main)_Hauptbahnhof",
+    "name": "Frankfurt Hauptbahnhof"
   },
   "frankfurt-hbf": {
     "been": false,
@@ -431,6 +595,7 @@
     "been": true,
     "coords": "48.842222222222, 2.3658333333333",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Austerlitz",
     "name": "Gare d’Austerlitz",
     "wikidata": "Q734017"
@@ -439,6 +604,7 @@
     "been": true,
     "coords": "48°52′37″N, 2°21′33″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Gare_de_l%27Est",
     "name": "Gare de l’Est"
   },
@@ -446,6 +612,7 @@
     "been": true,
     "coords": "48.8448°N, 2.3735°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Gare_de_Lyon",
     "name": "Gare de Lyon"
   },
@@ -453,12 +620,14 @@
     "been": true,
     "coords": "48°52′52″N, 02°21′19″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Gare_du_Nord",
     "name": "Gare du Nord"
   },
   "geneve-cornavin": {
     "been": true,
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Genève-Cornavin_railway_station",
     "name": "Genève Cornavin"
   },
@@ -466,9 +635,17 @@
     "been": true,
     "coords": "40.75277777777778, -73.97722222222222",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
     "name": "Grand Central Terminal",
     "wikidata": "Q11290"
+  },
+  "graz-hauptbahnhof": {
+    "been": true,
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Graz_Hauptbahnhof",
+    "name": "Graz Hauptbahnhof"
   },
   "graz-hbf": {
     "been": true,
@@ -481,6 +658,7 @@
     "been": true,
     "coords": "52.387778, 4.638889",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Haarlem",
     "name": "Haarlem",
     "wikidata": "Q800863"
@@ -489,6 +667,7 @@
     "been": true,
     "coords": "32°49′19.82″N, 34°59′49.36″E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Haifa_Center_HaShmona_railway_station",
     "name": "Haifa HaShmona"
   },
@@ -496,6 +675,7 @@
     "been": true,
     "coords": "33.589803°N, 130.420681°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hakata_Station",
     "name": "Hakata"
   },
@@ -503,8 +683,16 @@
     "been": true,
     "coords": "41.773736°N, 140.726398°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hakodate_Station",
     "name": "Hakodate"
+  },
+  "hamburg-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Hamburg_Hauptbahnhof",
+    "name": "Hamburg Hauptbahnhof"
   },
   "hamburg-hbf": {
     "been": false,
@@ -512,6 +700,13 @@
     "country": "DE",
     "link": "https://en.wikipedia.org/wiki/Hamburg_Hauptbahnhof",
     "name": "Hamburg Hbf"
+  },
+  "hannover-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Hannover_Hauptbahnhof",
+    "name": "Hannover Hauptbahnhof"
   },
   "hannover-hbf": {
     "been": false,
@@ -524,8 +719,16 @@
     "been": true,
     "coords": "39°19′28″N, 77°43′52″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Harpers_Ferry_station",
     "name": "Harper’s Ferry"
+  },
+  "heidelberg-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Heidelberg_Hauptbahnhof",
+    "name": "Heidelberg Hauptbahnhof"
   },
   "heidelberg-hbf": {
     "been": false,
@@ -539,6 +742,7 @@
     "been": false,
     "coords": "60°10′19″N, 24°56′29″E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Helsinki_Central_Station",
     "name": "Helsinki"
   },
@@ -546,6 +750,7 @@
     "been": true,
     "coords": "34°23′52″N, 132°28′32″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hiroshima_Station",
     "name": "Hiroshima"
   },
@@ -553,27 +758,52 @@
     "been": true,
     "coords": "40°44′6″N, 74°1′39″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoboken_Terminal",
     "name": "Hoboken"
+  },
+  "hodmezovasarhely": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://hu.wikipedia.org/wiki/Hódmezővásárhely_vasútállomás",
+    "name": "Hódmezővásárhely"
   },
   "hong-kong": {
     "been": true,
     "coords": "22.285°N, 114.158°E",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Hong_Kong_station",
     "name": "Hong Kong"
   },
   "ibadan-obafemi-awolowo": {
     "been": true,
     "country": "NG",
+    "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Railway_stations_in_Nigeria",
     "name": "Ibadan Obafemi Awolowo",
     "wikidata": "Q7284295"
+  },
+  "istanbul-haydarpasa": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Haydarpaşa_railway_station",
+    "name": "Istanbul Haydarpaşa"
+  },
+  "istanbul-sirkeci": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Sirkeci_railway_station",
+    "name": "Istanbul Sirkeci"
   },
   "jamaica": {
     "been": true,
     "coords": "40°41′59″N, 73°48′28″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jamaica_station",
     "name": "Jamaica"
   },
@@ -581,6 +811,7 @@
     "been": true,
     "coords": "31°44.885′N, 35°11.252′E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Jerusalem–Malha_railway_station",
     "name": "Jerusalem Malha"
   },
@@ -588,8 +819,23 @@
     "been": true,
     "coords": "31.788219°N, 35.202439°E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Jerusalem–Yitzhak_Navon_railway_station",
     "name": "Jerusalem Yitzhak Navon"
+  },
+  "karlovy-vary": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Karlovy_Vary%E2%80%93Johanngeorgenstadt_railway",
+    "name": "Karlovy Vary"
+  },
+  "kassel-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Kassel_Hauptbahnhof",
+    "name": "Kassel Hauptbahnhof"
   },
   "kassel-hbf": {
     "been": false,
@@ -603,6 +849,7 @@
     "been": true,
     "coords": "50°15′30″N, 19°01′03″E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Katowice_railway_station",
     "name": "Katowice"
   },
@@ -610,15 +857,38 @@
     "been": true,
     "coords": "55°47′17″N, 49°06′03″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kazan_railway_station",
     "name": "Kazan"
+  },
+  "kecskemet": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://hu.wikipedia.org/wiki/Kecskemét_vasútállomás",
+    "name": "Kecskemét"
+  },
+  "kelenfold": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kelenföld_railway_station",
+    "name": "Kelenföld"
   },
   "kings-cross": {
     "been": true,
     "coords": "51.5309°N, 0.1233°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_King%27s_Cross_railway_station",
     "name": "King’s Cross"
+  },
+  "koln-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Köln_Hauptbahnhof",
+    "name": "Köln Hauptbahnhof"
   },
   "koln-hbf": {
     "been": true,
@@ -631,6 +901,7 @@
     "been": true,
     "coords": "48.892222, 2.236944",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_la_Défense",
     "name": "La Défense",
     "wikidata": "Q2661251"
@@ -639,12 +910,14 @@
     "been": true,
     "coords": "41°24′20″N, 75°39′41″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Radisson_Lackawanna_Station_Hotel",
     "name": "Lackawanna"
   },
   "lagos-babatunde-fashola": {
     "been": true,
     "country": "NG",
+    "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Railway_stations_in_Nigeria",
     "name": "Lagos Babatunde Fashola",
     "wikidata": "Q7284295"
@@ -653,6 +926,7 @@
     "been": true,
     "coords": "35.4809°N, 105.88°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lamy_station",
     "name": "Lamy"
   },
@@ -660,8 +934,16 @@
     "been": true,
     "coords": "52°09′59″N, 4°28′56″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Leiden_Centraal_railway_station",
     "name": "Leiden Centraal"
+  },
+  "leipzig-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Leipzig_Hauptbahnhof",
+    "name": "Leipzig Hauptbahnhof"
   },
   "leipzig-hbf": {
     "been": false,
@@ -671,10 +953,18 @@
     "name": "Leipzig Hbf",
     "wikidata": "Q703916"
   },
+  "liberec": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Liberec_railway_station",
+    "name": "Liberec"
+  },
   "lille-europe": {
     "been": true,
     "coords": "50°38′22″N, 3°04′31″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lille-Europe_station",
     "name": "Lille Europe"
   },
@@ -682,6 +972,7 @@
     "been": true,
     "coords": "50°38′11″N, 3°4′15″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lille-Flandres_station",
     "name": "Lille Flandres"
   },
@@ -689,12 +980,14 @@
     "been": true,
     "coords": "38°42′53″N, 9°8′32″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Rossio_railway_station",
     "name": "Lisboa Rossio"
   },
   "lisboa-santa-apolonia": {
     "been": true,
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Santa_Apolónia_railway_station",
     "name": "Lisboa Santa Apolónia"
   },
@@ -702,6 +995,7 @@
     "been": false,
     "coords": "53.4075°N, 2.9784°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Liverpool_Lime_Street_railway_station",
     "name": "Liverpool Lime Street"
   },
@@ -709,6 +1003,7 @@
     "been": true,
     "coords": "51.5186°N, 0.0813°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Liverpool_Street_railway_station",
     "name": "Liverpool Street"
   },
@@ -716,6 +1011,7 @@
     "been": true,
     "coords": "46°03′32″N, 14°30′47″E",
     "country": "SI",
+    "icons": ["🇸🇮"],
     "link": "https://en.wikipedia.org/wiki/Ljubljana_railway_station",
     "name": "Ljubljana"
   },
@@ -723,6 +1019,7 @@
     "been": true,
     "coords": "51.5044°N, 0.0857°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_Bridge_station",
     "name": "London Bridge"
   },
@@ -730,6 +1027,7 @@
     "been": true,
     "coords": "51.4952°N, 0.1441°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_Victoria_railway_station",
     "name": "London Victoria"
   },
@@ -737,6 +1035,7 @@
     "been": true,
     "coords": "34.05515°N, 118.23525°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Union_Station_(Los_Angeles)",
     "name": "Los Angeles Union Station"
   },
@@ -744,6 +1043,7 @@
     "been": true,
     "coords": "49.6, 6.133889",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Luxembourg",
     "name": "Luxembourg",
     "wikidata": "Q801140"
@@ -752,6 +1052,7 @@
     "been": true,
     "coords": "45°45′38″N, 4°51′34″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lyon-Part-Dieu_station",
     "name": "Lyon Part-Dieu"
   },
@@ -759,6 +1060,7 @@
     "been": true,
     "coords": "45.748333333333, 4.8255555555556",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Lyon-Perrache",
     "name": "Lyon Perrache",
     "wikidata": "Q1992"
@@ -767,6 +1069,7 @@
     "been": true,
     "coords": "40.406528°N, 3.689373°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Madrid_Atocha_railway_station",
     "name": "Madrid Atocha"
   },
@@ -774,6 +1077,7 @@
     "been": true,
     "coords": "40.4466221°N, 3.6924595°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Nuevos_Ministerios_(Madrid_Metro)",
     "name": "Madrid Nuevos Ministerios"
   },
@@ -781,13 +1085,22 @@
     "been": true,
     "coords": "53.477°N, 2.23°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Manchester_Piccadilly_station",
     "name": "Manchester Piccadilly"
+  },
+  "marianske-lazne": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B",
+    "name": "Mariánské Lázně"
   },
   "marlybone": {
     "been": true,
     "coords": "51.5223°N, 0.1634°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Marylebone_railway_station",
     "name": "Marlybone"
   },
@@ -795,6 +1108,7 @@
     "been": true,
     "coords": "48.869722222222, 2.7827777777778",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Marne-la-Vallée_-_Chessy",
     "name": "Marne-la-Vallée Chessy",
     "wikidata": "Q801167"
@@ -803,6 +1117,7 @@
     "been": false,
     "coords": "43°18′11″N, 5°22′52″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Marseille-Saint-Charles_station",
     "name": "Marseille Saint-Charles"
   },
@@ -810,6 +1125,7 @@
     "been": true,
     "coords": "48.726111, 2.261667",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Massy_TGV",
     "name": "Massy TGV",
     "wikidata": "Q801170"
@@ -818,6 +1134,7 @@
     "been": true,
     "coords": "25.77753°N, 80.19578°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/MiamiCentral",
     "name": "Miami Central"
   },
@@ -825,6 +1142,7 @@
     "been": true,
     "coords": "25°47′48″N, 80°15′41″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Miami_Intermodal_Center",
     "name": "Miami Intermodal Center"
   },
@@ -832,6 +1150,7 @@
     "been": false,
     "coords": "42°19′43.69″N, 083°04′39.83″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Michigan_Central_Station",
     "name": "Michigan Central Station"
   },
@@ -839,6 +1158,7 @@
     "been": false,
     "coords": "45°29′10″N, 09°12′13″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milano_Centrale_railway_station",
     "name": "Milan Centrale"
   },
@@ -846,6 +1166,7 @@
     "been": true,
     "coords": "43.738175, 7.419869",
     "country": "MC",
+    "icons": ["🇲🇨"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Monaco-Monte-Carlo",
     "name": "Monaco Monte Carlo",
     "wikidata": "Q801195"
@@ -854,6 +1175,7 @@
     "been": true,
     "coords": "48.839333333333336, 2.318288888888889",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Montparnasse",
     "name": "Montparnasse",
     "wikidata": "Q631114"
@@ -862,21 +1184,16 @@
     "been": true,
     "coords": "43.604636111111, 3.8810388888889",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Montpellier-Saint-Roch",
     "name": "Montpellier Saint-Roch",
     "wikidata": "Q801197"
-  },
-  "moscow-pennsylvania": {
-    "been": true,
-    "coords": "41°20′21″N, 75°31′45″W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Moscow,_Pennsylvania",
-    "name": "Moscow, Pennsylvania"
   },
   "moscow-belarussky": {
     "been": true,
     "coords": "55°46′35″N, 37°34′49″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Belorussky_railway_station",
     "name": "Moscow Belarussky"
   },
@@ -884,6 +1201,7 @@
     "been": true,
     "coords": "55.773333°N, 37.656389°E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Kazansky_railway_station",
     "name": "Moscow Kazansky"
   },
@@ -891,8 +1209,31 @@
     "been": true,
     "coords": "55.776111°N, 37.655278°E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Leningradsky_railway_station",
     "name": "Moscow Leningradsky"
+  },
+  "moscow-pennsylvania": {
+    "been": true,
+    "coords": "41°20′21″N, 75°31′45″W",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Moscow,_Pennsylvania",
+    "name": "Moscow, Pennsylvania"
+  },
+  "most": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Most_(city)#Transport",
+    "name": "Most"
+  },
+  "munchen-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/München_Hauptbahnhof",
+    "name": "München Hauptbahnhof"
   },
   "munchen-hbf": {
     "been": false,
@@ -906,13 +1247,22 @@
     "been": true,
     "coords": "1.291664°S, 36.828619°E",
     "country": "KE",
+    "icons": ["🇰🇪"],
     "link": "https://en.wikipedia.org/wiki/Nairobi_railway_station",
     "name": "Nairobi"
+  },
+  "namur": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Namur",
+    "name": "Namur"
   },
   "napoli-centrale": {
     "been": true,
     "coords": "40°51′09″N, 14°16′19″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Napoli_Centrale",
     "name": "Napoli Centrale"
   },
@@ -920,6 +1270,7 @@
     "been": true,
     "coords": "41°17′51″N, 72°55′36″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Union_Station_(New_Haven)",
     "name": "New Haven Union Station"
   },
@@ -927,6 +1278,7 @@
     "been": true,
     "coords": "40.750638, -73.993899",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pennsylvania_Station_(New_York_City)",
     "name": "New York Penn",
     "wikidata": "Q54451"
@@ -935,6 +1287,7 @@
     "been": true,
     "coords": "40°44′5″N, 74°9′51″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pennsylvania_Station_(Newark)",
     "name": "Newark Penn"
   },
@@ -942,6 +1295,7 @@
     "been": true,
     "coords": "45°15′56.45″N, 19°49′45.84″E",
     "country": "RS",
+    "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Novi_Sad_railway_station",
     "name": "Novi Sad"
   },
@@ -949,13 +1303,15 @@
     "been": true,
     "coords": "28.41453°N, 81.30818°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Orlando_International_Airport_Intermodal_Terminal",
     "name": "Orlando Intermodal Terminal"
   },
   "oslo": {
-    "been": false,
+    "been": true,
     "coords": "59°54′40″N, 10°45′3″E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Central_Station",
     "name": "Oslo"
   },
@@ -963,6 +1319,7 @@
     "been": true,
     "coords": "12.3739, -1.52658",
     "country": "BF",
+    "icons": ["🇧🇫"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Ouagadougou",
     "name": "Ouagadougou",
     "wikidata": "Q17523739"
@@ -971,6 +1328,7 @@
     "been": true,
     "coords": "51.5173°N, 0.1774°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Paddington_railway_station",
     "name": "Paddington"
   },
@@ -978,6 +1336,7 @@
     "been": true,
     "coords": "38°06′36″N, 13°22′01″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Palermo_Centrale_railway_station",
     "name": "Palermo Centrale"
   },
@@ -985,6 +1344,7 @@
     "been": true,
     "coords": "39°57′21″N, 75°10′55″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/30th_Street_Station",
     "name": "Philadelphia 30th Street"
   },
@@ -992,13 +1352,29 @@
     "been": true,
     "coords": "40°26′41.1″N, 79°59′31.7″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh_Union_Station",
     "name": "Pittsburgh Union Station"
+  },
+  "plzen-hlavni-nadrazi": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Plze%C5%88_main_railway_station",
+    "name": "Plzeň Hlavní Nádraží"
+  },
+  "plzen-jizni-predmesti": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Plzeň-Jižní_Předměstí_(nádraží)",
+    "name": "Plzeň Jižní Předměstí"
   },
   "podgorica": {
     "been": true,
     "coords": "42.4325°N, 19.2693°E",
     "country": "ME",
+    "icons": ["🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Podgorica_railway_station",
     "name": "Podgorica"
   },
@@ -1006,19 +1382,23 @@
     "been": true,
     "coords": "45.529°N, 122.6768°W",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Portland_Union_Station",
-    "name": "Portland Union Station"
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Union_Station_(Portland,_Maine)",
+    "name": "Portland Union Station",
+    "strike": true
   },
   "porto-sao-bento": {
     "been": true,
     "coords": "41°8′44″N, 8°36′37.2″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/São_Bento_railway_station",
     "name": "Porto São Bento"
   },
   "praha-hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Praha_hlavn%C3%AD_nádraž%C3%AD",
     "name": "Praha Hlavní Nádraží"
   },
@@ -1026,12 +1406,14 @@
     "been": true,
     "coords": "50.110278°N, 14.439722°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Praha-Holešovice_railway_station",
     "name": "Praha Holešovice"
   },
   "praha-masarykovo": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Praha_Masarykovo_nádraž%C3%AD",
     "name": "Praha Masarykovo"
   },
@@ -1039,6 +1421,7 @@
     "been": false,
     "coords": "39°00′17″N, 125°44′11″E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Pyongyang_station",
     "name": "Pyongyang"
   },
@@ -1046,6 +1429,7 @@
     "been": true,
     "coords": "37°32′05″N, 77°25′45″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Richmond_Main_Street_Station",
     "name": "Richmond Main Street"
   },
@@ -1053,6 +1437,7 @@
     "been": true,
     "coords": "56.947222°N, 24.122222°E",
     "country": "LV",
+    "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Riga_Central_Station",
     "name": "Riga"
   },
@@ -1060,6 +1445,7 @@
     "been": true,
     "coords": "43.1635°N, 77.6082°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Louise_M._Slaughter_Rochester_Station",
     "name": "Rochester"
   },
@@ -1067,6 +1453,7 @@
     "been": false,
     "coords": "41°54′03″N, 12°30′07″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Roma_Termini_railway_station",
     "name": "Roma Termini"
   },
@@ -1074,6 +1461,7 @@
     "been": true,
     "coords": "51.53969, 4.45875",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Roosendaal",
     "name": "Roosendaal",
     "wikidata": "Q801378"
@@ -1082,6 +1470,7 @@
     "been": true,
     "coords": "51°55′28″N, 4°28′10″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Rotterdam_Centraal_station",
     "name": "Rotterdam Centraal"
   },
@@ -1089,6 +1478,7 @@
     "been": false,
     "coords": "44.9948°N, 73.3712°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rouses_Point_station",
     "name": "Rouses Point"
   },
@@ -1096,6 +1486,7 @@
     "been": true,
     "coords": "14.716667, -17.266667",
     "country": "SN",
+    "icons": ["🇸🇳"],
     "link": "https://fr.wikipedia.org/wiki/Rufisque",
     "name": "Rufisque",
     "wikidata": "Q1019424"
@@ -1104,6 +1495,7 @@
     "been": true,
     "coords": "49°14′29″N, 6°59′26″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Saarbrücken_Hauptbahnhof",
     "name": "Saarbrücken"
   },
@@ -1111,6 +1503,7 @@
     "been": true,
     "coords": "48°52′37″N, 2°19′28″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Gare_Saint-Lazare",
     "name": "Saint Lazare"
   },
@@ -1118,6 +1511,7 @@
     "been": true,
     "coords": "43°04′07″N, 141°21′02.8″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Sapporo_Station",
     "name": "Sapporo"
   },
@@ -1125,6 +1519,7 @@
     "been": true,
     "coords": "43°51′37″N, 18°23′57″E",
     "country": "BA",
+    "icons": ["🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Sarajevo_main_railway_station",
     "name": "Sarajevo"
   },
@@ -1132,6 +1527,7 @@
     "been": true,
     "coords": "52°18′32″N, 4°45′42″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Schiphol_Airport_railway_station",
     "name": "Schiphol"
   },
@@ -1139,6 +1535,7 @@
     "been": true,
     "coords": "47.5987°N, 122.3285°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seattle_Union_Station",
     "name": "Seattle Union Station"
   },
@@ -1146,6 +1543,7 @@
     "been": false,
     "coords": "34.211004°N, 132.006315°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Seiryu_Miharashi_Station",
     "name": "Seiryu Miharashi"
   },
@@ -1153,6 +1551,7 @@
     "been": true,
     "coords": "37.55319°N, 126.9726°E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Seoul_Station",
     "name": "Seoul"
   },
@@ -1160,6 +1559,7 @@
     "been": true,
     "coords": "53.378°N, 1.462°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Sheffield_station",
     "name": "Sheffield"
   },
@@ -1167,6 +1567,7 @@
     "been": true,
     "coords": "22.5344°N, 114.1121°E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Shenzhen_railway_station",
     "name": "Shenzhen"
   },
@@ -1174,6 +1575,7 @@
     "been": true,
     "coords": "35.658514°N, 139.70133°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shibuya_Station",
     "name": "Shibuya"
   },
@@ -1181,6 +1583,7 @@
     "been": true,
     "coords": "34°44′0.54″N, 135°30′0.41″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shin-Ōsaka_Station",
     "name": "Shin-Ōsaka"
   },
@@ -1188,6 +1591,7 @@
     "been": true,
     "coords": "35°41′22″N, 139°42′02″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shinjuku_Station",
     "name": "Shinjuku"
   },
@@ -1195,6 +1599,7 @@
     "been": true,
     "coords": "51°31′48″N, 00°07′31″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/St_Pancras_railway_station",
     "name": "St Pancras"
   },
@@ -1202,6 +1607,7 @@
     "been": false,
     "coords": "59°57′20″N, 30°21′24″E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Finland_Station",
     "name": "St Petersburg Finlyandsky"
   },
@@ -1209,6 +1615,7 @@
     "been": true,
     "coords": "59°55′47″N, 30°21′44″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moskovsky_railway_station_(Saint_Petersburg)",
     "name": "St Petersburg Moskovsky"
   },
@@ -1216,6 +1623,7 @@
     "been": true,
     "coords": "41.40733°N, 75.67132°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Steamtown_National_Historic_Site",
     "name": "Steamtown"
   },
@@ -1223,6 +1631,7 @@
     "been": true,
     "coords": "59.330°N, 18.056°E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_Central_Station",
     "name": "Stockholm"
   },
@@ -1230,8 +1639,16 @@
     "been": true,
     "coords": "51.5422°N, 0.0033°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Stratford_station",
     "name": "Stratford"
+  },
+  "stuttgart-hauptbahnhof": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Stuttgart_Hauptbahnhof",
+    "name": "Stuttgart Hauptbahnhof"
   },
   "stuttgart-hbf": {
     "been": false,
@@ -1240,10 +1657,18 @@
     "link": "https://en.wikipedia.org/wiki/Stuttgart_Hauptbahnhof",
     "name": "Stuttgart Hbf"
   },
+  "szeged": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Szeged#Transport",
+    "name": "Szeged"
+  },
   "talinn": {
     "been": true,
     "coords": "59°26′23.82″N, 24°44′13.74″E",
     "country": "EE",
+    "icons": ["🇪🇪"],
     "link": "https://en.wikipedia.org/wiki/Tallinn_Baltic_Station",
     "name": "Talinn"
   },
@@ -1251,6 +1676,7 @@
     "been": false,
     "coords": "35°39′29″N, 51°23′52″E",
     "country": "IR",
+    "icons": ["🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Tehran_railway_station",
     "name": "Tehran"
   },
@@ -1258,13 +1684,22 @@
     "been": true,
     "coords": "32°04′24″N, 34°47′35.5″E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Tel_Aviv_HaShalom_railway_station",
     "name": "Tel Aviv HaShalom"
+  },
+  "teplice-cechach": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Teplice",
+    "name": "Teplice Cechách"
   },
   "tokyo": {
     "been": true,
     "coords": "35°40′51″N, 139°46′01″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tokyo_Station",
     "name": "Tokyo"
   },
@@ -1272,6 +1707,7 @@
     "been": false,
     "coords": "45°03′45″N, 7°40′44″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Torino_Porta_Nuova",
     "name": "Torino Porta Nuova"
   },
@@ -1279,6 +1715,7 @@
     "been": true,
     "coords": "43°38′43″N, 79°22′50″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Union_Station_(Toronto)",
     "name": "Toronto Union Station"
   },
@@ -1286,9 +1723,17 @@
     "been": true,
     "coords": "43.611111111111, 1.4536111111111",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Toulouse-Matabiau",
     "name": "Toulouse Matabiau",
     "wikidata": "Q373449"
+  },
+  "trier-hauptbahnhof": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Trier_Hauptbahnhof",
+    "name": "Trier Hauptbahnhof"
   },
   "trier-hbf": {
     "been": true,
@@ -1301,6 +1746,7 @@
     "been": true,
     "coords": "48°22′39″N, 17°35′18″E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Trnava#Transport",
     "name": "Trnava"
   },
@@ -1308,6 +1754,7 @@
     "been": true,
     "coords": "52°5′21″N, 5°6′35″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Utrecht_Centraal_railway_station",
     "name": "Utrecht Centraal"
   },
@@ -1315,6 +1762,7 @@
     "been": true,
     "coords": "51.4854°N, 0.1229°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Vauxhall_railway_station",
     "name": "Vauxhall"
   },
@@ -1322,6 +1770,7 @@
     "been": true,
     "coords": "45°26′27″N, 12°19′15″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Venezia_Santa_Lucia_railway_station",
     "name": "Venezia Santa Lucia"
   },
@@ -1329,6 +1778,7 @@
     "been": true,
     "coords": "43°47′33″N, 07°36′36″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Ventimiglia_railway_station",
     "name": "Ventimiglia"
   },
@@ -1336,6 +1786,7 @@
     "been": true,
     "coords": "52.228611°N, 21.003056°E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Warszawa_Centralna_railway_station",
     "name": "Warszawa Centralna"
   },
@@ -1343,6 +1794,7 @@
     "been": true,
     "coords": "38.89731°N, 77.00626°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington_Union_Station",
     "name": "Washington Union Station"
   },
@@ -1350,8 +1802,16 @@
     "been": true,
     "coords": "51.5031°N, 0.1132°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_Waterloo_railway_station",
     "name": "Waterloo"
+  },
+  "wien-hauptbahnhof": {
+    "been": true,
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Wien_Hauptbahnhof",
+    "name": "Wien Hauptbahnhof"
   },
   "wien-hbf": {
     "been": true,
@@ -1364,6 +1824,7 @@
     "been": true,
     "coords": "48.196667, 16.337778",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://de.wikipedia.org/wiki/Wien_Westbahnhof",
     "name": "Wien Westbahnhof",
     "wikidata": "Q698145"
@@ -1372,6 +1833,7 @@
     "been": true,
     "coords": "52.37583333333333, 4.531388888888889",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Station_Zandvoort_aan_Zee",
     "name": "Zandvoort aan Zee",
     "wikidata": "Q2029408"
@@ -1380,8 +1842,16 @@
     "been": true,
     "coords": "46°1′27″N, 07°44′51″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Zermatt_railway_station",
     "name": "Zermatt"
+  },
+  "zurich-hauptbahnhof": {
+    "been": true,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Zürich_Hauptbahnhof",
+    "name": "Zürich Hauptbahnhof"
   },
   "zurich-hbf": {
     "been": true,

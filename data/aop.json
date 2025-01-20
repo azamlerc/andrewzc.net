@@ -3,6 +3,7 @@
     "been": true,
     "coords": "45.5503°N, 3.7425°E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Ambert",
     "name": "Ambert"
   },
@@ -10,6 +11,7 @@
     "been": false,
     "coords": "45°52′N, 11°31′E",
     "country": "IT",
+    "icons": ["🇮🇹", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Asiago",
     "name": "Asiago"
   },
@@ -17,20 +19,33 @@
     "been": true,
     "coords": "45°20′N, 3°00′E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Auvergne",
     "name": "Auvergne"
   },
   "badoit": {
     "been": false,
+    "coords": "45.5908°N, 4.3181°E",
     "country": "FR",
+    "icons": ["🇫🇷", "⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Saint-Galmier",
     "name": "Badoit",
     "wikidata": "Q2878765"
+  },
+  "bouillon": {
+    "been": true,
+    "coords": "49°47.73′N, 05°4.08′E",
+    "country": "BE",
+    "icons": ["🇧🇪", "🍲"],
+    "link": "https://en.wikipedia.org/wiki/Bouillon,_Belgium",
+    "name": "Bouillon"
   },
   "brie": {
     "been": true,
     "coords": "45.737777777778, 0.24083333333333",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Brie",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Brie_(region)",
     "name": "Brie",
     "wikidata": "Q1601473"
   },
@@ -38,6 +53,7 @@
     "been": true,
     "coords": "44.4483°N, 1.4414°E",
     "country": "FR",
+    "icons": ["🇫🇷", "🍷"],
     "link": "https://en.wikipedia.org/wiki/Cahors",
     "name": "Cahors"
   },
@@ -45,6 +61,7 @@
     "been": true,
     "coords": "45°2′N, 3°6′E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Cantal",
     "name": "Cantal"
   },
@@ -52,12 +69,16 @@
     "been": true,
     "coords": "44°9′N, 3°15′E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Causses",
     "name": "Causses"
   },
   "champagne": {
     "been": true,
+    "coords": "49°N, 4°E",
     "country": "FR",
+    "icons": ["🇫🇷", "🍾"],
+    "link": "https://en.wikipedia.org/wiki/Champagne_wine_region",
     "name": "Champagne",
     "wikidata": "Q314814"
   },
@@ -65,7 +86,8 @@
     "been": true,
     "coords": "51.2785, -2.7777",
     "country": "GB",
-    "link": "https://en.wikipedia.org/wiki/Cheddar",
+    "icons": ["🇬🇧", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Cheddar,_Somerset",
     "name": "Cheddar",
     "wikidata": "Q1019479"
   },
@@ -73,6 +95,7 @@
     "been": false,
     "coords": "46.98494°N, 7.76321°E",
     "country": "CH",
+    "icons": ["🇨🇭", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Emmental",
     "name": "Emmental"
   },
@@ -80,7 +103,8 @@
     "been": true,
     "coords": "46.400555555556, 6.59",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Evian",
+    "icons": ["🇫🇷", "⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Évian-les-Bains",
     "name": "Evian",
     "wikidata": "Q273017"
   },
@@ -88,7 +112,8 @@
     "been": false,
     "coords": "45.533333333333, 9.4",
     "country": "IT",
-    "link": "https://en.wikipedia.org/wiki/Gorgonzola",
+    "icons": ["🇮🇹", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Gorgonzola,_Milan",
     "name": "Gorgonzola",
     "wikidata": "Q43055"
   },
@@ -96,18 +121,25 @@
     "been": true,
     "coords": "52.018055555555556, 4.705555555555556",
     "country": "NL",
-    "link": "https://en.wikipedia.org/wiki/Gouda",
+    "icons": ["🇳🇱", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Gouda,_South_Holland",
     "name": "Gouda",
     "wikidata": "Q84125"
   },
   "gruyere": {
     "been": false,
+    "coords": "46°35′N, 7°5′E",
     "country": "CH",
+    "icons": ["🇨🇭", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Gruyères",
     "name": "Gruyère"
   },
   "halloumi": {
     "been": false,
+    "coords": "35°10′N, 33°22′E",
     "country": "CY",
+    "icons": ["🇨🇾", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Cyprus",
     "name": "Halloumi",
     "wikidata": "Q549793"
   },
@@ -115,12 +147,16 @@
     "been": false,
     "coords": "7°29′30″S, 110°00′16″E",
     "country": "ID",
+    "icons": ["🇮🇩", "☕️"],
     "link": "https://en.wikipedia.org/wiki/Java",
     "name": "Java"
   },
   "latte": {
     "been": true,
+    "coords": "44°4′N, 7°49′E",
     "country": "IT",
+    "icons": ["🇮🇹", "🥛"],
+    "link": "https://en.wikipedia.org/wiki/Montegrosso_Pian_Latte",
     "name": "Latte",
     "wikidata": "Q841774"
   },
@@ -128,12 +164,16 @@
     "been": true,
     "coords": "52.16°N, 4.49°E",
     "country": "NL",
+    "icons": ["🇳🇱", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Leiden",
     "name": "Leiden"
   },
   "manchego": {
     "been": false,
+    "coords": "39°24′04″N, 3°00′54″W",
     "country": "ES",
+    "icons": ["🇪🇸", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/La_Mancha",
     "name": "Manchego",
     "wikidata": "Q6747212"
   },
@@ -141,6 +181,7 @@
     "been": false,
     "coords": "13°19′13″N, 43°15′00″E",
     "country": "YE",
+    "icons": ["🇾🇪", "☕️"],
     "link": "https://en.wikipedia.org/wiki/Mokha",
     "name": "Mokha"
   },
@@ -148,7 +189,8 @@
     "been": true,
     "coords": "45.6075, 4.0652777777778",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Montbrison",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Montbrison,_Loire",
     "name": "Montbrison",
     "wikidata": "Q213288"
   },
@@ -156,6 +198,7 @@
     "been": false,
     "coords": "52°15′N, 9°00′W",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Munster",
     "name": "Munster"
   },
@@ -163,13 +206,15 @@
     "been": false,
     "coords": "60.225°N, 24.756°E",
     "country": "FI",
-    "link": "https://en.wikipedia.org/wiki/Nokia",
+    "icons": ["🇫🇮", "📱"],
+    "link": "https://en.wikipedia.org/wiki/Nokia,_Finland",
     "name": "Nokia"
   },
   "parma": {
     "been": false,
     "coords": "44°48′05.3″N, 10°19′40.8″E",
     "country": "IT",
+    "icons": ["🇮🇹", "🍖"],
     "link": "https://en.wikipedia.org/wiki/Parma",
     "name": "Parma"
   },
@@ -177,19 +222,32 @@
     "been": false,
     "coords": "43.7285°N, 4.2434°E",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Perrier",
+    "icons": ["🇫🇷", "⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Perrier,_Puy-de-Dôme",
     "name": "Perrier"
   },
   "philadelphia": {
     "been": true,
     "coords": "39.9528°N, 75.1636°W",
     "country": "US",
+    "icons": ["🇺🇸", "🥯"],
     "link": "https://en.wikipedia.org/wiki/Philadelphia",
     "name": "Philadelphia"
   },
+  "pilsner": {
+    "been": true,
+    "coords": "49°44′51″N, 13°22′39″E",
+    "country": "CZ",
+    "icons": ["🇨🇿", "🍺"],
+    "link": "https://en.wikipedia.org/wiki/Plzeň",
+    "name": "Pilsner"
+  },
   "reblochon": {
     "been": false,
+    "coords": "46°00′N, 06°20′E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Haute-Savoie",
     "name": "Reblochon",
     "wikidata": "Q543805"
   },
@@ -197,6 +255,7 @@
     "been": true,
     "coords": "44.8003°N, 1.6186°E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
     "link": "https://en.wikipedia.org/wiki/Rocamadour",
     "name": "Rocamadour"
   },
@@ -204,7 +263,8 @@
     "been": true,
     "coords": "44.033333333333, -0.3225",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Roquefort",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Roquefort-sur-Soulzon",
     "name": "Roquefort",
     "wikidata": "Q474852"
   },
@@ -212,20 +272,25 @@
     "been": true,
     "coords": "42.618055555556, 3.0063888888889",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Saint_Cyprien",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Saint-Cyprien,_Pyrénées-Orientales",
     "name": "Saint Cyprien",
     "wikidata": "Q752547"
   },
   "saint-marcellin": {
     "been": true,
+    "coords": "45.1539°N, 5.3206°E",
     "country": "FR",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Saint-Marcellin,_Isère",
     "name": "Saint Marcellin"
   },
   "saint-nectaire": {
     "been": true,
     "coords": "45.588055555556, 2.9927777777778",
     "country": "FR",
-    "link": "https://en.wikipedia.org/wiki/Saint_Nectaire",
+    "icons": ["🇫🇷", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Saint-Nectaire,_Puy-de-Dôme",
     "name": "Saint Nectaire",
     "wikidata": "Q822303"
   },
@@ -233,13 +298,17 @@
     "been": false,
     "coords": "45.833333333333, 9.6666666666667",
     "country": "IT",
-    "link": "https://en.wikipedia.org/wiki/San_Pellegrino",
+    "icons": ["🇮🇹", "⛲️"],
+    "link": "https://en.wikipedia.org/wiki/San_Pellegrino_Terme",
     "name": "San Pellegrino",
     "wikidata": "Q101551"
   },
   "spa": {
     "been": true,
+    "coords": "50°29′33″N, 5°51′51″E",
     "country": "BE",
+    "icons": ["🇧🇪", "⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Spa,_Belgium",
     "name": "Spa",
     "wikidata": "Q1341387"
   },
@@ -247,7 +316,8 @@
     "been": true,
     "coords": "45.455277777778, -123.8425",
     "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Tillamook",
+    "icons": ["🇺🇸", "🧀"],
+    "link": "https://en.wikipedia.org/wiki/Tillamook,_Oregon",
     "name": "Tillamook",
     "wikidata": "Q764687"
   },
@@ -255,6 +325,7 @@
     "been": false,
     "coords": "48.2025°N, 5.9503°E",
     "country": "FR",
+    "icons": ["🇫🇷", "⛲️"],
     "link": "https://en.wikipedia.org/wiki/Vittel",
     "name": "Vittel"
   },
@@ -262,6 +333,7 @@
     "been": false,
     "coords": "45.8711°N, 3.0378°E",
     "country": "FR",
+    "icons": ["🇫🇷", "⛲️"],
     "link": "https://en.wikipedia.org/wiki/Volvic",
     "name": "Volvic"
   }

@@ -3,6 +3,7 @@
     "been": false,
     "coords": "43°0′0″N, 41°1′40″E",
     "countries": ["GE", "RU"],
+    "icons": ["🇬🇪", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Abkhazia",
     "name": "Abkhazia"
   },
@@ -10,6 +11,7 @@
     "been": false,
     "coords": "25°52′N, 55°02′E",
     "countries": ["IR", "AE"],
+    "icons": ["🇮🇷", "🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Abu_Musa",
     "name": "Abu Musa"
   },
@@ -17,6 +19,7 @@
     "been": false,
     "coords": "9.595°N, 28.436°E",
     "countries": ["SD", "SS"],
+    "icons": ["🇸🇩", "🇸🇸"],
     "link": "https://en.wikipedia.org/wiki/Abyei",
     "name": "Abyei"
   },
@@ -24,6 +27,7 @@
     "been": false,
     "coords": "2.07504°S, 30.018929°E",
     "countries": ["RW", "BI"],
+    "icons": ["🇷🇼", "🇧🇮"],
     "link": "https://en.wikipedia.org/wiki/Akanyaru_River",
     "name": "Akanyaru River"
   },
@@ -31,6 +35,7 @@
     "been": false,
     "coords": "35.0°N, 79.0°E",
     "countries": ["CN", "IN"],
+    "icons": ["🇨🇳", "🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Aksai_Chin",
     "name": "Aksai Chin"
   },
@@ -38,6 +43,7 @@
     "been": false,
     "coords": "60°07′N, 019°54′E",
     "countries": ["AX", "SE"],
+    "icons": ["🇦🇽", "🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/%C3%85land",
     "name": "Åland"
   },
@@ -45,12 +51,14 @@
     "been": false,
     "coords": "3°47′50″N, 118°51′15″E",
     "countries": ["ID", "MY"],
+    "icons": ["🇮🇩", "🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Ambalat",
     "name": "Ambalat"
   },
   "arroyo-de-la-invernada": {
     "been": false,
     "countries": ["BR", "UY"],
+    "icons": ["🇧🇷", "🇺🇾"],
     "link": "https://en.wikipedia.org/wiki/Arroyo_de_la_Invernada",
     "name": "Arroyo de la Invernada"
   },
@@ -58,6 +66,7 @@
     "been": false,
     "coords": "40°38′46″N, 45°30′56″E",
     "countries": ["AM", "AZ"],
+    "icons": ["🇦🇲", "🇦🇿"],
     "link": "https://en.wikipedia.org/wiki/Artsvashen",
     "name": "Artsvashen"
   },
@@ -65,6 +74,7 @@
     "been": false,
     "coords": "27.06°N, 93.37°E",
     "countries": ["IN", "CN"],
+    "icons": ["🇮🇳", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Arunachal_Pradesh",
     "name": "Arunachal Pradesh"
   },
@@ -72,6 +82,7 @@
     "been": false,
     "coords": "12°15′30″S, 123°02′30″E",
     "countries": ["AU", "ID"],
+    "icons": ["🇦🇺", "🇮🇩"],
     "link": "https://en.wikipedia.org/wiki/Ashmore_and_Cartier_Islands",
     "name": "Ashmore and Cartier Islands"
   },
@@ -79,6 +90,7 @@
     "been": false,
     "coords": "15°53′N, 78°38′W",
     "countries": ["CO", "HN"],
+    "icons": ["🇨🇴", "🇭🇳"],
     "link": "https://en.wikipedia.org/wiki/Bajo_Nuevo_Bank",
     "name": "Bajo Nuevo Bank"
   },
@@ -86,6 +98,7 @@
     "been": false,
     "coords": "27°28.0′N, 89°38.5′E",
     "countries": ["BT", "CN"],
+    "icons": ["🇧🇹", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Bhutan",
     "name": "Bhutan"
   },
@@ -93,6 +106,7 @@
     "been": false,
     "coords": "21°52′9″N, 33°44′52″E",
     "countries": ["EG", "SD"],
+    "icons": ["🇪🇬", "🇸🇩"],
     "link": "https://en.wikipedia.org/wiki/Bir_Tawil",
     "name": "Bir Tawil"
   },
@@ -100,13 +114,24 @@
     "been": false,
     "coords": "6°28′30″N, 99°39′12″E",
     "countries": ["TH", "MY"],
+    "icons": ["🇹🇭", "🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Malaysia%E2%80%93Thailand_border#Bukit_Jeli",
     "name": "Bukit Jeli"
+  },
+  "california-/-oregon-": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Adams–On%C3%ADs_Treaty",
+    "name": "California / Oregon ",
+    "states": ["OR", "CA"],
+    "strike": true
   },
   "conejo-island": {
     "been": false,
     "coords": "13°20′52″N, 87°44′34″W",
     "countries": ["HN", "SV"],
+    "icons": ["🇭🇳", "🇸🇻"],
     "link": "https://en.wikipedia.org/wiki/Conejo_Island",
     "name": "Conejo Island"
   },
@@ -114,6 +139,7 @@
     "been": false,
     "coords": "0°29′33.7776″N, 25°12′24.8688″E",
     "countries": ["CG", "CD"],
+    "icons": ["🇨🇬", "🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Congo_River",
     "name": "Congo River"
   },
@@ -121,6 +147,7 @@
     "been": false,
     "coords": "45.3°N, 34.4°E",
     "countries": ["UA", "RU"],
+    "icons": ["🇺🇦", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Crimea",
     "name": "Crimea"
   },
@@ -128,6 +155,7 @@
     "been": false,
     "coords": "35°53′18″N, 5°18′56″W",
     "countries": ["ES", "MA"],
+    "icons": ["🇪🇸", "🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Ceuta",
     "name": "Cueta"
   },
@@ -135,6 +163,7 @@
     "been": false,
     "coords": "48°05′44″N, 08°09′18″E",
     "countries": ["HR", "RS"],
+    "icons": ["🇭🇷", "🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Croatia–Serbia_border_dispute",
     "name": "Danube River"
   },
@@ -142,20 +171,33 @@
     "been": false,
     "coords": "41.4473°N, 45.3765°E",
     "countries": ["GE", "AZ"],
+    "icons": ["🇬🇪", "🇦🇿"],
     "link": "https://en.wikipedia.org/wiki/David_Gareja_monastery_complex",
     "name": "David Gareja Monastery"
+  },
+  "delaware-wedge": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wedge_(border)",
+    "name": "Delaware Wedge",
+    "states": ["DE", "MD"],
+    "strike": true
   },
   "diego-garcia": {
     "been": false,
     "coords": "7°18′48″S, 72°24′40″E",
     "countries": ["IO", "MU"],
+    "icons": ["🇮🇴", "🇲🇺"],
     "link": "https://en.wikipedia.org/wiki/Diego_Garcia",
-    "name": "Diego Garcia"
+    "name": "Diego Garcia",
+    "strike": true
   },
   "doi-lang": {
     "been": false,
     "coords": "19.98777778, 99.14638889",
     "countries": ["MM", "TH"],
+    "icons": ["🇲🇲", "🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Doi_Pha_Hom_Pok_National_Park",
     "name": "Doi Lang"
   },
@@ -163,6 +205,7 @@
     "been": false,
     "coords": "48.0, 37.8",
     "countries": ["UA", "RU"],
+    "icons": ["🇺🇦", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine",
     "name": "Donbas"
   },
@@ -170,6 +213,7 @@
     "been": false,
     "coords": "12°42′40″N, 43°8′0″E",
     "countries": ["ER", "DJ"],
+    "icons": ["🇪🇷", "🇩🇯"],
     "link": "https://en.wikipedia.org/wiki/Ras_Doumeira",
     "name": "Doumeira"
   },
@@ -177,6 +221,7 @@
     "been": false,
     "coords": "45°28′42″N, 13°35′10″E",
     "countries": ["SI", "HR"],
+    "icons": ["🇸🇮", "🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Dragonja",
     "name": "Dragonja River"
   },
@@ -184,6 +229,7 @@
     "been": false,
     "coords": "43.34861111111111, 18.839444444444446",
     "countries": ["BA", "RS"],
+    "icons": ["🇧🇦", "🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Drina",
     "name": "Drina River"
   },
@@ -191,12 +237,14 @@
     "been": false,
     "coords": "51°41′43″S, 57°50′58″W",
     "countries": ["GB", "AR"],
+    "icons": ["🇬🇧", "🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Falkland_Islands",
     "name": "Falkland Islands"
   },
   "fasht-ad-dibal": {
     "been": false,
     "countries": ["BH", "QA"],
+    "icons": ["🇧🇭", "🇶🇦"],
     "link": "https://en.wikipedia.org/wiki/Fasht_Dibal_conflict",
     "name": "Fasht ad Dibal",
     "wikidata": "Q111915492"
@@ -205,6 +253,7 @@
     "been": false,
     "coords": "40°54′03″N, 71°45′28″E",
     "countries": ["KG", "TJ"],
+    "icons": ["🇰🇬", "🇹🇯"],
     "link": "https://en.wikipedia.org/wiki/Fergana_Valley",
     "name": "Fergana Valley"
   },
@@ -212,6 +261,7 @@
     "been": false,
     "coords": "3.9339°N, 53.1258°E",
     "countries": ["FR", "SR"],
+    "icons": ["🇫🇷", "🇸🇷"],
     "link": "https://en.wikipedia.org/wiki/French_Guiana",
     "name": "French Guiana"
   },
@@ -219,6 +269,7 @@
     "been": true,
     "coords": "46°19′N, 28°40′E",
     "countries": ["MD", "RU"],
+    "icons": ["🇲🇩", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Gagauzia",
     "name": "Gagauzia"
   },
@@ -226,6 +277,7 @@
     "been": false,
     "coords": "31°30′53″N, 34°27′15″E",
     "countries": ["PS", "IL"],
+    "icons": ["🇵🇸", "🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Gaza_Strip",
     "name": "Gaza Strip"
   },
@@ -233,6 +285,7 @@
     "been": false,
     "coords": "24°57′52″N, 10°10′41″E",
     "countries": ["DZ", "LY"],
+    "icons": ["🇩🇿", "🇱🇾"],
     "link": "https://en.wikipedia.org/wiki/Ghat,_Libya",
     "name": "Ghat"
   },
@@ -240,6 +293,7 @@
     "been": false,
     "coords": "36.14°N, 5.35°W",
     "countries": ["GI", "ES"],
+    "icons": ["🇬🇮", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Disputed_status_of_Gibraltar",
     "name": "Gibraltar"
   },
@@ -247,6 +301,7 @@
     "been": true,
     "coords": "33°00′N, 35°45′E",
     "countries": ["IL", "SY"],
+    "icons": ["🇮🇱", "🇸🇾"],
     "link": "https://en.wikipedia.org/wiki/Golan_Heights",
     "name": "Golan Heights"
   },
@@ -254,6 +309,7 @@
     "been": false,
     "coords": "26°15′N, 55°16′E",
     "countries": ["IR", "AE"],
+    "icons": ["🇮🇷", "🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Greater_and_Lesser_Tunbs",
     "name": "Greater and Lesser Tunbs"
   },
@@ -261,6 +317,7 @@
     "been": false,
     "coords": "6.3°N, 59.7°W",
     "countries": ["GY", "VE"],
+    "icons": ["🇬🇾", "🇻🇪"],
     "link": "https://en.wikipedia.org/wiki/Guayana_Esequiba",
     "name": "Guayana Esequiba"
   },
@@ -268,6 +325,7 @@
     "been": false,
     "coords": "22°28′09″N, 35°31′23″E",
     "countries": ["EG", "SD"],
+    "icons": ["🇪🇬", "🇸🇩"],
     "link": "https://en.wikipedia.org/wiki/Halaib_Triangle",
     "name": "Hala’ib Triangle"
   },
@@ -275,6 +333,7 @@
     "been": false,
     "coords": "36°25′49″N, 36°10′27″E",
     "countries": ["TR", "SY"],
+    "icons": ["🇹🇷", "🇸🇾"],
     "link": "https://en.wikipedia.org/wiki/Hatay_Province",
     "name": "Hatay Province"
   },
@@ -282,6 +341,7 @@
     "been": false,
     "coords": "4°59′29″N, 35°19′39″E",
     "countries": ["KE", "SS"],
+    "icons": ["🇰🇪", "🇸🇸"],
     "link": "https://en.wikipedia.org/wiki/Ilemi_Triangle",
     "name": "Ilemi Triangle"
   },
@@ -289,6 +349,7 @@
     "been": false,
     "coords": "30.185°S, 57.63°W",
     "countries": ["BR", "UY"],
+    "icons": ["🇧🇷", "🇺🇾"],
     "link": "https://en.wikipedia.org/wiki/Brazilian_Island",
     "name": "Ilha Brasileira"
   },
@@ -296,6 +357,7 @@
     "been": false,
     "coords": "37°03′03″N, 27°09′04″E",
     "countries": ["GR", "TR"],
+    "icons": ["🇬🇷", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Imia/Kardak",
     "name": "Imia / Kardak"
   },
@@ -303,6 +365,7 @@
     "been": false,
     "coords": "40°07′N, 70°38′E",
     "countries": ["KG", "TJ"],
+    "icons": ["🇰🇬", "🇹🇯"],
     "link": "https://en.wikipedia.org/wiki/Isfara_Valley",
     "name": "Isfara Valley"
   },
@@ -310,6 +373,7 @@
     "been": false,
     "coords": "10°47′42″S, 65°21′35″W",
     "countries": ["BO", "BR"],
+    "icons": ["🇧🇴", "🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Isla_Su%C3%A1rez/Ilha_de_Guajar%C3%A1-mirim",
     "name": "Isla Suárez"
   },
@@ -317,6 +381,7 @@
     "been": true,
     "coords": "59°22′N, 28°13′E",
     "countries": ["RU", "EE"],
+    "icons": ["🇷🇺", "🇪🇪"],
     "link": "https://en.wikipedia.org/wiki/Ivangorod",
     "name": "Ivangorod"
   },
@@ -324,6 +389,7 @@
     "been": false,
     "coords": "30.214°N, 80.984°E",
     "countries": ["IN", "NP"],
+    "icons": ["🇮🇳", "🇳🇵"],
     "link": "https://en.wikipedia.org/wiki/Kalapani_territory",
     "name": "Kalapani"
   },
@@ -331,6 +397,7 @@
     "been": false,
     "coords": "-25.677, 31.298",
     "countries": ["ZA", "SZ"],
+    "icons": ["🇿🇦", "🇸🇿"],
     "link": "https://en.wikipedia.org/wiki/KaNgwane",
     "name": "KaNgwane"
   },
@@ -338,6 +405,7 @@
     "been": false,
     "coords": "34.5°N, 76.5°E",
     "countries": ["PK", "IN"],
+    "icons": ["🇵🇰", "🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Kashmir_conflict",
     "name": "Kashmir"
   },
@@ -345,6 +413,7 @@
     "been": false,
     "coords": "17°30′N, 56°00′E",
     "countries": ["OM", "YE"],
+    "icons": ["🇴🇲", "🇾🇪"],
     "link": "https://en.wikipedia.org/wiki/Khuriya_Muriya_Islands",
     "name": "Khuriya Muriya Islands"
   },
@@ -352,6 +421,7 @@
     "been": false,
     "coords": "11.022417°N, 0.939749°E",
     "countries": ["BF", "BJ"],
+    "icons": ["🇧🇫", "🇧🇯"],
     "link": "https://fr.wikipedia.org/wiki/Koalou",
     "name": "Koalu"
   },
@@ -359,6 +429,7 @@
     "been": true,
     "coords": "38.316666666667, 127.23333333333",
     "countries": ["KR", "KP"],
+    "icons": ["🇰🇷", "🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Korea",
     "name": "Korea"
   },
@@ -366,6 +437,7 @@
     "been": false,
     "coords": "42°40′N, 21°10′E",
     "countries": ["XK", "RS"],
+    "icons": ["🇽🇰", "🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Kosovo",
     "name": "Kosovo"
   },
@@ -373,19 +445,29 @@
     "been": false,
     "coords": "7°52′N, 8°6′W",
     "countries": ["CI", "GN"],
+    "icons": ["🇨🇮", "🇬🇳"],
     "link": "https://en.wikipedia.org/wiki/Sipilou",
     "name": "Kpéaba"
+  },
+  "kuril-islands": {
+    "been": true,
+    "countries": ["RU", "JP"],
+    "icons": ["🇷🇺", "🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Kuril_Islands_dispute",
+    "name": "Kuril Islands"
   },
   "kutuzov-island": {
     "been": false,
     "coords": "47°04′32″N, 134°08′54″E",
     "countries": ["RU", "CN"],
+    "icons": ["🇷🇺", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Kutuzov_Island",
     "name": "Kutuzov Island"
   },
   "luapala": {
     "been": false,
     "countries": ["ZM", "CD"],
+    "icons": ["🇿🇲", "🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Luapula_Province_border_dispute",
     "name": "Luapala",
     "wikidata": "Q6695031"
@@ -394,6 +476,7 @@
     "been": false,
     "coords": "45°55′28″N, 49°34′40″E",
     "countries": ["RU", "KZ"],
+    "icons": ["🇷🇺", "🇰🇿"],
     "link": "https://en.wikipedia.org/wiki/Malyy_Zhemchuzhnyy",
     "name": "Malyy Zhemchuzhnyy"
   },
@@ -401,6 +484,7 @@
     "been": false,
     "coords": "12°50′35″S, 45°8′18″E",
     "countries": ["YT", "KM"],
+    "icons": ["🇾🇹", "🇰🇲"],
     "link": "https://en.wikipedia.org/wiki/Mayotte",
     "name": "Mayotte"
   },
@@ -408,6 +492,7 @@
     "been": false,
     "coords": "33°34′31″N, 36°0′45″E",
     "countries": ["LB", "SY"],
+    "icons": ["🇱🇧", "🇸🇾"],
     "link": "https://en.wikipedia.org/wiki/Mazraat_Deir_al-Ashayer",
     "name": "Mazraat Deir al-Ashayer"
   },
@@ -415,12 +500,14 @@
     "been": false,
     "coords": "11°17′0″S, 034°46′18″E",
     "countries": ["TZ", "MW"],
+    "icons": ["🇹🇿", "🇲🇼"],
     "link": "https://en.wikipedia.org/wiki/Mbamba_Bay",
     "name": "Mbamba Bay"
   },
   "mbania-island": {
     "been": false,
     "countries": ["GA", "GQ"],
+    "icons": ["🇬🇦", "🇬🇶"],
     "link": "https://es.wikipedia.org/wiki/Mba%C3%B1e",
     "name": "Mbañia Island"
   },
@@ -428,6 +515,7 @@
     "been": false,
     "coords": "33°42.5′N, 94°41.7′E",
     "countries": ["LA", "TH"],
+    "icons": ["🇱🇦", "🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Mekong",
     "name": "Mekong River"
   },
@@ -435,6 +523,7 @@
     "been": false,
     "coords": "35°18′N, 2°57′W",
     "countries": ["ES", "MA"],
+    "icons": ["🇪🇸", "🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Melilla",
     "name": "Melilla"
   },
@@ -442,6 +531,7 @@
     "been": false,
     "coords": "0°52′58″S, 33°56′17″E",
     "countries": ["KE", "UG"],
+    "icons": ["🇰🇪", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Migingo_Island",
     "name": "Migingo Island"
   },
@@ -449,6 +539,7 @@
     "been": false,
     "coords": "23°38′S, 178°54′W",
     "countries": ["TO", "FJ"],
+    "icons": ["🇹🇴", "🇫🇯"],
     "link": "https://en.wikipedia.org/wiki/Minerva_Reefs",
     "name": "Minerva Reefs"
   },
@@ -456,6 +547,7 @@
     "been": true,
     "coords": "45°49′58″N, 06°51′54″E",
     "countries": ["FR", "IT"],
+    "icons": ["🇫🇷", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Mont_Blanc#Ownership_of_the_summit",
     "name": "Mont Blanc"
   },
@@ -463,6 +555,7 @@
     "been": false,
     "coords": "03°39′N, 31°43′E",
     "countries": ["SS", "UG"],
+    "icons": ["🇸🇸", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Moyo_District",
     "name": "Moyo District"
   },
@@ -470,6 +563,7 @@
     "been": false,
     "coords": "20°43′N, 92°22′E",
     "countries": ["BD", "MM"],
+    "icons": ["🇧🇩", "🇲🇲"],
     "link": "https://en.wikipedia.org/wiki/Naf_River",
     "name": "Naf River"
   },
@@ -477,13 +571,16 @@
     "been": false,
     "coords": "39°49′02″N, 46°45′02″E",
     "countries": ["AZ", "AM"],
+    "icons": ["🇦🇿", "🇦🇲"],
     "link": "https://en.wikipedia.org/wiki/Republic_of_Artsakh",
-    "name": "Nagorno-Karabakh"
+    "name": "Nagorno-Karabakh",
+    "strike": true
   },
   "navassa-island": {
     "been": false,
     "coords": "18°24′10″N, 75°0′45″W",
     "countries": ["US", "HT"],
+    "icons": ["🇺🇸", "🇭🇹"],
     "link": "https://en.wikipedia.org/wiki/Navassa_Island",
     "name": "Navassa Island"
   },
@@ -491,6 +588,7 @@
     "been": false,
     "coords": "42.333333333333336, 130.68333333333334",
     "countries": ["RU", "KR"],
+    "icons": ["🇷🇺", "🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Noktundo",
     "name": "Noktundo"
   },
@@ -498,6 +596,7 @@
     "been": false,
     "coords": "35°15′N, 33°45′E",
     "countries": ["CY", "TR"],
+    "icons": ["🇨🇾", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Northern_Cyprus",
     "name": "Northern Cyprus"
   },
@@ -505,6 +604,7 @@
     "been": true,
     "coords": "54°35′47″N, 5°55′48″W",
     "countries": ["GB", "IE"],
+    "icons": ["🇬🇧", "🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Northern_Ireland",
     "name": "Northern Ireland"
   },
@@ -512,6 +612,7 @@
     "been": false,
     "coords": "2°21′0″N, 9°49′0″E",
     "countries": ["CM", "GQ"],
+    "icons": ["🇨🇲", "🇬🇶"],
     "link": "https://en.wikipedia.org/wiki/Ntem_River ",
     "name": "Ntem River"
   },
@@ -519,6 +620,7 @@
     "been": false,
     "coords": "6°26′N, 2°33′E",
     "countries": ["BJ", "NG"],
+    "icons": ["🇧🇯", "🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Okpara_River",
     "name": "Okpara River"
   },
@@ -526,6 +628,7 @@
     "been": false,
     "coords": "48°N, 106°E",
     "countries": ["MN", "CN"],
+    "icons": ["🇲🇳", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Mongolia",
     "name": "Outer Mongolia"
   },
@@ -533,6 +636,7 @@
     "been": false,
     "coords": "1°19′49″N, 104°24′21″E",
     "countries": ["SG", "MY"],
+    "icons": ["🇸🇬", "🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Pedra_Branca_dispute",
     "name": "Pedra Branca"
   },
@@ -540,6 +644,7 @@
     "been": false,
     "coords": "14°23′26″N, 104°40′49″E",
     "countries": ["TH", "KH"],
+    "icons": ["🇹🇭", "🇰🇭"],
     "link": "https://en.wikipedia.org/wiki/Preah_Vihear_Temple",
     "name": "Preah Vihear Temple"
   },
@@ -547,6 +652,7 @@
     "been": false,
     "coords": "42°23′57″N, 18°31′04″E",
     "countries": ["HR", "ME"],
+    "icons": ["🇭🇷", "🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Prevlaka",
     "name": "Prevlaka"
   },
@@ -554,6 +660,7 @@
     "been": false,
     "coords": "8.46667°S, 28.9°E",
     "countries": ["CD", "ZM"],
+    "icons": ["🇨🇩", "🇿🇲"],
     "link": "https://en.wikipedia.org/wiki/Pweto",
     "name": "Pweto"
   },
@@ -561,6 +668,7 @@
     "been": false,
     "coords": "1°12′37″N, 30°29′29″E",
     "countries": ["CD", "UG"],
+    "icons": ["🇨🇩", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Rukwanzi_Island",
     "name": "Rukwanzi Island"
   },
@@ -568,13 +676,15 @@
     "been": false,
     "coords": "5°15′N, 117°0′E",
     "countries": ["MY", "PH"],
+    "icons": ["🇲🇾", "🇵🇭"],
     "link": "https://en.wikipedia.org/wiki/Sabah",
     "name": "Sabah"
   },
   "sakhalin": {
-    "been": false,
+    "been": true,
     "coords": "51°N, 143°E",
     "countries": ["RU", "JP"],
+    "icons": ["🇷🇺", "🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Sakhalin",
     "name": "Sakhalin"
   },
@@ -582,6 +692,7 @@
     "been": false,
     "coords": "16.146°N, 88.281°W",
     "countries": ["BZ", "GT"],
+    "icons": ["🇧🇿", "🇬🇹"],
     "link": "https://en.wikipedia.org/wiki/Sapodilla_Cay",
     "name": "Sapodilla Cay"
   },
@@ -589,6 +700,7 @@
     "been": false,
     "coords": "43.5582°N, 19.4249°E",
     "countries": ["HR", "BA"],
+    "icons": ["🇭🇷", "🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Sastavci",
     "name": "Sastavci"
   },
@@ -596,6 +708,7 @@
     "been": false,
     "coords": "22.697217592593, 55.215277777778",
     "countries": ["AE", "SA"],
+    "icons": ["🇦🇪", "🇸🇦"],
     "link": "https://en.wikipedia.org/wiki/Saudi_Arabia%E2%80%93United_Arab_Emirates_border_dispute",
     "name": "Saudi / Emirates"
   },
@@ -603,6 +716,7 @@
     "been": false,
     "coords": "15°50′N, 79°50′W",
     "countries": ["CO", "HN"],
+    "icons": ["🇨🇴", "🇭🇳"],
     "link": "https://en.wikipedia.org/wiki/Serranilla_Bank",
     "name": "Serranilla Bank"
   },
@@ -610,6 +724,7 @@
     "been": false,
     "coords": "30°24′15.59″N, 48°09′3.60″E",
     "countries": ["IR", "IQ"],
+    "icons": ["🇮🇷", "🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Shatt_al-Arab",
     "name": "Shatt al-Arab"
   },
@@ -617,6 +732,7 @@
     "been": true,
     "coords": "33°17′N, 35°42′E",
     "countries": ["IL", "LB"],
+    "icons": ["🇮🇱", "🇱🇧"],
     "link": "https://en.wikipedia.org/wiki/Shebaa_Farms",
     "name": "Shebaa Farms"
   },
@@ -624,12 +740,14 @@
     "been": false,
     "coords": "35.421226°N, 77.109540°E",
     "countries": ["IN", "PK"],
+    "icons": ["🇮🇳", "🇵🇰"],
     "link": "https://en.wikipedia.org/wiki/Siachen_Glacier",
     "name": "Siachen Glacier"
   },
   "sindabezi-island": {
     "been": false,
     "countries": ["ZM", "ZW"],
+    "icons": ["🇿🇲", "🇿🇼"],
     "link": "https://en.wikipedia.org/w/index.php?title=Sindabezi_Island",
     "name": "Sindabezi Island"
   },
@@ -637,6 +755,7 @@
     "been": false,
     "coords": "45.255, 30.204166666667",
     "countries": ["UA", "RO"],
+    "icons": ["🇺🇦", "🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself",
     "name": "Snake Island"
   },
@@ -644,6 +763,7 @@
     "been": false,
     "coords": "12.4510°N, 53.6120°E",
     "countries": ["YE", "SO"],
+    "icons": ["🇾🇪", "🇸🇴"],
     "link": "https://en.wikipedia.org/wiki/Socotra_Governorate",
     "name": "Socotra Archipelago"
   },
@@ -651,6 +771,7 @@
     "been": false,
     "coords": "9°33′N, 44°03′E",
     "country": "SO",
+    "icons": ["🇸🇴"],
     "link": "https://en.wikipedia.org/wiki/Somaliland",
     "name": "Somaliland"
   },
@@ -665,12 +786,14 @@
     "been": false,
     "coords": "42°13′30″N, 43°58′12″E",
     "countries": ["GE", "RU"],
+    "icons": ["🇬🇪", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/South_Ossetia",
     "name": "South Ossetia"
   },
   "southern-patagonia": {
     "been": false,
     "countries": ["AR", "CL"],
+    "icons": ["🇦🇷", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Southern_Patagonian_Ice_Field_dispute",
     "name": "Southern Patagonia"
   },
@@ -678,6 +801,7 @@
     "been": false,
     "coords": "13°31′N, 105°57′E",
     "countries": ["LA", "KH"],
+    "icons": ["🇱🇦", "🇰🇭"],
     "link": "https://en.wikipedia.org/wiki/Stung_Treng_Province",
     "name": "Stung Treng Province"
   },
@@ -685,6 +809,7 @@
     "been": false,
     "coords": "45°46′N, 15°19′E",
     "countries": ["SI", "HR"],
+    "icons": ["🇸🇮", "🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Sveta_Gera",
     "name": "Sveta Gera"
   },
@@ -692,6 +817,7 @@
     "been": false,
     "coords": "11°03′20″S, 171°04′40″W",
     "countries": ["US", "TK"],
+    "icons": ["🇺🇸", "🇹🇰"],
     "link": "https://en.wikipedia.org/wiki/Swains_Island",
     "name": "Swains Island"
   },
@@ -699,13 +825,33 @@
     "been": false,
     "coords": "24°N, 121°E",
     "countries": ["TW", "CN"],
+    "icons": ["🇹🇼", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Taiwan",
     "name": "Taiwan"
+  },
+  "tennessee-/-georgia": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tennessee–Georgia_water_dispute",
+    "name": "Tennessee / Georgia",
+    "states": ["TN", "GA"],
+    "strike": true
+  },
+  "texas-/-new-mexico": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/103rd_meridian_west",
+    "name": "Texas / New Mexico",
+    "states": ["TX", "NM"],
+    "strike": true
   },
   "three-pagodas-pass": {
     "been": false,
     "coords": "15°18′6″N, 98°24′7″E",
     "countries": ["MM", "TH"],
+    "icons": ["🇲🇲", "🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Three_Pagodas_Pass",
     "name": "Three Pagodas Pass"
   },
@@ -713,13 +859,25 @@
     "been": false,
     "coords": "2.5°N, 57.25°W",
     "countries": ["GY", "SR"],
+    "icons": ["🇬🇾", "🇸🇷"],
     "link": "https://en.wikipedia.org/wiki/Tigri_Area ",
     "name": "Tigri Area"
+  },
+  "toledo-strip": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Toledo_War",
+    "name": "Toledo Strip",
+    "states": ["OH", "MI"],
+    "strike": true
   },
   "transnistria": {
     "been": true,
     "coords": "46°50′25″N, 29°38′36″E",
     "countries": ["MD", "RU"],
+    "country": "MD",
+    "icons": ["🇲🇩"],
     "link": "https://en.wikipedia.org/wiki/Transnistria",
     "name": "Transnistria"
   },
@@ -727,6 +885,7 @@
     "been": false,
     "coords": "15°53′32″S, 54°31′29″E",
     "countries": ["FR", "MU"],
+    "icons": ["🇫🇷", "🇲🇺"],
     "link": "https://en.wikipedia.org/wiki/Tromelin_Island",
     "name": "Tromelin Island"
   },
@@ -734,6 +893,7 @@
     "been": false,
     "coords": "28°40′50″N, 48°39′06″E",
     "countries": ["KW", "SA"],
+    "icons": ["🇰🇼", "🇸🇦"],
     "link": "https://en.wikipedia.org/wiki/Umm_al_Maradim_Island",
     "name": "Umm al Maradim"
   },
@@ -741,6 +901,7 @@
     "been": false,
     "coords": "41°26′9″N, 71°43′49″E",
     "countries": ["UZ", "KG"],
+    "icons": ["🇺🇿", "🇰🇬"],
     "link": "https://en.wikipedia.org/wiki/Ungar-Too",
     "name": "Ungar-Too"
   },
@@ -748,13 +909,16 @@
     "been": false,
     "coords": "54°30′N, 25°25′E",
     "countries": ["LT", "PL"],
+    "icons": ["🇱🇹", "🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Vilnius_Region",
-    "name": "Vilnius Region"
+    "name": "Vilnius Region",
+    "strike": true
   },
   "vozrozhdeniya-island": {
     "been": false,
     "coords": "45°09′N, 59°19′E",
     "countries": ["KZ", "UZ"],
+    "icons": ["🇰🇿", "🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Vozrozhdeniya_Island",
     "name": "Vozrozhdeniya Island"
   },
@@ -762,6 +926,7 @@
     "been": false,
     "coords": "22°05′31″N, 31°24′20″E",
     "countries": ["EG", "SD"],
+    "icons": ["🇪🇬", "🇸🇩"],
     "link": "https://en.wikipedia.org/wiki/Wadi_Halfa_Salient",
     "name": "Wadi Halfa Salient"
   },
@@ -769,6 +934,7 @@
     "been": false,
     "coords": "19°17′43″N, 166°37′52″E",
     "countries": ["US", "MH"],
+    "icons": ["🇺🇸", "🇲🇭"],
     "link": "https://en.wikipedia.org/wiki/Wake_Island",
     "name": "Wake Island"
   },
@@ -776,6 +942,7 @@
     "been": false,
     "coords": "37°N, 73°E",
     "countries": ["AF", "CN"],
+    "icons": ["🇦🇫", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Wakhan_Corridor",
     "name": "Wakhan Corridor"
   },
@@ -783,6 +950,7 @@
     "been": true,
     "coords": "32°00′N, 35°21′E",
     "countries": ["PS", "IL"],
+    "icons": ["🇵🇸", "🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank",
     "name": "West Bank"
   },
@@ -790,6 +958,7 @@
     "been": false,
     "coords": "25°N, 13°W",
     "countries": ["EH", "MA"],
+    "icons": ["🇪🇭", "🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Western_Sahara",
     "name": "Western Sahara"
   },
@@ -797,7 +966,9 @@
     "been": false,
     "coords": "46°29′08″N, 133°50′40″E",
     "countries": ["CN", "RU"],
+    "icons": ["🇨🇳", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Zhenbao_Island",
-    "name": "Zhenbao Island"
+    "name": "Zhenbao Island",
+    "strike": true
   }
 }

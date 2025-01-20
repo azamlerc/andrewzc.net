@@ -3,7 +3,8 @@
     "been": false,
     "coords": "56°16′58″N, 24°48′45″E",
     "country": "LT",
-    "info": "Musteika",
+    "icons": ["🇱🇹", "⬆️"],
+    "info": "Lemkinė",
     "link": "https://en.wikipedia.org/wiki/Biržai_district_municipality",
     "name": ""
   },
@@ -11,6 +12,7 @@
     "been": true,
     "coords": "06°08′48.4″N, 01°10′47.6″E",
     "country": "GH",
+    "icons": ["🇬🇭", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Aflao",
     "name": "Aflao"
   },
@@ -24,6 +26,7 @@
   "andrew-ellicott-park-dc": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Parks/Andrew-Ellicott-Park-at-the-West-Cornerstone",
     "name": "Andrew Ellicott Park, DC",
     "state": "DC"
@@ -32,6 +35,7 @@
     "been": true,
     "coords": "37°58′35.07″N, 75°18′17.12″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Assateague_Island",
     "name": "Assateague, VA",
     "state": "VA"
@@ -43,10 +47,20 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=50.17141_N_12.33210_E",
     "name": "Bad Bambach"
   },
+  "bad-brambach": {
+    "been": true,
+    "coords": "50.17166°N, 12.32283°E",
+    "country": "DE",
+    "icons": ["🇩🇪", "⬇️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.17166_N_12.32283_E",
+    "name": "Bad Brambach",
+    "reference": "East Germany"
+  },
   "bad-nieuweschans": {
     "been": false,
     "coords": "53°11′N, 7°12′E",
     "country": "NL",
+    "icons": ["🇳🇱", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Bad_Nieuweschans",
     "name": "Bad Nieuweschans"
   },
@@ -54,6 +68,7 @@
     "been": false,
     "coords": "47.06812°N, 9.48118°E",
     "country": "LI",
+    "icons": ["🇱🇮", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Balzers",
     "name": "Balzers"
   },
@@ -61,6 +76,7 @@
     "been": false,
     "coords": "47.040277777778, 7.2638888888889",
     "country": "CH",
+    "icons": ["🇨🇭", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Bargen_Schaffhausen",
     "name": "Bargen",
     "wikidata": "Q66438"
@@ -69,6 +85,7 @@
     "been": false,
     "coords": "45°29′6″N, 13°30′0″E",
     "country": "HR",
+    "icons": ["🇭🇷", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Ba%C5%A1anija",
     "name": "Bašanija"
   },
@@ -76,6 +93,7 @@
     "been": false,
     "coords": "65.781111111111, -169.05694444444",
     "country": "RU",
+    "icons": ["🇷🇺", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Big_Diomede",
     "name": "Big Diomede",
     "reference": "Asia 🏝",
@@ -85,6 +103,7 @@
     "been": false,
     "coords": "21°52′9″N, 33°44′52″E",
     "country": "EG",
+    "icons": ["🇪🇬", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Bir_Tawil",
     "name": "Bir Tawil",
     "reference": "unclaimed"
@@ -93,6 +112,7 @@
     "been": false,
     "coords": "33°51′26″N, 78°32′19″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Bird_Island,_North_Carolina",
     "name": "Bird Island, SC",
     "state": "SC"
@@ -101,6 +121,7 @@
     "been": true,
     "coords": "64°32′N, 21°55′W",
     "country": "IS",
+    "icons": ["🇮🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Borgarnes",
     "name": "Borgarnes",
     "reference": "visited point"
@@ -109,6 +130,7 @@
     "been": true,
     "coords": "51.0717°N, 2.5283°E",
     "country": "FR",
+    "icons": ["🇫🇷", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Bray-Dunes",
     "name": "Bray-Dunes"
   },
@@ -116,6 +138,7 @@
     "been": false,
     "coords": "39.5°N, 98.35°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Brownsville,_Texas",
     "name": "Brownsville, TX",
     "state": "TX"
@@ -124,6 +147,7 @@
     "been": false,
     "coords": "46°51′35.16″N, 16°15′23.34″E",
     "country": "SI",
+    "icons": ["🇸🇮", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Budinci",
     "name": "Budinci"
   },
@@ -131,6 +155,7 @@
     "been": false,
     "coords": "49.551117557465, 18.8268566644",
     "country": "CZ",
+    "icons": ["🇨🇿", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Bukovec_(Frýdek-M%C3%ADstek_District)",
     "name": "Bukovec",
     "wikidata": "Q1003355"
@@ -139,14 +164,24 @@
     "been": false,
     "coords": "38°46′51″N, 9°30′2″W",
     "country": "PT",
+    "icons": ["🇵🇹", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cabo_da_Roca",
     "name": "Cabo da Roca",
     "reference": "Europe"
+  },
+  "cabo-manglares": {
+    "been": false,
+    "coords": "1°39′2″N, 79°0′29″W",
+    "country": "CO",
+    "icons": ["🇨🇴", "⬅️"],
+    "link": "https://en.wikipedia.org/wiki/Cabo_Manglares",
+    "name": "Cabo Manglares"
   },
   "cairo-il": {
     "been": false,
     "coords": "37°0′47″N, 89°10′49″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cairo,_IL",
     "name": "Cairo, IL",
     "state": "IL"
@@ -155,6 +190,7 @@
     "been": false,
     "coords": "42°19′09″N, 3°19′19″E",
     "country": "ES",
+    "icons": ["🇪🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Cap_de_Creus",
     "name": "Cap de Creus"
   },
@@ -162,6 +198,7 @@
     "been": false,
     "coords": "34°49′59.6″S, 20°00′0″E",
     "country": "ZA",
+    "icons": ["🇿🇦", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Agulhas",
     "name": "Cape Agulhas",
     "reference": "Africa"
@@ -170,6 +207,7 @@
     "been": true,
     "coords": "48°10′N, 124°44′W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Alava",
     "name": "Cape Alava",
     "reference": "contiguous"
@@ -178,6 +216,7 @@
     "been": false,
     "coords": "39°28′47″N, 26°03′48″E",
     "country": "TR",
+    "icons": ["🇹🇷", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Baba",
     "name": "Cape Baba",
     "reference": "Asia"
@@ -185,6 +224,7 @@
   "cape-bernati": {
     "been": false,
     "country": "LV",
+    "icons": ["🇱🇻", "⬅️"],
     "link": "https://en.wikipedia.org/w/index.php?title=Cape_Bernāti",
     "name": "Cape Bernāti"
   },
@@ -192,6 +232,7 @@
     "been": false,
     "coords": "42.8376089°N, 124.5639997°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Blanco_(Oregon)",
     "name": "Cape Blanco, OR",
     "state": "OR"
@@ -200,6 +241,7 @@
     "been": false,
     "coords": "28.632778°S, 153.638889°E",
     "country": "AU",
+    "icons": ["🇦🇺", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Byron",
     "name": "Cape Byron"
   },
@@ -207,6 +249,7 @@
     "been": true,
     "coords": "37°16′3″N, 76°0′51″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Charles,_Virginia",
     "name": "Cape Charles",
     "reference": "Delmarva",
@@ -216,6 +259,7 @@
     "been": false,
     "coords": "77°44′0″N, 104°15′0″E",
     "country": "RU",
+    "icons": ["🇷🇺", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Chelyuskin",
     "name": "Cape Chelyushkin",
     "reference": "Asia"
@@ -224,6 +268,7 @@
     "been": true,
     "coords": "41.68°N, 70.2°W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Cod",
     "name": "Cape Cod, MA",
     "state": "MA"
@@ -232,6 +277,7 @@
     "been": false,
     "coords": "66°4′45″N, 169°39′7″W",
     "country": "RU",
+    "icons": ["🇷🇺", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Dezhnyov",
     "name": "Cape Dezhnyov",
     "reference": "Asia"
@@ -240,6 +286,7 @@
     "been": true,
     "coords": "46°17′23″N, 124°03′38″W",
     "country": "US",
+    "icons": ["🇺🇸", "↙️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Disappointment_%28Washington%29",
     "name": "Cape Disappointment, WA",
     "state": "WA"
@@ -248,6 +295,7 @@
     "been": false,
     "coords": "59°46′23″N, 43°55′21″W",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Farewell",
     "name": "Cape Farewell",
     "reference": "South Island"
@@ -256,6 +304,7 @@
     "been": false,
     "coords": "33°50′26″N, 77°57′37″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Fear_(headland)",
     "name": "Cape Fear, NC",
     "state": "NC"
@@ -264,6 +313,7 @@
     "been": true,
     "coords": "48.385961°N, 124.726912°W",
     "country": "US",
+    "icons": ["🇺🇸", "↖️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Flattery",
     "name": "Cape Flattery",
     "reference": "contiguous"
@@ -272,6 +322,7 @@
     "been": false,
     "coords": "81°50′35″N, 59°14′22″E",
     "country": "RU",
+    "icons": ["🇷🇺", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Fligely Europe",
     "name": "Cape Fligely",
     "reference": "🏝"
@@ -280,6 +331,7 @@
     "been": false,
     "coords": "53.8929535°S, 71.3064158°W",
     "country": "CL",
+    "icons": ["🇨🇱", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Froward",
     "name": "Cape Froward"
   },
@@ -287,6 +339,7 @@
     "been": false,
     "coords": "35°00′N, 34°01′E",
     "country": "CY",
+    "icons": ["🇨🇾", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Greco",
     "name": "Cape Greco",
     "reference": "European Union"
@@ -294,6 +347,7 @@
   "cape-koamaru": {
     "been": false,
     "country": "NZ",
+    "icons": ["🇳🇿", "➡️"],
     "name": "Cape Koamaru",
     "reference": "South Island"
   },
@@ -301,6 +355,7 @@
     "been": false,
     "coords": "34.472316°S, 172.64062°E",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Maria_van_Diemen",
     "name": "Cape Maria van Diemen",
     "reference": "North Island"
@@ -309,6 +364,7 @@
     "been": true,
     "coords": "38.936909°N, 74.965374°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_May_Point,_New_Jersey",
     "name": "Cape May Point, NJ",
     "state": "NJ"
@@ -317,6 +373,7 @@
     "been": true,
     "coords": "40.4401°N, 124.4095°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Mendocino",
     "name": "Cape Mendocino, CA",
     "state": "CA"
@@ -325,6 +382,7 @@
     "been": false,
     "coords": "71°08′02″N, 27°39′00″E",
     "country": "NO",
+    "icons": ["🇳🇴", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Nordkinn",
     "name": "Cape Nordkinn",
     "reference": "Europe"
@@ -333,6 +391,7 @@
     "been": false,
     "coords": "42°25′59″N, 18°29′20″E",
     "country": "HR",
+    "icons": ["🇭🇷", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Vitaljina",
     "name": "Cape Oštra"
   },
@@ -340,6 +399,7 @@
     "been": false,
     "coords": "41°36′49″S, 175°17′25″E",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Palliser",
     "name": "Cape Palliser",
     "reference": "North Island"
@@ -348,6 +408,7 @@
     "been": false,
     "coords": "59°40′31″N, 25°41′49″E",
     "country": "EE",
+    "icons": ["🇪🇪", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Purekkari",
     "name": "Cape Purekkari"
   },
@@ -355,6 +416,7 @@
     "been": false,
     "coords": "58°59′N, 23°27′E",
     "country": "EE",
+    "icons": ["🇪🇪", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Ramsi",
     "name": "Cape Ramsi"
   },
@@ -362,6 +424,7 @@
     "been": false,
     "coords": "25.272185°N, 81.123638°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Sable",
     "name": "Cape Sable",
     "reference": "mainland"
@@ -370,6 +433,7 @@
     "been": false,
     "coords": "-15.0, 143.0",
     "country": "AU",
+    "icons": ["🇦🇺", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_York",
     "name": "Cape York",
     "wikidata": "Q233770"
@@ -378,6 +442,7 @@
     "been": false,
     "coords": "36°2′50″N, 90°17′33″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Cardwell,_MO",
     "name": "Cardwell, MO",
     "state": "MO"
@@ -385,6 +450,7 @@
   "cedar-island-md": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "name": "Cedar Island, MD",
     "state": "MD"
   },
@@ -392,6 +458,7 @@
     "been": false,
     "coords": "46.1476, 5.97891",
     "country": "CH",
+    "icons": ["🇨🇭", "⬅️"],
     "link": "https://fr.wikipedia.org/wiki/Chancy",
     "name": "Chancy",
     "wikidata": "Q69811"
@@ -400,6 +467,7 @@
     "been": false,
     "coords": "11.096876, 0.016393",
     "country": "TG",
+    "icons": ["🇹🇬", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Cinkassé_Prefecture",
     "name": "Cinkassé",
     "wikidata": "Q3910163"
@@ -408,6 +476,7 @@
     "been": false,
     "coords": "39°23′19″N, 79°28′07″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Crellin,_Maryland",
     "name": "Crellin, MD",
     "state": "MD"
@@ -416,6 +485,7 @@
     "been": false,
     "coords": "39°19′13″N, 78°17′36″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cross_Junction,_VA",
     "name": "Cross Junction, VA",
     "state": "VA"
@@ -424,6 +494,7 @@
     "been": true,
     "coords": "39°38′20″N, 78°44′30″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cumberland,_MD",
     "name": "Cumberland, MD",
     "state": "MD"
@@ -432,6 +503,7 @@
     "been": true,
     "coords": "41°58′00″N, 71°25′58″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cumberland,_Rhode_Island",
     "name": "Cumberland, RI",
     "state": "RI"
@@ -440,6 +512,7 @@
     "been": true,
     "coords": "51°06′N, 02°35′E",
     "country": "BE",
+    "icons": ["🇧🇪", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/De_Panne",
     "name": "De Panne"
   },
@@ -447,6 +520,7 @@
     "been": true,
     "coords": "39°42′52″N, 75°47′5″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Wedge_(border)",
     "name": "Delaware Wedge",
     "state": "DE"
@@ -455,6 +529,7 @@
     "been": false,
     "coords": "55.73547097, 26.59242459",
     "country": "LV",
+    "icons": ["🇱🇻", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Demene_Parish",
     "name": "Demene",
     "wikidata": "Q2986692"
@@ -463,6 +538,7 @@
     "been": true,
     "coords": "48°1′N, 17°6′E",
     "country": "AT",
+    "icons": ["🇦🇹", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Deutsch_Jahrndorf",
     "name": "Deutsch Jahrndorf"
   },
@@ -470,6 +546,7 @@
     "been": false,
     "coords": "25°50′S, 113°05′E",
     "country": "AU",
+    "icons": ["🇦🇺", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Dirk_Hartog_Island",
     "name": "Dirk Hartog Island"
   },
@@ -477,6 +554,7 @@
     "been": false,
     "coords": "36°28′56″N, 87°50′41″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Dover,_TN",
     "name": "Dover, TN",
     "state": "TN"
@@ -484,6 +562,7 @@
   "dracut-nh-(10-km)": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "name": "Dracut, NH (10 km)",
     "state": "NH"
   },
@@ -491,6 +570,7 @@
     "been": false,
     "coords": "58.644745, -3.375652",
     "country": "GB",
+    "icons": ["🇬🇧", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Dunnet_Head",
     "name": "Dunnet Head",
     "reference": "Great Britain",
@@ -500,6 +580,7 @@
     "been": false,
     "coords": "37.6892°S, 178.5483°E",
     "country": "NZ",
+    "icons": ["🇳🇿", "➡️"],
     "link": "https://en.wikipedia.org/wiki/East_Cape",
     "name": "East Cape"
   },
@@ -507,6 +588,7 @@
     "been": true,
     "coords": "38.984112618384, -77.094049529207",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/East–West_Highway",
     "name": "East-West Highway, DC",
     "state": "DC",
@@ -516,6 +598,7 @@
     "been": false,
     "coords": "27°7′S, 109°22′W",
     "country": "CL",
+    "icons": ["🇨🇱", "🗿", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Easter_Island",
     "name": "Easter Island",
     "reference": "Oceania"
@@ -523,6 +606,7 @@
   "eastern-&-southern-aves-dc": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "",
     "name": "Eastern & Southern Aves, DC",
     "state": "DC"
@@ -531,22 +615,42 @@
     "been": false,
     "coords": "29°33′25″N, 34°57′06″E",
     "country": "IL",
+    "icons": ["🇮🇱", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Eilat",
     "name": "Eilat",
     "reference": "town"
+  },
+  "el-pas-de-la-casa": {
+    "been": true,
+    "coords": "42°34′26″N, 1°47′10″E",
+    "country": "AD",
+    "icons": ["🇦🇩", "➡️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_34_26_N_1_47_10_E",
+    "name": "El Pas de la Casa"
   },
   "enkhuizen": {
     "been": true,
     "coords": "52°42′N, 5°18′E",
     "country": "NL",
+    "icons": ["🇳🇱", "➡️"],
     "link": "https://ens.wikipedia.org/wiki/Enkhuizen",
     "name": "Enkhuizen",
     "reference": "North Holland"
+  },
+  "erbenhausen": {
+    "been": true,
+    "coords": "50.56466°N, 10.12052°E",
+    "country": "DE",
+    "icons": ["🇩🇪", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.56466_N_10.12052_E",
+    "name": "Erbenhausen",
+    "reference": "Bavaria"
   },
   "europa-point": {
     "been": false,
     "coords": "36.109609°N, 5.34626°W",
     "country": "GI",
+    "icons": ["🇬🇮", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Europa_Point",
     "name": "Europa Point"
   },
@@ -554,6 +658,7 @@
     "been": false,
     "coords": "27.706665°N, 18.147496°W",
     "country": "ES",
+    "icons": ["🇪🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Punta_Orchilla_Lighthouse",
     "name": "Faro de Punta Orchilla"
   },
@@ -561,6 +666,7 @@
     "been": false,
     "coords": "47.238055555556, 9.5983333333333",
     "country": "AT",
+    "icons": ["🇦🇹", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Feldkirch",
     "name": "Feldkirch",
     "wikidata": "Q183104"
@@ -569,6 +675,7 @@
     "been": false,
     "coords": "46.87059°N, 16.15973°E",
     "country": "HU",
+    "icons": ["🇭🇺", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Fels%C5%91sz%C3%B6ln%C3%B6k",
     "name": "Felsőszölnök"
   },
@@ -576,6 +683,7 @@
     "been": true,
     "coords": "38°27′12″N, 75°02′54″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Fenwick_Island_(Delaware–Maryland)",
     "name": "Fenwick, DE",
     "state": "DE"
@@ -584,6 +692,7 @@
     "been": true,
     "coords": "38°27′12″N, 75°02′54″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Fenwick_Island_(Delaware–Maryland)",
     "name": "Fenwick, MD",
     "state": "MD"
@@ -592,6 +701,7 @@
     "been": true,
     "coords": "40°43′26″N, 73°42′21″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Floral_Park,_New_York",
     "name": "Floral Park",
     "reference": "New York City",
@@ -600,6 +710,7 @@
   "fort-foster-me": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "name": "Fort Foster, ME",
     "state": "ME"
   },
@@ -607,6 +718,7 @@
     "been": true,
     "coords": "46.2019, -123.963",
     "country": "US",
+    "icons": ["🇺🇸", "↖️"],
     "link": "https://en.wikipedia.org/wiki/Fort_Stevens",
     "name": "Fort Stevens, OR",
     "state": "OR",
@@ -616,6 +728,7 @@
     "been": true,
     "coords": "36.99898°N, 109.04517°W",
     "country": "US",
+    "icons": ["🇺🇸", "↗️"],
     "link": "https://en.wikipedia.org/wiki/Four_Corners_Monument",
     "name": "Four Corners, AZ",
     "state": "AZ"
@@ -624,6 +737,7 @@
     "been": true,
     "coords": "36.99898°N, 109.04517°W",
     "country": "US",
+    "icons": ["🇺🇸", "↙️"],
     "link": "https://en.wikipedia.org/wiki/Four_Corners_Monument",
     "name": "Four Corners, CO",
     "state": "CO"
@@ -632,6 +746,7 @@
     "been": true,
     "coords": "36.99898°N, 109.04517°W",
     "country": "US",
+    "icons": ["🇺🇸", "↖️"],
     "link": "https://en.wikipedia.org/wiki/Four_Corners_Monument",
     "name": "Four Corners, NM",
     "state": "NM"
@@ -640,6 +755,7 @@
     "been": true,
     "coords": "36.99898°N, 109.04517°W",
     "country": "US",
+    "icons": ["🇺🇸", "↘️"],
     "link": "https://en.wikipedia.org/wiki/Four_Corners_Monument",
     "name": "Four Corners, UT",
     "state": "UT"
@@ -648,13 +764,24 @@
     "been": true,
     "coords": "19°32′S, 170°13′E",
     "country": "VU",
+    "icons": ["🇻🇺", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Futuna_Island,_Vanuatu",
     "name": "Futuna"
+  },
+  "garbolc": {
+    "been": false,
+    "coords": "47.94517°N, 22.85993°E",
+    "country": "HU",
+    "icons": ["🇭🇺", "➡️"],
+    "info": "(15 km)",
+    "link": "https://en.wikipedia.org/wiki/Garbolc",
+    "name": "Garbolc"
   },
   "giurgiulesti": {
     "been": true,
     "coords": "45°29′N, 28°12′E",
     "country": "MD",
+    "icons": ["🇲🇩", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Giurgiulești",
     "name": "Giurgiulești"
   },
@@ -662,6 +789,7 @@
     "been": true,
     "coords": "6°17′N, 1°50′E",
     "country": "BJ",
+    "icons": ["🇧🇯", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Grand_Popo",
     "name": "Grand Popo"
   },
@@ -669,13 +797,23 @@
     "been": true,
     "coords": "41°7′43″N, 73°42′28″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Armonk",
     "name": "Greenwich, CT",
     "state": "CT"
   },
+  "guainia": {
+    "been": false,
+    "coords": "3°51′55″N, 67°55′26″W",
+    "country": "CO",
+    "icons": ["🇨🇴", "➡️"],
+    "link": "https://en.wikipedia.org/wiki/Guain%C3%ADa_Department",
+    "name": "Guainía"
+  },
   "hanover-pa-(5-km)": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "name": "Hanover, PA (5 km)",
     "state": "PA"
   },
@@ -683,14 +821,16 @@
     "been": true,
     "coords": "39°19′40″N, 77°44′47″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Harpers_Ferry,_West_Virginia",
     "name": "Harpers Ferry, WV",
     "state": "WV"
   },
   "haugschlag": {
-    "been": false,
+    "been": true,
     "coords": "48°59′N, 15°3′E",
     "country": "AT",
+    "icons": ["🇦🇹", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Haugschlag",
     "name": "Haugschlag"
   },
@@ -698,6 +838,7 @@
     "been": true,
     "coords": "41°02′20″N, 73°36′49″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Greenwich,_Connecticut",
     "name": "Hawthorne Beach, CT",
     "state": "CT"
@@ -706,19 +847,31 @@
     "been": false,
     "coords": "42°27′10.62″N, 18°31′52.33″E",
     "country": "ME",
+    "icons": ["🇲🇪", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Herceg_Novi",
     "name": "Herceg Novi"
   },
   "hickman-ar": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "name": "Hickman, AR",
     "state": "AR"
+  },
+  "hidvegardo": {
+    "been": false,
+    "coords": "48.56064°N, 20.83825°E",
+    "country": "HU",
+    "icons": ["🇭🇺", "⬆️"],
+    "info": "(40 km)",
+    "link": "https://en.wikipedia.org/wiki/Hidvégardó",
+    "name": "Hidvégardó"
   },
   "imperial-beach-ca": {
     "been": false,
     "coords": "32°32′36″N, 117°6′23″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Border_Field_State_Park",
     "name": "Imperial Beach, CA",
     "state": "CA"
@@ -727,6 +880,7 @@
     "been": false,
     "coords": "58.03140376, 25.16619381",
     "country": "LV",
+    "icons": ["🇱🇻", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Ipiķi_Parish",
     "name": "Ipiķi",
     "wikidata": "Q3743286"
@@ -735,6 +889,7 @@
     "been": true,
     "coords": "51.0414, 5.88",
     "country": "DE",
+    "icons": ["🇩🇪", "⬅️"],
     "link": "https://de.wikipedia.org/wiki/Isenbruch",
     "name": "Isenbruch",
     "wikidata": "Q1673809"
@@ -743,6 +898,7 @@
     "been": false,
     "coords": "-7.12, -34.88",
     "country": "BR",
+    "icons": ["🇧🇷", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa",
     "name": "João Pessoa",
     "reference": "South America",
@@ -752,6 +908,7 @@
     "been": true,
     "coords": "58°38′14″N, 3°04′08″W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿", "↗️"],
     "link": "https://en.wikipedia.org/wiki/John_o%27_Groats",
     "name": "John o’ Groats"
   },
@@ -759,6 +916,7 @@
     "been": true,
     "coords": "38°47′25.4″N, 77°2′26.3″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Jones_Point_Light",
     "name": "Jones Point Light, DC",
     "state": "DC"
@@ -767,6 +925,7 @@
     "been": false,
     "coords": "18.9111°N, 155.681111°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Ka_Lae",
     "name": "Ka Lae, HI",
     "state": "HI"
@@ -774,6 +933,7 @@
   "kansas-city-ks-(5-km)": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "name": "Kansas City, KS (5 km)",
     "state": "KS"
   },
@@ -781,13 +941,32 @@
     "been": false,
     "coords": "57°33′0″N, 26°33′0″E",
     "country": "EE",
+    "icons": ["🇪🇪", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Karisöödi",
     "name": "Karisöödi"
+  },
+  "kasad": {
+    "been": false,
+    "coords": "45°47′N, 18°24′E",
+    "country": "HU",
+    "icons": ["🇭🇺", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Kásád",
+    "name": "Kásád"
+  },
+  "kaßlitz": {
+    "been": true,
+    "coords": "50.20438°N, 10.71836°E",
+    "country": "DE",
+    "icons": ["🇩🇪", "⬇️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.20438_N_10.71836_E",
+    "name": "Käßlitz",
+    "reference": "Thuringia"
   },
   "kentucky-bend-ky": {
     "been": false,
     "coords": "36.53°N, 89.51°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Kentucky_Bend",
     "name": "Kentucky Bend, KY",
     "state": "KY"
@@ -796,6 +975,7 @@
     "been": false,
     "coords": "31°13′15″N, 34°16′14″E",
     "country": "IL",
+    "icons": ["🇮🇱", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Kerem_Shalom_border_crossing",
     "name": "Kerem Shalom"
   },
@@ -803,6 +983,7 @@
     "been": false,
     "coords": "24°32′47.42″N, 81°47′50.92″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Southernmost_point_buoy",
     "name": "Key West",
     "reference": "contiguous"
@@ -811,14 +992,16 @@
     "been": true,
     "coords": "48°14′N, 16°24′E",
     "country": "AT",
+    "icons": ["🇦🇹", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
     "name": "Klosterneuberg",
     "reference": "Donauinsel"
   },
   "krasna": {
-    "been": false,
+    "been": true,
     "coords": "50°14′6″N, 12°10′5″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Krásná_(Cheb_District)",
     "name": "Krásná"
   },
@@ -826,6 +1009,7 @@
     "been": true,
     "coords": "50.3303°N, 6.3831°E",
     "country": "BE",
+    "icons": ["🇧🇪", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Krewinkel",
     "name": "Krewinkel"
   },
@@ -833,6 +1017,7 @@
     "been": true,
     "coords": "50.7603, 5.9169",
     "country": "NL",
+    "icons": ["🇳🇱", "⬇️"],
     "link": "https://nl.wikipedia.org/wiki/Kuttingen",
     "name": "Kuttingen",
     "wikidata": "Q2690243"
@@ -841,6 +1026,7 @@
     "been": false,
     "coords": "50°04′07″N, 05°42′58″W",
     "country": "GB",
+    "icons": ["🇬🇧", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Land%27s_End",
     "name": "Land’s End",
     "reference": "England"
@@ -849,6 +1035,7 @@
     "been": false,
     "coords": "35°8′30″N, 114°37′7″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Laughlin,_Nevada",
     "name": "Laughlin, NV",
     "state": "NV"
@@ -857,6 +1044,7 @@
     "been": true,
     "coords": "48.9761°N, 8.1744°E",
     "country": "FR",
+    "icons": ["🇫🇷", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Lauterbourg",
     "name": "Lauterbourg"
   },
@@ -864,6 +1052,7 @@
     "been": false,
     "coords": "57°34′32″N, 27°28′46″E",
     "country": "RU",
+    "icons": ["🇷🇺", "⬅️"],
     "info": "<br>",
     "link": "https://en.wikipedia.org/wiki/Lavry",
     "name": "Lavry",
@@ -873,6 +1062,7 @@
     "been": false,
     "coords": "33°54′N, 35°32′E",
     "country": "US",
+    "icons": ["🇺🇸", "⏺"],
     "link": "https://en.wikipedia.org/wiki/Lebanon, Kansas",
     "name": "Lebanon",
     "reference": "contiguous"
@@ -881,13 +1071,23 @@
     "been": false,
     "coords": "46°33′47″N, 16°27′7″E",
     "country": "SI",
+    "icons": ["🇸🇮", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Lendava",
     "name": "Lendava"
+  },
+  "leticia": {
+    "been": false,
+    "coords": "4°12′19″S, 69°55′58″W",
+    "country": "CO",
+    "icons": ["🇨🇴", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Leticia,_Amazonas",
+    "name": "Leticia"
   },
   "little-compton-ri": {
     "been": true,
     "coords": "41°30′N, 71°10′W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Little_Compton,_RI",
     "name": "Little Compton, RI",
     "state": "RI"
@@ -896,6 +1096,7 @@
     "been": true,
     "coords": "06°07′51″N, 01°12′55″E",
     "country": "TG",
+    "icons": ["🇹🇬", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Lomé",
     "name": "Lomé"
   },
@@ -903,6 +1104,7 @@
     "been": false,
     "coords": "78.22°N, 15.65°E",
     "country": "NO",
+    "icons": ["🇳🇴", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Longyearbyen",
     "name": "Longyearbyen",
     "reference": "city on Earth"
@@ -911,6 +1113,7 @@
     "been": true,
     "coords": "33°16′N, 35°46′E",
     "country": "IL",
+    "icons": ["🇮🇱", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Majdal_Shams",
     "name": "Majdal Shams",
     "reference": "town"
@@ -919,6 +1122,7 @@
     "been": true,
     "coords": "41.36588°N, 74.70127°W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Matamoras,_Pennsylvania",
     "name": "Matamoras, PA",
     "state": "PA"
@@ -927,6 +1131,7 @@
     "been": true,
     "coords": "51.4978°N, 4.7750°E",
     "country": "BE",
+    "icons": ["🇧🇪", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Meersel-Dreef",
     "name": "Meersel Dreef"
   },
@@ -934,6 +1139,7 @@
     "been": false,
     "coords": "35°07′03″N, 89°58′16″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "info": "(15 km)",
     "link": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
     "name": "Memphis, TN",
@@ -943,6 +1149,7 @@
     "been": true,
     "coords": "33°16′44″N, 35°34′28″E",
     "country": "IL",
+    "icons": ["🇮🇱", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Metula",
     "name": "Metula",
     "reference": "town"
@@ -951,6 +1158,7 @@
     "been": true,
     "coords": "6.2959°N, 1.9299°E",
     "country": "TG",
+    "icons": ["🇹🇬", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Mono_River",
     "name": "Mono River"
   },
@@ -958,6 +1166,7 @@
     "been": true,
     "coords": "41.280958°N, 74.730511°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Montague_Township,_New_Jersey",
     "name": "Montague, NJ",
     "state": "NJ"
@@ -966,6 +1175,7 @@
     "been": true,
     "coords": "41.07099°N, 71.85709°W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Montauk_Point_Light",
     "name": "Montauk, NY",
     "state": "NY"
@@ -974,13 +1184,23 @@
     "been": false,
     "coords": "55.05764°N, 8.41159°E",
     "country": "DE",
+    "icons": ["🇩🇪", "⬆️"],
     "link": "https://geohack.toolforge.org/geohack.php?params=55.05764_N_8.41159_E",
     "name": "Mövenberg"
+  },
+  "musteika": {
+    "been": false,
+    "coords": "53°57′29″N, 24°22′01″E",
+    "country": "LT",
+    "icons": ["🇱🇹", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Musteika",
+    "name": "Musteika"
   },
   "napatree-point-ri": {
     "been": true,
     "coords": "41.316884°N, 71.873932°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Napatree_Point",
     "name": "Napatree Point, RI",
     "state": "RI"
@@ -989,6 +1209,7 @@
     "been": true,
     "coords": "59°22′33″N, 28°11′46″E",
     "country": "EE",
+    "icons": ["🇪🇪", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Narva",
     "name": "Narva"
   },
@@ -996,6 +1217,7 @@
     "been": false,
     "coords": "31°33′16″N, 91°23′15″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Natchez,_MS",
     "name": "Natchez, MS",
     "state": "MS"
@@ -1004,6 +1226,7 @@
     "been": true,
     "coords": "39°39′35″N, 75°33′49″W",
     "country": "US",
+    "icons": ["🇺🇸", "⏺"],
     "info": "<a href=\"https://en.wikipedia.org/wiki/Twelve-Mile_Circle\" class=\"dark\">12 Mile Circle</a>",
     "link": "https://en.wikipedia.org/wiki/New_Castle_Court_House_Museum",
     "name": "New Castle, DE",
@@ -1013,6 +1236,7 @@
     "been": true,
     "coords": "43°04′20″N, 70°42′58″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/New_Castle,_New_Hampshire",
     "name": "New Castle, NH",
     "state": "NH"
@@ -1021,6 +1245,7 @@
     "been": false,
     "coords": "55°18′12″N, 21°00′20″E",
     "country": "LT",
+    "icons": ["🇱🇹", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Nida,_Lithuania",
     "name": "Nida"
   },
@@ -1028,6 +1253,7 @@
     "been": true,
     "coords": "31.353888888889, -110.93916666667",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Nogales",
     "name": "Nogales, AZ",
     "state": "AZ",
@@ -1037,6 +1263,7 @@
     "been": false,
     "coords": "71.1725, 25.784444444444446",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/North_Cape",
     "name": "North Cape",
     "wikidata": "Q4069"
@@ -1045,6 +1272,7 @@
     "been": false,
     "coords": "49°16′N, 95°3′W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Northwest_Angle",
     "name": "Northwest Angle",
     "reference": "contiguous"
@@ -1053,14 +1281,25 @@
     "been": true,
     "coords": "22.2758°S, 166.458°E",
     "country": "NC",
+    "icons": ["🇳🇨", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Noumea",
     "name": "Noumea",
     "reference": "visited point"
+  },
+  "nova-pec": {
+    "been": true,
+    "coords": "48.77161°N, 13.83955°E",
+    "country": "DE",
+    "icons": ["🇩🇪", "➡️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=48.77161_N_13.83955_E",
+    "name": "Nová Pec",
+    "reference": "West Germany"
   },
   "nuorgam": {
     "been": false,
     "coords": "70°04′50″N, 027°52′30″E",
     "country": "FI",
+    "icons": ["🇫🇮", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Nuorgam",
     "name": "Nuorgam",
     "reference": "European Union"
@@ -1069,6 +1308,7 @@
     "been": false,
     "coords": "47.27042°N, 10.17818°E",
     "country": "DE",
+    "icons": ["🇩🇪", "⬇️"],
     "link": "https://geohack.toolforge.org/geohack.php?params=47.27042_N_10.17818_E",
     "name": "Oberstdorf"
   },
@@ -1076,12 +1316,14 @@
     "been": false,
     "coords": "52°51′5″N, 14°8′44″E",
     "country": "PL",
+    "icons": ["🇵🇱", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Osinów_Dolny",
     "name": "Osinów Dolny"
   },
   "palisades-nj": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/The_Palisades_(Hudson_River)",
     "name": "Palisades, NJ",
     "state": "NJ"
@@ -1090,6 +1332,7 @@
     "been": false,
     "coords": "26°46′41″N, 80°2′4″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Palm_Beach_Shores,_Florida",
     "name": "Palm Beach Shores, FL",
     "state": "FL"
@@ -1098,6 +1341,7 @@
     "been": false,
     "coords": "11°00′14″S, 122°52′21″E",
     "country": "ID",
+    "icons": ["🇮🇩", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Pamana_Island",
     "name": "Panama Island",
     "reference": "Asia 🏝"
@@ -1106,6 +1350,7 @@
     "been": false,
     "coords": "56.23510665, 28.14582779",
     "country": "LV",
+    "icons": ["🇱🇻", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Pasiene_Parish",
     "name": "Pasiene",
     "wikidata": "Q2340073"
@@ -1114,6 +1359,7 @@
     "been": false,
     "coords": "45°50′N, 9°01′E",
     "country": "CH",
+    "icons": ["🇨🇭", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Pedrinate",
     "name": "Pedrinate"
   },
@@ -1121,6 +1367,7 @@
     "been": true,
     "coords": "39.626341°N, 75.503451°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Pennsville_Township,_New_Jersey",
     "name": "Pennsville, NJ",
     "state": "NJ"
@@ -1129,6 +1376,7 @@
     "been": false,
     "coords": "30°27′0″N, 87°22′54″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Perdido_River",
     "name": "Perdido River, FL",
     "state": "FL"
@@ -1137,6 +1385,7 @@
     "been": false,
     "coords": "71°23′20″N, 156°28′45″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Point_Barrow",
     "name": "Point Barrow"
   },
@@ -1144,6 +1393,7 @@
     "been": false,
     "coords": "41°57′51″N, 82°31′4″W",
     "country": "CA",
+    "icons": ["🇨🇦", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Point_Pelee_National_Park",
     "name": "Point Pelee"
   },
@@ -1151,7 +1401,8 @@
     "been": false,
     "coords": "13°26′51.2″N, 144°37′5.5″E",
     "country": "VI",
-    "link": "https://en.wikipedia.org/wiki/Point_Udall_(Guam)",
+    "icons": ["🇻🇮", "➡️"],
+    "link": "https://en.wikipedia.org/wiki/Point_Udall_(U.S._Virgin_Islands)",
     "name": "Point Udall",
     "reference": "US territory"
   },
@@ -1159,12 +1410,14 @@
     "been": false,
     "coords": "48°24′52″N, 4°47′40″W",
     "country": "FR",
+    "icons": ["🇫🇷", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Pointe_de_Corsen",
     "name": "Pointe de Corsen"
   },
   "pointe-de-givet": {
     "been": true,
     "country": "FR",
+    "icons": ["🇫🇷", "⬆️"],
     "link": "https://fr.wikipedia.org/wiki/Pointe_de_Givet",
     "name": "Pointe de Givet",
     "reference": "Grand Est",
@@ -1174,6 +1427,7 @@
     "been": true,
     "coords": "13.930546°N, 16.762047°W",
     "country": "SN",
+    "icons": ["🇸🇳", "⬇️"],
     "link": "https://fr.wikipedia.org/wiki/Pointe_de_Sangomar",
     "name": "Pointe de Sangomar",
     "reference": "Fatick"
@@ -1182,6 +1436,7 @@
     "been": true,
     "coords": "14.7408°N, 17.53°W",
     "country": "SN",
+    "icons": ["🇸🇳", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Pointe_des_Almadies",
     "name": "Pointe des Almadies",
     "reference": "Africa"
@@ -1190,6 +1445,7 @@
     "been": true,
     "coords": "17.202°N, 25.093°W",
     "country": "CV",
+    "icons": ["🇨🇻", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Ponta_do_Sol,_Cape_Verde",
     "name": "Ponta do Sol"
   },
@@ -1197,6 +1453,7 @@
     "been": false,
     "coords": "42.3333072525, 2.52776092867",
     "country": "FR",
+    "icons": ["🇫🇷", "⬇️"],
     "link": "https://fr.wikipedia.org/wiki/Puig_de_Coma_Negra",
     "name": "Puig de Coma Negra",
     "wikidata": "Q4889555"
@@ -1205,6 +1462,7 @@
     "been": false,
     "coords": "43.789933°N, 7.688112°W",
     "country": "ES",
+    "icons": ["🇪🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Punta_de_Estaca_de_Bares",
     "name": "Punta de Estaca de Bares"
   },
@@ -1212,6 +1470,7 @@
     "been": false,
     "coords": "36°00′15″N, 5°36′37″W",
     "country": "ES",
+    "icons": ["🇪🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Punta_de_Tarifa",
     "name": "Punta de Tarifa",
     "reference": "Europe"
@@ -1220,6 +1479,7 @@
     "been": false,
     "coords": "12°27′28″N, 71°39′56″W",
     "country": "CO",
+    "icons": ["🇨🇴", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Punta_Gallinas",
     "name": "Punta Gallinas",
     "reference": "South America"
@@ -1228,6 +1488,7 @@
     "been": false,
     "coords": "04°40′45″S, 81°19′35″W",
     "country": "PE",
+    "icons": ["🇵🇪", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Punta_Pari%C3%B1as",
     "name": "Punta Pariñas",
     "reference": "South America"
@@ -1236,6 +1497,7 @@
     "been": true,
     "coords": "42°3′44.4″N, 70°14′34.9″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Race_Point_Light",
     "name": "Race Point",
     "reference": "Cape Cod",
@@ -1245,6 +1507,7 @@
     "been": false,
     "coords": "37.346983°N, 9.754608°E",
     "country": "TN",
+    "icons": ["🇹🇳", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Ras_ben_Sakka",
     "name": "Ras ben Sakka",
     "reference": "Africa"
@@ -1253,6 +1516,7 @@
     "been": false,
     "coords": "10°25′0″N, 51°16′0″E",
     "country": "SO",
+    "icons": ["🇸🇴", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Ras_Hafun",
     "name": "Ras Hafun",
     "reference": "Africa"
@@ -1261,20 +1525,24 @@
     "been": false,
     "coords": "20°46′17″N, 17°2′50″W",
     "country": "EH",
+    "icons": ["🇪🇭", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Ras_Nouadhibou",
     "name": "Ras Nouadhibou"
   },
   "reinhards": {
-    "been": false,
+    "been": true,
     "coords": "50.64148°N, 9.87696°E",
     "country": "DE",
+    "icons": ["🇩🇪", "⬅️"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.64148_N_9.87696_E",
-    "name": "Reinhards"
+    "name": "Reinhards",
+    "reference": "East Germany"
   },
   "riverdale": {
     "been": true,
     "coords": "40.894°N, 73.913°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Riverdale,_Bronx",
     "name": "Riverdale",
     "reference": "New York City",
@@ -1283,6 +1551,7 @@
   "rockwood-mo": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "name": "Rockwood, MO",
     "state": "MO"
   },
@@ -1290,6 +1559,7 @@
     "been": false,
     "coords": "14°32′48″S, 168°09′07″W",
     "country": "AS",
+    "icons": ["🇦🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Rose_Atoll",
     "name": "Rose Atoll",
     "reference": "US territory"
@@ -1298,6 +1568,7 @@
     "been": false,
     "coords": "47°14′36″N, 9°31′48″E",
     "country": "LI",
+    "icons": ["🇱🇮", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Ruggell",
     "name": "Ruggell"
   },
@@ -1305,6 +1576,7 @@
     "been": true,
     "coords": "49.459722222222, 6.0305555555556",
     "country": "LU",
+    "icons": ["🇱🇺", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Rumelange",
     "name": "Rumelange",
     "wikidata": "Q914847"
@@ -1313,6 +1585,7 @@
     "been": true,
     "coords": "41°59′06″N, 73°25′20″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Salisbury,_CT",
     "name": "Salisbury, CT",
     "state": "CT"
@@ -1321,6 +1594,7 @@
     "been": false,
     "coords": "17.070°N, 25.171°W",
     "country": "CV",
+    "icons": ["🇨🇻", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Santo_Antão,_Cape_Verde",
     "name": "Santo Antão",
     "reference": "Africa 🏝"
@@ -1329,6 +1603,7 @@
     "been": true,
     "coords": "49.7135889°N, 6.5066861°E",
     "country": "LU",
+    "icons": ["🇱🇺", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Sauer",
     "name": "Sauer River"
   },
@@ -1336,6 +1611,7 @@
     "been": true,
     "coords": "41°34′55″N, 70°29′55″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Seabrook,_Massachusetts",
     "name": "Seabrook, MA",
     "state": "MA"
@@ -1344,15 +1620,17 @@
     "been": true,
     "coords": "38°27′37″N, 75°13′15″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "info": "(5 km)",
     "link": "https://en.wikipedia.org/wiki/Selbyville,_Delaware",
     "name": "Selbyville, DE",
     "state": "DE"
   },
   "severni": {
-    "been": false,
+    "been": true,
     "coords": "51°2′6″N, 14°18′56″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Severn%C3%AD",
     "name": "Severní"
   },
@@ -1360,6 +1638,7 @@
     "been": false,
     "coords": "27°54′54″N, 34°19′39″E",
     "country": "EG",
+    "icons": ["🇪🇬", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Sharm_El_Sheikh",
     "name": "Sharm El Sheikh",
     "reference": "Sinai"
@@ -1368,6 +1647,7 @@
     "been": true,
     "coords": "44°5.8′N, 145°9.2′E",
     "country": "JP",
+    "icons": ["🇯🇵", "↗️"],
     "link": "https://en.wikipedia.org/wiki/Shiretoko_Peninsula",
     "name": "Shiretoko",
     "reference": "Hokkaido"
@@ -1375,6 +1655,7 @@
   "shore-parkway": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Belt_Parkway",
     "name": "Shore Parkway",
     "reference": "New York City",
@@ -1385,6 +1666,7 @@
     "been": true,
     "coords": "51°18′52″N, 3°21′51″E",
     "country": "NL",
+    "icons": ["🇳🇱", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Sint_Anna_ter_Muiden",
     "name": "Sint Anna ter Muiden"
   },
@@ -1392,14 +1674,25 @@
     "been": true,
     "coords": "29°12′19″N, 25°31′10″E",
     "country": "EG",
+    "icons": ["🇪🇬", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Siwa_Oasis",
     "name": "Siwa Oasis",
     "reference": "western town"
+  },
+  "slope-point": {
+    "been": false,
+    "coords": "46°40′31.39″S, 169°00′20.34″E",
+    "country": "NZ",
+    "icons": ["🇳🇿", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Slope_Point",
+    "name": "Slope Point",
+    "reference": "South Island"
   },
   "south-east-cape": {
     "been": false,
     "coords": "43°38′37″S, 146°49′39″E",
     "country": "AU",
+    "icons": ["🇦🇺", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/South_East_Cape",
     "name": "South East Cape"
   },
@@ -1407,6 +1700,7 @@
     "been": true,
     "coords": "42.1606455, -73.4162261",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/South_Egremont,_MA",
     "name": "South Egremont, MA",
     "state": "MA",
@@ -1416,6 +1710,7 @@
     "been": false,
     "coords": "90°S, 0°E",
     "country": "AQ",
+    "icons": ["🇦🇶", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/South_Pole",
     "name": "South Pole",
     "reference": "Earth"
@@ -1424,6 +1719,7 @@
     "been": false,
     "coords": "-43.57111111, 146.03138889",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/South_West_Cape",
     "name": "South West Cape",
     "wikidata": "Q7568836"
@@ -1432,13 +1728,24 @@
     "been": true,
     "coords": "45°31′22″N, 141°56′11″E",
     "country": "JP",
+    "icons": ["🇯🇵", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Cape_Sōya",
     "name": "Sōyamisaki 宗谷岬"
+  },
+  "subotica": {
+    "been": false,
+    "coords": "46°06′01″N, 19°39′56″E",
+    "country": "RS",
+    "icons": ["🇷🇸", "⬆️"],
+    "info": "(30 km)",
+    "link": "https://en.wikipedia.org/wiki/Subotica",
+    "name": "Subotica"
   },
   "surre": {
     "been": true,
     "coords": "49°54′N, 5°47′E",
     "country": "LU",
+    "icons": ["🇱🇺", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Surré",
     "name": "Surré"
   },
@@ -1446,6 +1753,7 @@
     "been": false,
     "coords": "46°32′N, 16°22′E",
     "country": "HR",
+    "icons": ["🇭🇷", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Sveti_Martin_na_Muri",
     "name": "Sveti Martin na Muri"
   },
@@ -1453,6 +1761,7 @@
     "been": false,
     "coords": "1°15′58″N, 103°30′39″E",
     "country": "MY",
+    "icons": ["🇲🇾", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Tanjung_Piai",
     "name": "Tanjung Piai",
     "reference": "Asia"
@@ -1461,6 +1770,7 @@
     "been": false,
     "coords": "54°S, 69°W",
     "country": "AR",
+    "icons": ["🇦🇷", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Isla_Grande_de_Tierra_del_Fuego",
     "name": "Tierra del Fuego"
   },
@@ -1468,6 +1778,7 @@
     "been": true,
     "coords": "16°46′33″N, 3°00′34″W",
     "country": "ML",
+    "icons": ["🇲🇱", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Timbuktu",
     "name": "Timbuktu",
     "reference": "town"
@@ -1476,6 +1787,7 @@
     "been": true,
     "coords": "49.5072°N, 5.4758°E",
     "country": "BE",
+    "icons": ["🇧🇪", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Torgny_(village)",
     "name": "Torgny"
   },
@@ -1483,6 +1795,7 @@
     "been": true,
     "coords": "40.506°N, 74.243°W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Tottenville,_Staten_Island",
     "name": "Tottenville, NY",
     "state": "NY"
@@ -1491,6 +1804,7 @@
     "been": false,
     "coords": "42°42′43″N, 18°20′46″E",
     "country": "BA",
+    "icons": ["🇧🇦", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Trebinje",
     "name": "Trebinje"
   },
@@ -1498,6 +1812,7 @@
     "been": true,
     "coords": "50.116666666667, 6.0",
     "country": "LU",
+    "icons": ["🇱🇺", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Troisvierges",
     "name": "Troisvierges",
     "wikidata": "Q24454"
@@ -1506,6 +1821,7 @@
     "been": true,
     "coords": "48°37′26″N, 22°17′42″E",
     "country": "UA",
+    "icons": ["🇺🇦", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Uzhhorod",
     "name": "Uzhhorod"
   },
@@ -1513,6 +1829,7 @@
     "been": false,
     "coords": "29°16′37″N, 89°21′17″W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Venice,_LA",
     "name": "Venice, LA",
     "state": "LA"
@@ -1521,6 +1838,7 @@
     "been": true,
     "coords": "42°46′6″N, 72°31′9″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Vernon,_VT",
     "name": "Vernon, VT",
     "state": "VT"
@@ -1529,6 +1847,7 @@
     "been": true,
     "coords": "48°14′N, 16°24′E",
     "country": "AT",
+    "icons": ["🇦🇹", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
     "name": "Vienna",
     "reference": "Donauinsel"
@@ -1537,6 +1856,7 @@
     "been": true,
     "coords": "63°25′10″N, 19°00′35″W",
     "country": "IS",
+    "icons": ["🇮🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/V%C3%ADk_%C3%AD_Mýrdal",
     "name": "Vík í Mýrdal",
     "reference": "town"
@@ -1545,6 +1865,7 @@
     "been": false,
     "coords": "54°24′N, 19°30′E",
     "country": "RU",
+    "icons": ["🇷🇺", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Vistula_Spit",
     "name": "Vistula Split"
   },
@@ -1552,6 +1873,7 @@
     "been": true,
     "coords": "41°35′N, 71°50′W",
     "country": "US",
+    "icons": ["🇺🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Voluntown,_Connecticut",
     "name": "Voluntown, CT",
     "state": "CT"
@@ -1560,19 +1882,22 @@
     "been": false,
     "coords": "55°18′18″N, 26°49′12″E",
     "country": "LT",
+    "icons": ["🇱🇹", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Vosiūnai",
     "name": "Vosiūnai"
   },
   "vyssi-brod": {
-    "been": false,
+    "been": true,
     "coords": "48°36′58″N, 14°18′43″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Vyšš%C3%AD_Brod",
     "name": "Vyšší Brod"
   },
   "watch-hill-point-ri": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Watch_Hill_Point",
     "name": "Watch Hill Point, RI",
     "state": "RI"
@@ -1581,6 +1906,7 @@
     "been": false,
     "coords": "45.906°S, 166.4276°E",
     "country": "NZ",
+    "icons": ["🇳🇿", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/West_Cape",
     "name": "West Cape"
   },
@@ -1588,6 +1914,7 @@
     "been": true,
     "coords": "42°51′0″N, 72°34′56″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Brattleboro,_Vermont",
     "name": "West Chesterfield, NH",
     "state": "NH"
@@ -1596,6 +1923,7 @@
     "been": true,
     "coords": "41°38′20″N, 71°03′00″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Westport,_Massachusetts",
     "name": "Westport, MA",
     "state": "MA"
@@ -1604,6 +1932,7 @@
     "been": true,
     "coords": "39°44′45″N, 75°32′48″W",
     "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
     "info": "(5 km)",
     "link": "https://en.wikipedia.org/wiki/Wilmington,_Delaware",
     "name": "Wilmington, DE",
@@ -1613,6 +1942,7 @@
     "been": false,
     "coords": "39°02′S, 146°23′E",
     "country": "AU",
+    "icons": ["🇦🇺", "⬇️"],
     "link": "https://en.wikipedia.org/wiki/Wilsons_Promontory",
     "name": "Wilsons Promontory",
     "reference": "mainland"
@@ -1621,15 +1951,17 @@
     "been": true,
     "coords": "48.38, 16.8444",
     "country": "SK",
+    "icons": ["🇸🇰", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Záhorská_Ves",
     "name": "Záhorská Ves",
     "wikidata": "Q246760"
   },
   "zentendorf": {
-    "been": false,
+    "been": true,
     "coords": "51°16′44″N, 15°1′46″E",
     "country": "DE",
-    "link": "https://en.wikipedia.org/wiki/Zentendorf",
+    "icons": ["🇩🇪", "➡️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.27295_N_15.04178_E",
     "name": "Zentendorf"
   }
 }

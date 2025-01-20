@@ -3,6 +3,7 @@
     "been": true,
     "coords": "39°21′58″N, 74°24′51″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Absecon_Lighthouse",
     "name": "Absecon"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "48°9′38.75″N, 122°40′52.2″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Admiralty_Head_Light",
     "name": "Admiralty Head"
   },
@@ -17,6 +19,7 @@
     "been": true,
     "coords": "64.3158059°N, 22.09466°W",
     "country": "IS",
+    "icons": ["🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Akranes",
     "name": "Akranes"
   },
@@ -24,13 +27,16 @@
     "been": true,
     "coords": "31.2148°N, 29.886°E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
-    "name": "Alexandria"
+    "name": "Alexandria",
+    "strike": true
   },
   "assateague": {
     "been": true,
     "coords": "37.91118°N, 75.356°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Assateague_Light",
     "name": "Assateague"
   },
@@ -38,13 +44,22 @@
     "been": true,
     "coords": "40°46′22″N, 73°56′24.6″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Blackwell_Island_Light",
     "name": "Blackwell Island"
+  },
+  "cape-bruny": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Cape_Bruny_Lighthouse",
+    "name": "Cape Bruny"
   },
   "cape-charles": {
     "been": true,
     "coords": "37.12292°N, 75.90647°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_Charles_Lighthouse",
     "name": "Cape Charles"
   },
@@ -52,6 +67,7 @@
     "been": true,
     "coords": "42°2′22.282″N, 70°3′39.377″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Highland_Light",
     "name": "Cape Cod"
   },
@@ -59,6 +75,7 @@
     "been": true,
     "coords": "46.2756°N, 124.0518°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_Disappointment_Light",
     "name": "Cape Disappointment"
   },
@@ -66,13 +83,22 @@
     "been": true,
     "coords": "48.3917°N, 124.7366°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_Flattery_Light",
     "name": "Cape Flattery"
+  },
+  "cape-hatteras": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
+    "name": "Cape Hatteras"
   },
   "cape-may": {
     "been": true,
     "coords": "38°55′58.8″N, 74°57′37.5″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_May_Lighthouse",
     "name": "Cape May"
   },
@@ -80,19 +106,29 @@
     "been": true,
     "coords": "41°40′16.704″N, 69°57′.554″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chatham_Light",
     "name": "Chatham"
+  },
+  "claromeco": {
+    "been": false,
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Faro_Claromec%C3%B3",
+    "name": "Claromecó"
   },
   "devin": {
     "been": true,
     "coords": "48°10′25″N, 16°58′42″E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle",
     "name": "Devín"
   },
   "far-de-montjuic": {
     "been": true,
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Faro_de_Montjuic",
     "name": "Far de Montjuïc"
   },
@@ -100,6 +136,7 @@
     "been": false,
     "coords": "27.706665°N, 18.147496°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Punta_Orchilla_Lighthouse",
     "name": "Faro de Punta Orchilla"
   },
@@ -107,6 +144,7 @@
     "been": true,
     "coords": "38.45137°N, 75.05496°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fenwick_Island_Light",
     "name": "Fenwick Island"
   },
@@ -114,6 +152,7 @@
     "been": true,
     "coords": "40°37′56.8″N, 73°13′6.9″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fire_Island_Lighthouse",
     "name": "Fire Island"
   },
@@ -121,6 +160,7 @@
     "been": true,
     "coords": "41.248889, -72.903889",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Five_Mile_Point_Light",
     "name": "Five Mile Point"
   },
@@ -128,6 +168,7 @@
     "been": true,
     "coords": "42°31′35.3″N, 70°51′59.3″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fort_Pickering_Light",
     "name": "Fort Pickering"
   },
@@ -135,6 +176,7 @@
     "been": true,
     "coords": "40°36′21″N, 74°3′14″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fort_Wadsworth_Light",
     "name": "Fort Wadsworth"
   },
@@ -142,13 +184,22 @@
     "been": true,
     "coords": "38.712, -77.037",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fort_Washington_Light",
     "name": "Fort Washington"
+  },
+  "green-point": {
+    "been": false,
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "link": "https://en.wikipedia.org/wiki/Green_Point_Lighthouse,_Cape_Town",
+    "name": "Green Point"
   },
   "hillsboro-inlet-light": {
     "been": true,
     "coords": "26°15′32″N, 80°4′51″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hillsboro_Inlet_Light",
     "name": "Hillsboro Inlet Light"
   },
@@ -156,13 +207,22 @@
     "been": true,
     "coords": "42°32′47.4″N, 70°51′21.4″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hospital_Point_Range_Front_Light",
     "name": "Hospital Point"
+  },
+  "husavik": {
+    "been": false,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "link": "https://en.wikipedia.org/wiki/H%C3%BAsav%C3%ADk",
+    "name": "Húsavík"
   },
   "jones-point": {
     "been": true,
     "coords": "38°47′25.4″N, 77°2′26.3″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jones_Point_Light",
     "name": "Jones Point"
   },
@@ -170,13 +230,29 @@
     "been": true,
     "coords": "26.94861°N, 80.08204°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jupiter_Inlet_Light",
     "name": "Jupiter Inlet Light"
+  },
+  "klein-curacao": {
+    "been": false,
+    "country": "CW",
+    "icons": ["🇨🇼"],
+    "link": "https://en.wikipedia.org/wiki/Klein_Cura%C3%A7ao",
+    "name": "Klein Curaçao"
+  },
+  "les-eclaireurs": {
+    "been": false,
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://en.wikipedia.org/wiki/Les_Eclaireurs_Lighthouse",
+    "name": "Les Éclaireurs"
   },
   "little-red-lighthouse": {
     "been": true,
     "coords": "40.850278, -73.946944",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Little_Red_Lighthouse",
     "name": "Little Red Lighthouse"
   },
@@ -184,6 +260,7 @@
     "been": true,
     "coords": "42.03313°N, 70.16865°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Long_Point_Light",
     "name": "Long Point"
   },
@@ -191,6 +268,7 @@
     "been": false,
     "coords": "60°18′03″N, 19°07′53″E",
     "country": "AX",
+    "icons": ["🇦🇽"],
     "link": "https://sv.wikipedia.org/wiki/Märket",
     "name": "Märkets Fyr"
   },
@@ -198,6 +276,7 @@
     "been": true,
     "coords": "41.07099°N, 71.85709°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Montauk_Point_Light",
     "name": "Montauk"
   },
@@ -205,6 +284,7 @@
     "been": true,
     "coords": "41°51′36.5″N, 69°57′10.6″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Nauset_Light",
     "name": "Nauset"
   },
@@ -212,6 +292,7 @@
     "been": true,
     "coords": "40°23′46.4″N, 73°59′8.8″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Navesink_Twin_Lights",
     "name": "Navesink Twin Lights"
   },
@@ -219,6 +300,7 @@
     "been": true,
     "coords": "46.2990°N, 124.0785°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_Head_Light",
     "name": "North Head"
   },
@@ -226,13 +308,57 @@
     "been": true,
     "coords": "43°9′54.733″N, 70°35′27.943″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_Neddick_Light",
     "name": "Nubble Light"
+  },
+  "phare-de-berck": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_de_Berck",
+    "name": "Phare de Berck"
+  },
+  "phare-de-calais": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_de_Calais",
+    "name": "Phare de Calais"
+  },
+  "phare-de-dunkerque": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_de_Dunkerque",
+    "name": "Phare de Dunkerque"
+  },
+  "phare-de-la-canche": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_de_la_Canche",
+    "name": "Phare de la Canche"
+  },
+  "phare-du-cap-gris-nez": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_du_cap_Gris-Nez",
+    "name": "Phare du Cap Gris-Nez"
+  },
+  "pierhead-light": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Milwaukee_Pierhead_Light",
+    "name": "Pierhead Light"
   },
   "point-perpendicular-light": {
     "been": false,
     "coords": "35.09393°S, 150.80458°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Point_Perpendicular_Light",
     "name": "Point Perpendicular Light"
   },
@@ -240,8 +366,16 @@
     "been": true,
     "coords": "43°4′15.7″N, 70°42′30.9″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Portsmouth_Harbor_Light",
     "name": "Portsmouth Harbor"
+  },
+  "race-point": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Race_Point_Light",
+    "name": "Race Point"
   },
   "race-point*": {
     "been": true,
@@ -254,6 +388,7 @@
     "been": true,
     "coords": "41°55′15″N, 73°57′45″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rondout_Light",
     "name": "Rondout Light"
   },
@@ -261,6 +396,7 @@
     "been": false,
     "coords": "71°05′22.6″N, 28°13′06.2″E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Slettnes_Lighthouse",
     "name": "Slettnes"
   },
@@ -268,6 +404,7 @@
     "been": true,
     "coords": "41°18′14″N, 71°51′30.3″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Watch_Hill_Light",
     "name": "Watch Hill"
   },
@@ -275,6 +412,7 @@
     "been": true,
     "coords": "43°3′31.534″N, 70°41′46.701″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Whaleback_Light",
     "name": "Whaleback Light"
   },
@@ -282,6 +420,7 @@
     "been": true,
     "coords": "42°1′16.4″N, 70°11′36.6″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wood_End_Light",
     "name": "Wood End"
   }

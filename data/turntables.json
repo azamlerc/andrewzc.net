@@ -2,6 +2,7 @@
   "aberdeen-ferryhill": {
     "been": false,
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "http://www.frht.org.uk",
     "name": "Aberdeen, Ferryhill"
   },
@@ -9,6 +10,7 @@
     "been": false,
     "coords": "40°28′44.44″N, 81°39′58.88″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Age_of_Steam_Roundhouse",
     "name": "Age of Steam"
   },
@@ -16,6 +18,7 @@
     "been": true,
     "coords": "52.08635°N, 4.29770°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.08635_N_4.29770_E",
     "name": "Anna Paulownastraat",
     "strike": true
@@ -24,6 +27,7 @@
     "been": false,
     "coords": "35°35′12″N, 105°12′53″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/AT_%26_SF_Roundhouse",
     "name": "Atchison, Topeka &amp; Santa Fe"
   },
@@ -31,6 +35,7 @@
     "been": false,
     "coords": "57.19118°N, 3.82762°W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://geohack.toolforge.org/geohack.php?params=57.19118_N_3.82762_W",
     "name": "Aviemore"
   },
@@ -38,6 +43,7 @@
     "been": false,
     "coords": "43.93833, 4.82278",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_d%27Avignon",
     "name": "Avignon",
     "wikidata": "Q22919065"
@@ -46,6 +52,7 @@
     "been": false,
     "coords": "39°27′33″N, 77°57′36″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_and_Ohio_Railroad_Martinsburg_Shops",
     "name": "B&amp;O Martinsburg"
   },
@@ -53,6 +60,7 @@
     "been": false,
     "coords": "39.2854, -76.6324",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_and_Ohio_Railroad_Museum",
     "name": "B&amp;O Railroad Museum",
     "wikidata": "Q805753"
@@ -61,6 +69,7 @@
     "been": false,
     "coords": "38.65843°N, 9.07475°W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.65843_N_9.07475_W",
     "name": "Barreiro"
   },
@@ -68,6 +77,7 @@
     "been": false,
     "coords": "53°16′28.00″N, 1°22′54.50″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Barrow_Hill_Engine_Shed",
     "name": "Barrow Hill"
   },
@@ -75,6 +85,7 @@
     "been": false,
     "coords": "44°4′36″N, 71°17′15″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bartlett_Roundhouse",
     "name": "Bartlett"
   },
@@ -82,6 +93,7 @@
     "been": false,
     "coords": "37.763992°N, 122.392858°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bayshore_Cutoff#Bayshore_Roundhouse",
     "name": "Bayshore Roundhouse"
   },
@@ -89,6 +101,7 @@
     "been": false,
     "coords": "51.835, 6.62806",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Bocholt_textile_museum",
     "name": "Bocholt Textile Museum",
     "wikidata": "Q2407922"
@@ -97,6 +110,7 @@
     "been": false,
     "coords": "32°55′35.6″S, 151°43′35.60″E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Broadmeadow_Locomotive_Depot",
     "name": "Broadmeadow"
   },
@@ -104,6 +118,7 @@
     "been": false,
     "coords": "50.98404°N, 114.10554°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Heritage_Park_Historical_Village",
     "name": "Calgary Heritage Park"
   },
@@ -111,13 +126,22 @@
     "been": false,
     "coords": "38°35′5″N, 121°30′16″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/California_State_Railroad_Museum",
     "name": "California Railroad Museum"
+  },
+  "camlık-railway-museum": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Çamlık_Railway_Museum",
+    "name": "Çamlık Railway Museum"
   },
   "carnforth": {
     "been": false,
     "coords": "54.1311°N, 2.7727°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Carnforth_MPD",
     "name": "Carnforth"
   },
@@ -125,6 +149,7 @@
     "been": false,
     "coords": "39.81739°N, 7.49295°W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=39.81739_N_7.49295_W",
     "name": "Castelo Branco"
   },
@@ -132,6 +157,7 @@
     "been": false,
     "coords": "50.17874°N, 1.50028°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.17874_N_1.50028_E",
     "name": "Cayeux-sur-Mer"
   },
@@ -139,6 +165,7 @@
     "been": false,
     "coords": "45.5772, 5.91635",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Chamb%C3%A9ry",
     "name": "Chambéry",
     "wikidata": "Q3443010"
@@ -147,6 +174,7 @@
     "been": false,
     "coords": "24.0855°N, 120.5401°E",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Changhua_Roundhouse",
     "name": "Changhua"
   },
@@ -154,6 +182,7 @@
     "been": false,
     "coords": "35°2′44″N, 85°16′2″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee",
     "name": "Chattanooga"
   },
@@ -161,6 +190,7 @@
     "been": false,
     "coords": "41°7′54″N, 104°48′51″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Union_Pacific_Roundhouse,_Turntable_and_Machine_Shop",
     "name": "Cheyenne"
   },
@@ -168,6 +198,7 @@
     "been": false,
     "coords": "44°21′57″N, 98°12′21″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago_and_North_Western_Roundhouse",
     "name": "Chicago &amp; North Western"
   },
@@ -175,13 +206,23 @@
     "been": false,
     "coords": "41°45′39″N, 88°18′30″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago,_Burlington,_%26_Quincy_Roundhouse_and_Locomotive_Shop",
     "name": "Chicago, Burlington, &amp; Quincy"
+  },
+  "chomutov": {
+    "been": true,
+    "coords": "50.45545°N, 13.39260°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.45545_N_13.39260_E",
+    "name": "Chomutov"
   },
   "churston": {
     "been": false,
     "coords": "50.375°N, 3.581°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Paignton_and_Dartmouth_Steam_Railway",
     "name": "Churston"
   },
@@ -189,6 +230,7 @@
     "been": false,
     "coords": "39.771875°N, 105.192969444°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Colorado_Railroad_Museum",
     "name": "Colorado Railroad Museum"
   },
@@ -196,6 +238,7 @@
     "been": false,
     "coords": "39°19′1″N, 105°53′29″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Como_Roundhouse,_Railroad_Depot_and_Hotel_Complex",
     "name": "Como Roundhouse"
   },
@@ -203,6 +246,7 @@
     "been": false,
     "coords": "42°3′11″N, 75°49′39″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Conklin,_New_York",
     "name": "Conklin"
   },
@@ -210,6 +254,7 @@
     "been": false,
     "coords": "41°17′4″N, 72°21′4″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Connecticut_Valley_Railroad_Roundhouse_and_Turntable_Site",
     "name": "Connecticut Valley Railroad",
     "strike": true
@@ -218,12 +263,14 @@
     "been": false,
     "coords": "53.35121°N, 6.250185°W",
     "country": "IE",
+    "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Connolly_Station",
     "name": "Connolly Station"
   },
   "dallas-mckinney-avenue": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/McKinney_Avenue_Transit_Authority",
     "name": "Dallas, McKinney Avenue",
     "wikidata": "Q124774997"
@@ -232,6 +279,7 @@
     "been": false,
     "coords": "47.36343, 7.35936",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_de_Del%C3%A9mont",
     "name": "Delémont",
     "wikidata": "Q8981972"
@@ -240,12 +288,14 @@
     "been": false,
     "coords": "52.905126°N, 1.457706°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.905126_N_1.457706_W",
     "name": "Derby Works"
   },
   "detroit-toledo-&amp;-milwaukee": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Detroit,_Toledo_%26_Milwaukee_Roundhouse",
     "name": "Detroit, Toledo &amp; Milwaukee"
   },
@@ -253,6 +303,7 @@
     "been": false,
     "coords": "51.613509°N, 1.244772°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Didcot_Railway_Centre",
     "name": "Didcot"
   },
@@ -260,12 +311,14 @@
     "been": false,
     "coords": "37°17′51″N, 107°52′14″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Durango_and_Silverton_Narrow_Gauge_Railroad",
     "name": "Durango &amp; Silverton"
   },
   "end-o-line-railroad": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/End_O%27_Line_Railroad_Park_%26_Museum",
     "name": "End O’ Line Railroad"
   },
@@ -273,6 +326,7 @@
     "been": false,
     "coords": "33.89059°S, 151.09246°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Enfield,_New_South_Wales",
     "name": "Enfield",
     "strike": true
@@ -281,6 +335,7 @@
     "been": false,
     "coords": "39°27′55″N, 8°28′5″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/National_Railway_Museum_(Portugal)",
     "name": "Entroncamento"
   },
@@ -288,6 +343,7 @@
     "been": false,
     "coords": "48°25′47.74″N, 123°22′52.42″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Esquimalt_and_Nanaimo_Railway_Roundhouse",
     "name": "Esquimalt &amp; Nanaimo"
   },
@@ -295,6 +351,7 @@
     "been": false,
     "coords": "60°36′26″N, 15°37′52″E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Falun",
     "name": "Falun"
   },
@@ -302,6 +359,7 @@
     "been": false,
     "coords": "33°32′24.57″N, 86°50′09.86″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Finley_Roundhouse",
     "name": "Finley Roundhouse"
   },
@@ -309,13 +367,23 @@
     "been": false,
     "coords": "56.8198°N, 5.1052°W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Fort_William,_Scotland",
     "name": "Fort William"
+  },
+  "gary-in": {
+    "been": false,
+    "coords": "41.61333°N, 87.35305°W",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41.61333_N_87.35305_W",
+    "name": "Gary, IN"
   },
   "georgia-railroad-museum": {
     "been": false,
     "coords": "32°04′32″N, 81°06′06″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Georgia_State_Railroad_Museum",
     "name": "Georgia Railroad Museum"
   },
@@ -323,6 +391,7 @@
     "been": false,
     "coords": "57°42′27″N, 11°58′03″E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/G%C3%B6teborg",
     "name": "Göteborg"
   },
@@ -330,6 +399,7 @@
     "been": false,
     "coords": "34.7711564°S, 149.7114792°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Goulburn_Rail_Heritage_Centre",
     "name": "Goulburn"
   },
@@ -337,6 +407,7 @@
     "been": false,
     "coords": "35.4294°N, 83.4485°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Great_Smoky_Mountains_Railroad",
     "name": "Great Smoky Mountains Railroad"
   },
@@ -344,6 +415,7 @@
     "been": false,
     "coords": "45.6031, 4.78822",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Grigny",
     "name": "Grigny",
     "wikidata": "Q16510673"
@@ -352,13 +424,15 @@
     "been": false,
     "coords": "20.648218°N, 103.343494°W",
     "country": "MX",
-    "link": "https://geohack.toolforge.org/geohack.php?params=20.648218_N_103.343494_W_",
+    "icons": ["🇲🇽"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=20.648218_N_103.343494_W",
     "name": "Guadalajara"
   },
   "hallsberg": {
     "been": false,
     "coords": "59°04′N, 15°07′E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Hallsberg",
     "name": "Hallsberg"
   },
@@ -366,6 +440,7 @@
     "been": false,
     "coords": "51.45072°N, 0.00271°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.45072_N_0.00271_E",
     "name": "Hither Green",
     "strike": true
@@ -374,6 +449,7 @@
     "been": false,
     "coords": "51.066°N, 0.319°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Horsham_railway_station",
     "name": "Horsham"
   },
@@ -381,13 +457,15 @@
     "been": false,
     "coords": "34°21′53″N, 92°48′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hot_Springs_Railroad_Roundhouse",
     "name": "Hot Springs"
   },
   "hungarian-railway-museum": {
-    "been": false,
+    "been": true,
     "coords": "47.5419°N, 19.0986°E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Hungarian_Railway_Museum",
     "name": "Hungarian Railway Museum"
   },
@@ -395,6 +473,7 @@
     "been": true,
     "coords": "37°47′44″N, 122°24′27″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
     "name": "Hyde &amp; Beach"
   },
@@ -402,6 +481,7 @@
     "been": false,
     "coords": "32.8112°N, 35.0067°E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Israel_Railway_Museum",
     "name": "Israel Railway Museum"
   },
@@ -409,6 +489,7 @@
     "been": false,
     "coords": "44°57′45″N, 93°5′46″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Minnesota_Transportation_Museum#Jackson_Street_Roundhouse",
     "name": "Jackson Street Roundhouse"
   },
@@ -416,6 +497,7 @@
     "been": false,
     "coords": "34°53′0.77″S, 147°34′45.14″E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Junee_Roundhouse_Railway_Museum",
     "name": "Junee Roundhouse"
   },
@@ -423,6 +505,7 @@
     "been": false,
     "coords": "39°04′46″N, 94°36′04″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kansas_City_Terminal_Railway_Company_Roundhouse_Historic_District",
     "name": "Kansas City"
   },
@@ -430,6 +513,7 @@
     "been": false,
     "coords": "53.867°N, 1.911°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Keighley_and_Worth_Valley_Railway",
     "name": "Keighley",
     "wikidata": "Q3194676"
@@ -438,6 +522,7 @@
     "been": false,
     "coords": "52.38426°N, 2.24003°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Kidderminster_Town_railway_station",
     "name": "Kidderminster"
   },
@@ -445,6 +530,7 @@
     "been": false,
     "coords": "46°58′N, 9°32′E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Landquart,_Switzerland",
     "name": "Landquart"
   },
@@ -452,6 +538,7 @@
     "been": false,
     "coords": "50.21974°N, 1.63021°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.21974_N_1.63021_E",
     "name": "Le Crotoy"
   },
@@ -459,6 +546,7 @@
     "been": false,
     "coords": "7.790198900000001°S, 110.3754443°E",
     "country": "ID",
+    "icons": ["🇮🇩"],
     "link": "https://en.wikipedia.org/wiki/Lempuyangan_railway_station",
     "name": "Lempuyangan"
   },
@@ -466,6 +554,7 @@
     "been": false,
     "coords": "43°31′53″S, 172°40′21″E",
     "country": "NZ",
+    "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Linwood,_New_Zealand",
     "name": "Linwood"
   },
@@ -473,6 +562,7 @@
     "been": false,
     "coords": "49.8724, 2.34969",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/D%C3%A9p%C3%B4t_de_Longueau",
     "name": "Longueau",
     "wikidata": "Q16507695"
@@ -481,6 +571,7 @@
     "been": false,
     "coords": "49°48′52″N, 06°07′54″E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://fr.wikipedia.org/wiki/D%C3%A9p%C3%B4t_de_Luxembourg",
     "name": "Luxembourg",
     "wikidata": "Q57164440"
@@ -489,6 +580,7 @@
     "been": false,
     "coords": "43.309303°N, 5.394333°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Marseille-Saint-Charles",
     "name": "Marseille-Saint-Charles",
     "wikidata": "Q48759853"
@@ -497,6 +589,7 @@
     "been": false,
     "coords": "51.2061°N, 3.4668°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Minehead_railway_station",
     "name": "Minehead"
   },
@@ -504,6 +597,7 @@
     "been": false,
     "coords": "48°05′56″N, 20°48′35″E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Miskolc_Tiszai_railway_station",
     "name": "Miskolc Tiszai"
   },
@@ -511,6 +605,7 @@
     "been": false,
     "coords": "49.755533333333, 4.7258805555556",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Remise_ferroviaire_de_Mohon",
     "name": "Mohon",
     "wikidata": "Q18529012"
@@ -519,6 +614,7 @@
     "been": false,
     "coords": "47.6822, 0.41056",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Montabon",
     "name": "Montabon",
     "wikidata": "Q3443011"
@@ -527,6 +623,7 @@
     "been": false,
     "coords": "46.3333, 2.60335",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Montlu%C3%A7on",
     "name": "Montluçon",
     "wikidata": "Q15953254"
@@ -535,6 +632,7 @@
     "been": false,
     "coords": "41°25′48″N, 71°27′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Narragansett_Pier_Railroad",
     "name": "Narragansett Pier",
     "wikidata": "Q6966175"
@@ -543,6 +641,7 @@
     "been": false,
     "coords": "53.7923°N, 1.5051°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Neville_Hill_Train_Care_Depot_(Leeds)",
     "name": "Neville Hill"
   },
@@ -550,6 +649,7 @@
     "been": false,
     "coords": "35°41′13″N, 80°26′10″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_Carolina_Transportation_Museum",
     "name": "North Carolina Transport Museum"
   },
@@ -557,6 +657,7 @@
     "been": false,
     "coords": "49.445556°N, 11.074444°E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Nuremberg_Transport_Museum",
     "name": "Nuremberg Transport Museum"
   },
@@ -564,6 +665,7 @@
     "been": false,
     "coords": "53°08′33″N, 16°45′08″E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Okr%C4%85glak_roundhouse_in_Pi%C5%82a",
     "name": "Okrąglak, Piła"
   },
@@ -571,6 +673,7 @@
     "been": false,
     "coords": "51.5249°N, 0.2467°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Old_Oak_Common_TMD",
     "name": "Old Oak Common"
   },
@@ -578,6 +681,7 @@
     "been": false,
     "coords": "40.7594, -73.5028",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oyster_Bay_Railroad_Museum",
     "name": "Oyster Bay",
     "wikidata": "Q129361"
@@ -586,6 +690,7 @@
     "been": false,
     "coords": "5.73261°N, 115.93286°E",
     "country": "MY",
+    "icons": ["🇲🇾"],
     "link": "https://geohack.toolforge.org/geohack.php?params=5.73261_N_115.93286_E",
     "name": "Papar"
   },
@@ -593,12 +698,14 @@
     "been": false,
     "coords": "32.9752°S, 138.8265°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Steamtown_Peterborough_Railway_Preservation_Society",
     "name": "Peterborough"
   },
   "pickering": {
     "been": false,
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/North_Yorkshire_Moors_Railway",
     "name": "Pickering",
     "wikidata": "Q1734523"
@@ -607,6 +714,7 @@
     "been": true,
     "coords": "41.3746°N, 74.6944°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Port_Jervis_station",
     "name": "Port Jervis"
   },
@@ -614,6 +722,7 @@
     "been": true,
     "coords": "37°47′44″N, 122°24′27″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
     "name": "Powell &amp; Market"
   },
@@ -621,6 +730,7 @@
     "been": false,
     "coords": "37°57′3.54″N, 120°25′3.75″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Railtown_1897_State_Historic_Park",
     "name": "Railtown 1897 State Park"
   },
@@ -628,6 +738,7 @@
     "been": false,
     "coords": "35°51′15″N, 78°45′43″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Raleigh,_North_Carolina",
     "name": "Raleigh"
   },
@@ -635,6 +746,7 @@
     "been": true,
     "coords": "40.69626°N, 73.82334°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=40.69626_N_73.82334_W",
     "name": "Richmond Hill"
   },
@@ -642,6 +754,7 @@
     "been": false,
     "coords": "44°6′4″N, 69°7′23″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rockland_Turntable_and_Engine_House",
     "name": "Rockland"
   },
@@ -649,13 +762,16 @@
     "been": true,
     "coords": "51.5432°N, 0.1519°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Roundhouse_(venue)",
-    "name": "Roundhouse"
+    "name": "Roundhouse",
+    "strike": true
   },
   "rowsley-south": {
     "been": false,
     "coords": "53.1746°N, 1.6095°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Rowsley_South_railway_station",
     "name": "Rowsley South"
   },
@@ -663,6 +779,7 @@
     "been": false,
     "coords": "46.216861, 7.00089",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://fr.wikipedia.org/wiki/Rotonde_de_Saint-Maurice",
     "name": "Saint-Maurice",
     "wikidata": "Q29892473"
@@ -671,6 +788,7 @@
     "been": false,
     "coords": "46°32′N, 9°52′E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Samedan",
     "name": "Samedan"
   },
@@ -678,6 +796,7 @@
     "been": false,
     "coords": "51°57′56″N, 20°08′34″E",
     "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Roundhouse_Skierniewice",
     "name": "Skierniewice"
   },
@@ -685,6 +804,7 @@
     "been": false,
     "coords": "50.35206°N, 4.70925°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.35206_N_4.70925_W",
     "name": "St Blazey, Cornwall"
   },
@@ -692,6 +812,7 @@
     "been": false,
     "coords": "52.65493°N, 1.64643°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.65493_N_1.64643_W",
     "name": "Statfold Barn"
   },
@@ -699,6 +820,7 @@
     "been": true,
     "coords": "41.40733°N, 75.67132°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Steamtown_National_Historic_Site",
     "name": "Steamtown"
   },
@@ -706,6 +828,7 @@
     "been": false,
     "coords": "46°34′40″N, 81°04′10″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Sudbury,_Ontario",
     "name": "Sudbury"
   },
@@ -713,6 +836,7 @@
     "been": false,
     "coords": "34.47881°N, 85.34654°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=34.47881_N_85.34654_W",
     "name": "Summerville"
   },
@@ -720,6 +844,7 @@
     "been": false,
     "coords": "50.61353°N, 1.98235°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Swanage_Railway",
     "name": "Swanage"
   },
@@ -727,6 +852,7 @@
     "been": false,
     "coords": "51.56°N, 1.78°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Swindon",
     "name": "Swindon"
   },
@@ -734,6 +860,7 @@
     "been": false,
     "coords": "37°47′44″N, 122°24′27″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
     "name": "Taylor &amp; Bay"
   },
@@ -741,6 +868,7 @@
     "been": false,
     "coords": "3°19′10″N, 99°9′8″E",
     "country": "ID",
+    "icons": ["🇮🇩"],
     "link": "https://en.wikipedia.org/wiki/Tebing_Tinggi",
     "name": "Tebing Tinggi"
   },
@@ -748,6 +876,7 @@
     "been": false,
     "coords": "45.75177°N, 21.20163°E",
     "country": "RO",
+    "icons": ["🇷🇴"],
     "link": "https://geohack.toolforge.org/geohack.php?params=45.75177_N_21.20163_E",
     "name": "Timișoara"
   },
@@ -755,6 +884,7 @@
     "been": false,
     "coords": "43°38′28″N, 79°23′07″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Roundhouse_Park",
     "name": "Toronto Railway Museum"
   },
@@ -762,6 +892,7 @@
     "been": false,
     "coords": "45.0681°N, 4.8333°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Tournon-sur-Rhone",
     "name": "Tournon-sur-Rhone"
   },
@@ -769,6 +900,7 @@
     "been": false,
     "coords": "35.05332°N, 133.999782°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tsuyama_Railroad_Educational_Museum",
     "name": "Tsuyama"
   },
@@ -776,6 +908,7 @@
     "been": false,
     "coords": "45.04124°N, 7.66691°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=45.04124_N_7.66691_E",
     "name": "Turin"
   },
@@ -783,6 +916,7 @@
     "been": false,
     "coords": "54.649238°N, 5.798968°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Ulster_Folk_and_Transport_Museum",
     "name": "Ulster Transport Museum"
   },
@@ -790,6 +924,7 @@
     "been": false,
     "coords": "34°59′14″N, 135°44′33″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Umekoji_Steam_Locomotive_Museum",
     "name": "Umekoji Steam Museum"
   },
@@ -797,6 +932,7 @@
     "been": false,
     "coords": "47.350396°N, 8.718681°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Uster_railway_station",
     "name": "Uster"
   },
@@ -804,6 +940,7 @@
     "been": false,
     "coords": "52.088°N, 5.1312°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Railway_Museum_(Netherlands)",
     "name": "Utrecht Spoorwegenmuseum"
   },
@@ -811,6 +948,7 @@
     "been": false,
     "coords": "41.6403°N, 4.7292°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41.6403_N_4.7292_W_type:railwaystation",
     "name": "Valladolid"
   },
@@ -818,6 +956,7 @@
     "been": false,
     "coords": "33.7028°S, 150.581°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Valley_Heights_Rail_Museum",
     "name": "Valley Heights"
   },
@@ -825,6 +964,7 @@
     "been": false,
     "coords": "19.19968°N, 96.14607°W",
     "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://geohack.toolforge.org/geohack.php?params=19.19968_N_96.14607_W_",
     "name": "Veracruz"
   },
@@ -832,6 +972,7 @@
     "been": true,
     "coords": "48.75637, 2.44108",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_triage_de_Villeneuve-Saint-Georges#Rotonde",
     "name": "Villeneuve-Saint-Georges",
     "wikidata": "Q21914476"
@@ -840,6 +981,7 @@
     "been": false,
     "coords": "52°33′50″N, 00°20′23.25″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Nene_Valley_Railway",
     "name": "Wansford"
   },
@@ -847,6 +989,7 @@
     "been": false,
     "coords": "42°51′00″N, 78°47′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Seneca,_New_York",
     "name": "West Seneca"
   },
@@ -854,6 +997,7 @@
     "been": false,
     "coords": "54.75730°N, 5.71159°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://geohack.toolforge.org/geohack.php?params=54.75730_N_5.71159_W",
     "name": "Whitehead"
   },
@@ -861,6 +1005,7 @@
     "been": false,
     "coords": "50.9247°N, 2.6132°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Yeovil_Junction",
     "name": "Yeovil Junction"
   },
@@ -868,6 +1013,7 @@
     "been": false,
     "coords": "53.95980°N, 1.09771°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/National_Railway_Museum",
     "name": "York National Railway Museum"
   }

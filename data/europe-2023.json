@@ -1,4 +1,14 @@
 {
+  "!--": {
+    "been": true,
+    "icons": [],
+    "name": "<!--"
+  },
+  "--": {
+    "been": true,
+    "icons": [],
+    "name": "-->"
+  },
   "-->": {
     "been": true,
     "name": "-->"
@@ -10,22 +20,27 @@
   "absberggasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Absberggasse"
   },
   "alfred-adler-straße": {
     "been": true,
     "country": "AT",
-    "name": "Alfred-Adler-Straße"
+    "icons": ["🇦🇹", "🎈"],
+    "name": "Alfred-Adler-Straße",
+    "strike": true
   },
   "alte-poststraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "http://www.public-transport.at/remise-III-fotos.htm",
     "name": "Alte Poststraße"
   },
   "amalienbad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏊‍♂️"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/amalienbad.html",
     "name": "Amalienbad"
   },
@@ -33,6 +48,7 @@
     "been": true,
     "coords": "-10.41, 12.38",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/And%C4%9Bl",
     "name": "Anděl",
     "wikidata": "Q130049"
@@ -41,6 +57,7 @@
     "been": true,
     "coords": "48.14555555555555, 16.908333333333335",
     "country": "AT",
+    "icons": ["🇦🇹", "🌉"],
     "link": "https://de.wikipedia.org/wiki/Andreas-Maurer-Brücke",
     "name": "Andreas-Maurer-Brücke",
     "wikidata": "Q12764845"
@@ -48,64 +65,75 @@
   "antonigasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Antonigasse"
   },
   "aquapalace-prague": {
     "been": true,
     "coords": "50.0075°N, 14.571111°E",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Aquapalace_Prague",
+    "icons": ["🇨🇿", "♨️"],
+    "link": "https://www.aquapalace.cz/",
     "name": "Aquapalace Prague"
   },
   "aspern": {
     "been": true,
     "coords": "48°13′04″N, 16°29′00″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Aspern",
     "name": "Aspern"
   },
   "asperngasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Asperngasse"
   },
   "astronomicka": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Astronomická"
   },
   "aterlaa": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "name": "Aterlaa"
   },
   "augasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Augasse"
   },
   "auster-wellnessbad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "♨️"],
     "link": "https://www.holding-graz.at/de/freizeit/auster/auster-wellnessbad/",
     "name": "Auster Wellnessbad"
   },
   "babicka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Babická"
   },
   "baden-bei-wien": {
     "been": true,
     "coords": "48°00′27″N, 16°14′04″E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Baden_bei_Wien",
+    "icons": ["🇦🇹", "👯"],
+    "link": "https://whc.unesco.org/en/list/1613/",
     "name": "Baden bei Wien"
   },
   "badner-bahn": {
     "been": true,
     "coords": "48.0994°N, 16.3149°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Badner_Bahn",
     "name": "Badner Bahn"
   },
@@ -113,12 +141,14 @@
     "been": true,
     "coords": "51°28′54″N, 0°8′41″W",
     "country": "GB",
+    "icons": ["🇬🇧", "🐷"],
     "link": "https://en.wikipedia.org/wiki/Battersea_Power_Station",
     "name": "Battersea Power Station"
   },
   "baumgarten": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Baumgarten",
     "wikidata": "Q811552"
   },
@@ -126,6 +156,7 @@
     "been": true,
     "coords": "48.19138888888889, 16.380833333333335",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Belvedere",
     "name": "Belvedere",
     "wikidata": "Q303139"
@@ -134,23 +165,27 @@
     "been": true,
     "coords": "48°11′39″N, 16°22′49″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Belvedere,_Vienna",
     "name": "Belvedere Castle"
   },
   "bernolakov-sad": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🌳"],
     "name": "Bernolákov Sad"
   },
   "bezrucovy-sady": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🌳"],
     "name": "Bezručovy Sady"
   },
   "bila-hora": {
     "been": true,
     "coords": "50°04′42″N, 14°19′10″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/B%C3%ADl%C3%A1_Hora",
     "name": "Bílá Hora"
   },
@@ -158,6 +193,7 @@
     "been": true,
     "coords": "52.521464, 13.400808",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/B%C3%B6rse",
     "name": "Börse",
     "wikidata": "Q47307166"
@@ -166,6 +202,7 @@
     "been": true,
     "coords": "48°10′12″N, 17°12′46″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🛫"],
     "link": "https://en.wikipedia.org/wiki/Bratislava_Airport",
     "name": "Bratislava Airport"
   },
@@ -173,29 +210,34 @@
     "been": true,
     "coords": "48°09′30″N, 17°06′22″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Bratislava_main_railway_station",
     "name": "Bratislava Hlavná Stanica"
   },
   "bratislava-line-1-to-petrzalka": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🚧"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bratislava",
     "name": "Bratislava Line 1 to Petržalka"
   },
   "bratislava-trams": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bratislava",
     "name": "Bratislava Trams"
   },
   "bratislava-trolleybus": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🚎"],
     "name": "Bratislava Trolleybus"
   },
   "bratislava-walls": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🧱"],
     "link": "https://en.wikipedia.org/wiki/Bratislava_fortifications",
     "name": "Bratislava Walls",
     "wikidata": "Q4958031"
@@ -204,31 +246,37 @@
     "been": true,
     "coords": "48°08′32″N, 17°06′00″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Bratislava_Castle",
     "name": "Bratislavský Hrad"
   },
   "breitenzee": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Breitenzee"
   },
   "brigittenau": {
     "been": true,
     "coords": "48°14′12″N, 16°22′10″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Brigittenau"
   },
   "brigittenauer-bad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏊‍♂️"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/brigittenau.html",
-    "name": "Brigittenauer Bad"
+    "name": "Brigittenauer Bad",
+    "strike": true
   },
   "brno": {
     "been": true,
     "coords": "49°11′33″N, 16°36′30″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏙️"],
     "link": "https://en.wikipedia.org/wiki/Brno",
     "name": "Brno"
   },
@@ -236,6 +284,7 @@
     "been": true,
     "coords": "49°11′27.6″N, 16°36′25.2″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_St._Peter_and_Paul,_Brno",
     "name": "Brno Cathedral"
   },
@@ -243,6 +292,7 @@
     "been": true,
     "coords": "49°11′15″N, 16°34′41″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎡"],
     "info": "1928 Exhibition",
     "link": "https://en.wikipedia.org/wiki/Brno_Exhibition_Centre",
     "name": "Brno Exhibition Centre"
@@ -250,17 +300,20 @@
   "brno-hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Brno_hlavn%C3%AD_nádraž%C3%AD",
     "name": "Brno Hlavní Nádraží"
   },
   "brno-loops": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Brno Loops"
   },
   "brno-trams": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Brno",
     "name": "Brno Trams"
   },
@@ -268,23 +321,27 @@
     "been": true,
     "coords": "49°11′33″N, 16°36′30″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🚎"],
     "link": "https://en.wikipedia.org/wiki/Brno",
     "name": "Brno Trolleybus"
   },
   "brno–vienna": {
     "been": true,
     "countries": ["CZ", "AT"],
+    "icons": ["🇨🇿", "🇦🇹", "🛤️"],
     "name": "Brno–Vienna"
   },
   "bruno-marek-allee": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Bruno-Marek-Allee"
   },
   "burg-kreuzenstein": {
     "been": true,
     "coords": "48.3792, 16.3089",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Burg_Kreuzenstein",
     "name": "Burg Kreuzenstein",
     "wikidata": "Q669642"
@@ -293,6 +350,7 @@
     "been": true,
     "coords": "47.2464, 15.3092",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Burg_Rabenstein_(Steiermark)",
     "name": "Burg Rabenstein",
     "wikidata": "Q1013559"
@@ -301,6 +359,7 @@
     "been": true,
     "coords": "46.9943, 9.51079",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Burg_Wartenstein",
     "name": "Burg Wartenstein",
     "wikidata": "Q1014494"
@@ -308,12 +367,14 @@
   "burggasse-stadthalle": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Burggasse Stadthalle"
   },
   "burgruine-klamm": {
     "been": true,
     "coords": "47.66001, 15.86754",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Burgruine_Klamm",
     "name": "Burgruine Klamm",
     "wikidata": "Q37953512"
@@ -321,32 +382,38 @@
   "casino-wien": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎰"],
     "name": "Casino Wien"
   },
   "cechovo-namesti": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Čechovo Náměstí"
   },
   "cernevy-vrch": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Černevý Vrch"
   },
   "certovo-rokle": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Čertovo Rokle"
   },
   "cervinskova": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Červinskova"
   },
   "charing-cross": {
     "been": true,
     "coords": "51.508°N, 0.125°W",
     "country": "GB",
+    "icons": ["🇬🇧", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Charing_Cross_railway_station",
     "name": "Charing Cross"
   },
@@ -354,12 +421,14 @@
     "been": true,
     "coords": "51.3727°N, 0.1099°W",
     "country": "GB",
+    "icons": ["🇬🇧", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Croydon",
     "name": "Croydon"
   },
   "cyklomost-slobody": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🌉"],
     "link": "https://sk.wikipedia.org/wiki/Cyklomost_slobody",
     "name": "Cyklomost Slobody"
   },
@@ -367,6 +436,7 @@
     "been": true,
     "coords": "48°05′44″N, 08°09′18″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Danube",
     "name": "Danube"
   },
@@ -374,6 +444,7 @@
     "been": true,
     "coords": "51.094444444444, 14.666666666667",
     "country": "AT",
+    "icons": ["🇦🇹", "🏖️"],
     "link": "https://de.wikipedia.org/wiki/Lobau",
     "name": "Dechantlacke",
     "wikidata": "Q156768"
@@ -381,6 +452,7 @@
   "delfin": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "♨️"],
     "link": "http://www.starz.sk/sauna%2Ddelfin/os-1004/p1=1055",
     "name": "Delfín",
     "wikidata": "Q167277"
@@ -389,6 +461,7 @@
     "been": true,
     "coords": "50°04′33″N, 14°30′56″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Depo_Hostiva%C5%99",
     "name": "Depo Hostivař"
   },
@@ -396,6 +469,7 @@
     "been": true,
     "coords": "48°1′N, 17°6′E",
     "country": "AT",
+    "icons": ["🇦🇹", "🧭"],
     "info": "easternmost point of Austria",
     "link": "https://en.wikipedia.org/wiki/Deutsch_Jahrndorf",
     "name": "Deutsch Jahrndorf"
@@ -403,12 +477,14 @@
   "devin-lighthouse": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🕯️"],
     "name": "Devín Lighthouse"
   },
   "devinsky-hrad": {
     "been": true,
     "coords": "48°10′25″N, 16°58′42″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle",
     "name": "Devínsky Hrad"
   },
@@ -416,18 +492,21 @@
     "been": true,
     "coords": "50°06′31″N, 14°21′03″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Divok%C3%A1_%C5%A0%C3%A1rka",
     "name": "Divoká Šárka"
   },
   "dlabacov": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Dlabačov"
   },
   "donau-city-towers": {
     "been": true,
     "coords": "48°13′55″N, 16°24′46″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🗼"],
     "link": "https://en.wikipedia.org/wiki/DC_Towers",
     "name": "Donau City Towers"
   },
@@ -435,6 +514,7 @@
     "been": true,
     "coords": "48°14′N, 16°24′E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏖️"],
     "info": "Norden",
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
     "name": "Donauinsel"
@@ -443,6 +523,7 @@
     "been": true,
     "coords": "48°12′47″N, 16°22′31″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚢"],
     "link": "https://en.wikipedia.org/wiki/Donaukanal",
     "name": "Donaukanal"
   },
@@ -450,6 +531,7 @@
     "been": true,
     "coords": "48.2194°N, 16.4666°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Donauspital",
     "name": "Donauspital"
   },
@@ -457,6 +539,7 @@
     "been": true,
     "coords": "48°14′24″N, 16°24′39″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🗼"],
     "link": "https://en.wikipedia.org/wiki/Donauturm",
     "name": "Donauturm"
   },
@@ -464,6 +547,7 @@
     "been": true,
     "coords": "47.0727, 15.4428",
     "country": "AT",
+    "icons": ["🇦🇹", "🌀"],
     "link": "https://de.wikipedia.org/wiki/Doppelwendeltreppe_Graz",
     "name": "Doppelwendeltreppe",
     "wikidata": "Q1243451"
@@ -471,12 +555,14 @@
   "dorfelstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Dörfelstraße"
   },
   "dornbach": {
     "been": true,
     "coords": "48.2283, 16.3",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Dornbach",
     "name": "Dornbach",
     "wikidata": "Q13400194"
@@ -485,13 +571,16 @@
     "been": true,
     "coords": "51°03′00″N, 13°44′24″E",
     "country": "DE",
+    "icons": ["🇩🇪", "🇺🇳"],
     "link": "https://en.wikipedia.org/wiki/Dresden",
-    "name": "Dresden"
+    "name": "Dresden",
+    "strike": true
   },
   "dresden-cathedral": {
     "been": true,
     "coords": "51°03′13″N, 13°44′15″E",
     "country": "DE",
+    "icons": ["🇩🇪", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Cathedral",
     "name": "Dresden Cathedral"
   },
@@ -499,23 +588,27 @@
     "been": true,
     "coords": "51°02′25″N, 13°43′54″E",
     "country": "DE",
+    "icons": ["🇩🇪", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Hauptbahnhof",
     "name": "Dresden Hauptbahnhof"
   },
   "dresden–prague": {
     "been": true,
     "countries": ["DE", "CZ"],
+    "icons": ["🇩🇪", "🇨🇿", "🛤️"],
     "name": "Dresden–Prague"
   },
   "ecerova": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Ečerova"
   },
   "eggenberg": {
     "been": true,
     "coords": "47.0739, 15.3914",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Eggenberg",
     "name": "Eggenberg",
     "wikidata": "Q1297479"
@@ -524,24 +617,28 @@
     "been": true,
     "coords": "50°46′32.59″N, 15°32′10.14″E",
     "country": "DE",
+    "icons": ["🇩🇪", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Elbe",
     "name": "Elbe"
   },
   "elizabeth-line": {
     "been": true,
     "country": "GB",
+    "icons": ["🇬🇧", "🚇"],
     "name": "Elizabeth Line",
     "wikidata": "Q111297173"
   },
   "enkplatz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Enkplatz"
   },
   "favoriten": {
     "been": true,
     "coords": "48°09′28″N, 16°21′33″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Favoriten"
   },
@@ -549,23 +646,27 @@
     "been": true,
     "coords": "48°17′00″N, 16°24′44″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Floridsdorf"
   },
   "friedrich-engels-platz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Friedrich-Engels-Platz"
   },
   "frodenplatz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Frödenplatz"
   },
   "funkturm-wien-arsenal": {
     "been": true,
     "coords": "48.182, 16.3908",
     "country": "AT",
+    "icons": ["🇦🇹", "🗼"],
     "link": "https://de.wikipedia.org/wiki/Funkturm_Wien-Arsenal",
     "name": "Funkturm Wien-Arsenal",
     "wikidata": "Q1257362"
@@ -574,35 +675,42 @@
     "been": true,
     "coords": "50°19′N, 12°1′E",
     "country": "AT",
+    "icons": ["🇦🇹", "🗺"],
     "info": "48°N 17°E",
-    "link": "https://en.wikipedia.org/wiki/Gattendorf",
+    "link": "https://confluence.org/confluence.php?lat=48&lon=17",
     "name": "Gattendorf"
   },
   "geiereckstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Geiereckstraße"
   },
   "geislerova": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Geislerova"
   },
   "gersthof": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Gersthof"
   },
   "gerulata": {
     "been": true,
     "coords": "48°03′22″N, 17°08′59″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Gerulata",
-    "name": "Gerulata"
+    "name": "Gerulata",
+    "strike": true
   },
   "grasalkovicov-palac": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://sk.wikipedia.org/wiki/Grasalkovičov_palác",
     "name": "Grasalkovičov Palác"
   },
@@ -610,13 +718,15 @@
     "been": true,
     "coords": "47°04′15″N, 15°26′19″E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Graz",
+    "icons": ["🇦🇹", "🇺🇳"],
+    "link": "https://whc.unesco.org/en/list/931/",
     "name": "Graz"
   },
   "graz-cathedral": {
     "been": true,
     "coords": "47°04′19.2″N, 15°26′31.92″E",
     "country": "AT",
+    "icons": ["🇦🇹", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/Graz_Cathedral",
     "name": "Graz Cathedral"
   },
@@ -624,24 +734,28 @@
     "been": true,
     "coords": "47°4′20″N, 15°25′2″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Graz_Hauptbahnhof",
     "name": "Graz Hauptbahnhof"
   },
   "graz-loops": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Graz Loops"
   },
   "graz-tram-museum": {
     "been": true,
     "coords": "47.10561°N, 15.488931°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🖼️"],
     "link": "https://en.wikipedia.org/wiki/Tramway_Museum_Graz",
     "name": "Graz Tram Museum"
   },
   "graz-trams": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Graz",
     "name": "Graz Trams",
     "wikidata": "Q626381"
@@ -650,6 +764,7 @@
     "been": true,
     "coords": "47.0724, 15.4425",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Grazer_Burg",
     "name": "Grazer Burg",
     "wikidata": "Q874547"
@@ -658,6 +773,7 @@
     "been": true,
     "coords": "47.0748, 15.4444",
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Grazer_Stadtpark",
     "name": "Grazer Stadtpark",
     "wikidata": "Q1489718"
@@ -666,12 +782,14 @@
     "been": true,
     "coords": "48°15′16″N, 16°20′34″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Grinzing",
     "name": "Grinzing"
   },
   "gurtel": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Gürtel",
     "wikidata": "Q83354136"
@@ -680,6 +798,7 @@
     "been": true,
     "coords": "48.147777777778, 16.941944444444",
     "country": "AT",
+    "icons": ["🇦🇹", "🧱"],
     "link": "https://de.wikipedia.org/wiki/Hainburg_an_der_Donau",
     "name": "Hainburg an der Donau",
     "wikidata": "Q752107"
@@ -687,12 +806,14 @@
   "hanreitergasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Hanreitergasse"
   },
   "hauptwerkstatte": {
     "been": true,
     "coords": "48.1464, 16.4572",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Hauptwerkstätte_der_Wiener_Linien",
     "name": "Hauptwerkstätte",
     "wikidata": "Q1589817"
@@ -700,29 +821,34 @@
   "hausfeldstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Hausfeldstraße"
   },
   "heitzing": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Heitzing",
     "wikidata": "Q110804368"
   },
   "herbeckstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Herbeckstraße"
   },
   "hernals": {
     "been": true,
     "coords": "48°13′57″N, 16°16′46″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Hernals"
   },
   "hietzinger-bad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏊‍♂️"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/kombibaeder/hietzing.html",
     "name": "Hietzinger Bad"
   },
@@ -730,6 +856,7 @@
     "been": true,
     "coords": "48.1767, 16.29905",
     "country": "AT",
+    "icons": ["🇦🇹", "🪦"],
     "link": "https://de.wikipedia.org/wiki/Hietzinger_Friedhof",
     "name": "Hietzinger Friedhof",
     "wikidata": "Q2718154"
@@ -737,33 +864,40 @@
   "hilmteich/botanischer-garten": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Hilmteich/Botanischer Garten"
   },
   "hintere-zollamtsstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Hintere Zollamtsstraße"
   },
   "historic-trams-41-&-42": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚋"],
     "name": "Historic Trams 41 & 42"
   },
   "hlavna-stanica": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "link": "https://sk.wikipedia.org/wiki/Bratislava_hlavná_stanica",
     "name": "Hlavná Stanica"
   },
   "hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
-    "name": "Hlavní Nadřazi"
+    "icons": ["🇨🇿", "🖖"],
+    "name": "Hlavní Nadřazi",
+    "strike": true
   },
   "hloubetin": {
     "been": true,
     "coords": "50°6′22″N, 14°32′6″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Hloub%C4%9Bt%C3%ADn",
     "name": "Hloubětín"
   },
@@ -771,6 +905,7 @@
     "been": true,
     "coords": "50°2′12″N, 14°23′8″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Hlubo%C4%8Depy",
     "name": "Hlubočepy"
   },
@@ -778,6 +913,7 @@
     "been": true,
     "coords": "48°12′23″N, 16°21′55″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Hofburg",
     "name": "Hofburg Palace"
   },
@@ -785,6 +921,7 @@
     "been": true,
     "coords": "48.2494, 16.3578",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Hohe_Warte",
     "name": "Hohe Warte",
     "wikidata": "Q876564"
@@ -793,12 +930,14 @@
     "been": true,
     "coords": "48°36′N, 16°54′E",
     "countries": ["AT", "CZ", "SK"],
+    "icons": ["🇦🇹", "🇨🇿", "🇸🇰", "🚩"],
     "link": "https://en.wikipedia.org/wiki/Hohenau_an_der_March",
     "name": "Hohenau an der March"
   },
   "horsky-park": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🌳"],
     "link": "https://sk.wikipedia.org/wiki/Horský_park",
     "name": "Horský Park"
   },
@@ -806,12 +945,14 @@
     "been": true,
     "coords": "50°04′33″N, 14°30′56″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://en.wikipedia.org/wiki/Depo_Hostivař_(Prague_Metro)",
     "name": "Hostivař"
   },
   "hotel-new-hampshire": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏨"],
     "link": "john-irving.html",
     "name": "Hotel New Hampshire",
     "wikidata": "Q1630995"
@@ -820,6 +961,7 @@
     "been": true,
     "coords": "50.083°N, 14.395°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🧱"],
     "link": "https://en.wikipedia.org/wiki/Hunger_Wall",
     "name": "Hunger Wall"
   },
@@ -827,12 +969,14 @@
     "been": true,
     "coords": "48°12′06″N, 16°15′29″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/H%C3%BCtteldorf",
     "name": "Hütteldorf"
   },
   "hutteldorfer-bad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏊‍♂️"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/huetteldorf.html",
     "name": "Hütteldorfer Bad"
   },
@@ -840,6 +984,7 @@
     "been": true,
     "coords": "50.07541°N, 14.43227°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.07541_N_14.43227_E",
     "name": "I. P. Pavlova"
@@ -848,6 +993,7 @@
     "been": true,
     "coords": "48.1426, 16.3494",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://en.wikipedia.org/wiki/Inzersdorf",
     "name": "Inzersdorf",
     "wikidata": "Q1671849"
@@ -855,34 +1001,40 @@
   "jacominiplatz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Jacominiplatz"
   },
   "johann-nepomuk-berger-platz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Johann-Nepomuk-Berger-Platz"
   },
   "john-irving-themes": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "📚"],
     "link": "john-irving.html",
     "name": "John Irving themes"
   },
   "jorgerbad": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏊‍♂️"],
     "link": "https://www.wien.gv.at/freizeit/baeder/uebersicht/hallenbaeder/joergerbad.html",
     "name": "Jörgerbad"
   },
   "josefstadter-straße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Josefstädter Straße"
   },
   "jugoslavska": {
     "been": true,
     "coords": "49°12′16.24″N, 16°37′25.54″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49_12_16.24_N_16_37_25.54_E",
     "name": "Jugoslávská"
@@ -890,6 +1042,7 @@
   "jurajov-dvor": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏭"],
     "link": "https://sk.wikipedia.org/wiki/Vozovňa_Jurajov_dvor",
     "name": "Jurajov Dvor"
   },
@@ -897,6 +1050,7 @@
     "been": true,
     "coords": "48.2429°N, 16.4328°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Kagran"
   },
@@ -904,6 +1058,7 @@
     "been": true,
     "coords": "48°10′57″N, 17°05′41″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🗼"],
     "link": "https://en.wikipedia.org/wiki/Kamz%C3%ADk_TV_Tower",
     "name": "Kamzík TV Tower"
   },
@@ -911,6 +1066,7 @@
     "been": true,
     "coords": "48°15′10″N, 16°21′54″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏬"],
     "info": "longest residential building in the world",
     "link": "https://en.wikipedia.org/wiki/Karl-Marx-Hof",
     "name": "Karl-Marx-Hof"
@@ -918,6 +1074,7 @@
   "karlinska-kasarna": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://cs.wikipedia.org/wiki/Karl%C3%ADnská_kasárna",
     "name": "Karlínská Kasárna"
   },
@@ -925,6 +1082,7 @@
     "been": true,
     "coords": "48°12′01″N, 16°22′13″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Karlsplatz_Stadtbahn_Station",
     "name": "Karlsplatz Stadtbahn Station"
   },
@@ -932,13 +1090,15 @@
     "been": true,
     "coords": "48.206°N, 16.371°E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/K%C3%A4rntner_Stra%C3%9Fe",
+    "icons": ["🇦🇹", "🍏"],
+    "link": "https://www.apple.com/at/retail/kaerntnerstrasse/",
     "name": "Kärntner Straße"
   },
   "klosterneuburg": {
     "been": true,
     "coords": "48°18′15″N, 16°19′00″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🆕"],
     "info": "(Newcastle)",
     "link": "https://en.wikipedia.org/wiki/Klosterneuburg",
     "name": "Klosterneuburg"
@@ -947,17 +1107,20 @@
     "been": true,
     "coords": "50°07′31″N, 14°27′25″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Kobylisy",
     "name": "Kobylisy"
   },
   "komisarky": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Komisárky"
   },
   "korneuberg": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🆕"],
     "info": "(Newcastle)",
     "link": "https://en.wikipedia.org/wiki/Korneuberg",
     "name": "Korneuberg"
@@ -965,29 +1128,34 @@
   "kotlarka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Kotlářka"
   },
   "krasnany": {
     "been": true,
     "coords": "49°13′N, 18°54′E",
     "country": "SK",
+    "icons": ["🇸🇰", "🏭"],
     "link": "https://sk.wikipedia.org/wiki/Vozovňa_Krasňany",
     "name": "Krasňany"
   },
   "krenngassse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Krenngassse"
   },
   "kubmanske-namesti": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Kubmánské Náměstí"
   },
   "kunsthaus-graz": {
     "been": true,
     "coords": "47.0714, 15.434",
     "country": "AT",
+    "icons": ["🇦🇹", "🖼️"],
     "link": "https://de.wikipedia.org/wiki/Kunsthaus_Graz",
     "name": "Kunsthaus Graz",
     "wikidata": "Q597137"
@@ -995,45 +1163,53 @@
   "kurpark": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Kurpark_(Baden)",
     "name": "Kurpark"
   },
   "kutiky": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Kútiky"
   },
   "lainz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Lainz"
   },
   "langenfeldgasse": {
     "been": true,
     "coords": "48.1845°N, 16.3344°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🔀"],
     "link": "https://en.wikipedia.org/wiki/L%C3%A4ngenfeldgasse_station",
     "name": "Längenfeldgasse"
   },
   "laudongasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Laudongasse"
   },
   "leesdorf": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "name": "Leesdorf"
   },
   "lehovec": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Lehovec"
   },
   "leitha": {
     "been": true,
     "coords": "47°44′11″N, 16°13′49″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Leitha",
     "name": "Leitha"
   },
@@ -1041,6 +1217,7 @@
     "been": true,
     "coords": "48.2789, 16.3453",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Leopoldsberg",
     "name": "Leopoldsberg",
     "wikidata": "Q670841"
@@ -1049,6 +1226,7 @@
     "been": true,
     "coords": "48.2069, 16.3563",
     "country": "AT",
+    "icons": ["🇦🇹", "🏚️"],
     "link": "https://de.wikipedia.org/wiki/U-Bahn-Station_Lerchenfelder_Straße",
     "name": "Lerchenfelder Straße",
     "wikidata": "Q2465728"
@@ -1056,23 +1234,27 @@
   "letni-arcibiskupsky-palac": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://cs.wikipedia.org/wiki/Letn%C3%AD_arcibiskupsk%C3%BD_pal%C3%A1c",
     "name": "Letní Arcibiskupský Palác"
   },
   "levskeho": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Levského"
   },
   "liebenau/murpark": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Liebenau/Murpark"
   },
   "linienwall": {
     "been": true,
     "coords": "48°11′19″N, 16°22′41″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🧱"],
     "link": "https://en.wikipedia.org/wiki/Linienwall",
     "name": "Linienwall"
   },
@@ -1080,6 +1262,7 @@
     "been": true,
     "coords": "51.5044°N, 0.0857°W",
     "country": "GB",
+    "icons": ["🇬🇧", "🚉"],
     "link": "https://en.wikipedia.org/wiki/London_Bridge_station",
     "name": "London Bridge"
   },
@@ -1087,29 +1270,34 @@
     "been": true,
     "coords": "51.4952°N, 0.1441°W",
     "country": "GB",
+    "icons": ["🇬🇧", "🚉"],
     "link": "https://en.wikipedia.org/wiki/London_Victoria_railway_station",
     "name": "London Victoria"
   },
   "luzanky-park": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🌳"],
     "link": "https://cs.wikipedia.org/wiki/Lužánky",
     "name": "Lužánky Park"
   },
   "malinovskeho-namesti": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Malinovského Namesti"
   },
   "malovanka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Malovanka"
   },
   "marchfeldcanal": {
     "been": true,
     "coords": "48.3044, 16.4475",
     "country": "AT",
+    "icons": ["🇦🇹", "🚢"],
     "link": "https://de.wikipedia.org/wiki/Marchfeldkanal",
     "name": "Marchfeldcanal",
     "wikidata": "Q1893474"
@@ -1118,27 +1306,32 @@
     "been": true,
     "coords": "47°06′N, 15°30′E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Mariatrost",
     "name": "Mariatrost"
   },
   "maroltingergasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Maroltingergasse"
   },
   "maurer-lange-gasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Maurer Lange-Gasse"
   },
   "mendelove-namesti": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Mendelově Náměstí"
   },
   "michalska-15": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🧭"],
     "info": "narrowest house in Eastern Europe",
     "link": "https://www.tripadvisor.com/Attraction_Review-g274924-d8560693-Reviews-The_Narrowest_House_in_eastern_Europe_not_world-Bratislava_Bratislava_Region.html",
     "name": "Michalska 15"
@@ -1146,18 +1339,21 @@
   "michelbeuren": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "name": "Michelbeuren"
   },
   "millennium-tower": {
     "been": true,
     "coords": "48°14′25.08″N, 16°23′13.2″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🗼"],
     "link": "https://de.wikipedia.org/wiki/Millennium_Tower_(Wien)",
     "name": "Millennium Tower"
   },
   "mirror-maze": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🪩"],
     "name": "Mirror Maze",
     "wikidata": "Q1813308"
   },
@@ -1165,6 +1361,7 @@
     "been": true,
     "coords": "49°7′41″N, 16°36′52″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Mod%C5%99ice",
     "name": "Modřice"
   },
@@ -1172,6 +1369,7 @@
     "been": true,
     "coords": "49.19890°N, 16.60827°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.19890_N_16.60827_E",
     "name": "Moravské Náměstí"
@@ -1180,6 +1378,7 @@
     "been": true,
     "coords": "48°08′33″N, 17°04′31″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🌉"],
     "link": "https://en.wikipedia.org/wiki/Lanfranconi_Bridge",
     "name": "Most Lanfranconi"
   },
@@ -1187,6 +1386,7 @@
     "been": true,
     "coords": "52.315277777778, 25.614444444444",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Motol",
     "name": "Motol",
     "wikidata": "Q773891"
@@ -1195,6 +1395,7 @@
     "been": true,
     "coords": "48.2344, 16.3594",
     "country": "AT",
+    "icons": ["🇦🇹", "🗑️"],
     "link": "https://de.wikipedia.org/wiki/Müllverbrennungsanlage_Spittelau",
     "name": "Müllverbrennungsanlage Spittelau",
     "wikidata": "Q1958819"
@@ -1203,6 +1404,7 @@
     "been": true,
     "coords": "47°7′48″N, 13°20′49″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Mur_(river)",
     "name": "Mur"
   },
@@ -1210,44 +1412,52 @@
     "been": true,
     "coords": "47.753°N, 15.5085°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Mürz",
     "name": "Mürz"
   },
   "museum-of-public-transport": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🖼️"],
     "link": "https://www.dpp.cz/en/entertainment-and-experience/dpp-history/public-transport-museum",
     "name": "Museum of Public Transport"
   },
   "nadr-podbaba": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nadr Podbaba"
   },
   "nadrazi-branik": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nádraží Braník"
   },
   "nadrazi-hostivar": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nádraží Hostivař"
   },
   "nadrazi-liben": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nádraží Libeň"
   },
   "namesti-bratri-synku": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Náměstí Bratři Synku"
   },
   "namesti-miru": {
     "been": true,
     "coords": "50°4′31.197″N, 14°26′15.684″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🧭"],
     "info": "deepest station in European Union",
     "link": "https://en.wikipedia.org/wiki/Náměst%C3%AD_M%C3%ADru_(Prague_Metro)",
     "name": "Náměstí Míru"
@@ -1256,6 +1466,7 @@
     "been": true,
     "coords": "48°09′08″N, 17°06′42″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🌳"],
     "link": "https://en.wikipedia.org/wiki/Námestie_Slobody",
     "name": "Námestie Slobody"
   },
@@ -1263,6 +1474,7 @@
     "been": true,
     "coords": "50.088717°N, 14.449982°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🗽"],
     "link": "https://en.wikipedia.org/wiki/National_Monument_at_V%C3%ADtkov",
     "name": "Národní Památník na Vítkově"
   },
@@ -1270,28 +1482,33 @@
     "been": true,
     "coords": "48.1532°N, 17.1149°E",
     "country": "SK",
+    "icons": ["🇸🇰", "🗼"],
     "link": "https://en.wikipedia.org/wiki/National_Bank_of_Slovakia_(building)",
     "name": "National Bank of Slovakia"
   },
   "nemocnice-bohunice": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nemocnice Bohunice"
   },
   "neuwaldegg": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Neuwaldegg"
   },
   "northern-line-to-battersea-power-station": {
     "been": true,
     "country": "GB",
+    "icons": ["🇬🇧", "🚇"],
     "name": "Northern Line to Battersea Power Station"
   },
   "nove-mesto": {
     "been": true,
     "coords": "48.17222222, 17.12861111",
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Nov%C3%A9_Mesto",
     "name": "Nové Mesto",
     "wikidata": "Q740351"
@@ -1299,17 +1516,20 @@
   "nove-strasnice": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Nové Strašnicé"
   },
   "novolisenska": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Novolíšeňská"
   },
   "nuselsky-most": {
     "been": true,
     "coords": "50.065844°N, 14.430483°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌉"],
     "link": "https://en.wikipedia.org/wiki/Nusle_Bridge",
     "name": "Nuselský Most"
   },
@@ -1317,6 +1537,7 @@
     "been": true,
     "coords": "47.9, 12.6",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Nu%C3%9Fdorf",
     "name": "Nußdorf",
     "wikidata": "Q251127"
@@ -1325,6 +1546,7 @@
     "been": true,
     "coords": "48.1423°N, 16.4°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://en.wikipedia.org/wiki/Oberlaa_station",
     "name": "Oberlaa"
   },
@@ -1332,6 +1554,7 @@
     "been": true,
     "coords": "50°05′23″N, 14°25′02″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🪦"],
     "link": "https://en.wikipedia.org/wiki/Old_Jewish_Cemetery,_Prague",
     "name": "Old Jewish Cemetery"
   },
@@ -1339,6 +1562,7 @@
     "been": true,
     "coords": "50.080556°N, 14.470556°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Olšany_Cemetery",
     "name": "Olšanské Hřbitovy"
   },
@@ -1346,6 +1570,7 @@
     "been": true,
     "coords": "50.06532°N, 14.43972°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.06532_N_14.43972_E",
     "name": "Otakarova"
@@ -1354,18 +1579,21 @@
     "been": true,
     "coords": "48°12′45″N, 16°18′38″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Ottakring"
   },
   "otto-probst-platz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Otto-Probst-Platz"
   },
   "palackeho-namesti": {
     "been": true,
     "coords": "50°4′23.19″N, 14°24′50.30″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50_4_23.19_N_14_24_50.30_E",
     "name": "Palackého Náměstí"
   },
@@ -1373,6 +1601,7 @@
     "been": true,
     "coords": "48.2074, 16.3551",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Palais_Auersperg",
     "name": "Palais Auersperg",
     "wikidata": "Q264612"
@@ -1381,6 +1610,7 @@
     "been": true,
     "coords": "48.222, 16.3794",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Palais_Augarten",
     "name": "Palais Augarten",
     "wikidata": "Q873332"
@@ -1389,6 +1619,7 @@
     "been": true,
     "coords": "48°11′49″N, 16°22′36″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Palais_Schwarzenberg",
     "name": "Palais Schwarzenberg"
   },
@@ -1396,12 +1627,14 @@
     "been": true,
     "coords": "50°6′12.65″N, 14°28′23.89″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50_6_12.65_N_14_28_23.89_E",
     "name": "Palmovka"
   },
   "pamatnik-zeleznej-opony": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏛"],
     "link": "http://www.supissoch.sk/pamatnik-zeleznej-opony/",
     "name": "Pamätník železnej opony"
   },
@@ -1409,18 +1642,22 @@
     "been": true,
     "coords": "50°3′23.02″N, 14°26′5.56″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Pankr%C3%A1c",
     "name": "Pankrác"
   },
   "perezlka": {
     "been": true,
     "countries": ["AT", "SK"],
-    "name": "Pérežlka"
+    "icons": ["🇦🇹", "🇸🇰", "🛂"],
+    "name": "Pérežlka",
+    "strike": true
   },
   "petrin": {
     "been": true,
     "coords": "50°05′01″N, 14°23′43″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌳"],
     "link": "https://en.wikipedia.org/wiki/Petř%C3%ADn",
     "name": "Petřín"
   },
@@ -1428,6 +1665,7 @@
     "been": true,
     "coords": "50°04′55″N, 14°23′48″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🚠"],
     "link": "https://en.wikipedia.org/wiki/Petř%C3%ADn_funicular",
     "name": "Petřín Funicular"
   },
@@ -1435,12 +1673,14 @@
     "been": true,
     "coords": "50°05′0.76″N, 14°23′42.18″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🗼"],
     "link": "https://en.wikipedia.org/wiki/Petř%C3%ADn_Lookout_Tower",
     "name": "Petřín Lookout Tower"
   },
   "plavaren-pasienky": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏊‍♂️"],
     "link": "http://www.starz.sk/plavaren-pasienky-bratislava-50-m-25-m-bazen-rozvrh-plavania-verejnosti/d-1001",
     "name": "Plaváreň Pasienky"
   },
@@ -1448,24 +1688,28 @@
     "been": true,
     "coords": "50.05111, 14.4275",
     "country": "CZ",
-    "link": "https://en.wikipedia.org/wiki/Podol%C3%AD",
+    "icons": ["🇨🇿", "🏊‍♂️"],
+    "link": "http://www.pspodoli.cz",
     "name": "Podolí",
     "wikidata": "Q2638290"
   },
   "podolska-vodarna": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Podolská Vodarna"
   },
   "potzleinsdorf": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Pötzleinsdorf"
   },
   "prague-castle": {
     "been": true,
     "coords": "50.09, 14.4",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Prague_Castle",
     "name": "Prague Castle",
     "wikidata": "Q193369"
@@ -1473,12 +1717,14 @@
   "prague-loops": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Prague Loops"
   },
   "prague-metro": {
     "been": true,
     "coords": "50.0875, 14.421388888",
     "country": "CZ",
+    "icons": ["🇨🇿", "🚇"],
     "link": "https://en.wikipedia.org/wiki/Prague_Metro",
     "name": "Prague Metro",
     "wikidata": "Q190271"
@@ -1486,6 +1732,7 @@
   "prague-trams": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Prague",
     "name": "Prague Trams",
     "wikidata": "Q1420119"
@@ -1493,12 +1740,14 @@
   "praha-hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Praha_hlavn%C3%AD_nádraž%C3%AD",
     "name": "Praha Hlavní Nádraží"
   },
   "praha-masarykovo": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Praha_Masarykovo_nádraž%C3%AD",
     "name": "Praha Masarykovo"
   },
@@ -1506,6 +1755,7 @@
     "been": true,
     "coords": "48.2147, 16.4022",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://de.wikipedia.org/wiki/Wiener_Prater",
     "name": "Prater",
     "wikidata": "Q3487269"
@@ -1514,6 +1764,7 @@
     "been": true,
     "coords": "48.2071, 16.4364",
     "country": "AT",
+    "icons": ["🇦🇹", "🌉"],
     "link": "https://de.wikipedia.org/wiki/Praterbrücke",
     "name": "Praterbrücke",
     "wikidata": "Q2107888"
@@ -1522,6 +1773,7 @@
     "been": true,
     "coords": "48.2179, 16.3905",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Praterstern",
     "name": "Praterstern",
     "wikidata": "Q2107893"
@@ -1529,11 +1781,13 @@
   "pri-krizi": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Pri Kríži"
   },
   "primacialny-palac": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://sk.wikipedia.org/wiki/Primaciálny_palác",
     "name": "Primaciálny Palác"
   },
@@ -1541,6 +1795,7 @@
     "been": true,
     "coords": "50°0′6″N, 14°33′37″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Průhonice",
     "name": "Průhonice Castle"
   },
@@ -1548,13 +1803,15 @@
     "been": true,
     "coords": "50°0′6″N, 14°33′37″E",
     "country": "CZ",
-    "link": "https://whc.unesco.org/en/list/616/",
+    "icons": ["🇨🇿", "🌳"],
+    "link": "https://en.wikipedia.org/wiki/Průhonice",
     "name": "Průhonice Park"
   },
   "puntigam": {
     "been": true,
     "coords": "47°01′44″N, 15°25′34″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Puntigam",
     "name": "Puntigam"
   },
@@ -1562,6 +1819,7 @@
     "been": true,
     "coords": "48°10′32.3″N, 16°22′24.7″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🦋"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48_10_32.3_N_16_22_24.7_E",
     "name": "Quellenplatz"
   },
@@ -1569,51 +1827,61 @@
     "been": true,
     "coords": "50.058°N, 14.389°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Radlick%C3%A1",
     "name": "Radlická"
   },
   "radosovicka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Radošovická"
   },
   "rajka": {
     "been": true,
     "coords": "47.99689°N, 17.19832°E",
     "countries": ["AT", "HU", "SK"],
-    "link": "https://en.wikipedia.org/wiki/Rajka",
-    "name": "Rajka"
+    "icons": ["🇦🇹", "🇭🇺", "🇸🇰", "🚩"],
+    "link": "https://hu.wikipedia.org/wiki/Rajka",
+    "name": "Rajka",
+    "strike": true
   },
   "rakovecka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Rakovecká"
   },
   "raxstraße": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Raxstraße"
   },
   "reininghaus": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Reininghaus"
   },
   "ring/volkstheater": {
     "been": true,
     "coords": "48°12′19″N, 16°21′24″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Ring/Volkstheater",
     "name": "Ring/Volkstheater"
   },
   "rodaun": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Rodaun"
   },
   "roland-palac": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://sk.wikipedia.org/wiki/Budova_Eskontnej_banky",
     "name": "Roland Palác"
   },
@@ -1621,6 +1889,7 @@
     "been": true,
     "coords": "48.1903, 16.3289",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Rudolfsheim",
     "wikidata": "Q2174345"
@@ -1628,24 +1897,28 @@
   "safarikovo-namesti": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Šafárikovo Náměstí"
   },
   "saint-vitus-cathedral": {
     "been": true,
     "coords": "50°05′27″N, 14°24′02″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
     "name": "Saint Vitus Cathedral"
   },
   "schlachthausgasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Schlachthausgasse"
   },
   "schloss-neuwaldegg": {
     "been": true,
     "coords": "48°14′05″N, 16°17′15″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Schloss_Neuwaldegg",
     "name": "Schloss Neuwaldegg"
   },
@@ -1653,6 +1926,7 @@
     "been": true,
     "coords": "47.07389°N, 15.39129°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Eggenberg_Palace,_Graz",
     "name": "Schloß Eggenberg"
   },
@@ -1660,6 +1934,7 @@
     "been": true,
     "coords": "47.673519444444445, 15.929280555555556",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Schloss_Gloggnitz",
     "name": "Schloß Gloggnitz",
     "wikidata": "Q1797960"
@@ -1668,6 +1943,7 @@
     "been": true,
     "coords": "48.2139, 16.9372",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Schloss_Hof",
     "name": "Schloß Hof",
     "wikidata": "Q696851"
@@ -1676,6 +1952,7 @@
     "been": true,
     "coords": "48.1979, 16.9011",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://de.wikipedia.org/wiki/Schloss_Niederweiden",
     "name": "Schloß Nieverweiden",
     "wikidata": "Q536582"
@@ -1684,12 +1961,14 @@
     "been": true,
     "coords": "48°3′N, 16°57′E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Potzneusiedl",
     "name": "Schloß Potzneusiedl"
   },
   "schloßanlage-walterskirchen": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "http://www.burgen-austria.com/archive.php?id=1288",
     "name": "Schloßanlage Walterskirchen"
   },
@@ -1697,6 +1976,7 @@
     "been": true,
     "coords": "47°04′34″N, 15°26′14″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Schlossberg_(Graz)",
     "name": "Schloßberg"
   },
@@ -1704,12 +1984,14 @@
     "been": true,
     "coords": "47.0754°N, 15.4356°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚠"],
     "link": "https://en.wikipedia.org/wiki/Schlossbergbahn_(Graz)",
     "name": "Schloßbergbahn"
   },
   "schloßberglift": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🛗"],
     "link": "https://www.graztourismus.at/de/sightseeing-kultur/sehenswuerdigkeiten/schlossberglift_shg_1484",
     "name": "Schloßberglift"
   },
@@ -1717,6 +1999,7 @@
     "been": true,
     "coords": "47.076111111111, 15.437222222222",
     "country": "AT",
+    "icons": ["🇦🇹", "🕳️"],
     "link": "https://de.wikipedia.org/wiki/Grazer_Schloßberg",
     "name": "Schloßbergstollen",
     "wikidata": "Q264176"
@@ -1725,6 +2008,7 @@
     "been": true,
     "coords": "48.18479, 16.31227",
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Schloss_Schönbrunn",
     "name": "Schloßpark Schönbrunn",
     "wikidata": "Q131330"
@@ -1733,13 +2017,15 @@
     "been": true,
     "coords": "48.184516°N, 16.311865°E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Schönbrunn_Palace",
+    "icons": ["🇦🇹", "🇺🇳"],
+    "link": "https://whc.unesco.org/en/list/786",
     "name": "Schönbrunn Palace"
   },
   "schottenring": {
     "been": true,
     "coords": "50°29′51″N, 9°7′6″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Schottenring",
     "name": "Schottenring"
   },
@@ -1747,18 +2033,21 @@
     "been": true,
     "coords": "48.2149°N, 16.3633°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Schottentor",
     "name": "Schottentor"
   },
   "schulzentrum-st-peter": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Schulzentrum St. Peter"
   },
   "schweizergarten": {
     "been": true,
     "coords": "48.1867, 16.3856",
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Schweizergarten",
     "name": "Schweizergarten",
     "wikidata": "Q2256156"
@@ -1766,12 +2055,14 @@
   "seising": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Seising"
   },
   "semmering-pass": {
     "been": true,
     "coords": "47°37′57″N, 15°49′47″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏔️"],
     "link": "https://en.wikipedia.org/wiki/Semmering_Pass",
     "name": "Semmering Pass"
   },
@@ -1779,17 +2070,20 @@
     "been": true,
     "coords": "47.643°N, 15.831°E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Semmering_Railway",
+    "icons": ["🇦🇹", "🇺🇳"],
+    "link": "https://whc.unesco.org/en/list/785/",
     "name": "Semmering Railway"
   },
   "sidliste-barrandov": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Sídliště Barrandov"
   },
   "sidliste-dablice": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Sídliště Ďáblice"
   },
   "sidliste-libus<br>-<!--look-these-up": {
@@ -1797,20 +2091,29 @@
     "country": "CZ",
     "name": "Sídliště Libuš<br> <!--look these up"
   },
+  "sidliste-libusbr-!--look-these-up": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿", "🚧"],
+    "name": "Sídliště Libuš<br> <!--look these up"
+  },
   "sidliste-petriny": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Sídliště Petřiny"
   },
   "sidliste-repy": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Sídliště Řepy"
   },
   "simmering": {
     "been": true,
     "coords": "48.17, 16.45",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
     "name": "Simmering",
     "wikidata": "Q279028"
@@ -1819,6 +2122,7 @@
     "been": true,
     "coords": "48°09′14″N, 17°05′59″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🪦"],
     "link": "https://sk.wikipedia.org/wiki/Slav%C3%ADn_(Bratislava)",
     "name": "Slavín"
   },
@@ -1826,34 +2130,40 @@
     "been": true,
     "coords": "48°9′15″N, 17°6′51″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🛕"],
     "link": "https://en.wikipedia.org/wiki/Slovak_Radio_Building",
     "name": "Slovak Radio Building"
   },
   "smermova": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Šmermova"
   },
   "smichovski-nadrazi": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Smíchovski Nádraží"
   },
   "speising": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://de.wikipedia.org/wiki/Betriebsbahnhof_Speising",
     "name": "Speising"
   },
   "spejchar": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Špejchar"
   },
   "spilberk": {
     "been": true,
     "coords": "49°11′39.44″N, 16°35′56.09″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Špilberk_Castle",
     "name": "Špilberk"
   },
@@ -1861,6 +2171,7 @@
     "been": true,
     "coords": "48.2356°N, 16.358°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🏭"],
     "link": "https://en.wikipedia.org/wiki/Spittelau",
     "name": "Spittelau"
   },
@@ -1868,6 +2179,7 @@
     "been": true,
     "coords": "48.2344, 16.3594",
     "country": "AT",
+    "icons": ["🇦🇹", "🗼"],
     "link": "https://de.wikipedia.org/wiki/Müllverbrennungsanlage_Spittelau",
     "name": "Spittelau Tower",
     "wikidata": "Q1958819"
@@ -1875,16 +2187,19 @@
   "spojovaci": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Spojovací"
   },
   "sporilov": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Spořilov"
   },
   "st-leonhard": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "St. Leonhard",
     "wikidata": "Q558148"
   },
@@ -1892,6 +2207,7 @@
     "been": true,
     "coords": "48°08′31.7″N, 17°06′17.2″E",
     "country": "SK",
+    "icons": ["🇸🇰", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/St_Martin%27s_Cathedral,_Bratislava",
     "name": "St. Martin’s Cathedral"
   },
@@ -1899,12 +2215,14 @@
     "been": true,
     "coords": "51°31′48″N, 00°07′31″W",
     "country": "GB",
+    "icons": ["🇬🇧", "🚉"],
     "link": "https://en.wikipedia.org/wiki/St_Pancras_railway_station",
     "name": "St Pancras"
   },
   "st-peter": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "St. Peter",
     "wikidata": "Q33923"
   },
@@ -1912,28 +2230,33 @@
     "been": true,
     "coords": "48.2085°N, 16.373°E",
     "country": "AT",
+    "icons": ["🇦🇹", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna",
     "name": "St. Stephen’s Cathedral, Vienna"
   },
   "stadion-liebenau": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Stadion Liebenau"
   },
   "stammersdorf": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Stammersdorf"
   },
   "stanica-vinohrady": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "name": "Stanica Vinohrady"
   },
   "stary-hloubetin": {
     "been": true,
     "coords": "50.10449°N, 14.52942°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.10449_N_14.52942_E",
     "name": "Starý Hloubětín"
@@ -1941,45 +2264,53 @@
   "stary-liskovec": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Starý Lískovec"
   },
   "stefan-fadinger-platz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Stefan-Fadinger-Platz"
   },
   "stefanikova-ctvrt": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Štefánikova Čtvrť"
   },
   "stefaniks-observatory": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🔭"],
     "link": "https://en.wikipedia.org/wiki/Štefánik%27s_Observatory",
     "name": "Štefánik’s Observatory"
   },
   "steyrergasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Steyrergasse"
   },
   "strasnice": {
     "been": true,
     "coords": "50°4′20″N, 14°29′52″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Stra%C5%A1nice",
     "name": "Strašnice"
   },
   "strebersdorf": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Strebersdorf"
   },
   "stresovice": {
     "been": true,
     "coords": "50°5′31″N, 14°22′41″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_St%C5%99e%C5%A1ovice",
     "name": "Střešovice"
   },
@@ -1987,6 +2318,7 @@
     "been": true,
     "coords": "50°5′55.94″N, 14°25′59.76″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🦋"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50_5_55.94_N_14_25_59.76_E",
     "name": "Strossmayerovo Náměstí"
   },
@@ -1994,6 +2326,7 @@
     "been": true,
     "coords": "49°8′32″N, 16°37′42″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Svitava_(river)",
     "name": "Svitava"
   },
@@ -2001,35 +2334,41 @@
     "been": true,
     "coords": "48°54′16″N, 16°36′44″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Svratka_(river)",
     "name": "Svratka"
   },
   "technologicky-park": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Technologický Park"
   },
   "thaya": {
     "been": true,
     "coords": "48.617°N, 16.9402°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌊"],
     "link": "https://en.wikipedia.org/wiki/Thaya",
     "name": "Thaya"
   },
   "therme-wien": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "♨️"],
     "link": "https://www.thermewien.at/en/",
     "name": "Therme Wien"
   },
   "tram-d-to-absberggasse": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🚧"],
     "name": "Tram D to Absberggasse"
   },
   "tram-tunnel": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🕳️"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bratislava#Second_World_War",
     "name": "Tram Tunnel"
   },
@@ -2037,6 +2376,7 @@
     "been": true,
     "coords": "48.3806°N, 17.5883°E",
     "country": "SK",
+    "icons": ["🇸🇰", "⛪️"],
     "link": "https://en.wikipedia.org/wiki/St._John_the_Baptist_Cathedral_(Trnava)",
     "name": "Trnava Cathedral"
   },
@@ -2044,6 +2384,7 @@
     "been": true,
     "coords": "48°22′39″N, 17°35′18″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Trnava#Transport",
     "name": "Trnava Station"
   },
@@ -2051,12 +2392,14 @@
     "been": true,
     "coords": "48°22′39″N, 17°35′18″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🧱"],
     "link": "https://en.wikipedia.org/wiki/Trnava",
     "name": "Trnava Walls"
   },
   "tuchlaubenhof": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🏛️"],
     "link": "https://de.wikipedia.org/wiki/Goldenes_Quartier_Wien",
     "name": "Tuchlaubenhof",
     "wikidata": "Q22692052"
@@ -2065,35 +2408,41 @@
     "been": true,
     "coords": "48°12′47″N, 16°21′35″E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Universit%C3%A4t_Wien",
+    "icons": ["🇦🇹", "👨‍🎓"],
+    "link": "https://www.univie.ac.at",
     "name": "Universität Wien"
   },
   "univerzita-karlova": {
     "been": true,
     "coords": "50.0884°N, 14.4037°E",
     "country": "CZ",
+    "icons": ["🇨🇿", "👨‍🎓"],
     "link": "https://en.wikipedia.org/wiki/Charles_University",
     "name": "Univerzita Karlova"
   },
   "unter-st-viet": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Unter St. Viet"
   },
   "ustredni-dilny": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Ústřední Dílny"
   },
   "ustredni-hrbitov": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://cs.wikipedia.org/wiki/Ústředn%C3%AD_hřbitov_(Brno)",
     "name": "Ústřední Hřbitov"
   },
   "verkehrsmuseum-remise": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🖼️"],
     "link": "https://www.wienerlinien.at/verkehrsmuseum-remise",
     "name": "Verkehrsmuseum Remise"
   },
@@ -2101,18 +2450,21 @@
     "been": true,
     "coords": "48°12′28″N, 16°22′17″E",
     "country": "AT",
-    "link": "https://en.wikipedia.org/wiki/Vienna",
+    "icons": ["🇦🇹", "🇺🇳"],
+    "link": "https://whc.unesco.org/en/list/1033",
     "name": "Vienna"
   },
   "vienna-loops": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Vienna Loops"
   },
   "vienna-metro": {
     "been": true,
     "coords": "48.2415, 16.3632",
     "country": "AT",
+    "icons": ["🇦🇹", "🚇"],
     "link": "https://en.wikipedia.org/wiki/Vienna_U-Bahn",
     "name": "Vienna Metro",
     "wikidata": "Q209400"
@@ -2120,6 +2472,7 @@
   "vienna-tram-o-to-bruno-marek-allee": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🚧"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Umgesetzte_Projekte",
     "name": "Vienna Tram O to Bruno-Marek-Allee"
   },
@@ -2127,6 +2480,7 @@
     "been": true,
     "coords": "48°12′29.40″N, 16°22′21.13″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Vienna",
     "name": "Vienna Trams"
   },
@@ -2134,18 +2488,22 @@
     "been": true,
     "coords": "48.2083°N, 16.3731°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🧱"],
     "link": "https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)",
-    "name": "Vienna Walls"
+    "name": "Vienna Walls",
+    "strike": true
   },
   "vienna–bratislava": {
     "been": true,
     "countries": ["AT", "SK"],
+    "icons": ["🇦🇹", "🇸🇰", "🛤️"],
     "name": "Vienna–Bratislava"
   },
   "villa-tugendhat": {
     "been": true,
     "coords": "49°12′26″N, 16°36′57″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🇺🇳"],
     "link": "https://en.wikipedia.org/wiki/Villa_Tugendhat",
     "name": "Villa Tugendhat"
   },
@@ -2153,45 +2511,53 @@
     "been": true,
     "coords": "50°05′56″N, 14°20′39″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Vokovice",
     "name": "Vokovice"
   },
   "voznova-pankrac": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Voznova Pankrác"
   },
   "vozovna-kobylisy": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Vozovna Kobylisy"
   },
   "vozovna-komin": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Vozovna Komín"
   },
   "vozovna-medlanky": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🏭"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_Medlánky",
     "name": "Vozovna Medlánky"
   },
   "vrsovicky-zamecek": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://cs.wikipedia.org/wiki/Rangherka",
     "name": "Vršovický Zámeček"
   },
   "vypich": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Vypich"
   },
   "vysehrad": {
     "been": true,
     "coords": "50°03′51″N, 14°25′10″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🏰"],
     "link": "https://en.wikipedia.org/wiki/Vyšehrad",
     "name": "Vyšehrad"
   },
@@ -2199,6 +2565,7 @@
     "been": true,
     "coords": "50°06′41″N, 14°30′07″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Vyso%C4%8Dansk%C3%A1",
     "name": "Vysočanská"
   },
@@ -2206,6 +2573,7 @@
     "been": true,
     "coords": "50°06′17″N, 14°25′51″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "link": "https://en.wikipedia.org/wiki/V%C3%BDstavi%C5%A1t%C4%9B",
     "name": "Výstaviště"
   },
@@ -2213,6 +2581,7 @@
     "been": true,
     "coords": "50°06′17″N, 14°25′51″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🎡"],
     "info": "1891 Exhibition",
     "link": "https://en.wikipedia.org/wiki/Výstaviště_Praha",
     "name": "Výstaviště Praha"
@@ -2221,6 +2590,7 @@
     "been": true,
     "coords": "48.2325, 16.348611111111",
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Währinger_Park",
     "name": "Währinger Park",
     "wikidata": "Q2595964"
@@ -2228,11 +2598,13 @@
   "wallensteinplatz": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Wallensteinplatz"
   },
   "wellness-park-luzanky": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "♨️"],
     "link": "https://www.wellnessparkluzanky.cz",
     "name": "Wellness Park Lužánky"
   },
@@ -2240,6 +2612,7 @@
     "been": true,
     "coords": "48°12′58″N, 16°23′44″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎡"],
     "info": "1873 World’s Fair",
     "link": "https://en.wikipedia.org/wiki/1873_Vienna_World%27s_Fair",
     "name": "Weltausstellung"
@@ -2247,12 +2620,14 @@
   "westbahnhof": {
     "been": true,
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "name": "Westbahnhof"
   },
   "wetzelsdorf": {
     "been": true,
     "coords": "47°03′24″N, 15°23′43″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Wetzelsdorf",
     "name": "Wetzelsdorf"
   },
@@ -2260,6 +2635,7 @@
     "been": true,
     "coords": "48.186667°N, 16.380000°E",
     "country": "AT",
+    "icons": ["🇦🇹", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Wien_Hauptbahnhof",
     "name": "Wien Hauptbahnhof"
   },
@@ -2267,6 +2643,7 @@
     "been": true,
     "coords": "48.196667, 16.337778",
     "country": "AT",
+    "icons": ["🇦🇹", "🚉"],
     "link": "https://de.wikipedia.org/wiki/Wien_Westbahnhof",
     "name": "Wien Westbahnhof",
     "wikidata": "Q698145"
@@ -2275,6 +2652,7 @@
     "been": true,
     "coords": "48.203333333333, 16.369166666667",
     "country": "AT",
+    "icons": ["🇦🇹", "🏛️"],
     "link": "https://de.wikipedia.org/wiki/Wiener_Staatsoper",
     "name": "Wiener Rathaus",
     "wikidata": "Q209937"
@@ -2283,6 +2661,7 @@
     "been": true,
     "coords": "48.203333333333, 16.369166666667",
     "country": "AT",
+    "icons": ["🇦🇹", "🏛️"],
     "link": "https://de.wikipedia.org/wiki/Wiener_Staatsoper",
     "name": "Wiener Staatsoper",
     "wikidata": "Q209937"
@@ -2291,6 +2670,7 @@
     "been": true,
     "coords": "48.204722222222, 16.380555555556",
     "country": "AT",
+    "icons": ["🇦🇹", "🌳"],
     "link": "https://de.wikipedia.org/wiki/Wiener_Stadtpark",
     "name": "Wiener Stadtpark",
     "wikidata": "Q688588"
@@ -2299,6 +2679,7 @@
     "been": true,
     "coords": "48.15072, 16.43808",
     "country": "AT",
+    "icons": ["🇦🇹", "🪦"],
     "link": "https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof",
     "name": "Wiener Zentralfriedhof",
     "wikidata": "Q240744"
@@ -2307,6 +2688,7 @@
     "been": true,
     "coords": "48.38, 16.8444",
     "country": "SK",
+    "icons": ["🇸🇰", "🧭"],
     "info": "westernmost point of Slovakia",
     "link": "https://en.wikipedia.org/wiki/Záhorská_Ves",
     "name": "Záhorská Ves",
@@ -2315,12 +2697,14 @@
   "zahradni-mesto": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🎈"],
     "name": "Zahradní Město"
   },
   "zentralfriedhof": {
     "been": true,
     "coords": "48°09′09″N, 16°26′24″E",
     "country": "AT",
+    "icons": ["🇦🇹", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Zentralfriedhof",
     "name": "Zentralfriedhof"
   },
@@ -2328,6 +2712,7 @@
     "been": true,
     "coords": "47.0449, 15.4249",
     "country": "AT",
+    "icons": ["🇦🇹", "🪦"],
     "link": "https://de.wikipedia.org/wiki/Zentralfriedhof_Graz",
     "name": "Zentralfriedhof Graz",
     "wikidata": "Q190484"
@@ -2335,6 +2720,7 @@
   "ziciho-palac": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰", "🏰"],
     "link": "https://sk.wikipedia.org/wiki/Zičiho_palác",
     "name": "Zičiho Palác"
   },
@@ -2342,24 +2728,28 @@
     "been": true,
     "coords": "50°05′N, 14°27′E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🌳"],
     "link": "https://cs.wikipedia.org/wiki/Vozovna_%C5%BDi%C5%BEkov",
     "name": "Žižkov"
   },
   "zizkov-rail-trail": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🥾"],
     "name": "Žižkov Rail Trail"
   },
   "zizkov-television-tower": {
     "been": true,
     "coords": "50°04′51″N, 14°27′05″E",
     "country": "CZ",
+    "icons": ["🇨🇿", "🗼"],
     "link": "https://en.wikipedia.org/wiki/Žižkov_Television_Tower",
     "name": "Žižkov Television Tower"
   },
   "zizkovsky-tunel": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🕳️"],
     "link": "https://cs.wikipedia.org/wiki/Žižkovský_tunel_(pěš%C3%AD)",
     "name": "Žižkovský Tunel"
   },
@@ -2367,12 +2757,14 @@
     "been": true,
     "coords": "48°11′05″N, 17°11′22″E",
     "country": "SK",
+    "icons": ["🇸🇰", "🎈"],
     "link": "https://en.wikipedia.org/wiki/Zlaté_Piesky",
     "name": "Zlaté Piesky"
   },
   "zvonarka": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿", "🖖"],
     "name": "Zvonařka"
   }
 }

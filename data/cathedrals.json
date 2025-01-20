@@ -3,6 +3,7 @@
     "been": true,
     "coords": "50°46′29.1″N, 6°5′2.12″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Aachen_Cathedral",
     "name": "Aachen"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "43.928492°N, 2.142945°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Albi_Cathedral",
     "name": "Albi"
   },
@@ -17,6 +19,7 @@
     "been": true,
     "coords": "40.415586°N, 3.714558°W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Almudena_Cathedral",
     "name": "Almudena"
   },
@@ -24,6 +27,7 @@
     "been": true,
     "coords": "49°53′42″N, 2°18′08″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Amiens_Cathedral",
     "name": "Amiens"
   },
@@ -31,6 +35,7 @@
     "been": true,
     "coords": "52°22′35.3″N, 4°54′4.1″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Nicholas,_Amsterdam",
     "name": "Amsterdam"
   },
@@ -38,6 +43,7 @@
     "been": true,
     "coords": "51°13′14″N, 4°24′02″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_(Antwerp)",
     "name": "Antwerp"
   },
@@ -45,6 +51,7 @@
     "been": true,
     "coords": "43°57′06″N, 4°48′27″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Avignon_Cathedral",
     "name": "Avignon"
   },
@@ -52,6 +59,7 @@
     "been": true,
     "coords": "41°23′02″N, 2°10′35″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Cathedral",
     "name": "Barcelona"
   },
@@ -59,6 +67,7 @@
     "been": false,
     "coords": "49.4326°N, 2.0814°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Beauvais_Cathedral",
     "name": "Beauvais"
   },
@@ -66,13 +75,31 @@
     "been": true,
     "coords": "52°31′9″N, 13°24′4″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Cathedral",
     "name": "Berliner Dom"
+  },
+  "bonn": {
+    "been": true,
+    "coords": "50°44′00″N, 7°05′59″E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bonn_Minster",
+    "name": "Bonn"
+  },
+  "boulogne-sur-mer": {
+    "been": true,
+    "coords": "50°43′34″N, 1°36′54″E",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Basilica_of_Notre-Dame,_Boulogne",
+    "name": "Boulogne-sur-Mer"
   },
   "bourges": {
     "been": true,
     "coords": "47°04′55″N, 2°23′58″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Bourges_Cathedral",
     "name": "Bourges"
   },
@@ -80,6 +107,7 @@
     "been": false,
     "coords": "15°47′54″S, 47°52′32″W",
     "country": "BR",
+    "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_Brasília",
     "name": "Brasília"
   },
@@ -87,6 +115,7 @@
     "been": true,
     "coords": "48°08′31.7″N, 17°06′17.2″E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/St_Martin%27s_Cathedral,_Bratislava",
     "name": "Bratislava"
   },
@@ -94,6 +123,7 @@
     "been": true,
     "coords": "49°11′27.6″N, 16°36′25.2″E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_St._Peter_and_Paul,_Brno",
     "name": "Brno"
   },
@@ -101,13 +131,23 @@
     "been": true,
     "coords": "50°50′52″N, 4°21′37″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_St._Michael_and_St._Gudula",
     "name": "Brussels"
+  },
+  "budapest": {
+    "been": true,
+    "coords": "47.500833°N, 19.053889°E",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/St._Stephen%27s_Basilica",
+    "name": "Budapest"
   },
   "caen": {
     "been": true,
     "coords": "49°11′3″N, 0°21′39″W",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Church_of_Saint-Pierre,_Caen",
     "name": "Caen"
   },
@@ -115,6 +155,7 @@
     "been": true,
     "coords": "51.2797°N, 1.0831°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Canterbury_Cathedral",
     "name": "Canterbury"
   },
@@ -122,6 +163,7 @@
     "been": true,
     "coords": "43°12′39″N, 2°21′4″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Carcassonne_Cathedral",
     "name": "Carcassonne"
   },
@@ -129,12 +171,14 @@
     "been": true,
     "coords": "48°26′50″N, 1°29′16″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Chartres_Cathedral",
     "name": "Chartres"
   },
   "christ-savior": {
     "been": true,
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_Christ_the_Saviour ",
     "name": "Christ the Savior",
     "wikidata": "Q302"
@@ -143,6 +187,7 @@
     "been": true,
     "coords": "45.778727°N, 3.085766°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Clermont-Ferrand_Cathedral",
     "name": "Clermont Ferrand"
   },
@@ -150,6 +195,7 @@
     "been": true,
     "coords": "50°56′29″N, 06°57′30″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
     "name": "Cologne"
   },
@@ -157,13 +203,24 @@
     "been": false,
     "coords": "52.408333°N, 1.506944°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Coventry_Cathedral",
-    "name": "Coventry"
+    "name": "Coventry",
+    "strike": true
+  },
+  "da-nang": {
+    "been": false,
+    "coords": "16.0667°N, 108.2233°E",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "link": "https://en.wikipedia.org/wiki/Roman_Catholic_Diocese_of_%C4%90%C3%A0_N%E1%BA%B5ng",
+    "name": "Da Nang"
   },
   "dar-es-salaam": {
     "been": false,
     "coords": "6°49′10″S, 39°17′17″E",
     "country": "TZ",
+    "icons": ["🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral,_Dar_es_Salaam",
     "name": "Dar es Salaam"
   },
@@ -171,13 +228,23 @@
     "been": true,
     "coords": "51°03′13″N, 13°44′15″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Cathedral",
     "name": "Dresden"
+  },
+  "dunkirk": {
+    "been": true,
+    "coords": "51°02′08″N, 2°22′37″E",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Church_of_Saint-Éloi,_Dunkirk",
+    "name": "Dunkirk"
   },
   "durham": {
     "been": true,
     "coords": "54°46′25″N, 1°34′34″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Durham_Cathedral",
     "name": "Durham"
   },
@@ -185,6 +252,7 @@
     "been": true,
     "coords": "55°56′55″N, 3°12′58″W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/St_Mary%27s_Cathedral,_Edinburgh_(Episcopal)",
     "name": "Edinburgh"
   },
@@ -192,6 +260,7 @@
     "been": false,
     "coords": "43°46′23″N, 11°15′25″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Florence_Cathedral",
     "name": "Florence"
   },
@@ -199,6 +268,7 @@
     "been": true,
     "coords": "51.0530°N, 3.727°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/St_Bavo%27s_Cathedral,_Ghent",
     "name": "Ghent"
   },
@@ -206,6 +276,7 @@
     "been": true,
     "coords": "37°47′30″N, 122°24′47″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Grace_Cathedral,_San_Francisco",
     "name": "Grace Cathedral"
   },
@@ -213,6 +284,7 @@
     "been": true,
     "coords": "47°04′19.2″N, 15°26′31.92″E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Graz_Cathedral",
     "name": "Graz"
   },
@@ -220,6 +292,7 @@
     "been": true,
     "coords": "41°00′30″N, 28°58′48″E",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Hagia_Sophia",
     "name": "Hagia Sophia"
   },
@@ -227,6 +300,7 @@
     "been": true,
     "coords": "64.1417°N, 21.9266°W",
     "country": "IS",
+    "icons": ["🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
     "name": "Hallgrímskirkja"
   },
@@ -234,13 +308,23 @@
     "been": false,
     "coords": "60°10′13″N, 024°57′08″E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Helsinki_Cathedral",
     "name": "Helsinki"
+  },
+  "kecskemet": {
+    "been": true,
+    "coords": "46.9073°N, 19.6910°E",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kecskemét_Cathedral",
+    "name": "Kecskemét"
   },
   "lagos": {
     "been": true,
     "coords": "6.4499°N, 3.3966°E",
     "country": "NG",
+    "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Holy_Cross_Cathedral,_Lagos",
     "name": "Lagos"
   },
@@ -248,6 +332,7 @@
     "been": true,
     "coords": "49.5643°N, 3.625°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Laon_Cathedral",
     "name": "Laon"
   },
@@ -255,6 +340,7 @@
     "been": true,
     "coords": "48°0′33″N, 0°11′56″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Le_Mans_Cathedral",
     "name": "Le Mans"
   },
@@ -262,6 +348,7 @@
     "been": true,
     "coords": "45°2′44″N, 3°53′5″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Le_Puy_Cathedral",
     "name": "Le Puy-en-Velay"
   },
@@ -269,6 +356,7 @@
     "been": true,
     "coords": "52.634644°N, 1.137086°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Leicester_Cathedral",
     "name": "Leicester"
   },
@@ -276,6 +364,7 @@
     "been": true,
     "coords": "50.8795°N, 4.7013°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/St._Peter's_Church,_Leuven",
     "name": "Leuven"
   },
@@ -283,19 +372,23 @@
     "been": false,
     "coords": "50.6403°N, 5.5718°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Liège_Cathedral",
     "name": "Liège"
   },
   "liege-saint-lamberts": {
     "been": false,
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Saint_Lambert%27s_Cathedral,_Liège",
-    "name": "Liège Saint Lambert’s"
+    "name": "Liège Saint Lambert’s",
+    "strike": true
   },
   "lincoln": {
     "been": true,
     "coords": "53°14′04″N, 0°32′10″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Lincoln_Cathedral",
     "name": "Lincoln"
   },
@@ -303,6 +396,7 @@
     "been": false,
     "coords": "53°23′51″N, 2°58′23″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Liverpool_Cathedral",
     "name": "Liverpool"
   },
@@ -310,6 +404,7 @@
     "been": true,
     "coords": "45°45′38″N, 4°49′39″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lyon_Cathedral",
     "name": "Lyon"
   },
@@ -317,6 +412,7 @@
     "been": true,
     "coords": "22°11′37″N, 113°32′30″E",
     "country": "MO",
+    "icons": ["🇲🇴"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_the_Nativity_of_Our_Lady,_Macau",
     "name": "Macau"
   },
@@ -324,6 +420,7 @@
     "been": false,
     "coords": "14.59147°N, 120.97356°E",
     "country": "PH",
+    "icons": ["🇵🇭"],
     "link": "https://en.wikipedia.org/wiki/Manila_Cathedral",
     "name": "Manila"
   },
@@ -331,6 +428,7 @@
     "been": false,
     "coords": "43°17′59″N, 5°21′54″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Marseille_Cathedral",
     "name": "Marseille"
   },
@@ -338,6 +436,7 @@
     "been": false,
     "coords": "19.4343942°N, 99.1330824°W",
     "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Mexico_City_Metropolitan_Cathedral",
     "name": "Mexico City"
   },
@@ -345,6 +444,7 @@
     "been": false,
     "coords": "45°27′51″N, 9°11′29″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan_Cathedral",
     "name": "Milan"
   },
@@ -352,13 +452,23 @@
     "been": true,
     "coords": "43.730214°N, 7.422664°E",
     "country": "MC",
+    "icons": ["🇲🇨"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_Immaculate",
     "name": "Monaco"
+  },
+  "monreale": {
+    "been": false,
+    "coords": "38°04′54.69″N, 13°17′31.44″E",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Monreale_Cathedral",
+    "name": "Monreale"
   },
   "montpellier": {
     "been": true,
     "coords": "43°36′48″N, 3°52′27″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Montpellier_Cathedral",
     "name": "Montpellier"
   },
@@ -366,6 +476,7 @@
     "been": false,
     "coords": "32.734106°N, 129.870236°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Oura_Church",
     "name": "Nagasaki"
   },
@@ -373,6 +484,7 @@
     "been": true,
     "coords": "50.464569, 4.860006",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Cathédrale_Saint-Aubain_de_Namur",
     "name": "Namur",
     "wikidata": "Q1726584"
@@ -381,6 +493,7 @@
     "been": true,
     "coords": "43°41′50″N, 7°16′33″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Nice_Cathedral",
     "name": "Nice"
   },
@@ -388,6 +501,7 @@
     "been": true,
     "coords": "48.853°N, 2.3498°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Notre_Dame_de_Paris",
     "name": "Notre Dame"
   },
@@ -395,6 +509,7 @@
     "been": false,
     "coords": "46°28′59.44″N, 30°43′51.75″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral_in_Odesa",
     "name": "Odesa"
   },
@@ -402,13 +517,23 @@
     "been": false,
     "coords": "47.9025°N, 1.909°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Cathédrale_Sainte-Croix_d%27Orléans",
     "name": "Orleans"
+  },
+  "oslo": {
+    "been": true,
+    "coords": "59°54′44.35″N, 10°44′49.05″E",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Oslo_Cathedral",
+    "name": "Oslo"
   },
   "ouagadougou": {
     "been": true,
     "coords": "12.361979°N, 1.526989°W",
     "country": "BF",
+    "icons": ["🇧🇫"],
     "link": "https://en.wikipedia.org/wiki/Ouagadougou_Cathedral",
     "name": "Ouagadougou"
   },
@@ -416,13 +541,31 @@
     "been": true,
     "coords": "52.5725°N, 0.238889°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Peterborough_Cathedral",
     "name": "Peterborough"
+  },
+  "pisa": {
+    "been": false,
+    "coords": "43.723281°N, 10.395845°E",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Pisa_Cathedral",
+    "name": "Pisa"
+  },
+  "plzen": {
+    "been": true,
+    "coords": "49.7475°N, 13.3776°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Cathedral_of_St._Bartholomew,_Plze%C5%88",
+    "name": "Plzeň"
   },
   "reims": {
     "been": true,
     "coords": "49°15′14″N, 4°2′3″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Reims_Cathedral",
     "name": "Reims"
   },
@@ -430,6 +573,7 @@
     "been": true,
     "coords": "48.88665°N, 2.34295°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris",
     "name": "Sacré Cœur"
   },
@@ -437,6 +581,7 @@
     "been": true,
     "coords": "41.40369°N, 2.17433°E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
     "name": "Sagrada Família"
   },
@@ -444,6 +589,7 @@
     "been": true,
     "coords": "51.750556°N, 0.342222°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/St_Albans_Cathedral",
     "name": "Saint Albans"
   },
@@ -451,6 +597,7 @@
     "been": true,
     "coords": "55°45′9″N, 37°37′23″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
     "name": "Saint Basil’s"
   },
@@ -458,6 +605,7 @@
     "been": true,
     "coords": "48°56′08″N, 2°21′35″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Basilica_of_Saint-Denis",
     "name": "Saint Denis"
   },
@@ -465,6 +613,7 @@
     "been": true,
     "coords": "45.03344°N, 3.0951°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Saint-Flour_Cathedral",
     "name": "Saint Flour"
   },
@@ -472,6 +621,7 @@
     "been": true,
     "coords": "35°41′11.4″N, 105°56′10.68″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_St._Francis_of_Assisi_(Santa_Fe)",
     "name": "Saint Francis, Santa Fe"
   },
@@ -479,6 +629,7 @@
     "been": true,
     "coords": "59.9341°N, 30.3062°E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Saint_Isaac%27s_Cathedral",
     "name": "Saint Isaac’s, Saint Petersburg"
   },
@@ -486,6 +637,7 @@
     "been": true,
     "coords": "40°45′31″N, 73°58′35″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral_(Manhattan)",
     "name": "Saint Patrick’s, New York"
   },
@@ -493,6 +645,7 @@
     "been": true,
     "coords": "40°26′50.63″N, 79°56′59.42″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Saint_Paul_Cathedral_(Pittsburgh,_Pennsylvania)",
     "name": "Saint Paul, Pittsburgh"
   },
@@ -500,6 +653,7 @@
     "been": true,
     "coords": "51.5138°N, 0.0983°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral",
     "name": "Saint Paul’s, London"
   },
@@ -507,6 +661,7 @@
     "been": true,
     "coords": "41°54′08″N, 12°27′12″E",
     "country": "VA",
+    "icons": ["🇻🇦"],
     "link": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
     "name": "Saint Peter’s, Rome"
   },
@@ -514,12 +669,14 @@
     "been": true,
     "coords": "44°47′53″N, 20°28′6.74″E",
     "country": "RS",
+    "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Church_of_Saint_Sava",
     "name": "Saint Sava, Belgrade"
   },
   "saint-sophia-kyiv": {
     "been": true,
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral,_Kyiv",
     "name": "Saint Sophia, Kyiv"
   },
@@ -527,6 +684,7 @@
     "been": false,
     "coords": "4.8273°N, 31.6003°E",
     "country": "SS",
+    "icons": ["🇸🇸"],
     "link": "https://en.wikipedia.org/wiki/St._Theresa_Cathedral,_Juba",
     "name": "Saint Theresa, Juba"
   },
@@ -534,6 +692,7 @@
     "been": true,
     "coords": "50°05′27″N, 14°24′02″E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
     "name": "Saint Vitus, Prague"
   },
@@ -541,6 +700,7 @@
     "been": false,
     "coords": "37.3857421596313, -5.9930955622969",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Seville_Cathedral",
     "name": "Seville",
     "wikidata": "Q231606"
@@ -549,6 +709,7 @@
     "been": true,
     "coords": "53.383°N, 1.4694°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Sheffield_Cathedral",
     "name": "Sheffield"
   },
@@ -556,20 +717,39 @@
     "been": true,
     "coords": "51°30′22″N, 0°5′23″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Southwark_Cathedral",
     "name": "Southwark"
+  },
+  "stockholm": {
+    "been": true,
+    "coords": "59°19′33″N, 18°04′14″E",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Storkyrkan",
+    "name": "Stockholm"
   },
   "strasbourg": {
     "been": true,
     "coords": "48°34′54″N, 7°45′03″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral",
     "name": "Strasbourg"
+  },
+  "szeged": {
+    "been": true,
+    "coords": "46.2489°N, 20.1491°E",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Votive_Church,_Szeged",
+    "name": "Szeged"
   },
   "trier": {
     "been": true,
     "coords": "49°45′22″N, 6°38′35″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trier_Cathedral",
     "name": "Trier"
   },
@@ -577,6 +757,7 @@
     "been": true,
     "coords": "48.3806°N, 17.5883°E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/St._John_the_Baptist_Cathedral_(Trnava)",
     "name": "Trnava"
   },
@@ -584,6 +765,7 @@
     "been": false,
     "coords": "47.1362°N, 9.5227°E",
     "country": "LI",
+    "icons": ["🇱🇮"],
     "link": "https://en.wikipedia.org/wiki/Vaduz_Cathedral",
     "name": "Vaduz Cathedral"
   },
@@ -591,6 +773,7 @@
     "been": true,
     "coords": "48.2085°N, 16.373°E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna",
     "name": "Vienna"
   },
@@ -598,6 +781,7 @@
     "been": true,
     "coords": "38°55′50″N, 77°4′15″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington_National_Cathedral",
     "name": "Washington National Cathedral"
   },
@@ -605,6 +789,7 @@
     "been": true,
     "coords": "51°29′58″N, 00°07′39″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Westminster_Abbey",
     "name": "Westminster Abbey"
   },
@@ -612,6 +797,7 @@
     "been": true,
     "coords": "51°3′38″N, 1°18′47″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Winchester_Cathedral",
     "name": "Winchester"
   },
@@ -619,6 +805,7 @@
     "been": false,
     "coords": "6°48′40″N, 5°17′49″W",
     "country": "CI",
+    "icons": ["🇨🇮"],
     "link": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace",
     "name": "Yamoussoukro"
   },
@@ -626,6 +813,7 @@
     "been": false,
     "coords": "53°57′43″N, 1°4′55″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/York_Minster",
     "name": "York Minster"
   },
@@ -633,6 +821,7 @@
     "been": false,
     "coords": "41°39′25″N, 0°52′42″W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Cathedral-Basilica_of_Our_Lady_of_the_Pillar",
     "name": "Zaragoza"
   }

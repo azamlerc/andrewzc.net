@@ -450,3 +450,21 @@ a {
 	color: #43C6DB;
 }
 
+#map {
+	width: 1000px;
+	height: 500px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+img.markerBeen {
+	filter: hue-rotate(270deg);
+}
+
+img.markerTodo {
+	filter: hue-rotate(120deg);
+}
+
+img.markerStrike {
+	opacity: 0.5;
+}

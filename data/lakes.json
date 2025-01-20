@@ -2,19 +2,47 @@
   "agawam-lake": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Agawam Lake"
   },
   "aral-sea": {
     "been": false,
     "coords": "45°N, 60°E",
     "countries": ["KZ", "UZ"],
+    "icons": ["🇰🇿", "🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Aral_Sea",
-    "name": "Aral Sea"
+    "name": "Aral Sea",
+    "strike": true
+  },
+  "bad-salzungen-burgzee": {
+    "been": true,
+    "coords": "50.81042°N, 10.23712°E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.81042_N_10.23712_E",
+    "name": "Bad Salzungen Burgzee"
+  },
+  "blaue-lagune": {
+    "been": true,
+    "coords": "51.07102°N, 14.92894°E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.07102_N_14.92894_E",
+    "name": "Blaue Lagune"
+  },
+  "blazejsky-rybnik": {
+    "been": true,
+    "coords": "49.99829°N, 13.01681°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.99829_N_13.01681_E",
+    "name": "Blažejský Rybník"
   },
   "bussloo": {
     "been": false,
     "coords": "52.1981°N, 6.1314°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Bussloo",
     "name": "Bussloo"
   },
@@ -22,6 +50,7 @@
     "been": false,
     "coords": "42.0°N, 50.5°E",
     "countries": ["KZ", "TM", "AZ", "RU", "IR"],
+    "icons": ["🇰🇿", "🇹🇲", "🇦🇿", "🇷🇺", "🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Caspian_Sea",
     "name": "Caspian Sea"
   },
@@ -29,6 +58,7 @@
     "been": true,
     "coords": "42°41′17″N, 76°42′8″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cayuga_Lake",
     "name": "Cayuga Lake"
   },
@@ -36,6 +66,7 @@
     "been": false,
     "coords": "42.91183°N, 122.14807°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Crater_Lake_National_Park",
     "name": "Crater Lake"
   },
@@ -43,6 +74,7 @@
     "been": true,
     "coords": "48.183333°N, 16.516667°E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://de.wikipedia.org/wiki/Lobau",
     "name": "Dechantlacke"
   },
@@ -50,6 +82,7 @@
     "been": true,
     "coords": "42°54′23″N, 72°05′02″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Dublin_Pond",
     "name": "Dublin Pond"
   },
@@ -57,6 +90,7 @@
     "been": true,
     "coords": "43°27′51″N, 4°58′8″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/%C3%89tang_de_Lavalduc",
     "name": "Étang de Lavalduc"
   },
@@ -64,6 +98,7 @@
     "been": false,
     "coords": "45°59′N, 2°59′E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gour_de_Tazenat",
     "name": "Gour de Tazenat"
   },
@@ -71,6 +106,7 @@
     "been": false,
     "coords": "65°50′01″N, 120°45′06″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Great_Bear_Lake",
     "name": "Great Bear Lake"
   },
@@ -78,6 +114,7 @@
     "been": true,
     "coords": "41°10′N, 112°32′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Great_Salt_Lake",
     "name": "Great Salt Lake"
   },
@@ -85,20 +122,39 @@
     "been": true,
     "coords": "46°34′10.52″N, 8°19′38.66″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Grimselsee",
     "name": "Grimselsee"
+  },
+  "großwelzheimer-badzee": {
+    "been": true,
+    "coords": "50.05903°N, 9.01617°E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.05903_N_9.01617_E",
+    "name": "Großwelzheimer Badzee"
   },
   "ijsselmeer": {
     "been": true,
     "coords": "52°49′N, 5°15′E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/IJsselmeer",
     "name": "IJsselmeer"
+  },
+  "kamenny-rybnik": {
+    "been": true,
+    "coords": "49.79084°N, 13.38083°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.79084_N_13.38083_E",
+    "name": "Kamenný Rybník"
   },
   "kenoza-lake": {
     "been": true,
     "coords": "41°44′00″N, 74°56′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kenoza_Lake,_New_York",
     "name": "Kenoza Lake"
   },
@@ -106,6 +162,7 @@
     "been": true,
     "coords": "42°29′47″N, 77°08′46″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Keuka_Lake",
     "name": "Keuka Lake"
   },
@@ -113,6 +170,7 @@
     "been": true,
     "coords": "6.495°N, 1.975°E",
     "country": "BJ",
+    "icons": ["🇧🇯"],
     "link": "https://en.wikipedia.org/wiki/Lake_Ahémé",
     "name": "Lake Ahémé"
   },
@@ -120,6 +178,7 @@
     "been": false,
     "coords": "1°41′N, 30°55′E",
     "countries": ["UG", "CD"],
+    "icons": ["🇺🇬", "🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Lake_Albert_(Uganda)",
     "name": "Lake Albert"
   },
@@ -127,6 +186,7 @@
     "been": false,
     "coords": "59°22′1″N, 108°0′4″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Athabasca",
     "name": "Lake Athabasca"
   },
@@ -134,6 +194,7 @@
     "been": false,
     "coords": "53°30′N, 108°0′E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Baikal",
     "name": "Lake Baikal"
   },
@@ -141,6 +202,7 @@
     "been": false,
     "coords": "46°51′00″N, 17°43′12″E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Balaton",
     "name": "Lake Balaton"
   },
@@ -148,13 +210,15 @@
     "been": false,
     "coords": "46°10′N, 74°20′E",
     "country": "KZ",
+    "icons": ["🇰🇿"],
     "link": "https://en.wikipedia.org/wiki/Lake_Balkhash",
     "name": "Lake Balkhash"
   },
   "lake-chad": {
     "been": false,
-    "coords": "DD°MM′SS″N, DD°MM′SS″W",
+    "coords": "13.10273° N, 14.50883° E",
     "countries": ["TD", "CM", "NG", "NE"],
+    "icons": ["🇹🇩", "🇨🇲", "🇳🇬", "🇳🇪"],
     "link": "https://en.wikipedia.org/wiki/Lake_Chad",
     "name": "Lake Chad"
   },
@@ -162,6 +226,7 @@
     "been": false,
     "coords": "44.53°N, 73.33°W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Champlain",
     "name": "Lake Champlain"
   },
@@ -169,6 +234,7 @@
     "been": true,
     "coords": "42°02′30″N, 71°50′30″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Chaubunagungamaug",
     "name": "Lake Chaubunagungamaug"
   },
@@ -176,6 +242,7 @@
     "been": false,
     "coords": "46°00′N, 9°16′E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Lake_Como",
     "name": "Lake Como"
   },
@@ -183,6 +250,7 @@
     "been": true,
     "coords": "42°03′17″N, 72°46′15″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Southwick,_Massachusetts",
     "name": "Lake Congamond"
   },
@@ -190,6 +258,7 @@
     "been": false,
     "coords": "47°35′N, 9°28′E",
     "countries": ["DE", "CH", "AT"],
+    "icons": ["🇩🇪", "🇨🇭", "🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Lake_Constance",
     "name": "Lake Constance"
   },
@@ -197,6 +266,7 @@
     "been": true,
     "coords": "48.06°N, 123.83°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Crescent",
     "name": "Lake Crescent"
   },
@@ -204,6 +274,7 @@
     "been": true,
     "coords": "0°27′S, 36°15′E",
     "country": "KE",
+    "icons": ["🇰🇪"],
     "link": "https://en.wikipedia.org/wiki/Lake_Elmenteita",
     "name": "Lake Elmenteita"
   },
@@ -211,6 +282,7 @@
     "been": true,
     "coords": "42.2°N, 81.2°W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Erie",
     "name": "Lake Erie"
   },
@@ -218,6 +290,7 @@
     "been": true,
     "coords": "46°27′N, 6°33′E",
     "countries": ["CH", "FR"],
+    "icons": ["🇨🇭", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lake_Geneva",
     "name": "Lake Geneva"
   },
@@ -225,6 +298,7 @@
     "been": false,
     "coords": "44.8°N, 82.4°W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Huron",
     "name": "Lake Huron"
   },
@@ -232,6 +306,7 @@
     "been": true,
     "coords": "2°0′S, 29°0′E",
     "countries": ["RW", "CD"],
+    "icons": ["🇷🇼", "🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Lake_Kivu",
     "name": "Lake Kivu"
   },
@@ -239,12 +314,14 @@
     "been": false,
     "coords": "61°00′N, 31°30′E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Ladoga",
     "name": "Lake Ladoga"
   },
   "lake-lauderdale": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Lauderdale",
     "name": "Lake Lauderdale"
   },
@@ -252,6 +329,7 @@
     "been": true,
     "coords": "45°59′N, 8°58′E",
     "countries": ["IT", "CH"],
+    "icons": ["🇮🇹", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Lugano",
     "name": "Lake Lugano"
   },
@@ -259,6 +337,7 @@
     "been": false,
     "coords": "12°00′S, 34°30′E",
     "countries": ["MW", "MZ", "TZ"],
+    "icons": ["🇲🇼", "🇲🇿", "🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Lake_Malawi",
     "name": "Lake Malawi"
   },
@@ -266,6 +345,7 @@
     "been": false,
     "coords": "50°59′N, 98°48′W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Manitoba",
     "name": "Lake Manitoba"
   },
@@ -273,18 +353,21 @@
     "been": true,
     "coords": "44°N, 87°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Michigan",
     "name": "Lake Michigan"
   },
   "lake-minisink": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Lake Minisink"
   },
   "lake-morat": {
     "been": true,
     "coords": "46°56′N, 7°5′E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Morat",
     "name": "Lake Morat"
   },
@@ -292,6 +375,7 @@
     "been": true,
     "coords": "0°46′6.70″S, 36°21′2.32″E",
     "country": "KE",
+    "icons": ["🇰🇪"],
     "link": "https://en.wikipedia.org/wiki/Lake_Naivasha",
     "name": "Lake Naivasha"
   },
@@ -299,6 +383,7 @@
     "been": false,
     "coords": "11°37′N, 85°21′W",
     "country": "NI",
+    "icons": ["🇳🇮"],
     "link": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
     "name": "Lake Nicaragua"
   },
@@ -306,6 +391,7 @@
     "been": false,
     "coords": "49°14′59″N, 94°45′03″W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_of_the_Woods",
     "name": "Lake of the Woods"
   },
@@ -313,6 +399,7 @@
     "been": false,
     "coords": "26°56′N, 80°48′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Okeechobee",
     "name": "Lake Okeechobee"
   },
@@ -320,6 +407,7 @@
     "been": false,
     "coords": "61°41′26″N, 35°39′20″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Onega",
     "name": "Lake Onega"
   },
@@ -327,6 +415,7 @@
     "been": true,
     "coords": "43.7°N, 77.9°W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Ontario",
     "name": "Lake Ontario"
   },
@@ -334,6 +423,7 @@
     "been": false,
     "coords": "58°41′N, 27°29′E",
     "countries": ["EE", "RU"],
+    "icons": ["🇪🇪", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Peipus",
     "name": "Lake Peipus"
   },
@@ -341,6 +431,7 @@
     "been": false,
     "coords": "30°11′20″N, 90°06′05″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Pontchartrain",
     "name": "Lake Pontchartrain"
   },
@@ -348,6 +439,7 @@
     "been": false,
     "coords": "36°56′10″N, 111°29′03″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Powell",
     "name": "Lake Powell"
   },
@@ -355,6 +447,7 @@
     "been": true,
     "coords": "47°28′34.96″N, 123°52′12.59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Quinault",
     "name": "Lake Quinault"
   },
@@ -362,6 +455,7 @@
     "been": false,
     "coords": "47.7°N, 87.5°W",
     "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Superior",
     "name": "Lake Superior"
   },
@@ -369,6 +463,7 @@
     "been": true,
     "coords": "12°0′N, 37°15′E",
     "country": "ET",
+    "icons": ["🇪🇹"],
     "link": "https://en.wikipedia.org/wiki/Lake_Tana",
     "name": "Lake Tana"
   },
@@ -377,6 +472,7 @@
     "coords": "6.1°S, 29.5°E",
     "countries": ["TZ", "CD", "BI", "ZM"],
     "country": "KE",
+    "icons": ["🇹🇿", "🇨🇩", "🇧🇮", "🇿🇲"],
     "link": "https://en.wikipedia.org/wiki/Lake_Tanganyika",
     "name": "Lake Tanganyika"
   },
@@ -384,6 +480,7 @@
     "been": false,
     "coords": "15°49′30″S, 69°19′30″W",
     "countries": ["PE", "BO"],
+    "icons": ["🇵🇪", "🇧🇴"],
     "link": "https://en.wikipedia.org/wiki/Lake_Titicaca",
     "name": "Lake Titicaca"
   },
@@ -391,6 +488,7 @@
     "been": true,
     "coords": "43.14°N, 12.10°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Lake_Trasimeno",
     "name": "Lake Trasimeno"
   },
@@ -398,6 +496,7 @@
     "been": false,
     "coords": "3°35′N, 36°7′E",
     "countries": ["KE", "ET"],
+    "icons": ["🇰🇪", "🇪🇹"],
     "link": "https://en.wikipedia.org/wiki/Lake_Turkana",
     "name": "Lake Turkana"
   },
@@ -405,6 +504,7 @@
     "been": true,
     "coords": "1°S, 33°E",
     "countries": ["KE", "UG", "TZ"],
+    "icons": ["🇰🇪", "🇺🇬", "🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Lake_Victoria",
     "name": "Lake Victoria"
   },
@@ -412,6 +512,7 @@
     "been": false,
     "coords": "6°30′N, 0°0′E",
     "country": "GH",
+    "icons": ["🇬🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Volta",
     "name": "Lake Volta"
   },
@@ -419,6 +520,7 @@
     "been": false,
     "coords": "77°30′S, 106°00′E",
     "country": "AQ",
+    "icons": ["🇦🇶"],
     "link": "https://en.wikipedia.org/wiki/Lake_Vostok",
     "name": "Lake Vostok"
   },
@@ -426,6 +528,7 @@
     "been": true,
     "coords": "47°37′N, 122°16′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Washington",
     "name": "Lake Washington"
   },
@@ -433,6 +536,7 @@
     "been": false,
     "coords": "52°7′N, 97°15′W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_Winnipeg",
     "name": "Lake Winnipeg"
   },
@@ -440,6 +544,7 @@
     "been": true,
     "coords": "40°40′07″N, 75°50′05″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Leaser_Lake",
     "name": "Leaser Lake"
   },
@@ -447,6 +552,7 @@
     "been": true,
     "coords": "56°04′N, 4°35′W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Loch_Lomond",
     "name": "Loch Lomond"
   },
@@ -454,13 +560,22 @@
     "been": true,
     "coords": "57°18′N, 4°27′W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Loch_Ness",
     "name": "Loch Ness"
+  },
+  "lutvann": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Lutvann",
+    "name": "Lutvann"
   },
   "mono-lake": {
     "been": false,
     "coords": "38.0165908°N, 119.0093116°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mono_Lake",
     "name": "Mono Lake"
   },
@@ -468,12 +583,22 @@
     "been": true,
     "coords": "43.93888889, -94.92972222",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mountain_Lake",
     "name": "Mountain Lake"
+  },
+  "novobystricky-rybnik": {
+    "been": true,
+    "coords": "49.01156°N, 15.10679°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.01156_N_15.10679_E",
+    "name": "Novobystřický Rybník"
   },
   "oquaga-lake": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Onaquaga",
     "name": "Oquaga Lake",
     "wikidata": "Q7091703"
@@ -482,18 +607,21 @@
     "been": false,
     "coords": "56.336°N, 103.2825°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Reindeer_Lake",
     "name": "Reindeer Lake"
   },
   "riga-lake": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Riga Lake"
   },
   "saimaa": {
     "been": false,
     "coords": "61°15′N, 028°15′E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Saimaa",
     "name": "Saimaa"
   },
@@ -501,6 +629,7 @@
     "been": false,
     "coords": "42°00′N, 57°20′E",
     "countries": ["TM", "UZ"],
+    "icons": ["🇹🇲", "🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Sarygamysh_Lake",
     "name": "Sarygamysh Lake"
   },
@@ -508,13 +637,38 @@
     "been": true,
     "coords": "42°39′20″N, 76°53′51″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seneca_Lake_(New_York)",
     "name": "Seneca Lake"
+  },
+  "singliser-see": {
+    "been": true,
+    "coords": "51.05757°N, 9.31325°E",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.05757_N_9.31325_E",
+    "name": "Singliser See"
+  },
+  "sognsvann": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Sognsvann",
+    "name": "Sognsvann"
+  },
+  "stankovsky-rybynk": {
+    "been": true,
+    "coords": "49.00076°N, 14.99959°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.00076_N_14.99959_E",
+    "name": "Stankovsky Rybynk"
   },
   "thunersee": {
     "been": true,
     "coords": "46°41′N, 7°43′E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Thun",
     "name": "Thunersee"
   },
@@ -522,13 +676,23 @@
     "been": false,
     "coords": "50°18′N, 92°42′E",
     "countries": ["MN", "RU"],
+    "icons": ["🇲🇳", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Uvs_Lake",
     "name": "Uvs Lake"
+  },
+  "vajgar": {
+    "been": true,
+    "coords": "49.14258°N, 15.00825°E",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.14258_N_15.00825_E",
+    "name": "Vajgar"
   },
   "vanern": {
     "been": false,
     "coords": "58°55′N, 13°30′E",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/V%C3%A4nern",
     "name": "Vänern"
   }

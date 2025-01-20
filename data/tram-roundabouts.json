@@ -6,12 +6,32 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=52.4456_N_13.576_E",
     "name": "Alt-Köpenick"
   },
+  "altitude-cent": {
+    "been": true,
+    "coords": "50.8166°N, 4.3368°E",
+    "country": "BE",
+    "icons": ["🇧🇪", "2️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.8166_N_4.3368_E",
+    "name": "Altitude Cent",
+    "reference": "Brussels"
+  },
+  "americka": {
+    "been": true,
+    "coords": "49.74332°N, 13.37864°E",
+    "country": "CZ",
+    "icons": ["🇨🇿", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.74332_N_13.37864_E",
+    "name": "Americká",
+    "reference": "Plzeň"
+  },
   "barriere-de-saint-gilles": {
     "been": true,
     "coords": "50.8269°N, 4.3446°E",
     "country": "BE",
+    "icons": ["🇧🇪", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.8269_N_4.3446_E",
-    "name": "Barrière de Saint-Gilles"
+    "name": "Barrière de Saint-Gilles",
+    "reference": "Brussels"
   },
   "basel-sbb": {
     "been": true,
@@ -24,15 +44,28 @@
     "been": true,
     "coords": "52.5186°N, 13.453°E",
     "country": "DE",
+    "icons": ["🇩🇪", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.5186_N_13.453_E",
-    "name": "Bersarinplatz"
+    "name": "Bersarinplatz",
+    "reference": "Berlin"
   },
   "bienfaiteurs": {
     "been": true,
     "coords": "50.85801°N, 4.38422°E",
     "country": "BE",
+    "icons": ["🇧🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.85801_N_4.38422_E",
-    "name": "Bienfaiteurs"
+    "name": "Bienfaiteurs",
+    "reference": "Brussels"
+  },
+  "bogatyrsky-most": {
+    "been": false,
+    "coords": "51.821133°N, 107.657642°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.821133_N_107.657642_E",
+    "name": "Bogatyrsky Most",
+    "reference": "Ulan-Ude"
   },
   "chełm-witosa": {
     "been": false,
@@ -52,8 +85,10 @@
     "been": true,
     "coords": "50.8119°N, 4.3539°E",
     "country": "BE",
+    "icons": ["🇧🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.8119_N_4.3539_E",
-    "name": "Churchill"
+    "name": "Churchill",
+    "reference": "Brussels"
   },
   "georgia-ave-/-florida-ave": {
     "been": true,
@@ -66,15 +101,19 @@
     "been": false,
     "coords": "52.37265°N, 9.72349°E",
     "country": "DE",
+    "icons": ["🇩🇪", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.37265_N_9.72349_E",
-    "name": "Goetheplatz"
+    "name": "Goetheplatz",
+    "reference": "Hannover"
   },
   "haarlemmermeer": {
     "been": false,
     "coords": "52.3496°N, 4.8575°E",
     "country": "NL",
+    "icons": ["🇳🇱", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.3496_N_4.8575_E",
-    "name": "Haarlemmermeer"
+    "name": "Haarlemmermeer",
+    "reference": "Amsterdam"
   },
   "hackescher-markt": {
     "been": true,
@@ -87,36 +126,73 @@
     "been": false,
     "coords": "52.3513°N, 4.85°E",
     "country": "NL",
+    "icons": ["🇳🇱", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.3513_N_4.85_E",
-    "name": "Hoofddorpplein"
+    "name": "Hoofddorpplein",
+    "reference": "Amsterdam"
   },
   "kaiserplatz": {
     "been": true,
     "coords": "49.0103°N, 8.3889°E",
     "country": "DE",
+    "icons": ["🇩🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49.0103_N_8.3889_E",
-    "name": "Kaiserplatz"
+    "name": "Kaiserplatz",
+    "reference": "Karlsruhe"
   },
   "karolinenplatz": {
     "been": false,
     "coords": "48.14471°N, 11.56914°E",
     "country": "DE",
+    "icons": ["🇩🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.14471_N_11.56914_E",
-    "name": "Karolinenplatz"
+    "name": "Karolinenplatz",
+    "reference": "Munich"
+  },
+  "kinostudia": {
+    "been": false,
+    "coords": "56.8402°N, 60.6206°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.8402_N_60.6206_E",
+    "name": "Kinostudia",
+    "reference": "Yekaterinburg"
+  },
+  "komsomolskaya-ploschad": {
+    "been": false,
+    "coords": "56.298891°N, 43.944296°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.298891_N_43.944296_E",
+    "name": "Komsomolskaya Ploschad",
+    "reference": "Nizhny Novgorod"
   },
   "koszutka-słoneczna-petla": {
     "been": true,
     "coords": "50.2736°N, 19.0248°E",
     "country": "PL",
+    "icons": ["🇵🇱", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.2736_N_19.0248_E",
-    "name": "Koszutka Słoneczna Pętla"
+    "name": "Koszutka Słoneczna Pętla",
+    "reference": "Katowice"
+  },
+  "lapshikha": {
+    "been": false,
+    "coords": "56.299989°N, 44.029966°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.299989_N_44.029966_E",
+    "name": "Lapshikha",
+    "reference": "Nizhny Novgorod"
   },
   "lee-circle": {
     "been": false,
     "coords": "29.9433°N, 90.0725°W",
     "country": "US",
+    "icons": ["🇺🇸", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=29.9433_N_90.0725_W",
-    "name": "Lee Circle"
+    "name": "Lee Circle",
+    "reference": "New Orleans"
   },
   "lenina-/-lunacharskogo": {
     "been": false,
@@ -125,19 +201,32 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=56.8402_N_60.6206_E",
     "name": "Lenina / Lunacharskogo"
   },
+  "malakhova": {
+    "been": false,
+    "coords": "53.359547°N, 83.700784°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.359547_N_83.700784_E",
+    "name": "Malakhova",
+    "reference": "Barnaul"
+  },
   "maxmonument": {
     "been": false,
     "coords": "48.1376°N, 11.588°E",
     "country": "DE",
+    "icons": ["🇩🇪", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.1376_N_11.588_E",
-    "name": "Maxmonument"
+    "name": "Maxmonument",
+    "reference": "Munich"
   },
   "meerplein": {
     "been": true,
     "coords": "50.8327°N, 4.3023°E",
     "country": "BE",
+    "icons": ["🇧🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.8327_N_4.3023_E",
-    "name": "Meerplein"
+    "name": "Meerplein",
+    "reference": "Brussels"
   },
   "mihaljevac": {
     "been": false,
@@ -150,8 +239,10 @@
     "been": false,
     "coords": "48°42′18″N, 21°14′35″E",
     "country": "SK",
+    "icons": ["🇸🇰", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48_42_18_N_21_14_35_E",
-    "name": "Moldavská"
+    "name": "Moldavská",
+    "reference": "Košice"
   },
   "moscow-highway": {
     "been": false,
@@ -164,8 +255,19 @@
     "been": false,
     "coords": "59.8917°N, 30.3195°E",
     "country": "RU",
+    "icons": ["🇷🇺", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=59.8917_N_30.3195_E",
-    "name": "Moscow Triumphal Gate"
+    "name": "Moscow Triumphal Gate",
+    "reference": "Saint Petersburg"
+  },
+  "nowa-huta": {
+    "been": false,
+    "coords": "50.07207°N, 20.03734°E",
+    "country": "PL",
+    "icons": ["🇵🇱", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.07207_N_20.03734_E",
+    "name": "Nowa Huta",
+    "reference": "Kraków"
   },
   "oliwa": {
     "been": false,
@@ -196,11 +298,22 @@
     "name": "Plac Narutowicza"
   },
   "plac-wolnosci": {
-    "been": false,
+    "been": true,
     "coords": "50.2598°N, 19.0132°E",
     "country": "PL",
+    "icons": ["🇵🇱", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.2598_N_19.0132_E",
-    "name": "Plac Wolności"
+    "name": "Plac Wolności",
+    "reference": "Katowice"
+  },
+  "plac-wolnosci-(łodz)": {
+    "been": false,
+    "coords": "51.77679°N, 19.45471°E",
+    "country": "PL",
+    "icons": ["🇵🇱", "3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.77679_N_19.45471_E",
+    "name": "Plac Wolności (Łódź)",
+    "reference": "Łódź"
   },
   "place-de-laltitude-cent": {
     "been": true,
@@ -213,64 +326,153 @@
     "been": true,
     "coords": "50.84°N, 4.465°E",
     "country": "BE",
+    "icons": ["🇧🇪", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.84_N_4.465_E",
-    "name": "Place Dumon"
+    "name": "Place Dumon",
+    "reference": "Brussels"
+  },
+  "plein-1813": {
+    "been": true,
+    "coords": "52.08618°N, 4.30488°E",
+    "country": "NL",
+    "icons": ["🇳🇱", "2️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.08618_N_4.30488_E",
+    "name": "Plein 1813",
+    "reference": "Den Haag"
+  },
+  "ploschad-metallurgov": {
+    "been": false,
+    "coords": "50.554595°N, 137.015977°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.554595_N_137.015977_E",
+    "name": "Ploschad Metallurgov",
+    "reference": "Komsomolsk"
   },
   "porta-maggiore": {
     "been": false,
     "coords": "41.8915°N, 12.5151°E",
     "country": "IT",
+    "icons": ["🇮🇹", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41.8915_N_12.5151_E",
-    "name": "Porta Maggiore"
+    "name": "Porta Maggiore",
+    "reference": "Rome"
+  },
+  "praca-luis-de-camoes": {
+    "been": true,
+    "coords": "38.71059°N, 9.14343°W",
+    "country": "PT",
+    "icons": ["🇵🇹", "3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.71059_N_9.14343_W",
+    "name": "Praça Luís de Camões",
+    "reference": "Lisbon"
+  },
+  "predmostnaya-ploschad": {
+    "been": false,
+    "coords": "55.991894°N, 92.886755°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "2️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=55.991894_N_92.886755_E",
+    "name": "Predmostnaya Ploschad",
+    "reference": "Krasnoyarsk"
+  },
+  "prins-hendrikplein": {
+    "been": true,
+    "coords": "52.08244°N, 4.29460°E",
+    "country": "NL",
+    "icons": ["🇳🇱", "2️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.08244_N_4.29460_E",
+    "name": "Prins Hendrikplein",
+    "reference": "Den Haag"
+  },
+  "pushkareva": {
+    "been": false,
+    "coords": "54.306361°N, 48.349647°E",
+    "country": "RU",
+    "icons": ["🇷🇺", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=54.306361_N_48.349647_E",
+    "name": "Pushkareva",
+    "reference": "Ulyanovsk"
   },
   "regina-margherita": {
     "been": false,
     "coords": "41.9111°N, 12.509°E",
     "country": "IT",
+    "icons": ["🇮🇹", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41.9111_N_12.509_E",
-    "name": "Regina Margherita"
+    "name": "Regina Margherita",
+    "reference": "Rome"
   },
   "romanplatz": {
     "been": false,
     "coords": "48.1555°N, 11.5116°E",
     "country": "DE",
+    "icons": ["🇩🇪", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.1555_N_11.5116_E",
-    "name": "Romanplatz"
+    "name": "Romanplatz",
+    "reference": "Munich"
   },
   "rond-de-grote-kerk": {
     "been": true,
     "coords": "52.07752°N, 4.30747°E",
     "country": "NL",
+    "icons": ["🇳🇱", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.07752_N_4.30747_E",
-    "name": "Rond de Grote Kerk"
+    "name": "Rond de Grote Kerk",
+    "reference": "Den Haag"
   },
   "rondo-bedzin": {
     "been": true,
     "coords": "50.3249°N, 19.1243°E",
     "country": "PL",
+    "icons": ["🇵🇱", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.3249_N_19.1243_E",
-    "name": "Rondo Będzin"
+    "name": "Rondo Będzin",
+    "reference": "Katowice"
   },
   "rondo-chebzie-petla": {
     "been": true,
     "coords": "50.3007°N, 18.8824°E",
     "country": "PL",
+    "icons": ["🇵🇱", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.3007_N_18.8824_E",
-    "name": "Rondo Chebzie Pętla"
+    "name": "Rondo Chebzie Pętla",
+    "reference": "Katowice"
+  },
+  "rondo-jana-pawła-ii": {
+    "been": false,
+    "coords": "50.28527°N, 19.17799°E",
+    "country": "PL",
+    "icons": ["🇵🇱", "1️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.28527_N_19.17799_E",
+    "name": "Rondo Jana Pawła II",
+    "reference": "Katowice"
   },
   "rondo-lotnikow-lwowskich": {
     "been": false,
     "coords": "51.73149°N, 19.45294°E",
     "country": "PL",
+    "icons": ["🇵🇱", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73149_N_19.45294_E",
-    "name": "Rondo Lotników Lwowskich"
+    "name": "Rondo Lotników Lwowskich",
+    "reference": "Łódź"
+  },
+  "slavija": {
+    "been": true,
+    "country": "RS",
+    "icons": ["🇷🇸", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Slavija_Square",
+    "name": "Slavija",
+    "reference": "Belgrade"
   },
   "slotermeerlaan": {
-    "been": false,
+    "been": true,
     "coords": "52.37574°N, 4.81907°E",
     "country": "NL",
+    "icons": ["🇳🇱", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.37574_N_4.81907_E",
-    "name": "Slotermeerlaan"
+    "name": "Slotermeerlaan",
+    "reference": "Amsterdam"
   },
   "stocznia-szczecinska": {
     "been": false,
@@ -290,36 +492,46 @@
     "been": false,
     "coords": "52.3584°N, 4.8532°E",
     "country": "NL",
+    "icons": ["🇳🇱", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.3584_N_4.8532_E",
-    "name": "Surinameplein"
+    "name": "Surinameplein",
+    "reference": "Amsterdam"
   },
   "trg-zrtava-fasizma": {
     "been": false,
     "coords": "45.81°N, 15.9872°E",
     "country": "HR",
+    "icons": ["🇭🇷", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=45.81_N_15.9872_E",
-    "name": "Trg Žrtava Fašizma"
+    "name": "Trg Žrtava Fašizma",
+    "reference": "Zagreb"
   },
   "tropenmuseum": {
     "been": false,
     "coords": "52.3633°N, 4.9228°E",
     "country": "NL",
+    "icons": ["🇳🇱", "3️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.3633_N_4.9228_E",
-    "name": "Tropenmuseum"
+    "name": "Tropenmuseum",
+    "reference": "Amsterdam"
   },
   "turgenev-square": {
     "been": false,
     "coords": "59.9184°N, 30.289°E",
     "country": "RU",
+    "icons": ["🇷🇺", "2️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=59.9184_N_30.289_E",
-    "name": "Turgenev Square"
+    "name": "Turgenev Square",
+    "reference": "Saint Petersburg"
   },
   "verboekhoven": {
     "been": true,
     "coords": "50.8714°N, 4.3759°E",
     "country": "BE",
+    "icons": ["🇧🇪", "4️⃣"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.8714_N_4.3759_E",
-    "name": "Verboekhoven"
+    "name": "Verboekhoven",
+    "reference": "Brussels"
   },
   "warszawska–duzy-skret": {
     "been": false,
@@ -339,8 +551,26 @@
     "been": false,
     "coords": "52.37574°N, 4.81907°E",
     "country": "NL",
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.37574_N_4.81907_E",
-    "name": "Weteringschans"
+    "icons": ["🇳🇱", "4️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.35930_N_4.89092_E",
+    "name": "Weteringschans",
+    "reference": "Amsterdam"
+  },
+  "wolnosci": {
+    "been": true,
+    "coords": "50.2598°N, 19.0132°E",
+    "country": "PL",
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.2598_N_19.0132_E",
+    "name": "Plac Wolności"
+  },
+  "zagorze-petla": {
+    "been": true,
+    "coords": "50.29433°N, 19.18193°E",
+    "country": "PL",
+    "icons": ["🇵🇱", "2️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.29433_N_19.18193_E",
+    "name": "Zagórze Pętla",
+    "reference": "Katowice"
   },
   "zaspa": {
     "been": false,

@@ -1,13 +1,15 @@
 {
   "": {
-    "been": true,
+    "been": false,
+    "icons": [],
     "name": "",
-    "reference": "The Beatles"
+    "reference": "Hanoi Rocks"
   },
   "14th-street": {
     "been": true,
     "coords": "40.73601491926788, -73.9936399254895",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/14th_Street",
     "name": "14th Street",
     "reference": "Beastie Boys",
@@ -16,6 +18,7 @@
   "38th-parallel": {
     "been": true,
     "country": "KP",
+    "icons": ["🇰🇵"],
     "name": "38th Parallel",
     "reference": "Billy Joel",
     "wikidata": "Q4636038"
@@ -24,6 +27,7 @@
     "been": true,
     "coords": "40.762941, -73.969752",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/59th_Street",
     "name": "59th Street",
     "reference": "Simon & Garfunkel",
@@ -33,6 +37,7 @@
     "been": true,
     "coords": "41.7448, -87.5514",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/83rd_Street",
     "name": "83rd Street",
     "reference": "Odyssey",
@@ -41,6 +46,7 @@
   "abbey-road": {
     "been": true,
     "country": "GB",
+    "icons": ["🇬🇧"],
     "name": "Abbey Road",
     "reference": "The Beatles",
     "wikidata": "Q173643"
@@ -49,6 +55,7 @@
     "been": false,
     "coords": "34°31′N, 69°11′E",
     "country": "AF",
+    "icons": ["🇦🇫"],
     "link": "https://en.wikipedia.org/wiki/Afghanistan",
     "name": "Afghanistan",
     "reference": "Pet Shop Boys"
@@ -56,6 +63,7 @@
   "africa": {
     "been": true,
     "coords": "21.09375, 7.1881",
+    "icons": ["🌍"],
     "link": "https://en.wikipedia.org/wiki/Africa",
     "name": "Africa",
     "reference": "Toto",
@@ -65,6 +73,7 @@
     "been": true,
     "coords": "33.0°N, 87.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Alabama",
     "name": "Alabama",
     "reference": "Nina Simone"
@@ -73,6 +82,7 @@
     "been": false,
     "coords": "64°50′N, 147°43′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Alaska",
     "name": "Alaska",
     "reference": "Johnny Cash"
@@ -81,6 +91,7 @@
     "been": true,
     "coords": "35.08434°N, 106.6504°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Albuquerque",
     "name": "Albuquerque",
     "reference": "Weird Al Yankovic"
@@ -89,6 +100,7 @@
     "been": true,
     "coords": "40.6, -75.483333333333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Allentown",
     "name": "Allentown",
     "reference": "Billy Joel",
@@ -98,6 +110,7 @@
     "been": false,
     "coords": "40.63367°N, 14.60262°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Amalfi",
     "name": "Amalfi",
     "reference": "Hooverphonic"
@@ -106,14 +119,23 @@
     "been": true,
     "coords": "52°22′22″N, 04°53′37″E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Amsterdam",
     "name": "Amsterdam",
     "reference": "Coldplay"
+  },
+  "anaheim": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Anaheim",
+    "reference": "No Doubt"
   },
   "antarctica": {
     "been": false,
     "coords": "68°50′S, 90°35′W",
     "country": "AQ",
+    "icons": ["🇦🇶"],
     "link": "https://en.wikipedia.org/wiki/Antarctica",
     "name": "Antarctica",
     "reference": "Hooverphonic"
@@ -122,6 +144,7 @@
     "been": false,
     "coords": "23°N, 46°E",
     "country": "SA",
+    "icons": ["🇸🇦"],
     "link": "https://en.wikipedia.org/wiki/Arabia",
     "name": "Arabia",
     "reference": "Billy Joel"
@@ -130,6 +153,7 @@
     "been": false,
     "coords": "34°36′S, 58°23′W",
     "country": "AR",
+    "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Argentina",
     "name": "Argentina",
     "reference": "Madonna"
@@ -138,14 +162,23 @@
     "been": true,
     "coords": "35.0°N, 112.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Arizona",
     "name": "Arizona",
     "reference": "Robbie Williams"
+  },
+  "arts-et-metiers": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Arts-et-Métiers",
+    "reference": "Serge Gainsbourg"
   },
   "aruba": {
     "been": false,
     "coords": "12°31′7″N, 70°2′9″W",
     "country": "AW",
+    "icons": ["🇦🇼"],
     "link": "https://en.wikipedia.org/wiki/Aruba",
     "name": "Aruba",
     "reference": "Beach Boys"
@@ -154,6 +187,7 @@
     "been": true,
     "coords": "33°44′56″N, 84°23′24″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Atlanta",
     "name": "Atlanta",
     "reference": "Beyoncé"
@@ -162,6 +196,7 @@
     "been": false,
     "coords": "35°18′29″S, 149°07′28″E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Australia",
     "name": "Australia",
     "reference": "Men at Work"
@@ -170,6 +205,7 @@
     "been": false,
     "coords": "32°32′33″N, 44°25′16″E",
     "country": "IQ",
+    "icons": ["🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Babylon",
     "name": "Babylon",
     "reference": "Robbie Williams"
@@ -178,6 +214,7 @@
     "been": false,
     "coords": "25°04′41″N, 77°20′19″W",
     "country": "BS",
+    "icons": ["🇧🇸"],
     "link": "https://en.wikipedia.org/wiki/Bahamas",
     "name": "Bahamas",
     "reference": "Beach Boys"
@@ -186,6 +223,7 @@
     "been": true,
     "coords": "35.373333333333335, -119.0188888888889",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bakersfield",
     "name": "Bakersfield",
     "reference": "Johnny Cash",
@@ -195,6 +233,7 @@
     "been": true,
     "coords": "39°17′22″N, 76°36′55″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore",
     "name": "Baltimore",
     "reference": "Johnny Cash"
@@ -203,6 +242,7 @@
     "been": true,
     "coords": "13°45′09″N, 100°29′39″E",
     "country": "TH",
+    "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Bangkok",
     "name": "Bangkok",
     "reference": "Beastie Boys"
@@ -211,6 +251,7 @@
     "been": false,
     "coords": "44°39′45.2″N, 63°37′22.1″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Barrington_Street",
     "name": "Barrington Street",
     "reference": "Barenaked Ladies"
@@ -219,6 +260,7 @@
     "been": true,
     "coords": "34.893333333333, -117.01888888889",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Barstow",
     "name": "Barstow",
     "reference": "Sheryl Crow",
@@ -228,6 +270,7 @@
     "been": true,
     "coords": "51.47°N, 0.164°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Battersea",
     "name": "Battersea",
     "reference": "Hooverphonic"
@@ -235,6 +278,7 @@
   "battery": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Battery",
     "reference": "Beastie Boys",
     "wikidata": "Q267298"
@@ -243,6 +287,7 @@
     "been": false,
     "coords": "22°13′N, 81°10′W",
     "country": "CU",
+    "icons": ["🇨🇺"],
     "link": "https://en.wikipedia.org/wiki/Bay_of_Pigs",
     "name": "Bay of Pigs",
     "reference": "Billy Joel"
@@ -251,6 +296,7 @@
     "been": true,
     "coords": "40.687°N, 73.941°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bedford-Stuyvesant",
     "name": "Bedford-Stuyvesant",
     "reference": "Alicia Keys"
@@ -259,6 +305,7 @@
     "been": false,
     "coords": "39°54′24″N, 116°23′51″E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Beijing",
     "name": "Beijing",
     "reference": "Sinead O’Connor"
@@ -267,6 +314,7 @@
     "been": true,
     "coords": "54°35′49″N, 05°55′45″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Belfast",
     "name": "Belfast",
     "reference": "U2"
@@ -275,6 +323,7 @@
     "been": true,
     "coords": "50°51′N, 4°21′E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Belgium",
     "name": "Belgium",
     "reference": "Hooverphonic"
@@ -283,6 +332,7 @@
     "been": true,
     "coords": "52°31′12″N, 13°24′18″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin",
     "name": "Berlin",
     "reference": "U2"
@@ -291,6 +341,7 @@
     "been": false,
     "coords": "32°17′46″N, 64°46′58″W",
     "country": "BM",
+    "icons": ["🇧🇲"],
     "link": "https://en.wikipedia.org/wiki/Bermuda",
     "name": "Bermuda",
     "reference": "Beach Boys"
@@ -298,15 +349,17 @@
   "bethlehem": {
     "been": true,
     "coords": "31°42′16″N, 35°12′23″E",
-    "country": "US",
+    "country": "PS",
+    "icons": ["🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Bethlehem",
     "name": "Bethlehem",
-    "reference": "Billy Joel"
+    "reference": "Paula Cole"
   },
   "birchmount-stadium": {
     "been": false,
     "coords": "43°41′44″N, 79°15′39″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Birchmount_Stadium",
     "name": "Birchmount Stadium",
     "reference": "Barenaked Ladies"
@@ -315,6 +368,7 @@
     "been": false,
     "coords": "52.48, -1.9025",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Birmingham",
     "name": "Birmingham",
     "reference": "Sheryl Crow",
@@ -324,6 +378,7 @@
     "been": false,
     "coords": "53°44′41″N, 2°28′37″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Blackburn",
     "name": "Blackburn",
     "reference": "The Beatles"
@@ -332,6 +387,7 @@
     "been": true,
     "coords": "50°N, 15°E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Bohemia",
     "name": "Bohemia",
     "reference": "Edie Brickell & New Bohemians"
@@ -340,6 +396,7 @@
     "been": false,
     "coords": "19°04′34″N, 72°52′39″E",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Bombay",
     "name": "Bombay",
     "reference": "Beastie Boys"
@@ -348,6 +405,7 @@
     "been": true,
     "coords": "43°52′N, 18°25′E",
     "country": "BA",
+    "icons": ["🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Bosnia",
     "name": "Bosnia",
     "reference": "The Cranberries"
@@ -356,6 +414,7 @@
     "been": true,
     "coords": "42°19′7″N, 70°59′28″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Boston",
     "name": "Boston",
     "reference": "Johnny Cash"
@@ -364,6 +423,7 @@
     "been": false,
     "coords": "29.959°N, 90.0653°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bourbon_Street",
     "name": "Bourbon Street",
     "reference": "Sting"
@@ -372,6 +432,7 @@
     "been": true,
     "coords": "40.719894444444, -73.994127777778",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bowery",
     "name": "Bowery",
     "reference": "Billy Joel",
@@ -381,6 +442,7 @@
     "been": false,
     "coords": "15°47′S, 47°52′W",
     "country": "BR",
+    "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Brazil",
     "name": "Brazil",
     "reference": "Paula Abdul"
@@ -389,6 +451,7 @@
     "been": true,
     "coords": "50°49′15″N, 00°08′15″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Brighton",
     "name": "Brighton",
     "reference": "Fatboy Slim"
@@ -397,6 +460,7 @@
     "been": true,
     "coords": "51°27′27″N, 00°07′03″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Brixton",
     "name": "Brixton",
     "reference": "Pink Floyd"
@@ -405,6 +469,7 @@
     "been": true,
     "coords": "40.770139, -73.982069",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Broadway",
     "name": "Broadway",
     "reference": "Pet Shop Boys",
@@ -414,6 +479,7 @@
     "been": true,
     "coords": "40°50′14″N, 73°53′10″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bronx",
     "name": "Bronx",
     "reference": "Jennifer Lopez"
@@ -422,6 +488,7 @@
     "been": true,
     "coords": "40°41′34″N, 73°59′25″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn",
     "name": "Brooklyn",
     "reference": "Rod Stewart"
@@ -430,6 +497,7 @@
     "been": true,
     "coords": "50°50′48″N, 04°21′09″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels",
     "name": "Brussels",
     "reference": "Men at Work"
@@ -438,6 +506,7 @@
     "been": true,
     "coords": "47°29′33″N, 19°03′05″E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Budapest",
     "name": "Budapest",
     "reference": "Billy Joel"
@@ -446,6 +515,7 @@
     "been": true,
     "coords": "40.697°N, 73.917°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bushwick",
     "name": "Bushwick",
     "reference": "Awkwafina"
@@ -454,6 +524,7 @@
     "been": true,
     "coords": "30°2′40″N, 31°14′9″E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Cairo",
     "name": "Cairo",
     "reference": "Beastie Boys"
@@ -462,6 +533,7 @@
     "been": true,
     "coords": "35.491035°N, 119.347852°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/California",
     "name": "California",
     "reference": "U2"
@@ -470,14 +542,23 @@
     "been": true,
     "coords": "51.4736°N, 0.0912°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Camberwell",
     "name": "Camberwell",
-    "reference": "Basement Jaxx"
+    "reference": "Florence + the Machine"
+  },
+  "cambridge": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Cambridge",
+    "reference": "Pete Townshend"
   },
   "camden": {
     "been": true,
     "coords": "51.54277777777778, -0.15944444444444444",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Camden",
     "name": "Camden",
     "reference": "Morrissey",
@@ -487,6 +568,7 @@
     "been": false,
     "coords": "14°31′32″N, 75°49′06″W",
     "country": "BS",
+    "icons": ["🇧🇸"],
     "link": "https://en.wikipedia.org/wiki/Caribbean",
     "name": "Caribbean",
     "reference": "Pixies"
@@ -495,6 +577,7 @@
     "been": true,
     "coords": "40°46′56″N, 73°57′55″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Central_Park",
     "name": "Central Park",
     "reference": "Sophie B. Hawkins"
@@ -503,6 +586,7 @@
     "been": true,
     "coords": "44.0569°N, 4.8319°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Ch%C3%A2teauneuf-du-Pape",
     "name": "Châteauneuf-du-Pape",
     "reference": "Beastie Boys"
@@ -510,6 +594,7 @@
   "chelsea": {
     "been": true,
     "country": "GB",
+    "icons": ["🇬🇧"],
     "name": "Chelsea",
     "reference": "Rolling Stones",
     "wikidata": "Q9616"
@@ -518,6 +603,7 @@
     "been": false,
     "coords": "51°16′20″N, 30°13′27″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Chernobyl",
     "name": "Chernobyl",
     "reference": "The Cranberries"
@@ -526,6 +612,7 @@
     "been": true,
     "coords": "41°52′55″N, 87°37′40″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago",
     "name": "Chicago",
     "reference": "The Smashing Pumpkins"
@@ -534,6 +621,7 @@
     "been": true,
     "coords": "39°55′N, 116°23′E",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/China",
     "name": "China",
     "reference": "U2"
@@ -541,6 +629,7 @@
   "chinatown": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Chinatown",
     "reference": "Billy Joel",
     "wikidata": "Q202509"
@@ -549,14 +638,23 @@
     "been": false,
     "coords": "39°06′00″N, 84°30′45″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cincinnati",
     "name": "Cincinnati",
     "reference": "Scissor Sisters"
+  },
+  "cleveland": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland",
+    "reference": "Pete Townshend"
   },
   "colorado": {
     "been": true,
     "coords": "38.9972°N, 105.5478°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Colorado",
     "name": "Colorado",
     "reference": "Johnny Cash"
@@ -565,6 +663,7 @@
     "been": true,
     "coords": "40.574°N, 73.978°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Coney_Island",
     "name": "Coney Island",
     "reference": "Death Cab for Cutie"
@@ -573,6 +672,7 @@
     "been": false,
     "coords": "-2.88, 23.656111111111112",
     "country": "CD",
+    "icons": ["🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Congo",
     "name": "Congo",
     "reference": "Billy Joel",
@@ -582,6 +682,7 @@
     "been": false,
     "coords": "34.5028, -90.1958",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Crenshaw",
     "name": "Crenshaw",
     "reference": "Fatboy Slim",
@@ -591,6 +692,7 @@
     "been": false,
     "coords": "45.3°N, 34.4°E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Crimea",
     "name": "Crimea",
     "reference": "Pet Shop Boys"
@@ -599,6 +701,7 @@
     "been": false,
     "coords": "23°8′N, 82°23′W",
     "country": "CU",
+    "icons": ["🇨🇺"],
     "link": "https://en.wikipedia.org/wiki/Cuba",
     "name": "Cuba",
     "reference": "Billy Joel"
@@ -606,6 +709,7 @@
   "cuyahoga": {
     "been": false,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Cuyahoga",
     "reference": "R.E.M.",
     "wikidata": "Q52295805"
@@ -614,6 +718,7 @@
     "been": false,
     "coords": "40.8203, -87.9778",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Danforth",
     "name": "Danforth",
     "reference": "Barenaked Ladies",
@@ -623,6 +728,7 @@
     "been": true,
     "coords": "31°30′N, 35°30′E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Dead_Sea",
     "name": "Dead Sea",
     "reference": "Beastie Boys"
@@ -631,6 +737,7 @@
     "been": true,
     "coords": "40.719166666667, -73.9904",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Delancey_Street",
     "name": "Delancey Street",
     "reference": "Billy Joel",
@@ -640,6 +747,7 @@
     "been": true,
     "coords": "51.1295°N, 1.3089°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Dover",
     "name": "Dover",
     "reference": "Blur"
@@ -648,15 +756,24 @@
     "been": true,
     "coords": "34.057, -118.238",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Downtown",
     "name": "Downtown",
-    "reference": "Rod Stewart",
+    "reference": "Roxette",
     "wikidata": "Q995043"
+  },
+  "dundee": {
+    "been": true,
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "name": "Dundee",
+    "reference": "Placebo"
   },
   "east-end": {
     "been": true,
     "coords": "51°30′51″N, 00°03′18″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/East_End",
     "name": "East End",
     "reference": "Pet Shop Boys"
@@ -665,6 +782,7 @@
     "been": true,
     "coords": "51.55, 0.1",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/East_London",
     "name": "East London",
     "reference": "Alphabeat",
@@ -674,6 +792,7 @@
     "been": true,
     "coords": "40.7275, -73.98583333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_Village",
     "name": "East Village",
     "reference": "Awkwafina",
@@ -683,6 +802,7 @@
     "been": false,
     "coords": "00°13′12″S, 78°30′43″W",
     "country": "EC",
+    "icons": ["🇪🇨"],
     "link": "https://en.wikipedia.org/wiki/Ecuador",
     "name": "Ecuador",
     "reference": "Brian Eno"
@@ -691,6 +811,7 @@
     "been": true,
     "coords": "30°2′N, 31°13′E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Egypt",
     "name": "Egypt",
     "reference": "R.E.M."
@@ -699,6 +820,7 @@
     "been": true,
     "coords": "40.8165, -73.9465",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Eighth_Avenue",
     "name": "Eighth Avenue",
     "reference": "Melissa Etheridge",
@@ -708,6 +830,7 @@
     "been": true,
     "coords": "53.13°N, 1.38°W",
     "countries": ["GB", "GB-ENG"],
+    "icons": ["🇬🇧", "🏴󠁧󠁢󠁥󠁮󠁧󠁿"],
     "link": "https://en.wikipedia.org/wiki/England",
     "name": "England",
     "reference": "Sinead O’Connor"
@@ -716,6 +839,7 @@
     "been": true,
     "coords": "48.690959, 9.14062",
     "country": "EU",
+    "icons": ["🇪🇺"],
     "link": "https://en.wikipedia.org/wiki/Europe",
     "name": "Europe",
     "reference": "Sting",
@@ -725,6 +849,7 @@
     "been": false,
     "coords": "46.877222222222, -96.789444444444",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fargo",
     "name": "Fargo",
     "reference": "Johnny Cash",
@@ -734,6 +859,7 @@
     "been": true,
     "coords": "40.774078, -73.965863",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fifth_Avenue",
     "name": "Fifth Avenue",
     "reference": "Sting",
@@ -743,6 +869,7 @@
     "been": false,
     "coords": "18°10′S, 178°27′E",
     "country": "FJ",
+    "icons": ["🇫🇯"],
     "link": "https://en.wikipedia.org/wiki/Fiji",
     "name": "Fiji",
     "reference": "Live"
@@ -751,6 +878,7 @@
     "been": true,
     "coords": "60°10′15″N, 24°56′15″E",
     "country": "FI",
+    "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Finland",
     "name": "Finland",
     "reference": "Pet Shop Boys"
@@ -759,14 +887,23 @@
     "been": true,
     "coords": "40.653°N, 73.126°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fire_Island",
     "name": "Fire Island",
     "reference": "Village People"
+  },
+  "fleet-street": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Fleet Street",
+    "reference": "Pete Townshend"
   },
   "florida": {
     "been": true,
     "coords": "28.0°N, 82.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Florida",
     "name": "Florida",
     "reference": "Johnny Cash"
@@ -775,6 +912,7 @@
     "been": true,
     "coords": "51.45, 3.5833333333333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Flushing",
     "name": "Flushing",
     "reference": "Awkwafina",
@@ -784,6 +922,7 @@
     "been": true,
     "coords": "48°51′N, 2°21′E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/France",
     "name": "France",
     "reference": "Tori Amos"
@@ -792,13 +931,22 @@
     "been": false,
     "coords": "0°30′S, 90°30′W",
     "country": "EC",
+    "icons": ["🇪🇨"],
     "link": "https://en.wikipedia.org/wiki/Galapagos",
     "name": "Galapagos",
     "reference": "The Smashing Pumpkins"
   },
+  "ganges": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Ganges",
+    "reference": "Live"
+  },
   "gangnam": {
     "been": true,
     "country": "KR",
+    "icons": ["🇰🇷"],
     "name": "Gangnam",
     "reference": "Psy",
     "wikidata": "Q489941"
@@ -807,6 +955,7 @@
     "been": true,
     "coords": "46°12′06″N, 06°08′49″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Geneva",
     "name": "Geneva",
     "reference": "Pet Shop Boys"
@@ -815,6 +964,7 @@
     "been": false,
     "coords": "42.0, 44.0",
     "country": "GE",
+    "icons": ["🇬🇪"],
     "link": "https://en.wikipedia.org/wiki/Georgia",
     "name": "Georgia",
     "reference": "The Beatles",
@@ -824,6 +974,7 @@
     "been": true,
     "coords": "55°51′40″N, 04°15′00″W",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Glasgow",
     "name": "Glasgow",
     "reference": "ABBA"
@@ -832,6 +983,7 @@
     "been": true,
     "coords": "42°36′57″N, 70°39′45″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Gloucester,_MA",
     "name": "Gloucester, MA",
     "reference": "Beastie Boys"
@@ -840,6 +992,7 @@
     "been": true,
     "coords": "51.502°N, 0.227°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Goldhawk_Road",
     "name": "Goldhawk Road",
     "reference": "Pet Shop Boys"
@@ -848,6 +1001,7 @@
     "been": true,
     "coords": "55.73135347, 37.60463662",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Gorky_Park",
     "name": "Gorky Park",
     "reference": "Scorpions",
@@ -857,6 +1011,7 @@
     "been": false,
     "coords": "-16.4, 145.8",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
     "name": "Great Barrier Reef",
     "reference": "Elvis Costello",
@@ -866,6 +1021,7 @@
     "been": true,
     "coords": "37°58′N, 23°43′E",
     "country": "GR",
+    "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Greece",
     "name": "Greece",
     "reference": "Rufus Wainwright"
@@ -874,6 +1030,7 @@
     "been": true,
     "coords": "40°44′01″N, 74°00′10″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Greenwich_Village",
     "name": "Greenwich Village",
     "reference": "Billy Joel"
@@ -882,6 +1039,7 @@
     "been": false,
     "coords": "14°38′N, 90°30′W",
     "country": "GT",
+    "icons": ["🇬🇹"],
     "link": "https://en.wikipedia.org/wiki/Guatemala",
     "name": "Guatemala",
     "reference": "R.E.M."
@@ -890,6 +1048,7 @@
     "been": true,
     "coords": "40.887777777778, -74.048055555556",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hackensack",
     "name": "Hackensack",
     "reference": "Johnny Cash",
@@ -899,6 +1058,7 @@
     "been": true,
     "coords": "40°48′32″N, 73°56′54″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Harlem",
     "name": "Harlem",
     "reference": "U2"
@@ -907,6 +1067,7 @@
     "been": false,
     "coords": "21.5°N, 158.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hawaii",
     "name": "Hawaii",
     "reference": "Duran Duran"
@@ -915,6 +1076,7 @@
     "been": false,
     "coords": "10°46′32″N, 106°42′07″E",
     "country": "VN",
+    "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
     "name": "Ho Chi Minh City",
     "reference": "Billy Joel"
@@ -923,6 +1085,7 @@
     "been": true,
     "coords": "52.250°N, 4.667°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Holland",
     "name": "Holland",
     "reference": "Beastie Boys"
@@ -931,6 +1094,7 @@
     "been": true,
     "coords": "34.098333333333336, -118.32666666666667",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hollywood",
     "name": "Hollywood",
     "reference": "Mötley Crüe",
@@ -940,6 +1104,7 @@
     "been": true,
     "coords": "22.3°N, 114.2°E",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Hong_Kong",
     "name": "Hong Kong",
     "reference": "Siouxie and the Banshees"
@@ -948,6 +1113,7 @@
     "been": false,
     "coords": "29°45′46″N, 95°22′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Houston",
     "name": "Houston",
     "reference": "Whitney Houston"
@@ -956,6 +1122,7 @@
     "been": true,
     "coords": "40°41′48″N, 74°01′42″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hudson_River",
     "name": "Hudson River",
     "reference": "Billy Joel"
@@ -964,6 +1131,7 @@
     "been": true,
     "coords": "45.0°N, 115.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Idaho",
     "name": "Idaho",
     "reference": "Johnny Cash"
@@ -972,6 +1140,7 @@
     "been": true,
     "coords": "28°36′50″N, 77°12′30″E",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/India",
     "name": "India",
     "reference": "Dido"
@@ -980,6 +1149,7 @@
     "been": true,
     "coords": "40.0°N, 86.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Indiana",
     "name": "Indiana",
     "reference": "Tom Petty"
@@ -987,6 +1157,7 @@
   "interstate-405": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "🛣️"],
     "name": "Interstate 405",
     "reference": "Melissa Etheridge",
     "wikidata": "Q934399"
@@ -995,6 +1166,7 @@
     "been": false,
     "coords": "30.941618, -87.884703",
     "country": "US",
+    "icons": ["🇺🇸", "🛣️"],
     "link": "https://en.wikipedia.org/wiki/Interstate_65",
     "name": "Interstate 65",
     "reference": "Guns N’ Roses",
@@ -1004,15 +1176,24 @@
     "been": true,
     "coords": "36.57628, -77.56502",
     "country": "US",
+    "icons": ["🇺🇸", "🛣️"],
     "link": "https://en.wikipedia.org/wiki/Interstate_95",
     "name": "Interstate 95",
     "reference": "Sheryl Crow",
     "wikidata": "Q94967"
   },
+  "invalides": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Invalides",
+    "reference": "Serge Gainsbourg"
+  },
   "iran": {
     "been": false,
     "coords": "32.0, 53.0",
     "country": "IR",
+    "icons": ["🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Iran",
     "name": "Iran",
     "reference": "Billy Joel",
@@ -1022,6 +1203,7 @@
     "been": false,
     "coords": "33°20′N, 44°23′E",
     "country": "IQ",
+    "icons": ["🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Iraq",
     "name": "Iraq",
     "reference": "Barenaked Ladies"
@@ -1030,6 +1212,7 @@
     "been": true,
     "coords": "53°26′58″N, 07°30′11″W",
     "country": "IE",
+    "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Ireland",
     "name": "Ireland",
     "reference": "Tori Amos"
@@ -1038,6 +1221,7 @@
     "been": true,
     "coords": "31°47′N, 35°13′E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Israel",
     "name": "Israel",
     "reference": "Siouxie and the Banshees"
@@ -1046,6 +1230,7 @@
     "been": true,
     "coords": "41°00′49″N, 28°57′18″E",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Istanbul",
     "name": "Istanbul",
     "reference": "They Might Be Giants"
@@ -1054,6 +1239,7 @@
     "been": true,
     "coords": "41°54′N, 12°29′E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Italy",
     "name": "Italy",
     "reference": "Stereolab"
@@ -1062,6 +1248,7 @@
     "been": false,
     "coords": "17°58′17″N, 76°47′35″W",
     "country": "JM",
+    "icons": ["🇯🇲"],
     "link": "https://en.wikipedia.org/wiki/Jamaica",
     "name": "Jamaica",
     "reference": "Beach Boys"
@@ -1069,6 +1256,7 @@
   "jane-street": {
     "been": false,
     "country": "CA",
+    "icons": ["🇨🇦"],
     "name": "Jane Street",
     "reference": "Barenaked Ladies",
     "wikidata": "Q93361407"
@@ -1077,6 +1265,7 @@
     "been": true,
     "coords": "35°41′N, 139°46′E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Japan",
     "name": "Japan",
     "reference": "Tiësto & Dzeko"
@@ -1085,6 +1274,7 @@
     "been": true,
     "coords": "39.7632°N, 74.1064°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jersey_Shore",
     "name": "Jersey Shore",
     "reference": "Billy Joel"
@@ -1093,6 +1283,7 @@
     "been": true,
     "coords": "40°38′23″N, 73°46′44″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/JFK_Airport",
     "name": "JFK Airport",
     "reference": "Pet Shop Boys"
@@ -1101,6 +1292,7 @@
     "been": false,
     "coords": "26°12′16″S, 28°2′44″E",
     "country": "ZA",
+    "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Johannesburg",
     "name": "Johannesburg",
     "reference": "Elvis Costello"
@@ -1109,6 +1301,7 @@
     "been": false,
     "coords": "31.745, -106.485",
     "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Juarez",
     "name": "Juarez",
     "reference": "Tori Amos",
@@ -1118,6 +1311,7 @@
     "been": false,
     "coords": "42°17′24″N, 85°35′09″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kalamazoo",
     "name": "Kalamazoo",
     "reference": "Johnny Cash"
@@ -1126,6 +1320,7 @@
     "been": true,
     "coords": "38.0°N, 98.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kansas",
     "name": "Kansas",
     "reference": "Melissa Etheridge"
@@ -1134,6 +1329,7 @@
     "been": true,
     "coords": "51.5°N, 0.19°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Kensington",
     "name": "Kensington",
     "reference": "Pet Shop Boys"
@@ -1142,14 +1338,16 @@
     "been": false,
     "coords": "25.0865°N, 80.4473°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Key_Largo",
     "name": "Key Largo",
-    "reference": "Beach Boys"
+    "reference": "Sade"
   },
   "khyber": {
     "been": false,
     "coords": "34.343, 72.18",
     "country": "AF",
+    "icons": ["🇦🇫"],
     "link": "https://en.wikipedia.org/wiki/Khyber",
     "name": "Khyber",
     "reference": "Pink Floyd",
@@ -1159,6 +1357,7 @@
     "been": true,
     "coords": "51.5303, -0.1236",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/King%E2%80%99s_Cross",
     "name": "King’s Cross",
     "reference": "Pet Shop Boys",
@@ -1168,6 +1367,7 @@
     "been": false,
     "coords": "57.236, -2.34621",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Kintore",
     "name": "Kintore",
     "reference": "Midnight Oil",
@@ -1177,6 +1377,7 @@
     "been": true,
     "coords": "55°45′6″N, 37°37′4″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kremlin",
     "name": "Kremlin",
     "reference": "The Bangles"
@@ -1185,6 +1386,7 @@
     "been": false,
     "coords": "35°0′42″N, 135°46′6″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kyoto",
     "name": "Kyoto",
     "reference": "Beastie Boys"
@@ -1193,6 +1395,7 @@
     "been": false,
     "coords": "53.8°N, 2.6°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Lancashire",
     "name": "Lancashire",
     "reference": "The Beatles"
@@ -1201,6 +1404,7 @@
     "been": false,
     "coords": "27.506111111111, -99.507222222222",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Laredo",
     "name": "Laredo",
     "reference": "Johnny Cash",
@@ -1210,6 +1414,7 @@
     "been": true,
     "coords": "36°10′30″N, 115°08′11″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Las_Vegas",
     "name": "Las Vegas",
     "reference": "Tori Amos"
@@ -1218,6 +1423,7 @@
     "been": false,
     "coords": "33°54′N, 35°32′E",
     "country": "LB",
+    "icons": ["🇱🇧"],
     "link": "https://en.wikipedia.org/wiki/Lebanon",
     "name": "Lebanon",
     "reference": "U2"
@@ -1226,6 +1432,7 @@
     "been": true,
     "coords": "53°47′51″N, 01°32′37″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Leeds",
     "name": "Leeds",
     "reference": "The Smiths"
@@ -1234,22 +1441,32 @@
     "been": true,
     "coords": "59°56′15″N, 30°18′31″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Leningrad",
     "name": "Leningrad",
-    "reference": "Billy Joel"
+    "reference": "Tears for Fears"
   },
   "lethbridge": {
     "been": false,
     "coords": "49°41′37″N, 112°50′31″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lethbridge",
     "name": "Lethbridge",
     "reference": "Barenaked Ladies"
+  },
+  "levallois": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Levallois",
+    "reference": "Serge Gainsbourg"
   },
   "levittown": {
     "been": false,
     "coords": "40.724444444444, -73.511111111111",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Levittown",
     "name": "Levittown",
     "reference": "Billy Joel",
@@ -1259,6 +1476,7 @@
     "been": false,
     "coords": "41°55′42″N, 87°38′15″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lincoln_Park",
     "name": "Lincoln Park",
     "reference": "Antoine Dodson"
@@ -1267,6 +1485,7 @@
     "been": true,
     "coords": "34.7361°N, 92.3311°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Little_Rock",
     "name": "Little Rock",
     "reference": "Johnny Cash"
@@ -1275,6 +1494,7 @@
     "been": true,
     "coords": "53°24′0″N, 2°59′0″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Liverpool",
     "name": "Liverpool",
     "reference": "The Bangles"
@@ -1283,6 +1503,7 @@
     "been": true,
     "coords": "51°30′26″N, 00°07′39″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London",
     "name": "London",
     "reference": "U2"
@@ -1291,6 +1512,7 @@
     "been": true,
     "coords": "40.749°N, 73.941°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Long_Island_City",
     "name": "Long Island City",
     "reference": "Awkwafina"
@@ -1299,6 +1521,7 @@
     "been": true,
     "coords": "34°03′N, 118°15′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Los_Angeles",
     "name": "Los Angeles",
     "reference": "Sir Mix-a-Lot"
@@ -1307,6 +1530,7 @@
     "been": false,
     "coords": "31.0°N, 92.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Louisiana",
     "name": "Louisiana",
     "reference": "Dave Matthews Band"
@@ -1315,14 +1539,16 @@
     "been": true,
     "coords": "40.715°N, 73.985°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lower_East_Side",
     "name": "Lower East Side",
-    "reference": "Liz Phair"
+    "reference": "Postal Service"
   },
   "madagascar": {
     "been": false,
     "coords": "18°55′S, 47°31′E",
     "country": "MG",
+    "icons": ["🇲🇬"],
     "link": "https://en.wikipedia.org/wiki/Madagascar",
     "name": "Madagascar",
     "reference": "Guns N’ Roses"
@@ -1331,6 +1557,7 @@
     "been": true,
     "coords": "40°45′2″N, 73°59′37″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
     "name": "Madison Square Garden",
     "reference": "Jay-Z"
@@ -1339,6 +1566,7 @@
     "been": true,
     "coords": "48.8058°N, 2.4378°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Maisons-Alfort",
     "name": "Maisons-Alfort",
     "reference": "MC Solaar"
@@ -1347,6 +1575,7 @@
     "been": false,
     "coords": "21°58′59″N, 96°05′04″E",
     "country": "MM",
+    "icons": ["🇲🇲"],
     "link": "https://en.wikipedia.org/wiki/Mandalay",
     "name": "Mandalay",
     "reference": "Robbie Williams"
@@ -1355,6 +1584,7 @@
     "been": true,
     "coords": "40.7127°N, 74.0059°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Manhattan",
     "name": "Manhattan",
     "reference": "Rush"
@@ -1363,6 +1593,7 @@
     "been": true,
     "coords": "40.440669°N, 80.002547°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Market_Square_(Pittsburgh)",
     "name": "Market Square",
     "reference": "Tom Petty"
@@ -1371,6 +1602,7 @@
     "been": false,
     "coords": "24°28′12″N, 39°36′36″E",
     "country": "SA",
+    "icons": ["🇸🇦"],
     "link": "https://en.wikipedia.org/wiki/Medina",
     "name": "Medina",
     "reference": "Tone Lōc"
@@ -1379,6 +1611,7 @@
     "been": true,
     "coords": "35.1175, -89.971111111111",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Memphis",
     "name": "Memphis",
     "reference": "The Prodigy",
@@ -1388,6 +1621,7 @@
     "been": false,
     "coords": "33.7, 43.5",
     "country": "IQ",
+    "icons": ["🇮🇶"],
     "link": "https://en.wikipedia.org/wiki/Mesopotamia",
     "name": "Mesopotamia",
     "reference": "The B-52s",
@@ -1397,6 +1631,7 @@
     "been": true,
     "coords": "19°26′N, 99°8′W",
     "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Mexico",
     "name": "Mexico",
     "reference": "Tori Amos"
@@ -1405,6 +1640,7 @@
     "been": true,
     "coords": "25.78°N, 80.21°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Miami",
     "name": "Miami",
     "reference": "Will Smith"
@@ -1413,6 +1649,7 @@
     "been": true,
     "coords": "41.0, -90.0",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Midwest",
     "name": "Midwest",
     "reference": "Melissa Etheridge",
@@ -1422,6 +1659,7 @@
     "been": false,
     "coords": "45°28′01″N, 09°11′24″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan",
     "name": "Milan",
     "reference": "Right Said Fred"
@@ -1430,14 +1668,16 @@
     "been": false,
     "coords": "33.0°N, 90.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mississippi",
     "name": "Mississippi",
     "reference": "Paul Simon"
   },
   "monaco": {
-    "been": false,
+    "been": true,
     "coords": "43°43′52″N, 07°25′12″E",
     "country": "MC",
+    "icons": ["🇲🇨"],
     "link": "https://en.wikipedia.org/wiki/Monaco",
     "name": "Monaco",
     "reference": "Robbie Williams"
@@ -1446,6 +1686,7 @@
     "been": false,
     "coords": "18°28′N, 77°55′W",
     "country": "JM",
+    "icons": ["🇯🇲"],
     "link": "https://en.wikipedia.org/wiki/Montego_Bay",
     "name": "Montego Bay",
     "reference": "Beach Boys"
@@ -1454,6 +1695,7 @@
     "been": false,
     "coords": "43°06′N, 11°47′E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Montepulciano",
     "name": "Montepulciano",
     "reference": "Hooverphonic"
@@ -1462,6 +1704,7 @@
     "been": false,
     "coords": "34°02′N, 6°51′W",
     "country": "MA",
+    "icons": ["🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Morocco",
     "name": "Morocco",
     "reference": "Blur"
@@ -1470,9 +1713,17 @@
     "been": true,
     "coords": "55°45′21″N, 37°37′2″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow",
     "name": "Moscow",
     "reference": "Scorpions"
+  },
+  "mulholland": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Mulholland",
+    "reference": "Tom Petty"
   },
   "mulholland-drive": {
     "been": true,
@@ -1486,6 +1737,7 @@
     "been": false,
     "coords": "19°04′34″N, 72°52′39″E",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Mumbai",
     "name": "Mumbai",
     "reference": "Men at Work"
@@ -1494,6 +1746,7 @@
     "been": false,
     "coords": "48°08′15″N, 11°34′30″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Munich",
     "name": "Munich",
     "reference": "Morrissey"
@@ -1502,6 +1755,7 @@
     "been": false,
     "coords": "36°09′44″N, 86°46′28″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Nashville",
     "name": "Nashville",
     "reference": "Liz Phair"
@@ -1510,6 +1764,7 @@
     "been": false,
     "coords": "32°42′07″N, 35°18′12″E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Nazereth",
     "name": "Nazereth",
     "reference": "Beastie Boys"
@@ -1517,6 +1772,7 @@
   "new-amsterdam": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "New Amsterdam",
     "reference": "Elvis Costello",
     "wikidata": "Q223308"
@@ -1525,6 +1781,7 @@
     "been": false,
     "coords": "28.613888888888887, 77.2088888888889",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/New_Delhi",
     "name": "New Delhi",
     "reference": "Beastie Boys",
@@ -1534,6 +1791,7 @@
     "been": true,
     "coords": "40.0°N, 74.5°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Jersey",
     "name": "New Jersey",
     "reference": "Bon Jovi"
@@ -1542,6 +1800,7 @@
     "been": false,
     "coords": "29.976111111111113, -90.07833333333333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Orleans",
     "name": "New Orleans",
     "reference": "U2",
@@ -1551,6 +1810,7 @@
     "been": true,
     "coords": "40.7, -74.0",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_York",
     "name": "New York",
     "reference": "U2",
@@ -1560,6 +1820,7 @@
     "been": true,
     "coords": "54.977777777778, -1.6133333333333",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Newcastle",
     "name": "Newcastle",
     "reference": "Beastie Boys",
@@ -1569,6 +1830,7 @@
     "been": true,
     "coords": "43.8334, -79.99966",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Niagara_Escarpment",
     "name": "Niagara Escarpment",
     "reference": "Barenaked Ladies",
@@ -1578,6 +1840,7 @@
     "been": true,
     "coords": "02°16′56″S, 29°19′53″E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Nile",
     "name": "Nile",
     "reference": "Pink Floyd"
@@ -1586,14 +1849,23 @@
     "been": true,
     "coords": "40°N, 127°E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/North_Korea",
     "name": "North Korea",
     "reference": "Team America"
+  },
+  "northern-ireland": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Northern Ireland",
+    "reference": "The Prodigy"
   },
   "norway": {
     "been": true,
     "coords": "59°56′N, 10°41′E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Norway",
     "name": "Norway",
     "reference": "Hooverphonic"
@@ -1602,6 +1874,7 @@
     "been": true,
     "coords": "37°48′16″N, 122°16′15″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oakland",
     "name": "Oakland",
     "reference": "Sir Mix-a-Lot"
@@ -1610,6 +1883,7 @@
     "been": true,
     "coords": "40.0°N, 83.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Ohio",
     "name": "Ohio",
     "reference": "Elvis Costello"
@@ -1618,6 +1892,7 @@
     "been": true,
     "coords": "35.0°N, 98.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oklahoma",
     "name": "Oklahoma",
     "reference": "Johnny Cash"
@@ -1626,14 +1901,23 @@
     "been": true,
     "coords": "41.2634°N, 96.0761°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Omaha",
     "name": "Omaha",
     "reference": "Counting Crows"
+  },
+  "opera": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Opéra",
+    "reference": "Serge Gainsbourg"
   },
   "ottawa": {
     "been": false,
     "coords": "45°25′29″N, 75°41′42″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Ottawa",
     "name": "Ottawa",
     "reference": "Johnny Cash"
@@ -1642,6 +1926,7 @@
     "been": true,
     "coords": "32°00′N, 35°15′E",
     "country": "PS",
+    "icons": ["🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Palestine",
     "name": "Palestine",
     "reference": "Elvis Costello"
@@ -1650,6 +1935,7 @@
     "been": true,
     "coords": "8°58′N, 79°32′W",
     "country": "PA",
+    "icons": ["🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/Panama",
     "name": "Panama",
     "reference": "Van Halen"
@@ -1658,6 +1944,7 @@
     "been": true,
     "coords": "37°57′36″N, 126°39′54″E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Panmunjom",
     "name": "Panmunjom",
     "reference": "Billy Joel"
@@ -1666,6 +1953,7 @@
     "been": true,
     "coords": "48.85666666666667, 2.352222222222222",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Paris",
     "name": "Paris",
     "reference": "New Order",
@@ -1675,6 +1963,7 @@
     "been": false,
     "coords": "32°20′21.7″N, 80°41′23.8″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Parris_Island",
     "name": "Parris Island",
     "reference": "Billy Joel"
@@ -1683,6 +1972,7 @@
     "been": true,
     "coords": "34°09′22″N, 118°7′55″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pasadena",
     "name": "Pasadena",
     "reference": "Scissor Sisters"
@@ -1691,6 +1981,7 @@
     "been": true,
     "coords": "41.0°N, 78.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pennsylvania",
     "name": "Pennsylvania",
     "reference": "Billy Joel"
@@ -1699,6 +1990,7 @@
     "been": false,
     "coords": "30°25′17″N, 87°13′02″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pensacola",
     "name": "Pensacola",
     "reference": "Sheryl Crow"
@@ -1707,6 +1999,7 @@
     "been": true,
     "coords": "39.9528°N, 75.1636°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Philadelphia",
     "name": "Philadelphia",
     "reference": "Live"
@@ -1714,6 +2007,7 @@
   "pico": {
     "been": false,
     "country": "PT",
+    "icons": ["🇵🇹"],
     "name": "Pico",
     "reference": "Michael Penn",
     "wikidata": "Q21188"
@@ -1722,22 +2016,39 @@
     "been": true,
     "coords": "40°26′23″N, 79°58′35″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh",
     "name": "Pittsburgh",
     "reference": "Johnny Cash"
+  },
+  "porte-des-lilas": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Porte des Lilas",
+    "reference": "Serge Gainsbourg"
   },
   "queens": {
     "been": true,
     "coords": "40°45′N, 73°52′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Queens",
     "name": "Queens",
-    "reference": "Beastie Boys"
+    "reference": "Postal Service"
+  },
+  "queensboro-bridge": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Queensboro Bridge",
+    "reference": "LL Cool J"
   },
   "red-hook": {
     "been": true,
     "coords": "42.012777777778, -73.8875",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Red_Hook",
     "name": "Red Hook",
     "reference": "Awkwafina",
@@ -1747,6 +2058,7 @@
     "been": false,
     "coords": "33°51′29″N, 118°22′44″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Redondo_Beach",
     "name": "Redondo Beach",
     "reference": "Morrissey"
@@ -1755,6 +2067,7 @@
     "been": true,
     "coords": "39°49′41″N, 101°0′0″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Reno",
     "name": "Reno",
     "reference": "R.E.M."
@@ -1762,6 +2075,7 @@
   "reseda": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Reseda",
     "reference": "Tom Petty",
     "wikidata": "Q161061"
@@ -1770,6 +2084,7 @@
     "been": true,
     "coords": "37°47′51″N, 107°32′35″W",
     "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Rio_Grande",
     "name": "Rio Grande",
     "reference": "Duran Duran"
@@ -1778,6 +2093,7 @@
     "been": false,
     "coords": "16.127, 98.6898",
     "country": "TH",
+    "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/River_Kwai",
     "name": "River Kwai",
     "reference": "Billy Joel",
@@ -1787,6 +2103,7 @@
     "been": true,
     "coords": "33.98222222222222, -117.3725",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Riverside",
     "name": "Riverside",
     "reference": "Billy Joel",
@@ -1796,6 +2113,7 @@
     "been": true,
     "coords": "39°07′03.9″N, 106°26′43.2″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rocky_Mountains",
     "name": "Rocky Mountains",
     "reference": "Billy Joel"
@@ -1804,6 +2122,7 @@
     "been": true,
     "coords": "41°53′36″N, 12°28′58″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Rome",
     "name": "Rome",
     "reference": "Sheryl Crow"
@@ -1812,6 +2131,7 @@
     "been": false,
     "coords": "33.39416666666666, -104.52277777777778",
     "country": "US",
+    "icons": ["🇺🇸", "👽"],
     "link": "https://en.wikipedia.org/wiki/Roswell",
     "name": "Roswell",
     "reference": "Sheryl Crow",
@@ -1821,6 +2141,7 @@
     "been": true,
     "coords": "55°45′21″N, 37°37′02″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Russia",
     "name": "Russia",
     "reference": "Sting"
@@ -1829,6 +2150,7 @@
     "been": false,
     "coords": "38°34′54″N, 121°29′40″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sacramento",
     "name": "Sacramento",
     "reference": "Beastie Boys"
@@ -1837,6 +2159,7 @@
     "been": false,
     "coords": "10°46′32″N, 106°42′07″E",
     "country": "VN",
+    "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Saigon",
     "name": "Saigon",
     "reference": "Billy Joel"
@@ -1844,6 +2167,7 @@
   "saint-clair-avenue": {
     "been": false,
     "country": "CA",
+    "icons": ["🇨🇦"],
     "name": "Saint Clair Avenue",
     "reference": "Barenaked Ladies",
     "wikidata": "Q128884586"
@@ -1852,6 +2176,7 @@
     "been": true,
     "coords": "51.07°N, 1.79°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Salisbury",
     "name": "Salisbury",
     "reference": "Peter Gabriel"
@@ -1860,6 +2185,7 @@
     "been": true,
     "coords": "37°46′39″N, 122°24′59″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco",
     "name": "San Francisco",
     "reference": "Scissor Sisters"
@@ -1868,6 +2194,7 @@
     "been": false,
     "coords": "13°41′56″N, 89°11′29″W",
     "country": "SV",
+    "icons": ["🇸🇻"],
     "link": "https://en.wikipedia.org/wiki/San_Salvador",
     "name": "San Salvador",
     "reference": "U2"
@@ -1876,6 +2203,7 @@
     "been": true,
     "coords": "35.666666666667, -105.96666666667",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Santa_Fe",
     "name": "Santa Fe",
     "reference": "Johnny Cash",
@@ -1885,6 +2213,7 @@
     "been": true,
     "coords": "34°12′N, 118°15′W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Santa_Monica",
     "name": "Santa Monica",
     "reference": "Sheryl Crow"
@@ -1893,6 +2222,7 @@
     "been": false,
     "coords": "36°24′54″N, 25°25′57″E",
     "country": "GR",
+    "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Santorini",
     "name": "Santorini",
     "reference": "Yanni"
@@ -1901,6 +2231,7 @@
     "been": false,
     "coords": "23°33′S, 46°38′W",
     "country": "BR",
+    "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
     "name": "São Paulo",
     "reference": "Beastie Boys"
@@ -1908,6 +2239,7 @@
   "sao-vicente": {
     "been": true,
     "country": "CV",
+    "icons": ["🇨🇻"],
     "name": "Saõ Vicente",
     "reference": "Césaria Évora"
   },
@@ -1915,6 +2247,7 @@
     "been": true,
     "coords": "43°51′23″N, 18°24′47″E",
     "country": "BA",
+    "icons": ["🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Sarajevo",
     "name": "Sarajevo",
     "reference": "U2"
@@ -1923,6 +2256,7 @@
     "been": false,
     "coords": "54°00′00″N, 106°00′02″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Saskatchewan",
     "name": "Saskatchewan",
     "reference": "The Proclaimers"
@@ -1931,15 +2265,24 @@
     "been": true,
     "coords": "64.779642, 14.760936",
     "country": "SE",
+    "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Scandinavia",
     "name": "Scandinavia",
     "reference": "Beastie Boys",
     "wikidata": "Q21195"
   },
+  "scotland": {
+    "been": true,
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "name": "Scotland",
+    "reference": "The Prodigy"
+  },
   "seventh-avenue": {
     "been": true,
     "coords": "40.7652, -73.9803",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seventh_Avenue",
     "name": "Seventh Avenue",
     "reference": "Pet Shop Boys",
@@ -1949,6 +2292,7 @@
     "been": false,
     "coords": "1°17′N, 103°50′E",
     "country": "SG",
+    "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Singapore",
     "name": "Singapore",
     "reference": "Michael Penn"
@@ -1957,6 +2301,7 @@
     "been": false,
     "coords": "42°29′53″N, 96°23′44″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sioux_City",
     "name": "Sioux City",
     "reference": "Awkwafina"
@@ -1965,6 +2310,7 @@
     "been": true,
     "coords": "40.742777777778, -73.992777777778",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sixth_Avenue",
     "name": "Sixth Avenue",
     "reference": "The Wallflowers",
@@ -1974,6 +2320,7 @@
     "been": true,
     "coords": "35.509166666667, -78.346388888889",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Smithfield",
     "name": "Smithfield",
     "reference": "Sinead O’Connor",
@@ -1983,6 +2330,7 @@
     "been": true,
     "coords": "37°33′N, 126°58′E",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/South_Korea",
     "name": "South Korea",
     "reference": "Cake"
@@ -1990,6 +2338,7 @@
   "south-pacific": {
     "been": true,
     "coords": "0°N, 160°W",
+    "icons": ["🌊"],
     "link": "https://en.wikipedia.org/wiki/South_Pacific",
     "name": "South Pacific",
     "reference": "Billy Joel"
@@ -1998,14 +2347,23 @@
     "been": true,
     "coords": "50°54′09″N, 01°24′15″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Southampton",
     "name": "Southampton",
     "reference": "Pink Floyd"
+  },
+  "southern-hemisphere": {
+    "been": true,
+    "country": "AQ",
+    "icons": ["🇦🇶"],
+    "name": "Southern Hemisphere",
+    "reference": "Paul Simon"
   },
   "spain": {
     "been": true,
     "coords": "40°26′N, 3°42′W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Spain",
     "name": "Spain",
     "reference": "Pink Floyd"
@@ -2013,12 +2371,14 @@
   "spanish-harlem": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Spanish Harlem",
     "reference": "Pet Shop Boys"
   },
   "st-marks-place": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "St. Mark’s Place",
     "reference": "Billy Joel"
   },
@@ -2026,6 +2386,7 @@
     "been": true,
     "coords": "40°34′19″N, 74°8′49″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Staten_Island",
     "name": "Staten Island",
     "reference": "Beastie Boys"
@@ -2034,6 +2395,7 @@
     "been": true,
     "coords": "29°58′N, 32°33′E",
     "country": "EG",
+    "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Suez",
     "name": "Suez",
     "reference": "Billy Joel"
@@ -2042,6 +2404,7 @@
     "been": true,
     "coords": "40.727°N, 74.002°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sullivan_Street",
     "name": "Sullivan Street",
     "reference": "Billy Joel"
@@ -2049,14 +2412,23 @@
   "sunset-boulevard": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Sunset Boulevard",
     "reference": "Billy Joel",
     "wikidata": "Q193570"
+  },
+  "sweden": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "name": "Sweden",
+    "reference": "Stereo Total"
   },
   "switzerland": {
     "been": true,
     "coords": "46°57′N, 7°27′E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Switzerland",
     "name": "Switzerland",
     "reference": "Beastie Boys"
@@ -2065,6 +2437,7 @@
     "been": false,
     "coords": "25°02′15″N, 121°33′45″E",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Taipei",
     "name": "Taipei",
     "reference": "Beastie Boys"
@@ -2073,6 +2446,7 @@
     "been": false,
     "coords": "42°S, 147°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Tasmania",
     "name": "Tasmania",
     "reference": "U2"
@@ -2081,6 +2455,7 @@
     "been": true,
     "coords": "32°5′N, 34°48′E",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Tel_Aviv",
     "name": "Tel Aviv",
     "reference": "Duran Duran"
@@ -2089,6 +2464,7 @@
     "been": true,
     "coords": "36.0°N, 86.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tennessee",
     "name": "Tennessee",
     "reference": "Nina Simone"
@@ -2097,6 +2473,7 @@
     "been": false,
     "coords": "33.4°N, 94.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Texarkana",
     "name": "Texarkana",
     "reference": "R.E.M."
@@ -2105,6 +2482,7 @@
     "been": true,
     "coords": "31.0°N, 99.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Texas",
     "name": "Texas",
     "reference": "Scissor Sisters"
@@ -2113,6 +2491,7 @@
     "been": true,
     "coords": "51°41′40″N, 02°01′47″W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Thames",
     "name": "Thames",
     "reference": "Morrissey"
@@ -2121,6 +2500,7 @@
     "been": false,
     "coords": "39.866666666667, -4.0333333333333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Toledo",
     "name": "Toledo",
     "reference": "Elvis Costello",
@@ -2130,6 +2510,7 @@
     "been": true,
     "coords": "43°44′30″N, 79°22′24″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "reference": "Rush"
@@ -2138,6 +2519,7 @@
     "been": true,
     "coords": "40.718°N, 74.008°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tribeca",
     "name": "Tribeca",
     "reference": "Alicia Keys"
@@ -2146,6 +2528,7 @@
     "been": false,
     "coords": "21.78, -71.8",
     "country": "TC",
+    "icons": ["🇹🇨"],
     "link": "https://en.wikipedia.org/wiki/Turks_and_Caicos",
     "name": "Turks and Caicos",
     "reference": "Jay-Z",
@@ -2154,6 +2537,7 @@
   "tuscon": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Tuscon",
     "reference": "Paul Simon",
     "wikidata": "Q7856635"
@@ -2162,6 +2546,7 @@
     "been": true,
     "coords": "49°N, 32°E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Ukraine",
     "name": "Ukraine",
     "reference": "The Beatles"
@@ -2170,6 +2555,7 @@
     "been": true,
     "coords": "40.0°N, 100.0°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/United_States",
     "name": "United States",
     "reference": "U2"
@@ -2178,14 +2564,16 @@
     "been": true,
     "coords": "-15.460833333333, -55.75",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Uptown",
     "name": "Uptown",
-    "reference": "Bon Jovi",
+    "reference": "Mark Ronson",
     "wikidata": "Q986247"
   },
   "us-101": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸", "🛣️"],
     "name": "US 101",
     "reference": "Tori Amos",
     "wikidata": "Q410892"
@@ -2194,13 +2582,22 @@
     "been": false,
     "coords": "49°15′39″N, 123°06′50″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Vancouver",
     "name": "Vancouver",
     "reference": "Véronique Sanson"
   },
+  "venice": {
+    "been": true,
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Venice",
+    "reference": "Hooverphonic"
+  },
   "ventura-blvd": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Ventura Blvd",
     "reference": "Tom Petty"
   },
@@ -2208,14 +2605,23 @@
     "been": false,
     "coords": "21°2′N, 105°51′E",
     "country": "VN",
+    "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Vietnam",
     "name": "Vietnam",
     "reference": "Robbie Williams"
+  },
+  "wales": {
+    "been": true,
+    "country": "GB-WLS",
+    "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
+    "name": "Wales",
+    "reference": "The Prodigy"
   },
   "washington": {
     "been": true,
     "coords": "38.895, -77.036666666667",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington",
     "name": "Washington",
     "reference": "Postal Service",
@@ -2224,6 +2630,7 @@
   "watergate": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "name": "Watergate",
     "reference": "Robbie Williams",
     "wikidata": "Q42761"
@@ -2232,6 +2639,7 @@
     "been": true,
     "coords": "43.466666666667, -80.516666666667",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Waterloo",
     "name": "Waterloo",
     "reference": "ABBA",
@@ -2241,6 +2649,7 @@
     "been": true,
     "coords": "51.513333333333, -0.12861111111111",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/West_End",
     "name": "West End",
     "reference": "Pet Shop Boys",
@@ -2250,6 +2659,7 @@
     "been": true,
     "coords": "46.1858, -122.916",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Side_Highway",
     "name": "West Side Highway",
     "reference": "Ani DiFranco",
@@ -2259,6 +2669,7 @@
     "been": false,
     "coords": "37.688888888889, -97.336111111111",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wichita",
     "name": "Wichita",
     "reference": "The White Stripes",
@@ -2268,6 +2679,7 @@
     "been": true,
     "coords": "35.028611111111, -110.70083333333",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Winslow",
     "name": "Winslow",
     "reference": "Tori Amos",
@@ -2277,6 +2689,7 @@
     "been": false,
     "coords": "41.701°N, 74.880°W",
     "country": "US",
+    "icons": ["🇺🇸", "🌸"],
     "link": "https://en.wikipedia.org/wiki/Woodstock",
     "name": "Woodstock",
     "reference": "Billy Joel"
@@ -2284,6 +2697,7 @@
   "yuendemu": {
     "been": false,
     "country": "AU",
+    "icons": ["🇦🇺"],
     "name": "Yuendemu",
     "reference": "Midnight Oil"
   },
@@ -2291,6 +2705,7 @@
     "been": false,
     "coords": "05°54′S, 39°18′E",
     "country": "TZ",
+    "icons": ["🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Zanzibar",
     "name": "Zanzibar",
     "reference": "Bruce Springsteen"
@@ -2298,6 +2713,7 @@
   "zoologischer-garten": {
     "been": true,
     "country": "DE",
+    "icons": ["🇩🇪"],
     "name": "Zoologischer Garten",
     "reference": "U2",
     "wikidata": "Q43501"
@@ -2306,6 +2722,7 @@
     "been": false,
     "coords": "21°23′N, 103°1′E",
     "country": "VN",
+    "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7",
     "name": "Điện Biên Phủ",
     "reference": "Billy Joel"

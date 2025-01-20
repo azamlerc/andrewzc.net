@@ -3,6 +3,7 @@
     "been": true,
     "coords": "38°42′31″N, 9°8′49″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Ascensor_da_Bica",
     "name": "Ascensor da Bica"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "38°42′58″N, 9°8′34″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Ascensor_da_Glória",
     "name": "Ascensor da Glória"
   },
@@ -17,6 +19,7 @@
     "been": false,
     "coords": "40.3584°N, 49.8285°E",
     "country": "AZ",
+    "icons": ["🇦🇿"],
     "link": "https://en.wikipedia.org/wiki/Baku_Funicular",
     "name": "Baku Funicular"
   },
@@ -24,6 +27,7 @@
     "been": true,
     "coords": "46.948055555556, 7.4591666666667",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://de.wikipedia.org/wiki/Bärenpark_Bern",
     "name": "BäreBähnli"
   },
@@ -31,20 +35,24 @@
     "been": true,
     "coords": "48.8726, 2.3791",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_funiculaire_de_Belleville",
-    "name": "Belleville"
+    "name": "Belleville",
+    "strike": true
   },
   "bridgnorth-cliff-railway": {
     "been": false,
     "coords": "52.534°N, 2.417°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Bridgnorth_Cliff_Railway",
     "name": "Bridgnorth Cliff Railway"
   },
   "buda-castle": {
-    "been": false,
+    "been": true,
     "coords": "47°29′52″N, 19°2′21″E",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Budapest_Castle_Hill_Funicular",
     "name": "Buda Castle"
   },
@@ -52,6 +60,7 @@
     "been": true,
     "coords": "32.80971, 34.99241",
     "country": "IL",
+    "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Carmelit",
     "name": "Carmelit"
   },
@@ -59,20 +68,25 @@
     "been": true,
     "coords": "40.4292°N, 80.0026°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Castle_Shannon_Incline",
-    "name": "Castle Shannon Incline"
+    "name": "Castle Shannon Incline",
+    "strike": true
   },
   "castle-shannon-incline-no-2": {
     "been": true,
     "coords": "40.423°N, 80.003°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Castle_Shannon_Incline_No._2",
-    "name": "Castle Shannon Incline No. 2"
+    "name": "Castle Shannon Incline No. 2",
+    "strike": true
   },
   "chiaia-funicular": {
     "been": false,
     "coords": "40.8404°N, 14.2332°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Chiaia_Funicular",
     "name": "Chiaia Funicular"
   },
@@ -80,12 +94,14 @@
     "been": false,
     "coords": "36°22′11″N, 6°36′53″E",
     "country": "DZ",
+    "icons": ["🇩🇿"],
     "link": "https://en.wikipedia.org/wiki/Constantine_Cable_Car",
     "name": "Constantine Cable Car"
   },
   "croix-paquet": {
     "been": true,
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_Croix-Paquet",
     "name": "Croix-Paquet",
     "wikidata": "Q28493931"
@@ -94,13 +110,22 @@
     "been": false,
     "coords": "51°03′19″N, 13°48′58″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Funicular_Railway",
     "name": "Dresden Funicular Railway"
+  },
+  "dresden-suspension-railway": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dresden_Suspension_Railway",
+    "name": "Dresden Suspension Railway"
   },
   "duquesne-incline": {
     "been": true,
     "coords": "40°26′21″N, 80°1′5″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Duquesne_Incline",
     "name": "Duquesne Incline"
   },
@@ -108,6 +133,7 @@
     "been": false,
     "coords": "50.717989°N, 1.865364°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/East_Cliff_Railway",
     "name": "East Cliff Railway"
   },
@@ -115,6 +141,7 @@
     "been": false,
     "coords": "50°51′24.55″N, 0°35′43.1″E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/East_Hill_Cliff_Railway",
     "name": "East Hill Cliff Railway"
   },
@@ -122,12 +149,14 @@
     "been": false,
     "coords": "41°8′27.5″N, 8°36′40″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://pt.wikipedia.org/wiki/Elevador_da_Ribeira",
     "name": "Elevador da Ribeira"
   },
   "elevador-do-bom-jesus": {
     "been": false,
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://pt.wikipedia.org/wiki/Elevador_do_Bom_Jesus",
     "name": "Elevador do Bom Jesus"
   },
@@ -135,6 +164,7 @@
     "been": true,
     "coords": "38.718333, -9.14",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Elevador_do_Lavra",
     "name": "Elevador do Lavra"
   },
@@ -142,6 +172,7 @@
     "been": false,
     "coords": "46.3833°N, 6.5833°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_d%27Évian-les-Bains",
     "name": "Évian-les-Bains"
   },
@@ -149,6 +180,7 @@
     "been": true,
     "coords": "43.079499°N, 79.080789°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Falls_Incline_Railway",
     "name": "Falls Incline Railway"
   },
@@ -156,6 +188,7 @@
     "been": false,
     "coords": "42.49645°N, 90.66905°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fenelon_Place_Elevator",
     "name": "Fenelon Place Elevator"
   },
@@ -163,6 +196,7 @@
     "been": false,
     "coords": "50.721083°N, 1.817352°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Fisherman%27s_Walk_Cliff_Railway",
     "name": "Fisherman’s Walk Cliff Railway"
   },
@@ -170,13 +204,22 @@
     "been": false,
     "coords": "34.351692°S, 18.487051°E",
     "country": "ZA",
+    "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Flying_Dutchman_Funicular",
     "name": "Flying Dutchman Funicular"
+  },
+  "fribourg-funicular": {
+    "been": false,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Fribourg_funicular",
+    "name": "Fribourg Funicular"
   },
   "funicolare-centrale": {
     "been": true,
     "coords": "40.8406°N, 14.2414°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Central_Funicular",
     "name": "Funicolare Centrale"
   },
@@ -184,6 +227,7 @@
     "been": true,
     "coords": "40.8459°N, 14.2411°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Montesanto_Funicular",
     "name": "Funicolare di Montesanto"
   },
@@ -191,12 +235,15 @@
     "been": true,
     "coords": "48.8726, 2.3791",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_funiculaire_de_Belleville",
-    "name": "Funiculaire de Belleville"
+    "name": "Funiculaire de Belleville",
+    "strike": true
   },
   "funiculaire-de-fourviere": {
     "been": true,
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_Fourvière",
     "name": "Funiculaire de Fourvière",
     "wikidata": "Q2970872"
@@ -204,14 +251,17 @@
   "funiculaire-de-la-rue-terme": {
     "been": true,
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_la_rue_Terme",
     "name": "Funiculaire de la rue Terme",
+    "strike": true,
     "wikidata": "Q20723318"
   },
   "funiculaire-de-monmartre": {
     "been": true,
     "coords": "48°53′6.5″N, 2°20′33″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_Montmartre",
     "name": "Funiculaire de Monmartre"
   },
@@ -219,6 +269,7 @@
     "been": false,
     "coords": "45.759963, 4.826388",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_Saint-Just",
     "name": "Funiculaire de Saint-Just"
   },
@@ -226,6 +277,7 @@
     "been": false,
     "coords": "45.5711583°N, 2.80920278°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_du_Capucin",
     "name": "Funiculaire du Capucin"
   },
@@ -233,12 +285,14 @@
     "been": false,
     "coords": "46.303, 7.5127",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Funiculaire_Sierre–Montana–Crans",
     "name": "Funiculaire Sierre–Montana–Crans"
   },
   "funicular-da-graca": {
     "been": false,
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://www.urban-transport-magazine.com/en/when-will-it-finally-be-running-the-funicular-da-graca-in-lisbon/",
     "name": "Funicular da Graça"
   },
@@ -246,12 +300,14 @@
     "been": true,
     "coords": "41°35′32.72″N, 1°50′22.05″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Funicular_de_la_Santa_Cova",
     "name": "Funicular de la Santa Cova"
   },
   "funicular-de-monserrate": {
     "been": false,
     "country": "CO",
+    "icons": ["🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Monserrate",
     "name": "Funicular de Monserrate"
   },
@@ -259,6 +315,7 @@
     "been": true,
     "coords": "41.375°N, 2.1686°E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Funicular_de_Montjuic",
     "name": "Funicular de Montjuïc"
   },
@@ -266,6 +323,7 @@
     "been": true,
     "coords": "41°35′19.27″N, 1°50′0.03″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Funicular_de_Sant_Joan",
     "name": "Funicular de Sant Joan"
   },
@@ -273,6 +331,7 @@
     "been": true,
     "coords": "41.4093229°N, 2.1112435°E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Funicular_de_Vallvidrera",
     "name": "Funicular de Vallvidrera"
   },
@@ -280,6 +339,7 @@
     "been": true,
     "coords": "41°24′59.2″N, 2°7′51.9″E",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Funicular_del_Tibidabo",
     "name": "Funicular del Tibidabo"
   },
@@ -287,6 +347,7 @@
     "been": true,
     "coords": "41°8′27.6″N, 8°36′34.2″W",
     "country": "PT",
+    "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Funicular_dos_Guindais",
     "name": "Funicular dos Guindais"
   },
@@ -294,6 +355,7 @@
     "been": false,
     "coords": "46°36′49″N, 08°18′31″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Gelmer_Funicular",
     "name": "Gelmer Funicular"
   },
@@ -301,6 +363,7 @@
     "been": false,
     "coords": "53.3321°N, 3.8544°W",
     "country": "GB-WLS",
+    "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
     "link": "https://en.wikipedia.org/wiki/Great_Orme_Tramway",
     "name": "Great Orme Tramway"
   },
@@ -308,6 +371,7 @@
     "been": false,
     "coords": "49.40725, 8.71498889",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Heidelberger_Bergbahn",
     "name": "Heidelberger Bergbahnen"
   },
@@ -315,6 +379,7 @@
     "been": true,
     "coords": "22°16′19.36″N, 114°9′17.52″E",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Peak_Tram",
     "name": "Hong Kong Peak Tram"
   },
@@ -322,6 +387,7 @@
     "been": true,
     "coords": "43.0888°N, 79.0725°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Hornblower_Niagara_Funicular",
     "name": "Hornblower Niagara Funicular"
   },
@@ -329,6 +395,7 @@
     "been": true,
     "coords": "40.75611111111111, -74.00055555555555",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/34th_Street–Hudson_Yards_station#Incline_elevators",
     "name": "Hudson Yards"
   },
@@ -336,6 +403,7 @@
     "been": false,
     "coords": "47.28301°N, 11.40095°E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Hungerburgbahn",
     "name": "Hungerburgbahn"
   },
@@ -343,6 +411,7 @@
     "been": true,
     "coords": "38.794065°N, 77.075261°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Huntington_station_(Washington_Metro)",
     "name": "Huntington"
   },
@@ -350,6 +419,7 @@
     "been": true,
     "coords": "40°19′32″N, 78°55′43″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Johnstown_Inclined_Plane",
     "name": "Johnstown Inclined Plane"
   },
@@ -357,13 +427,16 @@
     "been": false,
     "coords": "47°13′32.26″N, 12°43′14.67″E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Kaprun_disaster",
-    "name": "Kaprun"
+    "name": "Kaprun",
+    "strike": true
   },
   "katoomba-scenic-railway": {
     "been": false,
     "coords": "33.7285°S, 150.301°E",
     "country": "AU",
+    "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Scenic_World#Railway",
     "name": "Katoomba Scenic Railway"
   },
@@ -371,6 +444,7 @@
     "been": false,
     "coords": "35°3′54.4″N, 135°48′56.2″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Keifuku_Cable_Line",
     "name": "Keifuku Cable Line"
   },
@@ -378,6 +452,7 @@
     "been": false,
     "coords": "54°41′14″N, 25°17′27″E",
     "country": "LT",
+    "icons": ["🇱🇹"],
     "link": "https://en.wikipedia.org/wiki/Gediminas_Hill_Lift",
     "name": "Keltuvas į Gedimino kalną"
   },
@@ -385,18 +460,22 @@
     "been": true,
     "coords": "40.424°N, 79.988°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Knoxville_Incline",
-    "name": "Knoxville Incline"
+    "name": "Knoxville Incline",
+    "strike": true
   },
   "kosi-lift": {
     "been": false,
     "country": "BA",
+    "icons": ["🇧🇦"],
     "name": "Kosi Lift"
   },
   "kurwaldbahn": {
-    "been": false,
+    "been": true,
     "coords": "50.3322°N, 7.7252°E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Kurwaldbahn",
     "name": "Kurwaldbahn"
   },
@@ -404,20 +483,37 @@
     "been": false,
     "coords": "50°27′28″N, 30°31′25″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Kyiv_Funicular",
     "name": "Kyiv Funicular"
+  },
+  "les-avants-sonloup-funicular": {
+    "been": false,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Les_Avants%E2%80%93Sonloup_funicular",
+    "name": "Les Avants-Sonloup Funicular"
   },
   "ljubljana-castle": {
     "been": true,
     "coords": "46°3′0.44″N, 14°30′34.99″E",
     "country": "SI",
+    "icons": ["🇸🇮"],
     "link": "https://en.wikipedia.org/wiki/Ljubljana_Castle_funicular",
     "name": "Ljubljana Castle"
+  },
+  "locarno-madonna-del-sasso": {
+    "been": false,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Locarno%E2%80%93Madonna_del_Sasso_funicular",
+    "name": "Locarno-Madonna del Sasso"
   },
   "lugano-citta–stazione-funicular": {
     "been": false,
     "coords": "46.004906°N, 8.948262°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lugano_Città–Stazione_funicular",
     "name": "Lugano Città–Stazione Funicular"
   },
@@ -425,6 +521,7 @@
     "been": false,
     "coords": "37.9804°N, 23.744°E",
     "country": "GR",
+    "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Lycabettus_Funicular",
     "name": "Lycabettus Funicular"
   },
@@ -432,6 +529,7 @@
     "been": true,
     "coords": "46°56′44″N, 7°26′33″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Marzili_Funicular",
     "name": "Marzilibahn"
   },
@@ -439,6 +537,7 @@
     "been": false,
     "coords": "40.8259°N, 14.2169°E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Mergellina_Funicular",
     "name": "Mergellina Funicular"
   },
@@ -446,6 +545,7 @@
     "been": false,
     "coords": "48°45′46.62″N, 8°15′52.75″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Merkur_Funicular_Railway",
     "name": "Merkurbergbahn"
   },
@@ -453,6 +553,7 @@
     "been": false,
     "coords": "46°3′28″N, 7°54′18″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Metro_Alpin",
     "name": "Metro Alpin"
   },
@@ -460,6 +561,7 @@
     "been": true,
     "coords": "40°25′55″N, 80°0′20″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Monongahela_Incline",
     "name": "Monongahela Incline"
   },
@@ -467,6 +569,7 @@
     "been": false,
     "coords": "46.006214°N, 8.970364°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Monte_Brè_funicular",
     "name": "Monte Brè Funicular"
   },
@@ -474,6 +577,7 @@
     "been": false,
     "coords": "45.983128°N, 8.945961°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Monte_San_Salvatore_funicular",
     "name": "Monte San Salvatore Funicular"
   },
@@ -481,27 +585,33 @@
     "been": false,
     "coords": "43°52′58″N, 10°46′16″E",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://it.wikipedia.org/wiki/Funicolare_di_Montecatini_Terme/",
     "name": "Montecatini Terme"
   },
   "mount-hamilton-railway": {
     "been": true,
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Hamilton_Incline_Railway",
     "name": "Mount Hamilton Railway",
+    "strike": true,
     "wikidata": "Q5645015"
   },
   "mount-oliver-incline": {
     "been": true,
     "coords": "40.4244°N, 79.9864°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Oliver_Incline",
-    "name": "Mount Oliver Incline"
+    "name": "Mount Oliver Incline",
+    "strike": true
   },
   "mount-paektu": {
     "been": false,
     "coords": "41°59′36″N, 128°04′39″E",
     "country": "KP",
+    "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Paektu_Mountain",
     "name": "Mount Paektu"
   },
@@ -509,6 +619,7 @@
     "been": false,
     "coords": "41°41′45″N, 44°47′20″E",
     "country": "GE",
+    "icons": ["🇬🇪"],
     "link": "https://en.wikipedia.org/wiki/Mtatsminda_Pantheon",
     "name": "Mtatsminda Pantheon"
   },
@@ -516,6 +627,7 @@
     "been": true,
     "coords": "46.639356°N, 7.69021°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://de.wikipedia.org/wiki/Niesenbahn",
     "name": "Niesenbahn"
   },
@@ -523,6 +635,7 @@
     "been": false,
     "coords": "46°29′18.2″N, 30°44′31.9″E",
     "country": "UA",
+    "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Odesa_Funicular",
     "name": "Odesa Funicular"
   },
@@ -530,6 +643,7 @@
     "been": false,
     "coords": "46.812545°N, 71.203959°W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Old_Quebec_Funicular",
     "name": "Old Quebec Funicular"
   },
@@ -537,6 +651,7 @@
     "been": false,
     "coords": "22°55′15″S, 43°10′25″W",
     "country": "BR",
+    "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Glória,_Rio_de_Janeiro",
     "name": "Outeiro da Glória"
   },
@@ -544,6 +659,7 @@
     "been": false,
     "coords": "05°24′55.59″N, 100°16′26.13″E",
     "country": "MY",
+    "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Penang_Hill_Railway",
     "name": "Penang Hill Railway"
   },
@@ -551,13 +667,16 @@
     "been": true,
     "coords": "40.4484°N, 79.9849°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Penn_Incline",
-    "name": "Penn Incline"
+    "name": "Penn Incline",
+    "strike": true
   },
   "personenaufzug-bad-schandau": {
     "been": true,
     "coords": "50.9166, 14.1612",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Personenaufzug_Bad_Schandau",
     "name": "Personenaufzug Bad Schandau"
   },
@@ -565,6 +684,7 @@
     "been": true,
     "coords": "50°04′55″N, 14°23′48″E",
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Petř%C3%ADn_funicular",
     "name": "Petřín Funicular"
   },
@@ -572,6 +692,7 @@
     "been": true,
     "coords": "49°37′8.27″N, 6°8′0.58″E",
     "country": "LU",
+    "icons": ["🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Pfaffenthal-Kirchberg_funicular",
     "name": "Pfaffenthal-Kirchberg"
   },
@@ -579,6 +700,7 @@
     "been": true,
     "coords": "50.597786°N, 4.221582°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Plan_incliné_de_Ronquières",
     "name": "Plan Incliné de Ronquières"
   },
@@ -586,13 +708,16 @@
     "been": true,
     "coords": "49.5668, 3.62893",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Poma_2000",
-    "name": "Poma 2000"
+    "name": "Poma 2000",
+    "strike": true
   },
   "reißzug": {
     "been": true,
     "coords": "47.795388°N, 13.050162°E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Reisszug",
     "name": "Reißzug"
   },
@@ -600,12 +725,14 @@
     "been": true,
     "coords": "44.8003°N, 1.6186°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "name": "Rocamadour"
   },
   "saint-hilaire-du-touvet": {
     "been": false,
     "coords": "45°18′11.78″N, 5°53′43.93″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Funiculaire_de_Saint-Hilaire_du_Touvet",
     "name": "Saint-Hilaire du Touvet"
   },
@@ -613,6 +740,7 @@
     "been": true,
     "coords": "37°47′44″N, 122°24′27″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
     "name": "San Francisco Cable Cars"
   },
@@ -620,19 +748,29 @@
     "been": true,
     "coords": "47.0754°N, 15.4356°E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Schlossbergbahn_(Graz)",
     "name": "Schloßbergbahn"
+  },
+  "skansens-bergbana": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Skansens_bergbana",
+    "name": "Skansens Bergbana"
   },
   "spa-funicular": {
     "been": true,
     "coords": "50°29′33″N, 5°51′51″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Spa,_Belgium",
     "name": "Spa Funicular"
   },
   "standseilbahn-eschberg": {
     "been": false,
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Standseilbahn_Eschberg",
     "name": "Standseilbahn Eschberg",
     "wikidata": "Q1723422"
@@ -641,6 +779,7 @@
     "been": false,
     "coords": "48°45′21″N, 9°08′32″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Standseilbahn_Stuttgart",
     "name": "Standseilbahn Stuttgart"
   },
@@ -648,6 +787,7 @@
     "been": false,
     "coords": "49°08.5′N, 20°13.5′E",
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Starý_Smokovec–Hrebienok_funicular",
     "name": "Starý Smokovec"
   },
@@ -655,19 +795,29 @@
     "been": false,
     "coords": "46°59′7.5″N, 8°40′15.2″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Stoosbahn",
     "name": "Stoosbahn"
   },
   "taksim-kabatas": {
     "been": false,
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/F1_Taksim–Kabataş_funicular_line",
     "name": "Taksim-Kabataş"
+  },
+  "tbilisi-funicular": {
+    "been": false,
+    "country": "GE",
+    "icons": ["🇬🇪"],
+    "link": "https://en.wikipedia.org/wiki/Mtatsminda_Pantheon",
+    "name": "Tbilisi Funicular"
   },
   "tunel": {
     "been": false,
     "coords": "41.03361111, 28.9775",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Tünel",
     "name": "Tünel"
   },
@@ -675,6 +825,7 @@
     "been": false,
     "coords": "48°59′52.34″N, 8°28′59.92″E",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Turmbergbahn",
     "name": "Turmbergbahn"
   },
@@ -682,6 +833,7 @@
     "been": false,
     "coords": "41.0618°N, 28.5928°E",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/F3_(Istanbul_Metro)",
     "name": "Vadistanbul-Seyrantepe"
   },
@@ -689,13 +841,16 @@
     "been": false,
     "coords": "40°38′31″N, 4°09′19″W",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Funicular_del_Valle_de_los_Ca%C3%ADdos",
-    "name": "Valle de los Caídos"
+    "name": "Valle de los Caídos",
+    "strike": true
   },
   "vladivostok": {
     "been": false,
     "coords": "43.115, 131.8852777777778",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://ru.wikipedia.org/wiki/Владивостокский_фуникулёр",
     "name": "Vladivostok"
   },
@@ -703,6 +858,7 @@
     "been": false,
     "coords": "41°17′07.25″S, 174°46′04.17″E",
     "country": "NZ",
+    "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Wellington_Cable_Car",
     "name": "Wellington Cable Car"
   },
@@ -710,6 +866,7 @@
     "been": false,
     "coords": "50.715085°N, 1.88135°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/West_Cliff_Railway",
     "name": "West Cliff Railway"
   },
@@ -717,6 +874,7 @@
     "been": false,
     "coords": "50°51′20.43″N, 0°35′16.08″E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/West_Hill_Cliff_Railway",
     "name": "West Hill Cliff Railway"
   },
@@ -724,6 +882,7 @@
     "been": false,
     "coords": "45°48′51″N, 15°58′24″E",
     "country": "HR",
+    "icons": ["🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Zagreb_Funicular",
     "name": "Zagreb Funicular"
   }

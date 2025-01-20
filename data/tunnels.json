@@ -3,6 +3,7 @@
     "been": true,
     "coords": "40°45′36″N, 73°57′18″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/63rd_Street_Tunnel",
     "name": "63rd Street Tunnel"
   },
@@ -10,6 +11,7 @@
     "been": true,
     "coords": "40.4362°N, 79.99118°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Armstrong_Tunnel",
     "name": "Armstrong Tunnel"
   },
@@ -17,12 +19,21 @@
     "been": true,
     "coords": "39.303°N, 76.6352°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_and_Potomac_Tunnel",
     "name": "Baltimore and Potomac Tunnel"
+  },
+  "blix-tunnel": {
+    "been": false,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Follo_Line",
+    "name": "Blix Tunnel"
   },
   "bratislava-tram-tunnel": {
     "been": true,
     "country": "SK",
+    "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bratislava#Second_World_War",
     "name": "Bratislava Tram Tunnel"
   },
@@ -30,6 +41,7 @@
     "been": false,
     "coords": "44°35′23″N, 75°40′55″W",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Brockville_Tunnel",
     "name": "Brockville Tunnel"
   },
@@ -37,13 +49,15 @@
     "been": true,
     "coords": "40.695833°N, 74.013611°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn–Battery_Tunnel",
     "name": "Brooklyn–Battery Tunnel"
   },
   "budai-varalagut": {
-    "been": false,
+    "been": true,
     "coords": "47.4975, 19.0375",
     "country": "HU",
+    "icons": ["🇭🇺"],
     "link": "https://de.wikipedia.org/wiki/Budaer_Burgtunnel",
     "name": "Budai Váralagút"
   },
@@ -51,19 +65,23 @@
     "been": true,
     "coords": "51.0971°N, 1.1558°E",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Channel_Tunnel",
     "name": "Channel Tunnel"
   },
   "choum-tunnel": {
     "been": false,
     "country": "MR",
+    "icons": ["🇲🇷"],
     "link": "https://en.wikipedia.org/wiki/Choum_Tunnel",
-    "name": "Choum Tunnel"
+    "name": "Choum Tunnel",
+    "strike": true
   },
   "cork-run-tunnel": {
     "been": true,
     "coords": "40.44889°N, 80.06232°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cork_Run_Tunnel",
     "name": "Cork Run Tunnel"
   },
@@ -71,6 +89,7 @@
     "been": false,
     "coords": "59.7519°N, 10.2006°E",
     "country": "NO",
+    "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Drammen_Spiral",
     "name": "Drammen Spiral"
   },
@@ -78,6 +97,7 @@
     "been": true,
     "coords": "48.818168°N, 2.156239°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Duplex_A86",
     "name": "Duplex A86"
   },
@@ -85,13 +105,29 @@
     "been": true,
     "coords": "40.7429°N, 73.945°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_River_Tunnels",
     "name": "East River Tunnels"
+  },
+  "eichelberg-tunnel": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Tunnel_Eichelberg",
+    "name": "Eichelberg Tunnel"
+  },
+  "eurasia-tunnel": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Eurasia_Tunnel",
+    "name": "Eurasia Tunnel"
   },
   "eysturoyartunnilin": {
     "been": false,
     "coords": "62.0736°N, 6.7768°W",
     "country": "FO",
+    "icons": ["🇫🇴"],
     "link": "https://en.wikipedia.org/wiki/Eysturoyartunnilin",
     "name": "Eysturoyartunnilin"
   },
@@ -99,6 +135,7 @@
     "been": true,
     "coords": "40.43191°N, 80.0244°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fort_Pitt_Tunnel",
     "name": "Fort Pitt Tunnel"
   },
@@ -106,6 +143,7 @@
     "been": false,
     "coords": "45°08′27″N, 6°41′20″E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Fréjus_Road_Tunnel",
     "name": "Fréjus Road Tunnel"
   },
@@ -113,6 +151,7 @@
     "been": false,
     "coords": "46.83586°N, 8.64647°E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel",
     "name": "Gotthard Base Tunnel"
   },
@@ -120,6 +159,7 @@
     "been": true,
     "coords": "46°40′18″N, 8°35′33″E",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
     "name": "Gotthard Road Tunnel"
   },
@@ -127,6 +167,7 @@
     "been": true,
     "coords": "51.4833°N, 0.0102°W",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Greenwich_foot_tunnel",
     "name": "Greenwich Foot Tunnel"
   },
@@ -134,6 +175,7 @@
     "been": true,
     "coords": "40.7275, -74.021389",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Holland_Tunnel",
     "name": "Holland Tunnel"
   },
@@ -141,6 +183,7 @@
     "been": true,
     "coords": "64°18′35″N, 21°54′14″W",
     "country": "IS",
+    "icons": ["🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Hvalfjörður_Tunnel",
     "name": "Hvalfjarðargöng"
   },
@@ -148,6 +191,7 @@
     "been": true,
     "coords": "51.206°N, 4.371°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://nl.wikipedia.org/wiki/Kennedytunnel",
     "name": "Kennedytunnel"
   },
@@ -155,6 +199,7 @@
     "been": true,
     "coords": "40.429055°N, 79.999419°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Liberty_Tunnel",
     "name": "Liberty Tunnel"
   },
@@ -162,13 +207,22 @@
     "been": true,
     "coords": "40.7625°N, 74.0111°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lincoln_Tunnel",
     "name": "Lincoln Tunnel"
+  },
+  "marmaray-tunnel": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Marmaray_Tunnel",
+    "name": "Marmaray Tunnel"
   },
   "mont-dambin-base-tunnel": {
     "been": false,
     "coords": "45.190748°N, 6.781311°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Mont_d%27Ambin_Base_Tunnel",
     "name": "Mont d’Ambin Base Tunnel"
   },
@@ -176,6 +230,7 @@
     "been": true,
     "coords": "40.38293°N, 80.04322°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mt._Lebanon_Tunnel",
     "name": "Mount Lebanon Transit Tunnel"
   },
@@ -183,6 +238,7 @@
     "been": true,
     "coords": "40.4221°N, 80.0063°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mt._Washington_Transit_Tunnel",
     "name": "Mount Washington Transit Tunnel"
   },
@@ -190,6 +246,7 @@
     "been": true,
     "coords": "40.7585°N, 74.0125°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_River_Tunnels",
     "name": "North River Tunnels"
   },
@@ -197,12 +254,14 @@
     "been": true,
     "coords": "40.4446°N, 80.006°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_Shore_Connector_tunnel",
     "name": "North Shore Connector Tunnel"
   },
   "palm-jumeirah-tunnel": {
     "been": true,
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/List_of_bridges_and_tunnels_in_Dubai",
     "name": "Palm Jumeirah Tunnel",
     "wikidata": "Q6608198"
@@ -211,8 +270,23 @@
     "been": true,
     "coords": "40°44′44″N, 73°57′53″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Queens–Midtown_Tunnel",
     "name": "Queens–Midtown Tunnel"
+  },
+  "romerike-tunnel": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Romerike_Tunnel",
+    "name": "Romerike Tunnel"
+  },
+  "rupeltunnel": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Rupeltunnel",
+    "name": "Rupeltunnel"
   },
   "ryfast-tunnel": {
     "been": false,
@@ -221,10 +295,18 @@
     "link": "https://en.wikipedia.org/wiki/Ryfast",
     "name": "Ryfast Tunnel"
   },
+  "ryfylke-tunnel": {
+    "been": false,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Ryfylke_Tunnel",
+    "name": "Ryfylke Tunnel"
+  },
   "schloßbergstollen": {
     "been": true,
     "coords": "47°4′36″N, 15°26′14″E",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://de.wikipedia.org/wiki/Grazer_Schloßberg",
     "name": "Schloßbergstollen"
   },
@@ -232,6 +314,7 @@
     "been": true,
     "coords": "41.3157°N, 140.3351°E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Seikan_Tunnel",
     "name": "Seikan Tunnel"
   },
@@ -239,6 +322,7 @@
     "been": false,
     "coords": "56°14′26″N, 113°26′30″E",
     "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Severomuysky_Tunnel",
     "name": "Severomuysky Tunnel"
   },
@@ -246,6 +330,7 @@
     "been": true,
     "coords": "51°13′11″N, 4°23′30″E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://nl.wikipedia.org/wiki/Sint-Annatunnel",
     "name": "Sint Annatunnel"
   },
@@ -253,6 +338,7 @@
     "been": false,
     "coords": "35°27′47″N, 139°52′31″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tokyo_Bay_Aqua-Line",
     "name": "Tokyo Bay Aqua-Line"
   },
@@ -260,6 +346,7 @@
     "been": true,
     "coords": "37°48′32″N, 122°18′58″W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Transbay_Tube",
     "name": "Transbay Tube"
   },
@@ -267,25 +354,43 @@
     "been": true,
     "coords": "50.862371°N, 4.3333282°E",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Tunnel_Annie_Cordy",
     "name": "Tunnel Annie Cordy"
+  },
+  "tunnel-de-bouillon": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.m.wikipedia.org/wiki/Sedan–Corbion–Bouillon–Paliseul_railway",
+    "name": "Tunnel de Bouillon"
   },
   "tunnel-jagdeberg": {
     "been": true,
     "country": "DE",
+    "icons": ["🇩🇪"],
     "name": "Tunnel Jagdeberg"
   },
   "tunnels-de-la-croix-rousse": {
     "been": true,
     "coords": "45.773889°N, 4.820278°E",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tunnels_de_la_Croix-Rousse",
     "name": "Tunnels de la Croix Rousse"
+  },
+  "twin-peaks-tunnel": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Twin_Peaks_Tunnel",
+    "name": "Twin Peaks Tunnel"
   },
   "wabash-tunnel": {
     "been": true,
     "coords": "40.4266°N, 80.0172°W",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wabash_Tunnel",
     "name": "Wabash Tunnel"
   },
@@ -293,12 +398,14 @@
     "been": true,
     "coords": "51.3691°N, 3.7989°E",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
     "name": "Westerscheldetunnel"
   },
   "zizkovsky-tunel": {
     "been": true,
     "country": "CZ",
+    "icons": ["🇨🇿"],
     "link": "https://cs.wikipedia.org/wiki/Žižkovský_tunel_(pěš%C3%AD)",
     "name": "Žižkovský Tunel"
   }
