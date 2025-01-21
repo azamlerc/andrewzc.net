@@ -1,781 +1,3188 @@
 {
+  "4th-street": {
+    "been": false,
+    "coords": "37.869346, -122.300122",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/4thstreet/",
+    "name": "4th Street"
+  },
+  "abq-uptown": {
+    "been": false,
+    "coords": "35.10299, -106.56682",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/abquptown/",
+    "name": "ABQ Uptown"
+  },
   "aix-en-provence": {
     "been": false,
-    "coords": "43.526304°N, 5.445429°E",
+    "coords": "43.525496, 5.445182",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/aix-en-provence/",
     "name": "Aix-en-Provence"
   },
+  "akasya": {
+    "been": false,
+    "coords": "41.001, 29.05479",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://www.apple.com/tr/retail/akasya/",
+    "name": "Akasya"
+  },
   "al-maryah-island": {
     "been": false,
-    "coords": "24.501934, 54.389877",
+    "coords": "24.501327, 54.388378",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://www.apple.com/ae/retail/almaryahisland/",
     "name": "Al Maryah Island",
     "wikidata": "Q1906420"
   },
+  "ala-moana": {
+    "been": false,
+    "coords": "21.29023622211, -157.842305770593",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/alamoana/",
+    "name": "Ala Moana"
+  },
+  "alderwood": {
+    "been": false,
+    "coords": "47.830595, -122.27195",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/alderwood/",
+    "name": "Alderwood"
+  },
+  "alstertal": {
+    "been": false,
+    "coords": "53.65432, 10.09203",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/alstertal/",
+    "name": "Alstertal"
+  },
+  "altamonte": {
+    "been": false,
+    "coords": "28.66665, -81.37696",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/altamonte/",
+    "name": "Altamonte"
+  },
+  "altmarkt-galerie": {
+    "been": false,
+    "coords": "51.04997, 13.73573",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/altmarkt-galerie/",
+    "name": "Altmarkt-Galerie"
+  },
   "american-dream": {
     "been": true,
+    "coords": "40.80916, -74.06739",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/americandream/",
     "name": "American Dream",
     "wikidata": "Q214100"
   },
+  "americana-at-brand": {
+    "been": false,
+    "coords": "34.14443, -118.25698",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/theamericanaatbrand/",
+    "name": "The Americana at Brand"
+  },
   "amsterdam": {
     "been": true,
-    "coords": "52°22′22″N, 04°53′37″E",
+    "coords": "52.36331, 4.8824",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://www.apple.com/nl/retail/amsterdam/",
     "name": "Amsterdam"
   },
+  "anchorage-5th-avenue-mall": {
+    "been": false,
+    "coords": "61.216734, -149.888387",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/anchorage5thavenuemall/",
+    "name": "Anchorage 5th Avenue Mall"
+  },
+  "annapolis": {
+    "been": false,
+    "coords": "38.990536, -76.54414",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/annapolis/",
+    "name": "Annapolis"
+  },
   "antara": {
     "been": false,
-    "country": "TR",
+    "coords": "19.439993, -99.203144",
+    "country": "MX",
+    "icons": ["🇲🇽"],
     "link": "https://www.apple.com/mx/retail/antara/",
     "name": "Antara",
     "wikidata": "Q905244"
   },
+  "apm-hong-kong": {
+    "been": false,
+    "coords": "22.31198, 114.224912",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://www.apple.com/hk/en/retail/apmhongkong/",
+    "name": "apm Hong Kong"
+  },
   "apple-park": {
     "been": true,
-    "coords": "37.3349°N, 122.009°W",
+    "coords": "37.33289, -122.0052",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/appleparkvisitorcenter/",
     "name": "Apple Park"
   },
+  "arden-fair": {
+    "been": false,
+    "coords": "38.601039, -121.426442",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/ardenfair/",
+    "name": "Arden Fair"
+  },
+  "arrowhead": {
+    "been": false,
+    "coords": "33.6422, -112.2256",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/arrowhead/",
+    "name": "Arrowhead"
+  },
+  "aspen-grove": {
+    "been": false,
+    "coords": "39.585168, -105.026",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/aspengrove/",
+    "name": "Aspen Grove"
+  },
+  "atlantis": {
+    "been": false,
+    "coords": "47.225393, -1.630539",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/atlantis/",
+    "name": "Atlantis"
+  },
+  "augusta": {
+    "been": false,
+    "coords": "33.46575, -82.08065",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/augusta/",
+    "name": "Augusta"
+  },
+  "avalon": {
+    "been": false,
+    "coords": "34.07062236953, -84.274814128876",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/avalon/",
+    "name": "Avalon"
+  },
   "aventura": {
     "been": true,
-    "coords": "25.964444444444, -80.135833333333",
+    "coords": "25.95825, -80.141707",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/aventura/",
     "name": "Aventura",
     "wikidata": "Q790541"
   },
   "bagdat-caddesi": {
     "been": false,
-    "coords": "40.96215°N, 29.07701°E",
+    "coords": "40.9647222, 29.071944444444",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://www.apple.com/tr/retail/bagdatcaddesi/",
     "name": "Bağdat Caddesi"
   },
+  "barton-creek": {
+    "been": false,
+    "coords": "30.25806, -97.80722",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/bartoncreek/",
+    "name": "Barton Creek"
+  },
   "battersea": {
     "been": true,
-    "coords": "51.47°N, 0.164°W",
+    "coords": "51.481717, -0.144469",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/battersea/",
     "name": "Battersea"
   },
+  "bay-street": {
+    "been": false,
+    "coords": "37.83475, -122.29224",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/baystreet/",
+    "name": "Bay Street"
+  },
+  "baybrook": {
+    "been": false,
+    "coords": "29.541573684481, -95.148189894099",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/baybrook/",
+    "name": "Baybrook"
+  },
+  "bayshore": {
+    "been": false,
+    "coords": "43.121566, -87.915186",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/bayshore/",
+    "name": "Bayshore"
+  },
+  "bayshore-shopping-centre": {
+    "been": false,
+    "coords": "45.34706, -75.80758",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/bayshoreshoppingcentre/",
+    "name": "Bayshore Shopping Centre"
+  },
+  "belfast": {
+    "been": false,
+    "coords": "54.59907, -5.92852",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/belfast/",
+    "name": "Belfast"
+  },
+  "bellevue-square": {
+    "been": false,
+    "coords": "47.616327, -122.2042",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/bellevuesquare/",
+    "name": "Bellevue Square"
+  },
+  "bentall-centre": {
+    "been": false,
+    "coords": "51.41154, -0.30475",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/bentallcentre/",
+    "name": "Bentall Centre"
+  },
   "bethesda-row": {
     "been": true,
+    "coords": "38.980647104108, -77.09770810408",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/bethesdarow/",
     "name": "Bethesda Row"
   },
+  "beverly-center": {
+    "been": false,
+    "coords": "34.0749, -118.3773",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/beverlycenter/",
+    "name": "Beverly Center"
+  },
   "birkdale-village": {
     "been": false,
-    "coords": "35.4466°N, 80.8799°W",
+    "coords": "35.44477, -80.8786",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/birkdalevillage/",
     "name": "Birkdale Village"
   },
   "birmingham": {
     "been": false,
-    "coords": "52.48, -1.9025",
+    "coords": "52.479041, -1.898282",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/birmingham/",
     "name": "Birmingham",
     "wikidata": "Q2256"
   },
   "bkc": {
     "been": false,
+    "coords": "19.053209, 72.849516",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://www.apple.com/in/retail/bkc/",
     "name": "BKC",
     "wikidata": "Q34905"
   },
   "bluewater": {
     "been": true,
-    "coords": "34.1669, -114.272",
+    "coords": "51.43913, 0.26941",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/bluewater/",
     "name": "Bluewater",
     "wikidata": "Q886100"
   },
+  "boca-raton": {
+    "been": false,
+    "coords": "26.36569, -80.13323",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/bocaraton/",
+    "name": "Boca Raton"
+  },
+  "boise-towne-square": {
+    "been": false,
+    "coords": "43.60841, -116.2782",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/boisetownesquare/",
+    "name": "Boise Towne Square"
+  },
+  "bondi": {
+    "been": false,
+    "coords": "-33.89228, 151.2503",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/bondi/",
+    "name": "Bondi"
+  },
+  "booragoon": {
+    "been": false,
+    "coords": "-32.03422, 115.83735",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/booragoon/",
+    "name": "Booragoon"
+  },
+  "boylston-street": {
+    "been": false,
+    "coords": "42.348986511488, -71.082484013793",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/boylstonstreet/",
+    "name": "Boylston Street"
+  },
+  "braehead": {
+    "been": false,
+    "coords": "55.876122, -4.364658",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/braehead/",
+    "name": "Braehead"
+  },
+  "brandon": {
+    "been": false,
+    "coords": "27.9328, -82.3264",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/brandon/",
+    "name": "Brandon"
+  },
+  "brea-mall": {
+    "been": false,
+    "coords": "33.915871, -117.886592",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/breamall/",
+    "name": "Brea Mall"
+  },
+  "brent-cross": {
+    "been": false,
+    "coords": "51.576232751094, -0.2249193191528",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/brentcross/",
+    "name": "Brent Cross"
+  },
+  "briarwood": {
+    "been": false,
+    "coords": "42.240454559898, -83.746988527251",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/briarwood/",
+    "name": "Briarwood"
+  },
   "brickell-city-centre": {
     "been": true,
-    "coords": "25.767159°N, 80.193087°W",
+    "coords": "25.7667, -80.1935",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/brickellcitycentre/",
     "name": "Brickell City Centre"
   },
+  "bridge-street": {
+    "been": false,
+    "coords": "34.71577, -86.67308",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/bridgestreet/",
+    "name": "Bridge Street"
+  },
   "bridgeport-village": {
     "been": false,
-    "coords": "45.396°N, 122.752°W",
+    "coords": "45.3966862, -122.7512255",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/bridgeportvillage/",
     "name": "Bridgeport Village"
   },
   "bridgewater": {
     "been": true,
-    "coords": "41.990277777778, -70.975555555556",
+    "coords": "40.58638, -74.61979",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/bridgewater/",
     "name": "Bridgewater",
     "wikidata": "Q2086280"
   },
+  "brisbane": {
+    "been": false,
+    "coords": "-27.46835, 153.027261",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/brisbane/",
+    "name": "Brisbane"
+  },
+  "bristol": {
+    "been": false,
+    "coords": "51.45685, -2.58732",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/bristol/",
+    "name": "Bristol"
+  },
+  "broadway": {
+    "been": false,
+    "coords": "-33.88367, 151.19421",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/broadway/",
+    "name": "Broadway"
+  },
   "broadway-plaza": {
     "been": true,
-    "coords": "44.0228, -92.4625",
+    "coords": "37.896525, -122.059297",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/broadwayplaza/",
     "name": "Broadway Plaza",
     "wikidata": "Q4972498"
   },
+  "bromley": {
+    "been": false,
+    "coords": "51.40263, 0.01568",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/bromley/",
+    "name": "Bromley"
+  },
   "brompton-road": {
     "been": true,
-    "coords": "51.4989°N, 0.165°W",
+    "coords": "51.50129, -0.16096",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/bromptonroad/",
     "name": "Brompton Road"
   },
   "brussels": {
     "been": true,
-    "coords": "50°50′48″N, 04°21′09″E",
+    "coords": "50.83666, 4.3582",
     "country": "BE",
+    "icons": ["🇧🇪"],
     "link": "https://www.apple.com/befr/retail/brussels/",
     "name": "Brussels"
   },
+  "burlingame": {
+    "been": false,
+    "coords": "37.57827, -122.34708",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/burlingame/",
+    "name": "Burlingame"
+  },
+  "burlington": {
+    "been": false,
+    "coords": "42.48275, -71.21398",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/burlington/",
+    "name": "Burlington"
+  },
+  "cambridgeside": {
+    "been": false,
+    "coords": "42.367932, -71.075913",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/cambridgeside/",
+    "name": "CambridgeSide"
+  },
+  "campania": {
+    "been": false,
+    "coords": "41.00357, 14.32853",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/campania/",
+    "name": "Campania"
+  },
+  "canberra": {
+    "been": false,
+    "coords": "-35.28026, 149.13371",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/canberra/",
+    "name": "Canberra"
+  },
   "canton-road": {
     "been": false,
-    "coords": "22.31759°N, 114.16749°E",
+    "coords": "22.299287, 114.168796",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://www.apple.com/hk/en/retail/cantonroad/",
     "name": "Canton Road"
   },
+  "cap-3000": {
+    "been": false,
+    "coords": "43.65882, 7.19705",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/cap3000/",
+    "name": "CAP 3000"
+  },
+  "cardiff": {
+    "been": false,
+    "coords": "51.47896, -3.17517",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/cardiff/",
+    "name": "Cardiff"
+  },
+  "carindale": {
+    "been": false,
+    "coords": "-27.50227, 153.10189",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/carindale/",
+    "name": "Carindale"
+  },
+  "carlsbad": {
+    "been": false,
+    "coords": "33.071256341208, -117.265198794902",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/carlsbad/",
+    "name": "Carlsbad"
+  },
   "carnegie-library": {
     "been": true,
+    "coords": "38.902601, -77.022989",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/carnegielibrary/",
     "name": "Carnegie Library",
     "wikidata": "Q1043939"
   },
+  "carosello": {
+    "been": false,
+    "coords": "45.5455, 9.32783",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/carosello/",
+    "name": "Carosello"
+  },
   "carre-senart": {
     "been": true,
+    "coords": "48.61461, 2.54731",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/carresenart/",
     "name": "Carré Sénart"
   },
+  "carrefour-laval": {
+    "been": false,
+    "coords": "45.571402, -73.75204",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/carrefourlaval/",
+    "name": "Carrefour Laval"
+  },
+  "castle-towers": {
+    "been": false,
+    "coords": "-33.730556, 151.006111",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/castletowers/",
+    "name": "Castle Towers"
+  },
   "causeway-bay": {
     "been": false,
-    "coords": "22.28066°N, 114.18096°E",
+    "coords": "22.279526, 114.183666",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://www.apple.com/hk/en/retail/causewaybay/",
     "name": "Causeway Bay"
   },
+  "center-66-wuxi": {
+    "been": false,
+    "coords": "31.5762823537313, 120.293222665787",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/center66wuxi/",
+    "name": "Center 66 Wuxi"
+  },
   "central-world": {
     "been": false,
-    "coords": "13.746944, 100.539722",
+    "coords": "13.744892, 100.539972",
     "country": "TH",
+    "icons": ["🇹🇭"],
     "link": "https://www.apple.com/th/retail/centralworld/",
     "name": "Central World",
     "wikidata": "Q3270302"
   },
+  "centro": {
+    "been": false,
+    "coords": "51.489596, 6.876976",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/centro/",
+    "name": "CentrO"
+  },
+  "centro-sicilia": {
+    "been": false,
+    "coords": "37.47774, 15.00844",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/centrosicilia/",
+    "name": "Centro Sicilia"
+  },
+  "century-city": {
+    "been": false,
+    "coords": "34.05855, -118.418116",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/centurycity/",
+    "name": "Century City"
+  },
+  "chadstone": {
+    "been": false,
+    "coords": "-37.885829, 145.082502",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/chadstone/",
+    "name": "Chadstone"
+  },
   "champs-elysees": {
     "been": true,
-    "coords": "48.8698°N, 2.3076°E",
+    "coords": "48.872216692829, 2.301233410835",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/champs-elysees/",
     "name": "Champs-Élysées"
   },
+  "chandler-fashion-center": {
+    "been": false,
+    "coords": "33.302255, -111.89969",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/chandlerfashioncenter/",
+    "name": "Chandler Fashion Center"
+  },
   "changsha": {
     "been": false,
-    "coords": "28.228°N, 112.939°E",
+    "coords": "28.1958510452249, 112.971231937408",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/changsha/",
     "name": "Changsha"
   },
+  "chaoyang-joy-city": {
+    "been": false,
+    "coords": "39.9235482581958, 116.51241838932",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/chaoyangjoycity/",
+    "name": "Chaoyang Joy City"
+  },
+  "charleston": {
+    "been": false,
+    "coords": "32.783361441121, -79.934934815863",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/charleston/",
+    "name": "Charleston"
+  },
+  "charlestown": {
+    "been": false,
+    "coords": "-32.96363, 151.69406",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/charlestown/",
+    "name": "Charlestown"
+  },
+  "chatswood-chase": {
+    "been": false,
+    "coords": "-33.795191, 151.186252",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/chatswoodchase/",
+    "name": "Chatswood Chase"
+  },
+  "chermside": {
+    "been": false,
+    "coords": "-27.3811, 153.032944",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/chermside/",
+    "name": "Chermside"
+  },
+  "cherry-creek": {
+    "been": false,
+    "coords": "39.717437, -104.95492",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/cherrycreek/",
+    "name": "Cherry Creek"
+  },
   "cherry-hill": {
     "been": true,
-    "coords": "39.93484, -75.03073",
+    "coords": "39.941067, -75.023797",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/cherryhill/",
     "name": "Cherry Hill",
     "wikidata": "Q2710598"
   },
+  "chestnut-hill": {
+    "been": false,
+    "coords": "42.321205, -71.17616",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/chestnuthill/",
+    "name": "Chestnut Hill"
+  },
+  "chestnut-street": {
+    "been": false,
+    "coords": "37.800415, -122.438363",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/chestnutstreet/",
+    "name": "Chestnut Street"
+  },
   "china-central-mall": {
     "been": false,
+    "coords": "39.9081314399235, 116.47340297699",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/chinacentralmall/",
     "name": "China Central Mall"
   },
+  "chinook-centre": {
+    "been": false,
+    "coords": "50.999372, -114.072981",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/chinookcentre/",
+    "name": "Chinook Centre"
+  },
   "christiana-mall": {
     "been": true,
-    "coords": "39°40′43″N, 75°39′10″W",
+    "coords": "39.679231, -75.653211",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/christianamall/",
     "name": "Christiana Mall"
   },
+  "churchill-square": {
+    "been": false,
+    "coords": "50.822306, -0.145871",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/churchillsquare/",
+    "name": "Churchill Square"
+  },
+  "cielo-vista-mall": {
+    "been": false,
+    "coords": "31.77508, -106.3794",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/cielovistamall/",
+    "name": "Cielo Vista Mall"
+  },
+  "city-creek-center": {
+    "been": false,
+    "coords": "40.768413, -111.892042",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/citycreekcenter/",
+    "name": "City Creek Center"
+  },
+  "city-galerie": {
+    "been": false,
+    "coords": "48.36541, 10.90726",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/city-galerie/",
+    "name": "City-Galerie"
+  },
   "clarendon": {
     "been": true,
-    "coords": "17.733, -77.15",
+    "coords": "38.887929036182, -77.091042977517",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/clarendon/",
     "name": "Clarendon",
     "wikidata": "Q1095557"
   },
+  "coconut-point": {
+    "been": false,
+    "coords": "26.402100590821, -81.806635698069",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/coconutpoint/",
+    "name": "Coconut Point"
+  },
+  "columbia": {
+    "been": false,
+    "coords": "39.216, -76.85995",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/columbia/",
+    "name": "Columbia"
+  },
+  "conestoga": {
+    "been": false,
+    "coords": "43.49773, -80.5273",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/conestoga/",
+    "name": "Conestoga"
+  },
   "confluence": {
     "been": true,
-    "coords": "0.0, 0.0",
+    "coords": "45.74128, 4.81666",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/confluence/",
     "name": "Confluence",
     "wikidata": "Q1233637"
   },
+  "coolsprings-galleria": {
+    "been": false,
+    "coords": "35.95814, -86.81336",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/coolspringsgalleria/",
+    "name": "CoolSprings Galleria"
+  },
+  "coquitlam-centre": {
+    "been": false,
+    "coords": "49.279558, -122.798712",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/coquitlamcentre/",
+    "name": "Coquitlam Centre"
+  },
+  "corte-madera": {
+    "been": false,
+    "coords": "37.928465, -122.514284",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/cortemadera/",
+    "name": "Corte Madera"
+  },
   "cotai-strip": {
     "been": false,
-    "coords": "22°8′26″N, 113°33′47″E",
+    "coords": "22.147525, 113.564607",
     "country": "MO",
+    "icons": ["🇲🇴"],
     "link": "https://www.apple.com/mo-en/retail/cotaistrip/",
     "name": "Cotai Strip"
   },
+  "country-club-plaza": {
+    "been": false,
+    "coords": "39.0413, -94.590172",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/countryclubplaza/",
+    "name": "Country Club Plaza"
+  },
   "covent-garden": {
     "been": true,
-    "coords": "51.5125°N, 0.1225°W",
+    "coords": "51.51217, -0.12352",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/coventgarden/",
     "name": "Covent Garden"
   },
+  "crabtree-valley-mall": {
+    "been": false,
+    "coords": "35.840118, -78.679187",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/crabtreevalleymall/",
+    "name": "Crabtree Valley Mall"
+  },
+  "cribbs-causeway": {
+    "been": false,
+    "coords": "51.52542, -2.59556",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/cribbscauseway/",
+    "name": "Cribbs Causeway"
+  },
+  "crocker-park": {
+    "been": false,
+    "coords": "41.45909, -81.95301",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/crockerpark/",
+    "name": "Crocker Park"
+  },
+  "crossgates": {
+    "been": false,
+    "coords": "42.68902, -73.849222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/crossgates/",
+    "name": "Crossgates"
+  },
+  "cumberland-mall": {
+    "been": false,
+    "coords": "33.88024, -84.46835",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/cumberlandmall/",
+    "name": "Cumberland Mall"
+  },
   "dadeland": {
     "been": true,
-    "coords": "25.6667°N, 80.3567°W",
+    "coords": "25.689879, -80.313707",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/dadeland/",
     "name": "Dadeland"
   },
+  "danbury-fair-mall": {
+    "been": false,
+    "coords": "41.3806, -73.48015",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/danburyfairmall/",
+    "name": "Danbury Fair Mall"
+  },
+  "deer-park": {
+    "been": false,
+    "coords": "42.1605, -88.0554",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/deerpark/",
+    "name": "Deer Park"
+  },
+  "del-amo": {
+    "been": false,
+    "coords": "33.833532, -118.35057",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/delamo/",
+    "name": "Del Amo"
+  },
+  "del-monte": {
+    "been": false,
+    "coords": "36.584103459981, -121.897348157823",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/delmonte/",
+    "name": "Del Monte"
+  },
   "den-haag": {
     "been": true,
-    "coords": "52°04′48″N, 04°18′36″E",
+    "coords": "52.0779495, 4.3113198",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://www.apple.com/nl/retail/denhaag/",
     "name": "Den Haag"
   },
+  "derby-street": {
+    "been": false,
+    "coords": "42.17605, -70.90996",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/derbystreet/",
+    "name": "Derby Street"
+  },
+  "dix30": {
+    "been": false,
+    "coords": "45.446364, -73.438306",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/dix30/",
+    "name": "DIX30"
+  },
+  "domain-northside": {
+    "been": false,
+    "coords": "30.402708, -97.721954",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/domainnorthside/",
+    "name": "Domain NORTHSIDE"
+  },
+  "doncaster": {
+    "been": false,
+    "coords": "-37.78442, 145.1261",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/doncaster/",
+    "name": "Doncaster"
+  },
   "downtown-brooklyn": {
     "been": true,
-    "coords": "40°41′38″N, 73°59′14″W",
+    "coords": "40.685612, -73.978247",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/downtownbrooklyn/",
     "name": "Downtown Brooklyn"
   },
   "downtown-nashville": {
     "been": false,
-    "coords": "36°09′44″N, 86°46′28″W",
+    "coords": "36.16046, -86.7787",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/downtownnashville/",
     "name": "Downtown Nashville"
   },
   "dubai-mall": {
     "been": true,
-    "coords": "25.1975, 55.279166666667",
+    "coords": "25.195613989, 55.277543085",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://www.apple.com/ae/retail/dubaimall/",
     "name": "Dubai Mall",
     "wikidata": "Q1133309"
   },
+  "dusseldorf": {
+    "been": false,
+    "coords": "51.22675, 6.77995",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/duesseldorf/",
+    "name": "Düsseldorf"
+  },
+  "easton-town-center": {
+    "been": false,
+    "coords": "40.054068, -82.914958",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/eastontowncenter/",
+    "name": "Easton Town Center"
+  },
+  "eastview": {
+    "been": false,
+    "coords": "43.0297, -77.4428",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/eastview/",
+    "name": "Eastview"
+  },
+  "eastwood-towne-center": {
+    "been": false,
+    "coords": "42.764347, -84.514723",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/eastwoodtownecenter/",
+    "name": "Eastwood Towne Center"
+  },
   "eaton-centre": {
     "been": false,
-    "coords": "43.653888888889, -79.380277777778",
+    "coords": "43.653, -79.3804",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/eatoncentre/",
     "name": "Eaton Centre",
     "wikidata": "Q1278419"
   },
   "edinburgh": {
     "been": false,
-    "coords": "55°57′12″N, 03°11′21″W",
+    "coords": "55.953255, -3.189934",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://www.apple.com/uk/retail/edinburgh/",
     "name": "Edinburgh"
   },
+  "el-paseo-village": {
+    "been": false,
+    "coords": "33.719631, -116.383301",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/elpaseovillage/",
+    "name": "El Paseo Village"
+  },
+  "eldon-square": {
+    "been": false,
+    "coords": "54.97296, -1.61683",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/eldonsquare/",
+    "name": "Eldon Square"
+  },
+  "emporia": {
+    "been": false,
+    "coords": "55.563466, 12.973509",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://www.apple.com/se/retail/emporia/",
+    "name": "Emporia"
+  },
+  "eton": {
+    "been": false,
+    "coords": "41.463332, -81.474623",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/eton/",
+    "name": "Eton"
+  },
   "euroma2": {
     "been": false,
+    "coords": "41.816509, 12.459608",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://www.apple.com/it/retail/euroma2/",
     "name": "Euroma2"
   },
+  "evergreen-walk": {
+    "been": false,
+    "coords": "41.812848, -72.556558",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/evergreenwalk/",
+    "name": "Evergreen Walk"
+  },
   "exchange-trx": {
     "been": false,
-    "coords": "3.14264°N, 101.71795°E",
+    "coords": "3.14227796692266, 101.717773733656",
     "country": "MY",
+    "icons": ["🇲🇾"],
     "link": "https://www.apple.com/my/retail/exchangetrx/",
     "name": "Exchange TRX"
   },
+  "fairfax-corner": {
+    "been": false,
+    "coords": "38.85797, -77.35578",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fairfaxcorner/",
+    "name": "Fairfax Corner"
+  },
   "fairview": {
     "been": false,
-    "coords": "39.6289, -111.438",
+    "coords": "43.778, -79.3442",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/fairview/",
     "name": "Fairview",
     "wikidata": "Q482388"
   },
+  "fairview-pointe-claire": {
+    "been": false,
+    "coords": "45.46333, -73.83166",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/fairviewpointeclaire/",
+    "name": "Fairview Pointe-Claire"
+  },
+  "falls": {
+    "been": false,
+    "coords": "25.643719563754, -80.33814594377",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thefalls/",
+    "name": "The Falls"
+  },
+  "fashion-fair": {
+    "been": false,
+    "coords": "36.80674, -119.77553",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fashionfair/",
+    "name": "Fashion Fair"
+  },
+  "fashion-island": {
+    "been": false,
+    "coords": "33.61502, -117.87673",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fashionisland/",
+    "name": "Fashion Island"
+  },
+  "fashion-mall-at-keystone": {
+    "been": false,
+    "coords": "39.9141, -86.11181",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thefashionmallatkeystone/",
+    "name": "The Fashion Mall at Keystone"
+  },
+  "fashion-place": {
+    "been": false,
+    "coords": "40.636147, -111.8876",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fashionplace/",
+    "name": "Fashion Place"
+  },
   "fashion-show": {
     "been": true,
+    "coords": "36.127508, -115.173007",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/fashionshow/",
     "name": "Fashion Show",
     "wikidata": "Q1153401"
   },
+  "fashion-valley": {
+    "been": false,
+    "coords": "32.768465871641, -117.165832324545",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fashionvalley/",
+    "name": "Fashion Valley"
+  },
+  "festival-place": {
+    "been": false,
+    "coords": "51.26526, -1.08538",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/festivalplace/",
+    "name": "Festival Place"
+  },
+  "festival-walk": {
+    "been": false,
+    "coords": "22.33719, 114.17464",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://www.apple.com/hk/en/retail/festivalwalk/",
+    "name": "Festival Walk"
+  },
   "fifth-avenue": {
     "been": true,
-    "coords": "40.774078, -73.965863",
+    "coords": "40.76383, -73.97296",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/fifthavenue/",
     "name": "Fifth Avenue",
     "wikidata": "Q109858"
   },
+  "fiordaliso": {
+    "been": false,
+    "coords": "45.39217, 9.17534",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/fiordaliso/",
+    "name": "Fiordaliso"
+  },
   "firenze": {
     "been": false,
-    "coords": "43°46′17″N, 11°15′15″E",
+    "coords": "43.771301, 11.25345",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://www.apple.com/it/retail/firenze/",
     "name": "Firenze"
   },
+  "first-colony-mall": {
+    "been": false,
+    "coords": "29.59141, -95.625",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/firstcolonymall/",
+    "name": "First Colony Mall"
+  },
+  "flatiron-crossing": {
+    "been": false,
+    "coords": "39.933409903017, -105.1329389226",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/flatironcrossing/",
+    "name": "FlatIron Crossing"
+  },
+  "florida-mall": {
+    "been": false,
+    "coords": "28.445141, -81.394177",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/floridamall/",
+    "name": "Florida Mall"
+  },
   "forum-shops": {
     "been": true,
-    "coords": "36°7′8″N, 115°10′34″W",
+    "coords": "36.118786111111, -115.177691162857",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/theforumshops/",
     "name": "Forum Shops"
   },
+  "fountain-gate": {
+    "been": false,
+    "coords": "-38.01799, 145.30466",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/fountaingate/",
+    "name": "Fountain Gate"
+  },
+  "franklin-park-mall": {
+    "been": false,
+    "coords": "41.694016, -83.640205",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/franklinparkmall/",
+    "name": "Franklin Park Mall"
+  },
+  "freehold-raceway-mall": {
+    "been": false,
+    "coords": "40.253813, -74.30017",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/freeholdracewaymall/",
+    "name": "Freehold Raceway Mall"
+  },
   "freie-strasse": {
     "been": true,
-    "coords": "47.55646, 7.589578",
+    "coords": "47.5563507, 7.59021",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.apple.com/chfr/retail/freiestrasse/",
     "name": "Freie Strasse",
     "wikidata": "Q17038047"
   },
+  "friendly-center": {
+    "been": false,
+    "coords": "36.08601, -79.83615",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/friendlycenter/",
+    "name": "Friendly Center"
+  },
+  "fritz-farm": {
+    "been": false,
+    "coords": "37.977139, -84.528169",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/fritzfarm/",
+    "name": "Fritz Farm"
+  },
   "fukuoka": {
     "been": true,
-    "coords": "33°35′24″N, 130°24′06″E",
+    "coords": "33.587908, 130.397033",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/fukuoka/",
     "name": "Fukuoka"
   },
   "galaxy-macau": {
     "been": false,
-    "coords": "22°08′59″N, 113°33′10″E",
+    "coords": "22.148148, 113.555399",
     "country": "MO",
+    "icons": ["🇲🇴"],
     "link": "https://www.apple.com/mo-en/retail/galaxymacau/",
     "name": "Galaxy Macau"
   },
+  "galleria": {
+    "been": false,
+    "coords": "26.1366746197973, -80.1143955043863",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thegalleria/",
+    "name": "The Galleria"
+  },
   "galleria-dallas": {
     "been": false,
-    "coords": "32°55′48.00″N, 96°49′10″W",
+    "coords": "32.930392379315, -96.819404255932",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/galleriadallas/",
     "name": "Galleria Dallas"
   },
   "gangnam": {
     "been": false,
+    "coords": "37.503775, 127.02522",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://www.apple.com/kr/retail/gangnam/",
     "name": "Gangnam",
     "wikidata": "Q489941"
   },
+  "garden-state-plaza": {
+    "been": false,
+    "coords": "40.918482082021, -74.075630100242",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/gardenstateplaza/",
+    "name": "Garden State Plaza"
+  },
+  "gardens-mall": {
+    "been": false,
+    "coords": "26.84865, -80.0848",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thegardensmall/",
+    "name": "The Gardens Mall"
+  },
   "garosugil": {
     "been": false,
+    "coords": "37.5209, 127.0228",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://www.apple.com/kr/retail/garosugil/",
     "name": "Garosugil",
     "wikidata": "Q12604308"
   },
   "georgetown": {
     "been": true,
-    "coords": "38.907222222222, -77.072777777778",
+    "coords": "38.905922540478, -77.062310166353",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/georgetown/",
     "name": "Georgetown",
     "wikidata": "Q333886"
   },
   "ginza": {
     "been": false,
-    "coords": "35.671217°N, 139.765007°E",
+    "coords": "35.66788, 139.761763",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/ginza/",
     "name": "Ginza",
     "strike": true
   },
   "glasgow": {
     "been": false,
-    "coords": "55°51′40″N, 04°15′00″W",
+    "coords": "55.86157, -4.2541",
     "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://www.apple.com/uk/retail/glasgow/",
     "name": "Glasgow"
   },
+  "glattzentrum": {
+    "been": false,
+    "coords": "47.40826, 8.59592",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://www.apple.com/chfr/retail/glattzentrum/",
+    "name": "Glattzentrum"
+  },
+  "glendale-galleria": {
+    "been": false,
+    "coords": "34.14533, -118.25845",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/glendalegalleria/",
+    "name": "Glendale Galleria"
+  },
+  "global-harbor": {
+    "been": false,
+    "coords": "31.2338805565923, 121.40717625618",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/globalharbor/",
+    "name": "Global Harbor"
+  },
+  "gran-plaza-2": {
+    "been": false,
+    "coords": "40.49109, -3.89898",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/granplaza2/",
+    "name": "Gran Plaza 2"
+  },
+  "grand-arcade": {
+    "been": false,
+    "coords": "52.20396, 0.12068",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/grandarcade/",
+    "name": "Grand Arcade"
+  },
   "grand-central": {
     "been": true,
-    "coords": "40.75277777777778, -73.97722222222222",
+    "coords": "40.752733, -73.976907",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/grandcentral/",
     "name": "Grand Central",
     "wikidata": "Q11290"
   },
+  "green-hills": {
+    "been": false,
+    "coords": "36.10704, -86.816382",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/greenhills/",
+    "name": "Green Hills"
+  },
+  "greene": {
+    "been": false,
+    "coords": "39.694173, -84.101912",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thegreene/",
+    "name": "The Greene"
+  },
+  "greenwich-avenue": {
+    "been": false,
+    "coords": "41.023298255128, -73.62529602612",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/greenwichavenue/",
+    "name": "Greenwich Avenue"
+  },
+  "grosse-bockenheimer-strasse": {
+    "been": false,
+    "coords": "50.11468, 8.67505",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/grossebockenheimerstrasse/",
+    "name": "Grosse Bockenheimer Strasse"
+  },
   "grove": {
     "been": true,
+    "coords": "34.07143, -118.357469",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/thegrove/",
     "name": "The Grove",
     "wikidata": "Q15964386"
   },
+  "guildford-town-centre": {
+    "been": false,
+    "coords": "49.189363, -122.803625",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/guildfordtowncentre/",
+    "name": "Guildford Town Centre"
+  },
   "haarlem": {
     "been": false,
-    "coords": "52°23′N, 4°38′E",
+    "coords": "52.378447, 4.632961",
     "country": "NL",
+    "icons": ["🇳🇱"],
     "link": "https://www.apple.com/nl/retail/haarlem/",
     "name": "Haarlem"
   },
+  "halifax-shopping-centre": {
+    "been": false,
+    "coords": "44.648933, -63.619234",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/halifaxshoppingcentre/",
+    "name": "Halifax Shopping Centre"
+  },
+  "hanam": {
+    "been": false,
+    "coords": "37.54574, 127.224151",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://www.apple.com/kr/retail/hanam/",
+    "name": "Hanam"
+  },
   "hannover": {
     "been": false,
-    "coords": "52°22′N, 9°43′E",
+    "coords": "52.375092, 9.73943",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.apple.com/de/retail/hannover/",
     "name": "Hannover"
   },
+  "haywood-mall": {
+    "been": false,
+    "coords": "34.849384788464, -82.333932409004",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/haywoodmall/",
+    "name": "Haywood Mall"
+  },
+  "highcross": {
+    "been": false,
+    "coords": "52.637029, -1.137136",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/highcross/",
+    "name": "Highcross"
+  },
+  "highland-village": {
+    "been": false,
+    "coords": "29.74197, -95.44574",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/highlandvillage/",
+    "name": "Highland Village"
+  },
+  "highpoint": {
+    "been": false,
+    "coords": "-37.77238, 144.89015",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/highpoint/",
+    "name": "Highpoint"
+  },
+  "higuera-street": {
+    "been": false,
+    "coords": "35.280617510041, -120.66187958447",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/higuerastreet/",
+    "name": "Higuera Street"
+  },
+  "hilldale": {
+    "been": false,
+    "coords": "43.072144281456, -89.452947378159",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/hilldale/",
+    "name": "Hilldale"
+  },
+  "hillsdale": {
+    "been": false,
+    "coords": "37.5389, -122.3018",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/hillsdale/",
+    "name": "Hillsdale"
+  },
+  "holiday-plaza-shenzhen": {
+    "been": false,
+    "coords": "22.5398349824362, 113.9710521698",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/holidayplazashenzhen/",
+    "name": "Holiday Plaza Shenzhen"
+  },
   "holyoke": {
     "been": true,
-    "coords": "42°12′11″N, 72°37′26″W",
+    "coords": "42.168361193943, -72.641229866407",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/holyoke/",
     "name": "Holyoke"
   },
+  "hong-kong-plaza": {
+    "been": false,
+    "coords": "31.2255458145884, 121.469939947128",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/hongkongplaza/",
+    "name": "Hong Kong Plaza"
+  },
+  "hongdae": {
+    "been": false,
+    "coords": "37.5551, 126.92191",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://www.apple.com/kr/retail/hongdae/",
+    "name": "Hongdae"
+  },
+  "hornsby": {
+    "been": false,
+    "coords": "-33.704885, 151.1002",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/hornsby/",
+    "name": "Hornsby"
+  },
+  "houston-galleria": {
+    "been": false,
+    "coords": "29.739061031416, -95.464409840804",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/houstongalleria/",
+    "name": "Houston Galleria"
+  },
+  "i-gigli": {
+    "been": false,
+    "coords": "43.84578, 11.1421",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/igigli/",
+    "name": "I Gigli"
+  },
   "iconsiam": {
     "been": false,
-    "coords": "13°43′36.1″N, 100°30′37.8″E",
+    "coords": "13.726822, 100.511255",
     "country": "TH",
+    "icons": ["🇹🇭"],
     "link": "https://www.apple.com/th/retail/iconsiam/",
     "name": "Iconsiam"
   },
   "ifc-mall": {
     "been": false,
+    "coords": "22.28463, 114.159172",
     "country": "HK",
+    "icons": ["🇭🇰"],
     "link": "https://www.apple.com/hk/en/retail/ifcmall/",
     "name": "ifc mall"
+  },
+  "il-leone": {
+    "been": false,
+    "coords": "45.4301758982515, 10.5134117603302",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/illeone/",
+    "name": "il Leone"
   },
   "infinite-loop": {
     "been": true,
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/infiniteloop/",
     "name": "Infinite Loop",
     "strike": true,
     "wikidata": "Q862372"
   },
+  "international-plaza": {
+    "been": false,
+    "coords": "27.96408, -82.51952",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/internationalplaza/",
+    "name": "International Plaza"
+  },
+  "irvine-spectrum-center": {
+    "been": false,
+    "coords": "33.6489, -117.7406",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/irvinespectrumcenter/",
+    "name": "Irvine Spectrum Center"
+  },
   "jamsil": {
     "been": false,
+    "coords": "37.512965858126, 127.101191657544",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://www.apple.com/kr/retail/jamsil/",
     "name": "Jamsil",
     "wikidata": "Q28700117"
   },
   "jewel-changi-airport": {
     "been": false,
-    "coords": "1.3644°N, 103.9915°E",
+    "coords": "1.36059, 103.989579",
     "country": "SG",
+    "icons": ["🇸🇬"],
     "link": "https://www.apple.com/sg/retail/jewelchangiairport/",
     "name": "Jewel Changi Airport"
   },
-  "jingan": {
+  "jiefangbei": {
+    "been": false,
+    "coords": "29.5609805914503, 106.572221517563",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/jiefangbei/",
+    "name": "Jiefangbei"
+  },
+  "jing'an": {
     "been": false,
     "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com/cn/retail/jingan/",
+    "name": "Jing'an"
+  },
+  "jingan": {
+    "been": false,
+    "coords": "31.224702, 121.441038",
+    "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/jingan/",
     "name": "Jing’an"
   },
+  "jordan-creek": {
+    "been": false,
+    "coords": "41.570044, -93.803773",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/jordancreek/",
+    "name": "Jordan Creek"
+  },
   "jungfernstieg": {
     "been": false,
-    "coords": "53°33′11″N, 9°59′33″E",
+    "coords": "53.552862, 9.99288",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.apple.com/de/retail/jungfernstieg/",
     "name": "Jungfernstieg"
   },
+  "kahala": {
+    "been": false,
+    "coords": "21.277081111189, -157.78698547723",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/kahala/",
+    "name": "Kahala"
+  },
   "karntner-straße": {
     "been": true,
-    "coords": "48.206°N, 16.371°E",
+    "coords": "48.206908, 16.371731",
     "country": "AT",
+    "icons": ["🇦🇹"],
     "link": "https://www.apple.com/at/retail/kaerntnerstrasse/",
     "name": "Kärntner Straße"
   },
   "kawasaki": {
     "been": false,
-    "coords": "35.53088888888889, 139.703",
+    "coords": "35.532695, 139.695856",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/kawasaki/",
     "name": "Kawasaki",
     "wikidata": "Q164234"
   },
+  "kenwood-towne-centre": {
+    "been": false,
+    "coords": "39.201632, -84.37789",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/kenwoodtownecentre/",
+    "name": "Kenwood Towne Centre"
+  },
   "king-of-prussia": {
     "been": false,
+    "coords": "40.088174, -75.391134",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/kingofprussia/",
     "name": "King of Prussia",
     "wikidata": "Q1770786"
   },
+  "knox-street": {
+    "been": false,
+    "coords": "32.82254, -96.78791",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/knoxstreet/",
+    "name": "Knox Street"
+  },
   "kunming": {
     "been": false,
-    "coords": "25.0464°N, 102.7094°E",
+    "coords": "25.0389880510382, 102.705827951431",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/kunming/",
     "name": "Kunming"
   },
   "kurfurstendamm": {
     "been": false,
-    "coords": "52.500833333333, 13.312777777778",
+    "coords": "52.50363, 13.32865",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.apple.com/de/retail/kurfuerstendamm/",
     "name": "Kurfürstendamm",
     "wikidata": "Q160272"
   },
   "kyoto": {
     "been": false,
-    "coords": "35°0′42″N, 135°46′6″E",
+    "coords": "35.003825, 135.762675",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/kyoto/",
     "name": "Kyoto"
   },
+  "la-canada": {
+    "been": false,
+    "coords": "36.52166667, -4.87416667",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/lacanada/",
+    "name": "La Cañada"
+  },
+  "la-cantera": {
+    "been": false,
+    "coords": "29.59333, -98.61556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lacantera/",
+    "name": "La Cantera"
+  },
+  "la-encantada": {
+    "been": false,
+    "coords": "32.32518, -110.93011",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/laencantada/",
+    "name": "La Encantada"
+  },
+  "la-maquinista": {
+    "been": false,
+    "coords": "41.43967, 2.19834",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/lamaquinista/",
+    "name": "La Maquinista"
+  },
+  "la-toison-dor": {
+    "been": false,
+    "coords": "47.35699, 5.05129",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/latoisondor/",
+    "name": "La Toison d’Or"
+  },
+  "la-vaguada": {
+    "been": false,
+    "coords": "40.4797222, -3.7075",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/lavaguada/",
+    "name": "La Vaguada"
+  },
+  "lakeside": {
+    "been": false,
+    "coords": "51.48856, 0.28326",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/lakeside/",
+    "name": "Lakeside"
+  },
+  "lakeside-shopping-center": {
+    "been": false,
+    "coords": "30.004561, -90.157228",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lakesideshoppingcenter/",
+    "name": "Lakeside Shopping Center"
+  },
+  "le-befane": {
+    "been": false,
+    "coords": "44.03863, 12.58765",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/lebefane/",
+    "name": "Le Befane"
+  },
+  "le-gru": {
+    "been": false,
+    "coords": "45.0556, 7.61299",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/legru/",
+    "name": "Le Gru"
+  },
+  "leawood": {
+    "been": false,
+    "coords": "38.91131, -94.6378",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/leawood/",
+    "name": "Leawood"
+  },
+  "legacy-place": {
+    "been": false,
+    "coords": "42.230872743618, -71.178393320255",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/legacyplace/",
+    "name": "Legacy Place"
+  },
+  "lehigh-valley": {
+    "been": false,
+    "coords": "40.62926, -75.48147",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lehighvalley/",
+    "name": "Lehigh Valley"
+  },
+  "lenox-square": {
+    "been": false,
+    "coords": "33.847941, -84.363533",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lenoxsquare/",
+    "name": "Lenox Square"
+  },
   "les-quatre-temps": {
     "been": true,
-    "coords": "48°53′21.603″N, 02°14′17.523″E",
+    "coords": "48.89095, 2.2381",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/lesquatretemps/",
     "name": "Les Quatre Temps"
   },
   "lille": {
     "been": false,
-    "coords": "50.6278°N, 3.0583°E",
+    "coords": "50.6373639671188, 3.06567303482582",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/lille/",
     "name": "Lille"
   },
   "lincoln-park": {
     "been": true,
-    "coords": "41°55′42″N, 87°38′15″W",
+    "coords": "41.91062, -87.64856",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/lincolnpark/",
     "name": "Lincoln Park"
   },
+  "lincoln-road": {
+    "been": false,
+    "coords": "25.79102, -80.139364",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lincolnroad/",
+    "name": "Lincoln Road"
+  },
+  "liverpool": {
+    "been": false,
+    "coords": "53.4034, -2.9872",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/liverpool/",
+    "name": "Liverpool"
+  },
+  "los-cerritos": {
+    "been": false,
+    "coords": "33.862423, -118.093942",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/loscerritos/",
+    "name": "Los Cerritos"
+  },
+  "los-gatos": {
+    "been": false,
+    "coords": "37.223389725861, -121.983768164813",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/losgatos/",
+    "name": "Los Gatos"
+  },
+  "lynnhaven-mall": {
+    "been": false,
+    "coords": "36.816619, -76.071055",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/lynnhavenmall/",
+    "name": "Lynnhaven Mall"
+  },
+  "main-place": {
+    "been": false,
+    "coords": "41.7728, -88.15037",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/mainplace/",
+    "name": "Main Place"
+  },
   "maine-mall": {
     "been": true,
-    "coords": "43°38′0″N, 70°20′5″W",
+    "coords": "43.633574, -70.334645",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/mainemall/",
     "name": "Maine Mall"
   },
   "mall-at-bay-plaza": {
     "been": true,
+    "coords": "40.8638, -73.8269",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/themallatbayplaza/",
     "name": "The Mall at Bay Plaza"
   },
+  "mall-of-america": {
+    "been": false,
+    "coords": "44.8543, -93.244386",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/mallofamerica/",
+    "name": "Mall of America"
+  },
   "mall-of-emirates": {
     "been": false,
-    "coords": "25°7′5″N, 55°12′2″E",
+    "coords": "25.11842, 55.200543",
     "country": "AE",
+    "icons": ["🇦🇪"],
     "link": "https://www.apple.com/ae/retail/malloftheemirates/",
     "name": "Mall of the Emirates"
   },
+  "mall-of-georgia": {
+    "been": false,
+    "coords": "34.06593, -83.98376",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/mallofgeorgia/",
+    "name": "Mall of Georgia"
+  },
+  "mall-of-louisiana": {
+    "been": false,
+    "coords": "30.38801, -91.08676",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/malloflouisiana/",
+    "name": "Mall of Louisiana"
+  },
+  "mall-of-new-hampshire": {
+    "been": false,
+    "coords": "42.9562362, -71.4324994",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/themallofnewhampshire/",
+    "name": "The Mall of New Hampshire"
+  },
+  "mall-of-scandinavia": {
+    "been": false,
+    "coords": "59.37027, 18.00255",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://www.apple.com/se/retail/mallofscandinavia/",
+    "name": "Mall of Scandinavia"
+  },
+  "manchester-arndale": {
+    "been": false,
+    "coords": "53.48384, -2.24067",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/manchesterarndale/",
+    "name": "Manchester Arndale"
+  },
+  "manhasset": {
+    "been": false,
+    "coords": "40.795021215557, -73.676486243195",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/manhasset/",
+    "name": "Manhasset"
+  },
+  "manhattan-village": {
+    "been": false,
+    "coords": "33.89909, -118.393209",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/manhattanvillage/",
+    "name": "Manhattan Village"
+  },
   "mapleview-centre": {
     "been": true,
-    "coords": "43.3257°N, 79.8202°W",
+    "coords": "43.32525, -79.81967",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/mapleviewcentre/",
     "name": "Mapleview Centre"
   },
   "marche-saint-germain": {
     "been": true,
+    "coords": "48.8521, 2.3359",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/marchesaintgermain/",
     "name": "Marché Saint-Germain"
   },
   "marina-bay-sands": {
     "been": false,
-    "coords": "1°16′57.54″N, 103°51′30.30″E",
+    "coords": "1.283286, 103.857547",
     "country": "SG",
+    "icons": ["🇸🇬"],
     "link": "https://www.apple.com/sg/retail/marinabaysands/",
     "name": "Marina Bay Sands"
   },
+  "market-mall": {
+    "been": false,
+    "coords": "51.08307, -114.15449",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/marketmall/",
+    "name": "Market Mall"
+  },
   "marketstreet": {
     "been": true,
+    "coords": "42.515590675328, -71.034246957778",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/marketstreet/",
     "name": "MarketStreet"
   },
+  "markville-shopping-centre": {
+    "been": false,
+    "coords": "43.868241, -79.287983",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/markvilleshoppingcentre/",
+    "name": "Markville Shopping Centre"
+  },
   "marseille": {
     "been": false,
-    "coords": "43.2964°N, 5.37°E",
+    "coords": "43.306274, 5.363277",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/marseille/",
     "name": "Marseille"
   },
   "marunouchi": {
     "been": false,
-    "coords": "35.681352777778, 139.76435277778",
+    "coords": "35.680176, 139.763855",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/marunouchi/",
     "name": "Marunouchi",
     "wikidata": "Q1196955"
   },
+  "masonville": {
+    "been": false,
+    "coords": "43.025556, -81.277778",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/masonville/",
+    "name": "Masonville"
+  },
+  "mayfair": {
+    "been": false,
+    "coords": "43.06355, -88.04479",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/mayfair/",
+    "name": "Mayfair"
+  },
+  "meadowhall": {
+    "been": false,
+    "coords": "53.41398, -1.41171",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/meadowhall/",
+    "name": "Meadowhall"
+  },
+  "memorial-city": {
+    "been": false,
+    "coords": "29.78102, -95.53893",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/memorialcity/",
+    "name": "Memorial City"
+  },
+  "menlo-park": {
+    "been": false,
+    "coords": "40.549111, -74.335811",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/menlopark/",
+    "name": "Menlo Park"
+  },
+  "metrocentre": {
+    "been": false,
+    "coords": "54.95713, -1.671959",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/metrocentre/",
+    "name": "Metrocentre"
+  },
+  "metrotown": {
+    "been": false,
+    "coords": "49.22606, -122.99922",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/metrotown/",
+    "name": "Metrotown"
+  },
   "miami-worldcenter": {
     "been": false,
-    "coords": "25.7819°N, 80.1906°W",
+    "coords": "25.78162, -80.191812",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/miamiworldcenter/",
     "name": "Miami Worldcenter"
   },
   "michigan-avenue": {
     "been": true,
-    "coords": "41.887686, -87.624497",
+    "coords": "41.88929, -87.6237",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/michiganavenue/",
     "name": "Michigan Avenue",
     "wikidata": "Q1867529"
   },
+  "millenia": {
+    "been": false,
+    "coords": "28.486, -81.43174",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/millenia/",
+    "name": "Millenia"
+  },
+  "milton-keynes": {
+    "been": false,
+    "coords": "52.04049, -0.75733",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/miltonkeynes/",
+    "name": "Milton Keynes"
+  },
+  "miranda": {
+    "been": false,
+    "coords": "-34.03492, 151.10088",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/miranda/",
+    "name": "Miranda"
+  },
+  "mission-viejo": {
+    "been": false,
+    "coords": "33.557258, -117.670118",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/missionviejo/",
+    "name": "Mission Viejo"
+  },
+  "mixc-chengdu": {
+    "been": false,
+    "coords": "30.6521269459173, 104.112405180931",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcchengdu/",
+    "name": "MixC Chengdu"
+  },
+  "mixc-chongqing": {
+    "been": false,
+    "coords": "29.5189112726118, 106.514226794243",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcchongqing/",
+    "name": "MixC Chongqing"
+  },
   "mixc-hangzhou": {
     "been": false,
+    "coords": "30.2544613494713, 120.209269523621",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/mixchangzhou/",
     "name": "MixC Hangzhou"
   },
+  "mixc-hefei": {
+    "been": false,
+    "coords": "31.80144, 117.226179",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixchefei/",
+    "name": "MixC Hefei"
+  },
+  "mixc-nanning": {
+    "been": false,
+    "coords": "22.8136926892093, 108.388355970383",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcnanning/",
+    "name": "MixC Nanning"
+  },
+  "mixc-qingdao": {
+    "been": false,
+    "coords": "36.0660295733936, 120.373640656471",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcqingdao/",
+    "name": "MixC Qingdao"
+  },
+  "mixc-shenyang": {
+    "been": false,
+    "coords": "41.7729600024798, 123.428676724434",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcshenyang/",
+    "name": "MixC Shenyang"
+  },
+  "mixc-shenzhen": {
+    "been": false,
+    "coords": "22.54422, 114.10564",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcshenzhen/",
+    "name": "MixC Shenzhen"
+  },
+  "mixc-tianjin": {
+    "been": false,
+    "coords": "39.0887684288913, 117.207582592964",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixctianjin/",
+    "name": "MixC Tianjin"
+  },
+  "mixc-wenzhou": {
+    "been": false,
+    "coords": "27.956741, 120.681888",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixcwenzhou/",
+    "name": "MixC Wenzhou"
+  },
+  "mixc-zhengzhou": {
+    "been": false,
+    "coords": "34.7560698186867, 113.656665086746",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/mixczhengzhou/",
+    "name": "MixC Zhengzhou"
+  },
   "montgomery-mall": {
     "been": true,
-    "coords": "39.024277777778, -77.147194444444",
+    "coords": "39.024365, -77.146182",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/montgomerymall/",
     "name": "Montgomery Mall",
     "wikidata": "Q11705283"
   },
+  "morumbi": {
+    "been": false,
+    "coords": "-23.622892, -46.697962",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://www.apple.com/br/retail/morumbi/",
+    "name": "Morumbi"
+  },
+  "mtz": {
+    "been": false,
+    "coords": "50.11933, 8.52679",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/mtz/",
+    "name": "MTZ"
+  },
   "myeongdong": {
     "been": false,
-    "coords": "37.5637°N, 126.9840°E",
+    "coords": "37.564659, 126.982678",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://www.apple.com/kr/retail/myeongdong/",
     "name": "Myeongdong"
   },
   "nagoya-sakae": {
     "been": false,
+    "coords": "35.16555, 136.90716",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/nagoyasakae/",
     "name": "Nagoya Sakae"
   },
+  "nanjing-east": {
+    "been": false,
+    "coords": "31.2395268462627, 121.479467153549",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/nanjingeast/",
+    "name": "Nanjing East"
+  },
+  "nanuet": {
+    "been": false,
+    "coords": "41.0956, -74.0162",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/nanuet/",
+    "name": "Nanuet"
+  },
+  "natick": {
+    "been": false,
+    "coords": "42.301522, -71.383724",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/natick/",
+    "name": "Natick"
+  },
+  "nave-de-vero": {
+    "been": false,
+    "coords": "45.458953, 12.213355",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/navedevero/",
+    "name": "Nave de Vero"
+  },
+  "new-haven": {
+    "been": false,
+    "coords": "41.3119, -72.93093",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/newhaven/",
+    "name": "New Haven"
+  },
+  "new-town-plaza": {
+    "been": false,
+    "coords": "22.38185, 114.18881",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://www.apple.com/hk/en/retail/newtownplaza/",
+    "name": "New Town Plaza"
+  },
+  "north-county": {
+    "been": false,
+    "coords": "33.07109, -117.06626",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/northcounty/",
+    "name": "North County"
+  },
+  "north-star": {
+    "been": false,
+    "coords": "29.518172084308, -98.496084987277",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/northstar/",
+    "name": "North Star"
+  },
+  "northbrook": {
+    "been": false,
+    "coords": "42.15048, -87.81709",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/northbrook/",
+    "name": "Northbrook"
+  },
+  "northpark-center": {
+    "been": false,
+    "coords": "32.86937, -96.77428",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/northparkcenter/",
+    "name": "NorthPark Center"
+  },
+  "northridge": {
+    "been": false,
+    "coords": "34.239617605223, -118.556073088477",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/northridge/",
+    "name": "Northridge"
+  },
+  "norwich": {
+    "been": false,
+    "coords": "52.6259, 1.28956",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/norwich/",
+    "name": "Norwich"
+  },
+  "nueva-condomina": {
+    "been": false,
+    "coords": "38.03928, -1.14871",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/nuevacondomina/",
+    "name": "Nueva Condomina"
+  },
+  "oakbrook": {
+    "been": false,
+    "coords": "41.84972, -87.9537",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/oakbrook/",
+    "name": "Oakbrook"
+  },
+  "oakridge": {
+    "been": false,
+    "coords": "37.251599, -121.862899",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/oakridge/",
+    "name": "Oakridge"
+  },
+  "oaks": {
+    "been": false,
+    "coords": "34.18405, -118.88763",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/theoaks/",
+    "name": "The Oaks"
+  },
+  "odysseum": {
+    "been": false,
+    "coords": "43.603751, 3.920996",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/odysseum/",
+    "name": "Odysseum"
+  },
+  "oez": {
+    "been": false,
+    "coords": "48.18306, 11.53302",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/oez/",
+    "name": "OEZ"
+  },
+  "old-orchard": {
+    "been": false,
+    "coords": "42.057204, -87.749956",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/oldorchard/",
+    "name": "Old Orchard"
+  },
+  "olympia-66-dalian": {
+    "been": false,
+    "coords": "38.9060708403942, 121.605128645897",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/olympia66dalian/",
+    "name": "Olympia 66 Dalian"
+  },
   "omotesando": {
     "been": true,
-    "coords": "35.66513°N, 139.71248°E",
+    "coords": "35.666129, 139.710932",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/omotesando/",
     "name": "Omotesando"
   },
   "opera": {
     "been": true,
+    "coords": "48.872244, 2.333126",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/opera/",
     "name": "Opéra"
   },
+  "oracle": {
+    "been": false,
+    "coords": "51.453639, -0.971324",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/theoracle/",
+    "name": "The Oracle"
+  },
   "orchard-road": {
     "been": false,
-    "coords": "1°18′17.4″N, 103°49′54.6″E",
+    "coords": "1.302795462688, 103.836398631801",
     "country": "SG",
+    "icons": ["🇸🇬"],
     "link": "https://www.apple.com/sg/retail/orchardroad/",
     "name": "Orchard Road"
   },
+  "oriocenter": {
+    "been": false,
+    "coords": "45.66451, 9.69326",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/oriocenter/",
+    "name": "Oriocenter"
+  },
+  "orland-square-mall": {
+    "been": false,
+    "coords": "41.6193, -87.8479",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/orlandsquaremall/",
+    "name": "Orland Square Mall"
+  },
+  "otay-ranch": {
+    "been": false,
+    "coords": "32.624013452564, -116.966609291354",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/otayranch/",
+    "name": "Otay Ranch"
+  },
+  "oxmoor": {
+    "been": false,
+    "coords": "38.247278, -85.609467",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/oxmoor/",
+    "name": "Oxmoor"
+  },
   "pacific-centre": {
     "been": false,
-    "coords": "49.28339°N, 123.117911°W",
+    "coords": "49.28312, -123.11866",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/pacificcentre/",
     "name": "Pacific Centre"
   },
   "palo-alto": {
     "been": true,
-    "coords": "37°25′45″N, 122°8′17″W",
+    "coords": "37.44642, -122.16086",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/paloalto/",
     "name": "Palo Alto"
   },
+  "paradise-walk-chongqing": {
+    "been": false,
+    "coords": "29.5807490819547, 106.529719233513",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/paradisewalkchongqing/",
+    "name": "Paradise Walk Chongqing"
+  },
+  "parc-66-jinan": {
+    "been": false,
+    "coords": "36.6641590031675, 117.018213272095",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/parc66jinan/",
+    "name": "Parc 66 Jinan"
+  },
+  "parc-central": {
+    "been": false,
+    "coords": "23.1345933935047, 113.319860100746",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/parccentral/",
+    "name": "Parc Central"
+  },
   "park-city": {
     "been": true,
-    "coords": "40.659444444444, -111.49972222222",
+    "coords": "40.066621516531, -76.339304237834",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/parkcity/",
     "name": "Park City",
     "wikidata": "Q482993"
   },
+  "park-meadows": {
+    "been": false,
+    "coords": "39.562176, -104.875562",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/parkmeadows/",
+    "name": "Park Meadows"
+  },
+  "parkland": {
+    "been": false,
+    "coords": "38.9158926761127, 121.631371378899",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/parkland/",
+    "name": "Parkland"
+  },
+  "parly-2": {
+    "been": false,
+    "coords": "48.8277778, 2.11722222222222",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/parly2/",
+    "name": "Parly 2"
+  },
+  "parquesur": {
+    "been": false,
+    "coords": "40.34015, -3.73163",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/parquesur/",
+    "name": "Parquesur"
+  },
   "part-dieu": {
     "been": true,
-    "coords": "45°45′40″N, 4°51′26″E",
+    "coords": "45.76153, 4.8557",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/part-dieu/",
     "name": "Part-Dieu"
   },
+  "partridge-creek": {
+    "been": false,
+    "coords": "42.625713281289, -82.946410240383",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/partridgecreek/",
+    "name": "Partridge Creek"
+  },
+  "pasadena": {
+    "been": false,
+    "coords": "34.145765883071, -118.15158605575",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/pasadena/",
+    "name": "Pasadena"
+  },
   "passeig-de-gracia": {
     "been": true,
-    "coords": "41°23′34″N, 02°09′49″E",
+    "coords": "41.387937, 2.16988",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://www.apple.com/es/retail/passeigdegracia/",
     "name": "Passeig de Gràcia"
   },
+  "penn-square": {
+    "been": false,
+    "coords": "35.52485, -97.54551",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/pennsquare/",
+    "name": "Penn Square"
+  },
+  "penrith": {
+    "been": false,
+    "coords": "-33.751287, 150.694699",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/penrith/",
+    "name": "Penrith"
+  },
   "pentagon-city": {
     "been": true,
-    "coords": "38°51′41″N, 77°3′30″W",
+    "coords": "38.86311, -77.06122",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/pentagoncity/",
     "name": "Pentagon City"
   },
+  "perimeter": {
+    "been": false,
+    "coords": "33.92409, -84.34062",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/perimeter/",
+    "name": "Perimeter"
+  },
+  "perth-city": {
+    "been": false,
+    "coords": "-31.95282, 115.85576",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/perthcity/",
+    "name": "Perth City"
+  },
+  "pheasant-lane": {
+    "been": false,
+    "coords": "42.701675, -71.437373674391",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/pheasantlane/",
+    "name": "Pheasant Lane"
+  },
   "piazza-liberty": {
     "been": false,
+    "coords": "45.465638, 9.194489",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://www.apple.com/it/retail/piazzaliberty/",
     "name": "Piazza Liberty"
   },
+  "pioneer-place": {
+    "been": false,
+    "coords": "45.5178302, -122.6775182",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/pioneerplace/",
+    "name": "Pioneer Place"
+  },
+  "place-ste-foy": {
+    "been": false,
+    "coords": "46.77431, -71.27958",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/placestefoy/",
+    "name": "Place Ste-Foy"
+  },
+  "plymouth": {
+    "been": false,
+    "coords": "50.372101, -4.138771",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/plymouth/",
+    "name": "Plymouth"
+  },
+  "polaris-fashion-place": {
+    "been": false,
+    "coords": "40.14572, -82.98037",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/polarisfashionplace/",
+    "name": "Polaris Fashion Place"
+  },
+  "polo-park": {
+    "been": false,
+    "coords": "49.882966, -97.198652",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/polopark/",
+    "name": "Polo Park"
+  },
+  "porta-di-roma": {
+    "been": false,
+    "coords": "41.9715, 12.53983",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/portadiroma/",
+    "name": "Porta di Roma"
+  },
+  "potomac-town-center": {
+    "been": false,
+    "coords": "38.6282157, -77.2877284",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/potomactowncenter/",
+    "name": "Potomac Town Center"
+  },
+  "princesshay": {
+    "been": false,
+    "coords": "50.72457, -3.52786",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/princesshay/",
+    "name": "Princesshay"
+  },
+  "promenade-at-chenal": {
+    "been": false,
+    "coords": "34.76635, -92.45902",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thepromenadeatchenal/",
+    "name": "The Promenade at Chenal"
+  },
+  "promenade-shops-at-briargate": {
+    "been": false,
+    "coords": "38.962692, -104.79529",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thepromenadeshopsatbriargate/",
+    "name": "The Promenade Shops at Briargate"
+  },
+  "promenade-temecula": {
+    "been": false,
+    "coords": "33.52375718689, -117.153113410091",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/promenadetemecula/",
+    "name": "Promenade Temecula"
+  },
+  "providence-place": {
+    "been": false,
+    "coords": "41.8269, -71.4163",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/providenceplace/",
+    "name": "Providence Place"
+  },
+  "pudong": {
+    "been": false,
+    "coords": "31.23937, 121.49695",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/pudong/",
+    "name": "Pudong"
+  },
   "puerta-del-sol": {
     "been": true,
-    "coords": "40°25′01″N, 3°42′13″W",
+    "coords": "40.41690030328, -3.702156543732",
     "country": "ES",
+    "icons": ["🇪🇸"],
     "link": "https://www.apple.com/es/retail/puertadelsol/",
     "name": "Puerta del Sol"
   },
+  "puerto-venecia": {
+    "been": false,
+    "coords": "41.60951, -0.88623",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/puertovenecia/",
+    "name": "Puerto Venecia"
+  },
+  "qibao": {
+    "been": false,
+    "coords": "31.1565139993188, 121.345217227936",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/qibao/",
+    "name": "Qibao"
+  },
+  "quaker-bridge": {
+    "been": false,
+    "coords": "40.291824, -74.681344",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/quakerbridge/",
+    "name": "Quaker Bridge"
+  },
   "queens-center": {
     "been": false,
+    "coords": "40.734751, -73.869029",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/queenscenter/",
     "name": "Queens Center"
   },
   "regent-street": {
     "been": true,
-    "coords": "51.5108°N, 0.1387°W",
+    "coords": "51.51424, -0.14214",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/regentstreet/",
     "name": "Regent Street"
   },
+  "renaissance-at-colony-park": {
+    "been": false,
+    "coords": "32.434193909776, -90.146924361481",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/renaissanceatcolonypark/",
+    "name": "Renaissance at Colony Park"
+  },
   "rennweg": {
     "been": false,
-    "coords": "48.1931, 16.3921",
+    "coords": "47.373487, 8.538929",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.apple.com/chfr/retail/rennweg/",
     "name": "Rennweg",
     "wikidata": "Q17117205"
   },
+  "reston": {
+    "been": false,
+    "coords": "38.9585, -77.3581",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/reston/",
+    "name": "Reston"
+  },
+  "rhein-center": {
+    "been": false,
+    "coords": "50.93729, 6.83437",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/rheincenter/",
+    "name": "Rhein Center"
+  },
+  "richmond-centre": {
+    "been": false,
+    "coords": "49.16567, -123.13837",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/richmondcentre/",
+    "name": "Richmond Centre"
+  },
+  "rideau": {
+    "been": false,
+    "coords": "45.42509, -75.69101",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/rideau/",
+    "name": "Rideau"
+  },
+  "ridge-hill": {
+    "been": false,
+    "coords": "40.96373, -73.85643",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/ridgehill/",
+    "name": "Ridge Hill"
+  },
+  "ridgedale": {
+    "been": false,
+    "coords": "44.9685555, -93.436633377",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/ridgedale/",
+    "name": "Ridgedale"
+  },
+  "rio-shopping": {
+    "been": false,
+    "coords": "41.627828, -4.78512",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/rioshopping/",
+    "name": "Río Shopping"
+  },
+  "river-park-square": {
+    "been": false,
+    "coords": "47.658889, -117.4225",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/riverparksquare/",
+    "name": "River Park Square"
+  },
+  "riverside-66-tianjin": {
+    "been": false,
+    "coords": "39.1265272422853, 117.193549275398",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/riverside66tianjin/",
+    "name": "Riverside 66 Tianjin"
+  },
+  "robina": {
+    "been": false,
+    "coords": "-28.077575, 153.385213",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/robina/",
+    "name": "Robina"
+  },
+  "rockaway": {
+    "been": false,
+    "coords": "40.906615, -74.553704",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/rockaway/",
+    "name": "Rockaway"
+  },
+  "rockingham-park": {
+    "been": false,
+    "coords": "42.767197, -71.231989",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/rockinghampark/",
+    "name": "Rockingham Park"
+  },
+  "roosevelt-field": {
+    "been": false,
+    "coords": "40.7376, -73.61345",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/rooseveltfield/",
+    "name": "Roosevelt Field"
+  },
+  "rosedale-center": {
+    "been": false,
+    "coords": "45.012576, -93.173237",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/rosedalecenter/",
+    "name": "Rosedale Center"
+  },
+  "rosenstrasse": {
+    "been": false,
+    "coords": "48.13683, 11.57449",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/rosenstrasse/",
+    "name": "Rosenstrasse"
+  },
   "rosenthaler-strasse": {
     "been": false,
+    "coords": "52.52404, 13.40315",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.apple.com/de/retail/rosenthalerstrasse/",
     "name": "Rosenthaler Strasse"
   },
+  "roseville": {
+    "been": false,
+    "coords": "38.773042110625, -121.26993510375",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/roseville/",
+    "name": "Roseville"
+  },
   "rosny-2": {
     "been": true,
+    "coords": "48.883503, 2.477519",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/rosny2/",
     "name": "Rosny 2"
+  },
+  "ross-park": {
+    "been": false,
+    "coords": "40.54369, -80.00782",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/rosspark/",
+    "name": "Ross Park"
   },
   "royal-hawaiian": {
     "been": false,
     "coords": "21.2774, -157.829",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/royalhawaiian",
     "name": "Royal Hawaiian",
     "strike": true,
@@ -783,332 +3190,1167 @@
   },
   "rue-de-rive": {
     "been": true,
+    "coords": "46.202263, 6.150313",
     "country": "CH",
+    "icons": ["🇨🇭"],
     "link": "https://www.apple.com/chfr/retail/ruederive/",
     "name": "Rue de Rive"
   },
+  "rundle-place": {
+    "been": false,
+    "coords": "-34.922821, 138.602631",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/rundleplace/",
+    "name": "Rundle Place"
+  },
+  "saddle-creek": {
+    "been": false,
+    "coords": "35.09344, -89.812433",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/saddlecreek/",
+    "name": "Saddle Creek"
+  },
+  "sagemore": {
+    "been": false,
+    "coords": "39.87958, -74.91887",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/sagemore/",
+    "name": "Sagemore"
+  },
+  "saint-louis-galleria": {
+    "been": false,
+    "coords": "38.63527778, -90.3483753048663",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/saintlouisgalleria/",
+    "name": "Saint Louis Galleria"
+  },
   "sainte-catherine": {
     "been": false,
-    "coords": "50.307222222222, 2.7630555555556",
+    "coords": "45.49765, -73.57577",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/saintecatherine/",
     "name": "Sainte-Catherine",
     "wikidata": "Q380271"
   },
   "saket": {
     "been": false,
-    "coords": "-0.370610885228326, 127.90084807846475",
+    "coords": "28.52877, 77.2195",
     "country": "IN",
+    "icons": ["🇮🇳"],
     "link": "https://www.apple.com/in/retail/saket/",
     "name": "Saket",
     "wikidata": "Q24314308"
   },
   "sanlitun": {
     "been": false,
-    "coords": "39°56′10″N, 116°26′56″E",
+    "coords": "39.9334210982394, 116.44750893116",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/sanlitun/",
     "name": "Sanlitun"
+  },
+  "santa-rosa-plaza": {
+    "been": false,
+    "coords": "38.438439807966, -122.716418643098",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/santarosaplaza/",
+    "name": "Santa Rosa Plaza"
+  },
+  "santan-village": {
+    "been": false,
+    "coords": "33.30879, -111.74271",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/santanvillage/",
+    "name": "SanTan Village"
   },
   "sapporo": {
     "been": true,
     "coords": "43°03′43″N, 141°21′16″E",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Sapporo",
     "name": "Sapporo",
     "strike": true
   },
   "schildergasse": {
     "been": false,
-    "coords": "50°56′11″N, 6°57′9″E",
+    "coords": "50.9365, 6.9557",
     "country": "DE",
+    "icons": ["🇩🇪"],
     "link": "https://www.apple.com/de/retail/schildergasse/",
     "name": "Schildergasse"
   },
+  "scottsdale-fashion-square": {
+    "been": false,
+    "coords": "33.50367, -111.9266",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/scottsdalefashionsquare/",
+    "name": "Scottsdale Fashion Square"
+  },
+  "scottsdale-quarter": {
+    "been": false,
+    "coords": "33.62411, -111.92514",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/scottsdalequarter/",
+    "name": "Scottsdale Quarter"
+  },
   "shadyside": {
     "been": true,
-    "coords": "39.97138889, -80.75083333",
+    "coords": "40.451043663929, -79.933330498962",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/shadyside/",
     "name": "Shadyside",
     "wikidata": "Q2007000"
   },
+  "shanghai-iapm": {
+    "been": false,
+    "coords": "31.2177103950979, 121.453084945679",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/shanghaiiapm/",
+    "name": "Shanghai iapm"
+  },
+  "shayden-summit": {
+    "been": false,
+    "coords": "39.4031, -119.7516",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/shaydensummit/",
+    "name": "Shayden Summit"
+  },
+  "sherman-oaks": {
+    "been": false,
+    "coords": "34.157258, -118.438615",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/shermanoaks/",
+    "name": "Sherman Oaks"
+  },
   "sherway-gardens": {
     "been": false,
-    "coords": "43°36′42.62″N, 79°33′25.55″W",
+    "coords": "43.612406, -79.556325",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/sherwaygardens/",
     "name": "Sherway Gardens"
   },
   "shibuya": {
     "been": true,
-    "coords": "35°39′34″N, 139°42′02″E",
+    "coords": "35.66196, 139.69978",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/shibuya/",
     "name": "Shibuya"
   },
   "shinjuku": {
     "been": true,
-    "coords": "35°42′5″N, 139°42′35″E",
+    "coords": "35.691, 139.7041",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/shinjuku/",
     "name": "Shinjuku"
   },
   "shinsaibashi": {
     "been": false,
-    "coords": "34°40′21″N, 135°30′00″E",
+    "coords": "34.672, 135.50007",
     "country": "JP",
+    "icons": ["🇯🇵"],
     "link": "https://www.apple.com/jp/retail/shinsaibashi/",
     "name": "Shinsaibashi"
   },
+  "short-hills": {
+    "been": false,
+    "coords": "40.740099, -74.36499",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/shorthills/",
+    "name": "Short Hills"
+  },
+  "short-pump-town-center": {
+    "been": false,
+    "coords": "37.656044, -77.618722",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/shortpumptowncenter/",
+    "name": "Short Pump Town Center"
+  },
+  "sindelfingen": {
+    "been": false,
+    "coords": "48.704167, 9.032222",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.apple.com/de/retail/sindelfingen/",
+    "name": "Sindelfingen"
+  },
+  "smith-haven": {
+    "been": false,
+    "coords": "40.8649, -73.1311",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/smithhaven/",
+    "name": "Smith Haven"
+  },
   "soho": {
     "been": true,
-    "coords": "40.723°N, 74.0°W",
+    "coords": "40.725058, -73.999037",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/soho/",
     "name": "SoHo"
   },
+  "solomon-pond-mall": {
+    "been": false,
+    "coords": "42.355548, -71.612912",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/solomonpondmall/",
+    "name": "Solomon Pond Mall"
+  },
+  "somerset": {
+    "been": false,
+    "coords": "42.563, -83.18337",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/somerset/",
+    "name": "Somerset"
+  },
+  "sono-collection": {
+    "been": false,
+    "coords": "41.1058, -73.4185",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/sonocollection/",
+    "name": "SoNo Collection"
+  },
+  "south-coast-plaza": {
+    "been": false,
+    "coords": "33.6921, -117.89322",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southcoastplaza/",
+    "name": "South Coast Plaza"
+  },
   "south-hills-village": {
     "been": true,
-    "coords": "40°20′36.43″N, 80°3′17.11″W",
+    "coords": "40.3427, -80.05589",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/southhillsvillage/",
     "name": "South Hills Village"
   },
+  "south-shore": {
+    "been": false,
+    "coords": "42.2221, -71.02337",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southshore/",
+    "name": "South Shore"
+  },
   "southampton": {
     "been": true,
-    "coords": "50°54′09″N, 01°24′15″W",
+    "coords": "50.90393, -1.40536",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/southampton/",
     "name": "Southampton"
   },
+  "southcenter": {
+    "been": false,
+    "coords": "47.45935, -122.258",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southcenter/",
+    "name": "Southcenter"
+  },
+  "southdale": {
+    "been": false,
+    "coords": "44.880785, -93.324933",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southdale/",
+    "name": "Southdale"
+  },
+  "southgate": {
+    "been": false,
+    "coords": "51.3788290897083, -2.35888078808784",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/southgate/",
+    "name": "SouthGate"
+  },
+  "southgate-centre": {
+    "been": false,
+    "coords": "53.48623, -113.51454",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/southgatecentre/",
+    "name": "Southgate Centre"
+  },
+  "southlake-town-square": {
+    "been": false,
+    "coords": "32.943821, -97.130591",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southlaketownsquare/",
+    "name": "Southlake Town Square"
+  },
+  "southland": {
+    "been": false,
+    "coords": "-37.958244, 145.052434",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/southland/",
+    "name": "Southland"
+  },
+  "southpark": {
+    "been": false,
+    "coords": "35.152573, -80.832012",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southpark/",
+    "name": "SouthPark"
+  },
+  "southpoint": {
+    "been": false,
+    "coords": "35.905106, -78.943003",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/southpoint/",
+    "name": "Southpoint"
+  },
+  "square-one": {
+    "been": false,
+    "coords": "43.593096, -79.642159",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/squareone/",
+    "name": "Square One"
+  },
+  "st-johns-town-center": {
+    "been": false,
+    "coords": "30.253253, -81.525252",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/stjohnstowncenter/",
+    "name": "St. Johns Town Center"
+  },
   "stanford": {
     "been": true,
-    "coords": "37°25′39″N, 122°10′12″W",
+    "coords": "37.44177, -122.172489",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/stanfordshoppingcenter/",
     "name": "Stanford"
   },
+  "state-street": {
+    "been": false,
+    "coords": "34.421328623322, -119.701544216385",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/statestreet/",
+    "name": "State Street"
+  },
+  "staten-island": {
+    "been": false,
+    "coords": "40.582432, -74.165837",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/statenisland/",
+    "name": "Staten Island"
+  },
+  "station-park": {
+    "been": false,
+    "coords": "40.983221, -111.906456",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/stationpark/",
+    "name": "Station Park"
+  },
+  "stoneridge-mall": {
+    "been": false,
+    "coords": "37.69525, -121.92867",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/stoneridgemall/",
+    "name": "Stoneridge Mall"
+  },
+  "stonestown": {
+    "been": false,
+    "coords": "37.72721492, -122.4769552",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/stonestown/",
+    "name": "Stonestown"
+  },
   "strasbourg": {
     "been": true,
-    "coords": "48°35′00″N, 07°44′45″E",
+    "coords": "48.58385, 7.74548",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/strasbourg/",
     "name": "Strasbourg"
   },
   "stratford-city": {
     "been": true,
-    "coords": "51.545935°N, 0.009248°W",
+    "coords": "51.543998, -0.006824",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/stratfordcity/",
     "name": "Stratford City"
   },
+  "suburban-square": {
+    "been": false,
+    "coords": "40.00884, -75.28786",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/suburbansquare/",
+    "name": "Suburban Square"
+  },
+  "summerlin": {
+    "been": false,
+    "coords": "36.15009, -115.3334",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/summerlin/",
+    "name": "Summerlin"
+  },
+  "summit": {
+    "been": false,
+    "coords": "33.44726, -86.7285",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thesummit/",
+    "name": "The Summit"
+  },
+  "summit-mall": {
+    "been": false,
+    "coords": "41.13441, -81.61738",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/summitmall/",
+    "name": "Summit Mall"
+  },
   "suzhou": {
     "been": false,
-    "coords": "31°18′00″N, 120°37′10″E",
+    "coords": "31.318259900413, 120.672894716263",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/suzhou/",
     "name": "Suzhou"
   },
+  "sydney": {
+    "been": false,
+    "coords": "-33.86889, 151.20678",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://www.apple.com/au/retail/sydney/",
+    "name": "Sydney"
+  },
+  "syracuse": {
+    "been": false,
+    "coords": "43.069518399488, -76.172917443595",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/syracuse/",
+    "name": "Syracuse"
+  },
+  "taby-centrum": {
+    "been": false,
+    "coords": "59.44498, 18.07128",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://www.apple.com/se/retail/tabycentrum/",
+    "name": "Täby Centrum"
+  },
+  "tacoma-mall": {
+    "been": false,
+    "coords": "47.215559, -122.4696",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/tacomamall/",
+    "name": "Tacoma Mall"
+  },
+  "tahoe-plaza": {
+    "been": false,
+    "coords": "26.0938509250321, 119.331945776939",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/tahoeplaza/",
+    "name": "Tahoe Plaza"
+  },
+  "taikoo-li-chengdu": {
+    "been": false,
+    "coords": "30.6544851278746, 104.081184267998",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/taikoolichengdu/",
+    "name": "Taikoo Li Chengdu"
+  },
   "taipei-101": {
     "been": false,
-    "coords": "25.033641666666668, 121.56488611111111",
+    "coords": "25.033626, 121.564215",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://www.apple.com/tw/retail/taipei101/",
     "name": "Taipei 101",
     "wikidata": "Q83101"
   },
   "third-street-promenade": {
     "been": true,
-    "coords": "34.0156°N, 118.4961°W",
+    "coords": "34.01532813854, -118.495429158211",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/thirdstreetpromenade/",
     "name": "Third Street Promenade"
   },
+  "tianjin-joy-city": {
+    "been": false,
+    "coords": "39.1345750664234, 117.173759937286",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/tianjinjoycity/",
+    "name": "Tianjin Joy City"
+  },
   "tianyi-square": {
     "been": false,
-    "coords": "29.8720°N, 121.5500°E",
+    "coords": "29.8727781336629, 121.549327969551",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/tianyisquare/",
     "name": "Tianyi Square"
   },
+  "tice's-corner": {
+    "been": false,
+    "coords": "41.04183, -74.074864",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/ticescorner/",
+    "name": "Tice's Corner"
+  },
+  "topanga": {
+    "been": false,
+    "coords": "34.190237371111, -118.603103308888",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/topanga/",
+    "name": "Topanga"
+  },
+  "touchwood-centre": {
+    "been": false,
+    "coords": "52.412506, -1.778665",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/touchwoodcentre/",
+    "name": "Touchwood Centre"
+  },
   "tower-theatre": {
     "been": false,
-    "coords": "38.561346, -121.493146",
+    "coords": "34.0435491, -118.2546643",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/towertheatre/",
     "name": "Tower Theatre",
     "wikidata": "Q44879584"
   },
+  "town-square": {
+    "been": false,
+    "coords": "36.06767, -115.17607",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/townsquare/",
+    "name": "Town Square"
+  },
+  "towson-town-center": {
+    "been": false,
+    "coords": "39.404576, -76.599685",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/towsontowncenter/",
+    "name": "Towson Town Center"
+  },
+  "trafford-centre": {
+    "been": false,
+    "coords": "53.46556, -2.34683",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/traffordcentre/",
+    "name": "Trafford Centre"
+  },
+  "trinity-leeds": {
+    "been": false,
+    "coords": "53.79655, -1.54379",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/trinityleeds/",
+    "name": "Trinity Leeds"
+  },
+  "trumbull": {
+    "been": false,
+    "coords": "41.229466, -73.225779",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/trumbull/",
+    "name": "Trumbull"
+  },
+  "twelve-oaks": {
+    "been": false,
+    "coords": "42.4924, -83.4704",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/twelveoaks/",
+    "name": "Twelve Oaks"
+  },
+  "twenty-ninth-street": {
+    "been": false,
+    "coords": "40.01754, -105.25649",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/twentyninthstreet/",
+    "name": "Twenty Ninth Street"
+  },
   "tysons-corner": {
     "been": true,
-    "coords": "38°55′7″N, 77°13′47″W",
+    "coords": "38.918185, -77.2209595",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/tysonscorner/",
     "name": "Tysons Corner"
   },
   "union-square": {
     "been": true,
-    "coords": "40.735556, -73.990556",
+    "coords": "37.7886, -122.407159",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/unionsquare/",
     "name": "Union Square",
     "wikidata": "Q110007"
   },
+  "union-square-uk": {
+    "been": false,
+    "coords": "57.143454, -2.096898",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/unionsquare/",
+    "name": "Union Square UK"
+  },
+  "university-park-mall": {
+    "been": false,
+    "coords": "41.71847, -86.19101",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/universityparkmall/",
+    "name": "University Park Mall"
+  },
+  "university-park-village": {
+    "been": false,
+    "coords": "32.727707, -97.361671",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/universityparkvillage/",
+    "name": "University Park Village"
+  },
+  "university-town-center": {
+    "been": false,
+    "coords": "27.38493, -82.45268",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/universitytowncenter/",
+    "name": "University Town Center"
+  },
   "university-village": {
     "been": false,
-    "coords": "41.871, -87.659",
+    "coords": "47.6639, -122.2984",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/universityvillage/",
     "name": "University Village",
     "wikidata": "Q1865650"
   },
+  "upper-canada-mall": {
+    "been": false,
+    "coords": "44.0558, -79.48516",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/uppercanadamall/",
+    "name": "Upper Canada Mall"
+  },
   "upper-east-side": {
     "been": true,
-    "coords": "40.769°N, 73.966°W",
+    "coords": "40.773584, -73.964542",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/uppereastside/",
     "name": "Upper East Side"
   },
   "upper-west-side": {
     "been": true,
-    "coords": "40.787°N, 73.975°W",
+    "coords": "40.775072222222, -73.982595290736",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/upperwestside/",
     "name": "Upper West Side"
   },
+  "utc": {
+    "been": false,
+    "coords": "32.871867, -117.212674",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/utc/",
+    "name": "UTC"
+  },
   "val-deurope": {
     "been": false,
+    "coords": "48.85577, 2.78292",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/valdeurope/",
     "name": "Val d’Europe"
   },
+  "vala-centrum": {
+    "been": false,
+    "coords": "56.091592, 12.757733",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://www.apple.com/se/retail/valacentrum/",
+    "name": "Väla Centrum"
+  },
+  "valencia": {
+    "been": false,
+    "coords": "39.46903, -0.372431",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/valencia/",
+    "name": "Valencia"
+  },
+  "valencia-town-center": {
+    "been": false,
+    "coords": "34.41515, -118.55813",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/valenciatowncenter/",
+    "name": "Valencia Town Center"
+  },
   "valley-fair": {
     "been": true,
-    "coords": "44.241, -88.4156",
+    "coords": "37.324585, -121.946497",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/valleyfair/",
     "name": "Valley Fair",
     "wikidata": "Q7912035"
   },
+  "valley-plaza": {
+    "been": false,
+    "coords": "35.33795, -119.03271",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/valleyplaza/",
+    "name": "Valley Plaza"
+  },
   "velizy-2": {
     "been": true,
-    "coords": "48°46′52″N, 2°13′13″E",
+    "coords": "48.780381, 2.220057",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "link": "https://www.apple.com/fr/retail/velizy2/",
     "name": "Vélizy 2"
   },
   "via-del-corso": {
     "been": false,
-    "coords": "41°54′21.7″N, 12°28′41.78″E",
+    "coords": "41.9022, 12.4802",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://www.apple.com/it/retail/viadelcorso/",
     "name": "Via del Corso"
   },
   "via-rizzoli": {
     "been": false,
+    "coords": "44.49493, 11.34344",
     "country": "IT",
+    "icons": ["🇮🇹"],
     "link": "https://www.apple.com/it/retail/viarizzoli/",
     "name": "Via Rizzoli"
   },
+  "via-roma": {
+    "been": false,
+    "coords": "45.069164, 7.683394",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://www.apple.com/it/retail/viaroma/",
+    "name": "Via Roma"
+  },
+  "via-santa-fe": {
+    "been": false,
+    "coords": "19.36157, -99.2758",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://www.apple.com/mx/retail/viasantafe/",
+    "name": "Vía Santa Fe"
+  },
+  "victoria-gardens": {
+    "been": false,
+    "coords": "34.11069, -117.5335",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/victoriagardens/",
+    "name": "Victoria Gardens"
+  },
+  "village-pointe": {
+    "been": false,
+    "coords": "41.261188, -96.183078",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/villagepointe/",
+    "name": "Village Pointe"
+  },
+  "villagemall": {
+    "been": false,
+    "coords": "-22.998067, -43.35127",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://www.apple.com/br/retail/villagemall/",
+    "name": "VillageMall"
+  },
+  "vintage-faire": {
+    "been": false,
+    "coords": "37.687749808908, -121.053261792864",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/vintagefaire/",
+    "name": "Vintage Faire"
+  },
+  "walden-galleria": {
+    "been": false,
+    "coords": "42.914661, -78.762075",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/waldengalleria/",
+    "name": "Walden Galleria"
+  },
   "walnut-street": {
     "been": true,
-    "coords": "40.8173, -74.2098",
+    "coords": "39.950033333333, -75.167887789083",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/walnutstreet/",
     "name": "Walnut Street",
     "wikidata": "Q7963661"
   },
+  "walt-whitman": {
+    "been": false,
+    "coords": "40.821498, -73.410436",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/waltwhitman/",
+    "name": "Walt Whitman"
+  },
   "wangfujing": {
     "been": false,
-    "coords": "39°54′40.16″N, 116°24′18.99″E",
+    "coords": "39.9137398274544, 116.405521631241",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/wangfujing/",
     "name": "Wangfujing"
   },
+  "washington-square": {
+    "been": false,
+    "coords": "45.450701, -122.780998",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/washingtonsquare/",
+    "name": "Washington Square"
+  },
+  "waterside-shops": {
+    "been": false,
+    "coords": "26.2132, -81.8017",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/watersideshops/",
+    "name": "Waterside Shops"
+  },
+  "watford": {
+    "been": false,
+    "coords": "51.655216, -0.39291",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.apple.com/uk/retail/watford/",
+    "name": "Watford"
+  },
+  "wellington-green": {
+    "been": false,
+    "coords": "26.647028, -80.208856",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/wellingtongreen/",
+    "name": "Wellington Green"
+  },
   "west-14th-street": {
     "been": true,
-    "coords": "40.7357°N, 73.9929°W",
+    "coords": "40.7412, -74.00542",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/west14thstreet/",
     "name": "West 14th Street"
   },
+  "west-county": {
+    "been": false,
+    "coords": "38.601199, -90.447078",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/westcounty/",
+    "name": "West County"
+  },
+  "west-edmonton": {
+    "been": false,
+    "coords": "53.52232, -113.6209",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://www.apple.com/ca/retail/westedmonton/",
+    "name": "West Edmonton"
+  },
+  "west-lake": {
+    "been": false,
+    "coords": "30.2565372539495, 120.158715248108",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/westlake/",
+    "name": "West Lake"
+  },
+  "west-town-mall": {
+    "been": false,
+    "coords": "35.924375, -84.03725",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/westtownmall/",
+    "name": "West Town Mall"
+  },
+  "westchester": {
+    "been": false,
+    "coords": "41.031788, -73.760351",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thewestchester/",
+    "name": "The Westchester"
+  },
+  "westfarms": {
+    "been": false,
+    "coords": "41.722758026916, -72.764513057434",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/westfarms/",
+    "name": "Westfarms"
+  },
   "white-city": {
     "been": false,
-    "coords": "32.077777777778, 34.773888888889",
+    "coords": "51.5074, -0.22094",
     "country": "GB",
+    "icons": ["🇬🇧"],
     "link": "https://www.apple.com/uk/retail/whitecity/",
     "name": "White City",
     "wikidata": "Q159070"
   },
   "williamsburg": {
     "been": true,
-    "coords": "37.2708, -76.7069",
+    "coords": "40.71557, -73.95988",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/williamsburg/",
     "name": "Williamsburg",
     "wikidata": "Q492346"
   },
+  "willow-grove-park": {
+    "been": false,
+    "coords": "40.140456, -75.12356",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/willowgrovepark/",
+    "name": "Willow Grove Park"
+  },
   "willowbrook": {
     "been": true,
-    "coords": "40.88977° N, 74.25856° W",
+    "coords": "40.88944, -74.25861",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/willowbrook/",
     "name": "Willowbrook",
     "wikidata": "Q1898553"
   },
+  "willowbrook-mall": {
+    "been": false,
+    "coords": "29.960546845453, -95.539229502601",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/willowbrookmall/",
+    "name": "Willowbrook Mall"
+  },
+  "wonder-city": {
+    "been": false,
+    "coords": "32.011387486852, 118.759760856628",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/wondercity/",
+    "name": "Wonder City"
+  },
+  "woodfield": {
+    "been": false,
+    "coords": "42.0456619, -88.0388",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/woodfield/",
+    "name": "Woodfield"
+  },
+  "woodland": {
+    "been": false,
+    "coords": "42.9166, -85.5883",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/woodland/",
+    "name": "Woodland"
+  },
+  "woodland-hills": {
+    "been": false,
+    "coords": "36.06342, -95.88056",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/woodlandhills/",
+    "name": "Woodland Hills"
+  },
+  "woodlands": {
+    "been": false,
+    "coords": "30.1645, -95.4555",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/thewoodlands/",
+    "name": "The Woodlands"
+  },
   "world-trade-center": {
     "been": true,
-    "coords": "40.711388888889, -74.0125",
+    "coords": "40.711721, -74.011154",
     "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/worldtradecenter/",
     "name": "World Trade Center",
     "wikidata": "Q11235"
   },
   "wuhan": {
     "been": false,
-    "coords": "30.5934°N, 114.3046°E",
+    "coords": "30.5823522925964, 114.266068339348",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/wuhan/",
     "name": "Wuhan"
   },
+  "wujiaochang": {
+    "been": false,
+    "coords": "31.3020079394071, 121.513010859489",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/wujiaochang/",
+    "name": "Wujiaochang"
+  },
+  "xanadu": {
+    "been": false,
+    "coords": "40.29903, -3.92671",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://www.apple.com/es/retail/xanadu/",
+    "name": "Xanadú"
+  },
+  "xiamen-lifestyle-center": {
+    "been": false,
+    "coords": "24.5026525584399, 118.120005726814",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/xiamenlifestylecenter/",
+    "name": "Xiamen Lifestyle Center"
+  },
   "xidan-joy-city": {
     "been": false,
+    "coords": "39.90917, 116.36727",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/xidanjoycity/",
     "name": "Xidan Joy City"
   },
+  "xinjiekou": {
+    "been": false,
+    "coords": "32.048234, 118.779405",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/xinjiekou/",
+    "name": "Xinjiekou"
+  },
   "xinyi-a13": {
     "been": false,
+    "coords": "25.036067, 121.567972",
     "country": "TW",
+    "icons": ["🇹🇼"],
     "link": "https://www.apple.com/tw/retail/xinyia13/",
     "name": "Xinyi A13"
   },
   "xuanwu-lake": {
     "been": false,
-    "coords": "32.07477° N, 118.78160° E",
+    "coords": "32.0747065093858, 118.778166174889",
     "country": "CN",
+    "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/xuanwulake/",
     "name": "Xuanwu Lake"
   },
+  "yas-mall": {
+    "been": false,
+    "coords": "24.488889, 54.61",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://www.apple.com/ae/retail/yasmall/",
+    "name": "Yas Mall"
+  },
   "yeouido": {
     "been": false,
-    "coords": "37°31′26″N, 126°55′36″E",
+    "coords": "37.525, 126.92527",
     "country": "KR",
+    "icons": ["🇰🇷"],
     "link": "https://www.apple.com/kr/retail/yeouido/",
     "name": "Yeouido"
   },
   "yorkdale": {
     "been": false,
-    "coords": "43.725599°N, 79.452696°W",
+    "coords": "43.724262, -79.4543",
     "country": "CA",
+    "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/yorkdale/",
     "name": "Yorkdale"
   },
+  "zhongjie-joy-city": {
+    "been": false,
+    "coords": "41.7994393795184, 123.461056351662",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/zhongjiejoycity/",
+    "name": "Zhongjie Joy City"
+  },
+  "zhujiang-new-town": {
+    "been": false,
+    "coords": "23.1184367296021, 113.327289819717",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/zhujiangnewtown/",
+    "name": "Zhujiang New Town"
+  },
   "zorlu-center": {
     "been": false,
-    "coords": "41°4′0″N, 29°1′1″E",
+    "coords": "41.066336, 29.017109",
     "country": "TR",
+    "icons": ["🇹🇷"],
     "link": "https://www.apple.com/tr/retail/zorlucenter/",
     "name": "Zorlu Center"
   }
