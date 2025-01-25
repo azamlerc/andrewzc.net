@@ -9,6 +9,7 @@
   },
   "antwerp": {
     "been": true,
+    "city": "Antwerp",
     "coords": "51.21777778, 4.40027778",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -17,6 +18,7 @@
   },
   "barcelona": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.38277778, 2.17694444",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -25,6 +27,7 @@
   },
   "belgrade-fortress": {
     "been": true,
+    "city": "Belgrade",
     "coords": "44.82333333, 20.45027778",
     "country": "RS",
     "icons": ["🇷🇸"],
@@ -33,6 +36,7 @@
   },
   "berlin-wall": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.50444444, 13.44111111",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -41,13 +45,17 @@
   },
   "bonn": {
     "been": true,
+    "city": "Bonn",
+    "coords": "50.735277777777775, 7.102222222222222",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Bonn",
-    "name": "Bonn"
+    "name": "Bonn",
+    "wikidata": "Q586"
   },
   "boulogne-sur-mer": {
     "been": true,
+    "coords": "50.72730000, 1.60000000",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Boulogne-sur-Mer",
@@ -55,6 +63,7 @@
   },
   "bratislava": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.14388889, 17.10972222",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -63,6 +72,7 @@
   },
   "brussels": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.83300000, 4.34500000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -71,6 +81,7 @@
   },
   "campeche": {
     "been": false,
+    "coords": "19.85000000, -90.53055556",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Campeche_(city)",
@@ -78,6 +89,7 @@
   },
   "cheb": {
     "been": true,
+    "coords": "50.07944444, 12.37055556",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Cheb#Cheb_Castle",
@@ -85,6 +97,7 @@
   },
   "constantinople": {
     "been": true,
+    "city": "Istanbul",
     "coords": "41.01220000, 28.97600000",
     "country": "TR",
     "icons": ["🇹🇷"],
@@ -118,6 +131,7 @@
   },
   "enceinte-de-louis-xiii": {
     "been": true,
+    "city": "Paris",
     "coords": "48.87013400, 2.34788500",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -126,6 +140,7 @@
   },
   "enceinte-de-philippe-auguste": {
     "been": true,
+    "city": "Paris",
     "coords": "48.861972, 2.340472",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -135,6 +150,7 @@
   },
   "enceinte-de-thiers": {
     "been": true,
+    "city": "Paris",
     "coords": "48.8999, 2.34695",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -175,6 +191,7 @@
   },
   "hainburg-an-der-donau": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.14583333, 16.94611111",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -183,6 +200,7 @@
   },
   "hunger-wall": {
     "been": true,
+    "city": "Prague",
     "coords": "50.08300000, 14.39500000",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -191,6 +209,7 @@
   },
   "jerusalem": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.77666667, 35.23416667",
     "country": "IL",
     "icons": ["🇮🇱"],
@@ -215,6 +234,7 @@
   },
   "linienwall": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.18861111, 16.37805556",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -223,6 +243,7 @@
   },
   "london": {
     "been": true,
+    "city": "London",
     "coords": "51.51000000, -0.08000000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -239,6 +260,7 @@
   },
   "montreal": {
     "been": true,
+    "city": "Montréal",
     "coords": "45.50500000, -73.55500000",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -247,10 +269,12 @@
   },
   "montreuil-sur-mer": {
     "been": true,
+    "coords": "50.463611111111, 1.7633333333333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Montreuil-sur-Mer",
-    "name": "Montreuil-sur-Mer"
+    "name": "Montreuil-sur-Mer",
+    "wikidata": "Q213344"
   },
   "mur-des-fermiers-generaux": {
     "been": true,
@@ -302,6 +326,7 @@
   },
   "talinn": {
     "been": true,
+    "city": "Tallinn",
     "coords": "59.43774167, 24.74286944",
     "country": "EE",
     "icons": ["🇪🇪"],
@@ -310,6 +335,7 @@
   },
   "trier": {
     "been": true,
+    "city": "Trier",
     "coords": "49.75972222, 6.64388889",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -326,6 +352,7 @@
   },
   "vienna": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20830000, 16.37310000",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -335,6 +362,7 @@
   },
   "vietnam-memorial": {
     "been": true,
+    "city": "Washington",
     "coords": "38.89111111, -77.04777778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -351,6 +379,7 @@
   },
   "western-wall": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.77670000, 35.23450000",
     "country": "IL",
     "icons": ["🇮🇱"],

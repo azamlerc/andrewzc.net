@@ -1,6 +1,7 @@
 {
   "69th-regiment-armory": {
     "been": true,
+    "city": "New York",
     "coords": "40.74138889, -73.98416667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -9,6 +10,8 @@
   },
   "akershus-festning": {
     "been": false,
+    "city": "Oslo",
+    "coords": "59.90666667, 10.73611111",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Akershus_Fortress",
@@ -16,6 +19,7 @@
   },
   "al-fahidi-fort": {
     "been": true,
+    "city": "Dubai",
     "coords": "25.26305556, 55.29722222",
     "country": "AE",
     "icons": ["🇦🇪"],
@@ -24,6 +28,7 @@
   },
   "antwerp": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.21777778, 4.40027778",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -40,6 +45,7 @@
   },
   "baku": {
     "been": false,
+    "city": "Baku",
     "coords": "40.39527778, 49.88222222",
     "country": "AZ",
     "icons": ["🇦🇿"],
@@ -48,6 +54,7 @@
   },
   "bastion-saint-laurent": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.77449700, 4.83655800",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -56,10 +63,12 @@
   },
   "batterie-todt": {
     "been": true,
+    "coords": "50.8443484, 1.59991622",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Batterie_Todt",
-    "name": "Batterie Todt"
+    "name": "Batterie Todt",
+    "wikidata": "Q325344"
   },
   "beaufort-castle": {
     "been": false,
@@ -111,6 +120,7 @@
   },
   "castell-de-montjuic": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.36333333, 2.16611111",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -119,6 +129,7 @@
   },
   "castle-clinton": {
     "been": true,
+    "city": "New York",
     "coords": "40.70350000, -74.01680000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -127,6 +138,7 @@
   },
   "castle-williams": {
     "been": true,
+    "city": "New York",
     "coords": "40.69277778, -74.01916667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -135,6 +147,7 @@
   },
   "citadelle-de-lille": {
     "been": false,
+    "city": "Lille",
     "coords": "50.64111111, 3.04444444",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -143,13 +156,16 @@
   },
   "citadelle-de-montreuil-sur-mer": {
     "been": true,
+    "coords": "50.466944444444444, 1.76",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Citadelle_de_Montreuil-sur-Mer",
-    "name": "Citadelle de Montreuil-sur-Mer"
+    "name": "Citadelle de Montreuil-sur-Mer",
+    "wikidata": "Q2974391"
   },
   "citadelle-de-namur": {
     "been": true,
+    "city": "Namur",
     "coords": "50.45795140, 4.85873110",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -158,10 +174,12 @@
   },
   "citadelle-de-quebec": {
     "been": false,
+    "coords": "46.8074, -71.2071",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://fr.wikipedia.org/wiki/Citadelle_de_Qu%C3%A9bec",
-    "name": "Citadelle de Québec"
+    "name": "Citadelle de Québec",
+    "wikidata": "Q1093313"
   },
   "conflans": {
     "been": true,
@@ -173,6 +191,7 @@
   },
   "festung-koblenz": {
     "been": true,
+    "coords": "50.35000000, 7.60000000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Koblenz_Fortress",
@@ -180,6 +199,8 @@
   },
   "flakturm-v-stiftskaserne": {
     "been": true,
+    "city": "Berlin",
+    "coords": "52.52652200, 13.43188600",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Flak_tower#Flakturm_V_–_Stiftskaserne,_Vienna",
@@ -187,6 +208,8 @@
   },
   "flakturm-vii-augarten": {
     "been": true,
+    "city": "Berlin",
+    "coords": "52.52652200, 13.43188600",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Flak_tower#Flakturm_VII_–_Augarten,_Vienna",
@@ -194,6 +217,8 @@
   },
   "flakturm-viii-arenbergpark": {
     "been": true,
+    "city": "Berlin",
+    "coords": "52.52652200, 13.43188600",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Flak_tower#Flakturm_VIII_–_Arenbergpark,_Vienna",
@@ -201,6 +226,7 @@
   },
   "fort-1": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.22220278, 4.50119167",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -210,6 +236,7 @@
   },
   "fort-2": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.2025, 4.493889",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -218,6 +245,7 @@
   },
   "fort-3": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.186389, 4.480278",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -226,6 +254,7 @@
   },
   "fort-4": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.173611, 4.46",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -234,6 +263,7 @@
   },
   "fort-5": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.168056, 4.433056",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -242,6 +272,7 @@
   },
   "fort-6": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.165, 4.405556",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -258,6 +289,7 @@
   },
   "fort-8": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.165278, 4.348333",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -274,6 +306,7 @@
   },
   "fort-adelaide": {
     "been": false,
+    "coords": "-20.20000000, 57.50000000",
     "country": "MU",
     "icons": ["🇲🇺"],
     "link": "https://en.wikipedia.org/wiki/Mauritius",
@@ -289,6 +322,7 @@
   },
   "fort-bunker-hill": {
     "been": true,
+    "city": "Washington",
     "coords": "38.93539000, -76.98775000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -329,6 +363,7 @@
   },
   "fort-daubervilliers": {
     "been": true,
+    "city": "Paris",
     "coords": "48.91083333, 2.40611111",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -345,6 +380,7 @@
   },
   "fort-de-bicetre": {
     "been": true,
+    "city": "Paris",
     "coords": "48.80558000, 2.35498000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -353,6 +389,7 @@
   },
   "fort-de-bron": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.73218700, 4.92156700",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -361,6 +398,7 @@
   },
   "fort-de-bruissin": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.73053200, 4.73850800",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -369,6 +407,7 @@
   },
   "fort-de-champvillard": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.67125400, 4.81169000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -385,6 +424,7 @@
   },
   "fort-de-corbas": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.67762200, 4.90654300",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -393,6 +433,7 @@
   },
   "fort-de-cote-lorette": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.69840000, 4.78390000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -401,6 +442,7 @@
   },
   "fort-de-feyzin": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.67164400, 4.86690000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -409,6 +451,7 @@
   },
   "fort-de-montcorin": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.67805000, 4.80688900",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -417,6 +460,7 @@
   },
   "fort-de-montrouge": {
     "been": true,
+    "city": "Paris",
     "coords": "48.80783200, 2.32161300",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -425,6 +469,7 @@
   },
   "fort-de-perel": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.26712222, 4.29021111",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -433,6 +478,7 @@
   },
   "fort-de-russy": {
     "been": true,
+    "city": "Washington",
     "coords": "38.96305600, -77.05111100",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -441,6 +487,7 @@
   },
   "fort-de-saint-priest": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.69467000, 4.96631400",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -449,6 +496,7 @@
   },
   "fort-de-vanves": {
     "been": true,
+    "city": "Paris",
     "coords": "48.81166667, 2.28944444",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -457,6 +505,7 @@
   },
   "fort-de-villeurbanne": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.75178900, 4.86282300",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -465,6 +514,7 @@
   },
   "fort-de-vincennes": {
     "been": true,
+    "city": "Paris",
     "coords": "48.84221000, 2.44208000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -473,6 +523,7 @@
   },
   "fort-dissy": {
     "been": true,
+    "city": "Paris",
     "coords": "48.81694444, 2.26888889",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -481,6 +532,7 @@
   },
   "fort-divry": {
     "been": true,
+    "city": "Paris",
     "coords": "48.80222222, 2.39000000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -497,6 +549,7 @@
   },
   "fort-duquesne": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44163889, -80.01094444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -505,6 +558,7 @@
   },
   "fort-farnsworth": {
     "been": true,
+    "city": "Washington",
     "coords": "38.79410000, -77.07530000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -522,6 +576,7 @@
   },
   "fort-hamilton": {
     "been": true,
+    "city": "New York",
     "coords": "40.60611111, -74.03083333",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -530,6 +585,7 @@
   },
   "fort-jay": {
     "been": true,
+    "city": "New York",
     "coords": "40.69135833, -74.01600833",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -538,6 +594,7 @@
   },
   "fort-lafayette": {
     "been": true,
+    "city": "New York",
     "coords": "40.60833333, -74.03861111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -555,6 +612,7 @@
   },
   "fort-leffrinckoucke": {
     "been": true,
+    "coords": "51.05335000, 2.44711000",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Fort_des_Dunes",
@@ -562,6 +620,7 @@
   },
   "fort-liefkenshoek": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.294444, 4.285556",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -570,6 +629,7 @@
   },
   "fort-lillo": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.30438500, 4.28941000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -578,6 +638,7 @@
   },
   "fort-mason": {
     "been": false,
+    "city": "San Francisco",
     "coords": "37.80777778, -122.42972222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -597,7 +658,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Fortifications_de_Calais",
-    "name": "Fort Nieulay"
+    "name": "Fort Nieulay",
+    "wikidata": "Q86729596"
   },
   "fort-nunez-gaona": {
     "been": true,
@@ -618,6 +680,7 @@
   },
   "fort-pitt": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.4411, -80.009",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -626,6 +689,7 @@
   },
   "fort-reno": {
     "been": true,
+    "city": "Washington",
     "coords": "38.95200000, -77.07590000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -634,6 +698,7 @@
   },
   "fort-risban": {
     "been": true,
+    "coords": "50.96337278, 1.84764750",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Fort_Risban",
@@ -641,6 +706,7 @@
   },
   "fort-saint-jean": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.77057778, 4.81510278",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -657,6 +723,7 @@
   },
   "fort-sint-filips": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.25975278, 4.30770000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -672,6 +739,7 @@
   },
   "fort-slocum": {
     "been": true,
+    "city": "Washington",
     "coords": "38.96019444, -77.01080556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -697,6 +765,7 @@
   },
   "fort-stevens": {
     "been": true,
+    "city": "Washington",
     "coords": "38.96417000, -77.02889000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -705,6 +774,8 @@
   },
   "fort-tanjong-katong": {
     "been": false,
+    "city": "Singapore",
+    "coords": "1.29666667, 103.88666667",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Fort_Tanjong_Katong",
@@ -728,6 +799,7 @@
   },
   "fort-totten-(dc)": {
     "been": true,
+    "city": "Washington",
     "coords": "38.94705600, -77.00413900",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -744,6 +816,7 @@
   },
   "fort-van-bornem": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.082222, 4.234444",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -752,6 +825,7 @@
   },
   "fort-van-brasschaat": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.32888889, 4.49555556",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -760,6 +834,7 @@
   },
   "fort-van-breendonk": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.05638889, 4.34138889",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -768,6 +843,7 @@
   },
   "fort-van-broechem": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.1775, 4.618611",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -776,6 +852,7 @@
   },
   "fort-van-duffel": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.075278, 4.492222",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -784,6 +861,7 @@
   },
   "fort-van-ertbrand": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.3475, 4.426111",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -792,6 +870,7 @@
   },
   "fort-van-haasdonk": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.172778, 4.228889",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -800,6 +879,7 @@
   },
   "fort-van-kessel": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.150572, 4.627697",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -808,6 +888,7 @@
   },
   "fort-van-koningshooikt": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.083056, 4.567222",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -816,6 +897,7 @@
   },
   "fort-van-kruibeke": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.18911667, 4.32085556",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -832,6 +914,7 @@
   },
   "fort-van-liezele": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.066667, 4.284444",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -840,6 +923,7 @@
   },
   "fort-van-merksem": {
     "been": true,
+    "city": "Antwerp",
     "coords": "51.26333333, 4.45750000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -848,6 +932,7 @@
   },
   "fort-van-oelegem": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.22472222, 4.61416667",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -856,6 +941,7 @@
   },
   "fort-van-s-gravenwezel": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.26194444, 4.59000000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -864,6 +950,7 @@
   },
   "fort-van-schoten": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.285833, 4.528611",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -872,6 +959,7 @@
   },
   "fort-van-sint-katelijne-waver": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.05941111, 4.51386667",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -880,6 +968,7 @@
   },
   "fort-van-stabroek": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.342222, 4.352778",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -888,6 +977,7 @@
   },
   "fort-van-steendorp": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.127222, 4.256111",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -904,6 +994,7 @@
   },
   "fort-van-zwijndrecht": {
     "been": false,
+    "city": "Antwerp",
     "coords": "51.20833333, 4.30833333",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -912,6 +1003,7 @@
   },
   "fort-wadsworth": {
     "been": true,
+    "city": "New York",
     "coords": "40.60500000, -74.05666667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -928,6 +1020,7 @@
   },
   "fort-warren": {
     "been": false,
+    "city": "Boston",
     "coords": "42.32023333, -70.92763889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -951,6 +1044,7 @@
   },
   "forteresse-de-charleroi": {
     "been": true,
+    "city": "Charleroi",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Forteresse_de_Charleroi",
@@ -960,6 +1054,7 @@
   },
   "goree": {
     "been": true,
+    "city": "Dakar",
     "coords": "14.66694444, -17.39833333",
     "country": "SN",
     "icons": ["🇸🇳"],
@@ -976,6 +1071,7 @@
   },
   "het-steen": {
     "been": true,
+    "city": "Antwerp",
     "coords": "51.22270000, 4.39740000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -984,6 +1080,7 @@
   },
   "hochbunker-augustinerhof": {
     "been": true,
+    "city": "Trier",
     "coords": "49.7514, 6.63306",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -1087,6 +1184,7 @@
   },
   "park-avenue-armory": {
     "been": true,
+    "city": "New York",
     "coords": "40.76750000, -73.96611111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1095,6 +1193,7 @@
   },
   "porte-de-hal/hallepoort": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.83305556, 4.34472222",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -1103,6 +1202,7 @@
   },
   "qaitbay-citadel": {
     "been": true,
+    "city": "Alexandria",
     "coords": "31.21300000, 29.88520000",
     "country": "EG",
     "icons": ["🇪🇬"],
@@ -1142,6 +1242,7 @@
   },
   "suomenlinna": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.14361111, 24.98444444",
     "country": "FI",
     "icons": ["🇫🇮"],

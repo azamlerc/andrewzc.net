@@ -25,6 +25,7 @@
   },
   "akanyaru-river": {
     "been": false,
+    "city": "Kigali",
     "coords": "-2.07504000, 30.01892900",
     "countries": ["RW", "BI"],
     "icons": ["🇷🇼", "🇧🇮"],
@@ -177,6 +178,7 @@
   },
   "delaware-wedge": {
     "been": true,
+    "coords": "39.71444444, -75.78472222",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wedge_(border)",
@@ -275,6 +277,7 @@
   },
   "gaza-strip": {
     "been": false,
+    "city": "Gaza City",
     "coords": "31.51472222, 34.45416667",
     "countries": ["PS", "IL"],
     "icons": ["🇵🇸", "🇮🇱"],
@@ -435,6 +438,7 @@
   },
   "kosovo": {
     "been": false,
+    "city": "Pristina",
     "coords": "42.66666667, 21.16666667",
     "countries": ["XK", "RS"],
     "icons": ["🇽🇰", "🇷🇸"],
@@ -451,6 +455,7 @@
   },
   "kuril-islands": {
     "been": true,
+    "coords": "44.10000000, 146.70000000",
     "countries": ["RU", "JP"],
     "icons": ["🇷🇺", "🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kuril_Islands_dispute",
@@ -602,6 +607,7 @@
   },
   "northern-ireland": {
     "been": true,
+    "city": "Belfast",
     "coords": "54.59638889, -5.93000000",
     "countries": ["GB", "IE"],
     "icons": ["🇬🇧", "🇮🇪"],
@@ -618,6 +624,7 @@
   },
   "okpara-river": {
     "been": false,
+    "city": "Cotonou",
     "coords": "6.43333333, 2.55000000",
     "countries": ["BJ", "NG"],
     "icons": ["🇧🇯", "🇳🇬"],
@@ -792,6 +799,7 @@
   },
   "southern-patagonia": {
     "been": false,
+    "coords": "-49.27694444, -73.04000000",
     "countries": ["AR", "CL"],
     "icons": ["🇦🇷", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Southern_Patagonian_Ice_Field_dispute",
@@ -840,6 +848,7 @@
   },
   "texas-/-new-mexico": {
     "been": true,
+    "coords": "90.00000000, -103.00000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/103rd_meridian_west",
@@ -870,10 +879,12 @@
     "link": "https://en.wikipedia.org/wiki/Toledo_War",
     "name": "Toledo Strip",
     "states": ["OH", "MI"],
-    "strike": true
+    "strike": true,
+    "wikidata": "Q1369423"
   },
   "transnistria": {
     "been": true,
+    "city": "Tiraspol",
     "coords": "46.84027778, 29.64333333",
     "countries": ["MD", "RU"],
     "country": "MD",

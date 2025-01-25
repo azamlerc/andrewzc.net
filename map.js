@@ -17,11 +17,11 @@ loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", () => {
 			});
 			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [osm, todo, been]});
 			const baseLayers = { 'OpenStreetMap': osm };
-			const overlays = { 'Todo': todo, 'Been': been};
+			const overlays = { 'Been': been, 'Todo': todo };
 			const layerControl = L.control.layers(null, overlays).addTo(map);
 
-    	addMarkers(map, todo, places, place => place.been == false, "markerTodo");
     	addMarkers(map, been, places, place => place.been == true, "markerBeen");
+    	addMarkers(map, todo, places, place => place.been == false, "markerTodo");
 		})
 	  .catch(error => {
 	    console.error('Error loading JSON:', error);

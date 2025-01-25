@@ -1,6 +1,8 @@
 {
   "125th-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.80425900, -73.93747300",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/125th_Street_station_(IRT_Lexington_Avenue_Line)",
@@ -9,6 +11,8 @@
   },
   "12th-street-oakland": {
     "been": true,
+    "city": "Oakland",
+    "coords": "37.80360800, -122.27200600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/12th_Street_Oakland_City_Center_station",
@@ -17,6 +21,8 @@
   },
   "145th-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.82404000, -73.94476900",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/145th_Street_station_(IND_lines)",
@@ -25,6 +31,8 @@
   },
   "19th-street-oakland": {
     "been": true,
+    "city": "Oakland",
+    "coords": "37.80786900, -122.26898000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/19th_Street_Oakland_station",
@@ -33,6 +41,7 @@
   },
   "42nd-street–port-authority": {
     "been": true,
+    "city": "New York",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/42nd_Street–Port_Authority_Bus_Terminal_station",
@@ -42,6 +51,8 @@
   },
   "50th-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.76227600, -73.98613900",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/50th_Street_station_(IND_lines)",
@@ -50,30 +61,41 @@
   },
   "59th-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.762941, -73.969752",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lexington_Avenue/59th_Street_station",
     "name": "59th Street",
-    "reference": "New York"
+    "reference": "New York",
+    "wikidata": "Q55602838"
   },
   "7-stations": {
     "been": false,
+    "city": "Taipei",
+    "coords": "25.0375, 121.5625",
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Taipei_Metro",
     "name": "7 stations",
-    "reference": "Taipei"
+    "reference": "Taipei",
+    "wikidata": "Q714810"
   },
   "86th-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.779573, -73.957688",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lexington_Avenue/86th_Street_station",
     "name": "86th Street",
-    "reference": "New York"
+    "reference": "New York",
+    "wikidata": "Q58814788"
   },
   "ampang-park": {
     "been": false,
+    "city": "Kuala Lumpur",
+    "coords": "3.15972222, 101.71861111",
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Ampang_Park_MRT_station",
@@ -82,14 +104,19 @@
   },
   "archer-avenue-line": {
     "been": true,
+    "city": "New York",
+    "coords": "40.734457, -73.873817",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Archer_Avenue_lines",
     "name": "Archer Avenue Line",
-    "reference": "New York"
+    "reference": "New York",
+    "wikidata": "Q722123"
   },
   "ashby": {
     "been": false,
+    "city": "Atlanta",
+    "coords": "33.75634600, -84.41755600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Ashby_station_(MARTA)",
@@ -98,6 +125,8 @@
   },
   "bakerloo-line": {
     "been": true,
+    "city": "London",
+    "coords": "51.59250000, -0.33555556",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Bakerloo_line",
@@ -106,22 +135,29 @@
   },
   "blue-line": {
     "been": false,
+    "city": "Bangkok",
     "country": "TH",
     "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Blue_Line_(Bangkok)",
     "name": "Blue Line",
-    "reference": "Bangkok"
+    "reference": "Bangkok",
+    "wikidata": "Q1726049"
   },
   "borough-hall": {
     "been": true,
+    "city": "New York",
+    "coords": "40.6904, -73.99",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Borough_Hall/Court_Street_station",
     "name": "Borough Hall",
-    "reference": "New York"
+    "reference": "New York",
+    "wikidata": "Q15292812"
   },
   "bukit-bintang": {
     "been": false,
+    "city": "Kuala Lumpur",
+    "coords": "3.14650278, 101.71094722",
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Bukit_Bintang_MRT_station",
@@ -130,6 +166,8 @@
   },
   "centraal-station": {
     "been": true,
+    "city": "Antwerp",
+    "coords": "51.21722222, 4.42111111",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station",
@@ -138,14 +176,19 @@
   },
   "central-line": {
     "been": true,
+    "city": "London",
+    "coords": "51.569722, -0.437222",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Central_line_(London_Underground)",
     "name": "Central Line",
-    "reference": "London"
+    "reference": "London",
+    "wikidata": "Q205355"
   },
   "charlevoix": {
     "been": true,
+    "city": "Montréal",
+    "coords": "45.47833333, -73.56944444",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Charlevoix_station_(Montreal)",
@@ -154,6 +197,8 @@
   },
   "city-hall": {
     "been": true,
+    "city": "New York",
+    "coords": "40.71324000, -74.00708200",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/City_Hall_station_(BMT_Broadway_Line)",
@@ -163,14 +208,18 @@
   },
   "city-loop": {
     "been": false,
+    "city": "Melbourne",
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/City_Loop",
     "name": "City Loop",
-    "reference": "Melbourne"
+    "reference": "Melbourne",
+    "wikidata": "Q5123288"
   },
   "crown-heights–utica-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.66875800, -73.93120800",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Crown_Heights–Utica_Avenue_station",
@@ -179,6 +228,7 @@
   },
   "dadong": {
     "been": false,
+    "coords": "22.62527778, 120.36305556",
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Dadong_metro_station",
@@ -187,6 +237,7 @@
   },
   "de-leglise": {
     "been": true,
+    "city": "Montréal",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/De_L%27Église_station",
@@ -195,14 +246,18 @@
   },
   "dunsmuir": {
     "been": false,
+    "city": "Vancouver",
+    "coords": "49.282981, -123.11542",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Dunsmuir_Tunnel",
     "name": "Dunsmuir",
-    "reference": "Vancouver"
+    "reference": "Vancouver",
+    "wikidata": "Q1266265"
   },
   "eighth-avenue-line-": {
     "been": true,
+    "city": "New York",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/IND_Eighth_Avenue_Line (72 St to 103 St)",
@@ -211,6 +266,8 @@
   },
   "federal-circle": {
     "been": true,
+    "city": "New York",
+    "coords": "40.66104300, -73.82945500",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/AirTrain_JFK",
@@ -219,14 +276,19 @@
   },
   "fifth-avenue/53rd-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.6436, -74.0155",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fifth_Avenue/53rd_Street_station",
     "name": "Fifth Avenue/53rd Street",
-    "reference": "New York"
+    "reference": "New York",
+    "wikidata": "Q2007665"
   },
   "fulton-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.71027778, -74.00777778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fulton_Street_station_(New_York_City_Subway)",
@@ -235,6 +297,8 @@
   },
   "gare-du-midi": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.83674700, 4.33722800",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Gare_du_Midi_(métro_de_Bruxelles)",
@@ -243,6 +307,8 @@
   },
   "ginza-itchome": {
     "been": true,
+    "city": "Tokyo",
+    "coords": "35.67434600, 139.76704700",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Ginza-itchōme_Station",
@@ -251,6 +317,8 @@
   },
   "grands-boulevards": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.87142600, 2.34434200",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Grands_Boulevards_station",
@@ -259,6 +327,8 @@
   },
   "gun-hill-road": {
     "been": true,
+    "city": "New York",
+    "coords": "40.87700000, -73.86700000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Gun_Hill_Road_station_(IRT_White_Plains_Road_Line)",
@@ -268,6 +338,8 @@
   },
   "harvard": {
     "been": true,
+    "city": "Boston",
+    "coords": "42.37340000, -71.11930000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Harvard_station",
@@ -276,14 +348,19 @@
   },
   "island-line": {
     "been": false,
+    "city": "Hong Kong",
+    "coords": "22.2813, 114.1287",
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Island_line_(MTR)",
     "name": "Island Line",
-    "reference": "Hong Kong"
+    "reference": "Hong Kong",
+    "wikidata": "Q989316"
   },
   "jubilee-line": {
     "been": true,
+    "city": "London",
+    "coords": "51.61944444, -0.30277778",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Jubilee_line",
@@ -292,6 +369,8 @@
   },
   "kampung-bandan": {
     "been": false,
+    "city": "Jakarta",
+    "coords": "-6.13280000, 106.82850000",
     "country": "ID",
     "icons": ["🇮🇩"],
     "link": "https://en.wikipedia.org/wiki/Kampung_Bandan_railway_station",
@@ -300,6 +379,7 @@
   },
   "kenchomae": {
     "been": false,
+    "coords": "34.69083333, 135.18388889",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kenchōmae_Station_(Hyōgo)",
@@ -308,6 +388,8 @@
   },
   "king-edward": {
     "been": false,
+    "city": "Vancouver",
+    "coords": "49.24916667, -123.11583333",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/King_Edward_station",
@@ -316,6 +398,8 @@
   },
   "kingston-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.66937600, -73.94215100",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kingston_Avenue_station",
@@ -324,14 +408,18 @@
   },
   "kropcke": {
     "been": false,
+    "coords": "52.37441081143781, 9.738757942570114",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Kröpcke",
     "name": "Kröpcke",
-    "reference": "Hannover"
+    "reference": "Hannover",
+    "wikidata": "Q884221"
   },
   "lexington-avenue/63rd-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.76464900, -73.96639800",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lexington_Avenue–63rd_Street_station",
@@ -340,14 +428,17 @@
   },
   "line-m3": {
     "been": false,
+    "city": "Milan",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_3",
     "name": "Line M3",
-    "reference": "Milan"
+    "reference": "Milan",
+    "wikidata": "Q2519355"
   },
   "line-u3": {
     "been": true,
+    "city": "Vienna",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/U3_(Vienna_U-Bahn)",
@@ -356,6 +447,8 @@
   },
   "lines-l9-&-l10": {
     "been": true,
+    "city": "Barcelona",
+    "coords": "41.40671667, 2.14902778",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Metro_line_9",
@@ -364,6 +457,8 @@
   },
   "machiya": {
     "been": false,
+    "city": "Tokyo",
+    "coords": "35.74240000, 139.78160000",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Machiya_Station",
@@ -372,6 +467,8 @@
   },
   "makuharitoyosuna": {
     "been": false,
+    "city": "Tokyo",
+    "coords": "35.65790000, 140.02720000",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Makuharitoyosuna_Station",
@@ -380,6 +477,7 @@
   },
   "marienplatz": {
     "been": false,
+    "coords": "48.13722222, 11.57527778",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Munich_Marienplatz_station",
@@ -388,6 +486,8 @@
   },
   "merode": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.83944444, 4.39777778",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Merode_station",
@@ -396,6 +496,8 @@
   },
   "misasagi": {
     "been": false,
+    "city": "Kyoto",
+    "coords": "34.99612222, 135.80162222",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Misasagi_Station",
@@ -404,6 +506,8 @@
   },
   "nanpu-bridge": {
     "been": false,
+    "city": "Shanghai",
+    "coords": "31.20850400, 121.49972500",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Nanpu_Bridge_station",
@@ -412,6 +516,8 @@
   },
   "ninth-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.64657500, -73.99467400",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Ninth_Avenue_station",
@@ -421,6 +527,8 @@
   },
   "north-station": {
     "been": true,
+    "city": "Boston",
+    "coords": "42.36523000, -71.06012000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_Station_(subway)",
@@ -429,6 +537,8 @@
   },
   "northern-line": {
     "been": true,
+    "city": "London",
+    "coords": "51.65055556, -0.19416667",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Northern_line",
@@ -437,6 +547,8 @@
   },
   "nostrand-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.66980000, -73.95052000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Nostrand_Avenue_station_(IRT_Eastern_Parkway_Line)",
@@ -445,6 +557,8 @@
   },
   "pentagon": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.86916667, -77.05388889",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pentagon_station",
@@ -453,6 +567,8 @@
   },
   "persiaran-klcc": {
     "been": false,
+    "city": "Kuala Lumpur",
+    "coords": "3.15666667, 101.71722222",
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Persiaran_KLCC_MRT_station",
@@ -461,6 +577,8 @@
   },
   "piccadilly-line": {
     "been": true,
+    "city": "London",
+    "coords": "51.65166667, -0.14888889",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Piccadilly_line",
@@ -469,6 +587,7 @@
   },
   "plarrer-": {
     "been": false,
+    "coords": "49.44810000, 11.06490000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Plärrer_(Nuremberg_U-Bahn)",
@@ -477,6 +596,8 @@
   },
   "porter": {
     "been": true,
+    "city": "Boston",
+    "coords": "42.38833333, -71.11902778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Porter_station",
@@ -485,14 +606,19 @@
   },
   "promenade": {
     "been": false,
+    "city": "Singapore",
+    "coords": "1.2925, 103.86083333333333",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Promenade_MRT_station",
     "name": "Promenade",
-    "reference": "Singapore"
+    "reference": "Singapore",
+    "wikidata": "Q1089363"
   },
   "queensboro-plaza": {
     "been": true,
+    "city": "New York",
+    "coords": "40.75065278, -73.94034444",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Queensboro_Plaza_station",
@@ -501,6 +627,8 @@
   },
   "rajska-zahrada": {
     "been": true,
+    "city": "Prague",
+    "coords": "50.10666667, 14.56055556",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Rajská_zahrada_(Prague_Metro)",
@@ -509,6 +637,8 @@
   },
   "rosslyn": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.89603100, -77.07184600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rosslyn_station",
@@ -517,6 +647,7 @@
   },
   "sannomiya": {
     "been": false,
+    "coords": "34.69317222, 135.19555000",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kobe-Sannomiya_Station",
@@ -525,6 +656,8 @@
   },
   "sant'agostino": {
     "been": false,
+    "city": "Milan",
+    "coords": "45.45833333, 9.16972222",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Sant'Agostino_(Milan_Metro)",
@@ -533,6 +666,8 @@
   },
   "schloßstraße": {
     "been": true,
+    "city": "Berlin",
+    "coords": "52.46083333, 13.32444444",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Schloßstraße_(Berlin_U-Bahn)",
@@ -541,6 +676,8 @@
   },
   "sekime-seiiku": {
     "been": false,
+    "city": "Ōsaka",
+    "coords": "34.71276111, 135.54646389",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Sekime-Seiiku_Station",
@@ -549,6 +686,8 @@
   },
   "seventh-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.76295900, -73.98189100",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seventh_Avenue_station_(IND_lines)",
@@ -557,6 +696,8 @@
   },
   "snowdon": {
     "been": true,
+    "city": "Montréal",
+    "coords": "45.48555556, -73.62805556",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Snowdon_station",
@@ -565,6 +706,8 @@
   },
   "stevens": {
     "been": false,
+    "city": "Singapore",
+    "coords": "1.32006900, 103.82599700",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Stevens_MRT_station",
@@ -573,6 +716,8 @@
   },
   "t-centralen": {
     "been": true,
+    "city": "Stockholm",
+    "coords": "59.33166667, 18.06083333",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/T-Centralen_metro_station",
@@ -581,14 +726,18 @@
   },
   "thomson-east-coast-line": {
     "been": false,
+    "city": "Singapore",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Thomson–East_Coast_MRT_line",
     "name": "Thomson-East Coast Line",
-    "reference": "Singapore"
+    "reference": "Singapore",
+    "wikidata": "Q7795883"
   },
   "to-kwa-wan": {
     "been": false,
+    "city": "Hong Kong",
+    "coords": "22.31720000, 114.18760000",
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/To_Kwa_Wan_Station",
@@ -597,6 +746,8 @@
   },
   "toots-thielemans": {
     "been": false,
+    "city": "Brussels",
+    "coords": "50.83972200, 4.34166700",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Toots_Thielemans_(métro_de_Bruxelles)",
@@ -605,6 +756,8 @@
   },
   "town-hall": {
     "been": false,
+    "city": "Sydney",
+    "coords": "-33.87368190, 151.20475790",
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Town_Hall_railway_station,_Sydney",
@@ -613,6 +766,8 @@
   },
   "tsing-yi": {
     "been": true,
+    "city": "Hong Kong",
+    "coords": "22.35840000, 114.10700000",
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tsing_Yi_Station",
@@ -621,6 +776,8 @@
   },
   "west-8th-street–ny-aquarium-": {
     "been": true,
+    "city": "New York",
+    "coords": "40.57617778, -73.97580000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Eighth_Street–New_York_Aquarium_station",
@@ -629,6 +786,8 @@
   },
   "west-fourth-street": {
     "been": true,
+    "city": "New York",
+    "coords": "40.73168200, -74.00094500",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Fourth_Street–Washington_Square_station",
@@ -637,6 +796,8 @@
   },
   "weststation": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.84888889, 4.32083333",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels-West_station",
@@ -645,14 +806,19 @@
   },
   "wilshire/vermont": {
     "been": false,
+    "city": "Los Angeles",
+    "coords": "44.00000000, -72.70000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wilshire/Vermont_station",
     "name": "Wilshire/Vermont",
-    "reference": "Los Angeles"
+    "reference": "Los Angeles",
+    "wikidata": "Q111710880"
   },
   "wilson-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.68850000, -73.90440000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wilson_Avenue_station",

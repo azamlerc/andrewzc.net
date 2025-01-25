@@ -1,6 +1,7 @@
 {
   "163rd-street–amsterdam-avenue": {
     "been": true,
+    "city": "New York",
     "coords": "40.83686600, -73.94013400",
     "countries": ["US", "NL"],
     "icons": ["🇺🇸", "🇳🇱"],
@@ -16,6 +17,7 @@
   },
   "alabama-avenue": {
     "been": true,
+    "city": "New York",
     "coords": "40.67683000, -73.90000800",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -32,6 +34,7 @@
   },
   "anvers": {
     "been": true,
+    "city": "Paris",
     "coords": "48.88278, 2.34472",
     "countries": ["FR", "BE"],
     "icons": ["🇫🇷", "🇧🇪"],
@@ -39,7 +42,8 @@
     "name": "Anvers"
   },
   "argentine": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.875533092935, 2.2893216639617",
     "countries": ["FR", "AR"],
     "icons": ["🇫🇷", "🇦🇷"],
@@ -48,6 +52,7 @@
   },
   "avenida-de-america": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.43803500, -3.67668930",
     "countries": ["ES", "US"],
     "icons": ["🇪🇸", "🇺🇸"],
@@ -55,7 +60,8 @@
     "name": "Avenida de América"
   },
   "barcelone": {
-    "been": true,
+    "been": false,
+    "city": "Tunis",
     "coords": "36.79651360, 10.18032260",
     "countries": ["TN", "ES"],
     "icons": ["🇹🇳", "🇪🇸"],
@@ -64,6 +70,7 @@
   },
   "belgica": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.86777778, 4.33611111",
     "countries": ["ES", "BE"],
     "country": "BE",
@@ -72,7 +79,8 @@
     "name": "Belgica"
   },
   "belorusskaya": {
-    "been": false,
+    "been": true,
+    "city": "Moscow",
     "coords": "55.77670000, 37.58350000",
     "countries": ["RU", "BY"],
     "icons": ["🇷🇺", "🇧🇾"],
@@ -80,14 +88,15 @@
     "name": "Belorusskaya"
   },
   "berliner-platz": {
-    "been": true,
+    "been": false,
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Berliner_Platz_(Stuttgart)",
     "name": "Berliner Platz"
   },
   "bilbao": {
-    "been": false,
+    "been": true,
+    "city": "Madrid",
     "coords": "40.42905430, -3.70218160",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -95,7 +104,8 @@
     "name": "Bilbao"
   },
   "bir-hakeim": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.85391700, 2.28933200",
     "countries": ["FR", "LY"],
     "icons": ["🇫🇷", "🇱🇾"],
@@ -103,7 +113,8 @@
     "name": "Bir-Hakeim"
   },
   "bologna": {
-    "been": true,
+    "been": false,
+    "city": "Rome",
     "coords": "41.91333333, 12.52055556",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -112,13 +123,15 @@
   },
   "boston-manor": {
     "been": true,
+    "coords": "51.49550000, -0.32520000",
     "countries": ["GB", "US"],
     "icons": ["🇬🇧", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Boston_Manor_tube_station",
     "name": "Boston Manor"
   },
   "buenos-aires": {
-    "been": false,
+    "been": true,
+    "city": "Buenos Aires",
     "coords": "40.39156170, -3.65390840",
     "countries": ["ES", "AR"],
     "icons": ["🇪🇸", "🇦🇷"],
@@ -127,6 +140,7 @@
   },
   "bukharestskaya": {
     "been": false,
+    "city": "Saint Petersburg",
     "coords": "59.88361111, 30.36944444",
     "countries": ["RU", "RO"],
     "icons": ["🇷🇺", "🇷🇴"],
@@ -135,6 +149,7 @@
   },
   "california": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.92222222, -87.69722222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -143,6 +158,7 @@
   },
   "canada-water": {
     "been": true,
+    "city": "London",
     "coords": "51.49703056, -0.04825278",
     "countries": ["GB", "CA"],
     "icons": ["🇬🇧", "🇨🇦"],
@@ -151,6 +167,7 @@
   },
   "canberra": {
     "been": false,
+    "city": "Singapore",
     "coords": "1.44305556, 103.82972222",
     "countries": ["SG", "AU"],
     "icons": ["🇸🇬", "🇦🇺"],
@@ -158,23 +175,46 @@
     "name": "Canberra"
   },
   "chile-espana": {
-    "been": true,
+    "been": false,
     "countries": ["CL", "ES"],
     "icons": ["🇨🇱", "🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Chile_España_(estación)",
     "name": "Chile España"
   },
   "chinatown": {
-    "been": true,
+    "been": false,
+    "city": "Boston",
     "coords": "42.35220000, -71.06270000",
+    "countries": ["SG", "CN"],
+    "icons": ["🇸🇬", "🇨🇳"],
+    "info": "(MRT)",
+    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
+    "name": "Chinatown"
+  },
+  "chinatown-(mbta)": {
+    "been": true,
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
-    "info": "(SEPTA)",
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
+    "name": "Chinatown (MBTA)"
+  },
+  "chinatown-(mrt)": {
+    "been": false,
+    "countries": ["SG", "CN"],
+    "icons": ["🇸🇬", "🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
+    "name": "Chinatown (MRT)"
+  },
+  "chinatown-(septa)": {
+    "been": true,
+    "countries": ["US", "CN"],
+    "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
-    "name": "Chinatown"
+    "name": "Chinatown (SEPTA)"
   },
   "chinatown–rose-pak": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.79480600, -122.40808200",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
@@ -183,15 +223,16 @@
     "name": "Chinatown–Rose Pak"
   },
   "colombia": {
-    "been": false,
-    "coords": "4.58333333, -74.06666667",
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.45630000, -3.67686000",
     "countries": ["ES", "CO"],
     "icons": ["🇪🇸", "🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Colombia",
     "name": "Colombia"
   },
   "corso-italia": {
-    "been": true,
+    "been": false,
     "coords": "45.40416667, -75.71444444",
     "countries": ["CA", "IT"],
     "icons": ["🇨🇦", "🇮🇹"],
@@ -199,7 +240,8 @@
     "name": "Corso Italia"
   },
   "cyprus": {
-    "been": false,
+    "been": true,
+    "city": "London",
     "coords": "51.50840000, 0.06410000",
     "countries": ["GB", "CY"],
     "icons": ["🇬🇧", "🇨🇾"],
@@ -208,6 +250,7 @@
   },
   "danube": {
     "been": true,
+    "city": "Paris",
     "coords": "48.88180772, 2.39420146",
     "countries": ["FR", "AT"],
     "icons": ["🇫🇷", "🇦🇹"],
@@ -215,7 +258,8 @@
     "name": "Danube"
   },
   "dover": {
-    "been": true,
+    "been": false,
+    "city": "Singapore",
     "coords": "1.31131389, 103.77865833",
     "countries": ["SG", "GB"],
     "icons": ["🇸🇬", "🇬🇧"],
@@ -232,6 +276,7 @@
   },
   "ecuador": {
     "been": false,
+    "city": "Quito",
     "coords": "-0.22000000, -78.51194444",
     "countries": ["CL", "EC"],
     "icons": ["🇨🇱", "🇪🇨"],
@@ -240,6 +285,7 @@
   },
   "espanya": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.43333333, -3.70000000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -248,6 +294,7 @@
   },
   "estacio-de-franca": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.38388889, 2.18611111",
     "countries": ["ES", "FR"],
     "icons": ["🇪🇸", "🇫🇷"],
@@ -255,7 +302,7 @@
     "name": "Estacío de França"
   },
   "etiopia": {
-    "been": true,
+    "been": false,
     "countries": ["MX", "ET"],
     "icons": ["🇲🇽", "🇪🇹"],
     "link": "https://es.wikipedia.org/wiki/Etiopía-Plaza_de_la_Transparencia_(estación)",
@@ -263,6 +310,7 @@
   },
   "europe": {
     "been": true,
+    "city": "Paris",
     "coords": "48.87882100, 2.32238000",
     "countries": ["FR", "EU"],
     "icons": ["🇫🇷", "🇪🇺"],
@@ -270,7 +318,8 @@
     "name": "Europe"
   },
   "finlyandsky-vokzal": {
-    "been": true,
+    "been": false,
+    "city": "Saint Petersburg",
     "coords": "59.95555556, 30.35666667",
     "countries": ["RU", "FI"],
     "icons": ["🇷🇺", "🇫🇮"],
@@ -278,7 +327,8 @@
     "name": "Finlyandsky Vokzal"
   },
   "florenc": {
-    "been": false,
+    "been": true,
+    "city": "Prague",
     "coords": "50.09100000, 14.43900000",
     "countries": ["CZ", "IT"],
     "icons": ["🇨🇿", "🇮🇹"],
@@ -287,6 +337,7 @@
   },
   "florence": {
     "been": false,
+    "city": "Los Angeles",
     "coords": "33.97480000, -118.24300000",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -296,13 +347,14 @@
   "florida": {
     "been": false,
     "coords": "28.00000000, -82.00000000",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Estación_de_Florida",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
     "name": "Florida"
   },
   "gallery-place–chinatown": {
     "been": true,
+    "city": "Washington",
     "coords": "38.89888889, -77.02166667",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
@@ -310,7 +362,7 @@
     "name": "Gallery Place–Chinatown"
   },
   "gare-dausterlitz": {
-    "been": false,
+    "been": true,
     "countries": ["FR", "AT"],
     "icons": ["🇫🇷", "🇦🇹"],
     "link": "https://fr.wikipedia.org/wiki/Gare_d%27Austerlitz_(métro_de_Paris)",
@@ -318,6 +370,7 @@
   },
   "georgia-avenue–petworth": {
     "been": true,
+    "city": "Washington",
     "coords": "38.93611200, -77.02439500",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -333,7 +386,7 @@
     "name": "Gibraltar"
   },
   "grecia": {
-    "been": true,
+    "been": false,
     "coords": "10.0693118, -84.3135805",
     "countries": ["CL", "GR"],
     "icons": ["🇨🇱", "🇬🇷"],
@@ -341,7 +394,8 @@
     "name": "Grecia"
   },
   "grønland": {
-    "been": false,
+    "been": true,
+    "city": "Oslo",
     "coords": "59.91305556, 10.75805556",
     "countries": ["NO", "GL"],
     "icons": ["🇳🇴", "🇬🇱"],
@@ -356,14 +410,17 @@
   },
   "harlem": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.87349000, -87.80696100",
+    "countries": ["US", "NL"],
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Harlem_station_(CTA_Blue_Line_Forest_Park_branch)",
     "name": "Harlem"
   },
   "indiana": {
-    "been": true,
+    "been": false,
+    "city": "Los Angeles",
     "coords": "34.03430000, -118.19220000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -372,7 +429,8 @@
   },
   "international-district/chinatown": {
     "been": true,
-    "coords": "37.794806, -122.408082",
+    "city": "Seattle",
+    "coords": "47.598333, -122.328056",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/International_District/Chinatown_station",
@@ -394,7 +452,7 @@
     "name": "Jamaica"
   },
   "jamaica–179th-street": {
-    "been": false,
+    "been": true,
     "coords": "40.71245900, -73.78448000",
     "countries": ["US", "JM"],
     "icons": ["🇺🇸", "🇯🇲"],
@@ -402,7 +460,8 @@
     "name": "Jamaica–179th Street"
   },
   "javastraat": {
-    "been": false,
+    "been": true,
+    "city": "Amsterdam",
     "coords": "52.36375806, 4.93710324",
     "countries": ["NL", "ID"],
     "icons": ["🇳🇱", "🇮🇩"],
@@ -411,6 +470,7 @@
   },
   "jordan": {
     "been": false,
+    "city": "Hong Kong",
     "coords": "22.30490000, 114.17180000",
     "countries": ["HK", "JO"],
     "icons": ["🇭🇰", "🇯🇴"],
@@ -418,7 +478,8 @@
     "name": "Jordan"
   },
   "jourdain": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.87490790, 2.38927826",
     "countries": ["FR", "JO"],
     "icons": ["🇫🇷", "🇯🇴"],
@@ -427,6 +488,7 @@
   },
   "juarez": {
     "been": false,
+    "city": "El Paso",
     "coords": "31.745, -106.485",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -438,18 +500,21 @@
     "countries": ["FI", "ES-CN"],
     "icons": ["🇫🇮", "🇮🇨"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Helsinki",
-    "name": "Kanariankatu"
+    "name": "Kanariankatu",
+    "wikidata": "Q1192334"
   },
   "kazansky-vokzal": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.77333300, 37.65638900",
     "country": "RU",
-    "icons": ["🇷🇺", "🚉"],
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Kazansky_railway_station",
     "name": "Kazansky Vokzal"
   },
   "kitay-gorod": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.75530000, 37.63330000",
     "countries": ["RU", "CN"],
     "icons": ["🇷🇺", "🇨🇳"],
@@ -457,7 +522,8 @@
     "name": "Kitay-Gorod"
   },
   "kiyevskaya": {
-    "been": false,
+    "been": true,
+    "city": "Moscow",
     "coords": "55.74420000, 37.56450000",
     "countries": ["RU", "UA"],
     "icons": ["🇷🇺", "🇺🇦"],
@@ -466,6 +532,7 @@
   },
   "kyivska": {
     "been": false,
+    "city": "Kharkiv",
     "coords": "50.00115278, 36.27024167",
     "country": "UA",
     "icons": ["🇺🇦"],
@@ -482,14 +549,16 @@
   },
   "leningradsky-vokzal": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.77611100, 37.65527800",
     "country": "RU",
-    "icons": ["🇷🇺", "🚉"],
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Leningradsky_railway_station",
     "name": "Leningradsky Vokzal"
   },
   "liege": {
-    "been": false,
+    "been": true,
+    "city": "Liège",
     "coords": "48.87962600, 2.32698300",
     "countries": ["FR", "BE"],
     "icons": ["🇫🇷", "🇧🇪"],
@@ -498,6 +567,7 @@
   },
   "lima": {
     "been": false,
+    "city": "Lima",
     "coords": "-12.04333333, -77.02833333",
     "countries": ["IT", "PE"],
     "icons": ["🇮🇹", "🇵🇪"],
@@ -506,6 +576,7 @@
   },
   "liverpool-street": {
     "been": true,
+    "city": "London",
     "coords": "51.51860000, -0.08130000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -517,17 +588,22 @@
     "countries": ["HU", "GB"],
     "icons": ["🇭🇺", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Szeged",
-    "name": "Londoni körút"
+    "name": "Londoni körút",
+    "wikidata": "Q833824"
   },
   "luxembourg": {
     "been": true,
+    "city": "Luxembourg",
+    "coords": "48.846667, 2.340278",
     "countries": ["BE", "LU"],
     "icons": ["🇧🇪", "🇱🇺"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Luxembourg",
-    "name": "Luxembourg"
+    "name": "Luxembourg",
+    "wikidata": "Q1772325"
   },
   "maryland": {
-    "been": true,
+    "been": false,
+    "city": "London",
     "coords": "51.54600000, 0.00590000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -536,6 +612,8 @@
   },
   "mexikoi-ut": {
     "been": true,
+    "city": "Budapest",
+    "coords": "47.51940000, 19.09110000",
     "countries": ["HU", "MX"],
     "icons": ["🇭🇺", "🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Mexikói_út_metro_station",
@@ -543,6 +621,7 @@
   },
   "mexikoplatz": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.22657000, 16.40470000",
     "countries": ["AT", "MX"],
     "icons": ["🇦🇹", "🇲🇽"],
@@ -565,7 +644,9 @@
     "name": "Minnesota Avene"
   },
   "minnesota-avenue": {
-    "been": false,
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89860000, -76.94690000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Minnesota_Avenue_station",
@@ -573,6 +654,7 @@
   },
   "minska": {
     "been": false,
+    "city": "Kyiv",
     "coords": "50.51222222, 30.49861111",
     "countries": ["UA", "BY"],
     "icons": ["🇺🇦", "🇧🇾"],
@@ -581,6 +663,8 @@
   },
   "monaco": {
     "been": true,
+    "city": "Monaco",
+    "coords": "50.87243600, 4.28991800",
     "countries": ["BE", "MC"],
     "icons": ["🇧🇪", "🇲🇨"],
     "link": "https://fr.wikipedia.org/wiki/Ligne_82_du_tramway_de_Bruxelles",
@@ -588,14 +672,16 @@
   },
   "moskovsky-vokzal": {
     "been": true,
+    "city": "Saint Petersburg",
     "coords": "59.92972222, 30.36222222",
     "country": "RU",
-    "icons": ["🇷🇺", "🚉"],
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moskovsky_railway_station_(Saint_Petersburg)",
     "name": "Moskovsky Vokzal"
   },
   "mount-lebanon": {
-    "been": false,
+    "been": true,
+    "city": "Pittsburgh",
     "coords": "40.37500000, -80.05000000",
     "countries": ["US", "LB"],
     "icons": ["🇺🇸", "🇱🇧"],
@@ -603,7 +689,9 @@
     "name": "Mount Lebanon"
   },
   "nagyvarad-ter-(oradea)": {
-    "been": false,
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.47911000, 19.08899000",
     "countries": ["HU", "RO"],
     "icons": ["🇭🇺", "🇷🇴"],
     "link": "https://en.m.wikipedia.org/wiki/Nagyvárad_tér_metro_station",
@@ -611,6 +699,7 @@
   },
   "namur": {
     "been": true,
+    "city": "Namur",
     "coords": "45.49489000, -73.65288000",
     "countries": ["CA", "BE"],
     "icons": ["🇨🇦", "🇧🇪"],
@@ -619,6 +708,7 @@
   },
   "new-york-ave–florida-ave-": {
     "been": true,
+    "city": "Washington",
     "coords": "38.90702530, -77.00315280",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -626,7 +716,8 @@
     "name": "New York Ave–Florida Ave "
   },
   "newkirk-avenue–little-haiti": {
-    "been": false,
+    "been": true,
+    "city": "New York",
     "coords": "40.63991200, -73.94846000",
     "countries": ["US", "HT"],
     "icons": ["🇺🇸", "🇭🇹"],
@@ -635,6 +726,7 @@
   },
   "oporto": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.38846810, -3.73132140",
     "countries": ["ES", "PT"],
     "icons": ["🇪🇸", "🇵🇹"],
@@ -642,7 +734,8 @@
     "name": "Oporto"
   },
   "palats-ukraina": {
-    "been": true,
+    "been": false,
+    "city": "Kyiv",
     "coords": "50.42083333, 30.52083333",
     "country": "UA",
     "icons": ["🇺🇦"],
@@ -650,7 +743,8 @@
     "name": "Palats Ukraina"
   },
   "palermo": {
-    "been": true,
+    "been": false,
+    "city": "Palermo",
     "coords": "38.11111111, 13.35166667",
     "countries": ["AR", "IT"],
     "icons": ["🇦🇷", "🇮🇹"],
@@ -658,11 +752,12 @@
     "name": "Palermo"
   },
   "panama": {
-    "been": true,
+    "been": false,
+    "city": "Panama City",
     "coords": "8.96666667, -79.53333333",
     "countries": ["PE", "PA"],
     "icons": ["🇵🇪", "🇵🇦"],
-    "link": "https://en.wikipedia.org/wiki/Panama",
+    "link": "https://en.wikipedia.org/wiki/Lima_and_Callao_Metro",
     "name": "Panama"
   },
   "parque-europa": {
@@ -675,6 +770,7 @@
   },
   "parque-lisboa": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.34968480, -3.82119490",
     "countries": ["ES", "PT"],
     "icons": ["🇪🇸", "🇵🇹"],
@@ -683,6 +779,7 @@
   },
   "pennsylvania-avenue": {
     "been": true,
+    "city": "New York",
     "coords": "40.66472200, -73.89412900",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -691,6 +788,7 @@
   },
   "peru": {
     "been": false,
+    "city": "Lima",
     "coords": "-12.04333333, -77.02833333",
     "countries": ["AR", "PE"],
     "icons": ["🇦🇷", "🇵🇪"],
@@ -715,6 +813,7 @@
   },
   "place-ditalie": {
     "been": true,
+    "city": "Paris",
     "coords": "48.83148300, 2.35569200",
     "countries": ["FR", "IT"],
     "icons": ["🇫🇷", "🇮🇹"],
@@ -723,6 +822,7 @@
   },
   "plaza-de-espana": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.423391666667, -3.7122333333333",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -730,7 +830,8 @@
     "name": "Plaza de España"
   },
   "plaza-italia": {
-    "been": true,
+    "been": false,
+    "city": "Santiago",
     "coords": "-33.437, -70.63441111",
     "countries": ["AR", "IT"],
     "icons": ["🇦🇷", "🇮🇹"],
@@ -738,7 +839,8 @@
     "name": "Plaza Italia"
   },
   "pont-du-garigliano": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.83938000, 2.27067000",
     "countries": ["FR", "IT"],
     "icons": ["🇫🇷", "🇮🇹"],
@@ -747,6 +849,7 @@
   },
   "poortugaal": {
     "been": true,
+    "city": "Rotterdam",
     "coords": "51.86166667, 4.39583333",
     "countries": ["NL", "PT"],
     "icons": ["🇳🇱", "🇵🇹"],
@@ -754,7 +857,7 @@
     "name": "Poortugaal"
   },
   "portugalete": {
-    "been": true,
+    "been": false,
     "coords": "43.31777778, -3.02055556",
     "countries": ["ES", "PT"],
     "icons": ["🇪🇸", "🇵🇹"],
@@ -762,7 +865,7 @@
     "name": "Portugalete"
   },
   "puebla": {
-    "been": true,
+    "been": false,
     "coords": "19.00000000, -97.88333333",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -771,6 +874,7 @@
   },
   "pyramides": {
     "been": true,
+    "city": "Paris",
     "coords": "48.86694630, 2.33366507",
     "countries": ["FR", "EG"],
     "icons": ["🇫🇷", "🇪🇬"],
@@ -779,14 +883,16 @@
   },
   "pyrenees": {
     "been": true,
+    "city": "Paris",
     "coords": "48.87387501, 2.38525897",
     "country": "FR",
-    "icons": ["🇫🇷", "🏔"],
+    "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Pyrénées_(métro_de_Paris)",
     "name": "Pyrénées"
   },
   "reaumur–sebastopol": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.86624629, 2.35238850",
     "countries": ["FR", "UA"],
     "icons": ["🇫🇷", "🇺🇦"],
@@ -795,6 +901,7 @@
   },
   "rennes": {
     "been": true,
+    "city": "Paris",
     "coords": "48.84819314, 2.32776314",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -802,8 +909,9 @@
     "name": "Rennes"
   },
   "republica-argentina": {
-    "been": false,
-    "coords": "-34.60000000, -58.38333333",
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.44494400, -3.68495800",
     "countries": ["ES", "AR"],
     "icons": ["🇪🇸", "🇦🇷"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_República_Argentina",
@@ -811,6 +919,7 @@
   },
   "rhode-island-avenue": {
     "been": true,
+    "city": "Washington",
     "coords": "38.92074100, -76.99598400",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -818,7 +927,8 @@
     "name": "Rhode Island Avenue"
   },
   "riga": {
-    "been": true,
+    "been": false,
+    "city": "Riga",
     "coords": "50.87868300, 4.40983500",
     "countries": ["BE", "LV"],
     "icons": ["🇧🇪", "🇱🇻"],
@@ -827,6 +937,7 @@
   },
   "rimskaya": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.74630000, 37.68190000",
     "countries": ["RU", "IT"],
     "icons": ["🇷🇺", "🇮🇹"],
@@ -835,6 +946,7 @@
   },
   "rio-de-janeiro": {
     "been": false,
+    "city": "Rio de Janeiro",
     "coords": "-22.91111111, -43.20555556",
     "countries": ["AR", "BR"],
     "icons": ["🇦🇷", "🇧🇷"],
@@ -843,6 +955,7 @@
   },
   "rizhsky-vokzal": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.79277778, 37.63250000",
     "countries": ["RU", "LV"],
     "icons": ["🇷🇺", "🇱🇻"],
@@ -851,6 +964,7 @@
   },
   "roma": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.74888889, -9.14166667",
     "countries": ["PT", "IT"],
     "icons": ["🇵🇹", "🇮🇹"],
@@ -859,6 +973,7 @@
   },
   "rome": {
     "been": true,
+    "city": "Rome",
     "coords": "48.88242500, 2.32205200",
     "countries": ["FR", "IT"],
     "icons": ["🇫🇷", "🇮🇹"],
@@ -867,14 +982,16 @@
   },
   "san-francisco": {
     "been": false,
+    "city": "San Francisco",
     "coords": "37.77750000, -122.41638889",
-    "countries": ["ES", "US"],
-    "icons": ["🇪🇸", "🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/San_Francisco_(Madrid_Metro)",
+    "countries": ["EC", "US"],
+    "icons": ["🇪🇨", "🇺🇸"],
+    "link": "https://es.wikipedia.org/wiki/San_Francisco_(Metro_de_Quito)",
     "name": "San Francisco"
   },
   "schwedenplatz": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.21180000, 16.37770000",
     "countries": ["AT", "SE"],
     "icons": ["🇦🇹", "🇸🇪"],
@@ -882,7 +999,8 @@
     "name": "Schwedenplatz"
   },
   "sevilla": {
-    "been": false,
+    "been": true,
+    "city": "Madrid",
     "coords": "40.41805400, -3.69925030",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -894,10 +1012,12 @@
     "countries": ["ES", "IT"],
     "icons": ["🇪🇸", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Trambesòs",
-    "name": "Sicília"
+    "name": "Sicília",
+    "wikidata": "Q2313027"
   },
   "sofia": {
-    "been": true,
+    "been": false,
+    "city": "Sofia",
     "coords": "42.70000000, 23.33000000",
     "countries": ["SE", "BG"],
     "icons": ["🇸🇪", "🇧🇬"],
@@ -905,7 +1025,8 @@
     "name": "Sofia"
   },
   "solferino": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.85824935, 2.32322484",
     "countries": ["FR", "IT"],
     "icons": ["🇫🇷", "🇮🇹"],
@@ -913,7 +1034,8 @@
     "name": "Solférino"
   },
   "stalingrad": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.88426295, 2.36582369",
     "countries": ["FR", "RU"],
     "icons": ["🇫🇷", "🇷🇺"],
@@ -922,6 +1044,7 @@
   },
   "strasbourg–saint-denis": {
     "been": true,
+    "city": "Paris",
     "coords": "48.86959150, 2.35400856",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -941,10 +1064,12 @@
     "countries": ["BE", "SE"],
     "icons": ["🇧🇪", "🇸🇪"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles",
-    "name": "Suède / Zweden"
+    "name": "Suède / Zweden",
+    "wikidata": "Q778680"
   },
   "surinameplein": {
-    "been": false,
+    "been": true,
+    "city": "Amsterdam",
     "coords": "52.358333333333334, 4.852777777777778",
     "countries": ["NL", "SR"],
     "icons": ["🇳🇱", "🇸🇷"],
@@ -956,10 +1081,12 @@
     "countries": ["FI", "FR"],
     "icons": ["🇫🇮", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Helsinki",
-    "name": "Tahitinkatu"
+    "name": "Tahitinkatu",
+    "wikidata": "Q1192334"
   },
   "toledo": {
-    "been": false,
+    "been": true,
+    "city": "Naples",
     "coords": "40.84240000, 14.24930000",
     "countries": ["IT", "ES"],
     "icons": ["🇮🇹", "🇪🇸"],
@@ -990,14 +1117,15 @@
     "name": "Uruguay"
   },
   "vall-dhebron": {
-    "been": false,
+    "been": true,
     "countries": ["ES", "IL"],
     "icons": ["🇪🇸", "🇮🇱"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Vall_d%27Hebron_/_Sant_Genís",
     "name": "Vall d’Hebron"
   },
   "varshavskaya": {
-    "been": true,
+    "been": false,
+    "city": "Moscow",
     "coords": "55.65330000, 37.61940000",
     "countries": ["RU", "PL"],
     "icons": ["🇷🇺", "🇵🇱"],
@@ -1013,7 +1141,8 @@
     "name": "Venezuela"
   },
   "verdun": {
-    "been": false,
+    "been": true,
+    "city": "Montréal",
     "coords": "45.45948700, -73.57308400",
     "countries": ["CA", "FR"],
     "icons": ["🇨🇦", "🇫🇷"],
@@ -1021,7 +1150,7 @@
     "name": "Verdun"
   },
   "vermont/sunset": {
-    "been": true,
+    "been": false,
     "coords": "29.42033438, -98.47810732",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1030,6 +1159,7 @@
   },
   "vienna": {
     "been": true,
+    "city": "Vienna",
     "coords": "38.87760130, -77.27228840",
     "countries": ["US", "AT"],
     "icons": ["🇺🇸", "🇦🇹"],
@@ -1037,7 +1167,8 @@
     "name": "Vienna"
   },
   "wagram": {
-    "been": false,
+    "been": true,
+    "city": "Paris",
     "coords": "48.88405700, 2.30366800",
     "countries": ["FR", "AT"],
     "icons": ["🇫🇷", "🇦🇹"],
@@ -1046,6 +1177,7 @@
   },
   "warschauer-straße": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.506416666667, 13.450955555556",
     "countries": ["DE", "PL"],
     "icons": ["🇩🇪", "🇵🇱"],
@@ -1053,7 +1185,8 @@
     "name": "Warschauer Straße"
   },
   "waterloo": {
-    "been": true,
+    "been": false,
+    "city": "London",
     "coords": "51.50250000, -0.11300000",
     "countries": ["DE", "BE"],
     "icons": ["🇩🇪", "🇧🇪"],
@@ -1062,6 +1195,7 @@
   },
   "waterlooplein": {
     "been": true,
+    "city": "Amsterdam",
     "coords": "52.36750000, 4.90166667",
     "countries": ["NL", "BE"],
     "icons": ["🇳🇱", "🇧🇪"],
@@ -1078,6 +1212,7 @@
   },
   "wyoming": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "40.02460000, -75.14790000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1085,7 +1220,8 @@
     "name": "Wyoming"
   },
   "zaragoza": {
-    "been": true,
+    "been": false,
+    "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "countries": ["MX", "ES"],
     "icons": ["🇲🇽", "🇪🇸"],

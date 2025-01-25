@@ -1,6 +1,8 @@
 {
   "aachen-hauptbahnhof": {
     "been": true,
+    "city": "Aachen",
+    "coords": "50.76763500, 6.09117900",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Aachen_Hauptbahnhof",
@@ -22,6 +24,7 @@
   },
   "amsterdam-centraal": {
     "been": true,
+    "city": "Amsterdam",
     "coords": "52.37833333, 4.90000000",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -30,6 +33,7 @@
   },
   "antwerpen-centraal": {
     "been": true,
+    "city": "Antwerp",
     "coords": "51.216944444444, 4.4211111111111",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -47,6 +51,7 @@
   },
   "bad-ems": {
     "been": true,
+    "coords": "50.32761800, 7.72863800",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Bad_Ems_station",
@@ -54,6 +59,7 @@
   },
   "bad-salzungen": {
     "been": true,
+    "coords": "50.81492400, 10.22953700",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Bad_Salzungen_station",
@@ -70,6 +76,7 @@
   },
   "baghdad": {
     "been": false,
+    "city": "Baghdad",
     "coords": "33.32361111, 44.38027778",
     "country": "IQ",
     "icons": ["🇮🇶"],
@@ -78,6 +85,7 @@
   },
   "barcelona-franca": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.38388889, 2.18611111",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -86,6 +94,7 @@
   },
   "barcelona-sants": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.37888889, 2.14000000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -94,6 +103,7 @@
   },
   "basel": {
     "been": true,
+    "city": "Basel",
     "coords": "47.55472222, 7.59055556",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -102,6 +112,7 @@
   },
   "belgrade": {
     "been": true,
+    "city": "Belgrade",
     "coords": "44.80861111, 20.45555556",
     "country": "RS",
     "icons": ["🇷🇸"],
@@ -110,6 +121,7 @@
   },
   "berlin-alexanderplatz": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.52138889, 13.41194444",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -118,6 +130,7 @@
   },
   "berlin-friedrichstraße": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.52027778, 13.38694444",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -126,6 +139,8 @@
   },
   "berlin-hauptbahnhof": {
     "been": true,
+    "city": "Berlin",
+    "coords": "52.52500000, 13.36944444",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof",
@@ -140,6 +155,7 @@
   },
   "berlin-zoologischer-garten": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.50722222, 13.33250000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -148,6 +164,7 @@
   },
   "bern": {
     "been": true,
+    "city": "Bern",
     "coords": "46.95240556, 7.43958333",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -164,6 +181,7 @@
   },
   "birmingham-new-street": {
     "been": true,
+    "city": "Birmingham",
     "coords": "52.47777000, -1.89885000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -172,6 +190,7 @@
   },
   "blackfriars": {
     "been": true,
+    "city": "London",
     "coords": "51.511667, -0.103056",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -188,6 +207,8 @@
   },
   "bonn-hauptbahnhof": {
     "been": true,
+    "city": "Bonn",
+    "coords": "50.73194444, 7.09694444",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Bonn_Hauptbahnhof",
@@ -195,6 +216,7 @@
   },
   "boston-south-station": {
     "been": true,
+    "city": "Boston",
     "coords": "42.35194444, -71.05527778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -203,6 +225,7 @@
   },
   "bratislava": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.15833333, 17.10611111",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -211,10 +234,12 @@
   },
   "bremen-hauptbahnhof": {
     "been": false,
+    "coords": "53.0831, 8.81361",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Bremen_Hauptbahnhof",
-    "name": "Bremen Hauptbahnhof"
+    "name": "Bremen Hauptbahnhof",
+    "wikidata": "Q631094"
   },
   "bremen-hbf": {
     "been": false,
@@ -241,6 +266,7 @@
   },
   "bruxelles-central": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.84555556, 4.35694444",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -249,6 +275,7 @@
   },
   "bruxelles-midi": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.835278, 4.335833",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -265,6 +292,7 @@
   },
   "budapest-keleti": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.50027778, 19.08388889",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -280,6 +308,7 @@
   },
   "buffalo-exchange-street": {
     "been": true,
+    "city": "Buffalo",
     "coords": "42.87830000, -78.87380000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -288,6 +317,7 @@
   },
   "busan": {
     "been": true,
+    "city": "Busan",
     "coords": "35.11520000, 129.04137000",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -312,6 +342,7 @@
   },
   "ceske-budejovice": {
     "been": true,
+    "coords": "48.97472222, 14.47472222",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%A9_Bud%C4%9Bjovice_railway_station",
@@ -319,6 +350,7 @@
   },
   "cesky-brod-": {
     "been": true,
+    "coords": "50.07388889, 14.85805556",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Brod",
@@ -334,6 +366,7 @@
   },
   "charing-cross": {
     "been": true,
+    "city": "London",
     "coords": "51.50800000, -0.12500000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -350,6 +383,7 @@
   },
   "chatelet–les-halles": {
     "been": true,
+    "city": "Paris",
     "coords": "48.86150000, 2.34650000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -358,6 +392,7 @@
   },
   "chicago-millenium": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.88594000, -87.62345000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -366,6 +401,7 @@
   },
   "chicago-union-station": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.878638888889, -87.64025",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -375,6 +411,7 @@
   },
   "chisinau": {
     "been": true,
+    "city": "Chișinău",
     "coords": "47.01250000, 28.85972222",
     "country": "MD",
     "icons": ["🇲🇩"],
@@ -383,6 +420,7 @@
   },
   "chomutov": {
     "been": true,
+    "coords": "50.46111111, 13.41666667",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Chomutov#Transport",
@@ -390,6 +428,7 @@
   },
   "clapham-junction": {
     "been": true,
+    "city": "London",
     "coords": "51.46460000, -0.17050000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -407,6 +446,7 @@
   },
   "cotonou": {
     "been": true,
+    "city": "Cotonou",
     "coords": "6.3666666666667, 2.4166666666667",
     "country": "BJ",
     "icons": ["🇧🇯"],
@@ -416,6 +456,7 @@
   },
   "dakar": {
     "been": true,
+    "city": "Dakar",
     "coords": "14.675799, -17.433405",
     "country": "SN",
     "icons": ["🇸🇳"],
@@ -425,10 +466,12 @@
   },
   "darmstadt-hauptbahnhof": {
     "been": false,
+    "coords": "49.8725, 8.62889",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Darmstadt_Hauptbahnhof",
-    "name": "Darmstadt Hauptbahnhof"
+    "name": "Darmstadt Hauptbahnhof",
+    "wikidata": "Q682529"
   },
   "darmstadt-hbf": {
     "been": false,
@@ -440,6 +483,7 @@
   },
   "delft": {
     "been": true,
+    "city": "Den Haag",
     "coords": "52.006667, 4.356667",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -449,6 +493,7 @@
   },
   "den-haag-centraal": {
     "been": true,
+    "city": "Den Haag",
     "coords": "52.08166667, 4.32916667",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -457,6 +502,7 @@
   },
   "den-haag-hollands-spoor": {
     "been": true,
+    "city": "Den Haag",
     "coords": "52.06972222, 4.32166667",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -483,6 +529,8 @@
   },
   "dresden-hauptbahnhof": {
     "been": true,
+    "city": "Dresden",
+    "coords": "51.04027778, 13.73166667",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Hauptbahnhof",
@@ -497,6 +545,7 @@
   },
   "dusseldorf-hauptbahnhof": {
     "been": false,
+    "coords": "51.22027778, 6.79277778",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Düsseldorf_Hauptbahnhof",
@@ -511,6 +560,7 @@
   },
   "east-croydon": {
     "been": true,
+    "city": "London",
     "coords": "51.3752, -0.0923",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -520,6 +570,8 @@
   },
   "edinburgh-waverley": {
     "been": false,
+    "city": "Edinburgh",
+    "coords": "55.95210000, -3.18930000",
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Edinburgh_Waverley_railway_station",
@@ -561,6 +613,7 @@
   },
   "euston": {
     "been": true,
+    "city": "London",
     "coords": "51.52849000, -0.13702000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -569,6 +622,7 @@
   },
   "frankfurt-fernbanhof": {
     "been": true,
+    "city": "Frankfurt",
     "coords": "50.0528, 8.57",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -578,10 +632,13 @@
   },
   "frankfurt-hauptbahnhof": {
     "been": true,
+    "city": "Frankfurt",
+    "coords": "50.107256, 8.662616",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Frankfurt_(Main)_Hauptbahnhof",
-    "name": "Frankfurt Hauptbahnhof"
+    "name": "Frankfurt Hauptbahnhof",
+    "wikidata": "Q165368"
   },
   "frankfurt-hbf": {
     "been": false,
@@ -593,6 +650,7 @@
   },
   "gare-dausterlitz": {
     "been": true,
+    "city": "Paris",
     "coords": "48.842222222222, 2.3658333333333",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -602,6 +660,7 @@
   },
   "gare-de-lest": {
     "been": true,
+    "city": "Paris",
     "coords": "48.87694444, 2.35916667",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -610,6 +669,7 @@
   },
   "gare-de-lyon": {
     "been": true,
+    "city": "Paris",
     "coords": "48.84480000, 2.37350000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -618,6 +678,7 @@
   },
   "gare-du-nord": {
     "been": true,
+    "city": "Paris",
     "coords": "48.88111111, 2.35527778",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -633,6 +694,7 @@
   },
   "grand-central-terminal": {
     "been": true,
+    "city": "New York",
     "coords": "40.75277777777778, -73.97722222222222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -642,6 +704,8 @@
   },
   "graz-hauptbahnhof": {
     "been": true,
+    "city": "Graz",
+    "coords": "47.07222222, 15.41722222",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Graz_Hauptbahnhof",
@@ -673,6 +737,7 @@
   },
   "hakata": {
     "been": true,
+    "city": "Fukuoka",
     "coords": "33.58980300, 130.42068100",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -689,6 +754,8 @@
   },
   "hamburg-hauptbahnhof": {
     "been": false,
+    "city": "Hamburg",
+    "coords": "53.55277778, 10.00638889",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Hamburg_Hauptbahnhof",
@@ -703,6 +770,7 @@
   },
   "hannover-hauptbahnhof": {
     "been": false,
+    "coords": "52.37722222, 9.74166667",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Hannover_Hauptbahnhof",
@@ -725,10 +793,12 @@
   },
   "heidelberg-hauptbahnhof": {
     "been": false,
+    "coords": "49.403611111111, 8.6752777777778",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Heidelberg_Hauptbahnhof",
-    "name": "Heidelberg Hauptbahnhof"
+    "name": "Heidelberg Hauptbahnhof",
+    "wikidata": "Q467998"
   },
   "heidelberg-hbf": {
     "been": false,
@@ -740,6 +810,7 @@
   },
   "helsinki": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.17194444, 24.94138889",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -748,6 +819,7 @@
   },
   "hiroshima": {
     "been": true,
+    "city": "Hiroshima",
     "coords": "34.39777778, 132.47555556",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -756,6 +828,7 @@
   },
   "hoboken": {
     "been": true,
+    "city": "New York",
     "coords": "40.73500000, -74.02750000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -764,6 +837,7 @@
   },
   "hodmezovasarhely": {
     "been": true,
+    "coords": "46.43039000, 20.31881000",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://hu.wikipedia.org/wiki/Hódmezővásárhely_vasútállomás",
@@ -771,6 +845,7 @@
   },
   "hong-kong": {
     "been": true,
+    "city": "Hong Kong",
     "coords": "22.28500000, 114.15800000",
     "country": "HK",
     "icons": ["🇭🇰"],
@@ -787,6 +862,8 @@
   },
   "istanbul-haydarpasa": {
     "been": false,
+    "city": "Istanbul",
+    "coords": "40.99620000, 29.01870000",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Haydarpaşa_railway_station",
@@ -794,6 +871,8 @@
   },
   "istanbul-sirkeci": {
     "been": false,
+    "city": "Istanbul",
+    "coords": "41.01500000, 28.97722200",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Sirkeci_railway_station",
@@ -809,6 +888,7 @@
   },
   "jerusalem-malha": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.74808333, 35.18753333",
     "country": "IL",
     "icons": ["🇮🇱"],
@@ -817,6 +897,7 @@
   },
   "jerusalem-yitzhak-navon": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.78821900, 35.20243900",
     "country": "IL",
     "icons": ["🇮🇱"],
@@ -825,17 +906,21 @@
   },
   "karlovy-vary": {
     "been": true,
+    "coords": "50.23055556, 12.87250000",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Karlovy_Vary%E2%80%93Johanngeorgenstadt_railway",
-    "name": "Karlovy Vary"
+    "name": "Karlovy Vary",
+    "wikidata": "Q802504"
   },
   "kassel-hauptbahnhof": {
     "been": false,
+    "coords": "51.318055555556, 9.49",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Kassel_Hauptbahnhof",
-    "name": "Kassel Hauptbahnhof"
+    "name": "Kassel Hauptbahnhof",
+    "wikidata": "Q463906"
   },
   "kassel-hbf": {
     "been": false,
@@ -847,6 +932,7 @@
   },
   "katowice": {
     "been": true,
+    "city": "Katowice",
     "coords": "50.25833333, 19.01750000",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -855,6 +941,7 @@
   },
   "kazan": {
     "been": true,
+    "city": "Kazan",
     "coords": "55.78805556, 49.10083333",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -863,13 +950,17 @@
   },
   "kecskemet": {
     "been": true,
+    "coords": "46.9075, 19.691666666666666",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://hu.wikipedia.org/wiki/Kecskemét_vasútállomás",
-    "name": "Kecskemét"
+    "name": "Kecskemét",
+    "wikidata": "Q171357"
   },
   "kelenfold": {
     "been": true,
+    "city": "Budapest",
+    "coords": "47.46444444, 19.02027778",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Kelenföld_railway_station",
@@ -877,6 +968,7 @@
   },
   "kings-cross": {
     "been": true,
+    "city": "London",
     "coords": "51.53090000, -0.12330000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -885,6 +977,8 @@
   },
   "koln-hauptbahnhof": {
     "been": true,
+    "city": "Cologne",
+    "coords": "50.94250000, 6.95805556",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Köln_Hauptbahnhof",
@@ -899,6 +993,7 @@
   },
   "la-defense": {
     "been": true,
+    "city": "Paris",
     "coords": "48.892222, 2.236944",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -940,10 +1035,12 @@
   },
   "leipzig-hauptbahnhof": {
     "been": false,
+    "coords": "51.34527777777778, 12.382222222222222",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Leipzig_Hauptbahnhof",
-    "name": "Leipzig Hauptbahnhof"
+    "name": "Leipzig Hauptbahnhof",
+    "wikidata": "Q703916"
   },
   "leipzig-hbf": {
     "been": false,
@@ -955,6 +1052,7 @@
   },
   "liberec": {
     "been": true,
+    "coords": "50.76138889, 15.04555556",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Liberec_railway_station",
@@ -962,6 +1060,7 @@
   },
   "lille-europe": {
     "been": true,
+    "city": "Lille",
     "coords": "50.63944444, 3.07527778",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -970,6 +1069,7 @@
   },
   "lille-flandres": {
     "been": true,
+    "city": "Lille",
     "coords": "50.63638889, 3.07083333",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -978,6 +1078,7 @@
   },
   "lisboa-rossio": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.71472222, -9.14222222",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -993,6 +1094,7 @@
   },
   "liverpool-lime-street": {
     "been": false,
+    "city": "Liverpool",
     "coords": "53.40750000, -2.97840000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1001,6 +1103,7 @@
   },
   "liverpool-street": {
     "been": true,
+    "city": "London",
     "coords": "51.51860000, -0.08130000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1009,6 +1112,7 @@
   },
   "ljubljana": {
     "been": true,
+    "city": "Ljubljana",
     "coords": "46.05888889, 14.51305556",
     "country": "SI",
     "icons": ["🇸🇮"],
@@ -1017,6 +1121,7 @@
   },
   "london-bridge": {
     "been": true,
+    "city": "London",
     "coords": "51.50440000, -0.08570000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1025,6 +1130,7 @@
   },
   "london-victoria": {
     "been": true,
+    "city": "London",
     "coords": "51.49520000, -0.14410000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1033,6 +1139,7 @@
   },
   "los-angeles-union-station": {
     "been": true,
+    "city": "Los Angeles",
     "coords": "34.05515000, -118.23525000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1041,6 +1148,7 @@
   },
   "luxembourg": {
     "been": true,
+    "city": "Luxembourg",
     "coords": "49.6, 6.133889",
     "country": "LU",
     "icons": ["🇱🇺"],
@@ -1050,6 +1158,7 @@
   },
   "lyon-part-dieu": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.76055556, 4.85944444",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1058,6 +1167,7 @@
   },
   "lyon-perrache": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.748333333333, 4.8255555555556",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1067,6 +1177,7 @@
   },
   "madrid-atocha": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.40652800, -3.68937300",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -1075,6 +1186,7 @@
   },
   "madrid-nuevos-ministerios": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.44662210, -3.69245950",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -1083,6 +1195,7 @@
   },
   "manchester-piccadilly": {
     "been": true,
+    "city": "Manchester",
     "coords": "53.47700000, -2.23000000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1091,6 +1204,7 @@
   },
   "marianske-lazne": {
     "been": true,
+    "coords": "49.96472222, 12.70111111",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B",
@@ -1098,6 +1212,7 @@
   },
   "marlybone": {
     "been": true,
+    "city": "London",
     "coords": "51.52230000, -0.16340000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1115,6 +1230,7 @@
   },
   "marseille-saint-charles": {
     "been": false,
+    "city": "Marseille",
     "coords": "43.30305556, 5.38111111",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1132,6 +1248,7 @@
   },
   "miami-central": {
     "been": true,
+    "city": "Miami",
     "coords": "25.77753000, -80.19578000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1140,6 +1257,7 @@
   },
   "miami-intermodal-center": {
     "been": true,
+    "city": "Miami",
     "coords": "25.79666667, -80.26138889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1148,6 +1266,7 @@
   },
   "michigan-central-station": {
     "been": false,
+    "city": "Detroit",
     "coords": "42.32880278, -83.07773056",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1156,6 +1275,7 @@
   },
   "milan-centrale": {
     "been": false,
+    "city": "Milan",
     "coords": "45.48611111, 9.20361111",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1164,6 +1284,7 @@
   },
   "monaco-monte-carlo": {
     "been": true,
+    "city": "Monaco",
     "coords": "43.738175, 7.419869",
     "country": "MC",
     "icons": ["🇲🇨"],
@@ -1173,6 +1294,7 @@
   },
   "montparnasse": {
     "been": true,
+    "city": "Paris",
     "coords": "48.839333333333336, 2.318288888888889",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1182,6 +1304,7 @@
   },
   "montpellier-saint-roch": {
     "been": true,
+    "city": "Montpellier",
     "coords": "43.604636111111, 3.8810388888889",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1191,6 +1314,7 @@
   },
   "moscow-belarussky": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.77638889, 37.58027778",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -1199,6 +1323,7 @@
   },
   "moscow-kazansky": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.77333300, 37.65638900",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -1207,6 +1332,7 @@
   },
   "moscow-leningradsky": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.77611100, 37.65527800",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -1223,6 +1349,7 @@
   },
   "most": {
     "been": true,
+    "coords": "50.50305556, 13.63666667",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Most_(city)#Transport",
@@ -1230,10 +1357,12 @@
   },
   "munchen-hauptbahnhof": {
     "been": false,
+    "coords": "48.140833, 11.555",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/München_Hauptbahnhof",
-    "name": "München Hauptbahnhof"
+    "name": "München Hauptbahnhof",
+    "wikidata": "Q254647"
   },
   "munchen-hbf": {
     "been": false,
@@ -1245,6 +1374,7 @@
   },
   "nairobi": {
     "been": true,
+    "city": "Nairobi",
     "coords": "-1.29166400, 36.82861900",
     "country": "KE",
     "icons": ["🇰🇪"],
@@ -1253,13 +1383,17 @@
   },
   "namur": {
     "been": true,
+    "city": "Namur",
+    "coords": "50.46913, 4.86247",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Namur",
-    "name": "Namur"
+    "name": "Namur",
+    "wikidata": "Q1951230"
   },
   "napoli-centrale": {
     "been": true,
+    "city": "Naples",
     "coords": "40.85250000, 14.27194444",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1268,6 +1402,7 @@
   },
   "new-haven-union-station": {
     "been": true,
+    "city": "New Haven",
     "coords": "41.29750000, -72.92666667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1276,6 +1411,7 @@
   },
   "new-york-penn": {
     "been": true,
+    "city": "New York",
     "coords": "40.750638, -73.993899",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1285,6 +1421,7 @@
   },
   "newark-penn": {
     "been": true,
+    "city": "New York",
     "coords": "40.73472222, -74.16416667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1301,6 +1438,7 @@
   },
   "orlando-intermodal-terminal": {
     "been": true,
+    "city": "Orlando",
     "coords": "28.41453000, -81.30818000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1309,6 +1447,7 @@
   },
   "oslo": {
     "been": true,
+    "city": "Oslo",
     "coords": "59.91111111, 10.75083333",
     "country": "NO",
     "icons": ["🇳🇴"],
@@ -1317,6 +1456,7 @@
   },
   "ouagadougou": {
     "been": true,
+    "city": "Ouagadougou",
     "coords": "12.3739, -1.52658",
     "country": "BF",
     "icons": ["🇧🇫"],
@@ -1326,6 +1466,7 @@
   },
   "paddington": {
     "been": true,
+    "city": "London",
     "coords": "51.51730000, -0.17740000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1334,6 +1475,7 @@
   },
   "palermo-centrale": {
     "been": true,
+    "city": "Palermo",
     "coords": "38.11000000, 13.36694444",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1342,6 +1484,7 @@
   },
   "philadelphia-30th-street": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.95583333, -75.18194444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1350,6 +1493,7 @@
   },
   "pittsburgh-union-station": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44475000, -79.99213889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1358,6 +1502,8 @@
   },
   "plzen-hlavni-nadrazi": {
     "been": true,
+    "city": "Plzeň",
+    "coords": "49.74360000, 13.38810000",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Plze%C5%88_main_railway_station",
@@ -1372,6 +1518,7 @@
   },
   "podgorica": {
     "been": true,
+    "city": "Podgorica",
     "coords": "42.43250000, 19.26930000",
     "country": "ME",
     "icons": ["🇲🇪"],
@@ -1380,6 +1527,7 @@
   },
   "portland-union-station": {
     "been": true,
+    "city": "Portland, OR",
     "coords": "45.52900000, -122.67680000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1404,6 +1552,7 @@
   },
   "praha-holesovice": {
     "been": true,
+    "city": "Prague",
     "coords": "50.11027800, 14.43972200",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -1419,6 +1568,7 @@
   },
   "pyongyang": {
     "been": false,
+    "city": "Pyongyang",
     "coords": "39.00472222, 125.73638889",
     "country": "KP",
     "icons": ["🇰🇵"],
@@ -1427,6 +1577,7 @@
   },
   "richmond-main-street": {
     "been": true,
+    "city": "Richmond",
     "coords": "37.53472222, -77.42916667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1435,6 +1586,7 @@
   },
   "riga": {
     "been": true,
+    "city": "Riga",
     "coords": "56.94722200, 24.12222200",
     "country": "LV",
     "icons": ["🇱🇻"],
@@ -1443,6 +1595,7 @@
   },
   "rochester": {
     "been": true,
+    "city": "Rochester",
     "coords": "43.16350000, -77.60820000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1451,6 +1604,7 @@
   },
   "roma-termini": {
     "been": false,
+    "city": "Rome",
     "coords": "41.90083333, 12.50194444",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1468,6 +1622,7 @@
   },
   "rotterdam-centraal": {
     "been": true,
+    "city": "Rotterdam",
     "coords": "51.92444444, 4.46944444",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -1501,6 +1656,7 @@
   },
   "saint-lazare": {
     "been": true,
+    "city": "Paris",
     "coords": "48.87694444, 2.32444444",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1509,6 +1665,7 @@
   },
   "sapporo": {
     "been": true,
+    "city": "Sapporo",
     "coords": "43.06861111, 141.35077778",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -1517,6 +1674,7 @@
   },
   "sarajevo": {
     "been": true,
+    "city": "Sarajevo",
     "coords": "43.86027778, 18.39916667",
     "country": "BA",
     "icons": ["🇧🇦"],
@@ -1525,6 +1683,7 @@
   },
   "schiphol": {
     "been": true,
+    "city": "Amsterdam",
     "coords": "52.30888889, 4.76166667",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -1549,6 +1708,7 @@
   },
   "seoul": {
     "been": true,
+    "city": "Seoul",
     "coords": "37.55319000, 126.97260000",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -1557,6 +1717,7 @@
   },
   "sheffield": {
     "been": true,
+    "city": "Sheffield",
     "coords": "53.37800000, -1.46200000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1565,6 +1726,7 @@
   },
   "shenzhen": {
     "been": true,
+    "city": "Shenzhen",
     "coords": "22.53440000, 114.11210000",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -1573,6 +1735,7 @@
   },
   "shibuya": {
     "been": true,
+    "city": "Tokyo",
     "coords": "35.65851400, 139.70133000",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -1581,6 +1744,7 @@
   },
   "shin-osaka": {
     "been": true,
+    "city": "Ōsaka",
     "coords": "34.73348333, 135.50011389",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -1589,6 +1753,7 @@
   },
   "shinjuku": {
     "been": true,
+    "city": "Tokyo",
     "coords": "35.68944444, 139.70055556",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -1597,6 +1762,7 @@
   },
   "st-pancras": {
     "been": true,
+    "city": "London",
     "coords": "51.53000000, -0.12527778",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1605,6 +1771,7 @@
   },
   "st-petersburg-finlyandsky": {
     "been": false,
+    "city": "Saint Petersburg",
     "coords": "59.95555556, 30.35666667",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1613,6 +1780,7 @@
   },
   "st-petersburg-moskovsky": {
     "been": true,
+    "city": "Saint Petersburg",
     "coords": "59.92972222, 30.36222222",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -1629,6 +1797,7 @@
   },
   "stockholm": {
     "been": true,
+    "city": "Stockholm",
     "coords": "59.33000000, 18.05600000",
     "country": "SE",
     "icons": ["🇸🇪"],
@@ -1637,6 +1806,7 @@
   },
   "stratford": {
     "been": true,
+    "city": "London",
     "coords": "51.54220000, -0.00330000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1645,6 +1815,7 @@
   },
   "stuttgart-hauptbahnhof": {
     "been": false,
+    "coords": "48.78388889, 9.18166667",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Stuttgart_Hauptbahnhof",
@@ -1659,6 +1830,8 @@
   },
   "szeged": {
     "been": true,
+    "city": "Szeged",
+    "coords": "46.25500000, 20.14500000",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Szeged#Transport",
@@ -1666,6 +1839,7 @@
   },
   "talinn": {
     "been": true,
+    "city": "Tallinn",
     "coords": "59.43995000, 24.73715000",
     "country": "EE",
     "icons": ["🇪🇪"],
@@ -1674,6 +1848,7 @@
   },
   "tehran": {
     "been": false,
+    "city": "Tehran",
     "coords": "35.65805556, 51.39777778",
     "country": "IR",
     "icons": ["🇮🇷"],
@@ -1682,6 +1857,7 @@
   },
   "tel-aviv-hashalom": {
     "been": true,
+    "city": "Tel Aviv",
     "coords": "32.07333333, 34.79319444",
     "country": "IL",
     "icons": ["🇮🇱"],
@@ -1690,6 +1866,7 @@
   },
   "teplice-cechach": {
     "been": true,
+    "coords": "50.64444444, 13.83194444",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Teplice",
@@ -1697,6 +1874,7 @@
   },
   "tokyo": {
     "been": true,
+    "city": "Tokyo",
     "coords": "35.68083333, 139.76694444",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -1705,6 +1883,7 @@
   },
   "torino-porta-nuova": {
     "been": false,
+    "city": "Turin",
     "coords": "45.06250000, 7.67888889",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1713,6 +1892,7 @@
   },
   "toronto-union-station": {
     "been": true,
+    "city": "Toronto",
     "coords": "43.64527778, -79.38055556",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -1721,6 +1901,7 @@
   },
   "toulouse-matabiau": {
     "been": true,
+    "city": "Toulouse",
     "coords": "43.611111111111, 1.4536111111111",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -1730,6 +1911,8 @@
   },
   "trier-hauptbahnhof": {
     "been": true,
+    "city": "Trier",
+    "coords": "49.75694444, 6.65194444",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trier_Hauptbahnhof",
@@ -1750,6 +1933,15 @@
     "link": "https://en.wikipedia.org/wiki/Trnava#Transport",
     "name": "Trnava"
   },
+  "trouville-deauville": {
+    "been": true,
+    "coords": "49.36, 0.084166666666667",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Trouville_-_Deauville",
+    "name": "Trouville-Deauville",
+    "wikidata": "Q2192230"
+  },
   "utrecht-centraal": {
     "been": true,
     "coords": "52.08916667, 5.10972222",
@@ -1760,6 +1952,7 @@
   },
   "vauxhall": {
     "been": true,
+    "city": "London",
     "coords": "51.48540000, -0.12290000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1768,6 +1961,7 @@
   },
   "venezia-santa-lucia": {
     "been": true,
+    "city": "Venice",
     "coords": "45.44083333, 12.32083333",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -1784,6 +1978,7 @@
   },
   "warszawa-centralna": {
     "been": true,
+    "city": "Warsaw",
     "coords": "52.22861100, 21.00305600",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -1792,6 +1987,7 @@
   },
   "washington-union-station": {
     "been": true,
+    "city": "Washington",
     "coords": "38.89731000, -77.00626000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1800,6 +1996,7 @@
   },
   "waterloo": {
     "been": true,
+    "city": "London",
     "coords": "51.50310000, -0.11320000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1808,6 +2005,8 @@
   },
   "wien-hauptbahnhof": {
     "been": true,
+    "city": "Vienna",
+    "coords": "48.18666700, 16.38000000",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Wien_Hauptbahnhof",
@@ -1822,6 +2021,7 @@
   },
   "wien-westbahnhof": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.196667, 16.337778",
     "country": "AT",
     "icons": ["🇦🇹"],

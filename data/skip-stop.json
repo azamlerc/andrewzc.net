@@ -1,9 +1,112 @@
 {
   "": {
     "been": false,
+    "city": "Chicago",
     "country": "SA",
     "icons": [],
     "name": "",
     "reference": "Santiago"
+  },
+  "1/9-trains": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/9_(New_York_City_Subway_service)",
+    "name": "1/9 Trains",
+    "reference": "New York",
+    "strike": true
+  },
+  "al-mashaaer-al-mugaddassah": {
+    "been": false,
+    "country": "SA",
+    "icons": ["🇸🇦", "🕋"],
+    "link": "https://en.wikipedia.org/wiki/Al_Mashaaer_Al_Mugaddassah_Metro_line",
+    "name": "Al Mashaaer Al Mugaddassah",
+    "reference": "Mecca"
+  },
+  "brown-line": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Skip-stop_on_the_Chicago_%22L%22",
+    "name": "Brown Line",
+    "reference": "Chicago",
+    "strike": true,
+    "wikidata": "Q110903945"
+  },
+  "green-line": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Skip-stop_on_the_Chicago_%22L%22",
+    "name": "Green Line",
+    "reference": "Chicago",
+    "strike": true,
+    "wikidata": "Q110903945"
+  },
+  "j/z-trains": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/J/Z_(New_York_City_Subway_service)",
+    "name": "J/Z Trains",
+    "reference": "New York"
+  },
+  "line-2": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_2",
+    "name": "Line 2",
+    "reference": "Santiago",
+    "wikidata": "Q11690005"
+  },
+  "line-4": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_4",
+    "name": "Line 4",
+    "reference": "Santiago",
+    "wikidata": "Q9025952"
+  },
+  "line-5": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_5",
+    "name": "Line 5",
+    "reference": "Santiago",
+    "wikidata": "Q9025969"
+  },
+  "market–frankford-line": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.94988, -75.14368",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Market-Frankford_Line",
+    "name": "Market–Frankford Line",
+    "reference": "Philadelphia",
+    "strike": true,
+    "wikidata": "Q823251"
+  },
+  "red-line": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Skip-stop_on_the_Chicago_%22L%22",
+    "name": "Red Line",
+    "reference": "Chicago",
+    "strike": true,
+    "wikidata": "Q110903945"
   }
 }

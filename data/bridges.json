@@ -17,6 +17,7 @@
   },
   "allenby-bridge": {
     "been": false,
+    "city": "Jericho",
     "coords": "31.87416667, 35.54083333",
     "countries": ["PS", "JO"],
     "icons": ["🇵🇸", "🇯🇴"],
@@ -49,6 +50,7 @@
   },
   "bac-de-roda-bridge": {
     "been": false,
+    "city": "Barcelona",
     "coords": "41.41619100, 2.19246400",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -57,6 +59,7 @@
   },
   "bandra–worli-sea-link": {
     "been": false,
+    "city": "Mumbai",
     "coords": "19.03640000, 72.81720000",
     "country": "IN",
     "icons": ["🇮🇳"],
@@ -65,6 +68,7 @@
   },
   "benjamin-franklin-bridge": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.95300000, -75.13400000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -73,6 +77,7 @@
   },
   "bhumibol-bridge": {
     "been": false,
+    "city": "Bangkok",
     "coords": "13.66527778, 100.53944444",
     "country": "TH",
     "icons": ["🇹🇭"],
@@ -89,6 +94,7 @@
   },
   "bridge-of-americas": {
     "been": true,
+    "city": "Panama City",
     "coords": "8.94305556, -79.56500000",
     "country": "PA",
     "icons": ["🇵🇦"],
@@ -105,6 +111,7 @@
   },
   "broad-street-bridge": {
     "been": true,
+    "city": "Rochester",
     "coords": "43.15472222, -77.60972222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -113,6 +120,7 @@
   },
   "broadway-bridge": {
     "been": true,
+    "city": "Portland, OR",
     "coords": "45.53181600, -122.67389800",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -121,6 +129,7 @@
   },
   "brooklyn-bridge": {
     "been": true,
+    "city": "New York",
     "coords": "40.70570000, -73.99640000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -129,6 +138,7 @@
   },
   "burlington-bay-skyway": {
     "been": true,
+    "city": "Hamilton",
     "coords": "43.29945000, -79.79799000",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -146,6 +156,7 @@
   },
   "capilano-suspension-bridge": {
     "been": false,
+    "city": "Vancouver",
     "coords": "49.34277778, -123.11222222",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -154,6 +165,7 @@
   },
   "champlain-bridge": {
     "been": false,
+    "city": "Montréal",
     "coords": "45.46944444, -73.51611111",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -223,8 +235,17 @@
     "link": "https://en.wikipedia.org/wiki/Delaware_Memorial_Bridge",
     "name": "Delaware Memorial Bridge"
   },
+  "dragon-bridge": {
+    "been": false,
+    "coords": "16.06111111, 108.22666667",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "link": "https://en.wikipedia.org/wiki/Dragon_Bridge_(Da_Nang)",
+    "name": "Dragon Bridge"
+  },
   "dreilanderbrucke": {
     "been": true,
+    "city": "Basel",
     "coords": "47.59152778, 7.59000000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -241,6 +262,7 @@
   },
   "erasmusbrug": {
     "been": true,
+    "city": "Rotterdam",
     "coords": "51.90916667, 4.48666667",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -249,6 +271,7 @@
   },
   "erzsebet-hid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.49083333, 19.04888889",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -257,6 +280,7 @@
   },
   "fort-duquesne-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44430000, -80.00930000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -265,6 +289,7 @@
   },
   "fort-pitt-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.43883000, -80.01113000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -281,6 +306,7 @@
   },
   "francis-scott-key-bridge": {
     "been": false,
+    "city": "Baltimore",
     "coords": "39.216944444444444, -76.52833333333334",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -298,6 +324,7 @@
   },
   "gateshead-millennium-bridge": {
     "been": true,
+    "city": "Newcastle",
     "coords": "54.96980000, -1.59920000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -306,6 +333,7 @@
   },
   "george-washington-bridge": {
     "been": true,
+    "city": "New York",
     "coords": "40.85170000, -73.95270000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -322,6 +350,7 @@
   },
   "golden-gate-bridge": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.81972222, -122.47861111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -362,6 +391,7 @@
   },
   "hell-gate-bridge": {
     "been": true,
+    "city": "New York",
     "coords": "40.7825, -73.92194444444445",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -402,6 +432,7 @@
   },
   "jacques-cartier-bridge": {
     "been": false,
+    "city": "Montréal",
     "coords": "45.52083333, -73.53500000",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -434,6 +465,7 @@
   },
   "karluv-most": {
     "been": true,
+    "city": "Prague",
     "coords": "50.08638889, 14.41194444",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -465,6 +497,7 @@
   },
   "kohlbrandbrucke": {
     "been": false,
+    "city": "Hamburg",
     "coords": "53.52166667, 9.93833333",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -481,6 +514,7 @@
   },
   "lekki-ikoyi-link-bridge": {
     "been": true,
+    "city": "Lagos",
     "coords": "6.45020000, 3.45580000",
     "country": "NG",
     "icons": ["🇳🇬"],
@@ -497,6 +531,7 @@
   },
   "liberty-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.43280000, -79.99670000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -505,6 +540,7 @@
   },
   "london-millennium-bridge": {
     "been": true,
+    "city": "London",
     "coords": "51.51017300, -0.09843800",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -521,6 +557,7 @@
   },
   "manhattan-bridge": {
     "been": true,
+    "city": "New York",
     "coords": "40.70700000, -73.99050000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -529,6 +566,7 @@
   },
   "margit-hid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.51472222, 19.04361111",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -545,6 +583,7 @@
   },
   "montenegro-millennium-bridge": {
     "been": true,
+    "city": "Podgorica",
     "coords": "42.44520000, 19.25810000",
     "country": "ME",
     "icons": ["🇲🇪"],
@@ -553,6 +592,7 @@
   },
   "most-gdanski": {
     "been": true,
+    "city": "Warsaw",
     "coords": "52.26055556, 21.00916667",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -561,6 +601,7 @@
   },
   "most-lanfranconi": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.14250000, 17.07527778",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -585,6 +626,7 @@
   },
   "nhat-tan-bridge": {
     "been": false,
+    "city": "Hanoi",
     "coords": "21.09277778, 105.82083333",
     "country": "VN",
     "icons": ["🇻🇳"],
@@ -601,6 +643,7 @@
   },
   "nuselsky-most": {
     "been": true,
+    "city": "Prague",
     "coords": "50.06584400, 14.43048300",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -617,6 +660,7 @@
   },
   "panhandle-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.43308889, -79.99807222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -625,6 +669,7 @@
   },
   "peace-bridge": {
     "been": true,
+    "city": "Buffalo",
     "coords": "42.90694000, -78.90556000",
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
@@ -633,6 +678,7 @@
   },
   "pearl-harbor-memorial-bridge": {
     "been": true,
+    "city": "New Haven",
     "coords": "41.29861111, -72.90388889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -649,6 +695,7 @@
   },
   "petofi-hid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.47888889, 19.06333333",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -665,6 +712,7 @@
   },
   "pont-de-rennes": {
     "been": true,
+    "city": "Rochester",
     "coords": "43.16270000, -77.61530000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -681,6 +729,7 @@
   },
   "ponte-25-de-abril": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.68916667, -9.17694444",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -697,6 +746,7 @@
   },
   "praterbrucke": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20709444, 16.43644444",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -728,6 +778,7 @@
   },
   "pulaski-skyway": {
     "been": true,
+    "city": "New York",
     "coords": "40.73583000, -74.09167000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -752,6 +803,7 @@
   },
   "rakoczi-hid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.46861111, 19.06750000",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -768,6 +820,7 @@
   },
   "richmond–san-rafael-bridge": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.93470000, -122.43380000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -776,6 +829,7 @@
   },
   "rio–niteroi-bridge": {
     "been": false,
+    "city": "Rio de Janeiro",
     "coords": "-22.87121300, -43.15340600",
     "country": "BR",
     "icons": ["🇧🇷"],
@@ -816,6 +870,7 @@
   },
   "san-francisco-bay-bridge": {
     "been": true,
+    "city": "Oakland",
     "coords": "37.81805556, -122.34666667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -856,6 +911,7 @@
   },
   "smithfield-street-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.43472222, -80.00222222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -864,6 +920,7 @@
   },
   "south-grand-island-bridge": {
     "been": true,
+    "city": "Buffalo",
     "coords": "42.99833333, -78.93722222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -896,6 +953,7 @@
   },
   "sydney-harbour-bridge": {
     "been": false,
+    "city": "Sydney",
     "coords": "-33.85222222, 151.21055556",
     "country": "AU",
     "icons": ["🇦🇺"],
@@ -904,6 +962,7 @@
   },
   "szabadsag-hid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.48583333, 19.05500000",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -912,6 +971,7 @@
   },
   "szechenyi-lanchid": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.49888889, 19.04361111",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -945,6 +1005,7 @@
   },
   "third-mainland-bridge": {
     "been": true,
+    "city": "Lagos",
     "coords": "6.50000000, 3.40138889",
     "country": "NG",
     "icons": ["🇳🇬"],
@@ -953,6 +1014,7 @@
   },
   "three-sisters": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44611111, -80.00194444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -961,6 +1023,7 @@
   },
   "tilikum-crossing": {
     "been": true,
+    "city": "Portland, OR",
     "coords": "45.50490000, -122.66700000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -977,6 +1040,7 @@
   },
   "tower-bridge": {
     "been": true,
+    "city": "London",
     "coords": "51.50550000, -0.07540000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -993,6 +1057,7 @@
   },
   "vasco-da-gama-bridge": {
     "been": false,
+    "city": "Lisbon",
     "coords": "38.76200000, -9.04300000",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -1001,6 +1066,7 @@
   },
   "verrazzano-bridge": {
     "been": true,
+    "city": "New York",
     "coords": "40.60638889, -74.04555556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1040,6 +1106,7 @@
   },
   "waldschloßchenbrucke": {
     "been": false,
+    "city": "Dresden",
     "coords": "51.06390000, 13.77680000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -1048,6 +1115,7 @@
   },
   "walt-whitman-bridge": {
     "been": false,
+    "city": "Philadelphia",
     "coords": "39.90527778, -75.12972222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1056,6 +1124,7 @@
   },
   "west-end-bridge": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44631000, -80.02699000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1064,6 +1133,7 @@
   },
   "william-howard-taft-bridge": {
     "been": true,
+    "city": "Washington",
     "coords": "38.92055556, -77.04972222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1072,6 +1142,7 @@
   },
   "woodrow-wilson-bridge": {
     "been": true,
+    "city": "Washington",
     "coords": "38.79339600, -77.03167000",
     "country": "US",
     "icons": ["🇺🇸"],

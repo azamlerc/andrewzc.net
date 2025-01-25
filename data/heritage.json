@@ -17,6 +17,7 @@
   },
   "brussels-tram-museum": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.83166667, 4.43388889",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -25,6 +26,7 @@
   },
   "cable-car-museum": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.79467500, -122.41139600",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -33,6 +35,7 @@
   },
   "camlık-railway-museum": {
     "been": false,
+    "coords": "37.88522000, 27.38057000",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Çamlık_Railway_Museum",
@@ -62,6 +65,7 @@
   },
   "delaware-&-ulster-railroad": {
     "been": true,
+    "coords": "42.14750000, -74.62000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Delaware_and_Ulster_Railroad",
@@ -69,10 +73,13 @@
   },
   "djurgardslinjen": {
     "been": true,
+    "city": "Stockholm",
+    "coords": "59.33345, 18.073633",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Djurgårdslinjen",
-    "name": "Djurgårdslinjen"
+    "name": "Djurgårdslinjen",
+    "wikidata": "Q474745"
   },
   "empire-state-railway-museum": {
     "been": true,
@@ -92,6 +99,7 @@
   },
   "flam-railway": {
     "been": false,
+    "coords": "60.77000000, 7.10000000",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Fl%C3%A5m_Line",
@@ -107,6 +115,7 @@
   },
   "graz-tram-museum": {
     "been": true,
+    "city": "Graz",
     "coords": "47.1057, 15.4891",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -115,6 +124,7 @@
   },
   "haags-openbaar-vervoer-museum": {
     "been": true,
+    "city": "Den Haag",
     "coords": "52.06220000, 4.30878056",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -139,6 +149,7 @@
   },
   "issaquah-valley-trolley": {
     "been": false,
+    "coords": "47.53111111, -122.03555556",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Issaquah_Valley_Trolley",
@@ -171,6 +182,7 @@
   },
   "london-transport-museum": {
     "been": true,
+    "city": "London",
     "coords": "51.51194444, -0.12166667",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -179,13 +191,17 @@
   },
   "mecklenburgische-baderbahn": {
     "been": false,
+    "coords": "54.139, 11.824",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Bäderbahn_Molli",
-    "name": "Mecklenburgische Bäderbahn"
+    "name": "Mecklenburgische Bäderbahn",
+    "wikidata": "Q9643"
   },
   "millenium-underground-museum": {
     "been": true,
+    "city": "Budapest",
+    "coords": "47.49750000, 19.05500000",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Underground_Railway_Museum_(Budapest)",
@@ -193,13 +209,16 @@
   },
   "musee-de-tramways-de-luxembourg": {
     "been": false,
+    "coords": "49.5991, 6.1028",
     "country": "LU",
     "icons": ["🇱🇺"],
     "link": "https://fr.wikipedia.org/wiki/Musée_des_tramways_et_de_bus_de_la_ville_de_Luxembourg",
-    "name": "Musée de Tramways de Luxembourg"
+    "name": "Musée de Tramways de Luxembourg",
+    "wikidata": "Q4306482"
   },
   "musee-des-transports-en-commun-de-wallonie": {
     "been": false,
+    "city": "Liège",
     "coords": "50.62903400, 5.58287900",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -224,6 +243,7 @@
   },
   "new-york-transit-museum": {
     "been": true,
+    "city": "New York",
     "coords": "40.69040000, -73.99000000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -232,6 +252,7 @@
   },
   "nova-bystrice": {
     "been": true,
+    "coords": "49.01944444, 15.10305556",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://infocentrum.jh.cz/en/sights-in-the-region-jindrichohradecko/museums/regional-narrow-gauge-railway-museum-in-nova-bystrice.html",
@@ -239,6 +260,8 @@
   },
   "oslo-tramway-museum": {
     "been": true,
+    "city": "Oslo",
+    "coords": "59.93110000, 10.71660000",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Tramway_Museum",
@@ -286,6 +309,7 @@
   },
   "pyongyang-metro-museum": {
     "been": false,
+    "city": "Pyongyang",
     "coords": "39.016666666, 125.7475",
     "country": "KP",
     "icons": ["🇰🇵"],
@@ -327,6 +351,7 @@
   },
   "shore-line-trolley-museum": {
     "been": true,
+    "city": "New Haven",
     "coords": "41.27433333, -72.86277778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -369,7 +394,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/TECO_Line_Streetcar",
-    "name": "TECO Line Streetcar"
+    "name": "TECO Line Streetcar",
+    "wikidata": "Q3537205"
   },
   "trammuseum-amsterdam": {
     "been": false,
@@ -381,6 +407,7 @@
   },
   "tramvia-blau": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.41420100, 2.13407300",
     "country": "ES",
     "icons": ["🇪🇸"],

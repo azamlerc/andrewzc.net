@@ -1,6 +1,25 @@
 {
+  "agra": {
+    "been": false,
+    "coords": "27.18, 78.02",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Agra_Metro",
+    "name": "Agra",
+    "wikidata": "Q24088780"
+  },
+  "ahmedabad": {
+    "been": false,
+    "coords": "23.021944444, 72.579722222",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Ahmedabad_Metro",
+    "name": "Ahmedabad",
+    "wikidata": "Q1895288"
+  },
   "algiers": {
     "been": false,
+    "city": "Algiers",
     "coords": "36.73250000, 3.08722222",
     "country": "DZ",
     "icons": ["🇩🇿"],
@@ -9,6 +28,7 @@
   },
   "almaty": {
     "been": false,
+    "city": "Almaty",
     "coords": "43.24000000, 76.91500000",
     "country": "KZ",
     "icons": ["🇰🇿"],
@@ -17,6 +37,7 @@
   },
   "amsterdam": {
     "been": false,
+    "city": "Amsterdam",
     "coords": "52.37277778, 4.89361111",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -25,6 +46,7 @@
   },
   "ankara": {
     "been": false,
+    "city": "Ankara",
     "coords": "39.94100000, 32.86400000",
     "country": "TR",
     "icons": ["🇹🇷"],
@@ -33,6 +55,7 @@
   },
   "athens": {
     "been": false,
+    "city": "Athens",
     "coords": "37.98416667, 23.72805556",
     "country": "GR",
     "icons": ["🇬🇷"],
@@ -41,6 +64,7 @@
   },
   "atlanta": {
     "been": false,
+    "city": "Atlanta",
     "coords": "33.74888889, -84.39000000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -49,6 +73,7 @@
   },
   "baku": {
     "been": false,
+    "city": "Baku",
     "coords": "40.39527778, 49.88222222",
     "country": "AZ",
     "icons": ["🇦🇿"],
@@ -57,6 +82,7 @@
   },
   "baltimore": {
     "been": false,
+    "city": "Baltimore",
     "coords": "39.28944444, -76.61527778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -65,6 +91,7 @@
   },
   "bangalore": {
     "been": false,
+    "city": "Bangalore",
     "coords": "12.97888889, 77.59166667",
     "country": "IN",
     "icons": ["🇮🇳"],
@@ -73,6 +100,7 @@
   },
   "bangkok": {
     "been": false,
+    "city": "Bangkok",
     "coords": "13.75250000, 100.49416667",
     "country": "TH",
     "icons": ["🇹🇭"],
@@ -81,7 +109,8 @@
   },
   "barcelona": {
     "been": true,
-    "coords": "39.50000000, -3.70000000",
+    "city": "Barcelona",
+    "coords": "41.383333, 2.183333",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
@@ -89,6 +118,7 @@
   },
   "beijing": {
     "been": false,
+    "city": "Beijing",
     "coords": "39.91380000, 116.39160000",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -97,6 +127,7 @@
   },
   "berlin": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.52000000, 13.40500000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -113,6 +144,7 @@
   },
   "boston": {
     "been": true,
+    "city": "Boston",
     "coords": "42.31861111, -70.99111111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -121,6 +153,7 @@
   },
   "brussels": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -129,6 +162,7 @@
   },
   "bucharest": {
     "been": false,
+    "city": "Bucharest",
     "coords": "44.43250000, 26.10388889",
     "country": "RO",
     "icons": ["🇷🇴"],
@@ -137,6 +171,7 @@
   },
   "budapest": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.49250000, 19.05138889",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -145,6 +180,7 @@
   },
   "buenos-aires": {
     "been": false,
+    "city": "Buenos Aires",
     "coords": "-34.60333333, -58.38166667",
     "country": "AR",
     "icons": ["🇦🇷"],
@@ -153,6 +189,7 @@
   },
   "busan": {
     "been": false,
+    "city": "Busan",
     "coords": "35.18000000, 129.07500000",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -161,6 +198,7 @@
   },
   "cairo": {
     "been": false,
+    "city": "Cairo",
     "coords": "30.04444444, 31.23583333",
     "country": "EG",
     "icons": ["🇪🇬"],
@@ -183,24 +221,71 @@
     "link": "https://en.wikipedia.org/wiki/Catania_Metro",
     "name": "Catania"
   },
+  "changchun": {
+    "been": false,
+    "coords": "43.9, 125.2",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Changchun_Rail_Transit",
+    "name": "Changchun",
+    "wikidata": "Q2586148"
+  },
+  "changsha": {
+    "been": false,
+    "coords": "28.20350000, 112.95770000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Changsha_Metro",
+    "name": "Changsha"
+  },
+  "changzhou": {
+    "been": false,
+    "coords": "31.812166666, 119.969166666",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Changzhou_Metro",
+    "name": "Changzhou",
+    "wikidata": "Q4507108"
+  },
+  "chengdu": {
+    "been": false,
+    "coords": "30.66, 104.063333333",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Chengdu_Metro",
+    "name": "Chengdu",
+    "wikidata": "Q1660063"
+  },
+  "chennai": {
+    "been": false,
+    "coords": "13.0825, 80.275",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Chennai_Metro",
+    "name": "Chennai",
+    "wikidata": "Q1639576"
+  },
   "chicago": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.88194444, -87.62777778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago_%22L%22",
     "name": "Chicago"
   },
-  "china-(48-cities)": {
+  "chongqing": {
     "been": false,
+    "coords": "29.55, 106.506944444",
     "country": "CN",
     "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Urban_rail_transit_in_China",
-    "name": "China (48 cities)",
-    "wikidata": "Q248613"
+    "link": "https://en.wikipedia.org/wiki/Chongqing_Rail_Transit",
+    "name": "Chongqing",
+    "wikidata": "Q1190894"
   },
   "cleveland": {
     "been": false,
+    "city": "Cleveland",
     "coords": "41.48222222, -81.66972222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -209,14 +294,24 @@
   },
   "copenhagen": {
     "been": false,
+    "city": "Copenhagen",
     "coords": "55.67611111, 12.56833333",
     "country": "DK",
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Copenhagen_Metro",
     "name": "Copenhagen"
   },
+  "dalian": {
+    "been": false,
+    "coords": "38.98820000, 121.65920000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Dalian_Metro",
+    "name": "Dalian"
+  },
   "delhi": {
     "been": false,
+    "city": "Delhi",
     "coords": "28.61000000, 77.23000000",
     "country": "IN",
     "icons": ["🇮🇳"],
@@ -225,6 +320,7 @@
   },
   "dhaka": {
     "been": false,
+    "city": "Dhaka",
     "coords": "23.80416667, 90.41527778",
     "country": "BD",
     "icons": ["🇧🇩"],
@@ -241,22 +337,43 @@
   },
   "doha": {
     "been": false,
+    "city": "Doha",
     "coords": "25.28666667, 51.53333333",
     "country": "QA",
     "icons": ["🇶🇦"],
     "link": "https://en.wikipedia.org/wiki/Doha_Metro",
     "name": "Doha"
   },
+  "dongguan": {
+    "been": false,
+    "coords": "23.04748888888889, 113.74928055555556",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Dongguan_Rail_Transit",
+    "name": "Dongguan",
+    "wikidata": "Q1709132"
+  },
   "dubai": {
     "been": true,
+    "city": "Dubai",
     "coords": "25.26970000, 55.30950000",
     "country": "AE",
     "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Dubai_Metro",
     "name": "Dubai"
   },
+  "foshan": {
+    "been": false,
+    "coords": "23.029167, 113.105556",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Foshan_Metro",
+    "name": "Foshan",
+    "wikidata": "Q1660094"
+  },
   "frankfurt": {
     "been": false,
+    "city": "Frankfurt",
     "coords": "50.113611111111, 8.6797222222222",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -266,14 +383,25 @@
   },
   "fukuoka": {
     "been": false,
+    "city": "Fukuoka",
     "coords": "33.59000000, 130.40166667",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Fukuoka_City_Subway",
     "name": "Fukuoka"
   },
+  "fuzhou": {
+    "been": false,
+    "coords": "26.076944444, 119.291666666",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Fuzhou_Metro",
+    "name": "Fuzhou",
+    "wikidata": "Q1022261"
+  },
   "genoa": {
     "been": false,
+    "city": "Genoa",
     "coords": "44.41111111, 8.93277778",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -282,6 +410,7 @@
   },
   "glasgow": {
     "been": false,
+    "city": "Glasgow",
     "coords": "55.8616, -4.2832",
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
@@ -295,6 +424,7 @@
   },
   "guadalajara": {
     "been": false,
+    "city": "Guadalajara",
     "coords": "20.67666667, -103.34750000",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -303,30 +433,79 @@
   },
   "guangzhou": {
     "been": false,
+    "city": "Guangzhou",
     "coords": "23.13000000, 113.26000000",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Guangzhou_Metro",
     "name": "Guangzhou"
   },
+  "guiyang": {
+    "been": false,
+    "coords": "26.579444444444444, 106.70777777777778",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Guiyang_Metro",
+    "name": "Guiyang",
+    "wikidata": "Q2688133"
+  },
+  "gurgaon": {
+    "been": false,
+    "coords": "28.45600000, 77.02900000",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Rapid_Metro_Gurgaon",
+    "name": "Gurgaon",
+    "wikidata": "Q7294170"
+  },
   "hamburg": {
     "been": false,
+    "city": "Hamburg",
     "coords": "53.54419800, 9.97941100",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Hamburg_U-Bahn",
     "name": "Hamburg"
   },
+  "hangzhou": {
+    "been": false,
+    "coords": "30.25, 120.1675",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Hangzhou_Metro",
+    "name": "Hangzhou",
+    "wikidata": "Q2419742"
+  },
   "hanoi": {
     "been": false,
+    "city": "Hanoi",
     "coords": "21.00000000, 105.85000000",
     "country": "VN",
     "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Hanoi_Metro",
     "name": "Hanoi"
   },
+  "harbin": {
+    "been": false,
+    "coords": "45.75, 126.63333333333334",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Harbin_Metro",
+    "name": "Harbin",
+    "wikidata": "Q2688234"
+  },
+  "hefei": {
+    "been": false,
+    "coords": "31.86389, 117.28083",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Hefei_Metro",
+    "name": "Hefei",
+    "wikidata": "Q2688118"
+  },
   "helsinki": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.17083333, 24.93750000",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -335,6 +514,7 @@
   },
   "ho-chi-minh-city": {
     "been": false,
+    "city": "Ho Chi Minh City",
     "coords": "10.77555556, 106.70194444",
     "country": "VN",
     "icons": ["🇻🇳"],
@@ -342,8 +522,18 @@
     "name": "Ho Chi Minh City",
     "wikidata": "Q2198304"
   },
+  "hohhot": {
+    "been": false,
+    "coords": "40.81507, 111.66293",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Hohhot_Metro",
+    "name": "Hohhot",
+    "wikidata": "Q20688234"
+  },
   "hong-kong": {
     "been": false,
+    "city": "Hong Kong",
     "coords": "22.30000000, 114.20000000",
     "country": "HK",
     "icons": ["🇭🇰"],
@@ -352,6 +542,7 @@
   },
   "honolulu": {
     "been": false,
+    "city": "Honolulu",
     "coords": "21.39069400, -157.98812300",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -360,30 +551,70 @@
   },
   "hyderabad": {
     "been": false,
+    "city": "Hyderabad",
     "coords": "17.361666666666668, 78.47472222222223",
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Hyderabad_Metro",
     "name": "Hyderabad"
   },
+  "isfahan": {
+    "been": false,
+    "coords": "32.6525, 51.674722222",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Isfahan_Metro",
+    "name": "Isfahan",
+    "wikidata": "Q5963929"
+  },
   "istanbul": {
     "been": false,
+    "city": "Istanbul",
     "coords": "41.01361111, 28.95500000",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Istanbul_Metro",
     "name": "Istanbul"
   },
+  "jaipur": {
+    "been": false,
+    "coords": "26.9156, 75.8183",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Jaipur_Metro",
+    "name": "Jaipur",
+    "wikidata": "Q6124135"
+  },
   "jakarta": {
     "been": false,
+    "city": "Jakarta",
     "coords": "-6.19171600, 106.82300400",
     "country": "ID",
     "icons": ["🇮🇩"],
     "link": "https://en.wikipedia.org/wiki/Jakarta_MRT",
     "name": "Jakarta"
   },
+  "jinan": {
+    "been": false,
+    "coords": "36.666666666, 116.983333333",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Jinan_Metro",
+    "name": "Jinan",
+    "wikidata": "Q16259331"
+  },
+  "kanpur": {
+    "been": false,
+    "coords": "26.4725, 80.331111111",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Kanpur_Metro",
+    "name": "Kanpur",
+    "wikidata": "Q17063873"
+  },
   "kazan": {
     "been": false,
+    "city": "Kazan",
     "coords": "55.79638889, 49.10888889",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -392,6 +623,7 @@
   },
   "kharkiv": {
     "been": false,
+    "city": "Kharkiv",
     "coords": "49.98500000, 36.28000000",
     "country": "UA",
     "icons": ["🇺🇦"],
@@ -406,16 +638,46 @@
     "link": "https://en.wikipedia.org/wiki/Kobe_Municipal_Subway",
     "name": "Kobe"
   },
+  "kochi": {
+    "been": false,
+    "coords": "9.9672, 76.2456",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Kochi_Metro",
+    "name": "Kochi",
+    "wikidata": "Q3522910"
+  },
+  "kolkata": {
+    "been": false,
+    "city": "Kolkata",
+    "coords": "22.541111111, 88.337777777",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Kolkata_Metro",
+    "name": "Kolkata",
+    "wikidata": "Q1048849"
+  },
   "kuala-lumpur": {
     "been": false,
+    "city": "Kuala Lumpur",
     "coords": "3.14777778, 101.69527778",
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Rapid_KL",
     "name": "Kuala Lumpur"
   },
+  "kunming": {
+    "been": false,
+    "coords": "25.043333333, 102.706111111",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Kunming_Metro",
+    "name": "Kunming",
+    "wikidata": "Q1660425"
+  },
   "kyiv": {
     "been": false,
+    "city": "Kyiv",
     "coords": "50.40000000, 30.54000000",
     "country": "UA",
     "icons": ["🇺🇦"],
@@ -424,6 +686,7 @@
   },
   "kyoto": {
     "been": false,
+    "city": "Kyoto",
     "coords": "35.01166667, 135.76833333",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -432,6 +695,7 @@
   },
   "lagos": {
     "been": false,
+    "city": "Lagos",
     "coords": "6.45502700, 3.38408200",
     "country": "NG",
     "icons": ["🇳🇬"],
@@ -446,8 +710,18 @@
     "link": "https://en.wikipedia.org/wiki/Lahore_Metro",
     "name": "Lahore"
   },
+  "lanzhou": {
+    "been": false,
+    "coords": "36.06166666666667, 103.83166666666666",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Lanzhou_Metro",
+    "name": "Lanzhou",
+    "wikidata": "Q10893611"
+  },
   "lausanne": {
     "been": false,
+    "city": "Lausanne",
     "coords": "46.51983333, 6.63350000",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -456,6 +730,7 @@
   },
   "lille": {
     "been": false,
+    "city": "Lille",
     "coords": "50.62780000, 3.05830000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -464,6 +739,7 @@
   },
   "lima": {
     "been": false,
+    "city": "Lima",
     "coords": "-12.04333333, -77.02833333",
     "country": "PE",
     "icons": ["🇵🇪"],
@@ -472,6 +748,7 @@
   },
   "lisbon": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.72527778, -9.15000000",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -480,6 +757,7 @@
   },
   "london": {
     "been": true,
+    "city": "London",
     "coords": "51.50722222, -0.12750000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -488,14 +766,34 @@
   },
   "los-angeles": {
     "been": false,
+    "city": "Los Angeles",
     "coords": "34.05000000, -118.25000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Los_Angeles_Metro_Rail",
     "name": "Los Angeles"
   },
+  "lucknow": {
+    "been": false,
+    "coords": "26.847, 80.947",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Lucknow_Metro",
+    "name": "Lucknow",
+    "wikidata": "Q6697779"
+  },
+  "luoyang": {
+    "been": false,
+    "coords": "34.65867, 112.42447",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Luoyang_Subway",
+    "name": "Luoyang",
+    "wikidata": "Q11146236"
+  },
   "lyon": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.76000000, 4.84000000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -504,6 +802,7 @@
   },
   "madrid": {
     "been": false,
+    "city": "Madrid",
     "coords": "40.41694444, -3.70333333",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -512,6 +811,7 @@
   },
   "manila": {
     "been": false,
+    "city": "Manila",
     "coords": "14.59583333, 120.97722222",
     "country": "PH",
     "icons": ["🇵🇭"],
@@ -520,6 +820,7 @@
   },
   "marseille": {
     "been": false,
+    "city": "Marseille",
     "coords": "43.29640000, 5.37000000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -536,6 +837,7 @@
   },
   "medellin": {
     "been": false,
+    "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
     "icons": ["🇨🇴"],
@@ -544,6 +846,7 @@
   },
   "mexico-city": {
     "been": false,
+    "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -552,6 +855,7 @@
   },
   "miami": {
     "been": true,
+    "city": "Miami",
     "coords": "25.78000000, -80.21000000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -560,6 +864,7 @@
   },
   "milan": {
     "been": false,
+    "city": "Milan",
     "coords": "45.46694444, 9.19000000",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -568,6 +873,7 @@
   },
   "minsk": {
     "been": false,
+    "city": "Minsk",
     "coords": "53.89472222, 27.54805556",
     "country": "BY",
     "icons": ["🇧🇾"],
@@ -584,6 +890,7 @@
   },
   "montreal": {
     "been": true,
+    "city": "Montréal",
     "coords": "45.50888889, -73.55416667",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -592,11 +899,22 @@
   },
   "moscow": {
     "been": false,
+    "city": "Moscow",
     "coords": "55.75583333, 37.61722222",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Metro",
     "name": "Moscow"
+  },
+  "mumbai": {
+    "been": false,
+    "city": "Mumbai",
+    "coords": "19.075833333, 72.8775",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Mumbai_Metro",
+    "name": "Mumbai",
+    "wikidata": "Q646414"
   },
   "munich": {
     "been": false,
@@ -608,14 +926,61 @@
   },
   "nagoya": {
     "been": false,
+    "city": "Nagoya",
     "coords": "35.18333333, 136.90000000",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway",
     "name": "Nagoya"
   },
+  "nagpur": {
+    "been": false,
+    "coords": "21.149722222, 79.080555555",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Nagpur_Metro",
+    "name": "Nagpur",
+    "wikidata": "Q6959014"
+  },
+  "nanchang": {
+    "been": false,
+    "coords": "28.684167, 115.887222",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Nanchang_Metro",
+    "name": "Nanchang",
+    "wikidata": "Q1058531"
+  },
+  "nanjing": {
+    "been": false,
+    "coords": "32.060833333333335, 118.77888888888889",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Nanjing_Metro",
+    "name": "Nanjing",
+    "wikidata": "Q429366"
+  },
+  "nanning": {
+    "been": false,
+    "coords": "22.81918, 108.31501",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Nanning_Metro",
+    "name": "Nanning",
+    "wikidata": "Q10907375"
+  },
+  "nantong": {
+    "been": false,
+    "coords": "31.98288, 120.8873",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Nantong_Metro",
+    "name": "Nantong",
+    "wikidata": "Q18110961"
+  },
   "naples": {
     "been": true,
+    "city": "Naples",
     "coords": "40.83583333333333, 14.248611111111112",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -624,6 +989,7 @@
   },
   "navi-mumbai": {
     "been": false,
+    "city": "Mumbai",
     "coords": "19.02000000, 73.02000000",
     "country": "IN",
     "icons": ["🇮🇳"],
@@ -632,19 +998,40 @@
   },
   "new-york": {
     "been": true,
+    "city": "New York",
     "coords": "40.7, -74.0",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_York_City_Subway",
     "name": "New York"
   },
+  "ningbo": {
+    "been": false,
+    "coords": "29.875, 121.54916666666666",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Ningbo_Rail_Transit",
+    "name": "Ningbo",
+    "wikidata": "Q1000022"
+  },
   "nizhny-novgorod": {
     "been": false,
+    "city": "Nizhny Novgorod",
     "coords": "56.32694444, 44.00750000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Nizhny_Novgorod_Metro",
     "name": "Nizhny Novgorod"
+  },
+  "noida": {
+    "been": false,
+    "city": "Delhi",
+    "coords": "28.57, 77.32",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Noida_Metro",
+    "name": "Noida",
+    "wikidata": "Q16909221"
   },
   "novosibirsk": {
     "been": false,
@@ -664,6 +1051,7 @@
   },
   "osaka": {
     "been": false,
+    "city": "Ōsaka",
     "coords": "34.69388889, 135.50222222",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -672,6 +1060,7 @@
   },
   "oslo": {
     "been": true,
+    "city": "Oslo",
     "coords": "59.91333333, 10.73888889",
     "country": "NO",
     "icons": ["🇳🇴"],
@@ -680,6 +1069,7 @@
   },
   "panama-city": {
     "been": false,
+    "city": "Panama City",
     "coords": "8.98333333, -79.51666667",
     "country": "PA",
     "icons": ["🇵🇦"],
@@ -688,6 +1078,7 @@
   },
   "paris": {
     "been": true,
+    "city": "Paris",
     "coords": "48.85666666666667, 2.352222222222222",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -696,6 +1087,7 @@
   },
   "philadelphia": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.95280000, -75.16360000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -704,22 +1096,44 @@
   },
   "prague": {
     "been": true,
+    "city": "Prague",
     "coords": "50.08750000, 14.42138889",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Prague_Metro",
     "name": "Prague"
   },
+  "pune": {
+    "been": false,
+    "city": "Pune",
+    "coords": "18.5221, 73.8545",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Pune_Metro",
+    "name": "Pune",
+    "wikidata": "Q3595697"
+  },
   "pyongyang": {
     "been": false,
+    "city": "Pyongyang",
     "coords": "39.01666667, 125.74750000",
     "country": "KP",
     "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Pyongyang_Metro",
     "name": "Pyongyang"
   },
+  "qingdao": {
+    "been": false,
+    "coords": "36.116666666, 120.4",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Qingdao_Metro",
+    "name": "Qingdao",
+    "wikidata": "Q2620251"
+  },
   "quito": {
     "been": false,
+    "city": "Quito",
     "coords": "-0.22000000, -78.51250000",
     "country": "EC",
     "icons": ["🇪🇨"],
@@ -728,6 +1142,7 @@
   },
   "rio-de-janeiro": {
     "been": false,
+    "city": "Rio de Janeiro",
     "coords": "-22.91111111, -43.20555556",
     "country": "BR",
     "icons": ["🇧🇷"],
@@ -736,6 +1151,7 @@
   },
   "riyadh": {
     "been": false,
+    "city": "Riyadh",
     "coords": "24.63333333, 46.71666667",
     "country": "SA",
     "icons": ["🇸🇦"],
@@ -745,6 +1161,7 @@
   },
   "rome": {
     "been": false,
+    "city": "Rome",
     "coords": "41.89333333, 12.48277778",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -753,6 +1170,7 @@
   },
   "rotterdam": {
     "been": false,
+    "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -761,11 +1179,21 @@
   },
   "saint-petersburg": {
     "been": false,
+    "city": "Saint Petersburg",
     "coords": "59.93750000, 30.30861111",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Saint_Petersburg_Metro",
     "name": "Saint Petersburg"
+  },
+  "salvador": {
+    "been": false,
+    "coords": "-12.983055555, -38.492777777",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Salvador_Metro",
+    "name": "Salvador",
+    "wikidata": "Q306253"
   },
   "samara": {
     "been": false,
@@ -777,6 +1205,7 @@
   },
   "san-francisco": {
     "been": false,
+    "city": "San Francisco",
     "coords": "37.77750000, -122.41638889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -793,6 +1222,7 @@
   },
   "santiago": {
     "been": false,
+    "city": "Santiago",
     "coords": "-33.43750000, -70.65000000",
     "country": "CL",
     "icons": ["🇨🇱"],
@@ -801,6 +1231,7 @@
   },
   "santo-domingo": {
     "been": false,
+    "city": "Santo Domingo",
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
     "icons": ["🇩🇴"],
@@ -809,6 +1240,7 @@
   },
   "sao-paulo": {
     "been": false,
+    "city": "São Paulo",
     "coords": "-23.55000000, -46.63333333",
     "country": "BR",
     "icons": ["🇧🇷"],
@@ -817,6 +1249,7 @@
   },
   "sapporo": {
     "been": false,
+    "city": "Sapporo",
     "coords": "43.06194444, 141.35444444",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -833,6 +1266,7 @@
   },
   "seoul": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.56000000, 126.99000000",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -841,22 +1275,52 @@
   },
   "shanghai": {
     "been": false,
+    "city": "Shanghai",
     "coords": "31.22861111, 121.47472222",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Shanghai_Metro",
     "name": "Shanghai"
   },
+  "shaoxing": {
+    "been": false,
+    "coords": "30.00237, 120.57864",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Shaoxing_Metro",
+    "name": "Shaoxing",
+    "wikidata": "Q20063952"
+  },
+  "shenyang": {
+    "been": false,
+    "coords": "41.8025, 123.428055555",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Shenyang_Metro",
+    "name": "Shenyang",
+    "wikidata": "Q646466"
+  },
   "shenzhen": {
     "been": false,
+    "city": "Shenzhen",
     "coords": "22.55000000, 114.10000000",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Shenzhen_Metro",
     "name": "Shenzhen"
   },
+  "shijiazhuang": {
+    "been": false,
+    "coords": "38.0425, 114.51",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Shijiazhuang_Metro",
+    "name": "Shijiazhuang",
+    "wikidata": "Q12267378"
+  },
   "singapore": {
     "been": false,
+    "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
     "icons": ["🇸🇬"],
@@ -865,6 +1329,7 @@
   },
   "sofia": {
     "been": false,
+    "city": "Sofia",
     "coords": "42.70000000, 23.33000000",
     "country": "BG",
     "icons": ["🇧🇬"],
@@ -873,30 +1338,70 @@
   },
   "stockholm": {
     "been": true,
+    "city": "Stockholm",
     "coords": "59.32944444, 18.06861111",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_metro",
     "name": "Stockholm"
   },
+  "suzhou": {
+    "been": false,
+    "coords": "31.3, 120.619444444",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Suzhou_Rail_Transit",
+    "name": "Suzhou",
+    "wikidata": "Q914748"
+  },
   "sydney": {
     "been": false,
+    "city": "Sydney",
     "coords": "-33.86777778, 151.21000000",
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Sydney_Metro",
     "name": "Sydney"
   },
+  "tabriz": {
+    "been": false,
+    "coords": "38.073888888, 46.296111111",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Tabriz_Metro",
+    "name": "Tabriz",
+    "wikidata": "Q5964315"
+  },
   "taipei": {
     "been": false,
+    "city": "Taipei",
     "coords": "25.03750000, 121.56250000",
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Taipei_Metro",
     "name": "Taipei"
   },
+  "taiyuan": {
+    "been": false,
+    "coords": "37.87326, 112.54245",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Taiyuan_Metro",
+    "name": "Taiyuan",
+    "wikidata": "Q10941073"
+  },
+  "taoyuan": {
+    "been": false,
+    "coords": "24.991278, 121.314328",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "link": "https://en.wikipedia.org/wiki/Taoyuan_Metro",
+    "name": "Taoyuan",
+    "wikidata": "Q7684358"
+  },
   "tashkent": {
     "been": false,
+    "city": "Tashkent",
     "coords": "41.31111111, 69.27972222",
     "country": "UZ",
     "icons": ["🇺🇿"],
@@ -905,6 +1410,7 @@
   },
   "tblisi": {
     "been": false,
+    "city": "Tbilisi",
     "coords": "41.72250000, 44.79250000",
     "country": "GE",
     "icons": ["🇬🇪"],
@@ -913,6 +1419,7 @@
   },
   "tehran": {
     "been": false,
+    "city": "Tehran",
     "coords": "35.69611111, 51.42305556",
     "country": "IR",
     "icons": ["🇮🇷"],
@@ -921,6 +1428,7 @@
   },
   "thessaloniki": {
     "been": false,
+    "city": "Thessaloniki",
     "coords": "40.6156, 22.9601",
     "country": "GR",
     "icons": ["🇬🇷"],
@@ -928,8 +1436,18 @@
     "name": "Thessaloniki",
     "wikidata": "Q1326567"
   },
+  "tianjin": {
+    "been": false,
+    "coords": "39.14666666666667, 117.20555555555555",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Tianjin_Metro",
+    "name": "Tianjin",
+    "wikidata": "Q515817"
+  },
   "tokyo": {
     "been": false,
+    "city": "Tokyo",
     "coords": "35.68972222, 139.69222222",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -938,6 +1456,7 @@
   },
   "toronto": {
     "been": false,
+    "city": "Toronto",
     "coords": "43.74166667, -79.37333333",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -946,6 +1465,7 @@
   },
   "toulouse": {
     "been": false,
+    "city": "Toulouse",
     "coords": "43.60450000, 1.44400000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -954,14 +1474,25 @@
   },
   "turin": {
     "been": false,
+    "city": "Turin",
     "coords": "45.07916667, 7.67611111",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Turin_Metro",
     "name": "Turin"
   },
+  "urumqi": {
+    "been": false,
+    "coords": "43.8225, 87.6125",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi_Metro",
+    "name": "Ürümqi",
+    "wikidata": "Q290307"
+  },
   "vancouver": {
     "been": false,
+    "city": "Vancouver",
     "coords": "49.26083333, -123.11388889",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -970,6 +1501,7 @@
   },
   "vienna": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20777778, 16.37138889",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -978,6 +1510,7 @@
   },
   "warsaw": {
     "been": true,
+    "city": "Warsaw",
     "coords": "52.23000000, 21.01111111",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -986,11 +1519,66 @@
   },
   "washington": {
     "been": true,
+    "city": "Washington",
     "coords": "38.895, -77.036666666667",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington_Metro",
     "name": "Washington"
+  },
+  "wuhan": {
+    "been": false,
+    "coords": "30.587222222, 114.288055555",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Wuhan_Metro",
+    "name": "Wuhan",
+    "wikidata": "Q1660441"
+  },
+  "wuxi": {
+    "been": false,
+    "coords": "31.566667, 120.283333",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Wuxi_Metro",
+    "name": "Wuxi",
+    "wikidata": "Q2620237"
+  },
+  "xi'an": {
+    "been": false,
+    "coords": "34.261111111, 108.942222222",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Xi%27an_Metro",
+    "name": "Xi'an",
+    "wikidata": "Q555733"
+  },
+  "xiamen": {
+    "been": false,
+    "coords": "24.479722222, 118.081944444",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Xiamen_Metro",
+    "name": "Xiamen",
+    "wikidata": "Q10911453"
+  },
+  "xian": {
+    "been": false,
+    "coords": "34.261111111, 108.942222222",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Xi%27an_Metro",
+    "name": "Xi’an",
+    "wikidata": "Q555733"
+  },
+  "xuzhou": {
+    "been": false,
+    "coords": "34.26104, 117.18587",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Xuzhou_Metro",
+    "name": "Xuzhou",
+    "wikidata": "Q11070585"
   },
   "yekaterinburg": {
     "been": false,
@@ -1002,6 +1590,7 @@
   },
   "yerevan": {
     "been": false,
+    "city": "Yerevan",
     "coords": "40.18138889, 44.51444444",
     "country": "AM",
     "icons": ["🇦🇲"],
@@ -1015,5 +1604,14 @@
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Yokohama_Municipal_Subway",
     "name": "Yokohama"
+  },
+  "zhengzhou": {
+    "been": false,
+    "coords": "34.74919, 113.66051",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Zhengzhou_Metro",
+    "name": "Zhengzhou",
+    "wikidata": "Q1002598"
   }
 }

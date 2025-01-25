@@ -1,44 +1,62 @@
 {
   "london": {
     "been": true,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_congestion_charge",
-    "name": "London"
+    "name": "London",
+    "wikidata": "Q371759"
   },
   "milan": {
     "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan_Area_C",
-    "name": "Milan"
+    "name": "Milan",
+    "wikidata": "Q10945656"
   },
   "new-york": {
     "been": true,
+    "city": "New York",
+    "coords": "43.0, -75.0",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Congestion_pricing_in_New_York_City",
-    "name": "New York"
+    "name": "New York",
+    "wikidata": "Q1384"
   },
   "oslo": {
     "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Toll_roads_in_Norway",
-    "name": "Oslo"
+    "name": "Oslo",
+    "wikidata": "Q10563480"
   },
   "singapore": {
     "been": false,
+    "city": "Singapore",
+    "coords": "1.28333333, 103.83333333",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Electronic_Road_Pricing",
-    "name": "Singapore"
+    "name": "Singapore",
+    "wikidata": "Q1191337"
   },
   "stockholm": {
     "been": true,
+    "city": "Stockholm",
+    "coords": "59.32944444, 18.06861111",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_congestion_tax",
-    "name": "Stockholm"
+    "name": "Stockholm",
+    "wikidata": "Q2365786"
   }
 }

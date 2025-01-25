@@ -25,6 +25,7 @@
   },
   "alexandria": {
     "been": true,
+    "city": "Alexandria",
     "coords": "31.21480000, 29.88600000",
     "country": "EG",
     "icons": ["🇪🇬"],
@@ -42,6 +43,7 @@
   },
   "blackwell-island": {
     "been": true,
+    "city": "New York",
     "coords": "40.77277778, -73.94016667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -50,6 +52,7 @@
   },
   "cape-bruny": {
     "been": false,
+    "coords": "-43.49113889, 147.14222222",
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Cape_Bruny_Lighthouse",
@@ -89,6 +92,7 @@
   },
   "cape-hatteras": {
     "been": false,
+    "coords": "35.25055556, -75.52880556",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cape_Hatteras_Lighthouse",
@@ -119,6 +123,7 @@
   },
   "devin": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.17361111, 16.97833333",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -158,6 +163,7 @@
   },
   "five-mile-point": {
     "been": true,
+    "city": "New Haven",
     "coords": "41.248889, -72.903889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -174,6 +180,7 @@
   },
   "fort-wadsworth": {
     "been": true,
+    "city": "New York",
     "coords": "40.60583333, -74.05388889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -190,6 +197,8 @@
   },
   "green-point": {
     "been": false,
+    "city": "Cape Town",
+    "coords": "-33.90140833, 18.39994167",
     "country": "ZA",
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Green_Point_Lighthouse,_Cape_Town",
@@ -213,6 +222,7 @@
   },
   "husavik": {
     "been": false,
+    "coords": "66.05000000, -17.31666667",
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/H%C3%BAsav%C3%ADk",
@@ -220,6 +230,7 @@
   },
   "jones-point": {
     "been": true,
+    "city": "Washington",
     "coords": "38.79038889, -77.04063889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -236,6 +247,7 @@
   },
   "klein-curacao": {
     "been": false,
+    "coords": "11.99277778, -68.65083333",
     "country": "CW",
     "icons": ["🇨🇼"],
     "link": "https://en.wikipedia.org/wiki/Klein_Cura%C3%A7ao",
@@ -243,6 +255,7 @@
   },
   "les-eclaireurs": {
     "been": false,
+    "coords": "-54.87152778, -68.08333333",
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Les_Eclaireurs_Lighthouse",
@@ -250,6 +263,7 @@
   },
   "little-red-lighthouse": {
     "been": true,
+    "city": "New York",
     "coords": "40.850278, -73.946944",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -314,27 +328,34 @@
   },
   "phare-de-berck": {
     "been": true,
+    "coords": "50.3983361, 1.5608007",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Phare_de_Berck",
-    "name": "Phare de Berck"
+    "name": "Phare de Berck",
+    "wikidata": "Q2886510"
   },
   "phare-de-calais": {
     "been": true,
+    "coords": "50.96133, 1.85368",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Phare_de_Calais",
-    "name": "Phare de Calais"
+    "name": "Phare de Calais",
+    "wikidata": "Q2839983"
   },
   "phare-de-dunkerque": {
     "been": true,
+    "coords": "51.048888888889, 2.3641666666667",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Phare_de_Dunkerque",
-    "name": "Phare de Dunkerque"
+    "name": "Phare de Dunkerque",
+    "wikidata": "Q3378220"
   },
   "phare-de-la-canche": {
     "been": true,
+    "coords": "50.52765500, 1.59265800",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Phare_de_la_Canche",
@@ -342,13 +363,16 @@
   },
   "phare-du-cap-gris-nez": {
     "been": true,
+    "coords": "50.8681, 1.58278",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Phare_du_cap_Gris-Nez",
-    "name": "Phare du Cap Gris-Nez"
+    "name": "Phare du Cap Gris-Nez",
+    "wikidata": "Q3378560"
   },
   "pierhead-light": {
     "been": false,
+    "coords": "43.02593833, -87.89526056",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Milwaukee_Pierhead_Light",
@@ -372,6 +396,7 @@
   },
   "race-point": {
     "been": true,
+    "coords": "42.06233333, -70.24302778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Race_Point_Light",

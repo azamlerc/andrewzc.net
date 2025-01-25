@@ -1,149 +1,272 @@
 {
   "": {
     "been": false,
+    "city": "Boston",
     "icons": [],
     "name": "",
     "reference": "Sofia"
   },
   "69th-street": {
     "been": true,
-    "coords": "39.963076°N, 75.259995°W",
+    "city": "Philadelphia",
+    "coords": "39.96307600, -75.25999500",
     "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "MF/Norristown",
     "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
     "name": "69th Street",
-    "reference": "MF/Norristown"
+    "reference": "Philadelphia"
   },
   "ashmont": {
     "been": true,
-    "coords": "42.2843°N, 71.0638°W",
+    "city": "Boston",
+    "coords": "42.28430000, -71.06380000",
     "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Red Line/Mattapan",
     "link": "https://en.wikipedia.org/wiki/Ashmont_station",
     "name": "Ashmont",
-    "reference": "Red Line/Mattapan"
+    "reference": "Boston"
   },
   "clapham-junction": {
     "been": true,
-    "coords": "51.4646°N, 0.1705°W",
+    "city": "London",
+    "coords": "51.46460000, -0.17050000",
     "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "Overground",
     "link": "https://en.wikipedia.org/wiki/Clapham_Junction_railway_station",
     "name": "Clapham Junction",
-    "reference": "Overground"
+    "reference": "London"
   },
   "epping": {
     "been": true,
-    "coords": "51.6938°N, 0.1137°E",
+    "city": "London",
+    "coords": "51.69380000, 0.11370000",
     "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "Central",
     "link": "https://en.wikipedia.org/wiki/Epping_tube_station",
     "name": "Epping",
-    "reference": "Central"
+    "reference": "London",
+    "strike": true
   },
   "estadio-metropolitano": {
     "been": false,
-    "coords": "40.4333937°N, 3.6001502°W",
+    "city": "Madrid",
+    "coords": "40.43339370, -3.60015020",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "Line 7",
     "link": "https://en.wikipedia.org/wiki/Estadio_Metropolitano_(Madrid_Metro)",
     "name": "Estadio Metropolitano",
-    "reference": "7A/7B"
+    "reference": "Madrid"
+  },
+  "grefsen": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.94166667, 10.78055556",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "info": "17/18",
+    "link": "https://en.wikipedia.org/wiki/Grefsen_station",
+    "name": "Grefsen",
+    "reference": "Oslo"
   },
   "hainault": {
     "been": true,
-    "coords": "51.6033°N, 0.0933°E",
+    "city": "London",
+    "coords": "51.60330000, 0.09330000",
     "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "Central",
     "link": "https://en.wikipedia.org/wiki/Hainault_tube_station",
     "name": "Hainault",
-    "reference": "Central"
+    "reference": "London",
+    "strike": true
+  },
+  "majorsteun": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "info": "12/19",
+    "link": "https://en.wikipedia.org/wiki/Majorsteun_station",
+    "name": "Majorsteun",
+    "reference": "Oslo"
   },
   "massy–palaiseau": {
     "been": true,
-    "coords": "48.724114°N, 2.259434°E",
+    "city": "Paris",
+    "coords": "48.72411400, 2.25943400",
     "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "T12/V",
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Massy_-_Palaiseau",
     "name": "Massy–Palaiseau",
-    "reference": "T12/V"
+    "reference": "Paris"
   },
   "nation": {
     "been": true,
-    "coords": "48.8484657505532°N, 2.39590574456544°E",
+    "city": "Paris",
+    "coords": "48.84846575, 2.39590574",
     "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "M2/M6",
     "link": "https://fr.wikipedia.org/wiki/Nation_(métro_de_Paris)",
     "name": "Nation",
-    "reference": "M2/M6"
+    "reference": "Paris"
   },
   "obelya": {
     "been": false,
-    "coords": "42°44′27″N, 23°16′35″E",
+    "city": "Sofia",
+    "coords": "42.74083333, 23.27638889",
     "country": "BG",
+    "icons": ["🇧🇬"],
+    "info": "M2/M4",
     "link": "https://en.wikipedia.org/wiki/Obelya_Metro_Station",
     "name": "Obelya",
-    "reference": "M2/M4"
+    "reference": "Sofia"
+  },
+  "ors-vezer-tere": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.50280000, 19.13560000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "info": "M2/H8",
+    "link": "https://en.wikipedia.org/wiki/Örs_vezér_tere_metro_station",
+    "name": "Örs vezér tere",
+    "reference": "Budapest"
   },
   "palettes": {
     "been": true,
+    "city": "Geneva",
     "coords": "46.2103, 6.14333",
     "country": "CH",
+    "icons": ["🇨🇭"],
+    "info": "15/18",
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Genève",
     "name": "Palettes",
-    "reference": "15/18"
+    "reference": "Geneva",
+    "strike": true
   },
   "pinar-de-chamartin": {
     "been": false,
-    "coords": "40.4744°N, 3.6697°W",
+    "city": "Philadelphia",
+    "coords": "40.47440000, -3.66970000",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "M1/ML1",
     "link": "https://es.wikipedia.org/wiki/Estación_de_Pinar_de_Chamartín",
     "name": "Pinar de Chamartin",
-    "reference": "M1/ML1"
+    "reference": "Philadelphia"
   },
   "pittsburg/bay-point": {
     "been": false,
+    "city": "San Francisco",
     "coords": "38.029166666667, -121.96166666667",
     "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Yellow Line",
     "link": "https://en.wikipedia.org/wiki/Pittsburg/Bay_Point_station",
     "name": "Pittsburg/Bay Point",
-    "reference": "Yellow"
+    "reference": "San Francisco"
   },
   "porte-de-vincennes": {
     "been": true,
-    "coords": "48°50′50″N, 2°24′40″E",
+    "city": "Paris",
+    "coords": "48.84722222, 2.41111111",
     "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "T3a/T3b",
     "link": "https://fr.wikipedia.org/wiki/Porte_de_Vincennes_(métro_de_Paris)",
     "name": "Porte de Vincennes",
-    "reference": "T3a/T3b"
+    "reference": "Paris"
   },
   "puerta-de-arganda": {
     "been": false,
+    "city": "Madrid",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "Line 9",
     "link": "https://es.wikipedia.org/wiki/Estación_de_Puerta_de_Arganda",
     "name": "Puerta de Arganda",
-    "reference": "9A/9B"
+    "reference": "Madrid"
+  },
+  "ropsten": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.35722222, 18.10166667",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "info": "13/21",
+    "link": "https://en.wikipedia.org/wiki/Ropsten_metro_station",
+    "name": "Ropsten",
+    "reference": "Stockholm"
   },
   "sarria": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "L6/L12",
     "link": "https://es.wikipedia.org/wiki/Estación_de_Sarriá",
     "name": "Sarrià",
-    "reference": "L6/L12"
+    "reference": "Barcelona"
+  },
+  "storo": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.94407100, 10.77870300",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Storo_station",
+    "name": "Storo",
+    "reference": "Oslo",
+    "strike": true
+  },
+  "stortinget": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91277778, 10.74166667",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Stortinget_station",
+    "name": "Stortinget",
+    "reference": "Oslo",
+    "strike": true
   },
   "tres-olivas": {
     "been": true,
+    "city": "Madrid",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "10A/10B",
     "link": "https://es.wikipedia.org/wiki/Estación_de_Tres_Olivos",
     "name": "Tres Olivas",
-    "reference": "10A/10B"
+    "reference": "Madrid"
   },
   "trinitat-nova": {
     "been": true,
-    "coords": "41°26′54.89″N, 2°11′6.89″E",
+    "city": "Barcelona",
+    "coords": "41.44858056, 2.18524722",
     "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "L4/L11",
     "link": "https://es.wikipedia.org/wiki/Estación_de_Trinitat_Nova",
     "name": "Trinitat Nova",
-    "reference": "L4/L11"
+    "reference": "Barcelona"
   },
   "villejuif–louis-aragon": {
     "been": true,
-    "coords": "48.787175476521305°N, 2.3675644397735596°E",
+    "city": "Paris",
+    "coords": "48.78717548, 2.36756444",
     "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "M7/T7",
     "link": "https://fr.wikipedia.org/wiki/Villejuif_-_Louis_Aragon_(métro_de_Paris)",
     "name": "Villejuif–Louis Aragon",
-    "reference": "M7/T7"
+    "reference": "Paris"
   }
 }

@@ -1,10 +1,13 @@
 {
   "antwerp": {
     "been": true,
+    "city": "Antwerp",
+    "coords": "51.21777778, 4.40027778",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Antwerp_Pre-metro",
-    "name": "Antwerp"
+    "name": "Antwerp",
+    "wikidata": "Q1364889"
   },
   "boston-blue-line": {
     "been": true,
@@ -19,10 +22,13 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Green_Line_(MBTA)",
-    "name": "Boston Green Line"
+    "name": "Boston Green Line",
+    "wikidata": "Q152061"
   },
   "brussels": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🇧🇪"],
     "info": "Line 7",
@@ -31,19 +37,25 @@
   },
   "brussels-lines-1/5": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.846666666, 4.3525",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Metro",
     "name": "Brussels Lines 1/5",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q506298"
   },
   "brussels-lines-2/6": {
     "been": true,
+    "city": "Brussels",
+    "coords": "50.846666666, 4.3525",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Metro",
     "name": "Brussels Lines 2/6",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q506298"
   },
   "buenos-aires-line-a": {
     "been": false,
@@ -55,13 +67,17 @@
   },
   "charleroi": {
     "been": true,
+    "coords": "50.416666666, 4.444166666",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/M%C3%A9tro_L%C3%A9ger_de_Charleroi",
-    "name": "Charleroi"
+    "name": "Charleroi",
+    "wikidata": "Q1682845"
   },
   "dublin": {
     "been": false,
+    "city": "Dublin",
+    "coords": "53.37268400, -6.29897500",
     "country": "IE",
     "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Green_Line_(Luas)",
@@ -69,45 +85,58 @@
   },
   "frankfurt": {
     "been": false,
+    "city": "Frankfurt",
+    "coords": "50.113611111111, 8.6797222222222",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Frankfurt_U-Bahn",
-    "name": "Frankfurt"
+    "name": "Frankfurt",
+    "wikidata": "Q164050"
   },
   "gothenburg": {
     "been": false,
+    "coords": "57.70750000, 11.96750000",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Gothenburg_tram_network",
-    "name": "Gothenburg"
+    "name": "Gothenburg",
+    "wikidata": "Q2297227"
   },
   "krakow": {
     "been": false,
+    "coords": "50.06138889, 19.93722222",
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Krak%C3%B3w_Fast_Tram",
-    "name": "Kraków"
+    "name": "Kraków",
+    "wikidata": "Q1814872"
   },
   "kryvyi-rih": {
     "been": false,
+    "coords": "47.91000000, 33.39000000",
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Kryvyi_Rih_Metrotram",
-    "name": "Kryvyi Rih"
+    "name": "Kryvyi Rih",
+    "wikidata": "Q634932"
   },
   "kyiv-light-rail": {
     "been": false,
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Kyiv_Light_Rail",
-    "name": "Kyiv Light Rail"
+    "name": "Kyiv Light Rail",
+    "wikidata": "Q1984902"
   },
   "newark": {
     "been": true,
+    "city": "Newark",
+    "coords": "40.735277777, -74.185",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Newark_Light_Rail",
-    "name": "Newark"
+    "name": "Newark",
+    "wikidata": "Q3078283"
   },
   "nuremberg-line-u1": {
     "been": false,
@@ -119,25 +148,32 @@
   },
   "oslo": {
     "been": false,
+    "city": "Oslo",
+    "coords": "59.91183, 10.73367",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Metro",
     "name": "Oslo",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q24492"
   },
   "philadelphia": {
     "been": true,
+    "city": "Philadelphia",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/SEPTA_subway%E2%80%93surface_trolley_lines",
-    "name": "Philadelphia"
+    "name": "Philadelphia",
+    "wikidata": "Q839339"
   },
   "poznan": {
     "been": false,
+    "coords": "52.4303, 16.91937",
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Pozna%C5%84_Fast_Tram",
-    "name": "Poznań"
+    "name": "Poznań",
+    "wikidata": "Q53431"
   },
   "rio-de-janeiro-line-2": {
     "been": false,
@@ -160,18 +196,23 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Muni_Metro",
-    "name": "San Francisco Muni Metro"
+    "name": "San Francisco Muni Metro",
+    "wikidata": "Q278074"
   },
   "stockholm": {
     "been": true,
+    "city": "Stockholm",
+    "coords": "59.333333333333336, 18.05",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_Metro",
     "name": "Stockholm",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q272926"
   },
   "szczecin": {
     "been": false,
+    "coords": "53.43250000, 14.54805556",
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Szczecin",
@@ -183,7 +224,8 @@
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Vienna_semi-metro",
     "name": "Vienna Line U2",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2466230"
   },
   "vienna-line-u6": {
     "been": true,
@@ -191,20 +233,26 @@
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Vienna_semi-metro",
     "name": "Vienna Line U6",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2466230"
   },
   "volgograd": {
     "been": false,
+    "coords": "48.70861111, 44.51472222",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
-    "name": "Volgograd"
+    "name": "Volgograd",
+    "wikidata": "Q1925923"
   },
   "zurich": {
     "been": false,
+    "city": "Zürich",
+    "coords": "47.37444444, 8.54111111",
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Zurich_Underground_Railway",
-    "name": "Zurich"
+    "name": "Zurich",
+    "wikidata": "Q3333807"
   }
 }

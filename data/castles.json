@@ -23,6 +23,7 @@
   },
   "augustusburg-palace": {
     "been": false,
+    "city": "Cologne",
     "coords": "50.82750000, 6.90805556",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -39,6 +40,7 @@
   },
   "beaufort-castle": {
     "been": false,
+    "city": "Luxembourg",
     "coords": "49.83388889, 6.28555556",
     "country": "LU",
     "icons": ["🇱🇺"],
@@ -47,6 +49,7 @@
   },
   "belgrade-fortress": {
     "been": true,
+    "city": "Belgrade",
     "coords": "44.82333333, 20.45027778",
     "country": "RS",
     "icons": ["🇷🇸"],
@@ -55,6 +58,7 @@
   },
   "belvedere-castle": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.19143900, 16.38078700",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -63,6 +67,7 @@
   },
   "berlin-palace": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.51750000, 13.40277778",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -71,6 +76,7 @@
   },
   "bratislavsky-hrad": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.14222222, 17.10000000",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -79,6 +85,7 @@
   },
   "buda-castle": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.49611111, 19.03972222",
     "country": "HU",
     "icons": ["🇭🇺"],
@@ -141,6 +148,7 @@
   },
   "casa-loma": {
     "been": false,
+    "city": "Toronto",
     "coords": "43.67810000, -79.40950000",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -149,6 +157,7 @@
   },
   "castelo-de-sao-jorge": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.71388889, -9.13361111",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -202,6 +211,7 @@
   },
   "chateau-de-beusdael": {
     "been": true,
+    "city": "Aachen",
     "coords": "50.751025, 5.9107527777778",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -218,13 +228,16 @@
   },
   "chateau-de-bouillon": {
     "been": true,
+    "coords": "49.7932, 5.0662",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Château_de_Bouillon",
-    "name": "Château de Bouillon"
+    "name": "Château de Bouillon",
+    "wikidata": "Q567525"
   },
   "chateau-de-boulogne-sur-mer": {
     "been": true,
+    "coords": "50.72555556, 1.61694444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Boulogne-sur-Mer",
@@ -436,6 +449,7 @@
   },
   "chateau-de-laeken": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.88638889, 4.35972222",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -522,6 +536,7 @@
   },
   "chateau-de-namur": {
     "been": true,
+    "city": "Namur",
     "coords": "50.45795140, 4.85873110",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -616,6 +631,7 @@
   },
   "chateau-de-sceaux": {
     "been": true,
+    "city": "Paris",
     "coords": "48.77444444, 2.30000000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -624,6 +640,7 @@
   },
   "chateau-de-val-duchesse": {
     "been": false,
+    "city": "Brussels",
     "coords": "50.82024167, 4.43373333",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -735,6 +752,7 @@
   },
   "devinsky-hrad": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.17361111, 16.97833333",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -759,6 +777,7 @@
   },
   "dundurn-castle": {
     "been": true,
+    "city": "Hamilton",
     "coords": "43.26948100, -79.88464900",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -767,6 +786,7 @@
   },
   "eskisehir-dream-chateau": {
     "been": false,
+    "coords": "39.76540000, 30.47100000",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Sazova_Park",
@@ -774,6 +794,7 @@
   },
   "falkenlust-palace": {
     "been": false,
+    "city": "Cologne",
     "coords": "50.82750000, 6.90805556",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -782,6 +803,7 @@
   },
   "gerulata": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.05611111, 17.14972222",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -798,6 +820,7 @@
   },
   "grazer-burg": {
     "been": true,
+    "city": "Graz",
     "coords": "47.07241111, 15.44247778",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -846,6 +869,7 @@
   },
   "hiroshima-castle": {
     "been": true,
+    "city": "Hiroshima",
     "coords": "34.40277778, 132.45916667",
     "country": "JP",
     "icons": ["🇯🇵", "🏯"],
@@ -854,6 +878,7 @@
   },
   "hofburg-palace": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20638889, 16.36527778",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -894,6 +919,7 @@
   },
   "kazan-kremlin": {
     "been": true,
+    "city": "Kazan",
     "coords": "55.80000000, 49.10555556",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -910,6 +936,7 @@
   },
   "leopoldsberg": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.27888889, 16.34527778",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -933,6 +960,7 @@
   },
   "ljubljana-castle": {
     "been": true,
+    "city": "Ljubljana",
     "coords": "46.04888889, 14.50833333",
     "country": "SI",
     "icons": ["🇸🇮"],
@@ -949,6 +977,7 @@
   },
   "moritzburg-castle": {
     "been": false,
+    "city": "Dresden",
     "coords": "51.16757222, 13.67961111",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -957,6 +986,7 @@
   },
   "moscow-kremlin": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.75166667, 37.61777778",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -1020,6 +1050,7 @@
   },
   "palais-auersperg": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20861111, 16.35416667",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1028,6 +1059,7 @@
   },
   "palais-augarten": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.22222222, 16.37944444",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1036,6 +1068,7 @@
   },
   "palais-royal-de-bruxelles": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.84190000, 4.36240000",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -1044,6 +1077,7 @@
   },
   "palais-schwarzenberg": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.19694444, 16.37666667",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1052,6 +1086,7 @@
   },
   "palau-guell": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.37888889, 2.17416667",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -1060,6 +1095,7 @@
   },
   "palau-nacional": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.36833333, 2.15333333",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -1075,6 +1111,7 @@
   },
   "prazsky-hrad": {
     "been": true,
+    "city": "Prague",
     "coords": "50.08975000, 14.39840000",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -1121,13 +1158,16 @@
   },
   "schloss-glucksburg": {
     "been": false,
+    "coords": "54.831666666667, 9.5436111111111",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Schloss_Glücksburg_(Glücksburg)",
-    "name": "Schloss Glücksburg"
+    "name": "Schloss Glücksburg",
+    "wikidata": "Q829299"
   },
   "schloß-eggenberg": {
     "been": true,
+    "city": "Graz",
     "coords": "47.07389000, 15.39129000",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1152,6 +1192,7 @@
   },
   "schloß-neuwaldegg": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.23472222, 16.28750000",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1199,6 +1240,7 @@
   },
   "schloßberg": {
     "been": true,
+    "city": "Graz",
     "coords": "47.07611111, 15.43722222",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1207,6 +1249,7 @@
   },
   "schonbrunn-palace": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.18451600, 16.31186500",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -1215,6 +1258,8 @@
   },
   "slottet": {
     "been": true,
+    "city": "Oslo",
+    "coords": "59.91691111, 10.72756667",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Royal_Palace,_Oslo",
@@ -1222,6 +1267,7 @@
   },
   "spilberk": {
     "been": true,
+    "city": "Brno",
     "coords": "49.19428889, 16.59891389",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -1238,6 +1284,7 @@
   },
   "sternberg-palace": {
     "been": false,
+    "city": "Prague",
     "coords": "50.07883100, 14.43079700",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -1246,6 +1293,8 @@
   },
   "stockholm-palace": {
     "been": true,
+    "city": "Stockholm",
+    "coords": "59.32694444, 18.07166667",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_Palace",
@@ -1261,6 +1310,7 @@
   },
   "talinn": {
     "been": true,
+    "city": "Tallinn",
     "coords": "59.43722222, 24.74527778",
     "country": "EE",
     "icons": ["🇪🇪"],
@@ -1277,6 +1327,7 @@
   },
   "tower-of-london": {
     "been": true,
+    "city": "London",
     "coords": "51.50805556, -0.07611111",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -1285,6 +1336,7 @@
   },
   "vianden-castle": {
     "been": true,
+    "city": "Luxembourg",
     "coords": "49.93500000, 6.20222222",
     "country": "LU",
     "icons": ["🇱🇺"],
@@ -1293,6 +1345,7 @@
   },
   "vilnius-castle": {
     "been": false,
+    "city": "Vilnius",
     "coords": "54.68700000, 25.29000000",
     "country": "LT",
     "icons": ["🇱🇹"],
@@ -1308,6 +1361,7 @@
   },
   "vysehrad": {
     "been": true,
+    "city": "Prague",
     "coords": "50.06416667, 14.41944444",
     "country": "CZ",
     "icons": ["🇨🇿"],
@@ -1332,6 +1386,7 @@
   },
   "winter-palace": {
     "been": true,
+    "city": "Saint Petersburg",
     "coords": "59.94040000, 30.31390000",
     "country": "RU",
     "icons": ["🇷🇺"],

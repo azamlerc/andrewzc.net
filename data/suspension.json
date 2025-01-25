@@ -1,6 +1,7 @@
 {
   "chengdu-skytrain": {
     "been": false,
+    "coords": "30.66000000, 104.06333333",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Chengdu",
@@ -11,17 +12,21 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Chiba_Urban_Monorail",
-    "name": "Chiba Urban Monorail"
+    "name": "Chiba Urban Monorail",
+    "wikidata": "Q860578"
   },
   "dortmund-h-bahn": {
     "been": false,
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/H-Bahn",
-    "name": "Dortmund H-Bahn"
+    "name": "Dortmund H-Bahn",
+    "wikidata": "Q695225"
   },
   "dresden-schwebebahn": {
     "been": false,
+    "city": "Dresden",
+    "coords": "51.05416667, 13.81805556",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Dresden_Suspension_Railway",
@@ -32,10 +37,13 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/H-Bahn",
-    "name": "Düsseldorf Sky Train"
+    "name": "Düsseldorf Sky Train",
+    "wikidata": "Q695225"
   },
   "higashiyama-zoo": {
     "been": false,
+    "city": "Nagoya",
+    "coords": "35.15833333, 136.97777778",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Higashiyama_Zoo_and_Botanical_Gardens",
@@ -48,10 +56,12 @@
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Skybus_Metro",
     "name": "Margao Skybus Metro",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q3815890"
   },
   "memphis-suspension-railway": {
     "been": false,
+    "coords": "35.15031900, -90.05585400",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Memphis_Suspension_Railway",
@@ -60,6 +70,8 @@
   },
   "optics-valley": {
     "been": false,
+    "city": "Tucson",
+    "coords": "32.19000000, -110.88000000",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://zh.wikipedia.org/wiki/%E5%85%89%E8%B0%B7%E7%A9%BA%E8%BD%A8",
@@ -73,6 +85,7 @@
   },
   "shonan-monorail": {
     "been": false,
+    "coords": "35.35233900, 139.53141700",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shonan_Monorail",
@@ -87,6 +100,8 @@
   },
   "ueno-zoo-monorail": {
     "been": false,
+    "city": "Tokyo",
+    "coords": "35.71443056, 139.77069444",
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Ueno_Zoo_Monorail",
@@ -95,6 +110,7 @@
   },
   "wuppertal-schwebebahn": {
     "been": false,
+    "coords": "51.26708889, 7.18142500",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Wuppertal_Schwebebahn",
@@ -102,6 +118,7 @@
   },
   "xingguo-red-rail": {
     "been": false,
+    "coords": "26.33388889, 115.34611111",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Xingguo",

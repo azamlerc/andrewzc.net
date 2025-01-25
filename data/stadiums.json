@@ -1,6 +1,7 @@
 {
   "3-arena": {
     "been": true,
+    "city": "Stockholm",
     "coords": "59.29081000, 18.08534000",
     "country": "SE",
     "icons": ["🇸🇪"],
@@ -17,6 +18,7 @@
   },
   "amsterdam-arena": {
     "been": true,
+    "city": "Amsterdam",
     "coords": "52.31416667, 4.94194444",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -25,6 +27,7 @@
   },
   "arthur-ashe-stadium": {
     "been": true,
+    "city": "New York",
     "coords": "40.74988889, -73.84702778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -33,6 +36,7 @@
   },
   "atlanta-stadium": {
     "been": true,
+    "city": "Atlanta",
     "coords": "33.73900000, -84.38900000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -50,6 +54,7 @@
   },
   "barclays-center": {
     "been": true,
+    "city": "New York",
     "coords": "40.68266111, -73.97522500",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -58,6 +63,7 @@
   },
   "beijing-national-stadium": {
     "been": false,
+    "city": "Beijing",
     "coords": "39.99166667, 116.39055556",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -66,6 +72,7 @@
   },
   "bercy": {
     "been": true,
+    "city": "Paris",
     "coords": "48.83861111, 2.37861111",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -74,6 +81,7 @@
   },
   "bislett-stadion": {
     "been": true,
+    "city": "Oslo",
     "coords": "59.92472222, 10.73333333",
     "country": "NO",
     "icons": ["🇳🇴"],
@@ -82,6 +90,7 @@
   },
   "blue-cross-arena": {
     "been": true,
+    "city": "Rochester",
     "coords": "43.15369444, -77.61077778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -90,6 +99,7 @@
   },
   "camden-yards": {
     "been": true,
+    "city": "Baltimore",
     "coords": "39.28388889, -76.62166667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -98,6 +108,7 @@
   },
   "candlestick-park": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.71361111, -122.38611111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -107,6 +118,7 @@
   },
   "capital-centre": {
     "been": true,
+    "city": "Washington",
     "coords": "38.90250000, -76.84694444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -116,6 +128,7 @@
   },
   "centennial-olympic-stadium": {
     "been": true,
+    "city": "Atlanta",
     "coords": "33.73555556, -84.38944444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -140,6 +153,7 @@
   },
   "citizens-bank-park": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.90583333, -75.16638889",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -164,6 +178,7 @@
   },
   "dynamo-central-stadium": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.79138889, 37.55972222",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -172,6 +187,7 @@
   },
   "earls-court": {
     "been": true,
+    "city": "London",
     "coords": "51.48888889, -0.19777778",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -179,8 +195,17 @@
     "name": "Earls Court",
     "strike": true
   },
+  "elphin-sports-centre": {
+    "been": false,
+    "coords": "-41.43118100, 147.15259200",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Elphin_Sports_Centre",
+    "name": "Elphin Sports Centre"
+  },
   "ernst-happel-stadion": {
     "been": true,
+    "city": "Vienna",
     "coords": "48.20722222222222, 16.420833333333334",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -190,6 +215,7 @@
   },
   "estadi-olimpic-lluis-companys": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.36472222, 2.15555556",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -198,6 +224,7 @@
   },
   "estadio-da-luz": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.75270000, -9.18470000",
     "country": "PT",
     "icons": ["🇵🇹"],
@@ -206,14 +233,24 @@
   },
   "estadio-jose-alvalade": {
     "been": true,
+    "city": "Lisbon",
     "coords": "38.76111111, -9.16083333",
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Estádio_José_Alvalade",
     "name": "Estádio José Alvalade"
   },
+  "estadio-municipal-de-fresia": {
+    "been": false,
+    "coords": "-41.15305556, -73.43055556",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Fresia,_Chile",
+    "name": "Estadio Municipal de Fresia"
+  },
   "estadio-olimpico-universitario": {
     "been": false,
+    "city": "Mexico City",
     "coords": "19.33194444, -99.19222222",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -222,6 +259,7 @@
   },
   "hiroshima-municipal-stadium": {
     "been": true,
+    "city": "Hiroshima",
     "coords": "34.39698333, 132.45495833",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -230,6 +268,7 @@
   },
   "jamsil-baseball-stadium": {
     "been": true,
+    "city": "Seoul",
     "coords": "37.51238889, 127.07197222",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -238,6 +277,7 @@
   },
   "karnataka-state-cricket-ring": {
     "been": true,
+    "city": "Bangalore",
     "coords": "12.97880556, 77.59955556",
     "country": "IN",
     "icons": ["🇮🇳"],
@@ -246,6 +286,7 @@
   },
   "kaseya-center": {
     "been": true,
+    "city": "Miami",
     "coords": "25.78138889, -80.18805556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -254,6 +295,7 @@
   },
   "lincoln-financial-field": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.90083333, -75.16750000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -262,6 +304,7 @@
   },
   "lords-cricket-ground": {
     "been": true,
+    "city": "London",
     "coords": "51.52940000, -0.17270000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -278,6 +321,7 @@
   },
   "luzhniki-stadium": {
     "been": true,
+    "city": "Moscow",
     "coords": "55.71555556, 37.55361111",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -286,6 +330,7 @@
   },
   "madison-square-garden": {
     "been": true,
+    "city": "New York",
     "coords": "40.75055556, -73.99361111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -294,6 +339,7 @@
   },
   "mazda-stadium": {
     "been": true,
+    "city": "Hiroshima",
     "coords": "34.39250000, 132.48400000",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -302,6 +348,7 @@
   },
   "mercedes-benz-arena": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.50555556, 13.44333333",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -310,6 +357,7 @@
   },
   "metlife-stadium": {
     "been": true,
+    "city": "New York",
     "coords": "40.81352778, -74.07436111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -318,6 +366,7 @@
   },
   "narodny-futbalovy-stadion": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.16355833, 17.13685556",
     "country": "SK",
     "icons": ["🇸🇰"],
@@ -334,6 +383,7 @@
   },
   "o2": {
     "been": true,
+    "city": "London",
     "coords": "51.50281667, 0.00311667",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -342,6 +392,7 @@
   },
   "oakland-coliseum": {
     "been": true,
+    "city": "Oakland",
     "coords": "37.75166667, -122.20055556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -350,6 +401,7 @@
   },
   "olimpijski-stadion-kosevo": {
     "been": true,
+    "city": "Sarajevo",
     "coords": "43.87388889, 18.40861111",
     "country": "BA",
     "icons": ["🇧🇦"],
@@ -358,6 +410,7 @@
   },
   "olympiastadion": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.514722222222, 13.239444444444",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -367,6 +420,7 @@
   },
   "oracle-park": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.77861111, -122.38916667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -375,6 +429,7 @@
   },
   "oval": {
     "been": true,
+    "city": "London",
     "coords": "51.48361111, -0.11500000",
     "country": "GB",
     "icons": ["🇬🇧"],
@@ -383,6 +438,7 @@
   },
   "placa-de-braus-de-la-monumental": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.40027778, 2.18138889",
     "country": "ES",
     "icons": ["🇪🇸", "🐂"],
@@ -391,6 +447,7 @@
   },
   "placa-de-toros-de-les-arenes": {
     "been": true,
+    "city": "Barcelona",
     "coords": "41.36500000, 2.14920000",
     "country": "ES",
     "icons": ["🇪🇸", "🐂"],
@@ -399,6 +456,7 @@
   },
   "pnc-park": {
     "been": true,
+    "city": "Pittsburgh",
     "coords": "40.44694444, -80.00583333",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -407,6 +465,7 @@
   },
   "polo-grounds": {
     "been": true,
+    "city": "New York",
     "coords": "40.83166667, -73.93722222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -416,6 +475,7 @@
   },
   "prudential-center": {
     "been": true,
+    "city": "New York",
     "coords": "40.73361111, -74.17111111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -424,14 +484,25 @@
   },
   "puskas-arena": {
     "been": true,
+    "city": "Budapest",
     "coords": "47.50317570, 19.09444600",
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://hu.wikipedia.org/wiki/Puskás_Aréna",
     "name": "Puskás Aréna"
   },
+  "queenstown-stadium": {
+    "been": false,
+    "city": "Singapore",
+    "coords": "1.29580000, 103.80250000",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Queenstown_Stadium",
+    "name": "Queenstown Stadium"
+  },
   "rashid-stadium": {
     "been": true,
+    "city": "Dubai",
     "coords": "25.279655555556, 55.360605555556",
     "country": "AE",
     "icons": ["🇦🇪"],
@@ -441,6 +512,7 @@
   },
   "red-star-stadium": {
     "been": true,
+    "city": "Belgrade",
     "coords": "44.78333333, 20.46472222",
     "country": "RS",
     "icons": ["🇷🇸"],
@@ -449,6 +521,7 @@
   },
   "rfk-stadium": {
     "been": true,
+    "city": "Washington",
     "coords": "38.89000000, -76.97200000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -457,6 +530,7 @@
   },
   "rotterdam-ahoy": {
     "been": true,
+    "city": "Rotterdam",
     "coords": "51.88277778, 4.48805556",
     "country": "NL",
     "icons": ["🇳🇱"],
@@ -465,6 +539,7 @@
   },
   "sahlen-field": {
     "been": true,
+    "city": "Buffalo",
     "coords": "42.88130556, -78.87427778",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -473,6 +548,7 @@
   },
   "sap-center": {
     "been": true,
+    "city": "San Jose, CA",
     "coords": "37.33277778, -121.90111111",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -481,6 +557,7 @@
   },
   "spodek": {
     "been": true,
+    "city": "Katowice",
     "coords": "50.26611111, 19.02527778",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -489,6 +566,7 @@
   },
   "st-jakob-park": {
     "been": true,
+    "city": "Basel",
     "coords": "47.54166667, 7.62027778",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -497,6 +575,7 @@
   },
   "stade-de-france": {
     "been": true,
+    "city": "Paris",
     "coords": "48.92450000, 2.36020000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -505,6 +584,7 @@
   },
   "stade-de-geneve": {
     "been": true,
+    "city": "Geneva",
     "coords": "46.17777778, 6.12750000",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -513,6 +593,7 @@
   },
   "stade-de-lamitie": {
     "been": true,
+    "city": "Cotonou",
     "coords": "6.38600000, 2.37933300",
     "country": "BJ",
     "icons": ["🇧🇯"],
@@ -530,6 +611,7 @@
   },
   "stade-demba-diop": {
     "been": true,
+    "city": "Dakar",
     "coords": "14.7107147, -17.4584434",
     "country": "SN",
     "icons": ["🇸🇳"],
@@ -539,6 +621,7 @@
   },
   "stade-leopold-sedar-senghor": {
     "been": true,
+    "city": "Dakar",
     "coords": "14.746694, -17.452014",
     "country": "SN",
     "icons": ["🇸🇳"],
@@ -548,6 +631,7 @@
   },
   "stade-louis-ii": {
     "been": true,
+    "city": "Monaco",
     "coords": "43.727778, 7.415556",
     "country": "MC",
     "icons": ["🇲🇨"],
@@ -566,6 +650,7 @@
   },
   "stade-olympique-de-montreal": {
     "been": true,
+    "city": "Montréal",
     "coords": "45.55781, -73.55164",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -575,6 +660,7 @@
   },
   "stade-roi-baudouin": {
     "been": true,
+    "city": "Brussels",
     "coords": "50.895705555556, 4.3340833333333",
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -584,6 +670,7 @@
   },
   "stade-sebastien-charlety": {
     "been": true,
+    "city": "Paris",
     "coords": "48.81861111, 2.34666667",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -592,6 +679,7 @@
   },
   "stadion-narodowy": {
     "been": true,
+    "city": "Warsaw",
     "coords": "52.23944444, 21.04555556",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -616,6 +704,7 @@
   },
   "teddy-stadium": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.75116667, 35.19061667",
     "country": "IL",
     "icons": ["🇮🇱"],
@@ -624,6 +713,7 @@
   },
   "tim-hortons-field": {
     "been": true,
+    "city": "Hamilton",
     "coords": "43.25211444, -79.83009972",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -632,6 +722,7 @@
   },
   "tokyo-dome": {
     "been": true,
+    "city": "Tokyo",
     "coords": "35.705658333333, 139.75191388889",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -639,16 +730,35 @@
     "name": "Tokyo Dome",
     "wikidata": "Q733748"
   },
+  "ugent-sports-centre": {
+    "been": false,
+    "coords": "51.02436830, 3.72615670",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.0243683_3.7261567",
+    "name": "UGent Sports Centre"
+  },
   "velky-strahovsky-stadion": {
     "been": true,
+    "city": "Prague",
     "coords": "50.08033611, 14.38786111",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Great_Strahov_Stadium",
     "name": "Velký Strahovský Stadion"
   },
+  "victoria-park-tennis-centre": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.28194444, 114.18805556",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://en.wikipedia.org/wiki/Victoria_Park_(Hong_Kong)",
+    "name": "Victoria Park Tennis Centre"
+  },
   "wells-fargo-center": {
     "been": true,
+    "city": "Philadelphia",
     "coords": "39.90111111, -75.17194444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -666,6 +776,7 @@
   },
   "wrigley-field": {
     "been": true,
+    "city": "Chicago",
     "coords": "41.94805556, -87.65555556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -674,6 +785,7 @@
   },
   "yale-bowl": {
     "been": true,
+    "city": "New Haven",
     "coords": "41.31300000, -72.96000000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -682,6 +794,7 @@
   },
   "yankee-stadium": {
     "been": true,
+    "city": "New York",
     "coords": "40.82916667, -73.92638889",
     "country": "US",
     "icons": ["🇺🇸"],

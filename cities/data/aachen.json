@@ -1,0 +1,127 @@
+{
+  "castles-chateau-de-beusdael": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.75102500, 5.91075278",
+    "country": "FR",
+    "icons": ["🏰"],
+    "link": "https://fr.wikipedia.org/wiki/Château_de_Beusdael",
+    "name": "Château de Beusdael",
+    "type": "castles"
+  },
+  "cathedrals-aachen": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.77475000, 6.08392222",
+    "country": "DE",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Aachen_Cathedral",
+    "name": "Aachen",
+    "type": "cathedrals"
+  },
+  "depots-eupen": {
+    "been": false,
+    "city": "Aachen",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
+    "name": "Eupen",
+    "reference": "Aachen",
+    "strike": true,
+    "type": "depots"
+  },
+  "depots-talstraße": {
+    "been": false,
+    "city": "Aachen",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://www.aachen.de/DE/kultur_freizeit/kultur/depot/Aktuelles/index.html",
+    "name": "Talstraße",
+    "reference": "Aachen",
+    "strike": true,
+    "type": "depots"
+  },
+  "extremities-kuttingen": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.76030000, 5.91690000",
+    "country": "NL",
+    "icons": ["🧭"],
+    "link": "https://nl.wikipedia.org/wiki/Kuttingen",
+    "name": "Kuttingen",
+    "type": "extremities"
+  },
+  "highest-vaalserberg": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.75472222, 6.02083333",
+    "country": "NL",
+    "icons": ["🧗"],
+    "link": "https://en.wikipedia.org/wiki/Vaalserberg",
+    "name": "Vaalserberg",
+    "prefix": "322",
+    "type": "highest"
+  },
+  "international-trams-": {
+    "been": true,
+    "city": "Aachen",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "",
+    "reference": "Aachen",
+    "type": "international-trams"
+  },
+  "international-trams-altenburg": {
+    "been": true,
+    "city": "Aachen",
+    "countries": ["DE", "BE"],
+    "icons": ["🇩🇪", "🇧🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
+    "name": "Altenburg",
+    "reference": "Aachen",
+    "strike": true,
+    "type": "international-trams"
+  },
+  "international-trams-eupen": {
+    "been": true,
+    "city": "Aachen",
+    "countries": ["DE", "BE"],
+    "icons": ["🇩🇪", "🇧🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
+    "name": "Eupen",
+    "reference": "Aachen",
+    "strike": true,
+    "type": "international-trams"
+  },
+  "international-trams-vaals": {
+    "been": true,
+    "city": "Aachen",
+    "countries": ["DE", "NL"],
+    "icons": ["🇩🇪", "🇳🇱"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
+    "name": "Vaals",
+    "reference": "Aachen",
+    "strike": true,
+    "type": "international-trams"
+  },
+  "stations-aachen-hauptbahnhof": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.76763500, 6.09117900",
+    "country": "DE",
+    "icons": ["🚉"],
+    "link": "https://en.wikipedia.org/wiki/Aachen_Hauptbahnhof",
+    "name": "Aachen Hauptbahnhof",
+    "type": "stations"
+  },
+  "tripoints-vaalserberg": {
+    "been": true,
+    "city": "Aachen",
+    "coords": "50.75472222, 6.02083333",
+    "countries": ["BE", "DE", "NL"],
+    "icons": ["🚩"],
+    "link": "https://en.wikipedia.org/wiki/Vaalserberg",
+    "name": "Vaalserberg",
+    "type": "tripoints"
+  }
+}

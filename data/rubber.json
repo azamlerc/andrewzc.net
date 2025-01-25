@@ -16,6 +16,7 @@
   },
   "busan": {
     "been": false,
+    "city": "Busan",
     "coords": "35.18, 129.075",
     "country": "KR",
     "icons": ["🇰🇷"],
@@ -39,6 +40,7 @@
   },
   "guangzhou": {
     "been": false,
+    "city": "Guangzhou",
     "coords": "23.13000000, 113.26000000",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -47,6 +49,7 @@
   },
   "hiroshima": {
     "been": false,
+    "city": "Hiroshima",
     "coords": "34.39138889, 132.45194444",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -64,6 +67,7 @@
   },
   "lausanne": {
     "been": false,
+    "city": "Lausanne",
     "coords": "46.533333333, 6.633333333",
     "country": "CH",
     "icons": ["🇨🇭"],
@@ -72,6 +76,7 @@
   },
   "lille": {
     "been": true,
+    "city": "Lille",
     "coords": "50.6383, 3.0655",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -80,6 +85,7 @@
   },
   "lyon": {
     "been": true,
+    "city": "Lyon",
     "coords": "45.758888888889, 4.8413888888889",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -88,6 +94,7 @@
   },
   "macau": {
     "been": false,
+    "city": "Macau",
     "coords": "22.19000000, 113.54000000",
     "country": "MO",
     "icons": ["🇲🇴"],
@@ -96,6 +103,7 @@
   },
   "marseille": {
     "been": false,
+    "city": "Marseille",
     "coords": "43.2975, 5.3769444444444",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -107,10 +115,12 @@
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/Ayacucho_Tram",
-    "name": "Medellín (Ayacucho)"
+    "name": "Medellín (Ayacucho)",
+    "wikidata": "Q18327073"
   },
   "mexico-city": {
     "been": false,
+    "city": "Mexico City",
     "coords": "19.419444444, -99.145555555",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -119,6 +129,7 @@
   },
   "miami": {
     "been": true,
+    "city": "Miami",
     "coords": "25.78000000, -80.21000000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -127,6 +138,7 @@
   },
   "montreal": {
     "been": true,
+    "city": "Montréal",
     "coords": "45.508888888, -73.561666666",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -151,6 +163,7 @@
   },
   "paris": {
     "been": true,
+    "city": "Paris",
     "coords": "48.856944444444, 2.3513888888889",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -176,6 +189,7 @@
   },
   "santiago": {
     "been": false,
+    "city": "Santiago",
     "coords": "-33.4375, -70.65",
     "country": "CL",
     "icons": ["🇨🇱"],
@@ -184,6 +198,7 @@
   },
   "sapporo": {
     "been": false,
+    "city": "Sapporo",
     "coords": "43.061944444, 141.354444444",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -195,10 +210,12 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Sillim_Line",
-    "name": "Seoul (Sillim)"
+    "name": "Seoul (Sillim)",
+    "wikidata": "Q3832768"
   },
   "shanghai": {
     "been": false,
+    "city": "Shanghai",
     "coords": "31.166666666, 121.466666666",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -216,6 +233,7 @@
   },
   "t5": {
     "been": true,
+    "city": "Paris",
     "coords": "48.98060000, 2.36920000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -225,6 +243,7 @@
   },
   "tokorozawa": {
     "been": false,
+    "city": "Tokyo",
     "coords": "35.689444444, 139.691666666",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -236,17 +255,20 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Nippori-Toneri_Liner",
-    "name": "Tokyo (Nippori-Toneri)"
+    "name": "Tokyo (Nippori-Toneri)",
+    "wikidata": "Q910032"
   },
   "tokyo-(yurikamome)": {
     "been": true,
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Yurikamome",
-    "name": "Tokyo (Yurikamome)"
+    "name": "Tokyo (Yurikamome)",
+    "wikidata": "Q1191079"
   },
   "toulouse": {
     "been": true,
+    "city": "Toulouse",
     "coords": "43.604444444, 1.443888888",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -255,6 +277,7 @@
   },
   "turin": {
     "been": false,
+    "city": "Turin",
     "coords": "45.079166666, 7.676111111",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -263,6 +286,7 @@
   },
   "venice": {
     "been": false,
+    "city": "Venice",
     "coords": "45.49333333, 12.24638889",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -274,7 +298,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kanazawa_Seaside_Line",
-    "name": "Yokohama (Kanazawa)"
+    "name": "Yokohama (Kanazawa)",
+    "wikidata": "Q6360898"
   },
   "yurikamome": {
     "been": true,

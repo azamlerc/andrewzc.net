@@ -35,6 +35,7 @@
   },
   "bender": {
     "been": true,
+    "city": "Tiraspol",
     "coords": "46.833333333333, 29.483333333333",
     "countries": ["MD", "RU"],
     "icons": ["🇲🇩", "🇷🇺"],
@@ -44,6 +45,7 @@
   },
   "bethlehem": {
     "been": true,
+    "city": "Jerusalem",
     "coords": "31.70444444, 35.20638889",
     "countries": ["IL", "PS"],
     "icons": ["🇮🇱", "🇵🇸"],
@@ -52,6 +54,7 @@
   },
   "bratislava": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.14388889, 17.10972222",
     "countries": ["AT", "SK"],
     "icons": ["🇦🇹", "🇸🇰"],
@@ -77,6 +80,7 @@
   },
   "checkpoint-charlie": {
     "been": true,
+    "city": "Berlin",
     "coords": "52.50750000, 13.39027778",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -94,17 +98,21 @@
   },
   "deutsch-deutsches-freilandmuseum-behrungen": {
     "been": true,
+    "coords": "50.403741, 10.436907",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Deutsch-deutsches_Freilandmuseum",
-    "name": "Deutsch-Deutsches Freilandmuseum Behrungen"
+    "name": "Deutsch-Deutsches Freilandmuseum Behrungen",
+    "wikidata": "Q1201900"
   },
   "deutsch-deutsches-museum-modlareuth": {
     "been": true,
+    "coords": "50.414766666666665, 11.88338888888889",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Deutsch-Deutsches_Museum_M%C3%B6dlareuth",
-    "name": "Deutsch-Deutsches Museum Mödlareuth"
+    "name": "Deutsch-Deutsches Museum Mödlareuth",
+    "wikidata": "Q1454519"
   },
   "edirne": {
     "been": true,
@@ -116,6 +124,7 @@
   },
   "erez": {
     "been": false,
+    "city": "Gaza City",
     "coords": "31.55820000, 34.54472222",
     "countries": ["IL", "PS"],
     "icons": ["🇮🇱", "🇵🇸"],
@@ -135,7 +144,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Museums_of_the_inner_German_border",
-    "name": "Gedenkstätte Heinersdorf-Welitsch"
+    "name": "Gedenkstätte Heinersdorf-Welitsch",
+    "wikidata": "Q6941157"
   },
   "gevgelija": {
     "been": true,
@@ -275,6 +285,7 @@
   },
   "lome": {
     "been": true,
+    "city": "Lomé",
     "coords": "6.13083333, 1.21527778",
     "countries": ["TG", "GH"],
     "icons": ["🇹🇬", "🇬🇭"],
@@ -283,6 +294,7 @@
   },
   "macau": {
     "been": true,
+    "city": "Macau",
     "coords": "22.19000000, 113.54000000",
     "countries": ["MO", "CN"],
     "icons": ["🇲🇴", "🇨🇳"],
@@ -364,6 +376,7 @@
   },
   "peace-bridge": {
     "been": true,
+    "city": "Buffalo",
     "coords": "42.90694000, -78.90556000",
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],

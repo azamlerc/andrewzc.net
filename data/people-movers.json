@@ -10,6 +10,7 @@
   },
   "aria-express": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36.10800000, -115.17529000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -19,6 +20,7 @@
   },
   "atlanta-airport": {
     "been": true,
+    "city": "Atlanta",
     "coords": "33.63666667, -84.42805556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -37,6 +39,7 @@
   },
   "beijing": {
     "been": false,
+    "city": "Beijing",
     "coords": "40.07250000, 116.59750000",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -127,6 +130,7 @@
   },
   "detroit-people-mover": {
     "been": true,
+    "city": "Detroit",
     "coords": "42.33361111, -83.04694444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -172,6 +176,7 @@
   },
   "dubai-airport": {
     "been": true,
+    "city": "Dubai",
     "coords": "25.253972222222, 55.347472222222",
     "country": "AE",
     "icons": ["🇦🇪"],
@@ -199,6 +204,7 @@
   },
   "frankfurt-airport": {
     "been": true,
+    "city": "Frankfurt",
     "coords": "50.03333333, 8.57055556",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -226,6 +232,7 @@
   },
   "heathrow-pod": {
     "been": true,
+    "coords": "51.47928700, -0.48768700",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Ultra_(personal_rapid_transit)#Heathrow_Terminal_5",
@@ -279,6 +286,7 @@
   },
   "jfk-airport": {
     "been": true,
+    "city": "New York",
     "coords": "40.66104300, -73.82945500",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -297,6 +305,7 @@
   },
   "las-vegas-airport": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36.08000000, -115.15222222",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -306,6 +315,7 @@
   },
   "las-vegas-monorail": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36.14230000, -115.15490000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -315,6 +325,7 @@
   },
   "linimo": {
     "been": false,
+    "city": "Nagoya",
     "coords": "35.17690833, 137.08595833",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -333,6 +344,7 @@
   },
   "madrid-airport": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.47222222, -3.56083333",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -342,6 +354,7 @@
   },
   "mandalay-bay-tram": {
     "been": true,
+    "city": "Las Vegas",
     "coords": "36.09680000, -115.17390000",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -369,6 +382,7 @@
   },
   "miami-airport": {
     "been": true,
+    "city": "Miami",
     "coords": "25.79333333, -80.29055556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -405,6 +419,7 @@
   },
   "newark-airport": {
     "been": true,
+    "city": "New York",
     "coords": "40.69666667, -74.18194444",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -414,6 +429,7 @@
   },
   "oakland-airport": {
     "been": true,
+    "city": "Oakland",
     "coords": "37.72138889, -122.22083333",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -441,6 +457,7 @@
   },
   "orlyval": {
     "been": true,
+    "city": "Paris",
     "coords": "48.7472, 2.3169",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -489,7 +506,8 @@
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Port_Island_Line",
     "name": "Port Island Line",
-    "prefix": "1981"
+    "prefix": "1981",
+    "wikidata": "Q7230715"
   },
   "rokko-island-line": {
     "been": false,
@@ -497,7 +515,8 @@
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Rokk%C5%8D_Island_Line",
     "name": "Rokkō Island Line",
-    "prefix": "1990"
+    "prefix": "1990",
+    "wikidata": "Q7360056"
   },
   "rome-airport": {
     "been": false,
@@ -563,6 +582,7 @@
   },
   "skyrail-midorizaka-line": {
     "been": false,
+    "city": "Hiroshima",
     "coords": "34.42219444, 132.59633333",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -622,10 +642,12 @@
     "link": "https://en.wikipedia.org/wiki/Toronto_Zoo_Domain_Ride",
     "name": "Toronto Zoo Domain Ride",
     "prefix": "1976",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q7826576"
   },
   "toulouse-line-a": {
     "been": true,
+    "city": "Toulouse",
     "coords": "43.604444444, 1.443888888",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -636,6 +658,7 @@
   },
   "venice-people-mover": {
     "been": false,
+    "city": "Venice",
     "coords": "45.43976389, 12.31326944",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -671,6 +694,7 @@
   },
   "zhujiang-new-town": {
     "been": false,
+    "city": "Guangzhou",
     "coords": "23.12277778, 113.31916667",
     "country": "CN",
     "icons": ["🇨🇳"],
@@ -680,6 +704,7 @@
   },
   "zurich-airport": {
     "been": false,
+    "city": "Zürich",
     "coords": "47.45243100, 8.56028100",
     "country": "CH",
     "icons": ["🇨🇭"],

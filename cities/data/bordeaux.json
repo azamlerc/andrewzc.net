@@ -1,0 +1,44 @@
+{
+  "ports-bordeaux": {
+    "been": false,
+    "city": "Bordeaux",
+    "coords": "44.84722222, -0.58333333",
+    "country": "FR",
+    "icons": ["⚓️"],
+    "link": "https://en.wikipedia.org/wiki/Port_de_la_Lune",
+    "name": "Bordeaux",
+    "type": "ports"
+  },
+  "projects-bordeaux-tram-a-to-merignac-airport": {
+    "been": true,
+    "city": "Bordeaux",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bordeaux",
+    "name": "Bordeaux Tram A to Mérignac Airport",
+    "prefix": "04-29",
+    "reference": "Bordeaux",
+    "type": "projects"
+  },
+  "trams-bordeaux": {
+    "been": false,
+    "city": "Bordeaux",
+    "coords": "44.83861111, -0.57833333",
+    "country": "FR",
+    "icons": ["🚋"],
+    "link": "https://en.wikipedia.org/wiki/Bordeaux_tramway",
+    "name": "Bordeaux",
+    "type": "trams"
+  },
+  "transporter-bordeaux": {
+    "been": false,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["🚟"],
+    "link": "https://fr.wikipedia.org/wiki/Pont_transbordeur_de_Bordeaux",
+    "name": "Bordeaux",
+    "strike": true,
+    "type": "transporter"
+  }
+}

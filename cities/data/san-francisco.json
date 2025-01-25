@@ -1,0 +1,517 @@
+{
+  "airports-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.61888889, -122.37500000",
+    "country": "US",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport",
+    "name": "San Francisco",
+    "prefix": "SFO",
+    "type": "airports"
+  },
+  "apple-chestnut-street": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.80041500, -122.43836300",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/chestnutstreet/",
+    "name": "Chestnut Street",
+    "type": "apple"
+  },
+  "apple-stonestown": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.72721492, -122.47695520",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/stonestown/",
+    "name": "Stonestown",
+    "type": "apple"
+  },
+  "apple-union-square": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78860000, -122.40715900",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/unionsquare/",
+    "name": "Union Square",
+    "type": "apple"
+  },
+  "beaches-baker-beach": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79320000, -122.48400000",
+    "country": "US",
+    "icons": ["🏖"],
+    "link": "https://en.wikipedia.org/wiki/Baker_Beach",
+    "name": "Baker Beach",
+    "type": "beaches"
+  },
+  "beaches-ocean-beach": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.75944444, -122.51083333",
+    "country": "US",
+    "icons": ["🏖"],
+    "link": "https://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco",
+    "name": "Ocean Beach",
+    "type": "beaches"
+  },
+  "bridges-golden-gate-bridge": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.81972222, -122.47861111",
+    "country": "US",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "name": "Golden Gate Bridge",
+    "type": "bridges"
+  },
+  "bridges-richmond–san-rafael-bridge": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.93470000, -122.43380000",
+    "country": "US",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Richmond–San_Rafael_Bridge",
+    "name": "Richmond–San Rafael Bridge",
+    "type": "bridges"
+  },
+  "cathedrals-grace-cathedral": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79166667, -122.41305556",
+    "country": "US",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Grace_Cathedral,_San_Francisco",
+    "name": "Grace Cathedral",
+    "type": "cathedrals"
+  },
+  "depots-balboa-park": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Balboa_Park_station",
+    "name": "Balboa Park",
+    "reference": "San Francisco",
+    "type": "depots"
+  },
+  "depots-muni-metro-east-yard": {
+    "been": false,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/T_Third_Street",
+    "name": "Muni Metro East Yard",
+    "reference": "San Francisco",
+    "type": "depots"
+  },
+  "ferries-alcatraz": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.82666667, -122.42277778",
+    "country": "US",
+    "icons": ["⛴️"],
+    "link": "https://en.wikipedia.org/wiki/Alcatraz_Island",
+    "name": "Alcatraz",
+    "type": "ferries"
+  },
+  "forts-fort-mason": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.80777778, -122.42972222",
+    "country": "US",
+    "icons": ["🪖"],
+    "link": "https://en.wikipedia.org/wiki/Fort_Mason",
+    "name": "Fort Mason",
+    "type": "forts"
+  },
+  "funiculars-san-francisco-cable-cars": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79555556, -122.40750000",
+    "country": "US",
+    "icons": ["🚠"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+    "name": "San Francisco Cable Cars",
+    "type": "funiculars"
+  },
+  "greenhouses-conservatory-of-flowers": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.77200000, -122.46000000",
+    "country": "US",
+    "icons": ["🌴"],
+    "link": "https://en.wikipedia.org/wiki/Conservatory_of_Flowers",
+    "name": "Conservatory of Flowers",
+    "type": "greenhouses"
+  },
+  "head-on-pittsburg/bay-point": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "38.02916667, -121.96166667",
+    "country": "US",
+    "icons": ["🔃"],
+    "info": "Yellow Line",
+    "link": "https://en.wikipedia.org/wiki/Pittsburg/Bay_Point_station",
+    "name": "Pittsburg/Bay Point",
+    "reference": "San Francisco",
+    "type": "head-on"
+  },
+  "heritage-cable-car-museum": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79467500, -122.41139600",
+    "country": "US",
+    "icons": ["🚂"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Cable_Car_Museum",
+    "name": "Cable Car Museum",
+    "type": "heritage"
+  },
+  "infill-embarcadero": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79305556, -122.39722222",
+    "country": "US",
+    "icons": ["🏗"],
+    "link": "https://en.wikipedia.org/wiki/Embarcadero_station",
+    "name": "Embarcadero",
+    "type": "infill"
+  },
+  "loops-castro": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.76315000, -122.43371000",
+    "country": "US",
+    "icons": ["🎈"],
+    "link": "https://en.wikipedia.org/wiki/Castro_station",
+    "name": "Castro",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
+  "loops-fishermans-wharf": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.80768000, -122.41688000",
+    "country": "US",
+    "icons": ["🎈"],
+    "link": "https://fr.wikipedia.org/wiki/Fisherman's_Wharf_(San_Francisco)",
+    "name": "Fisherman’s Wharf",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
+  "loops-mission-bay": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.76242000, -122.38823000",
+    "country": "US",
+    "icons": ["🎈"],
+    "link": "https://en.wikipedia.org/wiki/T_Third_Street",
+    "name": "Mission Bay",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
+  "loops-ocean-beach": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.76022000, -122.50914000",
+    "country": "US",
+    "icons": ["🎈"],
+    "link": "https://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco",
+    "name": "Ocean Beach",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
+  "loops-zoo": {
+    "been": false,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Zoo",
+    "name": "Zoo",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
+  "malls-metreon": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78437400, -122.40342400",
+    "country": "US",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Metreon",
+    "name": "Metreon",
+    "type": "malls"
+  },
+  "metro-places-chinatown–rose-pak": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79480600, -122.40808200",
+    "countries": ["US", "CN"],
+    "icons": ["🗺"],
+    "info": "(MUNI)",
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
+    "name": "Chinatown–Rose Pak",
+    "type": "metro-places"
+  },
+  "metro-places-international-district/chinatown": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79480600, -122.40808200",
+    "countries": ["US", "CN"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/International_District/Chinatown_station",
+    "name": "International District/Chinatown",
+    "type": "metro-places"
+  },
+  "metro-places-san-francisco": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.77750000, -122.41638889",
+    "countries": ["EC", "US"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/San_Francisco_(Metro_de_Quito)",
+    "name": "San Francisco",
+    "type": "metro-places"
+  },
+  "metros-san-francisco": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.77750000, -122.41638889",
+    "country": "US",
+    "icons": ["🚇"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit",
+    "name": "San Francisco",
+    "type": "metros"
+  },
+  "museums-sfmoma": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78580000, -122.40100000",
+    "country": "US",
+    "icons": ["🖼"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Museum_of_Modern_Art",
+    "name": "SFMOMA",
+    "type": "museums"
+  },
+  "music-origins-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Francisco",
+    "reference": "Faith No More",
+    "type": "music-origins"
+  },
+  "music-places-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.77750000, -122.41638889",
+    "country": "US",
+    "icons": ["🎙️"],
+    "name": "San Francisco",
+    "reference": "Scissor Sisters",
+    "type": "music-places"
+  },
+  "projects-san-francisco-bart-to-berryessa": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silicon_Valley_BART_extension",
+    "name": "San Francisco BART to Berryessa",
+    "prefix": "06-13",
+    "reference": "San Francisco",
+    "type": "projects"
+  },
+  "projects-san-francisco-bart-to-santa-clara": {
+    "been": false,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silicon_Valley_BART_extension",
+    "name": "San Francisco BART to Santa Clara",
+    "prefix": "2036",
+    "reference": "San Francisco",
+    "type": "projects"
+  },
+  "projects-san-francisco-bart-to-warm-springs": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silicon_Valley_BART_extension",
+    "name": "San Francisco BART to Warm Springs",
+    "prefix": "03-25",
+    "reference": "San Francisco",
+    "type": "projects"
+  },
+  "projects-san-francisco-t-line-to-chinatown-rose-pak": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Central_Subway_(San_Francisco)",
+    "name": "San Francisco T Line to Chinatown-Rose Pak",
+    "prefix": "11-19",
+    "reference": "San Francisco",
+    "type": "projects"
+  },
+  "pyramids-transamerica-pyramid": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79520000, -122.40280000",
+    "country": "US",
+    "icons": ["🛕"],
+    "link": "https://en.wikipedia.org/wiki/Transamerica_Pyramid",
+    "name": "Transamerica Pyramid",
+    "type": "pyramids"
+  },
+  "shuttles-s-shuttle": {
+    "been": false,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸", "9️⃣"],
+    "link": "https://en.wikipedia.org/wiki/S_Shuttle",
+    "name": "S Shuttle",
+    "reference": "San Francisco",
+    "type": "shuttles"
+  },
+  "stadiums-candlestick-park": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.71361111, -122.38611111",
+    "country": "US",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Candlestick_Park",
+    "name": "Candlestick Park",
+    "strike": true,
+    "type": "stadiums"
+  },
+  "stadiums-oracle-park": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.77861111, -122.38916667",
+    "country": "US",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "name": "Oracle Park",
+    "type": "stadiums"
+  },
+  "stairs-16th-avenue-tiled-steps": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.75627778, -122.47319444",
+    "country": "US",
+    "icons": ["🪜"],
+    "link": "https://en.wikipedia.org/wiki/16th_Avenue_Tiled_Steps",
+    "name": "16th Avenue Tiled Steps",
+    "type": "stairs"
+  },
+  "swimming-baker-beach": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79320000, -122.48400000",
+    "country": "US",
+    "icons": ["🤽🏻‍♂️"],
+    "link": "https://en.wikipedia.org/wiki/Baker_Beach",
+    "name": "Baker Beach",
+    "type": "swimming"
+  },
+  "towers-transamerica-pyramid": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79520000, -122.40280000",
+    "country": "US",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Transamerica_Pyramid",
+    "name": "Transamerica Pyramid",
+    "type": "towers"
+  },
+  "trolleybuses-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.77750000, -122.41638889",
+    "country": "US",
+    "icons": ["🚎"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Municipal_Railway",
+    "name": "San Francisco",
+    "type": "trolleybuses"
+  },
+  "tunnels-twin-peaks-tunnel": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.76194444, -122.43694444",
+    "country": "US",
+    "icons": ["🕳️"],
+    "link": "https://en.wikipedia.org/wiki/Twin_Peaks_Tunnel",
+    "name": "Twin Peaks Tunnel",
+    "type": "tunnels"
+  },
+  "turntables-bayshore-roundhouse": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.76399200, -122.39285800",
+    "country": "US",
+    "icons": ["📀"],
+    "link": "https://en.wikipedia.org/wiki/Bayshore_Cutoff#Bayshore_Roundhouse",
+    "name": "Bayshore Roundhouse",
+    "type": "turntables"
+  },
+  "turntables-hyde-&amp;-beach": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79555556, -122.40750000",
+    "country": "US",
+    "icons": ["📀"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+    "name": "Hyde &amp; Beach",
+    "type": "turntables"
+  },
+  "turntables-powell-&amp;-market": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79555556, -122.40750000",
+    "country": "US",
+    "icons": ["📀"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+    "name": "Powell &amp; Market",
+    "type": "turntables"
+  },
+  "turntables-taylor-&amp;-bay": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.79555556, -122.40750000",
+    "country": "US",
+    "icons": ["📀"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+    "name": "Taylor &amp; Bay",
+    "type": "turntables"
+  },
+  "tv-places-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
+    "country": "US",
+    "icons": ["🎥"],
+    "name": "San Francisco",
+    "reference": "The Man in the High Castle",
+    "state": "CA",
+    "type": "tv-places"
+  },
+  "worldsfair-panama–pacific-international-exposition": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.80466667, -122.44666667",
+    "country": "US",
+    "icons": ["🎡"],
+    "link": "https://en.wikipedia.org/wiki/Panama–Pacific_International_Exposition",
+    "name": "Panama–Pacific International Exposition",
+    "prefix": "1915",
+    "reference": "San Francisco",
+    "type": "worldsfair"
+  }
+}
