@@ -60,6 +60,16 @@
     "reference": "Luxembourg",
     "type": "depots"
   },
+  "elevators-grund-elevator": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.61100000, 6.13600000",
+    "country": "LU",
+    "icons": ["🛗"],
+    "link": "https://en.wikipedia.org/wiki/Grund,_Luxembourg",
+    "name": "Grund Elevator",
+    "type": "elevators"
+  },
   "elevators-pfaffenthal-panoramic-elevator": {
     "been": true,
     "city": "Luxembourg",
@@ -130,6 +140,26 @@
     "name": "Pfaffenthal-Kirchberg",
     "type": "funiculars"
   },
+  "heritage-musee-de-tramways-de-luxembourg": {
+    "been": false,
+    "city": "Luxembourg",
+    "coords": "49.59910000, 6.10280000",
+    "country": "LU",
+    "icons": ["🚂"],
+    "link": "https://fr.wikipedia.org/wiki/Musée_des_tramways_et_de_bus_de_la_ville_de_Luxembourg",
+    "name": "Musée de Tramways de Luxembourg",
+    "type": "heritage"
+  },
+  "hotels-hotel-parc-belle-vue-luxembourg": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.60773920, 6.12297560",
+    "country": "LU",
+    "icons": ["🏨"],
+    "link": "https://www.booking.com/hotel/lu/parcbellevuelux.html",
+    "name": "Hotel Parc Belle-Vue, Luxembourg",
+    "type": "hotels"
+  },
   "metro-places-luxembourg": {
     "been": true,
     "city": "Luxembourg",
@@ -138,6 +168,26 @@
     "icons": ["🗺"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Luxembourg",
     "name": "Luxembourg",
+    "type": "metro-places"
+  },
+  "metro-places-place-de-metz": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.60730000, 6.12847000",
+    "countries": ["LU", "FR"],
+    "icons": ["🗺"],
+    "link": "https://fr.wikipedia.org/wiki/Place_de_Metz_(Luxembourg)",
+    "name": "Place de Metz",
+    "type": "metro-places"
+  },
+  "metro-places-place-de-paris": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.60397000, 6.13128000",
+    "countries": ["LU", "FR"],
+    "icons": ["🗺"],
+    "link": "https://fr.wikipedia.org/wiki/Place_de_Paris_(Luxembourg)",
+    "name": "Place de Paris",
     "type": "metro-places"
   },
   "pools-badanstalt": {
@@ -215,6 +265,26 @@
     "name": "Badanstalt",
     "type": "spas"
   },
+  "spas-thermes-de-strassen": {
+    "been": false,
+    "city": "Luxembourg",
+    "coords": "49.61406000, 6.07067000",
+    "country": "LU",
+    "icons": ["♨️"],
+    "link": "https://lesthermes.net",
+    "name": "Thermes de Strassen",
+    "type": "spas"
+  },
+  "stadiums-stade-de-luxembourg": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.57713889, 6.11573056",
+    "country": "LU",
+    "icons": ["🏟️"],
+    "link": "https://fr.wikipedia.org/wiki/Stade_de_Luxembourg",
+    "name": "Stade de Luxembourg",
+    "type": "stadiums"
+  },
   "stations-luxembourg": {
     "been": true,
     "city": "Luxembourg",
@@ -224,6 +294,16 @@
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Luxembourg",
     "name": "Luxembourg",
     "type": "stations"
+  },
+  "statues-gelle-fra": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.60944444, 6.12888889",
+    "country": "LU",
+    "icons": ["🗽"],
+    "link": "https://en.wikipedia.org/wiki/Gëlle_Fra#%22Gëlle_Fra_2%22",
+    "name": "Gëlle Fra",
+    "type": "statues"
   },
   "swimming-mondorf-les-bains": {
     "been": true,

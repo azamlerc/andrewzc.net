@@ -101,6 +101,26 @@
     "name": "Michigan Avenue",
     "type": "apple"
   },
+  "apple-oakbrook": {
+    "been": false,
+    "city": "Chicago",
+    "coords": "41.84972000, -87.95370000",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/oakbrook/",
+    "name": "Oakbrook",
+    "type": "apple"
+  },
+  "apple-old-orchard": {
+    "been": false,
+    "city": "Chicago",
+    "coords": "42.05720400, -87.74995600",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/oldorchard/",
+    "name": "Old Orchard",
+    "type": "apple"
+  },
   "awa-bel-harbour-pool": {
     "been": true,
     "city": "Chicago",
@@ -320,6 +340,14 @@
     "reference": "Chicago",
     "type": "express"
   },
+  "fare-cards-": {
+    "been": true,
+    "city": "Chicago",
+    "icons": [],
+    "name": "",
+    "reference": "Chicago",
+    "type": "fare-cards"
+  },
   "forks-green-line": {
     "been": true,
     "city": "Chicago",
@@ -393,6 +421,16 @@
     "name": "Morgan",
     "type": "infill"
   },
+  "infill-oakton–skokie": {
+    "been": false,
+    "city": "Chicago",
+    "coords": "42.02730000, -87.74760000",
+    "country": "US",
+    "icons": ["🏗"],
+    "link": "https://en.wikipedia.org/wiki/Oakton%E2%80%93Skokie_station",
+    "name": "Oakton–Skokie",
+    "type": "infill"
+  },
   "metro-places-california": {
     "been": true,
     "city": "Chicago",
@@ -432,6 +470,16 @@
     "name": "Chicago",
     "reference": "The Smashing Pumpkins",
     "type": "music-origins"
+  },
+  "music-places-83rd-street": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.74480000, -87.55140000",
+    "country": "US",
+    "icons": ["🎙️"],
+    "name": "83rd Street",
+    "reference": "Odyssey",
+    "type": "music-places"
   },
   "music-places-chicago": {
     "been": true,
@@ -512,6 +560,16 @@
     "icons": ["🛟"],
     "link": "https://en.wikipedia.org/wiki/Chicago",
     "name": "Chicago",
+    "type": "reclaimed"
+  },
+  "reclaimed-northwestern-university": {
+    "been": false,
+    "city": "Chicago",
+    "coords": "42.05583333, -87.67472222",
+    "country": "US",
+    "icons": ["🛟"],
+    "link": "https://en.wikipedia.org/wiki/Northwestern_University_Lakefill",
+    "name": "Northwestern University",
     "type": "reclaimed"
   },
   "rivers-chicago": {
@@ -637,6 +695,16 @@
     "name": "John Hancock Center",
     "type": "towers"
   },
+  "towers-leaning-tower-of-niles": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "42.01250000, -87.78360000",
+    "country": "US",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Niles",
+    "name": "Leaning Tower of Niles",
+    "type": "towers"
+  },
   "towers-trump-tower-chicago": {
     "been": true,
     "city": "Chicago",
@@ -665,6 +733,14 @@
     "icons": ["✳️"],
     "name": "Chicago Loop",
     "type": "transfer"
+  },
+  "transit-apps-chicago": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago",
+    "type": "transit-apps"
   },
   "transporter-sky-ride": {
     "been": false,

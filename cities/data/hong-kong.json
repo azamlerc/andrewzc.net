@@ -80,6 +80,14 @@
     "name": "New Town Plaza",
     "type": "apple"
   },
+  "apple-wallet-hong-kong": {
+    "been": false,
+    "city": "Hong Kong",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "name": "Hong Kong",
+    "type": "apple-wallet"
+  },
   "awa-choi-hung-estate": {
     "been": false,
     "city": "Hong Kong",
@@ -220,6 +228,14 @@
     "link": "https://en.wikipedia.org/wiki/Sai_Ying_Pun_station",
     "name": "Sai Ying Pun",
     "type": "elevator-stations"
+  },
+  "fare-cards-": {
+    "been": true,
+    "city": "Hong Kong",
+    "icons": [],
+    "name": "",
+    "reference": "Hong Kong",
+    "type": "fare-cards"
   },
   "ferries-hong-kong": {
     "been": true,
@@ -494,6 +510,26 @@
     "link": "https://en.wikipedia.org/wiki/MTR",
     "name": "Hong Kong",
     "type": "metros"
+  },
+  "moving-walkways-central": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.28200000, 114.15760000",
+    "country": "HK",
+    "icons": ["🛴"],
+    "link": "https://en.wikipedia.org/wiki/Central_station_(MTR)",
+    "name": "Central",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-tsim-sha-tsui": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.29730000, 114.17220000",
+    "country": "HK",
+    "icons": ["🛴"],
+    "link": "https://en.wikipedia.org/wiki/Tsim_Sha_Tsui_station",
+    "name": "Tsim Sha Tsui",
+    "type": "moving-walkways"
   },
   "music-places-hong-kong": {
     "been": true,

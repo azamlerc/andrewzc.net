@@ -1,4 +1,15 @@
 {
+  "airports-boeing-field": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.53000000, -122.30194444",
+    "country": "US",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Boeing_Field",
+    "name": "Boeing Field",
+    "prefix": "BFI",
+    "type": "airports"
+  },
   "airports-seattle-tacoma": {
     "been": true,
     "city": "Seattle",
@@ -9,6 +20,26 @@
     "name": "Seattle Tacoma",
     "prefix": "SEA",
     "type": "airports"
+  },
+  "apple-bellevue-square": {
+    "been": false,
+    "city": "Seattle",
+    "coords": "47.61632700, -122.20420000",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/bellevuesquare/",
+    "name": "Bellevue Square",
+    "type": "apple"
+  },
+  "apple-university-village": {
+    "been": false,
+    "city": "Seattle",
+    "coords": "47.66390000, -122.29840000",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/universityvillage/",
+    "name": "University Village",
+    "type": "apple"
   },
   "awa-union-station": {
     "been": true,
@@ -21,6 +52,26 @@
     "reference": "Seattle",
     "type": "awa"
   },
+  "bridges-aurora-bridge": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.64638889, -122.34750000",
+    "country": "US",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Aurora_Bridge",
+    "name": "Aurora Bridge",
+    "type": "bridges"
+  },
+  "bridges-lake-washington-bridge": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.58984100, -122.26942100",
+    "country": "US",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Homer_M._Hadley_Memorial_Bridge",
+    "name": "Lake Washington Bridge",
+    "type": "bridges"
+  },
   "cable-landings-seattle": {
     "been": true,
     "city": "Seattle",
@@ -29,6 +80,84 @@
     "link": "http://www.kidorf.com/DBResult.php?Landing=Seattle,%20WA&Location=NONE&Repeatered=Both",
     "name": "Seattle",
     "type": "cable-landings"
+  },
+  "elevator-stations-beacon-hill": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.57944444, -122.31138889",
+    "country": "US",
+    "icons": ["🛗"],
+    "link": "https://en.wikipedia.org/wiki/Beacon_Hill_station_(Sound_Transit)",
+    "name": "Beacon Hill",
+    "type": "elevator-stations"
+  },
+  "fare-cards-": {
+    "been": false,
+    "city": "Seattle",
+    "icons": [],
+    "name": "",
+    "reference": "Seattle",
+    "type": "fare-cards"
+  },
+  "greenhouses-amazon-spheres": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.61555556, -122.33944444",
+    "country": "US",
+    "icons": ["🌴"],
+    "link": "https://en.wikipedia.org/wiki/Amazon_Spheres",
+    "name": "Amazon Spheres",
+    "type": "greenhouses"
+  },
+  "hotels-marco-polo-motel-seattle": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.65756340, -122.34704510",
+    "country": "US",
+    "icons": ["🏨"],
+    "link": "https://www.booking.com/hotel/us/marco-polo-motel.html",
+    "name": "Marco Polo Motel, Seattle",
+    "type": "hotels"
+  },
+  "hotels-warwick-hotel-seattle": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.61390520, -122.34105170",
+    "country": "US",
+    "icons": ["🏨"],
+    "link": "https://www.booking.com/hotel/us/warwick-seattle-seattle-washington.html",
+    "name": "Warwick Hotel, Seattle",
+    "type": "hotels"
+  },
+  "housing-yesler-terrace": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.60361111, -122.32083333",
+    "country": "US",
+    "icons": ["🏢"],
+    "link": "https://en.wikipedia.org/wiki/Yesler_Terrace,_Seattle",
+    "name": "Yesler Terrace",
+    "type": "housing"
+  },
+  "lakes-lake-washington": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.61666667, -122.26666667",
+    "country": "US",
+    "icons": ["🛶"],
+    "link": "https://en.wikipedia.org/wiki/Lake_Washington",
+    "name": "Lake Washington",
+    "type": "lakes"
+  },
+  "malls-westlake-center": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.61166667, -122.33722222",
+    "country": "US",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Westlake_Center",
+    "name": "Westlake Center",
+    "type": "malls"
   },
   "metro-places-international-district/chinatown": {
     "been": true,
@@ -68,6 +197,17 @@
     "name": "South Lake Union",
     "reference": "Seattle",
     "type": "one-way"
+  },
+  "people-movers-seattle-airport": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.44888889, -122.30944444",
+    "country": "US",
+    "icons": ["🚝"],
+    "link": "https://en.wikipedia.org/wiki/Satellite_Transit_System",
+    "name": "Seattle Airport",
+    "prefix": "1973",
+    "type": "people-movers"
   },
   "ports-seattle": {
     "been": true,
@@ -112,6 +252,46 @@
     "reference": "Seattle",
     "type": "projects"
   },
+  "reclaimed-harbor-island": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.57916667, -122.35138889",
+    "country": "US",
+    "icons": ["🛟"],
+    "link": "https://en.wikipedia.org/wiki/Harbor_Island,_Seattle",
+    "name": "Harbor Island",
+    "type": "reclaimed"
+  },
+  "reclaimed-sodo": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.58888889, -122.33250000",
+    "country": "US",
+    "icons": ["🛟"],
+    "link": "https://en.wikipedia.org/wiki/SoDo,_Seattle",
+    "name": "SoDo",
+    "type": "reclaimed"
+  },
+  "stadiums-lumen-field": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.59520000, -122.33160000",
+    "country": "US",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Lumen_Field",
+    "name": "Lumen Field",
+    "type": "stadiums"
+  },
+  "stadiums-t-mobile-park": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.59100000, -122.33300000",
+    "country": "US",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "name": "T-Mobile Park",
+    "type": "stadiums"
+  },
   "stairs-seattle": {
     "been": true,
     "city": "Seattle",
@@ -121,6 +301,36 @@
     "link": "https://faculty.washington.edu/smott/SeattleStairs.html",
     "name": "Seattle",
     "type": "stairs"
+  },
+  "stations-seattle-union-station": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.59870000, -122.32850000",
+    "country": "US",
+    "icons": ["🚉"],
+    "link": "https://en.wikipedia.org/wiki/Seattle_Union_Station",
+    "name": "Seattle Union Station",
+    "type": "stations"
+  },
+  "towers-columbia-center": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.60453000, -122.33069000",
+    "country": "US",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Columbia_Center",
+    "name": "Columbia Center",
+    "type": "towers"
+  },
+  "towers-space-needle": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.62040000, -122.34910000",
+    "country": "US",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Space_Needle",
+    "name": "Space Needle",
+    "type": "towers"
   },
   "trams-seattle": {
     "been": true,
@@ -132,6 +342,14 @@
     "name": "Seattle",
     "type": "trams"
   },
+  "transit-apps-seattle": {
+    "been": true,
+    "city": "Seattle",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Seattle",
+    "type": "transit-apps"
+  },
   "trolleybuses-seattle": {
     "been": true,
     "city": "Seattle",
@@ -141,6 +359,16 @@
     "link": "https://en.wikipedia.org/wiki/Seattle",
     "name": "Seattle",
     "type": "trolleybuses"
+  },
+  "walls-gum-wall": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.60829983, -122.34028483",
+    "country": "US",
+    "icons": ["🧱"],
+    "link": "https://en.wikipedia.org/wiki/Gum_Wall",
+    "name": "Gum Wall",
+    "type": "walls"
   },
   "worldsfair-century-21-exhibition": {
     "been": true,

@@ -235,6 +235,14 @@
     "name": "Covent Garden",
     "type": "apple"
   },
+  "apple-pay-london": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "London",
+    "type": "apple-pay"
+  },
   "apple-regent-street": {
     "been": true,
     "city": "London",
@@ -1038,6 +1046,14 @@
     "reference": "London",
     "type": "express"
   },
+  "fare-cards-": {
+    "been": true,
+    "city": "London",
+    "icons": [],
+    "name": "",
+    "reference": "London",
+    "type": "fare-cards"
+  },
   "flood-thames-barrier": {
     "been": true,
     "city": "London",
@@ -1164,7 +1180,6 @@
     "link": "https://en.wikipedia.org/wiki/Hainault_tube_station",
     "name": "Hainault",
     "reference": "London",
-    "strike": true,
     "type": "head-on"
   },
   "heritage-london-transport-museum": {
@@ -1379,6 +1394,26 @@
     "name": "London",
     "type": "metros"
   },
+  "moving-walkways-bank": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51300000, -0.08800000",
+    "country": "GB",
+    "icons": ["🛴"],
+    "link": "https://en.wikipedia.org/wiki/Bank_and_Monument_stations",
+    "name": "Bank",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-waterloo": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50310000, -0.11320000",
+    "country": "GB",
+    "icons": ["🛴"],
+    "link": "https://en.wikipedia.org/wiki/Waterloo_Station",
+    "name": "Waterloo",
+    "type": "moving-walkways"
+  },
   "museums-british-museum": {
     "been": true,
     "city": "London",
@@ -1578,6 +1613,14 @@
     "name": "Heathrow Terminal 4",
     "reference": "London",
     "type": "one-way"
+  },
+  "open-gangways-2010": {
+    "been": true,
+    "city": "London",
+    "icons": [],
+    "name": "2010",
+    "reference": "London",
+    "type": "open-gangways"
   },
   "part-time-kensington-(olympia)": {
     "been": true,

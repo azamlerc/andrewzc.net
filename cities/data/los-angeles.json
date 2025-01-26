@@ -40,6 +40,16 @@
     "name": "Century City",
     "type": "apple"
   },
+  "apple-del-amo": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.83353200, -118.35057000",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/delamo/",
+    "name": "Del Amo",
+    "type": "apple"
+  },
   "apple-glendale-galleria": {
     "been": false,
     "city": "Los Angeles",
@@ -60,6 +70,26 @@
     "name": "The Grove",
     "type": "apple"
   },
+  "apple-los-cerritos": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.86242300, -118.09394200",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/loscerritos/",
+    "name": "Los Cerritos",
+    "type": "apple"
+  },
+  "apple-manhattan-village": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.89909000, -118.39320900",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/manhattanvillage/",
+    "name": "Manhattan Village",
+    "type": "apple"
+  },
   "apple-pasadena": {
     "been": false,
     "city": "Los Angeles",
@@ -68,6 +98,26 @@
     "icons": ["🍏"],
     "link": "https://www.apple.com/retail/pasadena/",
     "name": "Pasadena",
+    "type": "apple"
+  },
+  "apple-sherman-oaks": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.15725800, -118.43861500",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/shermanoaks/",
+    "name": "Sherman Oaks",
+    "type": "apple"
+  },
+  "apple-third-street-promenade": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.01532814, -118.49542916",
+    "country": "US",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/retail/thirdstreetpromenade/",
+    "name": "Third Street Promenade",
     "type": "apple"
   },
   "apple-tower-theatre": {
@@ -79,6 +129,14 @@
     "link": "https://www.apple.com/retail/towertheatre/",
     "name": "Tower Theatre",
     "type": "apple"
+  },
+  "apple-wallet-los-angeles": {
+    "been": false,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Los Angeles",
+    "type": "apple-wallet"
   },
   "awa-advance-wood-shop": {
     "been": false,
@@ -102,6 +160,17 @@
     "reference": "Los Angeles",
     "type": "awa"
   },
+  "awa-georgian-hotel": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.01388889, -118.49722222",
+    "country": "US",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Georgian_Hotel",
+    "name": "Georgian Hotel",
+    "reference": "Santa Monica",
+    "type": "awa"
+  },
   "beaches-santa-monica": {
     "been": true,
     "city": "Los Angeles",
@@ -112,6 +181,16 @@
     "name": "Santa Monica",
     "type": "beaches"
   },
+  "beaches-venice-beach": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "33.99083333, -118.45916667",
+    "country": "US",
+    "icons": ["🏖"],
+    "link": "https://en.wikipedia.org/wiki/Venice,_Los_Angeles#Venice_Beach",
+    "name": "Venice Beach",
+    "type": "beaches"
+  },
   "cable-landings-los-angeles": {
     "been": true,
     "city": "Los Angeles",
@@ -120,6 +199,25 @@
     "link": "http://www.kidorf.com/DBResult.php?Landing=Los%20Angeles,%20California,%20USA&Location=NONE&Repeatered=Both",
     "name": "Los Angeles",
     "type": "cable-landings"
+  },
+  "confluence-hacienda-heights": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.00000000, -118.00000000",
+    "country": "US",
+    "icons": ["🚸"],
+    "link": "https://confluence.org/confluence.php?lat=34&lon=-118",
+    "name": "Hacienda Heights",
+    "reference": "34°N 118°W",
+    "type": "confluence"
+  },
+  "fare-cards-": {
+    "been": false,
+    "city": "Los Angeles",
+    "icons": [],
+    "name": "",
+    "reference": "Los Angeles",
+    "type": "fare-cards"
   },
   "infill-farmdale": {
     "been": false,
@@ -160,6 +258,16 @@
     "icons": ["🛍"],
     "link": "https://en.wikipedia.org/wiki/The_Grove_at_Farmers_Market",
     "name": "The Grove",
+    "type": "malls"
+  },
+  "malls-santa-monica-place": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.01362100, -118.49372600",
+    "country": "US",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Santa_Monica_Place",
+    "name": "Santa Monica Place",
     "type": "malls"
   },
   "metro-places-florence": {
@@ -231,6 +339,26 @@
     "reference": "Sir Mix-a-Lot",
     "type": "music-places"
   },
+  "music-places-pasadena": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.15611111, -118.13194444",
+    "country": "US",
+    "icons": ["🎙️"],
+    "name": "Pasadena",
+    "reference": "Scissor Sisters",
+    "type": "music-places"
+  },
+  "music-places-redondo-beach": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.85805556, -118.37888889",
+    "country": "US",
+    "icons": ["🎙️"],
+    "name": "Redondo Beach",
+    "reference": "Morrissey",
+    "type": "music-places"
+  },
   "music-places-santa-monica": {
     "been": true,
     "city": "Los Angeles",
@@ -260,6 +388,27 @@
     "name": "Los Angeles",
     "strike": true,
     "type": "pcc"
+  },
+  "people-movers-getty-center-tram": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.08772222, -118.47577778",
+    "country": "US",
+    "icons": ["🚝"],
+    "link": "https://en.wikipedia.org/wiki/Getty_Center_Tram",
+    "name": "Getty Center Tram",
+    "prefix": "1997",
+    "type": "people-movers"
+  },
+  "ports-long-beach": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.75500000, -118.21500000",
+    "country": "US",
+    "icons": ["⚓️"],
+    "link": "https://en.wikipedia.org/wiki/Port_of_Long_Beach",
+    "name": "Long Beach",
+    "type": "ports"
   },
   "projects-los-angeles-brightline-west-to-las-vegas": {
     "been": false,
@@ -315,6 +464,16 @@
     "prefix": "06-16",
     "reference": "Los Angeles",
     "type": "projects"
+  },
+  "pyramids-long-beach-pyramid": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.78722222, -118.11416667",
+    "country": "US",
+    "icons": ["🛕"],
+    "link": "https://en.wikipedia.org/wiki/Walter_Pyramid",
+    "name": "Long Beach Pyramid",
+    "type": "pyramids"
   },
   "split-platform-wilshire/vermont": {
     "been": false,

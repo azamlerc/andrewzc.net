@@ -284,6 +284,14 @@
     "name": "Grand Central",
     "type": "apple"
   },
+  "apple-pay-new-york": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York",
+    "type": "apple-pay"
+  },
   "apple-queens-center": {
     "been": false,
     "city": "New York",
@@ -805,6 +813,7 @@
     "icons": ["🍌"],
     "link": "https://en.wikipedia.org/wiki/Times_Square–42nd_Street_station",
     "name": "Times Square–42nd Street",
+    "strike": true,
     "type": "curved"
   },
   "curved-world-trade-center": {
@@ -1257,6 +1266,14 @@
     "name": "Q Train",
     "reference": "New York",
     "type": "express"
+  },
+  "fare-cards-": {
+    "been": false,
+    "city": "New York",
+    "icons": [],
+    "name": "",
+    "reference": "New York",
+    "type": "fare-cards"
   },
   "ferries-ellis-island": {
     "been": true,
@@ -2398,6 +2415,22 @@
     "name": "",
     "reference": "Paris",
     "type": "offset"
+  },
+  "open-gangways-1925": {
+    "been": true,
+    "city": "New York",
+    "icons": [],
+    "name": "1925",
+    "reference": "New York",
+    "type": "open-gangways"
+  },
+  "open-gangways-2024": {
+    "been": true,
+    "city": "New York",
+    "icons": [],
+    "name": "2024",
+    "reference": "New York",
+    "type": "open-gangways"
   },
   "people-movers-jfk-airport": {
     "been": true,
