@@ -1,10 +1,32 @@
 {
+  "cable-cars-": {
+    "been": false,
+    "city": "Katowice",
+    "coords": "50.27585000, 18.99645000",
+    "country": "PL",
+    "icons": ["🚡"],
+    "info": "Kolej Linowa Elka",
+    "link": "https://pl.wikipedia.org/wiki/Kolej_linowa_„Elka”_w_Chorzowie",
+    "name": "",
+    "type": "cable-cars"
+  },
+  "cable-cars-kolej-linowa-elka": {
+    "been": false,
+    "city": "Katowice",
+    "coords": "50.27585000, 18.99645000",
+    "country": "PL",
+    "icons": ["🚡"],
+    "link": "https://pl.wikipedia.org/wiki/Kolej_linowa_„Elka”_w_Chorzowie",
+    "name": "Kolej Linowa Elka",
+    "type": "cable-cars"
+  },
   "depots-bedzin": {
     "been": true,
     "city": "Katowice",
+    "coords": "50.32761000, 19.11115000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Silesian_Interurbans#Depots",
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.32761_N_19.11115_E",
     "name": "Będzin",
     "reference": "Katowice",
     "type": "depots"
@@ -12,9 +34,10 @@
   "depots-bytom-stroszek": {
     "been": true,
     "city": "Katowice",
+    "coords": "50.39906000, 18.86812000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Silesian_Interurbans#Depots",
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.39906_N_18.86812_E",
     "name": "Bytom-Stroszek",
     "reference": "Katowice",
     "type": "depots"
@@ -22,9 +45,10 @@
   "depots-gliwice": {
     "been": true,
     "city": "Katowice",
+    "coords": "50.30199000, 18.72941000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Silesian_Interurbans#Depots",
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.30199_N_18.72941_E",
     "name": "Gliwice",
     "reference": "Katowice",
     "type": "depots"
@@ -39,6 +63,17 @@
     "reference": "Katowice",
     "type": "depots"
   },
+  "depots-zawodzie": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.26135800, 19.06885100",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.261358_N_19.068851_E",
+    "name": "Zawodzie",
+    "reference": "Katowice",
+    "type": "depots"
+  },
   "europe-2022-silesian-trams": {
     "been": true,
     "city": "Katowice",
@@ -48,6 +83,29 @@
     "link": "https://en.wikipedia.org/wiki/Silesian_Interurbans",
     "name": "Silesian Trams",
     "type": "europe-2022"
+  },
+  "grand-unions-bytom-jagiellonska": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.34476000, 18.91843200",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.344760_N_18.918432_E",
+    "name": "Bytom Jagiellońska",
+    "reference": "Katowice",
+    "type": "grand-unions"
+  },
+  "grand-unions-rynek": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.25942600, 19.02214400",
+    "country": "PL",
+    "icons": ["🦋"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.259426_N_19.022144_E",
+    "name": "Rynek",
+    "reference": "Katowice",
+    "type": "grand-unions"
   },
   "international-trams-": {
     "been": false,
@@ -68,6 +126,293 @@
     "reference": "Katowice",
     "strike": true,
     "type": "international-trams"
+  },
+  "loops-biskupice-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.33011700, 18.84119500",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.330117_N_18.841195_E",
+    "name": "Biskupice Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-brynow-przesiadkowe": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.22694900, 18.99512900",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.226949_N_18.995129_E",
+    "name": "Brynów Przesiadkowe",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-bytom-szkoła-medyczna": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.35179400, 18.88851700",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.351794_N_18.888517_E",
+    "name": "Bytom Szkoła Medyczna",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-chebzia-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.30060500, 18.88236500",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.300605_N_18.882365_E",
+    "name": "Chebzia Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-chorzow-stadion": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.28673300, 18.96956400",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.286733_N_18.969564_E",
+    "name": "Chorzów Stadion",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-czeladz-dworzec": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.32042500, 19.07156800",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.320425_N_19.071568_E",
+    "name": "Czeladź Dworzec",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-gotonog-podstacja-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.33113000, 19.24236000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.33113_N_19.24236_E",
+    "name": "Gotonóg Podstacja Petla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-kazimierz-gornicky-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29060500, 19.23282400",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.290605_N_19.232824_E",
+    "name": "Kazimierz Górnicky Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-makoszowy-petla": {
+    "been": false,
+    "city": "Katowice",
+    "coords": "50.27099200, 18.77543200",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.270992_N_18.775432_E",
+    "name": "Makoszowy Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-mikulczyce-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.34335300, 18.76940400",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.343353_N_18.769404_E",
+    "name": "Mikulczyce Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-milowice-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.28946200, 19.07980200",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.289462_N_19.079802_E",
+    "name": "Milowice Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-mysłowice": {
+    "been": false,
+    "city": "Katowice",
+    "coords": "50.23867000, 19.14389000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.238670_N_19.143890_E",
+    "name": "Mysłowice",
+    "reference": "Katowice",
+    "strike": true,
+    "type": "loops"
+  },
+  "loops-park-slaski": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.28375000, 18.97424200",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.283750_N_18.974242_E",
+    "name": "Park Śląski",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-plac-miarki": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.25452300, 19.01841300",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.254523_N_19.018413_E",
+    "name": "Plac Miarki",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-pogon-akademiki": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.30059300, 19.13539900",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.300593_N_19.135399_E",
+    "name": "Pogoń Akademiki",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-siemianowice-plac-skargi": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29821400, 19.02710900",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.298214_N_19.027109_E",
+    "name": "Siemianowice Plac Skargi",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-stroszek-zajezdina": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.39813400, 18.87129600",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.398134_N_18.871296_E",
+    "name": "Stroszek Zajezdina",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-szopienice-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.26046200, 19.10866500",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.260462_N_19.108665_E",
+    "name": "Szopienice Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-tworzen-huta": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.34091000, 19.26475000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.34091_N_19.26475_E",
+    "name": "Tworzeń Huta",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-urzad-pracy-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.32466000, 19.17010000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.32466_N_19.17010_E",
+    "name": "Urzad Pracy Petla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-wełnowiez-plac-alfreda": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29270100, 19.01404600",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.292701_N_19.014046_E",
+    "name": "Wełnowiez Plac Alfreda",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-zaborze-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29569800, 18.82735500",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.295698_N_18.827355_E",
+    "name": "Zaborze Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-zagorze-bmc": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29434100, 19.18201000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.294341_N_19.182010_E",
+    "name": "Zagórze BMC",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-zagorze-petla": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29433000, 19.18193000",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.29433_N_19.18193_E",
+    "name": "Zagórze Pętla",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-zagorze-rondo-jana-pawła-ii": {
+    "been": false,
+    "city": "Katowice",
+    "coords": "50.28534400, 19.17804400",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.285344_N_19.178044_E",
+    "name": "Zagórze Rondo Jana Pawła II",
+    "reference": "Katowice",
+    "type": "loops"
+  },
+  "loops-zawodzie-przesiadkowe": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.26017600, 19.06410900",
+    "country": "PL",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.260176_N_19.064109_E",
+    "name": "Zawodzie Przesiadkowe",
+    "reference": "Katowice",
+    "type": "loops"
   },
   "malls-galeria-katowicka": {
     "been": true,
@@ -374,5 +719,49 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Tychy",
     "name": "Tychy",
     "type": "trolleybuses"
+  },
+  "wyes-bedzin-muzeum": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.32982000, 19.12590000",
+    "country": "PL",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.32982_N_19.12590_E",
+    "name": "Będzin Muzeum",
+    "reference": "Katowice",
+    "type": "wyes"
+  },
+  "wyes-gliwice-zajezdnia": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.30477900, 18.72990800",
+    "country": "PL",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.304779_N_18.729908_E",
+    "name": "Gliwice Zajezdnia",
+    "reference": "Katowice",
+    "type": "wyes"
+  },
+  "wyes-knstantynow-okrzei": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29531500, 19.14526800",
+    "country": "PL",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.295315_N_19.145268_E",
+    "name": "Knstantynów Okrzei",
+    "reference": "Katowice",
+    "type": "wyes"
+  },
+  "wyes-konstantynow-okrzei": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.29531500, 19.14526800",
+    "country": "PL",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.295315_N_19.145268_E",
+    "name": "Konstantynów Okrzei",
+    "reference": "Katowice",
+    "type": "wyes"
   }
 }
