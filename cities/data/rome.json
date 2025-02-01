@@ -111,6 +111,17 @@
     "prefix": "0033",
     "type": "lowest"
   },
+  "luna-park-rome": {
+    "been": false,
+    "city": "Rome",
+    "coords": "41.90000000, 12.48333333",
+    "country": "IT",
+    "icons": ["🌝"],
+    "link": "https://en.wikipedia.org/wiki/LunEur",
+    "name": "Rome",
+    "strike": true,
+    "type": "luna-park"
+  },
   "malls-via-del-corso": {
     "been": false,
     "city": "Rome",
@@ -292,5 +303,16 @@
     "link": "https://en.wikipedia.org/wiki/Rome",
     "name": "Rome",
     "type": "trolleybuses"
+  },
+  "twin-stations-marconi": {
+    "been": true,
+    "city": "Rome",
+    "coords": "41.84944444, 12.47555556",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Marconi_(Rome_Metro)",
+    "name": "Marconi",
+    "reference": "Rome",
+    "type": "twin-stations"
   }
 }

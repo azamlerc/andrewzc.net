@@ -9,8 +9,10 @@
   },
   "aguas-turbias": {
     "been": false,
+    "coords": "17.81557000, -89.15192000",
     "countries": ["BZ", "GT", "MX"],
     "icons": ["🇧🇿", "🇬🇹", "🇲🇽"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=17.81557_N_89.15192_W",
     "name": "Aguas Turbias"
   },
   "al-kufra": {
@@ -208,21 +210,14 @@
     "link": "https://en.wikipedia.org/wiki/Hohenau_an_der_March",
     "name": "Hohenau an der March"
   },
-  "hranice": {
-    "been": true,
-    "coords": "50.30325°N, 12.05111°E",
-    "countries": ["CZ", "DE"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.30325_N_12.05111_E",
-    "name": "Hranice",
-    "strike": true
-  },
   "hrcava": {
     "been": false,
     "coords": "49.51750000, 18.84888889",
     "countries": ["CZ", "PL", "SK"],
     "icons": ["🇨🇿", "🇵🇱", "🇸🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49_31_03_N_18_50_56_E",
-    "name": "Hrčava"
+    "name": "Hrčava",
+    "reference": "30 km"
   },
   "iguazu": {
     "been": false,
@@ -285,7 +280,8 @@
     "countries": ["HR", "HU", "SI"],
     "icons": ["🇭🇷", "🇭🇺", "🇸🇮"],
     "link": "https://geohack.toolforge.org/geohack.php?params=46.47594_N_16.59684_E",
-    "name": "Kerkaszentkirály"
+    "name": "Kerkaszentkirály",
+    "reference": "40 km"
   },
   "kremenec": {
     "been": false,

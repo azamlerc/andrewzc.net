@@ -78,6 +78,14 @@
     "name": "Arcades du Cinquantenaire",
     "type": "arches"
   },
+  "bi-articulated-brussels": {
+    "been": false,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Brussels",
+    "type": "bi-articulated"
+  },
   "capitals-brussels": {
     "been": true,
     "city": "Brussels",
@@ -1229,6 +1237,39 @@
     "link": "https://fr.wikipedia.org/wiki/Tunnel_Annie_Cordy",
     "name": "Tunnel Annie Cordy",
     "type": "tunnels"
+  },
+  "twin-stations-alma": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84972200, 4.45333300",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Alma_(métro_de_Bruxelles)",
+    "name": "Alma",
+    "reference": "Brussels",
+    "type": "twin-stations"
+  },
+  "twin-stations-clemenceau": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84111111, 4.33055556",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Clemenceau_metro_station",
+    "name": "Clemenceau",
+    "reference": "Brussels",
+    "type": "twin-stations"
+  },
+  "twin-stations-congress": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.85222222, 4.36194444",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Brussels-Congress_railway_station",
+    "name": "Congress",
+    "reference": "Brussels",
+    "type": "twin-stations"
   },
   "useless-anneessens": {
     "been": true,

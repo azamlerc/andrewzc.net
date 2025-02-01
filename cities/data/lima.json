@@ -19,6 +19,17 @@
     "name": "Lima",
     "type": "capitals"
   },
+  "luna-park-lima": {
+    "been": false,
+    "city": "Lima",
+    "coords": "-12.06000000, -77.03750000",
+    "country": "PE",
+    "icons": ["🌝"],
+    "link": "https://en.wikipedia.org/wiki/Lima",
+    "name": "Lima",
+    "strike": true,
+    "type": "luna-park"
+  },
   "metro-places-lima": {
     "been": false,
     "city": "Lima",
@@ -90,5 +101,16 @@
     "link": "https://en.wikipedia.org/wiki/Callao",
     "name": "Callao",
     "type": "tintin"
+  },
+  "twin-stations-lima": {
+    "been": true,
+    "city": "Lima",
+    "coords": "-12.04333333, -77.02833333",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lima_(Milan_Metro)",
+    "name": "Lima",
+    "reference": "Milan",
+    "type": "twin-stations"
   }
 }

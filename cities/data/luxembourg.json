@@ -10,6 +10,14 @@
     "prefix": "LUX",
     "type": "airports"
   },
+  "bi-articulated-luxembourg": {
+    "been": false,
+    "city": "Luxembourg",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "name": "Luxembourg",
+    "type": "bi-articulated"
+  },
   "capitals-luxembourg": {
     "been": true,
     "city": "Luxembourg",
@@ -339,10 +347,11 @@
     "been": true,
     "city": "Luxembourg",
     "coords": "49.60000000, 6.13388900",
-    "country": "LU",
+    "country": "FR",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Gare_de_Luxembourg",
+    "link": "https://fr.wikipedia.org/wiki/Gare_du_Luxembourg",
     "name": "Luxembourg",
+    "reference": "Paris",
     "type": "twin-stations"
   }
 }

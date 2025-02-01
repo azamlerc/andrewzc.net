@@ -1299,10 +1299,20 @@
     "city": "London",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.m.wikipedia.org/wiki/Kennington_tube_station",
+    "link": "https://en.wikipedia.org/wiki/Kennington_tube_station",
     "name": "Kennington",
     "reference": "London",
     "type": "loops"
+  },
+  "luna-park-brent-cross": {
+    "been": false,
+    "city": "London",
+    "coords": "51.57679000, -0.21834000",
+    "country": "GB",
+    "icons": ["🌝"],
+    "link": "https://www.lunaparkbrentcross.com",
+    "name": "Brent Cross",
+    "type": "luna-park"
   },
   "malls-battersea-power-station": {
     "been": true,
@@ -2417,7 +2427,7 @@
     "coords": "51.51027778, -0.08694444",
     "country": "GB",
     "icons": ["🇪🇸"],
-    "link": "https://en.m.wikipedia.org/wiki/King_William_Street_tube_station",
+    "link": "https://en.wikipedia.org/wiki/King_William_Street_tube_station",
     "name": "King William Street",
     "strike": true,
     "type": "spanish"
@@ -2918,6 +2928,50 @@
     "name": "London",
     "reference": "Slow Horses",
     "type": "tv-places"
+  },
+  "twin-stations-angel": {
+    "been": true,
+    "city": "London",
+    "coords": "51.53200000, -0.10600000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Angel_tube_station",
+    "name": "Angel",
+    "reference": "London",
+    "type": "twin-stations"
+  },
+  "twin-stations-forest-hill": {
+    "been": true,
+    "city": "London",
+    "coords": "51.43900000, -0.05300000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hill_station_(Muni_Metro)",
+    "name": "Forest Hill",
+    "reference": "San Francisco",
+    "type": "twin-stations"
+  },
+  "twin-stations-monument": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51300000, -0.08800000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Monument_Metro_station",
+    "name": "Monument",
+    "reference": "Newcastle",
+    "type": "twin-stations"
+  },
+  "twin-stations-waterloo": {
+    "been": true,
+    "city": "London",
+    "coords": "50.41750000, 4.45000000",
+    "country": "DE",
+    "icons": ["👯"],
+    "link": "https://de.wikipedia.org/wiki/Waterlooplatz",
+    "name": "Waterloo",
+    "reference": "Hannover",
+    "type": "twin-stations"
   },
   "useless-borovsko-bridge": {
     "been": false,

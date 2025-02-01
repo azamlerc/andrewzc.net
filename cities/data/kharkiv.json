@@ -46,5 +46,37 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Kharkiv",
     "name": "Kharkiv",
     "type": "trams"
+  },
+  "twin-stations-pushkinska": {
+    "been": true,
+    "city": "Kharkiv",
+    "coords": "50.00393333, 36.24752222",
+    "country": "UA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Pushkinska_(Kharkiv_Metro)",
+    "name": "Pushkinska",
+    "reference": "Kharkiv",
+    "type": "twin-stations"
+  },
+  "twin-stations-sportyvna": {
+    "been": true,
+    "city": "Kharkiv",
+    "coords": "49.97944444, 36.26083333",
+    "country": "UA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Kharkiv_Metro)",
+    "name": "Sportyvna",
+    "reference": "Kharkiv",
+    "type": "twin-stations"
+  },
+  "twin-stations-vokzalna": {
+    "been": true,
+    "city": "Kharkiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kyiv_Metro)",
+    "name": "Vokzalna",
+    "reference": "Kyiv",
+    "type": "twin-stations"
   }
 }

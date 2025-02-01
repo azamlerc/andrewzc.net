@@ -240,6 +240,17 @@
     "reference": "Los Angeles",
     "type": "loops"
   },
+  "luna-park-los-angeles": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.03077300, -118.26719700",
+    "country": "US",
+    "icons": ["🌝"],
+    "link": "https://en.wikipedia.org/wiki/Luna_Park,_Los_Angeles",
+    "name": "Los Angeles",
+    "strike": true,
+    "type": "luna-park"
+  },
   "malls-glendale-fashion-center": {
     "been": true,
     "city": "Los Angeles",
@@ -506,5 +517,27 @@
     "reference": "True Detective",
     "state": "CA",
     "type": "tv-places"
+  },
+  "twin-stations-florence": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "33.97480000, -118.24300000",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Florence_station_(Los_Angeles_Metro)",
+    "name": "Florence",
+    "reference": "Los Angeles",
+    "type": "twin-stations"
+  },
+  "twin-stations-martin-luther-king": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.00957100, -118.33528800",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Dr._Martin_Luther_King_Jr._Plaza_station_(Metrorail)",
+    "name": "Martin Luther King",
+    "reference": "Miami",
+    "type": "twin-stations"
   }
 }

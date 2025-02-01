@@ -39,7 +39,7 @@
     "type": "brt"
   },
   "capitals-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -65,6 +65,16 @@
     "name": "",
     "reference": "Mexico City",
     "type": "fare-cards"
+  },
+  "luna-park-mexico-city": {
+    "been": false,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🌝"],
+    "link": "https://www.luna-parks.com/luna-park-mexico-city",
+    "name": "Mexico City",
+    "type": "luna-park"
   },
   "metros-mexico-city": {
     "been": false,
@@ -107,7 +117,7 @@
     "type": "pcc"
   },
   "planned-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -117,7 +127,7 @@
     "type": "planned"
   },
   "reclaimed-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -127,7 +137,7 @@
     "type": "reclaimed"
   },
   "rubber-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.41944444, -99.14555556",
     "country": "MX",
@@ -177,7 +187,7 @@
     "type": "trolleybuses"
   },
   "tv-places-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -185,5 +195,16 @@
     "name": "Mexico City",
     "reference": "Sense8",
     "type": "tv-places"
+  },
+  "twin-stations-jamaica": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "17.97138889, -76.79305556",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
+    "name": "Jamaica",
+    "reference": "New York",
+    "type": "twin-stations"
   }
 }

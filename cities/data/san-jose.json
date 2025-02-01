@@ -19,7 +19,7 @@
     "type": "airports"
   },
   "capitals-san-jose": {
-    "been": false,
+    "been": true,
     "city": "San José",
     "coords": "9.93250000, -84.08000000",
     "country": "CR",
@@ -37,6 +37,17 @@
     "link": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_José",
     "name": "San José",
     "type": "cathedrals"
+  },
+  "luna-park-san-jose": {
+    "been": false,
+    "city": "San José",
+    "coords": "37.35700000, -121.88900000",
+    "country": "US",
+    "icons": ["🌝"],
+    "link": "https://en.wikipedia.org/wiki/Luna_Park,_San_Jose",
+    "name": "San Jose",
+    "strike": true,
+    "type": "luna-park"
   },
   "san-jose-ca-san-jose": {
     "been": true,

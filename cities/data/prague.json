@@ -62,6 +62,14 @@
     "name": "Hostivař",
     "type": "beaches"
   },
+  "bi-articulated-prague": {
+    "been": false,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "name": "Prague",
+    "type": "bi-articulated"
+  },
   "bridges-karluv-most": {
     "been": true,
     "city": "Prague",
@@ -1474,6 +1482,49 @@
     "link": "https://en.wikipedia.org/wiki/Prague",
     "name": "Prague",
     "type": "trolleybuses"
+  },
+  "twin-stations-andel": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.07400000, 14.40500000",
+    "country": "CZ",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Anděl_(Prague_Metro)",
+    "name": "Anděl",
+    "reference": "Prague",
+    "type": "twin-stations"
+  },
+  "twin-stations-florenc": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.09100000, 14.43900000",
+    "country": "CZ",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Florenc_(Prague_Metro)",
+    "name": "Florenc",
+    "reference": "Prague",
+    "type": "twin-stations"
+  },
+  "twin-stations-muzeum": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.07960000, 14.43120000",
+    "country": "CZ",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Muzeum_(Prague_Metro)",
+    "name": "Muzeum",
+    "reference": "Prague",
+    "type": "twin-stations"
+  },
+  "twin-stations-namesti-miru": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Plzeň",
+    "name": "Náměstí Míru",
+    "reference": "Plzeň",
+    "type": "twin-stations"
   },
   "walls-hunger-wall": {
     "been": true,

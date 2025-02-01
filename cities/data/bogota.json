@@ -21,6 +21,15 @@
     "reference": "Cartagena",
     "type": "awa"
   },
+  "bi-articulated-bogota": {
+    "been": true,
+    "city": "Bogotá",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+    "name": "Bogotá",
+    "type": "bi-articulated"
+  },
   "brt-bogata": {
     "been": false,
     "city": "Bogotá",
@@ -42,7 +51,7 @@
     "type": "cable-cars"
   },
   "capitals-bogota": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.71111111, -74.07222222",
     "country": "CO",
@@ -68,6 +77,17 @@
     "name": "",
     "reference": "Bogotá",
     "type": "fare-cards"
+  },
+  "luna-park-bogota": {
+    "been": false,
+    "city": "Bogotá",
+    "coords": "4.71111111, -74.07222222",
+    "country": "CO",
+    "icons": ["🌝"],
+    "link": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+    "name": "Bogotá",
+    "strike": true,
+    "type": "luna-park"
   },
   "metro-places-colombia": {
     "been": true,
@@ -101,7 +121,7 @@
     "type": "rivers"
   },
   "tintin-colombia": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.58333333, -74.06666667",
     "country": "CO",

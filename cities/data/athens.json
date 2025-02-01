@@ -51,6 +51,15 @@
     "name": "Lycabettus Funicular",
     "type": "funiculars"
   },
+  "luna-park-athens": {
+    "been": false,
+    "city": "Athens",
+    "coords": "37.98416667, 23.72805556",
+    "country": "GR",
+    "icons": ["🌝"],
+    "name": "Athens",
+    "type": "luna-park"
+  },
   "metros-athens": {
     "been": false,
     "city": "Athens",
@@ -153,5 +162,16 @@
     "link": "https://en.wikipedia.org/wiki/Piraeus",
     "name": "Piraeus",
     "type": "trolleybuses"
+  },
+  "twin-stations-victoria": {
+    "been": true,
+    "city": "Athens",
+    "coords": "37.99296000, 23.73019500",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/London_Victoria_station",
+    "name": "Victoria",
+    "reference": "London",
+    "type": "twin-stations"
   }
 }

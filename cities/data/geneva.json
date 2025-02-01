@@ -20,6 +20,14 @@
     "name": "Rue de Rive",
     "type": "apple"
   },
+  "bi-articulated-geneva": {
+    "been": false,
+    "city": "Geneva",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "name": "Geneva",
+    "type": "bi-articulated"
+  },
   "depots-bachet-de-pesay": {
     "been": false,
     "city": "Geneva",
@@ -91,6 +99,17 @@
     "name": "Annemasse",
     "reference": "Geneva",
     "type": "international-trams"
+  },
+  "luna-park-geneva": {
+    "been": false,
+    "city": "Geneva",
+    "coords": "46.20792000, 6.16917000",
+    "country": "CH",
+    "icons": ["🌝"],
+    "link": "https://fr.wikipedia.org/wiki/Parc_des_Eaux-Vives",
+    "name": "Geneva",
+    "strike": true,
+    "type": "luna-park"
   },
   "music-places-geneva": {
     "been": true,

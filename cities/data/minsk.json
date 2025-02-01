@@ -9,6 +9,72 @@
     "name": "Minsk",
     "type": "capitals"
   },
+  "depots-tramvayny-park": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.90497000, 27.60370900",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.904970_N_27.603709_E",
+    "name": "Tramvayny Park",
+    "reference": "Minsk",
+    "type": "depots"
+  },
+  "loops-miasnikova": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.89265100, 27.54238100",
+    "country": "BY",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.892651_N_27.542381_E",
+    "name": "Miasnikova",
+    "reference": "Minsk",
+    "type": "loops"
+  },
+  "loops-serebryanka": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.84927200, 27.59777900",
+    "country": "BY",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.849272_N_27.597779_E",
+    "name": "Serebryanka",
+    "reference": "Minsk",
+    "type": "loops"
+  },
+  "loops-traktarny-zavod": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.88792600, 27.61751300",
+    "country": "BY",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.887926_N_27.617513_E",
+    "name": "Traktarny Zavod",
+    "reference": "Minsk",
+    "type": "loops"
+  },
+  "loops-voziera": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.93335900, 27.54169400",
+    "country": "BY",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.933359_N_27.541694_E",
+    "name": "Voziera",
+    "reference": "Minsk",
+    "type": "loops"
+  },
+  "loops-zialiony-lug": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.95418800, 27.62281900",
+    "country": "BY",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.954188_N_27.622819_E",
+    "name": "Zialiony Lug",
+    "reference": "Minsk",
+    "type": "loops"
+  },
   "metros-minsk": {
     "been": false,
     "city": "Minsk",
@@ -41,6 +107,17 @@
     "reference": "Minsk",
     "type": "projects"
   },
+  "tram-roundabouts-zmitraka-biaduli": {
+    "been": false,
+    "city": "Minsk",
+    "coords": "53.90818300, 27.58293800",
+    "country": "BY",
+    "icons": ["🔄"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.908183_N_27.582938_E",
+    "name": "Zmitraka Biaduli",
+    "reference": "Minsk",
+    "type": "tram-roundabouts"
+  },
   "trams-minsk": {
     "been": false,
     "city": "Minsk",
@@ -60,5 +137,15 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Minsk",
     "name": "Minsk",
     "type": "trolleybuses"
+  },
+  "twin-stations-ploshcha-lyenina": {
+    "been": true,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://en.wikipedia.org/wiki/Ploshcha_Lyenina_(Minsk_Metro)",
+    "name": "Ploshcha Lyenina",
+    "reference": "Minsk",
+    "type": "twin-stations"
   }
 }
