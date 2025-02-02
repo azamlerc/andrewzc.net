@@ -38,6 +38,16 @@
     "reference": "Dubai",
     "type": "fare-cards"
   },
+  "fare-cards-nol-card": {
+    "been": false,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Nol_Card",
+    "name": "Nol Card",
+    "reference": "Dubai",
+    "type": "fare-cards"
+  },
   "forts-al-fahidi-fort": {
     "been": true,
     "city": "Dubai",
@@ -72,6 +82,7 @@
     "been": true,
     "city": "Dubai",
     "coords": "25.26444444, 55.29666667",
+    "country": "AE",
     "icons": ["🕌"],
     "link": "https://en.wikipedia.org/wiki/Grand_Mosque_in_Dubai",
     "name": "Dubai Grand Mosque",
@@ -82,6 +93,17 @@
     "city": "Dubai",
     "icons": [],
     "name": "2009",
+    "reference": "Dubai",
+    "type": "open-gangways"
+  },
+  "open-gangways-5000-series": {
+    "been": true,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dubai_Metro#Rolling_stock",
+    "name": "5000 Series",
+    "prefix": "2009",
     "reference": "Dubai",
     "type": "open-gangways"
   },

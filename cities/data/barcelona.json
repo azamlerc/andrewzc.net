@@ -146,6 +146,16 @@
     "name": "Sant Sebastià",
     "type": "beaches"
   },
+  "bi-articulated-barcelona": {
+    "been": false,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona",
+    "name": "Barcelona",
+    "strike": true,
+    "type": "bi-articulated"
+  },
   "bridges-bac-de-roda-bridge": {
     "been": false,
     "city": "Barcelona",
@@ -433,6 +443,17 @@
     "city": "Barcelona",
     "icons": [],
     "name": "2002",
+    "reference": "Barcelona",
+    "type": "open-gangways"
+  },
+  "open-gangways-series-5000": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_3_(Metro_de_Barcelona)#Material_rodante",
+    "name": "Series 5000",
+    "prefix": "2002",
     "reference": "Barcelona",
     "type": "open-gangways"
   },

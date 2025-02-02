@@ -1275,6 +1275,26 @@
     "reference": "New York",
     "type": "fare-cards"
   },
+  "fare-cards-omny": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/OMNY",
+    "name": "OMNY",
+    "reference": "New York",
+    "type": "fare-cards"
+  },
+  "fare-free-new-york": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York",
+    "prefix": "2022",
+    "reference": "Q70",
+    "type": "fare-free"
+  },
   "ferries-ellis-island": {
     "been": true,
     "city": "New York",
@@ -2066,6 +2086,7 @@
     "been": true,
     "city": "New York",
     "coords": "40.78527778, -73.94861111",
+    "country": "US",
     "icons": ["🕌"],
     "link": "https://en.wikipedia.org/wiki/Islamic_Cultural_Center_of_New_York",
     "name": "New York",
@@ -2075,6 +2096,7 @@
     "been": true,
     "city": "New York",
     "coords": "40.71194444, -73.94666667",
+    "country": "US",
     "icons": ["🕌"],
     "link": "https://en.wikipedia.org/wiki/Powers_Street_Mosque",
     "name": "Powers Street",
@@ -2447,6 +2469,26 @@
     "reference": "Paris",
     "type": "offset"
   },
+  "offset-14th-street–union-square": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/14th_Street–Union_Square_station",
+    "name": "14th Street–Union Square",
+    "reference": "New York",
+    "type": "offset"
+  },
+  "offset-42nd-street–port-authority": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/42nd_Street–Port_Authority_Bus_Terminal_station",
+    "name": "42nd Street–Port Authority",
+    "reference": "New York",
+    "type": "offset"
+  },
   "open-gangways-1925": {
     "been": true,
     "city": "New York",
@@ -2460,6 +2502,29 @@
     "city": "New York",
     "icons": [],
     "name": "2024",
+    "reference": "New York",
+    "type": "open-gangways"
+  },
+  "open-gangways-d-type-triplex": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/D-type_Triplex_(New_York_City_Subway_car)",
+    "name": "D-type Triplex",
+    "prefix": "1925",
+    "reference": "New York",
+    "strike": true,
+    "type": "open-gangways"
+  },
+  "open-gangways-r211t": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/R211_(New_York_City_Subway_car)",
+    "name": "R211T",
+    "prefix": "2024",
     "reference": "New York",
     "type": "open-gangways"
   },

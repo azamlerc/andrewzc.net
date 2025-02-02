@@ -316,6 +316,16 @@
     "reference": "Brussels",
     "type": "fare-cards"
   },
+  "fare-cards-mobib": {
+    "been": false,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/MOBIB",
+    "name": "MoBIB",
+    "reference": "Brussels",
+    "type": "fare-cards"
+  },
   "forts-porte-de-hal/hallepoort": {
     "been": true,
     "city": "Brussels",
@@ -544,6 +554,7 @@
     "been": false,
     "city": "Brussels",
     "coords": "50.84333300, 4.38777800",
+    "country": "BE",
     "icons": ["🕌"],
     "link": "https://fr.wikipedia.org/wiki/Grande_Mosquée_de_Bruxelles",
     "name": "Brussels",
@@ -605,6 +616,17 @@
     "city": "Brussels",
     "icons": [],
     "name": "2007",
+    "reference": "Brussels",
+    "type": "open-gangways"
+  },
+  "open-gangways-m6": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Métro_de_Bruxelles#Une_nouvelle_génération_de_matériel_roulant",
+    "name": "M6",
+    "prefix": "2007",
     "reference": "Brussels",
     "type": "open-gangways"
   },

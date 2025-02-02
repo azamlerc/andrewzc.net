@@ -1,4 +1,14 @@
 {
+  "bi-articulated-liege": {
+    "been": false,
+    "city": "Liège",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Liège",
+    "name": "Liege",
+    "strike": true,
+    "type": "bi-articulated"
+  },
   "cathedrals-liege": {
     "been": false,
     "city": "Liège",
@@ -28,6 +38,16 @@
     "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
     "name": "Liège",
     "type": "metro-places"
+  },
+  "offset-liege": {
+    "been": true,
+    "city": "Liège",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
+    "name": "Liege",
+    "reference": "Paris",
+    "type": "offset"
   },
   "projects-liege-tram": {
     "been": false,
