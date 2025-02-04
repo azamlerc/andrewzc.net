@@ -119,6 +119,28 @@
     "name": "Amazon Spheres",
     "type": "greenhouses"
   },
+  "highway-medians-1-line": {
+    "been": true,
+    "city": "Seattle",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 5",
+    "link": "https://en.wikipedia.org/wiki/1_Line_(Sound_Transit)",
+    "name": "1 Line",
+    "reference": "Seattle",
+    "type": "highway-medians"
+  },
+  "highway-medians-2-line": {
+    "been": false,
+    "city": "Seattle",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 90",
+    "link": "https://en.wikipedia.org/wiki/2_Line_(Sound_Transit)",
+    "name": "2 Line",
+    "reference": "Seattle",
+    "type": "highway-medians"
+  },
   "hotels-marco-polo-motel-seattle": {
     "been": true,
     "city": "Seattle",
