@@ -1,4 +1,24 @@
 {
+  "airports-tehran-imam-khomeini": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Imam_Khomeini_International_Airport",
+    "name": "Tehran Imam Khomeini",
+    "prefix": "IKA",
+    "type": "airports"
+  },
+  "airports-tehran-mehrabad": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Mehrabad_International_Airport",
+    "name": "Tehran Mehrabad",
+    "prefix": "THR",
+    "type": "airports"
+  },
   "brt-tehran": {
     "been": false,
     "city": "Tehran",
@@ -38,6 +58,37 @@
     "link": "https://en.wikipedia.org/wiki/Sadeghieh_(Tehran)_Metro_Station",
     "name": "Sadeghieh",
     "type": "cross-platform"
+  },
+  "forks-line-1": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_1",
+    "name": "Line 1",
+    "reference": "Tehran",
+    "type": "forks"
+  },
+  "forks-line-4": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_4",
+    "name": "Line 4",
+    "reference": "Tehran",
+    "type": "forks"
+  },
+  "head-on-sadeghieh": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "info": "Tehran Lines 2/5",
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_5",
+    "name": "Sadeghieh",
+    "reference": "Tehran",
+    "type": "head-on"
   },
   "luna-park-tehran": {
     "been": false,
@@ -114,6 +165,26 @@
     "prefix": "03-16",
     "reference": "Tehran",
     "type": "projects"
+  },
+  "shuttles-line-1": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷", "4️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_1",
+    "name": "Line 1",
+    "reference": "Tehran",
+    "type": "shuttles"
+  },
+  "shuttles-line-4": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_4#Mehrabad_Airport_Extension",
+    "name": "Line 4",
+    "reference": "Tehran",
+    "type": "shuttles"
   },
   "stations-tehran": {
     "been": false,

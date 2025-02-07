@@ -165,7 +165,8 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Tegel_Airport",
     "name": "Berlin Tegel",
-    "prefix": "TXL"
+    "prefix": "TXL",
+    "strike": true
   },
   "berlin-tempelhof": {
     "been": true,
@@ -175,7 +176,8 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Tempelhof_Airport",
     "name": "Berlin Tempelhof",
-    "prefix": "THF"
+    "prefix": "THF",
+    "strike": true
   },
   "bilbao": {
     "been": false,
@@ -673,6 +675,24 @@
     "name": "Kuala Lumpur",
     "prefix": "KUL"
   },
+  "kyiv-boryspil": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Boryspil_International_Airport",
+    "name": "Kyiv Boryspil",
+    "prefix": "KBP"
+  },
+  "kyiv-zhuliany": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Kyiv_International_Airport_(Zhuliany)",
+    "name": "Kyiv Zhuliany",
+    "prefix": "IEV"
+  },
   "lagos-murtala-muhammed": {
     "been": true,
     "city": "Lagos",
@@ -904,6 +924,14 @@
     "link": "https://en.wikipedia.org/wiki/Mobile_Regional_Airport",
     "name": "Mobile",
     "prefix": "MOB"
+  },
+  "montevideo-carrasco": {
+    "been": false,
+    "country": "UY",
+    "icons": ["🇺🇾"],
+    "link": "https://en.wikipedia.org/wiki/Carrasco_International_Airport",
+    "name": "Montevideo Carrasco",
+    "prefix": "MVD"
   },
   "montreal-trudeau": {
     "been": true,
@@ -1416,6 +1444,24 @@
     "link": "https://en.wikipedia.org/wiki/Whitegrass_Airport",
     "name": "Tanna Whitegrass",
     "prefix": "TAH"
+  },
+  "tehran-imam-khomeini": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Imam_Khomeini_International_Airport",
+    "name": "Tehran Imam Khomeini",
+    "prefix": "IKA"
+  },
+  "tehran-mehrabad": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Mehrabad_International_Airport",
+    "name": "Tehran Mehrabad",
+    "prefix": "THR"
   },
   "tel-aviv-ben-guirion": {
     "been": true,

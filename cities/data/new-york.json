@@ -524,6 +524,16 @@
     "name": "Saint Patrick’s, New York",
     "type": "cathedrals"
   },
+  "circular-rego-park": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72367000, -73.86028000",
+    "country": "US",
+    "icons": ["☸️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40.72367_N_73.86028_W",
+    "name": "Rego Park",
+    "type": "circular"
+  },
   "congestion-new-york": {
     "been": true,
     "city": "New York",
@@ -2486,6 +2496,16 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/42nd_Street–Port_Authority_Bus_Terminal_station",
     "name": "42nd Street–Port Authority",
+    "reference": "New York",
+    "type": "offset"
+  },
+  "offset-astor-place": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Astor_Place_station",
+    "name": "Astor Place",
     "reference": "New York",
     "type": "offset"
   },
