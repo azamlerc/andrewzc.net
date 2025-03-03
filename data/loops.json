@@ -73,6 +73,7 @@
   "69th-st-tc": {
     "been": true,
     "city": "Philadelphia",
+    "coords": "39.96307600, -75.25999500",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
@@ -344,11 +345,13 @@
   "bahnhof": {
     "been": true,
     "city": "Bern",
+    "coords": "46.948819444444446, 7.439116666666667",
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://de.wikipedia.org/wiki/Bahnhof_Bern",
     "name": "Bahnhof",
-    "reference": "Bern"
+    "reference": "Bern",
+    "wikidata": "Q28870"
   },
   "bankaplein": {
     "been": true,
@@ -374,6 +377,7 @@
   "bathurst": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.66583333, -79.41111111",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Bathurst_station_(Toronto)",
@@ -451,6 +455,7 @@
   "bingham": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.68152778, -79.28472222",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Bingham_Loop",
@@ -581,6 +586,7 @@
   "broad-street": {
     "been": true,
     "city": "Richmond",
+    "coords": "37.56111100, -77.46583300",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Broad_Street_Station_(Richmond)",
@@ -591,6 +597,7 @@
   "broadview": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.67694444, -79.35833333",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Broadview_station",
@@ -932,6 +939,16 @@
     "name": "College",
     "reference": "Toronto"
   },
+  "constitucion-de-1917": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_1917_(estaci%C3%B3n)",
+    "name": "Constitución de 1917",
+    "reference": "Mexico City",
+    "wikidata": "Q771159"
+  },
   "croydon": {
     "been": true,
     "city": "London",
@@ -955,6 +972,7 @@
   "darby-tc": {
     "been": true,
     "city": "Philadelphia",
+    "coords": "39.91920000, -75.26240000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Darby_Transportation_Center",
@@ -1090,6 +1108,7 @@
   "distillery": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65055556, -79.35666667",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Distillery_Loop_and_Cherry_Street_branch",
@@ -1200,6 +1219,7 @@
   "dufferin-gate": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.63444444, -79.42583333",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Dufferin_Gate_Loop",
@@ -1219,6 +1239,7 @@
   "dundas-west": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65694444, -79.45305556",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Dundas_West_station",
@@ -1332,6 +1353,7 @@
   "exhibition": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.63611111, -79.41638889",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Exhibition_Loop",
@@ -1387,7 +1409,8 @@
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Fleet_Loop",
     "name": "Fleet",
-    "reference": "Toronto"
+    "reference": "Toronto",
+    "wikidata": "Q16869962"
   },
   "floridsdorf": {
     "been": true,
@@ -1627,6 +1650,7 @@
   "gunns": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.67194444, -79.47138889",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Gunns_Loop",
@@ -1767,6 +1791,7 @@
   "high-park": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.64777778, -79.45805556",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/High_Park_Loop",
@@ -1878,6 +1903,7 @@
   "humber": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.63111111, -79.47861111",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Humber_Loop",
@@ -2098,6 +2124,7 @@
   "kennington": {
     "been": true,
     "city": "London",
+    "coords": "51.48827778, -0.10566667",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Kennington_tube_station",
@@ -2496,6 +2523,7 @@
   "long-branch": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.59166667, -79.54444444",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Long_Branch_Loop",
@@ -2534,6 +2562,7 @@
   "main-street": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.68916667, -79.30166667",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Main_Street_station_(Toronto)",
@@ -2968,6 +2997,7 @@
   "neville-park": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.67375000, -79.28138889",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Neville_Park_Loop",
@@ -3186,12 +3216,14 @@
   "penn-station": {
     "been": true,
     "city": "Newark",
+    "coords": "40.735277777, -74.185",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Newark_Light_Rail",
     "name": "Penn Station",
     "reference": "Newark",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q3078283"
   },
   "philadelphia-city-hall": {
     "been": true,
@@ -3889,6 +3921,7 @@
   },
   "schwabstraße": {
     "been": false,
+    "coords": "48.77023400, 9.15653300",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Stuttgart_Schwabstraße_station",
@@ -4161,6 +4194,7 @@
   "spadina": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.66861111, -79.40472222",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Spadina_station",
@@ -4209,6 +4243,7 @@
   "st-clair": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.68805556, -79.39361111",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/St._Clair_station",
@@ -4218,6 +4253,7 @@
   "st-clair-west": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.68500000, -79.41583333",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/St._Clair_West_station",
@@ -4563,6 +4599,17 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=44.80944_N_20.46863_E",
     "name": "Tašmajdan",
     "reference": "Belgrade"
+  },
+  "tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City",
+    "strike": true
   },
   "technologicky-park": {
     "been": true,
@@ -5301,6 +5348,7 @@
   "zoo": {
     "been": false,
     "city": "San Francisco",
+    "coords": "37.73305556, -122.50305556",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_Zoo",

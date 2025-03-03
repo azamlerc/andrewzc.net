@@ -214,5 +214,27 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Geneva",
     "name": "Geneva",
     "type": "trolleybuses"
+  },
+  "twin-cities-geneva": {
+    "been": true,
+    "city": "Geneva",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "name": "Geneva",
+    "type": "twin-cities"
+  },
+  "twin-cities-geneva-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Geneva, NY",
+    "type": "twin-cities"
+  },
+  "twin-cities-geneva-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Geneva, OH",
+    "type": "twin-cities"
   }
 }

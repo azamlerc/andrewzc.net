@@ -540,6 +540,24 @@
     "name": "Belgica",
     "type": "metro-places"
   },
+  "metro-population-brussels": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Brussels",
+    "prefix": "43.39",
+    "type": "metro-population"
+  },
+  "metro-prices-brussels": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Brussels",
+    "prefix": "$2.33",
+    "type": "metro-prices"
+  },
   "metros-brussels": {
     "been": true,
     "city": "Brussels",
@@ -797,6 +815,16 @@
     "link": "https://en.wikipedia.org/wiki/North–South_connection",
     "name": "Brussels North–South Connection",
     "type": "records"
+  },
+  "renamed-elisabeth": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Simonis_and_Elisabeth_stations",
+    "name": "Elisabeth",
+    "reference": "Brussels",
+    "type": "renamed"
   },
   "rolling-stock-m6": {
     "been": true,
@@ -1260,6 +1288,28 @@
     "name": "Tunnel Annie Cordy",
     "type": "tunnels"
   },
+  "twin-cities-brussels": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Brussels",
+    "type": "twin-cities"
+  },
+  "twin-cities-brussels-on": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Brussels, ON",
+    "type": "twin-cities"
+  },
+  "twin-cities-brussels-wi": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Brussels, WI",
+    "type": "twin-cities"
+  },
   "twin-stations-alma": {
     "been": true,
     "city": "Brussels",
@@ -1290,6 +1340,17 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Brussels-Congress_railway_station",
     "name": "Congress",
+    "reference": "Brussels",
+    "type": "twin-stations"
+  },
+  "twin-stations-horta": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.82610000, 4.34580000",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Horta_premetro_station",
+    "name": "Horta",
     "reference": "Brussels",
     "type": "twin-stations"
   },

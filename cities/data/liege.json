@@ -42,8 +42,9 @@
   "offset-liege": {
     "been": true,
     "city": "Liège",
+    "coords": "48.87962600, 2.32698300",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["⚡️"],
     "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
     "name": "Liege",
     "reference": "Paris",
@@ -59,6 +60,16 @@
     "prefix": "2025-04-15",
     "reference": "Liège",
     "type": "projects"
+  },
+  "renamed-liege": {
+    "been": true,
+    "city": "Liège",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
+    "name": "Liège",
+    "reference": "Paris",
+    "type": "renamed"
   },
   "spas-chateau-de-thermes-de-chaudfontaine": {
     "been": false,

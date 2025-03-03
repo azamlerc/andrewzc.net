@@ -141,6 +141,16 @@
     "reference": "Tokyo",
     "type": "awa"
   },
+  "awa-tokyo-taxi": {
+    "been": false,
+    "city": "Tokyo",
+    "coords": "35.68333333, 139.76666667",
+    "country": "JP",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo",
+    "name": "Tokyo Taxi",
+    "type": "awa"
+  },
   "awa-yasuda-auditorium-university-of-tokyo": {
     "been": false,
     "city": "Tokyo",
@@ -320,6 +330,24 @@
     "strike": true,
     "type": "luna-park"
   },
+  "metro-population-tokyo": {
+    "been": true,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Tokyo",
+    "prefix": "127.2",
+    "type": "metro-population"
+  },
+  "metro-prices-tokyo": {
+    "been": true,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Tokyo",
+    "prefix": "$1.12",
+    "type": "metro-prices"
+  },
   "metros-tokyo": {
     "been": false,
     "city": "Tokyo",
@@ -351,7 +379,7 @@
     "type": "olympics"
   },
   "open-gangways-05-series": {
-    "been": true,
+    "been": false,
     "city": "Tokyo",
     "country": "JP",
     "icons": ["🇯🇵"],
@@ -769,5 +797,13 @@
     "icons": ["✳️"],
     "name": "Shinjuku",
     "type": "transfer"
+  },
+  "twin-cities-tokyo": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "PG",
+    "icons": ["🇵🇬"],
+    "name": "Tokyo",
+    "type": "twin-cities"
   }
 }

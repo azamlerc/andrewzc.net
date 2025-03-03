@@ -9,6 +9,7 @@
   "14th-street–union-square": {
     "been": true,
     "city": "New York",
+    "coords": "40.73472222, -73.99027778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/14th_Street–Union_Square_station",
@@ -27,6 +28,7 @@
   "astor-place": {
     "been": true,
     "city": "New York",
+    "coords": "40.72972222, -73.99166667",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Astor_Place_station",
@@ -36,10 +38,22 @@
   "liege": {
     "been": true,
     "city": "Liège",
+    "coords": "48.87962600, 2.32698300",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
     "name": "Liege",
     "reference": "Paris"
+  },
+  "san-antonio-abad": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "37.61791417, -1.00198445",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/San_Antonio_Abad_(estaci%C3%B3n)",
+    "name": "San Antonio Abad",
+    "reference": "Mexico City",
+    "wikidata": "Q6118343"
   }
 }

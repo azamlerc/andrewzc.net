@@ -133,7 +133,7 @@
     "name": "Annapolis"
   },
   "antara": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.439993, -99.203144",
     "country": "MX",
@@ -1115,6 +1115,15 @@
     "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/downtownbrooklyn/",
     "name": "Downtown Brooklyn"
+  },
+  "downtown-detroit": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.33388889, -83.04777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://www.apple.com/retail/downtowndetroit/",
+    "name": "Downtown Detroit"
   },
   "downtown-nashville": {
     "been": false,
@@ -2685,7 +2694,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.apple.com/retail/northbrook/",
-    "name": "Northbrook"
+    "name": "Northbrook",
+    "strike": true
   },
   "northpark-center": {
     "been": false,

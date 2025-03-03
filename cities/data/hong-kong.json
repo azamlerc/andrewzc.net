@@ -269,6 +269,16 @@
     "name": "Hong Kong Peak Tram",
     "type": "funiculars"
   },
+  "housing-choi-hung-estate": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.33500000, 114.20666667",
+    "country": "HK",
+    "icons": ["🏢"],
+    "link": "https://en.wikipedia.org/wiki/Choi_Hung_Estate",
+    "name": "Choi Hung Estate",
+    "type": "housing"
+  },
   "infill-fo-tan": {
     "been": false,
     "city": "Hong Kong",
@@ -533,6 +543,24 @@
     "name": "Jordan",
     "type": "metro-places"
   },
+  "metro-population-hong-kong": {
+    "been": true,
+    "city": "Hong Kong",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "name": "Hong Kong",
+    "prefix": "76.53",
+    "type": "metro-population"
+  },
+  "metro-prices-hong-kong": {
+    "been": true,
+    "city": "Hong Kong",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "name": "Hong Kong",
+    "prefix": "$0.51",
+    "type": "metro-prices"
+  },
   "metros-hong-kong": {
     "been": false,
     "city": "Hong Kong",
@@ -701,11 +729,11 @@
     "been": true,
     "city": "Hong Kong",
     "coords": "22.27880000, 114.16460000",
-    "country": "SG",
+    "country": "HK",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Admiralty_MRT_station",
+    "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
     "name": "Admiralty",
-    "reference": "Singapore",
+    "reference": "Hong Kong",
     "type": "twin-stations"
   }
 }

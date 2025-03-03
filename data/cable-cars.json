@@ -26,7 +26,8 @@
   },
   "cablebus": {
     "been": true,
-    "coords": "19.34554° N, 99.06408° W",
+    "city": "Mexico City",
+    "coords": "19.34554000, -99.06408000",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Cablebús",
@@ -35,10 +36,18 @@
   },
   "campos-do-jordao": {
     "been": false,
+    "coords": "-22.73888889, -45.59083333",
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://parquecapivari.com.br/home/atracao-teleferico/",
     "name": "Campos do Jordão"
+  },
+  "caracas-metrocable": {
+    "been": false,
+    "country": "VE",
+    "icons": ["🇻🇪"],
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Caracas)",
+    "name": "Caracas Metrocable"
   },
   "cologne-cable-car": {
     "been": false,
@@ -148,13 +157,21 @@
     "name": "Masada Cableway"
   },
   "medellin-metrocable": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.30593, -75.58213",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/Metrocable_(Medell%C3%ADn)",
     "name": "Medellín Metrocable"
+  },
+  "merida-cable-car": {
+    "been": false,
+    "coords": "8.52916667, -71.06361111",
+    "country": "VE",
+    "icons": ["🇻🇪"],
+    "link": "https://en.wikipedia.org/wiki/Mérida_cable_car",
+    "name": "Mérida Cable Car"
   },
   "mexicable": {
     "been": false,
@@ -268,7 +285,7 @@
     "name": "Teleférico de Gaia"
   },
   "teleferico-de-monserrate": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.60305556, -74.06111111",
     "country": "CO",
@@ -282,6 +299,14 @@
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Telef%C3%A9rico_de_Orizaba",
     "name": "Teleférico de Orizaba"
+  },
+  "teleferico-de-santo-domingo": {
+    "been": true,
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://es.wikipedia.org/wiki/Teleférico_de_Santo_Domingo",
+    "name": "Teleférico de Santo Domingo",
+    "wikidata": "Q63071056"
   },
   "teleferico-do-jardim-botanico-da-madeira": {
     "been": false,
@@ -328,6 +353,14 @@
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Tianmen_Mountain",
     "name": "Tianmen Mountain"
+  },
+  "transmicable": {
+    "been": true,
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/TransMiCable",
+    "name": "TransMiCable",
+    "wikidata": "Q41662548"
   },
   "tunektepe-teleferik": {
     "been": false,

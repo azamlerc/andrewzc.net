@@ -101,6 +101,24 @@
     "strike": true,
     "type": "international-trams"
   },
+  "metro-population-lille": {
+    "been": true,
+    "city": "Lille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lille",
+    "prefix": "25.33",
+    "type": "metro-population"
+  },
+  "metro-prices-lille": {
+    "been": true,
+    "city": "Lille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lille",
+    "prefix": "$1.89",
+    "type": "metro-prices"
+  },
   "metros-lille": {
     "been": false,
     "city": "Lille",
@@ -161,15 +179,30 @@
     "name": "Lille",
     "type": "trams"
   },
+  "twin-cities-lille": {
+    "been": false,
+    "city": "Lille",
+    "country": "PK",
+    "icons": ["🇵🇰"],
+    "name": "Lille",
+    "type": "twin-cities"
+  },
+  "twin-cities-lille-me": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lille, ME",
+    "type": "twin-cities"
+  },
   "twin-stations-gambetta": {
     "been": true,
     "city": "Lille",
     "coords": "50.62637778, 3.05221389",
     "country": "FR",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)",
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Lille)",
     "name": "Gambetta",
-    "reference": "Paris",
+    "reference": "Lille",
     "type": "twin-stations"
   }
 }

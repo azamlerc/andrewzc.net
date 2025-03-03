@@ -40,6 +40,24 @@
     "name": "Keifuku Cable Line",
     "type": "funiculars"
   },
+  "metro-population-kyoto": {
+    "been": false,
+    "city": "Kyoto",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Kyoto",
+    "prefix": "90.00",
+    "type": "metro-population"
+  },
+  "metro-prices-kyoto": {
+    "been": false,
+    "city": "Kyoto",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Kyoto",
+    "prefix": "$1.38",
+    "type": "metro-prices"
+  },
   "metros-kyoto": {
     "been": false,
     "city": "Kyoto",
@@ -80,6 +98,16 @@
     "link": "https://en.wikipedia.org/wiki/List_of_Buddhist_temples_in_Kyoto",
     "name": "Kyoto",
     "type": "temples"
+  },
+  "towers-kyoto-tower": {
+    "been": true,
+    "city": "Kyoto",
+    "coords": "34.98750000, 135.75916667",
+    "country": "JP",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Kyoto_Tower",
+    "name": "Kyoto Tower",
+    "type": "towers"
   },
   "trams-kyoto": {
     "been": false,

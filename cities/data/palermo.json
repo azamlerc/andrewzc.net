@@ -100,5 +100,27 @@
     "name": "Palermo",
     "strike": true,
     "type": "trolleybuses"
+  },
+  "twin-cities-palermo": {
+    "been": false,
+    "city": "Palermo",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "name": "Palermo",
+    "type": "twin-cities"
+  },
+  "twin-cities-palermo-nj": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Palermo, NJ",
+    "type": "twin-cities"
+  },
+  "twin-cities-palermo-wv": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Palermo, WV",
+    "type": "twin-cities"
   }
 }

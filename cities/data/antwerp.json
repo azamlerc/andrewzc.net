@@ -813,15 +813,37 @@
     "name": "Sint Annatunnel",
     "type": "tunnels"
   },
+  "twin-cities-antwerp": {
+    "been": false,
+    "city": "Antwerp",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "Antwerp",
+    "type": "twin-cities"
+  },
+  "twin-cities-antwerp-ny": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Antwerp, NY",
+    "type": "twin-cities"
+  },
+  "twin-cities-antwerp-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Antwerp, OH",
+    "type": "twin-cities"
+  },
   "twin-stations-dorp": {
     "been": true,
     "city": "Antwerp",
     "coords": "52.05416667, 4.49166667",
-    "country": "NL",
-    "icons": ["👯"],
-    "link": "https://nl.wikipedia.org/wiki/Dorp_(sneltramhalte)",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
     "name": "Dorp",
-    "reference": "Den Haag",
+    "reference": "Antwerp",
     "type": "twin-stations"
   },
   "twin-stations-museum": {
@@ -838,11 +860,11 @@
     "been": true,
     "city": "Antwerp",
     "coords": "51.21805556, 4.41555556",
-    "country": "FR",
+    "country": "BE",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Opéra_(métro_de_Paris)",
+    "link": "https://nl.wikipedia.org/wiki/Opera_(premetrostation)",
     "name": "Opera",
-    "reference": "Paris",
+    "reference": "Antwerp",
     "type": "twin-stations"
   },
   "useless-antwerp-premetro": {

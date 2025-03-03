@@ -110,5 +110,27 @@
     "link": "https://en.wikipedia.org/wiki/Riga",
     "name": "Riga",
     "type": "trolleybuses"
+  },
+  "twin-cities-riga": {
+    "been": true,
+    "city": "Riga",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "name": "Riga",
+    "type": "twin-cities"
+  },
+  "twin-cities-riga-nd": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Riga, ND",
+    "type": "twin-cities"
+  },
+  "twin-cities-riga-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Riga, NY",
+    "type": "twin-cities"
   }
 }

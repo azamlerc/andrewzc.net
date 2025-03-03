@@ -186,6 +186,15 @@
     "link": "https://en.wikipedia.org/wiki/River_Avon,_Warwickshire",
     "name": "Avon"
   },
+  "baker": {
+    "been": true,
+    "coords": "48.76500000, -121.54277778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "→ Skagit",
+    "link": "https://en.wikipedia.org/wiki/Baker_River_(Washington)",
+    "name": "Baker"
+  },
   "baker-→-skagit": {
     "been": true,
     "country": "US",
@@ -208,6 +217,15 @@
     "info": "→ Hudson",
     "link": "https://en.wikipedia.org/wiki/Batten_Kill",
     "name": "Batten Kill"
+  },
+  "bear": {
+    "been": true,
+    "coords": "46.37222222, -123.95305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "→ Willapa Bay",
+    "link": "https://en.wikipedia.org/wiki/Bear_River_(Washington)",
+    "name": "Bear"
   },
   "bear-→-willapa-bay": {
     "been": true,
@@ -278,12 +296,14 @@
   },
   "bogachiel": {
     "been": true,
+    "coords": "47.91388889, -124.39194444",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bogachiel_River",
     "name": "Bogachiel"
   },
   "bogota": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.28866667, -74.79638889",
     "country": "CO",
@@ -368,8 +388,10 @@
   },
   "calawah": {
     "been": true,
+    "coords": "47.93277778, -124.44750000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Calawah_River",
     "name": "Calawah"
   },
   "caloosahatchee": {
@@ -398,6 +420,15 @@
     "info": "→ Tioga",
     "link": "https://en.wikipedia.org/wiki/Canisteo_River",
     "name": "Canisteo"
+  },
+  "cascade": {
+    "been": true,
+    "coords": "48.52361111, -121.42972222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "→ Skagit",
+    "link": "https://en.wikipedia.org/wiki/Cascade_River_(Washington)",
+    "name": "Cascade"
   },
   "cascade-→-skagit": {
     "been": true,
@@ -447,6 +478,15 @@
     "info": "→ Boston Harbor",
     "link": "https://en.wikipedia.org/wiki/Charles_River",
     "name": "Charles"
+  },
+  "chavon": {
+    "been": true,
+    "coords": "18.39890000, -68.89730000",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "info": "→ Caribbean</a>",
+    "link": "https://en.wikipedia.org/wiki/Chav%C3%B3n_River",
+    "name": "Chavón"
   },
   "cheesequake-creek": {
     "been": true,
@@ -535,6 +575,15 @@
     "info": "→ Willamette",
     "link": "https://en.wikipedia.org/wiki/Clackamas_River",
     "name": "Clackamas"
+  },
+  "clallam": {
+    "been": true,
+    "coords": "48.25527778, -124.26361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "→ Juan de Fuca",
+    "link": "https://en.wikipedia.org/wiki/Clallam_River",
+    "name": "Clallam"
   },
   "clallam-→-juan-de-fuca": {
     "been": true,
@@ -1143,6 +1192,15 @@
     "name": "Hvítá",
     "wikidata": "Q1303762"
   },
+  "iguamo": {
+    "been": true,
+    "coords": "18.43777778, -69.31472222",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "info": "→ Caribbean</a>",
+    "link": "https://en.wikipedia.org/wiki/Iguamo_River",
+    "name": "Iguamo"
+  },
   "ijssel": {
     "been": true,
     "coords": "52.582777777778, 5.84",
@@ -1178,6 +1236,16 @@
     "info": "→ Atlantic",
     "link": "https://en.wikipedia.org/wiki/Ipswich_River",
     "name": "Ipswich"
+  },
+  "isabela": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.51430000, -69.89810000",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "info": "→ Ozama",
+    "link": "https://en.wikipedia.org/wiki/Isabela_River",
+    "name": "Isabela"
   },
   "isere": {
     "been": true,
@@ -2015,6 +2083,16 @@
     "link": "https://en.wikipedia.org/wiki/Oyster_River_(New_Hampshire)",
     "name": "Oyster"
   },
+  "ozama": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46670000, -69.88330000",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "info": "→ Caribbean",
+    "link": "https://en.wikipedia.org/wiki/Ozama_River",
+    "name": "Ozama"
+  },
   "palix": {
     "been": true,
     "coords": "46.63638889, -123.94472222",
@@ -2266,6 +2344,22 @@
     "link": "https://en.wikipedia.org/wiki/Rio_Grande",
     "name": "Rio Grande"
   },
+  "rio-medellin": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.09000000, -75.63805556",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://es.wikipedia.org/wiki/Río_Medellín",
+    "name": "Río Medellín"
+  },
+  "rio-virilla": {
+    "been": true,
+    "country": "CR",
+    "icons": ["🇨🇷"],
+    "link": "https://es.wikipedia.org/wiki/Río_Virilla",
+    "name": "Río Virilla"
+  },
   "rippowam": {
     "been": true,
     "coords": "41.04740000, -73.54500000",
@@ -2280,7 +2374,7 @@
     "coords": "40.61100000, -74.27490000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "→ Rahway</a>",
+    "info": "→ Rahway",
     "link": "https://en.wikipedia.org/wiki/Robinsons_Branch",
     "name": "Robinsons Branch"
   },
@@ -2562,6 +2656,7 @@
   },
   "sesupe": {
     "been": false,
+    "coords": "55.05416667, 22.20027778",
     "countries": ["LT", "RU"],
     "icons": ["🇱🇹", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/%C5%A0e%C5%A1up%C4%97",
@@ -2674,6 +2769,15 @@
     "info": "→ Puget Sound",
     "link": "https://en.wikipedia.org/wiki/Snohomish_River",
     "name": "Snohomish"
+  },
+  "soco": {
+    "been": true,
+    "coords": "18.45083333, -69.20444444",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "info": "→ Caribbean</a>",
+    "link": "https://en.wikipedia.org/wiki/Soco_River",
+    "name": "Soco"
   },
   "sol-duc": {
     "been": true,

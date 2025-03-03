@@ -100,6 +100,16 @@
     "name": "Flamingo",
     "type": "casinos"
   },
+  "casinos-harrahs": {
+    "been": true,
+    "city": "Las Vegas",
+    "coords": "36.11944444, -115.17083333",
+    "country": "US",
+    "icons": ["🎰"],
+    "link": "https://en.wikipedia.org/wiki/Harrah%27s_Las_Vegas",
+    "name": "Harrah’s",
+    "type": "casinos"
+  },
   "casinos-luxor": {
     "been": true,
     "city": "Las Vegas",
@@ -189,6 +199,16 @@
     "link": "https://en.wikipedia.org/wiki/Wynn_Las_Vegas",
     "name": "Wynn",
     "type": "casinos"
+  },
+  "hotels-harrahs-las-vegas": {
+    "been": true,
+    "city": "Las Vegas",
+    "coords": "36.11944444, -115.17083333",
+    "country": "US",
+    "icons": ["🏨"],
+    "link": "https://en.wikipedia.org/wiki/Harrah%27s_Las_Vegas",
+    "name": "Harrah’s Las Vegas",
+    "type": "hotels"
   },
   "hotels-luxor-las-vegas": {
     "been": true,
@@ -372,5 +392,19 @@
     "link": "https://en.wikipedia.org/wiki/The_Strat",
     "name": "Stratosphere Tower",
     "type": "towers"
+  },
+  "twin-cities-las-vegas-nm": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Las Vegas, NM",
+    "type": "twin-cities"
+  },
+  "twin-cities-las-vegas-nv": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Las Vegas, NV",
+    "type": "twin-cities"
   }
 }

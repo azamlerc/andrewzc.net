@@ -121,5 +121,34 @@
     "link": "https://en.wikipedia.org/wiki/Venezia_Santa_Lucia_railway_station",
     "name": "Venezia Santa Lucia",
     "type": "stations"
+  },
+  "twin-cities-venice": {
+    "been": true,
+    "city": "Venice",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Venice",
+    "type": "twin-cities"
+  },
+  "twin-cities-venice-ab": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Venice, AB",
+    "type": "twin-cities"
+  },
+  "twin-cities-venice-ca": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Venice, CA",
+    "type": "twin-cities"
+  },
+  "twin-cities-venice-fl": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Venice, FL",
+    "type": "twin-cities"
   }
 }

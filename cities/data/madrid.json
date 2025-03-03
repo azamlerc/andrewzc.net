@@ -114,7 +114,7 @@
     "type": "awa"
   },
   "awa-palacio-de-cristal-del-retiro": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.41355556, -3.68205556",
     "country": "ES",
@@ -441,11 +441,30 @@
     "been": true,
     "city": "Madrid",
     "coords": "40.41805400, -3.69925030",
+    "countries": ["MX", "ES"],
     "country": "ES",
     "icons": ["🗺"],
-    "link": "https://en.wikipedia.org/wiki/Sevilla_(Madrid_Metro)",
+    "link": "https://es.wikipedia.org/wiki/Sevilla_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Sevilla",
     "type": "metro-places"
+  },
+  "metro-population-madrid": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Madrid",
+    "prefix": "24.06",
+    "type": "metro-population"
+  },
+  "metro-prices-madrid": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Madrid",
+    "prefix": "$1.58",
+    "type": "metro-prices"
   },
   "metros-madrid": {
     "been": false,
@@ -537,6 +556,16 @@
     "name": "Carabanchel",
     "type": "spanish"
   },
+  "spanish-cuatro-caminos": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.44695556, -3.70397500",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Cuatro_Caminos_(estación_del_Metro_de_Ciudad_de_México)",
+    "name": "Cuatro Caminos",
+    "type": "spanish"
+  },
   "stations-madrid-atocha": {
     "been": true,
     "city": "Madrid",
@@ -606,6 +635,32 @@
     "reference": "Money Heist 🎥",
     "type": "tv-places"
   },
+  "twin-cities-madrid": {
+    "been": false,
+    "city": "Madrid",
+    "country": "UZ",
+    "icons": ["🇺🇿"],
+    "name": "Madrid",
+    "type": "twin-cities"
+  },
+  "twin-cities-madrid-ia": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Madrid, IA",
+    "type": "twin-cities"
+  },
+  "twin-stations-opera": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.41816650, -3.70941630",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ópera",
+    "name": "Ópera",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
   "twin-stations-plaza-de-espana": {
     "been": true,
     "city": "Madrid",
@@ -614,6 +669,17 @@
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Plaza_de_España_(métro_de_Madrid)",
     "name": "Plaza de España",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
+  "twin-stations-sevilla": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.41805400, -3.69925030",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Sevilla_(Madrid_Metro)",
+    "name": "Sevilla",
     "reference": "Madrid",
     "type": "twin-stations"
   }

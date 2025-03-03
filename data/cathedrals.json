@@ -86,7 +86,7 @@
     "name": "Berliner Dom"
   },
   "bogota": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.59796000, -74.07524000",
     "country": "CO",
@@ -186,6 +186,15 @@
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Carcassonne_Cathedral",
     "name": "Carcassonne"
+  },
+  "cartagena": {
+    "been": true,
+    "city": "Cartagena",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Catalina_de_Alejandría_(Cartagena_de_Indias)",
+    "name": "Cartagena",
+    "wikidata": "Q37053572"
   },
   "chartres": {
     "been": true,
@@ -478,7 +487,7 @@
     "name": "Marseille"
   },
   "medellin": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.25388889, -75.56388889",
     "country": "CO",
@@ -487,7 +496,7 @@
     "name": "Medellín"
   },
   "mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43439420, -99.13308240",
     "country": "MX",
@@ -774,7 +783,7 @@
     "name": "Saint Vitus, Prague"
   },
   "san-jose": {
-    "been": false,
+    "been": true,
     "city": "San José",
     "coords": "9.93270000, -84.07880000",
     "country": "CR",
@@ -783,7 +792,7 @@
     "name": "San José"
   },
   "santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.47277779, -69.88388890",
     "country": "DO",

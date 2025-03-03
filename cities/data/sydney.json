@@ -161,6 +161,24 @@
     "name": "Sydney",
     "type": "luna-park"
   },
+  "metro-population-sydney": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Sydney",
+    "prefix": "413.1",
+    "type": "metro-population"
+  },
+  "metro-prices-sydney": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Sydney",
+    "prefix": "$2.13",
+    "type": "metro-prices"
+  },
   "metros-sydney": {
     "been": false,
     "city": "Sydney",
@@ -199,7 +217,7 @@
     "type": "open-gangways"
   },
   "open-gangways-metropolis": {
-    "been": true,
+    "been": false,
     "city": "Sydney",
     "country": "AU",
     "icons": ["🇦🇺"],
@@ -333,5 +351,27 @@
     "name": "Enfield",
     "strike": true,
     "type": "turntables"
+  },
+  "twin-cities-sydney": {
+    "been": false,
+    "city": "Sydney",
+    "country": "VU",
+    "icons": ["🇻🇺"],
+    "name": "Sydney",
+    "type": "twin-cities"
+  },
+  "twin-cities-sydney-nd": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Sydney, ND",
+    "type": "twin-cities"
+  },
+  "twin-cities-sydney-ns": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Sydney, NS",
+    "type": "twin-cities"
   }
 }

@@ -663,6 +663,24 @@
     "name": "Warschauer Straße",
     "type": "metro-places"
   },
+  "metro-population-berlin": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Berlin",
+    "prefix": "35.49",
+    "type": "metro-population"
+  },
+  "metro-prices-berlin": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Berlin",
+    "prefix": "$3.33",
+    "type": "metro-prices"
+  },
   "metros-berlin": {
     "been": true,
     "city": "Berlin",
@@ -831,6 +849,26 @@
     "prefix": "12-04",
     "reference": "Berlin",
     "type": "projects"
+  },
+  "renamed-mohrenstraße": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Mohrenstraße_(Berlin_U-Bahn)",
+    "name": "Mohrenstraße",
+    "reference": "Berlin",
+    "type": "renamed"
+  },
+  "renamed-sudstern": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Südstern_(Berlin_U-Bahn)",
+    "name": "Südstern",
+    "reference": "Berlin",
+    "type": "renamed"
   },
   "rivers-spree": {
     "been": true,
@@ -1166,6 +1204,50 @@
     "name": "Berlin",
     "reference": "Sense8",
     "type": "tv-places"
+  },
+  "twin-cities-berlin": {
+    "been": false,
+    "city": "Berlin",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Berlin",
+    "type": "twin-cities"
+  },
+  "twin-cities-berlin-ct": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Berlin, CT",
+    "type": "twin-cities"
+  },
+  "twin-cities-berlin-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Berlin, MA",
+    "type": "twin-cities"
+  },
+  "twin-cities-berlin-md": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Berlin, MD",
+    "strike": true,
+    "type": "twin-cities"
+  },
+  "twin-cities-berlin-nh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Berlin, NH",
+    "type": "twin-cities"
+  },
+  "twin-cities-berlin-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Berlin, NY",
+    "type": "twin-cities"
   },
   "useless-landsberger-arkaden": {
     "been": false,

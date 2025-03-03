@@ -226,6 +226,15 @@
     "link": "https://en.wikipedia.org/wiki/Port_of_Cape_Town",
     "name": "Cape Town"
   },
+  "cartagena": {
+    "been": true,
+    "city": "Cartagena",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://es.wikipedia.org/wiki/Cartagena_de_Indias#Puerto_y_logística",
+    "name": "Cartagena",
+    "wikidata": "Q37053572"
+  },
   "casablanca": {
     "been": false,
     "city": "Casablanca",
@@ -812,6 +821,7 @@
   },
   "narvik": {
     "been": false,
+    "coords": "68.42055556, 17.56000000",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Narvik_Municipality",
@@ -1064,7 +1074,7 @@
     "name": "Saint Petersburg"
   },
   "santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.46900000, -69.88300000",
     "country": "DO",
@@ -1296,6 +1306,14 @@
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Venice",
     "name": "Venice"
+  },
+  "veracruz": {
+    "been": false,
+    "coords": "19.19027778, -96.15333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Veracruz_(city)#Port_of_Veracruz",
+    "name": "Veracruz"
   },
   "vladivostok": {
     "been": false,

@@ -149,6 +149,24 @@
     "name": "Moskovsky Vokzal",
     "type": "metro-places"
   },
+  "metro-population-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Saint Petersburg",
+    "prefix": "86.11",
+    "type": "metro-population"
+  },
+  "metro-prices-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Saint Petersburg",
+    "prefix": "$0.61",
+    "type": "metro-prices"
+  },
   "metros-saint-petersburg": {
     "been": false,
     "city": "Saint Petersburg",
@@ -323,15 +341,129 @@
     "name": "Saint Petersburg",
     "type": "trolleybuses"
   },
+  "twin-cities-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Saint Petersburg",
+    "type": "twin-cities"
+  },
+  "twin-cities-saint-petersburg-fl": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Saint Petersburg, FL",
+    "type": "twin-cities"
+  },
+  "twin-stations-akademicheskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "60.01276944, 30.39601667",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Saint_Petersburg_Metro)",
+    "name": "Akademicheskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-chkalovskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.96105600, 30.29202800",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Saint_Petersburg_Metro)",
+    "name": "Chkalovskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-frunzenskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85000000, 30.40000000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://www.wikiwand.com/en/Frunzenskaya_(Saint_Petersburg_Metro)",
+    "name": "Frunzenskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-leninsky-prospekt": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85194444, 30.26833333",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Saint_Petersburg_Metro)",
+    "name": "Leninsky Prospekt",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-mayakovskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.93150000, 30.35490000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_%28Saint_Petersburg_Metro%29",
+    "name": "Mayakovskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-moskovskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85219167, 30.32220556",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Saint_Petersburg_Metro)",
+    "name": "Moskovskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
   "twin-stations-ploshchad-lenina": {
     "been": true,
     "city": "Saint Petersburg",
-    "coords": "55.03000000, 82.92055600",
+    "coords": "59.95666667, 30.35555556",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Lenina_(Saint_Petersburg_Metro)",
     "name": "Ploshchad Lenina",
-    "reference": "Volgograd",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-pushkinskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.92068889, 30.32966944",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_%28Saint_Petersburg_Metro%29",
+    "name": "Pushkinskaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-sportivnaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.95208300, 30.29061100",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Saint_Petersburg_Metro)",
+    "name": "Sportivnaya",
+    "reference": "Saint Petersburg",
+    "type": "twin-stations"
+  },
+  "twin-stations-teatralnaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.92666600, 30.29722200",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Teatralnaya_%28Saint_Petersburg_Metro%29",
+    "name": "Teatralnaya",
+    "reference": "Saint Petersburg",
     "type": "twin-stations"
   }
 }

@@ -157,6 +157,7 @@
   },
   "castell-coch": {
     "been": false,
+    "coords": "51.53580000, -3.25480000",
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
     "link": "https://en.wikipedia.org/wiki/Castell_Coch",
@@ -1042,6 +1043,7 @@
   },
   "palace-of-winds": {
     "been": false,
+    "coords": "26.92390000, 75.82670000",
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Hawa_Mahal",
@@ -1054,6 +1056,25 @@
     "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Pena_Palace",
     "name": "Palácio de Pena"
+  },
+  "palacio-lievano": {
+    "been": true,
+    "city": "Bogotá",
+    "coords": "4.59841500, -74.07653800",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://es.wikipedia.org/wiki/Palacio_Liévano",
+    "name": "Palacio Liévano"
+  },
+  "palacio-nacional": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.4325, -99.13111",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://en.wikipedia.org/wiki/National_Palace_(Dominican_Republic)",
+    "name": "Palacio Nacional",
+    "wikidata": "Q1517884"
   },
   "palacio-nacional-de-sintra": {
     "been": true,
@@ -1081,6 +1102,17 @@
     "link": "https://de.wikipedia.org/wiki/Palais_Augarten",
     "name": "Palais Augarten"
   },
+  "palais-du-trocadero": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.862777777778, 2.2872222222222",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Palais_du_Trocad%C3%A9ro",
+    "name": "Palais du Trocadéro",
+    "strike": true,
+    "wikidata": "Q123256"
+  },
   "palais-royal-de-bruxelles": {
     "been": true,
     "city": "Brussels",
@@ -1089,6 +1121,14 @@
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Palais_royal_de_Bruxelles",
     "name": "Palais Royal de Bruxelles"
+  },
+  "palais-sans-souci": {
+    "been": false,
+    "coords": "19.60469200, -72.21859600",
+    "country": "HT",
+    "icons": ["🇭🇹"],
+    "link": "https://en.wikipedia.org/wiki/Sans-Souci_Palace",
+    "name": "Palais Sans Souci"
   },
   "palais-schwarzenberg": {
     "been": true,

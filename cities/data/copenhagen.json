@@ -93,6 +93,24 @@
     "name": "Copenhagen Botanical Gardens",
     "type": "greenhouses"
   },
+  "metro-population-copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "name": "Copenhagen",
+    "prefix": "51.28",
+    "type": "metro-population"
+  },
+  "metro-prices-copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "name": "Copenhagen",
+    "prefix": "$3.69",
+    "type": "metro-prices"
+  },
   "metros-copenhagen": {
     "been": false,
     "city": "Copenhagen",
@@ -175,5 +193,20 @@
     "link": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
     "name": "The Little Mermaid",
     "type": "statues"
+  },
+  "twin-cities-copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "Copenhagen",
+    "type": "twin-cities"
+  },
+  "twin-cities-copenhagen-ny": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Copenhagen, NY",
+    "type": "twin-cities"
   }
 }

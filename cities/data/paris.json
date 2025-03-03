@@ -220,6 +220,16 @@
     "name": "Grenelle",
     "type": "abandoned"
   },
+  "abandoned-haxo": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87870000, 2.40164000",
+    "country": "FR",
+    "icons": ["🏚"],
+    "link": "https://fr.wikipedia.org/wiki/Haxo_(m%C3%A9tro_de_Paris)",
+    "name": "Haxo",
+    "type": "abandoned"
+  },
   "abandoned-la-chapelle-saint-denis": {
     "been": true,
     "city": "Paris",
@@ -729,6 +739,7 @@
     "coords": "48.88694444, 2.34111111",
     "country": "FR",
     "icons": ["🏩"],
+    "info": "Montmartre",
     "link": "https://en.wikipedia.org/wiki/Montmartre",
     "name": "Sinking House",
     "reference": "Paris",
@@ -791,6 +802,17 @@
     "icons": ["🏰"],
     "link": "https://fr.wikipedia.org/wiki/Château_de_Versailles",
     "name": "Château de Versailles",
+    "type": "castles"
+  },
+  "castles-palais-du-trocadero": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86277778, 2.28722222",
+    "country": "FR",
+    "icons": ["🏰"],
+    "link": "https://fr.wikipedia.org/wiki/Palais_du_Trocad%C3%A9ro",
+    "name": "Palais du Trocadéro",
+    "strike": true,
     "type": "castles"
   },
   "cathedrals-notre-dame": {
@@ -1799,6 +1821,16 @@
     "name": "Jourdain",
     "type": "metro-places"
   },
+  "metro-places-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85666667, 2.35222222",
+    "countries": ["MX", "FR"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
+    "name": "París",
+    "type": "metro-places"
+  },
   "metro-places-place-ditalie": {
     "been": true,
     "city": "Paris",
@@ -1898,6 +1930,24 @@
     "link": "https://fr.wikipedia.org/wiki/Wagram_(métro_de_Paris)",
     "name": "Wagram",
     "type": "metro-places"
+  },
+  "metro-population-paris": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Paris",
+    "prefix": "35.78",
+    "type": "metro-population"
+  },
+  "metro-prices-paris": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Paris",
+    "prefix": "$2.78",
+    "type": "metro-prices"
   },
   "metros-paris": {
     "been": true,
@@ -2914,6 +2964,66 @@
     "name": "Gare du Nord",
     "type": "records"
   },
+  "renamed-champs-elysees–clemenceau": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Champs-Élysées_-_Clemenceau_(métro_de_Paris)",
+    "name": "Champs-Élysées–Clemenceau",
+    "reference": "Paris",
+    "type": "renamed"
+  },
+  "renamed-charles-de-gaulle–etoile": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle_-_Étoile_(métro_de_Paris)",
+    "name": "Charles de Gaulle–Étoile",
+    "reference": "Paris",
+    "type": "renamed"
+  },
+  "renamed-franklin-d-roosevelt": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Franklin_D._Roosevelt_(métro_de_Paris)",
+    "name": "Franklin D. Roosevelt",
+    "reference": "Paris",
+    "type": "renamed"
+  },
+  "renamed-george-v": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/George_V_(métro_de_Paris)",
+    "name": "George V",
+    "reference": "Paris",
+    "type": "renamed"
+  },
+  "renamed-jaures": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Jaurès_(métro_de_Paris)",
+    "name": "Jaurès",
+    "reference": "Paris",
+    "type": "renamed"
+  },
+  "renamed-stalingrad": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Stalingrad_(métro_de_Paris)",
+    "name": "Stalingrad",
+    "reference": "Paris",
+    "type": "renamed"
+  },
   "rivers-marne": {
     "been": true,
     "city": "Paris",
@@ -3608,6 +3718,43 @@
     "reference": "Lupin",
     "type": "tv-places"
   },
+  "twin-cities-paris": {
+    "been": false,
+    "city": "Paris",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Paris",
+    "type": "twin-cities"
+  },
+  "twin-cities-paris-ks": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Paris, KS",
+    "strike": true,
+    "type": "twin-cities"
+  },
+  "twin-cities-paris-ky": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Paris, KY",
+    "type": "twin-cities"
+  },
+  "twin-cities-paris-tx": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Paris, TX",
+    "type": "twin-cities"
+  },
+  "twin-cities-paris-va": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Paris, VA",
+    "type": "twin-cities"
+  },
   "twin-stations-alma-marceau": {
     "been": true,
     "city": "Paris",
@@ -3630,6 +3777,18 @@
     "reference": "Paris",
     "type": "twin-stations"
   },
+  "twin-stations-champ-de-mars": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85194400, 2.30194400",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Champ_de_Mars_station_(Paris_Métro)",
+    "name": "Champ de Mars",
+    "reference": "Paris",
+    "strike": true,
+    "type": "twin-stations"
+  },
   "twin-stations-champs-elysees–clemenceau": {
     "been": true,
     "city": "Paris",
@@ -3644,7 +3803,7 @@
   "twin-stations-chatelet": {
     "been": true,
     "city": "Paris",
-    "coords": "50.40000000, 4.51666667",
+    "coords": "48.86027959, 2.34656006",
     "country": "FR",
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Châtelet_(métro_de_Paris)",
@@ -3656,11 +3815,33 @@
     "been": true,
     "city": "Paris",
     "coords": "48.88180772, 2.39420146",
-    "country": "AE",
+    "country": "FR",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Danube_%28Dubai_Metro%29",
+    "link": "https://fr.wikipedia.org/wiki/Danube_(métro_de_Paris)",
     "name": "Danube",
-    "reference": "Dubai",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-gambetta": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86496179, 2.39898250",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)",
+    "name": "Gambetta",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-garibaldi": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.90639693, 2.33190715",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Paris)",
+    "name": "Garibaldi",
+    "reference": "Paris",
     "type": "twin-stations"
   },
   "twin-stations-jaures": {
@@ -3671,6 +3852,39 @@
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Jaurès_(métro_de_Paris)",
     "name": "Jaurès",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-opera": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87063595, 2.33235240",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Opéra_(métro_de_Paris)",
+    "name": "Opéra",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-pasteur": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84283594, 2.31268108",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Pasteur_(métro_de_Paris)",
+    "name": "Pasteur",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-republique": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86732300, 2.36412900",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/République_(métro_de_Paris)",
+    "name": "République",
     "reference": "Paris",
     "type": "twin-stations"
   },

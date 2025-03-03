@@ -19,6 +19,24 @@
     "name": "Moskovskaya",
     "type": "cross-platform"
   },
+  "metro-population-nizhny-novgorod": {
+    "been": false,
+    "city": "Nizhny Novgorod",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Nizhny Novgorod",
+    "prefix": "83.33",
+    "type": "metro-population"
+  },
+  "metro-prices-nizhny-novgorod": {
+    "been": false,
+    "city": "Nizhny Novgorod",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Nizhny Novgorod",
+    "prefix": "$0.29",
+    "type": "metro-prices"
+  },
   "metros-nizhny-novgorod": {
     "been": false,
     "city": "Nizhny Novgorod",
@@ -111,15 +129,78 @@
     "name": "Nizhny Novgorod",
     "type": "trolleybuses"
   },
+  "twin-cities-nizhny-novgorod": {
+    "been": false,
+    "city": "Nizhny Novgorod",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Nizhny Novgorod",
+    "type": "twin-cities"
+  },
+  "twin-stations-avtozavodskaya": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.25805556, 43.90194444",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Avtozavodskaya",
+    "reference": "Nizhny Novgorod",
+    "type": "twin-stations"
+  },
+  "twin-stations-chkalovskaya": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.31138889, 43.93777778",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Chkalovskaya",
+    "reference": "Nizhny Novgorod",
+    "type": "twin-stations"
+  },
+  "twin-stations-kirovskaya": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.24777778, 43.87833333",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Kirovskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Kirovskaya",
+    "reference": "Nizhny Novgorod",
+    "type": "twin-stations"
+  },
+  "twin-stations-komsomolskaya": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.25250000, 43.89000000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Komsomolskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Komsomolskaya",
+    "reference": "Nizhny Novgorod",
+    "type": "twin-stations"
+  },
   "twin-stations-moskovskaya": {
     "been": true,
     "city": "Nizhny Novgorod",
     "coords": "56.32138889, 43.94527778",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Saint_Petersburg_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Nizhny_Novgorod_Metro)",
     "name": "Moskovskaya",
-    "reference": "Saint Petersburg",
+    "reference": "Nizhny Novgorod",
+    "type": "twin-stations"
+  },
+  "twin-stations-park-kultury": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.24222222, 43.85750000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Nizhny_Novgorod_Metro)",
+    "name": "Park Kultury",
+    "reference": "Nizhny Novgorod",
     "type": "twin-stations"
   }
 }

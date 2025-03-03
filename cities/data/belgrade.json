@@ -260,8 +260,9 @@
   "tram-roundabouts-slavija": {
     "been": true,
     "city": "Belgrade",
+    "coords": "44.80250000, 20.46640000",
     "country": "RS",
-    "icons": ["🇷🇸", "3️⃣"],
+    "icons": ["🔄"],
     "link": "https://en.wikipedia.org/wiki/Slavija_Square",
     "name": "Slavija",
     "reference": "Belgrade",
@@ -286,6 +287,21 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Belgrade",
     "name": "Belgrade",
     "type": "trolleybuses"
+  },
+  "twin-cities-belgrade": {
+    "been": true,
+    "city": "Belgrade",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Belgrade",
+    "type": "twin-cities"
+  },
+  "twin-cities-belgrade-mt": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Belgrade, MT",
+    "type": "twin-cities"
   },
   "walls-belgrade-fortress": {
     "been": true,

@@ -124,9 +124,10 @@
   "awa-bel-harbour-pool": {
     "been": true,
     "city": "Chicago",
+    "coords": "41.94050900, -87.64043300",
     "country": "US",
-    "icons": ["🇺🇸", "🏊‍♂️"],
-    "link": "41.940509, -87.640433",
+    "icons": ["🏩"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41.940509_N_87.640433_W",
     "name": "Bel Harbour Pool",
     "reference": "Chicago",
     "type": "awa"
@@ -495,6 +496,24 @@
     "name": "Harlem",
     "type": "metro-places"
   },
+  "metro-population-chicago": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago",
+    "prefix": "64.00",
+    "type": "metro-population"
+  },
+  "metro-prices-chicago": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago",
+    "prefix": "$2.50",
+    "type": "metro-prices"
+  },
   "metros-chicago": {
     "been": true,
     "city": "Chicago",
@@ -614,6 +633,26 @@
     "link": "https://en.wikipedia.org/wiki/Northwestern_University_Lakefill",
     "name": "Northwestern University",
     "type": "reclaimed"
+  },
+  "renamed-cermak–mccormick-place": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cermak–McCormick_Place_station",
+    "name": "Cermak–McCormick Place",
+    "reference": "Chicago",
+    "type": "renamed"
+  },
+  "renamed-harold-washington-library": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Harold_Washington_Library–State/Van_Buren_station",
+    "name": "Harold Washington Library",
+    "reference": "Chicago",
+    "type": "renamed"
   },
   "rivers-chicago": {
     "been": true,
@@ -819,6 +858,21 @@
     "reference": "Shining Girls",
     "state": "IL",
     "type": "tv-places"
+  },
+  "twin-cities-chicago": {
+    "been": false,
+    "city": "Chicago",
+    "country": "PH",
+    "icons": ["🇵🇭"],
+    "name": "Chicago",
+    "type": "twin-cities"
+  },
+  "twin-cities-chicago-il": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago, IL",
+    "type": "twin-cities"
   },
   "useless-block-37-superstation": {
     "been": true,

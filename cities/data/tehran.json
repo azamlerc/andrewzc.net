@@ -2,8 +2,9 @@
   "airports-tehran-imam-khomeini": {
     "been": false,
     "city": "Tehran",
+    "coords": "35.41611111, 51.15222222",
     "country": "IR",
-    "icons": ["🇮🇷"],
+    "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Imam_Khomeini_International_Airport",
     "name": "Tehran Imam Khomeini",
     "prefix": "IKA",
@@ -12,8 +13,9 @@
   "airports-tehran-mehrabad": {
     "been": false,
     "city": "Tehran",
+    "coords": "35.68916667, 51.31361111",
     "country": "IR",
-    "icons": ["🇮🇷"],
+    "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Mehrabad_International_Airport",
     "name": "Tehran Mehrabad",
     "prefix": "THR",
@@ -100,6 +102,24 @@
     "name": "Tehran",
     "strike": true,
     "type": "luna-park"
+  },
+  "metro-population-tehran": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "name": "Tehran",
+    "prefix": "111.9",
+    "type": "metro-population"
+  },
+  "metro-prices-tehran": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "name": "Tehran",
+    "prefix": "$0.29",
+    "type": "metro-prices"
   },
   "metros-tehran": {
     "been": false,

@@ -50,6 +50,24 @@
     "name": "Perú",
     "type": "metro-places"
   },
+  "metro-population-lima": {
+    "been": false,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Lima",
+    "prefix": "424.6",
+    "type": "metro-population"
+  },
+  "metro-prices-lima": {
+    "been": false,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Lima",
+    "prefix": "$0.39",
+    "type": "metro-prices"
+  },
   "metros-lima": {
     "been": false,
     "city": "Lima",
@@ -102,10 +120,35 @@
     "name": "Callao",
     "type": "tintin"
   },
+  "twin-cities-lima": {
+    "been": false,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Lima",
+    "type": "twin-cities"
+  },
+  "twin-cities-lima-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lima, OH",
+    "type": "twin-cities"
+  },
+  "twin-stations-gambetta": {
+    "been": true,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "link": "https://es.wikipedia.org/wiki/Gambetta_(Metro_de_Lima_y_Callao)",
+    "name": "Gambetta",
+    "reference": "Lima",
+    "type": "twin-stations"
+  },
   "twin-stations-lima": {
     "been": true,
     "city": "Lima",
-    "coords": "-12.04333333, -77.02833333",
+    "coords": "45.48055556, 9.21111111",
     "country": "IT",
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Lima_(Milan_Metro)",

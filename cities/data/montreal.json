@@ -128,6 +128,24 @@
     "name": "Verdun",
     "type": "metro-places"
   },
+  "metro-population-montreal": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Montréal",
+    "prefix": "67.79",
+    "type": "metro-population"
+  },
+  "metro-prices-montreal": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Montréal",
+    "prefix": "$2.80",
+    "type": "metro-prices"
+  },
   "metros-montreal": {
     "been": true,
     "city": "Montréal",
@@ -209,6 +227,26 @@
     "name": "Nuns’ Island",
     "type": "reclaimed"
   },
+  "renamed-berri–uqam": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Berri–UQAM_station",
+    "name": "Berri–UQAM",
+    "reference": "Montréal",
+    "type": "renamed"
+  },
+  "renamed-jean-drapeau-station": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Jean-Drapeau_station",
+    "name": "Jean-Drapeau Station",
+    "reference": "Montréal",
+    "type": "renamed"
+  },
   "rubber-montreal": {
     "been": true,
     "city": "Montréal",
@@ -273,15 +311,37 @@
     "strike": true,
     "type": "trolleybuses"
   },
+  "twin-cities-montreal": {
+    "been": false,
+    "city": "Montréal",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Montreal",
+    "type": "twin-cities"
+  },
+  "twin-cities-montreal-qc": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Montreal, QC",
+    "type": "twin-cities"
+  },
+  "twin-cities-montreal-wi": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Montreal, WI",
+    "type": "twin-cities"
+  },
   "twin-stations-champ-de-mars": {
     "been": true,
     "city": "Montréal",
     "coords": "45.51000000, -73.55638889",
-    "country": "FR",
+    "country": "CA",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Champ_de_Mars_station_(Paris_Métro)",
+    "link": "https://en.wikipedia.org/wiki/Champ-de-Mars_station_(Montreal_Metro)",
     "name": "Champ de Mars",
-    "reference": "Paris",
+    "reference": "Montréal",
     "strike": true,
     "type": "twin-stations"
   },

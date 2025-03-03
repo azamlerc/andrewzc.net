@@ -21,8 +21,9 @@
   "loops-broad-street": {
     "been": true,
     "city": "Richmond",
+    "coords": "37.56111100, -77.46583300",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🎈"],
     "link": "https://en.wikipedia.org/wiki/Broad_Street_Station_(Richmond)",
     "name": "Broad Street",
     "reference": "Richmond",
@@ -39,6 +40,16 @@
     "name": "Richmond",
     "type": "planned"
   },
+  "records-richmond": {
+    "been": true,
+    "city": "Richmond",
+    "country": "US",
+    "icons": ["🇺🇸", "🚋"],
+    "info": "first practical electric tram ITW",
+    "link": "https://en.wikipedia.org/wiki/Richmond_Union_Passenger_Railway",
+    "name": "Richmond",
+    "type": "records"
+  },
   "stations-richmond-main-street": {
     "been": true,
     "city": "Richmond",
@@ -49,10 +60,67 @@
     "name": "Richmond Main Street",
     "type": "stations"
   },
+  "twin-cities-richmond": {
+    "been": false,
+    "city": "Richmond",
+    "country": "JM",
+    "icons": ["🇯🇲"],
+    "name": "Richmond",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-bc": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Richmond, BC",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-ca": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, CA",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-ma": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, MA",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-nh": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, NH",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-pa": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, PA",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-ri": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, RI",
+    "type": "twin-cities"
+  },
+  "twin-cities-richmond-va": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Richmond, VA",
+    "type": "twin-cities"
+  },
   "twin-stations-richmond": {
     "been": true,
     "city": "Richmond",
-    "coords": "51.46300000, -0.30000000",
+    "coords": "37.93680000, -122.35310000",
     "country": "US",
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Richmond_station_(California)",

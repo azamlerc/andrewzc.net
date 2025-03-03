@@ -1,33 +1,45 @@
 {
-  "": {
-    "been": true,
-    "city": "Hong Kong",
-    "country": "AE",
-    "icons": ["🇦🇪"],
-    "name": "",
-    "reference": "Dubai"
-  },
-  "admiralty": {
+  "admiralty-hong-kong": {
     "been": true,
     "city": "Hong Kong",
     "coords": "22.27880000, 114.16460000",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
+    "name": "Admiralty",
+    "reference": "Hong Kong"
+  },
+  "admiralty-singapore": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.44068889, 103.80093333",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Admiralty_MRT_station",
     "name": "Admiralty",
     "reference": "Singapore"
   },
-  "akademicheskaya": {
+  "akademicheskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.68770000, 37.57330000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Kaluzhsko-Rizhskaya_line)",
+    "name": "Akademicheskaya",
+    "reference": "Moscow"
+  },
+  "akademicheskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "60.01276944, 30.39601667",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Saint_Petersburg_Metro)",
     "name": "Akademicheskaya",
     "reference": "Saint Petersburg"
   },
-  "alma": {
+  "alma-brussels": {
     "been": true,
     "city": "Brussels",
     "coords": "50.84972200, 4.45333300",
@@ -37,7 +49,7 @@
     "name": "Alma",
     "reference": "Brussels"
   },
-  "alma-marceau": {
+  "alma-marceau-paris": {
     "been": true,
     "city": "Paris",
     "coords": "48.86490400, 2.30023400",
@@ -47,7 +59,7 @@
     "name": "Alma-Marceau",
     "reference": "Paris"
   },
-  "andel": {
+  "andel-prague": {
     "been": true,
     "city": "Prague",
     "coords": "50.07400000, 14.40500000",
@@ -57,7 +69,7 @@
     "name": "Anděl",
     "reference": "Prague"
   },
-  "angel": {
+  "angel-london": {
     "been": true,
     "city": "London",
     "coords": "51.53200000, -0.10600000",
@@ -67,35 +79,67 @@
     "name": "Angel",
     "reference": "London"
   },
-  "astoria": {
+  "astoria-budapest": {
     "been": true,
     "city": "Budapest",
     "coords": "47.49440000, 19.06000000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Astoria_metro_station",
+    "name": "Astoria",
+    "reference": "Budapest"
+  },
+  "astoria-new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.77608900, -73.91073700",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Astoria–Ditmars_Boulevard_station",
     "name": "Astoria",
     "reference": "New York"
   },
-  "avtozavodskaya": {
+  "avtozavodskaya-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.70740000, 37.65760000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Zamoskvoretskaya_line)",
+    "name": "Avtozavodskaya",
+    "reference": "Moscow"
+  },
+  "avtozavodskaya-nizhny-novgorod": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.25805556, 43.90194444",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Nizhny_Novgorod_Metro)",
     "name": "Avtozavodskaya",
     "reference": "Nizhny Novgorod"
   },
-  "belem": {
+  "belem-lisbon": {
     "been": true,
     "city": "Lisbon",
+    "coords": "38.69900000, -9.20900000",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Belém,_Lisbon",
+    "name": "Belém",
+    "reference": "Lisbon"
+  },
+  "belem-sao-paulo": {
+    "been": true,
+    "city": "São Paulo",
+    "coords": "-23.54321600, -46.58952000",
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Belém_(São_Paulo_Metro)",
     "name": "Belém",
     "reference": "Sāo Paulo"
   },
-  "boulogne–jean-jaures": {
+  "boulogne–jean-jaures-paris": {
     "been": true,
     "city": "Paris",
     "coords": "48.84227800, 2.23887700",
@@ -105,20 +149,61 @@
     "name": "Boulogne–Jean Jaurès",
     "reference": "Paris"
   },
-  "broadway": {
+  "broadway-boston": {
     "been": true,
     "city": "Boston",
     "coords": "42.34290000, -71.05720000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Broadway_station_(MBTA)",
+    "name": "Broadway",
+    "reference": "Boston"
+  },
+  "broadway-new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.76195100, -73.92541400",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Broadway_station_(BMT_Astoria_Line)",
     "name": "Broadway",
     "reference": "New York"
   },
-  "champ-de-mars": {
+  "buenos-aires-madrid": {
+    "been": true,
+    "city": "Buenos Aires",
+    "coords": "40.39156170, -3.65390840",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Buenos_Aires_(Madrid_Metro)",
+    "name": "Buenos Aires",
+    "reference": "Madrid"
+  },
+  "buenos-aires-medellin": {
+    "been": true,
+    "city": "Buenos Aires",
+    "coords": "-34.60361111, -58.38138889",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Ayacucho_Tram",
+    "name": "Buenos Aires",
+    "reference": "Medellín",
+    "wikidata": "Q18327073"
+  },
+  "champ-de-mars-montreal": {
     "been": true,
     "city": "Montréal",
     "coords": "45.51000000, -73.55638889",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Champ-de-Mars_station_(Montreal_Metro)",
+    "name": "Champ de Mars",
+    "reference": "Montréal"
+  },
+  "champ-de-mars-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85194400, 2.30194400",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Champ_de_Mars_station_(Paris_Métro)",
@@ -126,7 +211,7 @@
     "reference": "Paris",
     "strike": true
   },
-  "champs-elysees–clemenceau": {
+  "champs-elysees–clemenceau-paris": {
     "been": true,
     "city": "Paris",
     "coords": "48.86741142, 2.31395945",
@@ -136,47 +221,145 @@
     "name": "Champs-Élysées–Clemenceau",
     "reference": "Paris"
   },
-  "chatelet": {
+  "chatelet-charleroi": {
+    "been": true,
+    "coords": "50.40000000, 4.51666667",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Châtelet,_Belgium",
+    "name": "Châtelet",
+    "reference": "Charleroi"
+  },
+  "chatelet-paris": {
     "been": true,
     "city": "Paris",
-    "coords": "50.40000000, 4.51666667",
+    "coords": "48.86027959, 2.34656006",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Châtelet_(métro_de_Paris)",
     "name": "Châtelet",
     "reference": "Paris"
   },
-  "chinatown": {
+  "chinatown-boston": {
     "been": true,
     "city": "Boston",
     "coords": "42.35220000, -71.06270000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
+    "name": "Chinatown",
+    "reference": "Boston"
+  },
+  "chinatown-philadelphia": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
+    "name": "Chinatown",
+    "reference": "Philadelphia"
+  },
+  "chinatown-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79480600, -122.40808200",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
+    "name": "Chinatown",
+    "reference": "San Francisco"
+  },
+  "chinatown-singapore": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.28490000, 103.84396000",
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
     "name": "Chinatown",
     "reference": "Singapore"
   },
-  "chkalovskaya": {
+  "chkalovskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.75650000, 37.65730000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Moscow_Metro)",
+    "name": "Chkalovskaya",
+    "reference": "Moscow"
+  },
+  "chkalovskaya-nizhny-novgorod": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.31138889, 43.93777778",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Chkalovskaya",
+    "reference": "Nizhny Novgorod"
+  },
+  "chkalovskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.96105600, 30.29202800",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Saint_Petersburg_Metro)",
+    "name": "Chkalovskaya",
+    "reference": "Saint Petersburg"
+  },
+  "chkalovskaya-yekaterinburg": {
+    "been": true,
+    "coords": "56.80833333, 60.61027778",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
     "name": "Chkalovskaya",
     "reference": "Yekaterinburg"
   },
-  "civic-center": {
+  "civic-center-atlanta": {
     "been": true,
     "city": "Atlanta",
     "coords": "33.76630500, -84.38720900",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(MARTA)",
+    "name": "Civic Center",
+    "reference": "Atlanta"
+  },
+  "civic-center-los-angeles": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center/Grand_Park_station",
+    "name": "Civic Center",
+    "reference": "Los Angeles",
+    "wikidata": "Q6583066"
+  },
+  "civic-center-miami": {
+    "been": true,
+    "city": "Miami",
+    "coords": "25.78972222, -80.21500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(Metrorail)",
+    "name": "Civic Center",
+    "reference": "Miami"
+  },
+  "civic-center-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Civic_Center/UN_Plaza_station",
     "name": "Civic Center",
-    "reference": "San Francisco"
+    "reference": "San Francisco",
+    "wikidata": "Q6583066"
   },
-  "clemenceau": {
+  "clemenceau-brussels": {
     "been": true,
     "city": "Brussels",
     "coords": "50.84111111, 4.33055556",
@@ -186,17 +369,26 @@
     "name": "Clemenceau",
     "reference": "Brussels"
   },
-  "clot": {
+  "clot-barcelona": {
     "been": true,
     "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Barcelona)",
+    "name": "Clot",
+    "reference": "Barcelona",
+    "wikidata": "Q179217"
+  },
+  "clot-valencia": {
+    "been": true,
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Valencia)",
     "name": "Clot",
     "reference": "Valencia",
-    "wikidata": "Q261327"
+    "wikidata": "Q179217"
   },
-  "congres": {
+  "congres-barcelona": {
     "been": true,
     "city": "Barcelona",
     "country": "ES",
@@ -206,7 +398,7 @@
     "reference": "Barcelona",
     "wikidata": "Q10225"
   },
-  "congress": {
+  "congress-brussels": {
     "been": true,
     "city": "Brussels",
     "coords": "50.85222222, 4.36194444",
@@ -216,17 +408,27 @@
     "name": "Congress",
     "reference": "Brussels"
   },
-  "danube": {
+  "danube-dubai": {
     "been": true,
-    "city": "Paris",
-    "coords": "48.88180772, 2.39420146",
+    "city": "Dubai",
+    "coords": "25.00110000, 55.09575000",
     "country": "AE",
     "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Danube_%28Dubai_Metro%29",
     "name": "Danube",
     "reference": "Dubai"
   },
-  "dekalb-avenue": {
+  "danube-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.88180772, 2.39420146",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Danube_(métro_de_Paris)",
+    "name": "Danube",
+    "reference": "Paris"
+  },
+  "dekalb-avenue-new-york": {
     "been": true,
     "city": "New York",
     "coords": "40.69025400, -73.98227700",
@@ -236,7 +438,7 @@
     "name": "DeKalb Avenue",
     "reference": "New York"
   },
-  "dekalb-street": {
+  "dekalb-street-philadelphia": {
     "been": true,
     "city": "Philadelphia",
     "coords": "40.09890000, -75.35200000",
@@ -246,27 +448,46 @@
     "name": "DeKalb Street",
     "reference": "Philadelphia"
   },
-  "dinamo": {
+  "dinamo-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.75650000, 37.65730000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Moscow_Metro)",
+    "name": "Dinamo",
+    "reference": "Moscow"
+  },
+  "dinamo-yekaterinburg": {
+    "been": true,
+    "coords": "56.80833333, 60.61027778",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
     "name": "Dinamo",
     "reference": "Yekaterinburg"
   },
-  "dorp": {
+  "dorp-antwerp": {
     "been": true,
     "city": "Antwerp",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
+    "name": "Dorp",
+    "reference": "Antwerp",
+    "wikidata": "Q777867"
+  },
+  "dorp-den-haag": {
+    "been": true,
+    "city": "Den Haag",
     "coords": "52.05416667, 4.49166667",
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Dorp_(sneltramhalte)",
     "name": "Dorp",
-    "reference": "Den Haag",
-    "wikidata": "Q777867"
+    "reference": "Den Haag"
   },
-  "florenc": {
+  "florenc-prague": {
     "been": true,
     "city": "Prague",
     "coords": "50.09100000, 14.43900000",
@@ -276,7 +497,7 @@
     "name": "Florenc",
     "reference": "Prague"
   },
-  "florence": {
+  "florence-los-angeles": {
     "been": true,
     "city": "Los Angeles",
     "coords": "33.97480000, -118.24300000",
@@ -286,9 +507,9 @@
     "name": "Florence",
     "reference": "Los Angeles"
   },
-  "florida": {
+  "florida-barcelona": {
     "been": true,
-    "city": "Buenos Aires",
+    "city": "Barcelona",
     "coords": "28.00000000, -82.00000000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -296,105 +517,237 @@
     "name": "Florida",
     "reference": "Barcelona"
   },
-  "forest-hill": {
+  "florida-buenos-aires": {
+    "been": true,
+    "city": "Buenos Aires",
+    "coords": "28.00000000, -82.00000000",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
+    "name": "Florida",
+    "reference": "Buenos Aires"
+  },
+  "forest-hill-london": {
     "been": true,
     "city": "London",
     "coords": "51.43900000, -0.05300000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hill_railway_station",
+    "name": "Forest Hill",
+    "reference": "London"
+  },
+  "forest-hill-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.74803000, -122.45914000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Forest_Hill_station_(Muni_Metro)",
     "name": "Forest Hill",
     "reference": "San Francisco"
   },
-  "forest-hills": {
+  "forest-hills-boston": {
     "been": true,
     "city": "Boston",
     "coords": "42.30073000, -71.11406000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hills_station_(MBTA)",
+    "name": "Forest Hills",
+    "reference": "Boston"
+  },
+  "forest-hills-new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72140400, -73.84400400",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Forest_Hills–71st_Avenue_station",
     "name": "Forest Hills",
     "reference": "New York"
   },
-  "frunzenskaya": {
+  "frunzenskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.72670000, 37.57860000",
     "country": "RU",
     "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Frunzenskaya_(Moscow_Metro)",
+    "name": "Frunzenskaya",
+    "reference": "Moscow"
+  },
+  "frunzenskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85, 30.4",
+    "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://www.wikiwand.com/en/Frunzenskaya_(Saint_Petersburg_Metro)",
     "name": "Frunzenskaya",
-    "reference": "Saint Petersburg"
+    "reference": "Saint Petersburg",
+    "wikidata": "Q1142777"
   },
-  "gagarinskaya": {
+  "gagarinskaya-novosibirsk": {
     "been": true,
     "coords": "55.05055600, 82.91472200",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Gagarinskaya_(Novosibirsk_Metro)",
+    "name": "Gagarinskaya",
+    "reference": "Novosibirsk"
+  },
+  "gagarinskaya-samara": {
+    "been": true,
+    "coords": "53.20027800, 50.17747200",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Gagarinskaya_(Samara_Metro)",
     "name": "Gagarinskaya",
     "reference": "Samara"
   },
-  "gambetta": {
+  "gambetta-lille": {
     "been": true,
     "city": "Lille",
     "coords": "50.62637778, 3.05221389",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Lille)",
+    "name": "Gambetta",
+    "reference": "Lille"
+  },
+  "gambetta-lima": {
+    "been": true,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "link": "https://es.wikipedia.org/wiki/Gambetta_(Metro_de_Lima_y_Callao)",
+    "name": "Gambetta",
+    "reference": "Lima",
+    "wikidata": "Q16870094"
+  },
+  "gambetta-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86496179, 2.39898250",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)",
     "name": "Gambetta",
     "reference": "Paris"
   },
-  "garibaldi": {
+  "garibaldi-lyon": {
     "been": true,
     "city": "Lyon",
     "coords": "45.75159400, 4.85369300",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Lyon)",
+    "name": "Garibaldi",
+    "reference": "Lyon"
+  },
+  "garibaldi-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Garibaldi-Lagunilla_(estación)",
+    "name": "Garibaldi",
+    "reference": "Mexico City",
+    "wikidata": "Q16424823"
+  },
+  "garibaldi-milan": {
+    "been": true,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://it.wikipedia.org/wiki/Garibaldi_FS_(metropolitana_di_Milano)",
+    "name": "Garibaldi",
+    "reference": "Milan",
+    "wikidata": "Q16424823"
+  },
+  "garibaldi-naples": {
+    "been": true,
+    "city": "Naples",
+    "coords": "40.85250000, 14.27200000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Garibaldi_station_(Naples)",
+    "name": "Garibaldi",
+    "reference": "Naples"
+  },
+  "garibaldi-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.90639693, 2.33190715",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Paris)",
     "name": "Garibaldi",
     "reference": "Paris"
   },
-  "haymarket": {
+  "haymarket-boston": {
     "been": true,
     "city": "Boston",
     "coords": "42.36330000, -71.05820000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
+    "name": "Haymarket",
+    "reference": "Boston"
+  },
+  "haymarket-newcastle": {
+    "been": true,
+    "city": "Newcastle",
+    "coords": "54.97750270, -1.61392810",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Haymarket_Metro_station",
     "name": "Haymarket",
     "reference": "Newcastle"
   },
-  "horta": {
+  "horta-barcelona": {
     "been": true,
     "city": "Barcelona",
     "coords": "38.533333333333, -28.633333333333",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Horta",
+    "name": "Horta",
+    "reference": "Barcelona",
+    "wikidata": "Q990385"
+  },
+  "horta-brussels": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.82610000, 4.34580000",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Horta_premetro_station",
     "name": "Horta",
-    "reference": "Brussels",
-    "wikidata": "Q990385"
+    "reference": "Brussels"
   },
-  "jamaica": {
+  "jamaica-mexico-city": {
     "been": true,
     "city": "Mexico City",
     "coords": "17.97138889, -76.79305556",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Jamaica_(estación_del_Metro_de_Ciudad_de_México)",
+    "name": "Jamaica",
+    "reference": "Mexico City"
+  },
+  "jamaica-new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71245900, -73.78448000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
     "name": "Jamaica",
     "reference": "New York"
   },
-  "jamaica–179th-street": {
-    "been": true,
-    "coords": "40.712459°N, 73.78448°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
-    "name": "Jamaica–179th Street",
-    "reference": "New York"
-  },
-  "jaures": {
+  "jaures-paris": {
     "been": true,
     "city": "Paris",
     "coords": "48.88179008, 2.37019837",
@@ -404,7 +757,7 @@
     "name": "Jaurès",
     "reference": "Paris"
   },
-  "jean-jaures": {
+  "jean-jaures-toulouse": {
     "been": true,
     "city": "Toulouse",
     "coords": "43.60595000, 1.44898889",
@@ -414,50 +767,129 @@
     "name": "Jean Jaurès",
     "reference": "Toulouse"
   },
-  "kenmore": {
+  "kenmore-boston": {
     "been": true,
     "city": "Boston",
     "coords": "42.34892500, -71.09560833",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kenmore_station",
+    "name": "Kenmore",
+    "reference": "Boston"
+  },
+  "kenmore-cleveland": {
+    "been": true,
+    "city": "Cleveland",
+    "coords": "41.46666667, -81.55333333",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kenmore_station_(GCRTA)",
     "name": "Kenmore",
     "reference": "Cleveland"
   },
-  "kirovskaya": {
+  "kirovskaya-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.76570000, 37.63880000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chistye_Prudy_(Moscow_Metro)",
+    "name": "Kirovskaya",
+    "reference": "Moscow"
+  },
+  "kirovskaya-nizhny-novgorod": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.24777778, 43.87833333",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kirovskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Kirovskaya",
+    "reference": "Nizhny Novgorod"
+  },
+  "kirovskaya-samara": {
+    "been": true,
+    "coords": "53.202, 50.222",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Samara_Metro",
     "name": "Kirovskaya",
-    "reference": "Samara"
+    "reference": "Samara",
+    "wikidata": "Q2106"
   },
-  "komsomolskaya": {
+  "komsomolskaya-chelyabinsk": {
+    "been": true,
+    "coords": "45.331666666667, 46.039444444444",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chelyabinsk_Metro",
+    "name": "Komsomolskaya",
+    "reference": "Chelyabinsk",
+    "wikidata": "Q4230208"
+  },
+  "komsomolskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.77480000, 37.65490000",
     "country": "RU",
     "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Komsomolskaya_(Koltsevaya_line)",
+    "name": "Komsomolskaya",
+    "reference": "Moscow"
+  },
+  "komsomolskaya-nizhny-novgorod": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.25250000, 43.89000000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Komsomolskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Komsomolskaya",
+    "reference": "Nizhny Novgorod"
+  },
+  "komsomolskaya-volgograd": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
     "name": "Komsomolskaya",
     "reference": "Volgograd",
-    "wikidata": "Q1925744"
+    "wikidata": "Q1925923"
   },
-  "leninsky-prospekt": {
+  "leninsky-prospekt-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.70770000, 37.58610000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Moscow_Metro)",
+    "name": "Leninsky Prospekt",
+    "reference": "Moscow"
+  },
+  "leninsky-prospekt-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85194444, 30.26833333",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Saint_Petersburg_Metro)",
     "name": "Leninsky Prospekt",
     "reference": "Saint Petersburg"
   },
-  "lima": {
+  "lima-buenos-aires": {
     "been": true,
     "city": "Lima",
-    "coords": "-12.04333333, -77.02833333",
+    "coords": "-12.06000000, -77.03750000",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Lima_(subte_de_Buenos_Aires)",
+    "name": "Lima",
+    "reference": "Buenos Aires"
+  },
+  "lima-milan": {
+    "been": true,
+    "city": "Lima",
+    "coords": "45.48055556, 9.21111111",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Lima_(Milan_Metro)",
@@ -468,14 +900,35 @@
     "been": true,
     "city": "Luxembourg",
     "coords": "49.6, 6.133889",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Luxembourg",
+    "name": "Luxembourg",
+    "wikidata": "Q801140"
+  },
+  "luxembourg-brussels": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "50.838889, 4.373333",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Luxembourg",
+    "name": "Luxembourg",
+    "reference": "Brussels",
+    "wikidata": "Q800583"
+  },
+  "luxembourg-paris": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "48.846667, 2.340278",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_du_Luxembourg",
     "name": "Luxembourg",
     "reference": "Paris",
-    "wikidata": "Q801140"
+    "wikidata": "Q1772325"
   },
-  "marconi": {
+  "marconi-rome": {
     "been": true,
     "city": "Rome",
     "coords": "41.84944444, 12.47555556",
@@ -485,7 +938,7 @@
     "name": "Marconi",
     "reference": "Rome"
   },
-  "marconiplein": {
+  "marconiplein-amsterdam": {
     "been": true,
     "city": "Amsterdam",
     "coords": "51.91333333, 4.43277778",
@@ -495,47 +948,87 @@
     "name": "Marconiplein",
     "reference": "Amsterdam"
   },
-  "martin-luther-king": {
+  "martin-luther-king-los-angeles": {
     "been": true,
     "city": "Los Angeles",
     "coords": "34.00957100, -118.33528800",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._station_(Los_Angeles_Metro)",
+    "name": "Martin Luther King",
+    "reference": "Los Angeles"
+  },
+  "martin-luther-king-miami": {
+    "been": true,
+    "city": "Miami",
+    "coords": "25.83222222, -80.24083333",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Dr._Martin_Luther_King_Jr._Plaza_station_(Metrorail)",
     "name": "Martin Luther King",
     "reference": "Miami"
   },
-  "mayakovskaya": {
+  "mayakovskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.77010000, 37.59580000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_(Moscow_Metro)",
+    "name": "Mayakovskaya",
+    "reference": "Moscow"
+  },
+  "mayakovskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.93150000, 30.35490000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Mayakovskaya_%28Saint_Petersburg_Metro%29",
     "name": "Mayakovskaya",
     "reference": "Saint Petersburg"
   },
-  "monument": {
+  "monument-london": {
     "been": true,
     "city": "London",
     "coords": "51.51300000, -0.08800000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Bank_and_Monument_stations",
+    "name": "Monument",
+    "reference": "London"
+  },
+  "monument-newcastle": {
+    "been": true,
+    "city": "Newcastle",
+    "coords": "54.97400580, -1.61317170",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Monument_Metro_station",
     "name": "Monument",
     "reference": "Newcastle"
   },
-  "moskovskaya": {
+  "moskovskaya-nizhny-novgorod": {
     "been": true,
     "city": "Nizhny Novgorod",
     "coords": "56.32138889, 43.94527778",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Nizhny_Novgorod_Metro)",
+    "name": "Moskovskaya",
+    "reference": "Nizhny Novgorod"
+  },
+  "moskovskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.85219167, 30.32220556",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Saint_Petersburg_Metro)",
     "name": "Moskovskaya",
     "reference": "Saint Petersburg"
   },
-  "museum": {
+  "museum-antwerp": {
     "been": true,
     "city": "Antwerp",
     "country": "BE",
@@ -545,7 +1038,7 @@
     "reference": "Antwerp",
     "wikidata": "Q777867"
   },
-  "muzeum": {
+  "muzeum-prague": {
     "been": true,
     "city": "Prague",
     "coords": "50.07960000, 14.43120000",
@@ -555,16 +1048,28 @@
     "name": "Muzeum",
     "reference": "Prague"
   },
-  "namesti-miru": {
+  "namesti-miru-plzen": {
     "been": true,
-    "city": "Prague",
+    "city": "Plzeň",
+    "coords": "50.07533250, 14.43769000",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Plzeň",
     "name": "Náměstí Míru",
-    "reference": "Plzeň"
+    "reference": "Plzeň",
+    "wikidata": "Q1242719"
   },
-  "new-dorp": {
+  "namesti-miru-prague": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.07533250, 14.43769000",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Náměstí_Míru_(Prague_Metro)",
+    "name": "Náměstí Míru",
+    "reference": "Prague"
+  },
+  "new-dorp-new-york": {
     "been": true,
     "city": "New York",
     "coords": "40.57360000, -74.11710000",
@@ -574,48 +1079,117 @@
     "name": "New Dorp",
     "reference": "New York"
   },
-  "oktyabrskaya": {
+  "oktyabrskaya-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.72970000, 37.60910000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Oktyabrskaya_(Koltsevaya_line)",
+    "name": "Oktyabrskaya",
+    "reference": "Moscow"
+  },
+  "oktyabrskaya-novosibirsk": {
+    "been": true,
+    "coords": "55.01888900, 82.93916700",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Oktyabrskaya_(Novosibirsk_Metro)",
     "name": "Oktyabrskaya",
     "reference": "Novosibirsk"
   },
-  "opera": {
+  "opera-antwerp": {
     "been": true,
     "city": "Antwerp",
     "coords": "51.21805556, 4.41555556",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Opera_(premetrostation)",
+    "name": "Opera",
+    "reference": "Antwerp"
+  },
+  "opera-budapest": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.50220000, 19.05860000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Opera_metro_station_(Budapest)",
+    "name": "Opera",
+    "reference": "Budapest"
+  },
+  "opera-madrid": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.41816650, -3.70941630",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ópera",
+    "name": "Ópera",
+    "reference": "Madrid"
+  },
+  "opera-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87063595, 2.33235240",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Opéra_(métro_de_Paris)",
-    "name": "Opera",
+    "name": "Opéra",
     "reference": "Paris"
   },
-  "park-kultury": {
+  "park-kultury-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.73553, 37.59208",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Nizhny_Novgorod_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Moscow_Metro)",
     "name": "Park Kultury",
-    "reference": "Nizhny Novgorod",
+    "reference": "Moscow",
     "wikidata": "Q1340440"
   },
-  "pasteur": {
+  "park-kultury-nizhny-novgorod": {
+    "been": true,
+    "city": "Nizhny Novgorod",
+    "coords": "56.24222222, 43.85750000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Nizhny_Novgorod_Metro)",
+    "name": "Park Kultury",
+    "reference": "Nizhny Novgorod"
+  },
+  "pasteur-buenos-aires": {
     "been": true,
     "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Pasteur-AMIA_(subte_de_Buenos_Aires)",
+    "name": "Pasteur",
+    "reference": "Buenos Aires",
+    "wikidata": "Q529"
+  },
+  "pasteur-milan": {
+    "been": true,
+    "city": "Milan",
     "coords": "45.49072222, 9.21805556",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Pasteur_(Milan_Metro)",
+    "name": "Pasteur",
+    "reference": "Milan"
+  },
+  "pasteur-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84283594, 2.31268108",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Pasteur_(métro_de_Paris)",
     "name": "Pasteur",
-    "reference": "Paris",
-    "wikidata": "Q529"
+    "reference": "Paris"
   },
-  "placa-despanya": {
+  "placa-despanya-barcelona": {
     "been": true,
     "city": "Barcelona",
     "country": "ES",
@@ -624,7 +1198,7 @@
     "name": "Plaça d’Espanya",
     "reference": "Barcelona"
   },
-  "placa-espanya": {
+  "placa-espanya-valencia": {
     "been": true,
     "city": "Barcelona",
     "coords": "41.37500000, 2.14900000",
@@ -634,7 +1208,7 @@
     "name": "Plaça Espanya",
     "reference": "Valencia"
   },
-  "place-jean-jaures": {
+  "place-jean-jaures-lyon": {
     "been": true,
     "city": "Lyon",
     "coords": "45.73754100, 4.83729400",
@@ -644,7 +1218,7 @@
     "name": "Place Jean Jaurès",
     "reference": "Lyon"
   },
-  "plaza-de-espana": {
+  "plaza-de-espana-madrid": {
     "been": true,
     "city": "Madrid",
     "coords": "40.42490000, -3.70801000",
@@ -654,26 +1228,55 @@
     "name": "Plaza de España",
     "reference": "Madrid"
   },
-  "ploshcha-lyenina": {
+  "ploshcha-lyenina-minsk": {
     "been": true,
     "city": "Minsk",
+    "coords": "53.89320000, 27.54780000",
     "country": "BY",
     "icons": ["🇧🇾"],
     "link": "https://en.wikipedia.org/wiki/Ploshcha_Lyenina_(Minsk_Metro)",
     "name": "Ploshcha Lyenina",
     "reference": "Minsk"
   },
-  "ploshchad-lenina": {
+  "ploshchad-lenina-novosibirsk": {
+    "been": true,
+    "coords": "55.03000000, 82.92055600",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Lenina_(Novosibirsk_Metro)",
+    "name": "Ploshchad Lenina",
+    "reference": "Novosibirsk"
+  },
+  "ploshchad-lenina-saint-petersburg": {
     "been": true,
     "city": "Saint Petersburg",
-    "coords": "55.03000000, 82.92055600",
+    "coords": "59.95666667, 30.35555556",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Lenina_(Saint_Petersburg_Metro)",
+    "name": "Ploshchad Lenina",
+    "reference": "Saint Petersburg"
+  },
+  "ploshchad-lenina-volgograd": {
+    "been": true,
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
     "name": "Ploshchad Lenina",
-    "reference": "Volgograd"
+    "reference": "Volgograd",
+    "wikidata": "Q1925923"
   },
-  "ploshchad-revolyutsii": {
+  "ploshchad-revolyutsii-chelyabinsk": {
+    "been": true,
+    "city": "Moscow",
+    "coords": "55.75660000, 37.62160000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chelyabinsk_Metro",
+    "name": "Ploshchad Revolyutsii",
+    "reference": "Chelyabinsk"
+  },
+  "ploshchad-revolyutsii-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.75660000, 37.62160000",
@@ -681,20 +1284,30 @@
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Ploshchad_Revolyutsii_(Moscow_Metro)",
     "name": "Ploshchad Revolyutsii",
-    "reference": "Moscow",
-    "wikidata": "Q1925744"
+    "reference": "Moscow"
   },
-  "prazeres": {
+  "prazeres-lisbon": {
     "been": true,
     "city": "Lisbon",
     "coords": "38.42000000, -9.10000000",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Prazeres,_Lisbon",
+    "name": "Prazeres",
+    "reference": "Lisbon"
+  },
+  "prazeres-recife": {
+    "been": true,
+    "city": "Lisbon",
+    "coords": "38.708888888889, -9.1688888888889",
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://pt.wikipedia.org/wiki/Prazeres_(Jaboatão_dos_Guararapes)",
     "name": "Prazeres",
-    "reference": "Recife"
+    "reference": "Recife",
+    "wikidata": "Q1850965"
   },
-  "pushkinska": {
+  "pushkinska-kharkiv": {
     "been": true,
     "city": "Kharkiv",
     "coords": "50.00393333, 36.24752222",
@@ -704,55 +1317,127 @@
     "name": "Pushkinska",
     "reference": "Kharkiv"
   },
-  "pushkinskaya": {
+  "pushkinskaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.76500000, 37.60790000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_(Moscow_Metro)",
+    "name": "Pushkinskaya",
+    "reference": "Moscow"
+  },
+  "pushkinskaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.92068889, 30.32966944",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Pushkinskaya_%28Saint_Petersburg_Metro%29",
     "name": "Pushkinskaya",
     "reference": "Saint Petersburg"
   },
-  "rechnoy-vokzal": {
+  "rechnoy-vokzal-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.85490000, 37.47610000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Rechnoy_Vokzal_(Moscow_Metro)",
+    "name": "Rechnoy Vokzal",
+    "reference": "Moscow"
+  },
+  "rechnoy-vokzal-novosibirsk": {
+    "been": true,
+    "coords": "55.00933300, 82.94019400",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Rechnoy_Vokzal_(Novosibirsk_Metro)",
     "name": "Rechnoy Vokzal",
     "reference": "Novosibirsk"
   },
-  "republique": {
+  "republique-lyon": {
     "been": true,
     "city": "Lyon",
     "coords": "45.77055800, 4.87366000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/République_-_Villeurbanne_(métro_de_Lyon)",
+    "name": "République",
+    "reference": "Lyon"
+  },
+  "republique-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86732300, 2.36412900",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/République_(métro_de_Paris)",
     "name": "République",
     "reference": "Paris"
   },
-  "richmond": {
+  "richmond-london": {
     "been": true,
     "city": "Richmond",
     "coords": "51.46300000, -0.30000000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Richmond_station_(London)",
+    "name": "Richmond",
+    "reference": "London"
+  },
+  "richmond-san-francisco": {
+    "been": true,
+    "city": "Richmond",
+    "coords": "37.93680000, -122.35310000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Richmond_station_(California)",
     "name": "Richmond",
     "reference": "San Francisco"
   },
-  "sao-bento": {
+  "san-antonio-medellin": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "29.425, -98.49388888888889",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
+    "name": "San Antonio",
+    "reference": "Medellín",
+    "wikidata": "Q975"
+  },
+  "san-antonio-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "29.425, -98.49388888888889",
+    "icons": ["🇲🇽‍"],
+    "link": "https://es.wikipedia.org/wiki/San_Antonio_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "San Antonio",
+    "reference": "Mexico City",
+    "wikidata": "Q975"
+  },
+  "sao-bento-lisbon": {
     "been": true,
     "city": "Lisbon",
+    "coords": "41.14555556, -8.61033333",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/São_Bento_railway_station",
+    "name": "Sāo Bento",
+    "reference": "Lisbon"
+  },
+  "sao-bento-sao-paulo": {
+    "been": true,
+    "city": "São Paulo",
+    "coords": "-23.54391400, -46.63380600",
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/São_Bento_(São_Paulo_Metro)",
     "name": "Sāo Bento",
     "reference": "Sāo Paulo"
   },
-  "saxe-gambetta": {
+  "saxe-gambetta-lyon": {
     "been": true,
     "city": "Lyon",
     "coords": "45.75379900, 4.84698800",
@@ -762,17 +1447,65 @@
     "name": "Saxe-Gambetta",
     "reference": "Lyon"
   },
-  "sportivnaya": {
+  "sevilla-madrid": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.41805400, -3.69925030",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sevilla_(Madrid_Metro)",
+    "name": "Sevilla",
+    "reference": "Madrid"
+  },
+  "sevilla-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "39.50000000, -3.70000000",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Sevilla_(estación_del_Metro_de_Ciudad_de_México)",
+    "name": "Sevilla",
+    "reference": "Mexico City"
+  },
+  "sportivnaya-moscow": {
     "been": true,
     "city": "Moscow",
     "coords": "55.72330000, 37.56390000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Moscow_Metro)",
+    "name": "Sportivnaya",
+    "reference": "Moscow"
+  },
+  "sportivnaya-novosibirsk": {
+    "been": true,
+    "coords": "54.99700000, 82.92050000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Novosibirsk_Metro)",
+    "name": "Sportivnaya",
+    "reference": "Novosibirsk"
+  },
+  "sportivnaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.95208300, 30.29061100",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Saint_Petersburg_Metro)",
+    "name": "Sportivnaya",
+    "reference": "Saint Petersburg"
+  },
+  "sportivnaya-samara": {
+    "been": true,
+    "coords": "53.20080600, 50.20002800",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Samara_Metro)",
     "name": "Sportivnaya",
     "reference": "Samara"
   },
-  "sportyvna": {
+  "sportyvna-kharkiv": {
     "been": true,
     "city": "Kharkiv",
     "coords": "49.97944444, 36.26083333",
@@ -782,73 +1515,154 @@
     "name": "Sportyvna",
     "reference": "Kharkiv"
   },
-  "teatralna": {
+  "teatralna-dnipro": {
     "been": true,
+    "coords": "48.47555556, 35.01583333",
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Teatralna_(Dnipro_Metro)",
     "name": "Teatralna",
     "reference": "Dnipro"
   },
-  "teatralnaya": {
+  "teatralnaya-moscow": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.75780000, 37.61900000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Teatralnaya_(Moscow_Metro)",
+    "name": "Teatralnaya",
+    "reference": "Moscow"
+  },
+  "teatralnaya-saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.92666600, 30.29722200",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Teatralnaya_%28Saint_Petersburg_Metro%29",
     "name": "Teatralnaya",
     "reference": "Saint Petersburg"
   },
-  "uruguay": {
+  "uruguay-buenos-aires": {
     "been": true,
     "city": "Buenos Aires",
     "coords": "-34.88333333, -56.16666667",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Uruguay_(subte_de_Buenos_Aires)",
+    "name": "Uruguay",
+    "reference": "Buenos Aires"
+  },
+  "uruguay-milan": {
+    "been": true,
+    "city": "Milan",
+    "coords": "45.49350000, 9.12050000",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Uruguay_(Milan_Metro)",
     "name": "Uruguay",
     "reference": "Milan"
   },
-  "van-ness": {
+  "van-ness-san-francisco": {
     "been": true,
     "city": "San Francisco",
     "coords": "37.77500000, -122.41900000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Van_Ness_station",
+    "name": "Van Ness",
+    "reference": "San Francisco"
+  },
+  "van-ness-washington": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.94455556, -77.06352778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Van_Ness–UDC_station",
     "name": "Van Ness",
     "reference": "Washington"
   },
-  "victoria": {
+  "victoria-athens": {
     "been": true,
     "city": "Athens",
     "coords": "37.99296000, 23.73019500",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Victoria_metro_station,_Athens",
+    "name": "Victoria",
+    "reference": "Athens"
+  },
+  "victoria-london": {
+    "been": true,
+    "city": "London",
+    "coords": "51.49520000, -0.14410000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London_Victoria_station",
     "name": "Victoria",
     "reference": "London"
   },
-  "vokzalna": {
+  "vokzalna-dnipro": {
+    "been": true,
+    "coords": "48.47531111, 35.01542222",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Dnipro_Metro)",
+    "name": "Vokzalna",
+    "reference": "Dnipro"
+  },
+  "vokzalna-kharkiv": {
     "been": true,
     "city": "Kharkiv",
+    "coords": "49.98944444, 36.20500000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kharkiv_Metro)",
+    "name": "Vokzalna",
+    "reference": "Kharkiv"
+  },
+  "vokzalna-kyiv": {
+    "been": true,
+    "city": "Kyiv",
+    "coords": "50.44166667, 30.48805556",
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kyiv_Metro)",
     "name": "Vokzalna",
     "reference": "Kyiv"
   },
-  "waterloo": {
+  "waterloo-charleroi": {
     "been": true,
-    "city": "London",
     "coords": "50.41750000, 4.45000000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Waterloo_metro_station_(Charleroi)",
+    "name": "Waterloo",
+    "reference": "Charleroi"
+  },
+  "waterloo-hannover": {
+    "been": true,
+    "coords": "52.3672, 9.72861",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Waterlooplatz",
     "name": "Waterloo",
-    "reference": "Hannover"
+    "reference": "Hannover",
+    "wikidata": "Q2552595"
   },
-  "waterlooplein": {
+  "waterloo-london": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50310000, -0.11320000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/London_Waterloo_station",
+    "name": "Waterloo",
+    "reference": "London"
+  },
+  "waterlooplein-amsterdam": {
     "been": true,
     "city": "Amsterdam",
     "coords": "52.36750000, 4.90166667",
@@ -858,7 +1672,7 @@
     "name": "Waterlooplein",
     "reference": "Amsterdam"
   },
-  "world-trade-center": {
+  "world-trade-center-new-york": {
     "been": true,
     "city": "New York",
     "coords": "40.71150000, -74.01140000",
@@ -868,7 +1682,7 @@
     "name": "World Trade Center",
     "reference": "New York"
   },
-  "world-trade-centre": {
+  "world-trade-centre-dubai": {
     "been": true,
     "city": "Dubai",
     "coords": "25.22480000, 55.28510000",

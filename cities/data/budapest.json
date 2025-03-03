@@ -444,6 +444,24 @@
     "name": "Nagyvárad tér (Oradea)",
     "type": "metro-places"
   },
+  "metro-population-budapest": {
+    "been": true,
+    "city": "Budapest",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "name": "Budapest",
+    "prefix": "63.46",
+    "type": "metro-population"
+  },
+  "metro-prices-budapest": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "name": "Budapest",
+    "prefix": "$1.17",
+    "type": "metro-prices"
+  },
   "metros-budapest": {
     "been": true,
     "city": "Budapest",
@@ -546,6 +564,136 @@
     "link": "https://en.wikipedia.org/wiki/Széchenyi_thermal_bath",
     "name": "Széchenyi Fürdő",
     "type": "records"
+  },
+  "renamed-bajcsy‑zsilinszky-ut": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Bajcsy-Zsilinszky_út_metro_station",
+    "name": "Bajcsy‑Zsilinszky út",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-corvin‑negyed": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Corvin-negyed_metro_station",
+    "name": "Corvin‑negyed",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-ferenciek-tere": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Ferenciek_tere_metro_station",
+    "name": "Ferenciek tere",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-goncz-arpad-varoskozpont": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Göncz_Árpád_városközpont_metro_station",
+    "name": "Göncz Árpád városközpont",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-kossuth-lajos-ter": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kossuth_Lajos_tér_metro_station",
+    "name": "Kossuth Lajos tér",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-lehel-ter": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Lehel_tér_metro_station",
+    "name": "Lehel tér",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-nyugati-palyaudvar": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Nyugati_pályaudvar_metro_station",
+    "name": "Nyugati pályaudvar",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-oktogon": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Oktogon_metro_station",
+    "name": "Oktogon",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-ors-vezer-tere": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Örs_vezér_tere_metro_station",
+    "name": "Örs vezér tere",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-puskas-ferenc-stadion": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Puskás_Ferenc_Stadion_metro_station",
+    "name": "Puskás Ferenc Stadion",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-semmelweis-klinikak": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Semmelweis_Klinikák_metro_station",
+    "name": "Semmelweis Klinikák",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-szell-kalman-ter": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Széll_Kálmán_tér_metro_station",
+    "name": "Széll Kálmán tér",
+    "reference": "Budapest",
+    "type": "renamed"
+  },
+  "renamed-vorosmarty-ter": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Vörösmarty_tér_metro_station",
+    "name": "Vörösmarty tér",
+    "reference": "Budapest",
+    "type": "renamed"
   },
   "spas-csillaghegy-furdo": {
     "been": false,
@@ -775,15 +923,41 @@
     "reference": "Russian Doll",
     "type": "tv-places"
   },
+  "twin-cities-budapest": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "name": "Budapest",
+    "type": "twin-cities"
+  },
+  "twin-cities-budapest-mi": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Budapest, MI",
+    "type": "twin-cities"
+  },
   "twin-stations-astoria": {
     "been": true,
     "city": "Budapest",
     "coords": "47.49440000, 19.06000000",
-    "country": "US",
+    "country": "HU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Astoria–Ditmars_Boulevard_station",
+    "link": "https://en.wikipedia.org/wiki/Astoria_metro_station",
     "name": "Astoria",
-    "reference": "New York",
+    "reference": "Budapest",
+    "type": "twin-stations"
+  },
+  "twin-stations-opera": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.50220000, 19.05860000",
+    "country": "HU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Opera_metro_station_(Budapest)",
+    "name": "Opera",
+    "reference": "Budapest",
     "type": "twin-stations"
   }
 }

@@ -118,6 +118,24 @@
     "prefix": "1600",
     "type": "gauges"
   },
+  "metro-population-sao-paulo": {
+    "been": false,
+    "city": "São Paulo",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "name": "São Paulo",
+    "prefix": "217.8",
+    "type": "metro-population"
+  },
+  "metro-prices-sao-paulo": {
+    "been": false,
+    "city": "São Paulo",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "name": "São Paulo",
+    "prefix": "$0.88",
+    "type": "metro-prices"
+  },
   "metros-sao-paulo": {
     "been": false,
     "city": "São Paulo",
@@ -157,5 +175,35 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_S%C3%A3o_Paulo",
     "name": "São Paulo",
     "type": "trolleybuses"
+  },
+  "twin-cities-sao-paulo": {
+    "been": false,
+    "city": "São Paulo",
+    "country": "ST",
+    "icons": ["🇸🇹"],
+    "name": "São Paulo",
+    "type": "twin-cities"
+  },
+  "twin-stations-belem": {
+    "been": true,
+    "city": "São Paulo",
+    "coords": "-23.54321600, -46.58952000",
+    "country": "BR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Belém_(São_Paulo_Metro)",
+    "name": "Belém",
+    "reference": "Sāo Paulo",
+    "type": "twin-stations"
+  },
+  "twin-stations-sao-bento": {
+    "been": true,
+    "city": "São Paulo",
+    "coords": "-23.54391400, -46.63380600",
+    "country": "BR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/São_Bento_(São_Paulo_Metro)",
+    "name": "Sāo Bento",
+    "reference": "Sāo Paulo",
+    "type": "twin-stations"
   }
 }

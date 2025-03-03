@@ -38,5 +38,27 @@
     "link": "https://en.wikipedia.org/wiki/Elizabeth_River_(Virginia)",
     "name": "Elizabeth (VA)",
     "type": "rivers"
+  },
+  "twin-cities-norfolk": {
+    "been": false,
+    "city": "Norfolk",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Norfolk",
+    "type": "twin-cities"
+  },
+  "twin-cities-norfolk-ct": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Norfolk, CT",
+    "type": "twin-cities"
+  },
+  "twin-cities-norfolk-va": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Norfolk, VA",
+    "type": "twin-cities"
   }
 }

@@ -10,10 +10,13 @@
   },
   "62nd-street/new-utrecht-avenue": {
     "been": true,
+    "city": "New York",
+    "coords": "40.62482, -73.99636",
     "countries": ["US", "NL"],
     "icons": ["🇺🇸", "🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/62nd_Street/New_Utrecht_Avenue_station",
-    "name": "62nd Street/New Utrecht Avenue"
+    "name": "62nd Street/New Utrecht Avenue",
+    "wikidata": "Q2615298"
   },
   "alabama-avenue": {
     "been": true,
@@ -193,6 +196,8 @@
   },
   "chinatown-(mbta)": {
     "been": true,
+    "city": "Boston",
+    "coords": "42.35220000, -71.06270000",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
@@ -200,6 +205,8 @@
   },
   "chinatown-(mrt)": {
     "been": false,
+    "city": "Singapore",
+    "coords": "1.28490000, 103.84396000",
     "countries": ["SG", "CN"],
     "icons": ["🇸🇬", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
@@ -207,6 +214,8 @@
   },
   "chinatown-(septa)": {
     "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
@@ -302,7 +311,7 @@
     "name": "Estacío de França"
   },
   "etiopia": {
-    "been": false,
+    "been": true,
     "countries": ["MX", "ET"],
     "icons": ["🇲🇽", "🇪🇹"],
     "link": "https://es.wikipedia.org/wiki/Etiopía-Plaza_de_la_Transparencia_(estación)",
@@ -408,6 +417,13 @@
     "link": "https://en.wikipedia.org/wiki/Hamburg_Street_station_(Light_RailLink)",
     "name": "Hamburg Street"
   },
+  "hamburgo": {
+    "been": true,
+    "countries": ["MX", "DE"],
+    "icons": ["🇲🇽", "🇩🇪"],
+    "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
+    "name": "Hamburgo"
+  },
   "harlem": {
     "been": true,
     "city": "Chicago",
@@ -420,10 +436,13 @@
   },
   "iceland": {
     "been": false,
+    "city": "Reykjavík",
+    "coords": "64.13333333, -21.93333333",
     "countries": ["IL", "IS"],
     "icons": ["🇮🇱", "🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Red_Line_(Jerusalem_Light_Rail)",
-    "name": "Iceland"
+    "name": "Iceland",
+    "wikidata": "Q12406939"
   },
   "indiana": {
     "been": false,
@@ -451,7 +470,7 @@
     "name": "Izraelita Temető"
   },
   "jamaica": {
-    "been": false,
+    "been": true,
     "coords": "17.97138889, -76.79305556",
     "countries": ["MX", "JM"],
     "icons": ["🇲🇽", "🇯🇲"],
@@ -494,7 +513,7 @@
     "name": "Jourdain"
   },
   "juarez": {
-    "been": false,
+    "been": true,
     "city": "El Paso",
     "coords": "31.745, -106.485",
     "country": "MX",
@@ -549,9 +568,9 @@
   "la-paz": {
     "been": false,
     "coords": "10.48522222, -66.94675000",
-    "countries": ["MX", "BO"],
-    "icons": ["🇲🇽", "🇧🇴"],
-    "link": "https://es.wikipedia.org/wiki/La_Paz_(estación_del_Metro_de_Ciudad_de_México)",
+    "countries": ["VE", "BO"],
+    "icons": ["🇻🇪", "🇧🇴"],
+    "link": "https://en.wikipedia.org/wiki/La_Paz_station_(Caracas)",
     "name": "La Paz"
   },
   "leningradsky-vokzal": {
@@ -619,10 +638,13 @@
   },
   "mexico": {
     "been": false,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
     "countries": ["IL", "IS"],
     "icons": ["🇮🇱", "🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Red_Line_(Jerusalem_Light_Rail)",
-    "name": "Mexico"
+    "name": "Mexico",
+    "wikidata": "Q12406939"
   },
   "mexikoi-ut": {
     "been": true,
@@ -774,6 +796,16 @@
     "link": "https://en.wikipedia.org/wiki/Lima_and_Callao_Metro",
     "name": "Panama"
   },
+  "paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85666666666667, 2.352222222222222",
+    "countries": ["MX", "FR"],
+    "icons": ["🇲🇽", "🇫🇷"],
+    "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
+    "name": "París",
+    "wikidata": "Q90"
+  },
   "parque-europa": {
     "been": true,
     "coords": "40.28517540, -3.80632160",
@@ -881,7 +913,7 @@
     "name": "Portugalete"
   },
   "puebla": {
-    "been": false,
+    "been": true,
     "coords": "19.00000000, -97.88333333",
     "country": "MX",
     "icons": ["🇲🇽"],
@@ -996,6 +1028,15 @@
     "link": "https://fr.wikipedia.org/wiki/Rome_(métro_de_Paris)",
     "name": "Rome"
   },
+  "san-antonio": {
+    "been": true,
+    "coords": "29.425, -98.49388888888889",
+    "countries": ["CO", "US"],
+    "icons": ["🇨🇴", "🇺🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
+    "name": "San Antonio",
+    "wikidata": "Q975"
+  },
   "san-francisco": {
     "been": false,
     "city": "San Francisco",
@@ -1004,6 +1045,26 @@
     "icons": ["🇪🇨", "🇺🇸"],
     "link": "https://es.wikipedia.org/wiki/San_Francisco_(Metro_de_Quito)",
     "name": "San Francisco"
+  },
+  "san-jose": {
+    "been": true,
+    "city": "San José",
+    "coords": "37.304166666667, -121.87277777778",
+    "countries": ["CO", "CR"],
+    "icons": ["🇨🇴", "🇨🇷"],
+    "link": "https://es.wikipedia.org/wiki/Estación_San_José_(Metro_de_Medellín)",
+    "name": "San Jose",
+    "wikidata": "Q16553"
+  },
+  "santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "6.30593, -75.58213",
+    "countries": ["CO", "DO"],
+    "icons": ["🇨🇴", "🇩🇴"],
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Santo Domingo",
+    "wikidata": "Q3307447"
   },
   "schwedenplatz": {
     "been": true,
@@ -1018,9 +1079,10 @@
     "been": true,
     "city": "Madrid",
     "coords": "40.41805400, -3.69925030",
+    "countries": ["MX", "ES"],
     "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Sevilla_(Madrid_Metro)",
+    "icons": ["🇲🇽", "🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Sevilla_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Sevilla"
   },
   "sicilia": {
@@ -1236,7 +1298,7 @@
     "name": "Wyoming"
   },
   "zaragoza": {
-    "been": false,
+    "been": true,
     "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "countries": ["MX", "ES"],

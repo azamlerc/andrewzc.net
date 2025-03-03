@@ -80,5 +80,34 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Bergen",
     "name": "Bergen",
     "type": "trolleybuses"
+  },
+  "twin-cities-bergen": {
+    "been": false,
+    "city": "Bergen",
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "name": "Bergen",
+    "type": "twin-cities"
+  },
+  "twin-cities-bergen-ab": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Bergen, AB",
+    "type": "twin-cities"
+  },
+  "twin-cities-bergen-nj": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bergen, NJ",
+    "type": "twin-cities"
+  },
+  "twin-cities-bergen-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bergen, NY",
+    "type": "twin-cities"
   }
 }

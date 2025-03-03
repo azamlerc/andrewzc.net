@@ -83,8 +83,9 @@
   "loops-bahnhof": {
     "been": true,
     "city": "Bern",
+    "coords": "46.94881944, 7.43911667",
     "country": "CH",
-    "icons": ["🇨🇭"],
+    "icons": ["🎈"],
     "link": "https://de.wikipedia.org/wiki/Bahnhof_Bern",
     "name": "Bahnhof",
     "reference": "Bern",
@@ -216,5 +217,20 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Bern",
     "name": "Bern",
     "type": "trolleybuses"
+  },
+  "twin-cities-bern": {
+    "been": true,
+    "city": "Bern",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "name": "Bern",
+    "type": "twin-cities"
+  },
+  "twin-cities-bern-id": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bern, ID",
+    "type": "twin-cities"
   }
 }

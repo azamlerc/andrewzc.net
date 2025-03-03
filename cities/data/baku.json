@@ -60,6 +60,24 @@
     "strike": true,
     "type": "luna-park"
   },
+  "metro-population-baku": {
+    "been": false,
+    "city": "Baku",
+    "country": "AZ",
+    "icons": ["🇦🇿"],
+    "name": "Baku",
+    "prefix": "87.78",
+    "type": "metro-population"
+  },
+  "metro-prices-baku": {
+    "been": false,
+    "city": "Baku",
+    "country": "AZ",
+    "icons": ["🇦🇿"],
+    "name": "Baku",
+    "prefix": "$0.18",
+    "type": "metro-prices"
+  },
   "metros-baku": {
     "been": false,
     "city": "Baku",
@@ -79,7 +97,7 @@
     "type": "open-gangways"
   },
   "open-gangways-oka": {
-    "been": true,
+    "been": false,
     "city": "Baku",
     "country": "AZ",
     "icons": ["🇦🇿"],
@@ -133,5 +151,13 @@
     "name": "Baku",
     "strike": true,
     "type": "trolleybuses"
+  },
+  "twin-cities-baku": {
+    "been": false,
+    "city": "Baku",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Baku",
+    "type": "twin-cities"
   }
 }

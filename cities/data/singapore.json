@@ -282,6 +282,16 @@
     "name": "Canberra",
     "type": "metro-places"
   },
+  "metro-places-chinatown-(mrt)": {
+    "been": false,
+    "city": "Singapore",
+    "coords": "1.28490000, 103.84396000",
+    "countries": ["SG", "CN"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
+    "name": "Chinatown (MRT)",
+    "type": "metro-places"
+  },
   "metro-places-dover": {
     "been": false,
     "city": "Singapore",
@@ -291,6 +301,24 @@
     "link": "https://en.wikipedia.org/wiki/Dover_MRT_station",
     "name": "Dover",
     "type": "metro-places"
+  },
+  "metro-population-singapore": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "name": "Singapore",
+    "prefix": "30.48",
+    "type": "metro-population"
+  },
+  "metro-prices-singapore": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "name": "Singapore",
+    "prefix": "$1.04",
+    "type": "metro-prices"
   },
   "metros-singapore": {
     "been": false,
@@ -381,7 +409,7 @@
     "type": "open-gangways"
   },
   "open-gangways-c151": {
-    "been": true,
+    "been": false,
     "city": "Singapore",
     "country": "SG",
     "icons": ["🇸🇬"],
@@ -538,5 +566,35 @@
     "name": "Singapore",
     "strike": true,
     "type": "trolleybuses"
+  },
+  "twin-cities-singapore": {
+    "been": false,
+    "city": "Singapore",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "Singapore",
+    "type": "twin-cities"
+  },
+  "twin-stations-admiralty": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.44068889, 103.80093333",
+    "country": "SG",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Admiralty_MRT_station",
+    "name": "Admiralty",
+    "reference": "Singapore",
+    "type": "twin-stations"
+  },
+  "twin-stations-chinatown": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.28490000, 103.84396000",
+    "country": "SG",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
+    "name": "Chinatown",
+    "reference": "Singapore",
+    "type": "twin-stations"
   }
 }

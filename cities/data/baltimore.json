@@ -82,6 +82,24 @@
     "reference": "Baltimore",
     "type": "highway-medians"
   },
+  "metro-population-baltimore": {
+    "been": false,
+    "city": "Baltimore",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Baltimore",
+    "prefix": "200.0",
+    "type": "metro-population"
+  },
+  "metro-prices-baltimore": {
+    "been": false,
+    "city": "Baltimore",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Baltimore",
+    "prefix": "$1.90",
+    "type": "metro-prices"
+  },
   "metros-baltimore": {
     "been": false,
     "city": "Baltimore",
@@ -192,5 +210,20 @@
     "reference": "The Wire",
     "state": "MD",
     "type": "tv-places"
+  },
+  "twin-cities-baltimore": {
+    "been": false,
+    "city": "Baltimore",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Baltimore",
+    "type": "twin-cities"
+  },
+  "twin-cities-baltimore-md": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Baltimore, MD",
+    "type": "twin-cities"
   }
 }

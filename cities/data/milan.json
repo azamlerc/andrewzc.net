@@ -143,6 +143,24 @@
     "name": "Milan",
     "type": "luna-park"
   },
+  "metro-population-milan": {
+    "been": false,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Milan",
+    "prefix": "66.37",
+    "type": "metro-population"
+  },
+  "metro-prices-milan": {
+    "been": false,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Milan",
+    "prefix": "$2.06",
+    "type": "metro-prices"
+  },
   "metros-milan": {
     "been": false,
     "city": "Milan",
@@ -288,5 +306,66 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Milan",
     "name": "Milan",
     "type": "trolleybuses"
+  },
+  "twin-cities-milan": {
+    "been": false,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Milan",
+    "type": "twin-cities"
+  },
+  "twin-cities-milan-in": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Milan, IN",
+    "type": "twin-cities"
+  },
+  "twin-cities-milan-mi": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Milan, MI",
+    "type": "twin-cities"
+  },
+  "twin-cities-milan-nh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Milan, NH",
+    "type": "twin-cities"
+  },
+  "twin-stations-garibaldi": {
+    "been": true,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://it.wikipedia.org/wiki/Garibaldi_FS_(metropolitana_di_Milano)",
+    "name": "Garibaldi",
+    "reference": "Milan",
+    "type": "twin-stations"
+  },
+  "twin-stations-pasteur": {
+    "been": true,
+    "city": "Milan",
+    "coords": "45.49072222, 9.21805556",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Pasteur_(Milan_Metro)",
+    "name": "Pasteur",
+    "reference": "Milan",
+    "type": "twin-stations"
+  },
+  "twin-stations-uruguay": {
+    "been": true,
+    "city": "Milan",
+    "coords": "45.49350000, 9.12050000",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Uruguay_(Milan_Metro)",
+    "name": "Uruguay",
+    "reference": "Milan",
+    "type": "twin-stations"
   }
 }

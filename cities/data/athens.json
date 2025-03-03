@@ -60,6 +60,24 @@
     "name": "Athens",
     "type": "luna-park"
   },
+  "metro-population-athens": {
+    "been": false,
+    "city": "Athens",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "name": "Athens",
+    "prefix": "48.48",
+    "type": "metro-population"
+  },
+  "metro-prices-athens": {
+    "been": false,
+    "city": "Athens",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "name": "Athens",
+    "prefix": "$1.44",
+    "type": "metro-prices"
+  },
   "metros-athens": {
     "been": false,
     "city": "Athens",
@@ -163,15 +181,30 @@
     "name": "Piraeus",
     "type": "trolleybuses"
   },
+  "twin-cities-athens": {
+    "been": false,
+    "city": "Athens",
+    "country": "ZW",
+    "icons": ["🇿🇼"],
+    "name": "Athens",
+    "type": "twin-cities"
+  },
+  "twin-cities-athens-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Athens, GA",
+    "type": "twin-cities"
+  },
   "twin-stations-victoria": {
     "been": true,
     "city": "Athens",
     "coords": "37.99296000, 23.73019500",
-    "country": "GB",
+    "country": "GR",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/London_Victoria_station",
+    "link": "https://en.wikipedia.org/wiki/Victoria_metro_station,_Athens",
     "name": "Victoria",
-    "reference": "London",
+    "reference": "Athens",
     "type": "twin-stations"
   }
 }

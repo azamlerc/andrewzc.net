@@ -47,6 +47,7 @@
     "coords": "59.91691111, 10.72756667",
     "country": "NO",
     "icons": ["🏩"],
+    "info": "Oslo",
     "link": "https://en.wikipedia.org/wiki/Royal_Palace,_Oslo",
     "name": "Royal Palace",
     "reference": "Oslo",
@@ -510,6 +511,24 @@
     "name": "Grønland",
     "type": "metro-places"
   },
+  "metro-population-oslo": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Oslo",
+    "prefix": "16.93",
+    "type": "metro-population"
+  },
+  "metro-prices-oslo": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Oslo",
+    "prefix": "$3.80",
+    "type": "metro-prices"
+  },
   "metros-oslo": {
     "been": true,
     "city": "Oslo",
@@ -598,6 +617,26 @@
     "name": "Oslo",
     "strike": true,
     "type": "premetros"
+  },
+  "renamed-vestgrensa": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Vestgrensa_(station)",
+    "name": "Vestgrensa",
+    "reference": "Oslo",
+    "type": "renamed"
+  },
+  "renamed-østhorn": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Østhorn_(station)",
+    "name": "Østhorn",
+    "reference": "Oslo",
+    "type": "renamed"
   },
   "rivers-akerselva": {
     "been": true,
@@ -789,6 +828,21 @@
     "name": "Oslo",
     "reference": "Occupied",
     "type": "tv-places"
+  },
+  "twin-cities-oslo": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Oslo",
+    "type": "twin-cities"
+  },
+  "twin-cities-oslo-mn": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Oslo, MN",
+    "type": "twin-cities"
   },
   "useless-elisenberg": {
     "been": true,

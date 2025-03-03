@@ -382,6 +382,16 @@
     "name": "Washington Square Arch",
     "type": "arches"
   },
+  "awa-brooklyn-bridge": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.70570000, -73.99640000",
+    "country": "US",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+    "name": "Brooklyn Bridge",
+    "type": "awa"
+  },
   "awa-gramercy-typewriter-company": {
     "been": true,
     "city": "New York",
@@ -642,6 +652,16 @@
     "icons": ["🍌"],
     "link": "https://en.wikipedia.org/wiki/42nd_Street–Bryant_Park/Fifth_Avenue_station",
     "name": "5th Avenue",
+    "type": "curved"
+  },
+  "curved-85th-street—forest-parkway": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.69241800, -73.86014000",
+    "country": "US",
+    "icons": ["🍌"],
+    "link": "https://en.wikipedia.org/wiki/85th_Street–Forest_Parkway_station",
+    "name": "85th Street—Forest Parkway",
     "type": "curved"
   },
   "curved-8th-avenue": {
@@ -2052,6 +2072,16 @@
     "name": "163rd Street–Amsterdam Avenue",
     "type": "metro-places"
   },
+  "metro-places-62nd-street/new-utrecht-avenue": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.62482000, -73.99636000",
+    "countries": ["US", "NL"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/62nd_Street/New_Utrecht_Avenue_station",
+    "name": "62nd Street/New Utrecht Avenue",
+    "type": "metro-places"
+  },
   "metro-places-alabama-avenue": {
     "been": true,
     "city": "New York",
@@ -2082,6 +2112,24 @@
     "name": "Pennsylvania Avenue",
     "type": "metro-places"
   },
+  "metro-population-new-york": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York",
+    "prefix": "41.44",
+    "type": "metro-population"
+  },
+  "metro-prices-new-york": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York",
+    "prefix": "$2.90",
+    "type": "metro-prices"
+  },
   "metros-new-york": {
     "been": true,
     "city": "New York",
@@ -2111,6 +2159,16 @@
     "link": "https://en.wikipedia.org/wiki/Powers_Street_Mosque",
     "name": "Powers Street",
     "type": "mosques"
+  },
+  "museums-9/11-museum": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71166667, -74.01361111",
+    "country": "US",
+    "icons": ["🖼"],
+    "link": "https://en.wikipedia.org/wiki/National_September_11_Memorial_&_Museum#Museum",
+    "name": "9/11 Museum",
+    "type": "museums"
   },
   "museums-9/11-museum-": {
     "been": true,
@@ -2482,8 +2540,9 @@
   "offset-14th-street–union-square": {
     "been": true,
     "city": "New York",
+    "coords": "40.73472222, -73.99027778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["⚡️"],
     "link": "https://en.wikipedia.org/wiki/14th_Street–Union_Square_station",
     "name": "14th Street–Union Square",
     "reference": "New York",
@@ -2502,8 +2561,9 @@
   "offset-astor-place": {
     "been": true,
     "city": "New York",
+    "coords": "40.72972222, -73.99166667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["⚡️"],
     "link": "https://en.wikipedia.org/wiki/Astor_Place_station",
     "name": "Astor Place",
     "reference": "New York",
@@ -3233,6 +3293,436 @@
     "link": "https://en.wikipedia.org/wiki/Vander_Ende–Onderdonk_House",
     "name": "Vander Ende–Onderdonk House",
     "type": "records"
+  },
+  "renamed-103rd-street–corona-plaza": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/103rd_Street–Corona_Plaza_station",
+    "name": "103rd Street–Corona Plaza",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-138th-street–grand-concourse-station": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/138th_Street–Grand_Concourse_station",
+    "name": "138th Street–Grand Concourse station",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-149th-street–grand-concourse": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/149th_Street–Grand_Concourse_station",
+    "name": "149th Street–Grand Concourse",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-161st-street–yankee-stadium": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/161st_Street–Yankee_Stadium_station",
+    "name": "161st Street–Yankee Stadium",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-21st-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/21st_Street_station_(IND_Crosstown_Line)",
+    "name": "21st Street",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-61st-street–woodside": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/61st_Street–Woodside_station",
+    "name": "61st Street–Woodside",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-69th-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/69th_Street_station_(IRT_Flushing_Line)",
+    "name": "69th Street",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-74th-street–broadway": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jackson_Heights–Roosevelt_Avenue/74th_Street_station",
+    "name": "74th Street–Broadway",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-75th-street–elderts-lane": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/75th_Street–Elderts_Lane_station",
+    "name": "75th Street–Elderts Lane",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-82nd-street–jackson-heights": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/82nd_Street–Jackson_Heights_station",
+    "name": "82nd Street–Jackson Heights",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-aqueduct–north-conduit-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aqueduct–North_Conduit_Avenue_station",
+    "name": "Aqueduct–North Conduit Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-astoria-boulevard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Astoria_Boulevard_station",
+    "name": "Astoria Boulevard",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-astoria–ditmars-boulevard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Astoria–Ditmars_Boulevard_station",
+    "name": "Astoria–Ditmars Boulevard",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-atlantic-avenue–barclays-center": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Atlantic_Avenue–Barclays_Center_station",
+    "name": "Atlantic Avenue–Barclays Center",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-bay-ridge–95th-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Ridge–95th_Street_station",
+    "name": "Bay Ridge–95th Street",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-briarwood": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Briarwood_station",
+    "name": "Briarwood",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-broadway-junction": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Broadway_Junction_station",
+    "name": "Broadway Junction",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-christopher-street–stonewall": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Christopher_Street–Stonewall_station",
+    "name": "Christopher Street–Stonewall",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-cleveland-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cleveland_Street_station",
+    "name": "Cleveland Street",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-court-square": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Court_Square–23rd_Street_station",
+    "name": "Court Square",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-court-square–23rd-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Court_Square–23rd_Street_station",
+    "name": "Court Square–23rd Street",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-forest-hills–71st-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hills–71st_Avenue_station",
+    "name": "Forest Hills–71st Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-howard-beach–jfk-airport": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Howard_Beach–JFK_Airport_station",
+    "name": "Howard Beach–JFK Airport",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-intervale-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Intervale_Avenue_station",
+    "name": "Intervale Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-jamaica-center–parsons/archer": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica_Center–Parsons/Archer_station",
+    "name": "Jamaica Center–Parsons/Archer",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-jay-street–metrotech": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jay_Street–MetroTech_station",
+    "name": "Jay Street–MetroTech",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-junction-boulevard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Junction_Boulevard_station",
+    "name": "Junction Boulevard",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-mets–willets-point-": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Mets–Willets_Point_station_(IRT_Flushing_Line)",
+    "name": "Mets–Willets Point ",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-myrtle–wyckoff-avenues": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Myrtle–Wyckoff_Avenues_station",
+    "name": "Myrtle–Wyckoff Avenues",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-neck-road": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Neck_Road_station",
+    "name": "Neck Road",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-nereid-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Nereid_Avenue_station",
+    "name": "Nereid Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-newkirk-avenue–little-haiti": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Newkirk_Avenue–Little_Haiti_station",
+    "name": "Newkirk Avenue–Little Haiti",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-ozone-park–lefferts-boulevard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ozone_Park–Lefferts_Boulevard_station",
+    "name": "Ozone Park–Lefferts Boulevard",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-parkchester": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Parkchester_station",
+    "name": "Parkchester",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-parkside-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Parkside_Avenue_station",
+    "name": "Parkside Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-queensboro-plaza": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Queensboro_Plaza_station",
+    "name": "Queensboro Plaza",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-sutphin-boulevard–archer-avenue–jfk-airport": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sutphin_Boulevard–Archer_Avenue–JFK_Airport_station",
+    "name": "Sutphin Boulevard–Archer Avenue–JFK Airport",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-vernon-boulevard–jackson-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vernon_Boulevard–Jackson_Avenue_station",
+    "name": "Vernon Boulevard–Jackson Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-west-eighth-street–new-york-aquarium": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/West_Eighth_Street–New_York_Aquarium_station",
+    "name": "West Eighth Street–New York Aquarium",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-west-farms-square–east-tremont-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/West_Farms_Square–East_Tremont_Avenue_station",
+    "name": "West Farms Square–East Tremont Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-westchester-square–east-tremont-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Westchester_Square–East_Tremont_Avenue_station",
+    "name": "Westchester Square–East Tremont Avenue",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-woodhaven-boulevard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Woodhaven_Boulevard_station_(IND_Queens_Boulevard_Line)",
+    "name": "Woodhaven Boulevard",
+    "reference": "New York",
+    "type": "renamed"
+  },
+  "renamed-world-trade-center": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/WTC_Cortlandt_station",
+    "name": "World Trade Center",
+    "reference": "New York",
+    "type": "renamed"
   },
   "rivers-hackensack": {
     "been": true,
@@ -4793,6 +5283,43 @@
     "state": "NY",
     "type": "tv-places"
   },
+  "twin-cities-new-york": {
+    "been": false,
+    "city": "New York",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "New York",
+    "type": "twin-cities"
+  },
+  "twin-cities-new-york-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York, NY",
+    "type": "twin-cities"
+  },
+  "twin-stations-astoria": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.77608900, -73.91073700",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Astoria–Ditmars_Boulevard_station",
+    "name": "Astoria",
+    "reference": "New York",
+    "type": "twin-stations"
+  },
+  "twin-stations-broadway": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.76195100, -73.92541400",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Broadway_station_(BMT_Astoria_Line)",
+    "name": "Broadway",
+    "reference": "New York",
+    "type": "twin-stations"
+  },
   "twin-stations-dekalb-avenue": {
     "been": true,
     "city": "New York",
@@ -4801,6 +5328,28 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/DeKalb_Avenue_station_(BMT_lines)",
     "name": "DeKalb Avenue",
+    "reference": "New York",
+    "type": "twin-stations"
+  },
+  "twin-stations-forest-hills": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72140400, -73.84400400",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hills–71st_Avenue_station",
+    "name": "Forest Hills",
+    "reference": "New York",
+    "type": "twin-stations"
+  },
+  "twin-stations-jamaica": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71245900, -73.78448000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
+    "name": "Jamaica",
     "reference": "New York",
     "type": "twin-stations"
   },

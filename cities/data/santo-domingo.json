@@ -1,4 +1,13 @@
 {
+  "airbnb-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46666667, -69.95000000",
+    "country": "DO",
+    "icons": ["🏡"],
+    "name": "Santo Domingo",
+    "type": "airbnb"
+  },
   "airports-santo-domingo": {
     "been": true,
     "city": "Santo Domingo",
@@ -10,8 +19,17 @@
     "prefix": "SDQ",
     "type": "airports"
   },
+  "beaches-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46666667, -69.95000000",
+    "icons": ["🏖"],
+    "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "name": "Santo Domingo",
+    "type": "beaches"
+  },
   "cable-landings-santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "country": "DO",
     "icons": ["🇩🇴"],
@@ -30,7 +48,7 @@
     "type": "capitals"
   },
   "cathedrals-santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.47277779, -69.88388890",
     "country": "DO",
@@ -48,7 +66,7 @@
     "type": "fare-cards"
   },
   "fare-cards-boleto-viajero": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "country": "DO",
     "icons": ["🇩🇴"],
@@ -57,8 +75,78 @@
     "reference": "Santo Domingo",
     "type": "fare-cards"
   },
+  "forts-fortaleza-ozama": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47320000, -69.88171000",
+    "country": "DO",
+    "icons": ["🪖"],
+    "link": "https://en.wikipedia.org/wiki/Fortaleza_Ozama",
+    "name": "Fortaleza Ozama",
+    "type": "forts"
+  },
+  "head-on-sabana-perdida": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://en.wikipedia.org/wiki/Teleférico_de_Santo_Domingo",
+    "name": "Sabana Perdida",
+    "reference": "Santo Domingo",
+    "type": "head-on"
+  },
+  "head-on-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "6.30593000, -75.58213000",
+    "country": "CO",
+    "icons": ["🔃"],
+    "info": "K/L",
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Santo Domingo",
+    "reference": "Medellín",
+    "type": "head-on"
+  },
+  "lighthouses-faro-a-colon": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47861000, -69.86816000",
+    "country": "DO",
+    "icons": ["🕯️"],
+    "link": "https://en.wikipedia.org/wiki/Columbus_Lighthouse",
+    "name": "Faro a Colón",
+    "type": "lighthouses"
+  },
+  "metro-places-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "6.30593000, -75.58213000",
+    "countries": ["CO", "DO"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Santo Domingo",
+    "type": "metro-places"
+  },
+  "metro-population-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "name": "Santo Domingo",
+    "prefix": "108.8",
+    "type": "metro-population"
+  },
+  "metro-prices-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "name": "Santo Domingo",
+    "prefix": "$0.35",
+    "type": "metro-prices"
+  },
   "metros-santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
@@ -67,8 +155,19 @@
     "name": "Santo Domingo",
     "type": "metros"
   },
+  "open-gangways-metropolis-9000": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://es.wikipedia.org/wiki/Metro_de_Santo_Domingo#Material_rodante",
+    "name": "Metrópolis 9000",
+    "prefix": "2009",
+    "reference": "Santo Domingo",
+    "type": "open-gangways"
+  },
   "ports-santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.46900000, -69.88300000",
     "country": "DO",
@@ -77,8 +176,73 @@
     "name": "Santo Domingo",
     "type": "ports"
   },
+  "records-fortaleza-ozama": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47320000, -69.88171000",
+    "country": "DO",
+    "icons": ["🥈"],
+    "info": "oldest colonial fort in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Fortaleza_Ozama",
+    "name": "Fortaleza Ozama",
+    "type": "records"
+  },
+  "records-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46666667, -69.95000000",
+    "country": "DO",
+    "icons": ["🥈"],
+    "info": "oldest colonial city in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "name": "Santo Domingo",
+    "type": "records"
+  },
+  "records-santo-domingo-cathedral": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47277779, -69.88388890",
+    "country": "DO",
+    "icons": ["🥈"],
+    "info": "oldest cathedral in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo",
+    "name": "Santo Domingo Cathedral",
+    "type": "records"
+  },
+  "rivers-isabela": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.51430000, -69.89810000",
+    "country": "DO",
+    "icons": ["🌊"],
+    "info": "→ Ozama",
+    "link": "https://en.wikipedia.org/wiki/Isabela_River",
+    "name": "Isabela",
+    "type": "rivers"
+  },
+  "rivers-ozama": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46670000, -69.88330000",
+    "country": "DO",
+    "icons": ["🌊"],
+    "info": "→ Caribbean",
+    "link": "https://en.wikipedia.org/wiki/Ozama_River",
+    "name": "Ozama",
+    "type": "rivers"
+  },
+  "stadiums-estadio-olimpico-felix-sanchez": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.48045400, -69.91866200",
+    "country": "DO",
+    "icons": ["🏟️"],
+    "link": "https://es.wikipedia.org/wiki/Estadio_Olímpico_Félix_Sánchez",
+    "name": "Estadio Olímpico Félix Sánchez",
+    "type": "stadiums"
+  },
   "tintin-santo-domingo": {
-    "been": false,
+    "been": true,
     "city": "Santo Domingo",
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
@@ -86,5 +250,15 @@
     "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
     "name": "Santo Domingo",
     "type": "tintin"
+  },
+  "walls-santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46666667, -69.95000000",
+    "country": "DO",
+    "icons": ["🧱"],
+    "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "name": "Santo Domingo",
+    "type": "walls"
   }
 }

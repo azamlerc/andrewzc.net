@@ -2,8 +2,10 @@
   "airbnb-mexico-city": {
     "been": true,
     "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City",
     "name": "Mexico City",
     "type": "airbnb"
   },
@@ -19,7 +21,7 @@
     "type": "airports"
   },
   "apple-antara": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43999300, -99.20314400",
     "country": "MX",
@@ -28,8 +30,38 @@
     "name": "Antara",
     "type": "apple"
   },
+  "arches-monumento-a-la-revolucion": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43620000, -99.15464000",
+    "country": "MX",
+    "icons": ["🏛"],
+    "link": "https://es.wikipedia.org/wiki/Monumento_a_la_Revolución_(México)",
+    "name": "Monumento a la Revolución",
+    "type": "arches"
+  },
+  "awa-hotel-geneve": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.42513889, -99.16416667",
+    "country": "MX",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Hotel_Geneve_Mexico_City",
+    "name": "Hotel Geneve",
+    "type": "awa"
+  },
+  "bi-articulated-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
+    "name": "Mexico City",
+    "type": "bi-articulated"
+  },
   "brt-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -37,6 +69,16 @@
     "link": "https://en.wikipedia.org/wiki/Mexico_City_Metrob%C3%BAs",
     "name": "Mexico City",
     "type": "brt"
+  },
+  "cable-cars-cablebus": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34554000, -99.06408000",
+    "country": "MX",
+    "icons": ["🚡"],
+    "link": "https://en.wikipedia.org/wiki/Cablebús",
+    "name": "Cablebús",
+    "type": "cable-cars"
   },
   "capitals-mexico-city": {
     "been": true,
@@ -48,8 +90,18 @@
     "name": "Mexico City",
     "type": "capitals"
   },
+  "castles-palacio-nacional": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43250000, -99.13111000",
+    "country": "DO",
+    "icons": ["🏰"],
+    "link": "https://en.wikipedia.org/wiki/National_Palace_(Dominican_Republic)",
+    "name": "Palacio Nacional",
+    "type": "castles"
+  },
   "cathedrals-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43439420, -99.13308240",
     "country": "MX",
@@ -68,6 +120,39 @@
     "name": "Plaza Del Ejecutivo 8️⃣",
     "type": "circular"
   },
+  "depots-estadio-azteca": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.30305556, -99.15055556",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Estadio_Azteca_(estación)",
+    "name": "Estadio Azteca",
+    "reference": "Mexico City",
+    "type": "depots"
+  },
+  "depots-tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City",
+    "type": "depots"
+  },
+  "depots-xochimilco": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.27500000, -99.13888889",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
+    "name": "Xochimilco",
+    "reference": "Mexico City",
+    "type": "depots"
+  },
   "fare-cards-": {
     "been": false,
     "city": "Mexico City",
@@ -77,17 +162,203 @@
     "type": "fare-cards"
   },
   "fare-cards-tarjeta-de-movilidad-integrada": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Tarjeta_de_Movilidad_Integrada",
     "name": "Tarjeta de Movilidad Integrada",
     "reference": "Mexico City",
-    "type": "fare-cards"
+    "type": "fare-cards",
+    "wikidata": "Q48781949"
+  },
+  "head-on-el-rosario": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.50454100, -99.20002000",
+    "country": "MX",
+    "icons": ["🔃"],
+    "info": "6/7",
+    "link": "https://es.wikipedia.org/wiki/El_Rosario_(estación)",
+    "name": "El Rosario",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "head-on-martin-carrera": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.48492100, -99.10440400",
+    "country": "MX",
+    "icons": ["🔃"],
+    "info": "4/6",
+    "link": "https://es.wikipedia.org/wiki/Martín_Carrera_(estación)",
+    "name": "Martín Carrera",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "head-on-observatorio": {
+    "been": false,
+    "city": "Mexico City",
+    "coords": "19.39823700, -99.20036300",
+    "country": "MX",
+    "icons": ["🔃"],
+    "info": "1/12",
+    "link": "https://es.wikipedia.org/wiki/Observatorio_(estación_del_Metro_de_la_Ciudad_de_México)",
+    "name": "Observatorio",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "head-on-partitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "1/5/9/A",
+    "link": "https://es.wikipedia.org/wiki/Pantitlán_(estación)",
+    "name": "Partitlán",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "head-on-tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🔃"],
+    "info": "M2/T1",
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "head-on-xalpa": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Línea_2_del_Cablebús",
+    "name": "Xalpa",
+    "reference": "Mexico City",
+    "type": "head-on"
+  },
+  "highway-medians-line-2": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada de Tlalpan",
+    "link": "https://es.wikipedia.org/wiki/Línea_2_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 2",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q54371"
+  },
+  "highway-medians-line-3": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Insurgentes Norte",
+    "link": "https://es.wikipedia.org/wiki/Línea_3_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 3",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q1029921"
+  },
+  "highway-medians-line-5": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Lazaro Cardenas",
+    "link": "https://es.wikipedia.org/wiki/Línea_5_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 5",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q647340"
+  },
+  "highway-medians-line-8": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Francisco del Paso y Troncoso",
+    "link": "https://es.wikipedia.org/wiki/Línea_8_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 8",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q847771"
+  },
+  "highway-medians-line-a": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada General Ignacio Zaragoza",
+    "link": "https://es.wikipedia.org/wiki/Línea_A_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line A",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q572544"
+  },
+  "highway-medians-line-b": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Central Carlos Hank González",
+    "link": "https://es.wikipedia.org/wiki/Línea_B_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line B",
+    "reference": "Mexico City",
+    "type": "highway-medians",
+    "wikidata": "Q2778331"
+  },
+  "highway-medians-tram-1": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada de Tlalpan",
+    "link": "https://es.wikipedia.org/wiki/Tren_ligero_de_la_Ciudad_de_México",
+    "name": "Tram 1",
+    "reference": "Mexico City",
+    "type": "highway-medians"
+  },
+  "hotels-hotel-geneve": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.42513889, -99.16416667",
+    "country": "MX",
+    "icons": ["🏨"],
+    "link": "https://en.wikipedia.org/wiki/Hotel_Geneve_Mexico_City",
+    "name": "Hotel Geneve",
+    "type": "hotels"
+  },
+  "loops-constitucion-de-1917": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_1917_(estaci%C3%B3n)",
+    "name": "Constitución de 1917",
+    "reference": "Mexico City",
+    "type": "loops",
+    "wikidata": "Q771159"
+  },
+  "loops-tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🎈"],
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City",
+    "strike": true,
+    "type": "loops"
   },
   "luna-park-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
@@ -96,15 +367,67 @@
     "name": "Mexico City",
     "type": "luna-park"
   },
-  "metros-mexico-city": {
+  "malls-antara": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43930000, -99.20250000",
+    "country": "MX",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Antara_Polanco",
+    "name": "Antara",
+    "type": "malls"
+  },
+  "metro-places-mexico": {
     "been": false,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "countries": ["IL", "IS"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(Jerusalem_Light_Rail)",
+    "name": "Mexico",
+    "type": "metro-places"
+  },
+  "metro-population-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City",
+    "name": "Mexico City",
+    "prefix": "111.8",
+    "type": "metro-population"
+  },
+  "metro-prices-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City",
+    "name": "Mexico City",
+    "prefix": "$0.25",
+    "type": "metro-prices"
+  },
+  "metros-mexico-city": {
+    "been": true,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🚇"],
-    "link": "https://en.wikipedia.org/wiki/Mexico_City_Metro",
+    "link": "mexico-city.html",
     "name": "Mexico City",
     "type": "metros"
+  },
+  "moving-walkways-atlalilco": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.35613400, -99.10131500",
+    "country": "MX",
+    "icons": ["🛴"],
+    "link": "https://es.wikipedia.org/wiki/Atlalilco_(estaci%C3%B3n)",
+    "name": "Atlalilco",
+    "type": "moving-walkways"
   },
   "music-places-mexico": {
     "been": true,
@@ -116,6 +439,17 @@
     "reference": "Tori Amos",
     "type": "music-places"
   },
+  "offset-san-antonio-abad": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "37.61791417, -1.00198445",
+    "country": "MX",
+    "icons": ["⚡️"],
+    "link": "https://es.wikipedia.org/wiki/San_Antonio_Abad_(estaci%C3%B3n)",
+    "name": "San Antonio Abad",
+    "reference": "Mexico City",
+    "type": "offset"
+  },
   "olympics-mexico-city": {
     "been": true,
     "city": "Mexico City",
@@ -126,15 +460,64 @@
     "prefix": "1968",
     "type": "olympics"
   },
+  "open-gangways-fe-07": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-07",
+    "name": "FE-07",
+    "prefix": "2009",
+    "reference": "Mexico City",
+    "type": "open-gangways",
+    "wikidata": "Q5853939"
+  },
+  "open-gangways-fe-10": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-10",
+    "name": "FE-10",
+    "prefix": "2012",
+    "reference": "Mexico City",
+    "type": "open-gangways",
+    "wikidata": "Q5853941"
+  },
+  "open-gangways-nm-02": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "33.38527778, -106.29944444",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-02",
+    "name": "NM-02",
+    "prefix": "2004",
+    "reference": "Mexico City",
+    "type": "open-gangways"
+  },
+  "open-gangways-nm-22": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-22",
+    "name": "NM-22",
+    "prefix": "2024",
+    "reference": "Mexico City",
+    "type": "open-gangways"
+  },
   "pcc-mexico-city": {
     "been": false,
     "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_Mexico_City",
     "name": "Mexico City",
     "strike": true,
-    "type": "pcc"
+    "type": "pcc",
+    "wikidata": "Q2919713"
   },
   "planned-mexico-city": {
     "been": true,
@@ -146,6 +529,18 @@
     "name": "Mexico City",
     "type": "planned"
   },
+  "projects-mexico-city-line-12-to-observatorio": {
+    "been": false,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City_Metro_Line_12#Extension",
+    "name": "Mexico City Line 12 to Observatorio",
+    "prefix": "2026",
+    "reference": "Mexico City",
+    "type": "projects",
+    "wikidata": "Q5985548"
+  },
   "reclaimed-mexico-city": {
     "been": true,
     "city": "Mexico City",
@@ -155,6 +550,223 @@
     "link": "https://en.wikipedia.org/wiki/Mexico_City",
     "name": "Mexico City",
     "type": "reclaimed"
+  },
+  "records-tenochtitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🥈"],
+    "info": "largest city in pre-Columbian Americas",
+    "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
+    "name": "Tenochtitlan",
+    "type": "records"
+  },
+  "renamed-boulevard-puerto-aereo": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Boulevard_Puerto_A%C3%A9reo_(estaci%C3%B3n)",
+    "name": "Boulevard Puerto Aéreo",
+    "reference": "Mexico City",
+    "type": "renamed"
+  },
+  "renamed-deportivo-18-de-marzo": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Deportivo_18_de_Marzo_(estaci%C3%B3n)",
+    "name": "Deportivo 18 de Marzo",
+    "reference": "Mexico City",
+    "type": "renamed"
+  },
+  "renamed-ecatepec": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.60972222, -99.06000000",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Ecatepec_(estaci%C3%B3n)",
+    "name": "Ecatepec",
+    "reference": "Mexico City",
+    "type": "renamed"
+  },
+  "renamed-nezahualcoyotl": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.40061, -99.01483",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Nezahualc%C3%B3yotl_(estaci%C3%B3n)",
+    "name": "Nezahualcóyotl",
+    "reference": "Mexico City",
+    "type": "renamed",
+    "wikidata": "Q210307"
+  },
+  "renamed-uam-iztapalapa": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/UAM-I_(estaci%C3%B3n)",
+    "name": "UAM-Iztapalapa",
+    "reference": "Mexico City",
+    "type": "renamed"
+  },
+  "renamed-zocalo-tenochtitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Z%C3%B3calo_(estaci%C3%B3n)",
+    "name": "Zócalo-Tenochtitlan",
+    "reference": "Mexico City",
+    "type": "renamed"
+  },
+  "rolling-stock-fe-07": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-07",
+    "name": "FE-07",
+    "reference": "Mexico City",
+    "type": "rolling-stock",
+    "wikidata": "Q5853939"
+  },
+  "rolling-stock-fe-10": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-10",
+    "name": "FE-10",
+    "reference": "Mexico City",
+    "type": "rolling-stock",
+    "wikidata": "Q5853941"
+  },
+  "rolling-stock-fm-86": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FM-86",
+    "name": "FM-86",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-mp-68": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/MP-68",
+    "name": "MP-68",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-mp-82": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/MP-82",
+    "name": "MP-82",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nc-82": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NC-82",
+    "name": "NC-82",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-ne-92": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NE-92",
+    "name": "NE-92",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-02": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "33.38527778, -106.29944444",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-02",
+    "name": "NM-02",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-16": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-16",
+    "name": "NM-16",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-22": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-22",
+    "name": "NM-22",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-73": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-73",
+    "name": "NM-73",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-79": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-79",
+    "name": "NM-79",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-nm-83": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-83",
+    "name": "NM-83",
+    "reference": "Mexico City",
+    "type": "rolling-stock"
+  },
+  "roundabouts-glorieta-de-los-insurgentes": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.42363920, -99.16297700",
+    "country": "MX",
+    "icons": ["🔄"],
+    "link": "https://es.wikipedia.org/wiki/Glorieta_de_los_Insurgentes",
+    "name": "Glorieta de los Insurgentes",
+    "type": "roundabouts"
   },
   "rubber-mexico-city": {
     "been": true,
@@ -167,17 +779,67 @@
     "type": "rubber"
   },
   "spanish-chabacano": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.40916667, -99.13555556",
     "country": "MX",
     "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Metro_Chabacano",
+    "link": "https://es.wikipedia.org/wiki/Chabacano_(estaci%C3%B3n)",
     "name": "Chabacano",
     "type": "spanish"
   },
+  "spanish-el-rosario": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.50454100, -99.20002000",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/El_Rosario_(estaci%C3%B3n)",
+    "name": "El Rosario",
+    "type": "spanish"
+  },
+  "spanish-indios-verdes": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.49535800, -99.11946800",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Indios_Verdes_(estaci%C3%B3n)",
+    "name": "Indios Verdes",
+    "type": "spanish"
+  },
+  "spanish-pantitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.41535900, -99.07213200",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Pantitlán_(estación)",
+    "name": "Pantitlán",
+    "type": "spanish"
+  },
+  "spanish-xochimilco": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.27500000, -99.13888889",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
+    "name": "Xochimilco",
+    "type": "spanish"
+  },
+  "stadiums-estadio-azteca": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.30305556, -99.15055556",
+    "country": "MX",
+    "icons": ["🏟️"],
+    "link": "https://es.wikipedia.org/wiki/Estadio_Azteca",
+    "name": "Estadio Azteca",
+    "type": "stadiums"
+  },
   "stadiums-estadio-olimpico-universitario": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.33194444, -99.19222222",
     "country": "MX",
@@ -186,8 +848,38 @@
     "name": "Estadio Olímpico Universitario",
     "type": "stadiums"
   },
+  "temples-tenochtitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["⛩️"],
+    "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
+    "name": "Tenochtitlan",
+    "type": "temples"
+  },
+  "towers-torre-ejecutiva-pemex": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43910000, -99.17480000",
+    "country": "MX",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Torre_Ejecutiva_Pemex",
+    "name": "Torre Ejecutiva Pemex",
+    "type": "towers"
+  },
+  "towers-torre-latinoamericana": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43388889, -99.14055556",
+    "country": "MX",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Torre_Latinoamericana",
+    "name": "Torre Latinoamericana",
+    "type": "towers"
+  },
   "trams-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.41944444, -99.14555556",
     "country": "MX",
@@ -196,8 +888,17 @@
     "name": "Mexico City",
     "type": "trams"
   },
+  "transfer-pantitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.41535900, -99.07213200",
+    "country": "MX",
+    "icons": ["✳️"],
+    "name": "Pantitlán",
+    "type": "transfer"
+  },
   "trolleybuses-mexico-city": {
-    "been": false,
+    "been": true,
     "city": "Mexico City",
     "coords": "19.00000000, 99.00000000",
     "country": "MX",
@@ -216,15 +917,47 @@
     "reference": "Sense8",
     "type": "tv-places"
   },
+  "twin-stations-garibaldi": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Garibaldi-Lagunilla_(estación)",
+    "name": "Garibaldi",
+    "reference": "Mexico City",
+    "type": "twin-stations",
+    "wikidata": "Q16424823"
+  },
   "twin-stations-jamaica": {
     "been": true,
     "city": "Mexico City",
     "coords": "17.97138889, -76.79305556",
-    "country": "US",
+    "country": "MX",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Jamaica–179th_Street_station",
+    "link": "https://es.wikipedia.org/wiki/Jamaica_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Jamaica",
-    "reference": "New York",
+    "reference": "Mexico City",
+    "type": "twin-stations"
+  },
+  "twin-stations-san-antonio": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "29.42500000, -98.49388889",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/San_Antonio_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "San Antonio",
+    "reference": "Mexico City",
+    "type": "twin-stations"
+  },
+  "twin-stations-sevilla": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "39.50000000, -3.70000000",
+    "country": "MX",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Sevilla_(estación_del_Metro_de_Ciudad_de_México)",
+    "name": "Sevilla",
+    "reference": "Mexico City",
     "type": "twin-stations"
   }
 }

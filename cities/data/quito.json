@@ -28,6 +28,24 @@
     "name": "Ecuador",
     "type": "metro-places"
   },
+  "metro-population-quito": {
+    "been": false,
+    "city": "Quito",
+    "country": "EC",
+    "icons": ["🇪🇨"],
+    "name": "Quito",
+    "prefix": "134.0",
+    "type": "metro-population"
+  },
+  "metro-prices-quito": {
+    "been": false,
+    "city": "Quito",
+    "country": "EC",
+    "icons": ["🇪🇨"],
+    "name": "Quito",
+    "prefix": "$0.35",
+    "type": "metro-prices"
+  },
   "metros-quito": {
     "been": false,
     "city": "Quito",
@@ -78,5 +96,20 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Quito",
     "name": "Quito",
     "type": "trolleybuses"
+  },
+  "twin-cities-quito": {
+    "been": false,
+    "city": "Quito",
+    "country": "EC",
+    "icons": ["🇪🇨"],
+    "name": "Quito",
+    "type": "twin-cities"
+  },
+  "twin-cities-quito-tn": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Quito, TN",
+    "type": "twin-cities"
   }
 }

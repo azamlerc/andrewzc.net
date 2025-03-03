@@ -52,6 +52,24 @@
     "name": "Peachtree Center",
     "type": "infill"
   },
+  "metro-population-atlanta": {
+    "been": false,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Atlanta",
+    "prefix": "160.5",
+    "type": "metro-population"
+  },
+  "metro-prices-atlanta": {
+    "been": false,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Atlanta",
+    "prefix": "$2.50",
+    "type": "metro-prices"
+  },
   "metros-atlanta": {
     "been": false,
     "city": "Atlanta",
@@ -187,15 +205,29 @@
     "strike": true,
     "type": "trolleybuses"
   },
+  "twin-cities-atlanta-ga": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Atlanta, GA",
+    "type": "twin-cities"
+  },
+  "twin-cities-atlanta-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Atlanta, NY",
+    "type": "twin-cities"
+  },
   "twin-stations-civic-center": {
     "been": true,
     "city": "Atlanta",
     "coords": "33.76630500, -84.38720900",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Civic_Center/UN_Plaza_station",
+    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(MARTA)",
     "name": "Civic Center",
-    "reference": "San Francisco",
+    "reference": "Atlanta",
     "type": "twin-stations"
   },
   "worldsfair-cotton-states-and-international-exposition": {

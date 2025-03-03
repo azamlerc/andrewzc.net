@@ -438,8 +438,9 @@
   "loops-69th-st-tc": {
     "been": true,
     "city": "Philadelphia",
+    "coords": "39.96307600, -75.25999500",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🎈"],
     "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
     "name": "69th St TC",
     "reference": "Philadelphia",
@@ -459,8 +460,9 @@
   "loops-darby-tc": {
     "been": true,
     "city": "Philadelphia",
+    "coords": "39.91920000, -75.26240000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🎈"],
     "link": "https://en.wikipedia.org/wiki/Darby_Transportation_Center",
     "name": "Darby TC",
     "reference": "Philadelphia",
@@ -520,6 +522,16 @@
     "name": "Cherry Hill",
     "type": "malls"
   },
+  "metro-places-chinatown-(septa)": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
+    "countries": ["US", "CN"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
+    "name": "Chinatown (SEPTA)",
+    "type": "metro-places"
+  },
   "metro-places-wyoming": {
     "been": true,
     "city": "Philadelphia",
@@ -529,6 +541,24 @@
     "link": "https://en.wikipedia.org/wiki/Wyoming_station_(SEPTA)",
     "name": "Wyoming",
     "type": "metro-places"
+  },
+  "metro-population-philadelphia": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Philadelphia",
+    "prefix": "83.20",
+    "type": "metro-population"
+  },
+  "metro-prices-philadelphia": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Philadelphia",
+    "prefix": "$2.50",
+    "type": "metro-prices"
   },
   "metros-philadelphia": {
     "been": true,
@@ -637,6 +667,36 @@
     "link": "https://en.wikipedia.org/wiki/Reading_Viaduct",
     "name": "Reading Viaduct",
     "type": "rail-trails"
+  },
+  "renamed-drexel": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Drexel_Station_at_30th_Street",
+    "name": "Drexel",
+    "reference": "Philadelphia",
+    "type": "renamed"
+  },
+  "renamed-jefferson": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jefferson_Station_(SEPTA)",
+    "name": "Jefferson",
+    "reference": "Philadelphia",
+    "type": "renamed"
+  },
+  "renamed-nrg": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/NRG_station",
+    "name": "NRG",
+    "reference": "Philadelphia",
+    "type": "renamed"
   },
   "single-track-tram-101": {
     "been": true,
@@ -761,6 +821,32 @@
     "link": "https://en.wikipedia.org/wiki/Philadelphia",
     "name": "Philadelphia",
     "type": "trolleybuses"
+  },
+  "twin-cities-philadelphia": {
+    "been": false,
+    "city": "Philadelphia",
+    "country": "ZW",
+    "icons": ["🇿🇼"],
+    "name": "Philadelphia",
+    "type": "twin-cities"
+  },
+  "twin-cities-philadelphia-pa": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Philadelphia, PA",
+    "type": "twin-cities"
+  },
+  "twin-stations-chinatown": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
+    "name": "Chinatown",
+    "reference": "Philadelphia",
+    "type": "twin-stations"
   },
   "twin-stations-dekalb-street": {
     "been": true,

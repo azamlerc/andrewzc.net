@@ -41,6 +41,16 @@
     "reference": "Cairo",
     "type": "awa"
   },
+  "awa-pyramids-of-giza": {
+    "been": true,
+    "city": "Cairo",
+    "coords": "29.97916667, 31.13416667",
+    "country": "EG",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "name": "Pyramids of Giza",
+    "type": "awa"
+  },
   "capitals-cairo": {
     "been": true,
     "city": "Cairo",
@@ -61,6 +71,24 @@
     "name": "Cairo",
     "strike": true,
     "type": "luna-park"
+  },
+  "metro-population-cairo": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "name": "Cairo",
+    "prefix": "353.1",
+    "type": "metro-population"
+  },
+  "metro-prices-cairo": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "name": "Cairo",
+    "prefix": "$0.16",
+    "type": "metro-prices"
   },
   "metros-cairo": {
     "been": false,
@@ -100,6 +128,16 @@
     "icons": ["🕌"],
     "link": "https://en.wikipedia.org/wiki/Al-Rifa'i_Mosque",
     "name": "Al-Rifa’i",
+    "type": "mosques"
+  },
+  "mosques-mohammed-ali": {
+    "been": true,
+    "city": "Cairo",
+    "coords": "30.02861100, 31.25972200",
+    "country": "EG",
+    "icons": ["🕌"],
+    "link": "https://en.wikipedia.org/wiki/Muhammad_Ali_Mosque",
+    "name": "Mohammed Ali",
     "type": "mosques"
   },
   "mosques-sultan-al-muayyad": {
@@ -298,5 +336,27 @@
     "name": "Cairo",
     "strike": true,
     "type": "trolleybuses"
+  },
+  "twin-cities-cairo": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "name": "Cairo",
+    "type": "twin-cities"
+  },
+  "twin-cities-cairo-il": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cairo, IL",
+    "type": "twin-cities"
+  },
+  "twin-cities-cairo-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cairo, NY",
+    "type": "twin-cities"
   }
 }

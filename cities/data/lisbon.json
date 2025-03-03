@@ -247,6 +247,24 @@
     "name": "Roma",
     "type": "metro-places"
   },
+  "metro-population-lisbon": {
+    "been": true,
+    "city": "Lisbon",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "name": "Lisbon",
+    "prefix": "53.39",
+    "type": "metro-population"
+  },
+  "metro-prices-lisbon": {
+    "been": true,
+    "city": "Lisbon",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "name": "Lisbon",
+    "prefix": "$1.67",
+    "type": "metro-prices"
+  },
   "metros-lisbon": {
     "been": true,
     "city": "Lisbon",
@@ -423,20 +441,43 @@
     "name": "Barreiro",
     "type": "turntables"
   },
+  "twin-cities-lisbon": {
+    "been": false,
+    "city": "Lisbon",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Lisbon",
+    "type": "twin-cities"
+  },
+  "twin-cities-lisbon-ct": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lisbon, CT",
+    "type": "twin-cities"
+  },
+  "twin-cities-lisbon-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lisbon, OH",
+    "type": "twin-cities"
+  },
   "twin-stations-belem": {
     "been": true,
     "city": "Lisbon",
-    "country": "BR",
-    "icons": ["🇧🇷"],
-    "link": "https://en.wikipedia.org/wiki/Belém_(São_Paulo_Metro)",
+    "coords": "38.69900000, -9.20900000",
+    "country": "PT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Belém,_Lisbon",
     "name": "Belém",
-    "reference": "Sāo Paulo",
+    "reference": "Lisbon",
     "type": "twin-stations"
   },
   "twin-stations-prazeres": {
     "been": true,
     "city": "Lisbon",
-    "coords": "38.42000000, -9.10000000",
+    "coords": "38.70888889, -9.16888889",
     "country": "BR",
     "icons": ["👯"],
     "link": "https://pt.wikipedia.org/wiki/Prazeres_(Jaboatão_dos_Guararapes)",
@@ -447,11 +488,12 @@
   "twin-stations-sao-bento": {
     "been": true,
     "city": "Lisbon",
-    "country": "BR",
-    "icons": ["🇧🇷"],
-    "link": "https://en.wikipedia.org/wiki/São_Bento_(São_Paulo_Metro)",
+    "coords": "41.14555556, -8.61033333",
+    "country": "PT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/São_Bento_railway_station",
     "name": "Sāo Bento",
-    "reference": "Sāo Paulo",
+    "reference": "Lisbon",
     "type": "twin-stations"
   },
   "worldsfair-exposicao-do-mundo-portugues": {

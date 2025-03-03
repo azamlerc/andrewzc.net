@@ -29,7 +29,7 @@
     "type": "capitals"
   },
   "cathedrals-san-jose": {
-    "been": false,
+    "been": true,
     "city": "San José",
     "coords": "9.93270000, -84.07880000",
     "country": "CR",
@@ -59,6 +59,26 @@
     "name": "San Jose",
     "strike": true,
     "type": "luna-park"
+  },
+  "metro-places-san-jose": {
+    "been": true,
+    "city": "San José",
+    "coords": "37.30416667, -121.87277778",
+    "countries": ["CO", "CR"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/Estación_San_José_(Metro_de_Medellín)",
+    "name": "San Jose",
+    "type": "metro-places"
+  },
+  "museums-museo-de-arte-costarricense": {
+    "been": true,
+    "city": "San José",
+    "coords": "9.93527778, -84.09916667",
+    "country": "CR",
+    "icons": ["🖼"],
+    "link": "https://es.wikipedia.org/wiki/Museo_de_Arte_Costarricense",
+    "name": "Museo de Arte Costarricense",
+    "type": "museums"
   },
   "san-jose-ca-san-jose": {
     "been": true,
@@ -99,5 +119,21 @@
     "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
     "name": "San Jose",
     "type": "trams"
+  },
+  "twin-cities-san-jose": {
+    "been": true,
+    "city": "San José",
+    "country": "CR",
+    "icons": ["🇨🇷"],
+    "name": "San José",
+    "type": "twin-cities"
+  },
+  "twin-cities-san-jose-ca": {
+    "been": true,
+    "city": "San Jose, CA",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Jose, CA",
+    "type": "twin-cities"
   }
 }

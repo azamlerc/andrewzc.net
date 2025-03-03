@@ -17,13 +17,25 @@
     "name": "69th Street",
     "reference": "Philadelphia"
   },
+  "acevedo": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.30593, -75.58213",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "info": "P/K",
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Acevedo",
+    "reference": "Medellín",
+    "wikidata": "Q3307447"
+  },
   "ashmont": {
     "been": true,
     "city": "Boston",
     "coords": "42.28430000, -71.06380000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "Red Line/Mattapan",
+    "info": "Red Line",
     "link": "https://en.wikipedia.org/wiki/Ashmont_station",
     "name": "Ashmont",
     "reference": "Boston"
@@ -38,6 +50,18 @@
     "link": "https://en.wikipedia.org/wiki/Clapham_Junction_railway_station",
     "name": "Clapham Junction",
     "reference": "London"
+  },
+  "el-rosario": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.504541, -99.20002",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "6/7",
+    "link": "https://es.wikipedia.org/wiki/El_Rosario_(estación)",
+    "name": "El Rosario",
+    "reference": "Mexico City",
+    "wikidata": "Q3429496"
   },
   "epping": {
     "been": true,
@@ -94,6 +118,18 @@
     "name": "Majorsteun",
     "reference": "Oslo"
   },
+  "martin-carrera": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.484921, -99.104404",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "4/6",
+    "link": "https://es.wikipedia.org/wiki/Martín_Carrera_(estación)",
+    "name": "Martín Carrera",
+    "reference": "Mexico City",
+    "wikidata": "Q6824623"
+  },
   "massy–palaiseau": {
     "been": true,
     "city": "Paris",
@@ -127,6 +163,18 @@
     "name": "Obelya",
     "reference": "Sofia"
   },
+  "observatorio": {
+    "been": false,
+    "city": "Mexico City",
+    "coords": "19.398237, -99.200363",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "1/12",
+    "link": "https://es.wikipedia.org/wiki/Observatorio_(estación_del_Metro_de_la_Ciudad_de_México)",
+    "name": "Observatorio",
+    "reference": "Mexico City",
+    "wikidata": "Q388460"
+  },
   "ors-vezer-tere": {
     "been": true,
     "city": "Budapest",
@@ -149,6 +197,16 @@
     "name": "Palettes",
     "reference": "Geneva",
     "strike": true
+  },
+  "partitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "1/5/9/A",
+    "link": "https://es.wikipedia.org/wiki/Pantitlán_(estación)",
+    "name": "Partitlán",
+    "reference": "Mexico City"
   },
   "pinar-de-chamartin": {
     "been": false,
@@ -204,6 +262,16 @@
     "name": "Ropsten",
     "reference": "Stockholm"
   },
+  "sabana-perdida": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://en.wikipedia.org/wiki/Teleférico_de_Santo_Domingo",
+    "name": "Sabana Perdida",
+    "reference": "Santo Domingo",
+    "wikidata": "Q63071056"
+  },
   "sadeghieh": {
     "been": false,
     "city": "Tehran",
@@ -212,7 +280,20 @@
     "info": "Tehran Lines 2/5",
     "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_5",
     "name": "Sadeghieh",
-    "reference": "Tehran"
+    "reference": "Tehran",
+    "wikidata": "Q20110122"
+  },
+  "santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "6.30593, -75.58213",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "info": "K/L",
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Santo Domingo",
+    "reference": "Medellín",
+    "wikidata": "Q3307447"
   },
   "sarria": {
     "been": true,
@@ -246,6 +327,17 @@
     "reference": "Oslo",
     "strike": true
   },
+  "tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "M2/T1",
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City"
+  },
   "tres-olivas": {
     "been": true,
     "city": "Madrid",
@@ -277,5 +369,14 @@
     "link": "https://fr.wikipedia.org/wiki/Villejuif_-_Louis_Aragon_(métro_de_Paris)",
     "name": "Villejuif–Louis Aragon",
     "reference": "Paris"
+  },
+  "xalpa": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Línea_2_del_Cablebús",
+    "name": "Xalpa",
+    "reference": "Mexico City"
   }
 }

@@ -151,6 +151,24 @@
     "name": "Rome",
     "type": "metro-places"
   },
+  "metro-population-rome": {
+    "been": true,
+    "city": "Rome",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Rome",
+    "prefix": "59.59",
+    "type": "metro-population"
+  },
+  "metro-prices-rome": {
+    "been": true,
+    "city": "Rome",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Rome",
+    "prefix": "$1.58",
+    "type": "metro-prices"
+  },
   "metros-rome": {
     "been": false,
     "city": "Rome",
@@ -200,7 +218,7 @@
     "type": "open-gangways"
   },
   "open-gangways-ma-300": {
-    "been": true,
+    "been": false,
     "city": "Rome",
     "country": "IT",
     "icons": ["🇮🇹"],
@@ -314,6 +332,28 @@
     "link": "https://en.wikipedia.org/wiki/Rome",
     "name": "Rome",
     "type": "trolleybuses"
+  },
+  "twin-cities-rome": {
+    "been": true,
+    "city": "Rome",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Rome",
+    "type": "twin-cities"
+  },
+  "twin-cities-rome-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rome, GA",
+    "type": "twin-cities"
+  },
+  "twin-cities-rome-ny": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rome, NY",
+    "type": "twin-cities"
   },
   "twin-stations-marconi": {
     "been": true,

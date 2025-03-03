@@ -68,6 +68,24 @@
     "name": "Dubai Mall",
     "type": "malls"
   },
+  "metro-population-dubai": {
+    "been": true,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "name": "Dubai",
+    "prefix": "67.96",
+    "type": "metro-population"
+  },
+  "metro-prices-dubai": {
+    "been": true,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "name": "Dubai",
+    "prefix": "$0.82",
+    "type": "metro-prices"
+  },
   "metros-dubai": {
     "been": true,
     "city": "Dubai",
@@ -312,6 +330,25 @@
     "link": "https://en.wikipedia.org/wiki/Dubai_Tram",
     "name": "Dubai",
     "type": "trams"
+  },
+  "twin-cities-dubai": {
+    "been": false,
+    "city": "Dubai",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Dubai",
+    "type": "twin-cities"
+  },
+  "twin-stations-danube": {
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.00110000, 55.09575000",
+    "country": "AE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Danube_%28Dubai_Metro%29",
+    "name": "Danube",
+    "reference": "Dubai",
+    "type": "twin-stations"
   },
   "twin-stations-world-trade-centre": {
     "been": true,

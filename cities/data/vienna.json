@@ -975,6 +975,16 @@
     "name": "Vienna Metro",
     "type": "europe-2023"
   },
+  "europe-2023-vienna-tram-o-to-bruno-marek-allee": {
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.20820000, 16.37250000",
+    "country": "AT",
+    "icons": ["🇨🇿"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Umgesetzte_Projekte",
+    "name": "Vienna Tram O to Bruno-Marek-Allee",
+    "type": "europe-2023"
+  },
   "europe-2023-vienna-trams": {
     "been": true,
     "city": "Vienna",
@@ -1906,6 +1916,24 @@
     "name": "Vienna",
     "type": "metro-places"
   },
+  "metro-population-vienna": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "name": "Vienna",
+    "prefix": "29.08",
+    "type": "metro-population"
+  },
+  "metro-prices-vienna": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "name": "Vienna",
+    "prefix": "$2.67",
+    "type": "metro-prices"
+  },
   "metros-vienna": {
     "been": true,
     "city": "Vienna",
@@ -2145,6 +2173,26 @@
     "link": "https://en.wikipedia.org/wiki/Karl-Marx-Hof",
     "name": "Karl-Marx-Hof",
     "type": "records"
+  },
+  "renamed-gumpendorfer-straße": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Gumpendorfer_Straße_station",
+    "name": "Gumpendorfer Straße",
+    "reference": "Vienna",
+    "type": "renamed"
+  },
+  "renamed-schwedenplatz": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Schwedenplatz_station",
+    "name": "Schwedenplatz",
+    "reference": "Vienna",
+    "type": "renamed"
   },
   "rivers-wien": {
     "been": true,
@@ -2447,6 +2495,28 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Vienna",
     "name": "Vienna",
     "type": "trams"
+  },
+  "twin-cities-vienna": {
+    "been": false,
+    "city": "Vienna",
+    "country": "VU",
+    "icons": ["🇻🇺"],
+    "name": "Vienna",
+    "type": "twin-cities"
+  },
+  "twin-cities-vienna-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Vienna, GA",
+    "type": "twin-cities"
+  },
+  "twin-cities-vienna-va": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Vienna, VA",
+    "type": "twin-cities"
   },
   "walls-linienwall": {
     "been": true,

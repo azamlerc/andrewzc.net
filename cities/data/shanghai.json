@@ -158,6 +158,24 @@
     "name": "Shanghai Botanical Garden",
     "type": "greenhouses"
   },
+  "metro-population-shanghai": {
+    "been": false,
+    "city": "Shanghai",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shanghai",
+    "prefix": "74.07",
+    "type": "metro-population"
+  },
+  "metro-prices-shanghai": {
+    "been": false,
+    "city": "Shanghai",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shanghai",
+    "prefix": "$0.41",
+    "type": "metro-prices"
+  },
   "metros-shanghai": {
     "been": false,
     "city": "Shanghai",
@@ -259,5 +277,20 @@
     "link": "https://en.wikipedia.org/wiki/Trolleybuses_in_Shanghai",
     "name": "Shanghai",
     "type": "trolleybuses"
+  },
+  "twin-cities-shanghai": {
+    "been": false,
+    "city": "Shanghai",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Shanghai",
+    "type": "twin-cities"
+  },
+  "twin-cities-shanghai-wv": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Shanghai, WV",
+    "type": "twin-cities"
   }
 }

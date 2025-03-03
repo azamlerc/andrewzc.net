@@ -10,7 +10,7 @@
     "type": "cathedrals"
   },
   "metro-places-zaragoza": {
-    "been": false,
+    "been": true,
     "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "countries": ["MX", "ES"],
@@ -18,6 +18,15 @@
     "link": "https://es.wikipedia.org/wiki/Zaragoza_(estación_del_Metro_de_la_Ciudad_de_México)",
     "name": "Zaragoza",
     "type": "metro-places"
+  },
+  "mexico-city-zaragoza": {
+    "been": true,
+    "city": "Zaragoza",
+    "country": "MX",
+    "icons": ["🇲🇽", "🏇"],
+    "link": "https://es.wikipedia.org/wiki/Zaragoza_(estaci%C3%B3n)",
+    "name": "Zaragoza",
+    "type": "mexico-city"
   },
   "trams-zaragoza": {
     "been": false,

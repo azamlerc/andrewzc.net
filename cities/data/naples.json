@@ -86,6 +86,16 @@
     "name": "Naples",
     "type": "europe-2022"
   },
+  "europe-2022-naples-metro": {
+    "been": true,
+    "city": "Naples",
+    "coords": "40.83583333, 14.24861111",
+    "country": "IT",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Naples_Metro",
+    "name": "Naples Metro",
+    "type": "europe-2022"
+  },
   "europe-2022-telecom-italia-tower": {
     "been": true,
     "city": "Naples",
@@ -177,6 +187,24 @@
     "link": "https://en.wikipedia.org/wiki/Toledo_station_(Naples)",
     "name": "Toledo",
     "type": "metro-places"
+  },
+  "metro-population-naples": {
+    "been": true,
+    "city": "Naples",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Naples",
+    "prefix": "120.0",
+    "type": "metro-population"
+  },
+  "metro-prices-naples": {
+    "been": true,
+    "city": "Naples",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Naples",
+    "prefix": "$1.22",
+    "type": "metro-prices"
   },
   "metros-naples": {
     "been": true,
@@ -300,5 +328,38 @@
     "link": "https://en.wikipedia.org/wiki/Naples",
     "name": "Naples",
     "type": "trolleybuses"
+  },
+  "twin-cities-naples": {
+    "been": true,
+    "city": "Naples",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Naples",
+    "type": "twin-cities"
+  },
+  "twin-cities-naples-fl": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Naples, FL",
+    "type": "twin-cities"
+  },
+  "twin-cities-naples-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Naples, NY",
+    "type": "twin-cities"
+  },
+  "twin-stations-garibaldi": {
+    "been": true,
+    "city": "Naples",
+    "coords": "40.85250000, 14.27200000",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Garibaldi_station_(Naples)",
+    "name": "Garibaldi",
+    "reference": "Naples",
+    "type": "twin-stations"
   }
 }

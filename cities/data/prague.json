@@ -1209,6 +1209,24 @@
     "name": "Florenc",
     "type": "metro-places"
   },
+  "metro-population-prague": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "name": "Prague",
+    "prefix": "43.93",
+    "type": "metro-population"
+  },
+  "metro-prices-prague": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "name": "Prague",
+    "prefix": "$1.36",
+    "type": "metro-prices"
+  },
   "metros-prague": {
     "been": true,
     "city": "Prague",
@@ -1355,6 +1373,46 @@
     "name": "Náměstí Míru",
     "type": "records"
   },
+  "renamed-andel": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Anděl_(Prague_Metro)",
+    "name": "Anděl",
+    "reference": "Prague",
+    "type": "renamed"
+  },
+  "renamed-dejvicka": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Dejvická_(Prague_Metro)",
+    "name": "Dejvická",
+    "reference": "Prague",
+    "type": "renamed"
+  },
+  "renamed-haje": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Háje_(Prague_Metro)",
+    "name": "Háje",
+    "reference": "Prague",
+    "type": "renamed"
+  },
+  "renamed-vysehrad": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Vyšehrad_(Prague_Metro)",
+    "name": "Vyšehrad",
+    "reference": "Prague",
+    "type": "renamed"
+  },
   "spas-aquapalace-prague": {
     "been": true,
     "city": "Prague",
@@ -1493,6 +1551,21 @@
     "name": "Prague",
     "type": "trolleybuses"
   },
+  "twin-cities-prague": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "name": "Prague",
+    "type": "twin-cities"
+  },
+  "twin-cities-prague-ok": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Prague, OK",
+    "type": "twin-cities"
+  },
   "twin-stations-andel": {
     "been": true,
     "city": "Prague",
@@ -1529,11 +1602,12 @@
   "twin-stations-namesti-miru": {
     "been": true,
     "city": "Prague",
+    "coords": "50.07533250, 14.43769000",
     "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Plzeň",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Náměstí_Míru_(Prague_Metro)",
     "name": "Náměstí Míru",
-    "reference": "Plzeň",
+    "reference": "Prague",
     "type": "twin-stations"
   },
   "walls-hunger-wall": {
@@ -1568,8 +1642,9 @@
   "wyes-hlavni-nadrazi": {
     "been": true,
     "city": "Prague",
+    "coords": "50.08305560, 14.43583330",
     "country": "CZ",
-    "icons": ["🇨🇿"],
+    "icons": ["🖖"],
     "link": "https://en.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD",
     "name": "Hlavní Nádraží",
     "reference": "Prague",

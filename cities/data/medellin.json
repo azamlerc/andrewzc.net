@@ -18,8 +18,30 @@
     "prefix": "MDE",
     "type": "airports"
   },
+  "airports-medellin-jose-maria-cordova": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.16722222, -75.42666667",
+    "country": "CO",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova_International_Airport",
+    "name": "Medellín José María Córdova",
+    "prefix": "MDE",
+    "type": "airports"
+  },
+  "airports-medellin-olaya-herrera": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.21972222, -75.59027778",
+    "country": "CO",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Olaya_Herrera_Airport",
+    "name": "Medellín Olaya Herrera",
+    "prefix": "EOH",
+    "type": "airports"
+  },
   "brt-medellin": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
@@ -29,7 +51,7 @@
     "type": "brt"
   },
   "cable-cars-medellin-metrocable": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.30593000, -75.58213000",
     "country": "CO",
@@ -39,7 +61,7 @@
     "type": "cable-cars"
   },
   "cathedrals-medellin": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.25388889, -75.56388889",
     "country": "CO",
@@ -57,7 +79,7 @@
     "type": "fare-cards"
   },
   "fare-cards-tarjeta-civica": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "country": "CO",
     "icons": ["🇨🇴"],
@@ -66,8 +88,38 @@
     "reference": "Medellín",
     "type": "fare-cards"
   },
+  "head-on-acevedo": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.30593000, -75.58213000",
+    "country": "CO",
+    "icons": ["🔃"],
+    "info": "P/K",
+    "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
+    "name": "Acevedo",
+    "reference": "Medellín",
+    "type": "head-on"
+  },
+  "metro-population-medellin": {
+    "been": true,
+    "city": "Medellín",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "name": "Medellín",
+    "prefix": "148.1",
+    "type": "metro-population"
+  },
+  "metro-prices-medellin": {
+    "been": true,
+    "city": "Medellín",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "name": "Medellín",
+    "prefix": "$0.64",
+    "type": "metro-prices"
+  },
   "metros-medellin": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
@@ -76,8 +128,40 @@
     "name": "Medellín",
     "type": "metros"
   },
+  "open-gangways-series-3": {
+    "been": true,
+    "city": "Medellín",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Medellín_Metro#Rolling_stock",
+    "name": "Series 3",
+    "prefix": "2017",
+    "reference": "Medellín",
+    "type": "open-gangways"
+  },
+  "records-tunel-de-oriente": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.20427731, -75.48790417",
+    "country": "CO",
+    "icons": ["🥈"],
+    "info": "second longest tunnel in Latin America",
+    "link": "https://es.wikipedia.org/wiki/Túnel_de_Oriente",
+    "name": "Túnel de Oriente",
+    "type": "records"
+  },
+  "rivers-rio-medellin": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.09000000, -75.63805556",
+    "country": "CO",
+    "icons": ["🌊"],
+    "link": "https://es.wikipedia.org/wiki/Río_Medellín",
+    "name": "Río Medellín",
+    "type": "rivers"
+  },
   "trams-medellin": {
-    "been": false,
+    "been": true,
     "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
@@ -85,5 +169,26 @@
     "link": "https://en.wikipedia.org/wiki/Ayacucho_Tram",
     "name": "Medellín",
     "type": "trams"
+  },
+  "tunnels-tunel-de-oriente": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.20427731, -75.48790417",
+    "country": "CO",
+    "icons": ["🕳️"],
+    "link": "https://es.wikipedia.org/wiki/Túnel_de_Oriente",
+    "name": "Túnel de Oriente",
+    "type": "tunnels"
+  },
+  "twin-stations-san-antonio": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "29.42500000, -98.49388889",
+    "country": "CO",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
+    "name": "San Antonio",
+    "reference": "Medellín",
+    "type": "twin-stations"
   }
 }

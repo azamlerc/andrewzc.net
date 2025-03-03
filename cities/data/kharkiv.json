@@ -18,6 +18,24 @@
     "name": "Kyivska",
     "type": "metro-places"
   },
+  "metro-population-kharkiv": {
+    "been": false,
+    "city": "Kharkiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kharkiv",
+    "prefix": "47.67",
+    "type": "metro-population"
+  },
+  "metro-prices-kharkiv": {
+    "been": false,
+    "city": "Kharkiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kharkiv",
+    "prefix": "$0.22",
+    "type": "metro-prices"
+  },
   "metros-kharkiv": {
     "been": false,
     "city": "Kharkiv",
@@ -82,11 +100,12 @@
   "twin-stations-vokzalna": {
     "been": true,
     "city": "Kharkiv",
+    "coords": "49.98944444, 36.20500000",
     "country": "UA",
-    "icons": ["🇺🇦"],
-    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kyiv_Metro)",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kharkiv_Metro)",
     "name": "Vokzalna",
-    "reference": "Kyiv",
+    "reference": "Kharkiv",
     "type": "twin-stations"
   }
 }

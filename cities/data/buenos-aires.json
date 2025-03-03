@@ -111,6 +111,24 @@
     "name": "República Argentina",
     "type": "metro-places"
   },
+  "metro-population-buenos-aires": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "name": "Buenos Aires",
+    "prefix": "166.7",
+    "type": "metro-population"
+  },
+  "metro-prices-buenos-aires": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "name": "Buenos Aires",
+    "prefix": "$0.12",
+    "type": "metro-prices"
+  },
   "metros-buenos-aires": {
     "been": false,
     "city": "Buenos Aires",
@@ -132,7 +150,7 @@
     "type": "music-places"
   },
   "open-gangways-100-series": {
-    "been": true,
+    "been": false,
     "city": "Buenos Aires",
     "country": "AR",
     "icons": ["🇦🇷"],
@@ -190,37 +208,48 @@
     "name": "Puente Nicolás Avellaneda",
     "type": "transporter"
   },
+  "twin-stations-buenos-aires": {
+    "been": true,
+    "city": "Buenos Aires",
+    "coords": "40.39156170, -3.65390840",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Buenos_Aires_(Madrid_Metro)",
+    "name": "Buenos Aires",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
   "twin-stations-florida": {
     "been": true,
     "city": "Buenos Aires",
     "coords": "28.00000000, -82.00000000",
-    "country": "ES",
+    "country": "AR",
     "icons": ["👯"],
-    "link": "https://es.wikipedia.org/wiki/Estación_de_Florida",
+    "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
     "name": "Florida",
-    "reference": "Barcelona",
+    "reference": "Buenos Aires",
     "type": "twin-stations"
   },
   "twin-stations-pasteur": {
     "been": true,
     "city": "Buenos Aires",
     "coords": "45.49072222, 9.21805556",
-    "country": "FR",
-    "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Pasteur_(métro_de_Paris)",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Pasteur-AMIA_(subte_de_Buenos_Aires)",
     "name": "Pasteur",
-    "reference": "Paris",
+    "reference": "Buenos Aires",
     "type": "twin-stations"
   },
   "twin-stations-uruguay": {
     "been": true,
     "city": "Buenos Aires",
     "coords": "-34.88333333, -56.16666667",
-    "country": "IT",
+    "country": "AR",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Uruguay_(Milan_Metro)",
+    "link": "https://es.wikipedia.org/wiki/Uruguay_(subte_de_Buenos_Aires)",
     "name": "Uruguay",
-    "reference": "Milan",
+    "reference": "Buenos Aires",
     "type": "twin-stations"
   },
   "worldsfair-expo-2023": {

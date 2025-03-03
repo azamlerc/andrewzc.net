@@ -90,6 +90,15 @@
     "link": "https://en.wikipedia.org/wiki/Baku",
     "name": "Baku"
   },
+  "balls-pyramid": {
+    "been": false,
+    "coords": "-31.75416667, 159.25166667",
+    "country": "AU",
+    "icons": ["🇦🇺", "🌋"],
+    "info": "tallest volcanic stack ITW",
+    "link": "https://en.wikipedia.org/wiki/Ball%27s_Pyramid",
+    "name": "Ball’s Pyramid"
+  },
   "beijing–guangzhou-high-speed-railway": {
     "been": false,
     "country": "CN",
@@ -184,6 +193,15 @@
     "info": "tallest building ITW",
     "link": "https://en.wikipedia.org/wiki/Burj_Khalifa",
     "name": "Burj Khalifa"
+  },
+  "cablebus-line-2": {
+    "been": true,
+    "country": "MX",
+    "icons": ["🇲🇽", "🚡"],
+    "info": "longest public cable line ITW",
+    "link": "https://en.wikipedia.org/wiki/Cablebús",
+    "name": "Cablebús Line 2",
+    "wikidata": "Q65166549"
   },
   "caf-urbos": {
     "been": true,
@@ -296,6 +314,16 @@
     "link": "https://en.wikipedia.org/wiki/El_Ferdan_Railway_Bridge",
     "name": "El Ferdan Railway Bridge"
   },
+  "fortaleza-ozama": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47320000, -69.88171000",
+    "country": "DO",
+    "icons": ["🇩🇴", "🪖"],
+    "info": "oldest colonial fort in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Fortaleza_Ozama",
+    "name": "Fortaleza Ozama"
+  },
   "friedrichshafen-hafen-railway": {
     "been": false,
     "country": "DE",
@@ -400,6 +428,15 @@
     "link": "https://en.wikipedia.org/wiki/Kyle,_South Dakota",
     "name": "Kyle, South Dakota"
   },
+  "lake-chargoggagoggmanchauggagoggchaubunagungamaugg": {
+    "been": true,
+    "coords": "42.04166667, -71.84166667",
+    "country": "US",
+    "icons": ["🇺🇸", "🛶"],
+    "info": "third longest place name ITW",
+    "link": "https://en.wikipedia.org/wiki/Lake_Chaubunagungamaug",
+    "name": "Lake Chargoggagoggmanchauggagoggchaubunagungamaugg"
+  },
   "lake-pontchartrain-causeway": {
     "been": false,
     "coords": "30.199722222222, -90.122777777778",
@@ -427,6 +464,15 @@
     "info": "oldest operating mainline terminal station ITW",
     "link": "https://en.wikipedia.org/wiki/Liverpool_Lime_Street_railway_station",
     "name": "Liverpool Lime Street"
+  },
+  "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch": {
+    "been": true,
+    "coords": "53.22320000, -4.20080000",
+    "country": "GB-WLS",
+    "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿", "🌃"],
+    "info": "second longest place name ITW<br></div>",
+    "link": "https://en.wikipedia.org/wiki/Llanfairpwllgwyngyll",
+    "name": "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"
   },
   "los-angeles-a-line": {
     "been": false,
@@ -473,6 +519,15 @@
     "info": "northernmost metro station ITW",
     "link": "https://en.wikipedia.org/wiki/Mellunmäki_metro_station",
     "name": "Mellunmäki"
+  },
+  "merida-cable-car": {
+    "been": false,
+    "coords": "8.52916667, -71.06361111",
+    "country": "VE",
+    "icons": ["🇻🇪", "🚡"],
+    "info": "highest cable car ITW",
+    "link": "https://en.wikipedia.org/wiki/Mérida_cable_car",
+    "name": "Mérida Cable Car"
   },
   "metro-alpin": {
     "been": false,
@@ -522,11 +577,13 @@
   },
   "narvik": {
     "been": false,
+    "coords": "68.34829, 18.93971",
     "country": "NO",
     "icons": ["🇳🇴", "🚃"],
     "info": "northernmost railway in Western Europe",
     "link": "https://en.wikipedia.org/wiki/Iron_Ore_Line",
-    "name": "Narvik"
+    "name": "Narvik",
+    "wikidata": "Q220922"
   },
   "neum": {
     "been": true,
@@ -646,11 +703,21 @@
     "link": "https://en.wikipedia.org/wiki/Powers_Street_Mosque",
     "name": "Powers Street Mosque"
   },
+  "richmond": {
+    "been": true,
+    "city": "Richmond",
+    "country": "US",
+    "icons": ["🇺🇸", "🚋"],
+    "info": "first practical electric tram ITW",
+    "link": "https://en.wikipedia.org/wiki/Richmond_Union_Passenger_Railway",
+    "name": "Richmond",
+    "wikidata": "Q5325784"
+  },
   "rideau-canal": {
     "been": false,
     "coords": "45.42583333, -75.69722222",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["🇨🇦", "🚢"],
     "info": "oldest continuously operating canal in North America",
     "link": "https://en.wikipedia.org/wiki/Rideau_Canal",
     "name": "Rideau Canal"
@@ -679,7 +746,7 @@
     "coords": "59.03138889, 5.81500000",
     "country": "NO",
     "icons": ["🇳🇴", "🕳"],
-    "info": "lowest undersea road tunnel",
+    "info": "lowest undersea road tunnel ITW",
     "link": "https://en.wikipedia.org/wiki/Ryfast",
     "name": "Ryfast Tunnel"
   },
@@ -692,6 +759,26 @@
     "link": "https://en.wikipedia.org/wiki/Sandia_Peak_Tramway",
     "name": "Sandia Peak Tramway"
   },
+  "santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.46666667, -69.95000000",
+    "country": "DO",
+    "icons": ["🇩🇴", "🏙️"],
+    "info": "oldest colonial city in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "name": "Santo Domingo"
+  },
+  "santo-domingo-cathedral": {
+    "been": true,
+    "city": "Santo Domingo",
+    "coords": "18.47277779, -69.88388890",
+    "country": "DO",
+    "icons": ["🇩🇴", "⛪️"],
+    "info": "oldest cathedral in the Americas",
+    "link": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo",
+    "name": "Santo Domingo Cathedral"
+  },
   "seikan-tunnel": {
     "been": true,
     "coords": "41.31570000, 140.33510000",
@@ -700,6 +787,16 @@
     "info": "lowest undersea rail tunnel",
     "link": "https://en.wikipedia.org/wiki/Seikan_Tunnel",
     "name": "Seikan Tunnel"
+  },
+  "seville-cathedral": {
+    "been": false,
+    "coords": "37.3857421596313, -5.9930955622969",
+    "country": "ES",
+    "icons": ["🇪🇸", "⛪️"],
+    "info": "largest gothic cathedral ITW",
+    "link": "https://en.wikipedia.org/wiki/Seville_Cathedral",
+    "name": "Seville Cathedral",
+    "wikidata": "Q231606"
   },
   "shore-line-trolley-museum": {
     "been": true,
@@ -766,6 +863,15 @@
     "name": "Stourbridge Town branch line",
     "wikidata": "Q7620589"
   },
+  "strasburg-rail-road": {
+    "been": true,
+    "coords": "39.98313889, -76.15986111",
+    "country": "US",
+    "icons": ["🇺🇸", "🚂"],
+    "info": "oldest continuously operating standard-gauge railroad in the western hemisphere",
+    "link": "https://en.wikipedia.org/wiki/Strasburg_Rail_Road",
+    "name": "Strasburg Rail Road"
+  },
   "szechenyi-furdo": {
     "been": true,
     "city": "Budapest",
@@ -785,6 +891,25 @@
     "link": "https://de.wikipedia.org/wiki/Tagebau_Hambach",
     "name": "Tagebau Hambach",
     "wikidata": "Q315371"
+  },
+  "taumatawhakatangi­hangakoauauotamatea­turipukakapikimaunga­horonukupokaiwhen­uakitanatahu": {
+    "been": false,
+    "coords": "-40.34600000, 176.54020000",
+    "country": "NZ",
+    "icons": ["🇳🇿", "⛰️"],
+    "info": "longest place name ITW",
+    "link": "https://en.wikipedia.org/wiki/Taumatawhakatangi%C2%ADhangakoauauotamatea%C2%ADturipukakapikimaunga%C2%ADhoronukupokaiwhen%C2%ADuakitanatahu",
+    "name": "Taumatawhakatangi­hangakoauauotamatea­turipukakapikimaunga­horonukupokaiwhen­uakitanatahu"
+  },
+  "tenochtitlan": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽", "🛕"],
+    "info": "largest city in pre-Columbian Americas",
+    "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
+    "name": "Tenochtitlan"
   },
   "tianmen-mountain": {
     "been": false,
@@ -822,6 +947,25 @@
     "info": "oldest church in Germany",
     "link": "https://en.wikipedia.org/wiki/Trier_Cathedral",
     "name": "Trier Cathedral"
+  },
+  "tunel-de-oriente": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.20427731, -75.48790417",
+    "country": "CO",
+    "icons": ["🇨🇴", "🕳️"],
+    "info": "second longest tunnel in Latin America",
+    "link": "https://es.wikipedia.org/wiki/Túnel_de_Oriente",
+    "name": "Túnel de Oriente"
+  },
+  "tweebuffelsmeteenskootmorsdoodgeskietfontein": {
+    "been": false,
+    "coords": "-26.16666667, 26.46666667",
+    "country": "ZA",
+    "icons": ["🇿🇦", "🦬"],
+    "info": "fourth longest place name ITW",
+    "link": "https://en.wikipedia.org/wiki/Tweebuffelsmeteenskootmorsdoodgeskietfontein",
+    "name": "Tweebuffelsmeteenskootmorsdoodgeskietfontein"
   },
   "us-20": {
     "been": true,

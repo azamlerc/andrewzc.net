@@ -142,6 +142,24 @@
     "name": "Palms",
     "type": "malls"
   },
+  "metro-population-lagos": {
+    "been": true,
+    "city": "Lagos",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "name": "Lagos",
+    "prefix": "1640",
+    "type": "metro-population"
+  },
+  "metro-prices-lagos": {
+    "been": true,
+    "city": "Lagos",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "name": "Lagos",
+    "prefix": "$0.27",
+    "type": "metro-prices"
+  },
   "metros-lagos": {
     "been": false,
     "city": "Lagos",
@@ -272,5 +290,13 @@
     "name": "Lagos",
     "reference": "Queen Sono",
     "type": "tv-places"
+  },
+  "twin-cities-lagos": {
+    "been": false,
+    "city": "Lagos",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "name": "Lagos",
+    "type": "twin-cities"
   }
 }

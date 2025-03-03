@@ -82,5 +82,34 @@
     "link": "https://en.wikipedia.org/wiki/RTD_Bus_%26_Rail#Light_rail",
     "name": "Denver",
     "type": "trams"
+  },
+  "twin-cities-denver": {
+    "been": false,
+    "city": "Denver",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Denver",
+    "type": "twin-cities"
+  },
+  "twin-cities-denver-co": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Denver, CO",
+    "type": "twin-cities"
+  },
+  "twin-cities-denver-norfolk": {
+    "been": false,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Denver, Norfolk",
+    "type": "twin-cities"
+  },
+  "twin-cities-denver-pa": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Denver, PA",
+    "type": "twin-cities"
   }
 }

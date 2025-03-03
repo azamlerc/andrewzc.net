@@ -60,6 +60,24 @@
     "name": "Cité Radieuse de Marseille",
     "type": "housing"
   },
+  "metro-population-marseille": {
+    "been": false,
+    "city": "Marseille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Marseille",
+    "prefix": "54.84",
+    "type": "metro-population"
+  },
+  "metro-prices-marseille": {
+    "been": false,
+    "city": "Marseille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Marseille",
+    "prefix": "$1.75",
+    "type": "metro-prices"
+  },
   "metros-marseille": {
     "been": false,
     "city": "Marseille",
@@ -140,5 +158,13 @@
     "link": "https://fr.wikipedia.org/wiki/Rotonde_ferroviaire_de_Marseille-Saint-Charles",
     "name": "Marseille-Saint-Charles",
     "type": "turntables"
+  },
+  "twin-cities-marseille": {
+    "been": false,
+    "city": "Marseille",
+    "country": "HT",
+    "icons": ["🇭🇹"],
+    "name": "Marseille",
+    "type": "twin-cities"
   }
 }

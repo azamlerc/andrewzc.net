@@ -2,8 +2,9 @@
   "airports-kyiv-boryspil": {
     "been": false,
     "city": "Kyiv",
+    "coords": "50.34472222, 30.89333333",
     "country": "UA",
-    "icons": ["🇺🇦"],
+    "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Boryspil_International_Airport",
     "name": "Kyiv Boryspil",
     "prefix": "KBP",
@@ -12,8 +13,9 @@
   "airports-kyiv-zhuliany": {
     "been": false,
     "city": "Kyiv",
+    "coords": "50.40166667, 30.45166667",
     "country": "UA",
-    "icons": ["🇺🇦"],
+    "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Kyiv_International_Airport_(Zhuliany)",
     "name": "Kyiv Zhuliany",
     "prefix": "IEV",
@@ -114,6 +116,24 @@
     "name": "Palats Ukraina",
     "type": "metro-places"
   },
+  "metro-population-kyiv": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kyiv",
+    "prefix": "57.69",
+    "type": "metro-population"
+  },
+  "metro-prices-kyiv": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kyiv",
+    "prefix": "$0.22",
+    "type": "metro-prices"
+  },
   "metros-kyiv": {
     "been": false,
     "city": "Kyiv",
@@ -193,5 +213,16 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Kyiv",
     "name": "Kyiv",
     "type": "trams"
+  },
+  "twin-stations-vokzalna": {
+    "been": true,
+    "city": "Kyiv",
+    "coords": "50.44166667, 30.48805556",
+    "country": "UA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kyiv_Metro)",
+    "name": "Vokzalna",
+    "reference": "Kyiv",
+    "type": "twin-stations"
   }
 }

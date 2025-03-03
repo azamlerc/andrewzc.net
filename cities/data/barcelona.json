@@ -398,6 +398,24 @@
     "name": "Estacío de França",
     "type": "metro-places"
   },
+  "metro-population-barcelona": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Barcelona",
+    "prefix": "29.84",
+    "type": "metro-population"
+  },
+  "metro-prices-barcelona": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Barcelona",
+    "prefix": "$2.67",
+    "type": "metro-prices"
+  },
   "metros-barcelona": {
     "been": true,
     "city": "Barcelona",
@@ -569,6 +587,36 @@
     "link": "https://en.wikipedia.org/wiki/Barcelona",
     "name": "Barceloneta",
     "type": "reclaimed"
+  },
+  "renamed-besos-mar": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Besòs_Mar_station",
+    "name": "Besòs Mar",
+    "reference": "Barcelona",
+    "type": "renamed"
+  },
+  "renamed-la-rambla-|-drassanes": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Drassanes_station",
+    "name": "La Rambla | Drassanes",
+    "reference": "Barcelona",
+    "type": "renamed"
+  },
+  "renamed-via-julia": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Via_Júlia_(Barcelona_Metro)",
+    "name": "Via Júlia",
+    "reference": "Barcelona",
+    "type": "renamed"
   },
   "rivers-besos": {
     "been": true,
@@ -853,14 +901,22 @@
     "reference": "Who is Erin Carter?",
     "type": "tv-places"
   },
+  "twin-cities-barcelona": {
+    "been": false,
+    "city": "Barcelona",
+    "country": "VE",
+    "icons": ["🇻🇪"],
+    "name": "Barcelona",
+    "type": "twin-cities"
+  },
   "twin-stations-clot": {
     "been": true,
     "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Valencia)",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Barcelona)",
     "name": "Clot",
-    "reference": "Valencia",
+    "reference": "Barcelona",
     "type": "twin-stations"
   },
   "twin-stations-congres": {
@@ -873,15 +929,26 @@
     "reference": "Barcelona",
     "type": "twin-stations"
   },
+  "twin-stations-florida": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "28.00000000, -82.00000000",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Florida",
+    "name": "Florida",
+    "reference": "Barcelona",
+    "type": "twin-stations"
+  },
   "twin-stations-horta": {
     "been": true,
     "city": "Barcelona",
     "coords": "38.53333333, -28.63333333",
-    "country": "BE",
+    "country": "ES",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Horta_premetro_station",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Horta",
     "name": "Horta",
-    "reference": "Brussels",
+    "reference": "Barcelona",
     "type": "twin-stations"
   },
   "twin-stations-placa-despanya": {

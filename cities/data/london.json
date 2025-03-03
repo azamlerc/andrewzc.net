@@ -358,6 +358,16 @@
     "reference": "London",
     "type": "awa"
   },
+  "awa-covent-garden-station": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51300000, -0.12430000",
+    "country": "JP",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Covent_Garden_tube_station",
+    "name": "Covent Garden Station",
+    "type": "awa"
+  },
   "awa-james-smith-&-sons": {
     "been": true,
     "city": "London",
@@ -1242,6 +1252,16 @@
     "name": "Sheraton Grand London Park Lane",
     "type": "hotels"
   },
+  "hotels-strand-palace-hotel": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51100000, -0.12100000",
+    "country": "GB",
+    "icons": ["🏨"],
+    "link": "https://en.wikipedia.org/wiki/Strand_Palace_Hotel",
+    "name": "Strand Palace Hotel",
+    "type": "hotels"
+  },
   "housing-council-estates-in-uk": {
     "been": false,
     "city": "London",
@@ -1307,8 +1327,9 @@
   "loops-kennington": {
     "been": true,
     "city": "London",
+    "coords": "51.48827778, -0.10566667",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🎈"],
     "link": "https://en.wikipedia.org/wiki/Kennington_tube_station",
     "name": "Kennington",
     "reference": "London",
@@ -1403,6 +1424,24 @@
     "link": "https://en.wikipedia.org/wiki/Waterloo_(Hanover_Stadtbahn_station)",
     "name": "Waterloo",
     "type": "metro-places"
+  },
+  "metro-population-london": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "London",
+    "prefix": "53.22",
+    "type": "metro-population"
+  },
+  "metro-prices-london": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "London",
+    "prefix": "$3.73",
+    "type": "metro-prices"
   },
   "metros-london": {
     "been": true,
@@ -1838,6 +1877,96 @@
     "link": "https://en.wikipedia.org/wiki/Rockaway_Beach_Branch#Queensway",
     "name": "Queensway",
     "type": "rail-trails"
+  },
+  "renamed-barbican": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Barbican_tube_station",
+    "name": "Barbican",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-charing-cross": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Charing_Cross_tube_station",
+    "name": "Charing Cross",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-euston-square": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Euston_Square_tube_station",
+    "name": "Euston Square",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-great-portland-street": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Great_Portland_Street_tube_station",
+    "name": "Great Portland Street",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-green-park": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Green_Park_tube_station",
+    "name": "Green Park",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-ladbroke-grove": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Ladbroke_Grove_tube_station",
+    "name": "Ladbroke Grove",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-shepherds-bush-market": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Shepherd's_Bush_Market_tube_station",
+    "name": "Shepherd’s Bush Market",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-surrey-quays": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Surrey_Quays_railway_station",
+    "name": "Surrey Quays",
+    "reference": "London",
+    "type": "renamed"
+  },
+  "renamed-tower-hill": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Tower_Hill_tube_station",
+    "name": "Tower Hill",
+    "reference": "London",
+    "type": "renamed"
   },
   "rivers-thames": {
     "been": true,
@@ -2950,6 +3079,28 @@
     "reference": "Slow Horses",
     "type": "tv-places"
   },
+  "twin-cities-london": {
+    "been": false,
+    "city": "London",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "London",
+    "type": "twin-cities"
+  },
+  "twin-cities-london-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "London, OH",
+    "type": "twin-cities"
+  },
+  "twin-cities-london-on": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "London, ON",
+    "type": "twin-cities"
+  },
   "twin-stations-angel": {
     "been": true,
     "city": "London",
@@ -2965,11 +3116,11 @@
     "been": true,
     "city": "London",
     "coords": "51.43900000, -0.05300000",
-    "country": "US",
+    "country": "GB",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Forest_Hill_station_(Muni_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Forest_Hill_railway_station",
     "name": "Forest Hill",
-    "reference": "San Francisco",
+    "reference": "London",
     "type": "twin-stations"
   },
   "twin-stations-monument": {
@@ -2978,20 +3129,31 @@
     "coords": "51.51300000, -0.08800000",
     "country": "GB",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Monument_Metro_station",
+    "link": "https://en.wikipedia.org/wiki/Bank_and_Monument_stations",
     "name": "Monument",
-    "reference": "Newcastle",
+    "reference": "London",
+    "type": "twin-stations"
+  },
+  "twin-stations-victoria": {
+    "been": true,
+    "city": "London",
+    "coords": "51.49520000, -0.14410000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/London_Victoria_station",
+    "name": "Victoria",
+    "reference": "London",
     "type": "twin-stations"
   },
   "twin-stations-waterloo": {
     "been": true,
     "city": "London",
-    "coords": "50.41750000, 4.45000000",
-    "country": "DE",
+    "coords": "51.50310000, -0.11320000",
+    "country": "GB",
     "icons": ["👯"],
-    "link": "https://de.wikipedia.org/wiki/Waterlooplatz",
+    "link": "https://en.wikipedia.org/wiki/London_Waterloo_station",
     "name": "Waterloo",
-    "reference": "Hannover",
+    "reference": "London",
     "type": "twin-stations"
   },
   "useless-borovsko-bridge": {

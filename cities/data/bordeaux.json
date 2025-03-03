@@ -40,5 +40,27 @@
     "name": "Bordeaux",
     "strike": true,
     "type": "transporter"
+  },
+  "twin-cities-bordeaux": {
+    "been": false,
+    "city": "Bordeaux",
+    "country": "GG",
+    "icons": ["🇬🇬"],
+    "name": "Bordeaux",
+    "type": "twin-cities"
+  },
+  "twin-cities-bordeaux-qc": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Bordeaux, QC",
+    "type": "twin-cities"
+  },
+  "twin-cities-bordeaux-wy": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bordeaux, WY",
+    "type": "twin-cities"
   }
 }

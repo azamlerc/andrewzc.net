@@ -120,6 +120,24 @@
     "name": "Dadeland",
     "type": "malls"
   },
+  "metro-population-miami": {
+    "been": true,
+    "city": "Miami",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami",
+    "prefix": "267.0",
+    "type": "metro-population"
+  },
+  "metro-prices-miami": {
+    "been": true,
+    "city": "Miami",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami",
+    "prefix": "$2.25",
+    "type": "metro-prices"
+  },
   "metros-miami": {
     "been": true,
     "city": "Miami",
@@ -312,6 +330,57 @@
     "reference": "Dexter",
     "state": "FL",
     "type": "tv-places"
+  },
+  "twin-cities-miami": {
+    "been": false,
+    "city": "Miami",
+    "country": "ZW",
+    "icons": ["🇿🇼"],
+    "name": "Miami",
+    "type": "twin-cities"
+  },
+  "twin-cities-miami-az": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami, AZ",
+    "type": "twin-cities"
+  },
+  "twin-cities-miami-fl": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami, FL",
+    "type": "twin-cities"
+  },
+  "twin-cities-miami-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami, OH",
+    "type": "twin-cities"
+  },
+  "twin-stations-civic-center": {
+    "been": true,
+    "city": "Miami",
+    "coords": "25.78972222, -80.21500000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(Metrorail)",
+    "name": "Civic Center",
+    "reference": "Miami",
+    "type": "twin-stations"
+  },
+  "twin-stations-martin-luther-king": {
+    "been": true,
+    "city": "Miami",
+    "coords": "25.83222222, -80.24083333",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Dr._Martin_Luther_King_Jr._Plaza_station_(Metrorail)",
+    "name": "Martin Luther King",
+    "reference": "Miami",
+    "type": "twin-stations"
   },
   "useless-government-center": {
     "been": true,

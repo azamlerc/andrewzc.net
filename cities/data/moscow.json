@@ -304,6 +304,24 @@
     "name": "Varshavskaya",
     "type": "metro-places"
   },
+  "metro-population-moscow": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Moscow",
+    "prefix": "76.20",
+    "type": "metro-population"
+  },
+  "metro-prices-moscow": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Moscow",
+    "prefix": "$0.61",
+    "type": "metro-prices"
+  },
   "metros-moscow": {
     "been": false,
     "city": "Moscow",
@@ -382,7 +400,7 @@
     "type": "open-gangways"
   },
   "open-gangways-81-765": {
-    "been": true,
+    "been": false,
     "city": "Moscow",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -535,6 +553,76 @@
     "reference": "Moscow",
     "type": "projects"
   },
+  "renamed-aleksandrovsky-sad": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Aleksandrovsky_Sad_(Moscow_Metro)",
+    "name": "Aleksandrovsky Sad",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-biblioteka-imeni-lenina": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Biblioteka_Imeni_Lenina",
+    "name": "Biblioteka Imeni Lenina",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-chistye-prudy": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Chistye_Prudy_(Moscow_Metro)",
+    "name": "Chistye Prudy",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-lubyanka": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Lubyanka_(Moscow_Metro)",
+    "name": "Lubyanka",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-partizanskaya": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Partizanskaya_(Moscow_Metro)",
+    "name": "Partizanskaya",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-prospekt-mira": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Prospekt_Mira_(Koltsevaya_line)",
+    "name": "Prospekt Mira",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
+  "renamed-tverskaya": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Tverskaya_(Moscow_Metro)",
+    "name": "Tverskaya",
+    "reference": "Moscow",
+    "type": "renamed"
+  },
   "shuttles-kakhovskaya-line": {
     "been": false,
     "city": "Moscow",
@@ -545,6 +633,16 @@
     "reference": "Moscow",
     "strike": true,
     "type": "shuttles"
+  },
+  "spanish-partizanskaya": {
+    "been": true,
+    "city": "Moscow",
+    "coords": "55.78860000, 37.75060000",
+    "country": "RU",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Partizanskaya_(Moscow_Metro)",
+    "name": "Partizanskaya",
+    "type": "spanish"
   },
   "spas-sandunovskie-baths": {
     "been": false,
@@ -720,25 +818,48 @@
     "reference": "Better Than Us",
     "type": "tv-places"
   },
+  "twin-cities-moscow": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Moscow",
+    "type": "twin-cities"
+  },
+  "twin-cities-moscow-id": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Moscow, ID",
+    "type": "twin-cities"
+  },
+  "twin-cities-moscow-pa": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Moscow, PA",
+    "type": "twin-cities"
+  },
   "twin-stations-akademicheskaya": {
     "been": true,
     "city": "Moscow",
     "coords": "55.68770000, 37.57330000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Saint_Petersburg_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Akademicheskaya_(Kaluzhsko-Rizhskaya_line)",
     "name": "Akademicheskaya",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-avtozavodskaya": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.70740000, 37.65760000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Nizhny_Novgorod_Metro)",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Avtozavodskaya_(Zamoskvoretskaya_line)",
     "name": "Avtozavodskaya",
-    "reference": "Nizhny Novgorod",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-chkalovskaya": {
@@ -747,19 +868,20 @@
     "coords": "55.75650000, 37.65730000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Moscow_Metro)",
     "name": "Chkalovskaya",
-    "reference": "Yekaterinburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-dinamo": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.75650000, 37.65730000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Yekaterinburg_Metro)",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chkalovskaya_(Moscow_Metro)",
     "name": "Dinamo",
-    "reference": "Yekaterinburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-frunzenskaya": {
@@ -768,19 +890,20 @@
     "coords": "55.72670000, 37.57860000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://www.wikiwand.com/en/Frunzenskaya_(Saint_Petersburg_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Frunzenskaya_(Moscow_Metro)",
     "name": "Frunzenskaya",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-kirovskaya": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.76570000, 37.63880000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Samara_Metro",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chistye_Prudy_(Moscow_Metro)",
     "name": "Kirovskaya",
-    "reference": "Samara",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-komsomolskaya": {
@@ -789,9 +912,9 @@
     "coords": "55.77480000, 37.65490000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Volgograd_Metrotram",
+    "link": "https://en.wikipedia.org/wiki/Komsomolskaya_(Koltsevaya_line)",
     "name": "Komsomolskaya",
-    "reference": "Volgograd",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-leninsky-prospekt": {
@@ -800,9 +923,9 @@
     "coords": "55.70770000, 37.58610000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Saint_Petersburg_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Leninsky_Prospekt_(Moscow_Metro)",
     "name": "Leninsky Prospekt",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-mayakovskaya": {
@@ -811,19 +934,20 @@
     "coords": "55.77010000, 37.59580000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_%28Saint_Petersburg_Metro%29",
+    "link": "https://en.wikipedia.org/wiki/Mayakovskaya_(Moscow_Metro)",
     "name": "Mayakovskaya",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-oktyabrskaya": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.72970000, 37.60910000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Oktyabrskaya_(Novosibirsk_Metro)",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Oktyabrskaya_(Koltsevaya_line)",
     "name": "Oktyabrskaya",
-    "reference": "Novosibirsk",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-park-kultury": {
@@ -832,9 +956,9 @@
     "coords": "55.73553000, 37.59208000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Nizhny_Novgorod_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Park_Kultury_(Moscow_Metro)",
     "name": "Park Kultury",
-    "reference": "Nizhny Novgorod",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-ploshchad-revolyutsii": {
@@ -854,19 +978,20 @@
     "coords": "55.76500000, 37.60790000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_%28Saint_Petersburg_Metro%29",
+    "link": "https://en.wikipedia.org/wiki/Pushkinskaya_(Moscow_Metro)",
     "name": "Pushkinskaya",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-rechnoy-vokzal": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.85490000, 37.47610000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Rechnoy_Vokzal_(Novosibirsk_Metro)",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Rechnoy_Vokzal_(Moscow_Metro)",
     "name": "Rechnoy Vokzal",
-    "reference": "Novosibirsk",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-sportivnaya": {
@@ -875,19 +1000,20 @@
     "coords": "55.72330000, 37.56390000",
     "country": "RU",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Samara_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Moscow_Metro)",
     "name": "Sportivnaya",
-    "reference": "Samara",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "twin-stations-teatralnaya": {
     "been": true,
     "city": "Moscow",
+    "coords": "55.75780000, 37.61900000",
     "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Teatralnaya_%28Saint_Petersburg_Metro%29",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Teatralnaya_(Moscow_Metro)",
     "name": "Teatralnaya",
-    "reference": "Saint Petersburg",
+    "reference": "Moscow",
     "type": "twin-stations"
   },
   "worldsfair-вднх": {

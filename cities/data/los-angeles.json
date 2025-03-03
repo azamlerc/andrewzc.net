@@ -149,6 +149,16 @@
     "reference": "Los Angeles",
     "type": "awa"
   },
+  "awa-angels-flight": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.05133889, -118.25021111",
+    "country": "US",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Angels_Flight",
+    "name": "Angels Flight",
+    "type": "awa"
+  },
   "awa-bob-baker-marionette-theater": {
     "been": false,
     "city": "Los Angeles",
@@ -228,6 +238,16 @@
     "name": "TAP",
     "reference": "Los Angeles",
     "type": "fare-cards"
+  },
+  "funiculars-angels-flight": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "34.05133889, -118.25021111",
+    "country": "US",
+    "icons": ["🚠"],
+    "link": "https://en.wikipedia.org/wiki/Angels_Flight",
+    "name": "Angels Flight",
+    "type": "funiculars"
   },
   "highway-medians-a-line": {
     "been": false,
@@ -343,6 +363,24 @@
     "link": "https://en.wikipedia.org/wiki/Indiana_station_(Los_Angeles_Metro)",
     "name": "Indiana",
     "type": "metro-places"
+  },
+  "metro-population-los-angeles": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Los Angeles",
+    "prefix": "130.7",
+    "type": "metro-population"
+  },
+  "metro-prices-los-angeles": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Los Angeles",
+    "prefix": "$1.75",
+    "type": "metro-prices"
   },
   "metros-los-angeles": {
     "been": false,
@@ -561,6 +599,31 @@
     "state": "CA",
     "type": "tv-places"
   },
+  "twin-cities-los-angeles": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "name": "Los Angeles",
+    "type": "twin-cities"
+  },
+  "twin-cities-los-angeles-ca": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Los Angeles, CA",
+    "type": "twin-cities"
+  },
+  "twin-stations-civic-center": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center/Grand_Park_station",
+    "name": "Civic Center",
+    "reference": "Los Angeles",
+    "type": "twin-stations"
+  },
   "twin-stations-florence": {
     "been": true,
     "city": "Los Angeles",
@@ -578,9 +641,9 @@
     "coords": "34.00957100, -118.33528800",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Dr._Martin_Luther_King_Jr._Plaza_station_(Metrorail)",
+    "link": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._station_(Los_Angeles_Metro)",
     "name": "Martin Luther King",
-    "reference": "Miami",
+    "reference": "Los Angeles",
     "type": "twin-stations"
   }
 }

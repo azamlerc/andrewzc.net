@@ -99,6 +99,24 @@
     "name": "Delhi",
     "type": "finger-lakes"
   },
+  "metro-population-delhi": {
+    "been": false,
+    "city": "Delhi",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Delhi",
+    "prefix": "108.4",
+    "type": "metro-population"
+  },
+  "metro-prices-delhi": {
+    "been": false,
+    "city": "Delhi",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Delhi",
+    "prefix": "$0.12",
+    "type": "metro-prices"
+  },
   "metros-delhi": {
     "been": false,
     "city": "Delhi",
@@ -169,5 +187,20 @@
     "link": "https://en.wikipedia.org/wiki/New_Delhi",
     "name": "New Delhi",
     "type": "tintin"
+  },
+  "twin-cities-delhi": {
+    "been": false,
+    "city": "Delhi",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Delhi",
+    "type": "twin-cities"
+  },
+  "twin-cities-delhi-ny": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Delhi, NY",
+    "type": "twin-cities"
   }
 }

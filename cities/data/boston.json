@@ -204,7 +204,7 @@
     "coords": "42.28430000, -71.06380000",
     "country": "US",
     "icons": ["🔃"],
-    "info": "Red Line/Mattapan",
+    "info": "Red Line",
     "link": "https://en.wikipedia.org/wiki/Ashmont_station",
     "name": "Ashmont",
     "reference": "Boston",
@@ -286,6 +286,34 @@
     "name": "Chinatown",
     "type": "metro-places"
   },
+  "metro-places-chinatown-(mbta)": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.35220000, -71.06270000",
+    "countries": ["US", "CN"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
+    "name": "Chinatown (MBTA)",
+    "type": "metro-places"
+  },
+  "metro-population-boston": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Boston",
+    "prefix": "92.45",
+    "type": "metro-population"
+  },
+  "metro-prices-boston": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Boston",
+    "prefix": "$2.40",
+    "type": "metro-prices"
+  },
   "metros-boston": {
     "been": true,
     "city": "Boston",
@@ -345,6 +373,36 @@
     "link": "https://en.wikipedia.org/wiki/Boston",
     "name": "Boston",
     "type": "reclaimed"
+  },
+  "renamed-chinatown": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
+    "name": "Chinatown",
+    "reference": "Boston",
+    "type": "renamed"
+  },
+  "renamed-hynes-convention-center": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Hynes_Convention_Center_station",
+    "name": "Hynes Convention Center",
+    "reference": "Boston",
+    "type": "renamed"
+  },
+  "renamed-lansdowne": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lansdowne_station_(MBTA)",
+    "name": "Lansdowne",
+    "reference": "Boston",
+    "type": "renamed"
   },
   "rivers-mystic": {
     "been": true,
@@ -492,26 +550,41 @@
     "strike": true,
     "type": "trolleybuses"
   },
+  "twin-cities-boston": {
+    "been": false,
+    "city": "Boston",
+    "country": "UZ",
+    "icons": ["🇺🇿"],
+    "name": "Boston",
+    "type": "twin-cities"
+  },
+  "twin-cities-boston-ma": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Boston, MA",
+    "type": "twin-cities"
+  },
   "twin-stations-broadway": {
     "been": true,
     "city": "Boston",
     "coords": "42.34290000, -71.05720000",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Broadway_station_(BMT_Astoria_Line)",
+    "link": "https://en.wikipedia.org/wiki/Broadway_station_(MBTA)",
     "name": "Broadway",
-    "reference": "New York",
+    "reference": "Boston",
     "type": "twin-stations"
   },
   "twin-stations-chinatown": {
     "been": true,
     "city": "Boston",
     "coords": "42.35220000, -71.06270000",
-    "country": "SG",
+    "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(MBTA)",
     "name": "Chinatown",
-    "reference": "Singapore",
+    "reference": "Boston",
     "type": "twin-stations"
   },
   "twin-stations-forest-hills": {
@@ -520,20 +593,20 @@
     "coords": "42.30073000, -71.11406000",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Forest_Hills–71st_Avenue_station",
+    "link": "https://en.wikipedia.org/wiki/Forest_Hills_station_(MBTA)",
     "name": "Forest Hills",
-    "reference": "New York",
+    "reference": "Boston",
     "type": "twin-stations"
   },
   "twin-stations-haymarket": {
     "been": true,
     "city": "Boston",
     "coords": "42.36330000, -71.05820000",
-    "country": "US",
+    "country": "GB",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Haymarket_Metro_station",
+    "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
     "name": "Haymarket",
-    "reference": "Newcastle",
+    "reference": "Boston",
     "type": "twin-stations"
   },
   "twin-stations-kenmore": {
@@ -542,9 +615,9 @@
     "coords": "42.34892500, -71.09560833",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Kenmore_station_(GCRTA)",
+    "link": "https://en.wikipedia.org/wiki/Kenmore_station",
     "name": "Kenmore",
-    "reference": "Cleveland",
+    "reference": "Boston",
     "type": "twin-stations"
   }
 }

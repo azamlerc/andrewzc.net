@@ -99,5 +99,30 @@
     "link": "https://en.wikipedia.org/wiki/Ulster_Folk_and_Transport_Museum",
     "name": "Ulster Transport Museum",
     "type": "turntables"
+  },
+  "twin-cities-belfast": {
+    "been": true,
+    "city": "Belfast",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Belfast",
+    "type": "twin-cities"
+  },
+  "twin-cities-belfast-me": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Belfast, ME",
+    "type": "twin-cities"
+  },
+  "wyes-great-victoria-street": {
+    "been": false,
+    "city": "Belfast",
+    "coords": "54.59420000, -5.93620000",
+    "country": "GB",
+    "icons": ["🖖"],
+    "link": "https://en.wikipedia.org/wiki/Belfast_Great_Victoria_Street_railway_station",
+    "name": "Great Victoria Street",
+    "type": "wyes"
   }
 }

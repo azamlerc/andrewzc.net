@@ -147,5 +147,20 @@
     "link": "https://en.wikipedia.org/wiki/Hiroshima_Electric_Railway",
     "name": "Hiroshima",
     "type": "trams"
+  },
+  "twin-cities-hiroshima": {
+    "been": true,
+    "city": "Hiroshima",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Hiroshima",
+    "type": "twin-cities"
+  },
+  "twin-cities-hiroshima-hokkaido": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Hiroshima, Hokkaido",
+    "type": "twin-cities"
   }
 }

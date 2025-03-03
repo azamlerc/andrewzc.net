@@ -170,5 +170,37 @@
     "link": "https://en.wikipedia.org/wiki/Transbay_Tube",
     "name": "Transbay Tube",
     "type": "tunnels"
+  },
+  "twin-cities-oakland": {
+    "been": false,
+    "city": "Oakland",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Oakland",
+    "type": "twin-cities"
+  },
+  "twin-cities-oakland-ca": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Oakland, CA",
+    "type": "twin-cities"
+  },
+  "twin-cities-oakland-md": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Oakland, MD",
+    "type": "twin-cities"
+  },
+  "wyes-oakland-wye": {
+    "been": false,
+    "city": "Oakland",
+    "coords": "37.80080000, -122.27290000",
+    "country": "US",
+    "icons": ["🖖"],
+    "link": "https://en.wikipedia.org/wiki/Oakland_Wye",
+    "name": "Oakland Wye",
+    "type": "wyes"
   }
 }

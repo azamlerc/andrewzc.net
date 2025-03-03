@@ -119,7 +119,8 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Newcastle_Light_Rail",
     "name": "Newcastle",
-    "type": "trams"
+    "type": "trams",
+    "wikidata": "Q17016515"
   },
   "transfer-7th-street/metro-center": {
     "been": false,
@@ -150,5 +151,36 @@
     "name": "Newcastle upon Tyne",
     "strike": true,
     "type": "trolleybuses"
+  },
+  "twin-cities-newcastle-me": {
+    "been": false,
+    "coords": "44.03472222, -69.53694444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Newcastle,_ME",
+    "name": "Newcastle, ME",
+    "type": "twin-cities"
+  },
+  "twin-stations-haymarket": {
+    "been": true,
+    "city": "Newcastle",
+    "coords": "54.97750270, -1.61392810",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Haymarket_Metro_station",
+    "name": "Haymarket",
+    "reference": "Newcastle",
+    "type": "twin-stations"
+  },
+  "twin-stations-monument": {
+    "been": true,
+    "city": "Newcastle",
+    "coords": "54.97400580, -1.61317170",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Monument_Metro_station",
+    "name": "Monument",
+    "reference": "Newcastle",
+    "type": "twin-stations"
   }
 }

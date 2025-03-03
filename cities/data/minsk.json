@@ -75,6 +75,24 @@
     "reference": "Minsk",
     "type": "loops"
   },
+  "metro-population-minsk": {
+    "been": false,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "name": "Minsk",
+    "prefix": "60.91",
+    "type": "metro-population"
+  },
+  "metro-prices-minsk": {
+    "been": false,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "name": "Minsk",
+    "prefix": "$0.32",
+    "type": "metro-prices"
+  },
   "metros-minsk": {
     "been": false,
     "city": "Minsk",
@@ -138,11 +156,20 @@
     "name": "Minsk",
     "type": "trolleybuses"
   },
+  "twin-cities-minsk": {
+    "been": false,
+    "city": "Minsk",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Minsk",
+    "type": "twin-cities"
+  },
   "twin-stations-ploshcha-lyenina": {
     "been": true,
     "city": "Minsk",
+    "coords": "53.89320000, 27.54780000",
     "country": "BY",
-    "icons": ["🇧🇾"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Ploshcha_Lyenina_(Minsk_Metro)",
     "name": "Ploshcha Lyenina",
     "reference": "Minsk",

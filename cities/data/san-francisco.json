@@ -277,8 +277,9 @@
   "loops-zoo": {
     "been": false,
     "city": "San Francisco",
+    "coords": "37.73305556, -122.50305556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🎈"],
     "link": "https://en.wikipedia.org/wiki/San_Francisco_Zoo",
     "name": "Zoo",
     "reference": "San Francisco",
@@ -324,6 +325,24 @@
     "link": "https://es.wikipedia.org/wiki/San_Francisco_(Metro_de_Quito)",
     "name": "San Francisco",
     "type": "metro-places"
+  },
+  "metro-population-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Francisco",
+    "prefix": "94.60",
+    "type": "metro-population"
+  },
+  "metro-prices-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Francisco",
+    "prefix": "$2.50",
+    "type": "metro-prices"
   },
   "metros-san-francisco": {
     "been": false,
@@ -417,6 +436,36 @@
     "link": "https://en.wikipedia.org/wiki/Transamerica_Pyramid",
     "name": "Transamerica Pyramid",
     "type": "pyramids"
+  },
+  "renamed-civic-center/un-plaza": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center/UN_Plaza_station",
+    "name": "Civic Center/UN Plaza",
+    "reference": "San Francisco",
+    "type": "renamed"
+  },
+  "renamed-pleasant-hill/contra-costa-centre": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Pleasant_Hill/Contra_Costa_Centre_station",
+    "name": "Pleasant Hill/Contra Costa Centre",
+    "reference": "San Francisco",
+    "type": "renamed"
+  },
+  "renamed-west-oakland": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/West_Oakland_station",
+    "name": "West Oakland",
+    "reference": "San Francisco",
+    "type": "renamed"
   },
   "shuttles-s-shuttle": {
     "been": false,
@@ -558,15 +607,47 @@
     "state": "CA",
     "type": "tv-places"
   },
+  "twin-stations-chinatown": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79480600, -122.40808200",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
+    "name": "Chinatown",
+    "reference": "San Francisco",
+    "type": "twin-stations"
+  },
+  "twin-stations-civic-center": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center/UN_Plaza_station",
+    "name": "Civic Center",
+    "reference": "San Francisco",
+    "type": "twin-stations"
+  },
+  "twin-stations-forest-hill": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.74803000, -122.45914000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Forest_Hill_station_(Muni_Metro)",
+    "name": "Forest Hill",
+    "reference": "San Francisco",
+    "type": "twin-stations"
+  },
   "twin-stations-van-ness": {
     "been": true,
     "city": "San Francisco",
     "coords": "37.77500000, -122.41900000",
     "country": "US",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Van_Ness–UDC_station",
+    "link": "https://en.wikipedia.org/wiki/Van_Ness_station",
     "name": "Van Ness",
-    "reference": "Washington",
+    "reference": "San Francisco",
     "type": "twin-stations"
   },
   "worldsfair-panama–pacific-international-exposition": {

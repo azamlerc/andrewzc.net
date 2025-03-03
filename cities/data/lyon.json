@@ -431,6 +431,24 @@
     "name": "La Part-Dieu",
     "type": "malls"
   },
+  "metro-population-lyon": {
+    "been": true,
+    "city": "Lyon",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lyon",
+    "prefix": "55.00",
+    "type": "metro-population"
+  },
+  "metro-prices-lyon": {
+    "been": true,
+    "city": "Lyon",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lyon",
+    "prefix": "$2.11",
+    "type": "metro-prices"
+  },
   "metros-lyon": {
     "been": true,
     "city": "Lyon",
@@ -604,15 +622,30 @@
     "name": "Tunnels de la Croix Rousse",
     "type": "tunnels"
   },
+  "twin-cities-lyon": {
+    "been": false,
+    "city": "Lyon",
+    "country": "AG",
+    "icons": ["🇦🇬"],
+    "name": "Lyon",
+    "type": "twin-cities"
+  },
+  "twin-cities-lyon-mi": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lyon, MI",
+    "type": "twin-cities"
+  },
   "twin-stations-garibaldi": {
     "been": true,
     "city": "Lyon",
     "coords": "45.75159400, 4.85369300",
     "country": "FR",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Paris)",
+    "link": "https://fr.wikipedia.org/wiki/Garibaldi_(métro_de_Lyon)",
     "name": "Garibaldi",
-    "reference": "Paris",
+    "reference": "Lyon",
     "type": "twin-stations"
   },
   "twin-stations-place-jean-jaures": {
@@ -632,9 +665,9 @@
     "coords": "45.77055800, 4.87366000",
     "country": "FR",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/République_(métro_de_Paris)",
+    "link": "https://fr.wikipedia.org/wiki/République_-_Villeurbanne_(métro_de_Lyon)",
     "name": "République",
-    "reference": "Paris",
+    "reference": "Lyon",
     "type": "twin-stations"
   },
   "twin-stations-saxe-gambetta": {

@@ -59,6 +59,24 @@
     "name": "Panama",
     "type": "metro-places"
   },
+  "metro-population-panama-city": {
+    "been": false,
+    "city": "Panama City",
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "name": "Panama City",
+    "prefix": "54.84",
+    "type": "metro-population"
+  },
+  "metro-prices-panama-city": {
+    "been": false,
+    "city": "Panama City",
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "name": "Panama City",
+    "prefix": "$0.35",
+    "type": "metro-prices"
+  },
   "metros-panama-city": {
     "been": false,
     "city": "Panama City",
@@ -119,5 +137,20 @@
     "link": "https://en.wikipedia.org/wiki/Panama_City",
     "name": "Panama City",
     "type": "reclaimed"
+  },
+  "twin-cities-panama-city": {
+    "been": true,
+    "city": "Panama City",
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "name": "Panama City",
+    "type": "twin-cities"
+  },
+  "twin-cities-panama-city-fl": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Panama City, FL",
+    "type": "twin-cities"
   }
 }

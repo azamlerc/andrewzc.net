@@ -97,6 +97,24 @@
     "name": "Pacific Centre",
     "type": "malls"
   },
+  "metro-population-vancouver": {
+    "been": false,
+    "city": "Vancouver",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Vancouver",
+    "prefix": "49.06",
+    "type": "metro-population"
+  },
+  "metro-prices-vancouver": {
+    "been": false,
+    "city": "Vancouver",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Vancouver",
+    "prefix": "$2.13",
+    "type": "metro-prices"
+  },
   "metros-vancouver": {
     "been": false,
     "city": "Vancouver",
@@ -136,7 +154,7 @@
     "type": "open-gangways"
   },
   "open-gangways-art-mark-iii": {
-    "been": true,
+    "been": false,
     "city": "Vancouver",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -218,5 +236,19 @@
     "link": "https://en.wikipedia.org/wiki/Trolley_buses_in_Vancouver",
     "name": "Vancouver",
     "type": "trolleybuses"
+  },
+  "twin-cities-vancouver-bc": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Vancouver, BC",
+    "type": "twin-cities"
+  },
+  "twin-cities-vancouver-wa": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Vancouver, WA",
+    "type": "twin-cities"
   }
 }

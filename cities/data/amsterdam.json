@@ -26,6 +26,7 @@
     "coords": "52.37277778, 4.89361111",
     "country": "NL",
     "icons": ["🏩"],
+    "info": "Amsterdam",
     "link": "https://en.wikipedia.org/wiki/Amsterdam",
     "name": "Canal Houses",
     "reference": "Amsterdam",
@@ -249,6 +250,24 @@
     "link": "https://nl.wikipedia.org/wiki/Waterlooplein_(metrostation)",
     "name": "Waterlooplein",
     "type": "metro-places"
+  },
+  "metro-population-amsterdam": {
+    "been": true,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Amsterdam",
+    "prefix": "64.10",
+    "type": "metro-population"
+  },
+  "metro-prices-amsterdam": {
+    "been": true,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Amsterdam",
+    "prefix": "$3.36",
+    "type": "metro-prices"
   },
   "metros-amsterdam": {
     "been": false,
@@ -486,6 +505,21 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Amsterdam",
     "name": "Amsterdam",
     "type": "trams"
+  },
+  "twin-cities-amsterdam": {
+    "been": false,
+    "city": "Amsterdam",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "Amsterdam",
+    "type": "twin-cities"
+  },
+  "twin-cities-amsterdam-ny": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Amsterdam, NY",
+    "type": "twin-cities"
   },
   "twin-stations-marconiplein": {
     "been": true,

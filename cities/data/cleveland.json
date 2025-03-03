@@ -42,6 +42,24 @@
     "strike": true,
     "type": "luna-park"
   },
+  "metro-population-cleveland": {
+    "been": true,
+    "city": "Cleveland",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland",
+    "prefix": "113.9",
+    "type": "metro-population"
+  },
+  "metro-prices-cleveland": {
+    "been": true,
+    "city": "Cleveland",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland",
+    "prefix": "$2.50",
+    "type": "metro-prices"
+  },
   "metros-cleveland": {
     "been": false,
     "city": "Cleveland",
@@ -91,5 +109,58 @@
     "link": "https://en.wikipedia.org/wiki/Waterfront_Line",
     "name": "Cleveland",
     "type": "trams"
+  },
+  "twin-cities-cleveland-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland, GA",
+    "type": "twin-cities"
+  },
+  "twin-cities-cleveland-middlesbrough": {
+    "been": false,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Cleveland, Middlesbrough",
+    "type": "twin-cities"
+  },
+  "twin-cities-cleveland-oh": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland, OH",
+    "type": "twin-cities"
+  },
+  "twin-cities-cleveland-tasmania": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Cleveland, Tasmania",
+    "type": "twin-cities"
+  },
+  "twin-cities-cleveland-tn": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland, TN",
+    "type": "twin-cities"
+  },
+  "twin-cities-cleveland-tx": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland, TX",
+    "type": "twin-cities"
+  },
+  "twin-stations-kenmore": {
+    "been": true,
+    "city": "Cleveland",
+    "coords": "41.46666667, -81.55333333",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Kenmore_station_(GCRTA)",
+    "name": "Kenmore",
+    "reference": "Cleveland",
+    "type": "twin-stations"
   }
 }
