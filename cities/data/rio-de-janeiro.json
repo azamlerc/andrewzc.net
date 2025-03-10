@@ -29,6 +29,15 @@
     "name": "Rio–Niterói Bridge",
     "type": "bridges"
   },
+  "brt-rio-de-janeiro": {
+    "been": false,
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Bus_transport_in_Rio_de_Janeiro",
+    "name": "Rio de Janeiro",
+    "type": "brt"
+  },
   "cable-landings-rio-de-janeiro": {
     "been": false,
     "city": "Rio de Janeiro",
@@ -57,6 +66,17 @@
     "link": "https://en.wikipedia.org/wiki/Glória,_Rio_de_Janeiro",
     "name": "Outeiro da Glória",
     "type": "funiculars"
+  },
+  "head-on-general-osorio": {
+    "been": false,
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "info": "Lines 1/4",
+    "link": "https://en.wikipedia.org/wiki/General_Osório_Station",
+    "name": "General Osório",
+    "reference": "Rio de Janeiro",
+    "type": "head-on"
   },
   "heritage-santa-teresa-tram": {
     "been": false,
@@ -186,5 +206,25 @@
     "link": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Light_Rail",
     "name": "Rio de Janeiro",
     "type": "trams"
+  },
+  "twin-stations-sao-francisco-xavier": {
+    "been": true,
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/S%C3%A3o_Francisco_Xavier_Station_(Metr%C3%B4_Rio)",
+    "name": "São Francisco Xavier",
+    "reference": "Rio de Janeiro",
+    "type": "twin-stations"
+  },
+  "twin-stations-uruguai": {
+    "been": true,
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Uruguai_Station",
+    "name": "Uruguai",
+    "reference": "Rio de Janeiro",
+    "type": "twin-stations"
   }
 }
