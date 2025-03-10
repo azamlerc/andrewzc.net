@@ -108,12 +108,30 @@ const artistNames = {
 // instead of searching for flagPattern, search for keys from the lookupTable
 function replaceArtistNames() {
     const keysPattern = new RegExp(Object.keys(artistNames).join('|'), 'g');
+    
+    document.body.childNodes.forEach(node => {
+        if (node.nodeType === 3) { // Process only text nodes
+            const replacedText = node.nodeValue.replace(keysPattern, match => {
+                const link = artistNames[match];
+                return `<a href="artists/${link}.html" style="color: inherit;">${match}</a>`;
+            });
+
+            if (replacedText !== node.nodeValue) {
+                const span = document.createElement('span');
+                span.innerHTML = replacedText;
+                node.replaceWith(span);
+            }
+        }
+    });
+    
+    /* 
     const newContent = document.body.innerHTML.replace(keysPattern, function(match) {
 				const link = artistNames[match];
         return `<a href="artists/${link}.html" style="color: inherit">${match}</a>`;
     });
     
     document.body.innerHTML = newContent;
+    */
 }
 
 document.addEventListener('DOMContentLoaded', function() {
