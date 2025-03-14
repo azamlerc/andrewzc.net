@@ -472,8 +472,10 @@
     "coords": "40.41694444, -3.70333333",
     "country": "ES",
     "icons": ["🚇"],
+    "info": "(30%)",
     "link": "https://en.wikipedia.org/wiki/Madrid_Metro",
     "name": "Madrid",
+    "reference": "30%",
     "type": "metros"
   },
   "music-places-spain": {
@@ -650,6 +652,26 @@
     "name": "Madrid, IA",
     "type": "twin-cities"
   },
+  "twin-stations-a-href=https://eswikipediaorg/wiki/estaci%c3%b3n_de_san_bernardo_%28metro_de_madrid%29": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_San_Bernardo_%28Metro_de_Madrid%29",
+    "name": "<a href=\"https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_San_Bernardo_%28Metro_de_Madrid%29\">",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
+  "twin-stations-colon": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Col%C3%B3n_%28Madrid%29",
+    "name": "Colón",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
   "twin-stations-opera": {
     "been": true,
     "city": "Madrid",
@@ -670,6 +692,17 @@
     "link": "https://fr.wikipedia.org/wiki/Plaza_de_España_(métro_de_Madrid)",
     "name": "Plaza de España",
     "reference": "Madrid",
+    "type": "twin-stations"
+  },
+  "twin-stations-san-bernardo": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.43020000, -3.70576000",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_San_Bernardo_%28Sevilla%29",
+    "name": "San Bernardo",
+    "reference": "Sevilla",
     "type": "twin-stations"
   },
   "twin-stations-sevilla": {
