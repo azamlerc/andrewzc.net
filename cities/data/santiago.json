@@ -216,5 +216,26 @@
     "name": "Line 5",
     "reference": "Santiago",
     "type": "skip-stop"
+  },
+  "twin-stations-cristobal-colon": {
+    "been": true,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Cristóbal_Colón_metro_station",
+    "name": "Cristóbal Colón",
+    "reference": "Santiago",
+    "type": "twin-stations"
+  },
+  "twin-stations-simon-bolivar": {
+    "been": true,
+    "city": "Santiago",
+    "countries": ["CL", "VE"],
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+    "name": "Simón Bolívar",
+    "reference": "Santiago",
+    "type": "twin-stations"
   }
 }

@@ -81,6 +81,17 @@
     "name": "Plaza Miserere",
     "type": "cross-platform"
   },
+  "head-on-retiro": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "info": "Lines C/E",
+    "link": "https://en.wikipedia.org/wiki/Retiro_(Line_C_Buenos_Aires_Underground)",
+    "name": "Retiro",
+    "reference": "Buenos Aires",
+    "type": "head-on"
+  },
   "luna-park-buenos-aires": {
     "been": false,
     "city": "Buenos Aires",
@@ -198,6 +209,15 @@
     "name": "Retiro",
     "type": "spanish"
   },
+  "trams-buenos-aires": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://en.wikipedia.org/wiki/Premetro_(Buenos_Aires)",
+    "name": "Buenos Aires",
+    "type": "trams"
+  },
   "transporter-puente-nicolas-avellaneda": {
     "been": false,
     "city": "Buenos Aires",
@@ -207,6 +227,17 @@
     "link": "https://en.wikipedia.org/wiki/Puente_Nicol%C3%A1s_Avellaneda",
     "name": "Puente Nicolás Avellaneda",
     "type": "transporter"
+  },
+  "twin-stations-bolivar": {
+    "been": true,
+    "city": "Buenos Aires",
+    "countries": ["AR", "VE"],
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+    "name": "Bolívar",
+    "reference": "Buenos Aires",
+    "type": "twin-stations"
   },
   "twin-stations-buenos-aires": {
     "been": true,
@@ -238,6 +269,16 @@
     "icons": ["🇦🇷"],
     "link": "https://es.wikipedia.org/wiki/Pasteur-AMIA_(subte_de_Buenos_Aires)",
     "name": "Pasteur",
+    "reference": "Buenos Aires",
+    "type": "twin-stations"
+  },
+  "twin-stations-retiro": {
+    "been": true,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://en.wikipedia.org/wiki/Retiro_(Line_C_Buenos_Aires_Underground)",
+    "name": "Retiro",
     "reference": "Buenos Aires",
     "type": "twin-stations"
   },
