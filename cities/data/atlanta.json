@@ -31,6 +31,15 @@
     "reference": "Atlanta",
     "type": "awa"
   },
+  "brt-atlanta": {
+    "been": false,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Metropolitan_Atlanta_Rapid_Transit_Authority",
+    "name": "Atlanta",
+    "type": "brt"
+  },
   "highway-medians-red-line": {
     "been": false,
     "city": "Atlanta",
@@ -227,6 +236,36 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(MARTA)",
     "name": "Civic Center",
+    "reference": "Atlanta",
+    "type": "twin-stations"
+  },
+  "twin-stations-college-park": {
+    "been": true,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/College_Park_station_(MARTA)",
+    "name": "College Park",
+    "reference": "Atlanta",
+    "type": "twin-stations"
+  },
+  "twin-stations-kensington": {
+    "been": true,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kensington_station_(MARTA)",
+    "name": "Kensington",
+    "reference": "Atlanta",
+    "type": "twin-stations"
+  },
+  "twin-stations-west-lake": {
+    "been": true,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/West_Lake_station_(MARTA)",
+    "name": "West Lake",
     "reference": "Atlanta",
     "type": "twin-stations"
   },
