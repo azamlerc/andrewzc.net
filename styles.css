@@ -306,9 +306,12 @@ a {
 	width: 40px;
 }
 
-.coins th:nth-child(3), .coins th:nth-child(6), .coins th:nth-child(9), .coins th:nth-child(13), .coins th:nth-child(17), .coins th:nth-child(21), .coins 
-	   td:nth-child(3), .coins td:nth-child(6), .coins td:nth-child(9), .coins td:nth-child(13), .coins td:nth-child(17), .coins td:nth-child(21) {
+.coins th:nth-child(4), .coins th:nth-child(7), .coins th:nth-child(10), .coins th:nth-child(14), .coins th:nth-child(18), .coins th:nth-child(22), .coins td:nth-child(4), .coins td:nth-child(7), .coins td:nth-child(10), .coins td:nth-child(14), .coins td:nth-child(18), .coins td:nth-child(22) {
 	border-right: solid 1px #666;
+}
+
+.coins td {
+  min-width: 50px;
 }
 
 .flags-container {
