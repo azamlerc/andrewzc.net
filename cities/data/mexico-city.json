@@ -381,9 +381,9 @@
     "been": false,
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
-    "countries": ["IL", "IS"],
+    "countries": ["AR", "MX"],
     "icons": ["🗺"],
-    "link": "https://en.wikipedia.org/wiki/Red_Line_(Jerusalem_Light_Rail)",
+    "link": "https://en.wikipedia.org/wiki/Line_G_(Buenos_Aires_Underground)",
     "name": "Mexico",
     "type": "metro-places"
   },
@@ -936,6 +936,16 @@
     "icons": ["👯"],
     "link": "https://es.wikipedia.org/wiki/Jamaica_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Jamaica",
+    "reference": "Mexico City",
+    "type": "twin-stations"
+  },
+  "twin-stations-observatorio": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Observatorio_(estaci%C3%B3n_del_Metro_de_la_Ciudad_de_M%C3%A9xico)",
+    "name": "Observatorio",
     "reference": "Mexico City",
     "type": "twin-stations"
   },

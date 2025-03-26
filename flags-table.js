@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
   fetch(`data/flags.json`)
     .then(response => response.json())
     .then(flags => {
-      total.innerHTML = flags.totalCount;
+      total.innerHTML = flags.totalCount.toLocaleString();
       appendCountryHeaders(flags.countries);
       appendCountryTotals(flags.countries);
       appendTableRows(flags, filter);
