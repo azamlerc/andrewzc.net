@@ -1486,6 +1486,42 @@
     "name": "Rosa Parks",
     "type": "infill"
   },
+  "islands-ile-de-la-cite": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85472222, 2.34750000",
+    "country": "FR",
+    "icons": ["🏝️"],
+    "name": "Île de la Cité",
+    "type": "islands"
+  },
+  "islands-ile-saint-germain": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82220000, 2.24630000",
+    "country": "FR",
+    "icons": ["🏝️"],
+    "name": "Île Saint-Germain",
+    "type": "islands"
+  },
+  "islands-ile-saint-louis": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85166667, 2.35638889",
+    "country": "FR",
+    "icons": ["🏝️"],
+    "name": "Île Saint-Louis",
+    "type": "islands"
+  },
+  "islands-ile-seguin": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82378056, 2.23324167",
+    "country": "FR",
+    "icons": ["🏝️"],
+    "name": "Île Seguin",
+    "type": "islands"
+  },
   "loops-charles-de-gaulle-etoile": {
     "been": true,
     "city": "Paris",
@@ -3885,6 +3921,16 @@
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Pasteur_(métro_de_Paris)",
     "name": "Pasteur",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-pyramides": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Pyramides_(métro_de_Paris)",
+    "name": "Pyramides",
     "reference": "Paris",
     "type": "twin-stations"
   },
