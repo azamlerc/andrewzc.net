@@ -99,6 +99,36 @@
     "name": "Santiago",
     "type": "islands"
   },
+  "metro-people-cristobal-colon": {
+    "been": false,
+    "city": "Santiago",
+    "coords": "-33.42635278, -70.59110000",
+    "countries": ["CL", "IT"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Crist%C3%B3bal_Col%C3%B3n_metro_station",
+    "name": "Cristóbal Colón",
+    "type": "metro-people"
+  },
+  "metro-people-einstein": {
+    "been": false,
+    "city": "Santiago",
+    "coords": "-33.40574444, -70.64314722",
+    "countries": ["CL", "DE"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Einstein_metro_station",
+    "name": "Einstein",
+    "type": "metro-people"
+  },
+  "metro-people-franklin": {
+    "been": false,
+    "city": "Santiago",
+    "coords": "-33.47657900, -70.64928900",
+    "countries": ["CL", "US"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Franklin_metro_station",
+    "name": "Franklin",
+    "type": "metro-people"
+  },
   "metro-places-plaza-italia": {
     "been": false,
     "city": "Santiago",
@@ -136,6 +166,16 @@
     "link": "https://en.wikipedia.org/wiki/Santiago_Metro",
     "name": "Santiago",
     "type": "metros"
+  },
+  "mexico-city-san-joaquin": {
+    "been": true,
+    "city": "Santiago",
+    "coords": "-33.47915556, -70.64129722",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/San_Joaqu%C3%ADn_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "San Joaquín",
+    "type": "mexico-city"
   },
   "open-gangways-1997": {
     "been": true,
@@ -221,8 +261,9 @@
   "twin-stations-cristobal-colon": {
     "been": true,
     "city": "Santiago",
+    "coords": "-33.42635278, -70.59110000",
     "country": "CL",
-    "icons": ["🇨🇱"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Cristóbal_Colón_metro_station",
     "name": "Cristóbal Colón",
     "reference": "Santiago",
@@ -231,8 +272,9 @@
   "twin-stations-observatorio": {
     "been": true,
     "city": "Santiago",
+    "coords": "19.39823700, -99.20036300",
     "country": "CL",
-    "icons": ["🇨🇱"],
+    "icons": ["👯"],
     "link": "https://es.wikipedia.org/wiki/Observatorio_(estación_del_Metro_de_Santiago)",
     "name": "Observatorio",
     "reference": "Santiago",

@@ -8,6 +8,15 @@
     "name": "<a href=\"https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_San_Bernardo_%28Metro_de_Madrid%29\">",
     "reference": "Madrid"
   },
+  "admiralteyskaya": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.93610000, 30.31480000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Admiralteyskaya_(Saint_Petersburg_Metro)",
+    "name": "Admiralteyskaya"
+  },
   "admiralty-hong-kong": {
     "been": true,
     "city": "Hong Kong",
@@ -184,7 +193,8 @@
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
     "name": "Bolívar",
-    "reference": "Buenos Aires"
+    "reference": "Buenos Aires",
+    "wikidata": "Q8605"
   },
   "bolivar-paris": {
     "been": true,
@@ -193,7 +203,8 @@
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
     "name": "Bolivar",
-    "reference": "Paris"
+    "reference": "Paris",
+    "wikidata": "Q8605"
   },
   "boulogne–jean-jaures-paris": {
     "been": true,
@@ -466,6 +477,7 @@
   "college-park-atlanta": {
     "been": true,
     "city": "Atlanta",
+    "coords": "33.65167300, -84.44879300",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/College_Park_station_(MARTA)",
@@ -475,6 +487,7 @@
   "college-park-washington": {
     "been": true,
     "city": "Washington",
+    "coords": "38.97840000, -76.92820000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/College_Park%E2%80%93University_of_Maryland_station",
@@ -523,6 +536,7 @@
   "cristobal-colon-santiago": {
     "been": true,
     "city": "Santiago",
+    "coords": "-33.42635278, -70.59110000",
     "country": "CL",
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Cristóbal_Colón_metro_station",
@@ -888,6 +902,8 @@
   },
   "george-v": {
     "been": true,
+    "city": "Paris",
+    "coords": "48.87194444, 2.30055556",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/George_V_station",
@@ -936,7 +952,7 @@
   "horta-barcelona": {
     "been": true,
     "city": "Barcelona",
-    "coords": "38.533333333333, -28.633333333333",
+    "coords": "41.429683, 2.161886",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Horta",
@@ -991,7 +1007,8 @@
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Line_G_(Buenos_Aires_Underground)",
     "name": "Jean Jaures",
-    "reference": "Buenos Aires"
+    "reference": "Buenos Aires",
+    "wikidata": "Q12688"
   },
   "jean-jaures-toulouse": {
     "been": true,
@@ -1046,6 +1063,7 @@
   "kensington-(olympia)-london": {
     "been": true,
     "city": "London",
+    "coords": "51.49860000, -0.21080000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
@@ -1055,6 +1073,7 @@
   "kensington-atlanta": {
     "been": true,
     "city": "Atlanta",
+    "coords": "33.77266400, -84.25193700",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kensington_station_(MARTA)",
@@ -1063,6 +1082,8 @@
   },
   "king-george-v": {
     "been": true,
+    "city": "London",
+    "coords": "51.50197200, 0.06277800",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/King_George_V_DLR_station",
@@ -1431,20 +1452,24 @@
   "observatorio-mexico-city": {
     "been": true,
     "city": "Mexico City",
+    "coords": "19.398237, -99.200363",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Observatorio_(estaci%C3%B3n_del_Metro_de_la_Ciudad_de_M%C3%A9xico)",
     "name": "Observatorio",
-    "reference": "Mexico City"
+    "reference": "Mexico City",
+    "wikidata": "Q388460"
   },
   "observatorio-santiago": {
     "been": true,
     "city": "Santiago",
+    "coords": "19.398237, -99.200363",
     "country": "CL",
     "icons": ["🇨🇱"],
     "link": "https://es.wikipedia.org/wiki/Observatorio_(estación_del_Metro_de_Santiago)",
     "name": "Observatorio",
-    "reference": "Santiago"
+    "reference": "Santiago",
+    "wikidata": "Q388460"
   },
   "oktyabrskaya-moscow": {
     "been": true,
@@ -1586,6 +1611,7 @@
   "piramide-rome": {
     "been": true,
     "city": "Rome",
+    "coords": "41.87555556, 12.48222222",
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Piramide_(Rome_Metro)",
@@ -1762,10 +1788,10 @@
   "proletarskaya-moscow": {
     "been": true,
     "city": "Moscow",
-    "coords": "55.023055555556, 37.388611111111",
+    "coords": "55.7319, 37.6659",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Gorkovskaya_(Moscow_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Proletarskaya_(Moscow_Metro)",
     "name": "Proletarskaya",
     "reference": "Moscow",
     "wikidata": "Q3922868"
@@ -1854,6 +1880,7 @@
   "pyramides-paris": {
     "been": true,
     "city": "Paris",
+    "coords": "48.8669463020695, 2.33366506577888",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Pyramides_(métro_de_Paris)",
@@ -1863,6 +1890,7 @@
   "queens-park-london": {
     "been": true,
     "city": "London",
+    "coords": "51.53390000, -0.20630000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Queen%27s_Park_station_(England)",
@@ -1872,6 +1900,7 @@
   "queens-park-toronto": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65972222, -79.39027778",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Queen%27s_Park_station_(Toronto)",
@@ -1920,6 +1949,7 @@
   "retiro-buenos-aires": {
     "been": true,
     "city": "Buenos Aires",
+    "coords": "-34.59125000, -58.37402778",
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Retiro_(Line_C_Buenos_Aires_Underground)",
@@ -1929,6 +1959,7 @@
   "retiro-madrid": {
     "been": true,
     "city": "Madrid",
+    "coords": "40.42030290, -3.68624840",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Retiro_(Madrid_Metro)",
@@ -1968,7 +1999,7 @@
   "san-antonio-medellin": {
     "been": true,
     "city": "Medellín",
-    "coords": "29.425, -98.49388888888889",
+    "coords": "6.24722, -75.569",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
@@ -1979,7 +2010,7 @@
   "san-antonio-mexico-city": {
     "been": true,
     "city": "Mexico City",
-    "coords": "29.425, -98.49388888888889",
+    "coords": "19.384757, -99.186308",
     "icons": ["🇲🇽‍"],
     "link": "https://es.wikipedia.org/wiki/San_Antonio_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
     "name": "San Antonio",
@@ -2078,7 +2109,7 @@
   "sevilla-mexico-city": {
     "been": true,
     "city": "Mexico City",
-    "coords": "39.50000000, -3.70000000",
+    "coords": "19.421916, -99.17058",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Sevilla_(estación_del_Metro_de_Ciudad_de_México)",
@@ -2178,7 +2209,8 @@
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
     "name": "Simón Bolívar",
-    "reference": "Santiago"
+    "reference": "Santiago",
+    "wikidata": "Q8605"
   },
   "south-station-beijing": {
     "been": true,
@@ -2477,6 +2509,7 @@
   "west-lake-atlanta": {
     "been": true,
     "city": "Atlanta",
+    "coords": "33.75314000, -84.44658000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Lake_station_(MARTA)",
@@ -2524,6 +2557,7 @@
   "westlake-seattle": {
     "been": true,
     "city": "Seattle",
+    "coords": "47.61138889, -122.33722222",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Westlake_station_(Sound_Transit)",

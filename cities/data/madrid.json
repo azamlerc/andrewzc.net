@@ -357,6 +357,26 @@
     "name": "Príncipe Pío",
     "type": "infill"
   },
+  "metro-people-alfonso-xiii": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.44824820, -3.66791190",
+    "country": "ES",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Alfonso_XIII_(Madrid_Metro)",
+    "name": "Alfonso XIII",
+    "type": "metro-people"
+  },
+  "metro-people-goya": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.42506590, -3.67431440",
+    "country": "ES",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Goya_(Madrid_Metro)",
+    "name": "Goya",
+    "type": "metro-people"
+  },
   "metro-places-avenida-de-america": {
     "been": true,
     "city": "Madrid",
@@ -477,6 +497,16 @@
     "name": "Madrid",
     "reference": "30%",
     "type": "metros"
+  },
+  "mexico-city-universidad": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.42527778, -3.70833333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Universidad_(estaci%C3%B3n_del_Metro_de_la_Ciudad_de_M%C3%A9xico)",
+    "name": "Universidad",
+    "type": "mexico-city"
   },
   "music-places-spain": {
     "been": true,
@@ -708,8 +738,9 @@
   "twin-stations-retiro": {
     "been": true,
     "city": "Madrid",
+    "coords": "40.42030290, -3.68624840",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Retiro_(Madrid_Metro)",
     "name": "Retiro",
     "reference": "Madrid",

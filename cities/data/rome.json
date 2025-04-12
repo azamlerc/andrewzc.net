@@ -141,6 +141,16 @@
     "name": "Via del Corso",
     "type": "malls"
   },
+  "metro-people-marconi": {
+    "been": false,
+    "city": "Rome",
+    "coords": "41.84944444, 12.47555556",
+    "country": "IT",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Marconi_(Rome_Metro)",
+    "name": "Marconi",
+    "type": "metro-people"
+  },
   "metro-places-bologna": {
     "been": false,
     "city": "Rome",
@@ -188,6 +198,16 @@
     "link": "https://en.wikipedia.org/wiki/Rome_Metro",
     "name": "Rome",
     "type": "metros"
+  },
+  "mexico-city-san-juan-de-letran": {
+    "been": true,
+    "city": "Rome",
+    "coords": "19.43130500, -99.14156900",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/San_Juan_de_Letr%C3%A1n_(estaci%C3%B3n)",
+    "name": "San Juan de Letrán",
+    "type": "mexico-city"
   },
   "music-places-italy": {
     "been": true,
@@ -379,8 +399,9 @@
   "twin-stations-piramide": {
     "been": true,
     "city": "Rome",
+    "coords": "41.87555556, 12.48222222",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Piramide_(Rome_Metro)",
     "name": "Piramide",
     "reference": "Rome",

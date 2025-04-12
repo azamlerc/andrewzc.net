@@ -795,6 +795,16 @@
     "name": "Wood Lane",
     "type": "curved"
   },
+  "deep-level-hampstead": {
+    "been": true,
+    "city": "London",
+    "coords": "51.55690000, -0.17830000",
+    "country": "GB",
+    "icons": ["⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Hampstead_tube_station",
+    "name": "Hampstead",
+    "type": "deep-level"
+  },
   "depots-acton-works": {
     "been": true,
     "city": "London",
@@ -1082,6 +1092,7 @@
     "icons": ["🎡"],
     "link": "https://en.wikipedia.org/wiki/Great_Wheel",
     "name": "Great Wheel",
+    "strike": true,
     "type": "ferris-wheels"
   },
   "ferris-wheels-london-eye": {
@@ -1394,6 +1405,16 @@
     "link": "https://en.wikipedia.org/wiki/Surrey_Quays_Shopping_Centre",
     "name": "Surrey Quays",
     "type": "malls"
+  },
+  "metro-people-king-george-v": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50197200, 0.06277800",
+    "country": "GB",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/King_George_V_DLR_station",
+    "name": "King George V",
+    "type": "metro-people"
   },
   "metro-places-canada-water": {
     "been": true,
@@ -2632,6 +2653,17 @@
     "name": "Suomen Merimieskirkko",
     "type": "spas"
   },
+  "spheres-sphere-london": {
+    "been": true,
+    "city": "London",
+    "coords": "51.54397300, -0.00186780",
+    "country": "GB",
+    "icons": ["⚪️"],
+    "link": "https://en.wikipedia.org/wiki/MSG_Sphere_London",
+    "name": "Sphere London",
+    "strike": true,
+    "type": "spheres"
+  },
   "split-platform-bakerloo-line": {
     "been": true,
     "city": "London",
@@ -3146,11 +3178,22 @@
   "twin-stations-kensington-(olympia)": {
     "been": true,
     "city": "London",
+    "coords": "51.49860000, -0.21080000",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
     "name": "Kensington (Olympia)",
     "reference": "London",
+    "type": "twin-stations"
+  },
+  "twin-stations-king-george-v": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50197200, 0.06277800",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/King_George_V_DLR_station",
+    "name": "King George V",
     "type": "twin-stations"
   },
   "twin-stations-monument": {
@@ -3167,8 +3210,9 @@
   "twin-stations-queens-park": {
     "been": true,
     "city": "London",
+    "coords": "51.53390000, -0.20630000",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Queen%27s_Park_station_(England)",
     "name": "Queen’s Park",
     "reference": "London",

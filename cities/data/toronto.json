@@ -604,6 +604,17 @@
     "reference": "Toronto",
     "type": "loops"
   },
+  "metro-people-kennedy": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.73250000, -79.26388889",
+    "countries": ["CA", "US"],
+    "country": "CA",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Kennedy_station",
+    "name": "Kennedy",
+    "type": "metro-people"
+  },
   "metro-population-toronto": {
     "been": true,
     "city": "Toronto",
@@ -879,8 +890,9 @@
   "twin-stations-queens-park": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65972222, -79.39027778",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Queen%27s_Park_station_(Toronto)",
     "name": "Queen’s Park",
     "reference": "Toronto",
