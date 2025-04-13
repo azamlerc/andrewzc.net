@@ -82,10 +82,12 @@
     "type": "trolleybuses"
   },
   "twin-cities-bergen": {
-    "been": false,
+    "been": true,
     "city": "Bergen",
-    "country": "MA",
-    "icons": ["🇲🇦"],
+    "coords": "60.38944444, 5.33000000",
+    "country": "NO",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bergen",
     "name": "Bergen",
     "type": "twin-cities"
   },
@@ -98,15 +100,20 @@
   },
   "twin-cities-bergen-nj": {
     "been": true,
+    "city": "New York",
+    "coords": "40.69000000, -74.08000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bergen,_New_Jersey",
     "name": "Bergen, NJ",
     "type": "twin-cities"
   },
   "twin-cities-bergen-ny": {
     "been": true,
+    "coords": "43.08333333, -77.95000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bergen,_New_York",
     "name": "Bergen, NY",
     "type": "twin-cities"
   }

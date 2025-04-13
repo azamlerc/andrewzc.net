@@ -1,38 +1,106 @@
-addStylesheet("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
-loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", () => {
-	
+addStylesheets([
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+]);
+
+loadScripts([
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+]).then(() => {	
 	let element = document.getElementById('map');
 	let lat = element.getAttribute('lat') || 37;
 	let lon = element.getAttribute('lon') || -40;
 	let zoom = element.getAttribute('zoom') || 3;
-	
+	let maxClusterRadius = 60;
+  let disableClusteringAtZoom = 10;
+  let overrideClick = false;
+  
 	fetch(`data/${getFilename()}.json`)
 	  .then(response => response.json())
 	  .then(places => {
-    	let todo = L.layerGroup();
-    	let been = L.layerGroup();
+      let been = L.markerClusterGroup({
+        maxClusterRadius,
+        disableClusteringAtZoom,
+        iconCreateFunction: function (cluster) {
+          return createClusterIcon(cluster, 'been');
+        }
+      });
 
-			const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19,
-				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-			});
-			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [osm, todo, been]});
-			const baseLayers = { 'OpenStreetMap': osm };
+      let todo = L.markerClusterGroup({
+        maxClusterRadius,
+        disableClusteringAtZoom,
+        iconCreateFunction: function (cluster) {
+          return createClusterIcon(cluster, 'todo');
+        }
+      });
+      
+      const darkTiles = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        {subdomains: 'abcd', maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors & CartoDB'}
+      );
+      const lightTiles = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}
+      );
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const initialTiles = prefersDark ? darkTiles : lightTiles;
+
+			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, been]});
+			const baseLayers = { 'OpenStreetMap': initialTiles };
 			const overlays = { 'Been': been, 'Todo': todo };
 			const layerControl = L.control.layers(null, overlays).addTo(map);
 
     	addMarkers(map, been, places, place => place.been == true, "markerBeen");
     	addMarkers(map, todo, places, place => place.been == false, "markerTodo");
+      
+      if (overrideClick) {
+        been.on('clusterclick', function (a) {
+          const currentZoom = map.getZoom();
+          map.setView(a.latlng, currentZoom + 1);
+        });
+
+        todo.on('clusterclick', function (a) {
+          const currentZoom = map.getZoom();
+          map.setView(a.latlng, currentZoom  + 1);
+        });
+      }
+      
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const isDark = e.matches;
+        if (isDark) {
+          map.removeLayer(lightTiles);
+          map.addLayer(darkTiles);
+        } else {
+          map.removeLayer(darkTiles);
+          map.addLayer(lightTiles);
+        }
+      });
 		})
 	  .catch(error => {
 	    console.error('Error loading JSON:', error);
 	  });
 });
 
+function createClusterIcon(cluster, type) {
+  const count = cluster.getChildCount();
+
+  let className = 'marker-cluster';
+  if (type === 'been') className += ' marker-cluster-been';
+  if (type === 'todo') className += ' marker-cluster-todo';
+
+  return L.divIcon({
+    html: `<div><span>${count}</span></div>`,
+    className: className,
+    iconSize: L.point(40, 40)
+  });
+}
+
 function addMarkers(map, layer, places, test, tag) {
 	for (let key in places) {
   	let place = places[key];
 		if (place.coords) {
-			let marker = addMarker(map, place, test, tag);
+			let marker = addEmojiMarker(map, place, test, tag);
 			if (marker) marker.addTo(layer);
 		} else {
 			console.log(`No coordinates: ${place.name}`);
@@ -59,30 +127,56 @@ function addMarker(map, place, test, tag) {
 	}
 }
 
-function addStylesheet(url) {
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = url;
-  document.head.appendChild(link);
+function addEmojiMarker(map, place, test, tag) {
+	if (test(place)) {
+		let latLong = place.coords.split(',').map(s => convertToDecimal(s));
+		if (latLong.length === 2) {
+			let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
+			if (place.icons) text = place.icons.join(' ') + ' ' + text;
+			if (place.prefix) text = place.prefix + "<br>" + text;
+			if (place.reference) text += "<br>" + place.reference;
+			if (place.info) text += "<br>" + place.info;
+
+			let emoji = (place.icons && place.icons.length > 0) ? place.icons[0] : "";
+
+			let marker = L.marker(latLong, {
+				icon: L.divIcon({
+					className: `emoji-pin ${tag} ${place.strike ? 'markerStrike' : ''}`,
+					html: `<div class="pin-emoji ${tag}">${emoji}</div>`,
+					iconSize: [25, 41], // Size of default Leaflet pin
+					iconAnchor: [12, 41], // Bottom center point
+					popupAnchor: [0, -30]
+				})
+			}).bindPopup(text);
+      
+			return marker;
+		} else {
+			console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
+		}
+	}
 }
 
-function loadScript(url, callback) {
-  const script = document.createElement('script');
-  script.src = url;
-  script.type = 'text/javascript';
-  script.async = true;  // Optional: makes sure the script is loaded asynchronously
+function loadScripts(urls) {
+  return Promise.all(urls.map(loadScript));
+}
 
-  // If provided, execute the callback once the script is loaded
-  script.onload = () => {
-    if (callback) callback();
-  };
+function loadScript(url) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = url;
+    script.onload = resolve;
+    script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
+    document.head.appendChild(script);
+  });
+}
 
-  // Handle errors loading the script
-  script.onerror = (error) => {
-    console.error(`Error loading script: ${url}`, error);
-  };
-
-  document.head.appendChild(script);
+function addStylesheets(urls) {
+  urls.forEach(url => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = url;
+    document.head.appendChild(link);
+  });
 }
 
 function getFilename() {

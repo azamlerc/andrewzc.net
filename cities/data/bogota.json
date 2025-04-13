@@ -200,18 +200,43 @@
     "type": "tintin"
   },
   "twin-cities-bogota": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
-    "country": "SK",
-    "icons": ["🇸🇰"],
+    "coords": "4.71111111, -74.07222222",
+    "country": "CO",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
     "name": "Bogotá",
     "type": "twin-cities"
   },
   "twin-cities-bogota-nj": {
     "been": true,
+    "city": "New York",
+    "coords": "40.87429300, -74.02973700",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bogota,_New_Jersey",
     "name": "Bogota, NJ",
+    "type": "twin-cities"
+  },
+  "twin-cities-colombia": {
+    "been": true,
+    "city": "Bogotá",
+    "coords": "4.58333333, -74.06666667",
+    "country": "CO",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Colombia",
+    "name": "Colombia",
+    "type": "twin-cities"
+  },
+  "twin-cities-monserrate": {
+    "been": true,
+    "city": "Bogotá",
+    "coords": "4.60583333, -74.05638889",
+    "country": "CO",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Monserrate_(Bogot%C3%A1)",
+    "name": "Monserrate",
     "type": "twin-cities"
   }
 }

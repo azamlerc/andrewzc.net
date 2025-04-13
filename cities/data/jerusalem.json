@@ -222,25 +222,41 @@
     "reference": "Fauda",
     "type": "tv-places"
   },
-  "twin-cities-jerusalem": {
-    "been": false,
+  "twin-cities-bethlehem": {
+    "been": true,
     "city": "Jerusalem",
-    "country": "NG",
-    "icons": ["🇳🇬"],
+    "coords": "31.70444444, 35.20638889",
+    "country": "PS",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bethlehem",
+    "name": "Bethlehem",
+    "type": "twin-cities"
+  },
+  "twin-cities-jerusalem": {
+    "been": true,
+    "city": "Jerusalem",
+    "coords": "31.78333333, 35.21666667",
+    "country": "CZ",
+    "icons": ["👯"],
+    "link": "https://cs.wikipedia.org/wiki/Jeruzal%C3%A9m_(P%C5%99%C3%ADbram)",
     "name": "Jerusalem",
     "type": "twin-cities"
   },
   "twin-cities-jerusalem-ny": {
     "been": true,
+    "coords": "42.62027778, -77.14305556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jerusalem,_New_York",
     "name": "Jerusalem, NY",
     "type": "twin-cities"
   },
   "twin-cities-jerusalem-ri": {
     "been": true,
+    "coords": "41.37663889, -71.51541667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jerusalem,_Rhode_Island",
     "name": "Jerusalem, RI",
     "type": "twin-cities"
   },

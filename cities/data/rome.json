@@ -363,25 +363,41 @@
     "name": "Rome",
     "type": "trolleybuses"
   },
+  "twin-cities-italy": {
+    "been": true,
+    "city": "Rome",
+    "coords": "41.90000000, 12.48333333",
+    "country": "IT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Italy",
+    "name": "Italy",
+    "type": "twin-cities"
+  },
   "twin-cities-rome": {
     "been": true,
     "city": "Rome",
+    "coords": "41.89333333, 12.48277778",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Rome",
     "name": "Rome",
     "type": "twin-cities"
   },
   "twin-cities-rome-ga": {
     "been": false,
+    "coords": "34.26000000, -85.18500000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Rome,_Georgia",
     "name": "Rome, GA",
     "type": "twin-cities"
   },
   "twin-cities-rome-ny": {
     "been": false,
+    "coords": "43.21944444, -75.46333333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Rome,_New_York",
     "name": "Rome, NY",
     "type": "twin-cities"
   },

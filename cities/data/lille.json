@@ -182,10 +182,12 @@
     "type": "trams"
   },
   "twin-cities-lille": {
-    "been": false,
+    "been": true,
     "city": "Lille",
-    "country": "PK",
-    "icons": ["🇵🇰"],
+    "coords": "50.62780000, 3.05830000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lille",
     "name": "Lille",
     "type": "twin-cities"
   },
@@ -193,6 +195,7 @@
     "been": false,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lille,_Maine",
     "name": "Lille, ME",
     "type": "twin-cities"
   },

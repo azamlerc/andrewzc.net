@@ -460,14 +460,77 @@ a {
 	margin-bottom: 15px;
 }
 
-img.markerBeen {
-	filter: hue-rotate(270deg);
+.emoji-pin.markerBeen {
+  filter: hue-rotate(270deg);
 }
 
-img.markerTodo {
-	filter: hue-rotate(120deg);
+.emoji-pin.markerTodo {
+  filter: hue-rotate(120deg);
 }
 
-img.markerStrike {
+.markerStrike {
 	opacity: 0.5;
+}
+
+.leaflet-popup-content {
+  font-family: 'Avenir', sans-serif;
+  font-size: 14pt !important;
+}
+
+.leaflet-popup-content a {
+  color: #999 !important;
+  text-decoration: none;
+}
+
+.emoji-pin {
+  background-image: url('https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 41px;
+  position: relative;
+}
+
+.pin-emoji {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+
+.pin-emoji.markerBeen {
+  filter: hue-rotate(-270deg) brightness(1.25);
+}
+
+.pin-emoji.markerTodo {
+  filter: hue-rotate(-120deg) brightness(1.25);
+}
+
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+
+.marker-cluster div {
+  width: 40px;
+  height: 40px;
+  font: 16px Avenir !important;
+}
+
+.marker-cluster span {
+  line-height: 32px !important;
+}
+
+.marker-cluster-been div {
+  background-color: #309646;
+}
+
+.marker-cluster-todo div {
+  background-color: #D55D80;
 }

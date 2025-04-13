@@ -40,6 +40,16 @@
     "name": "Lima",
     "type": "metro-places"
   },
+  "metro-places-panama": {
+    "been": false,
+    "city": "Lima",
+    "coords": "-12.06000000, -77.03750000",
+    "countries": ["PE", "PA"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Lima_and_Callao_Metro",
+    "name": "Panama",
+    "type": "metro-places"
+  },
   "metro-places-peru": {
     "been": false,
     "city": "Lima",
@@ -123,16 +133,30 @@
   "twin-cities-lima": {
     "been": false,
     "city": "Lima",
+    "coords": "-12.06000000, -77.03750000",
     "country": "PE",
-    "icons": ["🇵🇪"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lima",
     "name": "Lima",
     "type": "twin-cities"
   },
   "twin-cities-lima-oh": {
     "been": false,
+    "coords": "40.74638889, -84.12333333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lima,_Ohio",
     "name": "Lima, OH",
+    "type": "twin-cities"
+  },
+  "twin-cities-peru": {
+    "been": false,
+    "city": "Lima",
+    "coords": "-12.04333333, -77.02833333",
+    "country": "PE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Peru",
+    "name": "Peru",
     "type": "twin-cities"
   },
   "twin-stations-gambetta": {

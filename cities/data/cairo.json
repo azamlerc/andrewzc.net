@@ -350,23 +350,39 @@
   "twin-cities-cairo": {
     "been": true,
     "city": "Cairo",
+    "coords": "30.04444444, 31.23583333",
     "country": "EG",
-    "icons": ["🇪🇬"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cairo",
     "name": "Cairo",
     "type": "twin-cities"
   },
   "twin-cities-cairo-il": {
     "been": false,
+    "coords": "37.01305556, -89.18027778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cairo,_Illinois",
     "name": "Cairo, IL",
     "type": "twin-cities"
   },
   "twin-cities-cairo-ny": {
     "been": true,
+    "coords": "42.30222222, -73.99555556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cairo,_New_York",
     "name": "Cairo, NY",
+    "type": "twin-cities"
+  },
+  "twin-cities-egypt": {
+    "been": true,
+    "city": "Cairo",
+    "coords": "30.03333333, 31.21666667",
+    "country": "EG",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Egypt",
+    "name": "Egypt",
     "type": "twin-cities"
   }
 }

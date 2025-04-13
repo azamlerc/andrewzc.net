@@ -822,6 +822,26 @@
     "name": "Philadelphia",
     "type": "trolleybuses"
   },
+  "twin-cities-camden-nj": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.94000000, -75.10500000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Camden,_New_Jersey",
+    "name": "Camden, NJ",
+    "type": "twin-cities"
+  },
+  "twin-cities-palmyra-nj": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "40.00261500, -75.03527300",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Palmyra,_New_Jersey",
+    "name": "Palmyra, NJ",
+    "type": "twin-cities"
+  },
   "twin-cities-philadelphia": {
     "been": false,
     "city": "Philadelphia",
@@ -832,8 +852,11 @@
   },
   "twin-cities-philadelphia-pa": {
     "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95277778, -75.16361111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Philadelphia",
     "name": "Philadelphia, PA",
     "type": "twin-cities"
   },

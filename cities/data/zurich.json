@@ -92,15 +92,18 @@
   "twin-cities-zurich": {
     "been": false,
     "city": "Zürich",
+    "coords": "53.11194444, 5.39388889",
     "country": "NL",
-    "icons": ["🇳🇱"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Zurich,_Netherlands",
     "name": "Zurich",
     "type": "twin-cities"
   },
   "twin-cities-zurich-ny": {
-    "been": false,
+    "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Zurich,_New_York",
     "name": "Zurich, NY",
     "type": "twin-cities"
   }

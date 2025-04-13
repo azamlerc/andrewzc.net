@@ -623,17 +623,21 @@
     "type": "tunnels"
   },
   "twin-cities-lyon": {
-    "been": false,
+    "been": true,
     "city": "Lyon",
-    "country": "AG",
-    "icons": ["🇦🇬"],
+    "coords": "45.76000000, 4.84000000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lyon",
     "name": "Lyon",
     "type": "twin-cities"
   },
   "twin-cities-lyon-mi": {
     "been": false,
+    "coords": "42.48416667, -83.62194444",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lyon_Township,_Oakland_County,_Michigan",
     "name": "Lyon, MI",
     "type": "twin-cities"
   },

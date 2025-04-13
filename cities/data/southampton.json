@@ -130,32 +130,50 @@
     "name": "Southampton",
     "type": "tintin"
   },
+  "twin-cities-beaulieu": {
+    "been": true,
+    "city": "Southampton",
+    "coords": "50.81833333, -1.45194444",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Beaulieu,_Hampshire",
+    "name": "Beaulieu",
+    "type": "twin-cities"
+  },
   "twin-cities-southampton": {
     "been": true,
     "city": "Southampton",
+    "coords": "50.90250000, -1.40416667",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Southampton",
     "name": "Southampton",
     "type": "twin-cities"
   },
   "twin-cities-southampton-ma": {
     "been": false,
+    "coords": "42.22916667, -72.73055556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Southampton,_Massachusetts",
     "name": "Southampton, MA",
     "type": "twin-cities"
   },
   "twin-cities-southampton-ny": {
     "been": true,
+    "coords": "40.88527778, -72.39527778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Southampton,_New_York",
     "name": "Southampton, NY",
     "type": "twin-cities"
   },
   "twin-cities-southampton-on": {
     "been": false,
+    "coords": "44.49555556, -81.37138889",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Southampton,_Ontario",
     "name": "Southampton, ON",
     "type": "twin-cities"
   }

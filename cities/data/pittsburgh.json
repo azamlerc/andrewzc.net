@@ -649,6 +649,16 @@
     "name": "Wabash Tunnel",
     "type": "tunnels"
   },
+  "twin-cities-jefferson-pa": {
+    "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.28555556, -79.93305556",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jefferson,_Pennsylvania",
+    "name": "Jefferson, PA",
+    "type": "twin-cities"
+  },
   "twin-cities-pittsburgh-oh": {
     "been": false,
     "country": "CA",
@@ -658,8 +668,11 @@
   },
   "twin-cities-pittsburgh-pa": {
     "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.44000000, -79.99000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Pittsburgh",
     "name": "Pittsburgh, PA",
     "type": "twin-cities"
   },

@@ -152,18 +152,32 @@
     "strike": true,
     "type": "trolleybuses"
   },
+  "twin-cities-beaulieu-sur-mer": {
+    "been": true,
+    "city": "Nice",
+    "coords": "43.70500000, 7.33000000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Beaulieu-sur-Mer",
+    "name": "Beaulieu-sur-Mer",
+    "type": "twin-cities"
+  },
   "twin-cities-nice": {
     "been": false,
     "city": "Nice",
+    "coords": "43.70340000, 7.26630000",
     "country": "AL",
-    "icons": ["🇦🇱"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Nice,_Albania",
     "name": "Nice",
     "type": "twin-cities"
   },
   "twin-cities-nice-ca": {
     "been": false,
+    "coords": "39.12333333, -122.84833333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Nice,_California",
     "name": "Nice, CA",
     "type": "twin-cities"
   }

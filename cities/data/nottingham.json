@@ -21,24 +21,30 @@
     "type": "trams"
   },
   "twin-cities-nottingham": {
-    "been": false,
+    "been": true,
     "city": "Nottingham",
-    "country": "ZA",
-    "icons": ["🇿🇦"],
+    "coords": "52.95610000, -1.15120000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham",
     "name": "Nottingham",
     "type": "twin-cities"
   },
   "twin-cities-nottingham-nh": {
     "been": true,
+    "coords": "43.11444444, -71.09972222",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham,_New_Hampshire",
     "name": "Nottingham, NH",
     "type": "twin-cities"
   },
   "twin-cities-nottingham-pa": {
     "been": false,
+    "coords": "39.74861111, -76.01861111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham,_Pennsylvania",
     "name": "Nottingham, PA",
     "type": "twin-cities"
   },

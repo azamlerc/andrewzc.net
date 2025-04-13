@@ -10,6 +10,16 @@
     "prefix": "SYD",
     "type": "airports"
   },
+  "alexandria-alexandria-nsw": {
+    "been": false,
+    "city": "Sydney",
+    "coords": "-33.90166000, 151.20007000",
+    "country": "AU",
+    "icons": ["🇲🇰"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_New_South_Wales",
+    "name": "Alexandria, NSW",
+    "type": "alexandria"
+  },
   "apple-bondi": {
     "been": false,
     "city": "Sydney",
@@ -365,8 +375,10 @@
   "twin-cities-sydney": {
     "been": false,
     "city": "Sydney",
-    "country": "VU",
-    "icons": ["🇻🇺"],
+    "coords": "-33.86666667, 151.20000000",
+    "country": "AU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Sydney",
     "name": "Sydney",
     "type": "twin-cities"
   },
@@ -374,13 +386,16 @@
     "been": false,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sydney,_North_Dakota",
     "name": "Sydney, ND",
     "type": "twin-cities"
   },
   "twin-cities-sydney-ns": {
     "been": false,
+    "coords": "46.13638889, -60.19555556",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Sydney,_Nova_Scotia",
     "name": "Sydney, NS",
     "type": "twin-cities"
   }

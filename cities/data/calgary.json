@@ -125,15 +125,20 @@
   },
   "twin-cities-calgary-ab": {
     "been": true,
+    "city": "Calgary",
+    "coords": "51.05000000, -114.06666667",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Calgary",
     "name": "Calgary, AB",
     "type": "twin-cities"
   },
   "twin-cities-calgary-mull": {
     "been": true,
+    "coords": "56.58300000, -6.27200000",
     "country": "GB-SCT",
-    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Calgary,_Mull",
     "name": "Calgary, Mull",
     "type": "twin-cities"
   },
@@ -142,6 +147,16 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "name": "Calgary, TX",
+    "type": "twin-cities"
+  },
+  "twin-cities-montgomery-ab": {
+    "been": false,
+    "city": "Calgary",
+    "coords": "51.07722222, -114.15944444",
+    "country": "CA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Montgomery,_Calgary",
+    "name": "Montgomery, AB",
     "type": "twin-cities"
   }
 }

@@ -679,17 +679,21 @@
     "type": "tv-places"
   },
   "twin-cities-madrid": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
-    "country": "UZ",
-    "icons": ["🇺🇿"],
+    "coords": "40.41694444, -3.70333333",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Madrid",
     "name": "Madrid",
     "type": "twin-cities"
   },
   "twin-cities-madrid-ia": {
     "been": false,
+    "coords": "41.87555556, -93.82000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Madrid,_Iowa",
     "name": "Madrid, IA",
     "type": "twin-cities"
   },

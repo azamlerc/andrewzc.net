@@ -113,68 +113,97 @@
     "type": "tv-places"
   },
   "twin-cities-manchester": {
-    "been": false,
+    "been": true,
     "city": "Manchester",
-    "country": "SR",
-    "icons": ["🇸🇷"],
+    "coords": "53.47900000, -2.24520000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester",
     "name": "Manchester",
     "type": "twin-cities"
   },
   "twin-cities-manchester-ct": {
     "been": true,
+    "coords": "41.77527778, -72.52416667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_Connecticut",
     "name": "Manchester, CT",
     "type": "twin-cities"
   },
   "twin-cities-manchester-ia": {
     "been": false,
+    "coords": "42.48611111, -91.45722222",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_Iowa",
     "name": "Manchester, IA",
     "type": "twin-cities"
   },
   "twin-cities-manchester-md": {
     "been": true,
+    "coords": "39.66166667, -76.88805556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_Maryland",
     "name": "Manchester, MD",
     "type": "twin-cities"
   },
   "twin-cities-manchester-nh": {
     "been": true,
+    "coords": "42.99083333, -71.46361111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_New_Hampshire",
     "name": "Manchester, NH",
     "type": "twin-cities"
   },
   "twin-cities-manchester-ny": {
     "been": true,
+    "coords": "42.96944444, -77.22611111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_New_York",
     "name": "Manchester, NY",
     "type": "twin-cities"
   },
   "twin-cities-manchester-pa": {
     "been": true,
+    "coords": "40.03333333, -76.74138889",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester_Township,_York_County,_Pennsylvania",
     "name": "Manchester, PA",
     "type": "twin-cities"
   },
   "twin-cities-manchester-va": {
     "been": true,
+    "city": "Richmond",
+    "coords": "37.52111111, -77.44111111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_Virginia",
     "name": "Manchester, VA",
     "type": "twin-cities"
   },
   "twin-cities-manchester-vt": {
     "been": false,
+    "coords": "43.14083333, -73.08000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Manchester,_Vermont",
     "name": "Manchester, VT",
     "type": "twin-cities"
+  },
+  "twin-stations-victoria": {
+    "been": true,
+    "city": "Manchester",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Manchester_Victoria_station",
+    "name": "Victoria",
+    "reference": "Manchester",
+    "type": "twin-stations"
   },
   "united-kingdom-greater-manchester": {
     "been": true,

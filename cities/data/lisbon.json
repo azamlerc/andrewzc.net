@@ -452,24 +452,30 @@
     "type": "turntables"
   },
   "twin-cities-lisbon": {
-    "been": false,
+    "been": true,
     "city": "Lisbon",
-    "country": "PE",
-    "icons": ["🇵🇪"],
+    "coords": "38.72527778, -9.15000000",
+    "country": "PT",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lisbon",
     "name": "Lisbon",
     "type": "twin-cities"
   },
   "twin-cities-lisbon-ct": {
     "been": true,
+    "coords": "41.60388889, -72.01166667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lisbon,_Connecticut",
     "name": "Lisbon, CT",
     "type": "twin-cities"
   },
   "twin-cities-lisbon-oh": {
     "been": false,
+    "coords": "40.77333333, -80.74805556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Lisbon,_Ohio",
     "name": "Lisbon, OH",
     "type": "twin-cities"
   },

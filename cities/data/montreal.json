@@ -353,22 +353,29 @@
   "twin-cities-montreal": {
     "been": false,
     "city": "Montréal",
-    "country": "FR",
-    "icons": ["🇫🇷"],
+    "coords": "45.50888889, -73.55416667",
+    "country": "BS",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Montreal,_Bahamas",
     "name": "Montreal",
     "type": "twin-cities"
   },
   "twin-cities-montreal-qc": {
     "been": true,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Montreal",
     "name": "Montreal, QC",
     "type": "twin-cities"
   },
   "twin-cities-montreal-wi": {
     "been": false,
+    "coords": "46.42916667, -90.23888889",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Montreal,_Wisconsin",
     "name": "Montreal, WI",
     "type": "twin-cities"
   },

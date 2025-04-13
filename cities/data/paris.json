@@ -4077,11 +4077,23 @@
     "reference": "Lupin",
     "type": "tv-places"
   },
-  "twin-cities-paris": {
-    "been": false,
+  "twin-cities-boulogne-billancourt": {
+    "been": true,
     "city": "Paris",
-    "country": "UA",
-    "icons": ["🇺🇦"],
+    "coords": "48.83520000, 2.24090000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Boulogne-Billancourt",
+    "name": "Boulogne-Billancourt",
+    "type": "twin-cities"
+  },
+  "twin-cities-paris": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85666667, 2.35222222",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Paris",
     "name": "Paris",
     "type": "twin-cities"
   },
@@ -4095,22 +4107,28 @@
   },
   "twin-cities-paris-ky": {
     "been": false,
+    "coords": "38.20638889, -84.25777778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Paris,_Kentucky",
     "name": "Paris, KY",
     "type": "twin-cities"
   },
   "twin-cities-paris-tx": {
     "been": false,
+    "coords": "33.63888889, -95.54611111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Paris,_Texas",
     "name": "Paris, TX",
     "type": "twin-cities"
   },
   "twin-cities-paris-va": {
     "been": false,
+    "coords": "39.00444444, -77.95138889",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Paris,_Virginia",
     "name": "Paris, VA",
     "type": "twin-cities"
   },

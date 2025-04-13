@@ -64,7 +64,7 @@
     "coords": "46.21030000, 6.14333000",
     "country": "CH",
     "icons": ["🔃"],
-    "info": "15/18",
+    "info": "12/15",
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Genève",
     "name": "Palettes",
     "reference": "Geneva",
@@ -218,22 +218,28 @@
   "twin-cities-geneva": {
     "been": true,
     "city": "Geneva",
+    "coords": "46.20166667, 6.14694444",
     "country": "CH",
-    "icons": ["🇨🇭"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Geneva",
     "name": "Geneva",
     "type": "twin-cities"
   },
   "twin-cities-geneva-ny": {
     "been": true,
+    "coords": "42.87888889, -76.99305556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Geneva,_New_York",
     "name": "Geneva, NY",
     "type": "twin-cities"
   },
   "twin-cities-geneva-oh": {
     "been": false,
+    "coords": "41.80055556, -80.94611111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Geneva,_Ohio",
     "name": "Geneva, OH",
     "type": "twin-cities"
   }

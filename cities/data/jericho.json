@@ -32,17 +32,21 @@
     "type": "records"
   },
   "twin-cities-jericho": {
-    "been": false,
+    "been": true,
     "city": "Jericho",
-    "country": "BB",
-    "icons": ["🇧🇧"],
+    "coords": "31.85611111, 35.46000000",
+    "country": "PS",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jericho",
     "name": "Jericho",
     "type": "twin-cities"
   },
   "twin-cities-jericho-ny": {
     "been": true,
+    "coords": "40.78666667, -73.53666667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Jericho,_New_York",
     "name": "Jericho, NY",
     "type": "twin-cities"
   }

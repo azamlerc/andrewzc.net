@@ -84,8 +84,10 @@
   "san-jose-san-jose-ca": {
     "been": true,
     "city": "San Jose, CA",
+    "coords": "37.19333333, -121.80333333",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/San_Jose,_California",
     "name": "San Jose, CA",
     "type": "san-jose"
   },
@@ -117,5 +119,35 @@
     "icons": ["🚀"],
     "name": "Santa Clara",
     "type": "tintin"
+  },
+  "twin-cities-campbell-ca": {
+    "been": true,
+    "city": "San Jose, CA",
+    "coords": "37.28388889, -121.95500000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Campbell,_California",
+    "name": "Campbell, CA",
+    "type": "twin-cities"
+  },
+  "twin-cities-san-jose-ca": {
+    "been": true,
+    "city": "San Jose, CA",
+    "coords": "37.19333333, -121.80333333",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/San_Jose,_California",
+    "name": "San Jose, CA",
+    "type": "twin-cities"
+  },
+  "twin-cities-saratoga-ca": {
+    "been": true,
+    "city": "San Jose, CA",
+    "coords": "37.27250000, -122.01944444",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Saratoga,_California",
+    "name": "Saratoga, CA",
+    "type": "twin-cities"
   }
 }

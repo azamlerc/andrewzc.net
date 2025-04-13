@@ -166,17 +166,21 @@
     "type": "trams"
   },
   "twin-cities-cologne": {
-    "been": false,
+    "been": true,
     "city": "Cologne",
-    "country": "IT",
-    "icons": ["🇮🇹"],
+    "coords": "50.93638889, 6.95277778",
+    "country": "DE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cologne",
     "name": "Cologne",
     "type": "twin-cities"
   },
   "twin-cities-cologne-nj": {
     "been": false,
+    "coords": "39.50472222, -74.61333333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cologne,_New_Jersey",
     "name": "Cologne, NJ",
     "type": "twin-cities"
   }

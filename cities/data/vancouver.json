@@ -196,6 +196,16 @@
     "reference": "Vancouver",
     "type": "projects"
   },
+  "richmond-richmond-bc": {
+    "been": false,
+    "city": "Vancouver",
+    "coords": "49.16666667, -123.13333333",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Richmond,_British_Columbia",
+    "name": "Richmond, BC",
+    "type": "richmond"
+  },
   "rivers-fraser": {
     "been": false,
     "city": "Vancouver",
@@ -238,17 +248,33 @@
     "name": "Vancouver",
     "type": "trolleybuses"
   },
+  "twin-cities-richmond-bc": {
+    "been": false,
+    "city": "Vancouver",
+    "coords": "49.16666667, -123.13333333",
+    "country": "CA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Richmond,_British_Columbia",
+    "name": "Richmond, BC",
+    "type": "twin-cities"
+  },
   "twin-cities-vancouver-bc": {
     "been": false,
+    "city": "Vancouver",
+    "coords": "49.26083333, -123.11388889",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Vancouver",
     "name": "Vancouver, BC",
     "type": "twin-cities"
   },
   "twin-cities-vancouver-wa": {
     "been": true,
+    "city": "Portland, OR",
+    "coords": "45.63111111, -122.67166667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Vancouver,_Washington",
     "name": "Vancouver, WA",
     "type": "twin-cities"
   }

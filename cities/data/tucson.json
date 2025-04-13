@@ -31,9 +31,21 @@
   },
   "twin-cities-tucson-oh": {
     "been": false,
+    "coords": "39.35638889, -82.82611111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Tucson,_Ohio",
     "name": "Tucson, OH",
+    "type": "twin-cities"
+  },
+  "twin-cities-tuscon-az": {
+    "been": true,
+    "city": "Tucson",
+    "coords": "32.22166667, -110.92638889",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Tucson,_Arizona",
+    "name": "Tuscon, AZ",
     "type": "twin-cities"
   }
 }

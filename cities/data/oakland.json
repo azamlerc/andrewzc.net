@@ -171,6 +171,16 @@
     "name": "Transbay Tube",
     "type": "tunnels"
   },
+  "twin-cities-berkeley-ca": {
+    "been": true,
+    "city": "Oakland",
+    "coords": "37.87166667, -122.27277778",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Berkeley,_California",
+    "name": "Berkeley, CA",
+    "type": "twin-cities"
+  },
   "twin-cities-oakland": {
     "been": false,
     "city": "Oakland",
@@ -181,15 +191,20 @@
   },
   "twin-cities-oakland-ca": {
     "been": true,
+    "city": "Oakland",
+    "coords": "37.80444444, -122.27083333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Oakland,_California",
     "name": "Oakland, CA",
     "type": "twin-cities"
   },
   "twin-cities-oakland-md": {
     "been": false,
+    "coords": "39.41666667, -79.40222222",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Oakland,_Maryland",
     "name": "Oakland, MD",
     "type": "twin-cities"
   },

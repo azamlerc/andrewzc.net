@@ -551,18 +551,53 @@
     "type": "trolleybuses"
   },
   "twin-cities-boston": {
-    "been": false,
+    "been": true,
     "city": "Boston",
-    "country": "UZ",
-    "icons": ["🇺🇿"],
+    "coords": "52.97400000, -0.02140000",
+    "country": "GB",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Boston,_Lincolnshire",
     "name": "Boston",
     "type": "twin-cities"
   },
   "twin-cities-boston-ma": {
     "been": true,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Boston",
     "name": "Boston, MA",
+    "type": "twin-cities"
+  },
+  "twin-cities-braintree-ma": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.20600000, -71.00500000",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Braintree,_Massachusetts",
+    "name": "Braintree, MA",
+    "type": "twin-cities"
+  },
+  "twin-cities-cambridge-ma": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.37361111, -71.11055556",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts",
+    "name": "Cambridge, MA",
+    "type": "twin-cities"
+  },
+  "twin-cities-milton-ma": {
+    "been": false,
+    "city": "Boston",
+    "coords": "42.25000000, -71.06666667",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Milton,_Massachusetts",
+    "name": "Milton, MA",
     "type": "twin-cities"
   },
   "twin-stations-broadway": {

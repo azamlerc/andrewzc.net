@@ -819,10 +819,12 @@
     "type": "transfer"
   },
   "twin-cities-tokyo": {
-    "been": false,
+    "been": true,
     "city": "Tokyo",
-    "country": "PG",
-    "icons": ["🇵🇬"],
+    "coords": "35.68333333, 139.76666667",
+    "country": "JP",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo",
     "name": "Tokyo",
     "type": "twin-cities"
   }

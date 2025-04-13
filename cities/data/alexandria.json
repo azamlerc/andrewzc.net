@@ -9,6 +9,16 @@
     "name": "Alexandria",
     "type": "airbnb"
   },
+  "alexandria-alexandria-egypt": {
+    "been": true,
+    "city": "Alexandria",
+    "coords": "31.19750000, 29.89250000",
+    "country": "EG",
+    "icons": ["🇲🇰"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria",
+    "name": "Alexandria, Egypt",
+    "type": "alexandria"
+  },
   "beaches-alexandria": {
     "been": true,
     "city": "Alexandria",
@@ -22,6 +32,7 @@
   "cable-landings-alexandria": {
     "been": true,
     "city": "Alexandria",
+    "coords": "31.19750000, 29.89250000",
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "http://www.kidorf.com/DBResult.php?Landing=Alexandria,%20Egypt&Location=NONE&Repeatered=Both",
@@ -31,12 +42,14 @@
   "depots-alexandria": {
     "been": true,
     "city": "Alexandria",
+    "coords": "31.19750000, 29.89250000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
     "name": "Alexandria",
     "reference": "Washington",
-    "type": "depots"
+    "type": "depots",
+    "wikidata": "Q7972048"
   },
   "forts-qaitbay-citadel": {
     "been": true,
@@ -92,36 +105,47 @@
   "twin-cities-alexandria": {
     "been": false,
     "city": "Alexandria",
+    "coords": "-33.65333333, 26.40833333",
     "country": "ZA",
-    "icons": ["🇿🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_Eastern_Cape",
     "name": "Alexandria",
     "type": "twin-cities"
   },
   "twin-cities-alexandria-bc": {
     "been": false,
+    "coords": "52.63305556, -122.45111111",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_British_Columbia",
     "name": "Alexandria, BC",
     "type": "twin-cities"
   },
   "twin-cities-alexandria-ky": {
     "been": false,
+    "coords": "38.96194444, -84.38583333",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_Kentucky",
     "name": "Alexandria, KY",
     "type": "twin-cities"
   },
   "twin-cities-alexandria-pa": {
     "been": false,
+    "coords": "40.55833333, -78.10000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_Pennsylvania",
     "name": "Alexandria, PA",
     "type": "twin-cities"
   },
   "twin-cities-alexandria-va": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.80470000, -77.04720000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria,_Virginia",
     "name": "Alexandria, VA",
     "type": "twin-cities"
   }
