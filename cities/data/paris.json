@@ -1543,6 +1543,7 @@
     "coords": "48.85472222, 2.34750000",
     "country": "FR",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/%C3%8Ele_de_la_Cit%C3%A9",
     "name": "Île de la Cité",
     "type": "islands"
   },
@@ -1552,6 +1553,7 @@
     "coords": "48.82220000, 2.24630000",
     "country": "FR",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/%C3%8Ele_Saint-Germain",
     "name": "Île Saint-Germain",
     "type": "islands"
   },
@@ -1561,6 +1563,8 @@
     "coords": "48.85166667, 2.35638889",
     "country": "FR",
     "icons": ["🏝️"],
+    "info": "🚶‍♂️<br>",
+    "link": "https://en.wikipedia.org/wiki/%C3%8Ele_Saint-Louis",
     "name": "Île Saint-Louis",
     "type": "islands"
   },
@@ -1570,8 +1574,53 @@
     "coords": "48.82378056, 2.23324167",
     "country": "FR",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/%C3%8Ele_Seguin",
     "name": "Île Seguin",
     "type": "islands"
+  },
+  "longest-tunnels-line-12": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_12,_Shanghai_Metro",
+    "name": "Line 12",
+    "prefix": "40.4",
+    "reference": "Shanghai",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-line-13": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro_Line_13",
+    "name": "Line 13",
+    "prefix": "16.8",
+    "reference": "Paris",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-line-15": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)",
+    "name": "Line 15",
+    "prefix": "17.6",
+    "reference": "Beijing",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-line-8": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_8_(Chengdu_Metro)",
+    "name": "Line 8",
+    "prefix": "29.1",
+    "reference": "Chengdu",
+    "type": "longest-tunnels"
   },
   "loops-charles-de-gaulle-etoile": {
     "been": true,

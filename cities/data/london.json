@@ -565,6 +565,17 @@
     "name": "London",
     "type": "congestion"
   },
+  "copies-big-ben": {
+    "been": false,
+    "city": "London",
+    "coords": "51.50070000, -0.12450000",
+    "countries": ["SA", "GB"],
+    "icons": ["🤡"],
+    "link": "https://en.wikipedia.org/wiki/Abraj_Al_Bait",
+    "name": "Big Ben",
+    "reference": "Mecca",
+    "type": "copies"
+  },
   "cross-platform-acton-town": {
     "been": true,
     "city": "London",
@@ -1105,6 +1116,15 @@
     "name": "London Eye",
     "type": "ferris-wheels"
   },
+  "first-locations-twinings": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧", "🫖"],
+    "name": "Twinings",
+    "reference": "London",
+    "type": "first-locations"
+  },
   "flood-thames-barrier": {
     "been": true,
     "city": "London",
@@ -1332,6 +1352,28 @@
     "link": "https://en.wikipedia.org/wiki/Wood_Lane_tube_station",
     "name": "Wood Lane",
     "type": "infill"
+  },
+  "longest-tunnels-northern-line": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Northern_line",
+    "name": "Northern Line",
+    "prefix": "27.8",
+    "reference": "London",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-victoria-line": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Victoria_line",
+    "name": "Victoria Line",
+    "prefix": "21.0",
+    "reference": "London",
+    "type": "longest-tunnels"
   },
   "loops-croydon": {
     "been": true,

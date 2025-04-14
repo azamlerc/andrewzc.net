@@ -12,6 +12,7 @@ loadScripts([
 	let lat = element.getAttribute('lat') || 37;
 	let lon = element.getAttribute('lon') || -40;
 	let zoom = element.getAttribute('zoom') || 3;
+  let cluster = (element.getAttribute('cluster') || "true") == "true";
 	let maxClusterRadius = 60;
   let disableClusteringAtZoom = 10;
   let overrideClick = false;
@@ -19,7 +20,7 @@ loadScripts([
 	fetch(`data/${getFilename()}.json`)
 	  .then(response => response.json())
 	  .then(places => {
-      let been = L.markerClusterGroup({
+      let been = !cluster ? L.layerGroup() : L.markerClusterGroup({
         maxClusterRadius,
         disableClusteringAtZoom,
         iconCreateFunction: function (cluster) {
@@ -27,7 +28,7 @@ loadScripts([
         }
       });
 
-      let todo = L.markerClusterGroup({
+      let todo = !cluster ? L.layerGroup() : L.markerClusterGroup({
         maxClusterRadius,
         disableClusteringAtZoom,
         iconCreateFunction: function (cluster) {

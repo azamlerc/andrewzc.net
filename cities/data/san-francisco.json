@@ -156,6 +156,15 @@
     "name": "SkyStar Wheel",
     "type": "ferris-wheels"
   },
+  "first-locations-gap": {
+    "been": false,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸", "👕"],
+    "name": "Gap",
+    "reference": "San Francisco",
+    "type": "first-locations"
+  },
   "forts-fort-mason": {
     "been": false,
     "city": "San Francisco",
@@ -246,6 +255,7 @@
     "coords": "37.82666667, -122.42277778",
     "country": "US",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/Alcatraz_Island",
     "name": "Alcatraz",
     "type": "islands"
   },
@@ -255,8 +265,20 @@
     "coords": "37.80991200, -122.36600200",
     "country": "US",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/Yerba_Buena_Island",
     "name": "Yerba Buena",
     "type": "islands"
+  },
+  "longest-tunnels-bart": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(BART)",
+    "name": "BART",
+    "prefix": "19.5",
+    "reference": "San Francisco",
+    "type": "longest-tunnels"
   },
   "loops-castro": {
     "been": true,

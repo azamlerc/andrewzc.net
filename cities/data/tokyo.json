@@ -339,6 +339,39 @@
     "name": "Toranomon Hills",
     "type": "infill"
   },
+  "japan-tokyo": {
+    "been": true,
+    "city": "Tokyo",
+    "coords": "35.68333333, 139.76666667",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo",
+    "name": "Tokyo",
+    "prefix": "東京都",
+    "type": "japan"
+  },
+  "longest-tunnels-hanzomon-line": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Hanzomon_Line",
+    "name": "Hanzomon Line",
+    "prefix": "16.8",
+    "reference": "Tokyo",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-yurakucho-line": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Yurakucho_Line",
+    "name": "Yurakucho Line",
+    "prefix": "24.6",
+    "reference": "Tokyo",
+    "type": "longest-tunnels"
+  },
   "luna-park-tokyo": {
     "been": false,
     "city": "Tokyo",

@@ -1,0 +1,985 @@
+{
+  "a-train": {
+    "been": false,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/IND_Eighth_Avenue_Line",
+    "name": "A Train",
+    "prefix": "30.8",
+    "reference": "New York"
+  },
+  "arbatsko-pokrovskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Arbatsko-Pokrovskaya_line",
+    "name": "Arbatsko-Pokrovskaya Line",
+    "prefix": "45.1",
+    "reference": "Moscow"
+  },
+  "avtozavodskaya-line": {
+    "been": false,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://en.wikipedia.org/wiki/A%C5%ADtazavodskaja_Line",
+    "name": "Avtozavodskaya Line",
+    "prefix": "18.1",
+    "reference": "Minsk"
+  },
+  "b-line": {
+    "been": false,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/B_Line_(Los_Angeles_Metro)",
+    "name": "B Line",
+    "prefix": "26.4",
+    "reference": "Los Angeles"
+  },
+  "bannan-line": {
+    "been": false,
+    "city": "Taipei",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "link": "https://en.wikipedia.org/wiki/Bannan_Line",
+    "name": "Bannan Line",
+    "prefix": "28.2",
+    "reference": "Taipei"
+  },
+  "bart": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(BART)",
+    "name": "BART",
+    "prefix": "19.5",
+    "reference": "San Francisco"
+  },
+  "blue-line": {
+    "been": false,
+    "city": "Kolkata",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(Kolkata_Metro)",
+    "name": "Blue Line",
+    "prefix": "15.1",
+    "reference": "Kolkata"
+  },
+  "bolshaya-koltsevaya": {
+    "been": false,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Bolshaya_Koltsevaya_line",
+    "name": "Bolshaya Koltsevaya",
+    "prefix": "57.5",
+    "reference": "Moscow"
+  },
+  "bucharest-metro-line-m2": {
+    "been": false,
+    "city": "Bucharest",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bucharest_Metro_Line_M2",
+    "name": "Bucharest Metro Line M2",
+    "prefix": "17.1",
+    "reference": "Bucharest"
+  },
+  "bucharest-metro-line-m3": {
+    "been": false,
+    "city": "Bucharest",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bucharest_Metro_Line_M3",
+    "name": "Bucharest Metro Line M3",
+    "prefix": "20.0",
+    "reference": "Bucharest"
+  },
+  "central-tunnel": {
+    "been": true,
+    "city": "Helsinki",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_Metro",
+    "name": "Central Tunnel",
+    "prefix": "25.2",
+    "reference": "Helsinki"
+  },
+  "circle-line": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Circle_MRT_line",
+    "name": "Circle Line",
+    "prefix": "33.3",
+    "reference": "Singapore"
+  },
+  "downtown-mrt-line": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Downtown_MRT_line",
+    "name": "Downtown MRT Line",
+    "prefix": "41.9",
+    "reference": "Singapore"
+  },
+  "frunzensko-primorskaya-line": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Line_5_(Saint_Petersburg_Metro)",
+    "name": "Frunzensko-Primorskaya Line",
+    "prefix": "26.2",
+    "reference": "Saint Petersburg"
+  },
+  "hanzomon-line": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Hanzomon_Line",
+    "name": "Hanzomon Line",
+    "prefix": "16.8",
+    "reference": "Tokyo"
+  },
+  "incheon-line-1": {
+    "been": false,
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Incheon_Subway_Line_1",
+    "name": "Incheon Line 1",
+    "prefix": "27.9",
+    "reference": "Incheon"
+  },
+  "island-line": {
+    "been": false,
+    "city": "Hong Kong",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://en.wikipedia.org/wiki/Island_line_(MTR)",
+    "name": "Island Line",
+    "prefix": "15.0",
+    "reference": "Hong Kong"
+  },
+  "kalininskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kalininsko-Solntsevskaya_line",
+    "name": "Kalininskaya Line",
+    "prefix": "16.3",
+    "reference": "Moscow"
+  },
+  "kaluzhsko-rizhskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kaluzhsko-Rizhskaya_line",
+    "name": "Kaluzhsko-Rizhskaya Line",
+    "prefix": "37.8",
+    "reference": "Moscow"
+  },
+  "kholodnohirsko–zavodska-line": {
+    "been": false,
+    "city": "Kharkiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Kholodnohirsko%E2%80%93Zavodska_line",
+    "name": "Kholodnohirsko–Zavodska Line",
+    "prefix": "17.3",
+    "reference": "Kharkiv"
+  },
+  "kirovsko-vyborgskaya-line": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kirovsko-Vyborgskaya_Line",
+    "name": "Kirovsko-Vyborgskaya Line",
+    "prefix": "29.57",
+    "reference": "Saint Petersburg"
+  },
+  "koltsevaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kol%27tsevaya_Line",
+    "name": "Koltsevaya Line",
+    "prefix": "19.4",
+    "reference": "Moscow"
+  },
+  "l-1": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_1_(Madrid_Metro)",
+    "name": "L-1",
+    "prefix": "23.8",
+    "reference": "Madrid"
+  },
+  "l-12": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_12_(Madrid_Metro)",
+    "name": "L-12",
+    "prefix": "40.9",
+    "reference": "Madrid"
+  },
+  "l-3": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_3_(Madrid_Metro)",
+    "name": "L-3",
+    "prefix": "16.4",
+    "reference": "Madrid"
+  },
+  "l-4": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_4_(Madrid_Metro)",
+    "name": "L-4",
+    "prefix": "16.0",
+    "reference": "Madrid"
+  },
+  "l-5": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_5_(Madrid_Metro)",
+    "name": "L-5",
+    "prefix": "20.0",
+    "reference": "Madrid"
+  },
+  "l-6": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_6_(Madrid_Metro)",
+    "name": "L-6",
+    "prefix": "23.4",
+    "reference": "Madrid"
+  },
+  "l-7": {
+    "been": false,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Line_7_(Madrid_Metro)",
+    "name": "L-7",
+    "prefix": "32.9",
+    "reference": "Madrid"
+  },
+  "l9/l10": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro_line_10",
+    "name": "L9/L10",
+    "prefix": "47.8",
+    "reference": "Barcelona"
+  },
+  "line-1": {
+    "been": false,
+    "city": "Barcelona",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_1_(Tianjin_Metro)",
+    "name": "Line 1",
+    "prefix": "15.3",
+    "reference": "Tianjin"
+  },
+  "line-10": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_10,_Chengdu_Metro",
+    "name": "Line 10",
+    "prefix": "15.0",
+    "reference": "Chengdu"
+  },
+  "line-11": {
+    "been": false,
+    "city": "Guangzhou",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_11_(Guangzhou_Metro)",
+    "name": "Line 11",
+    "prefix": "43.2",
+    "reference": "Guangzhou"
+  },
+  "line-12": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_12,_Shanghai_Metro",
+    "name": "Line 12",
+    "prefix": "40.4",
+    "reference": "Shanghai"
+  },
+  "line-13": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro_Line_13",
+    "name": "Line 13",
+    "prefix": "16.8",
+    "reference": "Paris"
+  },
+  "line-14": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_14_(Beijing_Subway)",
+    "name": "Line 14",
+    "prefix": "42.0",
+    "reference": "Beijing"
+  },
+  "line-15": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_15_(Beijing_Subway)",
+    "name": "Line 15",
+    "prefix": "17.6",
+    "reference": "Beijing"
+  },
+  "line-16": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_16_(Beijing_Subway)",
+    "name": "Line 16",
+    "prefix": "48.9",
+    "reference": "Beijing"
+  },
+  "line-17": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_17_(Beijing_Subway)",
+    "name": "Line 17",
+    "prefix": "16.5",
+    "reference": "Beijing"
+  },
+  "line-18": {
+    "been": false,
+    "city": "Guangzhou",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_18_(Guangzhou_Metro)",
+    "name": "Line 18",
+    "prefix": "58.3",
+    "reference": "Guangzhou"
+  },
+  "line-19": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_19_(Beijing_Subway)",
+    "name": "Line 19",
+    "prefix": "22.4",
+    "reference": "Beijing"
+  },
+  "line-2": {
+    "been": false,
+    "city": "Shenzhen",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Line_2_(Athens_Metro)",
+    "name": "Line 2",
+    "prefix": "17.9",
+    "reference": "Athens"
+  },
+  "line-27": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%9C%B0%E9%93%8127%E5%8F%B7%E7%BA%BF",
+    "name": "Line 27",
+    "prefix": "17.3",
+    "reference": "Chengdu"
+  },
+  "line-3": {
+    "been": false,
+    "city": "Mexico City",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)",
+    "name": "Line 3",
+    "prefix": "19.2",
+    "reference": "Tianjin"
+  },
+  "line-4": {
+    "been": false,
+    "city": "Barcelona",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_4_(Tianjin_Metro)",
+    "name": "Line 4",
+    "prefix": "19.4",
+    "reference": "Tianjin"
+  },
+  "line-5": {
+    "been": false,
+    "city": "Barcelona",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_5_(Beijing_Subway)",
+    "name": "Line 5",
+    "prefix": "17.8",
+    "reference": "Beijing"
+  },
+  "line-6": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_6",
+    "name": "Line 6",
+    "prefix": "15.3",
+    "reference": "Santiago"
+  },
+  "line-7": {
+    "been": false,
+    "city": "Guangzhou",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_7,_Shanghai_Metro",
+    "name": "Line 7",
+    "prefix": "34.4",
+    "reference": "Shanghai"
+  },
+  "line-8": {
+    "been": false,
+    "city": "Paris",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_8_(Chengdu_Metro)",
+    "name": "Line 8",
+    "prefix": "29.1",
+    "reference": "Chengdu"
+  },
+  "line-9": {
+    "been": false,
+    "city": "Shanghai",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_9_(Beijing_Subway)",
+    "name": "Line 9",
+    "prefix": "16.5",
+    "reference": "Beijing"
+  },
+  "line-a": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Line_A_(Prague_Metro)",
+    "name": "Line A",
+    "prefix": "16.4",
+    "reference": "Prague"
+  },
+  "line-b": {
+    "been": true,
+    "city": "Prague",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Toulouse_Metro#Metro:_Line_B",
+    "name": "Line B",
+    "prefix": "15.7",
+    "reference": "Toulouse"
+  },
+  "lines-3": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_3_(Suzhou_Rail_Transit)",
+    "name": "Lines 3",
+    "prefix": "86.5",
+    "reference": "Suzhou"
+  },
+  "lyublinsko-dmitrovskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Lyublinsko-Dmitrovskaya_line",
+    "name": "Lyublinsko-Dmitrovskaya Line",
+    "prefix": "44.3",
+    "reference": "Moscow"
+  },
+  "m1": {
+    "been": false,
+    "city": "Warsaw",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M1_(%C4%B0zmir_Metro)",
+    "name": "M1",
+    "prefix": "16.9",
+    "reference": "İzmir"
+  },
+  "m11": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M11_(Istanbul_Metro)",
+    "name": "M11",
+    "prefix": "51.5",
+    "reference": "Istanbul"
+  },
+  "m2": {
+    "been": false,
+    "city": "Warsaw",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M2_(Istanbul_Metro)",
+    "name": "M2",
+    "prefix": "19.5",
+    "reference": "Istanbul"
+  },
+  "m3": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M3_(Istanbul_Metro)",
+    "name": "M3",
+    "prefix": "22.6",
+    "reference": "Istanbul"
+  },
+  "m3-line": {
+    "been": false,
+    "city": "Copenhagen",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/City_Circle_Line",
+    "name": "M3 Line",
+    "prefix": "15.5",
+    "reference": "Copenhagen"
+  },
+  "m4": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M4_(Istanbul_Metro)",
+    "name": "M4",
+    "prefix": "33.5",
+    "reference": "Istanbul"
+  },
+  "m5": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M5_(Istanbul_Metro)",
+    "name": "M5",
+    "prefix": "26.5",
+    "reference": "Istanbul"
+  },
+  "m9": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/M9_(Istanbul_Metro)",
+    "name": "M9",
+    "prefix": "15.8",
+    "reference": "Istanbul"
+  },
+  "maskouskaja-line": {
+    "been": false,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://en.wikipedia.org/wiki/Masko%C5%ADskaja_line",
+    "name": "Maskoŭskaja Line",
+    "prefix": "19.1",
+    "reference": "Minsk"
+  },
+  "meijo-line": {
+    "been": false,
+    "city": "Nagoya",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Meijo_Line",
+    "name": "Meijo Line",
+    "prefix": "26.4",
+    "reference": "Nagoya"
+  },
+  "metro-city": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sydney_Metro_City_%26_Southwest",
+    "name": "Metro City",
+    "prefix": "16.0",
+    "reference": "Sydney"
+  },
+  "metro-northwest": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sydney_Metro_Northwest",
+    "name": "Metro Northwest",
+    "prefix": "19.5",
+    "reference": "Sydney"
+  },
+  "midosuji-line": {
+    "been": false,
+    "city": "Ōsaka",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Midosuji_Line",
+    "name": "Midosuji Line",
+    "prefix": "19.1",
+    "reference": "Osaka"
+  },
+  "milan-metro-m3": {
+    "been": false,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_3",
+    "name": "Milan Metro M3",
+    "prefix": "17.1",
+    "reference": "Milan"
+  },
+  "moskovsko-petrogradskaya-line": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Moskovsko-Petrogradskaya_Line",
+    "name": "Moskovsko-Petrogradskaya Line",
+    "prefix": "30.1",
+    "reference": "Saint Petersburg"
+  },
+  "nekrasovskaya-line": {
+    "been": false,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Nekrasovskaya_line",
+    "name": "Nekrasovskaya Line",
+    "prefix": "19.6",
+    "reference": "Moscow"
+  },
+  "nevsko-vasileostrovskaya-line": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Line_3_(Saint_Petersburg_Metro)",
+    "name": "Nevsko-Vasileostrovskaya Line",
+    "prefix": "27.7",
+    "reference": "Saint Petersburg"
+  },
+  "north-east-mrt-line": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/North_East_MRT_line",
+    "name": "North East MRT Line",
+    "prefix": "20.0",
+    "reference": "Singapore"
+  },
+  "northern-line": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Northern_line",
+    "name": "Northern Line",
+    "prefix": "27.8",
+    "reference": "London"
+  },
+  "obolonsko–teremkivska-line": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Obolonsko%E2%80%93Teremkivska_line",
+    "name": "Obolonsko–Teremkivska Line",
+    "prefix": "20.9",
+    "reference": "Kyiv"
+  },
+  "orange-line": {
+    "been": false,
+    "city": "Taipei",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "link": "https://en.wikipedia.org/wiki/Taipei_Metro_Line_4",
+    "name": "Orange Line",
+    "prefix": "25.1",
+    "reference": "Taipei"
+  },
+  "red-line": {
+    "been": false,
+    "city": "Washington",
+    "country": "AZ",
+    "icons": ["🇦🇿"],
+    "link": "https://en.wikipedia.org/wiki/Baku_Metro",
+    "name": "Red Line",
+    "prefix": "18.6",
+    "reference": "Baku"
+  },
+  "seoul-subway-line-7": {
+    "been": false,
+    "city": "Seoul",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_7",
+    "name": "Seoul Subway Line 7",
+    "prefix": "16.0",
+    "reference": "Seoul"
+  },
+  "seoul-subway-line-9": {
+    "been": false,
+    "city": "Seoul",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_9",
+    "name": "Seoul Subway Line 9",
+    "prefix": "40.6",
+    "reference": "Seoul"
+  },
+  "serpukhovsko-timiryazevskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Serpukhovsko-Timiryazevskaya_line",
+    "name": "Serpukhovsko-Timiryazevskaya Line",
+    "prefix": "41.2",
+    "reference": "Moscow"
+  },
+  "sokolnicheskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sokolnicheskaya_line",
+    "name": "Sokolnicheskaya Line",
+    "prefix": "47.0",
+    "reference": "Moscow"
+  },
+  "solntsevskaya-line": {
+    "been": false,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Kalininsko-Solntsevskaya_line",
+    "name": "Solntsevskaya Line",
+    "prefix": "30.9",
+    "reference": "Moscow"
+  },
+  "songshan-xindian-line": {
+    "been": false,
+    "city": "Taipei",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "link": "https://en.wikipedia.org/wiki/Songshan%E2%80%93Xindian_line",
+    "name": "Songshan-Xindian Line",
+    "prefix": "21.3",
+    "reference": "Taipei"
+  },
+  "sviatoshynsko–brovarska-line": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Sviatoshynsko%E2%80%93Brovarska_line",
+    "name": "Sviatoshynsko–Brovarska Line",
+    "prefix": "16.0",
+    "reference": "Kyiv"
+  },
+  "syretsko–pecherska-line": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Syretsko%E2%80%93Pecherska_line",
+    "name": "Syretsko–Pecherska Line",
+    "prefix": "15.2",
+    "reference": "Kyiv"
+  },
+  "tagansko-krasnopresnenskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Tagansko-Krasnopresnenskaya_line",
+    "name": "Tagansko-Krasnopresnenskaya Line",
+    "prefix": "42.2",
+    "reference": "Moscow"
+  },
+  "tanimachi-line": {
+    "been": false,
+    "city": "Ōsaka",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tanimachi_Line",
+    "name": "Tanimachi Line",
+    "prefix": "27.1",
+    "reference": "Osaka"
+  },
+  "thomson–east-coast-line": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Thomson%E2%80%93East_Coast_MRT_line",
+    "name": "Thomson–East Coast Line",
+    "prefix": "30.4",
+    "reference": "Singapore"
+  },
+  "toei-mita-line": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Toei_Mita_Line",
+    "name": "Toei Mita Line",
+    "prefix": "21.1",
+    "reference": "Toei"
+  },
+  "toei-oedo-line": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Toei_Oedo_Line",
+    "name": "Toei Oedo Line",
+    "prefix": "40.7",
+    "reference": "Toei"
+  },
+  "tozai-line": {
+    "been": false,
+    "city": "Sapporo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_T%C5%8Dzai_Line",
+    "name": "Tozai Line",
+    "prefix": "17.0",
+    "reference": "Tokyo"
+  },
+  "u2": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Munich_U-Bahn#U2",
+    "name": "U2",
+    "prefix": "24.4",
+    "reference": "Munich"
+  },
+  "u3": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Munich_U-Bahn#U3",
+    "name": "U3",
+    "prefix": "19.4",
+    "reference": "Munich"
+  },
+  "u6": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/U6_(Berlin_U-Bahn)",
+    "name": "U6",
+    "prefix": "15.9",
+    "reference": "Berlin"
+  },
+  "u7": {
+    "been": false,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/U7_(Berlin_U-Bahn)",
+    "name": "U7",
+    "prefix": "31.8",
+    "reference": "Berlin"
+  },
+  "u8": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/U8_(Berlin_U-Bahn)",
+    "name": "U8",
+    "prefix": "18.1",
+    "reference": "Berlin"
+  },
+  "victoria-line": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Victoria_line",
+    "name": "Victoria Line",
+    "prefix": "21.0",
+    "reference": "London"
+  },
+  "yellow-line": {
+    "been": false,
+    "city": "Delhi",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(Delhi_Metro)",
+    "name": "Yellow Line",
+    "prefix": "24.0",
+    "reference": "Delhi"
+  },
+  "yurakucho-line": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Yurakucho_Line",
+    "name": "Yurakucho Line",
+    "prefix": "24.6",
+    "reference": "Tokyo"
+  },
+  "zamoskvoretskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Zamoskvoretskaya_line",
+    "name": "Zamoskvoretskaya Line",
+    "prefix": "42.8",
+    "reference": "Moscow"
+  }
+}

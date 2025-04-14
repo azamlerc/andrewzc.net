@@ -1923,6 +1923,7 @@
     "coords": "40.71270000, -74.00590000",
     "country": "US",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/Manhattan",
     "name": "Manhattan",
     "type": "islands"
   },
@@ -1932,6 +1933,7 @@
     "coords": "40.78750000, -73.92527778",
     "country": "US",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/Randalls_and_Wards_Islands",
     "name": "Randalls Island",
     "type": "islands"
   },
@@ -1941,6 +1943,7 @@
     "coords": "40.76138889, -73.95083333",
     "country": "US",
     "icons": ["🏝️"],
+    "link": "https://en.wikipedia.org/wiki/Roosevelt_Island",
     "name": "Roosevelt Island",
     "type": "islands"
   },
@@ -1983,6 +1986,17 @@
     "link": "https://en.wikipedia.org/wiki/Little_Red_Lighthouse",
     "name": "Little Red Lighthouse",
     "type": "lighthouses"
+  },
+  "longest-tunnels-a-train": {
+    "been": false,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/IND_Eighth_Avenue_Line",
+    "name": "A Train",
+    "prefix": "30.8",
+    "reference": "New York",
+    "type": "longest-tunnels"
   },
   "loops-canarsie-pier": {
     "been": true,
