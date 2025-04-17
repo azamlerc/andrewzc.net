@@ -29,6 +29,14 @@
     "name": "Addis Ababa Bole",
     "prefix": "ADD"
   },
+  "agadez-mano-dayak": {
+    "been": false,
+    "country": "NE",
+    "icons": ["🇳🇪"],
+    "link": "https://en.wikipedia.org/wiki/Mano_Dayak_International_Airport",
+    "name": "Agadez Mano Dayak",
+    "prefix": "AJY"
+  },
   "albuquerque-sunport": {
     "been": true,
     "city": "Albuquerque",
@@ -349,6 +357,7 @@
   "cartagena-rafael-nunez": {
     "been": true,
     "city": "Cartagena",
+    "coords": "10.44250000, -75.51305556",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/Rafael_Núñez_International_Airport",
@@ -423,6 +432,14 @@
     "link": "https://en.wikipedia.org/wiki/Cadjehoun_Airport",
     "name": "Cotonou Cadjehoun",
     "prefix": "COO"
+  },
+  "coutts/ross-international": {
+    "been": false,
+    "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Coutts/Ross_International_Airport",
+    "name": "Coutts/Ross International",
+    "prefix": "XXX"
   },
   "dakar-blaise-diagne": {
     "been": true,
@@ -673,6 +690,15 @@
     "link": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
     "name": "John F. Kennedy",
     "prefix": "JFK"
+  },
+  "juterbog-airfield": {
+    "been": false,
+    "coords": "51.9964, 12.984",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Jüterbog_Airfield",
+    "name": "Jüterbog Airfield",
+    "prefix": "JUT"
   },
   "kampala-entebbe": {
     "been": true,
@@ -1277,6 +1303,15 @@
     "link": "https://en.wikipedia.org/wiki/Keflavík_International_Airport",
     "name": "Reykjavik Keflavík",
     "prefix": "KEF"
+  },
+  "riga": {
+    "been": false,
+    "city": "Riga",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Riga_International_Airport",
+    "name": "Riga",
+    "prefix": "RIX"
   },
   "rochester": {
     "been": true,

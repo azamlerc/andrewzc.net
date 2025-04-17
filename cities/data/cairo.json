@@ -295,6 +295,26 @@
     "name": "Nile",
     "type": "rivers"
   },
+  "synagogues-cairo": {
+    "been": false,
+    "city": "Cairo",
+    "coords": "30.00580000, 31.23100000",
+    "country": "EG",
+    "icons": ["🕍"],
+    "link": "https://en.wikipedia.org/wiki/Ben_Ezra_Synagogue",
+    "name": "Cairo",
+    "type": "synagogues"
+  },
+  "synagogues-shaar-hashamayim": {
+    "been": false,
+    "city": "Cairo",
+    "coords": "30.05138889, 31.24361111",
+    "country": "EG",
+    "icons": ["🕍"],
+    "link": "https://en.wikipedia.org/wiki/Sha%27ar_Hashamayim_Synagogue_(Cairo)",
+    "name": "Sha’ar Hashamayim",
+    "type": "synagogues"
+  },
   "tintin-cairo": {
     "been": true,
     "city": "Cairo",
@@ -331,6 +351,7 @@
     "coords": "30.04444444, 31.23583333",
     "country": "US",
     "icons": ["3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36.9833_N_89.1833_W",
     "name": "Cairo",
     "states": ["IL", "KY", "MO"],
     "type": "tri-states"
@@ -355,6 +376,14 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Cairo",
     "name": "Cairo",
+    "type": "twin-cities"
+  },
+  "twin-cities-cairo-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cairo,_Georgia",
+    "name": "Cairo, GA",
     "type": "twin-cities"
   },
   "twin-cities-cairo-il": {

@@ -1,4 +1,14 @@
 {
+  "airports-riga": {
+    "been": false,
+    "city": "Riga",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Riga_International_Airport",
+    "name": "Riga",
+    "prefix": "RIX",
+    "type": "airports"
+  },
   "capitals-riga": {
     "been": true,
     "city": "Riga",
@@ -26,6 +36,17 @@
     "icons": ["🚸"],
     "link": "https://confluence.org/confluence.php?lat=57&lon=24",
     "name": "Bolderāja",
+    "reference": "57°N 24°E",
+    "type": "confluence"
+  },
+  "confluence-riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "57.00000000, 24.00000000",
+    "country": "LV",
+    "icons": ["🚸"],
+    "link": "https://confluence.org/confluence.php?lat=57&lon=24",
+    "name": "Riga",
     "reference": "57°N 24°E",
     "type": "confluence"
   },

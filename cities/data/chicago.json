@@ -163,6 +163,17 @@
     "reference": "Chicago",
     "type": "circle-lines"
   },
+  "copies-leaning-tower-of-pisa": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "42.01250000, -87.78360000",
+    "countries": ["US", "IT"],
+    "icons": ["🤡"],
+    "link": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Niles",
+    "name": "Leaning Tower of Pisa",
+    "reference": "Niles, IL",
+    "type": "copies"
+  },
   "cross-platform-belmont": {
     "been": true,
     "city": "Chicago",
@@ -768,6 +779,26 @@
     "link": "https://en.wikipedia.org/wiki/Chicago_Union_Station",
     "name": "Chicago Union Station",
     "type": "stations"
+  },
+  "suburban-metra": {
+    "been": false,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🚈"],
+    "link": "https://en.wikipedia.org/wiki/Metra",
+    "name": "Metra",
+    "reference": "Chicago",
+    "type": "suburban"
+  },
+  "suburban-metra/a": {
+    "been": false,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Metra</a>",
+    "reference": "Chicago",
+    "type": "suburban"
   },
   "tintin-chicago": {
     "been": true,

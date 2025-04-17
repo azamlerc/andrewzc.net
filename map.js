@@ -1,3 +1,5 @@
+let iconIndex = 0;
+
 addStylesheets([
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css",
@@ -12,6 +14,7 @@ loadScripts([
 	let lat = element.getAttribute('lat') || 37;
 	let lon = element.getAttribute('lon') || -40;
 	let zoom = element.getAttribute('zoom') || 3;
+	iconIndex = Number(element.getAttribute('icon')) || 0;
   let cluster = (element.getAttribute('cluster') || "true") == "true";
 	let maxClusterRadius = 60;
   let disableClusteringAtZoom = 10;
@@ -138,7 +141,7 @@ function addEmojiMarker(map, place, test, tag) {
 			if (place.reference) text += "<br>" + place.reference;
 			if (place.info) text += "<br>" + place.info;
 
-			let emoji = (place.icons && place.icons.length > 0) ? place.icons[0] : "";
+			let emoji = (place.icons && place.icons.length > iconIndex) ? place.icons[iconIndex] : "";
 
 			let marker = L.marker(latLong, {
 				icon: L.divIcon({

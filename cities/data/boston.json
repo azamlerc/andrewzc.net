@@ -80,6 +80,18 @@
     "name": "Boston",
     "type": "brt"
   },
+  "confluence-boston": {
+    "been": false,
+    "city": "Boston",
+    "coords": "53.00000000, 0.00000000",
+    "country": "GB",
+    "icons": ["🚸"],
+    "info": "👯 <span class=\"dark\">3 km</span>",
+    "link": "https://confluence.org/confluence.php?lat=53&lon=0",
+    "name": "Boston",
+    "reference": "3 km",
+    "type": "confluence"
+  },
   "cross-platform-haymarket": {
     "been": true,
     "city": "Boston",
@@ -466,6 +478,26 @@
     "link": "https://en.wikipedia.org/wiki/South_Station",
     "name": "Boston South Station",
     "type": "stations"
+  },
+  "suburban-mbta": {
+    "been": false,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
+    "country": "US",
+    "icons": ["🚈"],
+    "link": "https://en.wikipedia.org/wiki/MBTA_Commuter_Rail",
+    "name": "MBTA",
+    "reference": "Boston",
+    "type": "suburban"
+  },
+  "suburban-mbta/a": {
+    "been": false,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "MBTA</a>",
+    "reference": "Boston",
+    "type": "suburban"
   },
   "towers-bunker-hill-monument": {
     "been": true,

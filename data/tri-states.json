@@ -21,7 +21,7 @@
     "coords": "35.93083333, -89.90500000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Blytheville",
+    "link": "https://geohack.toolforge.org/geohack.php?params=35.9000_N_89.9000_W",
     "name": "Blytheville",
     "states": ["AR", "MO", "TN"]
   },
@@ -31,9 +31,17 @@
     "coords": "30.04444444, 31.23583333",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Cairo",
+    "link": "https://geohack.toolforge.org/geohack.php?params=36.9833_N_89.1833_W",
     "name": "Cairo",
     "states": ["IL", "KY", "MO"]
+  },
+  "cameron-corner": {
+    "been": false,
+    "coords": "-28.99910000, 140.99930000",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Cameron_Corner_Survey_Marker",
+    "name": "Cameron Corner"
   },
   "chain-bridge": {
     "been": true,
@@ -43,6 +51,14 @@
     "name": "Chain Bridge",
     "states": ["DC", "MD", "VA"],
     "wikidata": "Q10513727"
+  },
+  "colorado/nebraska-corner": {
+    "been": false,
+    "coords": "41.00237000, -102.05172000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41.00237_N_102.05172_W",
+    "name": "Colorado/Nebraska Corner"
   },
   "delaware-wedge": {
     "been": true,
@@ -58,14 +74,16 @@
     "coords": "42.50444444, -90.68694444",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Dubuque",
+    "link": "https://geohack.toolforge.org/geohack.php?params=42.5000_N_90.6667_W",
     "name": "Dubuque",
     "states": ["IA", "IL", "WI"]
   },
   "folsom": {
     "been": false,
+    "coords": "37.00015008, -103.00233162",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Preston_Monument",
     "name": "Folsom",
     "states": ["CO", "NM", "OK"],
     "wikidata": "Q16869984"
@@ -89,8 +107,10 @@
   },
   "fremont": {
     "been": false,
+    "coords": "41.70000000, -84.80000000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41.7000_N_84.8000_W",
     "name": "Fremont",
     "states": ["IN", "MI", "OH"],
     "wikidata": "Q1003816"
@@ -103,6 +123,14 @@
     "link": "https://en.wikipedia.org/wiki/Green_Mountain_National_Forest",
     "name": "Green Mountain",
     "states": ["MA", "NY", "VT"]
+  },
+  "haddon-corner": {
+    "been": false,
+    "coords": "-25.99640000, 140.99940000",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Haddon_Corner",
+    "name": "Haddon Corner"
   },
   "harpers-ferry": {
     "been": true,
@@ -137,7 +165,7 @@
     "coords": "32.80527778, -91.17944444",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Lake_Providence",
+    "link": "https://geohack.toolforge.org/geohack.php?params=32.8000_N_91.2000_W",
     "name": "Lake Providence",
     "states": ["AR", "LA", "MS"]
   },
@@ -150,12 +178,20 @@
     "name": "Laughlin",
     "states": ["AZ", "CA", "NV"]
   },
+  "maccabe-corner": {
+    "been": false,
+    "coords": "-34.02099167, 141.00299444",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/MacCabe_Corner",
+    "name": "MacCabe Corner"
+  },
   "markleysburg": {
     "been": false,
     "coords": "39.73722222, -79.45305556",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Markleysburg",
+    "link": "https://geohack.toolforge.org/geohack.php?params=39.7000_N_79.5000_W",
     "name": "Markleysburg",
     "states": ["MD", "PA", "WV"]
   },
@@ -164,7 +200,7 @@
     "coords": "35.1175, -89.971111111111",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Memphis",
+    "link": "https://geohack.toolforge.org/geohack.php?params=35.0000_N_90.31084_W",
     "name": "Memphis",
     "reference": "15 km",
     "states": ["AR", "MI", "TN"],
@@ -202,9 +238,17 @@
     "coords": "40.67944444, -80.47138889",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Ohioville",
+    "link": "https://geohack.toolforge.org/geohack.php?params=40.5000_N_80.5000_W",
     "name": "Ohioville",
     "states": ["OH", "PA", "WV"]
+  },
+  "poeppel-corner": {
+    "been": false,
+    "coords": "-25.99686697, 137.99905382",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Poeppel_Corner",
+    "name": "Poeppel Corner"
   },
   "port-jervis": {
     "been": true,
@@ -215,12 +259,20 @@
     "name": "Port Jervis",
     "states": ["NY", "NJ", "PA"]
   },
+  "preston-monument": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Preston_Monument",
+    "name": "Preston Monument",
+    "states": ["CO", "NM", "OK"]
+  },
   "shawnee-lookout": {
     "been": false,
     "coords": "39.126111, -84.799444",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Shawnee_Lookout",
+    "link": "https://geohack.toolforge.org/geohack.php?params=39.1000_N_84.7000_W",
     "name": "Shawnee Lookout",
     "states": ["IN", "KY", "OH"],
     "wikidata": "Q7491536"
@@ -230,7 +282,7 @@
     "coords": "43.53638889, -96.73166667",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Sioux_Falls",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.5000_N_96.7000_W",
     "name": "Sioux Falls",
     "states": ["IA", "MN", "SD"]
   },
@@ -239,10 +291,19 @@
     "coords": "38.4192, -82.5806",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/South_Point",
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.4000_N_82.6000_W",
     "name": "South Point",
     "states": ["KY", "OH", "WV"],
     "wikidata": "Q280269"
+  },
+  "surveyor-generals-corner": {
+    "been": false,
+    "coords": "-25.9986, 129.0018",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Surveyor_Generals_Corner",
+    "name": "Surveyor Generals Corner",
+    "wikidata": "Q1262505"
   },
   "swedesboro": {
     "been": true,
@@ -271,18 +332,30 @@
     "states": ["CT", "MA", "RI"],
     "wikidata": "Q2803433"
   },
-  "wharncliffe": {
+  "utah/wyoming-corner": {
     "been": false,
+    "coords": "40.99803000, -111.04681000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40.99803_N_111.04681_W",
+    "name": "Utah/Wyoming Corner"
+  },
+  "wharncliffe": {
+    "been": false,
+    "coords": "37.60000000, -82.10000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.6000_N_82.1000_W",
     "name": "Wharncliffe",
     "states": ["KY", "VA", "WV"],
     "wikidata": "Q91764815"
   },
   "whitetop": {
     "been": false,
+    "coords": "36.63330000, -81.60000000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36.6333_N_81.6000_W",
     "name": "Whitetop",
     "reference": "20 km",
     "states": ["NC", "TN", "VA"],

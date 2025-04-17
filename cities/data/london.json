@@ -1736,6 +1736,16 @@
     "name": "Castelnau",
     "type": "newcastle"
   },
+  "observatories-greenwich": {
+    "been": true,
+    "city": "London",
+    "coords": "51.47700000, 0.00000000",
+    "country": "GB",
+    "icons": ["🔭"],
+    "link": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+    "name": "Greenwich",
+    "type": "observatories"
+  },
   "olympics-london": {
     "been": true,
     "city": "London",
@@ -3001,6 +3011,56 @@
     "link": "https://en.wikipedia.org/wiki/Nelson's_Column",
     "name": "Nelson’s Column",
     "type": "statues"
+  },
+  "suburban-overground": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🚈"],
+    "link": "https://en.wikipedia.org/wiki/London_Overground",
+    "name": "Overground",
+    "reference": "London",
+    "type": "suburban"
+  },
+  "suburban-overground/a": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Overground</a>",
+    "reference": "London",
+    "type": "suburban"
+  },
+  "suburban-thameslink": {
+    "been": false,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🚈"],
+    "link": "https://en.wikipedia.org/wiki/Thameslink",
+    "name": "Thameslink",
+    "reference": "London",
+    "type": "suburban"
+  },
+  "suburban-thameslink/a": {
+    "been": false,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Thameslink</a>",
+    "reference": "London",
+    "type": "suburban"
+  },
+  "synagogues-london": {
+    "been": false,
+    "city": "London",
+    "coords": "51.51410000, -0.07790000",
+    "country": "GB",
+    "icons": ["🕍"],
+    "link": "https://en.wikipedia.org/wiki/Great_Synagogue_(London)",
+    "name": "London",
+    "type": "synagogues"
   },
   "temples-temple-church": {
     "been": true,
