@@ -30,6 +30,26 @@
     "prefix": "CAI",
     "type": "airports"
   },
+  "airports-capital-international_airport": {
+    "been": false,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Capital_International_Airport_(Egypt)",
+    "name": "Capital International_Airport",
+    "prefix": "CCE",
+    "type": "airports"
+  },
+  "airports-sphinx": {
+    "been": false,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Sphinx_International_Airport",
+    "name": "Sphinx",
+    "prefix": "SPX",
+    "type": "airports"
+  },
   "awa-pyramids": {
     "been": true,
     "city": "Cairo",
@@ -59,6 +79,7 @@
     "icons": ["🏛"],
     "link": "https://en.wikipedia.org/wiki/Cairo",
     "name": "Cairo",
+    "strike": true,
     "type": "capitals"
   },
   "islands-gezira": {
@@ -169,6 +190,24 @@
     "link": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan",
     "name": "Sultan Hasan",
     "type": "mosques"
+  },
+  "museums-egyptian-museum": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Egyptian_Museum",
+    "name": "Egyptian Museum",
+    "type": "museums"
+  },
+  "museums-grand-egyptian-museum": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Grand_Egyptian_Museum",
+    "name": "Grand Egyptian Museum",
+    "type": "museums"
   },
   "music-places-cairo": {
     "been": true,
