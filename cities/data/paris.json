@@ -3605,6 +3605,17 @@
     "reference": "Paris",
     "type": "rolling-stock"
   },
+  "roman-towns-lutetia": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85472222, 2.34750000",
+    "country": "FR",
+    "icons": ["🏛️"],
+    "link": "https://en.wikipedia.org/wiki/Lutetia",
+    "name": "Lutetia",
+    "reference": "Paris",
+    "type": "roman-towns"
+  },
   "roundabouts-place-charles-de-gaulle": {
     "been": true,
     "city": "Paris",
@@ -4048,8 +4059,9 @@
   "suburban-rer": {
     "been": true,
     "city": "Paris",
+    "coords": "48.86150000, 2.34650000",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🚈"],
     "link": "https://fr.wikipedia.org/wiki/Réseau_Express_Régional_d%27Île-de-France",
     "name": "RER",
     "reference": "Paris",
@@ -4062,6 +4074,17 @@
     "icons": ["🇫🇷"],
     "name": "RER</a>",
     "reference": "Paris",
+    "type": "suburban"
+  },
+  "suburban-transilien": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.88111100, 2.35527800",
+    "country": "FR",
+    "icons": ["🚈"],
+    "link": "https://fr.wikipedia.org/wiki/Transilien",
+    "name": "Transilien",
+    "reference": "Île-de-France",
     "type": "suburban"
   },
   "swimming-le-riad": {
