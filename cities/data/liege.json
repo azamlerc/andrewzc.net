@@ -19,8 +19,17 @@
     "strike": true,
     "type": "bi-articulated"
   },
-  "cathedrals-liege": {
+  "brt-liege": {
     "been": false,
+    "city": "Liège",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Liège",
+    "name": "Liège",
+    "type": "brt"
+  },
+  "cathedrals-liege": {
+    "been": true,
     "city": "Liège",
     "coords": "50.64030000, 5.57180000",
     "country": "BE",
@@ -61,13 +70,13 @@
     "type": "offset"
   },
   "projects-liege-tram": {
-    "been": false,
+    "been": true,
     "city": "Liège",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
     "name": "Liège Tram",
-    "prefix": "2025-04-28",
+    "prefix": "04-28",
     "reference": "Liège",
     "type": "projects"
   },
@@ -100,5 +109,24 @@
     "link": "https://en.wikipedia.org/wiki/Li%C3%A8ge",
     "name": "Liège",
     "type": "tintin"
+  },
+  "trams-liege": {
+    "been": false,
+    "city": "Liège",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
+    "name": "Liège",
+    "type": "trams"
+  },
+  "twin-stations-opera": {
+    "been": true,
+    "city": "Liège",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
+    "name": "Opéra",
+    "reference": "Liège",
+    "type": "twin-stations"
   }
 }
