@@ -150,6 +150,14 @@ a {
 	top: -6px;
 }
 
+.coords {
+	font: 22pt "SF Mono", Menlo; 
+	color: #777;
+	position: relative;
+	top: -5px;
+  white-space: pre;
+}
+
 .caption .airport {
 	font: 16pt Menlo; 
 	top: -3px;

@@ -9,6 +9,7 @@
 <div class="headline">
 	3️⃣ Tri-States
 </div>
+<div id="map" lat="37" lon="-95" zoom="4" cluster="false"></div><script src="map.js"></script>
 <div class="text">
 
 <a href="images/tripoints/new-england.jpg"><img src="images/tripoints/tn/new-england.jpg" class="hike"></a>
@@ -27,7 +28,7 @@
 
 <img class="state-large" src="images/states/ct.png"> <img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/ny.png"> <a href="https://en.wikipedia.org/wiki/Mount_Frissell">Mount Frissell</a><br>
 
-<img class="state-large" src="images/states/ct.png"> <img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/ri.png"> <a href="http://www.ctmq.org/ct-ma-ri-tri-point/">Thompson</a><br>
+<img class="state-large" src="images/states/ct.png"> <img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/ri.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42.00808_N_71.79918_W">Thompson</a><br>
 
 <img class="state-large" src="images/states/dc.png"> <img class="state-large" src="images/states/md.png"> <img class="state-large" src="images/states/va.png"> <a href="https://en.wikipedia.org/wiki/Chain_Bridge">Chain Bridge</a><br>
 
@@ -39,7 +40,7 @@
 
 <img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/nh.png"> <img class="state-large" src="images/states/vt.png"> <a href="https://en.wikipedia.org/wiki/Northfield,_Massachusetts">Northfield</a><br>
 
-<img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/ny.png"> <img class="state-large" src="images/states/vt.png"> <a href="https://en.wikipedia.org/wiki/Green_Mountain_National_Forest">Green Mountain*</a><br>
+<img class="state-large" src="images/states/ma.png"> <img class="state-large" src="images/states/ny.png"> <img class="state-large" src="images/states/vt.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42.74577_N_73.26507_W">Williamstown</a>*<br>
 
 <img class="state-large" src="images/states/md.png"> <img class="state-large" src="images/states/va.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://en.wikipedia.org/wiki/Harpers_Ferry,_West_Virginia">Harpers Ferry</a><br>
 
@@ -50,23 +51,59 @@
 
 <hr>
 
+<img class="state-large" src="images/states/al.png"> <img class="state-large" src="images/states/fl.png"> <img class="state-large" src="images/states/ga.png"> <a href="https://geohack.toolforge.org/geohack.php?params=31_0_2_N_85_0_8_W">Chattahoochee</a><br>
+
+<img class="state-large" src="images/states/al.png"> <img class="state-large" src="images/states/ga.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=34_59_5_N_85_36_19_W">Nickajack Lake</a><br>
+
+<img class="state-large" src="images/states/al.png"> <img class="state-large" src="images/states/mi.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=34_59_44_N_88_12_0_W">Pickwick Lake</a><br>
+
 <img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/mi.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=35.0000_N_90.31084_W">Memphis</a> <span class="dark">15 km</span><br>
 
-<img class="state-large" src="images/states/nc.png"> <img class="state-large" src="images/states/tn.png"> <img class="state-large" src="images/states/va.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36.6333_N_81.6000_W">Whitetop</a> <span class="dark">20 km</span><br>
+<img class="state-large" src="images/states/az.png"> <img class="state-large" src="images/states/ca.png"> <img class="state-large" src="images/states/nv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=35_0_7_N_114_38_1_W">Laughlin</a><br>
 
-<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/la.png"> <img class="state-large" src="images/states/ms.png"> <a href="https://geohack.toolforge.org/geohack.php?params=32.8000_N_91.2000_W">Lake Providence</a><br>
+<img class="state-large" src="images/states/az.png"> <img class="state-large" src="images/states/nv.png"> <img class="state-large" src="images/states/ut.png"> <a href="https://geohack.toolforge.org/geohack.php?params=37_0_1_N_114_3_2_W">Mesquite</a><br>
+
+<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/la.png"> <img class="state-large" src="images/states/mi.png"> <a href="https://geohack.toolforge.org/geohack.php?params=33_0_15_N_91_9_58_W">Lake Providence</a><br>
+
+<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/la.png"> <img class="state-large" src="images/states/tx.png"> <a href="https://geohack.toolforge.org/geohack.php?params=33_1_9_N_94_2_35_W">Ark-La-Tex</a><br>
+
+<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/mi.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=34_59_44_N_90_18_33_W">Hughes</a><br>
+
+<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/ok.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36_29_58_N_94_37_5_W">Southwest City</a><br>
 
 <img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=35.9000_N_89.9000_W">Blytheville</a><br>
 
-<img class="state-large" src="images/states/az.png"> <img class="state-large" src="images/states/ca.png"> <img class="state-large" src="images/states/nv.png"> <a href="https://en.wikipedia.org/wiki/Laughlin,_Nevada">Laughlin</a><br>
+<img class="state-large" src="images/states/ar.png"> <img class="state-large" src="images/states/ok.png"> <img class="state-large" src="images/states/tx.png"> <a href="https://geohack.toolforge.org/geohack.php?params=33_38_16_N_94_29_9_W">Texarkana</a><br>
+
+<img class="state-large" src="images/states/ca.png"> <img class="state-large" src="images/states/nv.png"> <img class="state-large" src="images/states/or.png"> <a href="https://geohack.toolforge.org/geohack.php?params=41_59_40_N_119_59_57_W">Fort Bidwell</a><br>
+
+<img class="state-large" src="images/states/co.png"> <img class="state-large" src="images/states/ks.png"> <img class="state-large" src="images/states/ne.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40_0_11_N_102_3_6_W">Haigler</a><br>
 
 <img class="state-large" src="images/states/co.png"> <img class="state-large" src="images/states/ks.png"> <img class="state-large" src="images/states/ok.png"> <a href="https://en.wikipedia.org/wiki/8_Mile_Corner">8 Mile Corner</a><br>
 
+<img class="state-large" src="images/states/co.png"> <img class="state-large" src="images/states/ne.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=41_0_5_N_104_3_12_W">Panorama Point</a><br>
+
 <img class="state-large" src="images/states/co.png"> <img class="state-large" src="images/states/nm.png"> <img class="state-large" src="images/states/ok.png"> <a href="https://en.wikipedia.org/wiki/Preston_Monument">Preston Monument</a><br>
 
-<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/wi.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42.5000_N_90.6667_W">Dubuque</a><br>
+<img class="state-large" src="images/states/co.png"> <img class="state-large" src="images/states/ut.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=41_0_2_N_109_3_0_W">Rock Springs</a><br>
 
-<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/mn.png"> <img class="state-large" src="images/states/sd.png"> <a href="https://geohack.toolforge.org/geohack.php?params=43.5000_N_96.7000_W">Sioux Falls</a><br>
+<img class="state-large" src="images/states/ga.png"> <img class="state-large" src="images/states/nc.png"> <img class="state-large" src="images/states/sc.png"> <a href="https://geohack.toolforge.org/geohack.php?params=35_0_2_N_83_6_31_W">Ellicott Rock</a><br>
+
+<img class="state-large" src="images/states/ga.png"> <img class="state-large" src="images/states/nc.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://geohack.toolforge.org/geohack.php?params=34_59_18_N_84_19_19_W">Mineral Bluff</a><br>
+
+<img class="state-large" src="images/states/id.png"> <img class="state-large" src="images/states/mt.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=44_28_27_N_111_2_56_W">Yellowstone</a><br>
+
+<img class="state-large" src="images/states/id.png"> <img class="state-large" src="images/states/nv.png"> <img class="state-large" src="images/states/or.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42_0_1_N_117_1_34_W">Orovada</a><br>
+
+<img class="state-large" src="images/states/id.png"> <img class="state-large" src="images/states/nv.png"> <img class="state-large" src="images/states/ut.png"> <a href="https://geohack.toolforge.org/geohack.php?params=41_59_37_N_114_2_30_W">Jackpot</a><br>
+
+<img class="state-large" src="images/states/id.png"> <img class="state-large" src="images/states/or.png"> <img class="state-large" src="images/states/wa.png"> <a href="https://geohack.toolforge.org/geohack.php?params=45_59_43_N_116_54_58_W">Snake River</a><br>
+
+<img class="state-large" src="images/states/id.png"> <img class="state-large" src="images/states/ut.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42_0_6_N_111_2_48_W">Randolph</a><br>
+
+<img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/in.png"> <img class="state-large" src="images/states/ky.png"> <a href="https://geohack.toolforge.org/geohack.php?params=37_47_57_N_88_1_41_W">Mount Vernon</a><br>
+
+<img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/wi.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42_30_30_N_90_38_27_W">Dubuque</a><br>
 
 <img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/mo.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36.9833_N_89.1833_W">Cairo</a><br>
 
@@ -74,19 +111,50 @@
 
 <img class="state-large" src="images/states/in.png"> <img class="state-large" src="images/states/mi.png"> <img class="state-large" src="images/states/oh.png"> <a href="https://geohack.toolforge.org/geohack.php?params=41.7000_N_84.8000_W">Fremont</a><br>
 
-<img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://en.wikipedia.org/wiki/Kentucky_Bend">Kentucky Bend</a><br>
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/mo.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40_22_42_N_91_25_10_W">Keokuk</a><br>
+
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/il.png"> <img class="state-large" src="images/states/wi.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42.5000_N_90.6667_W">Dubuque</a><br>
+
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/mn.png"> <img class="state-large" src="images/states/sd.png"> <a href="https://geohack.toolforge.org/geohack.php?params=43.5000_N_96.7000_W">Sioux Falls</a><br>
+
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/mn.png"> <img class="state-large" src="images/states/wi.png"> <a href="https://geohack.toolforge.org/geohack.php?params=43_30_2_N_91_13_4_W">Victory</a><br>
+
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/ne.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40_35_7_N_95_45_56_W">Hamburg</a><br>
+
+<img class="state-large" src="images/states/ia.png"> <img class="state-large" src="images/states/ne.png"> <img class="state-large" src="images/states/sd.png"> <a href="https://geohack.toolforge.org/geohack.php?params=42_29_26_N_96_26_44_W">Sioux City</a><br>
+
+<img class="state-large" src="images/states/ks.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/ne.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40_0_0_N_95_18_30_W">Oregon</a><br>
+
+<img class="state-large" src="images/states/ks.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/ok.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36_59_56_N_94_37_5_W">Quapaw</a><br>
+
+<img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/mo.png"> <img class="state-large" src="images/states/tn.png"> <a href="https://en.wikipedia.org/wiki/Kentucky_Bend">Kentucky Bend</a> 3️⃣<br>
 
 <img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/oh.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=38.4000_N_82.6000_W">South Point</a><br>
+
+<img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/tn.png"> <img class="state-large" src="images/states/va.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36_36_3_N_83_40_32_W">Tri-State Peak</a><br>
 
 <img class="state-large" src="images/states/ky.png"> <img class="state-large" src="images/states/va.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=37.6000_N_82.1000_W">Wharncliffe</a><br>
 
 <img class="state-large" src="images/states/md.png"> <img class="state-large" src="images/states/pa.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=39.7000_N_79.5000_W">Markleysburg</a><br>
 
-<img class="state-large" src="images/states/oh.png"> <img class="state-large" src="images/states/pa.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40.5000_N_80.5000_W">Ohioville</a><br>
+<img class="state-large" src="images/states/mn.png"> <img class="state-large" src="images/states/nd.png"> <img class="state-large" src="images/states/sd.png"> <a href="https://geohack.toolforge.org/geohack.php?params=45_56_7_N_96_33_49_W">Bois de Sioux</a><br>
+
+<img class="state-large" src="images/states/mt.png"> <img class="state-large" src="images/states/nd.png"> <img class="state-large" src="images/states/sd.png"> <a href="https://geohack.toolforge.org/geohack.php?params=45_56_43_N_104_2_44_W">Camp Crook</a><br>
+
+<img class="state-large" src="images/states/mt.png"> <img class="state-large" src="images/states/sd.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=44_59_51_N_104_3_28_W">Alzada</a><br>
+
+<img class="state-large" src="images/states/nc.png"> <img class="state-large" src="images/states/tn.png"> <img class="state-large" src="images/states/va.png"> <a href="https://geohack.toolforge.org/geohack.php?params=36.6333_N_81.6000_W">Whitetop</a> <span class="dark">20 km</span><br>
+
+<img class="state-large" src="images/states/ne.png"> <img class="state-large" src="images/states/sd.png"> <img class="state-large" src="images/states/wy.png"> <a href="https://geohack.toolforge.org/geohack.php?params=43_0_2_N_104_3_11_W">Chaffee Monument</a><br>
 
 <img class="state-large" src="images/states/nm.png"> <img class="state-large" src="images/states/ok.png"> <img class="state-large" src="images/states/tx.png"> <a href="https://en.wikipedia.org/wiki/Texhomex">Texhomex</a><br>
 
-🇨🇦 <a href="https://en.wikipedia.org/wiki/Four_corners_(Canada)">Four Corners</a><br>
+<img class="state-large" src="images/states/oh.png"> <img class="state-large" src="images/states/pa.png"> <img class="state-large" src="images/states/wv.png"> <a href="https://geohack.toolforge.org/geohack.php?params=40.5000_N_80.5000_W">Ohioville</a><br>
+
+
+
+
+🇨🇦 <a href="https://en.wikipedia.org/wiki/Four_corners_(Canada)">Four Corners (Canada)</a><br>
 🇬🇧 <a href="https://en.wikipedia.org/wiki/Four_Shire_Stone">Four Shire Stone</a><br>
 
 🇦🇺 <a href="https://en.wikipedia.org/wiki/Cameron_Corner_Survey_Marker">Cameron Corner</a><br>
@@ -94,9 +162,9 @@
 🇦🇺 <a href="https://en.wikipedia.org/wiki/Poeppel_Corner">Poeppel Corner</a><br>
 🇦🇺 <a href="https://en.wikipedia.org/wiki/Surveyor_Generals_Corner">Surveyor Generals Corner</a><br>
 
-🇦🇺 <a href="https://en.wikipedia.org/wiki/Haddon_Corner">Haddon Corner</a>
-🇺🇸 <a href="https://geohack.toolforge.org/geohack.php?params=41.00237_N_102.05172_W">Colorado/Nebraska Corner</a>
-🇺🇸 <a href="https://geohack.toolforge.org/geohack.php?params=40.99803_N_111.04681_W">Utah/Wyoming Corner</a>
+🇦🇺 <a href="https://en.wikipedia.org/wiki/Haddon_Corner">Haddon Corner</a><br>
+🇺🇸 <a href="https://geohack.toolforge.org/geohack.php?params=41.00237_N_102.05172_W">Colorado/Nebraska Corner</a><br>
+🇺🇸 <a href="https://geohack.toolforge.org/geohack.php?params=40.99803_N_111.04681_W">Utah/Wyoming Corner</a><br>
 
 	</div>
 </body>

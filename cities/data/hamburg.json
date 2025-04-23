@@ -160,6 +160,17 @@
     "reference": "Hamburg",
     "type": "suburban"
   },
+  "tri-states-hamburg": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "40.58527778, -95.76555556",
+    "country": "US",
+    "icons": ["3️⃣"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40_35_7_N_95_45_56_W",
+    "name": "Hamburg",
+    "states": ["IA", "MO", "NE"],
+    "type": "tri-states"
+  },
   "twin-cities-hamburg": {
     "been": false,
     "city": "Hamburg",
@@ -168,6 +179,14 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Hamburg,_Eastern_Cape",
     "name": "Hamburg",
+    "type": "twin-cities"
+  },
+  "twin-cities-hamburg-ia": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Hamburg,_Iowa",
+    "name": "Hamburg, IA",
     "type": "twin-cities"
   },
   "twin-cities-hamburg-nj": {

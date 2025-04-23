@@ -1,4 +1,11 @@
 {
+  "": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "",
+    "state": "WV"
+  },
   "8-mile-corner": {
     "been": false,
     "coords": "36.99306551, -102.04212284",
@@ -7,6 +14,24 @@
     "link": "https://en.wikipedia.org/wiki/8_Mile_Corner",
     "name": "8 Mile Corner",
     "states": ["CO", "KS", "OK"]
+  },
+  "alzada": {
+    "been": false,
+    "coords": "44.99750000, -104.05777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44_59_51_N_104_3_28_W",
+    "name": "Alzada",
+    "states": ["MT", "SD", "WY"]
+  },
+  "ark-la-tex": {
+    "been": false,
+    "coords": "33.01916667, -94.04305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33_1_9_N_94_2_35_W",
+    "name": "Ark-La-Tex",
+    "states": ["AR", "LA", "TX"]
   },
   "birx": {
     "been": true,
@@ -24,6 +49,15 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=35.9000_N_89.9000_W",
     "name": "Blytheville",
     "states": ["AR", "MO", "TN"]
+  },
+  "bois-de-sioux": {
+    "been": false,
+    "coords": "45.93527778, -96.56361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_56_7_N_96_33_49_W",
+    "name": "Bois de Sioux",
+    "states": ["MN", "ND", "SD"]
   },
   "cairo": {
     "been": false,
@@ -43,6 +77,24 @@
     "link": "https://en.wikipedia.org/wiki/Cameron_Corner_Survey_Marker",
     "name": "Cameron Corner"
   },
+  "camp-crook": {
+    "been": false,
+    "coords": "45.94527778, -104.04555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_56_43_N_104_2_44_W",
+    "name": "Camp Crook",
+    "states": ["MT", "ND", "SD"]
+  },
+  "chaffee-monument": {
+    "been": false,
+    "coords": "43.00055556, -104.05305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43_0_2_N_104_3_11_W",
+    "name": "Chaffee Monument",
+    "states": ["NE", "SD", "WY"]
+  },
   "chain-bridge": {
     "been": true,
     "country": "US",
@@ -51,6 +103,15 @@
     "name": "Chain Bridge",
     "states": ["DC", "MD", "VA"],
     "wikidata": "Q10513727"
+  },
+  "chattahoochee": {
+    "been": false,
+    "coords": "31.00055556, -85.00222222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=31_0_2_N_85_0_8_W",
+    "name": "Chattahoochee",
+    "states": ["AL", "FL", "GA"]
   },
   "colorado/nebraska-corner": {
     "been": false,
@@ -78,6 +139,15 @@
     "name": "Dubuque",
     "states": ["IA", "IL", "WI"]
   },
+  "ellicott-rock": {
+    "been": false,
+    "coords": "35.00055556, -83.10861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=35_0_2_N_83_6_31_W",
+    "name": "Ellicott Rock",
+    "states": ["GA", "NC", "SC"]
+  },
   "folsom": {
     "been": false,
     "coords": "37.00015008, -103.00233162",
@@ -88,14 +158,31 @@
     "states": ["CO", "NM", "OK"],
     "wikidata": "Q16869984"
   },
-  "four-corners": {
+  "fort-bidwell": {
     "been": false,
+    "coords": "41.99444444, -119.99916667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41_59_40_N_119_59_57_W",
+    "name": "Fort Bidwell",
+    "states": ["CA", "NV", "OR"]
+  },
+  "four-corners": {
+    "been": true,
     "coords": "36.99897222, -109.04516667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Four_Corners",
+    "name": "Four Corners",
+    "states": ["AZ", "CO", "NM", "UT"]
+  },
+  "four-corners-(canada)": {
+    "been": false,
+    "coords": "59.99943581, -102.00754883",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Four_corners_(Canada)",
-    "name": "Four Corners",
-    "states": ["AZ", "CO", "NM", "UT"]
+    "name": "Four Corners (Canada)"
   },
   "four-shire-stone": {
     "been": false,
@@ -115,15 +202,6 @@
     "states": ["IN", "MI", "OH"],
     "wikidata": "Q1003816"
   },
-  "green-mountain": {
-    "been": true,
-    "coords": "43.95000000, -73.06666667",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Green_Mountain_National_Forest",
-    "name": "Green Mountain",
-    "states": ["MA", "NY", "VT"]
-  },
   "haddon-corner": {
     "been": false,
     "coords": "-25.99640000, 140.99940000",
@@ -131,6 +209,25 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Haddon_Corner",
     "name": "Haddon Corner"
+  },
+  "haigler": {
+    "been": false,
+    "coords": "40.00305556, -102.05166667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40_0_11_N_102_3_6_W",
+    "name": "Haigler",
+    "states": ["CO", "KS", "NE"]
+  },
+  "hamburg": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "40.58527778, -95.76555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40_35_7_N_95_45_56_W",
+    "name": "Hamburg",
+    "states": ["IA", "MO", "NE"]
   },
   "harpers-ferry": {
     "been": true,
@@ -140,6 +237,24 @@
     "link": "https://en.wikipedia.org/wiki/Harpers_Ferry,_West_Virginia",
     "name": "Harpers Ferry",
     "states": ["MD", "VA", "WV"]
+  },
+  "hughes": {
+    "been": false,
+    "coords": "34.99555556, -90.30916667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=34_59_44_N_90_18_33_W",
+    "name": "Hughes",
+    "states": ["AR", "MI", "TN"]
+  },
+  "jackpot": {
+    "been": false,
+    "coords": "41.99361111, -114.04166667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41_59_37_N_114_2_30_W",
+    "name": "Jackpot",
+    "states": ["ID", "NV", "UT"]
   },
   "jones-point-light": {
     "been": true,
@@ -160,21 +275,30 @@
     "name": "Kentucky Bend",
     "states": ["KY", "MO", "TN"]
   },
-  "lake-providence": {
+  "keokuk": {
     "been": false,
-    "coords": "32.80527778, -91.17944444",
+    "coords": "40.37833333, -91.41944444",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=32.8000_N_91.2000_W",
+    "link": "https://geohack.toolforge.org/geohack.php?params=40_22_42_N_91_25_10_W",
+    "name": "Keokuk",
+    "states": ["IA", "IL", "MO"]
+  },
+  "lake-providence": {
+    "been": false,
+    "coords": "33.00416667, -91.16611111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33_0_15_N_91_9_58_W",
     "name": "Lake Providence",
-    "states": ["AR", "LA", "MS"]
+    "states": ["AR", "LA", "MI"]
   },
   "laughlin": {
     "been": false,
     "coords": "35.14166667, -114.61861111",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Laughlin,_Nevada",
+    "link": "https://geohack.toolforge.org/geohack.php?params=35_0_7_N_114_38_1_W",
     "name": "Laughlin",
     "states": ["AZ", "CA", "NV"]
   },
@@ -206,6 +330,24 @@
     "states": ["AR", "MI", "TN"],
     "wikidata": "Q16563"
   },
+  "mesquite": {
+    "been": false,
+    "coords": "37.00027778, -114.05055556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37_0_1_N_114_3_2_W",
+    "name": "Mesquite",
+    "states": ["AZ", "NV", "UT"]
+  },
+  "mineral-bluff": {
+    "been": false,
+    "coords": "34.98833333, -84.32194444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=34_59_18_N_84_19_19_W",
+    "name": "Mineral Bluff",
+    "states": ["GA", "NC", "TN"]
+  },
   "mount-frissell": {
     "been": true,
     "coords": "42.05109356, -73.48197774",
@@ -215,6 +357,15 @@
     "name": "Mount Frissell",
     "states": ["CT", "MA", "NY"]
   },
+  "mount-vernon": {
+    "been": false,
+    "coords": "37.79916667, -88.02805556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37_47_57_N_88_1_41_W",
+    "name": "Mount Vernon",
+    "states": ["IL", "IN", "KY"]
+  },
   "munchenreuth": {
     "been": true,
     "coords": "50.4243687, 11.9199769",
@@ -223,6 +374,15 @@
     "link": "https://de.wikipedia.org/wiki/Drei-Freistaaten-Stein",
     "name": "Münchenreuth",
     "wikidata": "Q1256816"
+  },
+  "nickajack-lake": {
+    "been": false,
+    "coords": "34.98472222, -85.60527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=34_59_5_N_85_36_19_W",
+    "name": "Nickajack Lake",
+    "states": ["AL", "GA", "TN"]
   },
   "northfield": {
     "been": true,
@@ -241,6 +401,42 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=40.5000_N_80.5000_W",
     "name": "Ohioville",
     "states": ["OH", "PA", "WV"]
+  },
+  "oregon": {
+    "been": false,
+    "coords": "40.00000000, -95.30833333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40_0_0_N_95_18_30_W",
+    "name": "Oregon",
+    "states": ["KS", "MO", "NE"]
+  },
+  "orovada": {
+    "been": false,
+    "coords": "42.00027778, -117.02611111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_0_1_N_117_1_34_W",
+    "name": "Orovada",
+    "states": ["ID", "NV", "OR"]
+  },
+  "panorama-point": {
+    "been": false,
+    "coords": "41.00138889, -104.05333333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41_0_5_N_104_3_12_W",
+    "name": "Panorama Point",
+    "states": ["CO", "NE", "WY"]
+  },
+  "pickwick-lake": {
+    "been": false,
+    "coords": "34.99555556, -88.20000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=34_59_44_N_88_12_0_W",
+    "name": "Pickwick Lake",
+    "states": ["AL", "MI", "TN"]
   },
   "poeppel-corner": {
     "been": false,
@@ -261,11 +457,39 @@
   },
   "preston-monument": {
     "been": false,
+    "coords": "37.00015008, -103.00233162",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Preston_Monument",
     "name": "Preston Monument",
     "states": ["CO", "NM", "OK"]
+  },
+  "quapaw": {
+    "been": false,
+    "coords": "36.99888889, -94.61805556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36_59_56_N_94_37_5_W",
+    "name": "Quapaw",
+    "states": ["KS", "MO", "OK"]
+  },
+  "randolph": {
+    "been": false,
+    "coords": "42.00166667, -111.04666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_0_6_N_111_2_48_W",
+    "name": "Randolph",
+    "states": ["ID", "UT", "WY"]
+  },
+  "rock-springs": {
+    "been": false,
+    "coords": "41.00055556, -109.05000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41_0_2_N_109_3_0_W",
+    "name": "Rock Springs",
+    "states": ["CO", "UT", "WY"]
   },
   "shawnee-lookout": {
     "been": false,
@@ -277,6 +501,15 @@
     "states": ["IN", "KY", "OH"],
     "wikidata": "Q7491536"
   },
+  "sioux-city": {
+    "been": false,
+    "coords": "42.49055556, -96.44555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_29_26_N_96_26_44_W",
+    "name": "Sioux City",
+    "states": ["IA", "NE", "SD"]
+  },
   "sioux-falls": {
     "been": false,
     "coords": "43.53638889, -96.73166667",
@@ -285,6 +518,15 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=43.5000_N_96.7000_W",
     "name": "Sioux Falls",
     "states": ["IA", "MN", "SD"]
+  },
+  "snake-river": {
+    "been": false,
+    "coords": "45.99527778, -116.91611111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_59_43_N_116_54_58_W",
+    "name": "Snake River",
+    "states": ["ID", "OR", "WA"]
   },
   "south-point": {
     "been": false,
@@ -295,6 +537,15 @@
     "name": "South Point",
     "states": ["KY", "OH", "WV"],
     "wikidata": "Q280269"
+  },
+  "southwest-city": {
+    "been": false,
+    "coords": "36.49944444, -94.61805556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36_29_58_N_94_37_5_W",
+    "name": "Southwest City",
+    "states": ["AR", "MO", "OK"]
   },
   "surveyor-generals-corner": {
     "been": false,
@@ -314,6 +565,15 @@
     "name": "Swedesboro",
     "states": ["DE", "NJ", "PA"]
   },
+  "texarkana": {
+    "been": false,
+    "coords": "33.63777778, -94.48583333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33_38_16_N_94_29_9_W",
+    "name": "Texarkana",
+    "states": ["AR", "OK", "TX"]
+  },
   "texhomex": {
     "been": false,
     "coords": "36.50046304, -103.00238315",
@@ -325,12 +585,22 @@
   },
   "thompson": {
     "been": true,
+    "coords": "42.00808000, -71.79918000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "http://www.ctmq.org/ct-ma-ri-tri-point/",
+    "link": "https://geohack.toolforge.org/geohack.php?params=42.00808_N_71.79918_W",
     "name": "Thompson",
     "states": ["CT", "MA", "RI"],
     "wikidata": "Q2803433"
+  },
+  "tri-state-peak": {
+    "been": false,
+    "coords": "36.60083333, -83.67555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36_36_3_N_83_40_32_W",
+    "name": "Tri-State Peak",
+    "states": ["KY", "TN", "VA"]
   },
   "utah/wyoming-corner": {
     "been": false,
@@ -339,6 +609,15 @@
     "icons": ["🇺🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=40.99803_N_111.04681_W",
     "name": "Utah/Wyoming Corner"
+  },
+  "victory": {
+    "been": false,
+    "coords": "43.50055556, -91.21777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43_30_2_N_91_13_4_W",
+    "name": "Victory",
+    "states": ["IA", "MN", "WI"]
   },
   "wharncliffe": {
     "been": false,
@@ -360,5 +639,23 @@
     "reference": "20 km",
     "states": ["NC", "TN", "VA"],
     "wikidata": "Q149440"
+  },
+  "williamstown": {
+    "been": true,
+    "coords": "42.74577000, -73.26507000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42.74577_N_73.26507_W",
+    "name": "Williamstown",
+    "states": ["MA", "NY", "VT"]
+  },
+  "yellowstone": {
+    "been": false,
+    "coords": "44.47416667, -111.04888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44_28_27_N_111_2_56_W",
+    "name": "Yellowstone",
+    "states": ["ID", "MT", "WY"]
   }
 }
