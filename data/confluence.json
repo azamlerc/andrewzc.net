@@ -7,13 +7,25 @@
     "prefix": "22°S 166°E",
     "reference": "15 km"
   },
+  "6th-of-october-city": {
+    "been": false,
+    "coords": "30.0, 31.0",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://confluence.org/confluence.php?lat=30&lon=31",
+    "name": "6th of October City",
+    "prefix": "30°N 31°E",
+    "reference": "13 km"
+  },
   "abomey": {
     "been": false,
     "coords": "7.0, 2.0",
     "country": "BJ",
     "icons": ["🇧🇯"],
     "link": "https://confluence.org/confluence.php?lat=7&lon=2",
-    "name": "Abomey"
+    "name": "Abomey",
+    "prefix": "7°N 2°E",
+    "reference": "20 km"
   },
   "achill-island": {
     "been": false,
@@ -30,7 +42,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-111",
-    "name": "Aden, AB"
+    "name": "Aden, AB",
+    "prefix": "49°N 111°W",
+    "reference": "↓300m"
   },
   "agadez": {
     "been": false,
@@ -83,7 +97,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-109",
-    "name": "Arena, SK"
+    "name": "Arena, SK",
+    "prefix": "49°N 109°W",
+    "reference": "↓80m"
   },
   "arnstein": {
     "been": true,
@@ -109,7 +125,9 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://confluence.org/confluence.php?lat=64&lon=-17",
-    "name": "Austur-Skaftafellssýsla"
+    "name": "Austur-Skaftafellssýsla",
+    "prefix": "64°N 17°W",
+    "reference": "2 km"
   },
   "barkway": {
     "been": false,
@@ -135,7 +153,9 @@
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://confluence.org/confluence.php?lat=52&lon=5",
-    "name": "Benschop"
+    "name": "Benschop",
+    "prefix": "52°N 5°E",
+    "reference": "5 km"
   },
   "benschop-utrecht": {
     "been": false,
@@ -168,7 +188,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-105",
-    "name": "Big Beaver, SK"
+    "name": "Big Beaver, SK",
+    "prefix": "49°N 105°W",
+    "reference": "↓120m"
   },
   "big-spings-ne": {
     "been": false,
@@ -212,7 +234,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-100",
-    "name": "Boissevain, MB"
+    "name": "Boissevain, MB",
+    "prefix": "49°N 100°W",
+    "reference": "↓120m"
   },
   "bolderaja": {
     "been": false,
@@ -232,14 +256,15 @@
     "name": "Bösel",
     "prefix": "53°N 8°E"
   },
-  "boston": {
+  "boston-lincolnshire": {
     "been": false,
-    "city": "Boston",
     "coords": "53.0, 0.0",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://confluence.org/confluence.php?lat=53&lon=0",
-    "name": "Boston"
+    "name": "Boston, Lincolnshire",
+    "prefix": "53°N 0°E",
+    "reference": "3 km"
   },
   "brar": {
     "been": false,
@@ -247,7 +272,9 @@
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "https://confluence.org/confluence.php?lat=16&lon=-16",
-    "name": "Brar"
+    "name": "Brar",
+    "prefix": "16°N 16°W",
+    "reference": "25 km"
   },
   "brownville": {
     "been": false,
@@ -265,7 +292,9 @@
     "country": "MD",
     "icons": ["🇲🇩"],
     "link": "https://confluence.org/confluence.php?lat=47&lon=29",
-    "name": "Bubuieci, Chişinău"
+    "name": "Bubuieci, Chişinău",
+    "prefix": "47°N 29°E",
+    "reference": "12 km"
   },
   "buckingham": {
     "been": false,
@@ -282,7 +311,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=41&lon=-100",
-    "name": "Buffalo, NE"
+    "name": "Buffalo, NE",
+    "prefix": "41°N 100°W",
+    "reference": "15 km"
   },
   "bulkang-taal": {
     "been": false,
@@ -300,7 +331,9 @@
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "https://confluence.org/confluence.php?lat=-2&lon=30",
-    "name": "Butamwa, Kigali"
+    "name": "Butamwa, Kigali",
+    "prefix": "2°S 30°E",
+    "reference": "20 km"
   },
   "cadafais-lisboa": {
     "been": false,
@@ -308,7 +341,9 @@
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://confluence.org/confluence.php?lat=39&lon=-9",
-    "name": "Cadafais, Lisboa"
+    "name": "Cadafais, Lisboa",
+    "prefix": "39°N 9°W",
+    "reference": "3 km"
   },
   "calais": {
     "been": false,
@@ -316,15 +351,20 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=51&lon=2",
-    "name": "Calais"
+    "name": "Calais",
+    "prefix": "51°N 2°E",
+    "reference": "7 km"
   },
   "calgary": {
     "been": false,
+    "city": "Calgary",
     "coords": "51.0, -114.0",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=51&lon=-114",
-    "name": "Calgary"
+    "name": "Calgary",
+    "prefix": "51°N 114°W",
+    "reference": "2 km"
   },
   "cameron-corner": {
     "been": false,
@@ -341,7 +381,9 @@
     "country": "CV",
     "icons": ["🇨🇻"],
     "link": "https://confluence.org/confluence.php?lat=17&lon=-25",
-    "name": "Canal de São Vicente"
+    "name": "Canal de São Vicente",
+    "prefix": "17°N 25°W",
+    "reference": "5 km"
   },
   "cape-charles": {
     "been": true,
@@ -430,7 +472,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-119",
-    "name": "Chesaw, WA"
+    "name": "Chesaw, WA",
+    "prefix": "49°N 119°W",
+    "reference": "↑10m"
   },
   "chopaka-bc": {
     "been": false,
@@ -438,7 +482,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-120",
-    "name": "Chopaka, BC"
+    "name": "Chopaka, BC",
+    "prefix": "49°N 120°W",
+    "reference": "↓50m"
   },
   "cologne": {
     "been": true,
@@ -476,7 +522,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=38&lon=-122",
-    "name": "Concord"
+    "name": "Concord",
+    "prefix": "38°N 122°W",
+    "reference": "5 km"
   },
   "corca": {
     "been": false,
@@ -493,7 +541,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-101",
-    "name": "Coulter, MB"
+    "name": "Coulter, MB",
+    "prefix": "49°N 101°W",
+    "reference": "↓80m"
   },
   "coutts-ab": {
     "been": true,
@@ -520,7 +570,9 @@
     "icons": ["🇨🇦"],
     "info": "👯 <span class=\"dark\">↓50m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-99",
-    "name": "Crystal City, MB"
+    "name": "Crystal City, MB",
+    "prefix": "49°N 99°W",
+    "reference": "↓50m"
   },
   "cumeljaci": {
     "been": false,
@@ -556,7 +608,9 @@
     "icons": ["🇺🇸"],
     "info": "📚 ✂️ <span class=\"dark\">↑700m</span>",
     "link": "https://confluence.org/confluence.php?lat=45&lon=-72",
-    "name": "Derby Line"
+    "name": "Derby Line",
+    "prefix": "45°N 72°W",
+    "reference": "↑700m"
   },
   "diablo-wa": {
     "been": false,
@@ -564,7 +618,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-121",
-    "name": "Diablo, WA"
+    "name": "Diablo, WA",
+    "prefix": "49°N 121°W",
+    "reference": "↑30m"
   },
   "dimona": {
     "been": false,
@@ -572,7 +628,9 @@
     "country": "IL",
     "icons": ["🇮🇱"],
     "link": "https://confluence.org/confluence.php?lat=31&lon=35",
-    "name": "Dimona"
+    "name": "Dimona",
+    "prefix": "31°N 35°E",
+    "reference": "6 km"
   },
   "donja-stubica": {
     "been": false,
@@ -580,7 +638,9 @@
     "country": "HR",
     "icons": ["🇭🇷"],
     "link": "https://confluence.org/confluence.php?lat=46&lon=16",
-    "name": "Donja Stubica"
+    "name": "Donja Stubica",
+    "prefix": "46°N 16°E",
+    "reference": "20 km"
   },
   "drums": {
     "been": true,
@@ -608,7 +668,9 @@
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "info": "🌊 <span class=\"dark\">10 km</span>",
     "link": "https://confluence.org/confluence.php?lat=56&lon=-3",
-    "name": "Edinburgh"
+    "name": "Edinburgh",
+    "prefix": "56°N 3°W",
+    "reference": "10 km"
   },
   "elk-grove-village": {
     "been": false,
@@ -616,7 +678,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=42&lon=-88",
-    "name": "Elk Grove Village"
+    "name": "Elk Grove Village",
+    "prefix": "42°N 88°W",
+    "reference": "8 km"
   },
   "elkhart": {
     "been": false,
@@ -643,7 +707,9 @@
     "icons": ["🇩🇪"],
     "info": "🚋 🦋 <span class=\"dark\">10 km</span>",
     "link": "https://confluence.org/confluence.php?lat=51&lon=11",
-    "name": "Erfurt"
+    "name": "Erfurt",
+    "prefix": "51°N 11°E",
+    "reference": "10 km"
   },
   "espanola": {
     "been": false,
@@ -651,7 +717,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=36&lon=-106",
-    "name": "Española"
+    "name": "Española",
+    "prefix": "36°N 106°W",
+    "reference": "4 km"
   },
   "espiritu-santo": {
     "been": false,
@@ -668,7 +736,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-103",
-    "name": "Estevan, SK"
+    "name": "Estevan, SK",
+    "prefix": "49°N 103°W",
+    "reference": "↓100m"
   },
   "evanston-wy": {
     "been": false,
@@ -722,7 +792,9 @@
     "icons": ["🇺🇸"],
     "info": "4️⃣ 🧭 <span class=\"dark\">4 km</span>",
     "link": "https://confluence.org/confluence.php?lat=37&lon=-109",
-    "name": "Four Corners"
+    "name": "Four Corners",
+    "prefix": "37°N 109°W",
+    "reference": "4 km"
   },
   "four-corners-(canada)": {
     "been": false,
@@ -774,7 +846,9 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://confluence.org/confluence.php?lat=31&lon=28",
-    "name": "Fūka, Matrūh"
+    "name": "Fūka, Matrūh",
+    "prefix": "31°N 28°E",
+    "reference": "6 km"
   },
   "galway": {
     "been": false,
@@ -782,7 +856,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=43&lon=-74",
-    "name": "Galway"
+    "name": "Galway",
+    "prefix": "43°N 74°W",
+    "reference": "30 km"
   },
   "gangelt": {
     "been": true,
@@ -826,7 +902,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-122",
-    "name": "Glacier, WA"
+    "name": "Glacier, WA",
+    "prefix": "49°N 122°W",
+    "reference": "↑100m"
   },
   "glasgow": {
     "been": false,
@@ -835,7 +913,9 @@
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://confluence.org/confluence.php?lat=56&lon=-4",
-    "name": "Glasgow"
+    "name": "Glasgow",
+    "prefix": "56°N 4°W",
+    "reference": "10 km"
   },
   "golden-beach": {
     "been": true,
@@ -852,7 +932,9 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://confluence.org/confluence.php?lat=47&lon=10",
-    "name": "Gortipohl"
+    "name": "Gortipohl",
+    "prefix": "47°N 10°E",
+    "reference": "15 km"
   },
   "govenlock-sk": {
     "been": false,
@@ -860,7 +942,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-110",
-    "name": "Govenlock, SK"
+    "name": "Govenlock, SK",
+    "prefix": "49°N 110°W",
+    "reference": "↓80m"
   },
   "grafton": {
     "been": false,
@@ -924,7 +1008,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=43&lon=-72",
-    "name": "Hancock"
+    "name": "Hancock",
+    "prefix": "43°N 72°W",
+    "reference": "10 km"
   },
   "helsinki": {
     "been": false,
@@ -933,7 +1019,9 @@
     "country": "FI",
     "icons": ["🇫🇮"],
     "link": "https://confluence.org/confluence.php?lat=60&lon=25",
-    "name": "Helsinki"
+    "name": "Helsinki",
+    "prefix": "60°N 25°E",
+    "reference": "3 km"
   },
   "hershey-ne": {
     "been": false,
@@ -941,7 +1029,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=41&lon=-100",
-    "name": "Hershey, NE"
+    "name": "Hershey, NE",
+    "prefix": "41°N 101°W",
+    "reference": "15 km"
   },
   "hoek-van-holland": {
     "been": false,
@@ -950,7 +1040,9 @@
     "icons": ["🇳🇱"],
     "info": "🌊 ⚓️ 🏖 🤽🏻‍♂️ <span class=\"dark\">5 km</span>",
     "link": "https://confluence.org/confluence.php?lat=52.0&lon=4.0",
-    "name": "Hoek van Holland"
+    "name": "Hoek van Holland",
+    "prefix": "52°N 4°E",
+    "reference": "5 km"
   },
   "hoquiam": {
     "been": true,
@@ -968,7 +1060,9 @@
     "icons": ["🇨🇦"],
     "info": "👯 <span class=\"dark\">↓50m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-97",
-    "name": "Humbolt, MN"
+    "name": "Humbolt, MN",
+    "prefix": "49°N 97°W",
+    "reference": "↓50m"
   },
   "hvaleyri-hafnarfjorður": {
     "been": false,
@@ -976,7 +1070,9 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://confluence.org/confluence.php?lat=64&lon=-22",
-    "name": "Hvaleyri, Hafnarfjörður"
+    "name": "Hvaleyri, Hafnarfjörður",
+    "prefix": "64°N 22°W",
+    "reference": "5 km"
   },
   "ile-lepredour": {
     "been": false,
@@ -984,7 +1080,9 @@
     "country": "NC",
     "icons": ["🇳🇨"],
     "link": "https://confluence.org/confluence.php?lat=-22&lon=166",
-    "name": "Île Léprédour"
+    "name": "Île Léprédour",
+    "prefix": "22°S 166°E",
+    "reference": "15 km"
   },
   "isles-les-meldeuses": {
     "been": false,
@@ -992,7 +1090,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=3",
-    "name": "Isles-les-Meldeuses"
+    "name": "Isles-les-Meldeuses",
+    "prefix": "49°N 3°E",
+    "reference": "0.5 km"
   },
   "istanbul": {
     "been": true,
@@ -1047,7 +1147,9 @@
     "icons": ["🇷🇸"],
     "info": "🛂 <span class=\"dark\">30 km</span>",
     "link": "https://confluence.org/confluence.php?lat=46&lon=20",
-    "name": "Kanjiža"
+    "name": "Kanjiža",
+    "prefix": "46°N 20°E",
+    "reference": "30 km"
   },
   "kaolack": {
     "been": true,
@@ -1082,7 +1184,9 @@
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://confluence.org/confluence.php?lat=47&lon=20",
-    "name": "Kecskemét"
+    "name": "Kecskemét",
+    "prefix": "47°N 20°E",
+    "reference": "25 km"
   },
   "keddie-wye": {
     "been": false,
@@ -1099,7 +1203,9 @@
     "country": "GH",
     "icons": ["🇬🇭"],
     "link": "https://confluence.org/confluence.php?lat=6&lon=1",
-    "name": "Keta Lagoon"
+    "name": "Keta Lagoon",
+    "prefix": "6°N 1°E",
+    "reference": "30 km"
   },
   "kirkjubæjarklaustur": {
     "been": false,
@@ -1107,7 +1213,9 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://confluence.org/confluence.php?lat=64&lon=-18",
-    "name": "Kirkjubæjarklaustur"
+    "name": "Kirkjubæjarklaustur",
+    "prefix": "64°N 18°W",
+    "reference": "15 km"
   },
   "kourim": {
     "been": true,
@@ -1188,7 +1296,9 @@
     "icons": ["🇫🇷"],
     "info": "🍩 🛶 🎰 🚠 <span class=\"dark\">3 km</span>",
     "link": "https://confluence.org/confluence.php?lat=46&lon=9",
-    "name": "Lago di Lugano"
+    "name": "Lago di Lugano",
+    "prefix": "46°N 9°E",
+    "reference": "3 km"
   },
   "lake-alma-sk": {
     "been": false,
@@ -1196,7 +1306,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-104",
-    "name": "Lake Alma, SK"
+    "name": "Lake Alma, SK",
+    "prefix": "49°N 104°W",
+    "reference": "↓70m"
   },
   "lake-aziscohos": {
     "been": false,
@@ -1255,7 +1367,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-118",
-    "name": "Laurier, WA"
+    "name": "Laurier, WA",
+    "prefix": "49°N 118°W",
+    "reference": "↑40m"
   },
   "lawrenceville": {
     "been": true,
@@ -1273,7 +1387,9 @@
     "icons": ["🇫🇷"],
     "info": "🇺🇳 🏎️ <span class=\"dark\">20 km</span>",
     "link": "https://confluence.org/confluence.php?lat=48&lon=0",
-    "name": "Le Mans"
+    "name": "Le Mans",
+    "prefix": "48°N 0°",
+    "reference": "20 km"
   },
   "le-roy": {
     "been": true,
@@ -1290,7 +1406,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=45&lon=3",
-    "name": "Les Ternes"
+    "name": "Les Ternes",
+    "prefix": "45°N 3°E",
+    "reference": "5 km"
   },
   "lewisburg": {
     "been": true,
@@ -1317,7 +1435,9 @@
     "icons": ["🇺🇸"],
     "info": "🏖 👯 <span class=\"dark\">3 km</span>",
     "link": "https://confluence.org/confluence.php?lat=45&lon=-124",
-    "name": "Lincoln City"
+    "name": "Lincoln City",
+    "prefix": "45°N 124°W",
+    "reference": "3 km"
   },
   "lohmen-daube": {
     "been": false,
@@ -1325,7 +1445,9 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://confluence.org/confluence.php?lat=51&lon=14",
-    "name": "Lohmen-Daube"
+    "name": "Lohmen-Daube",
+    "prefix": "51°N 14°E",
+    "reference": "4 km"
   },
   "longpre-les-corps-saints": {
     "been": false,
@@ -1342,7 +1464,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=38&lon=-78",
-    "name": "Louisa"
+    "name": "Louisa",
+    "prefix": "38°N 78°W",
+    "reference": "40 km"
   },
   "lviv": {
     "been": false,
@@ -1350,7 +1474,9 @@
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://confluence.org/confluence.php?lat=50&lon=25",
-    "name": "Lviv"
+    "name": "Lviv",
+    "prefix": "50°N 24°E",
+    "reference": "15 km"
   },
   "maccabe-corner": {
     "been": false,
@@ -1395,7 +1521,9 @@
     "icons": ["🇪🇬"],
     "info": "🌴 <span class=\"dark\">12 km</span>",
     "link": "https://confluence.org/confluence.php?lat=31&lon=27",
-    "name": "Marsā Matrūh"
+    "name": "Marsā Matrūh",
+    "prefix": "31°N 27°E",
+    "reference": "12 km"
   },
   "massillargues-attuech": {
     "been": false,
@@ -1403,7 +1531,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=44&lon=4",
-    "name": "Massillargues-Attuech"
+    "name": "Massillargues-Attuech",
+    "prefix": "44°N 4°E",
+    "reference": "12 km"
   },
   "mcconnellsburg": {
     "been": false,
@@ -1439,7 +1569,9 @@
     "icons": ["🇺🇸"],
     "info": "👯 <span class=\"dark\">15 km</span>",
     "link": "https://confluence.org/confluence.php?lat=35&lon=-90",
-    "name": "Memphis"
+    "name": "Memphis",
+    "prefix": "35°N 90°W",
+    "reference": "15 km"
   },
   "mittweida-weißthal": {
     "been": false,
@@ -1447,7 +1579,9 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://confluence.org/confluence.php?lat=51&lon=13",
-    "name": "Mittweida-Weißthal"
+    "name": "Mittweida-Weißthal",
+    "prefix": "51°N 13°E",
+    "reference": "5 km"
   },
   "mohawk": {
     "been": false,
@@ -1474,7 +1608,9 @@
     "icons": ["🇺🇸"],
     "info": "🚊 🏖 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=41.0&lon=-72.0",
-    "name": "Montauk"
+    "name": "Montauk",
+    "prefix": "41°N 72°W",
+    "reference": "2 km"
   },
   "moorefield": {
     "been": false,
@@ -1501,7 +1637,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=45&lon=-73",
-    "name": "Morse’s Line"
+    "name": "Morse’s Line",
+    "prefix": "45°N 73°W",
+    "reference": "↑1300m"
   },
   "moshannon": {
     "been": false,
@@ -1509,7 +1647,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=41&lon=-78",
-    "name": "Moshannon"
+    "name": "Moshannon",
+    "prefix": "41°N 78°W",
+    "reference": "20 km"
   },
   "moyie-springs-id": {
     "been": false,
@@ -1517,7 +1657,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-116",
-    "name": "Moyie Springs, ID"
+    "name": "Moyie Springs, ID",
+    "prefix": "49°N 116°W",
+    "reference": "↓100m"
   },
   "murmansk": {
     "been": false,
@@ -1581,7 +1723,9 @@
     "country": "NC",
     "icons": ["🇳🇨"],
     "link": "https://confluence.org/confluence.php?lat=-21&lon=165",
-    "name": "Netchaot"
+    "name": "Netchaot",
+    "prefix": "21°S 165°E",
+    "reference": "12 km"
   },
   "nevers": {
     "been": false,
@@ -1589,7 +1733,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=47&lon=3",
-    "name": "Nevers"
+    "name": "Nevers",
+    "prefix": "47°N 3°E",
+    "reference": "7 km"
   },
   "new-smyrna": {
     "been": true,
@@ -1624,7 +1770,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=44&lon=2",
-    "name": "Noailles"
+    "name": "Noailles",
+    "prefix": "44°N 2°E",
+    "reference": "15 km"
   },
   "northgate-sk": {
     "been": false,
@@ -1632,7 +1780,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-102",
-    "name": "Northgate, SK"
+    "name": "Northgate, SK",
+    "prefix": "49°N 102°W",
+    "reference": "↓150m"
   },
   "noto-gouye-diame-thies": {
     "been": false,
@@ -1649,7 +1799,9 @@
     "country": "TG",
     "icons": ["🇹🇬"],
     "link": "https://confluence.org/confluence.php?lat=7&lon=1",
-    "name": "Notsé"
+    "name": "Notsé",
+    "prefix": "7°N 1°E",
+    "reference": "18 km"
   },
   "novosibirsk": {
     "been": false,
@@ -1658,7 +1810,9 @@
     "icons": ["🇷🇺"],
     "info": "🏙️ 🚇 👯 <span class=\"dark\">4 km</span>",
     "link": "https://confluence.org/confluence.php?lat=55&lon=83",
-    "name": "Novosibirsk"
+    "name": "Novosibirsk",
+    "prefix": "55°N 83°E",
+    "reference": "4 km"
   },
   "null-island": {
     "been": false,
@@ -1674,7 +1828,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=50&lon=3",
-    "name": "Nurlu"
+    "name": "Nurlu",
+    "prefix": "50°N 3°E",
+    "reference": "9 km"
   },
   "oestrich-winkel": {
     "been": true,
@@ -1700,7 +1856,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-107",
-    "name": "Opheim, Valley, MT"
+    "name": "Opheim, Valley, MT",
+    "prefix": "49°N 107°W",
+    "reference": "↑3m"
   },
   "orkney-sk": {
     "been": false,
@@ -1708,7 +1866,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-108",
-    "name": "Orkney, SK"
+    "name": "Orkney, SK",
+    "prefix": "49°N 108°W",
+    "reference": "↓80m"
   },
   "orleans": {
     "been": false,
@@ -1716,7 +1876,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=48&lon=2",
-    "name": "Orléans"
+    "name": "Orléans",
+    "prefix": "48°N 2°E",
+    "reference": "11 km"
   },
   "oslo": {
     "been": false,
@@ -1725,7 +1887,9 @@
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://confluence.org/confluence.php?lat=60&lon=11",
-    "name": "Oslo"
+    "name": "Oslo",
+    "prefix": "60°N 11°E",
+    "reference": "5 km"
   },
   "ottawa-oh": {
     "been": false,
@@ -1751,7 +1915,9 @@
     "icons": ["🇦🇪"],
     "info": "🛟 <span class=\"dark\">6 km</span>",
     "link": "https://confluence.org/confluence.php?lat=25&lon=55",
-    "name": "Palm Jebel Ali"
+    "name": "Palm Jebel Ali",
+    "prefix": "25°N 55°E",
+    "reference": "6 km"
   },
   "paris-va": {
     "been": false,
@@ -1760,7 +1926,9 @@
     "icons": ["🇺🇸"],
     "info": "👯 <span class=\"dark\">15 km</span>",
     "link": "https://confluence.org/confluence.php?lat=39&lon=-78",
-    "name": "Paris, VA"
+    "name": "Paris, VA",
+    "prefix": "39°N 78°W",
+    "reference": "15 km"
   },
   "perra-vaara": {
     "been": false,
@@ -1795,7 +1963,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-96",
-    "name": "Piney, MB"
+    "name": "Piney, MB",
+    "prefix": "49°N 96°W",
+    "reference": "↓50m"
   },
   "poeppel-corner": {
     "been": false,
@@ -1831,7 +2001,9 @@
     "icons": ["🇺🇸"],
     "info": "🍩 🌊 <span class=\"dark\">↑200m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-123",
-    "name": "Point Roberts"
+    "name": "Point Roberts",
+    "prefix": "49°N 123°W",
+    "reference": "↑200m"
   },
   "prachatice": {
     "been": true,
@@ -1921,7 +2093,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-106",
-    "name": "Rockglen, SK"
+    "name": "Rockglen, SK",
+    "prefix": "49°N 106°W",
+    "reference": "↓80m"
   },
   "roosville-bc": {
     "been": false,
@@ -1929,7 +2103,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-115",
-    "name": "Roosville, BC"
+    "name": "Roosville, BC",
+    "prefix": "49°N 115°W",
+    "reference": "↑20m"
   },
   "roquefort": {
     "been": false,
@@ -1938,7 +2114,9 @@
     "icons": ["🇫🇷"],
     "info": "🧀 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=44&lon=3",
-    "name": "Roquefort"
+    "name": "Roquefort",
+    "prefix": "44°N 3°E",
+    "reference": "2 km"
   },
   "roscoe": {
     "been": true,
@@ -1955,7 +2133,9 @@
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://confluence.org/confluence.php?lat=60&lon=7",
-    "name": "Røldal"
+    "name": "Røldal",
+    "prefix": "60°N 7°E",
+    "reference": "15 km"
   },
   "saint-louet-sur-vire": {
     "been": false,
@@ -1963,7 +2143,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=1",
-    "name": "Saint-Louet-sur-Vire"
+    "name": "Saint-Louet-sur-Vire",
+    "prefix": "49°N 1°E",
+    "reference": "4 km"
   },
   "saint-mathurin-leobazel": {
     "been": false,
@@ -1989,7 +2171,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=47&lon=2",
-    "name": "Sainte-Lizaigne"
+    "name": "Sainte-Lizaigne",
+    "prefix": "47°N 2°E",
+    "reference": "20 km"
   },
   "sallenoves": {
     "been": false,
@@ -2006,7 +2190,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-117",
-    "name": "Salmo, BC"
+    "name": "Salmo, BC",
+    "prefix": "49°N 117°W",
+    "reference": "↓100m"
   },
   "santa-cruz": {
     "been": false,
@@ -2015,7 +2201,9 @@
     "icons": ["🇺🇸"],
     "info": "🏖 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=37&lon=-122",
-    "name": "Santa Cruz"
+    "name": "Santa Cruz",
+    "prefix": "37°N 122°W",
+    "reference": "2 km"
   },
   "santa-rosa": {
     "been": false,
@@ -2023,7 +2211,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=35&lon=-105",
-    "name": "Santa Rosa"
+    "name": "Santa Rosa",
+    "prefix": "35°N 105°W",
+    "reference": "2 km"
   },
   "sarralbe": {
     "been": false,
@@ -2031,7 +2221,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=7",
-    "name": "Sarralbe"
+    "name": "Sarralbe",
+    "prefix": "49°N 7°E",
+    "reference": "10 km"
   },
   "sassenberg": {
     "been": false,
@@ -2057,7 +2249,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=8",
-    "name": "Schleithal"
+    "name": "Schleithal",
+    "prefix": "49°N 8°E",
+    "reference": "10 km"
   },
   "sequim": {
     "been": false,
@@ -2065,7 +2259,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=48&lon=-123",
-    "name": "Sequim"
+    "name": "Sequim",
+    "prefix": "48°N 123°W",
+    "reference": "2 km"
   },
   "shiretoko": {
     "been": false,
@@ -2073,7 +2269,9 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://confluence.org/confluence.php?lat=44&lon=145",
-    "name": "Shiretoko"
+    "name": "Shiretoko",
+    "prefix": "44°N 145°E",
+    "reference": "10 km"
   },
   "silver-spring": {
     "been": true,
@@ -2237,7 +2435,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=43&lon=-81",
-    "name": "Thames Centre"
+    "name": "Thames Centre",
+    "prefix": "43°N 81°W",
+    "reference": "10 km"
   },
   "timbuktu": {
     "been": false,
@@ -2246,7 +2446,9 @@
     "icons": ["🇲🇱"],
     "info": "🕌 🏜 <span class=\"dark\">25 km</span>",
     "link": "https://confluence.org/confluence.php?lat=17&lon=-3",
-    "name": "Timbuktu"
+    "name": "Timbuktu",
+    "prefix": "17°N 3°W",
+    "reference": "25 km"
   },
   "triel-sur-seine": {
     "been": false,
@@ -2254,7 +2456,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=2",
-    "name": "Triel-sur-Seine"
+    "name": "Triel-sur-Seine",
+    "prefix": "49°N 2°E",
+    "reference": "1 km"
   },
   "ulster": {
     "been": true,
@@ -2271,7 +2475,9 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://confluence.org/confluence.php?lat=64&lon=-21",
-    "name": "Vaðlækir, Árnessýsla"
+    "name": "Vaðlækir, Árnessýsla",
+    "prefix": "64°N 21°W",
+    "reference": "5 km"
   },
   "velp-gelderland": {
     "been": false,
@@ -2279,7 +2485,9 @@
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://confluence.org/confluence.php?lat=52&lon=6",
-    "name": "Velp, Gelderland"
+    "name": "Velp, Gelderland",
+    "prefix": "52°N 6°E",
+    "reference": "5 km"
   },
   "vestal": {
     "been": true,
@@ -2320,7 +2528,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-98",
-    "name": "Walhalla, ND"
+    "name": "Walhalla, ND",
+    "prefix": "49°N 98°W",
+    "reference": "↑60m"
   },
   "waterton-park-ab": {
     "been": false,
@@ -2328,7 +2538,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-114",
-    "name": "Waterton Park, AB"
+    "name": "Waterton Park, AB",
+    "prefix": "49°N 114°W",
+    "reference": "↓150m"
   },
   "waverly": {
     "been": true,
@@ -2354,7 +2566,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=43&lon=-73",
-    "name": "West Dover"
+    "name": "West Dover",
+    "prefix": "43°N 73°W",
+    "reference": "10 km"
   },
   "wetterzeube-rossendorf": {
     "been": false,
@@ -2362,7 +2576,9 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://confluence.org/confluence.php?lat=51&lon=12",
-    "name": "Wetterzeube-Rossendorf"
+    "name": "Wetterzeube-Rossendorf",
+    "prefix": "51°N 12°E",
+    "reference": "10 km"
   },
   "wheeler-ridge": {
     "been": false,
@@ -2370,7 +2586,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=35&lon=-119",
-    "name": "Wheeler Ridge"
+    "name": "Wheeler Ridge",
+    "prefix": "35°N 119°W",
+    "reference": "4 km"
   },
   "whisky-gap-ab": {
     "been": false,
@@ -2378,7 +2596,9 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://confluence.org/confluence.php?lat=49&lon=-113",
-    "name": "Whisky Gap, AB"
+    "name": "Whisky Gap, AB",
+    "prefix": "49°N 113°W",
+    "reference": "↓200m"
   },
   "wignehies": {
     "been": false,
@@ -2386,7 +2606,9 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://confluence.org/confluence.php?lat=50&lon=4",
-    "name": "Wignehies"
+    "name": "Wignehies",
+    "prefix": "50°N 4°E",
+    "reference": "5 km"
   },
   "willow-grove": {
     "been": true,
@@ -2429,7 +2651,9 @@
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "https://confluence.org/confluence.php?lat=14&lon=-15",
-    "name": "Yoman, Kaffrine"
+    "name": "Yoman, Kaffrine",
+    "prefix": "14°N 15°W",
+    "reference": "3 km"
   },
   "zawiyat-sidi-gaziy": {
     "been": false,
@@ -2437,7 +2661,9 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://confluence.org/confluence.php?lat=31&lon=30",
-    "name": "Zāwiyat Sīdī Ġāziy"
+    "name": "Zāwiyat Sīdī Ġāziy",
+    "prefix": "31°N 30°E",
+    "reference": "15 km"
   },
   "zichem": {
     "been": true,
