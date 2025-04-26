@@ -1,12 +1,4 @@
 {
-  "": {
-    "been": false,
-    "country": "NC",
-    "icons": ["🇳🇨"],
-    "name": "",
-    "prefix": "22°S 166°E",
-    "reference": "15 km"
-  },
   "6th-of-october-city": {
     "been": false,
     "coords": "30.0, 31.0",
@@ -82,6 +74,16 @@
     "name": "Alma",
     "prefix": "42°N 78°W"
   },
+  "amman": {
+    "been": false,
+    "city": "Amman",
+    "coords": "32.0, 36.0",
+    "country": "JO",
+    "icons": ["🇯🇴"],
+    "link": "https://confluence.org/confluence.php?lat=32&lon=36",
+    "name": "Amman",
+    "prefix": "32°N 36°E"
+  },
   "andelka": {
     "been": true,
     "coords": "51.0, 15.0",
@@ -137,6 +139,16 @@
     "link": "https://confluence.org/confluence.php?lat=52&lon=0",
     "name": "Barkway",
     "prefix": "52°N 0°"
+  },
+  "barskova": {
+    "been": false,
+    "coords": "56.0, 39.0",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://confluence.org/confluence.php?lat=56&lon=39",
+    "name": "Barskova",
+    "prefix": "56°N 39°E",
+    "reference": "5 km"
   },
   "beer-menuha": {
     "been": false,
@@ -209,6 +221,26 @@
     "link": "https://confluence.org/confluence.php?lat=37&lon=-78",
     "name": "Blackstone",
     "prefix": "37°N 78°W"
+  },
+  "blaenau-ffestiniog": {
+    "been": false,
+    "coords": "53.0, -4.0",
+    "country": "GB-WLS",
+    "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
+    "link": "https://confluence.org/confluence.php?lat=53&lon=-4",
+    "name": "Blaenau-Ffestiniog",
+    "prefix": "53°N 4°W",
+    "reference": "10 km"
+  },
+  "blagoevgrad": {
+    "been": false,
+    "coords": "42.0, 23.0",
+    "country": "BG",
+    "icons": ["🇧🇬"],
+    "link": "https://confluence.org/confluence.php?lat=42&lon=23",
+    "name": "Blagoevgrad",
+    "prefix": "42°N 23°E",
+    "reference": "5 km"
   },
   "blairstown": {
     "been": true,
@@ -394,6 +426,15 @@
     "name": "Cape Charles",
     "prefix": "37°N 76°W"
   },
+  "cape-cod": {
+    "been": true,
+    "coords": "42.0, -70.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=42&lon=-70",
+    "name": "Cape Cod",
+    "prefix": "42°N 70°W"
+  },
   "cape-greco": {
     "been": false,
     "coords": "35.0, 34.0",
@@ -559,7 +600,6 @@
     "coords": "49.0, -112.0",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "🛂 ✂️ 🛫 <span class=\"dark\">↓200m 3 km</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-112",
     "name": "Coutts, AB / Sweet Grass, MT"
   },
@@ -568,7 +608,6 @@
     "coords": "49.0, -99.0",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "👯 <span class=\"dark\">↓50m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-99",
     "name": "Crystal City, MB",
     "prefix": "49°N 99°W",
@@ -606,7 +645,6 @@
     "coords": "45.0, -72.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "📚 ✂️ <span class=\"dark\">↑700m</span>",
     "link": "https://confluence.org/confluence.php?lat=45&lon=-72",
     "name": "Derby Line",
     "prefix": "45°N 72°W",
@@ -666,7 +704,6 @@
     "coords": "56.0, -3.0",
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
-    "info": "🌊 <span class=\"dark\">10 km</span>",
     "link": "https://confluence.org/confluence.php?lat=56&lon=-3",
     "name": "Edinburgh",
     "prefix": "56°N 3°W",
@@ -705,7 +742,6 @@
     "coords": "51.0, 11.0",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "🚋 🦋 <span class=\"dark\">10 km</span>",
     "link": "https://confluence.org/confluence.php?lat=51&lon=11",
     "name": "Erfurt",
     "prefix": "51°N 11°E",
@@ -790,7 +826,6 @@
     "coords": "60.0, -102.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "4️⃣ 🧭 <span class=\"dark\">4 km</span>",
     "link": "https://confluence.org/confluence.php?lat=37&lon=-109",
     "name": "Four Corners",
     "prefix": "37°N 109°W",
@@ -1033,12 +1068,20 @@
     "prefix": "41°N 101°W",
     "reference": "15 km"
   },
+  "hnevosice": {
+    "been": false,
+    "coords": "50.0, 18.0",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://confluence.org/confluence.php?lat=50&lon=18",
+    "name": "Hněvošice",
+    "prefix": "50°N 18°E"
+  },
   "hoek-van-holland": {
     "been": false,
     "coords": "52.0.0, 4.0.0",
     "country": "NL",
     "icons": ["🇳🇱"],
-    "info": "🌊 ⚓️ 🏖 🤽🏻‍♂️ <span class=\"dark\">5 km</span>",
     "link": "https://confluence.org/confluence.php?lat=52&lon=4",
     "name": "Hoek van Holland",
     "prefix": "52°N 4°E",
@@ -1058,11 +1101,20 @@
     "coords": "49.0, -97.0",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "👯 <span class=\"dark\">↓50m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-97",
     "name": "Humbolt, MN",
     "prefix": "49°N 97°W",
     "reference": "↓50m"
+  },
+  "hurghada": {
+    "been": false,
+    "coords": "27.0, 34.0",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://confluence.org/confluence.php?lat=27&lon=34",
+    "name": "Hurghada",
+    "prefix": "27°N 34°E",
+    "reference": "10 km"
   },
   "hvaleyri-hafnarfjorður": {
     "been": false,
@@ -1145,7 +1197,6 @@
     "coords": "46.0, 20.0",
     "country": "RS",
     "icons": ["🇷🇸"],
-    "info": "🛂 <span class=\"dark\">30 km</span>",
     "link": "https://confluence.org/confluence.php?lat=46&lon=20",
     "name": "Kanjiža",
     "prefix": "46°N 20°E",
@@ -1216,6 +1267,16 @@
     "name": "Kirkjubæjarklaustur",
     "prefix": "64°N 18°W",
     "reference": "15 km"
+  },
+  "knoxville-tn": {
+    "been": false,
+    "coords": "36.0, -84.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=36&lon=-84",
+    "name": "Knoxville, TN",
+    "prefix": "36°N 84°W",
+    "reference": "5 km"
   },
   "kourim": {
     "been": true,
@@ -1289,12 +1350,20 @@
     "name": "Kuldīga",
     "prefix": "57°N 22°E"
   },
+  "lac-de-neuchatel": {
+    "been": false,
+    "coords": "47.0, 7.0",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://confluence.org/confluence.php?lat=47&lon=7",
+    "name": "Lac de Neuchâtel",
+    "prefix": "47°N 7°E"
+  },
   "lago-di-lugano": {
     "been": false,
     "coords": "46.0, 9.0",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "info": "🍩 🛶 🎰 🚠 <span class=\"dark\">3 km</span>",
     "link": "https://confluence.org/confluence.php?lat=46&lon=9",
     "name": "Lago di Lugano",
     "prefix": "46°N 9°E",
@@ -1385,7 +1454,6 @@
     "coords": "48.0, 0.0",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "info": "🇺🇳 🏎️ <span class=\"dark\">20 km</span>",
     "link": "https://confluence.org/confluence.php?lat=48&lon=0",
     "name": "Le Mans",
     "prefix": "48°N 0°",
@@ -1433,7 +1501,6 @@
     "coords": "45.0, -124.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "🏖 👯 <span class=\"dark\">3 km</span>",
     "link": "https://confluence.org/confluence.php?lat=45&lon=-124",
     "name": "Lincoln City",
     "prefix": "45°N 124°W",
@@ -1465,8 +1532,7 @@
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=38&lon=-78",
     "name": "Louisa",
-    "prefix": "38°N 78°W",
-    "reference": "40 km"
+    "prefix": "38°N 78°W"
   },
   "lviv": {
     "been": false,
@@ -1519,7 +1585,6 @@
     "coords": "31.0, 27.0",
     "country": "EG",
     "icons": ["🇪🇬"],
-    "info": "🌴 <span class=\"dark\">12 km</span>",
     "link": "https://confluence.org/confluence.php?lat=31&lon=27",
     "name": "Marsā Matrūh",
     "prefix": "31°N 27°E",
@@ -1567,7 +1632,6 @@
     "coords": "35.0, -90.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "👯 <span class=\"dark\">15 km</span>",
     "link": "https://confluence.org/confluence.php?lat=35&lon=-90",
     "name": "Memphis",
     "prefix": "35°N 90°W",
@@ -1601,12 +1665,21 @@
     "name": "Mono Lake",
     "prefix": "38°N 119°W"
   },
-  "montauk": {
+  "mont-dolent": {
     "been": false,
+    "coords": "46.0, 7.0",
+    "countries": ["CH", "FR"],
+    "icons": ["🇨🇭", "🇫🇷"],
+    "link": "https://confluence.org/confluence.php?lat=46&lon=7",
+    "name": "Mont Dolent",
+    "prefix": "46°N 7°E",
+    "reference": "5 km"
+  },
+  "montauk": {
+    "been": true,
     "coords": "41.0.0, -72.0.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "🚊 🏖 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=41&lon=-72",
     "name": "Montauk",
     "prefix": "41°N 72°W",
@@ -1808,7 +1881,6 @@
     "coords": "55.0, 83.0",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "🏙️ 🚇 👯 <span class=\"dark\">4 km</span>",
     "link": "https://confluence.org/confluence.php?lat=55&lon=83",
     "name": "Novosibirsk",
     "prefix": "55°N 83°E",
@@ -1840,6 +1912,26 @@
     "link": "https://confluence.org/confluence.php?lat=50&lon=8",
     "name": "Oestrich-Winkel",
     "prefix": "50°N 8°E"
+  },
+  "olympia-wa": {
+    "been": false,
+    "coords": "47.0, -123.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=47&lon=-123",
+    "name": "Olympia, WA",
+    "prefix": "47°N 123°W",
+    "reference": "5 km"
+  },
+  "olympic-national-park": {
+    "been": false,
+    "coords": "48.0, -124.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=48&lon=-124",
+    "name": "Olympic National Park",
+    "prefix": "48°N 124°W",
+    "reference": "7 km"
   },
   "ontario-or": {
     "been": false,
@@ -1908,12 +2000,21 @@
     "link": "https://confluence.org/confluence.php?lat=7&lon=2",
     "name": "Ouansougon"
   },
+  "palestine-ar": {
+    "been": false,
+    "coords": "35.0, -91.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=35&lon=-91",
+    "name": "Palestine, AR",
+    "prefix": "35°N 91°W",
+    "reference": "4 km"
+  },
   "palm-jebel-ali": {
     "been": false,
     "coords": "25.0, 55.0",
     "country": "AE",
     "icons": ["🇦🇪"],
-    "info": "🛟 <span class=\"dark\">6 km</span>",
     "link": "https://confluence.org/confluence.php?lat=25&lon=55",
     "name": "Palm Jebel Ali",
     "prefix": "25°N 55°E",
@@ -1924,7 +2025,6 @@
     "coords": "39.0, -78.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "👯 <span class=\"dark\">15 km</span>",
     "link": "https://confluence.org/confluence.php?lat=39&lon=-78",
     "name": "Paris, VA",
     "prefix": "39°N 78°W",
@@ -1999,11 +2099,20 @@
     "coords": "49.0, -123.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "🍩 🌊 <span class=\"dark\">↑200m</span>",
     "link": "https://confluence.org/confluence.php?lat=49&lon=-123",
     "name": "Point Roberts",
     "prefix": "49°N 123°W",
     "reference": "↑200m"
+  },
+  "port-jefferson": {
+    "been": false,
+    "coords": "41.0, -73.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=41&lon=-73",
+    "name": "Port Jefferson",
+    "prefix": "41°N 73°W",
+    "reference": "5 km"
   },
   "prachatice": {
     "been": true,
@@ -2032,6 +2141,16 @@
     "name": "Prūseliai",
     "prefix": "55°N 23°E"
   },
+  "punxsutawney": {
+    "been": false,
+    "coords": "41.0, -79.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=41&lon=-79",
+    "name": "Punxsutawney",
+    "prefix": "41°N 79°W",
+    "reference": "6 km"
+  },
   "pyatigorsk": {
     "been": false,
     "coords": "44.0, 43.0",
@@ -2049,6 +2168,35 @@
     "link": "https://confluence.org/confluence.php?lat=54&lon=23",
     "name": "Płociczno",
     "prefix": "54°N 23°E"
+  },
+  "qara": {
+    "been": true,
+    "coords": "30.0, 26.0",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://confluence.org/confluence.php?lat=30&lon=26",
+    "name": "Qāra",
+    "prefix": "30°N 26°E"
+  },
+  "qena": {
+    "been": false,
+    "coords": "26.0, 32.0",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://confluence.org/confluence.php?lat=26&lon=32",
+    "name": "Qena",
+    "prefix": "26°N 33°E",
+    "reference": "10 km"
+  },
+  "qibya": {
+    "been": false,
+    "coords": "32.0, 35.0",
+    "country": "PS",
+    "icons": ["🇵🇸"],
+    "link": "https://confluence.org/confluence.php?lat=32&lon=35",
+    "name": "Qibyā",
+    "prefix": "32°N 35°E",
+    "reference": "10 km"
   },
   "raydon": {
     "been": false,
@@ -2112,7 +2260,6 @@
     "coords": "44.0, 3.0",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "info": "🧀 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=44&lon=3",
     "name": "Roquefort",
     "prefix": "44°N 3°E",
@@ -2199,7 +2346,6 @@
     "coords": "37.0, -122.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "🏖 <span class=\"dark\">2 km</span>",
     "link": "https://confluence.org/confluence.php?lat=37&lon=-122",
     "name": "Santa Cruz",
     "prefix": "37°N 122°W",
@@ -2253,6 +2399,15 @@
     "prefix": "49°N 8°E",
     "reference": "10 km"
   },
+  "seaside": {
+    "been": true,
+    "coords": "46.0, -124.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=46&lon=-124",
+    "name": "Seaside",
+    "prefix": "46°N 124°W"
+  },
   "sequim": {
     "been": false,
     "coords": "48.0, -123.0",
@@ -2282,6 +2437,15 @@
     "link": "https://confluence.org/confluence.php?lat=39&lon=-77",
     "name": "Silver Spring",
     "prefix": "39°N 77°W"
+  },
+  "somerset": {
+    "been": false,
+    "coords": "40.0, -79.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=40&lon=-79",
+    "name": "Somerset",
+    "prefix": "40°N 79°W"
   },
   "sontra-blankenbach": {
     "been": false,
@@ -2444,7 +2608,6 @@
     "coords": "17.0, -3.0",
     "country": "ML",
     "icons": ["🇲🇱"],
-    "info": "🕌 🏜 <span class=\"dark\">25 km</span>",
     "link": "https://confluence.org/confluence.php?lat=17&lon=-3",
     "name": "Timbuktu",
     "prefix": "17°N 3°W",

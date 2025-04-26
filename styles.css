@@ -151,7 +151,7 @@ a {
 }
 
 .coords {
-	font: 22pt "SF Mono", Menlo; 
+	font: 13pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;
 	top: -5px;
@@ -469,11 +469,18 @@ a {
 }
 
 .emoji-pin.markerBeen {
-  filter: hue-rotate(270deg);
+  background-image: url('images/pins/marker-icon-2x-green.png');
+  background-size: cover;
+}
+
+.emoji-pin.markerNear {
+  background-image: url('images/pins/marker-icon-2x-gold.png');
+  background-size: cover;
 }
 
 .emoji-pin.markerTodo {
-  filter: hue-rotate(120deg);
+  background-image: url('images/pins/marker-icon-2x-red.png');
+  background-size: cover;
 }
 
 .markerStrike {
@@ -510,14 +517,6 @@ a {
   pointer-events: none;
 }
 
-.pin-emoji.markerBeen {
-  filter: hue-rotate(-270deg) brightness(1.25);
-}
-
-.pin-emoji.markerTodo {
-  filter: hue-rotate(-120deg) brightness(1.25);
-}
-
 .marker-cluster {
   background-clip: padding-box;
   border-radius: 50%;
@@ -536,9 +535,13 @@ a {
 }
 
 .marker-cluster-been div {
-  background-color: #309646;
+  background-color: #55AB3D;
+}
+
+.marker-cluster-near div {
+  background-color: #F8D551;
 }
 
 .marker-cluster-todo div {
-  background-color: #D55D80;
+  background-color: #BA373E;
 }

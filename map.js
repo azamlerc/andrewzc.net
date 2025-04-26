@@ -1,5 +1,9 @@
 let iconIndex = 0;
 
+function isNear(place) {
+  return place.reference && place.reference.includes(" km");
+}
+
 addStylesheets([
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css",
@@ -31,6 +35,14 @@ loadScripts([
         }
       });
 
+      let near = !cluster ? L.layerGroup() : L.markerClusterGroup({
+        maxClusterRadius,
+        disableClusteringAtZoom,
+        iconCreateFunction: function (cluster) {
+          return createClusterIcon(cluster, 'near');
+        }
+      });
+
       let todo = !cluster ? L.layerGroup() : L.markerClusterGroup({
         maxClusterRadius,
         disableClusteringAtZoom,
@@ -50,13 +62,14 @@ loadScripts([
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, been]});
+			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, near, been]});
 			const baseLayers = { 'OpenStreetMap': initialTiles };
-			const overlays = { 'Been': been, 'Todo': todo };
+			const overlays = { 'Been': been, 'Near': near, 'Todo': todo };
 			const layerControl = L.control.layers(null, overlays).addTo(map);
 
-    	addMarkers(map, been, places, place => place.been == true, "markerBeen");
-    	addMarkers(map, todo, places, place => place.been == false, "markerTodo");
+    	addMarkers(map, been, places, place => place.been == true && !isNear(place), "markerBeen");
+    	addMarkers(map, near, places, place => isNear(place), "markerNear");
+    	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
       
       if (overrideClick) {
         been.on('clusterclick', function (a) {
@@ -91,6 +104,7 @@ function createClusterIcon(cluster, type) {
 
   let className = 'marker-cluster';
   if (type === 'been') className += ' marker-cluster-been';
+  if (type === 'near') className += ' marker-cluster-near';
   if (type === 'todo') className += ' marker-cluster-todo';
 
   return L.divIcon({
