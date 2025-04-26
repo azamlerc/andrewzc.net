@@ -35,7 +35,10 @@ function appendCountryTotals(countries) {
 
 let shortNames = {
   "Belfries of Belgium and France": "Belfries",
-  "Accidentally Wes Anderson": "Wes Anderson"
+  "Accidentally Wes Anderson": "Wes Anderson",
+  "Comunidades autónomas de España": "Spanish Communities",
+  "Canadian Provinces and Territories": "Canadian Provinces",
+  "Provinces belges / Belgische provincies": "Belgian Provinces"
 }
 
 function link(href, text) {
