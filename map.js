@@ -93,6 +93,10 @@ loadScripts([
           map.addLayer(lightTiles);
         }
       });
+      
+      var event = new CustomEvent('mapReady', { detail: { map: map } });
+      document.dispatchEvent(event);
+      console.log('Map ready');
 		})
 	  .catch(error => {
 	    console.error('Error loading JSON:', error);

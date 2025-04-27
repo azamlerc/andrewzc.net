@@ -1,0 +1,34 @@
+console.log('Adding listener');
+document.addEventListener('mapReady', (e) => {
+  var map = e.detail.map; 
+  console.log('Drawing map');
+  console.log(map);
+  var transSiberianLine = L.polyline([
+    [55.7558, 37.6173], // Москва (Moscow)
+    [56.1290, 40.4070], // Владимир (Vladimir)
+    [56.3287, 44.0020], // Нижний Новгород (Nizhny Novgorod)
+    [58.6035, 49.6679], // Киров (Kirov)
+    [57.9795, 53.0646], // Балезино (Balezino)
+    [58.0105, 56.2294], // Пермь (Perm)
+    [56.8389, 60.6057], // Екатеринбург (Yekaterinburg)
+    [57.1530, 65.5343], // Тюмень (Tyumen)
+    [54.9885, 73.3242], // Омск (Omsk)
+    [55.3515, 78.3467], // Барабинск (Barabinsk)
+    [55.0084, 82.9357], // Новосибирск (Novosibirsk)
+    [56.0153, 92.8932], // Красноярск (Krasnoyarsk)
+    [55.9352, 97.9955], // Тайшет (Tayshet)
+    [53.9202, 102.0492], // Зима (Zima)
+    [52.2869, 104.3050], // Иркутск (Irkutsk)
+    [51.6564, 103.7106], // Слюдянка (Slyudyanka)
+    [51.8335, 107.5842], // Улан-Удэ (Ulan-Ude)
+    [52.0336, 113.5000], // Чита (Chita)
+    [50.9200, 128.4775], // Белогорск (Belogorsk)
+    [48.4647, 135.0598], // Хабаровск (Khabarovsk)
+    [43.1155, 131.8855]  // Владивосток (Vladivostok)
+  ], {
+    color: '#097969',
+    weight: 4,
+    opacity: 0.7,
+    dashArray: '8,8'
+  }).addTo(map);
+});

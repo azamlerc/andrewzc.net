@@ -50,7 +50,7 @@
     "reference": "Islamic garden"
   },
   "agricultural-university-of-iceland-banana-plantation": {
-    "been": true,
+    "been": false,
     "coords": "64.56092500, -21.77069300",
     "country": "IS",
     "icons": ["🇮🇸", "🍌"],
@@ -642,6 +642,16 @@
     "prefix": "54.97°N",
     "reference": "Medieval Islamic architecture"
   },
+  "borgarnes-visited-point": {
+    "been": true,
+    "coords": "64.54459000, -21.91060000",
+    "country": "IS",
+    "icons": ["🇮🇸", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=64.54459_N_21.91060_W",
+    "name": "Borgarnes",
+    "prefix": "64.54°N",
+    "reference": "Visited point"
+  },
   "box-destillery-bjartra-malt-whisky-destillery": {
     "been": false,
     "coords": "63.00152000, 17.79857300",
@@ -997,6 +1007,16 @@
     "name": "Dorothys Arctic Hair, Utqiaġvik",
     "prefix": "71.29°N",
     "reference": "Tanning salon"
+  },
+  "dronningens-gate-trondheim-tram-stop": {
+    "been": false,
+    "coords": "63.43183000, 10.38966000",
+    "country": "NO",
+    "icons": ["🇳🇴", "🚋"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=63.43183_N_10.38966_E",
+    "name": "Dronningens Gate, Trondheim",
+    "prefix": "63.43°N",
+    "reference": "Tram stop"
   },
   "eiby-alta-milking-machine": {
     "been": false,
@@ -3356,6 +3376,7 @@
     "coords": "60.23916700, 25.11083300",
     "country": "FI",
     "icons": ["🇫🇮", "🚇"],
+    "info": "🌟br>",
     "link": "https://geohack.toolforge.org/geohack.php?params=60.239167_N_25.110833_E",
     "name": "Mellunmäki, Helsinki",
     "prefix": "60.23°N",
@@ -4617,7 +4638,7 @@
     "prefix": "48.53°N",
     "reference": "Amish community"
   },
-  "reykjavik-capital-(independent-state)": {
+  "reykjavik-national-capital": {
     "been": true,
     "city": "Reykjavík",
     "coords": "64.13333300, -21.93333300",
@@ -4626,7 +4647,7 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=64.133333_N_21.933333_W",
     "name": "Reykjavík",
     "prefix": "64.13°N",
-    "reference": "Capital (independent state)"
+    "reference": "National capital"
   },
   "ridgedale-permaculture-vastra-amtervik-permaculture-farm": {
     "been": false,
@@ -5898,16 +5919,6 @@
     "name": "Trondheim",
     "prefix": "63.42°N",
     "reference": "Orthodox Synagogue"
-  },
-  "trondheim-tram": {
-    "been": false,
-    "coords": "63.62500000, 10.38300000",
-    "country": "NO",
-    "icons": ["🇳🇴", "🚋"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=63.625000_N_10.383000_E",
-    "name": "Trondheim",
-    "prefix": "63.62°N",
-    "reference": "Tram"
   },
   "trondsen-bil-as-tromsø-bmw-retailer": {
     "been": false,
