@@ -1,8 +1,5 @@
-console.log('Adding listener');
 document.addEventListener('mapReady', (e) => {
   var map = e.detail.map; 
-  console.log('Drawing map');
-  console.log(map);
   var transSiberianLine = L.polyline([
     [55.7558, 37.6173], // Москва (Moscow)
     [56.1290, 40.4070], // Владимир (Vladimir)
