@@ -50,6 +50,18 @@
     "name": "Saint Petersburg",
     "type": "circular"
   },
+  "confluence-saint-petersburg": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "coords": "60.00000000, 30.00000000",
+    "country": "RU",
+    "icons": ["🚸"],
+    "link": "https://confluence.org/confluence.php?lat=60&lon=30",
+    "name": "Saint Petersburg",
+    "prefix": "60°N 30°E",
+    "reference": "20 km",
+    "type": "confluence"
+  },
   "cross-platform-sportivnaya": {
     "been": false,
     "city": "Saint Petersburg",
@@ -461,17 +473,18 @@
     "type": "twin-cities"
   },
   "twin-stations-admiralteyskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.93610000, 30.31480000",
     "country": "RU",
-    "icons": ["👯"],
+    "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Admiralteyskaya_(Saint_Petersburg_Metro)",
     "name": "Admiralteyskaya",
+    "reference": "Saint Petersburg",
     "type": "twin-stations"
   },
   "twin-stations-akademicheskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "60.01276944, 30.39601667",
     "country": "RU",
@@ -482,7 +495,7 @@
     "type": "twin-stations"
   },
   "twin-stations-chkalovskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.96105600, 30.29202800",
     "country": "RU",
@@ -493,7 +506,7 @@
     "type": "twin-stations"
   },
   "twin-stations-frunzenskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.85000000, 30.40000000",
     "country": "RU",
@@ -504,7 +517,7 @@
     "type": "twin-stations"
   },
   "twin-stations-gorkovskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.95611111, 30.31888889",
     "country": "RU",
@@ -515,7 +528,7 @@
     "type": "twin-stations"
   },
   "twin-stations-leninsky-prospekt": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.85194444, 30.26833333",
     "country": "RU",
@@ -526,7 +539,7 @@
     "type": "twin-stations"
   },
   "twin-stations-mayakovskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.93150000, 30.35490000",
     "country": "RU",
@@ -537,7 +550,7 @@
     "type": "twin-stations"
   },
   "twin-stations-moskovskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.85219167, 30.32220556",
     "country": "RU",
@@ -548,7 +561,7 @@
     "type": "twin-stations"
   },
   "twin-stations-ploshchad-lenina": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.95666667, 30.35555556",
     "country": "RU",
@@ -559,7 +572,7 @@
     "type": "twin-stations"
   },
   "twin-stations-proletarskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.86519400, 30.47027200",
     "country": "RU",
@@ -570,7 +583,7 @@
     "type": "twin-stations"
   },
   "twin-stations-pushkinskaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.92068889, 30.32966944",
     "country": "RU",
@@ -581,7 +594,7 @@
     "type": "twin-stations"
   },
   "twin-stations-sportivnaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.95208300, 30.29061100",
     "country": "RU",
@@ -592,7 +605,7 @@
     "type": "twin-stations"
   },
   "twin-stations-teatralnaya": {
-    "been": true,
+    "been": false,
     "city": "Saint Petersburg",
     "coords": "59.92666600, 30.29722200",
     "country": "RU",
