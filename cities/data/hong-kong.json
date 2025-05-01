@@ -110,6 +110,14 @@
     "reference": "Hong Kong",
     "type": "awa"
   },
+  "bilingual-hong-kong": {
+    "been": true,
+    "city": "Hong Kong",
+    "countries": ["HK", "CN", "GB"],
+    "icons": ["🇭🇰", "🇨🇳", "🇬🇧"],
+    "name": "Hong Kong",
+    "type": "bilingual"
+  },
   "cable-landings-hong-kong": {
     "been": true,
     "city": "Hong Kong",
@@ -228,6 +236,16 @@
     "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
     "name": "Admiralty",
     "type": "deep-level"
+  },
+  "divided-hong-kong": {
+    "been": true,
+    "city": "Hong Kong",
+    "countries": ["HK", "CN"],
+    "icons": ["🇭🇰", "🇨🇳"],
+    "info": "/ <a href=\"https://en.wikipedia.org/wiki/Shenzhen\">Shenzhen</a>",
+    "link": "https://en.wikipedia.org/wiki/Hong_Kong",
+    "name": "Hong Kong",
+    "type": "divided"
   },
   "elevator-stations-hku": {
     "been": false,
