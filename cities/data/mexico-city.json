@@ -404,15 +404,26 @@
     "name": "Tasqueña",
     "type": "intermodal"
   },
-  "longest-tunnels-line-3": {
-    "been": false,
+  "longest-tunnels-line-1": {
+    "been": true,
     "city": "Mexico City",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Line_3_(Tianjin_Metro)",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City_Metro_Line_1",
+    "name": "Line 1",
+    "prefix": "16.7",
+    "reference": "Mexico City",
+    "type": "longest-tunnels"
+  },
+  "longest-tunnels-line-3": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Mexico_City_Metro_Line_3",
     "name": "Line 3",
-    "prefix": "19.2",
-    "reference": "Tianjin",
+    "prefix": "18.7",
+    "reference": "Mexico City",
     "type": "longest-tunnels"
   },
   "loops-constitucion-de-1917": {
