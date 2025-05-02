@@ -2,6 +2,7 @@
   "antwerp": {
     "been": true,
     "city": "Antwerp",
+    "coords": "51.21777778, 4.40027778",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Antwerp",
@@ -10,6 +11,7 @@
   "baltimore": {
     "been": false,
     "city": "Baltimore",
+    "coords": "39.28944444, -76.61527778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore",
@@ -19,15 +21,18 @@
   "barcelona": {
     "been": false,
     "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Barcelona",
     "name": "Barcelona",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q118983"
   },
   "belgrade": {
     "been": false,
     "city": "Belgrade",
+    "coords": "44.81777778, 20.45694444",
     "country": "RS",
     "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Belgrade",
@@ -41,7 +46,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Birmingham_Railway_and_Electric_Company",
     "name": "Birmingham",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q4916785"
   },
   "boston-ashmont–mattapan-line": {
     "been": true,
@@ -52,15 +58,19 @@
   },
   "brooklyn": {
     "been": false,
+    "city": "New York",
+    "coords": "40.65000000, -73.95000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/List_of_streetcar_lines_in_Brooklyn",
     "name": "Brooklyn",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q16821918"
   },
   "brussels": {
     "been": true,
     "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Brussels",
@@ -69,6 +79,7 @@
   "cairo": {
     "been": false,
     "city": "Cairo",
+    "coords": "30.04444444, 31.23583333",
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Cairo",
@@ -78,49 +89,60 @@
   "chicago": {
     "been": false,
     "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chicago_Surface_Lines",
     "name": "Chicago",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q305200"
   },
   "cincinnati": {
     "been": false,
+    "coords": "39.12500000, -84.53250000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_Cincinnati",
     "name": "Cincinnati",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q16985108"
   },
   "cleveland": {
     "been": false,
     "city": "Cleveland",
+    "coords": "41.50000000, -81.68750000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cleveland_Transit_System",
     "name": "Cleveland",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q1544412"
   },
   "dallas": {
     "been": false,
     "city": "Dallas",
+    "coords": "32.77916667, -96.80888889",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/McKinney_Avenue_Transit_Authority",
-    "name": "Dallas"
+    "name": "Dallas",
+    "wikidata": "Q124774997"
   },
   "den-haag": {
     "been": true,
     "city": "Den Haag",
+    "coords": "52.08000000, 4.31000000",
     "country": "NL",
     "icons": ["🇳🇱"],
     "info": "<a href=\"https://nl.wikipedia.org/wiki/Haags_Openbaar_Vervoer_Museum\">HOVM</a>",
     "link": "https://nl.wikipedia.org/wiki/PCC-trams_in_Den_Haag",
-    "name": "Den Haag"
+    "name": "Den Haag",
+    "wikidata": "Q2076757"
   },
   "detroit": {
     "been": false,
     "city": "Detroit",
+    "coords": "42.33333333, -83.05000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Detroit",
@@ -130,10 +152,12 @@
   "el-paso": {
     "been": false,
     "city": "El Paso",
+    "coords": "31.75916667, -106.48861111",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/El_Paso_Streetcar",
-    "name": "El Paso"
+    "name": "El Paso",
+    "wikidata": "Q28404432"
   },
   "halton-country-radial-railway": {
     "been": false,
@@ -144,6 +168,7 @@
   },
   "kansas-city": {
     "been": false,
+    "coords": "39.00000000, -94.60000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_Kansas_City",
@@ -152,39 +177,49 @@
   },
   "kenosha": {
     "been": false,
+    "coords": "42.58222222, -87.84555556",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kenosha_Electric_Streetcar",
-    "name": "Kenosha"
+    "name": "Kenosha",
+    "wikidata": "Q1322655"
   },
   "los-angeles": {
     "been": false,
     "city": "Los Angeles",
+    "coords": "34.05000000, -118.25000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Los_Angeles_Railway",
     "name": "Los Angeles",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2509171"
   },
   "mexico-city": {
     "been": false,
     "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_Mexico_City",
     "name": "Mexico City",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2919713"
   },
   "minneapolis": {
     "been": false,
+    "coords": "44.99861111, -93.48583333",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Twin_City_Rapid_Transit_Company",
     "name": "Minneapolis",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2246646"
   },
   "national-capital-trolley-museum": {
     "been": true,
+    "city": "Washington",
+    "coords": "39.09583300, -77.03138900",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/National_Capital_Trolley_Museum",
@@ -192,6 +227,7 @@
   },
   "pacific-electric": {
     "been": false,
+    "coords": "34.09528000, -117.70274000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pacific_Electric",
@@ -208,17 +244,22 @@
   "pittsburgh": {
     "been": false,
     "city": "Pittsburgh",
+    "coords": "40.44000000, -79.99000000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh_Railways",
     "name": "Pittsburgh",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q14111009"
   },
   "red-hook": {
     "been": true,
+    "coords": "42.012777777778, -73.8875",
     "country": "US",
     "icons": ["🇺🇸"],
-    "name": "Red Hook"
+    "link": "https://en.wikipedia.org/wiki/Red_Hook",
+    "name": "Red Hook",
+    "wikidata": "Q1022757"
   },
   "san-diego-silver-line": {
     "been": false,
@@ -232,10 +273,12 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/F_Market_%26_Wharves",
-    "name": "San Francisco, F Market Line"
+    "name": "San Francisco, F Market Line",
+    "wikidata": "Q1137818"
   },
   "seashore-trolley-museum": {
     "been": true,
+    "coords": "43.40911200, -70.48941600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seashore_Trolley_Museum",
@@ -243,14 +286,19 @@
   },
   "shaker-heights": {
     "been": false,
+    "city": "Cleveland",
+    "coords": "41.48222222222222, -81.66972222222222",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/RTA_Rapid_Transit",
     "name": "Shaker Heights",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q2538049"
   },
   "shore-line-trolley-museum": {
     "been": true,
+    "city": "New Haven",
+    "coords": "41.27433333, -72.86277778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Shore_Line_Trolley_Museum",
@@ -258,14 +306,18 @@
   },
   "st-louis": {
     "been": false,
+    "city": "Saint Louis",
+    "coords": "38.63860000, -90.24630000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_St._Louis",
     "name": "St. Louis",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q7623082"
   },
   "tampico": {
     "been": false,
+    "coords": "22.25527778, -97.86861111",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tampico",
@@ -275,13 +327,16 @@
   "toronto": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Transportation_Commission",
-    "name": "Toronto"
+    "name": "Toronto",
+    "wikidata": "Q1943823"
   },
   "trolley-museum-of-new-york": {
     "been": true,
+    "coords": "41.92030833, -73.97996667",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Trolley_Museum_of_New_York",
@@ -290,11 +345,13 @@
   "vancouver": {
     "been": false,
     "city": "Vancouver",
+    "coords": "49.26083333, -123.11388889",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Transportation_in_Vancouver",
     "name": "Vancouver",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q7835278"
   },
   "washington": {
     "been": false,
@@ -303,6 +360,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Streetcars_in_Washington_DC",
     "name": "Washington",
-    "strike": true
+    "strike": true,
+    "wikidata": "Q7623083"
   }
 }

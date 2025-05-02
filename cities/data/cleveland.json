@@ -134,10 +134,22 @@
   "pcc-cleveland": {
     "been": false,
     "city": "Cleveland",
+    "coords": "41.50000000, -81.68750000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🚃"],
     "link": "https://en.wikipedia.org/wiki/Cleveland_Transit_System",
     "name": "Cleveland",
+    "strike": true,
+    "type": "pcc"
+  },
+  "pcc-shaker-heights": {
+    "been": false,
+    "city": "Cleveland",
+    "coords": "41.48222222, -81.66972222",
+    "country": "US",
+    "icons": ["🚃"],
+    "link": "https://en.wikipedia.org/wiki/RTA_Rapid_Transit",
+    "name": "Shaker Heights",
     "strike": true,
     "type": "pcc"
   },
