@@ -85,7 +85,7 @@
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
-    "icons": ["🇲🇽"],
+    "icons": ["🚛"],
     "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
     "name": "Mexico City",
     "type": "bi-articulated"
@@ -139,6 +139,16 @@
     "link": "https://en.wikipedia.org/wiki/Mexico_City_Metropolitan_Cathedral",
     "name": "Mexico City",
     "type": "cathedrals"
+  },
+  "cemeteries-panteon-civil-de-dolores": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.40777778, -99.20638889",
+    "country": "MX",
+    "icons": ["🪦"],
+    "link": "https://es.wikipedia.org/wiki/Panteón_Civil_de_Dolores",
+    "name": "Panteón Civil de Dolores",
+    "type": "cemeteries"
   },
   "circular-plaza-del-ejecutivo-8": {
     "been": true,
@@ -363,6 +373,36 @@
     "link": "https://en.wikipedia.org/wiki/Hotel_Geneve_Mexico_City",
     "name": "Hotel Geneve",
     "type": "hotels"
+  },
+  "intermodal-constitucion-de-1917": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34593000, -99.06389200",
+    "country": "MX",
+    "icons": ["🎛️"],
+    "link": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_1917_(estaci%C3%B3n)",
+    "name": "Constitución de 1917",
+    "type": "intermodal"
+  },
+  "intermodal-indios-verdes": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.49535800, -99.11946800",
+    "country": "MX",
+    "icons": ["🎛️"],
+    "link": "https://es.wikipedia.org/wiki/Indios_Verdes_(estaci%C3%B3n)",
+    "name": "Indios Verdes",
+    "type": "intermodal"
+  },
+  "intermodal-tasquena": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34416800, -99.14268500",
+    "country": "MX",
+    "icons": ["🎛️"],
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "type": "intermodal"
   },
   "longest-tunnels-line-3": {
     "been": false,
@@ -2172,5 +2212,15 @@
     "name": "Sevilla",
     "reference": "Mexico City",
     "type": "twin-stations"
+  },
+  "universities-unam": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.32888889, -99.18722222",
+    "country": "MX",
+    "icons": ["👨‍🎓"],
+    "link": "https://es.wikipedia.org/wiki/Universidad_Nacional_Autónoma_de_México",
+    "name": "UNAM",
+    "type": "universities"
   }
 }

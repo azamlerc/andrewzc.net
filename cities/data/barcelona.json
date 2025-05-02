@@ -160,8 +160,9 @@
   "bi-articulated-barcelona": {
     "been": false,
     "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🚛"],
     "link": "https://en.wikipedia.org/wiki/Barcelona",
     "name": "Barcelona",
     "strike": true,
@@ -253,6 +254,16 @@
     "link": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
     "name": "Sagrada Família",
     "type": "cathedrals"
+  },
+  "cemeteries-cementiri-de-montjuic": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.35388900, 2.15555600",
+    "country": "ES",
+    "icons": ["🪦"],
+    "link": "https://en.wikipedia.org/wiki/Montjuïc_Cemetery",
+    "name": "Cementiri de Montjuïc",
+    "type": "cemeteries"
   },
   "culture-salamanca": {
     "been": false,
@@ -1066,6 +1077,16 @@
     "name": "Plaça Espanya",
     "reference": "Valencia",
     "type": "twin-stations"
+  },
+  "universities-universitat-de-barcelona": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.38666667, 2.16388889",
+    "country": "ES",
+    "icons": ["👨‍🎓"],
+    "link": "https://en.wikipedia.org/wiki/University_of_Barcelona",
+    "name": "Universitat de Barcelona",
+    "type": "universities"
   },
   "walls-barcelona": {
     "been": true,

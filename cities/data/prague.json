@@ -76,8 +76,9 @@
   "bi-articulated-prague": {
     "been": false,
     "city": "Prague",
+    "coords": "50.08750000, 14.42138889",
     "country": "CZ",
-    "icons": ["🇨🇿"],
+    "icons": ["🚛"],
     "name": "Prague",
     "type": "bi-articulated"
   },
@@ -172,6 +173,36 @@
     "link": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
     "name": "Saint Vitus, Prague",
     "type": "cathedrals"
+  },
+  "cemeteries-old-jewish-cemetery": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.08972222, 14.41722222",
+    "country": "CZ",
+    "icons": ["🪦"],
+    "link": "https://en.wikipedia.org/wiki/Old_Jewish_Cemetery,_Prague",
+    "name": "Old Jewish Cemetery",
+    "type": "cemeteries"
+  },
+  "cemeteries-olsanske-hrbitovy": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.08055600, 14.47055600",
+    "country": "CZ",
+    "icons": ["🪦"],
+    "link": "https://en.wikipedia.org/wiki/Olšany_Cemetery",
+    "name": "Olšanské Hřbitovy",
+    "type": "cemeteries"
+  },
+  "cemeteries-vysehrad-cemetery": {
+    "been": false,
+    "city": "Prague",
+    "coords": "50.06500000, 14.41777778",
+    "country": "CZ",
+    "icons": ["🪦"],
+    "link": "https://en.wikipedia.org/wiki/Vyšehrad_Cemetery",
+    "name": "Vyšehrad Cemetery",
+    "type": "cemeteries"
   },
   "culture-prague": {
     "been": true,
@@ -1706,6 +1737,16 @@
     "name": "Náměstí Míru",
     "reference": "Prague",
     "type": "twin-stations"
+  },
+  "universities-univerzita-karlova": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.08840000, 14.40370000",
+    "country": "CZ",
+    "icons": ["👨‍🎓"],
+    "link": "https://en.wikipedia.org/wiki/Charles_University",
+    "name": "Univerzita Karlova",
+    "type": "universities"
   },
   "walls-hunger-wall": {
     "been": true,

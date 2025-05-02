@@ -91,8 +91,9 @@
   "bi-articulated-brussels": {
     "been": false,
     "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
     "country": "BE",
-    "icons": ["🇧🇪"],
+    "icons": ["🚛"],
     "name": "Brussels",
     "type": "bi-articulated"
   },
@@ -424,6 +425,66 @@
     "link": "https://www.booking.com/hotel/be/craves.html",
     "name": "Craves, Brussels",
     "type": "hotels"
+  },
+  "intermodal-albert": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.82139000, 4.34194000",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Albert_(prémétro_de_Bruxelles)",
+    "name": "Albert",
+    "type": "intermodal"
+  },
+  "intermodal-gare-du-midi": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.83674700, 4.33722800",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_du_Midi_(métro_de_Bruxelles)",
+    "name": "Gare du Midi",
+    "type": "intermodal"
+  },
+  "intermodal-montgomery": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.83777800, 4.40694400",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Montgomery_(métro_de_Bruxelles)",
+    "name": "Montgomery",
+    "type": "intermodal"
+  },
+  "intermodal-rogier": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.85594200, 4.35823800",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Rogier_(métro_de_Bruxelles)",
+    "name": "Rogier",
+    "type": "intermodal"
+  },
+  "intermodal-simonis": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.86305600, 4.33055600",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Simonis_(métro_de_Bruxelles)",
+    "name": "Simonis",
+    "type": "intermodal"
+  },
+  "intermodal-toots-thielemans": {
+    "been": false,
+    "city": "Brussels",
+    "coords": "50.83972200, 4.34166700",
+    "country": "BE",
+    "icons": ["🎛️"],
+    "link": "https://fr.wikipedia.org/wiki/Toots_Thielemans_(métro_de_Bruxelles)",
+    "name": "Toots Thielemans",
+    "type": "intermodal"
   },
   "loops-altitude-cent": {
     "been": true,
@@ -1456,6 +1517,36 @@
     "name": "Horta",
     "reference": "Brussels",
     "type": "twin-stations"
+  },
+  "universities-koninklijk-conservatorium": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.83900000, 4.35650000",
+    "country": "NL",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.koncon.nl/",
+    "name": "Koninklijk Conservatorium",
+    "type": "universities"
+  },
+  "universities-universite-libre-de-bruxelles": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.81166667, 4.38111111",
+    "country": "BE",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.ulb.be/",
+    "name": "Université Libre de Bruxelles",
+    "type": "universities"
+  },
+  "universities-vrije-universiteit-brussel": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.82242000, 4.39573000",
+    "country": "BE",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.vub.be/",
+    "name": "Vrije Universiteit Brussel",
+    "type": "universities"
   },
   "useless-anneessens": {
     "been": true,

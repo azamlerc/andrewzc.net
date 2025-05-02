@@ -243,6 +243,36 @@
     "name": "Quincy Adams",
     "type": "infill"
   },
+  "intermodal-harvard": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.37340000, -71.11930000",
+    "country": "US",
+    "icons": ["🎛️"],
+    "link": "https://en.wikipedia.org/wiki/Harvard_station",
+    "name": "Harvard",
+    "type": "intermodal"
+  },
+  "intermodal-haymarket": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36330000, -71.05820000",
+    "country": "US",
+    "icons": ["🎛️"],
+    "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
+    "name": "Haymarket",
+    "type": "intermodal"
+  },
+  "intermodal-north-station": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36523000, -71.06012000",
+    "country": "US",
+    "icons": ["🎛️"],
+    "link": "https://en.wikipedia.org/wiki/North_Station_(subway)",
+    "name": "North Station",
+    "type": "intermodal"
+  },
   "loops-ashmont": {
     "been": true,
     "city": "Boston",
@@ -709,5 +739,25 @@
     "name": "South Station",
     "reference": "Boston",
     "type": "twin-stations"
+  },
+  "universities-boston-university": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.34888889, -71.10027778",
+    "country": "US",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.bu.edu/",
+    "name": "Boston University",
+    "type": "universities"
+  },
+  "universities-harvard-university": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.37444444, -71.11694444",
+    "country": "US",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.harvard.edu/",
+    "name": "Harvard University",
+    "type": "universities"
   }
 }

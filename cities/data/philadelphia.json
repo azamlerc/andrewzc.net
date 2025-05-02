@@ -108,6 +108,26 @@
     "name": "Philadelphia",
     "type": "brt"
   },
+  "cemeteries-cathedral-cemetery": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.97111111, -75.22111111",
+    "country": "US",
+    "icons": ["🪦"],
+    "link": "https://www.findagrave.com/cemetery/45686/cathedral-cemetery",
+    "name": "Cathedral Cemetery",
+    "type": "cemeteries"
+  },
+  "cemeteries-palmer-cemetery": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.97460000, -75.12960000",
+    "country": "US",
+    "icons": ["🪦"],
+    "link": "https://en.wikipedia.org/wiki/Palmer_Cemetery",
+    "name": "Palmer Cemetery",
+    "type": "cemeteries"
+  },
   "cross-platform-erie": {
     "been": true,
     "city": "Philadelphia",
@@ -368,6 +388,16 @@
     "link": "https://en.wikipedia.org/wiki/Franklin_Square_station",
     "name": "Franklin Square",
     "type": "infill"
+  },
+  "intermodal-market-street-(muni)": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.94988000, -75.14368000",
+    "country": "US",
+    "icons": ["🎛️"],
+    "link": "https://en.wikipedia.org/wiki/Market_Street_subway",
+    "name": "Market Street (MUNI)",
+    "type": "intermodal"
   },
   "late-night-": {
     "been": true,
@@ -889,5 +919,15 @@
     "name": "DeKalb Street",
     "reference": "Philadelphia",
     "type": "twin-stations"
+  },
+  "universities-university-of-pennsylvania": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95027778, -75.19472222",
+    "country": "US",
+    "icons": ["👨‍🎓"],
+    "link": "https://www.upenn.edu/",
+    "name": "University of Pennsylvania",
+    "type": "universities"
   }
 }
