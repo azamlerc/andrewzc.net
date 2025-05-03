@@ -12,7 +12,8 @@ addStylesheets([
 
 loadScripts([
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
-  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
+  "https://unpkg.com/leaflet-graticule@0.0.1/Leaflet.Graticule.js"
 ]).then(() => {	
 	let element = document.getElementById('map');
 	let lat = element.getAttribute('lat') || 37;
@@ -20,6 +21,7 @@ loadScripts([
 	let zoom = element.getAttribute('zoom') || 3;
 	iconIndex = Number(element.getAttribute('icon')) || 0;
   let cluster = (element.getAttribute('cluster') || "true") == "true";
+  let lines = (element.getAttribute('lines') || "false") == "true";
 	let maxClusterRadius = 60;
   let disableClusteringAtZoom = 10;
   let overrideClick = false;
@@ -64,9 +66,22 @@ loadScripts([
 
 			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, near, been]});
 			const baseLayers = { 'OpenStreetMap': initialTiles };
-			const overlays = { 'Been': been, 'Near': near, 'Todo': todo };
-			const layerControl = L.control.layers(null, overlays).addTo(map);
+      const graticule = L.latlngGraticule({
+        showLabel: false,
+        color: 'blue',
+        weight: 0.5,
+        opacity: 0.6,
+        zoomInterval: [
+          {start: 2, end: 3, interval: 30},
+          {start: 4, end: 4, interval: 10},
+          {start: 5, end: 10, interval: 1}
+        ]
+      });
 
+      if (lines) graticule.addTo(map);
+			const overlays = { 'Been': been, 'Near': near, 'Todo': todo, 'Gridlines': graticule };
+			const layerControl = L.control.layers(null, overlays).addTo(map);
+      
     	addMarkers(map, been, places, place => place.been == true && !isNear(place), "markerBeen");
     	addMarkers(map, near, places, place => isNear(place), "markerNear");
     	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
@@ -93,7 +108,7 @@ loadScripts([
           map.addLayer(lightTiles);
         }
       });
-      
+            
       var event = new CustomEvent('mapReady', { detail: { map: map } });
       document.dispatchEvent(event);
       console.log('Map ready');
