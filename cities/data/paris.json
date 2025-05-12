@@ -785,6 +785,28 @@
     "name": "Paris",
     "type": "capitals"
   },
+  "car-places-c-elysee": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86990000, 2.30760000",
+    "country": "FR",
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Champs-Élysées",
+    "name": "C-Elysée",
+    "reference": "Citroën",
+    "type": "car-places"
+  },
+  "car-places-versailles": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.80500000, 2.13500000",
+    "countries": ["US", "FR"],
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Versailles,_Yvelines",
+    "name": "Versailles",
+    "reference": "Lincoln",
+    "type": "car-places"
+  },
   "casinos-paris": {
     "been": true,
     "city": "Paris",
@@ -1356,6 +1378,17 @@
     "name": "Paris",
     "prefix": "1978",
     "type": "eurovision"
+  },
+  "factories-poissy": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.94250000, 2.05000000",
+    "country": "FR",
+    "icons": ["🏭"],
+    "link": "https://en.wikipedia.org/wiki/Stellantis_Poissy_Plant",
+    "name": "Poissy",
+    "reference": "Stellantis",
+    "type": "factories"
   },
   "fare-cards-": {
     "been": true,
@@ -4404,6 +4437,7 @@
     "been": false,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Paris_Township,_Kansas",
     "name": "Paris, KS",
     "strike": true,
     "type": "twin-cities"

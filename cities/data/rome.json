@@ -100,6 +100,17 @@
     "name": "Vatican City",
     "type": "capitals"
   },
+  "car-places-italia": {
+    "been": true,
+    "city": "Rome",
+    "coords": "41.90000000, 12.48333333",
+    "country": "IT",
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Ferrari_458_Italia",
+    "name": "Italia",
+    "reference": "Ferrari",
+    "type": "car-places"
+  },
   "cathedrals-saint-peters-rome": {
     "been": true,
     "city": "Rome",
@@ -140,6 +151,27 @@
     "name": "Line B",
     "reference": "Rome",
     "type": "forks"
+  },
+  "international-trams-risorgimento-/-san-pietro": {
+    "been": true,
+    "city": "Rome",
+    "countries": ["IT", "VA"],
+    "icons": ["🇮🇹", "🇻🇦"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Rome",
+    "name": "Risorgimento / San Pietro",
+    "reference": "Rome",
+    "type": "international-trams"
+  },
+  "loops-risorgimento-/-san-pietro": {
+    "been": true,
+    "city": "Rome",
+    "coords": "41.90636000, 12.45826000",
+    "country": "IT",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=41.90636_N_12.45826_E",
+    "name": "Risorgimento / San Pietro",
+    "reference": "Rome",
+    "type": "loops"
   },
   "lowest-saint-peters-square": {
     "been": true,

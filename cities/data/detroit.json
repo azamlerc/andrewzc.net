@@ -40,6 +40,16 @@
     "reference": "Detroit",
     "type": "awa"
   },
+  "car-places-windsor": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.30222222, -82.99361111",
+    "countries": ["US", "CA"],
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Windsor,_Ontario",
+    "name": "Windsor",
+    "type": "car-places"
+  },
   "divided-detroit": {
     "been": true,
     "city": "Detroit",
@@ -49,6 +59,28 @@
     "link": "https://en.wikipedia.org/wiki/Detroit",
     "name": "Detroit",
     "type": "divided"
+  },
+  "factories-dearborn": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.30500000, -83.16500000",
+    "country": "US",
+    "icons": ["🏭"],
+    "link": "https://en.wikipedia.org/wiki/Dearborn_Truck",
+    "name": "Dearborn",
+    "reference": "General Motors",
+    "type": "factories"
+  },
+  "factories-windsor": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.29691667, -82.98538889",
+    "countries": ["US", "CA"],
+    "icons": ["🏭"],
+    "link": "https://en.wikipedia.org/wiki/Windsor_Assembly",
+    "name": "Windsor",
+    "reference": "Stellantis",
+    "type": "factories"
   },
   "luna-park-detroit": {
     "been": false,

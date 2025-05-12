@@ -535,6 +535,39 @@
     "name": "Roosevelt Island Tramway",
     "type": "cable-cars"
   },
+  "car-places-5th-avenue": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.77407800, -73.96586300",
+    "country": "US",
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Fifth_Avenue",
+    "name": "5th Avenue",
+    "reference": "Chrysler",
+    "type": "car-places"
+  },
+  "car-places-new-yorker": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71277778, -74.00611111",
+    "country": "US",
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/New_York_City",
+    "name": "New Yorker",
+    "reference": "Chrysler",
+    "type": "car-places"
+  },
+  "car-places-tribeca": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71800000, -74.00800000",
+    "countries": ["JP", "US"],
+    "icons": ["🗺️"],
+    "link": "https://en.wikipedia.org/wiki/Tribeca",
+    "name": "Tribeca",
+    "reference": "Subaru",
+    "type": "car-places"
+  },
   "cathedrals-saint-patricks-new-york": {
     "been": true,
     "city": "New York",
@@ -843,7 +876,7 @@
     "coords": "40.71260000, -74.00670000",
     "country": "US",
     "icons": ["🍌"],
-    "link": "https://en.wikipedia.org/wiki/Spring_Street_station_(IRT_Lexington_Avenue_Line)",
+    "link": "https://en.wikipedia.org/wiki/City_Hall_station_(IRT_Lexington_Avenue_Line)",
     "name": "City Hall",
     "strike": true,
     "type": "curved"
@@ -2951,6 +2984,16 @@
     "icons": ["⚡️"],
     "link": "https://en.wikipedia.org/wiki/Astor_Place_station",
     "name": "Astor Place",
+    "reference": "New York",
+    "type": "offset"
+  },
+  "offset-spring-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Spring_Street_station_(IRT_Lexington_Avenue_Line)",
+    "name": "Spring Street",
     "reference": "New York",
     "type": "offset"
   },

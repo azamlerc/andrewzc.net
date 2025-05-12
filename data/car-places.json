@@ -1,0 +1,871 @@
+{
+  "5th-avenue-chrysler": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.774078, -73.965863",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Fifth_Avenue",
+    "name": "5th Avenue",
+    "reference": "Chrysler",
+    "wikidata": "Q109858"
+  },
+  "alhambra-seat": {
+    "been": false,
+    "coords": "37.17750000, -3.59000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Alhambra",
+    "name": "Alhambra",
+    "reference": "Seat"
+  },
+  "altea-seat": {
+    "been": false,
+    "coords": "38.59861111, -0.05194444",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Altea",
+    "name": "Altea",
+    "reference": "Seat"
+  },
+  "anglia-ford": {
+    "been": true,
+    "coords": "52.50000000, 1.00000000",
+    "countries": ["US", "GB"],
+    "icons": ["🇺🇸", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/East_Anglia",
+    "name": "Anglia",
+    "reference": "Ford"
+  },
+  "aspen-chrysler": {
+    "been": true,
+    "coords": "39.19110000, -106.81750000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
+    "name": "Aspen",
+    "reference": "Chrysler"
+  },
+  "aspen-dodge": {
+    "been": true,
+    "coords": "39.19110000, -106.81750000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
+    "name": "Aspen",
+    "reference": "Dodge"
+  },
+  "ateca-seat": {
+    "been": false,
+    "coords": "41.33333333, -1.78333333",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ateca",
+    "name": "Ateca",
+    "reference": "Seat"
+  },
+  "avalon-toyota": {
+    "been": false,
+    "countries": ["JP", "GB"],
+    "icons": ["🇯🇵", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Toyota_Avalon",
+    "name": "Avalon",
+    "reference": "Toyota",
+    "wikidata": "Q1417715"
+  },
+  "baja-subaru": {
+    "been": false,
+    "coords": "30.00000000, -115.16666667",
+    "countries": ["JP", "MX"],
+    "icons": ["🇯🇵", "🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Baja_California",
+    "name": "Baja",
+    "reference": "Subaru"
+  },
+  "beijing-baic": {
+    "been": false,
+    "city": "Beijing",
+    "coords": "39.90666667, 116.39750000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Beijing",
+    "name": "Beijing",
+    "reference": "BAIC"
+  },
+  "bel-air-chevrolet": {
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "34.08333, -118.44778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bel_Air",
+    "name": "Bel Air",
+    "reference": "Chevrolet",
+    "wikidata": "Q86768"
+  },
+  "biscayne-chevrolet": {
+    "been": true,
+    "coords": "25.46944444, -80.18611111",
+    "countries": ["US", "ES"],
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Biscayne_National_Park",
+    "name": "Biscayne",
+    "reference": "Chevrolet"
+  },
+  "bonneville-pontiac": {
+    "been": true,
+    "coords": "40.79972222, -113.80000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bonneville_Salt_Flats",
+    "name": "Bonneville",
+    "reference": "Pontiac"
+  },
+  "brasilia-volkswagen": {
+    "been": false,
+    "coords": "-15.79388889, -47.88277778",
+    "countries": ["DE", "BR"],
+    "icons": ["🇩🇪", "🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Volkswagen_Bras%C3%ADlia",
+    "name": "Brasília",
+    "reference": "Volkswagen",
+    "wikidata": "Q2166300"
+  },
+  "brera-alfa-romeo": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.47138889, 9.18500000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Brera_(district_of_Milan)",
+    "name": "Brera",
+    "reference": "Alfa Romeo"
+  },
+  "c-elysee-citroen": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86990000, 2.30760000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Champs-Élysées",
+    "name": "C-Elysée",
+    "reference": "Citroën"
+  },
+  "cadillac-cadillac": {
+    "been": false,
+    "coords": "44.25000000, -85.41388889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cadillac,_Michigan",
+    "name": "Cadillac",
+    "reference": "Cadillac"
+  },
+  "calais-cadillac": {
+    "been": true,
+    "coords": "50.94805556, 1.85638889",
+    "countries": ["US", "FR"],
+    "icons": ["🇺🇸", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Calais",
+    "name": "Calais",
+    "reference": "Cadillac"
+  },
+  "california-ferrari": {
+    "been": true,
+    "coords": "35.49103500, -119.34785200",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/California",
+    "name": "California",
+    "reference": "Ferrari"
+  },
+  "capri-ford": {
+    "been": true,
+    "coords": "40.55000000, 14.23333333",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Capri",
+    "name": "Capri",
+    "reference": "Ford"
+  },
+  "catalina-pontiac": {
+    "been": false,
+    "coords": "33.38333333, -118.41666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Santa_Catalina_Island_(California)",
+    "name": "Catalina",
+    "reference": "Pontiac"
+  },
+  "cheyenne-chevrolet": {
+    "been": false,
+    "coords": "41.14000000, -104.82027778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cheyenne,_Wyoming",
+    "name": "Cheyenne",
+    "reference": "Chevrolet"
+  },
+  "colorado-chevrolet": {
+    "been": true,
+    "coords": "38.99720000, -105.54780000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Colorado",
+    "name": "Colorado",
+    "reference": "Chevrolet"
+  },
+  "cordoba-chrysler": {
+    "been": false,
+    "coords": "37.89000000, -4.78000000",
+    "countries": ["US", "ES"],
+    "icons": ["🇺🇸", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Córdoba,_Spain",
+    "name": "Cordoba",
+    "reference": "Chrysler"
+  },
+  "cordoba-seat": {
+    "been": false,
+    "coords": "37.89000000, -4.78000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Córdoba,_Spain",
+    "name": "Cordoba",
+    "reference": "Seat"
+  },
+  "corsica-chevrolet": {
+    "been": false,
+    "coords": "42.00000000, 9.00000000",
+    "countries": ["US", "FR"],
+    "icons": ["🇺🇸", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Corsica",
+    "name": "Corsica",
+    "reference": "Chevrolet"
+  },
+  "cortina-ford": {
+    "been": false,
+    "coords": "46.54027778, 12.13611111",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Cortina_d%27Ampezzo",
+    "name": "Cortina",
+    "reference": "Ford"
+  },
+  "dakota-dodge": {
+    "been": false,
+    "coords": "44.00000000, -100.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/South_Dakota",
+    "name": "Dakota",
+    "reference": "Dodge",
+    "wikidata": "Q3012245"
+  },
+  "daytona-dodge": {
+    "been": true,
+    "coords": "29.21083333, -81.02277778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
+    "name": "Daytona",
+    "reference": "Dodge"
+  },
+  "delray-chevrolet": {
+    "been": true,
+    "coords": "26.45916667, -80.08305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Delray_Beach,_Florida",
+    "name": "Delray",
+    "reference": "Chevrolet"
+  },
+  "denali-gmc": {
+    "been": false,
+    "coords": "63.06950000, -151.00740000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Denali",
+    "name": "Denali",
+    "reference": "GMC"
+  },
+  "durango-dodge": {
+    "been": false,
+    "coords": "37.27530000, -107.88010000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Durango,_Colorado",
+    "name": "Durango",
+    "reference": "Dodge"
+  },
+  "everest-ford": {
+    "been": false,
+    "coords": "27.98833333, 86.92527778",
+    "countries": ["US", "NP"],
+    "icons": ["🇺🇸", "🇳🇵"],
+    "link": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "name": "Everest",
+    "reference": "Ford"
+  },
+  "florida-yugo": {
+    "been": true,
+    "coords": "28.00000000, -82.00000000",
+    "countries": ["RS", "US"],
+    "icons": ["🇷🇸", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Florida",
+    "name": "Florida",
+    "reference": "Yugo"
+  },
+  "granada-ford": {
+    "been": false,
+    "coords": "37.50000000, -3.70000000",
+    "countries": ["US", "ES"],
+    "icons": ["🇺🇸", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Granada",
+    "name": "Granada",
+    "reference": "Ford"
+  },
+  "ibiza-seat": {
+    "been": false,
+    "coords": "38.98000000, 1.43000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ibiza",
+    "name": "Ibiza",
+    "reference": "Seat"
+  },
+  "italia-ferrari": {
+    "been": true,
+    "city": "Rome",
+    "coords": "41.90000000, 12.48333333",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Ferrari_458_Italia",
+    "name": "Italia",
+    "reference": "Ferrari",
+    "wikidata": "Q276396"
+  },
+  "kona-hyundai": {
+    "been": false,
+    "coords": "19.65000000, -155.99416667",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kona,_Hawaii",
+    "name": "Kona",
+    "reference": "Hyundai"
+  },
+  "le-mans-pontiac": {
+    "been": true,
+    "coords": "47.95000000, 0.20750000",
+    "countries": ["US", "FR"],
+    "icons": ["🇺🇸", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans",
+    "name": "Le Mans",
+    "reference": "Pontiac"
+  },
+  "leon-seat": {
+    "been": false,
+    "city": "Zaragoza",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/León,_Spain",
+    "name": "León",
+    "reference": "Seat"
+  },
+  "lincoln-ford": {
+    "been": true,
+    "coords": "53.22833333, -0.53888889",
+    "countries": ["US", "GB"],
+    "icons": ["🇺🇸", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Lincoln,_England",
+    "name": "Lincoln",
+    "reference": "Ford"
+  },
+  "lucerne-buick": {
+    "been": true,
+    "coords": "47.05000000, 8.30000000",
+    "countries": ["US", "CH"],
+    "icons": ["🇺🇸", "🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Lucerne",
+    "name": "Lucerne",
+    "reference": "Buick"
+  },
+  "malibu-chevrolet": {
+    "been": true,
+    "coords": "34.03500000, -118.69500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Malibu,_California",
+    "name": "Malibu",
+    "reference": "Chevrolet"
+  },
+  "maranello-ferrari": {
+    "been": false,
+    "coords": "44.52638888888889, 10.866666666666667",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Maranello",
+    "name": "Maranello",
+    "reference": "Ferrari",
+    "wikidata": "Q100060"
+  },
+  "marbella-seat": {
+    "been": false,
+    "city": "Zaragoza",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Marbella",
+    "name": "Marbella",
+    "reference": "Seat"
+  },
+  "milan-mercury": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Milan",
+    "name": "Milan",
+    "reference": "Mercury"
+  },
+  "milano-alfa-romeo": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan",
+    "name": "Milano",
+    "reference": "Alfa Romeo"
+  },
+  "mito-alfa-romeo": {
+    "been": true,
+    "city": "Turin",
+    "coords": "45.07916667, 7.67611111",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Turin",
+    "name": "MiTo",
+    "reference": "Alfa Romeo"
+  },
+  "modena-ferrari": {
+    "been": true,
+    "coords": "44.64694444, 10.92555556",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Modena",
+    "name": "Modena",
+    "reference": "Ferrari"
+  },
+  "monaco-dodge": {
+    "been": true,
+    "city": "Monaco",
+    "coords": "43.73111111, 7.42000000",
+    "countries": ["US", "MC"],
+    "icons": ["🇺🇸", "🇲🇨"],
+    "link": "https://en.wikipedia.org/wiki/Monaco",
+    "name": "Monaco",
+    "reference": "Dodge"
+  },
+  "montana-pontiac": {
+    "been": true,
+    "coords": "47.00000000, -110.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Montana",
+    "name": "Montana",
+    "reference": "Pontiac"
+  },
+  "montclair-mercury": {
+    "been": false,
+    "coords": "40.82593000, -74.20903000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Montclair,_New_Jersey",
+    "name": "Montclair",
+    "reference": "Mercury"
+  },
+  "monte-carlo-chevrolet": {
+    "been": true,
+    "city": "Monaco",
+    "coords": "43.73972222, 7.42722222",
+    "countries": ["US", "MC"],
+    "icons": ["🇺🇸", "🇲🇨"],
+    "link": "https://en.wikipedia.org/wiki/Monte_Carlo",
+    "name": "Monte Carlo",
+    "reference": "Chevrolet"
+  },
+  "montego-mercury": {
+    "been": false,
+    "coords": "18.46666667, -77.91666667",
+    "countries": ["US", "JM"],
+    "icons": ["🇺🇸", "🇯🇲"],
+    "link": "https://en.wikipedia.org/wiki/Montego_Bay",
+    "name": "Montego",
+    "reference": "Mercury"
+  },
+  "monterey-mercury": {
+    "been": true,
+    "coords": "36.60305556, -121.89361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Monterey,_California",
+    "name": "Monterey",
+    "reference": "Mercury"
+  },
+  "montreal-alfa-romeo": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
+    "countries": ["IT", "CA"],
+    "icons": ["🇮🇹", "🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Montréal",
+    "name": "Montréal",
+    "reference": "Alfa Romeo"
+  },
+  "monza-chevrolet": {
+    "been": false,
+    "coords": "45.58361111, 9.27361111",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Monza",
+    "name": "Monza",
+    "reference": "Chevrolet"
+  },
+  "mulsanne-bentley": {
+    "been": false,
+    "coords": "47.90810000, 0.24810000",
+    "countries": ["GB", "FR"],
+    "icons": ["🇬🇧", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Mulsanne",
+    "name": "Mulsanne",
+    "reference": "Bentley"
+  },
+  "murano-nissan": {
+    "been": true,
+    "city": "Venice",
+    "coords": "45.45750000, 12.35361111",
+    "countries": ["JP", "IT"],
+    "icons": ["🇯🇵", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Murano",
+    "name": "Murano",
+    "reference": "Nissan"
+  },
+  "navara-nissan": {
+    "been": false,
+    "coords": "42.81666667, -1.65000000",
+    "countries": ["JP", "ES"],
+    "icons": ["🇯🇵", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Navarre",
+    "name": "Navara",
+    "reference": "Nissan",
+    "wikidata": "Q26197994"
+  },
+  "new-yorker-chrysler": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71277777777778, -74.00611111111111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_York_City",
+    "name": "New Yorker",
+    "reference": "Chrysler",
+    "wikidata": "Q60"
+  },
+  "newport-chrysler": {
+    "been": true,
+    "coords": "41.49000000, -71.31000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Newport,_Rhode_Island",
+    "name": "Newport",
+    "reference": "Chrysler"
+  },
+  "outback-subaru": {
+    "been": false,
+    "coords": "-25.00000000, 130.00000000",
+    "countries": ["JP", "AU"],
+    "icons": ["🇯🇵", "🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Outback",
+    "name": "Outback",
+    "reference": "Subaru",
+    "wikidata": "Q1536958"
+  },
+  "pacifica-chrysler": {
+    "been": true,
+    "coords": "37.62277778, -122.48555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Pacifica,_California",
+    "name": "Pacifica",
+    "reference": "Chrysler"
+  },
+  "plymouth-plymouth": {
+    "been": false,
+    "coords": "41.95833333, -70.66777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Plymouth,_Massachusetts",
+    "name": "Plymouth",
+    "reference": "Plymouth"
+  },
+  "pontiac-pontiac": {
+    "been": false,
+    "coords": "42.64611111, -83.29250000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Pontiac,_Michigan",
+    "name": "Pontiac",
+    "reference": "Pontiac"
+  },
+  "rainier-buick": {
+    "been": true,
+    "coords": "46.85166666666667, -121.76027777777777",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Mount_Rainier",
+    "name": "Rainier",
+    "reference": "Buick",
+    "wikidata": "Q194057"
+  },
+  "rio-kia": {
+    "been": false,
+    "city": "Rio de Janeiro",
+    "coords": "-22.91111111, -43.20555556",
+    "countries": ["KR", "BR"],
+    "icons": ["🇰🇷", "🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+    "name": "Rio",
+    "reference": "Kia"
+  },
+  "riviera-buick": {
+    "been": true,
+    "coords": "43.32000000, 6.66500000",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/French_Riviera",
+    "name": "Riviera",
+    "reference": "Buick"
+  },
+  "santa-cruz-hyundai": {
+    "been": true,
+    "coords": "36.97194444, -122.02638889",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Santa_Cruz,_California",
+    "name": "Santa Cruz",
+    "reference": "Hyundai"
+  },
+  "santa-fe-hyundai": {
+    "been": true,
+    "city": "Santa Fe",
+    "coords": "35.66722222, -105.96444444",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+    "name": "Santa Fe",
+    "reference": "Hyundai"
+  },
+  "sebring-chrysler": {
+    "been": false,
+    "coords": "27.49555556, -81.44444444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sebring,_Florida",
+    "name": "Sebring",
+    "reference": "Chrysler",
+    "wikidata": "Q1088787"
+  },
+  "sedona-kia": {
+    "been": false,
+    "coords": "34.86972222, -111.76111111",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sedona,_Arizona",
+    "name": "Sedona",
+    "reference": "Kia"
+  },
+  "seville-cadillac": {
+    "been": false,
+    "city": "Zaragoza",
+    "coords": "39.50000000, -3.70000000",
+    "countries": ["US", "ES"],
+    "icons": ["🇺🇸", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Seville",
+    "name": "Seville",
+    "reference": "Cadillac"
+  },
+  "silverado-chevrolet": {
+    "been": false,
+    "coords": "33.74817600, -117.62847900",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silverado,_California",
+    "name": "Silverado",
+    "reference": "Chevrolet"
+  },
+  "sonoma-gmc": {
+    "been": true,
+    "coords": "38.51000000, -122.93000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sonoma_County,_California",
+    "name": "Sonoma",
+    "reference": "GMC"
+  },
+  "sorento-kia": {
+    "been": true,
+    "coords": "40.62611111, 14.37611111",
+    "countries": ["KR", "IT"],
+    "icons": ["🇰🇷", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Sorrento",
+    "name": "Sorento",
+    "reference": "Kia"
+  },
+  "tacoma-toyota": {
+    "been": true,
+    "coords": "47.24583333, -122.45944444",
+    "countries": ["JP", "US"],
+    "icons": ["🇯🇵", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tacoma,_Washington",
+    "name": "Tacoma",
+    "reference": "Toyota"
+  },
+  "tahoe-chevrolet": {
+    "been": false,
+    "coords": "39.00000000, -120.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lake_Tahoe",
+    "name": "Tahoe",
+    "reference": "Chevrolet"
+  },
+  "taos-volkswagen": {
+    "been": true,
+    "coords": "36.38694444, -105.58000000",
+    "countries": ["DE", "US"],
+    "icons": ["🇩🇪", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Taos,_New_Mexico",
+    "name": "Taos",
+    "reference": "Volkswagen"
+  },
+  "tarraco-seat": {
+    "been": false,
+    "coords": "41.11638889, 1.25527778",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tarraco",
+    "name": "Tarraco",
+    "reference": "Seat"
+  },
+  "telluride-kia": {
+    "been": false,
+    "coords": "37.93944444, -107.81805556",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Telluride,_Colorado",
+    "name": "Telluride",
+    "reference": "Kia"
+  },
+  "tiburon-hyundai": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.87361111, -122.45666667",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tiburon,_California",
+    "name": "Tiburon",
+    "reference": "Hyundai",
+    "wikidata": "Q482596"
+  },
+  "toledo-seat": {
+    "been": false,
+    "city": "Zaragoza",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Toledo,_Spain",
+    "name": "Toledo",
+    "reference": "Seat"
+  },
+  "torino-ford": {
+    "been": true,
+    "city": "Turin",
+    "coords": "45.07916667, 7.67611111",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Turin",
+    "name": "Torino",
+    "reference": "Ford"
+  },
+  "tribeca-subaru": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71800000, -74.00800000",
+    "countries": ["JP", "US"],
+    "icons": ["🇯🇵", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tribeca",
+    "name": "Tribeca",
+    "reference": "Subaru"
+  },
+  "tucson-hyundai": {
+    "been": true,
+    "city": "Tucson",
+    "coords": "32.22166667, -110.92638889",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tucson,_Arizona",
+    "name": "Tucson",
+    "reference": "Hyundai"
+  },
+  "veracruz-hyundai": {
+    "been": false,
+    "coords": "19.52722222222222, -96.9225",
+    "countries": ["KR", "MX"],
+    "icons": ["🇰🇷", "🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Veracruz",
+    "name": "Veracruz",
+    "reference": "Hyundai",
+    "wikidata": "Q60130"
+  },
+  "verano-buick": {
+    "been": false,
+    "coords": "46.605366, 11.226271",
+    "countries": ["US", "IT"],
+    "icons": ["🇺🇸", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Verano_(Rome)",
+    "name": "Verano",
+    "reference": "Buick",
+    "wikidata": "Q374771"
+  },
+  "versailles-lincoln": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.80500000, 2.13500000",
+    "countries": ["US", "FR"],
+    "icons": ["🇺🇸", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Versailles,_Yvelines",
+    "name": "Versailles",
+    "reference": "Lincoln",
+    "wikidata": "Q18610169"
+  },
+  "windsor": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.30222222, -82.99361111",
+    "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Windsor,_Ontario",
+    "name": "Windsor"
+  },
+  "yukon-gmc": {
+    "been": false,
+    "coords": "63.00000000, -135.00000000",
+    "countries": ["US", "CA"],
+    "icons": ["🇺🇸", "🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Yukon",
+    "name": "Yukon",
+    "reference": "GMC"
+  }
+}
