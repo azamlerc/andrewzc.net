@@ -92,6 +92,16 @@
     "name": "Museo de Arte Costarricense",
     "type": "museums"
   },
+  "one-way-vta": {
+    "been": true,
+    "city": "San José",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
+    "name": "VTA",
+    "reference": "San Jose",
+    "type": "one-way"
+  },
   "san-jose-ca-san-jose": {
     "been": true,
     "city": "San José",
@@ -148,6 +158,7 @@
     "coords": "37.40789000, -121.94418000",
     "country": "US",
     "icons": ["🚋"],
+    "info": "(50%)",
     "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
     "name": "San Jose",
     "type": "trams"
@@ -171,5 +182,15 @@
     "link": "https://en.wikipedia.org/wiki/San_Jose,_California",
     "name": "San Jose, CA",
     "type": "twin-cities"
+  },
+  "twin-stations-civic-center": {
+    "been": true,
+    "city": "San José",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Civic_Center_station_(VTA)",
+    "name": "Civic Center",
+    "reference": "San Jose",
+    "type": "twin-stations"
   }
 }

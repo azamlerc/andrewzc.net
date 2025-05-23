@@ -472,10 +472,12 @@
   "buenos-aires": {
     "been": false,
     "city": "Buenos Aires",
+    "coords": "-34.60361111, -58.38138889",
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Premetro_(Buenos_Aires)",
-    "name": "Buenos Aires"
+    "name": "Buenos Aires",
+    "wikidata": "Q3409024"
   },
   "buffalo": {
     "been": true,
@@ -1540,6 +1542,7 @@
   "liege": {
     "been": false,
     "city": "Liège",
+    "coords": "50.6304, 5.582",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
@@ -2204,6 +2207,7 @@
   },
   "osijek": {
     "been": false,
+    "coords": "45.55555556, 18.69444444",
     "country": "HR",
     "icons": ["🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Osijek",
@@ -2569,13 +2573,14 @@
     "name": "Samarkand"
   },
   "san-francisco": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "(50%)",
     "link": "https://en.wikipedia.org/wiki/Muni_Metro",
-    "name": "San Francisco"
+    "name": "San Francisco",
+    "wikidata": "Q278074"
   },
   "san-jose": {
     "been": false,
@@ -2583,6 +2588,7 @@
     "coords": "37.40789000, -121.94418000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "info": "(50%)",
     "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
     "name": "San Jose",
     "wikidata": "Q1337235"

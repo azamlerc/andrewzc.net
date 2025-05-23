@@ -746,6 +746,17 @@
     "reference": "Philadelphia",
     "type": "renamed"
   },
+  "reverse-philadelphia-30th-street": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95583333, -75.18194444",
+    "country": "US",
+    "icons": ["◀️"],
+    "link": "https://en.wikipedia.org/wiki/30th_Street_Station",
+    "name": "Philadelphia 30th Street",
+    "strike": true,
+    "type": "reverse"
+  },
   "single-track-tram-101": {
     "been": true,
     "city": "Philadelphia",
@@ -939,5 +950,15 @@
     "link": "https://www.upenn.edu/",
     "name": "University of Pennsylvania",
     "type": "universities"
+  },
+  "zig-zag-fern-rock-tc": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "40.04100000, -75.13600000",
+    "country": "US",
+    "icons": ["〽️"],
+    "link": "https://en.wikipedia.org/wiki/Fern_Rock_Transportation_Center",
+    "name": "Fern Rock TC",
+    "type": "zig-zag"
   }
 }

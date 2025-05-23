@@ -32,7 +32,7 @@
     "type": "apple"
   },
   "apple-stonestown": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.72721492, -122.47695520",
     "country": "US",
@@ -58,6 +58,26 @@
     "icons": ["🇺🇸"],
     "name": "San Francisco",
     "type": "apple-wallet"
+  },
+  "awa-chinatown": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79244000, -122.40624000",
+    "countries": ["US", "CN"],
+    "icons": ["🏩"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.79244_N_122.40624_W",
+    "name": "Chinatown",
+    "type": "awa"
+  },
+  "awa-occidental-powers": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.70797700, -122.45451600",
+    "country": "US",
+    "icons": ["🏩"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.707977_N_122.454516_W",
+    "name": "Occidental Powers",
+    "type": "awa"
   },
   "beaches-baker-beach": {
     "been": true,
@@ -130,8 +150,18 @@
     "reference": "San Francisco",
     "type": "depots"
   },
+  "depots-concord": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Concord_station_(BART)",
+    "name": "Concord",
+    "reference": "San Francisco",
+    "type": "depots"
+  },
   "depots-muni-metro-east-yard": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -169,7 +199,7 @@
     "type": "ferries"
   },
   "ferris-wheels-skystar-wheel": {
-    "been": true,
+    "been": false,
     "city": "San Francisco",
     "coords": "37.80860600, -122.41348900",
     "country": "US",
@@ -313,6 +343,16 @@
     "reference": "San Francisco",
     "type": "loops"
   },
+  "loops-embarcadero": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Embarcadero_station",
+    "name": "Embarcadero",
+    "reference": "San Francisco",
+    "type": "loops"
+  },
   "loops-fishermans-wharf": {
     "been": true,
     "city": "San Francisco",
@@ -325,7 +365,7 @@
     "type": "loops"
   },
   "loops-mission-bay": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.76242000, -122.38823000",
     "country": "US",
@@ -347,7 +387,7 @@
     "type": "loops"
   },
   "loops-zoo": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.73305556, -122.50305556",
     "country": "US",
@@ -427,7 +467,7 @@
     "type": "metro-prices"
   },
   "metros-san-francisco": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.77750000, -122.41638889",
     "country": "US",
@@ -466,6 +506,15 @@
     "name": "San Francisco",
     "reference": "Scissor Sisters",
     "type": "music-places"
+  },
+  "ports-san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Port_of_San_Francisco",
+    "name": "San Francisco",
+    "type": "ports"
   },
   "projects-san-francisco-bart-to-berryessa": {
     "been": true,
@@ -551,6 +600,97 @@
     "reference": "San Francisco",
     "type": "renamed"
   },
+  "reverse-san-francisco-airport": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.61640000, -122.39100000",
+    "country": "US",
+    "icons": ["◀️"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport_station",
+    "name": "San Francisco Airport",
+    "type": "reverse"
+  },
+  "rolling-stock-a-series": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit_rolling_stock",
+    "name": "A Series",
+    "reference": "San Francisco",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-b-series": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit_rolling_stock",
+    "name": "B Series",
+    "reference": "San Francisco",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-c-series": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit_rolling_stock",
+    "name": "C Series",
+    "reference": "San Francisco",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-d-series": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit_rolling_stock",
+    "name": "D Series",
+    "reference": "San Francisco",
+    "type": "rolling-stock"
+  },
+  "rolling-stock-e-series": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit_rolling_stock",
+    "name": "E Series",
+    "reference": "San Francisco",
+    "type": "rolling-stock"
+  },
+  "short-turn-concord": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.m.wikipedia.org/wiki/Concord_station_(BART)",
+    "name": "Concord",
+    "reference": "San Francisco",
+    "type": "short-turn"
+  },
+  "short-turn-pleasant-hill": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.m.wikipedia.org/wiki/Pleasant_Hill/Contra_Costa_Centre_station",
+    "name": "Pleasant Hill",
+    "reference": "San Francisco",
+    "type": "short-turn"
+  },
+  "shuttles-purple-line": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Purple_Line_(BART)",
+    "name": "Purple Line",
+    "reference": "San Francisco",
+    "strike": true,
+    "type": "shuttles"
+  },
   "shuttles-s-shuttle": {
     "been": false,
     "city": "San Francisco",
@@ -560,6 +700,26 @@
     "name": "S Shuttle",
     "reference": "San Francisco",
     "type": "shuttles"
+  },
+  "sloped-church-&-18th-street": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.76127000, -122.42828000",
+    "country": "US",
+    "icons": ["🚞"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.76127_N_122.42828_W",
+    "name": "Church & 18th Street",
+    "type": "sloped"
+  },
+  "sloped-church-&-20th-street": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.75815000, -122.42788000",
+    "country": "US",
+    "icons": ["🚞"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.75815_N_122.42788_W",
+    "name": "Church & 20th Street",
+    "type": "sloped"
   },
   "stadiums-candlestick-park": {
     "been": true,
@@ -593,7 +753,7 @@
     "type": "stairs"
   },
   "suburban-caltrain": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.33944444, -121.90972222",
     "country": "US",
@@ -633,10 +793,11 @@
     "type": "towers"
   },
   "trams-san-francisco": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🚋"],
     "info": "(50%)",
     "link": "https://en.wikipedia.org/wiki/Muni_Metro",
     "name": "San Francisco",
@@ -795,5 +956,38 @@
     "prefix": "1915",
     "reference": "San Francisco",
     "type": "worldsfair"
+  },
+  "wyes-church-&-30th-street": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.74209000, -122.42683000",
+    "country": "US",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.74209_N_122.42683_W",
+    "name": "Church & 30th Street",
+    "reference": "San Francisco",
+    "type": "wyes"
+  },
+  "wyes-taraval-&-35th-avenue": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.74294000, -122.49291000",
+    "country": "US",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.74294_N_122.49291_W",
+    "name": "Taraval & 35th Avenue",
+    "reference": "San Francisco",
+    "type": "wyes"
+  },
+  "wyes-taraval-&-48th-avenue": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.74170000, -122.50676000",
+    "country": "US",
+    "icons": ["🖖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.74170_N_122.50676_W",
+    "name": "Taraval & 48th Avenue",
+    "reference": "San Francisco",
+    "type": "wyes"
   }
 }
