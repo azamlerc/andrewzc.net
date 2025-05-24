@@ -124,6 +124,18 @@
     "name": "Stockholm",
     "type": "cathedrals"
   },
+  "closest-radmansgatan": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/H%C3%B6torget_metro_station\">Hötorget</a>",
+    "link": "https://en.wikipedia.org/wiki/R%C3%A5dmansgatan_metro_station",
+    "name": "Rådmansgatan",
+    "prefix": "600m",
+    "reference": "Stockholm",
+    "type": "closest"
+  },
   "congestion-stockholm": {
     "been": true,
     "city": "Stockholm",
@@ -366,6 +378,17 @@
     "link": "https://en.wikipedia.org/wiki/Skansens_bergbana",
     "name": "Skansens Bergbana",
     "type": "funiculars"
+  },
+  "furthest-kista": {
+    "been": true,
+    "city": "Stockholm",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Hallonbergen_metro_station\">Hallonbergen</a>",
+    "link": "https://en.wikipedia.org/wiki/Kista_metro_station",
+    "name": "Kista",
+    "prefix": "3.6",
+    "reference": "Stockholm",
+    "type": "furthest"
   },
   "head-on-ropsten": {
     "been": true,

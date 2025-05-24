@@ -232,6 +232,18 @@
     "reference": "Chevrolet",
     "type": "car-places"
   },
+  "closest-7th-street/metro-center": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Pershing_Square_station\">Pershing Square</a>",
+    "link": "https://en.wikipedia.org/wiki/7th_Street/Metro_Center_station",
+    "name": "7th Street/Metro Center",
+    "prefix": "400m",
+    "reference": "Los Angeles",
+    "type": "closest"
+  },
   "confluence-hacienda-heights": {
     "been": false,
     "city": "Los Angeles",
@@ -271,6 +283,39 @@
     "link": "https://en.wikipedia.org/wiki/Angels_Flight",
     "name": "Angels Flight",
     "type": "funiculars"
+  },
+  "furthest-norwalk": {
+    "been": false,
+    "city": "Los Angeles",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Lakewood_Boulevard_station\">Lakewood Boulevard</a>",
+    "link": "https://en.wikipedia.org/wiki/Norwalk_station_(Los_Angeles_Metro)",
+    "name": "Norwalk",
+    "prefix": "4.8",
+    "reference": "Los Angeles",
+    "type": "furthest"
+  },
+  "furthest-redondo-beach": {
+    "been": false,
+    "city": "Los Angeles",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Aviation/LAX_station\">Aviation/LAX</a>",
+    "link": "https://en.wikipedia.org/wiki/Redondo_Beach_station",
+    "name": "Redondo Beach",
+    "prefix": "4.5",
+    "reference": "Los Angeles",
+    "type": "furthest"
+  },
+  "furthest-willowbrook/rosa-parks": {
+    "been": false,
+    "city": "Los Angeles",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Compton_station_(Los_Angeles_Metro)\">Compton</a>",
+    "link": "https://en.wikipedia.org/wiki/Willowbrook/Rosa_Parks_station",
+    "name": "Willowbrook/Rosa Parks",
+    "prefix": "5.1",
+    "reference": "Los Angeles",
+    "type": "furthest"
   },
   "highway-medians-a-line": {
     "been": false,

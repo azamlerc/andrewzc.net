@@ -633,6 +633,18 @@
     "name": "Arlington National Cemetery",
     "type": "cemeteries"
   },
+  "closest-metro-center": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Gallery_Place_station\">Gallery Place</a>",
+    "link": "https://en.wikipedia.org/wiki/Metro_Center_station",
+    "name": "Metro Center",
+    "prefix": "244m",
+    "reference": "Washington",
+    "type": "closest"
+  },
   "confluence-cherry-island": {
     "been": false,
     "city": "Washington",
@@ -921,6 +933,17 @@
     "link": "https://en.wikipedia.org/wiki/Huntington_station_(Washington_Metro)",
     "name": "Huntington",
     "type": "funiculars"
+  },
+  "furthest-spring-hill": {
+    "been": true,
+    "city": "Washington",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Wiehle%E2%80%93Reston_East_station\">Wiehle–Reston East</a>",
+    "link": "https://en.wikipedia.org/wiki/Spring_Hill_station_(Washington_Metro)",
+    "name": "Spring Hill",
+    "prefix": "9.3",
+    "reference": "Washington",
+    "type": "furthest"
   },
   "grand-unions-florida-&-georgia-aves": {
     "been": true,

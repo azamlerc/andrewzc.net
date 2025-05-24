@@ -140,6 +140,18 @@
     "name": "Grace Cathedral",
     "type": "cathedrals"
   },
+  "closest-montgomery-street": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Embarcadero_station\">Embarcadero</a>",
+    "link": "https://en.wikipedia.org/wiki/Montgomery_Street_station",
+    "name": "Montgomery Street",
+    "prefix": "400m",
+    "reference": "San Francisco",
+    "type": "closest"
+  },
   "depots-balboa-park": {
     "been": true,
     "city": "San Francisco",
@@ -236,6 +248,50 @@
     "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
     "name": "San Francisco Cable Cars",
     "type": "funiculars"
+  },
+  "furthest-castro-valley": {
+    "been": true,
+    "city": "San Francisco",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/West_Dublin/Pleasanton_station\">West Dublin/Pleasanton</a>",
+    "link": "https://en.wikipedia.org/wiki/Castro_Valley_station",
+    "name": "Castro Valley",
+    "prefix": "13.0",
+    "reference": "San Francisco",
+    "type": "furthest"
+  },
+  "furthest-north-concord/martinez": {
+    "been": true,
+    "city": "San Francisco",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Pittsburg/Bay_Point_station\">Pittsburg/Bay Point</a>",
+    "link": "https://en.wikipedia.org/wiki/North_Concord/Martinez_station",
+    "name": "North Concord/Martinez",
+    "prefix": "7.2",
+    "reference": "San Francisco",
+    "type": "furthest"
+  },
+  "furthest-south-hayward": {
+    "been": true,
+    "city": "San Francisco",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Union_City_station_(BART)\">Union City</a>",
+    "link": "https://en.wikipedia.org/wiki/South_Hayward_station",
+    "name": "South Hayward",
+    "prefix": "5.1",
+    "reference": "San Francisco",
+    "type": "furthest"
+  },
+  "furthest-warm-springs/south-fremont": {
+    "been": true,
+    "city": "San Francisco",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Milpitas_station\">Milpitas</a>",
+    "link": "https://en.wikipedia.org/wiki/Warm_Springs/South_Fremont_station",
+    "name": "Warm Springs/South Fremont",
+    "prefix": "11.3",
+    "reference": "San Francisco",
+    "type": "furthest"
   },
   "greenhouses-conservatory-of-flowers": {
     "been": true,

@@ -80,6 +80,18 @@
     "name": "Boston",
     "type": "brt"
   },
+  "closest-boylston": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Arlington_station_(MBTA)\">Arlington</a>",
+    "link": "https://en.wikipedia.org/wiki/Boylston_station_(MBTA)",
+    "name": "Boylston",
+    "prefix": "300m",
+    "reference": "Boston",
+    "type": "closest"
+  },
   "confluence-boston": {
     "been": false,
     "city": "Boston",
@@ -210,6 +222,17 @@
     "link": "https://en.wikipedia.org/wiki/Fort_Warren_(Massachusetts)",
     "name": "Fort Warren",
     "type": "forts"
+  },
+  "furthest-charles/mgh": {
+    "been": true,
+    "city": "Boston",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Kendall/MIT_station\">Kendall/MIT</a>",
+    "link": "https://en.wikipedia.org/wiki/Charles/MGH_station",
+    "name": "Charles/MGH",
+    "prefix": "3.2",
+    "reference": "Boston",
+    "type": "furthest"
   },
   "head-on-ashmont": {
     "been": true,

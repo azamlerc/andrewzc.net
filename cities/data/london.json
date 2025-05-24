@@ -555,6 +555,42 @@
     "reference": "London",
     "type": "circle-lines"
   },
+  "closest-bank": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Bank_and_Monument_stations\">Monument</a>",
+    "link": "https://en.wikipedia.org/wiki/Bank_and_Monument_stations",
+    "name": "Bank",
+    "prefix": "325m",
+    "reference": "London",
+    "type": "closest"
+  },
+  "closest-charing-cross": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Embankment_tube_station\">Embankment</a>",
+    "link": "https://en.wikipedia.org/wiki/Charing_Cross_tube_station",
+    "name": "Charing Cross",
+    "prefix": "100m",
+    "reference": "London",
+    "type": "closest"
+  },
+  "closest-leicester-square": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Covent_Garden_tube_station\">Covent Garden</a>",
+    "link": "https://en.wikipedia.org/wiki/Leicester_Square_tube_station",
+    "name": "Leicester Square",
+    "prefix": "260m",
+    "reference": "London",
+    "type": "closest"
+  },
   "confluence-greenwich-observatory": {
     "been": true,
     "city": "London",
@@ -1196,6 +1232,17 @@
     "name": "Piccadilly Line",
     "reference": "London",
     "type": "forks"
+  },
+  "furthest-chesham": {
+    "been": true,
+    "city": "London",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Chalfont_%26_Latimer_station\">Chalfont & Latimer</a>",
+    "link": "https://en.wikipedia.org/wiki/Chesham_tube_station",
+    "name": "Chesham",
+    "prefix": "6.3",
+    "reference": "London",
+    "type": "furthest"
   },
   "greenhouses-barbican-conservatory": {
     "been": true,

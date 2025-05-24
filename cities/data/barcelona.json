@@ -275,6 +275,18 @@
     "name": "Cementiri de Montjuïc",
     "type": "cemeteries"
   },
+  "closest-diagonal": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Passeig_de_Gr%C3%A0cia_(Barcelona_Metro)\">Passeig de Gràcia</a>",
+    "link": "https://en.wikipedia.org/wiki/Diagonal_(Barcelona_Metro)",
+    "name": "Diagonal",
+    "prefix": "600m",
+    "reference": "Barcelona",
+    "type": "closest"
+  },
   "culture-salamanca": {
     "been": false,
     "city": "Barcelona",
@@ -384,6 +396,17 @@
     "link": "https://es.wikipedia.org/wiki/Funicular_del_Tibidabo",
     "name": "Funicular del Tibidabo",
     "type": "funiculars"
+  },
+  "furthest-can-zam": {
+    "been": true,
+    "city": "Barcelona",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Can_Peixauet_(Barcelona_Metro)\">Can Peixauet</a>",
+    "link": "https://en.wikipedia.org/wiki/Can_Zam_(Barcelona_Metro)",
+    "name": "Can Zam",
+    "prefix": "5.2",
+    "reference": "Barcelona",
+    "type": "furthest"
   },
   "head-on-sarria": {
     "been": true,

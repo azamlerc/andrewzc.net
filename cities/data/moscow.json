@@ -101,6 +101,18 @@
     "reference": "Moscow",
     "type": "circle-lines"
   },
+  "closest-vystavochnaya": {
+    "been": false,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Mezhdunarodnaya_(Moscow_Metro)\">Mezhdunarodnaya</a>",
+    "link": "https://en.wikipedia.org/wiki/Vystavochnaya_(Moscow_Metro)",
+    "name": "Vystavochnaya",
+    "prefix": "500m",
+    "reference": "Moscow",
+    "type": "closest"
+  },
   "cross-platform-kashirskaya": {
     "been": false,
     "city": "Moscow",
@@ -240,6 +252,17 @@
     "link": "https://en.wikipedia.org/wiki/Sun_of_Moscow",
     "name": "Sun of Moscow",
     "type": "ferris-wheels"
+  },
+  "furthest-krylatskoye": {
+    "been": false,
+    "city": "Moscow",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Strogino_(Moscow_Metro)\">Strogino</a>",
+    "link": "https://en.wikipedia.org/wiki/Krylatskoye_(Moscow_Metro)",
+    "name": "Krylatskoye",
+    "prefix": "6.6",
+    "reference": "Moscow",
+    "type": "furthest"
   },
   "grand-unions-preobrazhenskaya-pl": {
     "been": false,

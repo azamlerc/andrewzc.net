@@ -128,6 +128,18 @@
     "name": "Palmer Cemetery",
     "type": "cemeteries"
   },
+  "closest-13th-street": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/11th_Street_station_(SEPTA)\">11th Street</a>",
+    "link": "https://en.wikipedia.org/wiki/13th_Street_station_(SEPTA)",
+    "name": "13th Street",
+    "prefix": "300m",
+    "reference": "Philadelphia",
+    "type": "closest"
+  },
   "cross-platform-erie": {
     "been": true,
     "city": "Philadelphia",
@@ -266,6 +278,17 @@
     "name": "SEPTA Key",
     "reference": "Philadelphia",
     "type": "fare-cards"
+  },
+  "furthest-69th-street-transportation-center": {
+    "been": true,
+    "city": "Philadelphia",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Millbourne_station\">Millbourne</a>",
+    "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
+    "name": "69th Street Transportation Center",
+    "prefix": "2.5",
+    "reference": "Philadelphia",
+    "type": "furthest"
   },
   "gauges-philadelphia": {
     "been": true,

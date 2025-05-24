@@ -204,6 +204,18 @@
     "name": "Vyšehrad Cemetery",
     "type": "cemeteries"
   },
+  "closest-muzeum": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD_(Prague_Metro)\">Hlavní nádraží</a>",
+    "link": "https://en.wikipedia.org/wiki/Muzeum_(Prague_Metro)",
+    "name": "Muzeum",
+    "prefix": "425m",
+    "reference": "Prague",
+    "type": "closest"
+  },
   "culture-prague": {
     "been": true,
     "city": "Prague",
@@ -749,6 +761,17 @@
     "link": "https://en.wikipedia.org/wiki/Petř%C3%ADn_funicular",
     "name": "Petřín Funicular",
     "type": "funiculars"
+  },
+  "furthest-nadrazi-holesovice": {
+    "been": true,
+    "city": "Prague",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Kobylisy_(Prague_Metro)\">Kobylisy</a>",
+    "link": "https://en.wikipedia.org/wiki/N%C3%A1dra%C5%BE%C3%AD_Hole%C5%A1ovice_(Prague_Metro)",
+    "name": "Nádraží Holešovice",
+    "prefix": "2.8",
+    "reference": "Prague",
+    "type": "furthest"
   },
   "grand-unions-i-p-pavlova": {
     "been": true,

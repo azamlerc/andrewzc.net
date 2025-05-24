@@ -968,6 +968,18 @@
     "reference": "Paris",
     "type": "circle-lines"
   },
+  "closest-chatelet": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Les_Halles_(Paris_M%C3%A9tro)\">Les Halles</a>",
+    "link": "https://en.wikipedia.org/wiki/Ch%C3%A2telet_(Paris_M%C3%A9tro)",
+    "name": "Châtelet",
+    "prefix": "300m",
+    "reference": "Paris",
+    "type": "closest"
+  },
   "cross-platform-beaux-arts": {
     "been": true,
     "city": "Paris",
@@ -1579,6 +1591,17 @@
     "link": "https://fr.wikipedia.org/wiki/Funiculaire_de_Montmartre",
     "name": "Funiculaire de Monmartre",
     "type": "funiculars"
+  },
+  "furthest-thiais–orly": {
+    "been": true,
+    "city": "Paris",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/A%C3%A9roport_d%27Orly_station\">Aéroport d'Orly</a>",
+    "link": "https://en.wikipedia.org/wiki/Thiais_%E2%80%93_Orly_station",
+    "name": "Thiais–Orly",
+    "prefix": "3.6",
+    "reference": "Paris",
+    "type": "furthest"
   },
   "grand-unions-gare-de-saint-denis": {
     "been": true,

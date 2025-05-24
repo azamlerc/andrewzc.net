@@ -211,6 +211,18 @@
     "reference": "Tokyo",
     "type": "circle-lines"
   },
+  "closest-nijubashimae": {
+    "been": true,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Otemachi_Station\">Ōtemachi</a>",
+    "link": "https://en.wikipedia.org/wiki/Nij%C5%ABbashimae_Station",
+    "name": "Nijūbashimae",
+    "prefix": "300m",
+    "reference": "Tokyo",
+    "type": "closest"
+  },
   "cross-platform-akasaka-mitsuke": {
     "been": false,
     "city": "Tokyo",
@@ -308,6 +320,17 @@
     "link": "https://en.wikipedia.org/wiki/Daikanransha",
     "name": "Daikanransha",
     "type": "ferris-wheels"
+  },
+  "furthest-nakano": {
+    "been": false,
+    "city": "Tokyo",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Higashi-Nakano_station\">Higashi-Nakano</a>",
+    "link": "https://en.wikipedia.org/wiki/Nakano_station",
+    "name": "Nakano",
+    "prefix": "2.2",
+    "reference": "Tokyo",
+    "type": "furthest"
   },
   "infill-takanawa-gateway": {
     "been": false,

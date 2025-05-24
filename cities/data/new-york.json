@@ -700,6 +700,42 @@
     "name": "Rego Park",
     "type": "circular"
   },
+  "closest-cortelyou-road": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Beverley_Road_station_(BMT_Brighton_Line)\">Beverley Road</a>",
+    "link": "https://en.wikipedia.org/wiki/Cortelyou_Road_station",
+    "name": "Cortelyou Road",
+    "prefix": "275m",
+    "reference": "New York",
+    "type": "closest"
+  },
+  "closest-park-place": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Chambers_Street_station_(IRT_Broadway%E2%80%93Seventh_Avenue_Line)\">Chambers Street</a>",
+    "link": "https://en.wikipedia.org/wiki/Park_Place_station_(IRT_Broadway%E2%80%93Seventh_Avenue_Line)",
+    "name": "Park Place",
+    "prefix": "150m",
+    "reference": "New York",
+    "type": "closest"
+  },
+  "closest-wall-street": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Bowling_Green_station\">Bowling Green</a>",
+    "link": "https://en.wikipedia.org/wiki/Wall_Street_station_(IRT_Lexington_Avenue_Line)",
+    "name": "Wall Street",
+    "prefix": "189m",
+    "reference": "New York",
+    "type": "closest"
+  },
   "congestion-new-york": {
     "been": true,
     "city": "New York",
@@ -1652,6 +1688,17 @@
     "link": "https://en.wikipedia.org/wiki/34th_Street–Hudson_Yards_station#Incline_elevators",
     "name": "Hudson Yards",
     "type": "funiculars"
+  },
+  "furthest-howard-beach–jfk-airport": {
+    "been": true,
+    "city": "New York",
+    "icons": [],
+    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Broad_Channel_station\">Broad Channel</a>",
+    "link": "https://en.wikipedia.org/wiki/Howard_Beach%E2%80%93JFK_Airport_station",
+    "name": "Howard Beach–JFK Airport",
+    "prefix": "5.6",
+    "reference": "New York",
+    "type": "furthest"
   },
   "heritage-new-york-transit-museum": {
     "been": true,
