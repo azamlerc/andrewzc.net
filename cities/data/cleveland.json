@@ -111,6 +111,15 @@
     "name": "Cleveland",
     "type": "metros"
   },
+  "music-origins-cleveland": {
+    "been": true,
+    "city": "Cleveland",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland",
+    "reference": "Steven Adler",
+    "type": "music-origins"
+  },
   "music-places-cleveland": {
     "been": true,
     "city": "Cleveland",
@@ -152,6 +161,42 @@
     "name": "Shaker Heights",
     "strike": true,
     "type": "pcc"
+  },
+  "route-20-cleveland-oh": {
+    "been": true,
+    "city": "Cleveland",
+    "coords": "41.50000000, -81.68750000",
+    "country": "US",
+    "icons": ["🛻"],
+    "link": "https://en.wikipedia.org/wiki/Cleveland,_Ohio",
+    "name": "Cleveland, OH",
+    "order": 76,
+    "state": "OH",
+    "type": "route-20"
+  },
+  "route-20-lakewood-oh": {
+    "been": true,
+    "city": "Cleveland",
+    "coords": "41.48194444, -81.79833333",
+    "country": "US",
+    "icons": ["🛻"],
+    "link": "https://en.wikipedia.org/wiki/Lakewood,_Ohio",
+    "name": "Lakewood, OH",
+    "order": 77,
+    "state": "OH",
+    "type": "route-20"
+  },
+  "route-20-rocky-river-oh": {
+    "been": true,
+    "city": "Cleveland",
+    "coords": "41.47527778, -81.84583333",
+    "country": "US",
+    "icons": ["🛻"],
+    "link": "https://en.wikipedia.org/wiki/Rocky_River,_Ohio",
+    "name": "Rocky River, OH",
+    "order": 78,
+    "state": "OH",
+    "type": "route-20"
   },
   "trams-cleveland": {
     "been": false,

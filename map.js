@@ -25,8 +25,9 @@ loadScripts([
 	let maxClusterRadius = 60;
   let disableClusteringAtZoom = 10;
   let overrideClick = false;
+  let filename = getFilename();
   
-	fetch(`data/${getFilename()}.json`)
+	fetch(`data/${filename}.json`)
 	  .then(response => response.json())
 	  .then(places => {
       let been = !cluster ? L.layerGroup() : L.markerClusterGroup({
@@ -86,6 +87,24 @@ loadScripts([
     	addMarkers(map, near, places, place => isNear(place), "markerNear");
     	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
       
+      if (filename == "route-20") {
+        map.removeLayer(been);
+        map.removeLayer(near);
+        map.removeLayer(todo);
+
+        map.on('zoomend', () => {
+          if (map.getZoom() >= 8) {
+            map.addLayer(been);
+            map.addLayer(near);
+            map.addLayer(todo);
+          } else {
+            map.removeLayer(been);
+            map.removeLayer(near);
+            map.removeLayer(todo);
+          }
+        });
+      }
+      
       if (overrideClick) {
         been.on('clusterclick', function (a) {
           const currentZoom = map.getZoom();
@@ -109,7 +128,7 @@ loadScripts([
         }
       });
             
-      var event = new CustomEvent('mapReady', { detail: { map: map } });
+      var event = new CustomEvent('mapReady', { detail: { map, places } });
       document.dispatchEvent(event);
       console.log('Map ready');
 		})
@@ -184,8 +203,9 @@ function addEmojiMarker(map, place, test, tag) {
 					iconAnchor: [12, 41], // Bottom center point
 					popupAnchor: [0, -30]
 				})
-			}).bindPopup(text);
+			})
       
+      marker.bindPopup(text);
 			return marker;
 		} else {
 			console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
