@@ -209,7 +209,7 @@
     "city": "Buenos Aires",
     "country": "AR",
     "icons": ["🇦🇷"],
-    "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+    "link": "https://es.wikipedia.org/wiki/Bolívar_(subte_de_Buenos_Aires)",
     "name": "Bolívar",
     "reference": "Buenos Aires",
     "wikidata": "Q8605"
@@ -219,7 +219,7 @@
     "city": "Paris",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+    "link": "https://fr.wikipedia.org/wiki/Bolivar_(métro_de_Paris)",
     "name": "Bolivar",
     "reference": "Paris",
     "wikidata": "Q8605"
@@ -569,6 +569,23 @@
     "link": "https://en.wikipedia.org/wiki/Cristóbal_Colón_metro_station",
     "name": "Cristóbal Colón",
     "reference": "Santiago"
+  },
+  "cuauhtemoc-mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Cuauhtémoc_(estación_del_Metro_de_la_Ciudad_de_México)",
+    "name": "Cuauhtémoc",
+    "reference": "Mexico City"
+  },
+  "cuauhtemoc-monterrey": {
+    "been": false,
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Cuauhtémoc_(estación_del_Metrorrey)",
+    "name": "Cuauhtémoc",
+    "reference": "Monterrey"
   },
   "dante-naples": {
     "been": true,
@@ -2246,12 +2263,20 @@
     "name": "Shiyakusho-mae",
     "reference": "Wakayama"
   },
+  "simon-bolivar-monterrey": {
+    "been": false,
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Simón_Bolívar_(Monterrey_Metro)",
+    "name": "Simón Bolívar",
+    "reference": "Monterrey"
+  },
   "simon-bolivar-santiago": {
     "been": false,
     "city": "Santiago",
     "country": "CL",
     "icons": ["🇨🇱"],
-    "link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+    "link": "https://es.wikipedia.org/wiki/Simón_Bolívar_(estación)",
     "name": "Simón Bolívar",
     "reference": "Santiago",
     "wikidata": "Q8605"
