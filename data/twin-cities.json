@@ -33,7 +33,6 @@
     "name": "Aberdeen"
   },
   "aberdeen-md": {
-    "been": true,
     "coords": "39.51027778, -76.16916667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -120,7 +119,7 @@
     "name": "Albany, NY"
   },
   "albany-or": {
-    "been": false,
+    "been": true,
     "coords": "44.63027778, -123.09666667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -899,7 +898,6 @@
     "name": "Batavia, NY"
   },
   "bath-be": {
-    "been": false,
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Bath,_Belgium",
@@ -1530,7 +1528,6 @@
     "name": "Braintree, MA"
   },
   "brazzaville-cg": {
-    "been": false,
     "city": "Brazzaville",
     "coords": "-4.26666667, 15.26666667",
     "country": "CG",
@@ -2084,7 +2081,6 @@
     "name": "Cardiff, NJ"
   },
   "cardiff-no-country": {
-    "been": true,
     "coords": "51.48166667, -3.17916667",
     "icons": ["🏴"],
     "link": "https://en.wikipedia.org/wiki/Cardiff",
@@ -2190,6 +2186,20 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Chelsea,_Manhattan",
     "name": "Chelsea, New York"
+  },
+  "cheshire-gb": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Cheshire",
+    "name": "Cheshire"
+  },
+  "cheshire-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cheshire,_Massachusetts",
+    "name": "Cheshire, MA"
   },
   "chester-gb": {
     "been": true,
@@ -3259,6 +3269,20 @@
     "link": "https://en.wikipedia.org/wiki/Florence,_South_Carolina",
     "name": "Florence, SC"
   },
+  "florida-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Florida,_Massachusetts",
+    "name": "Florida, MA"
+  },
+  "florida-us": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Florida",
+    "name": "Florida"
+  },
   "flushing-queens": {
     "been": true,
     "coords": "40.76500000, -73.80500000",
@@ -3982,7 +4006,6 @@
     "name": "Hollywood, FL"
   },
   "honolulu-hi": {
-    "been": false,
     "city": "Honolulu",
     "coords": "21.30694444, -157.85833333",
     "country": "US",
@@ -4122,6 +4145,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Italy,_New_York",
     "name": "Italy, NY"
+  },
+  "ithaca-gr": {
+    "been": false,
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Ithaca_(island)",
+    "name": "Ithaca"
   },
   "ithaca-ny": {
     "been": true,
@@ -4528,7 +4558,6 @@
     "name": "Lafayette, IN"
   },
   "lagos-ao": {
-    "been": false,
     "city": "Lagos",
     "coords": "6.45502700, 3.38408200",
     "country": "AO",
@@ -4772,7 +4801,6 @@
     "name": "Lima"
   },
   "lincoln-city-oh": {
-    "been": true,
     "city": "Columbus",
     "coords": "39.95305556, -83.12777778",
     "country": "US",
@@ -4932,6 +4960,14 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/London",
+    "name": "London"
+  },
+  "london-ng": {
+    "been": false,
+    "city": "London",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "link": "https://en.wikipedia.org/wiki/Abiriba",
     "name": "London"
   },
   "london-oh": {
@@ -5224,6 +5260,13 @@
     "link": "https://en.wikipedia.org/wiki/Marlborough,_New_Hampshire",
     "name": "Marlborough, NH"
   },
+  "marseille-en-beauvaisis-fr": {
+    "been": false,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Marseille-en-Beauvaisis",
+    "name": "Marseille-en-Beauvaisis"
+  },
   "marseille-fr": {
     "been": false,
     "city": "Marseille",
@@ -5232,6 +5275,34 @@
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Marseille",
     "name": "Marseille"
+  },
+  "marseilles-il": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Marseilles,_Illinois",
+    "name": "Marseilles, IL"
+  },
+  "marseilles-les-aubigny-fr": {
+    "been": false,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Marseilles-lès-Aubigny",
+    "name": "Marseilles-lès-Aubigny"
+  },
+  "marseilles-oh": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Marseilles,_Ohio",
+    "name": "Marseilles, OH"
+  },
+  "marseilles-za": {
+    "been": false,
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "link": "https://en.wikipedia.org/wiki/Marseilles,_Free_State",
+    "name": "Marseilles"
   },
   "mclean-tx": {
     "been": true,
@@ -5402,7 +5473,6 @@
     "name": "Miami, OH"
   },
   "mikwaukie-or": {
-    "been": true,
     "coords": "45.44611111, -122.63666667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -5475,7 +5545,6 @@
     "name": "Milwaukie, OR"
   },
   "monaco-mc": {
-    "been": true,
     "city": "Monaco",
     "coords": "43.73111111, 7.42000000",
     "country": "MC",
@@ -5517,6 +5586,13 @@
     "link": "https://en.wikipedia.org/wiki/Monterey,_California",
     "name": "Monterey, CA"
   },
+  "monterey-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Monterey,_Massachusetts",
+    "name": "Monterey, MA"
+  },
   "monterey-tn": {
     "been": true,
     "coords": "36.14527778, -85.26583333",
@@ -5524,6 +5600,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Monterey,_Tennessee",
     "name": "Monterey, TN"
+  },
+  "monterrey-es": {
+    "been": false,
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Monterrei",
+    "name": "Monterrey"
   },
   "monterrey-mx": {
     "been": false,
@@ -5600,6 +5683,14 @@
     "icons": ["🇧🇸"],
     "link": "https://en.wikipedia.org/wiki/Montreal,_Bahamas",
     "name": "Montreal"
+  },
+  "montreal-fr": {
+    "been": false,
+    "city": "Montréal",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Montréal,_Aude",
+    "name": "Montréal"
   },
   "montreal-qc": {
     "been": true,
@@ -5709,6 +5800,13 @@
     "link": "https://en.wikipedia.org/wiki/Mount_Pleasant,_South_Carolina",
     "name": "Mount Pleasant, SC"
   },
+  "mount-vernon-au": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Mount_Vernon,_New_South_Wales",
+    "name": "Mount Vernon"
+  },
   "mount-vernon-il": {
     "been": false,
     "country": "US",
@@ -5745,6 +5843,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Vernon,_Ohio",
     "name": "Mount Vernon, OH"
+  },
+  "mount-vernon-sg": {
+    "been": false,
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Mount_Vernon,_Singapore",
+    "name": "Mount Vernon"
   },
   "mount-vernon-va": {
     "been": true,
@@ -5788,7 +5893,6 @@
     "name": "Mountain View, VA"
   },
   "mumbai-in": {
-    "been": false,
     "city": "Mumbai",
     "coords": "19.07611111, 72.87750000",
     "country": "IN",
@@ -5860,7 +5964,6 @@
     "name": "Munster"
   },
   "nairobi-ke": {
-    "been": true,
     "city": "Nairobi",
     "coords": "-1.28638889, 36.81722222",
     "country": "KE",
@@ -5968,6 +6071,7 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_York_City",
     "name": "New Amsterdam, NY",
     "strike": true
   },
@@ -6236,6 +6340,7 @@
     "been": true,
     "country": "CA",
     "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Newark,_Ontario",
     "name": "Newark, ON",
     "strike": true
   },
@@ -6369,7 +6474,6 @@
     "name": "Newton, NJ"
   },
   "nice-al": {
-    "been": false,
     "city": "Nice",
     "coords": "43.70340000, 7.26630000",
     "country": "AL",
@@ -6495,6 +6599,21 @@
     "link": "https://en.wikipedia.org/wiki/Nottingham,_Pennsylvania",
     "name": "Nottingham, PA"
   },
+  "nottingham-sk": {
+    "been": false,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham,_Saskatchewan",
+    "name": "Nottingham, SK"
+  },
+  "nottingham-za": {
+    "been": false,
+    "city": "Nottingham",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham_Road",
+    "name": "Nottingham"
+  },
   "novhorod-siverskyi-ua": {
     "been": false,
     "coords": "51.99722222, 33.26666667",
@@ -6502,6 +6621,14 @@
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Novhorod-Siverskyi",
     "name": "Novhorod Siverskyi"
+  },
+  "oakland-au": {
+    "been": false,
+    "city": "Oakland",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Oaklands,_New_South_Wales",
+    "name": "Oakland"
   },
   "oakland-ca": {
     "been": true,
@@ -6528,7 +6655,6 @@
     "name": "Oban"
   },
   "oban-no-country": {
-    "been": false,
     "icons": ["🇳🇿󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Oban,_New_Zealand",
     "name": "Oban"
@@ -6587,6 +6713,13 @@
     "link": "https://en.wikipedia.org/wiki/Odessa,_Texas",
     "name": "Odessa, TX"
   },
+  "olympia-gr": {
+    "been": false,
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Olympia,_Greece",
+    "name": "Olympia"
+  },
   "olympia-wa": {
     "been": true,
     "coords": "47.03777778, -122.90083333",
@@ -6641,6 +6774,14 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Orlando,_Florida",
     "name": "Orlando, FL"
+  },
+  "orlando-za": {
+    "been": false,
+    "city": "Orlando",
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "link": "https://en.wikipedia.org/wiki/Orlando,_Soweto",
+    "name": "Orlando"
   },
   "orleans-fr": {
     "been": false,
@@ -7037,6 +7178,13 @@
     "link": "https://en.wikipedia.org/wiki/Peru,_Illinois",
     "name": "Peru, IL"
   },
+  "peru-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Peru,_Massachusetts",
+    "name": "Peru, MA"
+  },
   "peru-pe": {
     "been": false,
     "city": "Lima",
@@ -7207,7 +7355,7 @@
     "coords": "50.37138889, -4.14222222",
     "country": "MS",
     "icons": ["🇲🇸"],
-    "link": "https://en.wikipedia.org/wiki/Plymouth",
+    "link": "https://en.wikipedia.org/wiki/Plymouth,_Montserrat",
     "name": "Plymouth",
     "strike": true
   },
@@ -8327,8 +8475,14 @@
     "link": "https://en.wikipedia.org/wiki/Sebastopol,_Torfaen",
     "name": "Sebastopol"
   },
-  "sebastopol-nevada-county-ca": {
+  "sebastopol-nevada-county": {
     "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sebastopol,_Nevada_County,_California",
+    "name": "Sebastopol, Nevada County"
+  },
+  "sebastopol-nevada-county-ca": {
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sebastopol,_Nevada_County,_California",
@@ -8435,7 +8589,7 @@
     "name": "Sheffield, IL"
   },
   "sheffield-ma": {
-    "been": true,
+    "been": false,
     "coords": "42.11027778, -73.35555556",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -9097,7 +9251,6 @@
     "name": "Troy, NH"
   },
   "troy-ns": {
-    "been": false,
     "country": "CA",
     "icons": ["🇨🇦"],
     "name": "Troy, NS"
@@ -9523,6 +9676,14 @@
     "link": "https://en.wikipedia.org/wiki/Warwick,_New_York",
     "name": "Warwick, NY"
   },
+  "washington-aw": {
+    "been": false,
+    "city": "Washington",
+    "country": "AW",
+    "icons": ["🇦🇼"],
+    "link": "https://en.wikipedia.org/wiki/List_of_cities_in_Aruba",
+    "name": "Washington"
+  },
   "washington-ct": {
     "been": true,
     "coords": "41.65333333, -73.31833333",
@@ -9564,6 +9725,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Indiana",
     "name": "Washington, IN"
+  },
+  "washington-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Washington,_Massachusetts",
+    "name": "Washington, MA"
   },
   "washington-nj": {
     "been": false,
@@ -9769,6 +9937,13 @@
     "link": "https://en.wikipedia.org/wiki/Williamsport,_Pennsylvania",
     "name": "Williamsport, PA"
   },
+  "wilmington-au": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Wilmington,_South_Australia",
+    "name": "Wilmington"
+  },
   "wilmington-de": {
     "been": false,
     "coords": "39.74583333, -75.54666667",
@@ -9856,6 +10031,13 @@
     "link": "https://en.wikipedia.org/wiki/Windham,_New_York",
     "name": "Windham, NY"
   },
+  "windsor-au": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Windsor,_New_South_Wales",
+    "name": "Windsor"
+  },
   "windsor-ca": {
     "been": true,
     "coords": "38.54722222, -122.81638889",
@@ -9879,6 +10061,13 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Windsor,_Berkshire",
     "name": "Windsor"
+  },
+  "windsor-ma": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Windsor,_Massachusetts",
+    "name": "Windsor, MA"
   },
   "windsor-ny": {
     "been": true,
@@ -10018,7 +10207,6 @@
     "name": "York, PA"
   },
   "zagreb-ba": {
-    "been": false,
     "city": "Zagreb",
     "coords": "45.81305556, 15.97750000",
     "country": "BA",
@@ -10027,7 +10215,6 @@
     "name": "Zagreb"
   },
   "zagreb-hr": {
-    "been": true,
     "city": "Zagreb",
     "coords": "45.81305556, 15.97750000",
     "country": "HR",
