@@ -174,6 +174,7 @@
   "cairo": {
     "been": false,
     "city": "Cairo",
+    "coords": "29.98119444, 31.72086111",
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_the_Nativity_of_Christ,_Cairo",
@@ -214,6 +215,7 @@
   },
   "chiclayo": {
     "been": false,
+    "coords": "-6.77170000, -79.83760000",
     "country": "PE",
     "icons": ["🇵🇪"],
     "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Cathedral,_Chiclayo",
@@ -312,6 +314,15 @@
     "link": "https://en.wikipedia.org/wiki/Florence_Cathedral",
     "name": "Florence"
   },
+  "gdansk": {
+    "been": false,
+    "city": "Gdańsk",
+    "coords": "54.34975000, 18.65369444",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Church%2C_Gda%C5%84sk",
+    "name": "Gdańsk"
+  },
   "ghent": {
     "been": true,
     "coords": "51.05300000, 3.72700000",
@@ -372,6 +383,15 @@
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Kecskemét_Cathedral",
     "name": "Kecskemét"
+  },
+  "krakow": {
+    "been": false,
+    "city": "Kraków",
+    "coords": "50.05460000, 19.93540000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Wawel_Cathedral",
+    "name": "Kraków"
   },
   "lagos": {
     "been": true,
@@ -650,6 +670,15 @@
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_St._Bartholomew,_Plze%C5%88",
     "name": "Plzeň"
   },
+  "poznan": {
+    "been": false,
+    "city": "Poznań",
+    "coords": "52.41138889, 16.94777778",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Pozna%C5%84_Cathedral",
+    "name": "Poznań"
+  },
   "reims": {
     "been": true,
     "coords": "49.25388889, 4.03416667",
@@ -661,6 +690,7 @@
   "riga": {
     "been": true,
     "city": "Riga",
+    "coords": "56.94916667, 24.10444444",
     "country": "LV",
     "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Riga_Cathedral",
@@ -774,6 +804,7 @@
   },
   "saint-quentin": {
     "been": true,
+    "coords": "49.84779167, 3.289916667",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Basilique_Saint-Quentin_de_Saint-Quentin",
@@ -814,6 +845,8 @@
   },
   "saints-peter-and-paul": {
     "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.95020000, 30.31640000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Cathedral,_Saint_Petersburg",
@@ -882,6 +915,15 @@
     "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral",
     "name": "Strasbourg"
   },
+  "szczecin": {
+    "been": false,
+    "city": "Szczecin",
+    "coords": "53.42500000, 14.55500000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Szczecin_Cathedral",
+    "name": "Szczecin"
+  },
   "szeged": {
     "been": true,
     "city": "Szeged",
@@ -925,6 +967,15 @@
     "link": "https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna",
     "name": "Vienna"
   },
+  "warsaw": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.24888889, 21.01361111",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/St._John%27s_Archcathedral%2C_Warsaw",
+    "name": "Warsaw"
+  },
   "washington-national-cathedral": {
     "been": true,
     "city": "Washington",
@@ -951,6 +1002,15 @@
     "link": "https://en.wikipedia.org/wiki/Winchester_Cathedral",
     "name": "Winchester"
   },
+  "wrocław": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.11416667, 17.04611111",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Cathedral",
+    "name": "Wrocław"
+  },
   "yamoussoukro": {
     "been": false,
     "coords": "6.81111111, -5.29694444",
@@ -975,5 +1035,14 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Cathedral-Basilica_of_Our_Lady_of_the_Pillar",
     "name": "Zaragoza"
+  },
+  "łodz": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.74880000, 19.45960000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/%C5%81%C3%B3d%C5%BA_Cathedral",
+    "name": "Łódź"
   }
 }

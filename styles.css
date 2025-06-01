@@ -79,6 +79,7 @@ a {
 .medium {
 	font: 36pt Avenir; 
 	color: #999;
+	white-space: nowrap;
 }
 
 .portfolio h1 {
@@ -359,15 +360,21 @@ a {
 	top: 0.13em;
 	display: inline-block;
 	color: white;
-	background-color: #7892AE;
+  background: linear-gradient(to bottom, #86A2C1, #687D96);
 	padding: 0px 0.08em;
 	height: 1.0em;
-	border-radius: 0.2em;
+  text-align: center;
+  width: 0.9em;
+	border-radius: 0.25em;
+  
+  border: 0.07em solid #5a7c96;
+  box-shadow: inset 0 0.05em 0.1em rgba(255, 255, 255, 0.5);
+  transform: scale(0.89);
 }
 
 .fraction div {
 	position: relative;
-	top: -0.13em;
+	top: -0.14em;
 	display: inline-block;
 }
 

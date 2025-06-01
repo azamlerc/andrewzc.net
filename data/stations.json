@@ -24,6 +24,7 @@
   },
   "abancourt": {
     "been": true,
+    "coords": "49.685521, 1.774451",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_d%27Abancourt",
@@ -726,6 +727,16 @@
     "link": "https://en.wikipedia.org/wiki/Gare_du_Nord",
     "name": "Gare du Nord"
   },
+  "gdansk": {
+    "been": false,
+    "city": "Gdańsk",
+    "coords": "54.355556, 18.644722",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Gda%C5%84sk_G%C5%82%C3%B3wny_railway_station",
+    "name": "Gdańsk",
+    "wikidata": "Q557448"
+  },
   "geneve-cornavin": {
     "been": true,
     "country": "CH",
@@ -1040,6 +1051,15 @@
     "link": "https://en.wikipedia.org/wiki/Köln_Hauptbahnhof",
     "name": "Köln Hbf"
   },
+  "krakow": {
+    "been": false,
+    "city": "Kraków",
+    "coords": "50.06555556, 19.94722222",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Krak%C3%B3w_G%C5%82%C3%B3wny_railway_station",
+    "name": "Kraków"
+  },
   "la-defense": {
     "been": true,
     "city": "Paris",
@@ -1076,6 +1096,7 @@
   },
   "le-treport–mers": {
     "been": true,
+    "coords": "50.062867, 1.376439",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_du_Tréport_-_Mers",
@@ -1195,6 +1216,7 @@
   },
   "longpre-les-corps-saints": {
     "been": false,
+    "coords": "50.01577200, 1.99522200",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Longpré-les-Corps-Saints",
@@ -1607,6 +1629,15 @@
     "link": "https://en.wikipedia.org/wiki/São_Bento_railway_station",
     "name": "Porto São Bento"
   },
+  "poznan": {
+    "been": false,
+    "city": "Poznań",
+    "coords": "52.40166667, 16.91166667",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Pozna%C5%84_G%C5%82%C3%B3wny_railway_station",
+    "name": "Poznań"
+  },
   "praha-hlavni-nadrazi": {
     "been": true,
     "country": "CZ",
@@ -1729,6 +1760,8 @@
   },
   "san-jose-diridon": {
     "been": true,
+    "city": "San Jose, CA",
+    "coords": "37.33000000, -121.90300000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Jose_Diridon_station",
@@ -1899,6 +1932,15 @@
     "country": "DE",
     "link": "https://en.wikipedia.org/wiki/Stuttgart_Hauptbahnhof",
     "name": "Stuttgart Hbf"
+  },
+  "szczecin": {
+    "been": false,
+    "city": "Szczecin",
+    "coords": "53.43250000, 14.54805556",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Szczecin_G%C5%82%C3%B3wny_railway_station",
+    "name": "Szczecin"
   },
   "szeged": {
     "been": true,
@@ -2101,6 +2143,15 @@
     "name": "Wien Westbahnhof",
     "wikidata": "Q698145"
   },
+  "wrocław": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.09880000, 17.03650000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_G%C5%82%C3%B3wny_railway_station",
+    "name": "Wrocław"
+  },
   "zandvoort-aan-zee": {
     "been": true,
     "coords": "52.37583333333333, 4.531388888888889",
@@ -2130,5 +2181,14 @@
     "country": "CH",
     "link": "https://en.wikipedia.org/wiki/Zürich_Hauptbahnhof",
     "name": "Zürich Hbf"
+  },
+  "łodz": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.76888889, 19.46777778",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/%C5%81%C3%B3d%C5%BA_Fabryczna_railway_station",
+    "name": "Łódź"
   }
 }
