@@ -670,13 +670,12 @@
   },
   "cherry-island": {
     "been": false,
-    "city": "Washington",
-    "coords": "39.0, -77.0",
+    "coords": "38.0, -76.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://confluence.org/confluence.php?lat=39&lon=-77",
+    "link": "https://confluence.org/confluence.php?lat=38&lon=-76",
     "name": "Cherry Island",
-    "prefix": "39°N 77°W"
+    "prefix": "38°N 76°W"
   },
   "chesaw-wa": {
     "been": false,
@@ -1295,12 +1294,12 @@
   },
   "grafton": {
     "been": false,
-    "coords": "44.0, -72.0",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://confluence.org/confluence.php?lat=44&lon=-72",
+    "coords": "44.0, -78.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=44&lon=-78",
     "name": "Grafton",
-    "prefix": "44°N 72°W"
+    "prefix": "44°N 78°W"
   },
   "grand-canyon": {
     "been": true,
@@ -1540,6 +1539,15 @@
     "name": "Indianapolis",
     "prefix": "40°N 86°W",
     "reference": "20 km"
+  },
+  "ingleside": {
+    "been": false,
+    "coords": "45.0, -75.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=45&lon=-75",
+    "name": "Ingleside",
+    "prefix": "45°N 75°W"
   },
   "isles-les-meldeuses": {
     "been": false,
@@ -2226,6 +2234,15 @@
     "name": "Mohawk",
     "prefix": "43°N 75°W"
   },
+  "mono": {
+    "been": false,
+    "coords": "44.0, -80.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=44&lon=-80",
+    "name": "Mono",
+    "prefix": "44°N 80°W"
+  },
   "mono-lake": {
     "been": false,
     "coords": "38.0, -119.0",
@@ -2377,6 +2394,15 @@
     "name": "Nashville",
     "prefix": "36°N 87°W",
     "reference": "7 km"
+  },
+  "nathalie": {
+    "been": false,
+    "coords": "37.0, -79.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=37&lon=-79",
+    "name": "Nathalie",
+    "prefix": "37°N 79°W"
   },
   "navi-mumbai": {
     "been": false,
@@ -2750,6 +2776,24 @@
     "name": "Pichincha",
     "prefix": "0° 79°W"
   },
+  "picton": {
+    "been": false,
+    "coords": "44.0, -77.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=44&lon=-77",
+    "name": "Picton",
+    "prefix": "44°N 77°W"
+  },
+  "piermont": {
+    "been": false,
+    "coords": "44.0, -72.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=44&lon=-72",
+    "name": "Piermont",
+    "prefix": "44°N 72°W"
+  },
   "piney-mb": {
     "been": false,
     "coords": "49.0, -96.0",
@@ -2965,6 +3009,16 @@
     "link": "https://confluence.org/confluence.php?lat=40&lon=-75",
     "name": "Riverton Country Club",
     "prefix": "40°N 75°W"
+  },
+  "rockburn": {
+    "been": false,
+    "coords": "45.0, -74.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=45&lon=-74",
+    "name": "Rockburn",
+    "prefix": "45°N 74°W",
+    "reference": "↓500m"
   },
   "rockglen-sk": {
     "been": false,
@@ -3273,6 +3327,15 @@
     "name": "Somerset",
     "prefix": "40°N 79°W"
   },
+  "south-bruce": {
+    "been": false,
+    "coords": "44.0, -81.0",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://confluence.org/confluence.php?lat=44&lon=-81",
+    "name": "South Bruce",
+    "prefix": "44°N 81°W"
+  },
   "south-pole": {
     "been": false,
     "coords": "-90.0, 0.0",
@@ -3358,10 +3421,10 @@
   },
   "stuarts-draft": {
     "been": false,
-    "coords": "38.0, -78.0",
+    "coords": "38.0, -79.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://confluence.org/confluence.php?lat=38&lon=-78",
+    "link": "https://confluence.org/confluence.php?lat=38&lon=-79",
     "name": "Stuarts Draft",
     "prefix": "38°N 79°W",
     "reference": "10 km"
@@ -3770,5 +3833,16 @@
     "link": "https://confluence.org/confluence.php?lat=51&lon=5",
     "name": "Zichem",
     "prefix": "51°N 5°E"
+  },
+  "zorawina": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.0, 17.0",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://confluence.org/confluence.php?lat=51&lon=17",
+    "name": "Żórawina",
+    "prefix": "51°N 17°E",
+    "reference": "10 km"
   }
 }

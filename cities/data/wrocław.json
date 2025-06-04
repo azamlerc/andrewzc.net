@@ -1,4 +1,15 @@
 {
+  "airports-wrocław": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.10944444, 16.88027778",
+    "country": "PL",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Wrocław_Airport",
+    "name": "Wrocław",
+    "prefix": "WRO",
+    "type": "airports"
+  },
   "awa-bgz-bnp-paribas": {
     "been": false,
     "city": "Wrocław",
@@ -48,6 +59,18 @@
     "name": "Line 0",
     "reference": "Wrocław",
     "type": "circle-lines"
+  },
+  "confluence-zorawina": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.00000000, 17.00000000",
+    "country": "PL",
+    "icons": ["🚸"],
+    "link": "https://confluence.org/confluence.php?lat=51&lon=17",
+    "name": "Żórawina",
+    "prefix": "51°N 17°E",
+    "reference": "10 km",
+    "type": "confluence"
   },
   "culture-wrocław": {
     "been": false,
@@ -212,6 +235,17 @@
     "reference": "Wrocław",
     "type": "grand-unions"
   },
+  "non-revenue-hala-targowa": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.11379000, 17.03801000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.11379_N_17.03801_E",
+    "name": "Hala Targowa",
+    "reference": "Wrocław",
+    "type": "non-revenue"
+  },
   "non-revenue-mosty-mieszczanskie": {
     "been": false,
     "city": "Wrocław",
@@ -222,6 +256,16 @@
     "name": "Mosty Mieszczańskie",
     "reference": "Wrocław",
     "type": "non-revenue"
+  },
+  "stadiums-tarczynski-arena": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.14116667, 16.94377778",
+    "country": "PL",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Wrocław_Stadium",
+    "name": "Tarczyński Arena",
+    "type": "stadiums"
   },
   "stations-wrocław": {
     "been": false,
