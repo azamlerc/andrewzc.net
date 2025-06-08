@@ -638,7 +638,7 @@
     "city": "Washington",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Gallery_Place_station\">Gallery Place</a>",
+    "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/Gallery_Place_station\">Gallery Place</a>",
     "link": "https://en.wikipedia.org/wiki/Metro_Center_station",
     "name": "Metro Center",
     "prefix": "244m",
@@ -830,6 +830,16 @@
     "name": "Capital Wheel",
     "type": "ferris-wheels"
   },
+  "forks-silver-line": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silver_Line_(Washington_Metro)",
+    "name": "Silver Line",
+    "reference": "Washington",
+    "type": "forks"
+  },
   "forts-fort-bunker-hill": {
     "been": true,
     "city": "Washington",
@@ -923,14 +933,47 @@
     "name": "Huntington",
     "type": "funiculars"
   },
+  "furthest-franconia–springfield": {
+    "been": true,
+    "city": "Washington",
+    "icons": [],
+    "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/Van_Dorn_Street_station\">Van Dorn Street</a>",
+    "link": "https://en.wikipedia.org/wiki/Franconia–Springfield_station",
+    "name": "Franconia–Springfield",
+    "prefix": "3.6",
+    "reference": "Washington",
+    "type": "furthest"
+  },
+  "furthest-pentagon": {
+    "been": true,
+    "city": "Washington",
+    "icons": [],
+    "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/Arlington_Cemetery_station\">Arlington Cemetery</a>",
+    "link": "https://en.wikipedia.org/wiki/Pentagon_station",
+    "name": "Pentagon",
+    "prefix": "2.0",
+    "reference": "Washington",
+    "type": "furthest"
+  },
   "furthest-spring-hill": {
     "been": true,
     "city": "Washington",
     "icons": [],
-    "info": "↔ <a href=\"https://en.wikipedia.org/wiki/Wiehle%E2%80%93Reston_East_station\">Wiehle–Reston East</a>",
+    "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/Wiehle%E2%80%93Reston_East_station\">Wiehle–Reston East</a>",
     "link": "https://en.wikipedia.org/wiki/Spring_Hill_station_(Washington_Metro)",
     "name": "Spring Hill",
     "prefix": "9.3",
+    "reference": "Washington",
+    "type": "furthest"
+  },
+  "furthest-van-dorn-street": {
+    "been": true,
+    "city": "Washington",
+    "icons": [],
+    "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/King_Street–Old_Town_station\">King Street</a>",
+    "link": "https://en.wikipedia.org/wiki/Van_Dorn_Street_station",
+    "name": "Van Dorn Street",
+    "prefix": "3.6",
     "reference": "Washington",
     "type": "furthest"
   },
@@ -1028,7 +1071,7 @@
     "type": "infill"
   },
   "infill-potomac-yard": {
-    "been": false,
+    "been": true,
     "city": "Washington",
     "coords": "38.83335000, -77.04635000",
     "country": "US",
@@ -1535,6 +1578,28 @@
     "name": "Fort Washington",
     "type": "national-parks"
   },
+  "non-revenue-national-airport": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "center track",
+    "link": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport_station",
+    "name": "National Airport",
+    "reference": "Washington",
+    "type": "non-revenue"
+  },
+  "non-revenue-west-falls-church": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "center track",
+    "link": "https://en.wikipedia.org/wiki/West_Falls_Church_station",
+    "name": "West Falls Church",
+    "reference": "Washington",
+    "type": "non-revenue"
+  },
   "pcc-national-capital-trolley-museum": {
     "been": true,
     "city": "Washington",
@@ -1957,6 +2022,16 @@
     "strike": true,
     "type": "short-turn"
   },
+  "short-turn-wiehle–reston-east": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wiehle–Reston_East_station",
+    "name": "Wiehle–Reston East",
+    "reference": "Washington",
+    "type": "short-turn"
+  },
   "split-platform-pentagon": {
     "been": true,
     "city": "Washington",
@@ -2140,6 +2215,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/DC_Streetcar",
     "name": "Washington",
+    "strike": true,
     "type": "trams"
   },
   "transit-apps-washington": {
