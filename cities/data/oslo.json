@@ -604,6 +604,16 @@
     "reference": "Sake brewery",
     "type": "northernmost"
   },
+  "offset-besserud": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Besserud_(station)",
+    "name": "Besserud",
+    "reference": "Oslo",
+    "type": "offset"
+  },
   "olympics-oslo": {
     "been": true,
     "city": "Oslo",
@@ -715,6 +725,17 @@
     "name": "MX3000",
     "reference": "Oslo",
     "type": "rolling-stock"
+  },
+  "single-platform-besserud": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Besserud_(station)",
+    "name": "Besserud",
+    "reference": "Oslo",
+    "strike": true,
+    "type": "single-platform"
   },
   "single-platform-gullerasen": {
     "been": true,

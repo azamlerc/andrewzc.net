@@ -1,7 +1,7 @@
 let iconIndex = 0;
 
 function isNear(place) {
-  return (place.reference && place.reference.includes(" km")) || (place.info && place.info.includes("%"));
+  return (place.reference && place.reference.includes(" km")) || (place.info && place.info.endsWith("%"));
 }
 
 addStylesheets([

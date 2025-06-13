@@ -186,6 +186,42 @@
     "reference": "Chicago",
     "type": "closest"
   },
+  "connections-jackson": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.87818300, -87.62929600",
+    "country": "US",
+    "icons": ["⤴️"],
+    "info": "| <a href=\"https://en.wikipedia.org/wiki/Library_station_(CTA)\">Library</a> | <a href=\"https://en.wikipedia.org/wiki/Jackson_station_(CTA_Red_Line)\">Jackson</a>",
+    "link": "https://en.wikipedia.org/wiki/Jackson_station_(CTA_Blue_Line)",
+    "name": "Jackson",
+    "reference": "Chicago",
+    "type": "connections"
+  },
+  "connections-lake": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88480900, -87.62781300",
+    "country": "US",
+    "icons": ["⤴️"],
+    "info": "| <a href=\"https://en.wikipedia.org/wiki/Monroe_station_(CTA_Red_Line)\">Monroe</a> | <a href=\"https://en.wikipedia.org/wiki/Jackson_station_(CTA_Red_Line)\">Jackson</a>",
+    "link": "https://en.wikipedia.org/wiki/Lake_station_(CTA)",
+    "name": "Lake",
+    "reference": "Chicago",
+    "type": "connections"
+  },
+  "connections-state/lake": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "50.64630000, -1.16640000",
+    "country": "US",
+    "icons": ["⤴️"],
+    "info": "| <a href=\"https://en.wikipedia.org/wiki/Lake_station_(CTA)\">Lake</a> | <a href=\"https://en.wikipedia.org/wiki/Washington_station_(CTA_Blue_Line)\">Washington</a>",
+    "link": "https://en.wikipedia.org/wiki/State/Lake_station",
+    "name": "State/Lake",
+    "reference": "Chicago",
+    "type": "connections"
+  },
   "copies-leaning-tower-of-pisa": {
     "been": true,
     "city": "Chicago",
@@ -646,6 +682,16 @@
     "name": "Lincoln Park",
     "reference": "Antoine Dodson",
     "type": "music-places"
+  },
+  "opposites-loop": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chicago_%27L%27#Circle_Line",
+    "name": "Loop",
+    "reference": "Chicago",
+    "type": "opposites"
   },
   "pcc-chicago": {
     "been": false,

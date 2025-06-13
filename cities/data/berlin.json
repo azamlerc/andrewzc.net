@@ -1,6 +1,6 @@
 {
   "airports-berlin-brandenburg": {
-    "been": false,
+    "been": true,
     "city": "Berlin",
     "coords": "52.36666667, 13.50333333",
     "country": "DE",
@@ -881,6 +881,16 @@
     "prefix": "2015",
     "reference": "Berlin",
     "type": "open-gangways"
+  },
+  "opposites-ringbahn": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Berlin_Ringbahn",
+    "name": "Ringbahn",
+    "reference": "Berlin",
+    "type": "opposites"
   },
   "pools-schwimmhalle-finckensteinallee": {
     "been": false,

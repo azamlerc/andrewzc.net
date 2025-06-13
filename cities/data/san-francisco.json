@@ -152,6 +152,18 @@
     "reference": "San Francisco",
     "type": "closest"
   },
+  "connections-union-square/market-street": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "39.95112200, -75.15342400",
+    "country": "US",
+    "icons": ["⤴️"],
+    "info": "| <a href=\"https://en.wikipedia.org/wiki/Powell_Street_station\">Powell</a>",
+    "link": "https://en.wikipedia.org/wiki/Union_Square/Market_Street_station",
+    "name": "Union Square/Market Street",
+    "reference": "San Francisco",
+    "type": "connections"
+  },
   "depots-balboa-park": {
     "been": true,
     "city": "San Francisco",
@@ -737,6 +749,16 @@
     "name": "E Series",
     "reference": "San Francisco",
     "type": "rolling-stock"
+  },
+  "salt-san-francisco-bay": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.49688700, -122.11452500",
+    "country": "US",
+    "icons": ["🧂"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Bay_Salt_Ponds",
+    "name": "San Francisco Bay",
+    "type": "salt"
   },
   "short-turn-concord": {
     "been": true,
