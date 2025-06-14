@@ -104,13 +104,11 @@ const artistNames = {
   "The White Stripes": "white-stripes",
 };
 
-// update the replaceFlagWithLink function to work with a lookup table that can have any keys and values
-// instead of searching for flagPattern, search for keys from the lookupTable
 function replaceArtistNames() {
     const keysPattern = new RegExp(Object.keys(artistNames).join('|'), 'g');
-    
-    document.body.childNodes.forEach(node => {
-        if (node.nodeType === 3) { // Process only text nodes
+
+    function traverse(node) {
+        if (node.nodeType === 3) { // Text node
             const replacedText = node.nodeValue.replace(keysPattern, match => {
                 const link = artistNames[match];
                 return `<a href="artists/${link}.html" style="color: inherit;">${match}</a>`;
@@ -121,17 +119,13 @@ function replaceArtistNames() {
                 span.innerHTML = replacedText;
                 node.replaceWith(span);
             }
+        } else if (node.nodeType === 1 && node.nodeName !== 'SCRIPT' && node.nodeName !== 'STYLE') {
+            // Only recurse into element nodes, skipping script/style
+            Array.from(node.childNodes).forEach(traverse);
         }
-    });
-    
-    /* 
-    const newContent = document.body.innerHTML.replace(keysPattern, function(match) {
-				const link = artistNames[match];
-        return `<a href="artists/${link}.html" style="color: inherit">${match}</a>`;
-    });
-    
-    document.body.innerHTML = newContent;
-    */
+    }
+
+    traverse(document.body);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
