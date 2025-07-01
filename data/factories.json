@@ -95,8 +95,9 @@
   },
   "east-london": {
     "been": false,
+    "countries": ["DE", "ZA"],
     "country": "ZA",
-    "icons": ["🇿🇦"],
+    "icons": ["🇩🇪", "🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Mercedes-Benz_South_Africa",
     "name": "East London",
     "reference": "Mercedes-Benz",
@@ -146,6 +147,15 @@
     "name": "Georgetown, KY",
     "reference": "Toyota"
   },
+  "gigafactory-berlin-brandenburg": {
+    "been": true,
+    "coords": "52.39500000, 13.79000000",
+    "countries": ["US", "DE"],
+    "icons": ["🇺🇸", "🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Gigafactory_Berlin-Brandenburg",
+    "name": "Gigafactory Berlin-Brandenburg",
+    "reference": "Tesla"
+  },
   "gigafactory-nevada": {
     "been": false,
     "coords": "39.53800000, -119.44000000",
@@ -158,8 +168,9 @@
   "gigafactory-shanghai": {
     "been": false,
     "coords": "30.87016656, 121.76881044",
+    "countries": ["US", "CN"],
     "country": "CN",
-    "icons": ["🇨🇳"],
+    "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Giga_Shanghai",
     "name": "Gigafactory Shanghai",
     "reference": "Tesla"
@@ -191,6 +202,15 @@
     "link": "https://en.wikipedia.org/wiki/Hiroshima_(Mazda_factory)",
     "name": "Hiroshima",
     "reference": "Mazda"
+  },
+  "kaiserslautern": {
+    "been": true,
+    "coords": "49.44472222, 7.76888889",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Kaiserslautern",
+    "name": "Kaiserslautern",
+    "reference": "Opel"
   },
   "kaliningrad": {
     "been": false,

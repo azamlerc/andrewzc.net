@@ -104,6 +104,8 @@ const artistNames = {
   "The White Stripes": "white-stripes",
 };
 
+const filename2 = window.location.href.split('/').slice(-1)[0].split('.')[0];
+
 function replaceArtistNames() {
     const keysPattern = new RegExp(Object.keys(artistNames).join('|'), 'g');
 
@@ -111,7 +113,7 @@ function replaceArtistNames() {
         if (node.nodeType === 3) { // Text node
             const replacedText = node.nodeValue.replace(keysPattern, match => {
                 const link = artistNames[match];
-                return `<a href="artists/${link}.html" style="color: inherit;">${match}</a>`;
+                return `<a href="artists/${link}.html#${filename2}" style="color: inherit;">${match}</a>`;
             });
 
             if (replacedText !== node.nodeValue) {

@@ -620,8 +620,17 @@
     "coords": "50.11055556, 8.68222222",
     "country": "DE",
     "icons": ["🇩🇪"],
+    "info": "(Main)",
     "link": "cities/frankfurt.html",
     "name": "Frankfurt"
+  },
+  "frankfurt-(oder)": {
+    "been": true,
+    "coords": "52.34194400, 14.55166700",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "cities/frankfurt-oder.html",
+    "name": "Frankfurt (Oder)"
   },
   "fukuoka": {
     "been": true,
@@ -1433,7 +1442,7 @@
     "name": "Porto"
   },
   "poznan": {
-    "been": false,
+    "been": true,
     "coords": "52.40637000, 16.92517000",
     "country": "PL",
     "icons": ["🇵🇱"],
@@ -1961,7 +1970,7 @@
     "name": "Washington"
   },
   "wrocław": {
-    "been": false,
+    "been": true,
     "coords": "51.10788000, 17.03854000",
     "country": "PL",
     "icons": ["🇵🇱"],

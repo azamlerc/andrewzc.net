@@ -161,6 +161,16 @@
     "link": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof",
     "name": "Berlin Hbf"
   },
+  "berlin-ostbahnhof": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.51, 13.4347",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Berlin_Ostbahnhof",
+    "name": "Berlin Ostbahnhof",
+    "wikidata": "Q683239"
+  },
   "berlin-zoologischer-garten": {
     "been": true,
     "city": "Berlin",
@@ -661,6 +671,16 @@
     "icons": ["🇮🇹󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Firenze_Santa_Maria_Novella_railway_station",
     "name": "Florence Santa Maria Novella"
+  },
+  "frankfurt-(oder)": {
+    "been": true,
+    "city": "Frankfurt (Oder)",
+    "coords": "52.3368, 14.5471",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Bahnhof_Frankfurt_(Oder)",
+    "name": "Frankfurt (Oder)",
+    "wikidata": "Q445993"
   },
   "frankfurt-fernbanhof": {
     "been": true,
@@ -1630,7 +1650,7 @@
     "name": "Porto São Bento"
   },
   "poznan": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.40166667, 16.91166667",
     "country": "PL",
@@ -2144,7 +2164,7 @@
     "wikidata": "Q698145"
   },
   "wrocław": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.09880000, 17.03650000",
     "country": "PL",

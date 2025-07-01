@@ -1242,6 +1242,13 @@
     "link": "https://en.wikipedia.org/wiki/Berlin,_New_York",
     "name": "Berlin, NY"
   },
+  "berlin-pa": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Berlin,_Pennsylvania",
+    "name": "Berlin, PA"
+  },
   "berlin-sv": {
     "been": false,
     "city": "Berlin",
@@ -3236,6 +3243,22 @@
     "link": "https://en.wikipedia.org/wiki/Essen",
     "name": "Essen"
   },
+  "etalle-be": {
+    "been": true,
+    "coords": "49.6739, 5.602",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Étalle_(Belgique)",
+    "name": "Étalle"
+  },
+  "etalle-fr": {
+    "been": true,
+    "coords": "49.8481, 4.4439",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Étalle_(Ardennes)",
+    "name": "Étalle"
+  },
   "exeter-gb": {
     "been": false,
     "coords": "50.72555556, -3.52694444",
@@ -3404,7 +3427,8 @@
     "name": "Frankfurt am Main"
   },
   "frankfurt-an-der-oder-de": {
-    "been": false,
+    "been": true,
+    "city": "Frankfurt (Oder)",
     "coords": "52.34194400, 14.55166700",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -6190,6 +6214,13 @@
     "link": "https://en.wikipedia.org/wiki/New_Bedford,_Massachusetts",
     "name": "New Bedford"
   },
+  "new-berlin-us": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_Berlin,_New_York",
+    "name": "New Berlin"
+  },
   "new-britain-ct": {
     "been": true,
     "coords": "41.67500000, -72.78722222",
@@ -6253,6 +6284,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Castle,_Pennsylvania",
     "name": "New Castle, PA"
+  },
+  "new-egypt-nj": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_Egypt,_New_Jersey",
+    "name": "New Egypt, NJ"
   },
   "new-lebanon-ny": {
     "been": true,
@@ -6318,6 +6356,13 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Rochelle,_New_York",
     "name": "New Rochelle, NY"
+  },
+  "new-smyrna-beach-fl": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_Smyrna_Beach,_Florida",
+    "name": "New Smyrna Beach, FL"
   },
   "new-tripoli-pa": {
     "been": true,
@@ -6658,6 +6703,13 @@
     "link": "https://en.wikipedia.org/wiki/Norwich",
     "name": "Norwich"
   },
+  "norwich-ny": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Norwich,_New_York",
+    "name": "Norwich, NY"
+  },
   "nottingham-gb": {
     "been": true,
     "city": "Nottingham",
@@ -6850,6 +6902,22 @@
     "link": "https://en.wikipedia.org/wiki/Oregon",
     "name": "Oregon"
   },
+  "origny-en-thierache-fr": {
+    "been": true,
+    "coords": "49.895, 4.01833333333",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Origny-en-Thiérache",
+    "name": "Origny-en-Thiérache"
+  },
+  "origny-sainte-benoite-fr": {
+    "been": true,
+    "coords": "49.8375, 3.48972222222",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Origny-Sainte-Benoite",
+    "name": "Origny-Sainte-Benoite"
+  },
   "orlando-fl": {
     "been": true,
     "city": "Orlando",
@@ -6988,7 +7056,7 @@
     "name": "Oxford, MS"
   },
   "oxford-ny": {
-    "been": true,
+    "been": false,
     "coords": "42.40611111, -75.59166667",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -8712,6 +8780,48 @@
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Singapore_(South_Africa)",
     "name": "Singapore"
+  },
+  "smyrna-de": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna,_Delaware",
+    "name": "Smyrna, DE"
+  },
+  "smyrna-ga": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna,_Georgia",
+    "name": "Smyrna, GA"
+  },
+  "smyrna-me": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna,_Maine",
+    "name": "Smyrna, ME"
+  },
+  "smyrna-sc": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna,_South_Carolina",
+    "name": "Smyrna, SC"
+  },
+  "smyrna-tn": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna,_Tennessee",
+    "name": "Smyrna, TN"
+  },
+  "smyrna-tr": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Smyrna",
+    "name": "Smyrna"
   },
   "sofia-bg": {
     "been": true,

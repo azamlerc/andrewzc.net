@@ -142,7 +142,7 @@
     "reference": "Dresden"
   },
   "arkady": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10131000, 17.02923000",
     "country": "PL",
@@ -297,7 +297,8 @@
     "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73844_N_19.47877_E",
     "name": "Dąbrowskiego-Kilińskiego",
-    "reference": "Łódź"
+    "reference": "Łódź",
+    "strike": true
   },
   "dabrowskiego–smigłego-rydza": {
     "been": false,
@@ -363,12 +364,12 @@
     "reference": "Toronto"
   },
   "dworzec-nadodrze": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.12423000, 17.03437000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "info": "<div class=\"fraction\"><div>⅜</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.12423_N_17.03437_E",
     "name": "Dworzec Nadodrze",
     "reference": "Wrocław"
@@ -434,8 +435,11 @@
     "reference": "Halle"
   },
   "franklina-roosevelta": {
-    "been": false,
-    "coords": "52°24′37.94″N, 16°54′48.53″E",
+    "been": true,
+    "city": "Poznań",
+    "coords": "52.41053889, 16.91348056",
+    "country": "PL",
+    "icons": ["🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52_24_37.94_N_16_54_48.53_E",
     "name": "Franklina Roosevelta",
     "reference": "Poznań"
@@ -460,7 +464,7 @@
     "strike": true
   },
   "galeria-doninikanska": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10787000, 17.03870000",
     "country": "PL",
@@ -479,6 +483,18 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=48.93622_N_2.34688_E",
     "name": "Gare de Saint Denis",
     "reference": "Paris"
+  },
+  "gdanska–zielona": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.76997000, 19.44896000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.76997_N_19.44896_E",
+    "name": "Gdańska–Zielona",
+    "reference": "Łódź",
+    "strike": true
   },
   "goerdelerring": {
     "been": false,
@@ -573,7 +589,7 @@
     "reference": "Essen"
   },
   "hetmanska": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.39010833, 16.89418611",
     "country": "PL",
@@ -614,6 +630,17 @@
     "name": "I. P. Pavlova",
     "reference": "Prague"
   },
+  "irinovskiy-prospekt": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "coords": "59.95877000, 30.47800000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.95877_N_30.47800_E",
+    "name": "Irinovskiy Prospekt",
+    "reference": "Saint Petersburg"
+  },
   "irinovskiy-prospekt-div-class=fractiondiv¾/div/div": {
     "been": false,
     "city": "Saint Petersburg",
@@ -621,13 +648,6 @@
     "icons": ["🇷🇺"],
     "name": "Irinovskiy Prospekt <div class=\"fraction\"><div>¾</div></div>",
     "reference": "Saint Petersburg"
-  },
-  "jana-pawła-ii": {
-    "been": false,
-    "coords": "52°23′57.53″N, 16°57′8.97″E",
-    "link": "https://geohack.toolforge.org/geohack.php?params=52_23_57.53_N_16_57_8.97_E",
-    "name": "Jana Pawła II",
-    "reference": "Poznań"
   },
   "javabrug": {
     "been": true,
@@ -658,7 +678,7 @@
     "reference": "Brno"
   },
   "kepa-mieszczanska": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.11688000, 17.02458000",
     "country": "PL",
@@ -742,7 +762,7 @@
     "reference": "Warsaw"
   },
   "kornicka": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.39931389, 16.95249167",
     "country": "PL",
@@ -775,7 +795,7 @@
     "strike": true
   },
   "krupnicza": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10668000, 17.02469000",
     "country": "PL",
@@ -1116,7 +1136,7 @@
     "reference": "Karlsruhe"
   },
   "piastowska": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.11581000, 17.06089000",
     "country": "PL",
@@ -1175,7 +1195,7 @@
     "reference": "Łódź"
   },
   "plac-bema": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.11718000, 17.04216000",
     "country": "PL",
@@ -1184,8 +1204,19 @@
     "name": "Plac Bema",
     "reference": "Wrocław"
   },
+  "plac-grunwaldzki": {
+    "been": true,
+    "city": "Wrocław",
+    "coords": "51.11175000, 17.06100000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.11175_N_17.06100_E",
+    "name": "Plac Grunwaldzki",
+    "reference": "Wrocław"
+  },
   "plac-jana-pawła-ii": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.11165000, 17.02178000",
     "country": "PL",
@@ -1196,7 +1227,7 @@
     "reference": "Wrocław"
   },
   "plac-legionow": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10459000, 17.02210000",
     "country": "PL",
@@ -1207,7 +1238,7 @@
     "reference": "Wrocław"
   },
   "plac-orlat-lwowskich": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10786000, 17.02158000",
     "country": "PL",
@@ -1248,7 +1279,7 @@
     "reference": "Magnitogorsk"
   },
   "pomorska": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.11768000, 17.03188000",
     "country": "PL",
@@ -1278,6 +1309,16 @@
     "link": "https://en.wikipedia.org/wiki/Preobrazhenskaya_Ploshchad",
     "name": "Preobrazhenskaya Pl.",
     "reference": "Moscow"
+  },
+  "prospekt-kultury": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "coords": "60.04490000, 30.37396400",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=60.044900_N_30.373964_E",
+    "name": "Prospekt Kultury",
+    "reference": "Saint Petersburg"
   },
   "prospekt-kultury/a": {
     "been": false,
@@ -1409,7 +1450,7 @@
     "reference": "Krakow"
   },
   "rondo-kaponiera": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.40778333, 16.91249167",
     "country": "PL",
@@ -1440,7 +1481,7 @@
     "reference": "Krakow"
   },
   "rondo-nowaka-jezioranskiego": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.40265000, 16.88906944",
     "country": "PL",
@@ -1470,19 +1511,19 @@
     "name": "Rondo Radosławska",
     "reference": "Warsaw"
   },
-  "rondo-sroodka": {
-    "been": false,
+  "rondo-srodka": {
+    "been": true,
     "city": "Poznań",
     "coords": "52.41006000, 16.95682000",
     "country": "PL",
     "icons": ["🇵🇱"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.41006_N_16.95682_E",
-    "name": "Rondo Śroódka",
+    "name": "Rondo Śródka",
     "reference": "Poznań"
   },
   "rondo-starołeka": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.38018889, 16.94311389",
     "country": "PL",
@@ -1616,7 +1657,6 @@
     "coords": "52.29766600, 76.96519700",
     "country": "KZ",
     "icons": ["🇰🇿"],
-    "info": "🦋<br>  🇵🇱 <span class=\"dark\">Poznań</span> <a href=\"https://geohack.toolforge.org/geohack.php?params=52_24_37.94_N_16_54_48.53_E\">Franklina Roosevelta</a>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.297666_N_76.965197_E",
     "name": "Shanyrak",
     "reference": "Pavlodar"
@@ -1798,17 +1838,6 @@
     "reference": "Saint Petersburg",
     "wikidata": "Q4410296"
   },
-  "swidnicka": {
-    "been": false,
-    "city": "Wrocław",
-    "coords": "51.10721000, 17.03344000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.10721_N_17.03344_E",
-    "name": "Świdnicka",
-    "reference": "Wrocław"
-  },
   "szarych-szeregow": {
     "been": false,
     "coords": "53.10758000, 18.04548000",
@@ -1851,7 +1880,7 @@
     "reference": "Biysk"
   },
   "traugutta": {
-    "been": false,
+    "been": true,
     "city": "Poznań",
     "coords": "52.38506000, 16.91446000",
     "country": "PL",
@@ -1876,13 +1905,14 @@
     "coords": "52.53410900, 103.89512500",
     "country": "RU",
     "icons": ["🇷🇺"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.534109_N_103.895125_E",
     "name": "Ulitsa Chaikovskogo",
     "reference": "Angarsk",
     "strike": true
   },
   "urzad-wojewodski": {
-    "been": false,
+    "been": true,
     "city": "Wrocław",
     "coords": "51.10821000, 17.04783000",
     "country": "PL",
@@ -2012,6 +2042,18 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=51_2_58.09_N_13_44_39.27_E",
     "name": "Wilsdruffer Straße",
     "reference": "Dresden"
+  },
+  "zachodnia–zielona": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77037000, 19.45341000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "info": "<div class=\"fraction\"><div>¼</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.77037_N_19.45341_E",
+    "name": "Zachodnia–Zielona",
+    "reference": "Łódź",
+    "strike": true
   },
   "zentralhaltstelle": {
     "been": false,

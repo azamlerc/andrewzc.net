@@ -20,6 +20,18 @@
     "reference": "Łódź",
     "type": "depots"
   },
+  "gauges-łodz": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77694444, 19.45472222",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_%C5%81%C3%B3d%C5%BA",
+    "name": "Łódź",
+    "prefix": "1000",
+    "type": "gauges",
+    "wikidata": "Q1149987"
+  },
   "grand-unions-dabrowskiego-kilinskiego": {
     "been": false,
     "city": "Łódź",
@@ -30,6 +42,7 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73844_N_19.47877_E",
     "name": "Dąbrowskiego-Kilińskiego",
     "reference": "Łódź",
+    "strike": true,
     "type": "grand-unions"
   },
   "grand-unions-dabrowskiego–smigłego-rydza": {
@@ -42,6 +55,19 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73756_N_19.48897_E",
     "name": "Dąbrowskiego–Śmigłego-Rydza",
     "reference": "Łódź",
+    "type": "grand-unions"
+  },
+  "grand-unions-gdanska–zielona": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.76997000, 19.44896000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.76997_N_19.44896_E",
+    "name": "Gdańska–Zielona",
+    "reference": "Łódź",
+    "strike": true,
     "type": "grand-unions"
   },
   "grand-unions-kilinskiego-narutowicza": {
@@ -152,6 +178,19 @@
     "reference": "Łódź",
     "type": "grand-unions"
   },
+  "grand-unions-zachodnia–zielona": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77037000, 19.45341000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¼</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.77037_N_19.45341_E",
+    "name": "Zachodnia–Zielona",
+    "reference": "Łódź",
+    "strike": true,
+    "type": "grand-unions"
+  },
   "loops-chocianowice-ikea": {
     "been": false,
     "city": "Łódź",
@@ -184,6 +223,82 @@
     "name": "Łódź",
     "strike": true,
     "type": "luna-park"
+  },
+  "malls-manufaktura": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77888889, 19.44972222",
+    "country": "PL",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Manufaktura",
+    "name": "Manufaktura",
+    "type": "malls"
+  },
+  "non-revenue-legionow": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77195000, 19.43436000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.77195_N_19.43436_E",
+    "name": "Legionów",
+    "reference": "Łódź",
+    "type": "non-revenue"
+  },
+  "non-revenue-marszałka-smigłego-rydza": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.73282000, 19.48889000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.73282_N_19.48889_E",
+    "name": "Marszałka Śmigłego-Rydza",
+    "reference": "Łódź",
+    "type": "non-revenue"
+  },
+  "non-revenue-płka-jana-kilinskiego": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.74064000, 19.47843000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.74064_N_19.47843_E",
+    "name": "Płka Jana Kilińskiego",
+    "reference": "Łódź",
+    "type": "non-revenue"
+  },
+  "non-revenue-srebrzynska": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.77401000, 19.42935000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.77401_N_19.42935_E",
+    "name": "Srebrzyńska",
+    "reference": "Łódź",
+    "type": "non-revenue"
+  },
+  "non-revenue-warszawska": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.80702000, 19.47194000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.80702_N_19.47194_E",
+    "name": "Warszawska",
+    "reference": "Łódź",
+    "type": "non-revenue"
+  },
+  "non-revenue-zielona": {
+    "been": false,
+    "city": "Łódź",
+    "coords": "51.76996000, 19.44902000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.76996_N_19.44902_E",
+    "name": "Zielona",
+    "reference": "Łódź",
+    "type": "non-revenue"
   },
   "planned-łodz": {
     "been": false,
