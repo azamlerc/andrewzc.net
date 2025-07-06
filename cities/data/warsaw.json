@@ -63,6 +63,17 @@
     "reference": "15 km",
     "type": "confluence"
   },
+  "depots-mokotow": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.18733000, 21.00019000",
+    "country": "PL",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.18733_N_21.00019_E",
+    "name": "Mokotów",
+    "reference": "Warsaw",
+    "type": "depots"
+  },
   "grand-unions-aleja-solidarnosci": {
     "been": false,
     "city": "Warsaw",
@@ -86,10 +97,10 @@
   "grand-unions-nowowiejska": {
     "been": false,
     "city": "Warsaw",
-    "coords": "552.22023500, 21.00490200",
+    "coords": "52.22023500, 21.00490200",
     "country": "PL",
     "icons": ["🦋"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=552.220235_N_21.004902_E",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.220235_N_21.004902_E",
     "name": "Nowowiejska",
     "reference": "Warsaw",
     "type": "grand-unions"
@@ -97,11 +108,23 @@
   "grand-unions-okopowa": {
     "been": false,
     "city": "Warsaw",
-    "coords": "552.23701100, 20.98019400",
+    "coords": "52.23701100, 20.98019400",
     "country": "PL",
     "icons": ["🦋"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=552.237011_N_20.980194_E",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.237011_N_20.980194_E",
     "name": "Okopowa",
+    "reference": "Warsaw",
+    "type": "grand-unions"
+  },
+  "grand-unions-ratusz-arsenał": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.24438000, 21.00125000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.24438_N_21.00125_E",
+    "name": "Ratusz Arsenał",
     "reference": "Warsaw",
     "type": "grand-unions"
   },
@@ -117,17 +140,62 @@
     "reference": "Warsaw",
     "type": "grand-unions"
   },
+  "grand-unions-rondo-daszynskiego": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.23033000, 20.98448000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.23033_N_20.98448_E",
+    "name": "Rondo Daszyńskiego",
+    "reference": "Warsaw",
+    "strike": true,
+    "type": "grand-unions"
+  },
   "grand-unions-rondo-radosławska": {
     "been": false,
     "city": "Warsaw",
-    "coords": "552.25476000, 20.98253900",
+    "coords": "52.25476000, 20.98253900",
     "country": "PL",
     "icons": ["🦋"],
     "info": "<div class=\"fraction\"><div>¾</div></div>",
-    "link": "https://geohack.toolforge.org/geohack.php?params=552.254760_N_20.982539_E",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.254760_N_20.982539_E",
     "name": "Rondo Radosławska",
     "reference": "Warsaw",
     "type": "grand-unions"
+  },
+  "grand-unions-rondo-starzynskiego": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.26360000, 21.02074000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.26360_N_21.02074_E",
+    "name": "Rondo Starzyńskiego",
+    "reference": "Warsaw",
+    "type": "grand-unions"
+  },
+  "grand-unions-woronicza": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.18878000, 21.00199000",
+    "country": "PL",
+    "icons": ["🦋"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.18878_N_21.00199_E",
+    "name": "Woronicza",
+    "reference": "Warsaw",
+    "type": "grand-unions"
+  },
+  "ikea-warszawa-targowek": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.30589030, 21.08270740",
+    "country": "PL",
+    "icons": ["🇸🇪"],
+    "name": "Warszawa Targówek",
+    "type": "ikea"
   },
   "longest-tunnels-m1": {
     "been": false,
@@ -242,6 +310,17 @@
     "reference": "David Bowie",
     "type": "music-places"
   },
+  "non-revenue-rakowiecka": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.20721000, 21.00604000",
+    "country": "PL",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.20721_N_21.00604_E",
+    "name": "Rakowiecka",
+    "reference": "Warsaw",
+    "type": "non-revenue"
+  },
   "planned-ursynow": {
     "been": false,
     "city": "Warsaw",
@@ -296,6 +375,19 @@
     "reference": "Warsaw",
     "type": "projects"
   },
+  "projects-warsaw-tram-19-to-stegny": {
+    "been": true,
+    "city": "Warsaw",
+    "coords": "52.23222222222222, 21.008333333333333",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Warsaw",
+    "name": "Warsaw Tram 19 to Stegny",
+    "prefix": "06-28",
+    "reference": "Warsaw",
+    "type": "projects",
+    "wikidata": "Q601176"
+  },
   "projects-warsaw-trams-14-&-16-to-to-miasteczko-wilanow": {
     "been": true,
     "city": "Warsaw",
@@ -306,6 +398,19 @@
     "prefix": "10-28",
     "reference": "Warsaw",
     "type": "projects"
+  },
+  "single-track-tram-20": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.23222222222222, 21.008333333333333",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "info": "Bemowo",
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Warsaw",
+    "name": "Tram 20",
+    "reference": "Warsaw",
+    "type": "single-track",
+    "wikidata": "Q601176"
   },
   "stadiums-stadion-narodowy": {
     "been": true,
