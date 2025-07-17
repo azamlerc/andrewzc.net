@@ -1945,14 +1945,23 @@
     "prefix": "49°N 118°W",
     "reference": "↑40m"
   },
-  "lawrenceville": {
+  "lawrenceville-ga": {
     "been": false,
-    "coords": "42.0, -77.0",
+    "coords": "34.0, -84.0",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=34&lon=-84",
-    "name": "Lawrenceville",
+    "name": "Lawrenceville, GA",
     "prefix": "34°N 84°W"
+  },
+  "lawrenceville-pa": {
+    "been": true,
+    "coords": "42.0, -77.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=42&lon=-77",
+    "name": "Lawrenceville, PA",
+    "prefix": "42°N 77°W"
   },
   "le-mans": {
     "been": false,
@@ -2163,7 +2172,7 @@
     "reference": "12 km"
   },
   "mcconnellsburg": {
-    "been": false,
+    "been": true,
     "coords": "40.0, -78.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -2752,14 +2761,22 @@
     "reference": "6 km"
   },
   "paris-va": {
-    "been": false,
+    "been": true,
     "coords": "39.0, -78.0",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://confluence.org/confluence.php?lat=39&lon=-78",
     "name": "Paris, VA",
-    "prefix": "39°N 78°W",
-    "reference": "15 km"
+    "prefix": "39°N 78°W"
+  },
+  "patersdorf": {
+    "been": false,
+    "coords": "49.0, 13.0",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://confluence.org/confluence.php?lat=49&lon=13",
+    "name": "Patersdorf",
+    "prefix": "49°N 13°E"
   },
   "perra-vaara": {
     "been": false,
@@ -3119,6 +3136,16 @@
     "prefix": "60°N 7°E",
     "reference": "15 km"
   },
+  "sachsenheim-hohenhaslach": {
+    "been": false,
+    "coords": "49.0, 9.0",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://confluence.org/confluence.php?lat=49&lon=9",
+    "name": "Sachsenheim-Hohenhaslach",
+    "prefix": "49°N 9°E",
+    "reference": "25 km"
+  },
   "sahuarita": {
     "been": true,
     "coords": "32.0, -111.0",
@@ -3359,6 +3386,15 @@
     "name": "Simferopol",
     "prefix": "45°N 34°E"
   },
+  "sinzing": {
+    "been": false,
+    "coords": "49.0, 12.0",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://confluence.org/confluence.php?lat=49&lon=12",
+    "name": "Sinzing",
+    "prefix": "49°N 12°E"
+  },
   "slippery-rock": {
     "been": false,
     "coords": "41.0, -80.0",
@@ -3369,7 +3405,7 @@
     "prefix": "41°N 80°W"
   },
   "somerset": {
-    "been": false,
+    "been": true,
     "coords": "40.0, -79.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -3431,6 +3467,7 @@
     "link": "https://fr.wikipedia.org/wiki/Square_Ambiorix",
     "name": "Square Ambiorix",
     "prefix": "50°50′50″ 4°23′0″",
+    "reference": "500m",
     "wikidata": "Q55599930"
   },
   "staden": {
