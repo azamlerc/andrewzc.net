@@ -1675,7 +1675,7 @@
     "type": "twin-cities"
   },
   "twin-cities-berlin-ma": {
-    "been": false,
+    "been": true,
     "coords": "42.38111111, -71.63750000",
     "country": "US",
     "icons": ["👯"],
@@ -1718,6 +1718,17 @@
     "link": "https://en.wikipedia.org/wiki/Berlin,_Pennsylvania",
     "name": "Berlin, PA",
     "type": "twin-cities"
+  },
+  "twin-stations-bellevue": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.52000000, 13.34777778",
+    "country": "DE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Berlin_Bellevue_station",
+    "name": "Bellevue",
+    "reference": "Berlin",
+    "type": "twin-stations"
   },
   "useless-berlin-brandenburg-terminal-5": {
     "been": true,

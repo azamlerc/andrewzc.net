@@ -41,7 +41,8 @@
     "icons": ["🍏"],
     "link": "https://www.apple.com/ca/retail/eatoncentre/",
     "name": "Eaton Centre",
-    "type": "apple"
+    "type": "apple",
+    "wikidata": "Q1278419"
   },
   "apple-fairview": {
     "been": false,
@@ -51,13 +52,16 @@
     "icons": ["🍏"],
     "link": "https://www.apple.com/ca/retail/fairview/",
     "name": "Fairview",
-    "type": "apple"
+    "type": "apple",
+    "wikidata": "Q482388"
   },
   "apple-wallet-toronto": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "type": "apple-wallet"
   },
@@ -81,17 +85,6 @@
     "name": "Princes’ Gates",
     "type": "arches"
   },
-  "awa-subway-pay-phone": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.67027778, -79.38666667",
-    "country": "US",
-    "icons": ["🏩"],
-    "link": "https://en.wikipedia.org/wiki/Toronto_subway",
-    "name": "Subway Pay Phone",
-    "reference": "Toronto",
-    "type": "awa"
-  },
   "awa-subway-pay-phone-toronto": {
     "been": false,
     "city": "Toronto",
@@ -100,7 +93,8 @@
     "icons": ["🏩"],
     "link": "https://en.wikipedia.org/wiki/Toronto_subway",
     "name": "Subway Pay Phone, Toronto",
-    "type": "awa"
+    "type": "awa",
+    "wikidata": "Q20379"
   },
   "car-free-toronto-islands": {
     "been": false,
@@ -135,6 +129,7 @@
   "depots-hillcrest-complex": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.67555556, -79.41777778",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Hillcrest_Complex",
@@ -145,6 +140,7 @@
   "depots-leslie-barns": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65861111, -79.32694444",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Leslie_Barns",
@@ -155,6 +151,7 @@
   "depots-roncesvalles-carhouse": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.63944444, -79.44777778",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Roncesvalles_Carhouse",
@@ -165,6 +162,7 @@
   "depots-russell-carhouse": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.66416667, -79.32277778",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Russell_Carhouse",
@@ -172,27 +170,22 @@
     "reference": "Toronto",
     "type": "depots"
   },
-  "fare-cards-": {
-    "been": false,
-    "city": "Toronto",
-    "icons": [],
-    "name": "",
-    "reference": "Toronto",
-    "type": "fare-cards"
-  },
   "fare-cards-presto": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Presto_card",
     "name": "Presto",
     "reference": "Toronto",
-    "type": "fare-cards"
+    "type": "fare-cards",
+    "wikidata": "Q2940471"
   },
   "furthest-berri–uqam": {
     "been": true,
     "city": "Toronto",
+    "coords": "45.51527778, -73.56111111",
     "icons": [],
     "info": "⭤ <a href=\"https://en.wikipedia.org/wiki/Jean-Drapeau_station\">Jean-Drapeau</a>",
     "link": "https://en.wikipedia.org/wiki/Berri%E2%80%93UQAM_station",
@@ -200,6 +193,30 @@
     "prefix": "2.5",
     "reference": "Toronto",
     "type": "furthest"
+  },
+  "grand-unions-bathurst-/-college": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65647000, -79.40772000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>½</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65647_N_79.40772_W",
+    "name": "Bathurst / College",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-bathurst-/-dundas": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65231000, -79.40602000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65231_N_79.40602_W",
+    "name": "Bathurst / Dundas",
+    "reference": "Toronto",
+    "type": "grand-unions"
   },
   "grand-unions-bathurst-/-king": {
     "been": false,
@@ -212,6 +229,66 @@
     "reference": "Toronto",
     "type": "grand-unions"
   },
+  "grand-unions-bathurst-/-queen": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.64721000, -79.40402000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅜</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.64721_N_79.40402_W",
+    "name": "Bathurst / Queen",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-broadview-/-gerrard": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.66548000, -79.35264000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅝</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.66548_N_79.35264_W",
+    "name": "Broadview / Gerrard",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-church-/-dundas": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65650000, -79.37714000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65650_N_79.37714_W",
+    "name": "Church / Dundas",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-church-/-king": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.64992000, -79.37440000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅝</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.64992_N_79.37440_W",
+    "name": "Church / King",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-church-/-queen": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65317000, -79.37577000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅝</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65317_N_79.37577_W",
+    "name": "Church / Queen",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
   "grand-unions-dufferin-/-king": {
     "been": false,
     "city": "Toronto",
@@ -221,6 +298,42 @@
     "info": "<div class=\"fraction\"><div>⅞</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43_38_20.15_N_79_25_38.45_W",
     "name": "Dufferin / King",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-roncesvalles-/-queen": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.63876000, -79.44611000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.63876_N_79.44611_W",
+    "name": "Roncesvalles / Queen",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-spadina-/-college": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65796000, -79.40005000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65796_N_79.40005_W",
+    "name": "Spadina / College",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
+  "grand-unions-spadina-/-dundas": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65294000, -79.39805000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅝</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65294_N_79.39805_W",
+    "name": "Spadina / Dundas",
     "reference": "Toronto",
     "type": "grand-unions"
   },
@@ -246,6 +359,18 @@
     "reference": "Toronto",
     "type": "grand-unions"
   },
+  "grand-unions-victoria-/-queen": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65268000, -79.37808000",
+    "country": "CA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¾</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.65268_N_79.37808_W",
+    "name": "Victoria / Queen",
+    "reference": "Toronto",
+    "type": "grand-unions"
+  },
   "greenhouses-allan-gardens": {
     "been": false,
     "city": "Toronto",
@@ -259,13 +384,15 @@
   "highway-medians-line-1": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "info": "Allen Road",
     "link": "https://en.wikipedia.org/wiki/Line_1_Yonge–University",
     "name": "Line 1",
     "reference": "Toronto",
-    "type": "highway-medians"
+    "type": "highway-medians",
+    "wikidata": "Q54369"
   },
   "hotels-saint-lawrence-residences-toronto": {
     "been": true,
@@ -276,6 +403,16 @@
     "link": "https://www.booking.com/hotel/ca/saint-lawrence-residences-and-suites.en-gb.html",
     "name": "Saint Lawrence Residences, Toronto",
     "type": "hotels"
+  },
+  "ikea-etobicoke": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.61806530, -79.53432003",
+    "country": "CA",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Etobicoke",
+    "name": "Etobicoke",
+    "type": "ikea"
   },
   "ikea-north-york": {
     "been": false,
@@ -295,7 +432,8 @@
     "icons": ["🏗"],
     "link": "https://en.wikipedia.org/wiki/North_York_Centre_station",
     "name": "North York Centre",
-    "type": "infill"
+    "type": "infill",
+    "wikidata": "Q773799"
   },
   "intermodal-spadina": {
     "been": false,
@@ -460,12 +598,14 @@
   "loops-fleet": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Fleet_Loop",
     "name": "Fleet",
     "reference": "Toronto",
-    "type": "loops"
+    "type": "loops",
+    "wikidata": "Q16869962"
   },
   "loops-gunns": {
     "been": false,
@@ -680,12 +820,14 @@
   "metro-fonts-toronto-subway": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.670277777, -79.386666666",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Subway_(typeface)",
     "name": "Toronto Subway",
     "reference": "Toronto",
-    "type": "metro-fonts"
+    "type": "metro-fonts",
+    "wikidata": "Q20379"
   },
   "metro-people-kennedy": {
     "been": false,
@@ -696,13 +838,26 @@
     "icons": ["👴"],
     "link": "https://en.wikipedia.org/wiki/Kennedy_station",
     "name": "Kennedy",
+    "type": "metro-people",
+    "wikidata": "Q6389582"
+  },
+  "metro-people-kipling": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.63750000, -79.53555556",
+    "countries": ["CA", "GB"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Kipling_station",
+    "name": "Kipling",
     "type": "metro-people"
   },
   "metro-population-toronto": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "prefix": "86.27",
     "type": "metro-population"
@@ -710,8 +865,10 @@
   "metro-prices-toronto": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "prefix": "$2.30",
     "type": "metro-prices"
@@ -724,17 +881,8 @@
     "icons": ["🚇"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Subway",
     "name": "Toronto",
-    "type": "metros"
-  },
-  "micronations-republic-of-rathnelly": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.68100000, -79.40400000",
-    "country": "CA",
-    "icons": ["🏴‍☠️"],
-    "link": "https://en.wikipedia.org/wiki/Rathnelly",
-    "name": "Republic of Rathnelly",
-    "type": "micronations"
+    "type": "metros",
+    "wikidata": "Q20379"
   },
   "moving-walkways-spadina": {
     "been": false,
@@ -749,8 +897,10 @@
   "music-origins-toronto": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "reference": "Rush",
     "type": "music-origins"
@@ -761,6 +911,7 @@
     "coords": "43.69555556, -79.26083333",
     "country": "CA",
     "icons": ["🎙️"],
+    "link": "https://en.wikipedia.org/wiki/Birchmount_Stadium",
     "name": "Birchmount Stadium",
     "reference": "Barenaked Ladies",
     "type": "music-places"
@@ -771,6 +922,7 @@
     "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🎙️"],
+    "link": "https://en.wikipedia.org/wiki/Toronto",
     "name": "Toronto",
     "reference": "Rush",
     "type": "music-places"
@@ -786,35 +938,18 @@
     "reference": "Toronto",
     "type": "non-revenue"
   },
-  "non-revenue-bathurst-street-": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.67316000, -79.41438000",
-    "country": "CA",
-    "icons": ["💸"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=43.67316_N_79.41438_W",
-    "name": "Bathurst Street ",
-    "reference": "Toronto",
-    "type": "non-revenue"
-  },
-  "open-gangways-2010": {
-    "been": true,
-    "city": "Toronto",
-    "icons": [],
-    "name": "2010",
-    "reference": "Toronto",
-    "type": "open-gangways"
-  },
   "open-gangways-rocket": {
     "been": true,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Rocket",
     "name": "Rocket",
     "prefix": "2010",
     "reference": "Toronto",
-    "type": "open-gangways"
+    "type": "open-gangways",
+    "wikidata": "Q777398"
   },
   "pcc-toronto": {
     "been": false,
@@ -824,7 +959,8 @@
     "icons": ["🚃"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Transportation_Commission",
     "name": "Toronto",
-    "type": "pcc"
+    "type": "pcc",
+    "wikidata": "Q1943823"
   },
   "ports-toronto": {
     "been": true,
@@ -834,22 +970,26 @@
     "icons": ["⚓️"],
     "link": "https://en.wikipedia.org/wiki/Port_of_Toronto",
     "name": "Toronto",
-    "type": "ports"
+    "type": "ports",
+    "wikidata": "Q107036881"
   },
   "projects-toronto-subway-line-5": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Line_5_Eglinton#History",
     "name": "Toronto Subway Line 5",
     "prefix": "2025",
     "reference": "Toronto",
-    "type": "projects"
+    "type": "projects",
+    "wikidata": "Q3239105"
   },
   "projects-toronto-subway-line-6": {
     "been": false,
     "city": "Toronto",
+    "coords": "43.75750000, -79.52305556",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Line_6_Finch_West#History",
@@ -909,6 +1049,18 @@
     "name": "Toronto Union Station",
     "type": "stations"
   },
+  "suburban-go-transit": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65000000, -79.38000000",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/GO_Transit",
+    "name": "GO Transit",
+    "reference": "Toronto",
+    "type": "suburban",
+    "wikidata": "Q1357727"
+  },
   "towers-cn-tower": {
     "been": true,
     "city": "Toronto",
@@ -919,46 +1071,6 @@
     "name": "CN Tower",
     "type": "towers"
   },
-  "tram-interchange-spadina": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.66861111, -79.40472222",
-    "country": "CA",
-    "icons": ["↘️"],
-    "link": "https://en.wikipedia.org/wiki/Spadina_station",
-    "name": "Spadina",
-    "type": "tram-interchange"
-  },
-  "tram-interchange-st-clair": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.68805556, -79.39361111",
-    "country": "CA",
-    "icons": ["↘️"],
-    "link": "https://en.wikipedia.org/wiki/St._Clair_station",
-    "name": "St. Clair",
-    "type": "tram-interchange"
-  },
-  "tram-interchange-st-clair-west": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.68500000, -79.41583333",
-    "country": "CA",
-    "icons": ["↘️"],
-    "link": "https://en.wikipedia.org/wiki/St._Clair_West_station",
-    "name": "St. Clair West",
-    "type": "tram-interchange"
-  },
-  "tram-interchange-union-station": {
-    "been": true,
-    "city": "Toronto",
-    "coords": "43.64555556, -79.38027778",
-    "country": "CA",
-    "icons": ["↘️"],
-    "link": "https://en.wikipedia.org/wiki/Union_station_(TTC)",
-    "name": "Union Station",
-    "type": "tram-interchange"
-  },
   "trams-toronto": {
     "been": false,
     "city": "Toronto",
@@ -967,7 +1079,8 @@
     "icons": ["🚋"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Transit_Commission",
     "name": "Toronto",
-    "type": "trams"
+    "type": "trams",
+    "wikidata": "Q17978"
   },
   "trolleybuses-toronto": {
     "been": true,
@@ -979,7 +1092,8 @@
     "link": "https://en.wikipedia.org/wiki/Toronto_Transit_Commission",
     "name": "Toronto",
     "strike": true,
-    "type": "trolleybuses"
+    "type": "trolleybuses",
+    "wikidata": "Q17978"
   },
   "turntables-toronto-railway-museum": {
     "been": false,
@@ -990,14 +1104,6 @@
     "link": "https://en.wikipedia.org/wiki/Roundhouse_Park",
     "name": "Toronto Railway Museum",
     "type": "turntables"
-  },
-  "twin-cities-toronto": {
-    "been": false,
-    "city": "Toronto",
-    "country": "ZW",
-    "icons": ["🇿🇼"],
-    "name": "Toronto",
-    "type": "twin-cities"
   },
   "twin-cities-toronto-oh": {
     "been": false,

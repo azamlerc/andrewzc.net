@@ -439,6 +439,18 @@
     "name": "Seattle Union Station",
     "type": "stations"
   },
+  "suburban-sounder": {
+    "been": false,
+    "city": "Seattle",
+    "coords": "39.82805556, -101.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sounder_commuter_rail",
+    "name": "Sounder",
+    "reference": "Seattle",
+    "type": "suburban",
+    "wikidata": "Q7564853"
+  },
   "towers-columbia-center": {
     "been": true,
     "city": "Seattle",
@@ -486,6 +498,17 @@
     "link": "https://en.wikipedia.org/wiki/Seattle",
     "name": "Seattle",
     "type": "trolleybuses"
+  },
+  "twin-stations-bellevue": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.61527778, -122.19194444",
+    "country": "US",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Bellevue_Transit_Center",
+    "name": "Bellevue",
+    "reference": "Seattle",
+    "type": "twin-stations"
   },
   "twin-stations-westlake": {
     "been": true,
