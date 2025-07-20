@@ -179,7 +179,7 @@
     "name": "Arles"
   },
   "arras": {
-    "been": false,
+    "been": true,
     "coords": "50.29200000, 2.78000000",
     "country": "FR",
     "icons": ["🇫🇷", "🪖"],
@@ -655,7 +655,8 @@
     "country": "US",
     "icons": ["🇺🇸", "🏙"],
     "link": "https://whc.unesco.org/en/tentativelists/5251/",
-    "name": "Chicago, Early Skyscrapers"
+    "name": "Chicago, Early Skyscrapers",
+    "state": "Early Skyscrapers"
   },
   "chief-roi-matas-domain": {
     "been": false,
@@ -1031,12 +1032,6 @@
     "icons": ["🇮🇳", "⛪️"],
     "link": "https://whc.unesco.org/en/list/234/",
     "name": "Goa"
-  },
-  "goa-churches-and-convents": {
-    "been": false,
-    "country": "IN",
-    "link": "https://whc.unesco.org/en/list/234/",
-    "name": "Goa, Churches and Convents"
   },
   "goreme-national-park": {
     "been": false,
@@ -1727,14 +1722,6 @@
     "icons": ["🇰🇪", "🪖"],
     "link": "https://whc.unesco.org/en/list/1295/",
     "name": "Mombasa, Fort Jesus"
-  },
-  "monasterio-del-escorial": {
-    "been": false,
-    "coords": "40.589167, -4.147778",
-    "country": "ES",
-    "link": "https://en.wikipedia.org/wiki/Monasterio_del_Escorial",
-    "name": "Monasterio del Escorial",
-    "wikidata": "Q28471"
   },
   "mont-dauphin": {
     "been": true,

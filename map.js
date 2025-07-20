@@ -15,6 +15,18 @@ loadScripts([
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
   "https://unpkg.com/leaflet-graticule@0.0.1/Leaflet.Graticule.js"
 ]).then(() => {	
+  let filename = getFilename();
+	fetch(`data/${filename}.json`)
+	  .then(response => response.json())
+	  .then(places => {
+			showPlaces(places, filename);
+		})
+	  .catch(error => {
+	    console.error('Error loading JSON:', error);
+	  });
+});
+
+function showPlaces(places, filename) {
 	let element = document.getElementById('map');
 	let lat = element.getAttribute('lat') || 37;
 	let lon = element.getAttribute('lon') || -40;
@@ -25,117 +37,109 @@ loadScripts([
 	let maxClusterRadius = 60;
   let disableClusteringAtZoom = 10;
   let overrideClick = false;
-  let filename = getFilename();
+
+  let been = !cluster ? L.layerGroup() : L.markerClusterGroup({
+    maxClusterRadius,
+    disableClusteringAtZoom,
+    iconCreateFunction: function (cluster) {
+      return createClusterIcon(cluster, 'been');
+    }
+  });
+
+  let near = !cluster ? L.layerGroup() : L.markerClusterGroup({
+    maxClusterRadius,
+    disableClusteringAtZoom,
+    iconCreateFunction: function (cluster) {
+      return createClusterIcon(cluster, 'near');
+    }
+  });
+
+  let todo = !cluster ? L.layerGroup() : L.markerClusterGroup({
+    maxClusterRadius,
+    disableClusteringAtZoom,
+    iconCreateFunction: function (cluster) {
+      return createClusterIcon(cluster, 'todo');
+    }
+  });
   
-	fetch(`data/${filename}.json`)
-	  .then(response => response.json())
-	  .then(places => {
-      let been = !cluster ? L.layerGroup() : L.markerClusterGroup({
-        maxClusterRadius,
-        disableClusteringAtZoom,
-        iconCreateFunction: function (cluster) {
-          return createClusterIcon(cluster, 'been');
-        }
-      });
+  const darkTiles = L.tileLayer(
+    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    {subdomains: 'abcd', maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors & CartoDB'}
+  );
+  const lightTiles = L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}
+  );
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-      let near = !cluster ? L.layerGroup() : L.markerClusterGroup({
-        maxClusterRadius,
-        disableClusteringAtZoom,
-        iconCreateFunction: function (cluster) {
-          return createClusterIcon(cluster, 'near');
-        }
-      });
+	const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, near, been]});
+	const baseLayers = { 'OpenStreetMap': initialTiles };
+  const graticule = L.latlngGraticule({
+    showLabel: false,
+    color: 'blue',
+    weight: 0.5,
+    opacity: 0.6,
+    zoomInterval: [
+      {start: 2, end: 3, interval: 30},
+      {start: 4, end: 4, interval: 10},
+      {start: 5, end: 10, interval: 1}
+    ]
+  });
 
-      let todo = !cluster ? L.layerGroup() : L.markerClusterGroup({
-        maxClusterRadius,
-        disableClusteringAtZoom,
-        iconCreateFunction: function (cluster) {
-          return createClusterIcon(cluster, 'todo');
-        }
-      });
-      
-      const darkTiles = L.tileLayer(
-        'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-        {subdomains: 'abcd', maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors & CartoDB'}
-      );
-      const lightTiles = L.tileLayer(
-        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-        {maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}
-      );
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const initialTiles = prefersDark ? darkTiles : lightTiles;
+  if (lines) graticule.addTo(map);
+	const overlays = { 'Been': been, 'Near': near, 'Todo': todo, 'Gridlines': graticule };
+	const layerControl = L.control.layers(null, overlays).addTo(map);
+  
+	addMarkers(map, been, places, place => place.been == true && !isNear(place), "markerBeen");
+	addMarkers(map, near, places, place => isNear(place), "markerNear");
+	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
+  
+  if (filename == "route-20") {
+    map.removeLayer(been);
+    map.removeLayer(near);
+    map.removeLayer(todo);
 
-			const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, near, been]});
-			const baseLayers = { 'OpenStreetMap': initialTiles };
-      const graticule = L.latlngGraticule({
-        showLabel: false,
-        color: 'blue',
-        weight: 0.5,
-        opacity: 0.6,
-        zoomInterval: [
-          {start: 2, end: 3, interval: 30},
-          {start: 4, end: 4, interval: 10},
-          {start: 5, end: 10, interval: 1}
-        ]
-      });
-
-      if (lines) graticule.addTo(map);
-			const overlays = { 'Been': been, 'Near': near, 'Todo': todo, 'Gridlines': graticule };
-			const layerControl = L.control.layers(null, overlays).addTo(map);
-      
-    	addMarkers(map, been, places, place => place.been == true && !isNear(place), "markerBeen");
-    	addMarkers(map, near, places, place => isNear(place), "markerNear");
-    	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
-      
-      if (filename == "route-20") {
+    map.on('zoomend', () => {
+      if (map.getZoom() >= 8) {
+        map.addLayer(been);
+        map.addLayer(near);
+        map.addLayer(todo);
+      } else {
         map.removeLayer(been);
         map.removeLayer(near);
         map.removeLayer(todo);
-
-        map.on('zoomend', () => {
-          if (map.getZoom() >= 8) {
-            map.addLayer(been);
-            map.addLayer(near);
-            map.addLayer(todo);
-          } else {
-            map.removeLayer(been);
-            map.removeLayer(near);
-            map.removeLayer(todo);
-          }
-        });
       }
-      
-      if (overrideClick) {
-        been.on('clusterclick', function (a) {
-          const currentZoom = map.getZoom();
-          map.setView(a.latlng, currentZoom + 1);
-        });
+    });
+  }
+  
+  if (overrideClick) {
+    been.on('clusterclick', function (a) {
+      const currentZoom = map.getZoom();
+      map.setView(a.latlng, currentZoom + 1);
+    });
 
-        todo.on('clusterclick', function (a) {
-          const currentZoom = map.getZoom();
-          map.setView(a.latlng, currentZoom  + 1);
-        });
-      }
-      
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-        const isDark = e.matches;
-        if (isDark) {
-          map.removeLayer(lightTiles);
-          map.addLayer(darkTiles);
-        } else {
-          map.removeLayer(darkTiles);
-          map.addLayer(lightTiles);
-        }
-      });
-            
-      var event = new CustomEvent('mapReady', { detail: { map, places } });
-      document.dispatchEvent(event);
-      console.log('Map ready');
-		})
-	  .catch(error => {
-	    console.error('Error loading JSON:', error);
-	  });
-});
+    todo.on('clusterclick', function (a) {
+      const currentZoom = map.getZoom();
+      map.setView(a.latlng, currentZoom  + 1);
+    });
+  }
+  
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    const isDark = e.matches;
+    if (isDark) {
+      map.removeLayer(lightTiles);
+      map.addLayer(darkTiles);
+    } else {
+      map.removeLayer(darkTiles);
+      map.addLayer(lightTiles);
+    }
+  });
+        
+  var event = new CustomEvent('mapReady', { detail: { map, places } });
+  document.dispatchEvent(event);
+  console.log('Map ready');
+}
 
 function createClusterIcon(cluster, type) {
   const count = cluster.getChildCount();

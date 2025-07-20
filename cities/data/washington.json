@@ -70,6 +70,7 @@
     "icons": ["🇲🇰"],
     "link": "https://en.wikipedia.org/wiki/Alexandria,_Virginia",
     "name": "Alexandria, Virginia",
+    "state": "Virginia",
     "type": "alexandria"
   },
   "apple-bethesda-row": {
@@ -655,6 +656,7 @@
     "name": "Moorefield",
     "prefix": "39°N 79°W",
     "reference": "39°N 79°W",
+    "state": "WV",
     "type": "confluence"
   },
   "confluence-silver-spring": {
@@ -667,6 +669,7 @@
     "name": "Silver Spring",
     "prefix": "39°N 77°W",
     "reference": "39°N 77°W",
+    "state": "MD",
     "type": "confluence"
   },
   "copies-chinatown-gate": {
@@ -780,14 +783,36 @@
     "name": "Forest Glenn",
     "type": "elevator-stations"
   },
+  "extremities-andrew-ellicott-park-dc": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89326000, -77.17211000",
+    "country": "US",
+    "icons": ["🧭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.89326_N_77.17211_W",
+    "name": "Andrew Ellicott Park, DC",
+    "state": "DC",
+    "type": "extremities"
+  },
   "extremities-east-west-highway-dc": {
     "been": true,
     "city": "Washington",
     "coords": "38.98411262, -77.09404953",
     "country": "US",
     "icons": ["🧭"],
-    "link": "https://en.wikipedia.org/wiki/East–West_Highway",
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.99535_N_77.04100_W",
     "name": "East-West Highway, DC",
+    "state": "DC",
+    "type": "extremities"
+  },
+  "extremities-eastern-&-southern-aves-dc": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89259000, -76.90914000",
+    "country": "US",
+    "icons": ["🧭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.89259_N_76.90914_W",
+    "name": "Eastern & Southern Aves, DC",
     "state": "DC",
     "type": "extremities"
   },
@@ -1018,6 +1043,7 @@
     "name": "Fort Reno Park",
     "prefix": "125",
     "reference": "Washington, DC",
+    "state": "DC",
     "type": "highest"
   },
   "highway-medians-orange-line": {
@@ -1058,6 +1084,7 @@
     "icons": ["🏨"],
     "link": "https://www.booking.com/hotel/us/washington-2015-massachusetts-avenue.html",
     "name": "Embassy Row, Washington",
+    "state": "Washington",
     "type": "hotels"
   },
   "hotels-marriott-bethesda-downtown": {
@@ -1078,6 +1105,7 @@
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/College_Park,_MD",
     "name": "College Park, MD",
+    "state": "MD",
     "type": "ikea"
   },
   "infill-noma–gallaudet-u": {
@@ -1690,6 +1718,7 @@
     "icons": ["👷‍♂️"],
     "link": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "name": "Washington, DC",
+    "state": "DC",
     "type": "planned"
   },
   "pools-bethesda-pool": {
@@ -2308,6 +2337,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Alexandria,_Virginia",
     "name": "Alexandria, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-arlington-va": {
@@ -2318,6 +2348,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Arlington_County,_Virginia",
     "name": "Arlington, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-bethesda": {
@@ -2338,6 +2369,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Bethesda,_Maryland",
     "name": "Bethesda, MD",
+    "state": "MD",
     "type": "twin-cities"
   },
   "twin-cities-clinton-md": {
@@ -2348,6 +2380,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Clinton,_Maryland",
     "name": "Clinton, MD",
+    "state": "MD",
     "type": "twin-cities"
   },
   "twin-cities-georgetown-dc": {
@@ -2358,6 +2391,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Georgetown_(Washington,_D.C.)",
     "name": "Georgetown, DC",
+    "state": "DC",
     "type": "twin-cities"
   },
   "twin-cities-huntington-va": {
@@ -2368,6 +2402,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Huntington,_Virginia",
     "name": "Huntington, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-kensington-md": {
@@ -2378,6 +2413,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Kensington,_Maryland",
     "name": "Kensington, MD",
+    "state": "MD",
     "type": "twin-cities"
   },
   "twin-cities-mclean-va": {
@@ -2388,6 +2424,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/McLean,_Virginia",
     "name": "McLean, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-mount-pleasant-dc": {
@@ -2398,6 +2435,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Mount_Pleasant,_Washington,_D.C.",
     "name": "Mount Pleasant, DC",
+    "state": "DC",
     "type": "twin-cities"
   },
   "twin-cities-mount-vernon-va": {
@@ -2408,6 +2446,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Mount_Vernon,_Virginia",
     "name": "Mount Vernon, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-rockville-md": {
@@ -2418,6 +2457,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Rockville,_Maryland",
     "name": "Rockville, MD",
+    "state": "MD",
     "type": "twin-cities"
   },
   "twin-cities-rosslyn-va": {
@@ -2428,6 +2468,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Rosslyn,_Virginia",
     "name": "Rosslyn, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-spring-valley-dc": {
@@ -2438,6 +2479,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Spring_Valley_(Washington,_D.C.)",
     "name": "Spring Valley, DC",
+    "state": "DC",
     "type": "twin-cities"
   },
   "twin-cities-springfield-va": {
@@ -2448,6 +2490,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Springfield,_Virginia",
     "name": "Springfield, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-vienna-va": {
@@ -2458,6 +2501,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Vienna,_Virginia",
     "name": "Vienna, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-cities-washington": {
@@ -2477,6 +2521,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Connecticut",
     "name": "Washington, CT",
+    "state": "CT",
     "type": "twin-cities"
   },
   "twin-cities-washington-dc": {
@@ -2487,6 +2532,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "name": "Washington, DC",
+    "state": "DC",
     "type": "twin-cities"
   },
   "twin-cities-washington-in": {
@@ -2495,6 +2541,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Indiana",
     "name": "Washington, IN",
+    "state": "IN",
     "type": "twin-cities"
   },
   "twin-cities-washington-ma": {
@@ -2503,6 +2550,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Massachusetts",
     "name": "Washington, MA",
+    "state": "MA",
     "type": "twin-cities"
   },
   "twin-cities-washington-nj": {
@@ -2512,6 +2560,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington,_New_Jersey",
     "name": "Washington, NJ",
+    "state": "NJ",
     "type": "twin-cities"
   },
   "twin-cities-washington-pa": {
@@ -2521,6 +2570,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Pennsylvania",
     "name": "Washington, PA",
+    "state": "PA",
     "type": "twin-cities"
   },
   "twin-cities-washington-ri": {
@@ -2530,6 +2580,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington_County,_Rhode_Island",
     "name": "Washington, RI",
+    "state": "RI",
     "type": "twin-cities"
   },
   "twin-cities-washington-va": {
@@ -2539,6 +2590,7 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Washington,_Virginia",
     "name": "Washington, VA",
+    "state": "VA",
     "type": "twin-cities"
   },
   "twin-stations-college-park": {

@@ -8,18 +8,13 @@
     "link": "https://en.wikipedia.org/wiki/Aflao",
     "name": "Aflao"
   },
-  "alt-glienicke": {
-    "been": true,
-    "coords": "52.41218°N, 13.52373°E",
-    "country": "DE",
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.41218_N_13.52373_E",
-    "name": "Alt Glienicke"
-  },
   "andrew-ellicott-park-dc": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.89326000, -77.17211000",
     "country": "US",
     "icons": ["🇺🇸", "⬅️"],
-    "link": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Parks/Andrew-Ellicott-Park-at-the-West-Cornerstone",
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.89326_N_77.17211_W",
     "name": "Andrew Ellicott Park, DC",
     "state": "DC"
   },
@@ -31,13 +26,6 @@
     "link": "https://en.wikipedia.org/wiki/Assateague_Island",
     "name": "Assateague, VA",
     "state": "VA"
-  },
-  "bad-bambach": {
-    "been": false,
-    "coords": "50.17141°N, 12.33210°E",
-    "country": "DE",
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.17141_N_12.33210_E",
-    "name": "Bad Bambach"
   },
   "bad-brambach": {
     "been": true,
@@ -80,6 +68,24 @@
     "icons": ["🇭🇷", "⬅️"],
     "link": "https://en.wikipedia.org/wiki/Ba%C5%A1anija",
     "name": "Bašanija"
+  },
+  "beecher-falls-vt": {
+    "been": false,
+    "coords": "45.01361111, -71.46500000",
+    "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_00_49_N_71_27_54_W",
+    "name": "Beecher Falls, VT",
+    "state": "VT"
+  },
+  "berkshire-vt": {
+    "been": false,
+    "coords": "45.01666667, -72.84694444",
+    "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_01_00_N_72_50_49_W",
+    "name": "Berkshire, VT",
+    "state": "VT"
   },
   "big-diomede": {
     "been": false,
@@ -125,6 +131,15 @@
     "icons": ["🇫🇷", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Bray-Dunes",
     "name": "Bray-Dunes"
+  },
+  "bridport-vt": {
+    "been": false,
+    "coords": "44.04722222, -73.42416667",
+    "country": "US",
+    "icons": ["🇺🇸", "➡️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44_02_50_N_73_25_27_W",
+    "name": "Bridport, VT",
+    "state": "VT"
   },
   "brownsville-tx": {
     "been": false,
@@ -460,6 +475,7 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Cedar_Island_Wildlife_Management_Area",
     "name": "Cedar Island, MD",
     "state": "MD"
   },
@@ -495,8 +511,17 @@
     "coords": "39.32027778, -78.29333333",
     "country": "US",
     "icons": ["🇺🇸", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/Cross_Junction,_VA",
+    "link": "https://en.wikipedia.org/wiki/Cross_Junction,_Virginia",
     "name": "Cross Junction, VA",
+    "state": "VA"
+  },
+  "cumberland-gap-va": {
+    "been": false,
+    "coords": "36.60083333, -83.67527778",
+    "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36_36_03_N_83_40_31_W",
+    "name": "Cumberland Gap, VA",
     "state": "VA"
   },
   "cumberland-md": {
@@ -504,7 +529,7 @@
     "coords": "39.63888889, -78.74166667",
     "country": "US",
     "icons": ["🇺🇸", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/Cumberland,_MD",
+    "link": "https://en.wikipedia.org/wiki/Cumerland,_Maryland",
     "name": "Cumberland, MD",
     "state": "MD"
   },
@@ -516,6 +541,15 @@
     "link": "https://en.wikipedia.org/wiki/Cumberland,_Rhode_Island",
     "name": "Cumberland, RI",
     "state": "RI"
+  },
+  "danville-va": {
+    "been": false,
+    "coords": "36.54083333, -79.53833333",
+    "country": "US",
+    "icons": ["🇺🇸", "⬇️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=36_32_27_N_79_32_18_W",
+    "name": "Danville, VA",
+    "state": "VA"
   },
   "de-panne": {
     "been": true,
@@ -569,11 +603,13 @@
     "name": "Dover, TN",
     "state": "TN"
   },
-  "dracut-nh-(10-km)": {
+  "dracut-nh": {
     "been": true,
     "country": "US",
     "icons": ["🇺🇸", "⬇️"],
-    "name": "Dracut, NH (10 km)",
+    "info": "(10 km)",
+    "link": "https://en.wikipedia.org/wiki/Dracut,_New_Hampshire",
+    "name": "Dracut, NH",
     "state": "NH"
   },
   "dunnet-head": {
@@ -600,7 +636,7 @@
     "coords": "38.984112618384, -77.094049529207",
     "country": "US",
     "icons": ["🇺🇸", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/East–West_Highway",
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.99535_N_77.04100_W",
     "name": "East-West Highway, DC",
     "state": "DC",
     "wikidata": "Q2480502"
@@ -616,9 +652,11 @@
   },
   "eastern-&-southern-aves-dc": {
     "been": true,
+    "city": "Washington",
+    "coords": "38.89259000, -76.90914000",
     "country": "US",
     "icons": ["🇺🇸", "➡️"],
-    "link": "",
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.89259_N_76.90914_W",
     "name": "Eastern & Southern Aves, DC",
     "state": "DC"
   },
@@ -630,6 +668,14 @@
     "link": "https://en.wikipedia.org/wiki/Eilat",
     "name": "Eilat",
     "reference": "town"
+  },
+  "eisenkappel-vellach": {
+    "been": false,
+    "coords": "46.48638889, 14.59611111",
+    "country": "AT",
+    "icons": ["🇦🇹", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Eisenkappel-Vellach",
+    "name": "Eisenkappel-Vellach"
   },
   "el-pas-de-la-casa": {
     "been": true,
@@ -656,6 +702,15 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=50.56466_N_10.12052_E",
     "name": "Erbenhausen",
     "reference": "Bavaria"
+  },
+  "erie-pa": {
+    "been": false,
+    "coords": "42.51416667, -79.76250000",
+    "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_30_51_N_79_45_45_W",
+    "name": "Erie, PA",
+    "state": "PA"
   },
   "eu": {
     "been": true,
@@ -731,6 +786,7 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Fort_Foster,_Maine",
     "name": "Fort Foster, ME",
     "state": "ME"
   },
@@ -830,11 +886,14 @@
     "link": "https://en.wikipedia.org/wiki/Guain%C3%ADa_Department",
     "name": "Guainía"
   },
-  "hanover-pa-(5-km)": {
+  "hanover-pa": {
     "been": true,
+    "coords": "39.80722222, -76.98472222",
     "country": "US",
     "icons": ["🇺🇸", "⬇️"],
-    "name": "Hanover, PA (5 km)",
+    "info": "(5 km)",
+    "link": "https://en.wikipedia.org/wiki/Hanover,_Pennsylvania",
+    "name": "Hanover, PA",
     "state": "PA"
   },
   "harpers-ferry-wv": {
@@ -921,6 +980,14 @@
     "link": "https://de.wikipedia.org/wiki/Isenbruch",
     "name": "Isenbruch",
     "wikidata": "Q1673809"
+  },
+  "jastrzebia-gora": {
+    "been": false,
+    "coords": "54.83138889, 18.31277778",
+    "country": "PL",
+    "icons": ["🇵🇱", "⬆️"],
+    "link": "https://en.wikipedia.org/wiki/Jastrzębia_Góra",
+    "name": "Jastrzębia Góra"
   },
   "joao-pessoa": {
     "been": false,
@@ -1136,7 +1203,7 @@
     "coords": "41.50000000, -71.16666667",
     "country": "US",
     "icons": ["🇺🇸", "➡️"],
-    "link": "https://en.wikipedia.org/wiki/Little_Compton,_RI",
+    "link": "https://en.wikipedia.org/wiki/Little_Compton,_Rhode_Island",
     "name": "Little Compton, RI",
     "state": "RI"
   },
@@ -1212,6 +1279,15 @@
     "link": "https://en.wikipedia.org/wiki/Metula",
     "name": "Metula",
     "reference": "town"
+  },
+  "mina-ny": {
+    "been": false,
+    "coords": "42.13944444, -79.76194444",
+    "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_08_22_N_79_45_43_W",
+    "name": "Mina, NY",
+    "state": "NY"
   },
   "mono-river": {
     "been": true,
@@ -1300,6 +1376,15 @@
     "name": "New Castle, NH",
     "state": "NH"
   },
+  "new-freport-pa": {
+    "been": false,
+    "coords": "39.74416667, -80.51944444",
+    "country": "US",
+    "icons": ["🇺🇸", "⬅️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=39_44_39_N_80_31_10_W",
+    "name": "New Freport, PA",
+    "state": "PA"
+  },
   "nida": {
     "been": false,
     "coords": "55.30333333, 21.00555556",
@@ -1376,7 +1461,7 @@
     "been": false,
     "coords": "52.85138889, 14.14555556",
     "country": "PL",
-    "icons": ["🇵🇱", "⬅️"],
+    "icons": ["🇵🇱", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Osinów_Dolny",
     "name": "Osinów Dolny"
   },
@@ -1441,6 +1526,23 @@
     "link": "https://en.wikipedia.org/wiki/Perdido_River",
     "name": "Perdido River, FL",
     "state": "FL"
+  },
+  "pittsburg-nh": {
+    "been": false,
+    "coords": "45.30583333, -71.08583333",
+    "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?pagename=params=45_18_21_N_71_05_09_W",
+    "name": "Pittsburg, NH",
+    "state": "NH"
+  },
+  "piz-chavalatsch": {
+    "been": false,
+    "coords": "46.61530556, 10.49202778",
+    "country": "CH",
+    "icons": ["🇨🇭", "➡️"],
+    "link": "https://en.wikipedia.org/wiki/Piz_Chavalatsch",
+    "name": "Piz Chavalatsch"
   },
   "point-barrow": {
     "been": false,
@@ -1651,6 +1753,14 @@
     "name": "Rose Atoll",
     "reference": "US territory"
   },
+  "rottumerplaat": {
+    "been": false,
+    "coords": "53.54166667, 6.48083333",
+    "country": "NL",
+    "icons": ["🇳🇱", "⬆️"],
+    "link": "https://en.wikipedia.org/wiki/Rottumerplaat",
+    "name": "Rottumerplaat"
+  },
   "ruggell": {
     "been": false,
     "coords": "47.24333333, 9.53000000",
@@ -1673,7 +1783,7 @@
     "coords": "41.98500000, -73.42222222",
     "country": "US",
     "icons": ["🇺🇸", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/Salisbury,_CT",
+    "link": "https://en.wikipedia.org/wiki/Salisbury,_Connecticut",
     "name": "Salisbury, CT",
     "state": "CT"
   },
@@ -1797,7 +1907,7 @@
     "coords": "42.1606455, -73.4162261",
     "country": "US",
     "icons": ["🇺🇸", "⬅️"],
-    "link": "https://en.wikipedia.org/wiki/South_Egremont,_MA",
+    "link": "https://en.wikipedia.org/wiki/South_Egremont,_Massachusetts",
     "name": "South Egremont, MA",
     "state": "MA",
     "wikidata": "Q122561357"
@@ -1869,6 +1979,15 @@
     "icons": ["🇮🇹", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Testa_Gemella_Occidentale",
     "name": "Testa Gemella Occidentale"
+  },
+  "thousand-islands-ny": {
+    "been": false,
+    "coords": "45.01583333, -74.82666667",
+    "country": "US",
+    "icons": ["🇺🇸", "⬆️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45_00_57_N_74_49_36_W",
+    "name": "Thousand Islands, NY",
+    "state": "NY"
   },
   "tierra-del-fuego": {
     "been": false,
@@ -1951,7 +2070,7 @@
     "coords": "42.76833333, -72.51916667",
     "country": "US",
     "icons": ["🇺🇸", "⬇️"],
-    "link": "https://en.wikipedia.org/wiki/Vernon,_VT",
+    "link": "https://geohack.toolforge.org/geohack.php?params=42_43_37_N_72_27_30_W",
     "name": "Vernon, VT",
     "state": "VT"
   },
@@ -2059,6 +2178,16 @@
     "name": "Wilsons Promontory",
     "reference": "mainland"
   },
+  "wołosate": {
+    "been": false,
+    "coords": "49.05472222, 22.69527778",
+    "country": "PL",
+    "icons": ["🇵🇱", "⬇️"],
+    "info": "(40 km)",
+    "link": "https://en.wikipedia.org/wiki/Wołosate",
+    "name": "Wołosate",
+    "reference": "40 km"
+  },
   "zahorska-ves": {
     "been": true,
     "coords": "48.38, 16.8444",
@@ -2075,5 +2204,13 @@
     "icons": ["🇩🇪", "➡️"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.27295_N_15.04178_E",
     "name": "Zentendorf"
+  },
+  "zosin": {
+    "been": false,
+    "coords": "50.85000000, 24.10000000",
+    "country": "PL",
+    "icons": ["🇵🇱", "⬅️"],
+    "link": "https://en.wikipedia.org/wiki/Zosin,_Hrubieszów_County",
+    "name": "Zosin"
   }
 }
