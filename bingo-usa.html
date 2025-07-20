@@ -182,7 +182,10 @@
       })
     }
     
-    mapPlaces.forEach(place => place.icons.unshift(place.pageIcon));
+    mapPlaces.forEach(place => {
+      if (place.pageIcon == "🧭") place.icons.reverse();
+      else place.icons.unshift(place.pageIcon);
+    });
     showPlaces(mapPlaces);
   })();
     
