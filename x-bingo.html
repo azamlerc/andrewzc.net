@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>✅ Bingo</title>
+	<meta charset="UTF-8">
+	<meta name="andrewzc" content="exclude" />
+	<meta name="viewport" content="width=800" />
+	<link rel="stylesheet" href="styles.css">
+  <style>
+    
+    td {
+      white-space: nowrap;
+    }
+  
+    th {
+      text-align: center;
+      
+    }
+    table {
+      border-spacing: 0px;
+    }
+
+    .countries tr td:not(:first-child) {
+      width: 109px;
+      opacity: 0.8;
+    }
+
+    .states tr td:not(:first-child) {
+      width: 72px;
+      opacity: 0.8;
+    }
+
+  
+.ratio {
+  text-align: center;
+  color: #444;
+}  
+   
+ 
+  </style>
+</head>
+<body>
+	<div class="headline">
+    ✅ Bingo
+	</div>
+	<div class="caption">
+
+<table id="table" class="countries">
+<tr>
+	<th></th>
+	<th><div class="tooltip"><a href="countries/austria.html">🇦🇹</a><span class="tooltiptext">Austria</span></div></th>
+	<th><div class="tooltip"><a href="countries/belgium.html">🇧🇪</a><span class="tooltiptext">Belgium</span></div></th>
+	<th><div class="tooltip"><a href="countries/czechia.html">🇨🇿</a><span class="tooltiptext">Czechia</span></div></th>
+	<th><div class="tooltip"><a href="countries/france.html">🇫🇷</a><span class="tooltiptext">France</span></div></th>
+	<th><div class="tooltip"><a href="countries/germany.html">🇩🇪</a><span class="tooltiptext">Germany</span></div></th>
+	<th><div class="tooltip"><a href="countries/luxembourg.html">🇱🇺</a><span class="tooltiptext">Luxembourg</span></div></th>
+	<th><div class="tooltip"><a href="countries/netherlands.html">🇳🇱</a><span class="tooltiptext">Netherlands</span></div></th>
+	<th><div class="tooltip"><a href="countries/switzerland.html">🇨🇭</a><span class="tooltiptext">Switzerland</span></div></th>
+	<th><div class="tooltip"><a href="countries/switzerland.html">🇵🇱</a><span class="tooltiptext">Poland</span></div></th>
+	<th><div class="tooltip"><a href="countries/switzerland.html">🇸🇰</a><span class="tooltiptext">Slovakia</span></div></th>
+	<th><div class="tooltip"><a href="countries/switzerland.html">🇭🇺</a><span class="tooltiptext">Hungary</span></div></th>
+</tr>
+<tr>
+  <td>🏛 <a href="capitals.html">Capitals</a></td>
+</tr>
+<tr>
+  <td>🏔️ <a href="highest.html">Highest</a></td>
+</tr>
+<tr>
+  <td>🤿 <a href="lowest.html">Lowest</a></td>
+</tr>
+<tr>
+  <td>🧭 <a href="extremities.html">Extremeties</a>&nbsp;&nbsp;</td>
+</tr>
+<tr>
+  <td>🚩 <a href="tripoints.html">Tripoints</a></td>
+</tr>
+<tr>
+  <td>🚸 <a href="confluence.html">Confluence</a></td>
+</tr>
+<tr>
+  <td>🇺🇳 <a href="unesco.html">Heritage</a></td>
+</tr>
+</table>
+<br>
+<div id="map" lat="49.7" lon="7" zoom="5" style="width: 1106px; height: 600px;"></div><script src="map.js"></script>
+
+<div class="smallSpace"><br></div>
+<a name="capitals"></a> 🏛 <a href="../capitals.html" class="link">Capitals</a><br>
+<div id="capitals-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="highest"></a> 🏔️ <a href="../highest.html" class="link">Highest</a><br>
+<div id="highest-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="lowest"></a> 🤿 <a href="../lowest.html" class="link">Lowest</a><br>
+<div id="lowest-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="extremities"></a> 🧭 <a href="../lowest.html" class="link">Extremities</a><br>
+<div id="extremities-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="tripoints"></a> 🚩 <a href="../tripoints.html" class="link">Tripoints</a><br>
+<div id="tripoints-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="confluence"></a> 🚸 <a href="../confluence.html" class="link">Confluence</a><br>
+<div id="confluence-list"></div>
+
+<div class="smallSpace"><br></div>
+<a name="unesco"></a> 🇺🇳 <a href="../unesco.html" class="link">Heritage</a><br>
+<div id="unesco-list"></div>
+
+	</div>
+<script>
+  
+  let mapPlaces = [];
+  
+  const countries = ["🇦🇹", "🇧🇪", "🇨🇿", "🇫🇷", "🇩🇪", "🇱🇺", "🇳🇱", "🇨🇭", "🇵🇱", "🇸🇰", "🇭🇺"];
+  const pageIcons = ["🏛", "🏔️", "🤿", "🧭", "🚩", "🚸", "🇺🇳"];
+  const pages = ["capitals", "highest", "lowest", "extremities", "tripoints", "confluence", "unesco"];
+  const hideTotal = ["capitals", "highest", "lowest", "extremities"];
+  const confluenceTotals = [12, 4, 10, 78, 48, 1, 4, 5, 41, 6, 11];
+  const directionOrder = ["⬆️", "➡️", "⬇️", "⬅️"];
+  
+  (async function loadBingo() {
+    const promises = pages.map(async (page, pageIndex) => {
+      let pageData = await loadData(page);
+      let pagePlaces = Object.values(pageData);
+      let pageName = pages[pageIndex];
+      let all = [];
+      let byCountry = countries.map(flag => {
+        let countryPlaces = pagePlaces.filter(place => place.icons?.includes(flag) && (!place.reference || place.reference.includes(" km")));
+
+        if (pageName == "extremities") countryPlaces.sort((a, b) => directionOrder.indexOf(a.icons[1]) - directionOrder.indexOf(b.icons[1]));
+        else if (pageName == "confluence") sortByCoords(countryPlaces);
+        else countryPlaces.sort((a, b) => a.been !== b.been ? b.been - a.been : a.name.localeCompare(b.name));
+
+        countryPlaces.forEach(place => {
+          if (!place.added) all.push(place);
+          place.added = true;
+        });
+        return countryPlaces;
+      });
+      if (pageName == "tripoints") all.sort((a, b) => b.been - a.been);
+      else if (pageName == "highest") all.sort((a, b) => Number(b.prefix) - Number(a.prefix));
+      else if (pageName == "lowest") all.sort((a, b) => Number(a.prefix.replace("–", "-")) - Number(b.prefix.replace("–", "-")));
+      all.forEach(place => place.pageIcon = pageIcons[pageIndex]);
+      mapPlaces = mapPlaces.concat(all);
+      return {all, byCountry}
+    });
+  
+    let bingo = await Promise.all(promises);
+    console.log(bingo);
+  
+    for (r = 1; r < table.rows.length; r++) {
+      let row = table.rows[r];
+      let pageName = pages[r - 1];
+      let pageIcon = pageIcons[r - 1];
+      let list = document.getElementById(`${pageName}-list`);
+
+      bingo[r - 1].byCountry.forEach((places, p) => {
+        let cell = row.insertCell();
+        cell.classList.add("ratio");
+        let visited = places.filter(place => place.been).length;
+        let total = places.length;
+        if (pageName == "extremities") total = 4;
+        else if (pageName == "confluence") total = confluenceTotals[p];
+        let color = visited && total ? `rgba(0, 200, 0, ${visited * 1.0 / total})` : "rgba(255, 0, 0, 0.30)";
+        cell.style.backgroundColor = color;
+        cell.innerHTML = visited == total || hideTotal.includes(pageName) ? visited : `${visited}/${total}`;
+      });
+    
+      bingo[r - 1].all.forEach(place => {
+        let icons = place.icons.join(" ");
+        if (!place.been) icons = `<span class="todo">${icons}</span>`;
+        let prefix = place.prefix ? `<span class="airport">${place.prefix}</span> ` : "";
+        list.innerHTML += `${prefix} ${icons} ${place.name}<br>\n`;
+      })
+    }
+    
+    mapPlaces.forEach(place => {
+      if (place.pageIcon == "🧭") place.icons.reverse();
+      else place.icons.unshift(place.pageIcon);
+    });
+    showPlaces(mapPlaces);
+  })();
+    
+  async function loadData(filename) {
+  	const json = fetch(`data/${filename}.json`).then(response => response.json());
+    return json;
+  }
+  
+  function sortByCoords(locations) {
+    return locations.sort((a, b) => {
+      const [latA, lonA] = a.coords.split(', ').map(Number);
+      const [latB, lonB] = b.coords.split(', ').map(Number);
+      if (latA !== latB) {
+        return latB - latA;
+      }
+      return lonA - lonB;
+    });
+  }
+  
+</script>
+</body>
+</html>

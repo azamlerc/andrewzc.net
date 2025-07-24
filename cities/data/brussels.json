@@ -89,7 +89,7 @@
     "type": "belgium"
   },
   "bi-articulated-brussels": {
-    "been": false,
+    "been": true,
     "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
@@ -1518,6 +1518,29 @@
     "name": "Weststation",
     "reference": "Brussels",
     "type": "split-platform"
+  },
+  "squares-grand-place": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
+    "country": "BE",
+    "icons": ["⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Grand_Place,_Brussels",
+    "name": "Grand Place",
+    "reference": "Brussels",
+    "type": "squares"
+  },
+  "squares-grote-markt": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "51.02777800, 4.48027800",
+    "country": "BE",
+    "icons": ["⛲️"],
+    "link": "https://nl.wikipedia.org/wiki/Grote_Markt_(Mechelen)",
+    "name": "Grote Markt",
+    "reference": "Mechelen",
+    "type": "squares",
+    "wikidata": "Q215429"
   },
   "stadiums-stade-roi-baudouin": {
     "been": true,
