@@ -518,7 +518,9 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Stapleton_International_Airport",
-    "name": "Denver Stapleton"
+    "name": "Denver Stapleton",
+    "prefix": "DEN",
+    "strike": true
   },
   "dillons-bay": {
     "been": true,
@@ -1482,6 +1484,16 @@
     "link": "https://en.wikipedia.org/wiki/New_Chitose_Airport",
     "name": "Sapporo Chitose",
     "prefix": "CTS"
+  },
+  "seattle-lake-union": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.62888889, -122.33861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kenmore_Air_Harbor_Seaplane_Base",
+    "name": "Seattle Lake Union",
+    "prefix": "KLE"
   },
   "seattle-tacoma": {
     "been": true,
