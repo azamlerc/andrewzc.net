@@ -1,4 +1,25 @@
 {
+  "airports-tallinn": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.41333333, 24.83250000",
+    "country": "EE",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Tallinn_Airport",
+    "name": "Tallinn",
+    "prefix": "TLL",
+    "type": "airports"
+  },
+  "beaches-pikakari": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.47615000, 24.71912000",
+    "country": "EE",
+    "icons": ["🏖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.47615_N_24.71912_E",
+    "name": "Pikakari",
+    "type": "beaches"
+  },
   "cable-landings-tallinn": {
     "been": true,
     "city": "Tallinn",
@@ -27,6 +48,36 @@
     "link": "https://en.wikipedia.org/wiki/Tallinn",
     "name": "Talinn",
     "type": "castles"
+  },
+  "castles-toompea-castle": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.43560000, 24.73720000",
+    "country": "EE",
+    "icons": ["🏰"],
+    "link": "https://en.wikipedia.org/wiki/Toompea_Castle",
+    "name": "Toompea Castle",
+    "type": "castles"
+  },
+  "cathedrals-alexander-nevsky-tallinn": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.43583333, 24.73936111",
+    "country": "EE",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral,_Tallinn",
+    "name": "Alexander Nevsky, Tallinn",
+    "type": "cathedrals"
+  },
+  "cathedrals-saint-marys-tallinn": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.43710000, 24.73900000",
+    "country": "EE",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/St._Mary%27s_Cathedral,_Tallinn",
+    "name": "Saint Mary’s, Tallinn",
+    "type": "cathedrals"
   },
   "culture-tallinn": {
     "been": true,
@@ -231,6 +282,16 @@
     "reference": "Tallinn",
     "type": "projects"
   },
+  "spas-elamus-spa": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.39965000, 24.66498000",
+    "country": "EE",
+    "icons": ["♨️"],
+    "link": "https://elamusspa.ee/en/elamus-spa/",
+    "name": "Elamus Spa",
+    "type": "spas"
+  },
   "stations-talinn": {
     "been": true,
     "city": "Tallinn",
@@ -240,6 +301,27 @@
     "link": "https://en.wikipedia.org/wiki/Tallinn_Baltic_Station",
     "name": "Talinn",
     "type": "stations"
+  },
+  "towers-tallinn-tv-tower": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.47120556, 24.88750000",
+    "country": "EE",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Tallinn_TV_Tower",
+    "name": "Tallinn TV Tower",
+    "type": "towers"
+  },
+  "towers-tornimae-building-complex": {
+    "been": false,
+    "city": "Tallinn",
+    "coords": "59.43303797, 24.76086542",
+    "country": "EE",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Tornimäe_Building_Complex",
+    "name": "Tornimäe Building Complex",
+    "type": "towers",
+    "wikidata": "Q12646525"
   },
   "trams-tallinn": {
     "been": false,

@@ -553,3 +553,10 @@ a {
 .marker-cluster-todo div {
   background-color: #BA373E;
 }
+
+input[type="checkbox"].bingo {
+  transform: scale(1.5);
+  vertical-align: middle;
+  margin-right: 6px;
+  cursor: pointer;
+}

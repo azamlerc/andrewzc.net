@@ -983,6 +983,14 @@
     "link": "https://en.wikipedia.org/wiki/Elwha_River",
     "name": "Elwha"
   },
+  "emajogi": {
+    "been": false,
+    "coords": "58.43930000, 27.24540000",
+    "country": "EE",
+    "icons": ["🇪🇪"],
+    "link": "https://en.wikipedia.org/wiki/Emajõgi",
+    "name": "Emajõgi"
+  },
   "esopus-creek": {
     "been": true,
     "coords": "42.01527778, -74.41250000",
@@ -1106,6 +1114,15 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Garonne",
     "name": "Garonne"
+  },
+  "gauja": {
+    "been": false,
+    "coords": "57.15930000, 24.26630000",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "info": "→ Baltic",
+    "link": "https://en.wikipedia.org/wiki/Gauja",
+    "name": "Gauja"
   },
   "genesee": {
     "been": true,
@@ -1548,6 +1565,15 @@
     "info": "→ Columbia",
     "link": "https://en.wikipedia.org/wiki/Allegheny_River",
     "name": "Lewis"
+  },
+  "lielupe": {
+    "been": false,
+    "coords": "57.00861111, 23.93305556",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "info": "→ Baltic",
+    "link": "https://en.wikipedia.org/wiki/Lielupe",
+    "name": "Lielupe"
   },
   "limpopo": {
     "been": false,
@@ -2015,10 +2041,22 @@
   "neman": {
     "been": false,
     "coords": "55.33666667, 21.24722222",
+    "countries": ["BY", "LT", "RU"],
     "country": "LT",
-    "icons": ["🇱🇹"],
+    "icons": ["🇧🇾", "🇱🇹", "🇷🇺"],
+    "info": "→ Baltic",
     "link": "https://en.wikipedia.org/wiki/Neman",
     "name": "Neman"
+  },
+  "neris": {
+    "been": false,
+    "city": "Kaunas",
+    "coords": "54.90027778, 23.87416667",
+    "countries": ["BY", "LT"],
+    "icons": ["🇧🇾", "🇱🇹"],
+    "info": "→ Neman",
+    "link": "https://en.wikipedia.org/wiki/Neris",
+    "name": "Neris"
   },
   "nervion": {
     "been": false,
@@ -2302,6 +2340,15 @@
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Paraopeba_River",
     "name": "Paraopeba"
+  },
+  "parnu": {
+    "been": false,
+    "coords": "58.37722222, 24.47611111",
+    "country": "EE",
+    "icons": ["🇪🇪"],
+    "info": "→ Baltic",
+    "link": "https://en.wikipedia.org/wiki/Pärnu_(river)",
+    "name": "Pärnu"
   },
   "parrett": {
     "been": true,
@@ -2885,6 +2932,7 @@
     "coords": "55.05416667, 22.20027778",
     "countries": ["LT", "RU"],
     "icons": ["🇱🇹", "🇷🇺"],
+    "info": "→ Neman",
     "link": "https://en.wikipedia.org/wiki/%C5%A0e%C5%A1up%C4%97",
     "name": "Šešupė"
   },

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🇪🇪 Baltic Bingo</title>
+  <meta charset="UTF-8">
+	<meta name="andrewzc" content="exclude" />
+  <meta name="viewport" content="width=800">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    td { white-space: nowrap; }
+    th { text-align: center; }
+    table { border-spacing: 0px; }
+    .countries tr td:not(:first-child) { width: 130px; opacity: 0.8; }
+    .states tr td:not(:first-child) { width: 72px; opacity: 0.8; }
+    .ratio { text-align: center; color: #444; }
+  </style>
+</head>
+<body>
+<div class="headline">
+  🇪🇪 Baltic Bingo
+</div>
+<div class="caption">
+  <table id="table" class="countries"></table>
+  <br>
+  <div id="map" lat="57" lon="24.5" zoom="7" cluster="false" style="height: 1050px;"></div>
+  <script src="map.js"></script>
+  <div id="lists"></div>
+</div>
+<script src="bingo.js"></script>
+<script>
+
+const places = [
+  { key: "estonia", name: "Estonia", icon: "🇪🇪", confluences: 6 },
+  { key: "latvia", name: "Latvia", icon: "🇱🇻", confluences: 9 },
+  { key: "lithuania", name: "Lithuania", icon: "🇱🇹", confluences: 9 },
+];
+
+const pages = [
+  { key: "capitals", name: "Capitals", icon: "🏛", hideTotal: true },
+  { key: "highest", name: "Highest", icon: "🏔️", hideTotal: true, sort: "reversePrefix" },
+  { key: "lowest", name: "Lowest", icon: "🤿", hideTotal: true, sort: "prefix" },
+  { key: "extremities", name: "Extremities", icon: "🧭", hideTotal: true, fixedTotal: 4, extra: ["Lavry"] },
+  { key: "tripoints", name: "Tripoints", icon: "🚩", sort: "been" },
+  { key: "confluence", name: "Confluence", icon: "🚸", 
+    include: ["Płociczno", "Sovyetsk", "Mukvyatitsa"], 
+    exclude: ["Žvirblaičiai", "Drąsučiai", "Valdeikiai", "Rulli", "Mālpils", "Vadi", "Lau", "Mieriņi"]},
+  { key: "unesco", name: "Heritage", icon: "🇺🇳" },
+  { key: "struve", name: "Struve", icon: "📐" },
+  { key: "beaches", name: "Beaches", icon: "🏖️", hide: true, exclude: ["Ventspils", "Narva-Jõesuu", "Inčupe"] },
+
+  { key: "enclaves", name: "Enclaves", icon: "🍩", hide: true, 
+    include: ["Kaliningrad"] },
+  { key: "salients", name: "Salients", icon: "🍳", hide: true },
+  { key: "short-coastline", name: "Short Coastline", icon: "🏖️", hide: true },
+
+  { key: "cable-cars", name: "Cable Cars", icon: "🚡", hide: true },
+  { key: "funiculars", name: "Funiculars", icon: "🚠", hide: true },
+  { key: "ports", name: "Ports", icon: "⚓️", hide: true },
+  { key: "trams", name: "Trams", icon: "🚋", hide: true },
+  { key: "trolleybuses", name: "Trolleybuses", icon: "🚎", hide: true },
+
+  { key: "planned", name: "Planned Cities", icon: "👷‍♂️", hide: true },
+  { key: "closed-cities", name: "Closed Cities", icon: "⛔", hide: true, exclude: ["Sillamäe"] },
+  { key: "cathedrals", name: "Cathedrals", icon: "⛪️", hide: true },
+  { key: "castles", name: "Castles", icon: "🏰", hide: true,
+    exclude: ["Bauska Castle"] },
+  { key: "forts", name: "Forts", icon: "🪖", hide: true },
+  { key: "ikea", name: "IKEA", icon: "🇸🇪", hide: true },
+  { key: "lighthouses", name: "Lighthouses", icon: "🕯️", hide: true, 
+    exclude: ["Kiipsaare", "Kõpu", "Ristna", "Vilsandi", "Mērsrags", "Ainaži"] },
+  { key: "spas", name: "Spas", icon: "♨️", hide: true },
+  { key: "stations", name: "Stations", icon: "🚉", hide: true },
+  { key: "towers", name: "Towers", icon: "🗼", hide: true },
+
+];
+
+(async function init() {
+  createHeader();
+  await bingoMain("countries");
+  showPlaces(mapPlaces);
+})();
+
+</script>
+</body>
+</html>

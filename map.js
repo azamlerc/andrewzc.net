@@ -26,6 +26,29 @@ loadScripts([
 	  });
 });
 
+const markerLayers = [
+	{
+		key: "been",
+		name: "Been",
+		filter: p => p.been == true && !isNear(p),
+		tag: "markerBeen"
+	},
+	{
+		key: "near",
+		name: "Near",
+		filter: p => isNear(p),
+		tag: "markerNear"
+	},
+	{
+		key: "todo",
+		name: "Todo",
+		filter: p => p.been == false && !isNear(p),
+		tag: "markerTodo"
+	}
+];
+
+let map;
+
 function showPlaces(places, filename) {
 	let element = document.getElementById('map');
 	let lat = element.getAttribute('lat') || 37;
@@ -38,29 +61,15 @@ function showPlaces(places, filename) {
   let disableClusteringAtZoom = 10;
   let overrideClick = false;
 
-  let been = !cluster ? L.layerGroup() : L.markerClusterGroup({
-    maxClusterRadius,
-    disableClusteringAtZoom,
-    iconCreateFunction: function (cluster) {
-      return createClusterIcon(cluster, 'been');
-    }
-  });
-
-  let near = !cluster ? L.layerGroup() : L.markerClusterGroup({
-    maxClusterRadius,
-    disableClusteringAtZoom,
-    iconCreateFunction: function (cluster) {
-      return createClusterIcon(cluster, 'near');
-    }
-  });
-
-  let todo = !cluster ? L.layerGroup() : L.markerClusterGroup({
-    maxClusterRadius,
-    disableClusteringAtZoom,
-    iconCreateFunction: function (cluster) {
-      return createClusterIcon(cluster, 'todo');
-    }
-  });
+	markerLayers.forEach(markerLayer => {
+		markerLayer.group = !cluster ? L.layerGroup() : L.markerClusterGroup({
+	    maxClusterRadius,
+	    disableClusteringAtZoom,
+	    iconCreateFunction: function (cluster) {
+	      return createClusterIcon(cluster, markerLayer.key);
+	    }
+	  });
+	});
   
   const darkTiles = L.tileLayer(
     'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
@@ -73,7 +82,7 @@ function showPlaces(places, filename) {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-	const map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, todo, near, been]});
+	map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
 	const baseLayers = { 'OpenStreetMap': initialTiles };
   const graticule = L.latlngGraticule({
     showLabel: false,
@@ -88,29 +97,30 @@ function showPlaces(places, filename) {
   });
 
   if (lines) graticule.addTo(map);
-	const overlays = { 'Been': been, 'Near': near, 'Todo': todo, 'Gridlines': graticule };
+	let overlays = { };
+	markerLayers.forEach(layer => {
+		overlays[layer.name] = layer.group;
+	});
+	overlays["Gridlines"] = graticule;
 	const layerControl = L.control.layers(null, overlays).addTo(map);
   
-	addMarkers(map, been, places, place => place.been == true && !isNear(place), "markerBeen");
-	addMarkers(map, near, places, place => isNear(place), "markerNear");
-	addMarkers(map, todo, places, place => place.been == false && !isNear(place), "markerTodo");
+	markerLayers.forEach(layer => {
+		addMarkers(map, layer.group, places, layer.filter, layer.tag);
+	});
   
   if (filename == "route-20") {
-    map.removeLayer(been);
-    map.removeLayer(near);
-    map.removeLayer(todo);
-
-    map.on('zoomend', () => {
-      if (map.getZoom() >= 8) {
-        map.addLayer(been);
-        map.addLayer(near);
-        map.addLayer(todo);
-      } else {
-        map.removeLayer(been);
-        map.removeLayer(near);
-        map.removeLayer(todo);
-      }
-    });
+  
+		markerLayers.forEach(layer => {
+			map.removeLayer(layer.group);
+			
+	    map.on('zoomend', () => {
+	      if (map.getZoom() >= 8) {
+	        map.addLayer(layer.group);
+	      } else {
+	        map.removeLayer(layer.group);
+	      }
+	    });
+		});	
   }
   
   if (overrideClick) {
@@ -159,7 +169,7 @@ function createClusterIcon(cluster, type) {
 function addMarkers(map, layer, places, test, tag) {
 	for (let key in places) {
   	let place = places[key];
-		if (place.coords) {
+		if (place.coords && !place.hide) {
 			let marker = addEmojiMarker(map, place, test, tag);
 			if (marker) marker.addTo(layer);
 		} else {
@@ -215,6 +225,13 @@ function addEmojiMarker(map, place, test, tag) {
 			console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
 		}
 	}
+}
+
+function refreshMap(places) {
+	markerLayers.forEach(layer => {
+		layer.group.clearLayers();
+		addMarkers(map, layer.group, places, layer.filter, layer.tag);
+	});
 }
 
 function loadScripts(urls) {

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🇷🇸 Balkan Bingo</title>
+  <meta charset="UTF-8">
+	<meta name="andrewzc" content="exclude" />
+  <meta name="viewport" content="width=800">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    td { white-space: nowrap; }
+    th { text-align: center; }
+    table { border-spacing: 0px; }
+    .countries tr td:not(:first-child) { width: 97px; opacity: 0.8; }
+    .states tr td:not(:first-child) { width: 72px; opacity: 0.8; }
+    .ratio { text-align: center; color: #444; }
+  </style>
+</head>
+<body>
+<div class="headline">
+  🇷🇸 Balkan Bingo
+</div>
+<div class="caption">
+  <table id="table" class="countries"></table>
+  <br>
+  <div id="map" lat="44" lon="18.5" zoom="6" cluster="false" style="height: 600px;"></div>
+  <script src="map.js"></script>
+  <div id="lists"></div>
+</div>
+<script src="bingo.js"></script>
+<script>
+
+const places = [
+  { key: "albania", name: "Albania", icon: "🇦🇱", confluences: 3 },
+  { key: "bosnia", name: "Bosnia", icon: "🇧🇦", confluences: 7 },
+  { key: "croatia", name: "Croatia", icon: "🇭🇷", confluences: 6 },
+  { key: "kosovo", name: "Kosovo", icon: "🇽🇰", confluences: 1 },
+  { key: "montenegro", name: "Montenegro", icon: "🇲🇪", confluences: 3 },
+  { key: "north-macedonia", name: "North Macedonia", icon: "🇲🇰", confluences: 3 },
+  { key: "serbia", name: "Serbia", icon: "🇷🇸", confluences: 7 },
+  { key: "slovenia", name: "Slovenia", icon: "🇸🇮", confluences: 2 },
+];
+  
+const pages = [
+  { key: "capitals", name: "Capitals", icon: "🏛", hideTotal: true },
+  { key: "highest", name: "Highest", icon: "🏔️", hideTotal: true, sort: "reversePrefix" },
+  { key: "lowest", name: "Lowest", icon: "🤿", hideTotal: true, sort: "prefix" },
+  { key: "extremities", name: "Extremities", icon: "🧭", hideTotal: true, fixedTotal: 4 },
+  { key: "tripoints", name: "Tripoints", icon: "🚩", sort: "been" },
+  { key: "confluence", name: "Confluence", icon: "🚸" },
+  { key: "unesco", name: "Heritage", icon: "🇺🇳" },
+  { key: "enclaves", name: "Enclaves", icon: "🍩", hide: true },
+  { key: "salients", name: "Salients", icon: "🍳", hide: true },
+  { key: "castles", name: "Castles", icon: "🏰", hide: true },
+];
+
+(async function init() {
+  createHeader();
+  await bingoMain("countries");
+  showPlaces(mapPlaces);
+})();
+
+</script>
+</body>
+</html>
