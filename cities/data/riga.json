@@ -10,6 +10,17 @@
     "prefix": "RIX",
     "type": "airports"
   },
+  "awa-rigas-sporta-maneza": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.93565000, 24.14881000",
+    "country": "LV",
+    "icons": ["🏩"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.93565_N_24.14881_E",
+    "name": "Rigas Sporta Maneza",
+    "reference": "Riga",
+    "type": "awa"
+  },
   "beaches-vecaki": {
     "been": false,
     "city": "Riga",
@@ -19,6 +30,36 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=57.08683_N_24.12103_E",
     "name": "Vecāķi",
     "type": "beaches"
+  },
+  "bridges-island-bridge-riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.93444400, 24.12305600",
+    "country": "LV",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Island_Bridge,_Riga",
+    "name": "Island Bridge, Riga",
+    "type": "bridges"
+  },
+  "bridges-railway-bridge-riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.94225880, 24.10675050",
+    "country": "LV",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Railway_Bridge,_Riga",
+    "name": "Railway Bridge, Riga",
+    "type": "bridges"
+  },
+  "bridges-stone-bridge-riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.94450000, 24.10110000",
+    "country": "LV",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Stone_Bridge_(Riga)",
+    "name": "Stone Bridge, Riga",
+    "type": "bridges"
   },
   "capitals-riga": {
     "been": true,
@@ -73,6 +114,39 @@
     "name": "Riga",
     "type": "culture"
   },
+  "depots-apsu-iela": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.92033000, 24.09156000",
+    "country": "LV",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.92033_N_24.09156_E",
+    "name": "Āpšu iela",
+    "reference": "Riga",
+    "type": "depots"
+  },
+  "depots-brasa": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.97051800, 24.15255000",
+    "country": "LV",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.970518_N_24.152550_E",
+    "name": "Brasa",
+    "reference": "Riga",
+    "type": "depots"
+  },
+  "depots-no-3-depo": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.93368700, 24.15857400",
+    "country": "LV",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.933687_N_24.158574_E",
+    "name": "No. 3 Depo",
+    "reference": "Riga",
+    "type": "depots"
+  },
   "eurovision-riga": {
     "been": true,
     "city": "Riga",
@@ -84,6 +158,18 @@
     "prefix": "2003",
     "type": "eurovision"
   },
+  "gauges-riga": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.971906, 24.032467",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
+    "name": "Riga",
+    "prefix": "1000",
+    "type": "gauges",
+    "wikidata": "Q2280274"
+  },
   "ikea-riga": {
     "been": false,
     "city": "Riga",
@@ -94,8 +180,172 @@
     "name": "Riga",
     "type": "ikea"
   },
-  "metro-places-riga": {
+  "industrial-riga-shipyard": {
     "been": false,
+    "city": "Riga",
+    "coords": "57.02800000, 24.12100000",
+    "country": "LV",
+    "icons": ["🏭"],
+    "link": "https://en.wikipedia.org/wiki/Riga_Shipyard",
+    "name": "Riga Shipyard",
+    "type": "industrial"
+  },
+  "loops-45-vidusskola": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.97930100, 24.17569500",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.979301_N_24.175695_E",
+    "name": "45. Vidusskola",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-aldaris": {
+    "been": false,
+    "city": "Riga",
+    "coords": "57.00259900, 24.12375400",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.002599_N_24.123754_E",
+    "name": "Aldaris",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-ausekla-iela": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.95883000, 24.09953800",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.958830_N_24.099538_E",
+    "name": "Ausekļa iela",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-bisumuiza": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.91433100, 24.14057300",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.914331_N_24.140573_E",
+    "name": "Bišumuiža",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-dienvidu-tilts": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.92255700, 24.16993300",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.922557_N_24.169933_E",
+    "name": "Dienvidu tilts",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-elgaines-iela": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.90583700, 24.18833000",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.905837_N_24.188330_E",
+    "name": "Elgaines iela",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-ezermalas-iela": {
+    "been": false,
+    "city": "Riga",
+    "coords": "57.00679000, 24.16550800",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.006790_N_24.165508_E",
+    "name": "Ezermalas iela",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-ilguciems": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.96503900, 24.06983500",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.965039_N_24.069835_E",
+    "name": "Iļģuciems",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-imanta": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.96666500, 24.00819400",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.966665_N_24.008194_E",
+    "name": "Imanta",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-jugla": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.99006300, 24.24151500",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.990063_N_24.241515_E",
+    "name": "Jugla",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-meza-kapi": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.98472000, 24.15647200",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.984720_N_24.156472_E",
+    "name": "Meža kāpi",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-milgravis": {
+    "been": false,
+    "city": "Riga",
+    "coords": "57.01728300, 24.12281200",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.017283_N_24.122812_E",
+    "name": "Mīlgrāvis",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-tapesu-iela": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.95773000, 24.04597400",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.957730_N_24.045974_E",
+    "name": "Tapešu iela",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "loops-zasulauka-stacija": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.94210200, 24.05354900",
+    "country": "LV",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.942102_N_24.053549_E",
+    "name": "Zasulauka stacija",
+    "reference": "Riga",
+    "type": "loops"
+  },
+  "metro-places-riga": {
+    "been": true,
     "city": "Riga",
     "coords": "50.87868300, 4.40983500",
     "countries": ["BE", "LV"],
@@ -104,13 +354,34 @@
     "name": "Riga",
     "type": "metro-places"
   },
+  "no-metro-riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.94888889, 24.10638889",
+    "country": "LT",
+    "icons": ["🥺"],
+    "link": "https://en.wikipedia.org/wiki/Riga_Metro",
+    "name": "Riga",
+    "prefix": "860K",
+    "type": "no-metro"
+  },
+  "pools-kipsala-swimming-pool": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.95226600, 24.08435570",
+    "country": "LV",
+    "icons": ["🏊‍♂️"],
+    "link": "https://www.rigasudensportaskola.lv/",
+    "name": "Kipsala Swimming Pool",
+    "type": "pools"
+  },
   "ports-riga": {
     "been": true,
     "city": "Riga",
     "coords": "56.94888889, 24.10638889",
     "country": "LV",
     "icons": ["⚓️"],
-    "link": "https://en.wikipedia.org/wiki/Riga",
+    "link": "https://en.wikipedia.org/wiki/Riga_Shipyard",
     "name": "Riga",
     "type": "ports"
   },

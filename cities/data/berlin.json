@@ -632,6 +632,16 @@
     "name": "Großer Müggelsee",
     "type": "lakes"
   },
+  "lakes-weißer-see": {
+    "been": false,
+    "city": "Berlin",
+    "coords": "52.55416667, 13.46402778",
+    "country": "DE",
+    "icons": ["🛶"],
+    "link": "https://de.wikipedia.org/wiki/Weißer_See_(Berlin)",
+    "name": "Weißer See",
+    "type": "lakes"
+  },
   "late-night-": {
     "been": true,
     "city": "Berlin",
@@ -1221,10 +1231,10 @@
     "been": false,
     "city": "Berlin",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": [],
     "link": "https://en.wikipedia.org/wiki/U8_(Berlin_U-Bahn)",
     "name": "Berlin Line U8 to Märkisches Viertel",
-    "prefix": "Planning",
+    "prefix": "🇩🇪",
     "reference": "Berlin",
     "type": "projects"
   },

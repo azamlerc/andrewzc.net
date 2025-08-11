@@ -1623,13 +1623,6 @@
     "name": "Grand Central",
     "wikidata": "Q11290"
   },
-  "grand-front-osaka": {
-    "been": false,
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://www.apple.com/jp/retail/umeda/",
-    "name": "Grand Front Osaka"
-  },
   "green-hills": {
     "been": false,
     "coords": "36.10704, -86.816382",
@@ -2931,7 +2924,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/parkland/",
-    "name": "Parkland"
+    "name": "Parkland",
+    "strike": true
   },
   "parly-2": {
     "been": false,
@@ -4060,6 +4054,15 @@
     "link": "https://www.apple.com/retail/tysonscorner/",
     "name": "Tysons Corner"
   },
+  "umeda": {
+    "been": false,
+    "city": "Ōsaka",
+    "coords": "34.70000000, 135.49700000",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://www.apple.com/jp/retail/umeda/",
+    "name": "Umeda"
+  },
   "union-square": {
     "been": true,
     "city": "San Francisco",
@@ -4112,6 +4115,13 @@
     "link": "https://www.apple.com/retail/universityvillage/",
     "name": "University Village",
     "wikidata": "Q1865650"
+  },
+  "uniwalk-qianhai": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://www.apple.com.cn/retail/uniwalkqianhai/",
+    "name": "Uniwalk Qianhai"
   },
   "upper-canada-mall": {
     "been": false,

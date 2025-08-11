@@ -1,4 +1,21 @@
 {
+  "a-href=https://enwikipediaorg/wiki/metrolink_(dublin)dublin": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/MetroLink_(Dublin)",
+    "name": "<a href=\"https://en.wikipedia.org/wiki/MetroLink_(Dublin)\">Dublin",
+    "prefix": "1.53M"
+  },
+  "a-href=https://enwikipediaorg/wiki/patna_metropatna": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Patna_Metro",
+    "name": "<a href=\"https://en.wikipedia.org/wiki/Patna_Metro\">Patna",
+    "prefix": "3.87M",
+    "wikidata": "Q7145108"
+  },
   "abidjan": {
     "been": false,
     "city": "Abidjan",
@@ -9,6 +26,17 @@
     "name": "Abidjan",
     "prefix": "6.80M",
     "wikidata": "Q16680881"
+  },
+  "abu-dhabi": {
+    "been": false,
+    "city": "Abu Dhabi",
+    "coords": "24.46666667, 54.36666667",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Abu_Dhabi_Metro",
+    "name": "Abu Dhabi",
+    "prefix": "2.19M",
+    "wikidata": "Q334960"
   },
   "accra": {
     "been": false,
@@ -26,7 +54,7 @@
     "coords": "31.19750000, 29.89250000",
     "country": "EG",
     "icons": ["🇪🇬"],
-    "link": "https://en.wikipedia.org/wiki/Alexandria",
+    "link": "https://en.wikipedia.org/wiki/Alexandria_Metro",
     "name": "Alexandria",
     "prefix": "6.20M"
   },
@@ -46,9 +74,9 @@
     "coords": "33.31527778, 44.36611111",
     "country": "IQ",
     "icons": ["🇮🇶"],
-    "link": "https://en.wikipedia.org/wiki/Baghdad",
+    "link": "https://en.wikipedia.org/wiki/Baghdad_Metro",
     "name": "Baghdad",
-    "prefix": "7.65M"
+    "prefix": "8.14M"
   },
   "bandung": {
     "been": false,
@@ -101,6 +129,16 @@
     "name": "Dallas",
     "prefix": "7.65M"
   },
+  "dammam": {
+    "been": false,
+    "coords": "26.43333333, 50.10000000",
+    "country": "SA",
+    "icons": ["🇸🇦"],
+    "link": "https://en.wikipedia.org/wiki/Dammam_Metro",
+    "name": "Dammam",
+    "prefix": "2.74M",
+    "wikidata": "Q24088928"
+  },
   "dar-es-salaam": {
     "been": false,
     "city": "Dar es Salaam",
@@ -110,6 +148,16 @@
     "link": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
     "name": "Dar es Salaam",
     "prefix": "6.25M"
+  },
+  "dublin": {
+    "been": true,
+    "city": "Dublin",
+    "coords": "53.35000000, -6.26027778",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/MetroLink_(Dublin)",
+    "name": "Dublin",
+    "prefix": "1.53M"
   },
   "ho-chi-minh-city": {
     "been": false,
@@ -132,6 +180,27 @@
     "link": "https://en.wikipedia.org/wiki/Houston",
     "name": "Houston",
     "prefix": "7.05M"
+  },
+  "jeddah": {
+    "been": false,
+    "coords": "21.54333333, 39.17277778",
+    "country": "SA",
+    "icons": ["🇸🇦"],
+    "link": "https://en.wikipedia.org/wiki/Jeddah_Metro",
+    "name": "Jeddah",
+    "prefix": "3.75M",
+    "wikidata": "Q4291982"
+  },
+  "jerusalem": {
+    "been": true,
+    "city": "Jerusalem",
+    "coords": "31.78333333, 35.21666667",
+    "country": "IL",
+    "icons": ["🇮🇱"],
+    "link": "https://en.wikipedia.org/wiki/Jerusalem_Metro",
+    "name": "Jerusalem",
+    "prefix": "1.25M",
+    "wikidata": "Q127514332"
   },
   "johannesburg": {
     "been": false,
@@ -172,6 +241,16 @@
     "name": "Kinshasa",
     "prefix": "15.6M"
   },
+  "kuwait-city": {
+    "been": false,
+    "coords": "29.36972222, 47.97833333",
+    "country": "KW",
+    "icons": ["🇰🇼"],
+    "link": "https://en.wikipedia.org/wiki/Kuwait_Metropolitan_Rapid_Transit_System_Project",
+    "name": "Kuwait City",
+    "prefix": "120K",
+    "wikidata": "Q6448852"
+  },
   "luanda": {
     "been": false,
     "city": "Luanda",
@@ -182,6 +261,26 @@
     "name": "Luanda",
     "prefix": "9.35M"
   },
+  "malta": {
+    "been": false,
+    "city": "Valletta",
+    "coords": "35.90000000, 14.51666667",
+    "country": "MT",
+    "icons": ["🇲🇹"],
+    "link": "https://en.wikipedia.org/wiki/Malta_Metro",
+    "name": "Malta",
+    "prefix": "520K",
+    "wikidata": "Q115516873"
+  },
+  "medina": {
+    "been": false,
+    "coords": "24.47000000, 39.61000000",
+    "country": "SA",
+    "icons": ["🇸🇦"],
+    "link": "https://en.wikipedia.org/wiki/Madinah_Metro",
+    "name": "Medina",
+    "prefix": "1.48M"
+  },
   "nairobi": {
     "been": true,
     "city": "Nairobi",
@@ -191,6 +290,26 @@
     "link": "https://thetransitgirl.tumblr.com/post/678468599447470080/nairobi-metro-fantasy-map-when-i-posted-my-kenya",
     "name": "Nairobi",
     "prefix": "6.70M"
+  },
+  "patna": {
+    "been": false,
+    "coords": "25.59403430, 85.13755300",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Patna_Metro",
+    "name": "Patna",
+    "prefix": "3.87M",
+    "wikidata": "Q7145108"
+  },
+  "riga": {
+    "been": false,
+    "city": "Riga",
+    "coords": "56.94888889, 24.10638889",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "link": "https://en.wikipedia.org/wiki/Riga_Metro",
+    "name": "Riga",
+    "prefix": "860K"
   },
   "riyadh": {
     "been": false,
@@ -233,6 +352,27 @@
     "name": "Tel Aviv",
     "prefix": "1.52M",
     "wikidata": "Q28220630"
+  },
+  "ulaanbaatar": {
+    "been": false,
+    "coords": "47.92194444, 106.91527778",
+    "country": "MN",
+    "icons": ["🇲🇳"],
+    "link": "https://en.wikipedia.org/wiki/Ulaanbaatar_Metro",
+    "name": "Ulaanbaatar",
+    "prefix": "1.67M",
+    "wikidata": "Q15063915"
+  },
+  "vilnius": {
+    "been": false,
+    "city": "Vilnius",
+    "coords": "54.68722222, 25.28000000",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "link": "https://en.wikipedia.org/wiki/Vilnius_Metro",
+    "name": "Vilnius",
+    "prefix": "876K",
+    "wikidata": "Q727599"
   },
   "yangon": {
     "been": false,

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🇪🇺 Euro Bingo</title>
+  <meta charset="UTF-8">
+	<meta name="andrewzc" content="exclude" />
+  <meta name="viewport" content="width=800">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    td { white-space: nowrap; }
+    th { text-align: center; }
+    table { border-spacing: 0px; }
+    .countries tr td:not(:first-child) { width: 109px; opacity: 0.8; }
+    .states tr td:not(:first-child) { width: 72px; opacity: 0.8; }
+    .ratio { text-align: center; color: #444; }
+  </style>
+</head>
+<body>
+<div class="headline">
+  🇪🇺 Euro Bingo
+</div>
+<div class="caption">
+  <table id="table" class="countries"></table>
+  <br>
+  <div id="map" lat="49.7" lon="7" zoom="5" style="width: 1106px; height: 600px;"></div>
+  <script src="map.js"></script>
+  <div id="lists"></div>
+</div>
+<script src="bingo.js"></script>
+<script>
+const places = [
+  { key: "austria", name: "Austria", icon: "🇦🇹", confluences: 12 },
+  { key: "belgium", name: "Belgium", icon: "🇧🇪", confluences: 4 },
+  { key: "czechia", name: "Czechia", icon: "🇨🇿", confluences: 10 },
+  { key: "france", name: "France", icon: "🇫🇷", confluences: 78 },
+  { key: "germany", name: "Germany", icon: "🇩🇪", confluences: 48 },
+  { key: "luxembourg", name: "Luxembourg", icon: "🇱🇺", confluences: 1 },
+  { key: "netherlands", name: "Netherlands", icon: "🇳🇱", confluences: 4 },
+  { key: "switzerland", name: "Switzerland", icon: "🇨🇭", confluences: 5 },
+  // { key: "poland", name: "Poland", icon: "🇵🇱", confluences: 41 },
+  // { key: "slovakia", name: "Slovakia", icon: "🇸🇰", confluences: 6 },
+  // { key: "hungary", name: "Hungary", icon: "🇭🇺", confluences: 11 }
+];
+
+const pages = [
+  { key: "capitals", name: "Capitals", icon: "🏛", hideTotal: true },
+  { key: "highest", name: "Highest", icon: "🏔️", hideTotal: true, sort: "reversePrefix" },
+  { key: "lowest", name: "Lowest", icon: "🤿", hideTotal: true, sort: "prefix" },
+  { key: "extremities", name: "Extremities", icon: "🧭", hideTotal: true, fixedTotal: 4 },
+  { key: "tripoints", name: "Tripoints", icon: "🚩", sort: "been" },
+  { key: "confluence", name: "Confluence", icon: "🚸", exclude: ["Square Ambiorix"] },
+  { key: "unesco", name: "Heritage", icon: "🇺🇳" }
+];
+
+(async function init() {
+  createHeader();
+  await bingoMain("countries");
+  showPlaces(mapPlaces);
+})();
+
+</script>
+</body>
+</html>
