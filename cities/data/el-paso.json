@@ -19,6 +19,28 @@
     "name": "Ciudad Juárez",
     "type": "brt"
   },
+  "closed-trams-el-paso": {
+    "been": false,
+    "city": "El Paso",
+    "coords": "31.75916667, -106.48861111",
+    "country": "US",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/El_Paso,_Texas",
+    "name": "El Paso",
+    "prefix": "1947",
+    "type": "closed-trams"
+  },
+  "closed-trams-el-paso–ciudad-juarez": {
+    "been": false,
+    "city": "El Paso",
+    "coords": "31.74500000, -106.48500000",
+    "countries": ["US", "MX"],
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez",
+    "name": "El Paso–Ciudad Juárez",
+    "prefix": "1973",
+    "type": "closed-trams"
+  },
   "divided-el-paso": {
     "been": false,
     "city": "El Paso",

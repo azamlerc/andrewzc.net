@@ -211,6 +211,39 @@
     "reference": "Tokyo",
     "type": "circle-lines"
   },
+  "closed-trams-higashi": {
+    "been": false,
+    "city": "Tokyo",
+    "coords": "35.65333333, 139.71111111",
+    "country": "JP",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Higashi,_Shibuya",
+    "name": "Higashi",
+    "prefix": "1952",
+    "type": "closed-trams"
+  },
+  "closed-trams-suginami": {
+    "been": false,
+    "city": "Tokyo",
+    "coords": "35.69944444, 139.63638889",
+    "country": "JP",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Suginami",
+    "name": "Suginami",
+    "prefix": "1963",
+    "type": "closed-trams"
+  },
+  "closed-trams-tokyo": {
+    "been": true,
+    "city": "Tokyo",
+    "coords": "35.68972222, 139.69222222",
+    "country": "JP",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Toden",
+    "name": "Tokyo",
+    "prefix": "1972",
+    "type": "closed-trams"
+  },
   "closest-nijubashimae": {
     "been": true,
     "city": "Tokyo",

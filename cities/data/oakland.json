@@ -40,6 +40,39 @@
     "name": "San Francisco Bay Bridge",
     "type": "bridges"
   },
+  "closed-trams-alameda": {
+    "been": false,
+    "city": "Oakland",
+    "coords": "37.75611111, -122.27444444",
+    "country": "US",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Alameda,_California",
+    "name": "Alameda",
+    "prefix": "1930",
+    "type": "closed-trams"
+  },
+  "closed-trams-berkeley": {
+    "been": true,
+    "city": "Oakland",
+    "coords": "37.87166667, -122.27277778",
+    "country": "US",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Berkeley,_California",
+    "name": "Berkeley",
+    "prefix": "1948",
+    "type": "closed-trams"
+  },
+  "closed-trams-oakland": {
+    "been": true,
+    "city": "Oakland",
+    "coords": "37.80444444, -122.27083333",
+    "country": "US",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Oakland,_California",
+    "name": "Oakland",
+    "prefix": "1948",
+    "type": "closed-trams"
+  },
   "cross-platform-12th-street-oakland": {
     "been": true,
     "city": "Oakland",

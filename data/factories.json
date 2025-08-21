@@ -245,6 +245,15 @@
     "strike": true,
     "wikidata": "Q15134140"
   },
+  "kenitra": {
+    "been": false,
+    "coords": "34.31310000, -6.37050000",
+    "countries": ["FR", "MA"],
+    "icons": ["🇫🇷", "🇲🇦"],
+    "link": "https://en.wikipedia.org/wiki/Stellantis_Kenitra_plant",
+    "name": "Kenitra",
+    "reference": "Stellantis"
+  },
   "lafayette-in": {
     "been": false,
     "coords": "40.38000000, -86.80000000",
@@ -262,6 +271,17 @@
     "link": "https://en.wikipedia.org/wiki/BMW_Leipzig_Plant",
     "name": "Leipzig",
     "reference": "BMW"
+  },
+  "luton": {
+    "been": true,
+    "coords": "51.876, -0.391",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Vauxhall_Luton",
+    "name": "Luton",
+    "reference": "Vauxhall",
+    "strike": true,
+    "wikidata": "Q1653048"
   },
   "madison-al": {
     "been": false,
@@ -421,8 +441,9 @@
   },
   "rosslyn": {
     "been": false,
+    "countries": ["DE", "ZA"],
     "country": "ZA",
-    "icons": ["🇿🇦"],
+    "icons": ["🇩🇪", "🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/BMW_South_Africa",
     "name": "Rosslyn",
     "reference": "BMW",
@@ -541,6 +562,16 @@
     "link": "https://en.wikipedia.org/wiki/Nissan_Motor_Manufacturing_UK",
     "name": "Sunderland",
     "reference": "Nissan"
+  },
+  "swindon": {
+    "been": true,
+    "coords": "51.58720400, -1.73751100",
+    "countries": ["JP", "GB"],
+    "icons": ["🇯🇵", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Honda_UK_Manufacturing",
+    "name": "Swindon",
+    "reference": "Honda",
+    "strike": true
   },
   "tolyatti": {
     "been": false,

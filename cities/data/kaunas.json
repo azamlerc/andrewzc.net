@@ -1,6 +1,6 @@
 {
   "bridges-vytautas-great-bridge": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89361111, 23.88694444",
     "country": "LT",
@@ -10,7 +10,7 @@
     "type": "bridges"
   },
   "capitals-kaunas": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89722222, 23.88611111",
     "country": "LT",
@@ -21,7 +21,7 @@
     "type": "capitals"
   },
   "castles-kaunas-castle": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89888889, 23.88500000",
     "country": "LT",
@@ -40,8 +40,29 @@
     "name": "Raudondvaris Castle",
     "type": "castles"
   },
+  "cathedrals-kaunas": {
+    "been": true,
+    "city": "Kaunas",
+    "coords": "54.89700000, 23.88900000",
+    "country": "LT",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Kaunas_Cathedral_Basilica",
+    "name": "Kaunas",
+    "type": "cathedrals"
+  },
+  "closed-trams-kaunas": {
+    "been": true,
+    "city": "Kaunas",
+    "coords": "54.89722222, 23.88611111",
+    "country": "LT",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Kaunas",
+    "name": "Kaunas",
+    "prefix": "1936",
+    "type": "closed-trams"
+  },
   "culture-kaunas": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89722222, 23.88611111",
     "country": "LT",
@@ -151,7 +172,7 @@
     "type": "forts"
   },
   "forts-kaunas-xi": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89174000, 23.81834000",
     "country": "LT",
@@ -161,7 +182,7 @@
     "type": "forts"
   },
   "funiculars-aleksotas-funicular": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89111111, 23.88694444",
     "country": "LT",
@@ -171,7 +192,7 @@
     "type": "funiculars"
   },
   "funiculars-zaliakalnis-funicular": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.90083333, 23.91750000",
     "country": "LT",
@@ -202,7 +223,7 @@
     "type": "stations"
   },
   "trolleybuses-kaunas": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.89722222, 23.88611111",
     "country": "LT",

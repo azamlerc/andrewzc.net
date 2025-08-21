@@ -50,6 +50,28 @@
     "name": "Windsor",
     "type": "car-places"
   },
+  "closed-trams-detroit": {
+    "been": true,
+    "city": "Detroit",
+    "coords": "42.33333333, -83.05000000",
+    "country": "US",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Detroit_Department_of_Transportation",
+    "name": "Detroit",
+    "prefix": "1956",
+    "type": "closed-trams"
+  },
+  "closed-trams-windsor-on": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.30222222, -82.99361111",
+    "country": "CA",
+    "icons": ["🐰"],
+    "link": "https://en.wikipedia.org/wiki/Sandwich,_Windsor_and_Amherstburg_Railway_Company",
+    "name": "Windsor, ON",
+    "prefix": "1939",
+    "type": "closed-trams"
+  },
   "divided-detroit": {
     "been": true,
     "city": "Detroit",
