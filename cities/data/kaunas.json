@@ -202,7 +202,7 @@
     "type": "funiculars"
   },
   "rivers-neris": {
-    "been": false,
+    "been": true,
     "city": "Kaunas",
     "coords": "54.90027778, 23.87416667",
     "countries": ["BY", "LT"],
@@ -211,6 +211,18 @@
     "link": "https://en.wikipedia.org/wiki/Neris",
     "name": "Neris",
     "type": "rivers"
+  },
+  "second-cities-kaunas": {
+    "been": true,
+    "city": "Kaunas",
+    "coords": "54.89722222, 23.88611111",
+    "country": "LT",
+    "icons": ["🥈"],
+    "info": "<br><!--Vilnius",
+    "link": "https://en.wikipedia.org/wiki/Kaunas",
+    "name": "Kaunas",
+    "prefix": "280K",
+    "type": "second-cities"
   },
   "stations-kaunas": {
     "been": false,

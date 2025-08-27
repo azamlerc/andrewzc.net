@@ -11,7 +11,7 @@
     "type": "airports"
   },
   "awa-rigas-sporta-maneza": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.93565000, 24.14881000",
     "country": "LV",
@@ -32,7 +32,7 @@
     "type": "beaches"
   },
   "bridges-island-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.93444400, 24.12305600",
     "country": "LV",
@@ -42,7 +42,7 @@
     "type": "bridges"
   },
   "bridges-railway-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94225880, 24.10675050",
     "country": "LV",
@@ -52,7 +52,7 @@
     "type": "bridges"
   },
   "bridges-stone-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94450000, 24.10110000",
     "country": "LV",
@@ -60,6 +60,17 @@
     "link": "https://en.wikipedia.org/wiki/Stone_Bridge_(Riga)",
     "name": "Stone Bridge, Riga",
     "type": "bridges"
+  },
+  "bridges-vansu-bridge": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.95111111, 24.09527778",
+    "country": "LV",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Vanšu_Bridge",
+    "name": "Vanšu Bridge",
+    "type": "bridges",
+    "wikidata": "Q317508"
   },
   "capitals-riga": {
     "been": true,
@@ -71,6 +82,16 @@
     "name": "Riga",
     "type": "capitals"
   },
+  "castles-riga-castle": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.95095000, 24.10063611",
+    "country": "LV",
+    "icons": ["🏰"],
+    "link": "https://en.wikipedia.org/wiki/Riga_Castle",
+    "name": "Riga Castle",
+    "type": "castles"
+  },
   "cathedrals-riga": {
     "been": true,
     "city": "Riga",
@@ -80,6 +101,16 @@
     "link": "https://en.wikipedia.org/wiki/Riga_Cathedral",
     "name": "Riga",
     "type": "cathedrals"
+  },
+  "circular-jugla": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.98307800, 24.24024300",
+    "country": "LV",
+    "icons": ["☸️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.983078_N_24.240243_E",
+    "name": "Jugla",
+    "type": "circular"
   },
   "confluence-bolderaja": {
     "been": false,
@@ -115,7 +146,7 @@
     "type": "culture"
   },
   "depots-apsu-iela": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.92033000, 24.09156000",
     "country": "LV",
@@ -126,7 +157,7 @@
     "type": "depots"
   },
   "depots-brasa": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.97051800, 24.15255000",
     "country": "LV",
@@ -137,7 +168,7 @@
     "type": "depots"
   },
   "depots-no-3-depo": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.93368700, 24.15857400",
     "country": "LV",
@@ -166,9 +197,19 @@
     "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
     "name": "Riga",
-    "prefix": "1000",
+    "prefix": "1520",
     "type": "gauges",
     "wikidata": "Q2280274"
+  },
+  "heritage-latvian-railway-history-museum": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.94090000, 24.09450000",
+    "country": "LV",
+    "icons": ["🚂"],
+    "link": "https://en.wikipedia.org/wiki/Latvian_Railway_History_Museum",
+    "name": "Latvian Railway History Museum",
+    "type": "heritage"
   },
   "ikea-riga": {
     "been": true,
@@ -181,7 +222,7 @@
     "type": "ikea"
   },
   "industrial-riga-shipyard": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "57.02800000, 24.12100000",
     "country": "LV",
@@ -191,7 +232,7 @@
     "type": "industrial"
   },
   "loops-45-vidusskola": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.97930100, 24.17569500",
     "country": "LV",
@@ -202,7 +243,7 @@
     "type": "loops"
   },
   "loops-aldaris": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "57.00259900, 24.12375400",
     "country": "LV",
@@ -213,7 +254,7 @@
     "type": "loops"
   },
   "loops-ausekla-iela": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.95883000, 24.09953800",
     "country": "LV",
@@ -224,7 +265,7 @@
     "type": "loops"
   },
   "loops-bisumuiza": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.91433100, 24.14057300",
     "country": "LV",
@@ -235,7 +276,7 @@
     "type": "loops"
   },
   "loops-dienvidu-tilts": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.92255700, 24.16993300",
     "country": "LV",
@@ -246,7 +287,7 @@
     "type": "loops"
   },
   "loops-elgaines-iela": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.90583700, 24.18833000",
     "country": "LV",
@@ -257,7 +298,7 @@
     "type": "loops"
   },
   "loops-ezermalas-iela": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "57.00679000, 24.16550800",
     "country": "LV",
@@ -268,7 +309,7 @@
     "type": "loops"
   },
   "loops-ilguciems": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.96503900, 24.06983500",
     "country": "LV",
@@ -290,7 +331,7 @@
     "type": "loops"
   },
   "loops-jugla": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.99006300, 24.24151500",
     "country": "LV",
@@ -301,7 +342,7 @@
     "type": "loops"
   },
   "loops-meza-kapi": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.98472000, 24.15647200",
     "country": "LV",
@@ -312,7 +353,7 @@
     "type": "loops"
   },
   "loops-milgravis": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "57.01728300, 24.12281200",
     "country": "LV",
@@ -323,7 +364,7 @@
     "type": "loops"
   },
   "loops-tapesu-iela": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.95773000, 24.04597400",
     "country": "LV",
@@ -334,7 +375,7 @@
     "type": "loops"
   },
   "loops-zasulauka-stacija": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94210200, 24.05354900",
     "country": "LV",
@@ -355,7 +396,7 @@
     "type": "metro-places"
   },
   "no-metro-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94888889, 24.10638889",
     "country": "LT",
@@ -365,8 +406,18 @@
     "prefix": "860K",
     "type": "no-metro"
   },
+  "parks-mezaparks": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.00000000, 24.16666667",
+    "country": "LV",
+    "icons": ["🌳"],
+    "link": "https://en.wikipedia.org/wiki/Mežaparks_(park)",
+    "name": "Mežaparks",
+    "type": "parks"
+  },
   "pools-kipsala-swimming-pool": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.95226600, 24.08435570",
     "country": "LV",
@@ -385,6 +436,17 @@
     "name": "Riga",
     "type": "ports"
   },
+  "records-riga-tv-tower": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.92400000, 24.13700000",
+    "country": "LV",
+    "icons": ["🥈"],
+    "info": "tallest tower in the European Union",
+    "link": "https://en.wikipedia.org/wiki/Riga_Radio_and_TV_Tower",
+    "name": "Riga TV Tower",
+    "type": "records"
+  },
   "rivers-daugava": {
     "been": true,
     "city": "Riga",
@@ -396,6 +458,18 @@
     "name": "Daugava",
     "type": "rivers"
   },
+  "single-track-tram-10": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.971906, 24.032467",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
+    "name": "Tram 10",
+    "reference": "Riga",
+    "type": "single-track",
+    "wikidata": "Q2280274"
+  },
   "stations-riga": {
     "been": true,
     "city": "Riga",
@@ -406,14 +480,44 @@
     "name": "Riga",
     "type": "stations"
   },
+  "swimming-kisezere-pludmale": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.00473000, 24.17931000",
+    "country": "LV",
+    "icons": ["🤽🏻‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.00473_N_24.17931_E",
+    "name": "Ķīšezere Pludmale",
+    "type": "swimming"
+  },
+  "swimming-mezaparks": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.01122000, 24.16096000",
+    "country": "LV",
+    "icons": ["🤽🏻‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.01122_N_24.16096_E",
+    "name": "Mežaparks",
+    "type": "swimming"
+  },
   "t3-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "country": "LV",
     "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/R%C4%ABgas_Satiksme",
     "name": "Riga",
     "type": "t3"
+  },
+  "towers-riga-tv-tower": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.92400000, 24.13700000",
+    "country": "LV",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Riga_Radio_and_TV_Tower",
+    "name": "Riga TV Tower",
+    "type": "towers"
   },
   "towers-z-towers": {
     "been": true,
@@ -426,7 +530,7 @@
     "type": "towers"
   },
   "trams-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.97190600, 24.03246700",
     "country": "LV",
@@ -434,6 +538,16 @@
     "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
     "name": "Riga",
     "type": "trams"
+  },
+  "trolley-poles-riga": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.94888889, 24.10638889",
+    "country": "LV",
+    "icons": ["🚎"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Riga",
+    "name": "Riga",
+    "type": "trolley-poles"
   },
   "trolleybuses-riga": {
     "been": true,

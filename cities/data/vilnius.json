@@ -21,7 +21,7 @@
     "type": "beaches"
   },
   "bridges-green-bridge": {
-    "been": false,
+    "been": true,
     "city": "Vilnius",
     "coords": "54.69138889, 25.27972222",
     "country": "LT",
@@ -101,6 +101,16 @@
     "name": "Keltuvas į Gedimino kalną",
     "type": "funiculars"
   },
+  "ikea-vilnius": {
+    "been": true,
+    "city": "Vilnius",
+    "coords": "54.65148790, 25.28016850",
+    "country": "LT",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Vilnius",
+    "name": "Vilnius",
+    "type": "ikea"
+  },
   "no-metro-vilnius": {
     "been": true,
     "city": "Vilnius",
@@ -134,7 +144,7 @@
     "type": "stations"
   },
   "towers-europa-tower": {
-    "been": false,
+    "been": true,
     "city": "Vilnius",
     "coords": "54.69600000, 25.27800000",
     "country": "LT",

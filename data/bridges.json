@@ -399,7 +399,7 @@
     "name": "Great South Bay Bridge"
   },
   "green-bridge": {
-    "been": false,
+    "been": true,
     "city": "Vilnius",
     "coords": "54.69138889, 25.27972222",
     "country": "LT",
@@ -464,7 +464,7 @@
     "name": "Incheon Bridge"
   },
   "island-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.93444400, 24.12305600",
     "country": "LV",
@@ -908,7 +908,7 @@
     "name": "Pumarejo bridge"
   },
   "railway-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94225880, 24.10675050",
     "country": "LV",
@@ -1067,7 +1067,7 @@
     "name": "Stari Most, Mostar"
   },
   "stone-bridge-riga": {
-    "been": false,
+    "been": true,
     "city": "Riga",
     "coords": "56.94450000, 24.10110000",
     "country": "LV",
@@ -1202,6 +1202,16 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tunkhannock_Viaduct",
     "name": "Tunkhannock Viaduct"
+  },
+  "vansu-bridge": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.951111111111, 24.095277777778",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Vanšu_Bridge",
+    "name": "Vanšu Bridge",
+    "wikidata": "Q317508"
   },
   "vasco-da-gama-bridge": {
     "been": false,
