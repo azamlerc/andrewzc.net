@@ -21,6 +21,26 @@
     "reference": "Riga",
     "type": "awa"
   },
+  "beaches-kipsalas-pludmale": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.95193000, 24.08946000",
+    "country": "LV",
+    "icons": ["🏖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.95193_N_24.08946_E",
+    "name": "Ķīpsalas Pludmale",
+    "type": "beaches"
+  },
+  "beaches-mezaparks": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.01347000, 24.16020000",
+    "country": "LV",
+    "icons": ["🏖"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=57.01347_N_24.16020_E",
+    "name": "Mežaparks",
+    "type": "beaches"
+  },
   "beaches-vecaki": {
     "been": false,
     "city": "Riga",
@@ -231,6 +251,26 @@
     "name": "Riga Shipyard",
     "type": "industrial"
   },
+  "lakes-kisezers": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.02250000, 24.17416667",
+    "country": "LV",
+    "icons": ["🛶"],
+    "link": "https://en.wikipedia.org/wiki/Ķīšezers,_Riga",
+    "name": "Ķīšezers",
+    "type": "lakes"
+  },
+  "lighthouses-mangalsala": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.06826000, 24.01487000",
+    "country": "LV",
+    "icons": ["🕯️"],
+    "link": "https://en.wikipedia.org/wiki/Manga%C4%BCsala",
+    "name": "Mangaļsala",
+    "type": "lighthouses"
+  },
   "loops-45-vidusskola": {
     "been": true,
     "city": "Riga",
@@ -385,6 +425,17 @@
     "reference": "Riga",
     "type": "loops"
   },
+  "metro-places-hamburgas-iela": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.97190600, 24.03246700",
+    "countries": ["LV", "DE"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
+    "name": "Hamburgas iela",
+    "type": "metro-places",
+    "wikidata": "Q2280274"
+  },
   "metro-places-riga": {
     "been": true,
     "city": "Riga",
@@ -424,6 +475,16 @@
     "icons": ["🏊‍♂️"],
     "link": "https://www.rigasudensportaskola.lv/",
     "name": "Kipsala Swimming Pool",
+    "type": "pools"
+  },
+  "pools-mezaparks-sports-village": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.00265050, 24.17124460",
+    "country": "LV",
+    "icons": ["🏊‍♂️"],
+    "link": "https://svmezaparks.lv/en/",
+    "name": "Mežaparks Sports Village",
     "type": "pools"
   },
   "ports-riga": {
@@ -470,6 +531,26 @@
     "type": "single-track",
     "wikidata": "Q2280274"
   },
+  "spas-mezaparks-sports-village": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.00265050, 24.17124460",
+    "country": "LV",
+    "icons": ["♨️"],
+    "link": "https://svmezaparks.lv/en/",
+    "name": "Mežaparks Sports Village",
+    "type": "spas"
+  },
+  "stadiums-mezaparka-liela-estrade": {
+    "been": true,
+    "city": "Riga",
+    "coords": "57.01563889, 24.15116389",
+    "country": "LV",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Mežaparks_Great_Bandstand",
+    "name": "Mežaparka Lielā Estrāde",
+    "type": "stadiums"
+  },
   "stations-riga": {
     "been": true,
     "city": "Riga",
@@ -479,6 +560,16 @@
     "link": "https://en.wikipedia.org/wiki/Riga_Central_Station",
     "name": "Riga",
     "type": "stations"
+  },
+  "swimming-kipsalas-pludmale": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.95193000, 24.08946000",
+    "country": "LV",
+    "icons": ["🤽🏻‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.95193_N_24.08946_E",
+    "name": "Ķīpsalas Pludmale",
+    "type": "swimming"
   },
   "swimming-kisezere-pludmale": {
     "been": true,
