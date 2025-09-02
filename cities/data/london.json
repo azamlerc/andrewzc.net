@@ -140,6 +140,83 @@
     "name": "Hackney",
     "type": "airbnb"
   },
+  "airport-metros-heathrow-terminal-4": {
+    "been": true,
+    "city": "London",
+    "coords": "51.45900000, -0.44600000",
+    "country": "GB",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Heathrow_Terminal_4_tube_station",
+    "name": "Heathrow Terminal 4",
+    "reference": "London",
+    "type": "airport-metros"
+  },
+  "airport-metros-heathrow-terminal-5": {
+    "been": true,
+    "city": "London",
+    "coords": "51.47230000, -0.48800000",
+    "country": "GB",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Heathrow_Terminal_5_station",
+    "name": "Heathrow Terminal 5",
+    "reference": "London",
+    "type": "airport-metros"
+  },
+  "airport-metros-heathrow-terminals-2-&-3": {
+    "been": true,
+    "city": "London",
+    "coords": "51.47100000, -0.45200000",
+    "country": "GB",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Heathrow_Terminals_2_%26_3_tube_station",
+    "name": "Heathrow Terminals 2 & 3",
+    "reference": "London",
+    "type": "airport-metros"
+  },
+  "airport-metros-london-city-airport": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50361100, 0.04888900",
+    "country": "GB",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/London_City_Airport_DLR_station",
+    "name": "London City Airport",
+    "reference": "London",
+    "type": "airport-metros"
+  },
+  "airport-trains-gatwick-express": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.gatwickexpress.com/",
+    "name": "Gatwick Express",
+    "reference": "London",
+    "type": "airport-trains",
+    "wikidata": "Q971990"
+  },
+  "airport-trains-heathrow-express": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.heathrowexpress.com/",
+    "name": "Heathrow Express",
+    "reference": "London",
+    "type": "airport-trains",
+    "wikidata": "Q1540080"
+  },
+  "airport-trains-stansted-express": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://www.stanstedexpress.com/",
+    "name": "Stansted Express",
+    "reference": "London",
+    "type": "airport-trains",
+    "wikidata": "Q2118151"
+  },
   "airports-gatwick": {
     "been": true,
     "city": "London",
@@ -1998,6 +2075,17 @@
     "icons": ["🎙️"],
     "name": "United Kingdom",
     "reference": "Robbie Williams",
+    "type": "music-places"
+  },
+  "music-places-walthamstow": {
+    "been": true,
+    "city": "London",
+    "coords": "51.58400000, -0.02100000",
+    "country": "GB",
+    "icons": ["🎙️"],
+    "link": "https://en.wikipedia.org/wiki/Walthamstow",
+    "name": "Walthamstow",
+    "reference": "The Cranberries",
     "type": "music-places"
   },
   "music-places-west-end": {

@@ -1,4 +1,15 @@
 {
+  "airport-metros-international-airport": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.61640000, -122.39100000",
+    "country": "US",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport_station",
+    "name": "International Airport",
+    "reference": "San Francisco",
+    "type": "airport-metros"
+  },
   "airports-san-francisco": {
     "been": true,
     "city": "San Francisco",
@@ -260,6 +271,16 @@
     "icons": ["🪖"],
     "link": "https://en.wikipedia.org/wiki/Fort_Mason",
     "name": "Fort Mason",
+    "type": "forts"
+  },
+  "forts-fort-point": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.81055556, -122.47722222",
+    "country": "US",
+    "icons": ["🪖"],
+    "link": "https://en.wikipedia.org/wiki/Fort_Point_National_Historic_Site",
+    "name": "Fort Point",
     "type": "forts"
   },
   "funiculars-san-francisco-cable-cars": {
