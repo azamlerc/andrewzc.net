@@ -49,7 +49,6 @@ async function bingoMain(type) {
       return list;
     });
 		if (page.include) {
-			console.log(page.include);
 			let include = Object.values(data).filter(p => page.include.includes(p.name));
 			all = all.concat(include);
 		}
@@ -63,18 +62,21 @@ async function bingoMain(type) {
 			p.hide = page.exclude && page.exclude.includes(p.name);
 		});
     mapPlaces = mapPlaces.concat(all);
-
+		
 		addCellsToRow(page, byPlace, row);
     bingoResults.push({page, all});
   }
 
 	createLists(bingoResults, type);
 
+	// let output = "";
   mapPlaces.forEach(p => {
     if (p.pageIcon == "🧭") p.icons.reverse();
     else p.icons.unshift(p.pageIcon);
+		// output += `[${p.coords}], // ${p.name}\n`;
   });
-
+	// console.log(output);
+	
 	const checkboxes = table.querySelectorAll('input[type="checkbox"][data-key]');
 	checkboxes.forEach(checkbox => {
 	  checkbox.addEventListener('change', () => {

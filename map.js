@@ -169,9 +169,11 @@ function createClusterIcon(cluster, type) {
 function addMarkers(map, layer, places, test, tag) {
 	for (let key in places) {
   	let place = places[key];
-		if (place.coords && !place.hide) {
-			let marker = addEmojiMarker(map, place, test, tag);
-			if (marker) marker.addTo(layer);
+		if (place.coords) {
+			if (!place.hide) {
+				let marker = addEmojiMarker(map, place, test, tag);
+				if (marker) marker.addTo(layer);
+			}
 		} else {
 			console.log(`No coordinates: ${place.name}`);
 		}
