@@ -200,6 +200,17 @@
     "name": "Est-Ceinture",
     "type": "abandoned"
   },
+  "abandoned-gambetta": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86496179, 2.39898250",
+    "country": "FR",
+    "icons": ["🏚"],
+    "info": "(loop)</a>",
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)",
+    "name": "Gambetta",
+    "type": "abandoned"
+  },
   "abandoned-gobelins": {
     "been": true,
     "city": "Paris",
@@ -1010,6 +1021,20 @@
     "name": "Châtelet",
     "prefix": "300m",
     "reference": "Paris",
+    "type": "closest"
+  },
+  "closest-martin-nadaud": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86489827, 2.39812016",
+    "country": "FR",
+    "icons": ["🤏"],
+    "info": "⭤ <a href=\"https://fr.wikipedia.org/wiki/Gambetta_(métro_de_Paris)\">Gambetta</a>",
+    "link": "https://fr.wikipedia.org/wiki/Martin_Nadaud_(métro_de_Paris)",
+    "name": "Martin Nadaud",
+    "prefix": "232m",
+    "reference": "Paris",
+    "strike": true,
     "type": "closest"
   },
   "connections-a-class=strike-href=https://frwikipediaorg/wiki/montparnasse_-_bienven%c3%bce_(m%c3%a9tro_de_paris)montparnasse/a-|-a-class=strike-href=https://frwikipediaorg/wiki/montparnasse_-_bienven%c3%bce_(m%c3%a9tro_de_paris)bienvenue/a": {
@@ -2316,6 +2341,17 @@
     "name": "Gare du Nord",
     "reference": "Paris",
     "strike": true,
+    "type": "loops"
+  },
+  "loops-nation": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84846575, 2.39590574",
+    "country": "FR",
+    "icons": ["🎈"],
+    "link": "https://fr.wikipedia.org/wiki/Nation_(métro_de_Paris)",
+    "name": "Nation",
+    "reference": "Paris",
     "type": "loops"
   },
   "loops-place-ditalie": {
@@ -6227,5 +6263,15 @@
     "prefix": "1931",
     "reference": "Paris",
     "type": "worldsfair"
+  },
+  "zero-points-parvis-notre-dame": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85340235, 2.34878490",
+    "country": "FR",
+    "icons": ["0️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Parvis_Notre-Dame_%E2%80%93_Place_Jean-Paul_II",
+    "name": "Parvis Notre-Dame",
+    "type": "zero-points"
   }
 }

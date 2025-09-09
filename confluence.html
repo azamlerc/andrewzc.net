@@ -11,19 +11,20 @@
 <div class="headline">
 	🚸 Confluence Points
 </div>
-<div id="map" lat="41" lon="-75.5" zoom="6" cluster="false" lines="true"></div><script src="map.js"></script>
-<div class="medium">
+
+<div id="map" lat="43" lon="-27" zoom="3" cluster="true" lines="true"></div><script src="map.js"></script>
+<div class="items">
 
 <!--1.5 km--><span class="coords">59°N 24°E</span> 🇪🇪 <a href="https://confluence.org/confluence.php?lat=59&lon=24">Risti</a> 🛣️<br>
 <!--exact--><span class="coords">59°N 26°E</span> 🇪🇪 <a href="https://confluence.org/confluence.php?lat=59&lon=26">Ramma</a><br>
 
 <!--500m--><span class="coords">58°N 25°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=58&lon=25">Talcis</a><br>
-<!--250m--><span class="coords">58°N 27°E</span> 🇪🇪 <a href="https://confluence.org/confluence.php?lat=58&lon=27">Meemaste</a><br>
+<!--250m--><span class="coords">58°N 27°E</span> 🇪🇪 <a href="https://confluence.org/confluence.php?lat=58&lon=27">Meemaste</a> 🌧️<br>
 
 <!--2 km--><span class="coords">57°N 22°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=57&lon=22">Kuldīga</a> 💦<br>
 <!--250m--><span class="coords">57°N 23°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=57&lon=23">Vilksala</a> 🛣️<br>
-<!--300m--><span class="coords">57°N 26°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=57&lon=26">Mēdzula</a><br>
 <!--exact--><span class="coords">57°N 24°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=57&lon=24">Riga</a> 🪧 🏙️ 🚋<br>
+<!--300m--><span class="coords">57°N 26°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=57&lon=26">Mēdzula</a><br>
 
 <!--exact--><span class="coords">56°N 25°E</span> 🇱🇹 <a href="https://confluence.org/confluence.php?lat=56&lon=25">Alizava</a><br>
 <!--exact--><span class="coords">56°N 26°E</span> 🇱🇻 <a href="https://confluence.org/confluence.php?lat=56&lon=26">Gulbene</a><br>
@@ -124,6 +125,8 @@
 <span class="coords">0° 37.07°E</span> 🇰🇪 <a href="https://en.wikipedia.org/wiki/Nanyuki">Nanyuki</a><br>
 
 <hr>
+
+<div class="align-hack">
 
 <span class="coords">69°N 33°E</span> 🇷🇺 <a href="https://confluence.org/confluence.php?lat=69&lon=33">Murmansk</a> ⚓️<br>
 
@@ -555,10 +558,11 @@
 
 <span class="coords">90°S</span> 🇦🇶 <a href="https://confluence.org/confluence.php?lat=-90&lon=0">South Pole</a><br>
 
+<div>
 	</div>
 <div class="caption">See an analysis of <a href="confluence-countries.html" class="dark">confluence points in countries</a>.</div>
 </body>
-<script> document.querySelectorAll(".coords").forEach((c) => { while (c.innerHTML.length < 10) c.innerHTML = ' ' + c.innerHTML; });
+<script> document.querySelectorAll(".align-hack .coords").forEach((c) => { while (c.innerHTML.length < 10) c.innerHTML = ' ' + c.innerHTML; });
 </script>
 <script src="flags.js"></script>
 <script src="typeahead.js"></script>

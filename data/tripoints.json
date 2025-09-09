@@ -2,8 +2,8 @@
   "abercorn-drift": {
     "been": false,
     "coords": "-26.84006000, 32.13470000",
-    "countries": ["MZ", "ZA", "SZ"],
-    "icons": ["🇲🇿", "🇿🇦", "🇸🇿"],
+    "countries": ["SZ", "MZ", "ZA"],
+    "icons": ["🇸🇿", "🇲🇿", "🇿🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=26.84006_S_32.13470_E",
     "name": "Abercorn Drift"
   },
@@ -17,7 +17,8 @@
   },
   "al-kufra": {
     "been": false,
-    "coords": "24.18333333, 23.28333333",
+    "caption": "At 22°N 25°E, it’s the world’s only combination tripoint and confluence point!",
+    "coords": "22.0, 25.0",
     "countries": ["EG", "LY", "SD"],
     "icons": ["🇪🇬", "🇱🇾", "🇸🇩"],
     "link": "https://confluence.org/confluence.php?lat=22&lon=25",
@@ -49,10 +50,12 @@
   },
   "basel": {
     "been": true,
+    "caption": "The actual tripoint is in the middle of the Rhine, and there’s a large monument in the port. It was pouring rain so I was content to view the monument from the international tram that terminates at Weil in Germany.",
     "city": "Basel",
     "coords": "47.58847000, 7.58975000",
     "countries": ["FR", "DE", "CH"],
     "icons": ["🇫🇷", "🇩🇪", "🇨🇭"],
+    "images": ["basel1.jpg", "basel2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Basel",
     "name": "Basel"
   },
@@ -125,14 +128,17 @@
   },
   "draudzibas-kurgans": {
     "been": true,
+    "caption": "Got stopped by the border police, who warned me not to pick up hitchhikers. Drove down the border guard road to the point where it was barred, about 2 km from the tripoint. That was also 1 km from the northern point of Belarus. Continued on dirt roads to the eastern point of Latvia.",
     "coords": "56.17018, 28.15136",
     "countries": ["BY", "LV", "RU"],
     "icons": ["🇧🇾", "🇱🇻", "🇷🇺"],
+    "images": ["draudzibas-kurgans.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=56.17018_N_28.15136_E",
     "name": "Draudzības Kurgāns"
   },
   "edirne": {
     "been": true,
+    "caption": "The tripoint is within 500m of the border post where I had to pay $100 cash to enter Turkey.",
     "coords": "41.67694444, 26.55555556",
     "countries": ["BG", "GR", "TR"],
     "icons": ["🇧🇬", "🇬🇷", "🇹🇷"],
@@ -141,6 +147,7 @@
   },
   "el-pas-de-la-casa": {
     "been": true,
+    "caption": "Sandwiched between France and Spain, Andorra has two tripoints. We drove through the whole country without even stopping. The tripoint is within 100m of some switchbacks in France.",
     "coords": "42.54233611, 1.73382778",
     "countries": ["AD", "FR", "ES"],
     "icons": ["🇦🇩", "🇫🇷", "🇪🇸"],
@@ -149,9 +156,11 @@
   },
   "europadenkmal": {
     "been": true,
+    "caption": "Around the corner from the northern point of Luxeumbourg, there’s a farm with a bridge over the Our river. The tripoint is at the midpoint of the bridge, and there’s a boundary marker where a tiny stream meets the river. The Monument to Europe is across the road.",
     "coords": "50.130277777778, 6.1358333333333",
     "countries": ["BE", "DE", "LU"],
     "icons": ["🇧🇪", "🇩🇪", "🇱🇺"],
+    "images": ["be-de-lu.jpg"],
     "link": "https://de.wikipedia.org/wiki/Europadenkmal",
     "name": "Europadenkmal"
   },
@@ -174,6 +183,7 @@
   },
   "giby": {
     "been": true,
+    "caption": "This tripoint is in the middle of a huge swamp. Was content to drive by on the nearest main road on the way to Druskininkai. Went for an international swim at the northwestern point of Poland.",
     "coords": "53.95472222, 23.51666667",
     "countries": ["BY", "LT", "PL"],
     "icons": ["🇧🇾", "🇱🇹", "🇵🇱"],
@@ -183,6 +193,7 @@
   },
   "giurgiulesti": {
     "been": true,
+    "caption": "Passed within 1 km of the tripoint in the Danube on the way out of Moldova. Had to wait three hours at the border checkpoint for them to check our papers, and ran into trouble because we got the неофициальный car insurance option on the way in.",
     "coords": "45.48333333, 28.20000000",
     "countries": ["MD", "RO", "UA"],
     "icons": ["🇲🇩", "🇷🇴", "🇺🇦"],
@@ -224,6 +235,7 @@
   },
   "hohenau-an-der-march": {
     "been": true,
+    "caption": "This tripoint is at the confluence of the Thaya and Morava rivers. I was content to ride the train within 3 km.",
     "coords": "48.60000000, 16.90000000",
     "countries": ["AT", "CZ", "SK"],
     "icons": ["🇦🇹", "🇨🇿", "🇸🇰"],
@@ -278,6 +290,15 @@
     "link": "https://en.wikipedia.org/wiki/Kagitumbo",
     "name": "Kagitumbo"
   },
+  "kasane": {
+    "been": false,
+    "caption": "These two are just 150 meters apart, a near quadripoint!",
+    "coords": "-17.79068, 25.26170",
+    "countries": ["BW", "NA", "ZM"],
+    "icons": ["🇧🇼", "🇳🇦", "🇿🇲"],
+    "link": "https://en.wikipedia.org/wiki/Kasane",
+    "name": "Kasane"
+  },
   "katon-karagai": {
     "been": false,
     "coords": "49.11607000, 87.28802000",
@@ -288,7 +309,7 @@
   },
   "kazungula": {
     "been": false,
-    "coords": "-17.78333333, 25.26666667",
+    "coords": "-17.79132, 25.26291",
     "countries": ["BW", "ZM", "ZW"],
     "icons": ["🇧🇼", "🇿🇲", "🇿🇼"],
     "link": "https://en.wikipedia.org/wiki/Kazungula",
@@ -371,9 +392,11 @@
   },
   "lake-ludvinava": {
     "been": true,
+    "caption": "After visiting the south point of Latvia, found a drivable path through the forest that led towards this tripoint. Just as the forest gave way to a clearing, reached the border zone sign and had to turn around about 750m away.",
     "coords": "55.68060, 26.63045",
     "countries": ["BY", "LV", "LT"],
     "icons": ["🇧🇾", "🇱🇻", "🇱🇹"],
+    "images": ["lake-ludvinava.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=55_40_45_N_26_38_0_E",
     "name": "Lake Ludvinava"
   },
@@ -456,8 +479,8 @@
   "mpundweni-beacon": {
     "been": false,
     "coords": "-25.95268000, 31.97542000",
-    "countries": ["MZ", "ZA", "SZ"],
-    "icons": ["🇲🇿", "🇿🇦", "🇸🇿"],
+    "countries": ["SZ", "MZ", "ZA"],
+    "icons": ["🇸🇿", "🇲🇿", "🇿🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=25.95268_S_31.97542_E",
     "name": "Mpundweni Beacon"
   },
@@ -480,6 +503,7 @@
   },
   "nova-pec": {
     "been": true,
+    "caption": "Stayed at Gasthof Drielandereck in Schwarzenberg am Böhmerwald, a tripoint-themed hotel! Was pouring rain the next morning so not a good day to hike the 2 km from the trailhead to the summit.",
     "coords": "48.77111111, 13.83944444",
     "countries": ["AT", "CZ", "DE"],
     "icons": ["🇦🇹", "🇨🇿", "🇩🇪"],
@@ -496,9 +520,11 @@
   },
   "parmu": {
     "been": true,
+    "caption": "Drove to the beginning of the border access road, which is blocked off. Continued along the main road to a point 1 km away. Backtracked and crossed the border into Estonia where I went for a nice swim in the Hino Nature Park.",
     "coords": "57.51805556, 27.35138889",
     "countries": ["EE", "LV", "RU"],
     "icons": ["🇪🇪", "🇱🇻", "🇷🇺"],
+    "images": ["parmu.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=57_31_05_N_27_21_05_E",
     "name": "Parmu"
   },
@@ -538,15 +564,18 @@
   },
   "rajka": {
     "been": true,
+    "caption": "Rented a car in Bratislava to visit this tripoint, a former corner of the Iron Curtain. Features several monuments, a sculpture garden, and a triangular picnic table. Also discovered the ruin of a Hungarian border post with vintage wallpaper. Continued to 48°N 17°E in Gattendorf.",
     "city": "Bratislava",
     "coords": "47.99689000, 17.19832000",
     "countries": ["AT", "HU", "SK"],
     "icons": ["🇦🇹", "🇭🇺", "🇸🇰"],
+    "images": ["at-hu-sk1.jpg", "at-hu-sk2.jpg"],
     "link": "https://hu.wikipedia.org/wiki/Rajka",
     "name": "Rajka"
   },
   "regnitzlosau": {
     "been": true,
+    "caption": "A former tripoint on the Iron Curtain where the Inter German Border met Czechoslovakia! Parked the car on a forest road and walked down a path to the marker, which is in a little swamp.",
     "coords": "50.31824000, 12.10097000",
     "countries": ["CZ", "DE"],
     "icons": ["🇨🇿", "🇩🇪"],
@@ -564,14 +593,17 @@
   },
   "rodange": {
     "been": true,
+    "caption": "Rodange is a village mostly known for having cheap gas. Parked at the gas station and walked along the road until I found a gravel path leading down into a ravine from the Belgian side. Located this vintage chess piece monument in a cluster of weeds.",
     "coords": "49.54666667, 5.83972222",
     "countries": ["BE", "FR", "LU"],
     "icons": ["🇧🇪", "🇫🇷", "🇱🇺"],
+    "images": ["be-fr-lu.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rodange",
     "name": "Rodange"
   },
   "ruggell": {
     "been": true,
+    "caption": "Liechtenstein is a small country so if you’ve been there at all you’ve been near both tripoints.",
     "coords": "47.24333333, 9.53000000",
     "countries": ["AT", "LI", "CH"],
     "icons": ["🇦🇹", "🇱🇮", "🇨🇭"],
@@ -605,14 +637,17 @@
   },
   "schengen": {
     "been": true,
+    "caption": "The Schengen Treaty was signed on a boat in the middle of the Moselle river, during a tripoint visit by European leaders. The agreement removed internal European borders, leading to many more tripoint visits.",
     "coords": "49.46944444, 6.35888889",
     "countries": ["FR", "DE", "LU"],
     "icons": ["🇫🇷", "🇩🇪", "🇱🇺"],
+    "images": ["de-fr-lu.jpg", "schengen2.jpg", "schengen3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
     "name": "Schengen"
   },
   "senkivka": {
     "been": false,
+    "caption": "Features a three-way border checkpoint, a triangular road junction, and a monument to the three sisters.",
     "coords": "52.10627778, 31.78136111",
     "countries": ["BY", "RU", "UA"],
     "icons": ["🇧🇾", "🇷🇺", "🇺🇦"],
@@ -630,6 +665,7 @@
   },
   "szeged": {
     "been": true,
+    "caption": "Made a good faith effort to visit this tripoint, but it was literally impossible to rent a car in Szeged on a weekend and they wanted €100 for a taxi ride.",
     "city": "Szeged",
     "coords": "46.13333333, 20.26666667",
     "countries": ["HU", "RO", "RS"],
@@ -714,6 +750,7 @@
   "vaalserberg": {
     "been": true,
     "city": "Aachen",
+    "caption": "My first tripoint, where it all got started! Used to be a quadripoint, including Neutral Moresnet. On a hill that is also the highest point of the Netherlands. Freight trains use gauntlet track to pass through the Gemmenicher Tunnel directly underneath.",
     "coords": "50.75472222, 6.02083333",
     "countries": ["BE", "DE", "NL"],
     "icons": ["🇧🇪", "🇩🇪", "🇳🇱"],
@@ -730,6 +767,7 @@
   },
   "wizajny": {
     "been": true,
+    "caption": "This tripoint on the corner of Kaliningrad Oblast has a parking lot in Poland and an official trail leading to the tripoint. The borders with Poland and Lithuania are now heavily fortified with razor wire. There’s a marble monument, a warning sign, and a Soviet flag for good measure. Got some sorbet from the souvenir stand on the way out.",
     "coords": "54.36250000, 22.79055556",
     "countries": ["LT", "PL", "RU"],
     "icons": ["🇱🇹", "🇵🇱", "🇷🇺"],
@@ -738,6 +776,7 @@
   },
   "zahony": {
     "been": true,
+    "caption": "Passed within 700m of the tripoint on the road between Nyíregyháza in Hungary and Uzhhorod in Ukraine.",
     "coords": "48.41700000, 22.18300000",
     "countries": ["HU", "SK", "UA"],
     "icons": ["🇭🇺", "🇸🇰", "🇺🇦"],
@@ -754,6 +793,7 @@
   },
   "zittau": {
     "been": true,
+    "caption": "After visiting 51°N 15°E and the Turów mine, drove down an access road to the parking for the Trojmezí point. Due to an unusual European monsoon, the Neisse was in flood stage and I had to step over a meter of water to touch the tripoint marker. Continued on to Liberec and the Ještěd Tower.",
     "coords": "50.87027778, 14.82277778",
     "countries": ["CZ", "DE", "PL"],
     "icons": ["🇨🇿", "🇩🇪", "🇵🇱"],

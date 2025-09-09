@@ -1014,6 +1014,18 @@
     "name": "Stockholm",
     "type": "stations"
   },
+  "suburban-pendeltag": {
+    "been": false,
+    "city": "Stockholm",
+    "coords": "59.32944444, 18.06861111",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Stockholm_commuter_rail",
+    "name": "Pendeltåg",
+    "reference": "Stockholm",
+    "type": "suburban",
+    "wikidata": "Q211653"
+  },
   "synagogues-stockholm": {
     "been": true,
     "city": "Stockholm",
@@ -1117,7 +1129,7 @@
     "type": "twin-cities"
   },
   "useless-kymlinge": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.39444444, 17.96500000",
     "country": "SE",
@@ -1137,5 +1149,15 @@
     "prefix": "1897",
     "reference": "Stockholm",
     "type": "worldsfair"
+  },
+  "zero-points-gustav-adolfs-torg": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.32900000, 18.06800000",
+    "country": "SE",
+    "icons": ["0️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Gustav_Adolfs_torg,_Stockholm",
+    "name": "Gustav Adolfs Torg",
+    "type": "zero-points"
   }
 }

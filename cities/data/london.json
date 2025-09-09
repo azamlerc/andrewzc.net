@@ -4117,6 +4117,16 @@
     "name": "Borovsko Bridge",
     "type": "useless"
   },
+  "useless-north-end": {
+    "been": true,
+    "city": "London",
+    "coords": "51.56899000, -0.18232000",
+    "country": "GB",
+    "icons": ["🚧"],
+    "link": "https://en.wikipedia.org/wiki/North_End_tube_station",
+    "name": "North End",
+    "type": "useless"
+  },
   "walls-london": {
     "been": true,
     "city": "London",
@@ -4150,5 +4160,15 @@
     "prefix": "2000",
     "reference": "Greenwich",
     "type": "worldsfair"
+  },
+  "zero-points-charing-cross": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50730000, -0.12755000",
+    "country": "GB",
+    "icons": ["0️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Charing_Cross",
+    "name": "Charing Cross",
+    "type": "zero-points"
   }
 }

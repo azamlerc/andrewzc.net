@@ -74,6 +74,7 @@ a {
 .caption {
 	font: 24pt Avenir; 
 	color: #999;
+	white-space: normal;
 }
 
 .medium {
@@ -153,11 +154,20 @@ a {
 }
 
 .coords {
-	font: 22pt "SF Mono", Menlo; 
+	font: 28pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;
-	top: -6px;
+	top: -8px;
   white-space: pre;
+}
+
+.mapcap {
+	font: 10pt Avenir; 
+	color: #999;
+}
+
+.imagepopup {
+  min-height: 120px;
 }
 
 .caption .airport {
@@ -217,6 +227,15 @@ a {
   height: 400px;
   padding: 10px;
 	display: inline-block;
+}
+
+.images img {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+	display: inline-block;
+  padding: 40px 10px 0px 10px;
+  margin-bottom: -10px;
 }
 
 .hiroshima tr td {
@@ -470,8 +489,8 @@ a {
 }
 
 #map {
-	width: 1000px;
-	height: 500px;
+	width: 1240px;
+	height: 600px;
 	margin-left: 10px;
 	margin-bottom: 15px;
 }

@@ -180,28 +180,37 @@
     }
   }
   
-function convertMillimetersToImperial(mm) {
-  if (mm.length != 4) return mm;
+  function convertMillimetersToImperial(mm) {
+    if (mm.length != 4) return mm;
 
     // 1 inch = 25.4 millimeters
     const inches = mm / 25.4;
 
     // 1 foot = 12 inches
-    const feet = Math.floor(inches / 12);
+    let feet = Math.floor(inches / 12);
 
-    // Remaining inches after converting to feet
-    let remainingInches = inches - (feet * 12);
+    // Remaining inches after converting to feet, rounded to nearest 1/8 in
+    let remainingInches = inches - feet * 12;
     remainingInches = Math.round(remainingInches * 8) / 8;
-    
+
+    // ✅ If rounding pushed us to 12", carry to feet
+    if (remainingInches >= 12) {
+      feet += Math.floor(remainingInches / 12);
+      remainingInches = remainingInches % 12;
+    }
+
     // Calculate fractional inches
     const fractionalInches = remainingInches % 1;
     const fractionString = closestUnicodeFraction(fractionalInches);
 
-    // Build the user-presentable string
-    const result = `${formatFeet(feet)} ${formatInches(Math.floor(remainingInches),fractionString)}`;
+    // Build the user-presentable string (no extra space if feet is 0)
+    const parts = [
+      formatFeet(feet),
+      formatInches(Math.floor(remainingInches), fractionString),
+    ].filter(Boolean);
 
-    return result;
-}
+    return parts.join(' ');
+  }
 
 function toggleUnits(link) {
   link.innerText = convertMillimetersToImperial(link.innerText);
