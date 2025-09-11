@@ -88,6 +88,8 @@ async function convertHeicToJpg(dir) {
 
 async function copyImagesToThumbs(dir, tnDir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
+  const newThumbPaths = []; // collect only the thumbnails we created this run
+
   for (const entry of entries) {
     if (!entry.isFile()) continue;
     if (entry.name.startsWith(".")) continue;
@@ -103,6 +105,7 @@ async function copyImagesToThumbs(dir, tnDir) {
 
     try {
       await fs.copyFile(src, dst);
+      newThumbPaths.push(dst);
       console.log(`Copied → tn/: ${entry.name}`);
     } catch (e) {
       console.error(`Failed to copy to tn/: ${entry.name}`, e?.message || e);
@@ -110,6 +113,21 @@ async function copyImagesToThumbs(dir, tnDir) {
   }
 
   console.log("Open the files inside 'tn/' to crop to square and batch-resize to 600×600 in Preview.");
+
+  // If we created any thumbnails, open them all in a single Preview window.
+  if (newThumbPaths.length > 0) {
+    if (process.platform === "darwin") {
+      try {
+        // One call opens all files together (so Preview groups them in one window).
+        await execFileAsync("open", ["-a", "Preview", ...newThumbPaths]);
+        console.log(`Opened ${newThumbPaths.length} new thumbnail(s) in Preview.`);
+      } catch (e) {
+        console.warn(`Could not open new thumbnails in Preview: ${e?.message || e}`);
+      }
+    } else {
+      console.log(`Created ${newThumbPaths.length} new thumbnail(s). (Skipping auto-open: not macOS)`);
+    }
+  }
 }
 
 async function updateJsonWithImages({ dir, folderName, jsonPath }) {

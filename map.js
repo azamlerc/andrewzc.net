@@ -141,7 +141,7 @@ function showPlaces(places, filename) {
   let cluster = (element.getAttribute('cluster') || "true") == "true";
   let lines = (element.getAttribute('lines') || "false") == "true";
 	let maxClusterRadius = 60;
-  let disableClusteringAtZoom = 6;
+  let disableClusteringAtZoom = element.getAttribute('clusterLevel') || 8;
   let overrideClick = false;
 
 	markerLayers.forEach(markerLayer => {
@@ -318,8 +318,8 @@ function addEmojiMarker(map, place, test, tag, filename) {
 function firstSentence(text) {
   if (!text) return "";
   // split on ". " but keep the period on the first part
-  const parts = text.split(/\. /);
-  return parts.length > 1 ? parts[0] + "." : text;
+  const match = text.match(/(.*?[.!?])(\s|$)/);
+  return match ? match[1] : text;
 }
 
 function refreshMap(places) {

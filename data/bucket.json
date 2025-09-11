@@ -11,6 +11,7 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸", "📍"],
+    "images": ["algoe-ny1.jpg", "algoe-ny2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Agloe,_New_York",
     "name": "Algoe, NY",
     "state": "NY"
@@ -45,6 +46,7 @@
     "coords": "50.89472222, 4.34111111",
     "country": "BE",
     "icons": ["🇧🇪", "⚛️"],
+    "images": ["atomium1.jpg", "atomium2.jpg", "atomium3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Atomium",
     "name": "Atomium"
   },
@@ -69,6 +71,7 @@
     "coords": "51.48180000, -0.14470000",
     "country": "GB",
     "icons": ["🇬🇧", "🐷"],
+    "images": ["batttersea-power-station1.jpg", "batttersea-power-station2.jpg", "batttersea-power-station3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Battersea_Power_Station",
     "name": "Batttersea Power Station"
   },
@@ -77,6 +80,7 @@
     "coords": "51.26495, 3.00544",
     "country": "BE",
     "icons": ["🇧🇪", "🚋"],
+    "images": ["belgian-coast-tram3.jpg", "belgian-coast-tram2.jpg", "belgian-coast-tram1.jpg"],
     "link": "https://nl.wikipedia.org/wiki/Kusttram",
     "name": "Belgian Coast Tram",
     "wikidata": "Q1510414"
@@ -86,6 +90,7 @@
     "coords": "52.50444444, 13.44111111",
     "country": "DE",
     "icons": ["🇩🇪", "🧱"],
+    "images": ["berlin-wall1.JPG", "berlin-wall2.JPG", "berlin-wall3.JPG"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Wall",
     "name": "Berlin Wall"
   },
@@ -158,6 +163,7 @@
     "been": true,
     "country": "LT",
     "icons": ["🇱🇹", "🍳"],
+    "images": ["dieveniskes1.jpg", "dieveniskes2.jpg", "dieveniskes3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dieveni%C5%A1k%C4%97s",
     "name": "Dieveniškės"
   },
@@ -166,6 +172,7 @@
     "coords": "47.0727, 15.4428",
     "country": "AT",
     "icons": ["🇦🇹", "🪜"],
+    "images": ["doppelwendeltreppe1.jpg", "doppelwendeltreppe2.jpg", "doppelwendeltreppe3.jpg"],
     "link": "https://de.wikipedia.org/wiki/Doppelwendeltreppe_Graz",
     "name": "Doppelwendeltreppe",
     "wikidata": "Q1243451"
@@ -183,6 +190,7 @@
     "coords": "25.26970000, 55.30950000",
     "country": "AE",
     "icons": ["🇦🇪", "🌃"],
+    "images": ["dubai1.jpg", "dubai2.jpg", "dubai3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dubai",
     "name": "Dubai"
   },
@@ -224,6 +232,7 @@
     "coords": "37.79445000, -122.39398000",
     "country": "US",
     "icons": ["🇺🇸", "🚃"],
+    "images": ["f-market-line1.jpg", "f-market-line2.jpg", "f-market-line3.JPG"],
     "link": "https://en.wikipedia.org/wiki/F_Market_%26_Wharves",
     "name": "F Market Line",
     "wikidata": "Q1137818"
@@ -282,6 +291,7 @@
     "coords": "29.97916667, 31.13416667",
     "country": "EG",
     "icons": ["🇪🇬", "🛕"],
+    "images": ["great-pyramid-of-giza1.jpg", "great-pyramid-of-giza2.jpg", "great-pyramid-of-giza3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
     "name": "Great Pyramid of Giza"
   },
@@ -322,6 +332,7 @@
     "coords": "59.97901000, 10.67589000",
     "country": "NO",
     "icons": ["🇳🇴", "🚇"],
+    "images": ["holmenkollen-line1.jpg", "holmenkollen-line2.jpg", "holmenkollen-line3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Holmenkollen_Line",
     "name": "Holmenkollen Line",
     "wikidata": "Q1771722"
@@ -363,6 +374,7 @@
     "coords": "-2.26944444, 40.90222222",
     "country": "KE",
     "icons": ["🇰🇪", "🐴"],
+    "images": ["lamu1.jpg", "lamu2.jpg", "lamu3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Lamu",
     "name": "Lamu"
   },
@@ -396,6 +408,7 @@
     "coords": "57.91638889, 27.71111111",
     "country": "EE",
     "icons": ["🇪🇪", "🍩"],
+    "images": ["lutepaa1.jpg", "lutepaa2.jpg", "lutepaa3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Lutepää",
     "name": "Lutepää"
   },
@@ -437,6 +450,7 @@
     "coords": "6.30593, -75.58213",
     "country": "CO",
     "icons": ["🇨🇴", "🚡"],
+    "images": ["medellin-metrocable2.jpg", "medellin-metrocable1.jpg", "medellin-metrocable3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Metrocable_(Medell%C3%ADn)",
     "name": "Medellín Metrocable",
     "wikidata": "Q3307447"
@@ -538,10 +552,6 @@
     "link": "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
     "name": "Schengen"
   },
-  "script-src=mapjs/script": {
-    "been": true,
-    "name": "<script src=\"map.js\"></script>"
-  },
   "seiryu-miharashi": {
     "been": false,
     "coords": "34.21100400, 132.00631500",
@@ -555,6 +565,7 @@
     "coords": "29.20527778, 25.51944444",
     "country": "EG",
     "icons": ["🇪🇬", "🏝"],
+    "images": ["siwa-oasis3.jpg", "siwa-oasis2.jpg", "siwa-oasis1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Siwa_Oasis",
     "name": "Siwa Oasis"
   },
@@ -563,6 +574,7 @@
     "coords": "41.40733000, -75.67132000",
     "country": "US",
     "icons": ["🇺🇸", "🚂"],
+    "images": ["steamtown1.jpg", "steamtown3.jpg", "steamtown2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Steamtown_National_Historic_Site",
     "name": "Steamtown"
   },
@@ -579,6 +591,7 @@
     "coords": "30.03190000, 31.25670000",
     "country": "EG",
     "icons": ["🇪🇬", "🕌"],
+    "images": ["sultan-hasan-mosque1.jpg", "sultan-hasan-mosque2.jpg", "sultan-hasan-mosque3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan",
     "name": "Sultan Hasan Mosque"
   },
@@ -595,6 +608,7 @@
     "coords": "47.51861111, 19.08194444",
     "country": "HU",
     "icons": ["🇭🇺", "♨️"],
+    "images": ["szechenyi-furdo1.jpg", "szechenyi-furdo2.jpg", "szechenyi-furdo3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Széchenyi_thermal_bath",
     "name": "Széchenyi Fürdő"
   },
@@ -629,6 +643,7 @@
     "coords": "4.64900000, -74.10860000",
     "country": "CO",
     "icons": ["🇨🇴", "🚌"],
+    "images": ["transmilenio1.jpg", "transmilenio2.jpg", "transmilenio3.jpg"],
     "link": "https://en.wikipedia.org/wiki/TransMilenio",
     "name": "TransMilenio"
   },
@@ -663,6 +678,7 @@
     "coords": "50.42400000, 6.22100000",
     "countries": ["DE", "BE"],
     "icons": ["🇩🇪", "🇧🇪"],
+    "images": ["vennbahn1.jpg", "vennbahn2.jpg", "vennbahn3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vennbahn",
     "name": "Vennbahn"
   },
@@ -679,6 +695,7 @@
     "coords": "44.07944444444445, 3.022222222222222",
     "country": "FR",
     "icons": ["🇫🇷", "🌉"],
+    "images": ["viaduc-de-millau2.JPG", "viaduc-de-millau3.JPG"],
     "link": "https://fr.wikipedia.org/wiki/Viaduc_de_Millau",
     "name": "Viaduc de Millau",
     "wikidata": "Q99236"
@@ -696,6 +713,7 @@
     "coords": "49.5941, 4.5025",
     "country": "FR",
     "icons": ["🇫🇷", "🐗"],
+    "images": ["woinic1.jpg", "woinic2.jpg", "woinic3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Woinic",
     "name": "Woinic",
     "wikidata": "Q3569585"
