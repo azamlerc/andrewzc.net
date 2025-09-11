@@ -10,7 +10,7 @@ import { promisify } from "util";
 const execFileAsync = promisify(execFile);
 
 // ---- Config you asked to hardcode ----
-const DATA_DIR = "/Users/andrewzc/Projects/andrewzc.net/data";
+const DATA_DIR = "/Users/andrew/Projects/andrewzc.net/data";
 
 // Image extensions we treat as “images” for tn copies.
 // (HEICs should be gone after conversion, but listing common ones is harmless.)
@@ -37,6 +37,10 @@ async function main() {
     process.exit(1);
   }
 
+  // Normalize extensions to ".jpg" for consistency (top-level and tn/, if present)
+  await normalizeJpegExtensionsInDir(dir);
+  await normalizeJpegExtensionsInDir(tnDir, { optional: true });
+	
   // ---- 1) Convert HEIC → JPG (lowercase .jpg), remove original ----
   await convertHeicToJpg(dir);
 
@@ -50,6 +54,62 @@ async function main() {
   await updateJsonWithImages({ dir, folderName, jsonPath });
 
   console.log("\nAll done.");
+}
+
+async function normalizeJpegExtensionsInDir(directory, opts = {}) {
+  const { optional = false } = opts;
+
+  const stat = await fs.stat(directory).catch(() => null);
+  if (!stat || !stat.isDirectory()) {
+    if (optional) return;
+    console.warn(`Skipping extension normalization: "${directory}" not found.`);
+    return;
+  }
+
+  const entries = await fs.readdir(directory, { withFileTypes: true });
+  for (const entry of entries) {
+    if (!entry.isFile()) continue;
+    if (entry.name.startsWith(".")) continue;
+
+    const parsed = path.parse(entry.name);
+    const ext = parsed.ext;                 // keep original case
+    const lower = ext.toLowerCase();
+
+    // Need rename if it's .jpeg (any case) OR .jpg but not exactly lowercase ".jpg"
+    const needsRename =
+      lower === ".jpeg" || (lower === ".jpg" && ext !== ".jpg");
+
+    if (!needsRename) continue;
+
+    const src = path.join(directory, entry.name);
+    const dst = path.join(directory, `${parsed.name}.jpg`);
+
+    // If only case differs on a case-insensitive FS, do a 2-step rename
+    if (src.toLowerCase() === dst.toLowerCase()) {
+      const tmp = path.join(directory, `${parsed.name}.tmp-${Date.now()}`);
+      try {
+        await fs.rename(src, tmp);
+        await fs.rename(tmp, dst);
+        console.log(`Renamed: ${entry.name} → ${parsed.name}.jpg`);
+      } catch (e) {
+        console.warn(`Failed to normalize ${entry.name}: ${e?.message || e}`);
+      }
+      continue;
+    }
+
+    // If destination already exists, skip to avoid clobbering
+    if (await exists(dst)) {
+      console.warn(`Skip rename (target exists): ${entry.name} → ${parsed.name}.jpg`);
+      continue;
+    }
+
+    try {
+      await fs.rename(src, dst);
+      console.log(`Renamed: ${entry.name} → ${parsed.name}.jpg`);
+    } catch (e) {
+      console.warn(`Failed to normalize ${entry.name}: ${e?.message || e}`);
+    }
+  }
 }
 
 async function convertHeicToJpg(dir) {
@@ -169,7 +229,6 @@ async function updateJsonWithImages({ dir, folderName, jsonPath }) {
 
   for (const [key, files] of byKey) {
     if (!(key in data)) {
-      // You asked to *not* create new places — just report the error for each filename.
       for (const f of files) {
         console.error(`No matching place key "${key}" in ${folderName}.json for file: ${f}`);
       }
@@ -178,7 +237,8 @@ async function updateJsonWithImages({ dir, folderName, jsonPath }) {
     }
 
     const place = data[key] ?? {};
-    const images = Array.isArray(place.images) ? place.images.slice() : [];
+    const hadImagesProp = Array.isArray(place.images);          // <— track if images existed
+    const images = hadImagesProp ? place.images.slice() : [];
 
     let updated = false;
     for (const f of files) {
@@ -188,8 +248,14 @@ async function updateJsonWithImages({ dir, folderName, jsonPath }) {
       }
     }
 
+    // If we added/created images, persist and maybe add caption:""
     if (updated) {
       place.images = images;
+      // Only when we CREATE images[] (it didn't exist before), add empty caption if missing
+      if (!hadImagesProp && !Object.prototype.hasOwnProperty.call(place, "caption")) {
+        place.caption = "";
+        console.log(`Added empty caption for "${key}"`);
+      }
       data[key] = place;
       changed = true;
       console.log(`Updated key "${key}": now has images [${images.join(", ")}]`);
