@@ -165,7 +165,7 @@ function showPlaces(places, filename) {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-	map = L.map('map', {center: [lat, lon], zoom: zoom, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
+	map = L.map('map', {center: [lat, lon], zoom: zoom, scrollWheelZoom: true, zoomSnap: 1, wheelDebounceTime: 150, wheelPxPerZoomLevel: 2000, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
 	const baseLayers = { 'OpenStreetMap': initialTiles };
   const graticule = L.latlngGraticule({
     showLabel: false,

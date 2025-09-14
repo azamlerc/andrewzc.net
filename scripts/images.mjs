@@ -38,8 +38,8 @@ async function main() {
   }
 
   // Normalize extensions to ".jpg" for consistency (top-level and tn/, if present)
-  await normalizeJpegExtensionsInDir(dir);
-  await normalizeJpegExtensionsInDir(tnDir, { optional: true });
+  await normalizeNamesInDir(dir);
+  await normalizeNamesInDir(tnDir, { optional: true });
 	
   // ---- 1) Convert HEIC → JPG (lowercase .jpg), remove original ----
   await convertHeicToJpg(dir);
@@ -56,13 +56,13 @@ async function main() {
   console.log("\nAll done.");
 }
 
-async function normalizeJpegExtensionsInDir(directory, opts = {}) {
+async function normalizeNamesInDir(directory, opts = {}) {
   const { optional = false } = opts;
 
   const stat = await fs.stat(directory).catch(() => null);
   if (!stat || !stat.isDirectory()) {
     if (optional) return;
-    console.warn(`Skipping extension normalization: "${directory}" not found.`);
+    console.warn(`Skipping name normalization: "${directory}" not found.`);
     return;
   }
 
@@ -72,40 +72,50 @@ async function normalizeJpegExtensionsInDir(directory, opts = {}) {
     if (entry.name.startsWith(".")) continue;
 
     const parsed = path.parse(entry.name);
-    const ext = parsed.ext;                 // keep original case
-    const lower = ext.toLowerCase();
+    const origBase = parsed.name;           // original basename (no ext)
+    const origExt  = parsed.ext;            // original extension (keep case)
+    const lowerExt = origExt.toLowerCase();
 
-    // Need rename if it's .jpeg (any case) OR .jpg but not exactly lowercase ".jpg"
-    const needsRename =
-      lower === ".jpeg" || (lower === ".jpg" && ext !== ".jpg");
+    // Desired extension
+    let newExt = origExt;
+    if (lowerExt === ".jpeg" || lowerExt === ".jpg") {
+      newExt = ".jpg";
+    } else if (lowerExt === ".heic") {
+      newExt = ".heic"; // keep for now; conversion happens later
+    }
 
-    if (!needsRename) continue;
+    // Desired basename
+    const newBase = simplify(origBase);
 
     const src = path.join(directory, entry.name);
-    const dst = path.join(directory, `${parsed.name}.jpg`);
+    const dstName = `${newBase}${newExt}`;
+    const dst = path.join(directory, dstName);
+
+    // Skip if already correct
+    if (entry.name === dstName) continue;
 
     // If only case differs on a case-insensitive FS, do a 2-step rename
     if (src.toLowerCase() === dst.toLowerCase()) {
-      const tmp = path.join(directory, `${parsed.name}.tmp-${Date.now()}`);
+      const tmp = path.join(directory, `${newBase}.tmp-${Date.now()}`);
       try {
         await fs.rename(src, tmp);
         await fs.rename(tmp, dst);
-        console.log(`Renamed: ${entry.name} → ${parsed.name}.jpg`);
+        console.log(`Renamed: ${entry.name} → ${dstName}`);
       } catch (e) {
         console.warn(`Failed to normalize ${entry.name}: ${e?.message || e}`);
       }
       continue;
     }
 
-    // If destination already exists, skip to avoid clobbering
+    // If destination already exists (different file), don’t clobber
     if (await exists(dst)) {
-      console.warn(`Skip rename (target exists): ${entry.name} → ${parsed.name}.jpg`);
+      console.warn(`Skip rename (target exists): ${entry.name} → ${dstName}`);
       continue;
     }
 
     try {
       await fs.rename(src, dst);
-      console.log(`Renamed: ${entry.name} → ${parsed.name}.jpg`);
+      console.log(`Renamed: ${entry.name} → ${dstName}`);
     } catch (e) {
       console.warn(`Failed to normalize ${entry.name}: ${e?.message || e}`);
     }
@@ -331,6 +341,22 @@ async function safeUnlink(p) {
   } catch (e) {
     console.warn(`Could not remove "${path.basename(p)}": ${e?.message || e}`);
   }
+}
+
+function simplify(value) {
+  return value
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/’/g, "")
+    .replace(/\./g, "")
+    .replace(/,/g, "")
+    .replace(/\*/g, "")
+    .replace(/"/g, "")
+    .replace(/</g, "")
+    .replace(/>/g, "")
+    .normalize("NFD") // decompose accents/diacritics
+    .replace(/[\u0300-\u036f]/g, "") // remove diacritical marks
+    .replace(/the-/, "");
 }
 
 main().catch((e) => {

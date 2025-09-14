@@ -1,15 +1,22 @@
 #!/usr/bin/env node
 // upload.mjs
-// Usage: node upload.mjs [/path/to/folder] [--dry-run]
+// Usage:
+//   node upload.mjs [/path/to/folder] [--dry-run] [--force]
+//
+// Behavior:
+// - Uses local folder name as s3 prefix: s3://andrewzc-imagine/<folder>/...
+// - Uploads only missing keys by default; --force uploads everything
+// - For tn/ files being uploaded, resizes & saves locally to 600×600 before upload
 
 import { promises as fs } from "fs";
 import path from "path";
 import { S3Client, ListObjectsV2Command, PutObjectCommand } from "@aws-sdk/client-s3";
+import sharp from "sharp";
 
 const BUCKET = "andrewzc-imagine";
 const CONCURRENCY = 5;
+const THUMB_SIZE = 600;
 
-// Very small content-type map (extend as needed)
 const CT = {
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
@@ -26,9 +33,11 @@ const CACHE_IMAGES = "public, max-age=31536000, immutable";
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
+  const force = args.includes("--force");
   const dirArg = args.find(a => !a.startsWith("-"));
+
   if (!dirArg) {
-    console.error("Usage: node upload.mjs [/path/to/folder] [--dry-run]");
+    console.error("Usage: node upload.mjs [/path/to/folder] [--dry-run] [--force]");
     process.exit(1);
   }
 
@@ -36,26 +45,25 @@ async function main() {
   const folderName = path.basename(localDir);
   const prefix = `${folderName}/`;
 
-  // Sanity checks
   const stat = await fs.stat(localDir).catch(() => null);
   if (!stat || !stat.isDirectory()) {
     console.error(`Error: "${localDir}" is not a directory or does not exist.`);
     process.exit(1);
   }
 
-  // Collect local files (top-level + tn/)
-  const localFiles = await gatherLocalFiles(localDir);
+  const localFiles = await gatherLocalFiles(localDir); // marks tn files with isThumb
   if (!localFiles.length) {
     console.log("No local files to consider.");
     return;
   }
 
-  // Build a set of existing S3 keys under prefix
-  const s3 = new S3Client({});
-  const existing = await listAllKeys(s3, BUCKET, prefix);
+  const s3 = new S3Client({}); // picks up region/creds from env or shared config
 
-  // Determine which uploads are missing
-  const toUpload = localFiles.filter(f => !existing.has(f.key));
+  // Build set of existing keys unless --force
+  const existing = force ? new Set() : await listAllKeys(s3, BUCKET, prefix);
+
+  // Choose what to upload
+  const toUpload = force ? localFiles : localFiles.filter(f => !existing.has(f.key));
   if (!toUpload.length) {
     console.log(`All files already present in s3://${BUCKET}/${prefix}`);
     return;
@@ -63,15 +71,20 @@ async function main() {
 
   if (dryRun) {
     console.log(`DRY RUN — would upload ${toUpload.length} file(s):`);
-    for (const f of toUpload) console.log(`  + ${f.key}`);
+    for (const f of toUpload) {
+      const note = f.isThumb && shouldResize(f.ext) ? " (resize local tn → 600×600)" : "";
+      console.log(`  + ${f.key}${note}`);
+    }
     return;
   }
 
-  console.log(`Uploading ${toUpload.length} missing file(s) to s3://${BUCKET}/${prefix} …`);
+  if (force) {
+    console.log(`--force enabled: uploading ${toUpload.length} file(s) regardless of presence on S3.`);
+  } else {
+    console.log(`Uploading ${toUpload.length} missing file(s) to s3://${BUCKET}/${prefix} …`);
+  }
 
-  // Upload with small concurrency
-  let inFlight = 0, i = 0, uploaded = 0, failed = 0;
-
+  let i = 0, inFlight = 0, uploaded = 0, failed = 0;
   const next = async () => {
     if (i >= toUpload.length) return;
     const file = toUpload[i++];
@@ -89,10 +102,8 @@ async function main() {
     }
   };
 
-  const starters = Math.min(CONCURRENCY, toUpload.length);
-  await Promise.all(Array.from({ length: starters }, () => next()));
-
-  console.log(`Done. Uploaded: ${uploaded}, failed: ${failed}, skipped (already present): ${localFiles.length - toUpload.length}`);
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, toUpload.length) }, () => next()));
+  console.log(`Done. Uploaded: ${uploaded}, failed: ${failed}, skipped: ${localFiles.length - toUpload.length}`);
 }
 
 async function gatherLocalFiles(baseDir) {
@@ -105,7 +116,8 @@ async function gatherLocalFiles(baseDir) {
       files.push({
         absPath: path.join(baseDir, e.name),
         key: `${path.basename(baseDir)}/${e.name}`,
-        ext: path.extname(e.name).toLowerCase()
+        ext: path.extname(e.name).toLowerCase(),
+        isThumb: false,
       });
     }
   }
@@ -120,23 +132,23 @@ async function gatherLocalFiles(baseDir) {
         files.push({
           absPath: path.join(tnDir, e.name),
           key: `${path.basename(baseDir)}/tn/${e.name}`,
-          ext: path.extname(e.name).toLowerCase()
+          ext: path.extname(e.name).toLowerCase(),
+          isThumb: true,
         });
       }
     }
   }
-
   return files;
 }
 
 async function listAllKeys(s3, bucket, prefix) {
   const keys = new Set();
-  let ContinuationToken = undefined;
+  let ContinuationToken;
   do {
     const resp = await s3.send(new ListObjectsV2Command({
       Bucket: bucket,
       Prefix: prefix,
-      ContinuationToken,
+      ContinuationToken
     }));
     (resp.Contents || []).forEach(o => keys.add(o.Key));
     ContinuationToken = resp.IsTruncated ? resp.NextContinuationToken : undefined;
@@ -144,21 +156,61 @@ async function listAllKeys(s3, bucket, prefix) {
   return keys;
 }
 
+function shouldResize(ext) {
+  // Only formats we can safely write back; skip GIF/SVG/etc.
+  return ext === ".jpg" || ext === ".jpeg" || ext === ".png" || ext === ".webp";
+}
+
+async function ensureLocalThumb600(filePath, ext) {
+  try {
+    // If already 600×600, skip (rotate honors EXIF orientation)
+    const meta = await sharp(filePath).rotate().metadata();
+    if (meta?.width === THUMB_SIZE && meta?.height === THUMB_SIZE) {
+      return false; // no change needed
+    }
+
+    // Resize to exactly 600×600. Assumes input is already square (your manual crop).
+    // Use "cover" to guarantee exact dimensions if something slips through.
+    let pipeline = sharp(filePath).rotate().resize(THUMB_SIZE, THUMB_SIZE, {
+      fit: "cover",
+      withoutEnlargement: false,
+    });
+
+    const tmpPath = `${filePath}.tmp`;
+    if (ext === ".png")       await pipeline.png().toFile(tmpPath);
+    else if (ext === ".webp") await pipeline.webp({ quality: 90 }).toFile(tmpPath);
+    else                      await pipeline.jpeg({ quality: 85, mozjpeg: true }).toFile(tmpPath);
+
+    await fs.rename(tmpPath, filePath); // atomic-ish swap
+    return true;
+  } catch (e) {
+    console.warn(`Could not resize ${path.basename(filePath)}: ${e?.message || e}`);
+    return false;
+  }
+}
+
 async function uploadOne(s3, bucket, file) {
+  // NEW: if this is a tn file and it's being uploaded, first ensure local 600×600
+  if (file.isThumb && shouldResize(file.ext)) {
+    const changed = await ensureLocalThumb600(file.absPath, file.ext);
+    if (changed) {
+      process.stdout.write(`↺ resized ${path.basename(file.absPath)} to ${THUMB_SIZE}×${THUMB_SIZE}\n`);
+    }
+  }
+
+  // Read (possibly updated) file
   const Body = await fs.readFile(file.absPath);
   const ContentType = CT[file.ext] || "application/octet-stream";
+
   const params = {
     Bucket: bucket,
     Key: file.key,
     Body,
     ContentType,
   };
-
-  // Aggressive caching for images (safe for immutable filenames)
   if (ContentType.startsWith("image/")) {
     params.CacheControl = CACHE_IMAGES;
   }
-
   await s3.send(new PutObjectCommand(params));
 }
 
