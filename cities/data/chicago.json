@@ -7,6 +7,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/California_(CTA_Congress_Line_station)",
     "name": "California",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "abandoned-central": {
@@ -17,6 +18,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Central_(CTA_Congress_Line_station)",
     "name": "Central",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "abandoned-kostner": {
@@ -27,6 +29,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Kostner_(CTA_Congress_Line_station)",
     "name": "Kostner",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "abandoned-laramie": {
@@ -37,6 +40,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Laramie_station_(CTA_Blue_Line)",
     "name": "Laramie",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "abandoned-racine": {
@@ -47,6 +51,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Racine_station_(CTA_Green_Line)",
     "name": "Racine",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "abandoned-washington/state": {
@@ -57,6 +62,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Washington_station_(CTA_Red_Line)",
     "name": "Washington/State",
+    "reference": "Chicago",
     "type": "abandoned"
   },
   "airport-metros-midway": {
@@ -195,6 +201,66 @@
     "name": "Loop",
     "reference": "Chicago",
     "type": "circle-lines"
+  },
+  "closed-lines-garfield-park-branch": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Garfield_Park_branch",
+    "name": "Garfield Park branch",
+    "reference": "Chicago",
+    "type": "closed-lines",
+    "wikidata": "Q58655951"
+  },
+  "closed-lines-humboldt-park-branch": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.91049300, -87.70561700",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Humboldt_Park_branch",
+    "name": "Humboldt Park branch",
+    "reference": "Chicago",
+    "type": "closed-lines",
+    "wikidata": "Q69964491"
+  },
+  "closed-lines-kenwood-branch": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Kenwood_branch",
+    "name": "Kenwood branch",
+    "reference": "Chicago",
+    "type": "closed-lines",
+    "wikidata": "Q6392523"
+  },
+  "closed-lines-normal-park-branch": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Normal_Park_branch",
+    "name": "Normal Park branch",
+    "reference": "Chicago",
+    "type": "closed-lines",
+    "wikidata": "Q16982879"
+  },
+  "closed-lines-stock-yards-branch": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Stock_Yards_branch",
+    "name": "Stock Yards branch",
+    "reference": "Chicago",
+    "type": "closed-lines",
+    "wikidata": "Q16985072"
   },
   "closed-trams-chicago": {
     "been": true,
@@ -649,6 +715,50 @@
     "reference": "Chicago",
     "type": "late-night"
   },
+  "level-crossings-francisco": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.96615500, -87.70209900",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://en.wikipedia.org/wiki/Francisco_station",
+    "name": "Francisco",
+    "reference": "Chicago",
+    "type": "level-crossings"
+  },
+  "level-crossings-kedzie": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.96609900, -87.70942600",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://en.wikipedia.org/wiki/Kedzie_station_(CTA_Brown_Line)",
+    "name": "Kedzie",
+    "reference": "Chicago",
+    "type": "level-crossings"
+  },
+  "level-crossings-kimball": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.96762800, -87.71293400",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://en.wikipedia.org/wiki/Kimball_station",
+    "name": "Kimball",
+    "reference": "Chicago",
+    "type": "level-crossings"
+  },
+  "level-crossings-rockwell": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.96620800, -87.69472000",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://en.wikipedia.org/wiki/Rockwell_station",
+    "name": "Rockwell",
+    "reference": "Chicago",
+    "type": "level-crossings"
+  },
   "luna-park-chicago": {
     "been": false,
     "city": "Chicago",
@@ -659,6 +769,14 @@
     "name": "Chicago",
     "strike": true,
     "type": "luna-park"
+  },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Chicago",
+    "icons": [],
+    "name": "",
+    "reference": "Chicago",
+    "type": "metro-fonts"
   },
   "metro-fonts-helvetica": {
     "been": true,

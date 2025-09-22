@@ -139,6 +139,18 @@
     "name": "Palmer Cemetery",
     "type": "cemeteries"
   },
+  "closed-lines-market-street-elevated-(32nd–45th-streets)": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95277778, -75.16361111",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Market%E2%80%93Frankford_Line#History",
+    "name": "Market Street Elevated (32nd–45th Streets)",
+    "reference": "Philadelphia",
+    "type": "closed-lines",
+    "wikidata": "Q1345"
+  },
   "closed-trams-camden-nj": {
     "been": true,
     "city": "Philadelphia",
@@ -301,6 +313,27 @@
     "name": "SEPTA Key",
     "reference": "Philadelphia",
     "type": "fare-cards"
+  },
+  "foster-comcast-technology-center": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95490000, -75.17040000",
+    "country": "US",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/Comcast_Technology_Center",
+    "name": "Comcast Technology Center",
+    "type": "foster"
+  },
+  "foster-pavilion-university-of-pennsylvania": {
+    "been": false,
+    "city": "Philadelphia",
+    "coords": "39.95027778, -75.19472222",
+    "country": "US",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/University_of_Pennsylvania",
+    "name": "The Pavilion, University of Pennsylvania",
+    "state": "University of Pennsylvania",
+    "type": "foster"
   },
   "furthest-69th-street-transportation-center": {
     "been": true,
@@ -629,6 +662,14 @@
     "name": "Cherry Hill",
     "type": "malls"
   },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Philadelphia",
+    "icons": [],
+    "name": "",
+    "reference": "Philadelphia",
+    "type": "metro-fonts"
+  },
   "metro-fonts-roboto": {
     "been": true,
     "city": "Philadelphia",
@@ -647,6 +688,16 @@
     "icons": ["🗺"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
     "name": "Chinatown (SEPTA)",
+    "type": "metro-places"
+  },
+  "metro-places-oregon": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.91680000, -75.17130000",
+    "country": "US",
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Oregon_station",
+    "name": "Oregon",
     "type": "metro-places"
   },
   "metro-places-wyoming": {
@@ -1032,6 +1083,16 @@
     "link": "https://en.wikipedia.org/wiki/30th_Street_Station",
     "name": "Philadelphia 30th Street",
     "type": "stations"
+  },
+  "towers-comcast-technology-center": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95490000, -75.17040000",
+    "country": "US",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Comcast_Technology_Center",
+    "name": "Comcast Technology Center",
+    "type": "towers"
   },
   "towers-liberty-place": {
     "been": true,

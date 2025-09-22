@@ -18,6 +18,36 @@
     "name": "Bilbao",
     "type": "bilingual"
   },
+  "bridges-puente-de-vizcaya": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.32310000, -3.01690000",
+    "country": "ES",
+    "icons": ["🌉"],
+    "link": "https://en.wikipedia.org/wiki/Vizcaya_Bridge",
+    "name": "Puente de Vizcaya",
+    "type": "bridges"
+  },
+  "calatrava-bilbao-airport": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.30111111, -2.91055556",
+    "country": "ES",
+    "icons": ["🦔"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao_Airport",
+    "name": "Bilbao Airport",
+    "type": "calatrava"
+  },
+  "cathedrals-bilbao": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92388889",
+    "country": "ES",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao_Cathedral",
+    "name": "Bilbao",
+    "type": "cathedrals"
+  },
   "closed-trams-bilbao": {
     "been": false,
     "city": "Bilbao",
@@ -29,6 +59,61 @@
     "prefix": "1959",
     "type": "closed-trams"
   },
+  "confluence-orduna": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.00000000, -3.00000000",
+    "country": "ES",
+    "icons": ["🚸"],
+    "link": "https://confluence.org/confluence.php?lat=43&lon=-3",
+    "name": "Orduña",
+    "prefix": "43°N 3°W",
+    "type": "confluence"
+  },
+  "fare-cards-barik": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "Barik https://en.wikipedia.org/wiki/Barik_card",
+    "name": "Barik",
+    "reference": "Bilbao",
+    "type": "fare-cards",
+    "wikidata": "Q12254780"
+  },
+  "foster-bilbao-metro": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26270000, -2.93540000",
+    "country": "ES",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao_metro",
+    "name": "Bilbao Metro",
+    "type": "foster",
+    "wikidata": "Q325309"
+  },
+  "funiculars-artxanda-funicular": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.27091900, -2.92291400",
+    "country": "ES",
+    "icons": ["🚠"],
+    "link": "https://en.wikipedia.org/wiki/Artxanda_Funicular",
+    "name": "Artxanda Funicular",
+    "type": "funiculars"
+  },
+  "funiculars-funicular-de-larreineta": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.29499000, -3.04540000",
+    "country": "ES",
+    "icons": ["🚠"],
+    "link": "https://es.wikipedia.org/wiki/Funicular_de_Larreineta",
+    "name": "Funicular de Larreineta",
+    "type": "funiculars",
+    "wikidata": "Q8963131"
+  },
   "gauges-bilbao": {
     "been": false,
     "city": "Bilbao",
@@ -39,6 +124,24 @@
     "prefix": "1000",
     "type": "gauges"
   },
+  "ikea-barakaldo": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.29149710, -3.00687185",
+    "country": "ES",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Barakaldo",
+    "name": "Barakaldo",
+    "type": "ikea"
+  },
+  "metro-fonts-": {
+    "been": false,
+    "city": "Bilbao",
+    "icons": [],
+    "name": "",
+    "reference": "Bilbao",
+    "type": "metro-fonts"
+  },
   "metro-fonts-rotis-semi-sans": {
     "been": false,
     "city": "Bilbao",
@@ -48,6 +151,16 @@
     "name": "Rotis Semi Sans",
     "reference": "Bilbao",
     "type": "metro-fonts"
+  },
+  "metro-places-portugalete": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.31777778, -3.02055556",
+    "countries": ["ES", "PT"],
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Portugalete_(Bilbao_metro)",
+    "name": "Portugalete",
+    "type": "metro-places"
   },
   "metro-population-bilbao": {
     "been": false,
@@ -77,6 +190,29 @@
     "name": "Bilbao",
     "type": "metros"
   },
+  "museums-guggenheim-bilbao": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26861111, -2.93388889",
+    "country": "ES",
+    "icons": ["🖼"],
+    "link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+    "name": "Guggenheim Bilbao",
+    "type": "museums"
+  },
+  "projects-bilbao-basque-y": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Basque_Y",
+    "name": "Bilbao Basque Y",
+    "prefix": "2027",
+    "reference": "Bilbao",
+    "type": "projects",
+    "wikidata": "Q810382"
+  },
   "projects-bilbao-tram-to-bolueta": {
     "been": true,
     "city": "Bilbao",
@@ -88,6 +224,80 @@
     "reference": "Bilbao",
     "type": "projects"
   },
+  "rivers-nervion": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.32550556, -3.01937222",
+    "country": "ES",
+    "icons": ["🌊"],
+    "link": "https://en.wikipedia.org/wiki/Nervión",
+    "name": "Nervión",
+    "type": "rivers"
+  },
+  "spain-pais-vasco": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26222200, -2.95333300",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Pa%C3%ADs_Vasco",
+    "name": "País Vasco",
+    "type": "spain"
+  },
+  "squares-plaza-miguel-de-unamuno": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25844444, -2.92154722",
+    "country": "ES",
+    "icons": ["⛲️"],
+    "link": "https://es.wikipedia.org/wiki/Plaza_Miguel_de_Unamuno",
+    "name": "Plaza Miguel de Unamuno",
+    "reference": "Bilbao",
+    "type": "squares",
+    "wikidata": "Q12263580"
+  },
+  "stadiums-san-mames-stadium": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26430000, -2.95040000",
+    "country": "ES",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/San_Mamés_Stadium_(2013)",
+    "name": "San Mamés Stadium",
+    "type": "stadiums"
+  },
+  "stations-bilbao-abando": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26138889, -2.92777778",
+    "country": "ES",
+    "icons": ["🚉"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao-Abando_railway_station",
+    "name": "Bilbao Abando",
+    "type": "stations"
+  },
+  "suburban-cercanias": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Cercanías_Bilbao",
+    "name": "Cercanías",
+    "reference": "Bilbao",
+    "type": "suburban",
+    "wikidata": "Q10862037"
+  },
+  "towers-iberdrola-tower": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26750000, -2.93861111",
+    "country": "ES",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Iberdrola_Tower",
+    "name": "Iberdrola Tower",
+    "type": "towers"
+  },
   "trams-bilbao": {
     "been": false,
     "city": "Bilbao",
@@ -97,5 +307,26 @@
     "link": "https://en.wikipedia.org/wiki/Bilbao_tram",
     "name": "Bilbao",
     "type": "trams"
+  },
+  "transporter-vizcaya-bridge": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.32310000, -3.01690000",
+    "country": "ES",
+    "icons": ["🚟"],
+    "link": "https://en.wikipedia.org/wiki/Vizcaya_Bridge",
+    "name": "Vizcaya Bridge",
+    "type": "transporter"
+  },
+  "useless-lemoniz": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.41138889, -2.90222222",
+    "country": "ES",
+    "icons": ["🚧"],
+    "link": "https://en.wikipedia.org/wiki/Lemóniz_Nuclear_Power_Plant",
+    "name": "Lemoniz",
+    "type": "useless",
+    "wikidata": "Q1520384"
   }
 }

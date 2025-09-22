@@ -17,12 +17,6 @@
     "link": "https://en.wikipedia.org/wiki/National_September_11_Memorial_&_Museum#Museum",
     "name": "9/11 Museum "
   },
-  "a-herf=https://eswikipediaorg/wiki/museo_del_oro_precolombinomuseo-del-oro-precolombino/a": {
-    "been": true,
-    "country": "CR",
-    "icons": ["🇨🇷"],
-    "name": "<a herf=\"https://es.wikipedia.org/wiki/Museo_del_Oro_Precolombino\">Museo del Oro Precolombino</a>"
-  },
   "american-museum-of-natural-history": {
     "been": true,
     "city": "New York",
@@ -44,6 +38,7 @@
   },
   "basque-railway-museum": {
     "been": false,
+    "cities": "Bilbao",
     "coords": "43.18580000, -2.26140000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -199,13 +194,22 @@
     "name": "Grand Palais"
   },
   "guggenheim": {
-    "been": false,
+    "been": true,
     "city": "New York",
     "coords": "40.78305556, -73.95888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+    "name": "Guggenheim"
+  },
+  "guggenheim-bilbao": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.26861111, -2.93388889",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
-    "name": "Guggenheim"
+    "name": "Guggenheim Bilbao"
   },
   "hirshhorn": {
     "been": true,
@@ -446,6 +450,16 @@
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Museo_del_Metro_de_la_Ciudad_de_México",
     "name": "Museo del Metro"
+  },
+  "museo-del-oro-precolombino": {
+    "been": true,
+    "city": "San José",
+    "coords": "9.9335236, -84.0768001",
+    "country": "CR",
+    "icons": ["🇨🇷"],
+    "link": "https://es.wikipedia.org/wiki/Museo_del_Oro_Precolombino",
+    "name": "Museo del Oro Precolombino",
+    "wikidata": "Q10941394"
   },
   "museo-nacional-de-colombia": {
     "been": true,

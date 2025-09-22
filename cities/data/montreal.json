@@ -7,6 +7,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Banc_(Barcelona_Metro)",
     "name": "Banc",
+    "reference": "Barcelona",
     "type": "abandoned"
   },
   "airports-montreal-trudeau": {
@@ -74,7 +75,7 @@
     "coords": "45.50888889, -73.55416667",
     "country": "CA",
     "icons": ["🚌"],
-    "link": "https://en.wikipedia.org/wiki/Montreal_bus_rapid_transit",
+    "link": "https://fr.wikipedia.org/wiki/Service_rapide_par_bus_(Montréal)",
     "name": "Montréal",
     "type": "brt"
   },
@@ -212,6 +213,14 @@
     "reference": "Montreal",
     "type": "longest-tunnels"
   },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Montréal",
+    "icons": [],
+    "name": "",
+    "reference": "Montréal",
+    "type": "metro-fonts"
+  },
   "metro-fonts-ff-transit": {
     "been": true,
     "city": "Montréal",
@@ -241,6 +250,16 @@
     "name": "Univers",
     "reference": "Montréal",
     "type": "metro-fonts"
+  },
+  "metro-people-jean-drapeau": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.51250000, -73.53305556",
+    "country": "CA",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Jean-Drapeau_station",
+    "name": "Jean-Drapeau",
+    "type": "metro-people"
   },
   "metro-people-pie-ix": {
     "been": true,
@@ -329,6 +348,17 @@
     "prefix": "2016",
     "reference": "Montréal",
     "type": "open-gangways"
+  },
+  "projects-montreal-blue-line-to-anjou": {
+    "been": false,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
+    "icons": [],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_bleue_du_métro_de_Montréal",
+    "name": "Montréal Blue Line to Anjou",
+    "prefix": "🇨🇦",
+    "reference": "Montréal",
+    "type": "projects"
   },
   "projects-montreal-rem-line-a": {
     "been": true,
@@ -529,6 +559,17 @@
     "name": "Champ de Mars",
     "reference": "Montréal",
     "strike": true,
+    "type": "twin-stations"
+  },
+  "twin-stations-parc": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.53053100, -73.62441700",
+    "country": "CA",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Parc_(métro_de_Montréal)",
+    "name": "Parc",
+    "reference": "Montréal",
     "type": "twin-stations"
   },
   "walls-montreal": {

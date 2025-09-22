@@ -91,6 +91,42 @@
     "name": "Boston",
     "type": "brt"
   },
+  "closed-lines-atlantic-avenue-elevated": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Atlantic_Avenue_Elevated",
+    "name": "Atlantic Avenue Elevated",
+    "reference": "Boston",
+    "type": "closed-lines",
+    "wikidata": "Q756301"
+  },
+  "closed-lines-charlestown-elevated": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Charlestown_Elevated",
+    "name": "Charlestown Elevated",
+    "reference": "Boston",
+    "type": "closed-lines",
+    "wikidata": "Q1066697"
+  },
+  "closed-lines-washington-street-elevated": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
+    "country": "US",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Street_Elevated",
+    "name": "Washington Street Elevated",
+    "reference": "Boston",
+    "type": "closed-lines",
+    "wikidata": "Q1748189"
+  },
   "closed-trams-lynn": {
     "been": false,
     "city": "Boston",
@@ -375,6 +411,14 @@
     "strike": true,
     "type": "loops"
   },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Boston",
+    "icons": [],
+    "name": "",
+    "reference": "Boston",
+    "type": "metro-fonts"
+  },
   "metro-fonts-helvetica": {
     "been": true,
     "city": "Boston",
@@ -504,6 +548,28 @@
     "reference": "Boston",
     "type": "renamed"
   },
+  "renamed-downtown-crossing": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.35536000, -71.06068000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Downtown_Crossing_station",
+    "name": "Downtown Crossing",
+    "reference": "Boston",
+    "type": "renamed"
+  },
+  "renamed-haymarket": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36330000, -71.05820000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
+    "name": "Haymarket",
+    "reference": "Boston",
+    "type": "renamed"
+  },
   "renamed-hynes-convention-center": {
     "been": true,
     "city": "Boston",
@@ -521,6 +587,17 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lansdowne_station_(MBTA)",
     "name": "Lansdowne",
+    "reference": "Boston",
+    "type": "renamed"
+  },
+  "renamed-state": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.35870000, -71.05780000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/State_station",
+    "name": "State",
     "reference": "Boston",
     "type": "renamed"
   },

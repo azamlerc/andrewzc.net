@@ -7,6 +7,7 @@
     "icons": ["🏚"],
     "link": "https://nl.wikipedia.org/wiki/Station_Rotterdam_Hofplein",
     "name": "Rotterdam Hofplein",
+    "reference": "Rotterdam",
     "type": "abandoned"
   },
   "airports-rotterdam-hague": {
@@ -84,6 +85,16 @@
     "strike": true,
     "type": "ferris-wheels"
   },
+  "foster-world-port-center": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.90490000, 4.48480000",
+    "country": "NL",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/World_Port_Center",
+    "name": "World Port Center",
+    "type": "foster"
+  },
   "grand-unions-vasteland-/-westzeedijk": {
     "been": true,
     "city": "Rotterdam",
@@ -125,6 +136,18 @@
     "link": "https://en.wikipedia.org/wiki/RandstadRail",
     "name": "RandstadRail",
     "type": "intermodal"
+  },
+  "level-crossings-lines-a/b": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.92000000, 4.48000000",
+    "country": "NL",
+    "icons": ["🚦"],
+    "link": "https://en.wikipedia.org/wiki/Rotterdam_Metro#Lines_A_and_B",
+    "name": "Lines A/B",
+    "reference": "Rotterdam",
+    "type": "level-crossings",
+    "wikidata": "Q691704"
   },
   "metro-people-marconiplein": {
     "been": true,

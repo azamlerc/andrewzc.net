@@ -1,4 +1,23 @@
 {
+  "abandoned-": {
+    "been": false,
+    "city": "Barcelona",
+    "icons": [],
+    "name": "",
+    "reference": "Paris",
+    "type": "abandoned"
+  },
+  "abandoned-bordeta": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.37042700, 2.13116500",
+    "country": "ES",
+    "icons": ["🏚"],
+    "link": "https://en.wikipedia.org/wiki/Bordeta_(Barcelona_Metro)",
+    "name": "Bordeta",
+    "reference": "Barcelona",
+    "type": "abandoned"
+  },
   "abandoned-correos": {
     "been": true,
     "city": "Barcelona",
@@ -7,6 +26,7 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Correos_(Barcelona_Metro)",
     "name": "Correos",
+    "reference": "Barcelona",
     "type": "abandoned"
   },
   "abandoned-fernando": {
@@ -17,7 +37,32 @@
     "icons": ["🏚"],
     "link": "https://en.wikipedia.org/wiki/Fernando_(Barcelona_Metro)",
     "name": "Fernando",
+    "reference": "Barcelona",
     "type": "abandoned"
+  },
+  "abandoned-gaudi": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Gaud%C3%AD_(Barcelona_Metro)",
+    "name": "Gaudí",
+    "reference": "Barcelona",
+    "type": "abandoned",
+    "wikidata": "Q25328"
+  },
+  "abandoned-travessera": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_disused_Barcelona_Metro_stations",
+    "name": "Travessera",
+    "reference": "Barcelona",
+    "type": "abandoned",
+    "wikidata": "Q4179758"
   },
   "airport-metros-aeroport-t1": {
     "been": true,
@@ -247,6 +292,16 @@
     "name": "Barcelona",
     "type": "cable-landings"
   },
+  "calatrava-montjuic-communications-tower": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.36416667, 2.15055556",
+    "country": "ES",
+    "icons": ["🦔"],
+    "link": "https://en.wikipedia.org/wiki/Montju%C3%AFc_Communications_Tower",
+    "name": "Montjuïc Communications Tower",
+    "type": "calatrava"
+  },
   "castles-palau-guell": {
     "been": true,
     "city": "Barcelona",
@@ -399,6 +454,16 @@
     "link": "https://en.wikipedia.org/wiki/Montjuïc_Castle",
     "name": "Castell de Montjuïc",
     "type": "forts"
+  },
+  "foster-torre-de-collserola": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.41722222, 2.11416667",
+    "country": "ES",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/Torre_de_Collserola",
+    "name": "Torre de Collserola",
+    "type": "foster"
   },
   "funiculars-funicular-de-montjuic": {
     "been": true,
@@ -559,6 +624,14 @@
     "prefix": "19.0",
     "reference": "Barcelona",
     "type": "longest-tunnels"
+  },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Barcelona",
+    "icons": [],
+    "name": "",
+    "reference": "Barcelona",
+    "type": "metro-fonts"
   },
   "metro-fonts-helvetica": {
     "been": true,

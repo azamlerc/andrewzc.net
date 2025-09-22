@@ -41,10 +41,11 @@
     "coords": "50.17166000, 12.32283000",
     "country": "DE",
     "icons": ["🇩🇪", "⬇️"],
+    "images": ["bad-brambach1.jpg", "bad-brambach2.jpg", "bad-brambach3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.17166_N_12.32283_E",
     "name": "Bad Brambach",
     "reference": "East Germany",
-    "images": ["bad-brambach1.jpg", "bad-brambach2.jpg", "bad-brambach3.jpg"]
+    "strike": true
   },
   "bad-nieuweschans": {
     "been": false,
@@ -169,7 +170,7 @@
   "borgarnes": {
     "been": true,
     "caption": "The northernmost point that I have been to is a street intersection by a gas station, turning left from Vesturlandsvegur onto Borgarbraut.",
-    "coords": "64.54459° N, 21.91062° W",
+    "coords": "64.54459000, -21.91062000",
     "country": "IS",
     "icons": ["🇮🇸", "⬆️"],
     "link": "https://en.wikipedia.org/wiki/Borgarnes",
@@ -186,13 +187,13 @@
   },
   "bray-dunes": {
     "been": true,
+    "caption": "Came closest to the northern point when visiting De Panne on the Belgian side. Also enjoyed exploring Dunkirk on a different trip. Free buses, woohoo!",
     "coords": "51.07170000, 2.52830000",
     "country": "FR",
     "icons": ["🇫🇷", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/Bray-Dunes",
-    "name": "Bray-Dunes",
     "images": ["bray-dunes1.jpg", "bray-dunes2.jpg", "bray-dunes3.jpg"],
-    "caption": "Came closest to the northern point when visiting De Panne on the Belgian side. Also enjoyed exploring Dunkirk on a different trip. Free buses, woohoo!"
+    "link": "https://en.wikipedia.org/wiki/Bray-Dunes",
+    "name": "Bray-Dunes"
   },
   "breginj": {
     "been": false,
@@ -258,13 +259,13 @@
   },
   "cabo-engano": {
     "been": true,
+    "caption": "After visiting Santo Domingo, took the bus to Punta Cana for the flight home. Good to see what a mega resort area looks like, don’t need to linger too long. These masked statues were at the airport.",
     "coords": "18.60490000, -68.32760000",
     "country": "DO",
     "icons": ["🇩🇴", "➡️"],
-    "link": "https://es.wikipedia.org/wiki/Cabo_Engaño_(La_Española)",
-    "name": "Cabo Engaño",
     "images": ["cabo-engano1.jpg", "cabo-engano2.jpg", "cabo-engano3.jpg"],
-    "caption": "After visiting Santo Domingo, took the bus to Punta Cana for the flight home. Good to see what a mega resort area looks like, don’t need to linger too long. These masked statues were at the airport."
+    "link": "https://es.wikipedia.org/wiki/Cabo_Engaño_(La_Española)",
+    "name": "Cabo Engaño"
   },
   "cabo-manglares": {
     "been": false,
@@ -320,13 +321,13 @@
   },
   "cape-bernati": {
     "been": true,
+    "caption": "Took a little detour off the road down the Latvian coast to visit the beach here at the western point. On to Lithuania, a new country!",
     "coords": "56.35519, 20.97349",
     "country": "LV",
     "icons": ["🇱🇻", "⬅️"],
-    "link": "https://en.wikipedia.org/w/index.php?title=Cape_Bernāti",
-    "name": "Cape Bernāti",
     "images": ["cape-bernati1.jpg", "cape-bernati2.jpg", "cape-bernati3.jpg"],
-    "caption": "Took a little detour off the road down the Latvian coast to visit the beach here at the western point. On to Lithuania, a new country!"
+    "link": "https://en.wikipedia.org/w/index.php?title=Cape_Bernāti",
+    "name": "Cape Bernāti"
   },
   "cape-blanco-or": {
     "been": false,
@@ -508,13 +509,13 @@
   },
   "cape-purekkari": {
     "been": true,
+    "caption": "The northern point of Estonia is on a truly spectacular rocky peninsula, covered with wildflowers. A wonderful way to celebrate getting towards the end of my Baltic journey. Hopped along the rocks, went for a little dip, and enjoyed the sunny day.",
     "coords": "59.67527778, 25.69694444",
     "country": "EE",
     "icons": ["🇪🇪", "⬆️"],
-    "link": "https://en.wikipedia.org/wiki/Purekkari",
-    "name": "Cape Purekkari",
     "images": ["cape-purekkari1.jpg", "cape-purekkari2.jpg", "cape-purekkari3.jpg"],
-    "caption": "The northern point of Estonia is on a truly spectacular rocky peninsula, covered with wildflowers. A wonderful way to celebrate getting towards the end of my Baltic journey. Hopped along the rocks, went for a little dip, and enjoyed the sunny day."
+    "link": "https://en.wikipedia.org/wiki/Purekkari",
+    "name": "Cape Purekkari"
   },
   "cape-ramsi": {
     "been": true,
@@ -522,9 +523,9 @@
     "coords": "59.02557, 23.40483",
     "country": "EE",
     "icons": ["🇪🇪", "⬅️"],
+    "images": ["cape-ramsi1.jpg", "cape-ramsi3.jpg", "cape-ramsi2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Cape_Ramsi",
-    "name": "Cape Ramsi",
-    "images": ["cape-ramsi1.jpg", "cape-ramsi3.jpg", "cape-ramsi2.jpg"]
+    "name": "Cape Ramsi"
   },
   "cape-sable": {
     "been": false,
@@ -803,20 +804,9 @@
     "coords": "52.70000000, 5.30000000",
     "country": "NL",
     "icons": ["🇳🇱", "➡️"],
-    "link": "https://ens.wikipedia.org/wiki/Enkhuizen",
+    "link": "https://en.wikipedia.org/wiki/Enkhuizen",
     "name": "Enkhuizen",
     "reference": "North Holland"
-  },
-  "fladungen": {
-    "been": true,
-    "caption": "Hier waren Deutschland und Europa bis zum 24. November 1989 um 6 Uhr geteilt.",
-    "coords": "50.56466000, 10.12052000",
-    "country": "DE",
-    "icons": ["🇩🇪", "⬆️"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.56466_N_10.12052_E",
-    "name": "Fladungen",
-    "reference": "Bavaria",
-    "images": ["fladungen1.jpg", "fladungen2.jpg", "fladungen3.jpg"]
   },
   "erie-pa": {
     "been": false,
@@ -829,14 +819,14 @@
   },
   "eu": {
     "been": true,
+    "caption": "The northern point of Hauts de France is technically at the aerodrome north of Eu, but in practical terms the town of Le Tréport serves this purpose. Featuring a funicular that runs through the cliff!",
     "coords": "50.0480555556, 1.42055555556",
     "country": "FR",
     "icons": ["🇫🇷", "⬆️"],
+    "images": ["eu1.jpg", "eu2.jpg", "eu3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Eu_(Seine-Maritime)",
     "name": "Eu",
-    "reference": "Normandie",
-    "images": ["eu1.jpg", "eu2.jpg", "eu3.jpg"],
-    "caption": "The northern point of Hauts de France is technically at the aerodrome north of Eu, but in practical terms the town of Le Tréport serves this purpose. Featuring a funicular that runs through the cliff!"
+    "reference": "Normandie"
   },
   "europa-point": {
     "been": false,
@@ -888,6 +878,17 @@
     "link": "https://en.wikipedia.org/wiki/Fenwick_Island_(Delaware–Maryland)",
     "name": "Fenwick, MD",
     "state": "MD"
+  },
+  "fladungen": {
+    "been": true,
+    "caption": "Hier waren Deutschland und Europa bis zum 24. November 1989 um 6 Uhr geteilt.",
+    "coords": "50.56466000, 10.12052000",
+    "country": "DE",
+    "icons": ["🇩🇪", "⬆️"],
+    "images": ["fladungen1.jpg", "fladungen2.jpg", "fladungen3.jpg"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.56466_N_10.12052_E",
+    "name": "Fladungen",
+    "reference": "Bavaria"
   },
   "floral-park": {
     "been": true,
@@ -985,9 +986,9 @@
     "coords": "6.28333333, 1.83333333",
     "country": "BJ",
     "icons": ["🇧🇯", "⬇️"],
+    "images": ["grand-popo1.jpg", "grand-popo2.jpg", "grand-popo3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Grand_Popo",
-    "name": "Grand Popo",
-    "images": ["grand-popo1.jpg", "grand-popo2.jpg", "grand-popo3.jpg"]
+    "name": "Grand Popo"
   },
   "greenwich-ct": {
     "been": true,
@@ -1090,10 +1091,10 @@
     "coords": "58.08577, 25.19943",
     "country": "LV",
     "icons": ["🇱🇻", "⬆️"],
+    "images": ["ipiki1.jpg", "ipiki2.jpg", "ipiki3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Ipiķi_Parish",
     "name": "Ipiķi",
-    "wikidata": "Q3743286",
-    "images": ["ipiki1.jpg", "ipiki2.jpg", "ipiki3.jpg"]
+    "wikidata": "Q3743286"
   },
   "isenbruch": {
     "been": true,
@@ -1101,10 +1102,10 @@
     "coords": "51.0414, 5.88",
     "country": "DE",
     "icons": ["🇩🇪", "⬅️"],
+    "images": ["isenbruch1.jpg", "isenbruch2.jpg", "isenbruch3.jpg"],
     "link": "https://de.wikipedia.org/wiki/Isenbruch",
     "name": "Isenbruch",
-    "wikidata": "Q1673809",
-    "images": ["isenbruch1.jpg", "isenbruch2.jpg", "isenbruch3.jpg"]
+    "wikidata": "Q1673809"
   },
   "jastrzebia-gora": {
     "been": false,
@@ -1180,9 +1181,9 @@
     "coords": "57.50896, 26.61603",
     "country": "EE",
     "icons": ["🇪🇪", "⬇️"],
+    "images": ["karisoodi1.jpg", "karisoodi2.jpg", "karisoodi3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Karisöödi",
-    "name": "Karisöödi",
-    "images": ["karisoodi1.jpg", "karisoodi2.jpg", "karisoodi3.jpg"]
+    "name": "Karisöödi"
   },
   "kasad": {
     "been": false,
@@ -1198,10 +1199,10 @@
     "coords": "50.20438000, 10.71836000",
     "country": "DE",
     "icons": ["🇩🇪", "⬇️"],
+    "images": ["kaßlitz1.jpg", "kaßlitz2.jpg", "kaßlitz3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.20438_N_10.71836_E",
     "name": "Käßlitz",
-    "reference": "Thuringia",
-    "images": ["kaßlitz1.jpg", "kaßlitz2.jpg", "kaßlitz3.jpg"]
+    "reference": "Thuringia"
   },
   "kentucky-bend-ky": {
     "been": false,
@@ -1236,10 +1237,10 @@
     "coords": "48.23333333, 16.40000000",
     "country": "AT",
     "icons": ["🇦🇹", "⬆️"],
+    "images": ["klosterneuberg2.jpg", "klosterneuberg1.jpg", "klosterneuberg3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
     "name": "Klosterneuberg",
-    "reference": "Donauinsel",
-    "images": ["klosterneuberg2.jpg", "klosterneuberg1.jpg", "klosterneuberg3.jpg"]
+    "reference": "Donauinsel"
   },
   "kolmen-valtakunnan-rajapyykki": {
     "been": false,
@@ -1259,23 +1260,23 @@
   },
   "krasna": {
     "been": true,
+    "caption": "Parked the car by an artificial lake where someone has a little cabin. Walked about 300 meters through the forest to get to the exact point, which is marked with a monument. Celebrated by going for a swim in the lake.",
     "coords": "50.23500000, 12.16805556",
     "country": "CZ",
     "icons": ["🇨🇿", "⬅️"],
-    "link": "https://en.wikipedia.org/wiki/Krásná_(Cheb_District)",
-    "name": "Krásná",
     "images": ["krasna1.jpg", "krasna2.jpg", "krasna3.jpg"],
-    "caption": "Parked the car by an artificial lake where someone has a little cabin. Walked about 300 meters through the forest to get to the exact point, which is marked with a monument. Celebrated by going for a swim in the lake."
+    "link": "https://en.wikipedia.org/wiki/Krásná_(Cheb_District)",
+    "name": "Krásná"
   },
   "krewinkel": {
     "been": true,
+    "caption": "Found the eastern point of Belgium by the side of the road that forms the border with Germany. Parked in a spot for 📯 postal vehicles, felt a deep sense of belonging. Continued on to the ♨️ Vulkaneifel Therme.",
     "coords": "50.33030000, 6.38310000",
     "country": "BE",
     "icons": ["🇧🇪", "➡️"],
-    "link": "https://en.wikipedia.org/wiki/Krewinkel",
-    "name": "Krewinkel",
     "images": ["krewinkel1.jpg", "krewinkel2.jpg", "krewinkel3.jpg"],
-    "caption": "Found the eastern point of Belgium by the side of the road that forms the border with Germany. Parked in a spot for 📯 postal vehicles, felt a deep sense of belonging. Continued on to the ♨️ Vulkaneifel Therme."
+    "link": "https://en.wikipedia.org/wiki/Krewinkel",
+    "name": "Krewinkel"
   },
   "kuttingen": {
     "been": true,
@@ -1323,7 +1324,7 @@
     "info": "<br>",
     "link": "https://en.wikipedia.org/wiki/Lavry",
     "name": "Lavry",
-    "reference": "Contiguous"
+    "reference": "contiguous"
   },
   "lebanon": {
     "been": false,
@@ -1336,14 +1337,14 @@
     "reference": "contiguous"
   },
   "lemkine": {
-    "caption": "After visiting 56°N 25°E, it was time to say goodbye to Lithuania again. Crossed the border in Germaniškis, and then vollowed the Mēmele to the northern point. Looked for a place to swim across the border, but found a better spot by the Daugava.",
     "been": true,
+    "caption": "After visiting 56°N 25°E, it was time to say goodbye to Lithuania again. Crossed the border in Germaniškis, and then vollowed the Mēmele to the northern point. Looked for a place to swim across the border, but found a better spot by the Daugava.",
     "coords": "56.44959, 24.88634",
     "country": "LT",
     "icons": ["🇱🇹", "⬆️"],
+    "images": ["lemkine1.jpg", "lemkine2.jpg", "lemkine3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Biržai_district_municipality",
-    "name": "Lemkinė",
-    "images": ["lemkine1.jpg", "lemkine2.jpg", "lemkine3.jpg"]
+    "name": "Lemkinė"
   },
   "lendava": {
     "been": false,
@@ -1439,14 +1440,14 @@
   },
   "mers-les-bains": {
     "been": true,
+    "caption": "Mers-les-Bains is a hidden gem full of spectacularly colorful nineteenth century seaside villas. This marker designates the spot where the border of Hauts de France and Normandie meets the sea.",
     "coords": "50.0680555556, 1.38861111111",
     "country": "FR",
     "icons": ["🇫🇷", "⬅️"],
+    "images": ["mers-les-bains1.jpg", "mers-les-bains2.jpg", "mers-les-bains3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Mers-les-Bains",
     "name": "Mers-les-Bains",
-    "reference": "Hauts-de-France",
-    "images": ["mers-les-bains1.jpg", "mers-les-bains2.jpg", "mers-les-bains3.jpg"],
-    "caption": "Mers-les-Bains is a hidden gem full of spectacularly colorful nineteenth century seaside villas. This marker designates the spot where the border of Hauts de France and Normandie meets the sea."
+    "reference": "Hauts-de-France"
   },
   "metula": {
     "been": true,
@@ -1628,7 +1629,8 @@
     "images": ["nova-pec1.jpg", "nova-pec2.jpg", "nova-pec4.jpg", "nova-pec3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.77161_N_13.83955_E",
     "name": "Nová Pec",
-    "reference": "West Germany"
+    "reference": "West Germany",
+    "strike": true
   },
   "nuorgam": {
     "been": false,
@@ -1685,14 +1687,14 @@
   },
   "pasiene": {
     "been": true,
+    "caption": "Drove down some long dirt roads to get to the eastern point of Latvia. Some old folks live in a village out here, I can’t imagine what their life is like. Turned around when I got to a watchtower. I think the people in charge of removing Soviet stuff forgot this one? Got to the Riga-Moscow highway, and put the car in gear to Jēkabpils. Traffic was light.",
     "coords": "56.28266, 28.23808",
     "country": "LV",
     "icons": ["🇱🇻", "➡️"],
+    "images": ["pasiene1.jpg", "pasiene2.jpg", "pasiene3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Pasiene_Parish",
     "name": "Pasiene",
-    "wikidata": "Q2340073",
-    "images": ["pasiene1.jpg", "pasiene2.jpg", "pasiene3.jpg"],
-    "caption": "Drove down some long dirt roads to get to the eastern point of Latvia. Some old folks live in a village out here, I can’t imagine what their life is like. Turned around when I got to a watchtower. I think the people in charge of removing Soviet stuff forgot this one? Got to the Riga-Moscow highway, and put the car in gear to Jēkabpils. Traffic was light."
+    "wikidata": "Q2340073"
   },
   "pedrinate": {
     "been": false,
@@ -1776,11 +1778,11 @@
     "coords": "48.75440000, 5.85170000",
     "country": "FR",
     "icons": ["🇫🇷", "⬆️"],
+    "images": ["pointe-de-givet1.jpg", "pointe-de-givet2.jpg", "pointe-de-givet3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Pointe_de_Givet",
     "name": "Pointe de Givet",
     "reference": "Grand Est",
-    "wikidata": "Q2472096",
-    "images": ["pointe-de-givet1.jpg", "pointe-de-givet2.jpg", "pointe-de-givet3.jpg"]
+    "wikidata": "Q2472096"
   },
   "pointe-de-sangomar": {
     "been": true,
@@ -1809,9 +1811,9 @@
     "coords": "17.20200000, -25.09300000",
     "country": "CV",
     "icons": ["🇨🇻", "⬆️"],
+    "images": ["ponta-do-sol1.jpg", "ponta-do-sol2.jpg", "ponta-do-sol3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Ponta_do_Sol,_Cape_Verde",
-    "name": "Ponta do Sol",
-    "images": ["ponta-do-sol1.jpg", "ponta-do-sol2.jpg", "ponta-do-sol3.jpg"]
+    "name": "Ponta do Sol"
   },
   "puig-de-coma-negra": {
     "been": false,
@@ -1915,10 +1917,11 @@
     "coords": "50.64148000, 9.87696000",
     "country": "DE",
     "icons": ["🇩🇪", "⬅️"],
+    "images": ["reinhards1.jpg", "reinhards2.jpg", "reinhards3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.64148_N_9.87696_E",
     "name": "Reinhards",
     "reference": "East Germany",
-    "images": ["reinhards1.jpg", "reinhards2.jpg", "reinhards3.jpg"]
+    "strike": true
   },
   "restelice": {
     "been": false,
@@ -2256,13 +2259,13 @@
   },
   "torgny": {
     "been": true,
+    "caption": "Drove through some farmland and found the point along the Chiers river. Gendarmerie observed me crossing into France. Discovered a whole range of Maginot border fortifications. Continued on to explore the exclaves on the Meurthe/Meuse border!",
     "coords": "49.50720000, 5.47580000",
     "country": "BE",
     "icons": ["🇧🇪", "⬇️"],
-    "link": "https://en.wikipedia.org/wiki/Torgny_(village)",
-    "name": "Torgny",
     "images": ["torgny1.jpg", "torgny2.jpg", "torgny3.jpg"],
-    "caption": "Drove through some farmland and found the point along the Chiers river. Gendarmerie observed me crossing into France. Discovered a whole range of Maginot border fortifications. Continued on to explore the exclaves on the Meurthe/Meuse border!"
+    "link": "https://en.wikipedia.org/wiki/Torgny_(village)",
+    "name": "Torgny"
   },
   "tottenville-ny": {
     "been": true,
@@ -2350,10 +2353,10 @@
     "coords": "48.23333333, 16.40000000",
     "country": "AT",
     "icons": ["🇦🇹", "⬇️"],
+    "images": ["vienna1.jpg", "vienna2.jpg", "vienna3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
     "name": "Vienna",
-    "reference": "Donauinsel",
-    "images": ["vienna1.jpg", "vienna2.jpg", "vienna3.jpg"]
+    "reference": "Donauinsel"
   },
   "vik-i-myrdal": {
     "been": true,
@@ -2387,9 +2390,9 @@
     "coords": "55.30500000, 26.82000000",
     "country": "LT",
     "icons": ["🇱🇹", "➡️"],
+    "images": ["vosiunai1.jpg", "vosiunai4.jpg", "vosiunai3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vosiūnai",
-    "name": "Vosiūnai",
-    "images": ["vosiunai1.jpg", "vosiunai4.jpg", "vosiunai3.jpg"]
+    "name": "Vosiūnai"
   },
   "vyssi-brod": {
     "been": true,
@@ -2476,19 +2479,19 @@
     "coords": "51.27888889, 15.02944444",
     "country": "DE",
     "icons": ["🇩🇪", "➡️"],
+    "images": ["zentendorf1.jpg", "zentendorf2.jpg", "zentendorf3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.27295_N_15.04178_E",
-    "name": "Zentendorf",
-    "images": ["zentendorf1.jpg", "zentendorf2.jpg", "zentendorf3.jpg"]
+    "name": "Zentendorf"
   },
   "zilupe": {
     "been": true,
+    "caption": "Passed within 1 km of the northern point of Belarus on the way to the 🇧🇾 🇱🇻 🇷🇺 tripoint. Border police stopped me and made me sign a paper promising not to pick up anyone sneaking across the border.",
     "coords": "56.17214000, 28.13706000",
     "country": "BY",
     "icons": ["🇧🇾", "⬆️"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=56.17214_N_28.13706_E",
-    "name": "Zilupe",
     "images": ["zilupe1.jpg", "zilupe2.jpg", "zilupe3.jpg"],
-    "caption": "Passed within 1 km of the northern point of Belarus on the way to the 🇧🇾 🇱🇻 🇷🇺 tripoint. Border police stopped me and made me sign a paper promising not to pick up anyone sneaking across the border."
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.17214_N_28.13706_E",
+    "name": "Zilupe"
   },
   "zosin": {
     "been": false,

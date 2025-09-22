@@ -1,4 +1,15 @@
 {
+  "abandoned-chamberi": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.43230000, -3.69772000",
+    "country": "ES",
+    "icons": ["🏚"],
+    "link": "https://en.wikipedia.org/wiki/Chamberí_(Madrid_Metro)",
+    "name": "Chamberí",
+    "reference": "Madrid",
+    "type": "abandoned"
+  },
   "airport-metros-aeropuerto-t1–t2–t3": {
     "been": true,
     "city": "Madrid",
@@ -157,6 +168,16 @@
     "reference": "Madrid",
     "type": "awa"
   },
+  "calatrava-caja-madrid-obelisk": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.46604167, -3.68934167",
+    "country": "ES",
+    "icons": ["🦔"],
+    "link": "https://en.wikipedia.org/wiki/Caja_Madrid_Obelisk",
+    "name": "Caja Madrid Obelisk",
+    "type": "calatrava"
+  },
   "capitals-madrid": {
     "been": true,
     "city": "Madrid",
@@ -296,6 +317,16 @@
     "name": "Tarjeta Transporte Público",
     "reference": "Madrid",
     "type": "fare-cards"
+  },
+  "foster-torre-cepsa": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.47555556, -3.68777778",
+    "country": "ES",
+    "icons": ["🧊"],
+    "link": "https://en.wikipedia.org/wiki/Torre_Cepsa",
+    "name": "Torre Cepsa",
+    "type": "foster"
   },
   "furthest-la-poveda": {
     "been": false,
@@ -531,6 +562,14 @@
     "reference": "Madrid",
     "type": "longest-tunnels"
   },
+  "metro-fonts-": {
+    "been": true,
+    "city": "Madrid",
+    "icons": [],
+    "name": "",
+    "reference": "Madrid",
+    "type": "metro-fonts"
+  },
   "metro-fonts-helvetica": {
     "been": true,
     "city": "Madrid",
@@ -559,6 +598,16 @@
     "icons": ["👴"],
     "link": "https://en.wikipedia.org/wiki/Goya_(Madrid_Metro)",
     "name": "Goya",
+    "type": "metro-people"
+  },
+  "metro-people-paco-de-lucia": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.49955220, -3.70903900",
+    "country": "ES",
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Paco_de_Lucía_(Madrid_Metro)",
+    "name": "Paco de Lucía",
     "type": "metro-people"
   },
   "metro-places-avenida-de-america": {
@@ -896,6 +945,26 @@
     "icons": ["🗼"],
     "link": "https://en.wikipedia.org/wiki/Edificio_España",
     "name": "Edificio España",
+    "type": "towers"
+  },
+  "towers-torre-cepsa": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.47555556, -3.68777778",
+    "country": "ES",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Torre_Cepsa",
+    "name": "Torre Cepsa",
+    "type": "towers"
+  },
+  "towers-torre-de-cristal": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.47805556, -3.68722222",
+    "country": "ES",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Torre_de_Cristal",
+    "name": "Torre de Cristal",
     "type": "towers"
   },
   "trams-madrid": {
