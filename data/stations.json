@@ -190,7 +190,7 @@
     "name": "Bern"
   },
   "bilbao-abando": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26138889, -2.92777778",
     "country": "ES",
@@ -234,7 +234,7 @@
     "name": "Bonn Hauptbahnhof"
   },
   "bordeaux-saint-jean": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.82560000, -0.55560000",
     "country": "FR",
@@ -1332,6 +1332,16 @@
     "link": "https://en.wikipedia.org/wiki/Madrid_Atocha_railway_station",
     "name": "Madrid Atocha"
   },
+  "madrid-chamartin": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.472222222222, -3.6822222222222",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Madrid-Chamartín-Clara_Campoamor",
+    "name": "Madrid Chamartín",
+    "wikidata": "Q23081"
+  },
   "madrid-nuevos-ministerios": {
     "been": true,
     "city": "Madrid",
@@ -1831,6 +1841,13 @@
     "link": "https://en.wikipedia.org/wiki/San_Jose_Diridon_station",
     "name": "San Jose Diridon"
   },
+  "san-sebastian-amara": {
+    "been": true,
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Amara_station",
+    "name": "San Sebastián Amara"
+  },
   "sapporo": {
     "been": true,
     "city": "Sapporo",
@@ -2190,7 +2207,7 @@
     "name": "Vilnius"
   },
   "vitoria-gasteiz": {
-    "been": false,
+    "been": true,
     "coords": "42.84152777777778, -2.6726111111111113",
     "country": "ES",
     "icons": ["🇪🇸"],

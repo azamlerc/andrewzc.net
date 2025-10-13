@@ -1,6 +1,15 @@
 {
+  "airbnb-bordeaux": {
+    "been": true,
+    "city": "Bordeaux",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.airbnb.com/rooms/1122347498044081672",
+    "name": "Bordeaux",
+    "type": "airbnb"
+  },
   "airports-bordeaux-merignac": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.82833333, -0.71555556",
     "country": "FR",
@@ -11,7 +20,7 @@
     "type": "airports"
   },
   "alt-power-bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.83861111, -0.57833333",
     "country": "FR",
@@ -20,8 +29,19 @@
     "name": "Bordeaux",
     "type": "alt-power"
   },
+  "arches-porte-de-bourgogne": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.83610000, -0.56611100",
+    "country": "FR",
+    "icons": ["🏛"],
+    "link": "https://fr.wikipedia.org/wiki/Porte_de_Bourgogne",
+    "name": "Porte de Bourgogne",
+    "type": "arches",
+    "wikidata": "Q748352"
+  },
   "cathedrals-bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.83778000, -0.57778000",
     "country": "FR",
@@ -31,7 +51,7 @@
     "type": "cathedrals"
   },
   "closed-trams-bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.84000000, -0.58000000",
     "country": "FR",
@@ -40,6 +60,28 @@
     "name": "Bordeaux",
     "prefix": "1958",
     "type": "closed-trams"
+  },
+  "cross-platform-porte-de-bourgogne": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.83610000, -0.56611100",
+    "country": "FR",
+    "icons": ["🔀"],
+    "link": "https://fr.wikipedia.org/wiki/Porte_de_Bourgogne",
+    "name": "Porte de Bourgogne",
+    "type": "cross-platform",
+    "wikidata": "Q748352"
+  },
+  "depots-parc-des-expositions": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.89713000, -0.55628000",
+    "country": "US",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44.89713_N_0.55628_W",
+    "name": "Parc des Expositions",
+    "reference": "Bordeaux",
+    "type": "depots"
   },
   "emmaus-parempuyre": {
     "been": false,
@@ -52,7 +94,7 @@
     "type": "emmaus"
   },
   "france-gironde": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.83333333, -0.66666667",
     "country": "FR",
@@ -71,8 +113,29 @@
     "name": "Bordeaux",
     "type": "ikea"
   },
-  "ports-bordeaux": {
+  "parks-jardin-public-de-bordeaux": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84895400, -0.57801400",
+    "country": "FR",
+    "icons": ["🌳"],
+    "link": "https://fr.wikipedia.org/wiki/Jardin_public_de_Bordeaux",
+    "name": "Jardin Public de Bordeaux",
+    "type": "parks"
+  },
+  "pools-piscine-judaique-jean-boiteux": {
     "been": false,
+    "city": "Bordeaux",
+    "coords": "44.84047390, -0.59109950",
+    "country": "FR",
+    "icons": ["🏊‍♂️"],
+    "link": "https://fr.wikipedia.org/wiki/Piscine_judaïque",
+    "name": "Piscine Judaïque Jean Boiteux",
+    "type": "pools",
+    "wikidata": "Q3389216"
+  },
+  "ports-bordeaux": {
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.84722222, -0.58333333",
     "country": "FR",
@@ -93,7 +156,7 @@
     "type": "projects"
   },
   "reverse-bordeaux-saint-jean": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.82581500, -0.55573200",
     "country": "FR",
@@ -103,7 +166,7 @@
     "type": "reverse"
   },
   "roman-towns-burdigala": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.84000000, -0.58000000",
     "country": "FR",
@@ -113,8 +176,71 @@
     "reference": "Bordeaux",
     "type": "roman-towns"
   },
+  "single-track-tram-b": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Berges de Garonne",
+    "link": "https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux",
+    "name": "Tram B",
+    "reference": "Bordeaux",
+    "type": "single-track",
+    "wikidata": "Q2420027"
+  },
+  "single-track-tram-c": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Blanquefort",
+    "link": "https://fr.wikipedia.org/wiki/Ligne_C_du_tramway_de_Bordeaux",
+    "name": "Tram C",
+    "reference": "Bordeaux",
+    "type": "single-track"
+  },
+  "single-track-tram-d": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.89337400, -0.66891300",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Cantinolle",
+    "link": "https://fr.wikipedia.org/wiki/Ligne_D_du_tramway_de_Bordeaux",
+    "name": "Tram D",
+    "reference": "Bordeaux",
+    "type": "single-track"
+  },
+  "single-track-tram-e": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Blanquefort",
+    "link": "https://fr.wikipedia.org/wiki/Ligne_E_du_tramway_de_Bordeaux",
+    "name": "Tram E",
+    "reference": "Bordeaux",
+    "type": "single-track",
+    "wikidata": "Q131768030"
+  },
+  "single-track-tram-f": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Aeroport",
+    "link": "https://fr.wikipedia.org/wiki/Ligne_F_du_tramway_de_Bordeaux",
+    "name": "Tram F",
+    "reference": "Bordeaux",
+    "type": "single-track",
+    "wikidata": "Q131768031"
+  },
   "stations-bordeaux-saint-jean": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.82560000, -0.55560000",
     "country": "FR",
@@ -123,8 +249,18 @@
     "name": "Bordeaux Saint-Jean",
     "type": "stations"
   },
+  "swimming-lac-de-bordeaux": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.87849000, -0.57904000",
+    "country": "FR",
+    "icons": ["🤽🏻‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44.87849_N_0.57904_W",
+    "name": "Lac de Bordeaux",
+    "type": "swimming"
+  },
   "trams-bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.83861111, -0.57833333",
     "country": "FR",
@@ -134,7 +270,7 @@
     "type": "trams"
   },
   "transporter-bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.84000000, -0.58000000",
     "country": "FR",
@@ -167,5 +303,98 @@
     "icons": ["🇺🇸"],
     "name": "Bordeaux, WY",
     "type": "twin-cities"
+  },
+  "twin-stations-arts-et-metiers": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "48.86528000, 2.35694000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/École_nationale_supérieure_d%27arts_et_métiers",
+    "name": "Arts et Métiers",
+    "reference": "Bordeaux",
+    "type": "twin-stations",
+    "wikidata": "Q713944"
+  },
+  "twin-stations-caroline-aigle": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_A_du_tramway_de_Bordeaux",
+    "name": "Caroline Aigle",
+    "reference": "Bordeaux",
+    "type": "twin-stations",
+    "wikidata": "Q2658981"
+  },
+  "twin-stations-gambetta": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84120400, -0.58060900",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Place_Gambetta_(Bordeaux)",
+    "name": "Gambetta",
+    "reference": "Bordeaux",
+    "type": "twin-stations"
+  },
+  "twin-stations-parc-des-expositions": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.89405100, -0.57342500",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Parc_des_expositions_de_Bordeaux",
+    "name": "Parc des Expositions",
+    "reference": "Bordeaux",
+    "type": "twin-stations"
+  },
+  "twin-stations-quartre-chemins": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84000000, -0.58000000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_A_du_tramway_de_Bordeaux",
+    "name": "Quartre Chemins",
+    "reference": "Bordeaux",
+    "type": "twin-stations",
+    "wikidata": "Q2658981"
+  },
+  "twin-stations-saint-michel": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "49.91805556, 4.13277778",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_C_du_tramway_de_Bordeaux",
+    "name": "Saint Michel",
+    "reference": "Bordeaux",
+    "type": "twin-stations",
+    "wikidata": "Q457052"
+  },
+  "twin-stations-stalingrad": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "48.70861111, 44.51472222",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_A_du_tramway_de_Bordeaux",
+    "name": "Stalingrad",
+    "reference": "Bordeaux",
+    "type": "twin-stations",
+    "wikidata": "Q2658981"
+  },
+  "universities-universite-de-bordeaux": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.80895600, -0.59021600",
+    "country": "FR",
+    "icons": ["👨‍🎓"],
+    "link": "https://fr.wikipedia.org/wiki/Université_de_Bordeaux",
+    "name": "Université de Bordeaux",
+    "type": "universities",
+    "wikidata": "Q13344"
   }
 }

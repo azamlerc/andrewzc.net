@@ -1,6 +1,6 @@
 {
   "abandoned-chamberi": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.43230000, -3.69772000",
     "country": "ES",
@@ -168,6 +168,18 @@
     "reference": "Madrid",
     "type": "awa"
   },
+  "bumper-paco-de-lucia": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.49970000, -3.70970000",
+    "country": "ES",
+    "icons": ["🛑"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Paco_de_Lucía",
+    "name": "Paco de Lucía",
+    "reference": "Madrid",
+    "type": "bumper",
+    "wikidata": "Q5846080"
+  },
   "calatrava-caja-madrid-obelisk": {
     "been": false,
     "city": "Madrid",
@@ -187,6 +199,16 @@
     "link": "https://en.wikipedia.org/wiki/Madrid",
     "name": "Madrid",
     "type": "capitals"
+  },
+  "cathedrals-alcala-de-henares": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.48052500, -3.36925800",
+    "country": "ES",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Alcal%C3%A1_de_Henares_Cathedral",
+    "name": "Alcalá de Henares",
+    "type": "cathedrals"
   },
   "cathedrals-almudena": {
     "been": true,
@@ -217,6 +239,16 @@
     "name": "Line 6",
     "reference": "Madrid",
     "type": "circle-lines"
+  },
+  "circular-alcalde-moreno-torres": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.48859000, -3.65609000",
+    "country": "ES",
+    "icons": ["☸️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=40.48859_N_3.65609_W",
+    "name": "Alcalde Moreno Torres",
+    "type": "circular"
   },
   "circular-leganes": {
     "been": true,
@@ -249,8 +281,19 @@
     "name": "Casa de Campo",
     "type": "cross-platform"
   },
+  "cross-platform-moncloa": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.43444000, -3.71944000",
+    "country": "ES",
+    "icons": ["🔀"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Moncloa",
+    "name": "Moncloa",
+    "type": "cross-platform",
+    "wikidata": "Q2449141"
+  },
   "cross-platform-pinar-de-chamartin": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.48013750, -3.66679990",
     "country": "ES",
@@ -289,6 +332,17 @@
     "name": "Madrid",
     "type": "culture"
   },
+  "curved-plaza-de-espana": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.42340000, -3.71123000",
+    "country": "ES",
+    "icons": ["🍌"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Plaza_de_España_(Metro_de_Madrid)",
+    "name": "Plaza de España",
+    "type": "curved",
+    "wikidata": "Q776249"
+  },
   "eurovision-madrid": {
     "been": true,
     "city": "Madrid",
@@ -311,8 +365,9 @@
   "fare-cards-tarjeta-transporte-publico": {
     "been": true,
     "city": "Madrid",
+    "coords": "40.41694444, -3.70333333",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🎟️"],
     "link": "https://en.wikipedia.org/wiki/Tarjeta_Transporte_Público",
     "name": "Tarjeta Transporte Público",
     "reference": "Madrid",
@@ -350,7 +405,7 @@
     "type": "greenhouses"
   },
   "head-on-estadio-metropolitano": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.43339370, -3.60015020",
     "country": "ES",
@@ -581,7 +636,7 @@
     "type": "metro-fonts"
   },
   "metro-people-alfonso-xiii": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.44824820, -3.66791190",
     "country": "ES",
@@ -610,6 +665,16 @@
     "name": "Paco de Lucía",
     "type": "metro-people"
   },
+  "metro-people-pio-xii": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.46300430, -3.67579540",
+    "countries": ["ES", "VA"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Pío_XII_(Madrid_Metro)",
+    "name": "Pío XII",
+    "type": "metro-people"
+  },
   "metro-places-avenida-de-america": {
     "been": true,
     "city": "Madrid",
@@ -620,6 +685,17 @@
     "name": "Avenida de América",
     "type": "metro-places"
   },
+  "metro-places-avenida-de-la-paz": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.45330000, -3.66252000",
+    "countries": ["ES", "BO"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Avenida_de_la_Paz",
+    "name": "Avenida de la Paz",
+    "type": "metro-places",
+    "wikidata": "Q526358"
+  },
   "metro-places-bilbao": {
     "been": true,
     "city": "Madrid",
@@ -629,6 +705,17 @@
     "link": "https://en.wikipedia.org/wiki/Bilbao_(Madrid_Metro)",
     "name": "Bilbao",
     "type": "metro-places"
+  },
+  "metro-places-ciudad-de-los-angeles": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.36000000, -3.69389000",
+    "countries": ["ES", "US"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ciudad_de_los_Ángeles",
+    "name": "Ciudad de los Ángeles",
+    "type": "metro-places",
+    "wikidata": "Q2042482"
   },
   "metro-places-colombia": {
     "been": true,
@@ -648,6 +735,16 @@
     "icons": ["🗺"],
     "link": "https://ca.wikipedia.org/wiki/Estació_d%27Espanya",
     "name": "Espanya",
+    "type": "metro-places"
+  },
+  "metro-places-ibiza": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.41836290, -3.67796970",
+    "country": "ES",
+    "icons": ["🗺"],
+    "link": "https://en.wikipedia.org/wiki/Ibiza_(Madrid_Metro)",
+    "name": "Ibiza",
     "type": "metro-places"
   },
   "metro-places-oporto": {
@@ -681,7 +778,7 @@
     "type": "metro-places"
   },
   "metro-places-republica-argentina": {
-    "been": true,
+    "been": false,
     "city": "Madrid",
     "coords": "40.44494400, -3.68495800",
     "countries": ["ES", "AR"],
@@ -689,6 +786,17 @@
     "link": "https://es.wikipedia.org/wiki/Estación_de_República_Argentina",
     "name": "República Argentina",
     "type": "metro-places"
+  },
+  "metro-places-santo-domingo-(madrid)": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.42000000, -3.70806000",
+    "countries": ["ES", "DO"],
+    "icons": ["🗺"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Santo_Domingo",
+    "name": "Santo Domingo (Madrid)",
+    "type": "metro-places",
+    "wikidata": "Q2125964"
   },
   "metro-places-sevilla": {
     "been": true,
@@ -725,7 +833,7 @@
     "coords": "40.41694444, -3.70333333",
     "country": "ES",
     "icons": ["🚇"],
-    "info": "(30%)",
+    "info": "(60%)",
     "link": "https://en.wikipedia.org/wiki/Madrid_Metro",
     "name": "Madrid",
     "reference": "30%",
@@ -815,6 +923,18 @@
     "reference": "Madrid",
     "type": "projects"
   },
+  "renamed-opera": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.4181, -3.70934",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ópera",
+    "name": "Ópera",
+    "reference": "Madrid",
+    "type": "renamed",
+    "wikidata": "Q2736048"
+  },
   "shuttles-ramal": {
     "been": true,
     "city": "Madrid",
@@ -897,6 +1017,17 @@
     "name": "Madrid Atocha",
     "type": "stations"
   },
+  "stations-madrid-chamartin": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.47222222, -3.68222222",
+    "country": "ES",
+    "icons": ["🚉"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Madrid-Chamartín-Clara_Campoamor",
+    "name": "Madrid Chamartín",
+    "type": "stations",
+    "wikidata": "Q23081"
+  },
   "stations-madrid-nuevos-ministerios": {
     "been": true,
     "city": "Madrid",
@@ -912,7 +1043,7 @@
     "city": "Madrid",
     "coords": "40.41888889, -3.69194444",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🚈"],
     "link": "https://es.wikipedia.org/wiki/Cercanías_Madrid",
     "name": "Cercanías",
     "reference": "Madrid",
@@ -1016,6 +1147,14 @@
     "state": "IA",
     "type": "twin-cities"
   },
+  "twin-stations-": {
+    "been": true,
+    "city": "Madrid",
+    "icons": [],
+    "name": "",
+    "reference": "Madrid",
+    "type": "twin-stations"
+  },
   "twin-stations-a-href=https://eswikipediaorg/wiki/estaci%c3%b3n_de_san_bernardo_%28metro_de_madrid%29": {
     "been": true,
     "city": "Madrid",
@@ -1047,16 +1186,40 @@
     "reference": "Madrid",
     "type": "twin-stations"
   },
+  "twin-stations-piramides": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.40250000, -3.71138889",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Pirámides",
+    "name": "Pirámides",
+    "reference": "Madrid",
+    "type": "twin-stations",
+    "wikidata": "Q2056493"
+  },
   "twin-stations-plaza-de-espana": {
     "been": true,
     "city": "Madrid",
     "coords": "40.42490000, -3.70801000",
     "country": "ES",
     "icons": ["👯"],
-    "link": "https://fr.wikipedia.org/wiki/Plaza_de_España_(métro_de_Madrid)",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Plaza_de_España_(Metro_de_Madrid)",
     "name": "Plaza de España",
     "reference": "Madrid",
     "type": "twin-stations"
+  },
+  "twin-stations-republica-argentina": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.44494444, -3.68495833",
+    "country": "ES",
+    "icons": ["👯"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_República_Argentina",
+    "name": "República Argentina",
+    "reference": "Madrid",
+    "type": "twin-stations",
+    "wikidata": "Q2479342"
   },
   "twin-stations-retiro": {
     "been": true,

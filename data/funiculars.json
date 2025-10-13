@@ -17,15 +17,6 @@
     "link": "https://en.wikipedia.org/wiki/Angels_Flight",
     "name": "Angels Flight"
   },
-  "artxanda-funicular": {
-    "been": false,
-    "city": "Bilbao",
-    "coords": "43.270919, -2.922914",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Artxanda_Funicular",
-    "name": "Artxanda Funicular"
-  },
   "ascensor-da-bica": {
     "been": true,
     "city": "Lisbon",
@@ -45,7 +36,9 @@
     "name": "Ascensor da Glória"
   },
   "ascensor-de-ereaga": {
-    "been": false,
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.346864, -3.011039",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://eu.wikipedia.org/wiki/Ereaga-Algorta_igogailua",
@@ -249,6 +242,14 @@
     "link": "https://en.wikipedia.org/wiki/Fenelon_Place_Elevator",
     "name": "Fenelon Place Elevator"
   },
+  "festungsbahn": {
+    "been": true,
+    "coords": "47.79570100, 13.04619000",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Festungsbahn_(Salzburg)",
+    "name": "Festungsbahn"
+  },
   "fishermans-walk-cliff-railway": {
     "been": false,
     "coords": "50.72108300, -1.81735200",
@@ -375,18 +376,18 @@
     "link": "https://pt.wikipedia.org/wiki/Elevador_da_Graça/",
     "name": "Funicular da Graça"
   },
-  "funicular-de-archanda": {
-    "been": false,
+  "funicular-de-artxanda": {
+    "been": true,
     "city": "Bilbao",
     "coords": "43.27091944, -2.92291389",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Funicular_de_Archanda",
-    "name": "Funicular de Archanda",
+    "name": "Funicular de Artxanda",
     "wikidata": "Q3305605"
   },
   "funicular-de-igueldo": {
-    "been": false,
+    "been": true,
     "coords": "43.3201407481, -2.00748268382",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -403,7 +404,7 @@
     "name": "Funicular de la Santa Cova"
   },
   "funicular-de-larreineta": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.29499, -3.0454",
     "country": "ES",

@@ -145,7 +145,7 @@
     "name": "Berlin"
   },
   "bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
@@ -825,7 +825,7 @@
     "coords": "40.41694444, -3.70333333",
     "country": "ES",
     "icons": ["🇪🇸"],
-    "info": "(30%)",
+    "info": "(60%)",
     "link": "https://en.wikipedia.org/wiki/Madrid_Metro",
     "name": "Madrid",
     "reference": "30%"
@@ -1105,6 +1105,15 @@
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Paris_Métro",
     "name": "Paris"
+  },
+  "patna": {
+    "been": false,
+    "coords": "25.59403430, 85.13755300",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Patna_Metro",
+    "name": "Patna",
+    "wikidata": "Q7145108"
   },
   "philadelphia": {
     "been": true,

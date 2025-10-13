@@ -16,6 +16,15 @@
     "link": "https://en.wikipedia.org/wiki/Aare",
     "name": "Aare"
   },
+  "adour": {
+    "been": true,
+    "coords": "42.9108, 0.1457",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "→ Bay of Biscay",
+    "link": "https://fr.wikipedia.org/wiki/Adour",
+    "name": "Adour"
+  },
   "aisne": {
     "been": true,
     "coords": "49.43361111, 2.84694444",
@@ -293,10 +302,11 @@
     "name": "Biała"
   },
   "bidasoa": {
-    "been": false,
+    "been": true,
     "coords": "43.37277778, -1.79194444",
+    "countries": ["ES", "FR"],
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Bidasoa",
     "name": "Bidasoa"
   },
@@ -818,6 +828,15 @@
     "link": "https://en.wikipedia.org/wiki/Daugava",
     "name": "Daugava"
   },
+  "deba": {
+    "been": true,
+    "coords": "43.29972222, -2.35527778",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "→ Bay of Biscay",
+    "link": "https://en.wikipedia.org/wiki/Deba_River",
+    "name": "Deba"
+  },
   "deerfield": {
     "been": true,
     "coords": "42.6165, -72.5779",
@@ -1128,8 +1147,9 @@
   "garonne": {
     "been": true,
     "coords": "44.55333333, 3.72305556",
+    "countries": ["ES", "FR"],
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇪🇸", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Garonne",
     "name": "Garonne"
   },
@@ -2119,11 +2139,12 @@
     "name": "Neris"
   },
   "nervion": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.32550556, -3.01937222",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "info": "→ Bay of Biscay",
     "link": "https://en.wikipedia.org/wiki/Nervión",
     "name": "Nervión"
   },
@@ -2214,6 +2235,15 @@
     "link": "https://en.wikipedia.org/wiki/Nile",
     "name": "Nile"
   },
+  "nive": {
+    "been": true,
+    "coords": "43, 1",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "→ Adour",
+    "link": "https://fr.wikipedia.org/wiki/Nive",
+    "name": "Nive"
+  },
   "north": {
     "been": true,
     "coords": "39.40916667, -78.42111111",
@@ -2281,6 +2311,15 @@
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Orange_River",
     "name": "Orange"
+  },
+  "oria": {
+    "been": true,
+    "coords": "43.29027778, -2.13194444",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "→ Bay of Biscay",
+    "link": "https://en.wikipedia.org/wiki/Oria_(river)",
+    "name": "Oria"
   },
   "orinoco": {
     "been": false,
@@ -2505,6 +2544,17 @@
     "icons": ["🇪🇪", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Piusa_(river)",
     "name": "Piusa"
+  },
+  "plencia": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.40706475953552, -2.9496431790124182",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "→ Bay of Biscay",
+    "link": "https://es.wikipedia.org/wiki/Ría_de_Plencia",
+    "name": "Plencia",
+    "wikidata": "Q111698897"
   },
   "po": {
     "been": true,
@@ -3491,6 +3541,15 @@
     "link": "https://en.wikipedia.org/wiki/Uruguay_River",
     "name": "Uruguay"
   },
+  "urumea": {
+    "been": true,
+    "coords": "43.32611111, -1.98222222",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "→ Bay of Biscay",
+    "link": "https://en.wikipedia.org/wiki/Urumea",
+    "name": "Urumea"
+  },
   "uzh": {
     "been": true,
     "coords": "48.59830000, 21.99060000",
@@ -3788,6 +3847,15 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Yukon_River",
     "name": "Yukon"
+  },
+  "zadorra": {
+    "been": true,
+    "coords": "42.66750000, 2.89972222",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "→ Ebro",
+    "link": "https://en.wikipedia.org/wiki/Zadorra",
+    "name": "Zadorra"
   },
   "zadrna": {
     "been": true,

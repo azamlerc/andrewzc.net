@@ -24,7 +24,7 @@ loadScripts([
 			showPlaces(places, filename);
 		})
 	  .catch(error => {
-	    console.error('Error loading JSON:', error);
+	    console.error(`Error loading ${filename}:`, error);
 	  });
 });
 

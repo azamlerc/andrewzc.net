@@ -96,6 +96,66 @@
     "name": "Huk",
     "type": "beaches"
   },
+  "bumper-bergkrystallen": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.86694444, 10.82138889",
+    "country": "NO",
+    "icons": ["🛑"],
+    "link": "https://no.wikipedia.org/wiki/Bergkrystallen_stasjon",
+    "name": "Bergkrystallen",
+    "reference": "Oslo",
+    "type": "bumper",
+    "wikidata": "Q4891684"
+  },
+  "bumper-kolsas": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91530000, 10.50090000",
+    "country": "NO",
+    "icons": ["🛑"],
+    "link": "https://no.wikipedia.org/wiki/Kolsås_stasjon",
+    "name": "Kolsås",
+    "reference": "Oslo",
+    "type": "bumper",
+    "wikidata": "Q6427903"
+  },
+  "bumper-sognsvann": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.96694444, 10.73388889",
+    "country": "NO",
+    "icons": ["🛑"],
+    "link": "https://no.wikipedia.org/wiki/Sognsvann_stasjon",
+    "name": "Sognsvann",
+    "reference": "Oslo",
+    "type": "bumper",
+    "wikidata": "Q6515864"
+  },
+  "bumper-vestli": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.97190000, 10.92830000",
+    "country": "NO",
+    "icons": ["🛑"],
+    "link": "https://no.wikipedia.org/wiki/Vestli_stasjon",
+    "name": "Vestli",
+    "reference": "Oslo",
+    "type": "bumper",
+    "wikidata": "Q7923490"
+  },
+  "bumper-østeras": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.93920000, 10.60890000",
+    "country": "NO",
+    "icons": ["🛑"],
+    "link": "https://no.wikipedia.org/wiki/Østerås_stasjon",
+    "name": "Østerås",
+    "reference": "Oslo",
+    "type": "bumper",
+    "wikidata": "Q8079260"
+  },
   "capitals-oslo": {
     "been": true,
     "city": "Oslo",
@@ -691,6 +751,17 @@
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Besserud_(station)",
     "name": "Besserud",
+    "reference": "Oslo",
+    "type": "offset"
+  },
+  "offset-frognerseteren": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.97888889, 10.67777778",
+    "country": "NO",
+    "icons": ["⚡️"],
+    "link": "https://en.wikipedia.org/wiki/Frognerseteren_station",
+    "name": "Frognerseteren",
     "reference": "Oslo",
     "type": "offset"
   },

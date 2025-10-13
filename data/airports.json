@@ -189,7 +189,7 @@
     "strike": true
   },
   "bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.30111111, -2.91055556",
     "country": "ES",
@@ -249,7 +249,7 @@
     "prefix": "BOI"
   },
   "bordeaux-merignac": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.82833333, -0.71555556",
     "country": "FR",
@@ -1476,6 +1476,15 @@
     "name": "San José Juan Santamaría",
     "prefix": "SJO"
   },
+  "san-sebastian": {
+    "been": true,
+    "coords": "43.35638889, -1.79055556",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/San_Sebastián_Airport",
+    "name": "San Sebastián",
+    "prefix": "EAS"
+  },
   "santo-domingo": {
     "been": true,
     "city": "Santo Domingo",
@@ -1734,6 +1743,16 @@
     "name": "Toronto Pearson",
     "prefix": "YYZ"
   },
+  "valencia": {
+    "been": false,
+    "coords": "39.489444444444, -0.48166666666667",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Aeropuerto_de_Valencia",
+    "name": "Valencia",
+    "prefix": "VLC",
+    "wikidata": "Q20455825"
+  },
   "vancouver": {
     "been": false,
     "city": "Vancouver",
@@ -1763,6 +1782,15 @@
     "link": "https://en.wikipedia.org/wiki/Vilnius_Airport",
     "name": "Vilnius",
     "prefix": "VNO"
+  },
+  "vitoria": {
+    "been": true,
+    "coords": "42.88277778, -2.72444444",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vitoria_Airport",
+    "name": "Vitoria",
+    "prefix": "VIT"
   },
   "warsaw-chopin": {
     "been": true,

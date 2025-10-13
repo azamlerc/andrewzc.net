@@ -619,6 +619,18 @@
     "name": "Pomponne",
     "type": "airbnb"
   },
+  "airport-metros-aeroport": {
+    "been": false,
+    "city": "Paris",
+    "coords": "49.00365200, 2.57089200",
+    "country": "ES",
+    "icons": ["🛫"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Aeroport_(Metrovalencia)",
+    "name": "Aeroport",
+    "reference": "Valencia",
+    "type": "airport-metros",
+    "wikidata": "Q800424"
+  },
   "airport-metros-aeroport-dorly": {
     "been": true,
     "city": "Paris",
@@ -855,6 +867,28 @@
     "link": "https://fr.wikipedia.org/wiki/T_Zen",
     "name": "Paris",
     "type": "brt"
+  },
+  "bumper-boulogne–pont-de-saint-cloud": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84068400, 2.22833100",
+    "country": "FR",
+    "icons": ["🛑"],
+    "link": "https://fr.wikipedia.org/wiki/Boulogne_-_Pont_de_Saint-Cloud_(m%C3%A9tro_de_Paris)",
+    "name": "Boulogne–Pont de Saint-Cloud",
+    "reference": "Paris",
+    "type": "bumper"
+  },
+  "bumper-gambetta": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86496179, 2.39898250",
+    "country": "FR",
+    "icons": ["🛑"],
+    "link": "https://fr.wikipedia.org/wiki/Gambetta_(m%C3%A9tro_de_Paris)",
+    "name": "Gambetta",
+    "reference": "Paris",
+    "type": "bumper"
   },
   "cable-cars-cable-1": {
     "been": false,
@@ -5846,7 +5880,7 @@
     "city": "Paris",
     "coords": "48.86150000, 2.34650000",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🚈"],
     "link": "https://fr.wikipedia.org/wiki/Réseau_Express_Régional_d%27Île-de-France",
     "name": "RER",
     "reference": "Paris",
@@ -6084,6 +6118,28 @@
     "reference": "Paris",
     "type": "twin-stations"
   },
+  "twin-stations-argentine": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87553309, 2.28932166",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Argentine_(métro_de_Paris)",
+    "name": "Argentine",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-arts-et-metiers": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86550000, 2.35610000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Arts_et_Métiers_(métro_de_Paris)",
+    "name": "Arts et Métiers",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
   "twin-stations-bolivar": {
     "been": true,
     "city": "Paris",
@@ -6105,6 +6161,17 @@
     "name": "Boulogne–Jean Jaurès",
     "reference": "Paris",
     "type": "twin-stations"
+  },
+  "twin-stations-caroline-aigle": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_7_du_tramway_d%27Île-de-France",
+    "name": "Caroline Aigle",
+    "reference": "Paris",
+    "type": "twin-stations",
+    "wikidata": "Q2939953"
   },
   "twin-stations-champ-de-mars": {
     "been": true,
@@ -6162,6 +6229,17 @@
     "reference": "Paris",
     "type": "twin-stations"
   },
+  "twin-stations-europe": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87882100, 2.32238000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Europe_(métro_de_Paris)",
+    "name": "Europe",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
   "twin-stations-gambetta": {
     "been": true,
     "city": "Paris",
@@ -6216,6 +6294,17 @@
     "reference": "Paris",
     "type": "twin-stations"
   },
+  "twin-stations-parc-des-expositions": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.97425900, 2.51548300",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_du_Parc_des_Expositions",
+    "name": "Parc des Expositions",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
   "twin-stations-pasteur": {
     "been": true,
     "city": "Paris",
@@ -6249,6 +6338,17 @@
     "reference": "Paris",
     "type": "twin-stations"
   },
+  "twin-stations-quartre-chemins": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.90390000, 2.39250000",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Aubervilliers–Pantin–Quatre_Chemins_station",
+    "name": "Quartre Chemins",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
   "twin-stations-republique": {
     "been": true,
     "city": "Paris",
@@ -6268,6 +6368,28 @@
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Saint-Fran%C3%A7ois-Xavier_(m%C3%A9tro_de_Paris)",
     "name": "Saint-François-Xavier",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-saint-michel": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85365036, 2.34392881",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Saint-Michel_(métro_de_Paris)",
+    "name": "Saint Michel",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-stalingrad": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.88426295, 2.36582369",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://fr.wikipedia.org/wiki/Stalingrad_(métro_de_Paris)",
+    "name": "Stalingrad",
     "reference": "Paris",
     "type": "twin-stations"
   },

@@ -44,8 +44,11 @@
   "bilingual-montreal": {
     "been": true,
     "city": "Montréal",
+    "coords": "45.51666667, -73.65000000",
     "countries": ["CA", "FR", "GB"],
-    "icons": ["🇨🇦", "🇫🇷", "🇬🇧"],
+    "country": "CA",
+    "icons": ["✌️"],
+    "link": "https://fr.wikipedia.org/wiki/Montr%C3%A9al",
     "name": "Montréal",
     "type": "bilingual"
   },
@@ -78,6 +81,28 @@
     "link": "https://fr.wikipedia.org/wiki/Service_rapide_par_bus_(Montréal)",
     "name": "Montréal",
     "type": "brt"
+  },
+  "bumper-angrignon": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
+    "country": "CA",
+    "icons": ["🛑"],
+    "link": "https://fr.wikipedia.org/wiki/Station_Angrignon",
+    "name": "Angrignon",
+    "reference": "Montréal",
+    "type": "bumper"
+  },
+  "bumper-honore-beaugrand": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
+    "country": "CA",
+    "icons": ["🛑"],
+    "link": "https://fr.wikipedia.org/wiki/Station_Honor%C3%A9-Beaugrand",
+    "name": "Honoré-Beaugrand",
+    "reference": "Montréal",
+    "type": "bumper"
   },
   "car-places-montreal": {
     "been": true,
@@ -154,8 +179,9 @@
   "fare-cards-opus": {
     "been": true,
     "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["🎟️"],
     "link": "https://en.wikipedia.org/wiki/Opus_card",
     "name": "Opus",
     "reference": "Montréal",
@@ -500,7 +526,7 @@
     "city": "Montréal",
     "coords": "45.50888889, -73.55416667",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["🚈"],
     "link": "https://en.wikipedia.org/wiki/Exo_commuter_rail",
     "name": "Exo",
     "reference": "Montréal",

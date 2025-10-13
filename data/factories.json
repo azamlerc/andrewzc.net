@@ -67,6 +67,15 @@
     "name": "Dearborn",
     "reference": "General Motors"
   },
+  "debrecen": {
+    "been": true,
+    "coords": "47.53166667, 21.62444444",
+    "countries": ["DE", "HU"],
+    "icons": ["🇩🇪", "🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Debrecen",
+    "name": "Debrecen",
+    "reference": "BMW"
+  },
   "detroit/hamtramck": {
     "been": false,
     "country": "US",
@@ -326,7 +335,8 @@
     "icons": ["🇫🇷", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Avtoframos",
     "name": "Moscow",
-    "reference": "Renault"
+    "reference": "Renault",
+    "strike": true
   },
   "motomachi": {
     "been": false,
@@ -645,6 +655,15 @@
     "icons": ["🇩🇪", "🇪🇸"],
     "link": "https://group.mercedes-benz.com/company/locations/production-network-vitoria.html",
     "name": "Vitoria",
+    "reference": "Mercedes-Benz"
+  },
+  "vitoria-gasteiz": {
+    "been": true,
+    "coords": "42.85000000, -2.68333333",
+    "countries": ["DE", "ES"],
+    "icons": ["🇩🇪", "🇪🇸"],
+    "link": "https://group.mercedes-benz.com/company/locations/production-network-vitoria.html",
+    "name": "Vitoria-Gasteiz",
     "reference": "Mercedes-Benz"
   },
   "west-point-ga": {

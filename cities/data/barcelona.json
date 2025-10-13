@@ -248,8 +248,10 @@
   "bilingual-barcelona": {
     "been": true,
     "city": "Barcelona",
+    "coords": "41.38250000, 2.17694444",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["✌️"],
+    "link": "https://es.wikipedia.org/wiki/Barcelona",
     "name": "Barcelona",
     "type": "bilingual"
   },
@@ -262,6 +264,36 @@
     "link": "https://en.wikipedia.org/wiki/Bac_de_Roda_Bridge",
     "name": "Bac de Roda Bridge",
     "type": "bridges"
+  },
+  "bumper-": {
+    "been": true,
+    "city": "Barcelona",
+    "icons": [],
+    "name": "",
+    "reference": "Stockholm",
+    "type": "bumper"
+  },
+  "bumper-espanya-(l8)": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🛑"],
+    "link": "https://ca.wikipedia.org/wiki/Estació_d%27Espanya_(FGC)",
+    "name": "Espanya (L8)",
+    "reference": "Barcelona",
+    "type": "bumper"
+  },
+  "bumper-gorg-(l10)": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["🛑"],
+    "link": "https://ca.wikipedia.org/wiki/Estació_de_Gorg_(metro_de_Barcelona)",
+    "name": "Gorg (L10)",
+    "reference": "Barcelona",
+    "type": "bumper"
   },
   "cable-cars-teleferic-de-montjuic": {
     "been": true,
@@ -424,6 +456,17 @@
     "name": "Port Fòrum",
     "reference": "Barcelona",
     "type": "depots"
+  },
+  "elevator-stations-ciutat-meridiana": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.46090000, 2.17440000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ciutat_Meridiana",
+    "name": "Ciutat Meridiana",
+    "type": "elevator-stations",
+    "wikidata": "Q339108"
   },
   "elevators-tibidabo": {
     "been": true,
@@ -984,6 +1027,40 @@
     "reference": "Barcelona",
     "type": "shuttles"
   },
+  "single-platform-casa-de-laigua": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "39.50000000, -3.70000000",
+    "country": "ES",
+    "icons": ["1️⃣"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Casa_de_l%27Aigua",
+    "name": "Casa de l’Aigua",
+    "reference": "Barcelona",
+    "type": "single-platform"
+  },
+  "single-platform-ciutat-meridiana": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.46090000, 2.17440000",
+    "country": "ES",
+    "icons": ["1️⃣"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ciutat_Meridiana",
+    "name": "Ciutat Meridiana",
+    "reference": "Barcelona",
+    "type": "single-platform",
+    "wikidata": "Q339108"
+  },
+  "single-track-line-11": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.46320000, 2.17181000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro_line_11",
+    "name": "Line 11",
+    "reference": "Barcelona",
+    "type": "single-track"
+  },
   "single-track-tram-t2": {
     "been": true,
     "city": "Barcelona",
@@ -1111,7 +1188,7 @@
     "city": "Barcelona",
     "coords": "41.38333300, 2.18333300",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🚈"],
     "link": "https://es.wikipedia.org/wiki/Rodalies_de_Catalunya",
     "name": "Rodalies",
     "reference": "Barcelona",

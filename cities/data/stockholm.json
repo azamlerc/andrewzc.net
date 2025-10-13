@@ -96,6 +96,51 @@
     "reference": "Stockholm",
     "type": "awa"
   },
+  "bumper-hasselby-strand": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.36222222, 17.83250000",
+    "country": "SE",
+    "icons": ["🛑"],
+    "link": "https://sv.wikipedia.org/wiki/H%C3%A4sselby_strand_(tunnelbanestation)",
+    "name": "Hässelby strand",
+    "reference": "Stockholm",
+    "type": "bumper"
+  },
+  "bumper-kungstradgarden": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.33125000, 18.07141667",
+    "country": "SE",
+    "icons": ["🛑"],
+    "link": "https://sv.wikipedia.org/wiki/Kungstr%C3%A4dg%C3%A5rden_(tunnelbanestation)",
+    "name": "Kungsträdgården",
+    "reference": "Stockholm",
+    "type": "bumper"
+  },
+  "bumper-nockeby": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.32841100, 17.92299700",
+    "country": "SE",
+    "icons": ["🛑"],
+    "link": "https://sv.wikipedia.org/wiki/Nockebybanan",
+    "name": "Nockeby",
+    "reference": "Stockholm",
+    "type": "bumper",
+    "wikidata": "Q1759931"
+  },
+  "bumper-ropsten": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.35777778, 18.10388889",
+    "country": "SE",
+    "icons": ["🛑"],
+    "link": "https://sv.wikipedia.org/wiki/Ropsten_(tunnelbanestation)",
+    "name": "Ropsten",
+    "reference": "Stockholm",
+    "type": "bumper"
+  },
   "cable-landings-stockholm": {
     "been": true,
     "city": "Stockholm",
@@ -405,8 +450,9 @@
   "fare-cards-sl-access": {
     "been": true,
     "city": "Stockholm",
+    "coords": "59.32944444, 18.06861111",
     "country": "SE",
-    "icons": ["🇸🇪"],
+    "icons": ["🎟️"],
     "link": "https://en.wikipedia.org/wiki/SL_Access",
     "name": "SL Access",
     "reference": "Stockholm",
@@ -1037,7 +1083,7 @@
     "city": "Stockholm",
     "coords": "59.32944444, 18.06861111",
     "country": "SE",
-    "icons": ["🇸🇪"],
+    "icons": ["🚈"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_commuter_rail",
     "name": "Pendeltåg",
     "reference": "Stockholm",

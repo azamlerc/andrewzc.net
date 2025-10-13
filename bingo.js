@@ -17,12 +17,12 @@ function createHeader() {
   });
 }
 
-async function bingoMain(type) {
+async function bingoMain(type, bingoFilter) {
   const bingoResults = [];
   for (let r = 0; r < pages.length; r++) {
     const page = pages[r];
     let row;
-		if (!page.hide) {
+		if (typeof table !== 'null' && !page.hide) {
 			row = table.insertRow();
 			const checkboxId = `chk-${page.key}`;
 			const checkedAttr = page.hide ? "" : "checked";
@@ -38,6 +38,9 @@ async function bingoMain(type) {
       let list = Object.values(data);
       if (type == "countries") {
         list = list.filter(p => p.icons?.includes(c.icon) && (!p.reference || p.reference.includes(" km")));
+        if (typeof bingoFilter == 'function') {
+          list = list.filter(bingoFilter);
+        }
       } else if (type == "states") {
         list = list.filter(p => (p.state == c.code || p.states?.includes(c.code)));
         if (page.key === "extremities") list = list.filter(p => !p.reference);
@@ -124,18 +127,20 @@ function createLists(bingoResults, type) {
     lists.appendChild(section);
     let listDiv = section.querySelector(`#${page.key}-list`);
     all.forEach(p => {
-      let icons;
-      if (type == "countries") {
-        icons = p.icons.join(" ");
-      } else if (type == "states") {
-        icons = p.state ? stateFlag(p.state) : p.states.map(stateFlag).join(" ");
-        if (page.key === "extremities") icons += " " + p.icons[1];
+      if (!p.hide) {
+        let icons;
+        if (type == "countries") {
+          icons = p.icons.join(" ");
+        } else if (type == "states") {
+          icons = p.state ? stateFlag(p.state) : p.states.map(stateFlag).join(" ");
+          if (page.key === "extremities") icons += " " + p.icons[1];
+        }
+        if (!p.been) icons = `<span class="todo">${icons}</span>`;
+        let prefix = p.prefix ? `<span class="airport">${p.prefix}</span> ` : "";
+  			let name = p.name;
+  			if (p.link) name = `<a href="${p.link}">${name}</a>`
+        listDiv.innerHTML += `${prefix} ${icons} ${name}<br>\n`;
       }
-      if (!p.been) icons = `<span class="todo">${icons}</span>`;
-      let prefix = p.prefix ? `<span class="airport">${p.prefix}</span> ` : "";
-			let name = p.name;
-			if (p.link) name = `<a href="${p.link}">${name}</a>`
-      listDiv.innerHTML += `${prefix} ${icons} ${name}<br>\n`;
     });
   });
 }

@@ -90,6 +90,16 @@
     "link": "https://en.wikipedia.org/wiki/Avenida_de_América_(Madrid_Metro)",
     "name": "Avenida de América"
   },
+  "avenida-de-la-paz": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.4533, -3.66252",
+    "countries": ["ES", "BO"],
+    "icons": ["🇪🇸", "🇧🇴"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Avenida_de_la_Paz",
+    "name": "Avenida de la Paz",
+    "wikidata": "Q526358"
+  },
   "barcelone": {
     "been": false,
     "city": "Tunis",
@@ -175,6 +185,24 @@
     "link": "https://en.wikipedia.org/wiki/Boston_Manor_tube_station",
     "name": "Boston Manor"
   },
+  "brandenburg": {
+    "been": true,
+    "coords": "52.36194444, 13.00805556",
+    "countries": ["FR", "DE"],
+    "icons": ["🇫🇷", "🇩🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux",
+    "name": "Brandenburg",
+    "wikidata": "Q2420027"
+  },
+  "bruges": {
+    "been": true,
+    "coords": "51.20888889, 3.22416667",
+    "countries": ["FR", "BE"],
+    "icons": ["🇫🇷", "🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux",
+    "name": "Bruges",
+    "wikidata": "Q2420027"
+  },
   "buenos-aires": {
     "been": true,
     "city": "Buenos Aires",
@@ -221,7 +249,7 @@
     "name": "Canberra"
   },
   "cartagena": {
-    "been": false,
+    "been": true,
     "city": "Cartagena",
     "countries": ["ES", "CO"],
     "icons": ["🇪🇸", "🇨🇴"],
@@ -282,6 +310,16 @@
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
     "name": "Chinatown–Rose Pak"
   },
+  "ciudad-de-los-angeles": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.36, -3.69389",
+    "countries": ["ES", "US"],
+    "icons": ["🇪🇸", "🇺🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ciudad_de_los_Ángeles",
+    "name": "Ciudad de los Ángeles",
+    "wikidata": "Q2042482"
+  },
   "colombia": {
     "been": true,
     "city": "Madrid",
@@ -305,6 +343,16 @@
     "icons": ["🇦🇷", "🇨🇷"],
     "link": "https://en.wikipedia.org/wiki/Line_I_(Buenos_Aires_Underground)",
     "name": "Costa Rica"
+  },
+  "cracovie": {
+    "been": true,
+    "city": "Kraków",
+    "coords": "50.06138889, 19.93722222",
+    "countries": ["FR", "PL"],
+    "icons": ["🇫🇷", "🇵🇱"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux",
+    "name": "Cracovie",
+    "wikidata": "Q2420027"
   },
   "cyprus": {
     "been": true,
@@ -388,6 +436,14 @@
     "icons": ["🇲🇽", "🇪🇹"],
     "link": "https://es.wikipedia.org/wiki/Etiopía-Plaza_de_la_Transparencia_(estación)",
     "name": "Etiopía"
+  },
+  "europa": {
+    "been": true,
+    "coords": "42.87611111, -2.67972222",
+    "countries": ["ES", "EU"],
+    "icons": ["🇪🇸", "🇪🇺"],
+    "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
+    "name": "Europa"
   },
   "europe": {
     "been": true,
@@ -524,6 +580,15 @@
     "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
     "name": "Honduras"
   },
+  "ibiza": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.41836290, -3.67796970",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ibiza_(Madrid_Metro)",
+    "name": "Ibiza"
+  },
   "iceland": {
     "been": false,
     "city": "Reykjavík",
@@ -553,7 +618,7 @@
     "name": "International District/Chinatown"
   },
   "islas-filipinas": {
-    "been": false,
+    "been": true,
     "countries": ["ES", "PH"],
     "icons": ["🇪🇸", "🇵🇭"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Islas_Filipinas",
@@ -798,6 +863,16 @@
     "link": "https://en.wikipedia.org/wiki/Mexikoplatz",
     "name": "Mexikoplatz"
   },
+  "miami": {
+    "been": false,
+    "city": "Miami",
+    "coords": "25.78000000, -80.21000000",
+    "countries": ["EG", "US"],
+    "icons": ["🇪🇬", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Alexandria_Metro",
+    "name": "Miami",
+    "wikidata": "Q85740659"
+  },
   "mindelo": {
     "been": true,
     "coords": "41.16214166666666, -8.621952777777778",
@@ -890,6 +965,15 @@
     "link": "https://en.wikipedia.org/wiki/Nassau_Avenue_station",
     "name": "Nassau Avenue"
   },
+  "new-york": {
+    "been": true,
+    "city": "New York",
+    "countries": ["FR", "US"],
+    "icons": ["🇫🇷", "🇺🇸"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux",
+    "name": "New York",
+    "wikidata": "Q2420027"
+  },
   "new-york-ave–florida-ave-": {
     "been": true,
     "city": "Washington",
@@ -909,7 +993,7 @@
     "name": "Newkirk Avenue–Little Haiti"
   },
   "nikosia": {
-    "been": false,
+    "been": true,
     "coords": "42.87611111, -2.67972222",
     "countries": ["ES", "CY"],
     "icons": ["🇪🇸", "🇨🇾"],
@@ -1079,7 +1163,7 @@
     "name": "Poortugaal"
   },
   "portugalete": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.31777778, -3.02055556",
     "countries": ["ES", "PT"],
@@ -1132,7 +1216,7 @@
     "name": "Rennes"
   },
   "republica-argentina": {
-    "been": true,
+    "been": false,
     "city": "Madrid",
     "coords": "40.44494400, -3.68495800",
     "countries": ["ES", "AR"],
@@ -1240,6 +1324,16 @@
     "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
     "name": "Santo Domingo",
     "wikidata": "Q3307447"
+  },
+  "santo-domingo-(madrid)": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.42, -3.70806",
+    "countries": ["ES", "DO"],
+    "icons": ["🇪🇸", "🇩🇴"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Santo_Domingo",
+    "name": "Santo Domingo (Madrid)",
+    "wikidata": "Q2125964"
   },
   "schottenring": {
     "been": true,
@@ -1491,11 +1585,18 @@
     "name": "Waterlooplein"
   },
   "wellington": {
-    "been": false,
+    "been": true,
     "countries": ["ES", "NZ"],
     "icons": ["🇪🇸", "🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
     "name": "Wellington"
+  },
+  "wellington-/-upf": {
+    "been": true,
+    "countries": ["ES", "NZ"],
+    "icons": ["🇪🇸", "🇳🇿"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Wellington_/_UPF",
+    "name": "Wellington / UPF"
   },
   "wiener": {
     "been": true,

@@ -2659,7 +2659,7 @@
     "coords": "34.0, -119.0",
     "country": "US",
     "icons": ["🇺🇸"],
-    "images": ["malibu1.JPG", "malibu2.JPG", "malibu3.JPEG"],
+    "images": ["malibu1.JPG", "malibu2.JPG", "malibu3.JPEG", "malibu1.jpg", "malibu2.jpg", "malibu3.jpg"],
     "link": "https://confluence.org/confluence.php?lat=34&lon=-119",
     "name": "Malibu",
     "prefix": "34°N 119°W",
@@ -3392,11 +3392,13 @@
     "reference": "10 km"
   },
   "orduna": {
-    "been": false,
+    "been": true,
+    "caption": "Visited this point while traveling by train through the Basque Country. What luck to find it enclosed by a wiggly mountain train line, just outside the lovely traditional town of Orduña. The actual point is just on the edge of a strip of private property, 75m from the road. Went for a swim in a sinkhole nearby, then continued on for a hike up into the hills.",
     "city": "Bilbao",
     "coords": "43.0, -3.0",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "images": ["orduna1.jpg", "orduna2.jpg", "orduna3.jpg"],
     "link": "https://confluence.org/confluence.php?lat=43&lon=-3",
     "name": "Orduña",
     "prefix": "43°N 3°W"
@@ -3930,6 +3932,16 @@
     "name": "Rot-Berg",
     "prefix": "48°N 10°E"
   },
+  "royuela-de-rio-franco": {
+    "been": false,
+    "coords": "42.0, -4.0",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://confluence.org/confluence.php?lat=42&lon=-4",
+    "name": "Royuela de Río Franco",
+    "prefix": "42°N 4°W",
+    "reference": "15 km"
+  },
   "rudno": {
     "been": false,
     "coords": "52.0, 16.0",
@@ -4179,6 +4191,16 @@
     "name": "Seaside",
     "prefix": "46°N 124°W",
     "state": "OR"
+  },
+  "segovia": {
+    "been": false,
+    "coords": "41.0, -4.0",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://confluence.org/confluence.php?lat=41&lon=-4",
+    "name": "Segovia",
+    "prefix": "41°N 4°W",
+    "reference": "12 km"
   },
   "sehlem-evensen": {
     "been": false,
@@ -4461,10 +4483,19 @@
     "coords": "58.0, 25.0",
     "country": "LV",
     "icons": ["🇱🇻"],
-    "images": ["talcis2.jpg", "talcis3.jpg", "talcis4.jpg"],
+    "images": ["talcis2.jpg", "talcis3.jpg", "talcis4.jpg", "talcis.jpg"],
     "link": "https://confluence.org/confluence.php?lat=58&lon=25",
     "name": "Talcis",
     "prefix": "58°N 25°E"
+  },
+  "tarancon": {
+    "been": false,
+    "coords": "40.0, -3.0",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://confluence.org/confluence.php?lat=40&lon=-3",
+    "name": "Tarancón",
+    "prefix": "40°N 3°W"
   },
   "tatari": {
     "been": false,
@@ -4890,6 +4921,15 @@
     "link": "https://confluence.org/confluence.php?lat=54&lon=-1",
     "name": "York",
     "prefix": "54°N 1°W"
+  },
+  "yunclillos": {
+    "been": false,
+    "coords": "40.0, -4.0",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://confluence.org/confluence.php?lat=40&lon=-4",
+    "name": "Yunclillos",
+    "prefix": "40°N 4°W"
   },
   "zalavas": {
     "been": true,

@@ -192,6 +192,28 @@
     "reference": "Chicago",
     "type": "awa"
   },
+  "bumper-midway": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.78661000, -87.73787500",
+    "country": "US",
+    "icons": ["🛑"],
+    "link": "https://en.wikipedia.org/wiki/Midway_station_(CTA)",
+    "name": "Midway",
+    "reference": "Chicago",
+    "type": "bumper"
+  },
+  "bumper-ohare": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🛑"],
+    "link": "https://en.wikipedia.org/wiki/O%27Hare_station_(CTA)",
+    "name": "O’Hare",
+    "reference": "Chicago",
+    "type": "bumper"
+  },
   "circle-lines-loop": {
     "been": true,
     "city": "Chicago",
@@ -543,8 +565,9 @@
   "fare-cards-ventra": {
     "been": true,
     "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🎟️"],
     "link": "https://en.wikipedia.org/wiki/Ventra",
     "name": "Ventra",
     "reference": "Chicago",
@@ -570,6 +593,18 @@
     "name": "Ferris Wheel",
     "strike": true,
     "type": "ferris-wheels"
+  },
+  "forks-blue-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.91000000, -87.76000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(CTA)",
+    "name": "Blue Line",
+    "reference": "Chicago",
+    "strike": true,
+    "type": "forks"
   },
   "forks-green-line": {
     "been": true,
@@ -1305,7 +1340,7 @@
     "city": "Chicago",
     "coords": "41.88194444, -87.62777778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🚈"],
     "link": "https://en.wikipedia.org/wiki/Metra",
     "name": "Metra",
     "reference": "Chicago",

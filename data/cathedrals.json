@@ -18,6 +18,7 @@
   },
   "alcala-de-henares": {
     "been": true,
+    "city": "Madrid",
     "coords": "40.48052500, -3.36925800",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -85,6 +86,14 @@
     "link": "https://en.wikipedia.org/wiki/Barcelona_Cathedral",
     "name": "Barcelona"
   },
+  "bayonne": {
+    "been": true,
+    "coords": "43.490556, -1.4775",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Cathédrale_Sainte-Marie_de_Bayonne",
+    "name": "Bayonne"
+  },
   "beauvais": {
     "been": true,
     "coords": "49.43260000, 2.08140000",
@@ -103,7 +112,7 @@
     "name": "Berliner Dom"
   },
   "bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92388889",
     "country": "ES",
@@ -130,7 +139,7 @@
     "name": "Bonn"
   },
   "bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.83778, -0.57778",
     "country": "FR",
@@ -537,6 +546,15 @@
     "link": "https://en.wikipedia.org/wiki/Liverpool_Cathedral",
     "name": "Liverpool"
   },
+  "luxembourg": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.60966667, 6.13155556",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "link": "https://en.wikipedia.org/wiki/Notre-Dame_Cathedral,_Luxembourg",
+    "name": "Luxembourg"
+  },
   "lyon": {
     "been": true,
     "city": "Lyon",
@@ -933,6 +951,14 @@
     "link": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_José",
     "name": "San José"
   },
+  "san-sebastian": {
+    "been": true,
+    "coords": "43.31666667, -1.98150000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/San_Sebastián_Cathedral",
+    "name": "San Sebastián"
+  },
   "santo-domingo": {
     "been": true,
     "city": "Santo Domingo",
@@ -1065,13 +1091,13 @@
     "link": "https://en.wikipedia.org/wiki/Vilnius_Cathedral",
     "name": "Vilnius"
   },
-  "vitoria": {
-    "been": false,
+  "vitoria-gasteiz": {
+    "been": true,
     "coords": "42.84540300, -2.67756300",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_María_Inmaculada_of_Vitoria",
-    "name": "Vitoria"
+    "name": "Vitoria-Gasteiz"
   },
   "warsaw": {
     "been": false,

@@ -1,6 +1,18 @@
 {
+  "abandoned-atxuri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25361100, -2.92166700",
+    "country": "ES",
+    "icons": ["🏚"],
+    "link": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Atxuri",
+    "name": "Atxuri",
+    "reference": "Bilbao",
+    "type": "abandoned",
+    "wikidata": "Q3096001"
+  },
   "airports-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.30111111, -2.91055556",
     "country": "ES",
@@ -10,11 +22,24 @@
     "prefix": "BIO",
     "type": "airports"
   },
-  "bilingual-bilbao": {
-    "been": false,
+  "beaches-ereaga": {
+    "been": true,
     "city": "Bilbao",
+    "coords": "43.34444444, -3.01250000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🏖"],
+    "link": "https://es.wikipedia.org/wiki/Ereaga",
+    "name": "Ereaga",
+    "type": "beaches",
+    "wikidata": "Q5851956"
+  },
+  "bilingual-bilbao": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26305556, -2.93500000",
+    "country": "ES",
+    "icons": ["✌️"],
+    "link": "https://es.wikipedia.org/wiki/Bilbao",
     "name": "Bilbao",
     "type": "bilingual"
   },
@@ -28,8 +53,19 @@
     "name": "Puente de Vizcaya",
     "type": "bridges"
   },
+  "bumper-plentzia": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.40583333, -2.94638889",
+    "country": "ES",
+    "icons": ["🛑"],
+    "link": "https://eu.wikipedia.org/wiki/Plentzia_geralekua",
+    "name": "Plentzia",
+    "reference": "Bilbao",
+    "type": "bumper"
+  },
   "calatrava-bilbao-airport": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.30111111, -2.91055556",
     "country": "ES",
@@ -39,7 +75,7 @@
     "type": "calatrava"
   },
   "cathedrals-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92388889",
     "country": "ES",
@@ -49,7 +85,7 @@
     "type": "cathedrals"
   },
   "closed-trams-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
@@ -60,7 +96,7 @@
     "type": "closed-trams"
   },
   "confluence-orduna": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.00000000, -3.00000000",
     "country": "ES",
@@ -70,20 +106,169 @@
     "prefix": "43°N 3°W",
     "type": "confluence"
   },
-  "fare-cards-barik": {
+  "curved-urbinaga": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.30586502, -2.99259090",
+    "country": "ES",
+    "icons": ["🍌"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Urbinaga",
+    "name": "Urbinaga",
+    "type": "curved",
+    "wikidata": "Q3497375"
+  },
+  "depots-ariz": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.24402000, -2.88708000",
+    "country": "ES",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.24402_N_2.88708_W",
+    "name": "Ariz",
+    "reference": "Bilbao",
+    "type": "depots"
+  },
+  "depots-sopela": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.38016000, -2.96895000",
+    "country": "ES",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.38016_N_2.96895_W",
+    "name": "Sopela",
+    "reference": "Bilbao",
+    "type": "depots"
+  },
+  "elevators-ascensor-de-begona": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26052222, -2.92199722",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://es.wikipedia.org/wiki/Ascensor_de_Begoña",
+    "name": "Ascensor de Begoña",
+    "strike": true,
+    "type": "elevators",
+    "wikidata": "Q17519357"
+  },
+  "elevators-ascensor-de-begona-(metro)": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26027000, -2.91981000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.26027_N_2.91981_W",
+    "name": "Ascensor de Begoña (Metro)",
+    "type": "elevators"
+  },
+  "elevators-ascensor-de-iturribide-zabalbide": {
     "been": false,
+    "city": "Bilbao",
+    "coords": "43.25487778, -2.91487222",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://es.wikipedia.org/wiki/Ascensor_de_Iturribide-Zabalbide",
+    "name": "Ascensor de Iturribide-Zabalbide",
+    "type": "elevators",
+    "wikidata": "Q20013205"
+  },
+  "elevators-ascensores-de-txurdinaga-basarrate": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25066207, -2.90984143",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://es.wikipedia.org/wiki/Ascensores_de_Txurdinaga-Basarrate",
+    "name": "Ascensores de Txurdinaga-Basarrate",
+    "type": "elevators",
+    "wikidata": "Q60026583"
+  },
+  "elevators-atxuri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25375000, -2.91994000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.25375_N_2.91994_W",
+    "name": "Atxuri",
+    "type": "elevators"
+  },
+  "elevators-ereaga": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.34686000, -3.01109000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.34686_N_3.01109_W",
+    "name": "Ereaga",
+    "type": "elevators"
+  },
+  "elevators-etxebarria": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26476000, -2.91963000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.26476_N_2.91963_W",
+    "name": "Etxebarria",
+    "type": "elevators"
+  },
+  "elevators-loruri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26953000, -2.92503000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.26953_N_2.92503_W",
+    "name": "Loruri",
+    "type": "elevators"
+  },
+  "elevators-parque-ramon-rubial": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26796000, -2.93134000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.26796_N_2.93134_W",
+    "name": "Parque Ramon Rubial",
+    "type": "elevators"
+  },
+  "elevators-zumalacarregi": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26543000, -2.91993000",
+    "country": "ES",
+    "icons": ["🛗"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.26543_N_2.91993_W",
+    "name": "Zumalacarregi",
+    "type": "elevators"
+  },
+  "fare-cards-barik": {
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🎟️"],
     "link": "Barik https://en.wikipedia.org/wiki/Barik_card",
     "name": "Barik",
     "reference": "Bilbao",
     "type": "fare-cards",
     "wikidata": "Q12254780"
   },
+  "fare-free-bilbao": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao",
+    "name": "Bilbao",
+    "prefix": "2025",
+    "reference": "children",
+    "type": "fare-free"
+  },
   "foster-bilbao-metro": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26270000, -2.93540000",
     "country": "ES",
@@ -103,6 +288,16 @@
     "name": "Artxanda Funicular",
     "type": "funiculars"
   },
+  "funiculars-ascensor-de-ereaga": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.34686400, -3.01103900",
+    "country": "ES",
+    "icons": ["🚠"],
+    "link": "https://eu.wikipedia.org/wiki/Ereaga-Algorta_igogailua",
+    "name": "Ascensor de Ereaga",
+    "type": "funiculars"
+  },
   "funiculars-funicular-de-archanda": {
     "been": false,
     "city": "Bilbao",
@@ -114,8 +309,19 @@
     "type": "funiculars",
     "wikidata": "Q3305605"
   },
+  "funiculars-funicular-de-artxanda": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.27091944, -2.92291389",
+    "country": "ES",
+    "icons": ["🚠"],
+    "link": "https://es.wikipedia.org/wiki/Funicular_de_Archanda",
+    "name": "Funicular de Artxanda",
+    "type": "funiculars",
+    "wikidata": "Q3305605"
+  },
   "funiculars-funicular-de-larreineta": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.29499000, -3.04540000",
     "country": "ES",
@@ -125,8 +331,21 @@
     "type": "funiculars",
     "wikidata": "Q8963131"
   },
+  "furthest-urduliz": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.37888900, -2.95833300",
+    "icons": ["↔️"],
+    "info": "⭤ <a href=\"https://es.wikipedia.org/wiki/Estación_de_Plentzia\">Plentzia</a>",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Urduliz",
+    "name": "Urduliz",
+    "prefix": "4.5",
+    "reference": "Bilbao",
+    "type": "furthest",
+    "wikidata": "Q3045452"
+  },
   "gauges-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -134,6 +353,16 @@
     "name": "Bilbao",
     "prefix": "1000",
     "type": "gauges"
+  },
+  "hotels-pension-roomtegi": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.29487070, -2.98448610",
+    "country": "ES",
+    "icons": ["🏨"],
+    "link": "https://www.booking.com/hotel/es/pension-roomtegi.html",
+    "name": "Pension Roomtegi",
+    "type": "hotels"
   },
   "ikea-barakaldo": {
     "been": false,
@@ -145,6 +374,74 @@
     "name": "Barakaldo",
     "type": "ikea"
   },
+  "industrial-extebarri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.24272000, -2.89809000",
+    "country": "ES",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.24272_N_2.89809_W",
+    "name": "Extebarri",
+    "type": "industrial"
+  },
+  "industrial-sestao": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.31167000, -2.99500000",
+    "country": "ES",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.31167_N_2.99500_W",
+    "name": "Sestao",
+    "type": "industrial"
+  },
+  "infill-ibarbengoa": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.36330000, -3.00693000",
+    "country": "ES",
+    "icons": ["🏗"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
+    "name": "Ibarbengoa",
+    "type": "infill",
+    "wikidata": "Q45838338"
+  },
+  "intermodal-matiko": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26890000, -2.92513000",
+    "country": "CO",
+    "icons": ["🎛️"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Matiko",
+    "name": "Matiko",
+    "type": "intermodal",
+    "wikidata": "Q3497404"
+  },
+  "level-crossings-bidezabal": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.35694444, -3.01166667",
+    "country": "ES",
+    "icons": ["🚦"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Bidezabal",
+    "name": "Bidezabal",
+    "reference": "Bilbao",
+    "strike": true,
+    "type": "level-crossings",
+    "wikidata": "Q3497389"
+  },
+  "level-crossings-urduliz": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.37888900, -2.95833300",
+    "country": "ES",
+    "icons": ["🚦"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Urduliz",
+    "name": "Urduliz",
+    "reference": "Bilbao",
+    "strike": true,
+    "type": "level-crossings",
+    "wikidata": "Q3045452"
+  },
   "metro-fonts-": {
     "been": false,
     "city": "Bilbao",
@@ -154,7 +451,7 @@
     "type": "metro-fonts"
   },
   "metro-fonts-rotis-semi-sans": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -164,7 +461,7 @@
     "type": "metro-fonts"
   },
   "metro-places-portugalete": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.31777778, -3.02055556",
     "countries": ["ES", "PT"],
@@ -174,7 +471,7 @@
     "type": "metro-places"
   },
   "metro-population-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -183,16 +480,16 @@
     "type": "metro-population"
   },
   "metro-prices-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "country": "ES",
     "icons": ["🇪🇸"],
     "name": "Bilbao",
-    "prefix": "$1.55",
+    "prefix": "$0.69",
     "type": "metro-prices"
   },
   "metros-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
@@ -201,8 +498,58 @@
     "name": "Bilbao",
     "type": "metros"
   },
+  "moving-walkways-arrontegi-kalea": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.29681000, -2.98417000",
+    "country": "ES",
+    "icons": ["🛴"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.29681_N_2.98417_W",
+    "name": "Arrontegi Kalea",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-calle-casilda-iturrizar": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.32138000, -3.01842000",
+    "country": "ES",
+    "icons": ["🛴"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.32138_N_3.01842_W",
+    "name": "Calle Casilda Iturrizar",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-calle-nafarroa": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.29477000, -2.98542000",
+    "country": "ES",
+    "icons": ["🛴"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.29477_N_2.98542_W",
+    "name": "Calle Nafarroa",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-uribarri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26694444, -2.92027778",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Uribarri_(Bilbao_metro)",
+    "name": "Uribarri",
+    "type": "moving-walkways"
+  },
+  "moving-walkways-zazpikaleak/casco-viejo": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25722222, -2.92388889",
+    "country": "ES",
+    "icons": ["🛴"],
+    "link": "https://en.wikipedia.org/wiki/Zazpikaleak/Casco_Viejo_(Bilbao_metro)",
+    "name": "Zazpikaleak/Casco Viejo",
+    "type": "moving-walkways"
+  },
   "museums-guggenheim-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26861111, -2.93388889",
     "country": "ES",
@@ -210,6 +557,80 @@
     "link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
     "name": "Guggenheim Bilbao",
     "type": "museums"
+  },
+  "parks-archanda": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.27395833, -2.92065000",
+    "country": "ES",
+    "icons": ["🌳"],
+    "link": "https://es.wikipedia.org/wiki/Archanda",
+    "name": "Archanda",
+    "type": "parks",
+    "wikidata": "Q2865980"
+  },
+  "parks-parque-etxebarria": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26222222, -2.91944444",
+    "country": "ES",
+    "icons": ["🌳"],
+    "link": "https://es.wikipedia.org/wiki/Parque_Etxebarria",
+    "name": "Parque Etxebarria",
+    "type": "parks",
+    "wikidata": "Q5474472"
+  },
+  "pools-atxuri": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25287000, -2.91981000",
+    "country": "ES",
+    "icons": ["🏊‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.25287_N_2.91981_W",
+    "name": "Atxuri",
+    "type": "pools"
+  },
+  "pools-azkuna-zentroa": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25971980, -2.93717470",
+    "country": "ES",
+    "icons": ["🏊‍♂️"],
+    "link": "https://es.wikipedia.org/wiki/Azkuna_Zentroa",
+    "name": "Azkuna Zentroa",
+    "type": "pools",
+    "wikidata": "Q3285202"
+  },
+  "pools-txurdinaga": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.24988000, -2.90716000",
+    "country": "ES",
+    "icons": ["🏊‍♂️"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.24988_N_2.90716_W",
+    "name": "Txurdinaga",
+    "type": "pools"
+  },
+  "ports-bilbao": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.35240000, -3.04890000",
+    "country": "ES",
+    "icons": ["⚓️"],
+    "link": "https://en.wikipedia.org/wiki/Port_of_Bilbao",
+    "name": "Bilbao",
+    "type": "ports"
+  },
+  "projects-bilbao-areeta–sestao-shuttle": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.30944444, -3.00722222",
+    "icons": [],
+    "link": "https://en.wikipedia.org/wiki/Sestao_(Bilbao_metro)#Future",
+    "name": "Bilbao Areeta–Sestao shuttle",
+    "prefix": "🇪🇸",
+    "reference": "Bilbao",
+    "type": "projects"
   },
   "projects-bilbao-basque-y": {
     "been": false,
@@ -224,6 +645,18 @@
     "type": "projects",
     "wikidata": "Q810382"
   },
+  "projects-bilbao-line-3-to-galdakao": {
+    "been": false,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_3_(Metro_de_Bilbao)",
+    "name": "Bilbao Line 3 to Galdakao",
+    "prefix": "2027",
+    "reference": "Bilbao",
+    "type": "projects"
+  },
   "projects-bilbao-tram-to-bolueta": {
     "been": true,
     "city": "Bilbao",
@@ -235,18 +668,91 @@
     "reference": "Bilbao",
     "type": "projects"
   },
+  "reverse-sondika": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.29831100, -2.92776400",
+    "country": "ES",
+    "icons": ["◀️"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Sondika",
+    "name": "Sondika",
+    "type": "reverse",
+    "wikidata": "Q12267517"
+  },
   "rivers-nervion": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.32550556, -3.01937222",
     "country": "ES",
     "icons": ["🌊"],
+    "info": "→ Bay of Biscay",
     "link": "https://en.wikipedia.org/wiki/Nervión",
     "name": "Nervión",
     "type": "rivers"
   },
+  "rivers-plencia": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.40706476, -2.94964318",
+    "country": "ES",
+    "icons": ["🌊"],
+    "info": "→ Bay of Biscay",
+    "link": "https://es.wikipedia.org/wiki/Ría_de_Plencia",
+    "name": "Plencia",
+    "type": "rivers",
+    "wikidata": "Q111698897"
+  },
+  "short-turn-ibarbengoa": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.36330000, -3.00693000",
+    "country": "ES",
+    "icons": ["↩️"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
+    "name": "Ibarbengoa",
+    "reference": "Bilbao",
+    "type": "short-turn",
+    "wikidata": "Q45838338"
+  },
+  "single-track-line-1": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.401729, -2.946393",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "Plentzia",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Plentzia",
+    "name": "Line 1",
+    "reference": "Bilbao",
+    "type": "single-track",
+    "wikidata": "Q3034981"
+  },
+  "single-track-tram": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "Atxuri",
+    "link": "https://es.wikipedia.org/wiki/Tranvía_de_Bilbao",
+    "name": "Tram",
+    "reference": "Bilbao",
+    "type": "single-track",
+    "wikidata": "Q121420791"
+  },
+  "sloped-urbinaga": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.30586502, -2.99259090",
+    "country": "ES",
+    "icons": ["🚞"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Urbinaga",
+    "name": "Urbinaga",
+    "type": "sloped",
+    "wikidata": "Q3497375"
+  },
   "spain-pais-vasco": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26222200, -2.95333300",
     "country": "ES",
@@ -255,8 +761,19 @@
     "name": "País Vasco",
     "type": "spain"
   },
+  "spanish-ibarbengoa": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.36330000, -3.00693000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
+    "name": "Ibarbengoa",
+    "type": "spanish",
+    "wikidata": "Q45838338"
+  },
   "squares-plaza-miguel-de-unamuno": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25844444, -2.92154722",
     "country": "ES",
@@ -268,7 +785,7 @@
     "wikidata": "Q12263580"
   },
   "stadiums-san-mames-stadium": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26430000, -2.95040000",
     "country": "ES",
@@ -277,8 +794,18 @@
     "name": "San Mamés Stadium",
     "type": "stadiums"
   },
+  "stairs-casco-viejo": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25722222, -2.92388889",
+    "country": "ES",
+    "icons": ["🪜"],
+    "link": "https://es.wikipedia.org/wiki/Casco_Viejo_(Bilbao)",
+    "name": "Casco Viejo",
+    "type": "stairs"
+  },
   "stations-bilbao-abando": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26138889, -2.92777778",
     "country": "ES",
@@ -292,7 +819,7 @@
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🚈"],
     "link": "https://es.wikipedia.org/wiki/Cercanías_Bilbao",
     "name": "Cercanías",
     "reference": "Bilbao",
@@ -300,7 +827,7 @@
     "wikidata": "Q10862037"
   },
   "towers-iberdrola-tower": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26750000, -2.93861111",
     "country": "ES",
@@ -309,8 +836,19 @@
     "name": "Iberdrola Tower",
     "type": "towers"
   },
+  "tram-trains-bilbao": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25694444, -2.92361111",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Tranvía_de_Bilbao",
+    "name": "Bilbao",
+    "type": "tram-trains",
+    "wikidata": "Q121420791"
+  },
   "trams-bilbao": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.25361111, -2.92166667",
     "country": "ES",
@@ -319,8 +857,18 @@
     "name": "Bilbao",
     "type": "trams"
   },
+  "transporter-puente-de-vizcaya": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.32310000, -3.01690000",
+    "country": "ES",
+    "icons": ["🚟"],
+    "link": "https://en.wikipedia.org/wiki/Vizcaya_Bridge",
+    "name": "Puente de Vizcaya",
+    "type": "transporter"
+  },
   "transporter-vizcaya-bridge": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.32310000, -3.01690000",
     "country": "ES",

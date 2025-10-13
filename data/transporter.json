@@ -17,7 +17,7 @@
     "strike": true
   },
   "bordeaux": {
-    "been": false,
+    "been": true,
     "city": "Bordeaux",
     "coords": "44.84000000, -0.58000000",
     "country": "FR",
@@ -134,6 +134,15 @@
     "name": "Ponte Alexandrino de Alencar",
     "strike": true
   },
+  "puente-de-vizcaya": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.32310000, -3.01690000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vizcaya_Bridge",
+    "name": "Puente de Vizcaya"
+  },
   "puente-nicolas-avellaneda": {
     "been": false,
     "city": "Buenos Aires",
@@ -202,15 +211,6 @@
     "link": "https://en.wikipedia.org/wiki/Sky_Ride",
     "name": "Sky Ride",
     "strike": true
-  },
-  "vizcaya-bridge": {
-    "been": false,
-    "city": "Bilbao",
-    "coords": "43.32310000, -3.01690000",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Vizcaya_Bridge",
-    "name": "Vizcaya Bridge"
   },
   "warrington": {
     "been": false,

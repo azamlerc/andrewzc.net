@@ -405,6 +405,7 @@
     "link": "https://en.wikipedia.org/wiki/Avtoframos",
     "name": "Moscow",
     "reference": "Renault",
+    "strike": true,
     "type": "factories"
   },
   "fare-cards-": {
@@ -418,8 +419,9 @@
   "fare-cards-troika": {
     "been": false,
     "city": "Moscow",
+    "coords": "55.60000000, 37.60000000",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🎟️"],
     "link": "https://en.wikipedia.org/wiki/Troika_card",
     "name": "Troika",
     "reference": "Moscow",
@@ -1318,7 +1320,7 @@
     "city": "Moscow",
     "coords": "55.60000000, 37.60000000",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🚈"],
     "info": "<a href=\"https://ru.wikipedia.org/wiki/Московские_центральные_диаметры\">Central Diameters</a>",
     "link": "https://ru.wikipedia.org/wiki/Московские_центральные_диаметры",
     "name": "Moscow",

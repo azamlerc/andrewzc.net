@@ -44,7 +44,7 @@
     "name": "Castilla-La Mancha"
   },
   "castilla-y-leon": {
-    "been": false,
+    "been": true,
     "coords": "41.754444444444445, -4.781944444444444",
     "country": "ES",
     "icons": ["🇪🇸", "📜"],
@@ -112,6 +112,7 @@
     "icons": ["🇪🇸", "🧱"],
     "link": "https://es.wikipedia.org/wiki/La_Rioja",
     "name": "La Rioja",
+    "reference": "1 km",
     "wikidata": "Q5727"
   },
   "madrid": {
@@ -131,10 +132,11 @@
     "icons": ["🇪🇸", "⚓️"],
     "link": "https://es.wikipedia.org/wiki/Navarra",
     "name": "Navarra",
+    "reference": "5 km",
     "wikidata": "Q4018"
   },
   "pais-vasco": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.26222200, -2.95333300",
     "country": "ES",
