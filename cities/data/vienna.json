@@ -2220,6 +2220,18 @@
     "name": "Vienna",
     "type": "orient-express"
   },
+  "overhead-line-u6": {
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.20833333, 16.37250000",
+    "country": "AT",
+    "icons": ["🩼"],
+    "link": "https://en.wikipedia.org/wiki/U6_(Vienna_U-Bahn)",
+    "name": "Line U6",
+    "reference": "Vienna",
+    "type": "overhead",
+    "wikidata": "Q1741"
+  },
   "pools-alte-donau": {
     "been": false,
     "city": "Vienna",
@@ -2344,14 +2356,14 @@
     "type": "projects"
   },
   "projects-vienna-tram-27-to-aspern-nord": {
-    "been": false,
+    "been": true,
     "city": "Vienna",
     "coords": "48.2082, 16.3725",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien",
     "name": "Vienna Tram 27 to Aspern Nord",
-    "prefix": "2025-10",
+    "prefix": "10-06",
     "reference": "Vienna",
     "type": "projects",
     "wikidata": "Q129612"
