@@ -1,18 +1,4 @@
 {
-  "a-class=strike-href=https://enwikipediaorg/wiki/mong_kok_stationargyle/a-a-class=dark-href=https://zhwikipediaorg/wiki/旺角站旺角/a": {
-    "been": false,
-    "country": "HK",
-    "icons": ["🇭🇰"],
-    "name": "<a class=\"strike\" href=\"https://en.wikipedia.org/wiki/Mong_Kok_station\">Argyle</a> <a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/旺角站\">旺角</a>",
-    "strike": true
-  },
-  "a-class=strike-href=https://enwikipediaorg/wiki/yau_ma_tei_stationwaterloo/a-a-class=dark-href=https://zhwikipediaorg/wiki/油麻地站油麻地/a": {
-    "been": false,
-    "country": "HK",
-    "icons": ["🇭🇰"],
-    "name": "<a class=\"strike\" href=\"https://en.wikipedia.org/wiki/Yau_Ma_Tei_station\">Waterloo</a> <a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/油麻地站\">油麻地</a>",
-    "strike": true
-  },
   "aalto-yliopisto": {
     "been": false,
     "city": "Helsinki",
@@ -23,6 +9,16 @@
     "link": "https://fi.wikipedia.org/wiki/Aalto-yliopiston_metroasema",
     "name": "Aalto-yliopisto"
   },
+  "abbey-street": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34860300, -6.25814390",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Abbey_Street_Luas_stop",
+    "name": "Abbey Street",
+    "reference": "Sráid na Mainistreach"
+  },
   "admiralty": {
     "been": false,
     "city": "Hong Kong",
@@ -32,6 +28,27 @@
     "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/金鐘站\">金鐘</a>",
     "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
     "name": "Admiralty"
+  },
+  "aeroporto": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.15933900, 113.57463600",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Airport_station_(Macau_Light_Rapid_Transit)",
+    "name": "Aeroporto",
+    "reference": "機場"
+  },
+  "argyle": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.31910000, 114.16940000",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/旺角站\">旺角</a>",
+    "link": "https://en.wikipedia.org/wiki/Mong_Kok_station",
+    "name": "Argyle",
+    "strike": true
   },
   "arts-loi": {
     "been": true,
@@ -53,6 +70,66 @@
     "link": "https://en.wikipedia.org/wiki/Austin_station_(MTR)",
     "name": "Austin"
   },
+  "balally": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.28604466, -6.23668441",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Balally_Luas_stop",
+    "name": "Balally",
+    "reference": "Baile Amhlaoibh"
+  },
+  "ballyogan-wood": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.25505943, -6.18454783",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Ballyogan_Wood_Luas_stop",
+    "name": "Ballyogan Wood",
+    "reference": "Coill Bhaile Uí Ógáin"
+  },
+  "barra": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.18343100, 113.52983100",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Barra_station",
+    "name": "Barra",
+    "reference": "媽閣"
+  },
+  "beechwood": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.32093000, -6.25462000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Beechwood_Luas_stop",
+    "name": "Beechwood",
+    "reference": "Coill na Feá"
+  },
+  "blackhorse": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33426390, -6.32747003",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Blackhorse_Luas_stop",
+    "name": "Blackhorse",
+    "reference": "An Capall Dubh"
+  },
+  "bluebell": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.32930852, -6.33382782",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bluebell_Luas_stop",
+    "name": "Bluebell",
+    "reference": "An Cloigín Gorm"
+  },
   "botanique": {
     "been": true,
     "city": "Brussels",
@@ -62,6 +139,55 @@
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Kruidtuin_(metrostation)\">Kruidtuin</a>",
     "link": "https://fr.wikipedia.org/wiki/Botanique_(métro_de_Bruxelles)",
     "name": "Botanique"
+  },
+  "brides-glen": {
+    "been": false,
+    "coords": "53.24210932, -6.14284772",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Brides_Glen_Luas_stop",
+    "name": "Brides Glen",
+    "reference": "Gleann Bhríde"
+  },
+  "broadstone": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.35429100, -6.27381600",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dublin_Broadstone_railway_station#Luas",
+    "name": "Broadstone",
+    "reference": "An Chloch Leathan"
+  },
+  "broombridge": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.37270000, -6.29950000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Broombridge_railway_station#Luas",
+    "name": "Broombridge",
+    "reference": "Droichead Broome"
+  },
+  "cabra": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.36433265, -6.28195785",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Cabra_Luas_stop",
+    "name": "Cabra",
+    "reference": "Cabrach"
+  },
+  "carrickmines": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.25401000, -6.16997000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Carrickmines_Luas_stop",
+    "name": "Carrickmines",
+    "reference": "Carraig Mhaighin"
   },
   "causeway-bay": {
     "been": false,
@@ -83,6 +209,34 @@
     "link": "https://en.wikipedia.org/wiki/Central_station_(MTR)",
     "name": "Central"
   },
+  "central-park": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.27015545, -6.20377557",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Central_Park_Luas_stop",
+    "name": "Central Park",
+    "reference": "An Pháirc Láir"
+  },
+  "cheeverstown": {
+    "been": false,
+    "coords": "53.29099161, -6.40685648",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Cheeverstown_Luas_stop",
+    "name": "Cheeverstown",
+    "reference": "Baile an tSíbhrigh"
+  },
+  "cherrywood": {
+    "been": false,
+    "coords": "53.24535460, -6.14583692",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Cherrywood_Luas_stop",
+    "name": "Cherrywood",
+    "reference": "Coill na Sílíní"
+  },
   "city-one": {
     "been": false,
     "city": "Hong Kong",
@@ -92,6 +246,15 @@
     "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/第一城站\">第一城</a>",
     "link": "https://en.wikipedia.org/wiki/City_One_station",
     "name": "City One"
+  },
+  "citywest-campus": {
+    "been": false,
+    "coords": "53.28781677, -6.41895241",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Citywest_Campus_Luas_stop",
+    "name": "Citywest Campus",
+    "reference": "Campas Gnó Iarthar na Cathrach"
   },
   "comte-de-flandre": {
     "been": true,
@@ -103,6 +266,47 @@
     "link": "https://fr.wikipedia.org/wiki/Comte_de_Flandre_(métro_de_Bruxelles)",
     "name": "Comte de Flandre"
   },
+  "connolly": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.351388888889, -6.2497222222222",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Connolly_station#Connolly_Luas_stop",
+    "name": "Connolly",
+    "reference": "Conghaile",
+    "wikidata": "Q2543742"
+  },
+  "cookstown": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.29350789, -6.38439404",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Cookstown_Luas_stop",
+    "name": "Cookstown",
+    "reference": "Baile an Chócaigh"
+  },
+  "cotai-leste": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.14823100, 113.56913600",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Cotai_East_station",
+    "name": "Cotai Leste",
+    "reference": "路氹東"
+  },
+  "cotai-oeste": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.14503900, 113.55785000",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Cotai_West_station",
+    "name": "Cotai Oeste",
+    "reference": "路氹西"
+  },
   "crainhem": {
     "been": true,
     "city": "Brussels",
@@ -112,6 +316,16 @@
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Kraainem_(metrostation)\">Kraainem</a>",
     "link": "https://fr.wikipedia.org/wiki/Crainhem_(métro_de_Bruxelles)",
     "name": "Crainhem"
+  },
+  "dawson": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34216354, -6.25795582",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dawson_Luas_stop",
+    "name": "Dawson",
+    "reference": "Dásain"
   },
   "diamond-hill": {
     "been": false,
@@ -123,6 +337,36 @@
     "link": "https://en.wikipedia.org/wiki/Diamond_Hill_station",
     "name": "Diamond Hill"
   },
+  "dominick": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.35135055, -6.26553282",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dominick_Luas_stop",
+    "name": "Dominick",
+    "reference": "Doiminic"
+  },
+  "drimnagh": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33536862, -6.31818262",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Drimnagh_Luas_stop",
+    "name": "Drimnagh",
+    "reference": "Droimeanach"
+  },
+  "dundrum": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.29234000, -6.24506000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dundrum_Luas_stop",
+    "name": "Dundrum",
+    "reference": "Dún Droma"
+  },
   "espoonlahti": {
     "been": false,
     "coords": "60.14902500, 24.65425000",
@@ -131,6 +375,16 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Esbovikens_metrostation\">Esboviken</a>",
     "link": "https://fi.wikipedia.org/wiki/Espoonlahden_metroasema",
     "name": "Espoonlahti"
+  },
+  "estadio": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.15431900, 113.55189400",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Stadium_station_(Macau_Light_Rapid_Transit)",
+    "name": "Estádio",
+    "reference": "運動場"
   },
   "etangs-noirs": {
     "been": true,
@@ -142,6 +396,15 @@
     "link": "https://fr.wikipedia.org/wiki/Étangs_Noirs_(métro_de_Bruxelles)",
     "name": "Étangs Noirs"
   },
+  "europaparlement": {
+    "been": true,
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Parlement_europ%C3%A9en\">Parlement européen</a>",
+    "link": "https://lb.wikipedia.org/wiki/Europ%C3%A4escht_Parlament",
+    "name": "Europaparlement",
+    "wikidata": "Q8889"
+  },
   "exhibition-centre": {
     "been": false,
     "city": "Hong Kong",
@@ -151,6 +414,16 @@
     "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/會展站\">會展</a>",
     "link": "https://en.wikipedia.org/wiki/Exhibition_Centre_station_(MTR)",
     "name": "Exhibition Centre"
+  },
+  "fettercairn": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.29352257, -6.39554311",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Fettercairn_Luas_stop",
+    "name": "Fettercairn",
+    "reference": "Fothair Chardain"
   },
   "finnoo": {
     "been": false,
@@ -171,6 +444,35 @@
     "link": "https://en.wikipedia.org/wiki/Fortress_Hill_station",
     "name": "Fortress Hill"
   },
+  "fortunestown": {
+    "been": false,
+    "coords": "53.28424933, -6.42462110",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Fortunestown_Luas_stop",
+    "name": "Fortunestown",
+    "reference": "Baile Uí Fhoirtcheirn"
+  },
+  "four-courts": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34685900, -6.27344400",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Four_Courts_Luas_stop",
+    "name": "The Four Courts",
+    "reference": "Na Ceithre Cúirteanna"
+  },
+  "gallops": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.26113639, -6.20594548",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/The_Gallops_Luas_stop",
+    "name": "The Gallops",
+    "reference": "An Eachrais"
+  },
   "gare-centrale": {
     "been": true,
     "city": "Brussels",
@@ -189,6 +491,14 @@
     "link": "https://fr.wikipedia.org/wiki/Gare_de_l%27Ouest_(métro_de_Bruxelles)",
     "name": "Gare de l'Ouest"
   },
+  "gare-de-louest": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Weststation_(metrostation)\">Weststation</a>",
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_l%27Ouest_(métro_de_Bruxelles)",
+    "name": "Gare de l’Ouest"
+  },
   "gare-du-midi": {
     "been": true,
     "city": "Brussels",
@@ -199,6 +509,56 @@
     "link": "https://fr.wikipedia.org/wiki/Gare_du_Midi_(métro_de_Bruxelles)",
     "name": "Gare du Midi"
   },
+  "georges-dock": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34952450, -6.24754900",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/George%27s_Dock_Luas_stop",
+    "name": "George’s Dock",
+    "reference": "Duga Sheoirse"
+  },
+  "glencairn": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.26634067, -6.20996724",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Glencairn_Luas_stop",
+    "name": "Glencairn",
+    "reference": "Gleann an Chairn"
+  },
+  "goldenbridge": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33588452, -6.31368660",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Goldenbridge_Luas_stop",
+    "name": "Goldenbridge",
+    "reference": "An Droichead Órga"
+  },
+  "grangegorman": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.35721279, -6.27732237",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Grangegorman_Luas_stop",
+    "name": "Grangegorman",
+    "reference": "Gráinseach Ghormáin"
+  },
+  "gurutzeta": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.28236100, -2.98281900",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "<a class=\"dark\" href=\"https://es.wikipedia.org/wiki/Estación_de_Gurutzeta/Cruces\">Cruces</a>",
+    "link": "https://eu.wikipedia.org/wiki/Gurutzeta/Cruces-ko_geltokia",
+    "name": "Gurutzeta"
+  },
   "hakaniemi": {
     "been": false,
     "city": "Helsinki",
@@ -208,6 +568,16 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Hagnäs_metrostation\">Hagnäs</a>",
     "link": "https://fi.wikipedia.org/wiki/Hakaniemen_metroasema",
     "name": "Hakaniemi"
+  },
+  "harcourt": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33345000, -6.26247000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Harcourt_Street_station#Harcourt_Luas_stop",
+    "name": "Harcourt",
+    "reference": "Sráid Fhearchair"
   },
   "helsingin-yliopisto": {
     "been": false,
@@ -231,6 +601,25 @@
     "name": "Herttoniemi",
     "wikidata": "Q578210"
   },
+  "hospital": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.28940014, -6.37887363",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Hospital_Luas_stop",
+    "name": "Hospital",
+    "reference": "Ospidéal Tamhlachta"
+  },
+  "hospital-union": {
+    "been": false,
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Union_Hospital_station",
+    "name": "Hospital Union",
+    "reference": "協和醫院",
+    "wikidata": "Q17500826"
+  },
   "itakeskus": {
     "been": false,
     "city": "Helsinki",
@@ -241,6 +630,36 @@
     "link": "https://fi.wikipedia.org/wiki/Itäkeskuksen_metroasema",
     "name": "Itäkeskus",
     "wikidata": "Q1801025"
+  },
+  "jamess": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34194000, -6.29336000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/James%27s_Luas_stop",
+    "name": "James’s",
+    "reference": "Ospidéal San Séamas"
+  },
+  "jockey-clube": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.15708100, 113.54724200",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Jockey_Club_station",
+    "name": "Jockey Clube",
+    "reference": "馬會"
+  },
+  "jogos-da-asia-oriental": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.14229700, 113.56865600",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/East_Asian_Games_station",
+    "name": "Jogos da Ásia Oriental",
+    "reference": "東亞運"
   },
   "jordan": {
     "been": false,
@@ -302,6 +721,26 @@
     "link": "https://en.wikipedia.org/wiki/Kennedy_Town_station",
     "name": "Kennedy Town"
   },
+  "kilmacud": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.28299461, -6.22386911",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Kilmacud_Luas_stop",
+    "name": "Kilmacud",
+    "reference": "Cill Mochuda"
+  },
+  "kingswood": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.30367744, -6.36528394",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Kingswood_Luas_stop",
+    "name": "Kingswood",
+    "reference": "Coill an Rí"
+  },
   "kivenlahti": {
     "been": false,
     "coords": "60.15541900, 24.63599700",
@@ -342,6 +781,16 @@
     "name": "Kulosaari",
     "wikidata": "Q1800990"
   },
+  "kylemore": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.32670000, -6.34340000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Kylemore_Luas_stop",
+    "name": "Kylemore",
+    "reference": "An Chill Mhór"
+  },
   "la-roue": {
     "been": true,
     "city": "Brussels",
@@ -352,6 +801,15 @@
     "link": "https://fr.wikipedia.org/wiki/La_Roue_(métro_de_Bruxelles)",
     "name": "La Roue"
   },
+  "laughanstown": {
+    "been": false,
+    "coords": "53.25061238, -6.15501545",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Laughanstown_Luas_stop",
+    "name": "Laughanstown",
+    "reference": "Baile an Lachnáin"
+  },
   "lauttasaari": {
     "been": false,
     "city": "Helsinki",
@@ -361,6 +819,35 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Drumsös_metrostation\">Drumsö</a>",
     "link": "https://fi.wikipedia.org/wiki/Lauttasaaren_metroasema",
     "name": "Lauttasaari"
+  },
+  "leopardstown-valley": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.25828996, -6.19844763",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Leopardstown_Valley_Luas_stop",
+    "name": "Leopardstown Valley",
+    "reference": "Gleann Baile na Lobhair"
+  },
+  "leschte-steiwer": {
+    "been": true,
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg\">Dernier Sol</a>",
+    "link": "https://lb.wikipedia.org/wiki/Leschte_Steiwer",
+    "name": "Leschte Steiwer",
+    "wikidata": "Q13103763"
+  },
+  "lotus": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.13947500, 113.55983100",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Lotus_station",
+    "name": "Lótus",
+    "reference": "蓮花"
   },
   "louise": {
     "been": true,
@@ -383,6 +870,16 @@
     "name": "Maelbeek",
     "wikidata": "Q506931"
   },
+  "marlborough": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34923500, -6.25775622",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Marlborough_Luas_stop",
+    "name": "Marlborough",
+    "reference": "Maoilbhríde"
+  },
   "matinkyla": {
     "been": false,
     "coords": "60.15950000, 24.73866667",
@@ -392,6 +889,16 @@
     "link": "https://fi.wikipedia.org/wiki/Matinkylän_metroasema",
     "name": "Matinkylä"
   },
+  "mayor-square": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34924600, -6.24337600",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Mayor_Square_-_NCI_Luas_stop",
+    "name": "Mayor Square",
+    "reference": "Cearnóg an Mhéara"
+  },
   "mellunmaki": {
     "been": false,
     "coords": "60.23916667, 25.11083333",
@@ -400,6 +907,26 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Mellungsbackas_metrostation\">Mellungsbacka</a>",
     "link": "https://fi.wikipedia.org/wiki/Mellunmäen_metroasema",
     "name": "Mellunmäki"
+  },
+  "milltown": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.30968000, -6.25174000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Milltown_Luas_stop",
+    "name": "Milltown",
+    "reference": "Baile an Mhuilinn"
+  },
+  "museum": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34787000, -6.28672000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Museum_Luas_stop",
+    "name": "Museum",
+    "reference": "Músaem"
   },
   "myllypuro": {
     "been": false,
@@ -411,6 +938,17 @@
     "link": "https://fi.wikipedia.org/wiki/Myllypuron_metroasema",
     "name": "Myllypuro",
     "wikidata": "Q2324228"
+  },
+  "nationalbibliotheik": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.6292538, 6.1655923",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_nationale_du_Luxembourg\">Bibliothèque nationale</a>",
+    "link": "https://lb.wikipedia.org/wiki/L%C3%ABtzebuerger_Nationalbiblioth%C3%A9ik",
+    "name": "Nationalbibliothéik",
+    "wikidata": "Q856651"
   },
   "niittykumpu": {
     "been": false,
@@ -443,6 +981,36 @@
     "link": "https://en.wikipedia.org/wiki/Ocean_Park_station",
     "name": "Ocean Park"
   },
+  "oceano": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.15782500, 113.54130000",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Ocean_station_(Macau_Light_Rapid_Transit)",
+    "name": "Oceano",
+    "reference": "海洋"
+  },
+  "oconnell": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34884462, -6.25992700",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/O%27Connell_-_GPO_Luas_stop",
+    "name": "O’Connell",
+    "reference": "Ó Conaill"
+  },
+  "oconnell-upper": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.35159306, -6.26105625",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/O%27Connell_Upper_Luas_stop",
+    "name": "O’Connell Upper",
+    "reference": "Ó Conaill Uachtarach"
+  },
   "olympic": {
     "been": false,
     "city": "Hong Kong",
@@ -453,6 +1021,14 @@
     "link": "https://en.wikipedia.org/wiki/Olympic_station",
     "name": "Olympic"
   },
+  "paraisser-plaz": {
+    "been": true,
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_Paris_(Luxembourg)\">Place de Paris</a>",
+    "link": "https://lb.wikipedia.org/wiki/Place_de_Paris_(Stad_Lëtzebuerg)",
+    "name": "Paräisser Plaz"
+  },
   "parc": {
     "been": true,
     "city": "Brussels",
@@ -462,6 +1038,26 @@
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Park_(metrostation)\">Park</a>",
     "link": "https://fr.wikipedia.org/wiki/Parc_(métro_de_Bruxelles)",
     "name": "Parc"
+  },
+  "phibsborough": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.36037763, -6.27887825",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Phibsborough_Luas_stop",
+    "name": "Phibsborough",
+    "reference": "Baile Phib"
+  },
+  "point": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34833130, -6.22927880",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/The_Point_Luas_stop",
+    "name": "The Point",
+    "reference": "Iosta na Rinne"
   },
   "porte-de-hal": {
     "been": true,
@@ -524,6 +1120,16 @@
     "name": "Racecourse",
     "wikidata": "Q841864"
   },
+  "ranelagh": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.32614974, -6.25611743",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Ranelagh_Luas_stop",
+    "name": "Ranelagh",
+    "reference": "Raghnallach"
+  },
   "rastila": {
     "been": false,
     "coords": "60.20527778, 25.12138889",
@@ -542,6 +1148,16 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Järnvägstorgets_metrostation\">Järnvägstorget</a>",
     "link": "https://fi.wikipedia.org/wiki/Rautatientorin_metroasema",
     "name": "Rautatientori"
+  },
+  "red-cow": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.31836111, -6.36822222",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Red_Cow_interchange#Luas_stop_and_depot",
+    "name": "Red Cow",
+    "reference": "An Bhó Dhearg"
   },
   "roi-baudouin": {
     "been": true,
@@ -563,6 +1179,15 @@
     "link": "https://fi.wikipedia.org/wiki/Ruoholahden_metroasema",
     "name": "Ruoholahti"
   },
+  "saggart": {
+    "been": false,
+    "coords": "53.28468432, -6.43774389",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Saggart_Luas_stop",
+    "name": "Saggart",
+    "reference": "Teach Sagard"
+  },
   "saint-guidon": {
     "been": true,
     "city": "Brussels",
@@ -583,6 +1208,26 @@
     "link": "https://fr.wikipedia.org/wiki/Sainte-Catherine_(métro_de_Bruxelles)",
     "name": "Sainte-Catherine"
   },
+  "sandyford": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.27763000, -6.20468000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Sandyford_Luas_stop",
+    "name": "Sandyford",
+    "reference": "Áth an Ghainimh"
+  },
+  "santimami": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.261778, -2.949083",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "<a class=\"dark\" href=\"https://es.wikipedia.org/wiki/Intercambiador_de_San_Mamés\">San Mamés</a>",
+    "link": "https://eu.wikipedia.org/wiki/Santimamiko_geltokia",
+    "name": "Santimami"
+  },
   "siilitie": {
     "been": false,
     "city": "Helsinki",
@@ -592,6 +1237,16 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Igelkottsvägens_metrostation\">Igelkottsvägen</a>",
     "link": "https://fi.wikipedia.org/wiki/Siilitien_metroasema",
     "name": "Siilitie"
+  },
+  "smithfield": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34714080, -6.27775400",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Smithfield_Luas_stop",
+    "name": "Smithfield",
+    "reference": "Margadh na Feirme"
   },
   "sornainen": {
     "been": false,
@@ -622,6 +1277,44 @@
     "link": "https://en.wikipedia.org/wiki/South_Horizons_station",
     "name": "South Horizons"
   },
+  "spencer-dock": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34881220, -6.23705641",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Spencer_Dock_Luas_stop",
+    "name": "Spencer Dock",
+    "reference": "Duga Spencer"
+  },
+  "st-stephens-green": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33926000, -6.26118000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/St_Stephen%27s_Green_station",
+    "name": "St. Stephen’s Green",
+    "reference": "Faiche Stiabhna"
+  },
+  "stareplaz": {
+    "been": true,
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_l%27Étoile_(Luxembourg)\">Étoile</a>",
+    "link": "https://lb.wikipedia.org/wiki/Place_de_l%27Étoile_(Stad_Lëtzebuerg)",
+    "name": "Stäreplaz"
+  },
+  "stillorgan": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.27935606, -6.21004627",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Stillorgan_Luas_stop",
+    "name": "Stillorgan",
+    "reference": "Stigh Lorgan"
+  },
   "stockel": {
     "been": true,
     "city": "Brussels",
@@ -632,6 +1325,16 @@
     "link": "https://fr.wikipedia.org/wiki/Stockel_(métro_de_Bruxelles)",
     "name": "Stockel"
   },
+  "suir-road": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.33662373, -6.30725959",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Suir_Road_Luas_stop",
+    "name": "Suir Road",
+    "reference": "Bóthar na Siúire"
+  },
   "sunny-bay": {
     "been": false,
     "coords": "22.33180000, 114.02880000",
@@ -640,6 +1343,16 @@
     "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/欣澳站\">欣澳</a>",
     "link": "https://en.wikipedia.org/wiki/Sunny_Bay_station",
     "name": "Sunny Bay"
+  },
+  "tallaght": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.28860000, -6.35720000",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/w/index.php?title=Tallaght_P%26R_Luas_stop&amp;action=edit&amp;redlink=1",
+    "name": "Tallaght",
+    "reference": "Tamhlacht"
   },
   "tapiola": {
     "been": false,
@@ -650,6 +1363,26 @@
     "info": "<a class=\"dark\" href=\"https://sv.wikipedia.org/wiki/Hagalunds_metrostation\">Hagalund</a>",
     "link": "https://fi.wikipedia.org/wiki/Tapiolan_metroasema",
     "name": "Tapiola"
+  },
+  "terminal-maritimo-da-taipa": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.16300300, 113.57386900",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Taipa_Ferry_Terminal_station",
+    "name": "Terminal Marítimo da Taipa",
+    "reference": "氹仔碼頭"
+  },
+  "trinity": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.34527726, -6.25828741",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Trinity_Luas_stop",
+    "name": "Trinity",
+    "reference": "An Trionóid"
   },
   "trone": {
     "been": true,
@@ -711,6 +1444,27 @@
     "link": "https://fi.wikipedia.org/wiki/Vuosaaren_metroasema",
     "name": "Vuosaari"
   },
+  "waterloo": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.31290000, 114.17070000",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/油麻地站\">油麻地</a>",
+    "link": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_station",
+    "name": "Waterloo",
+    "strike": true
+  },
+  "windy-arbour": {
+    "been": false,
+    "city": "Dublin",
+    "coords": "53.30158879, -6.25070923",
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Windy_Arbour_Luas_stop",
+    "name": "Windy Arbour",
+    "reference": "Na Glasáin"
+  },
   "yser": {
     "been": true,
     "city": "Brussels",
@@ -720,5 +1474,16 @@
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/IJzer_(metrostation)\">IJzer</a>",
     "link": "https://fr.wikipedia.org/wiki/Yser_(métro_de_Bruxelles)",
     "name": "Yser"
+  },
+  "zazpikaleak": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25722222, -2.92388889",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "<a class=\"dark\" href=\"https://en.wikipedia.org/wiki/Zazpikaleak/Casco_Viejo_(Bilbao_metro)\">Casco Viejo</a>",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Zazpikaleak/Casco_Viejo",
+    "name": "Zazpikaleak",
+    "wikidata": "Q3121275"
   }
 }

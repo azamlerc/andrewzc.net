@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basque Country</title>
+  <meta charset="UTF-8">
+	<meta name="andrewzc" content="exclude" />
+  <meta name="viewport" content="width=800">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    td { white-space: nowrap; }
+    th { text-align: center; }
+    table { border-spacing: 0px; }
+    .countries tr td:not(:first-child) { width: 97px; opacity: 0.8; }
+    .states tr td:not(:first-child) { width: 72px; opacity: 0.8; }
+    .ratio { text-align: center; color: #444; }
+  </style>
+</head>
+<body>
+<div class="headline">
+  <img class="state-large" src="images/flags/basque.png"> Basque Country
+</div>
+<div class="caption">
+  <table id="table" class="countries"></table>
+  <div id="map" lat="43" lon="-3" zoom="6" cluster="false" style="height: 600px;"></div>
+  <script src="map.js"></script>
+  <div id="lists"></div>
+</div>
+<script src="bingo.js"></script>
+<script>
+
+const places = [
+  { key: "spain", name: "Albania", icon: "🇪🇸"},
+  { key: "france", name: "Bosnia", icon: "🇫🇷"},
+];
+  
+const pages = [
+  { key: "cities", name: "Cities", icon: "🏙️", hide: true },
+  { key: "confluence", name: "Confluence", icon: "🚸", hide: true,
+    exclude: ["Saint-Laurent-de-la-Prée", "Saint-Seurin-sur-l’Isle"],
+    include: ["La Chapelle-Vicomtesse"] },
+  { key: "unesco", name: "Heritage", icon: "🇺🇳", hide: true, exclude: ["San Lorenzo de El Escorial"] },
+  { key: "enclaves", name: "Enclaves", icon: "🍩", hide: true, exclude: ["Séron", "Gardères", "Valle de Villaverde"] },
+  { key: "trams", name: "Trams", icon: "🚋", hide: true, exclude: [] },
+
+  { key: "airports", name: "Airports", icon: "🛫", hide: true },
+  { key: "beaches", name: "Beaches", icon: "🏖️", hide: true },
+  { key: "bilingual", name: "Bilingual", icon: "✌️", hide: true },
+  { key: "cathedrals", name: "Cathedrals", icon: "⛪️", hide: true, exclude: ["Almudena"] },
+  { key: "spain", name: "Comunidades autónomas de España", icon: "🇪🇸", hide: true, include: ["Castilla y León"], exclude: ["Cantabria"] },
+  { key: "closed-trams", name: "Closed Trams", icon: "🐰", hide: true, exclude: ["Pau", "Lourdes", "Arcachon", "Donostia"] },
+  { key: "factories", name: "Factories", icon: "🏭", hide: true },
+  { key: "fare-cards", name: "Fare Cards", icon: "🎟️", hide: true },
+  { key: "funiculars", name: "Funiculars", icon: "🚠", hide: true },
+  { key: "lighthouses", name: "Lighthouses", icon: "🕯️", hide: true },
+  { key: "calatrava", name: "Santiago Calatrava", icon: "🦔", hide: true },
+  { key: "stations", name: "Stations", icon: "🚉", hide: true, exclude: ["Madrid Atocha", "Madrid Nuevos Ministerios"] },
+  { key: "suburban", name: "Suburban Trains", icon: "🚈", hide: true },
+  { key: "transporter", name: "Transporter Bridges", icon: "🚟", hide: true, exclude: ["Rochefort-Martrou"] },
+  
+];
+
+function inRect(place, minLat, maxLat, minLon, maxLon) {
+  if (!place.coords) return false;
+  let coords = place.coords.split(",").map(c => Number(c.trim()));
+  if (coords.length != 2) return false;
+  let lat = coords[0];
+  let lon = coords[1];
+  return lat >= minLat && lat <= maxLat && lon >= minLon && lon <= maxLon;
+}
+
+function bingoFilter(place) {
+  if (["Madrid", "Bilbao", "Bordeaux"].includes(place.city)) return true;
+  if (place.name == "Vitoria") {
+    console.log(place.name, place.coords, "inRect", inRect(place, 42, 46, -4, 0));
+  }
+  if (inRect(place, 42, 46, -4, 0)) return true;
+  return false;
+}
+
+(async function init() {
+  await bingoMain("countries", bingoFilter);
+  showPlaces(mapPlaces);
+})();
+
+</script>
+</body>
+</html>

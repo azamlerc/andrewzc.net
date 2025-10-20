@@ -1,4 +1,15 @@
 {
+  "abandoned-dingle": {
+    "been": false,
+    "city": "Liverpool",
+    "coords": "53.38140000, -2.95840000",
+    "country": "GB",
+    "icons": ["🏚"],
+    "link": "https://en.wikipedia.org/wiki/Dingle_railway_station",
+    "name": "Dingle",
+    "reference": "Liverpool",
+    "type": "abandoned"
+  },
   "apple-liverpool": {
     "been": false,
     "city": "Liverpool",
@@ -18,6 +29,18 @@
     "link": "https://en.wikipedia.org/wiki/Liverpool_Cathedral",
     "name": "Liverpool",
     "type": "cathedrals"
+  },
+  "closed-lines-overhead-railway": {
+    "been": true,
+    "city": "Liverpool",
+    "coords": "53.40000000, -2.98333333",
+    "country": "GB",
+    "icons": ["☠️"],
+    "link": "https://en.wikipedia.org/wiki/Liverpool_Overhead_Railway",
+    "name": "Overhead Railway",
+    "reference": "Liverpool",
+    "type": "closed-lines",
+    "wikidata": "Q386424"
   },
   "closed-trams-birkenhead": {
     "been": false,

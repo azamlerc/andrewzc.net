@@ -449,6 +449,18 @@
     "name": "Tasqueña",
     "type": "intermodal"
   },
+  "least-used-tlaltenco": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://es.wikipedia.org/wiki/Tlaltenco_(estación)",
+    "name": "Tlaltenco",
+    "prefix": "1.27M",
+    "reference": "Mexico City",
+    "type": "least-used"
+  },
   "legislatures-palacio-legislativo-de-san-lazaro": {
     "been": true,
     "city": "Mexico City",
@@ -2180,7 +2192,31 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Chabacano_(estaci%C3%B3n)",
     "name": "Chabacano",
+    "reference": "Mexico City",
     "type": "spanish"
+  },
+  "spanish-ciudad-azteca": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.60972222, -99.06000000",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Ciudad_Azteca_(estaci%C3%B3n)",
+    "name": "Ciudad Azteca",
+    "reference": "Mexico City",
+    "type": "spanish"
+  },
+  "spanish-constitucion-de-1917": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.34593, -99.063892",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_1917_(estaci%C3%B3n)",
+    "name": "Constitución de 1917",
+    "reference": "Mexico City",
+    "type": "spanish",
+    "wikidata": "Q6824546"
   },
   "spanish-el-rosario": {
     "been": true,
@@ -2190,6 +2226,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/El_Rosario_(estaci%C3%B3n)",
     "name": "El Rosario",
+    "reference": "Mexico City",
     "type": "spanish"
   },
   "spanish-indios-verdes": {
@@ -2200,6 +2237,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Indios_Verdes_(estaci%C3%B3n)",
     "name": "Indios Verdes",
+    "reference": "Mexico City",
     "type": "spanish"
   },
   "spanish-pantitlan": {
@@ -2210,7 +2248,31 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Pantitlán_(estación)",
     "name": "Pantitlán",
+    "reference": "Mexico City",
     "type": "spanish"
+  },
+  "spanish-tlahuac": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.30416667, -99.05416667",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Tl%C3%A1huac_(estaci%C3%B3n)",
+    "name": "Tláhuac",
+    "reference": "Mexico City",
+    "type": "spanish"
+  },
+  "spanish-universidad": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "40.20740000, -8.42650000",
+    "country": "MX",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Universidad_(estación_del_Metro_de_la_Ciudad_de_México)",
+    "name": "Universidad",
+    "reference": "Mexico City",
+    "type": "spanish",
+    "wikidata": "Q10387767"
   },
   "spanish-xochimilco": {
     "been": true,
@@ -2220,6 +2282,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
     "name": "Xochimilco",
+    "reference": "Mexico City",
     "type": "spanish"
   },
   "squares-plaza-de-la-constitucion": {

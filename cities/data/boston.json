@@ -81,6 +81,18 @@
     "name": "Revere Beach",
     "type": "beaches"
   },
+  "branches-red-line": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.31861111, -70.99111111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(MBTA)",
+    "name": "Red Line",
+    "reference": "Boston",
+    "type": "branches",
+    "wikidata": "Q729631"
+  },
   "brt-boston": {
     "been": true,
     "city": "Boston",
@@ -183,6 +195,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
     "name": "Haymarket",
+    "reference": "Boston",
     "type": "cross-platform"
   },
   "cross-platform-kenmore": {
@@ -193,6 +206,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Kenmore_station",
     "name": "Kenmore",
+    "reference": "Boston",
     "type": "cross-platform"
   },
   "cross-platform-north-station": {
@@ -203,6 +217,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/North_Station_(subway)",
     "name": "North Station",
+    "reference": "Boston",
     "type": "cross-platform"
   },
   "depots-boston-college": {
@@ -367,6 +382,27 @@
     "name": "North Station",
     "type": "intermodal"
   },
+  "least-used-boston-a-href=https://enwikipediaorg/wiki/suffolk_downs_stationsuffolk-downs": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.39040000, -70.99700000",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Suffolk_Downs_station",
+    "name": "Boston\"> <a href=\"https://en.wikipedia.org/wiki/Suffolk_Downs_station\">Suffolk Downs",
+    "type": "least-used"
+  },
+  "least-used-suffolk-downs": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.39040000, -70.99700000",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Suffolk_Downs_station",
+    "name": "Suffolk Downs",
+    "prefix": "190K",
+    "reference": "Boston",
+    "type": "least-used"
+  },
   "loops-ashmont": {
     "been": true,
     "city": "Boston",
@@ -386,6 +422,17 @@
     "icons": ["🎈"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.34070_N_71.16740_W",
     "name": "Boston College",
+    "reference": "Boston",
+    "type": "loops"
+  },
+  "loops-bowdoin": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36140000, -71.06220000",
+    "country": "US",
+    "icons": ["🎈"],
+    "link": "https://en.wikipedia.org/wiki/Bowdoin_station",
+    "name": "Bowdoin",
     "reference": "Boston",
     "type": "loops"
   },
@@ -521,6 +568,17 @@
     "type": "overhead",
     "wikidata": "Q6427301"
   },
+  "part-time-bowdoin": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36140000, -71.06220000",
+    "country": "US",
+    "icons": ["⏰"],
+    "link": "https://en.wikipedia.org/wiki/Bowdoin_station",
+    "name": "Bowdoin",
+    "strike": true,
+    "type": "part-time"
+  },
   "ports-boston": {
     "been": true,
     "city": "Boston",
@@ -655,6 +713,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Park_Street_station_(MBTA)",
     "name": "Park Street",
+    "reference": "Boston",
     "type": "spanish"
   },
   "split-platform-harvard": {

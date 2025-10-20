@@ -195,6 +195,18 @@
     "reference": "Philadelphia",
     "type": "closest"
   },
+  "cross-platform-city-hall": {
+    "been": false,
+    "city": "Philadelphia",
+    "coords": "37.56472222, 126.97694444",
+    "country": "SG",
+    "icons": ["🔀"],
+    "link": "https://en.wikipedia.org/wiki/City_Hall_MRT_station",
+    "name": "City Hall",
+    "reference": "Singapore",
+    "type": "cross-platform",
+    "wikidata": "Q246660"
+  },
   "cross-platform-erie": {
     "been": true,
     "city": "Philadelphia",
@@ -203,6 +215,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Erie_(SEPTA_station)",
     "name": "Erie",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "cross-platform-girard": {
@@ -213,6 +226,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Girard_(SEPTA_Broad_Street_Line_station)",
     "name": "Girard",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "cross-platform-olney-transportation-center": {
@@ -223,6 +237,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Olney_Transportation_Center",
     "name": "Olney Transportation Center",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "cross-platform-race-vine": {
@@ -233,6 +248,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Race-Vine_(SEPTA_station)",
     "name": "Race-Vine",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "cross-platform-spring-garden": {
@@ -243,6 +259,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Spring_Garden_(SEPTA_Broad_Street_Line_station)",
     "name": "Spring Garden",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "cross-platform-walnut-locust": {
@@ -253,6 +270,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Walnut-Locust_(SEPTA_station)",
     "name": "Walnut-Locust",
+    "reference": "Philadelphia",
     "type": "cross-platform"
   },
   "depots-69th-street-tc": {
@@ -528,6 +546,27 @@
     "name": "PATCO",
     "reference": "Philadelphia",
     "type": "late-night"
+  },
+  "least-used-chinatown": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
+    "name": "Chinatown",
+    "prefix": "90K",
+    "reference": "Philadelphia",
+    "type": "least-used"
+  },
+  "least-used-philadelphia-a-href=https://enwikipediaorg/wiki/chinatown_station_(septa)chinatown": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.95500000, -75.15270000",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)",
+    "name": "Philadelphia\"> <a href=\"https://en.wikipedia.org/wiki/Chinatown_station_(SEPTA)\">Chinatown",
+    "type": "least-used"
   },
   "loops-40th-&-filbert": {
     "been": true,

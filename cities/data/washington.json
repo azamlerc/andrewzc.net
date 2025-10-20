@@ -607,6 +607,18 @@
     "name": "West",
     "type": "boundary-stones"
   },
+  "branches-silver-line": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silver_Line_(Washington_Metro)",
+    "name": "Silver Line",
+    "reference": "Washington",
+    "strike": true,
+    "type": "branches",
+    "wikidata": "Q1346603"
+  },
   "bridges-william-howard-taft-bridge": {
     "been": true,
     "city": "Washington",
@@ -908,6 +920,7 @@
     "link": "https://en.wikipedia.org/wiki/Silver_Line_(Washington_Metro)",
     "name": "Silver Line",
     "reference": "Washington",
+    "strike": true,
     "type": "forks"
   },
   "forts-fort-bunker-hill": {
@@ -1192,6 +1205,27 @@
     "link": "https://en.wikipedia.org/wiki/Theodore_Roosevelt_Island",
     "name": "Theodore Roosevelt",
     "type": "islands"
+  },
+  "least-used-arlington-cemetery": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.88458333, -77.06308333",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Arlington_Cemetery_station",
+    "name": "Arlington Cemetery",
+    "prefix": "360K",
+    "reference": "Washington",
+    "type": "least-used"
+  },
+  "least-used-washington-a-href=https://enwikipediaorg/wiki/arlington_cemetery_stationarlington-cemetery": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.88458333, -77.06308333",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Arlington_Cemetery_station",
+    "name": "Washington\"> <a href=\"https://en.wikipedia.org/wiki/Arlington_Cemetery_station\">Arlington Cemetery",
+    "type": "least-used"
   },
   "legislatures-united-states-capitol": {
     "been": true,

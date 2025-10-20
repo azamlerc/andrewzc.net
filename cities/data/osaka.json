@@ -78,6 +78,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Amagasaki_Station_(Hanshin)",
     "name": "Amagasaki",
+    "reference": "Osaka",
     "type": "cross-platform"
   },
   "cross-platform-daikokucho": {
@@ -88,6 +89,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Daikokuch%C5%8D_Station",
     "name": "Daikokuchō",
+    "reference": "Osaka",
     "type": "cross-platform"
   },
   "cross-platform-tsuruhashi": {
@@ -98,6 +100,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Tsuruhashi_Station",
     "name": "Tsuruhashi",
+    "reference": "Osaka",
     "type": "cross-platform"
   },
   "ferries-osaka": {
@@ -292,6 +295,17 @@
     "link": "https://en.wikipedia.org/wiki/Shin-Osaka_Station",
     "name": "Shin-Osaka",
     "type": "reverse"
+  },
+  "split-platform-morinomiya": {
+    "been": false,
+    "city": "Ōsaka",
+    "coords": "34.68110278, 135.53384444",
+    "country": "JP",
+    "icons": ["↕️"],
+    "link": "https://en.wikipedia.org/wiki/Morinomiya_Station",
+    "name": "Morinomiya",
+    "reference": "Osaka",
+    "type": "split-platform"
   },
   "split-platform-sekime-seiiku": {
     "been": false,

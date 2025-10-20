@@ -6,7 +6,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/145th_Street_station_(IND_lines)",
-    "name": "145th Street"
+    "name": "145th Street",
+    "reference": "New York"
   },
   "149th-street–grand-concourse": {
     "been": true,
@@ -15,7 +16,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/149th_Street–Grand_Concourse_station",
-    "name": "149th Street–Grand Concourse"
+    "name": "149th Street–Grand Concourse",
+    "reference": "New York"
   },
   "59th-street–columbus-circle": {
     "been": true,
@@ -25,15 +27,28 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/59th_Street–Columbus_Circle_station",
     "name": "59th Street–Columbus Circle",
+    "reference": "New York",
     "strike": true
   },
   "acevedo": {
     "been": true,
+    "city": "Medellín",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_Acevedo_(SITVA)",
     "name": "Acevedo",
+    "reference": "Medellín",
     "wikidata": "Q5656556"
+  },
+  "airport": {
+    "been": false,
+    "city": "Athens",
+    "coords": "37.93689000, 23.94470000",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Athens_Airport_Station",
+    "name": "Airport",
+    "reference": "Athens"
   },
   "anneessens": {
     "been": true,
@@ -42,7 +57,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Anneessens-Fontainas_(prémétro_de_Bruxelles)",
-    "name": "Anneessens"
+    "name": "Anneessens",
+    "reference": "Brussels"
   },
   "athens-airport": {
     "been": false,
@@ -59,38 +75,47 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Avenida_de_América_(Madrid)",
-    "name": "Avenida de América"
+    "name": "Avenida de América",
+    "reference": "Madrid"
   },
   "avinguda-tibidabo": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Avenida_Tibidabo",
-    "name": "Avinguda Tibidabo"
+    "name": "Avinguda Tibidabo",
+    "reference": "Barcelona"
   },
   "barking": {
     "been": true,
+    "city": "London",
     "coords": "51.53930000, 0.08170000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Barking_station",
-    "name": "Barking"
+    "name": "Barking",
+    "reference": "London"
   },
   "bourse": {
     "been": true,
+    "city": "Brussels",
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Bourse_-_Grand-Place_(prémétro_de_Bruxelles)",
     "name": "Bourse",
+    "reference": "Brussels",
     "wikidata": "Q104592573"
   },
   "campamento": {
     "been": false,
+    "city": "Madrid",
     "coords": "6.9791666666667, -75.295833333333",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Campamento",
-    "name": "Campamento"
+    "name": "Campamento",
+    "reference": "Madrid"
   },
   "carabanchel": {
     "been": false,
@@ -99,7 +124,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Carabanchel",
-    "name": "Carabanchel"
+    "name": "Carabanchel",
+    "reference": "Madrid"
   },
   "chabacano": {
     "been": true,
@@ -108,7 +134,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Chabacano_(estaci%C3%B3n)",
-    "name": "Chabacano"
+    "name": "Chabacano",
+    "reference": "Mexico City"
   },
   "chambers-street": {
     "been": true,
@@ -118,6 +145,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge–City_Hall/Chambers_Street_station",
     "name": "Chambers Street",
+    "reference": "New York",
     "strike": true
   },
   "charles-de-gaulle–etoile": {
@@ -127,30 +155,37 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Charles_de_Gaulle_-_Étoile_(Paris_Métro_and_RER)",
-    "name": "Charles de Gaulle–Étoile"
+    "name": "Charles de Gaulle–Étoile",
+    "reference": "Paris"
   },
   "ciudad-azteca": {
     "been": true,
+    "city": "Mexico City",
     "coords": "19.60972222, -99.06000000",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Ciudad_Azteca_(estaci%C3%B3n)",
-    "name": "Ciudad Azteca"
+    "name": "Ciudad Azteca",
+    "reference": "Mexico City"
   },
   "clot": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_El_Clot_(Barcelona)",
     "name": "Clot",
+    "reference": "Barcelona",
     "wikidata": "Q261327"
   },
   "constitucion-de-1917": {
     "been": true,
+    "city": "Mexico City",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_1917_(estaci%C3%B3n)",
     "name": "Constitución de 1917",
+    "reference": "Mexico City",
     "wikidata": "Q771159"
   },
   "cuatro-caminos": {
@@ -161,6 +196,7 @@
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Cuatro_Caminos_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Cuatro Caminos",
+    "reference": "Mexico City",
     "wikidata": "Q2420839"
   },
   "de-brouckere": {
@@ -170,15 +206,18 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/De_Brouckère_(métro_de_Bruxelles)",
-    "name": "De Brouckère"
+    "name": "De Brouckère",
+    "reference": "Brussels"
   },
   "east-180th-street": {
     "been": true,
+    "city": "New York",
     "coords": "40.84100000, -73.87400000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_180th_Street_station",
-    "name": "East 180th Street"
+    "name": "East 180th Street",
+    "reference": "New York"
   },
   "el-rosario": {
     "been": true,
@@ -188,6 +227,7 @@
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/El_Rosario_(estaci%C3%B3n)",
     "name": "El Rosario",
+    "reference": "Mexico City",
     "wikidata": "Q3429496"
   },
   "elgoibar": {
@@ -197,22 +237,27 @@
     "icons": ["🇪🇸"],
     "link": "https://eu.wikipedia.org/wiki/Elgoibarko_geltokia",
     "name": "Elgoibar",
+    "reference": "Elgoibar",
     "wikidata": "Q12256712"
   },
   "fabra-i-puig": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Fabra_i_Puig/San_Andrés_Arenal",
-    "name": "Fabra i Puig"
+    "name": "Fabra i Puig",
+    "reference": "Barcelona"
   },
   "flushing–main-street": {
     "been": true,
+    "city": "New York",
     "coords": "40.75944444, -73.83027778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Flushing–Main_Street_station_(IRT_Flushing_Line)",
-    "name": "Flushing–Main Street"
+    "name": "Flushing–Main Street",
+    "reference": "New York"
   },
   "gare-du-midi": {
     "been": true,
@@ -221,7 +266,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Gare_du_Midi_(métro_de_Bruxelles)",
-    "name": "Gare du Midi"
+    "name": "Gare du Midi",
+    "reference": "Brussels"
   },
   "general-osorio": {
     "been": false,
@@ -230,15 +276,18 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/General_Osório_Station",
-    "name": "General Osório"
+    "name": "General Osório",
+    "reference": "Rio de Janeiro"
   },
   "hicksville": {
     "been": true,
+    "city": "New York",
     "coords": "40.76710100, -73.52868600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hicksville_station",
-    "name": "Hicksville"
+    "name": "Hicksville",
+    "reference": "New York"
   },
   "hoboken": {
     "been": true,
@@ -247,7 +296,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoboken_Terminal",
-    "name": "Hoboken"
+    "name": "Hoboken",
+    "reference": "Hoboken"
   },
   "hoyt–schermerhorn": {
     "been": true,
@@ -257,6 +307,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoyt–Schermerhorn_Streets_station",
     "name": "Hoyt–Schermerhorn",
+    "reference": "New York",
     "strike": true
   },
   "ibarbengoa": {
@@ -267,6 +318,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
     "name": "Ibarbengoa",
+    "reference": "Bilbao",
     "wikidata": "Q45838338"
   },
   "indios-verdes": {
@@ -276,15 +328,18 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Indios_Verdes_(estaci%C3%B3n)",
-    "name": "Indios Verdes"
+    "name": "Indios Verdes",
+    "reference": "Mexico City"
   },
   "jamaica": {
     "been": true,
+    "city": "New York",
     "coords": "40.69972222, -73.80777778",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jamaica_station",
-    "name": "Jamaica"
+    "name": "Jamaica",
+    "reference": "New York"
   },
   "karlsplatz": {
     "been": false,
@@ -293,7 +348,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://www.wikiwand.com/en/Munich_Karlsplatz_station",
-    "name": "Karlsplatz"
+    "name": "Karlsplatz",
+    "reference": "Munich"
   },
   "kennedy": {
     "been": false,
@@ -303,6 +359,7 @@
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Kennedy_station",
     "name": "Kennedy",
+    "reference": "Toronto",
     "strike": true
   },
   "king-william-street": {
@@ -313,14 +370,17 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/King_William_Street_tube_station",
     "name": "King William Street",
+    "reference": "London",
     "strike": true
   },
   "la-estrella": {
     "been": true,
+    "city": "Medellín",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_La_Estrella_(Metro_de_Medellín)",
     "name": "La Estrella",
+    "reference": "Medellín",
     "wikidata": "Q21401483"
   },
   "liljeholmen": {
@@ -330,7 +390,8 @@
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Liljeholmen_metro_station",
-    "name": "Liljeholmen"
+    "name": "Liljeholmen",
+    "reference": "Stockholm"
   },
   "marienplatz": {
     "been": false,
@@ -338,7 +399,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Munich_Marienplatz_station",
-    "name": "Marienplatz"
+    "name": "Marienplatz",
+    "reference": "Munich"
   },
   "olympic-park": {
     "been": false,
@@ -347,7 +409,8 @@
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Olympic_Park_railway_station,_Sydney",
-    "name": "Olympic Park"
+    "name": "Olympic Park",
+    "reference": "Sydney"
   },
   "palmeiras-barrafunda": {
     "been": false,
@@ -356,7 +419,8 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Palmeiras-Barra_Funda_Intermodal_Terminal",
-    "name": "Palmeiras Barrafunda"
+    "name": "Palmeiras Barrafunda",
+    "reference": "São Paulo"
   },
   "pantitlan": {
     "been": true,
@@ -365,7 +429,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Pantitlán_(estación)",
-    "name": "Pantitlán"
+    "name": "Pantitlán",
+    "reference": "Mexico City"
   },
   "park-street": {
     "been": true,
@@ -374,7 +439,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Park_Street_station_(MBTA)",
-    "name": "Park Street"
+    "name": "Park Street",
+    "reference": "Boston"
   },
   "partizanskaya": {
     "been": true,
@@ -383,15 +449,18 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Partizanskaya_(Moscow_Metro)",
-    "name": "Partizanskaya"
+    "name": "Partizanskaya",
+    "reference": "Moscow"
   },
   "pelham-bay-park": {
     "been": true,
+    "city": "New York",
     "coords": "40.85287100, -73.82713800",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pelham_Bay_Park_station",
     "name": "Pelham Bay Park",
+    "reference": "New York",
     "strike": true
   },
   "placa-de-catalunya": {
@@ -401,7 +470,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Plaza_de_Cataluña",
-    "name": "Plaça de Catalunya"
+    "name": "Plaça de Catalunya",
+    "reference": "Barcelona"
   },
   "retiro": {
     "been": false,
@@ -410,7 +480,8 @@
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Retiro_railway_station",
-    "name": "Retiro"
+    "name": "Retiro",
+    "reference": "Buenos Aires"
   },
   "rogier": {
     "been": true,
@@ -419,7 +490,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Rogier_metro_station",
-    "name": "Rogier"
+    "name": "Rogier",
+    "reference": "Brussels"
   },
   "ropsten": {
     "been": true,
@@ -428,15 +500,18 @@
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Ropsten_metro_station",
-    "name": "Ropsten"
+    "name": "Ropsten",
+    "reference": "Stockholm"
   },
   "san-antonio": {
     "been": true,
+    "city": "Medellín",
     "coords": "29.425, -98.49388888888889",
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
     "name": "San Antonio",
+    "reference": "Medellín",
     "wikidata": "Q975"
   },
   "sant-andreu": {
@@ -446,7 +521,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Sant_Andreu",
-    "name": "Sant Andreu"
+    "name": "Sant Andreu",
+    "reference": "Barcelona"
   },
   "satra": {
     "been": true,
@@ -455,7 +531,8 @@
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Sätra_metro_station",
-    "name": "Satra"
+    "name": "Satra",
+    "reference": "Stockholm"
   },
   "stadion": {
     "been": true,
@@ -464,7 +541,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Stadion_station",
-    "name": "Stadion"
+    "name": "Stadion",
+    "reference": "Vienna"
   },
   "stratford": {
     "been": true,
@@ -473,40 +551,49 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Stratford_station",
-    "name": "Stratford"
+    "name": "Stratford",
+    "reference": "London"
   },
   "tlahuac": {
     "been": true,
+    "city": "Mexico City",
     "coords": "19.30416667, -99.05416667",
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Tl%C3%A1huac_(estaci%C3%B3n)",
-    "name": "Tláhuac"
+    "name": "Tláhuac",
+    "reference": "Mexico City"
   },
   "universidad": {
     "been": true,
+    "city": "Mexico City",
     "coords": "40.2074, -8.4265",
     "country": "MX",
     "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Universidad_(estaci%C3%B3n_del_Metro_de_la_Ciudad_de_M%C3%A9xico)",
+    "link": "https://es.wikipedia.org/wiki/Universidad_(estación_del_Metro_de_la_Ciudad_de_México)",
     "name": "Universidad",
+    "reference": "Mexico City",
     "wikidata": "Q368643"
   },
   "vallingby": {
     "been": true,
+    "city": "Stockholm",
     "coords": "59.36388889, 17.87055556",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Vällingby_metro_station",
-    "name": "Vällingby"
+    "name": "Vällingby",
+    "reference": "Stockholm"
   },
   "van-cortlandt-park–242nd-street": {
     "been": true,
+    "city": "New York",
     "coords": "40.88922200, -73.89858300",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Van_Cortlandt_Park–242nd_Street_station",
     "name": "Van Cortlandt Park–242nd Street",
+    "reference": "New York",
     "strike": true
   },
   "wakefield–241st-street": {
@@ -518,13 +605,26 @@
     "name": "Wakefield–241st Street",
     "strike": true
   },
+  "wakefield–241st_street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.90300000, -73.85000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wakefield–241st_Street_station",
+    "name": "Wakefield–241st_Street",
+    "reference": "New York",
+    "strike": true
+  },
   "woodlawn": {
     "been": true,
+    "city": "New York",
     "coords": "40.88600500, -73.87880800",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Woodlawn_station_(IRT_Jerome_Avenue_Line)",
     "name": "Woodlawn",
+    "reference": "New York",
     "strike": true
   },
   "world-trade-center": {
@@ -534,7 +634,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/World_Trade_Center_station_(PATH)",
-    "name": "World Trade Center"
+    "name": "World Trade Center",
+    "reference": "New York"
   },
   "xochimilco": {
     "been": true,
@@ -543,6 +644,7 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
-    "name": "Xochimilco"
+    "name": "Xochimilco",
+    "reference": "Mexico City"
   }
 }

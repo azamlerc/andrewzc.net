@@ -225,23 +225,25 @@
     "type": "congestion"
   },
   "cross-platform-alvik": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.33333333, 17.98250000",
     "country": "SE",
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Alvik_metro_station",
     "name": "Alvik",
+    "reference": "Stockholm",
     "type": "cross-platform"
   },
   "cross-platform-gamla-stan": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.32277778, 18.06750000",
     "country": "SE",
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Gamla_stan_metro_station",
     "name": "Gamla stan",
+    "reference": "Stockholm",
     "type": "cross-platform"
   },
   "cross-platform-gullmarsplan": {
@@ -252,26 +254,29 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Gullmarsplan_metro_station",
     "name": "Gullmarsplan",
+    "reference": "Stockholm",
     "type": "cross-platform"
   },
   "cross-platform-slussen": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.31916667, 18.07194444",
     "country": "SE",
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Slussen_metro_station",
     "name": "Slussen",
+    "reference": "Stockholm",
     "type": "cross-platform"
   },
   "cross-platform-t-centralen": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.33166667, 18.06083333",
     "country": "SE",
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/T-Centralen_metro_station",
     "name": "T-Centralen",
+    "reference": "Stockholm",
     "type": "cross-platform"
   },
   "culture-stockholm": {
@@ -975,6 +980,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Liljeholmen_metro_station",
     "name": "Liljeholmen",
+    "reference": "Stockholm",
     "type": "spanish"
   },
   "spanish-ropsten": {
@@ -985,6 +991,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Ropsten_metro_station",
     "name": "Ropsten",
+    "reference": "Stockholm",
     "type": "spanish"
   },
   "spanish-satra": {
@@ -995,6 +1002,18 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Sätra_metro_station",
     "name": "Satra",
+    "reference": "Stockholm",
+    "type": "spanish"
+  },
+  "spanish-vallingby": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.36388889, 17.87055556",
+    "country": "SE",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vällingby_metro_station",
+    "name": "Vällingby",
+    "reference": "Stockholm",
     "type": "spanish"
   },
   "spas-centralbadet": {

@@ -62,6 +62,18 @@
     "name": "Triumphal Arch of Moscow",
     "type": "arches"
   },
+  "branches-filyovskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "coords": "55.60000000, 37.60000000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Filyovskaya_Line",
+    "name": "Filyovskaya Line",
+    "reference": "Moscow",
+    "type": "branches",
+    "wikidata": "Q834540"
+  },
   "capitals-moscow": {
     "been": true,
     "city": "Moscow",
@@ -313,6 +325,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Kashirskaya",
     "name": "Kashirskaya",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-kitay-gorod": {
@@ -323,6 +336,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Kitay-gorod_(Moscow_Metro)",
     "name": "Kitay-Gorod",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-kuntsevskaya": {
@@ -333,6 +347,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Kuntsevskaya_(Arbatsko%E2%80%93Pokrovskaya_and_Filyovskaya_lines)",
     "name": "Kuntsevskaya",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-nizhegorodskaya": {
@@ -343,6 +358,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Nizhegorodskaya_(Moscow_Metro)",
     "name": "Nizhegorodskaya",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-park-pobedy": {
@@ -353,6 +369,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Park_Pobedy_(Moscow_Metro)",
     "name": "Park Pobedy",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-petrovsko-razumovskaya": {
@@ -363,6 +380,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Petrovsko-Razumovskaya",
     "name": "Petrovsko-Razumovskaya",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "cross-platform-tretyakovskaya": {
@@ -373,6 +391,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Tretyakovskaya_(Moscow_Metro)",
     "name": "Tretyakovskaya",
+    "reference": "Moscow",
     "type": "cross-platform"
   },
   "deep-level-park-pobedy": {
@@ -1232,6 +1251,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Partizanskaya_(Moscow_Metro)",
     "name": "Partizanskaya",
+    "reference": "Moscow",
     "type": "spanish"
   },
   "spas-sandunovskie-baths": {
@@ -1622,6 +1642,17 @@
     "reference": "Moscow",
     "type": "twin-stations"
   },
+  "twin-stations-ploshchad-gagarina": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.70710000, 37.58580000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Gagarina",
+    "name": "Ploshchad Gagarina",
+    "reference": "Moscow",
+    "type": "twin-stations"
+  },
   "twin-stations-ploshchad-revolyutsii": {
     "been": true,
     "city": "Moscow",
@@ -1696,6 +1727,17 @@
     "icons": ["👯"],
     "link": "https://en.wikipedia.org/wiki/Teatralnaya_(Moscow_Metro)",
     "name": "Teatralnaya",
+    "reference": "Moscow",
+    "type": "twin-stations"
+  },
+  "twin-stations-varshavskaya": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.65330000, 37.61940000",
+    "country": "RU",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Varshavskaya_(Moscow_Metro)",
+    "name": "Varshavskaya",
     "reference": "Moscow",
     "type": "twin-stations"
   },

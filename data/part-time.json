@@ -1,4 +1,14 @@
 {
+  "aldwych": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51215000, -0.11595000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Aldwych_tube_station",
+    "name": "Aldwych",
+    "strike": true
+  },
   "aqueduct-racetrack": {
     "been": true,
     "coords": "40.67208600, -73.83591400",
@@ -6,6 +16,16 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Aqueduct_Racetrack_station",
     "name": "Aqueduct Racetrack",
+    "strike": true
+  },
+  "bowdoin": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36140000, -71.06220000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bowdoin_station",
+    "name": "Bowdoin",
     "strike": true
   },
   "kensington-(olympia)": {
@@ -16,5 +36,25 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
     "name": "Kensington (Olympia)"
+  },
+  "mornington-crescent": {
+    "been": true,
+    "city": "London",
+    "coords": "51.53440000, -0.13860000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Mornington_Crescent_tube_station",
+    "name": "Mornington Crescent",
+    "strike": true
+  },
+  "rennes": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.848193140038724, 2.3277631402015686",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Rennes_(métro_de_Paris)",
+    "name": "Rennes",
+    "strike": true
   }
 }

@@ -43,8 +43,42 @@
     "name": "Bilbao",
     "type": "bilingual"
   },
+  "bilingual-stations-gurutzeta": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.28236100, -2.98281900",
+    "country": "ES",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://es.wikipedia.org/wiki/Estación_de_Gurutzeta/Cruces\">Cruces</a>",
+    "link": "https://eu.wikipedia.org/wiki/Gurutzeta/Cruces-ko_geltokia",
+    "name": "Gurutzeta",
+    "type": "bilingual-stations"
+  },
+  "bilingual-stations-santimami": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.26177800, -2.94908300",
+    "country": "ES",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://es.wikipedia.org/wiki/Intercambiador_de_San_Mamés\">San Mamés</a>",
+    "link": "https://eu.wikipedia.org/wiki/Santimamiko_geltokia",
+    "name": "Santimami",
+    "type": "bilingual-stations"
+  },
+  "bilingual-stations-zazpikaleak": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.25722222, -2.92388889",
+    "country": "ES",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://en.wikipedia.org/wiki/Zazpikaleak/Casco_Viejo_(Bilbao_metro)\">Casco Viejo</a>",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Zazpikaleak/Casco_Viejo",
+    "name": "Zazpikaleak",
+    "type": "bilingual-stations",
+    "wikidata": "Q3121275"
+  },
   "bridges-puente-de-vizcaya": {
-    "been": false,
+    "been": true,
     "city": "Bilbao",
     "coords": "43.32310000, -3.01690000",
     "country": "ES",
@@ -781,6 +815,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
     "name": "Ibarbengoa",
+    "reference": "Bilbao",
     "type": "spanish",
     "wikidata": "Q45838338"
   },

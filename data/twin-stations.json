@@ -1968,6 +1968,16 @@
     "name": "Ploshcha Lyenina",
     "reference": "Minsk"
   },
+  "ploshchad-gagarina-moscow": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.70710000, 37.58580000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Ploshchad_Gagarina",
+    "name": "Ploshchad Gagarina",
+    "reference": "Moscow"
+  },
   "ploshchad-lenina-minsk": {
     "been": false,
     "city": "Minsk",
@@ -2117,6 +2127,17 @@
     "name": "Proletarskaya",
     "reference": "Saint Petersburg"
   },
+  "prospekt-haharina-kharkiv": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "49.98083333, 36.24333333",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Levada_(Kharkiv_Metro)",
+    "name": "Prospekt Haharina",
+    "reference": "Kharkiv",
+    "strike": true
+  },
   "prospekt-mira-krasnoyarsk": {
     "been": false,
     "city": "Moscow",
@@ -2146,7 +2167,8 @@
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Pushkinska_(Kharkiv_Metro)",
     "name": "Pushkinska",
-    "reference": "Kharkiv"
+    "reference": "Kharkiv",
+    "strike": true
   },
   "pushkinskaya-minsk": {
     "been": false,
@@ -2832,6 +2854,26 @@
     "link": "https://en.wikipedia.org/wiki/Van_Ness–UDC_station",
     "name": "Van Ness",
     "reference": "Washington"
+  },
+  "varshavska-kyiv": {
+    "been": false,
+    "city": "Kyiv",
+    "coords": "50.50402778, 30.42916667",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Varshavska_(Kyiv_Metro)",
+    "name": "Varshavska",
+    "reference": "Kyiv"
+  },
+  "varshavskaya-moscow": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.65330000, 37.61940000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Varshavskaya_(Moscow_Metro)",
+    "name": "Varshavskaya",
+    "reference": "Moscow"
   },
   "victoria-alexandria": {
     "been": false,

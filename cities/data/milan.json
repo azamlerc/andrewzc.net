@@ -50,6 +50,30 @@
     "name": "Porta Garibaldi (Milan)",
     "type": "arches"
   },
+  "branches-line-m1": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_1",
+    "name": "Line M1",
+    "reference": "Milan",
+    "type": "branches",
+    "wikidata": "Q2400801"
+  },
+  "branches-line-m2": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_2",
+    "name": "Line M2",
+    "reference": "Milan",
+    "type": "branches",
+    "wikidata": "Q2519385"
+  },
   "car-places-brera": {
     "been": false,
     "city": "Milan",
@@ -111,6 +135,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Cadorna_(Milan_Metro)",
     "name": "Cadorna FN",
+    "reference": "Milan",
     "type": "cross-platform"
   },
   "depots-deposito-desio": {

@@ -143,6 +143,18 @@
     "name": "Admiralty",
     "type": "bilingual-stations"
   },
+  "bilingual-stations-argyle": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.31910000, 114.16940000",
+    "country": "HK",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/旺角站\">旺角</a>",
+    "link": "https://en.wikipedia.org/wiki/Mong_Kok_station",
+    "name": "Argyle",
+    "strike": true,
+    "type": "bilingual-stations"
+  },
   "bilingual-stations-causeway-bay": {
     "been": false,
     "city": "Hong Kong",
@@ -319,6 +331,18 @@
     "name": "University",
     "type": "bilingual-stations"
   },
+  "bilingual-stations-waterloo": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.31290000, 114.17070000",
+    "country": "HK",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/油麻地站\">油麻地</a>",
+    "link": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_station",
+    "name": "Waterloo",
+    "strike": true,
+    "type": "bilingual-stations"
+  },
   "cable-landings-hong-kong": {
     "been": true,
     "city": "Hong Kong",
@@ -366,6 +390,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
     "name": "Admiralty station",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "cross-platform-lai-king": {
@@ -376,6 +401,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Lai_King_station",
     "name": "Lai King",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "cross-platform-mong-kok": {
@@ -386,6 +412,18 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Mong_Kok_station",
     "name": "Mong Kok",
+    "reference": "Hong Kong",
+    "type": "cross-platform"
+  },
+  "cross-platform-new-territories": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.41000000, 114.12500000",
+    "country": "HK",
+    "icons": ["🔀"],
+    "link": "https://en.wikipedia.org/wiki/New_Territories",
+    "name": "New Territories",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "cross-platform-prince-edward": {
@@ -396,6 +434,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Prince_Edward_station",
     "name": "Prince Edward",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "cross-platform-tai-wai": {
@@ -406,6 +445,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Tai_Wai_station",
     "name": "Tai Wai",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "cross-platform-tiu-keng-leng": {
@@ -416,6 +456,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Tiu_Keng_Leng_station",
     "name": "Tiu Keng Leng",
+    "reference": "Hong Kong",
     "type": "cross-platform"
   },
   "curved-university": {

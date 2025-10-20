@@ -192,6 +192,30 @@
     "reference": "Chicago",
     "type": "awa"
   },
+  "branches-blue-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.91000000, -87.76000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(CTA)",
+    "name": "Blue Line",
+    "reference": "Chicago",
+    "strike": true,
+    "type": "branches"
+  },
+  "branches-green-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Green_Line_(CTA)",
+    "name": "Green Line",
+    "reference": "Chicago",
+    "type": "branches",
+    "wikidata": "Q6427302"
+  },
   "bumper-midway": {
     "been": true,
     "city": "Chicago",
@@ -384,6 +408,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Belmont_(CTA_North_Side_Main_Line_station)",
     "name": "Belmont",
+    "reference": "Chicago",
     "type": "cross-platform"
   },
   "cross-platform-fullerton": {
@@ -394,6 +419,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Fullerton_(CTA_station)",
     "name": "Fullerton",
+    "reference": "Chicago",
     "type": "cross-platform"
   },
   "cross-platform-howard": {
@@ -404,6 +430,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Howard_(CTA_station)",
     "name": "Howard",
+    "reference": "Chicago",
     "type": "cross-platform"
   },
   "cross-platform-wilson": {
@@ -414,6 +441,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Wilson_station_(CTA)",
     "name": "Wilson",
+    "reference": "Chicago",
     "type": "cross-platform"
   },
   "curved-chicago/franklin": {
@@ -749,6 +777,19 @@
     "name": "L",
     "reference": "Chicago",
     "type": "late-night"
+  },
+  "least-used-kostner": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Kostner_station",
+    "name": "Kostner",
+    "prefix": "96K",
+    "reference": "Chicago",
+    "type": "least-used",
+    "wikidata": "Q61415341"
   },
   "level-crossings-francisco": {
     "been": true,

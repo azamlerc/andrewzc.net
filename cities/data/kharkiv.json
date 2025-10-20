@@ -114,6 +114,61 @@
     "name": "Kharkiv",
     "type": "mosques"
   },
+  "renamed-levada": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "49.98083333, 36.24333333",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Levada_(Kharkiv_Metro)",
+    "name": "Levada",
+    "reference": "Kharkiv",
+    "type": "renamed"
+  },
+  "renamed-saltivska": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "50.02465833, 36.33585278",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Saltivska_(Kharkiv_Metro)",
+    "name": "Saltivska",
+    "reference": "Kharkiv",
+    "type": "renamed"
+  },
+  "renamed-vokzalna": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "49.98944444, 36.20500000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Vokzalna_(Kharkiv_Metro)",
+    "name": "Vokzalna",
+    "reference": "Kharkiv",
+    "type": "renamed"
+  },
+  "renamed-yaroslava-mudroho": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "50.00393333, 36.24752222",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Yaroslava_Mudroho_(Kharkiv_Metro)",
+    "name": "Yaroslava Mudroho",
+    "reference": "Kharkiv",
+    "type": "renamed"
+  },
+  "renamed-zavodska": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "49.97572778, 36.28090000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Zavodska_(Kharkiv_Metro)",
+    "name": "Zavodska",
+    "reference": "Kharkiv",
+    "type": "renamed"
+  },
   "second-cities-kharkiv": {
     "been": false,
     "city": "Kharkiv",
@@ -156,6 +211,18 @@
     "reference": "Kharkiv",
     "type": "twin-stations"
   },
+  "twin-stations-prospekt-haharina": {
+    "been": false,
+    "city": "Kharkiv",
+    "coords": "49.98083333, 36.24333333",
+    "country": "UA",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Levada_(Kharkiv_Metro)",
+    "name": "Prospekt Haharina",
+    "reference": "Kharkiv",
+    "strike": true,
+    "type": "twin-stations"
+  },
   "twin-stations-pushkinska": {
     "been": false,
     "city": "Kharkiv",
@@ -165,6 +232,7 @@
     "link": "https://en.wikipedia.org/wiki/Pushkinska_(Kharkiv_Metro)",
     "name": "Pushkinska",
     "reference": "Kharkiv",
+    "strike": true,
     "type": "twin-stations"
   },
   "twin-stations-sportyvna": {

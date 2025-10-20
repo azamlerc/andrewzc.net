@@ -6,7 +6,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/12th_Street_Oakland_City_Center_station",
-    "name": "12th Street Oakland"
+    "name": "12th Street Oakland",
+    "reference": "San Francisco"
   },
   "19th-street-oakland": {
     "been": true,
@@ -15,7 +16,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/19th_Street_Oakland_station",
-    "name": "19th Street Oakland"
+    "name": "19th Street Oakland",
+    "reference": "San Francisco"
   },
   "acton-town": {
     "been": true,
@@ -24,7 +26,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Acton_Town_tube_station",
-    "name": "Acton Town"
+    "name": "Acton Town",
+    "reference": "London"
   },
   "admiralty-station": {
     "been": false,
@@ -33,7 +36,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Admiralty_station_(MTR)",
-    "name": "Admiralty station"
+    "name": "Admiralty station",
+    "reference": "Hong Kong"
   },
   "akasaka-mitsuke": {
     "been": false,
@@ -42,16 +46,18 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Akasaka-mitsuke_Station",
-    "name": "Akasaka-Mitsuke"
+    "name": "Akasaka-Mitsuke",
+    "reference": "Tokyo"
   },
   "alvik": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.33333333, 17.98250000",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Alvik_metro_station",
-    "name": "Alvik"
+    "name": "Alvik",
+    "reference": "Stockholm"
   },
   "alvik-station": {
     "been": false,
@@ -67,7 +73,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Amagasaki_Station_(Hanshin)",
-    "name": "Amagasaki"
+    "name": "Amagasaki",
+    "reference": "Osaka"
   },
   "amstel": {
     "been": true,
@@ -76,16 +83,8 @@
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Amsterdam_Amstel_railway_station",
-    "name": "Amstel"
-  },
-  "amsterdam-zuid": {
-    "been": true,
-    "city": "Amsterdam",
-    "coords": "52.33888889, 4.87305556",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://en.wikipedia.org/wiki/Amsterdam_Zuid_railway_station",
-    "name": "Amsterdam Zuid"
+    "name": "Amstel",
+    "reference": "Amsterdam"
   },
   "anand-vihar": {
     "been": false,
@@ -94,7 +93,8 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Anand_Vihar_metro_station",
-    "name": "Anand Vihar"
+    "name": "Anand Vihar",
+    "reference": "Delhi"
   },
   "baixa-chiado": {
     "been": true,
@@ -103,7 +103,8 @@
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Baixa-Chiado_(Lisbon_Metro)",
-    "name": "Baixa-Chiado"
+    "name": "Baixa-Chiado",
+    "reference": "Lisbon"
   },
   "baker-street": {
     "been": true,
@@ -112,7 +113,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Baker_Street_tube_station",
-    "name": "Baker Street"
+    "name": "Baker Street",
+    "reference": "London"
   },
   "barons-court": {
     "been": true,
@@ -121,7 +123,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Barons_Court_tube_station",
-    "name": "Barons Court"
+    "name": "Barons Court",
+    "reference": "London"
   },
   "basarab-station": {
     "been": false,
@@ -130,7 +133,8 @@
     "country": "RO",
     "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Basarab_metro_station",
-    "name": "Basarab station"
+    "name": "Basarab station",
+    "reference": "Bucharest"
   },
   "bayfront": {
     "been": false,
@@ -139,7 +143,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Bayfront_MRT_station",
-    "name": "Bayfront"
+    "name": "Bayfront",
+    "reference": "Singapore"
   },
   "beaux-arts": {
     "been": true,
@@ -148,7 +153,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Beaux-Arts_(m%C3%A9tro_l%C3%A9ger_de_Charleroi)",
-    "name": "Beaux-Arts"
+    "name": "Beaux-Arts",
+    "reference": "Charleroi"
   },
   "beekkant": {
     "been": true,
@@ -157,7 +163,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Beekkant_metro_station",
-    "name": "Beekkant"
+    "name": "Beekkant",
+    "reference": "Brussels"
   },
   "beijing-west": {
     "been": false,
@@ -166,7 +173,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Beijing_West_railway_station",
-    "name": "Beijing West"
+    "name": "Beijing West",
+    "reference": "Beijing"
   },
   "belmont": {
     "been": true,
@@ -175,7 +183,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Belmont_(CTA_North_Side_Main_Line_station)",
-    "name": "Belmont"
+    "name": "Belmont",
+    "reference": "Chicago"
   },
   "bensheimer-straße": {
     "been": false,
@@ -183,7 +192,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Mannheim/Ludwigshafen",
-    "name": "Bensheimer Straße"
+    "name": "Bensheimer Straße",
+    "reference": "Mannheim"
   },
   "berlin-east": {
     "been": true,
@@ -194,6 +204,16 @@
     "link": "https://en.wikipedia.org/wiki/Berlin_Ostbahnhof",
     "name": "Berlin East"
   },
+  "berlin-ostbahnhof": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.51000000, 13.43472222",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Berlin_Ostbahnhof",
+    "name": "Berlin Ostbahnhof",
+    "reference": "Berlin"
+  },
   "bornholmer-straße": {
     "been": true,
     "city": "Berlin",
@@ -201,14 +221,17 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Bornholmer_Stra%C3%9Fe_railway_station",
-    "name": "Bornholmer Straße"
+    "name": "Bornholmer Straße",
+    "reference": "Berlin"
   },
   "botanical-garden": {
     "been": false,
+    "city": "Delhi",
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Botanical_Garden_metro_station",
     "name": "Botanical Garden",
+    "reference": "Delhi",
     "wikidata": "Q167346"
   },
   "bras": {
@@ -218,7 +241,8 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Br%C3%A1s_(S%C3%A3o_Paulo_Metro)",
-    "name": "Brás"
+    "name": "Brás",
+    "reference": "São Paulo"
   },
   "cadorna-fn": {
     "been": false,
@@ -227,7 +251,8 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Cadorna_(Milan_Metro)",
-    "name": "Cadorna FN"
+    "name": "Cadorna FN",
+    "reference": "Milan"
   },
   "campo-grande": {
     "been": true,
@@ -236,7 +261,8 @@
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Campo_Grande_(Lisbon_Metro)",
-    "name": "Campo Grande"
+    "name": "Campo Grande",
+    "reference": "Lisbon"
   },
   "casa-de-campo": {
     "been": true,
@@ -245,7 +271,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Casa_de_Campo",
-    "name": "Casa de Campo"
+    "name": "Casa de Campo",
+    "reference": "Madrid"
   },
   "central-secretariat": {
     "been": false,
@@ -254,7 +281,8 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Central_Secretariat_metro_station",
-    "name": "Central Secretariat"
+    "name": "Central Secretariat",
+    "reference": "Delhi"
   },
   "chan-sow-lin": {
     "been": false,
@@ -263,7 +291,8 @@
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Chan_Sow_Lin_LRT_station",
-    "name": "Chan Sow Lin"
+    "name": "Chan Sow Lin",
+    "reference": "Kuala Lumpur"
   },
   "chatelet-les-halles": {
     "been": true,
@@ -272,7 +301,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Ch%C3%A2telet_-_Les_Halles_(Paris_RER)",
-    "name": "Châtelet-Les Halles"
+    "name": "Châtelet-Les Halles",
+    "reference": "Paris"
   },
   "chatswood": {
     "been": false,
@@ -281,7 +311,8 @@
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Chatswood_railway_station",
-    "name": "Chatswood"
+    "name": "Chatswood",
+    "reference": "Sydney"
   },
   "chiang-kai-shek-memorial-hall": {
     "been": false,
@@ -290,7 +321,8 @@
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Chiang_Kai-shek_Memorial_Hall_metro_station",
-    "name": "Chiang Kai-shek Memorial Hall"
+    "name": "Chiang Kai-shek Memorial Hall",
+    "reference": "Taipei"
   },
   "city-hall": {
     "been": false,
@@ -299,7 +331,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/City_Hall_MRT_station",
-    "name": "City Hall"
+    "name": "City Hall",
+    "reference": "Singapore"
   },
   "daikokucho": {
     "been": false,
@@ -308,7 +341,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Daikokuch%C5%8D_Station",
-    "name": "Daikokuchō"
+    "name": "Daikokuchō",
+    "reference": "Osaka"
   },
   "dekalb-avenue": {
     "been": true,
@@ -317,7 +351,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/DeKalb_Avenue_(BMT_Fourth_Avenue_Line)",
-    "name": "DeKalb Avenue"
+    "name": "DeKalb Avenue",
+    "reference": "New York"
   },
   "dongmen": {
     "been": false,
@@ -326,7 +361,8 @@
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Dongmen_metro_station",
-    "name": "Dongmen"
+    "name": "Dongmen",
+    "reference": "Taipei"
   },
   "earls-court": {
     "been": true,
@@ -335,7 +371,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Earl%27s_Court_tube_station",
-    "name": "Earl’s Court"
+    "name": "Earl’s Court",
+    "reference": "London"
   },
   "elmers-end": {
     "been": true,
@@ -344,7 +381,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Elmers_End_station",
-    "name": "Elmers End"
+    "name": "Elmers End",
+    "reference": "London"
   },
   "eram-e-sabz": {
     "been": false,
@@ -353,7 +391,8 @@
     "country": "IR",
     "icons": ["🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Eram-e_Sabz_Metro_Station",
-    "name": "Eram-e Sabz"
+    "name": "Eram-e Sabz",
+    "reference": "Tehran"
   },
   "erie": {
     "been": true,
@@ -362,7 +401,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Erie_(SEPTA_station)",
-    "name": "Erie"
+    "name": "Erie",
+    "reference": "Philadelphia"
   },
   "euston": {
     "been": true,
@@ -371,7 +411,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Euston_tube_station",
-    "name": "Euston"
+    "name": "Euston",
+    "reference": "London"
   },
   "finchley-road": {
     "been": true,
@@ -380,7 +421,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Finchley_Road_tube_station",
-    "name": "Finchley Road"
+    "name": "Finchley Road",
+    "reference": "London"
   },
   "finsbury-park": {
     "been": true,
@@ -389,7 +431,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Finsbury_Park_station",
-    "name": "Finsbury Park"
+    "name": "Finsbury Park",
+    "reference": "London"
   },
   "fullerton": {
     "been": true,
@@ -398,16 +441,18 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fullerton_(CTA_station)",
-    "name": "Fullerton"
+    "name": "Fullerton",
+    "reference": "Chicago"
   },
   "gamla-stan": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.32277778, 18.06750000",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Gamla_stan_metro_station",
-    "name": "Gamla Stan"
+    "name": "Gamla Stan",
+    "reference": "Stockholm"
   },
   "gare-de-bruxelles-midi": {
     "been": true,
@@ -416,7 +461,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Midi",
-    "name": "Gare de Bruxelles-Midi"
+    "name": "Gare de Bruxelles-Midi",
+    "reference": "Brussels"
   },
   "gare-de-lyon-perrache": {
     "been": true,
@@ -425,7 +471,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Lyon-Perrache",
-    "name": "Gare de Lyon-Perrache"
+    "name": "Gare de Lyon-Perrache",
+    "reference": "Lyon"
   },
   "gare-du-nord": {
     "been": true,
@@ -434,15 +481,18 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Gare_du_Nord",
-    "name": "Gare du Nord"
+    "name": "Gare du Nord",
+    "reference": "Paris"
   },
   "geumjeong": {
     "been": false,
+    "city": "Busan",
     "coords": "37.37250000, 126.94333333",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Geumjeong_Station",
-    "name": "Geumjeong"
+    "name": "Geumjeong",
+    "reference": "Busan"
   },
   "gimpo-airport": {
     "been": false,
@@ -451,7 +501,8 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Gimpo_Airport_Station",
-    "name": "Gimpo Airport"
+    "name": "Gimpo Airport",
+    "reference": "Seoul"
   },
   "girard": {
     "been": true,
@@ -460,7 +511,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Girard_(SEPTA_Broad_Street_Line_station)",
-    "name": "Girard"
+    "name": "Girard",
+    "reference": "Philadelphia"
   },
   "gullmarsplan": {
     "been": true,
@@ -469,7 +521,8 @@
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Gullmarsplan_metro_station",
-    "name": "Gullmarsplan"
+    "name": "Gullmarsplan",
+    "reference": "Stockholm"
   },
   "guogongzhuang": {
     "been": false,
@@ -478,7 +531,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Guogongzhuang_station",
-    "name": "Guogongzhuang"
+    "name": "Guogongzhuang",
+    "reference": "Beijing"
   },
   "guting": {
     "been": false,
@@ -487,7 +541,8 @@
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Guting_metro_station",
-    "name": "Guting"
+    "name": "Guting",
+    "reference": "Taipei"
   },
   "hammersmith": {
     "been": true,
@@ -496,7 +551,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Hammersmith_tube_station_(Piccadilly_and_District_lines)",
-    "name": "Hammersmith"
+    "name": "Hammersmith",
+    "reference": "London"
   },
   "haymarket": {
     "been": true,
@@ -505,7 +561,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Haymarket_station_(MBTA)",
-    "name": "Haymarket"
+    "name": "Haymarket",
+    "reference": "Boston"
   },
   "highbury-and-islington": {
     "been": true,
@@ -514,7 +571,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Highbury_and_Islington",
-    "name": "Highbury and Islington"
+    "name": "Highbury and Islington",
+    "reference": "London"
   },
   "hongqiao-airport-terminal-2": {
     "been": false,
@@ -523,7 +581,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Hongqiao_Airport_Terminal_2_Station",
-    "name": "Hongqiao Airport Terminal 2"
+    "name": "Hongqiao Airport Terminal 2",
+    "reference": "Shanghai"
   },
   "hongqiao-railway": {
     "been": false,
@@ -532,7 +591,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Hongqiao_Railway_Station_(metro)",
-    "name": "Hongqiao Railway"
+    "name": "Hongqiao Railway",
+    "reference": "Shanghai"
   },
   "howard": {
     "been": true,
@@ -541,7 +601,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Howard_(CTA_station)",
-    "name": "Howard"
+    "name": "Howard",
+    "reference": "Chicago"
   },
   "hoyt–schermerhorn": {
     "been": true,
@@ -550,7 +611,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoyt%E2%80%93Schermerhorn_Streets_(New_York_City_Subway)",
-    "name": "Hoyt–Schermerhorn"
+    "name": "Hoyt–Schermerhorn",
+    "reference": "New York"
   },
   "ipswich": {
     "been": false,
@@ -562,10 +624,12 @@
   },
   "jay-street–metrotech": {
     "been": true,
+    "city": "New York",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jay_Street%E2%80%93MetroTech_(IND_Lines)",
-    "name": "Jay Street–MetroTech"
+    "name": "Jay Street–MetroTech",
+    "reference": "New York"
   },
   "journal-square": {
     "been": true,
@@ -574,7 +638,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Journal_Square_Transportation_Center",
-    "name": "Journal Square"
+    "name": "Journal Square",
+    "reference": "Jersey City"
   },
   "jurong-east": {
     "been": false,
@@ -583,7 +648,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Jurong_East_MRT_station",
-    "name": "Jurong East"
+    "name": "Jurong East",
+    "reference": "Singapore"
   },
   "kashirskaya": {
     "been": false,
@@ -592,7 +658,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kashirskaya",
-    "name": "Kashirskaya"
+    "name": "Kashirskaya",
+    "reference": "Moscow"
   },
   "kenmore": {
     "been": true,
@@ -601,7 +668,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Kenmore_station",
-    "name": "Kenmore"
+    "name": "Kenmore",
+    "reference": "Boston"
   },
   "kitay-gorod": {
     "been": true,
@@ -610,7 +678,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kitay-gorod_(Moscow_Metro)",
-    "name": "Kitay-Gorod"
+    "name": "Kitay-Gorod",
+    "reference": "Moscow"
   },
   "kudanshita": {
     "been": false,
@@ -619,7 +688,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Kudanshita_Station",
-    "name": "Kudanshita"
+    "name": "Kudanshita",
+    "reference": "Tokyo"
   },
   "kuntsevskaya": {
     "been": false,
@@ -628,7 +698,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kuntsevskaya_(Arbatsko%E2%80%93Pokrovskaya_and_Filyovskaya_lines)",
-    "name": "Kuntsevskaya"
+    "name": "Kuntsevskaya",
+    "reference": "Moscow"
   },
   "kwasa-damansara": {
     "been": false,
@@ -637,7 +708,8 @@
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Kwasa_Damansara_MRT_Station",
-    "name": "Kwasa Damansara"
+    "name": "Kwasa Damansara",
+    "reference": "Kuala Lumpur"
   },
   "la-motte-picquet–grenelle": {
     "been": true,
@@ -646,7 +718,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/La_Motte-Picquet_%E2%80%93_Grenelle",
-    "name": "La Motte-Picquet–Grenelle"
+    "name": "La Motte-Picquet–Grenelle",
+    "reference": "Paris"
   },
   "lai-king": {
     "been": false,
@@ -655,7 +728,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Lai_King_station",
-    "name": "Lai King"
+    "name": "Lai King",
+    "reference": "Hong Kong"
   },
   "langenfeldgasse": {
     "been": true,
@@ -664,7 +738,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/L%C3%A4ngenfeldgasse_station",
-    "name": "Längenfeldgasse"
+    "name": "Längenfeldgasse",
+    "reference": "Vienna"
   },
   "lexington-avenue–63rd-street": {
     "been": true,
@@ -673,7 +748,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lexington_Avenue%E2%80%9363rd_Street_(63rd_Street_Lines)",
-    "name": "Lexington Avenue–63rd Street"
+    "name": "Lexington Avenue–63rd Street",
+    "reference": "New York"
   },
   "lionel-groulx": {
     "been": true,
@@ -682,7 +758,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lionel-Groulx_station",
-    "name": "Lionel-Groulx"
+    "name": "Lionel-Groulx",
+    "reference": "Montreal"
   },
   "louis-blanc": {
     "been": true,
@@ -691,7 +768,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Louis_Blanc_(Paris_Metro)",
-    "name": "Louis Blanc"
+    "name": "Louis Blanc",
+    "reference": "Paris"
   },
   "macarthur": {
     "been": true,
@@ -700,7 +778,18 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/MacArthur_station_(BART)",
-    "name": "MacArthur"
+    "name": "MacArthur",
+    "reference": "San Francisco"
+  },
+  "marseille-saint-charles": {
+    "been": false,
+    "city": "Marseille",
+    "coords": "43.303269, 5.380098",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Saint-Charles_(m%C3%A9tro_de_Marseille)",
+    "name": "Marseille Saint-Charles",
+    "reference": "Marseille"
   },
   "mehringdamm": {
     "been": true,
@@ -709,7 +798,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Mehringdamm_(Berlin_U-Bahn)",
-    "name": "Mehringdamm"
+    "name": "Mehringdamm",
+    "reference": "Berlin"
   },
   "mile-end": {
     "been": true,
@@ -718,15 +808,18 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Mile_End_tube_station",
-    "name": "Mile End"
+    "name": "Mile End",
+    "reference": "London"
   },
   "millbrae": {
     "been": true,
+    "city": "San Francisco",
     "coords": "37.60030000, -122.38670000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Millbrae_station",
-    "name": "Millbrae"
+    "name": "Millbrae",
+    "reference": "San Francisco"
   },
   "misasagi": {
     "been": false,
@@ -735,7 +828,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Misasagi_Station",
-    "name": "Misasagi"
+    "name": "Misasagi",
+    "reference": "Kyoto"
   },
   "moncloa": {
     "been": true,
@@ -745,6 +839,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Moncloa",
     "name": "Moncloa",
+    "reference": "Madrid",
     "wikidata": "Q2449141"
   },
   "mong-kok": {
@@ -754,7 +849,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Mong_Kok_station",
-    "name": "Mong Kok"
+    "name": "Mong Kok",
+    "reference": "Hong Kong"
   },
   "moskovskaya": {
     "been": false,
@@ -763,7 +859,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moskovskaya_(Nizhny_Novgorod_Metro)",
-    "name": "Moskovskaya"
+    "name": "Moskovskaya",
+    "reference": "Nizhny Novgorod"
   },
   "myrtle-avenue": {
     "been": true,
@@ -772,7 +869,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Myrtle_Avenue_station_(BMT_Jamaica_Line)",
-    "name": "Myrtle Avenue"
+    "name": "Myrtle Avenue",
+    "reference": "New York"
   },
   "nanluoguxiang": {
     "been": false,
@@ -781,7 +879,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Nanluoguxiang_station",
-    "name": "Nanluoguxiang"
+    "name": "Nanluoguxiang",
+    "reference": "Beijing"
   },
   "national-library": {
     "been": false,
@@ -790,7 +889,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/National_Library_station",
-    "name": "National Library"
+    "name": "National Library",
+    "reference": "Beijing"
   },
   "new-territories": {
     "been": false,
@@ -799,7 +899,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/New_Territories",
-    "name": "New Territories"
+    "name": "New Territories",
+    "reference": "Hong Kong"
   },
   "newmarket-station": {
     "been": false,
@@ -808,7 +909,8 @@
     "country": "NZ",
     "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Newmarket_Railway_Station,_New_Zealand",
-    "name": "Newmarket Station"
+    "name": "Newmarket Station",
+    "reference": "Auckland"
   },
   "nizhegorodskaya": {
     "been": false,
@@ -817,7 +919,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Nizhegorodskaya_(Moscow_Metro)",
-    "name": "Nizhegorodskaya"
+    "name": "Nizhegorodskaya",
+    "reference": "Moscow"
   },
   "nollendorfplatz": {
     "been": true,
@@ -826,7 +929,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/U_Nollendorfplatz",
-    "name": "Nollendorfplatz"
+    "name": "Nollendorfplatz",
+    "reference": "Berlin"
   },
   "north-station": {
     "been": true,
@@ -835,7 +939,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/North_Station_(subway)",
-    "name": "North Station"
+    "name": "North Station",
+    "reference": "Boston"
   },
   "ochanomizu": {
     "been": false,
@@ -844,7 +949,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Ochanomizu_Station",
-    "name": "Ochanomizu"
+    "name": "Ochanomizu",
+    "reference": "Tokyo"
   },
   "olney-transportation-center": {
     "been": true,
@@ -853,7 +959,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Olney_Transportation_Center",
-    "name": "Olney Transportation Center"
+    "name": "Olney Transportation Center",
+    "reference": "Philadelphia"
   },
   "omotesando": {
     "been": true,
@@ -862,7 +969,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Omotesand%C5%8D_Station",
-    "name": "Omotesandō"
+    "name": "Omotesandō",
+    "reference": "Tokyo"
   },
   "oriental-sports-center": {
     "been": false,
@@ -871,7 +979,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Oriental_Sports_Center_Station",
-    "name": "Oriental Sports Center"
+    "name": "Oriental Sports Center",
+    "reference": "Shanghai"
   },
   "osasco": {
     "been": false,
@@ -880,7 +989,8 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Osasco_(CPTM)",
-    "name": "Osasco"
+    "name": "Osasco",
+    "reference": "São Paulo"
   },
   "oxford-circus": {
     "been": true,
@@ -889,7 +999,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Oxford_Circus_tube_station",
-    "name": "Oxford Circus"
+    "name": "Oxford Circus",
+    "reference": "London"
   },
   "paraiso": {
     "been": false,
@@ -898,14 +1009,17 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Para%C3%ADso_(S%C3%A3o_Paulo_Metro)",
-    "name": "Paraíso"
+    "name": "Paraíso",
+    "reference": "São Paulo"
   },
   "paral·lel": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://ca.wikipedia.org/wiki/Estació_de_Paral·lel",
-    "name": "Paral·lel"
+    "name": "Paral·lel",
+    "reference": "Barcelona"
   },
   "park-pobedy": {
     "been": false,
@@ -914,7 +1028,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Park_Pobedy_(Moscow_Metro)",
-    "name": "Park Pobedy"
+    "name": "Park Pobedy",
+    "reference": "Moscow"
   },
   "perrache": {
     "been": true,
@@ -923,7 +1038,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Lyon-Perrache",
-    "name": "Perrache"
+    "name": "Perrache",
+    "reference": "Lyon"
   },
   "petrovsko-razumovskaya": {
     "been": false,
@@ -932,7 +1048,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Petrovsko-Razumovskaya",
-    "name": "Petrovsko-Razumovskaya"
+    "name": "Petrovsko-Razumovskaya",
+    "reference": "Moscow"
   },
   "pinar-de-chamartin": {
     "been": true,
@@ -941,14 +1058,17 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Pinar_de_Chamart%C3%ADn_(Madrid_Metro)",
-    "name": "Pinar de Chamartín"
+    "name": "Pinar de Chamartín",
+    "reference": "Madrid"
   },
   "pittsburg/​bay-point": {
     "been": true,
+    "city": "San Francisco",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pittsburg/Bay_Point_station",
-    "name": "Pittsburg/​Bay Point"
+    "name": "Pittsburg/​Bay Point",
+    "reference": "San Francisco"
   },
   "plarrer": {
     "been": false,
@@ -956,7 +1076,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Plärrer_(Nuremberg_U-Bahn)",
-    "name": "Plärrer"
+    "name": "Plärrer",
+    "reference": "Nuremberg"
   },
   "plaza-miserere": {
     "been": false,
@@ -965,7 +1086,8 @@
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Plaza_Miserere_(Buenos_Aires_Metro)",
-    "name": "Plaza Miserere"
+    "name": "Plaza Miserere",
+    "reference": "Buenos Aires"
   },
   "porte-de-bourgogne": {
     "been": true,
@@ -975,6 +1097,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Porte_de_Bourgogne",
     "name": "Porte de Bourgogne",
+    "reference": "Bordeaux",
     "wikidata": "Q748352"
   },
   "presidente-altino": {
@@ -984,7 +1107,8 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Presidente_Altino_(CPTM)",
-    "name": "Presidente Altino"
+    "name": "Presidente Altino",
+    "reference": "São Paulo"
   },
   "prince-edward": {
     "been": false,
@@ -993,7 +1117,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Prince_Edward_station",
-    "name": "Prince Edward"
+    "name": "Prince Edward",
+    "reference": "Hong Kong"
   },
   "principe-pio": {
     "been": true,
@@ -1002,7 +1127,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Príncipe_Pío",
-    "name": "Príncipe Pío"
+    "name": "Príncipe Pío",
+    "reference": "Madrid"
   },
   "prospect-park": {
     "been": true,
@@ -1011,7 +1137,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Prospect_Park_(BMT_Brighton_Line)",
-    "name": "Prospect Park"
+    "name": "Prospect Park",
+    "reference": "New York"
   },
   "puerta-de-arganda": {
     "been": false,
@@ -1020,15 +1147,18 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Puerta_de_Arganda_(Madrid_Metro)",
-    "name": "Puerta de Arganda"
+    "name": "Puerta de Arganda",
+    "reference": "Madrid"
   },
   "putra-heights": {
     "been": false,
+    "city": "Kuala Lumpur",
     "coords": "2.99605556, 101.57555556",
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Putra_Heights_LRT_station",
-    "name": "Putra Heights"
+    "name": "Putra Heights",
+    "reference": "Kuala Lumpur"
   },
   "queensboro-plaza": {
     "been": true,
@@ -1037,7 +1167,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Queensboro_Plaza_(New_York_City_Subway)",
-    "name": "Queensboro Plaza"
+    "name": "Queensboro Plaza",
+    "reference": "New York"
   },
   "race-vine": {
     "been": true,
@@ -1046,7 +1177,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Race-Vine_(SEPTA_station)",
-    "name": "Race-Vine"
+    "name": "Race-Vine",
+    "reference": "Philadelphia"
   },
   "raffles-place": {
     "been": false,
@@ -1055,7 +1187,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Raffles_Place_MRT_station",
-    "name": "Raffles Place"
+    "name": "Raffles Place",
+    "reference": "Singapore"
   },
   "sadeghieh": {
     "been": false,
@@ -1064,7 +1197,8 @@
     "country": "IR",
     "icons": ["🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Sadeghieh_(Tehran)_Metro_Station",
-    "name": "Sadeghieh"
+    "name": "Sadeghieh",
+    "reference": "Tehran"
   },
   "seventh-avenue": {
     "been": true,
@@ -1073,7 +1207,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Seventh_Avenue_(IND_Queens_Boulevard_Line)",
-    "name": "Seventh Avenue"
+    "name": "Seventh Avenue",
+    "reference": "New York"
   },
   "shinjuku": {
     "been": true,
@@ -1082,7 +1217,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shinjuku_Station",
-    "name": "Shinjuku"
+    "name": "Shinjuku",
+    "reference": "Tokyo"
   },
   "shirokane-takanawa": {
     "been": false,
@@ -1091,7 +1227,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Shirokane-takanawa_Station",
-    "name": "Shirokane-Takanawa"
+    "name": "Shirokane-Takanawa",
+    "reference": "Tokyo"
   },
   "siam": {
     "been": false,
@@ -1100,16 +1237,18 @@
     "country": "TH",
     "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Siam_BTS_station",
-    "name": "Siam"
+    "name": "Siam",
+    "reference": "Bangkok"
   },
   "slussen": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.31916667, 18.07194444",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Slussen_metro_station",
-    "name": "Slussen"
+    "name": "Slussen",
+    "reference": "Stockholm"
   },
   "snowdon": {
     "been": true,
@@ -1118,7 +1257,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Snowdon_station",
-    "name": "Snowdon"
+    "name": "Snowdon",
+    "reference": "Montreal"
   },
   "sportivnaya": {
     "been": false,
@@ -1127,7 +1267,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Saint_Petersburg_Metro)",
-    "name": "Sportivnaya"
+    "name": "Sportivnaya",
+    "reference": "Saint Petersburg"
   },
   "spring-garden": {
     "been": true,
@@ -1136,7 +1277,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Spring_Garden_(SEPTA_Broad_Street_Line_station)",
-    "name": "Spring Garden"
+    "name": "Spring Garden",
+    "reference": "Philadelphia"
   },
   "stockwell": {
     "been": true,
@@ -1145,7 +1287,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Stockwell_tube_station",
-    "name": "Stockwell"
+    "name": "Stockwell",
+    "reference": "London"
   },
   "stratford": {
     "been": true,
@@ -1154,16 +1297,18 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Stratford_station",
-    "name": "Stratford"
+    "name": "Stratford",
+    "reference": "London"
   },
   "t-centralen": {
-    "been": false,
+    "been": true,
     "city": "Stockholm",
     "coords": "59.33166667, 18.06083333",
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/T-Centralen_metro_station",
-    "name": "T-Centralen"
+    "name": "T-Centralen",
+    "reference": "Stockholm"
   },
   "tai-wai": {
     "been": false,
@@ -1172,7 +1317,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tai_Wai_station",
-    "name": "Tai Wai"
+    "name": "Tai Wai",
+    "reference": "Hong Kong"
   },
   "tekhnologichesky-institut": {
     "been": false,
@@ -1181,7 +1327,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Tekhnologichesky_Institut",
-    "name": "Tekhnologichesky Institut"
+    "name": "Tekhnologichesky Institut",
+    "reference": "Saint Petersburg"
   },
   "tiu-keng-leng": {
     "been": false,
@@ -1190,7 +1337,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tiu_Keng_Leng_station",
-    "name": "Tiu Keng Leng"
+    "name": "Tiu Keng Leng",
+    "reference": "Hong Kong"
   },
   "toronto-union-station": {
     "been": true,
@@ -1199,7 +1347,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Union_Station_(Toronto)",
-    "name": "Toronto Union Station"
+    "name": "Toronto Union Station",
+    "reference": "Toronto"
   },
   "treptower-park": {
     "been": true,
@@ -1208,14 +1357,17 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Treptower_Park_railway_station",
-    "name": "Treptower Park"
+    "name": "Treptower Park",
+    "reference": "Berlin"
   },
   "tres-olivos": {
     "been": true,
+    "city": "Madrid",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Tres_Olivos",
-    "name": "Tres Olivos"
+    "name": "Tres Olivos",
+    "reference": "Madrid"
   },
   "tretyakovskaya": {
     "been": false,
@@ -1224,7 +1376,8 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Tretyakovskaya_(Moscow_Metro)",
-    "name": "Tretyakovskaya"
+    "name": "Tretyakovskaya",
+    "reference": "Moscow"
   },
   "tsuruhashi": {
     "been": false,
@@ -1233,7 +1386,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tsuruhashi_Station",
-    "name": "Tsuruhashi"
+    "name": "Tsuruhashi",
+    "reference": "Osaka"
   },
   "tun-razak-exchange": {
     "been": false,
@@ -1242,7 +1396,8 @@
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Tun_Razak_Exchange_MRT_station",
-    "name": "Tun Razak Exchange"
+    "name": "Tun Razak Exchange",
+    "reference": "Kuala Lumpur"
   },
   "turnham-green": {
     "been": true,
@@ -1251,7 +1406,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Turnham_Green_tube_station",
-    "name": "Turnham Green"
+    "name": "Turnham Green",
+    "reference": "London"
   },
   "union": {
     "been": true,
@@ -1260,7 +1416,8 @@
     "country": "AE",
     "icons": ["🇦🇪"],
     "link": "https://en.wikipedia.org/wiki/Union_(Dubai_Metro)",
-    "name": "Union"
+    "name": "Union",
+    "reference": "Dubai"
   },
   "van-der-madeweg": {
     "been": false,
@@ -1269,7 +1426,8 @@
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Van_der_Madeweg_metro_station",
-    "name": "Van der Madeweg"
+    "name": "Van der Madeweg",
+    "reference": "Amsterdam"
   },
   "vicuna-mackenna": {
     "been": false,
@@ -1278,7 +1436,8 @@
     "country": "CL",
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Vicu%C3%B1a_Mackenna_metro_station",
-    "name": "Vicuña Mackenna"
+    "name": "Vicuña Mackenna",
+    "reference": "Santiago"
   },
   "walnut-locust": {
     "been": true,
@@ -1287,7 +1446,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Walnut-Locust_(SEPTA_station)",
-    "name": "Walnut-Locust"
+    "name": "Walnut-Locust",
+    "reference": "Philadelphia"
   },
   "waterloo": {
     "been": true,
@@ -1295,15 +1455,18 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Waterloo_(m%C3%A9tro_l%C3%A9ger_de_Charleroi)",
-    "name": "Waterloo"
+    "name": "Waterloo",
+    "reference": "Charleroi"
   },
   "wembley-park": {
     "been": true,
+    "city": "London",
     "coords": "51.56360000, -0.27940000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Wembley_Park_tube_station",
-    "name": "Wembley Park"
+    "name": "Wembley Park",
+    "reference": "London"
   },
   "wilson": {
     "been": true,
@@ -1312,7 +1475,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wilson_station_(CTA)",
-    "name": "Wilson"
+    "name": "Wilson",
+    "reference": "Chicago"
   },
   "wittenbergplatz": {
     "been": true,
@@ -1321,7 +1485,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Wittenbergplatz_(Berlin_U-Bahn)",
-    "name": "Wittenbergplatz"
+    "name": "Wittenbergplatz",
+    "reference": "Berlin"
   },
   "woodville": {
     "been": false,
@@ -1329,7 +1494,8 @@
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Woodville_railway_station,_Adelaide",
-    "name": "Woodville"
+    "name": "Woodville",
+    "reference": "Adelaide"
   },
   "wuhletal": {
     "been": true,
@@ -1338,7 +1504,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Berlin_Wuhletal_railway_station",
-    "name": "Wuhletal"
+    "name": "Wuhletal",
+    "reference": "Berlin"
   },
   "ximen": {
     "been": false,
@@ -1347,29 +1514,47 @@
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Ximen_metro_station",
-    "name": "Ximen"
+    "name": "Ximen",
+    "reference": "Taipei"
   },
   "yamuna-bank": {
     "been": false,
+    "city": "Delhi",
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Yamuna_Bank_metro_station",
-    "name": "Yamuna Bank"
+    "name": "Yamuna Bank",
+    "reference": "Delhi"
   },
   "yancun-east": {
     "been": false,
+    "city": "Beijing",
     "coords": "39.72902800, 116.10081700",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Yancun_East_station",
-    "name": "Yancun East"
+    "name": "Yancun East",
+    "reference": "Beijing"
   },
   "zhuxinzhuang": {
     "been": false,
+    "city": "Beijing",
     "coords": "40.10429700, 116.31369800",
     "country": "CN",
     "icons": ["🇨🇳"],
+    "info": "<br>						   🇦🇺 <span class=\"dark\">Brisbane</span> <a href=\"https://en.wikipedia.org/wiki/Ipswich_railway_station_Queensland\">Ipswich</a>",
     "link": "https://en.wikipedia.org/wiki/Zhuxinzhuang_station",
-    "name": "Zhuxinzhuang"
+    "name": "Zhuxinzhuang",
+    "reference": "Beijing"
+  },
+  "zuid": {
+    "been": true,
+    "city": "Amsterdam",
+    "coords": "52.33888889, 4.87305556",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam_Zuid_railway_station",
+    "name": "Zuid",
+    "reference": "Amsterdam"
   }
 }

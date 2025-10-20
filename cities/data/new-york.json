@@ -563,6 +563,17 @@
     "name": "Manhattan Beach",
     "type": "beaches"
   },
+  "branches-a-train": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/A_(New_York_City_Subway_service)",
+    "name": "A Train",
+    "reference": "New York",
+    "type": "branches",
+    "wikidata": "Q109457138"
+  },
   "bridges-brooklyn-bridge": {
     "been": true,
     "city": "New York",
@@ -1442,6 +1453,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/DeKalb_Avenue_(BMT_Fourth_Avenue_Line)",
     "name": "DeKalb Avenue",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "cross-platform-hoyt–schermerhorn": {
@@ -1452,7 +1464,20 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Hoyt%E2%80%93Schermerhorn_Streets_(New_York_City_Subway)",
     "name": "Hoyt–Schermerhorn",
+    "reference": "New York",
     "type": "cross-platform"
+  },
+  "cross-platform-jay-street–metrotech": {
+    "been": true,
+    "city": "New York",
+    "coords": "43.00000000, -75.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jay_Street%E2%80%93MetroTech_(IND_Lines)",
+    "name": "Jay Street–MetroTech",
+    "reference": "New York",
+    "type": "cross-platform",
+    "wikidata": "Q1384"
   },
   "cross-platform-journal-square": {
     "been": true,
@@ -1462,6 +1487,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Journal_Square_Transportation_Center",
     "name": "Journal Square",
+    "reference": "Jersey City",
     "type": "cross-platform"
   },
   "cross-platform-lexington-avenue–63rd-street": {
@@ -1472,6 +1498,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Lexington_Avenue%E2%80%9363rd_Street_(63rd_Street_Lines)",
     "name": "Lexington Avenue–63rd Street",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "cross-platform-myrtle-avenue": {
@@ -1482,6 +1509,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Myrtle_Avenue_station_(BMT_Jamaica_Line)",
     "name": "Myrtle Avenue",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "cross-platform-prospect-park": {
@@ -1492,6 +1520,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Prospect_Park_(BMT_Brighton_Line)",
     "name": "Prospect Park",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "cross-platform-queensboro-plaza": {
@@ -1502,6 +1531,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Queensboro_Plaza_(New_York_City_Subway)",
     "name": "Queensboro Plaza",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "cross-platform-seventh-avenue": {
@@ -1512,6 +1542,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Seventh_Avenue_(IND_Queens_Boulevard_Line)",
     "name": "Seventh Avenue",
+    "reference": "New York",
     "type": "cross-platform"
   },
   "curved-14th-street–union-square": {
@@ -2976,6 +3007,18 @@
     "name": "Subway",
     "reference": "New York",
     "type": "late-night"
+  },
+  "least-used-broad-channel": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.60900000, -73.81600000",
+    "country": "US",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/Broad_Channel_station",
+    "name": "Broad Channel",
+    "prefix": "95K",
+    "reference": "New York",
+    "type": "least-used"
   },
   "level-crossings-east-105th-street": {
     "been": true,
@@ -6251,6 +6294,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/145th_Street_station_(IND_lines)",
     "name": "145th Street",
+    "reference": "New York",
     "type": "spanish"
   },
   "spanish-149th-street–grand-concourse": {
@@ -6261,6 +6305,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/149th_Street–Grand_Concourse_station",
     "name": "149th Street–Grand Concourse",
+    "reference": "New York",
     "type": "spanish"
   },
   "spanish-59th-street–columbus-circle": {
@@ -6271,6 +6316,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/59th_Street–Columbus_Circle_station",
     "name": "59th Street–Columbus Circle",
+    "reference": "New York",
     "strike": true,
     "type": "spanish"
   },
@@ -6282,7 +6328,41 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge–City_Hall/Chambers_Street_station",
     "name": "Chambers Street",
+    "reference": "New York",
     "strike": true,
+    "type": "spanish"
+  },
+  "spanish-east-180th-street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.84100000, -73.87400000",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/East_180th_Street_station",
+    "name": "East 180th Street",
+    "reference": "New York",
+    "type": "spanish"
+  },
+  "spanish-flushing–main-street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75944444, -73.83027778",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Flushing–Main_Street_station_(IRT_Flushing_Line)",
+    "name": "Flushing–Main Street",
+    "reference": "New York",
+    "type": "spanish"
+  },
+  "spanish-hicksville": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.76710100, -73.52868600",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Hicksville_station",
+    "name": "Hicksville",
+    "reference": "New York",
     "type": "spanish"
   },
   "spanish-hoboken": {
@@ -6293,6 +6373,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoboken_Terminal",
     "name": "Hoboken",
+    "reference": "Hoboken",
     "type": "spanish"
   },
   "spanish-hoyt–schermerhorn": {
@@ -6303,6 +6384,66 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Hoyt–Schermerhorn_Streets_station",
     "name": "Hoyt–Schermerhorn",
+    "reference": "New York",
+    "strike": true,
+    "type": "spanish"
+  },
+  "spanish-jamaica": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.69972222, -73.80777778",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica_station",
+    "name": "Jamaica",
+    "reference": "New York",
+    "type": "spanish"
+  },
+  "spanish-pelham-bay-park": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.85287100, -73.82713800",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Pelham_Bay_Park_station",
+    "name": "Pelham Bay Park",
+    "reference": "New York",
+    "strike": true,
+    "type": "spanish"
+  },
+  "spanish-van-cortlandt-park–242nd-street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.88922200, -73.89858300",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Van_Cortlandt_Park–242nd_Street_station",
+    "name": "Van Cortlandt Park–242nd Street",
+    "reference": "New York",
+    "strike": true,
+    "type": "spanish"
+  },
+  "spanish-wakefield–241st_street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.90300000, -73.85000000",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wakefield–241st_Street_station",
+    "name": "Wakefield–241st_Street",
+    "reference": "New York",
+    "strike": true,
+    "type": "spanish"
+  },
+  "spanish-woodlawn": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.88600500, -73.87880800",
+    "country": "US",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Woodlawn_station_(IRT_Jerome_Avenue_Line)",
+    "name": "Woodlawn",
+    "reference": "New York",
     "strike": true,
     "type": "spanish"
   },
@@ -6314,6 +6455,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/World_Trade_Center_station_(PATH)",
     "name": "World Trade Center",
+    "reference": "New York",
     "type": "spanish"
   },
   "spas-aire-ancient-baths": {

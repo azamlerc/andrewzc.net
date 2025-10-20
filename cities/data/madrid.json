@@ -279,6 +279,7 @@
     "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Casa_de_Campo",
     "name": "Casa de Campo",
+    "reference": "Madrid",
     "type": "cross-platform"
   },
   "cross-platform-moncloa": {
@@ -289,6 +290,7 @@
     "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Moncloa",
     "name": "Moncloa",
+    "reference": "Madrid",
     "type": "cross-platform",
     "wikidata": "Q2449141"
   },
@@ -300,6 +302,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Pinar_de_Chamart%C3%ADn_(Madrid_Metro)",
     "name": "Pinar de Chamartín",
+    "reference": "Madrid",
     "type": "cross-platform"
   },
   "cross-platform-principe-pio": {
@@ -310,6 +313,7 @@
     "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Príncipe_Pío",
     "name": "Príncipe Pío",
+    "reference": "Madrid",
     "type": "cross-platform"
   },
   "cross-platform-puerta-de-arganda": {
@@ -320,7 +324,20 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Puerta_de_Arganda_(Madrid_Metro)",
     "name": "Puerta de Arganda",
+    "reference": "Madrid",
     "type": "cross-platform"
+  },
+  "cross-platform-tres-olivos": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.50120000, -3.69525000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Tres_Olivos",
+    "name": "Tres Olivos",
+    "reference": "Madrid",
+    "type": "cross-platform",
+    "wikidata": "Q608766"
   },
   "culture-madrid": {
     "been": true,
@@ -963,7 +980,20 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Avenida_de_América_(Madrid)",
     "name": "Avenida de América",
+    "reference": "Madrid",
     "type": "spanish"
+  },
+  "spanish-campamento": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "6.97916667, -75.29583333",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Campamento",
+    "name": "Campamento",
+    "reference": "Madrid",
+    "type": "spanish",
+    "wikidata": "Q2481364"
   },
   "spanish-carabanchel": {
     "been": false,
@@ -973,6 +1003,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Carabanchel",
     "name": "Carabanchel",
+    "reference": "Madrid",
     "type": "spanish"
   },
   "spanish-cuatro-caminos": {
@@ -983,6 +1014,7 @@
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Cuatro_Caminos_(estación_del_Metro_de_Ciudad_de_México)",
     "name": "Cuatro Caminos",
+    "reference": "Mexico City",
     "type": "spanish"
   },
   "squares-plaza-mayor": {

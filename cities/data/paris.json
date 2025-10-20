@@ -859,6 +859,28 @@
     "reference": "Paris",
     "type": "awa"
   },
+  "branches-line-13": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_13_du_métro_de_Paris",
+    "name": "Line 13",
+    "reference": "Paris",
+    "type": "branches",
+    "wikidata": "Q50759"
+  },
+  "branches-line-7": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.92071000, 2.41051000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_7_du_métro_de_Paris",
+    "name": "Line 7",
+    "reference": "Paris",
+    "type": "branches"
+  },
   "brt-paris": {
     "been": true,
     "city": "Paris",
@@ -1231,6 +1253,7 @@
     "icons": ["🔀"],
     "link": "https://fr.wikipedia.org/wiki/Beaux-Arts_(m%C3%A9tro_l%C3%A9ger_de_Charleroi)",
     "name": "Beaux-Arts",
+    "reference": "Charleroi",
     "type": "cross-platform"
   },
   "cross-platform-chatelet-les-halles": {
@@ -1241,6 +1264,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Ch%C3%A2telet_-_Les_Halles_(Paris_RER)",
     "name": "Châtelet-Les Halles",
+    "reference": "Paris",
     "type": "cross-platform"
   },
   "cross-platform-gare-du-nord": {
@@ -1251,6 +1275,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Gare_du_Nord",
     "name": "Gare du Nord",
+    "reference": "Paris",
     "type": "cross-platform"
   },
   "cross-platform-la-motte-picquet–grenelle": {
@@ -1261,6 +1286,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/La_Motte-Picquet_%E2%80%93_Grenelle",
     "name": "La Motte-Picquet–Grenelle",
+    "reference": "Paris",
     "type": "cross-platform"
   },
   "cross-platform-louis-blanc": {
@@ -1271,6 +1297,7 @@
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Louis_Blanc_(Paris_Metro)",
     "name": "Louis Blanc",
+    "reference": "Paris",
     "type": "cross-platform"
   },
   "culture-paris": {
@@ -2300,6 +2327,27 @@
     "link": "https://en.wikipedia.org/wiki/%C3%8Ele_Seguin",
     "name": "Île Seguin",
     "type": "islands"
+  },
+  "least-used-eglise-dauteuil": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84716900, 2.26902000",
+    "country": "FR",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/%C3%89glise_d%27Auteuil_station",
+    "name": "Église d’Auteuil",
+    "prefix": "125K",
+    "reference": "Paris",
+    "type": "least-used"
+  },
+  "least-used-paris-a-href=https://enwikipediaorg/wiki/%c3%89glise_d%27auteuil_stationeglise-dauteuil": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84716900, 2.26902000",
+    "icons": ["🕸️"],
+    "link": "https://en.wikipedia.org/wiki/%C3%89glise_d%27Auteuil_station",
+    "name": "Paris\"> <a href=\"https://en.wikipedia.org/wiki/%C3%89glise_d%27Auteuil_station\">Église d’Auteuil",
+    "type": "least-used"
   },
   "legislatures-palais-bourbon": {
     "been": true,
@@ -4392,6 +4440,17 @@
     "name": "Paris",
     "type": "orient-express"
   },
+  "part-time-rennes": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84819314, 2.32776314",
+    "country": "FR",
+    "icons": ["⏰"],
+    "link": "https://fr.wikipedia.org/wiki/Rennes_(métro_de_Paris)",
+    "name": "Rennes",
+    "strike": true,
+    "type": "part-time"
+  },
   "people-movers-charles-de-gaulle-airport": {
     "been": true,
     "city": "Paris",
@@ -5553,6 +5612,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Charles_de_Gaulle_-_Étoile_(Paris_Métro_and_RER)",
     "name": "Charles de Gaulle–Étoile",
+    "reference": "Paris",
     "type": "spanish"
   },
   "spas-aquaboulevard": {
