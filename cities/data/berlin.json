@@ -330,7 +330,7 @@
   "cross-platform-mehringdamm": {
     "been": true,
     "city": "Berlin",
-    "coords": "52.49444444, 13.38861111",
+    "coords": "52.49166667, 13.38722222",
     "country": "DE",
     "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Mehringdamm_(Berlin_U-Bahn)",
@@ -1757,6 +1757,33 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=52.44662_N_13.66897_E",
     "name": "Großer Müggelsee",
     "type": "swimming"
+  },
+  "switched-hauptbahnhof": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.52500000, 13.36944444",
+    "country": "DE",
+    "icons": ["🔀"],
+    "info": "U55 → U5",
+    "link": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof",
+    "name": "Hauptbahnhof",
+    "prefix": "2020",
+    "reference": "Berlin",
+    "type": "switched"
+  },
+  "switched-vinetastraße": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.55916667, 13.41333333",
+    "country": "DE",
+    "icons": ["🔀"],
+    "info": "U8 → U2",
+    "link": "https://de.wikipedia.org/wiki/U-Bahnhof_Vinetastraße",
+    "name": "Vinetastraße",
+    "prefix": "2003",
+    "reference": "Berlin",
+    "type": "switched",
+    "wikidata": "Q570906"
   },
   "tintin-berlin": {
     "been": true,

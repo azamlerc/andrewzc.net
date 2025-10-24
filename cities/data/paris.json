@@ -2436,6 +2436,31 @@
     "reference": "Paris",
     "type": "longest-tunnels"
   },
+  "loopback-champigny-centre": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.81611400, 2.50216100",
+    "country": "FR",
+    "icons": ["🔂"],
+    "info": "Line 15",
+    "link": "https://fr.wikipedia.org/wiki/Champigny_Centre_(m%C3%A9tro_de_Paris)",
+    "name": "Champigny Centre",
+    "reference": "Paris",
+    "type": "loopback"
+  },
+  "loopback-versailles-chantiers": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.79573700, 2.13595300",
+    "country": "FR",
+    "icons": ["🔂"],
+    "info": "RER C",
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Versailles-Chantiers",
+    "name": "Versailles-Chantiers",
+    "reference": "Paris",
+    "strike": true,
+    "type": "loopback"
+  },
   "loops-charles-de-gaulle-etoile": {
     "been": true,
     "city": "Paris",
@@ -5995,6 +6020,71 @@
     "link": "https://suncity-paris.fr",
     "name": "Sun City",
     "type": "swimming"
+  },
+  "switched-invalides": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86090700, 2.31445700",
+    "country": "FR",
+    "icons": ["🔀"],
+    "info": "10 → 14",
+    "link": "https://fr.wikipedia.org/wiki/Invalides_(métro_de_Paris)",
+    "name": "Invalides",
+    "prefix": "1937",
+    "reference": "Paris",
+    "type": "switched"
+  },
+  "switched-porte-dauteuil": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84802500, 2.25875000",
+    "country": "FR",
+    "icons": ["🔀"],
+    "info": "8 → 10",
+    "link": "https://fr.wikipedia.org/wiki/Porte_d'Auteuil_(métro_de_Paris)",
+    "name": "Porte d’Auteuil",
+    "prefix": "1937",
+    "reference": "Paris",
+    "type": "switched"
+  },
+  "switched-porte-de-vanves": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82794045, 2.30588436",
+    "country": "FR",
+    "icons": ["🔀"],
+    "info": "14 → 13",
+    "link": "https://fr.wikipedia.org/wiki/Porte_de_Vanves_(métro_de_Paris)",
+    "name": "Porte de Vanves",
+    "prefix": "1976",
+    "reference": "Paris",
+    "type": "switched"
+  },
+  "switched-porte-des-lilas": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86090700, 2.31445700",
+    "country": "FR",
+    "icons": ["🔀"],
+    "info": "3 → 3bis",
+    "link": "https://fr.wikipedia.org/wiki/Invalides_(métro_de_Paris)",
+    "name": "Porte des Lilas",
+    "prefix": "1971",
+    "reference": "Paris",
+    "type": "switched"
+  },
+  "switched-pre-saint-gervais": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.88025020, 2.39891410",
+    "country": "FR",
+    "icons": ["🔀"],
+    "info": "7 → 7bis",
+    "link": "https://fr.wikipedia.org/wiki/Pré-Saint-Gervais_(métro_de_Paris)",
+    "name": "Pré-Saint-Gervais",
+    "prefix": "1967",
+    "reference": "Paris",
+    "type": "switched"
   },
   "synagogues-paris": {
     "been": true,

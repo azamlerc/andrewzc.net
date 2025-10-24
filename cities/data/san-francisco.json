@@ -288,7 +288,7 @@
     "city": "San Francisco",
     "coords": "37.78333333, -122.41666667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🔀"],
     "link": "https://en.wikipedia.org/wiki/Pittsburg/Bay_Point_station",
     "name": "Pittsburg/​Bay Point",
     "reference": "San Francisco",
@@ -1096,6 +1096,19 @@
     "link": "https://en.wikipedia.org/wiki/Baker_Beach",
     "name": "Baker Beach",
     "type": "swimming"
+  },
+  "switched-millbrae": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.60030000, -122.38670000",
+    "country": "US",
+    "icons": ["🔀"],
+    "info": "Purple → Red",
+    "link": "https://en.wikipedia.org/wiki/Millbrae_station",
+    "name": "Millbrae",
+    "prefix": "2021",
+    "reference": "San Francisco",
+    "type": "switched"
   },
   "towers-transamerica-pyramid": {
     "been": true,

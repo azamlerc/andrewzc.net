@@ -1934,6 +1934,16 @@
     "reference": "Washington",
     "type": "non-revenue"
   },
+  "part-time-arlington-cemetery": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.88458333, -77.06308333",
+    "country": "US",
+    "icons": ["⏰"],
+    "link": "https://en.wikipedia.org/wiki/Arlington_Cemetery_station",
+    "name": "Arlington Cemetery",
+    "type": "part-time"
+  },
   "pcc-national-capital-trolley-museum": {
     "been": true,
     "city": "Washington",
@@ -2321,6 +2331,17 @@
     "name": "Washington Circle",
     "type": "roundabouts"
   },
+  "short-turn-fort-totten": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.95177700, -77.00217400",
+    "country": "US",
+    "icons": ["↩️"],
+    "link": "https://en.wikipedia.org/wiki/Fort_Totten_station",
+    "name": "Fort Totten",
+    "reference": "Washington",
+    "type": "short-turn"
+  },
   "short-turn-grosvenor–strathmore": {
     "been": true,
     "city": "Washington",
@@ -2514,6 +2535,45 @@
     "link": "https://en.wikipedia.org/wiki/Washington_Union_Station",
     "name": "Washington Union Station",
     "type": "stations"
+  },
+  "switched-greenbelt": {
+    "been": true,
+    "city": "Washington",
+    "coords": "39.01106800, -76.91101100",
+    "country": "US",
+    "icons": ["🔀"],
+    "info": "Green + Yellow",
+    "link": "https://en.wikipedia.org/wiki/Greenbelt_station",
+    "name": "Greenbelt",
+    "prefix": "2019",
+    "reference": "Washington",
+    "type": "switched"
+  },
+  "switched-huntington": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.79406500, -77.07526100",
+    "country": "US",
+    "icons": ["🔀"],
+    "info": "Blue → Yellow",
+    "link": "https://en.wikipedia.org/wiki/Huntington_station_(Washington_Metro)",
+    "name": "Huntington",
+    "prefix": "1983",
+    "reference": "Washington",
+    "type": "switched"
+  },
+  "switched-new-carrollton": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.94800000, -76.87190000",
+    "country": "US",
+    "icons": ["🔀"],
+    "info": "Orange + Silver Line",
+    "link": "https://en.wikipedia.org/wiki/New_Carrollton_station",
+    "name": "New Carrollton",
+    "prefix": "2025",
+    "reference": "Washington",
+    "type": "switched"
   },
   "synagogues-adas-israel": {
     "been": true,

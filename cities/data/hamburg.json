@@ -142,6 +142,18 @@
     "name": "Oldenfelde",
     "type": "infill"
   },
+  "loopback-barmbek": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.58694400, 10.04472200",
+    "country": "DE",
+    "icons": ["🔂"],
+    "info": "Line U3",
+    "link": "https://de.wikipedia.org/wiki/Bahnhof_Hamburg-Barmbek",
+    "name": "Barmbek",
+    "reference": "Hamburg",
+    "type": "loopback"
+  },
   "luna-park-hamburg-altona": {
     "been": false,
     "city": "Hamburg",
@@ -255,6 +267,32 @@
     "reference": "Hamburg",
     "type": "suburban"
   },
+  "switched-mummelmannsberg": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.52797500, 10.14995100",
+    "country": "DE",
+    "icons": ["🔀"],
+    "info": "U3 → U2",
+    "link": "https://de.wikipedia.org/wiki/U-Bahnhof_Mümmelmannsberg",
+    "name": "Mümmelmannsberg",
+    "prefix": "2009",
+    "reference": "Hamburg",
+    "type": "switched"
+  },
+  "switched-wandsbek-gartenstadt": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.59255000, 10.07643000",
+    "country": "DE",
+    "icons": ["🔀"],
+    "info": "U2 → U3",
+    "link": "https://de.wikipedia.org/wiki/U-Bahnhof_Wandsbek-Gartenstadt",
+    "name": "Wandsbek-Gartenstadt",
+    "prefix": "2009",
+    "reference": "Hamburg",
+    "type": "switched"
+  },
   "tri-states-hamburg": {
     "been": false,
     "city": "Hamburg",
@@ -304,5 +342,15 @@
     "name": "Hamburg, PA",
     "state": "PA",
     "type": "twin-cities"
+  },
+  "useless-beimoor": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.56666667, 10.03333333",
+    "country": "DE",
+    "icons": ["🚧"],
+    "link": "https://en.wikipedia.org/wiki/Hamburg_U-Bahn",
+    "name": "Beimoor",
+    "type": "useless"
   }
 }

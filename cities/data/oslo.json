@@ -502,6 +502,19 @@
     "reference": "Oslo",
     "type": "level-crossings"
   },
+  "loopback-ring-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🔂"],
+    "info": "11 stations",
+    "link": "https://en.wikipedia.org/wiki/Ring_Line_(Oslo)",
+    "name": "Ring Line",
+    "reference": "Oslo",
+    "type": "loopback",
+    "wikidata": "Q17278"
+  },
   "loops-braten": {
     "been": true,
     "city": "Oslo",
@@ -794,6 +807,32 @@
     "reference": "Oslo",
     "type": "open-gangways"
   },
+  "overhead-holmenkollen-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🩼"],
+    "link": "https://en.wikipedia.org/wiki/Holmenkollen_Line",
+    "name": "Holmenkollen Line",
+    "reference": "Oslo",
+    "strike": true,
+    "type": "overhead",
+    "wikidata": "Q1771722"
+  },
+  "overhead-kolsas-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🩼"],
+    "link": "https://en.wikipedia.org/wiki/Kolsås_Line",
+    "name": "Kolsås Line",
+    "reference": "Oslo",
+    "strike": true,
+    "type": "overhead",
+    "wikidata": "Q4544753"
+  },
   "pools-bislet-bad": {
     "been": true,
     "city": "Oslo",
@@ -1019,6 +1058,48 @@
     "link": "https://en.wikipedia.org/wiki/Sognsvann",
     "name": "Svartkulp",
     "type": "swimming"
+  },
+  "switched-grorud-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🔀"],
+    "info": "5 + 4",
+    "link": "https://en.wikipedia.org/wiki/Grorud_Line",
+    "name": "Grorud Line",
+    "prefix": "2013",
+    "reference": "Oslo",
+    "type": "switched",
+    "wikidata": "Q5610422"
+  },
+  "switched-kolsas-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🔀"],
+    "info": "4 → 3",
+    "link": "https://en.wikipedia.org/wiki/Kolsås_Line",
+    "name": "Kolsås Line",
+    "prefix": "2016",
+    "reference": "Oslo",
+    "type": "switched",
+    "wikidata": "Q4544753"
+  },
+  "switched-songsvann-line": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91333333, 10.73888889",
+    "country": "NO",
+    "icons": ["🔀"],
+    "info": "3 → 5",
+    "link": "https://en.wikipedia.org/wiki/Sognsvann_line",
+    "name": "Songsvann Line",
+    "prefix": "2016",
+    "reference": "Oslo",
+    "type": "switched",
+    "wikidata": "Q4590787"
   },
   "towers-tryvannstarnet": {
     "been": true,

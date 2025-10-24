@@ -274,7 +274,7 @@
   "cross-platform-casa-de-campo": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.42291000, -3.75595000",
+    "coords": "40.40310000, -3.76116000",
     "country": "ES",
     "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Casa_de_Campo",
@@ -308,7 +308,7 @@
   "cross-platform-principe-pio": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.42400000, -3.71800000",
+    "coords": "40.42140000, -3.71889000",
     "country": "ES",
     "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Príncipe_Pío",
@@ -332,7 +332,7 @@
     "city": "Madrid",
     "coords": "40.50120000, -3.69525000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🔀"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Tres_Olivos",
     "name": "Tres Olivos",
     "reference": "Madrid",
@@ -1089,6 +1089,20 @@
     "name": "Cercanías</a>",
     "reference": "Madrid",
     "type": "suburban"
+  },
+  "switched-casa-de-campo–aluche": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.40310000, -3.76116000",
+    "country": "ES",
+    "icons": ["🔀"],
+    "info": "10 → 5",
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Casa_de_Campo",
+    "name": "Casa de Campo–Aluche",
+    "prefix": "2002",
+    "reference": "Madrid",
+    "type": "switched",
+    "wikidata": "Q568579"
   },
   "temples-debod": {
     "been": true,

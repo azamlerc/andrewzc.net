@@ -2249,6 +2249,42 @@
     "reference": "London",
     "type": "longest-tunnels"
   },
+  "loopback-edgware-road": {
+    "been": true,
+    "city": "London",
+    "coords": "51.52000000, -0.16777800",
+    "country": "GB",
+    "icons": ["🔂"],
+    "info": "Circle Line",
+    "link": "https://en.wikipedia.org/wiki/Edgware_Road_tube_station_(Circle,_District_and_Hammersmith_%26_City_lines)",
+    "name": "Edgware Road",
+    "reference": "London",
+    "type": "loopback"
+  },
+  "loopback-euston": {
+    "been": true,
+    "city": "London",
+    "coords": "51.52840000, -0.13310000",
+    "country": "GB",
+    "icons": ["🔂"],
+    "info": "Northern Line",
+    "link": "https://en.wikipedia.org/wiki/Euston_tube_station",
+    "name": "Euston",
+    "reference": "London",
+    "type": "loopback"
+  },
+  "loopback-stratford": {
+    "been": true,
+    "city": "London",
+    "coords": "51.54220000, -0.00330000",
+    "country": "GB",
+    "icons": ["🔂"],
+    "info": "DLR",
+    "link": "https://en.wikipedia.org/wiki/Stratford_station",
+    "name": "Stratford",
+    "reference": "London",
+    "type": "loopback"
+  },
   "loops-croydon": {
     "been": true,
     "city": "London",
@@ -4306,6 +4342,45 @@
     "name": "Thameslink</a>",
     "reference": "London",
     "type": "suburban"
+  },
+  "switched-hammersmith": {
+    "been": true,
+    "city": "London",
+    "coords": "51.49427700, -0.22503700",
+    "country": "GB",
+    "icons": ["🔀"],
+    "info": "H&S + Circle",
+    "link": "https://en.wikipedia.org/wiki/Hammersmith_tube_station_(Circle_and_Hammersmith_&_City_lines)",
+    "name": "Hammersmith",
+    "prefix": "2009",
+    "reference": "London",
+    "type": "switched"
+  },
+  "switched-stanmore": {
+    "been": true,
+    "city": "London",
+    "coords": "51.61944444, -0.30277778",
+    "country": "GB",
+    "icons": ["🔀"],
+    "info": "Bakerloo → Jubilee",
+    "link": "https://en.wikipedia.org/wiki/Stanmore_tube_station",
+    "name": "Stanmore",
+    "prefix": "1979",
+    "reference": "London",
+    "type": "switched"
+  },
+  "switched-uxbridge": {
+    "been": true,
+    "city": "London",
+    "coords": "51.54590000, -0.47830000",
+    "country": "GB",
+    "icons": ["🔀"],
+    "info": "District → Piccadilly",
+    "link": "https://en.wikipedia.org/wiki/Uxbridge_tube_station",
+    "name": "Uxbridge",
+    "prefix": "1933",
+    "reference": "London",
+    "type": "switched"
   },
   "synagogues-london": {
     "been": false,

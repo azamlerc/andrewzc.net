@@ -448,7 +448,7 @@
   "cross-platform-gare-de-bruxelles-midi": {
     "been": true,
     "city": "Brussels",
-    "coords": "50.83516111, 4.33522222",
+    "coords": "50.83516000, 4.33539900",
     "country": "BE",
     "icons": ["🔀"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Midi",
@@ -808,6 +808,18 @@
     "link": "https://en.wikipedia.org/wiki/Belgian_Federal_Parliament#Palace_of_the_Nation",
     "name": "Palais de la Nation",
     "type": "legislatures"
+  },
+  "loopback-simonis": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.86305600, 4.33055600",
+    "country": "BE",
+    "icons": ["🔂"],
+    "info": "Lines 2/6",
+    "link": "https://fr.wikipedia.org/wiki/Simonis_(m%C3%A9tro_de_Bruxelles)",
+    "name": "Simonis",
+    "reference": "Brussels",
+    "type": "loopback"
   },
   "loops-altitude-cent": {
     "been": true,
@@ -1909,6 +1921,18 @@
     "name": "Alma",
     "reference": "Brussels",
     "type": "twin-stations"
+  },
+  "twin-stations-arts-et-metiers": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Brussels_tram_route_51",
+    "name": "Arts et Métiers",
+    "reference": "Brussels",
+    "type": "twin-stations",
+    "wikidata": "Q751385"
   },
   "twin-stations-clemenceau": {
     "been": true,
