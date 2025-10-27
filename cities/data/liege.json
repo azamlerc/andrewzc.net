@@ -1,6 +1,6 @@
 {
   "alt-power-liege": {
-    "been": false,
+    "been": true,
     "city": "Liège",
     "coords": "50.63040000, 5.58200000",
     "country": "BE",
@@ -30,6 +30,16 @@
     "strike": true,
     "type": "bi-articulated"
   },
+  "bridges-pont-du-pays-de-liege": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.61625500, 5.57903400",
+    "country": "BE",
+    "icons": ["🌉"],
+    "link": "https://fr.wikipedia.org/wiki/Pont_du_Pays_de_Liège",
+    "name": "Pont du Pays de Liège",
+    "type": "bridges"
+  },
   "brt-liege": {
     "been": false,
     "city": "Liège",
@@ -46,7 +56,7 @@
     "country": "BE",
     "icons": ["🦔"],
     "info": "</span></p>",
-    "link": "https://en.wikipedia.org/wiki/Li%C3%A8ge-Guillemins_railway_station",
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Liège-Guillemins",
     "name": "Liège-Guillemins Station",
     "type": "calatrava"
   },
@@ -70,6 +80,17 @@
     "name": "Bressoux",
     "reference": "Liège",
     "type": "depots"
+  },
+  "grand-unions-kinkempois": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.61587000, 5.58524000",
+    "country": "BE",
+    "icons": ["🦋"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.61587_N_5.58524_E",
+    "name": "Kinkempois",
+    "reference": "Liège",
+    "type": "grand-unions"
   },
   "heritage-musee-des-transports-en-commun-de-wallonie": {
     "been": false,
@@ -101,6 +122,16 @@
     "name": "Liège",
     "type": "metro-places"
   },
+  "metro-places-petit-bourgogne": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.63040000, 5.58200000",
+    "countries": ["BE", "FR"],
+    "icons": ["🗺"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
+    "name": "Petit Bourgogne",
+    "type": "metro-places"
+  },
   "micronations-free-republic-of-outremeuse": {
     "been": true,
     "city": "Liège",
@@ -121,6 +152,39 @@
     "name": "Liege",
     "reference": "Paris",
     "type": "offset"
+  },
+  "one-way-tram-1": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.645926, 5.581153",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "info": "La Batte",
+    "link": "https://fr.wikipedia.org/wiki/La_Batte",
+    "name": "Tram 1",
+    "reference": "Liège",
+    "type": "one-way"
+  },
+  "part-time-curtius": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.64696000, 5.58418000",
+    "country": "BE",
+    "icons": ["⏰"],
+    "link": "https://fr.wikipedia.org/wiki/Palais_Curtius",
+    "name": "Curtius",
+    "type": "part-time",
+    "wikidata": "Q3360847"
+  },
+  "part-time-la-batte": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.64592600, 5.58115300",
+    "country": "BE",
+    "icons": ["⏰"],
+    "link": "https://fr.wikipedia.org/wiki/La_Batte",
+    "name": "La Batte",
+    "type": "part-time"
   },
   "projects-liege-tram": {
     "been": true,
@@ -143,6 +207,18 @@
     "reference": "Paris",
     "type": "renamed"
   },
+  "single-track-tram-1": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.646638, 5.579999",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "info": "Féronstrée (Sundays)",
+    "link": "https://fr.wikipedia.org/wiki/Féronstrée",
+    "name": "Tram 1",
+    "reference": "Liège",
+    "type": "single-track"
+  },
   "spas-chateau-de-thermes-de-chaudfontaine": {
     "been": false,
     "city": "Liège",
@@ -152,6 +228,26 @@
     "link": "https://chateaudesthermes.be/",
     "name": "Château de Thermes de Chaudfontaine",
     "type": "spas"
+  },
+  "stadiums-stade-maurice-dufrasne": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.60992000, 5.54326800",
+    "country": "BE",
+    "icons": ["🏟️"],
+    "link": "https://fr.wikipedia.org/wiki/Stade_Maurice_Dufrasne",
+    "name": "Stade Maurice Dufrasne",
+    "type": "stadiums"
+  },
+  "stations-liege-guillemins": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.62452700, 5.56673500",
+    "country": "BE",
+    "icons": ["🚉"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Liège-Guillemins",
+    "name": "Liège Guillemins",
+    "type": "stations"
   },
   "tintin-liege": {
     "been": false,
@@ -163,8 +259,19 @@
     "name": "Liège",
     "type": "tintin"
   },
+  "towers-tour-paradis": {
+    "been": true,
+    "city": "Liège",
+    "coords": "50.62664000, 5.57205000",
+    "country": "BE",
+    "icons": ["🗼"],
+    "link": "https://fr.wikipedia.org/wiki/Tour_Paradis",
+    "name": "Tour Paradis",
+    "type": "towers",
+    "wikidata": "Q3533637"
+  },
   "trams-liege": {
-    "been": false,
+    "been": true,
     "city": "Liège",
     "coords": "50.63040000, 5.58200000",
     "country": "BE",
@@ -174,7 +281,7 @@
     "type": "trams"
   },
   "twin-stations-opera": {
-    "been": false,
+    "been": true,
     "city": "Liège",
     "country": "BE",
     "icons": ["🇧🇪"],

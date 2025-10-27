@@ -1400,6 +1400,16 @@
     "name": "Nation",
     "type": "curved"
   },
+  "curved-pigalle": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.88225500, 2.33757300",
+    "country": "FR",
+    "icons": ["🍌"],
+    "link": "https://fr.wikipedia.org/wiki/Pigalle_(métro_de_Paris)",
+    "name": "Pigalle",
+    "type": "curved"
+  },
   "curved-place-des-fetes": {
     "been": true,
     "city": "Paris",
@@ -1418,6 +1428,26 @@
     "icons": ["🍌"],
     "link": "https://fr.wikipedia.org/wiki/Place_d'Italie_(métro_de_Paris)",
     "name": "Place d’Italie",
+    "type": "curved"
+  },
+  "curved-pyrenees": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87387501, 2.38525897",
+    "country": "FR",
+    "icons": ["🍌"],
+    "link": "https://fr.wikipedia.org/wiki/Pyrénées_(métro_de_Paris)",
+    "name": "Pyrénées",
+    "type": "curved"
+  },
+  "curved-republique": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.86732300, 2.36412900",
+    "country": "FR",
+    "icons": ["🍌"],
+    "link": "https://fr.wikipedia.org/wiki/République_(métro_de_Paris)",
+    "name": "République",
     "type": "curved"
   },
   "curved-saint-georges": {
@@ -4696,7 +4726,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Câble_1",
     "name": "Paris Câble 1",
-    "prefix": "2025",
+    "prefix": "2025-12-13",
     "reference": "Paris",
     "type": "projects"
   },
@@ -4707,7 +4737,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/CDG_Express",
     "name": "Paris CDG Express",
-    "prefix": "2027",
+    "prefix": "2027-03-28",
     "reference": "Paris",
     "type": "projects"
   },
@@ -4795,7 +4825,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Ligne_15_du_métro_de_Paris",
     "name": "Paris Line 15",
-    "prefix": "2026",
+    "prefix": "2027-04",
     "reference": "Paris",
     "type": "projects"
   },
@@ -4806,7 +4836,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Ligne_16_du_métro_de_Paris",
     "name": "Paris Line 16",
-    "prefix": "2026",
+    "prefix": "2027",
     "reference": "Paris",
     "type": "projects"
   },
@@ -4817,7 +4847,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Ligne_17_du_métro_de_Paris",
     "name": "Paris Line 17",
-    "prefix": "2026",
+    "prefix": "2027",
     "reference": "Paris",
     "type": "projects"
   },
