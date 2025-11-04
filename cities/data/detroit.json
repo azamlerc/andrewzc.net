@@ -9,6 +9,17 @@
     "name": "Michigan Central Station",
     "type": "abandoned"
   },
+  "alt-power-detroit": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.33333333, -83.05000000",
+    "country": "US",
+    "icons": ["⚡️"],
+    "link": "https://en.wikipedia.org/wiki/QLine",
+    "name": "Detroit",
+    "type": "alt-power",
+    "wikidata": "Q5265966"
+  },
   "anton-corbijn-detroit": {
     "been": true,
     "city": "Detroit",
@@ -103,6 +114,18 @@
     "name": "Windsor",
     "reference": "Stellantis",
     "type": "factories"
+  },
+  "fare-free-detroit": {
+    "been": false,
+    "city": "Detroit",
+    "coords": "42.33333333, -83.05000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/QLine",
+    "name": "Detroit",
+    "prefix": "2024",
+    "type": "fare-free",
+    "wikidata": "Q5265966"
   },
   "luna-park-detroit": {
     "been": false,

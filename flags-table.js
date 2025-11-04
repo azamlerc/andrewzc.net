@@ -88,12 +88,19 @@ document.addEventListener('DOMContentLoaded', function() {
   fetch(`data/flags.json`)
     .then(response => response.json())
     .then(flags => {
-      total.innerHTML = flags.totalCount.toLocaleString();
+      total.innerHTML = formatNumber(flags.totalCount);
       appendCountryHeaders(flags.countries);
       appendCountryTotals(flags.countries);
       appendTableRows(flags, filter);
     });
   });
+
+function formatNumber(n) {
+  const s = n >= 1e6 ? (n / 1e6).toFixed(1) + 'M'
+        : n >= 1e3 ? (n / 1e3).toFixed(1) + 'K'
+        : n.toString();
+  return s.replace(/\.0(?=[KM])/, '');
+}
 
 function getParam(name, defaultValue = null) {
   const urlParams = new URLSearchParams(window.location.search);

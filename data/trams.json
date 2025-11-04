@@ -108,11 +108,13 @@
     "wikidata": "Q1535135"
   },
   "antwerp": {
-    "been": false,
+    "been": true,
+    "caption": "",
     "city": "Antwerp",
     "coords": "51.21777778, 4.40027778",
     "country": "BE",
     "icons": ["🇧🇪"],
+    "images": ["antwerp2.jpg", "antwerp3.jpg", "antwerp1.jpg"],
     "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
     "name": "Antwerp",
     "wikidata": "Q777867"
@@ -316,10 +318,12 @@
   },
   "bilbao": {
     "been": true,
+    "caption": "",
     "city": "Bilbao",
     "coords": "43.25361111, -2.92166667",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "images": ["bilbao1.jpg", "bilbao2.jpg", "bilbao3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bilbao_tram",
     "name": "Bilbao"
   },
@@ -372,10 +376,12 @@
   },
   "bordeaux": {
     "been": true,
+    "caption": "",
     "city": "Bordeaux",
     "coords": "44.838611111111, -0.57833333333333",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["bordeaux1.jpg", "bordeaux2.jpg", "bordeaux3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bordeaux_tramway",
     "name": "Bordeaux",
     "wikidata": "Q606304"
@@ -660,6 +666,16 @@
     "icons": ["🇩🇿"],
     "link": "https://en.wikipedia.org/wiki/Constantine_tramway",
     "name": "Constantine"
+  },
+  "copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "coords": "55.67611111, 12.56833333",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Greater_Copenhagen_Light_Rail",
+    "name": "Copenhagen",
+    "wikidata": "Q10655459"
   },
   "cottbus": {
     "been": false,
@@ -1009,10 +1025,12 @@
     "wikidata": "Q7833225"
   },
   "ghent": {
-    "been": false,
+    "been": true,
+    "caption": "",
     "coords": "51.05300000, 3.72000000",
     "country": "BE",
     "icons": ["🇧🇪"],
+    "images": ["ghent1.jpg", "ghent2.jpg", "ghent3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Ghent",
     "name": "Ghent"
   },
@@ -1576,10 +1594,12 @@
   },
   "liege": {
     "been": true,
+    "caption": "",
     "city": "Liège",
     "coords": "50.6304, 5.582",
     "country": "BE",
     "icons": ["🇧🇪"],
+    "images": ["liege1.jpg", "liege2.jpg", "liege4.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
     "name": "Liège"
   },
@@ -2939,7 +2959,7 @@
     "coords": "50.05000000, 72.95000000",
     "country": "KZ",
     "icons": ["🇰🇿"],
-    "link": "https://en.wikipedia.org/wiki/Tempe_Streetcar",
+    "link": "https://en.wikipedia.org/wiki/Temirtau",
     "name": "Temirtau",
     "wikidata": "Q23308659"
   },
@@ -3210,9 +3230,11 @@
   },
   "vitoria-gasteiz": {
     "been": true,
+    "caption": "",
     "coords": "42.87611111, -2.67972222",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "images": ["vitoria-gasteiz1.jpg", "vitoria-gasteiz3.jpg", "vitoria-gasteiz4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
     "name": "Vitoria-Gasteiz"
   },

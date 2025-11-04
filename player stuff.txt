@@ -1,0 +1,119 @@
+// inside class SenzaAnalytics
+trackPlayerEvents(player, media, meta = {}) {
+  // Tear down any prior session first
+  if (this._playerSession?.active) {
+    this.playerSessionEnd("load_new_url");
+  }
+
+  // Minimal session state (keep it simple + robust)
+  this._playerSession = {
+    active: true,
+    sent: false,
+    url: () => media.currentSrc || meta.src || meta.url || "",
+    meta,                        // any titles/ids you want to pass in
+    startedAt: Date.now(),
+    lastPlayStart: null,         // timestamp when we entered "playing"
+    watchedMs: 0,                // accumulated while actually playing
+    lastTime: 0,                 // last known media time (for raw logs)
+  };
+
+  // ——— Helpers ———
+  const enterPlaying = () => {
+    if (!this._playerSession?.active) return;
+    if (this._playerSession.lastPlayStart == null) {
+      this._playerSession.lastPlayStart = Date.now();
+    }
+    if (this.config.player.raw) {
+      this.logEvent("player_state", {
+        state: "playing",
+        current_time: media.currentTime || 0,
+        src: this._playerSession.url(),
+        ...snakeMeta(meta),
+      });
+    }
+  };
+
+  const leavePlaying = (state) => {
+    if (!this._playerSession?.active) return;
+    if (this._playerSession.lastPlayStart != null) {
+      this._playerSession.watchedMs += Date.now() - this._playerSession.lastPlayStart;
+      this._playerSession.lastPlayStart = null;
+    }
+    if (this.config.player.raw && state) {
+      this.logEvent("player_state", {
+        state,
+        current_time: media.currentTime || 0,
+        src: this._playerSession.url(),
+        ...snakeMeta(meta),
+      });
+    }
+  };
+
+  const onPlaying = () => enterPlaying();
+  const onPause = () => leavePlaying("pause");
+  const onWaiting = () => leavePlaying("waiting");
+  const onStalled = () => leavePlaying("stalled");
+  const onSeeking = () => {
+    // Don’t count seek time as watching
+    leavePlaying("seeking");
+    if (this.config.player.raw) {
+      this.logEvent("player_seek", {
+        current_time: media.currentTime || 0,
+        src: this._playerSession.url(),
+        ...snakeMeta(meta),
+      });
+    }
+  };
+  const onSeeked = () => {
+    if (this.config.player.raw) {
+      this.logEvent("player_seeked", {
+        current_time: media.currentTime || 0,
+        src: this._playerSession.url(),
+        ...snakeMeta(meta),
+      });
+    }
+  };
+  const onEnded = () => {
+    leavePlaying("ended");
+    this.playerSessionEnd("ended");
+  };
+
+  // ——— Wire media events ———
+  media.addEventListener("playing", onPlaying);
+  media.addEventListener("pause", onPause);
+  media.addEventListener("waiting", onWaiting);
+  media.addEventListener("stalled", onStalled);
+  media.addEventListener("seeking", onSeeking);
+  media.addEventListener("seeked", onSeeked);
+  media.addEventListener("ended", onEnded);
+
+  // ——— Shaka lifecycle hooks, if present ———
+  // When Shaka starts loading a new URL, close the old session.
+  try {
+    player.addEventListener("loading", () => {
+      // entering a new load ⇒ prior stream ends
+      this.playerSessionEnd("load_new_url");
+    });
+  } catch (_) {}
+
+  try {
+    player.addEventListener("unloading", () => {
+      // player.unload() called
+      this.playerSessionEnd("unload");
+    });
+  } catch (_) {}
+
+  // Stash a detach to clean up listeners if you need to manually stop tracking
+  this._playerSession.detach = () => {
+    media.removeEventListener("playing", onPlaying);
+    media.removeEventListener("pause", onPause);
+    media.removeEventListener("waiting", onWaiting);
+    media.removeEventListener("stalled", onStalled);
+    media.removeEventListener("seeking", onSeeking);
+    media.removeEventListener("seeked", onSeeked);
+    media.removeEventListener("ended", onEnded);
+  };
+
+  // If the media is already playing when we attach:
+  if (!media.paused && !media.ended) enterPlaying();
+}

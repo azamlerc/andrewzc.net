@@ -44,6 +44,17 @@
     "reference": "Copenhagen",
     "type": "awa"
   },
+  "bumper-lufthavnen": {
+    "been": false,
+    "city": "Copenhagen",
+    "coords": "55.63083333, 12.64916667",
+    "country": "DK",
+    "icons": ["🛑"],
+    "link": "https://en.wikipedia.org/wiki/Lufthavnen_Station",
+    "name": "Lufthavnen",
+    "reference": "Copenhagen",
+    "type": "bumper"
+  },
   "cable-landings-copenhagen": {
     "been": false,
     "city": "Copenhagen",
@@ -136,6 +147,18 @@
     "type": "ikea",
     "wikidata": "Q3255441"
   },
+  "late-night-metro": {
+    "been": false,
+    "city": "Copenhagen",
+    "coords": "55.675277777, 12.570277777",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Copenhagen_Metro",
+    "name": "Metro",
+    "reference": "Copenhagen",
+    "type": "late-night",
+    "wikidata": "Q212741"
+  },
   "legislatures-christiansborg-palace": {
     "been": false,
     "city": "Copenhagen",
@@ -157,6 +180,16 @@
     "prefix": "15.5",
     "reference": "Copenhagen",
     "type": "longest-tunnels"
+  },
+  "metro-people-mozarts-plads": {
+    "been": true,
+    "city": "Copenhagen",
+    "coords": "55.65666667, 12.52916667",
+    "countries": ["DK", "AT"],
+    "icons": ["👴"],
+    "link": "https://en.wikipedia.org/wiki/Mozarts_Plads_station",
+    "name": "Mozarts Plads",
+    "type": "metro-people"
   },
   "metro-population-copenhagen": {
     "been": false,
@@ -259,6 +292,16 @@
     "reference": "Copenhagen",
     "type": "projects"
   },
+  "reverse-glostrup": {
+    "been": false,
+    "city": "Copenhagen",
+    "coords": "55.66291667, 12.39722222",
+    "country": "DK",
+    "icons": ["◀️"],
+    "link": "https://en.wikipedia.org/wiki/Glostrup_railway_station",
+    "name": "Glostrup",
+    "type": "reverse"
+  },
   "statues-little-mermaid": {
     "been": false,
     "city": "Copenhagen",
@@ -268,6 +311,17 @@
     "link": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
     "name": "The Little Mermaid",
     "type": "statues"
+  },
+  "trams-copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "coords": "55.67611111, 12.56833333",
+    "country": "DK",
+    "icons": ["🚋"],
+    "link": "https://en.wikipedia.org/wiki/Greater_Copenhagen_Light_Rail",
+    "name": "Copenhagen",
+    "type": "trams",
+    "wikidata": "Q10655459"
   },
   "twin-cities-copenhagen": {
     "been": false,

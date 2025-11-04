@@ -1,4 +1,26 @@
 {
+  "airports-casablanca-mohammed-v": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.36722222, -7.58972222",
+    "country": "MA",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Mohammed_V_International_Airport",
+    "name": "Casablanca Mohammed V",
+    "prefix": "CMN",
+    "type": "airports"
+  },
+  "beaches-ain-diab": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.58138000, -7.68451000",
+    "country": "MA",
+    "icons": ["🏖"],
+    "link": "https://fr.wikipedia.org/wiki/Aïn_Diab",
+    "name": "Aïn Diab",
+    "type": "beaches",
+    "wikidata": "Q1070799"
+  },
   "bilingual-casablanca": {
     "been": false,
     "city": "Casablanca",
@@ -9,6 +31,17 @@
     "link": "https://fr.wikipedia.org/wiki/Casablanca",
     "name": "Casablanca",
     "type": "bilingual"
+  },
+  "bilingual-stations-carrieres-centrales": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.58300000, -7.56400000",
+    "country": "MA",
+    "icons": ["✌️"],
+    "link": "https://en.wikipedia.org/wiki/Carri%C3%A8res_Centrales",
+    "name": "Carrières Centrales",
+    "reference": "كريان سنطرال",
+    "type": "bilingual-stations"
   },
   "brt-casablanca": {
     "been": false,
@@ -21,13 +54,69 @@
     "type": "brt"
   },
   "cable-landings-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
     "link": "http://www.kidorf.com/DBResult.php?Landing=Casablanca,%20Morocco&Location=NONE&Repeatered=Both",
     "name": "Casablanca",
     "type": "cable-landings"
+  },
+  "cathedrals-casablanca": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.59111111, -7.62444444",
+    "country": "MA",
+    "icons": ["⛪️"],
+    "link": "https://en.wikipedia.org/wiki/Casablanca_Cathedral",
+    "name": "Casablanca",
+    "type": "cathedrals"
+  },
+  "depots-centre-de-maintenance": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.57863000, -7.51680000",
+    "country": "MA",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.57863_N_7.51680_W",
+    "name": "Centre de Maintenance",
+    "reference": "Casablanca",
+    "type": "depots"
+  },
+  "grand-unions-abdelmoumen": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.56948000, -7.62602000",
+    "country": "MA",
+    "icons": ["🦋"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.56948_N_7.62602_W",
+    "name": "Abdelmoumen",
+    "reference": "Casablanca",
+    "type": "grand-unions"
+  },
+  "grand-unions-derb-sultan": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.57192000, -7.59723000",
+    "country": "MA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅛</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.57192_N_7.59723_W",
+    "name": "Derb Sultan",
+    "reference": "Casablanca",
+    "type": "grand-unions"
+  },
+  "grand-unions-idriss-el-allam": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.56091000, -7.55194000",
+    "country": "MA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>⅝</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.56091_N_7.55194_W",
+    "name": "Idriss El Allam",
+    "reference": "Casablanca",
+    "type": "grand-unions"
   },
   "ikea-morocco-mall": {
     "been": false,
@@ -39,6 +128,37 @@
     "name": "Morocco Mall",
     "type": "ikea"
   },
+  "lighthouses-phare-del-hank": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.60992000, -7.65467000",
+    "country": "MA",
+    "icons": ["🕯️"],
+    "link": "https://fr.wikipedia.org/wiki/Phare_d%27El_Hank",
+    "name": "Phare d’El Hank",
+    "type": "lighthouses",
+    "wikidata": "Q28374611"
+  },
+  "malls-morocco-mall": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.57608150, -7.70689140",
+    "country": "MA",
+    "icons": ["🛍"],
+    "link": "https://en.wikipedia.org/wiki/Morocco_Mall",
+    "name": "Morocco Mall",
+    "type": "malls"
+  },
+  "mosques-al-mohammadi": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.57630556, -7.60605556",
+    "country": "MA",
+    "icons": ["🕌"],
+    "link": "https://en.wikipedia.org/wiki/Al-Mohammadi_Mosque",
+    "name": "Al-Mohammadi",
+    "type": "mosques"
+  },
   "mosques-hassan-ii": {
     "been": false,
     "city": "Casablanca",
@@ -48,6 +168,28 @@
     "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
     "name": "Hassan II",
     "type": "mosques"
+  },
+  "mosques-ould-el-hamra": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.60150000, -7.61834000",
+    "country": "MA",
+    "icons": ["🕌"],
+    "link": "https://en.wikipedia.org/wiki/Ould_el-Hamra_Mosque",
+    "name": "Ould el-Hamra",
+    "type": "mosques"
+  },
+  "no-metro-casablanca": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.53333333, -7.58333333",
+    "country": "MA",
+    "icons": ["🥺"],
+    "link": "https://en.wikipedia.org/wiki/Casablanca_Metro",
+    "name": "Casablanca",
+    "prefix": "4.27M",
+    "type": "no-metro",
+    "wikidata": "Q501481"
   },
   "ports-casablanca": {
     "been": false,
@@ -80,8 +222,19 @@
     "name": "Hassan II Mosque",
     "type": "reclaimed"
   },
-  "space-shuttle-mohammed-v-international-airport": {
+  "records-hassan-ii-mosque": {
     "been": false,
+    "city": "Casablanca",
+    "coords": "33.60850000, -7.63270000",
+    "country": "MA",
+    "icons": ["🥈"],
+    "info": "second tallest minaret ITW",
+    "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+    "name": "Hassan II Mosque",
+    "type": "records"
+  },
+  "space-shuttle-mohammed-v-international-airport": {
+    "been": true,
     "city": "Casablanca",
     "coords": "33.36722222, -7.58972222",
     "country": "MA",
@@ -89,6 +242,67 @@
     "link": "https://en.wikipedia.org/wiki/Mohammed_V_International_Airport",
     "name": "Mohammed V International Airport",
     "type": "space-shuttle"
+  },
+  "spas-hassan-ii-mosque-hammam": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.60850000, -7.63270000",
+    "country": "MA",
+    "icons": ["♨️"],
+    "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+    "name": "Hassan II Mosque Hammam",
+    "type": "spas"
+  },
+  "squares-place-mohammed-v": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.59120000, -7.61870000",
+    "country": "MA",
+    "icons": ["⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Mohammed_V_Square",
+    "name": "Place Mohammed V",
+    "reference": "Casablanca",
+    "type": "squares"
+  },
+  "stadiums-stade-mohammed-v": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.58277778, -7.64694444",
+    "country": "MA",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Stade_Mohammed_V",
+    "name": "Stade Mohammed V",
+    "type": "stadiums"
+  },
+  "stations-casablanca-port": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.59918100, -7.61187500",
+    "country": "MA",
+    "icons": ["🚉"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Casa-Port",
+    "name": "Casablanca Port",
+    "type": "stations"
+  },
+  "synagogues-casablanca": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.59681667, -7.62965000",
+    "country": "MA",
+    "icons": ["🕍"],
+    "link": "https://en.wikipedia.org/wiki/Temple_Beth-El_(Casablanca)",
+    "name": "Casablanca",
+    "type": "synagogues"
+  },
+  "towers-hassan-ii-mosque": {
+    "been": false,
+    "city": "Casablanca",
+    "coords": "33.60850000, -7.63270000",
+    "country": "MA",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+    "name": "Hassan II Mosque",
+    "type": "towers"
   },
   "trams-casablanca": {
     "been": false,
