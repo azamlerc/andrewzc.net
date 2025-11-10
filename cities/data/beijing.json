@@ -259,6 +259,18 @@
     "reference": "Beijing",
     "type": "fare-cards"
   },
+  "fare-cards-t-union": {
+    "been": false,
+    "city": "Beijing",
+    "coords": "39.91666667, 116.38333333",
+    "country": "CN",
+    "icons": ["🎟️"],
+    "link": "https://en.wikipedia.org/wiki/China_T-Union",
+    "name": "T-Union",
+    "reference": "China",
+    "type": "fare-cards",
+    "wikidata": "Q28418138"
+  },
   "fare-cards-yikatong": {
     "been": false,
     "city": "Beijing",
@@ -600,6 +612,17 @@
     "link": "https://en.wikipedia.org/wiki/Forbidden_City",
     "name": "Forbidden City",
     "type": "planned"
+  },
+  "rebuilt-beijing-south": {
+    "been": false,
+    "city": "Beijing",
+    "coords": "39.86583333, 116.37638889",
+    "country": "CN",
+    "icons": ["🏗️"],
+    "link": "https://en.wikipedia.org/wiki/Beijing_South_railway_station",
+    "name": "Beijing South",
+    "prefix": "2008",
+    "type": "rebuilt"
   },
   "second-cities-beijing": {
     "been": false,

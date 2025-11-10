@@ -100,6 +100,17 @@
     "reference": "Antwerp",
     "type": "depots"
   },
+  "expos-antwerp-expo": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.19201000, 4.39942000",
+    "country": "BE",
+    "icons": ["🎪"],
+    "link": "https://nl.wikipedia.org/wiki/Antwerp_Expo",
+    "name": "Antwerp Expo",
+    "type": "expos",
+    "wikidata": "Q114236105"
+  },
   "forts-antwerp": {
     "been": false,
     "city": "Antwerp",
@@ -477,8 +488,19 @@
     "name": "Wilrijk",
     "type": "ikea"
   },
+  "loops-antwerpen-centraal": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21844000, 4.42115000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.21834_N_4.42108_E",
+    "name": "Antwerpen Centraal",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
   "loops-boechout": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.16875000, 4.49332000",
     "country": "BE",
@@ -496,6 +518,17 @@
     "icons": ["🎈"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.20427_N_4.38852_E",
     "name": "Bolivarplaats",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-brilschanspark": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.19046000, 4.42552000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.19046_N_4.42552_E",
+    "name": "Brilschanspark",
     "reference": "Antwerp",
     "type": "loops"
   },
@@ -522,14 +555,47 @@
     "reference": "Antwerp",
     "type": "loops"
   },
+  "loops-engelselei": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21470000, 4.44558000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.21470_N_4.44558_E",
+    "name": "Engelselei",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
   "loops-fortveld": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.22546000, 4.51142000",
     "country": "BE",
     "icons": ["🎈"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.22542_N_4.51141_E",
     "name": "Fortveld",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-frans-de-arbrelaan": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.24004000, 4.44007000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.24004_N_4.44007_E",
+    "name": "Frans de Arbrelaan",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-groenenhoek": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.20049000, 4.43841000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.20049_N_4.43841_E",
+    "name": "Groenenhoek",
     "reference": "Antwerp",
     "type": "loops"
   },
@@ -567,7 +633,7 @@
     "type": "loops"
   },
   "loops-lelieplaats": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.17333000, 4.35168000",
     "country": "BE",
@@ -601,13 +667,24 @@
     "type": "loops"
   },
   "loops-luchtbal": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.26315000, 4.41934000",
     "country": "BE",
     "icons": ["🎈"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.26307_N_4.41933_E",
     "name": "Luchtbal",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-melsele": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21963000, 4.30366000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.21963_N_4.30366_E",
+    "name": "Melsele",
     "reference": "Antwerp",
     "type": "loops"
   },
@@ -634,7 +711,7 @@
     "type": "loops"
   },
   "loops-olympiade": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.18224000, 4.39178000",
     "country": "BE",
@@ -656,7 +733,7 @@
     "type": "loops"
   },
   "loops-schoonselhof": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.16917000, 4.36222000",
     "country": "BE",
@@ -667,7 +744,7 @@
     "type": "loops"
   },
   "loops-silsburg": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.20374000, 4.48320000",
     "country": "BE",
@@ -688,16 +765,60 @@
     "reference": "Antwerp",
     "type": "loops"
   },
+  "loops-sportpaleis": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.23061000, 4.44146000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.23061_N_4.44146_E",
+    "name": "Sportpaleis",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-van-overmeire": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22870000, 4.47869000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.22870_N_4.47869_E",
+    "name": "Van Overmeire",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
+  "loops-wommelgem": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21185000, 4.49150000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.21185_N_4.49150_E",
+    "name": "Wommelgem",
+    "reference": "Antwerp",
+    "type": "loops"
+  },
   "loops-zuid": {
     "been": true,
     "city": "Antwerp",
     "coords": "51.19943000, 4.39071000",
     "country": "BE",
     "icons": ["🎈"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.19943_N_4.39071_E",
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.19948_N_4.39074_E",
     "name": "Zuid",
     "reference": "Antwerp",
     "strike": true,
+    "type": "loops"
+  },
+  "loops-zwaantjes": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.18319000, 4.37325000",
+    "country": "BE",
+    "icons": ["🎈"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.18319_N_4.37325_E",
+    "name": "Zwaantjes",
+    "reference": "Antwerp",
     "type": "loops"
   },
   "malls-wijnegem": {
@@ -710,6 +831,38 @@
     "name": "Wijnegem",
     "type": "malls"
   },
+  "metro-people-astrid": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21888900, 4.42138900",
+    "country": "BE",
+    "icons": ["👴"],
+    "link": "https://nl.wikipedia.org/wiki/Astrid_(premetrostation)",
+    "name": "Astrid",
+    "type": "metro-people",
+    "wikidata": "Q2086959"
+  },
+  "metro-people-handel": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22416700, 4.43194400",
+    "countries": ["BE", "DE"],
+    "icons": ["👴"],
+    "link": "https://nl.wikipedia.org/wiki/Handel_(premetrostation)",
+    "name": "Handel",
+    "type": "metro-people",
+    "wikidata": "Q2317222"
+  },
+  "metro-places-londen": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.24105833, 4.40734444",
+    "countries": ["BE", "GB"],
+    "icons": ["🗺"],
+    "link": "https://nl.wikipedia.org/wiki/Havenhuis_(Antwerpen)",
+    "name": "Londen",
+    "type": "metro-places"
+  },
   "non-revenue-de-vrierestraat": {
     "been": true,
     "city": "Antwerp",
@@ -718,6 +871,39 @@
     "icons": ["💸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.20966_N_4.39759_E",
     "name": "De Vrièrestraat",
+    "reference": "Antwerp",
+    "type": "non-revenue"
+  },
+  "non-revenue-frans-de-arbrelaan": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.24004000, 4.44007000",
+    "country": "BE",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.24004_N_4.44007_E",
+    "name": "Frans de Arbrelaan",
+    "reference": "Antwerp",
+    "type": "non-revenue"
+  },
+  "non-revenue-ruggeveldlaan": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21541000, 4.48205000",
+    "country": "BE",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.21541_N_4.48205_E",
+    "name": "Ruggeveldlaan",
+    "reference": "Antwerp",
+    "type": "non-revenue"
+  },
+  "non-revenue-ten-eekhovelei": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22785000, 4.44770000",
+    "country": "BE",
+    "icons": ["💸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.22785_N_4.44770_E",
+    "name": "Ten Eekhovelei",
     "reference": "Antwerp",
     "type": "non-revenue"
   },
@@ -742,6 +928,60 @@
     "reference": "Antwerp",
     "type": "one-way"
   },
+  "parking-linkeroever": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22361111, 4.37361111",
+    "country": "BE",
+    "icons": ["🅿️"],
+    "link": "https://nl.wikipedia.org/wiki/Linkeroever_(Antwerpen)",
+    "name": "Linkeroever",
+    "type": "parking"
+  },
+  "parking-melsele": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22110000, 4.28170000",
+    "country": "BE",
+    "icons": ["🅿️"],
+    "link": "https://nl.wikipedia.org/wiki/Melsele",
+    "name": "Melsele",
+    "type": "parking",
+    "wikidata": "Q3305287"
+  },
+  "parking-merksem": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.24280000, 4.44140000",
+    "country": "BE",
+    "icons": ["🅿️"],
+    "link": "https://nl.wikipedia.org/wiki/Merksem",
+    "name": "Merksem",
+    "type": "parking",
+    "wikidata": "Q2543761"
+  },
+  "parking-wommelgem": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.20360000, 4.52190000",
+    "country": "BE",
+    "icons": ["🅿️"],
+    "link": "https://nl.wikipedia.org/wiki/Wommelgem",
+    "name": "Wommelgem",
+    "type": "parking",
+    "wikidata": "Q839037"
+  },
+  "parking-zwijndrecht": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21666667, 4.33333333",
+    "country": "BE",
+    "icons": ["🅿️"],
+    "link": "https://nl.wikipedia.org/wiki/Zwijndrecht_(België)",
+    "name": "Zwijndrecht",
+    "type": "parking",
+    "wikidata": "Q244690"
+  },
   "pcc-antwerp": {
     "been": true,
     "city": "Antwerp",
@@ -750,6 +990,7 @@
     "icons": ["🚃"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Antwerp",
     "name": "Antwerp",
+    "strike": true,
     "type": "pcc"
   },
   "ports-antwerp": {
@@ -771,6 +1012,18 @@
     "link": "https://en.wikipedia.org/wiki/Antwerp_Pre-metro",
     "name": "Antwerp",
     "type": "premetros"
+  },
+  "rebuilt-antwerpen-centraal": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21694444, 4.42111111",
+    "country": "BE",
+    "icons": ["🏗️"],
+    "link": "https://nl.wikipedia.org/wiki/Station_Antwerpen-Centraal",
+    "name": "Antwerpen Centraal",
+    "prefix": "2007",
+    "type": "rebuilt",
+    "wikidata": "Q800398"
   },
   "reverse-antwerpen-centraal": {
     "been": true,
@@ -846,6 +1099,18 @@
     "reference": "Antwerp",
     "type": "split-platform"
   },
+  "split-platform-groenplaats": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21861100, 4.40166700",
+    "country": "BE",
+    "icons": ["↕️"],
+    "link": "https://nl.wikipedia.org/wiki/Groenplaats_(premetrostation)",
+    "name": "Groenplaats",
+    "reference": "Antwerp",
+    "type": "split-platform",
+    "wikidata": "Q2397258"
+  },
   "squares-groenplaats": {
     "been": true,
     "city": "Antwerp",
@@ -867,6 +1132,16 @@
     "name": "Grote Markt",
     "reference": "Antwerp",
     "type": "squares"
+  },
+  "stadiums-bosuilstadion": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.23250000, 4.47222222",
+    "country": "BE",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Bosuilstadion",
+    "name": "Bosuilstadion",
+    "type": "stadiums"
   },
   "stations-antwerpen-centraal": {
     "been": true,
@@ -1002,6 +1277,17 @@
     "name": "Bazel",
     "type": "twin-cities"
   },
+  "twin-cities-zwijndrecht": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21666667, 4.33333333",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://nl.wikipedia.org/wiki/Zwijndrecht_(België)",
+    "name": "Zwijndrecht",
+    "type": "twin-cities",
+    "wikidata": "Q244690"
+  },
   "twin-stations-bolivarplaats": {
     "been": false,
     "city": "Antwerp",
@@ -1025,6 +1311,18 @@
     "reference": "Antwerp",
     "type": "twin-stations"
   },
+  "twin-stations-elisabeth": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22277800, 4.42416700",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://nl.wikipedia.org/wiki/Elisabeth_(premetrostation)",
+    "name": "Elisabeth",
+    "reference": "Antwerp",
+    "type": "twin-stations",
+    "wikidata": "Q2425931"
+  },
   "twin-stations-museum": {
     "been": true,
     "city": "Antwerp",
@@ -1034,6 +1332,18 @@
     "name": "Museum",
     "reference": "Antwerp",
     "type": "twin-stations"
+  },
+  "twin-stations-olympiade": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21777778, 4.40027778",
+    "country": "BE",
+    "icons": ["👯"],
+    "link": "https://nl.wikipedia.org/wiki/Olympisch_Stadion_(Antwerpen)",
+    "name": "Olympiade",
+    "reference": "Antwerp",
+    "type": "twin-stations",
+    "wikidata": "Q221956"
   },
   "twin-stations-opera": {
     "been": true,
@@ -1053,9 +1363,85 @@
     "country": "BE",
     "icons": ["🚧"],
     "info": "(5 km)",
-    "link": "https://fr.wikipedia.org/wiki/Pr%C3%A9m%C3%A9tro_d%27Anvers",
+    "link": "https://nl.wikipedia.org/wiki/Antwerpse_premetro",
     "name": "Antwerp Prémétro",
     "type": "useless"
+  },
+  "useless-carnot": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21760000, 4.42769000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Carnot_(premetrostation)",
+    "name": "Carnot",
+    "type": "useless",
+    "wikidata": "Q1912202"
+  },
+  "useless-collegelaan": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21300000, 4.44820000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Collegelaan_(premetrostation)",
+    "name": "Collegelaan",
+    "type": "useless",
+    "wikidata": "Q2492180"
+  },
+  "useless-drink": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21500000, 4.43430000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Drink_(premetrostation)",
+    "name": "Drink",
+    "type": "useless",
+    "wikidata": "Q2385756"
+  },
+  "useless-foorplein": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21764000, 4.44644000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Foorplein_(premetrostation)",
+    "name": "Foorplein",
+    "type": "useless",
+    "wikidata": "Q2601083"
+  },
+  "useless-morckhoven": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21060000, 4.45250000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Morckhoven_(premetrostation)",
+    "name": "Morckhoven",
+    "type": "useless",
+    "wikidata": "Q2874664"
+  },
+  "useless-sint-willibrordus": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.21888889, 4.43180556",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Willibrordus_(premetrostation)",
+    "name": "Sint Willibrordus",
+    "type": "useless"
+  },
+  "useless-stuivenberg": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22270000, 4.43680000",
+    "country": "BE",
+    "icons": ["🚧"],
+    "link": "https://nl.wikipedia.org/wiki/Stuivenberg_(premetrostation)",
+    "name": "Stuivenberg",
+    "type": "useless",
+    "wikidata": "Q1965504"
   },
   "walls-antwerp": {
     "been": true,

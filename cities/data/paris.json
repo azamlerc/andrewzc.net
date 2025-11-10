@@ -1894,6 +1894,16 @@
     "prefix": "1978",
     "type": "eurovision"
   },
+  "expos-paris-expo": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.83190000, 2.28910000",
+    "country": "FR",
+    "icons": ["🎪"],
+    "link": "https://en.wikipedia.org/wiki/Paris_Expo_Porte_de_Versailles",
+    "name": "Paris Expo",
+    "type": "expos"
+  },
   "factories-poissy": {
     "been": true,
     "city": "Paris",
@@ -5235,6 +5245,17 @@
     "name": "Petite Ceinture",
     "type": "rail-trails"
   },
+  "rebuilt-paris-montparnasse": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.84000000, 2.31861111",
+    "country": "FR",
+    "icons": ["🏗️"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_Montparnasse",
+    "name": "Paris Montparnasse",
+    "prefix": "1990",
+    "type": "rebuilt"
+  },
   "records-gare-du-nord": {
     "been": true,
     "city": "Paris",
@@ -6460,6 +6481,17 @@
     "icons": ["👯"],
     "link": "https://fr.wikipedia.org/wiki/Jaurès_(métro_de_Paris)",
     "name": "Jaurès",
+    "reference": "Paris",
+    "type": "twin-stations"
+  },
+  "twin-stations-olympiades": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82722222, 2.36833333",
+    "country": "FR",
+    "icons": ["👯"],
+    "link": "https://en.wikipedia.org/wiki/Olympiades_station",
+    "name": "Olympiades",
     "reference": "Paris",
     "type": "twin-stations"
   },

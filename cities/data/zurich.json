@@ -90,6 +90,18 @@
     "name": "Dolderbahn",
     "type": "rack"
   },
+  "rebuilt-zurich-hauptbahnhof": {
+    "been": true,
+    "city": "Zürich",
+    "coords": "47.37816944, 8.54017778",
+    "country": "CH",
+    "icons": ["🏗️"],
+    "link": "https://de.wikipedia.org/wiki/Z%C3%BCrich_Hauptbahnhof",
+    "name": "Zürich Hauptbahnhof",
+    "prefix": "2010",
+    "type": "rebuilt",
+    "wikidata": "Q224494"
+  },
   "switzerland-zurich": {
     "been": true,
     "city": "Zürich",
@@ -121,12 +133,12 @@
     "type": "trolleybuses"
   },
   "twin-cities-zurich": {
-    "been": false,
+    "been": true,
     "city": "Zürich",
-    "coords": "53.11194444, 5.39388889",
-    "country": "NL",
+    "coords": "47.37444444, 8.54111111",
+    "country": "CH",
     "icons": ["👯"],
-    "link": "https://en.wikipedia.org/wiki/Zurich,_Netherlands",
+    "link": "https://en.wikipedia.org/wiki/Z%C3%BCrich",
     "name": "Zurich",
     "type": "twin-cities"
   },
