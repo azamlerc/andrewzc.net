@@ -1,6 +1,18 @@
 {
+  "airports-casablanca-anfa": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.55694444, -7.66055556",
+    "country": "MA",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Casablanca%E2%80%93Anfa_Airport",
+    "name": "Casablanca Anfa",
+    "prefix": "CAS",
+    "strike": true,
+    "type": "airports"
+  },
   "airports-casablanca-mohammed-v": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.36722222, -7.58972222",
     "country": "MA",
@@ -10,8 +22,18 @@
     "prefix": "CMN",
     "type": "airports"
   },
+  "awa-hassan-ii-mosque": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.60850000, -7.63270000",
+    "country": "MA",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+    "name": "Hassan II Mosque",
+    "type": "awa"
+  },
   "beaches-ain-diab": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.58138000, -7.68451000",
     "country": "MA",
@@ -22,7 +44,7 @@
     "wikidata": "Q1070799"
   },
   "bilingual-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.00000000, 7.00000000",
     "countries": ["MA", "SA", "FR"],
@@ -33,7 +55,7 @@
     "type": "bilingual"
   },
   "bilingual-stations-carrieres-centrales": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.58300000, -7.56400000",
     "country": "MA",
@@ -43,8 +65,20 @@
     "reference": "كريان سنطرال",
     "type": "bilingual-stations"
   },
+  "bilingual-stations-hermitage": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "59.940555555555555, 30.31361111111111",
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "link": "https://en.wikipedia.org/wiki/Hermitage",
+    "name": "Hermitage",
+    "reference": "لرمتاج",
+    "type": "bilingual-stations",
+    "wikidata": "Q132783"
+  },
   "brt-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.53333333, -7.58333333",
     "country": "MA",
@@ -63,7 +97,7 @@
     "type": "cable-landings"
   },
   "cathedrals-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.59111111, -7.62444444",
     "country": "MA",
@@ -73,7 +107,7 @@
     "type": "cathedrals"
   },
   "depots-centre-de-maintenance": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.57863000, -7.51680000",
     "country": "MA",
@@ -83,8 +117,42 @@
     "reference": "Casablanca",
     "type": "depots"
   },
+  "depots-sidi-barnoussi": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.60915000, -7.50919000",
+    "country": "MA",
+    "icons": ["🏭"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.60915_N_7.50919_W",
+    "name": "Sidi Barnoussi",
+    "reference": "Casablanca",
+    "type": "depots"
+  },
+  "expos-casablanca": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.53333333, -7.58333333",
+    "country": "MA",
+    "icons": ["🎪"],
+    "link": "https://fr.wikipedia.org/wiki/Office_des_foires_et_expositions_de_Casablanca",
+    "name": "Casablanca",
+    "type": "expos",
+    "wikidata": "Q3349593"
+  },
+  "fare-cards-tramotion": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.53333333, -7.58333333",
+    "country": "MA",
+    "icons": ["🎟️"],
+    "link": "https://en.wikipedia.org/wiki/Casablanca_Tramway",
+    "name": "Tramotion",
+    "reference": "Casablanca",
+    "type": "fare-cards",
+    "wikidata": "Q1522904"
+  },
   "grand-unions-abdelmoumen": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.56948000, -7.62602000",
     "country": "MA",
@@ -95,7 +163,7 @@
     "type": "grand-unions"
   },
   "grand-unions-derb-sultan": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.57192000, -7.59723000",
     "country": "MA",
@@ -107,7 +175,7 @@
     "type": "grand-unions"
   },
   "grand-unions-idriss-el-allam": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.56091000, -7.55194000",
     "country": "MA",
@@ -117,6 +185,28 @@
     "name": "Idriss El Allam",
     "reference": "Casablanca",
     "type": "grand-unions"
+  },
+  "grand-unions-place-mohammed-v": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.56948000, -7.62602000",
+    "country": "MA",
+    "icons": ["🦋"],
+    "info": "<div class=\"fraction\"><div>¼</div></div>",
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.56948_N_7.62602_W",
+    "name": "Place Mohammed V",
+    "reference": "Casablanca",
+    "type": "grand-unions"
+  },
+  "hotels-moroccan-house-casablanca": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.59589220, -7.60902870",
+    "country": "MA",
+    "icons": ["🏨"],
+    "link": "https://www.booking.com/hotel/ma/moroccan-house-casablanca.html",
+    "name": "Moroccan House Casablanca",
+    "type": "hotels"
   },
   "ikea-morocco-mall": {
     "been": false,
@@ -129,7 +219,7 @@
     "type": "ikea"
   },
   "lighthouses-phare-del-hank": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60992000, -7.65467000",
     "country": "MA",
@@ -140,7 +230,7 @@
     "wikidata": "Q28374611"
   },
   "malls-morocco-mall": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.57608150, -7.70689140",
     "country": "MA",
@@ -149,8 +239,38 @@
     "name": "Morocco Mall",
     "type": "malls"
   },
+  "metro-people-mekka": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.58725800, -7.50108100",
+    "countries": ["MA", "SA"],
+    "icons": ["👴"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_de_Casablanca",
+    "name": "Mekka",
+    "type": "metro-people"
+  },
+  "metro-people-place-mohammed-v": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.58725800, -7.50108100",
+    "country": "MA",
+    "icons": ["👴"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_de_Casablanca",
+    "name": "Place Mohammed V",
+    "type": "metro-people"
+  },
+  "metro-places-mekka": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.58725800, -7.50108100",
+    "countries": ["MA", "SA"],
+    "icons": ["🗺"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_de_Casablanca",
+    "name": "Mekka",
+    "type": "metro-places"
+  },
   "mosques-al-mohammadi": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.57630556, -7.60605556",
     "country": "MA",
@@ -160,7 +280,7 @@
     "type": "mosques"
   },
   "mosques-hassan-ii": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
@@ -170,7 +290,7 @@
     "type": "mosques"
   },
   "mosques-ould-el-hamra": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60150000, -7.61834000",
     "country": "MA",
@@ -191,8 +311,31 @@
     "type": "no-metro",
     "wikidata": "Q501481"
   },
+  "offset-anciens-abattoirs": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.58725800, -7.50108100",
+    "country": "MA",
+    "icons": ["⚡️"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_de_Casablanca",
+    "name": "Anciens Abattoirs",
+    "reference": "Casablanca",
+    "type": "offset"
+  },
+  "pools-piscine-municipale-de-casablanca": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.58065010, -7.64560330",
+    "country": "MA",
+    "icons": ["🏊‍♂️"],
+    "link": "https://fr.wikipedia.org/wiki/Piscine_municipale_de_Casablanca",
+    "name": "Piscine Municipale de Casablanca",
+    "strike": true,
+    "type": "pools",
+    "wikidata": "Q3389232"
+  },
   "ports-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60000000, -7.61666667",
     "country": "MA",
@@ -213,7 +356,7 @@
     "type": "projects"
   },
   "reclaimed-hassan-ii-mosque": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
@@ -223,7 +366,7 @@
     "type": "reclaimed"
   },
   "records-hassan-ii-mosque": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
@@ -232,6 +375,30 @@
     "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
     "name": "Hassan II Mosque",
     "type": "records"
+  },
+  "short-turn-idriss-el-harti": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.53333333, -7.58333333",
+    "country": "MA",
+    "icons": ["↩️"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_4_du_tramway_de_Casablanca",
+    "name": "Idriss El Harti",
+    "reference": "Casablanca",
+    "type": "short-turn",
+    "wikidata": "Q112843286"
+  },
+  "short-turn-jardin-alesco": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.53333333, -7.58333333",
+    "country": "MA",
+    "icons": ["↩️"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_3_du_tramway_de_Casablanca",
+    "name": "Jardin Alesco",
+    "reference": "Casablanca",
+    "type": "short-turn",
+    "wikidata": "Q112843280"
   },
   "space-shuttle-mohammed-v-international-airport": {
     "been": true,
@@ -244,7 +411,7 @@
     "type": "space-shuttle"
   },
   "spas-hassan-ii-mosque-hammam": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
@@ -254,7 +421,7 @@
     "type": "spas"
   },
   "squares-place-mohammed-v": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.59120000, -7.61870000",
     "country": "MA",
@@ -263,6 +430,16 @@
     "name": "Place Mohammed V",
     "reference": "Casablanca",
     "type": "squares"
+  },
+  "stadiums-stade-larbi-benbarek": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.59569300, -7.60842000",
+    "country": "MA",
+    "icons": ["🏟️"],
+    "link": "https://fr.wikipedia.org/wiki/Stade_Larbi-Benbarek",
+    "name": "Stade Larbi-Benbarek",
+    "type": "stadiums"
   },
   "stadiums-stade-mohammed-v": {
     "been": false,
@@ -275,7 +452,7 @@
     "type": "stadiums"
   },
   "stations-casablanca-port": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.59918100, -7.61187500",
     "country": "MA",
@@ -285,7 +462,7 @@
     "type": "stations"
   },
   "synagogues-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.59681667, -7.62965000",
     "country": "MA",
@@ -294,8 +471,18 @@
     "name": "Casablanca",
     "type": "synagogues"
   },
+  "towers-casablanca-finance-city-tower": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.56350000, -7.66100000",
+    "country": "MA",
+    "icons": ["🗼"],
+    "link": "https://en.wikipedia.org/wiki/Casablanca_Finance_City_Tower",
+    "name": "Casablanca Finance City Tower",
+    "type": "towers"
+  },
   "towers-hassan-ii-mosque": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
@@ -305,7 +492,7 @@
     "type": "towers"
   },
   "trams-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.53333333, -7.58333333",
     "country": "MA",
@@ -315,7 +502,7 @@
     "type": "trams"
   },
   "twin-cities-casablanca": {
-    "been": false,
+    "been": true,
     "city": "Casablanca",
     "coords": "33.53333333, -7.58333333",
     "country": "MA",

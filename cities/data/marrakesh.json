@@ -1,6 +1,6 @@
 {
   "airports-marrakesh-menara": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.60694444, -8.03638889",
     "country": "MA",
@@ -11,7 +11,7 @@
     "type": "airports"
   },
   "anton-corbijn-bab-agnaou": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.61750000, -7.99070000",
     "country": "MA",
@@ -22,7 +22,7 @@
     "type": "anton-corbijn"
   },
   "anton-corbijn-bahia-palace": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62159167, -7.98223056",
     "country": "MA",
@@ -33,7 +33,7 @@
     "type": "anton-corbijn"
   },
   "anton-corbijn-ben-youssef-madrasa": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63194444, -7.98619444",
     "country": "MA",
@@ -44,7 +44,7 @@
     "type": "anton-corbijn"
   },
   "anton-corbijn-el-badi-palace": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.61830000, -7.98580000",
     "country": "MA",
@@ -66,7 +66,7 @@
     "type": "anton-corbijn"
   },
   "anton-corbijn-jemaa-el-fnaa": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62583333, -7.98944444",
     "country": "MA",
@@ -77,7 +77,7 @@
     "type": "anton-corbijn"
   },
   "anton-corbijn-koutoubia-mosque": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62412400, -7.99354100",
     "country": "MA",
@@ -109,8 +109,18 @@
     "name": "Amanjena",
     "type": "awa"
   },
+  "awa-bahia-palace": {
+    "been": true,
+    "city": "Marrakesh",
+    "coords": "31.62159167, -7.98223056",
+    "country": "MA",
+    "icons": ["🏩"],
+    "link": "https://en.wikipedia.org/wiki/Bahia_Palace",
+    "name": "Bahia Palace",
+    "type": "awa"
+  },
   "awa-ben-youssef-madrasa": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63194444, -7.98619444",
     "country": "MA",
@@ -120,7 +130,7 @@
     "type": "awa"
   },
   "awa-dar-el-bacha": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63157300, -7.99240300",
     "country": "MA",
@@ -130,8 +140,18 @@
     "reference": "Marrakech",
     "type": "awa"
   },
+  "awa-marrakech-railway-station": {
+    "been": true,
+    "city": "Marrakesh",
+    "coords": "31.63096000, -8.01726200",
+    "country": "MA",
+    "icons": ["🏩"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_Marrakech",
+    "name": "Marrakech Railway Station",
+    "type": "awa"
+  },
   "brt-marrakesh": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.60694444, -8.03638889",
     "country": "MA",
@@ -142,7 +162,7 @@
     "wikidata": "Q17621723"
   },
   "castles-bahia-palace": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62159167, -7.98223056",
     "country": "MA",
@@ -152,7 +172,7 @@
     "type": "castles"
   },
   "castles-dar-el-bacha": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63157300, -7.99240300",
     "country": "MA",
@@ -162,7 +182,7 @@
     "type": "castles"
   },
   "castles-el-badi-palace": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.61830000, -7.98580000",
     "country": "MA",
@@ -182,7 +202,7 @@
     "type": "greenhouses"
   },
   "hotels-riad-dar-medina-land": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62990240, -7.98064260",
     "country": "MA",
@@ -191,8 +211,19 @@
     "name": "Riad Dar Medina Land",
     "type": "hotels"
   },
+  "live-jemaa-el-fnaa": {
+    "been": true,
+    "city": "Marrakesh",
+    "coords": "31.62583333, -7.98944444",
+    "country": "MA",
+    "icons": ["🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Jemaa_el-Fnaa",
+    "name": "Jemaa el-Fnaa",
+    "reference": "Led Zeppelin",
+    "type": "live"
+  },
   "mosques-ben-youssef": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63192500, -7.98716111",
     "country": "MA",
@@ -202,7 +233,7 @@
     "type": "mosques"
   },
   "mosques-kasbah": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.61750000, -7.98888889",
     "country": "MA",
@@ -212,7 +243,7 @@
     "type": "mosques"
   },
   "mosques-koutoubia": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62412400, -7.99354100",
     "country": "MA",
@@ -233,7 +264,7 @@
     "wikidata": "Q30727522"
   },
   "rebuilt-marrakesh": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63111111, -8.01722222",
     "country": "MA",
@@ -243,8 +274,19 @@
     "prefix": "2008",
     "type": "rebuilt"
   },
+  "squares-jemaa-el-fnaa": {
+    "been": true,
+    "city": "Marrakesh",
+    "coords": "31.62583333, -7.98944444",
+    "country": "MA",
+    "icons": ["⛲️"],
+    "link": "https://en.wikipedia.org/wiki/Jemaa_el-Fnaa",
+    "name": "Jemaa el-Fnaa",
+    "reference": "Marrakesh",
+    "type": "squares"
+  },
   "stations-marrakech": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.63096000, -8.01726200",
     "country": "MA",
@@ -254,7 +296,7 @@
     "type": "stations"
   },
   "synagogues-marrakesh": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.62011111, -7.98233333",
     "country": "MA",
@@ -264,7 +306,7 @@
     "type": "synagogues"
   },
   "trolleybuses-marrakesh": {
-    "been": false,
+    "been": true,
     "city": "Marrakesh",
     "coords": "31.60694444, -8.03638889",
     "country": "MA",
@@ -273,5 +315,15 @@
     "name": "Marrakesh",
     "type": "trolleybuses",
     "wikidata": "Q17621723"
+  },
+  "walls-marrakesh": {
+    "been": true,
+    "city": "Marrakesh",
+    "coords": "31.63180000, -7.98930000",
+    "country": "MA",
+    "icons": ["🧱"],
+    "link": "https://en.wikipedia.org/wiki/Walls_of_Marrakesh",
+    "name": "Marrakesh",
+    "type": "walls"
   }
 }
