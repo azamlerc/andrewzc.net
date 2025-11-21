@@ -55,7 +55,7 @@ function enhancePage(places, pageName) {
   // --- PASS 1: collect insertion anchors from the unmodified DOM ---
   const ops = [];
 
-  document.querySelectorAll(".items a").forEach(a => {
+  document.querySelectorAll(".items a, .medium a").forEach(a => {
     const key = simplify(a.textContent.trim());
     const entry = places[key];
 
