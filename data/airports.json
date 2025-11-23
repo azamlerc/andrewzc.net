@@ -1,4 +1,17 @@
 {
+  "--info--": {
+    "icon": "🛫",
+    "map": {
+      "lat": 25,
+      "lon": 15,
+      "zoom": 2
+    },
+    "name": "Airports",
+    "prefixClass": "airport",
+    "size": "large",
+    "sort": "prefix",
+    "type": "place"
+  },
   "abidjan-felix-houphouet-boigny": {
     "been": true,
     "city": "Abidjan",
@@ -218,16 +231,6 @@
     "name": "Boeing Field",
     "prefix": "BFI"
   },
-  "bogota": {
-    "been": true,
-    "city": "Bogotá",
-    "coords": "4.70138889, -74.14694444",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://en.wikipedia.org/wiki/El_Dorado_International_Airport",
-    "name": "Bogotá",
-    "prefix": "BOG"
-  },
   "bogota-el-dorado": {
     "been": true,
     "city": "Bogotá",
@@ -364,25 +367,6 @@
     "link": "https://en.wikipedia.org/wiki/Capital_International_Airport_(Egypt)",
     "name": "Capital International Airport",
     "prefix": "CCE"
-  },
-  "capital-international_airport": {
-    "been": false,
-    "city": "Cairo",
-    "coords": "30.07583333, 31.83333333",
-    "country": "EG",
-    "icons": ["🇪🇬"],
-    "link": "https://en.wikipedia.org/wiki/Capital_International_Airport_(Egypt)",
-    "name": "Capital International_Airport",
-    "prefix": "CCE"
-  },
-  "cargagena-rafael-nunez": {
-    "been": true,
-    "coords": "10.44250000, -75.51305556",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://en.wikipedia.org/wiki/Rafael_Núñez_International_Airport",
-    "name": "Cargagena Rafael Núñez",
-    "prefix": "CTG"
   },
   "cartagena-rafael-nunez": {
     "been": true,
@@ -741,7 +725,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Kai_Tak_Airport",
-    "name": "Hong Kong Kai Tak"
+    "name": "Hong Kong Kai Tak",
+    "prefix": "HKG"
   },
   "istanbul": {
     "been": true,
@@ -997,6 +982,7 @@
     "prefix": "MLA"
   },
   "mammoth-yosemite": {
+    "badges": ["🛩"],
     "been": true,
     "coords": "37.62416667, -118.83888889",
     "country": "US",
@@ -1043,16 +1029,6 @@
     "link": "https://en.wikipedia.org/wiki/Sir_Seewoosagur_Ramgoolam_International_Airport",
     "name": "Mauritius Seewoosagur Ramgoolam",
     "prefix": "MRU"
-  },
-  "medellin": {
-    "been": true,
-    "city": "Medellín",
-    "coords": "6.16722222, -75.42666667",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova_International_Airport",
-    "name": "Medellín",
-    "prefix": "MDE"
   },
   "medellin-jose-maria-cordova": {
     "been": true,
@@ -1278,6 +1254,7 @@
     "prefix": "OUA"
   },
   "palo-alto": {
+    "badges": ["🛩"],
     "been": true,
     "coords": "37.46111111, -122.11500000",
     "country": "US",

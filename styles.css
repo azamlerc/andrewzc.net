@@ -60,7 +60,7 @@ a {
 	z-index: 10;
 }
 
-.items {
+.large {
 	font: 48pt Avenir; 
 	color: #999;
 /*  white-space: nowrap;*/
@@ -71,7 +71,7 @@ a {
 	color: #999;
 }
 
-.caption {
+.caption, .small {
 	font: 24pt Avenir; 
 	color: #999;
 	white-space: normal;
