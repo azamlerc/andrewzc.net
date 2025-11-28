@@ -7,6 +7,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/16759148",
     "name": "Bruxelles",
+    "order": 9,
     "type": "airbnb"
   },
   "airbnb-ixelles": {
@@ -17,6 +18,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/704824187076116401",
     "name": "Ixelles",
+    "order": 44,
     "type": "airbnb"
   },
   "airlines-brussels": {
@@ -94,6 +96,7 @@
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🚛"],
+    "link": "https://en.wikipedia.org/wiki/Brussels",
     "name": "Brussels",
     "type": "bi-articulated"
   },
@@ -172,6 +175,16 @@
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Centraal_Station_(metrostation)\">Centraal Station</a>",
     "link": "https://fr.wikipedia.org/wiki/Gare_Centrale_(métro_de_Bruxelles)",
     "name": "Gare Centrale",
+    "type": "bilingual-stations"
+  },
+  "bilingual-stations-gare-de-louest": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Weststation_(metrostation)\">Weststation</a>",
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_l%27Ouest_(métro_de_Bruxelles)",
+    "name": "Gare de l’Ouest",
     "type": "bilingual-stations"
   },
   "bilingual-stations-gare-du-midi": {
@@ -423,6 +436,7 @@
     "type": "closest"
   },
   "confluence-square-ambiorix": {
+    "badges": ["🌳"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84696500, 4.38344300",
@@ -612,6 +626,7 @@
     "type": "eurovision"
   },
   "expos-brussels-expo": {
+    "badges": ["🖼️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.89972222, 4.33805556",
@@ -764,6 +779,7 @@
     "type": "ikea"
   },
   "intermodal-albert": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Brussels",
     "coords": "50.82139000, 4.34194000",
@@ -814,6 +830,7 @@
     "type": "intermodal"
   },
   "intermodal-toots-thielemans": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Brussels",
     "coords": "50.83972200, 4.34166700",
@@ -856,6 +873,7 @@
     "type": "loopback"
   },
   "loops-altitude-cent": {
+    "badges": ["2️⃣"],
     "been": true,
     "city": "Brussels",
     "coords": "50.81664000, 4.33671000",
@@ -867,6 +885,7 @@
     "type": "loops"
   },
   "loops-bienfaiteurs": {
+    "badges": ["2️⃣"],
     "been": true,
     "city": "Brussels",
     "coords": "50.85800000, 4.38423000",
@@ -878,6 +897,7 @@
     "type": "loops"
   },
   "loops-churchill": {
+    "badges": ["2️⃣"],
     "been": true,
     "city": "Brussels",
     "coords": "50.81191000, 4.35394000",
@@ -923,6 +943,7 @@
     "type": "loops"
   },
   "loops-montgomery": {
+    "badges": ["3️⃣🚇"],
     "been": true,
     "city": "Brussels",
     "coords": "50.83754000, 4.40751000",
@@ -1289,6 +1310,7 @@
     "type": "pools"
   },
   "pools-piscine-victor-boin": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Brussels",
     "coords": "50.82665000, 4.34116000",
@@ -1309,6 +1331,7 @@
     "type": "pools"
   },
   "premetros-brussels": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
@@ -1353,6 +1376,7 @@
     "type": "projects"
   },
   "projects-brussels-tram-10-to-hopital-militaire": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Brussels",
     "country": "BE",
@@ -1635,6 +1659,7 @@
     "type": "split-platform"
   },
   "split-platform-toots-thielemans": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Brussels",
     "coords": "50.83972200, 4.34166700",
@@ -2138,6 +2163,7 @@
     "type": "universities"
   },
   "useless-anneessens": {
+    "badges": ["⬇️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84381000, 4.34478000",
@@ -2148,6 +2174,7 @@
     "type": "useless"
   },
   "useless-botanique": {
+    "badges": ["⬇️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.85361100, 4.36583300",
@@ -2168,6 +2195,7 @@
     "type": "useless"
   },
   "useless-brussels-chapel": {
+    "badges": ["🕸"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84111111, 4.34861111",
@@ -2178,6 +2206,7 @@
     "type": "useless"
   },
   "useless-brussels-congress": {
+    "badges": ["🕸"],
     "been": true,
     "city": "Brussels",
     "coords": "50.85222222, 4.36194444",
@@ -2258,6 +2287,7 @@
     "type": "useless"
   },
   "useless-louise": {
+    "badges": ["⬇️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.83583300, 4.35527800",
@@ -2279,6 +2309,7 @@
     "type": "useless"
   },
   "useless-parc": {
+    "badges": ["⬇️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84666700, 4.36250000",
@@ -2299,6 +2330,7 @@
     "type": "useless"
   },
   "useless-saint-guidon": {
+    "badges": ["⬇️"],
     "been": true,
     "city": "Brussels",
     "coords": "50.83500000, 4.30555600",

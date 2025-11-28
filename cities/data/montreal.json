@@ -32,13 +32,23 @@
     "type": "apple"
   },
   "apple-sainte-catherine": {
+    "been": true,
+    "city": "Montréal",
+    "coords": "45.49764200, -73.57574500",
+    "country": "FR",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/fr/retail/sainte-catherine/",
+    "name": "Sainte-Catherine",
+    "type": "apple"
+  },
+  "apple-sainte-catherine-(ca)": {
     "been": false,
     "city": "Montréal",
-    "coords": "45.49765000, -73.57577000",
+    "coords": "45.49764200, -73.57574500",
     "country": "CA",
     "icons": ["🍏"],
     "link": "https://www.apple.com/ca/retail/saintecatherine/",
-    "name": "Sainte-Catherine",
+    "name": "Sainte-Catherine (CA)",
     "type": "apple"
   },
   "bilingual-montreal": {
@@ -161,6 +171,7 @@
     "type": "cross-platform"
   },
   "elevator-stations-edouard-montpetit": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Montréal",
     "coords": "45.51000000, -73.61250000",
@@ -221,6 +232,7 @@
     "type": "ikea"
   },
   "islands-ile-sainte-helene": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Montréal",
     "coords": "45.51777778, -73.53388889",

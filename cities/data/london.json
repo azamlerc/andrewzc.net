@@ -242,6 +242,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/734052180642710899",
     "name": "Croydon",
+    "order": 59,
     "type": "airbnb"
   },
   "airbnb-hackney": {
@@ -252,6 +253,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/3456547",
     "name": "Hackney",
+    "order": 0,
     "type": "airbnb"
   },
   "airport-metros-heathrow-terminal-4": {
@@ -394,7 +396,7 @@
     "icons": ["📷"],
     "link": "https://en.wikipedia.org/wiki/London",
     "name": "London",
-    "reference": "U2",
+    "reference": "Sting",
     "type": "anton-corbijn"
   },
   "apple-battersea": {
@@ -1025,6 +1027,7 @@
     "type": "closed-lines"
   },
   "closed-trams-croydon": {
+    "badges": ["1️⃣"],
     "been": true,
     "city": "London",
     "coords": "51.34405600, -0.10594400",
@@ -1690,6 +1693,7 @@
     "type": "eurovision"
   },
   "expos-earls-court": {
+    "badges": ["💡"],
     "been": true,
     "city": "London",
     "coords": "51.48888889, -0.19777778",
@@ -1774,6 +1778,7 @@
     "type": "ferris-wheels"
   },
   "ferris-wheels-london-eye": {
+    "badges": ["🎡"],
     "been": true,
     "city": "London",
     "coords": "51.50330000, -0.11940000",
@@ -2240,6 +2245,7 @@
     "type": "late-night"
   },
   "late-night-night-tube": {
+    "badges": ["🗓️"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -2994,6 +3000,7 @@
     "type": "northernmost"
   },
   "observatories-greenwich": {
+    "badges": ["🇺🇳"],
     "been": true,
     "city": "London",
     "coords": "51.47700000, 0.00000000",
@@ -3004,6 +3011,7 @@
     "type": "observatories"
   },
   "olympics-london": {
+    "badges": ["🗼"],
     "been": true,
     "city": "London",
     "coords": "51.50722222, -0.12750000",
@@ -3095,6 +3103,7 @@
     "type": "pools"
   },
   "pools-ironmonger-row-baths": {
+    "badges": ["🧖"],
     "been": true,
     "city": "London",
     "coords": "51.52664300, -0.09483000",
@@ -3176,6 +3185,7 @@
     "type": "projects"
   },
   "projects-london-east-london-line": {
+    "badges": ["🚇"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -3187,6 +3197,7 @@
     "type": "projects"
   },
   "projects-london-elizabeth-line": {
+    "badges": ["🚇"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -3198,6 +3209,7 @@
     "type": "projects"
   },
   "projects-london-northern-line-to-battersea": {
+    "badges": ["🚇"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -3220,6 +3232,7 @@
     "type": "projects"
   },
   "projects-london-piccadilly-line-to-heathrow-terminal-5": {
+    "badges": ["🚇"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -3465,6 +3478,7 @@
     "type": "rolling-stock"
   },
   "rolling-stock-2024-stock": {
+    "badges": ["🚧"],
     "been": false,
     "city": "London",
     "country": "GB",
@@ -3550,6 +3564,7 @@
     "type": "roundabouts"
   },
   "short-platform-": {
+    "badges": ["🇪🇸"],
     "been": true,
     "city": "London",
     "country": "GB",
@@ -4195,6 +4210,7 @@
     "type": "squares"
   },
   "stadiums-earls-court": {
+    "badges": ["🔦"],
     "been": true,
     "city": "London",
     "coords": "51.48888889, -0.19777778",

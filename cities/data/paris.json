@@ -557,6 +557,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/47337542",
     "name": "Aulnay-sous-Bois",
+    "order": 50,
     "type": "airbnb"
   },
   "airbnb-aulnay-sous-bois-2-": {
@@ -567,6 +568,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/1942394",
     "name": "Aulnay-sous-Bois 2 ",
+    "order": 54,
     "type": "airbnb"
   },
   "airbnb-issy-les-moulineaux": {
@@ -577,6 +579,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/6160018",
     "name": "Issy-les-Moulineaux",
+    "order": 5,
     "type": "airbnb"
   },
   "airbnb-massy": {
@@ -587,6 +590,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/30589099",
     "name": "Massy",
+    "order": 48,
     "type": "airbnb"
   },
   "airbnb-ourcq": {
@@ -597,6 +601,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/933756068586537240",
     "name": "Ourcq",
+    "order": 62,
     "type": "airbnb"
   },
   "airbnb-paris": {
@@ -607,6 +612,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/21988036",
     "name": "Paris",
+    "order": 12,
     "type": "airbnb"
   },
   "airbnb-pomponne": {
@@ -617,6 +623,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/869653546968487677",
     "name": "Pomponne",
+    "order": 61,
     "type": "airbnb"
   },
   "airport-metros-aeroport": {
@@ -882,6 +889,7 @@
     "type": "branches"
   },
   "brt-paris": {
+    "badges": ["🚌"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -913,6 +921,7 @@
     "type": "bumper"
   },
   "cable-cars-cable-1": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "coords": "48.76841000, 2.46445000",
@@ -1106,6 +1115,7 @@
     "type": "cemeteries"
   },
   "circle-lines-line-15": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "country": "FR",
@@ -1116,6 +1126,7 @@
     "type": "circle-lines"
   },
   "closed-trams-paris": {
+    "badges": ["1️⃣"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -1481,6 +1492,7 @@
     "type": "deep-level"
   },
   "deep-level-saint-maur-creteil": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "coords": "48.80689720, 2.47277222",
@@ -1661,6 +1673,7 @@
     "type": "elevator-stations"
   },
   "elevator-stations-saint-maur–creteil": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "coords": "48.80689720, 2.47277222",
@@ -1895,6 +1908,7 @@
     "type": "eurovision"
   },
   "expos-paris-expo": {
+    "badges": ["🚗"],
     "been": true,
     "city": "Paris",
     "coords": "48.83190000, 2.28910000",
@@ -2187,6 +2201,7 @@
     "type": "france"
   },
   "france-paris": {
+    "badges": ["🏡"],
     "been": true,
     "city": "Paris",
     "coords": "48.85666667, 2.35222222",
@@ -2197,6 +2212,7 @@
     "type": "france"
   },
   "france-seine-saint-denis": {
+    "badges": ["🏡"],
     "been": true,
     "city": "Paris",
     "coords": "48.90000000, 2.48333333",
@@ -2450,6 +2466,7 @@
     "type": "infill"
   },
   "intermodal-pointe-du-lac": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Paris",
     "coords": "48.76878622, 2.46481061",
@@ -2460,6 +2477,7 @@
     "type": "intermodal"
   },
   "islands-ile-de-la-cite": {
+    "badges": ["🚇🚗🚶‍♂️"],
     "been": true,
     "city": "Paris",
     "coords": "48.85472222, 2.34750000",
@@ -2470,6 +2488,7 @@
     "type": "islands"
   },
   "islands-ile-saint-germain": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "Paris",
     "coords": "48.82220000, 2.24630000",
@@ -2480,6 +2499,7 @@
     "type": "islands"
   },
   "islands-ile-saint-louis": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "Paris",
     "coords": "48.85166667, 2.35638889",
@@ -2491,6 +2511,7 @@
     "type": "islands"
   },
   "islands-ile-seguin": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "Paris",
     "coords": "48.82378056, 2.23324167",
@@ -2565,6 +2586,7 @@
     "type": "longest-tunnels"
   },
   "longest-tunnels-line-15": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -2609,6 +2631,7 @@
     "type": "longest-tunnels"
   },
   "loopback-champigny-centre": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Paris",
     "coords": "48.81611400, 2.50216100",
@@ -2681,6 +2704,7 @@
     "type": "loops"
   },
   "loops-nation": {
+    "badges": ["2️⃣"],
     "been": true,
     "city": "Paris",
     "coords": "48.84846575, 2.39590574",
@@ -3079,6 +3103,7 @@
     "type": "metro-people"
   },
   "metro-people-gustave-roussy": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "coords": "48.79330000, 2.34926000",
@@ -4711,6 +4736,7 @@
     "type": "planned"
   },
   "pools-aquaboulevard": {
+    "badges": ["🧖"],
     "been": true,
     "city": "Paris",
     "coords": "48.83290000, 2.27603000",
@@ -4831,6 +4857,7 @@
     "type": "pools"
   },
   "pools-piscine-roger-le-gall": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "city": "Paris",
     "coords": "48.84167000, 2.41249000",
@@ -4884,6 +4911,7 @@
     "type": "projects"
   },
   "projects-paris-line-1-automatisation": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -4906,6 +4934,7 @@
     "type": "projects"
   },
   "projects-paris-line-12-to-front-populaire": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -4917,6 +4946,7 @@
     "type": "projects"
   },
   "projects-paris-line-12-to-mairie-daubervilliers": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -4928,6 +4958,7 @@
     "type": "projects"
   },
   "projects-paris-line-14-to-aeroport-dorly": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -4939,6 +4970,7 @@
     "type": "projects"
   },
   "projects-paris-line-14-to-mairie-de-saint-ouen": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -4950,6 +4982,7 @@
     "type": "projects"
   },
   "projects-paris-line-14-to-saint-denis-pleyel": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5016,6 +5049,7 @@
     "type": "projects"
   },
   "projects-paris-line-4-to-bagneux": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5027,6 +5061,7 @@
     "type": "projects"
   },
   "projects-paris-line-4-to-mairie-de-montrouge": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5093,6 +5128,7 @@
     "type": "projects"
   },
   "projects-paris-rer-e-to-nanterre-la-folie": {
+    "badges": ["🚇"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5139,6 +5175,7 @@
     "wikidata": "Q90"
   },
   "projects-paris-tram-10": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5150,6 +5187,7 @@
     "type": "projects"
   },
   "projects-paris-tram-11-express": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5183,6 +5221,7 @@
     "type": "projects"
   },
   "projects-paris-tram-12-express": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5194,6 +5233,7 @@
     "type": "projects"
   },
   "projects-paris-tram-13-express": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5205,6 +5245,7 @@
     "type": "projects"
   },
   "projects-paris-tram-2-to-pont-de-bezons": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5216,6 +5257,7 @@
     "type": "projects"
   },
   "projects-paris-tram-2-to-porte-de-versailles": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5227,6 +5269,7 @@
     "type": "projects"
   },
   "projects-paris-tram-3-to-porte-de-la-chapelle": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5238,6 +5281,7 @@
     "type": "projects"
   },
   "projects-paris-tram-3b-to-porte-dasnieres": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5249,6 +5293,7 @@
     "type": "projects"
   },
   "projects-paris-tram-3b-to-porte-dauphine": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5260,6 +5305,7 @@
     "type": "projects"
   },
   "projects-paris-tram-4-to-montfermeil": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5271,6 +5317,7 @@
     "type": "projects"
   },
   "projects-paris-tram-5": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5282,6 +5329,7 @@
     "type": "projects"
   },
   "projects-paris-tram-6": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5293,6 +5341,7 @@
     "type": "projects"
   },
   "projects-paris-tram-7": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5304,6 +5353,7 @@
     "type": "projects"
   },
   "projects-paris-tram-8": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5326,6 +5376,7 @@
     "type": "projects"
   },
   "projects-paris-tram-9": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -5358,6 +5409,7 @@
     "type": "pyramids"
   },
   "rail-trails-coulee-verte-rene-dumont": {
+    "badges": ["🥾"],
     "been": true,
     "city": "Paris",
     "coords": "48.84938300, 2.37155600",
@@ -5368,6 +5420,7 @@
     "type": "rail-trails"
   },
   "rail-trails-petite-ceinture": {
+    "badges": ["🥾"],
     "been": true,
     "city": "Paris",
     "coords": "48.89653470, 2.37453130",
@@ -5470,6 +5523,7 @@
     "type": "reverse"
   },
   "reverse-longueville": {
+    "badges": ["◀️"],
     "been": true,
     "city": "Paris",
     "coords": "48.51354200, 3.25000500",
@@ -5603,6 +5657,7 @@
     "type": "rolling-stock"
   },
   "rolling-stock-mr6v": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "country": "FR",
@@ -5759,6 +5814,7 @@
     "type": "single-platform"
   },
   "single-platform-danube": {
+    "badges": ["*"],
     "been": true,
     "city": "Paris",
     "coords": "48.88180772, 2.39420146",
@@ -5954,6 +6010,7 @@
     "wikidata": "Q818517"
   },
   "stadiums-bercy": {
+    "badges": ["🎤"],
     "been": true,
     "city": "Paris",
     "coords": "48.83861111, 2.37861111",
@@ -6300,6 +6357,7 @@
     "type": "tintin"
   },
   "towers-eiffel-tower": {
+    "badges": ["⬆️"],
     "been": true,
     "city": "Paris",
     "coords": "48.85822222, 2.29450000",

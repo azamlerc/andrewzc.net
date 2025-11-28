@@ -117,6 +117,17 @@
     "reference": "運動場",
     "type": "bilingual-stations"
   },
+  "bilingual-stations-hospital-union": {
+    "been": false,
+    "city": "Macau",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Union_Hospital_station",
+    "name": "Hospital Union",
+    "reference": "協和醫院",
+    "type": "bilingual-stations",
+    "wikidata": "Q17500826"
+  },
   "bilingual-stations-jockey-clube": {
     "been": false,
     "city": "Macau",
@@ -179,6 +190,7 @@
     "countries": ["MO", "CN"],
     "icons": ["🛂"],
     "name": "Macau",
+    "order": 1,
     "type": "border-posts"
   },
   "cable-landings-macau": {
@@ -243,6 +255,7 @@
     "wikidata": "Q19854824"
   },
   "islands-macau": {
+    "badges": ["⛴️🚶‍♂️"],
     "been": true,
     "city": "Macau",
     "coords": "22.19000000, 113.54000000",

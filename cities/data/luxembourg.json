@@ -36,8 +36,32 @@
     "coords": "49.77000000, 6.13000000",
     "country": "LU",
     "icons": ["🚛"],
+    "link": "https://en.wikipedia.org/wiki/Luxembourg",
     "name": "Luxembourg",
     "type": "bi-articulated"
+  },
+  "bilingual-stations-europaparlement": {
+    "been": true,
+    "city": "Luxembourg",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Parlement_europ%C3%A9en\">Parlement européen</a>",
+    "link": "https://lb.wikipedia.org/wiki/Europ%C3%A4escht_Parlament",
+    "name": "Europaparlement",
+    "type": "bilingual-stations",
+    "wikidata": "Q8889"
+  },
+  "bilingual-stations-leschte-steiwer": {
+    "been": true,
+    "city": "Luxembourg",
+    "coords": "49.59645, 6.1355",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg\">Dernier Sol</a>",
+    "link": "https://lb.wikipedia.org/wiki/Leschte_Steiwer",
+    "name": "Leschte Steiwer",
+    "type": "bilingual-stations",
+    "wikidata": "Q13103763"
   },
   "bilingual-stations-nationalbibliotheik": {
     "been": true,
@@ -50,6 +74,26 @@
     "name": "Nationalbibliothéik",
     "type": "bilingual-stations",
     "wikidata": "Q856651"
+  },
+  "bilingual-stations-paraisser-plaz": {
+    "been": true,
+    "city": "Luxembourg",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_Paris_(Luxembourg)\">Place de Paris</a>",
+    "link": "https://lb.wikipedia.org/wiki/Place_de_Paris_(Stad_Lëtzebuerg)",
+    "name": "Paräisser Plaz",
+    "type": "bilingual-stations"
+  },
+  "bilingual-stations-stareplaz": {
+    "been": true,
+    "city": "Luxembourg",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_l%27Étoile_(Luxembourg)\">Étoile</a>",
+    "link": "https://lb.wikipedia.org/wiki/Place_de_l%27Étoile_(Stad_Lëtzebuerg)",
+    "name": "Stäreplaz",
+    "type": "bilingual-stations"
   },
   "capitals-luxembourg": {
     "been": true,
@@ -92,6 +136,7 @@
     "type": "cathedrals"
   },
   "closed-trams-luxembourg": {
+    "badges": ["1️⃣"],
     "been": true,
     "city": "Luxembourg",
     "country": "LU",
@@ -280,6 +325,7 @@
     "type": "metro-places"
   },
   "parking-luxexpo": {
+    "badges": ["🚗"],
     "been": true,
     "city": "Luxembourg",
     "coords": "49.63602000, 6.17290000",
@@ -290,6 +336,7 @@
     "type": "parking"
   },
   "pools-badanstalt": {
+    "badges": ["🧖"],
     "been": true,
     "city": "Luxembourg",
     "coords": "49.61367000, 6.12885000",
@@ -300,6 +347,7 @@
     "type": "pools"
   },
   "projects-luxembourg-tram-t1": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Luxembourg",
     "country": "LU",
@@ -311,6 +359,7 @@
     "type": "projects"
   },
   "projects-luxembourg-tram-t1-to-aeroport": {
+    "badges": ["👀"],
     "been": true,
     "city": "Luxembourg",
     "country": "LU",
@@ -322,6 +371,7 @@
     "type": "projects"
   },
   "projects-luxembourg-tram-t1-to-gare-centrale": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Luxembourg",
     "country": "LU",
@@ -333,6 +383,7 @@
     "type": "projects"
   },
   "projects-luxembourg-tram-t1-to-lycee-bonnevoie": {
+    "badges": ["🚋"],
     "been": true,
     "city": "Luxembourg",
     "country": "LU",

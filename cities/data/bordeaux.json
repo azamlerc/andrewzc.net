@@ -6,6 +6,7 @@
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/1122347498044081672",
     "name": "Bordeaux",
+    "order": 78,
     "type": "airbnb"
   },
   "airports-bordeaux-merignac": {
@@ -29,6 +30,17 @@
     "name": "Bordeaux",
     "type": "alt-power"
   },
+  "apple-sainte-catherine": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84202000, -0.57443000",
+    "country": "FR",
+    "icons": ["🍏"],
+    "link": "https://www.apple.com/fr/retail/sainte-catherine/",
+    "name": "Sainte-Catherine",
+    "type": "apple",
+    "wikidata": "Q380271"
+  },
   "arches-porte-de-bourgogne": {
     "been": true,
     "city": "Bordeaux",
@@ -51,6 +63,7 @@
     "type": "cathedrals"
   },
   "closed-trams-bordeaux": {
+    "badges": ["1️⃣"],
     "been": true,
     "city": "Bordeaux",
     "coords": "44.84000000, -0.58000000",

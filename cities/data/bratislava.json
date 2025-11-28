@@ -7,6 +7,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/879319966717827979",
     "name": "Bratislava",
+    "order": 58,
     "type": "airbnb"
   },
   "airports-bratislava": {
@@ -47,6 +48,7 @@
     "coords": "48.15000000, 17.11666667",
     "country": "SK",
     "icons": ["🚛"],
+    "link": "https://en.wikipedia.org/wiki/Slovakia",
     "name": "Slovakia",
     "type": "bi-articulated"
   },
@@ -57,6 +59,7 @@
     "countries": ["AT", "SK"],
     "icons": ["🛂"],
     "name": "Bratislava",
+    "order": 7,
     "strike": true,
     "type": "border-posts"
   },
@@ -427,6 +430,7 @@
     "type": "loops"
   },
   "loops-kutiky": {
+    "badges": ["2️⃣"],
     "been": true,
     "city": "Bratislava",
     "coords": "48.16650000, 17.04631000",
@@ -438,6 +442,7 @@
     "type": "loops"
   },
   "loops-malinovskeho-namesti": {
+    "badges": ["3️⃣"],
     "been": true,
     "city": "Brno",
     "coords": "49.19521000, 16.61427000",
@@ -686,6 +691,7 @@
     "type": "tripoints"
   },
   "trolleybuses-bratislava": {
+    "badges": ["🚎"],
     "been": true,
     "city": "Bratislava",
     "coords": "48.14388889, 17.10972222",

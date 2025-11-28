@@ -7,6 +7,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/7503964",
     "name": "Lyon",
+    "order": 6,
     "type": "airbnb"
   },
   "airbnb-lyon-2": {
@@ -17,6 +18,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/15093646",
     "name": "Lyon 2",
+    "order": 8,
     "type": "airbnb"
   },
   "airport-trams-lyon-saint-exupery": {
@@ -115,6 +117,7 @@
     "type": "cathedrals"
   },
   "closed-trams-lyon": {
+    "badges": ["1️⃣"],
     "been": true,
     "city": "Lyon",
     "coords": "45.76000000, 4.84000000",
@@ -740,6 +743,7 @@
     "type": "trams"
   },
   "trolleybuses-lyon": {
+    "badges": ["🚎"],
     "been": true,
     "city": "Lyon",
     "coords": "45.76000000, 4.84000000",

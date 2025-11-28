@@ -156,7 +156,19 @@
     "strike": true,
     "type": "bilingual-stations"
   },
+  "bilingual-stations-austin": {
+    "been": false,
+    "city": "Austin",
+    "coords": "22.30460000, 114.16650000",
+    "country": "HK",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/柯士甸站\">柯士甸</a>",
+    "link": "https://en.wikipedia.org/wiki/Austin_station_(MTR)",
+    "name": "Austin",
+    "type": "bilingual-stations"
+  },
   "bilingual-stations-causeway-bay": {
+    "badges": ["🍏"],
     "been": false,
     "city": "Hong Kong",
     "coords": "22.28020000, 114.18350000",
@@ -319,6 +331,17 @@
     "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/海怡半島站\">海怡半島</a>",
     "link": "https://en.wikipedia.org/wiki/South_Horizons_station",
     "name": "South Horizons",
+    "type": "bilingual-stations"
+  },
+  "bilingual-stations-sunny-bay": {
+    "been": false,
+    "city": "Hong Kong",
+    "coords": "22.33180000, 114.02880000",
+    "country": "HK",
+    "icons": ["✌️"],
+    "info": "<a class=\"dark\" href=\"https://zh.wikipedia.org/wiki/欣澳站\">欣澳</a>",
+    "link": "https://en.wikipedia.org/wiki/Sunny_Bay_station",
+    "name": "Sunny Bay",
     "type": "bilingual-stations"
   },
   "bilingual-stations-university": {
@@ -712,6 +735,7 @@
     "type": "infill"
   },
   "islands-hong-kong": {
+    "badges": ["✈️⛴️🚆"],
     "been": true,
     "city": "Hong Kong",
     "coords": "22.30000000, 114.20000000",
@@ -1027,6 +1051,7 @@
     "type": "planned"
   },
   "ports-hong-kong": {
+    "badges": ["⛴️"],
     "been": true,
     "city": "Hong Kong",
     "coords": "22.33333333, 114.13333333",
@@ -1037,6 +1062,7 @@
     "type": "ports"
   },
   "projects-hong-kong-airport-express": {
+    "badges": ["🚝"],
     "been": true,
     "city": "Hong Kong",
     "country": "HK",
