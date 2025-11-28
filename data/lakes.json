@@ -8,7 +8,8 @@
     },
     "name": "Lakes",
     "size": "large",
-    "type": "place"
+    "type": "place",
+    "sort": "iconCount"
   },
   "agawam-lake": {
     "been": true,
@@ -34,6 +35,7 @@
     "name": "Bad Salzungen Burgzee"
   },
   "blaue-lagune": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "51.07102000, 14.92894000",
     "country": "DE",
@@ -42,6 +44,7 @@
     "name": "Blaue Lagune"
   },
   "blazejsky-rybnik": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "49.99829000, 13.01681000",
     "country": "CZ",
@@ -90,6 +93,7 @@
     "name": "Crater Lake"
   },
   "dechantlacke": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "city": "Vienna",
     "coords": "48.18333300, 16.51666700",
@@ -115,6 +119,7 @@
     "name": "Deer Valley Lake"
   },
   "dublin-pond": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "42.90638889, -72.08388889",
     "country": "US",
@@ -163,6 +168,7 @@
     "name": "Great Salt Lake"
   },
   "green-lane-reservoir": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "40.34934000, -75.49191000",
     "country": "US",
@@ -197,6 +203,7 @@
     "name": "Großer Müggelsee"
   },
   "großwelzheimer-badzee": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "50.05903000, 9.01617000",
     "country": "DE",
@@ -231,6 +238,7 @@
     "wikidata": "Q2311941"
   },
   "jezioro-wilkowskie": {
+    "badges": ["*"],
     "been": true,
     "coords": "52.248055555556, 15.466944444444",
     "country": "PL",
@@ -240,6 +248,7 @@
     "wikidata": "Q11726916"
   },
   "jezioro-zbaszynskie": {
+    "badges": ["*"],
     "been": true,
     "coords": "52.236388888889, 15.9025",
     "country": "PL",
@@ -258,6 +267,7 @@
     "wikidata": "Q15219201"
   },
   "kamenny-rybnik": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "city": "Plzeň",
     "coords": "49.79084000, 13.38083000",
@@ -373,6 +383,7 @@
     "name": "Lake Champlain"
   },
   "lake-chaubunagungamaug": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "42.04166667, -71.84166667",
     "country": "US",
@@ -389,6 +400,7 @@
     "name": "Lake Como"
   },
   "lake-congamond": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "42.05472222, -72.77083333",
     "country": "US",
@@ -478,6 +490,7 @@
     "name": "Lake Ladoga"
   },
   "lake-lauderdale": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
@@ -733,6 +746,7 @@
     "name": "Lake Winnipeg"
   },
   "leaser-lake": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "40.66861111, -75.83472222",
     "country": "US",
@@ -749,6 +763,7 @@
     "name": "Loch Lomond"
   },
   "loch-ness": {
+    "badges": ["🐍"],
     "been": true,
     "coords": "57.30000000, -4.45000000",
     "country": "GB-SCT",
@@ -774,6 +789,7 @@
     "name": "Mono Lake"
   },
   "mountain-lake": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "48.65686000, -122.81796000",
     "country": "US",
@@ -782,6 +798,7 @@
     "name": "Mountain Lake"
   },
   "novobystricky-rybnik": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "49.01156000, 15.10679000",
     "country": "CZ",
@@ -790,6 +807,7 @@
     "name": "Novobystřický Rybník"
   },
   "oquaga-lake": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
@@ -806,12 +824,14 @@
     "name": "Reindeer Lake"
   },
   "riga-lake": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
     "name": "Riga Lake"
   },
   "sagsjon": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "59.34556000, 18.28014000",
     "country": "SE",
@@ -836,6 +856,7 @@
     "name": "Sarygamysh Lake"
   },
   "seneca-lake": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "42.65555556, -76.89750000",
     "country": "US",
@@ -844,6 +865,7 @@
     "name": "Seneca Lake"
   },
   "singliser-see": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "51.05757000, 9.31325000",
     "country": "DE",
@@ -885,6 +907,7 @@
     "name": "Thunersee"
   },
   "tuckahoe-state-park": {
+    "badges": ["🏊‍♂️"],
     "been": true,
     "coords": "38.96771000, -75.94011000",
     "country": "US",

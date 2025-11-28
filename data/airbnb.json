@@ -8,6 +8,8 @@
     },
     "name": "Airbnbs",
     "size": "large",
+    "sort": "order",
+    "tags": ["ordered"],
     "type": "place"
   },
   "ain-sokhna": {
@@ -16,12 +18,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/48628250",
-    "name": "Ain Sokhna"
-  },
-  "airbnbs": {
-    "been": true,
-    "icons": ["🏡"],
-    "name": "Airbnbs"
+    "name": "Ain Sokhna",
+    "order": 36
   },
   "alexandria": {
     "been": true,
@@ -30,7 +28,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/48277601",
-    "name": "Alexandria"
+    "name": "Alexandria",
+    "order": 33
   },
   "aulnay-sous-bois": {
     "been": true,
@@ -39,7 +38,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/47337542",
-    "name": "Aulnay-sous-Bois"
+    "name": "Aulnay-sous-Bois",
+    "order": 50
   },
   "aulnay-sous-bois-2-": {
     "been": true,
@@ -48,7 +48,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/1942394",
-    "name": "Aulnay-sous-Bois 2 "
+    "name": "Aulnay-sous-Bois 2 ",
+    "order": 54
   },
   "bogota": {
     "been": true,
@@ -57,7 +58,8 @@
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://www.airbnb.com/rooms/27854281",
-    "name": "Bogotá"
+    "name": "Bogotá",
+    "order": 71
   },
   "bordeaux": {
     "been": true,
@@ -65,7 +67,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/1122347498044081672",
-    "name": "Bordeaux"
+    "name": "Bordeaux",
+    "order": 78
   },
   "bratislava": {
     "been": true,
@@ -74,7 +77,8 @@
     "country": "SK",
     "icons": ["🇸🇰"],
     "link": "https://www.airbnb.com/rooms/879319966717827979",
-    "name": "Bratislava"
+    "name": "Bratislava",
+    "order": 58
   },
   "briancon": {
     "been": true,
@@ -82,7 +86,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/44100444",
-    "name": "Briançon"
+    "name": "Briançon",
+    "order": 46
   },
   "bruxelles": {
     "been": true,
@@ -91,7 +96,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://www.airbnb.com/rooms/16759148",
-    "name": "Bruxelles"
+    "name": "Bruxelles",
+    "order": 9
   },
   "budapest": {
     "been": true,
@@ -100,7 +106,8 @@
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "https://www.booking.com/hotel/hu/budapestayz-weiner-apartments.html",
-    "name": "Budapest"
+    "name": "Budapest",
+    "order": 63
   },
   "cairo": {
     "been": true,
@@ -109,7 +116,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/31276486",
-    "name": "Cairo"
+    "name": "Cairo",
+    "order": 32
   },
   "cairo-2": {
     "been": true,
@@ -118,7 +126,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/24166811",
-    "name": "Cairo 2"
+    "name": "Cairo 2",
+    "order": 39
   },
   "cartagena": {
     "been": true,
@@ -127,6 +136,7 @@
     "icons": ["🇨🇴"],
     "link": "https://www.airbnb.com/rooms/11983540",
     "name": "Cartagena",
+    "order": 72,
     "wikidata": "Q37053572"
   },
   "clinton-corners": {
@@ -136,6 +146,7 @@
     "icons": ["🇺🇸"],
     "link": "https://www.vrbo.com/7017156ha",
     "name": "Clinton Corners",
+    "order": 64,
     "wikidata": "Q122571524"
   },
   "conchil-le-temple": {
@@ -144,7 +155,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/l/iiwIgZ5F",
-    "name": "Conchil-le-Temple"
+    "name": "Conchil-le-Temple",
+    "order": 66
   },
   "cotonou": {
     "been": true,
@@ -153,7 +165,8 @@
     "country": "BJ",
     "icons": ["🇧🇯"],
     "link": "https://www.airbnb.com/rooms/53128339",
-    "name": "Cotonou"
+    "name": "Cotonou",
+    "order": 41
   },
   "croydon": {
     "been": true,
@@ -162,7 +175,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://www.airbnb.com/rooms/734052180642710899",
-    "name": "Croydon"
+    "name": "Croydon",
+    "order": 59
   },
   "dakar": {
     "been": true,
@@ -171,7 +185,8 @@
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "https://www.airbnb.com/rooms/6294788",
-    "name": "Dakar"
+    "name": "Dakar",
+    "order": 23
   },
   "dakar-2": {
     "been": true,
@@ -180,7 +195,8 @@
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "https://www.airbnb.com/rooms/45628820",
-    "name": "Dakar 2"
+    "name": "Dakar 2",
+    "order": 24
   },
   "dakar-3": {
     "been": true,
@@ -189,7 +205,8 @@
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "https://www.airbnb.com/rooms/24239907",
-    "name": "Dakar 3"
+    "name": "Dakar 3",
+    "order": 43
   },
   "dunkirk": {
     "been": true,
@@ -197,7 +214,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/992798567321092527",
-    "name": "Dunkirk"
+    "name": "Dunkirk",
+    "order": 65
   },
   "fort-portal": {
     "been": true,
@@ -205,7 +223,8 @@
     "country": "UG",
     "icons": ["🇺🇬"],
     "link": "https://www.airbnb.com/rooms/18982264",
-    "name": "Fort Portal"
+    "name": "Fort Portal",
+    "order": 30
   },
   "gettysburg": {
     "been": true,
@@ -213,7 +232,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/26274500",
-    "name": "Gettysburg"
+    "name": "Gettysburg",
+    "order": 20
   },
   "gisenyi": {
     "been": true,
@@ -221,7 +241,8 @@
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "https://www.airbnb.com/rooms/23492107",
-    "name": "Gisenyi"
+    "name": "Gisenyi",
+    "order": 27
   },
   "graz": {
     "been": true,
@@ -230,7 +251,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://www.airbnb.com/rooms/53351445",
-    "name": "Graz"
+    "name": "Graz",
+    "order": 57
   },
   "hackney": {
     "been": true,
@@ -239,7 +261,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://www.airbnb.com/rooms/3456547",
-    "name": "Hackney"
+    "name": "Hackney",
+    "order": 0
   },
   "hurghada": {
     "been": true,
@@ -247,7 +270,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/44630526",
-    "name": "Hurghada"
+    "name": "Hurghada",
+    "order": 37
   },
   "ibadan": {
     "been": true,
@@ -256,7 +280,8 @@
     "country": "NG",
     "icons": ["🇳🇬"],
     "link": "https://www.airbnb.com/rooms/48082823",
-    "name": "Ibadan"
+    "name": "Ibadan",
+    "order": 52
   },
   "issy-les-moulineaux": {
     "been": true,
@@ -265,7 +290,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/6160018",
-    "name": "Issy-les-Moulineaux"
+    "name": "Issy-les-Moulineaux",
+    "order": 5
   },
   "ixelles": {
     "been": true,
@@ -274,7 +300,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://www.airbnb.com/rooms/704824187076116401",
-    "name": "Ixelles"
+    "name": "Ixelles",
+    "order": 44
   },
   "kamienna-gora": {
     "been": true,
@@ -282,7 +309,8 @@
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.77904_N_16.03682_E",
-    "name": "Kamienna Góra"
+    "name": "Kamienna Góra",
+    "order": 75
   },
   "kampala": {
     "been": true,
@@ -291,7 +319,8 @@
     "country": "UG",
     "icons": ["🇺🇬"],
     "link": "https://www.airbnb.com/rooms/35538834",
-    "name": "Kampala"
+    "name": "Kampala",
+    "order": 29
   },
   "kigali": {
     "been": true,
@@ -300,7 +329,8 @@
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "https://www.airbnb.com/rooms/18239120",
-    "name": "Kigali"
+    "name": "Kigali",
+    "order": 28
   },
   "kigali-2": {
     "been": true,
@@ -309,7 +339,8 @@
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "https://www.airbnb.com/rooms/614133677695382934",
-    "name": "Kigali 2"
+    "name": "Kigali 2",
+    "order": 40
   },
   "kirkjubæjarklaustur": {
     "been": true,
@@ -317,7 +348,8 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://www.airbnb.com/rooms/3705079",
-    "name": "Kirkjubæjarklaustur"
+    "name": "Kirkjubæjarklaustur",
+    "order": 3
   },
   "kortrijk": {
     "been": true,
@@ -325,7 +357,8 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "https://www.airbnb.com/rooms/23690985",
-    "name": "Kortrijk"
+    "name": "Kortrijk",
+    "order": 16
   },
   "lagos": {
     "been": true,
@@ -334,7 +367,8 @@
     "country": "NG",
     "icons": ["🇳🇬"],
     "link": "https://www.airbnb.com/rooms/50255351",
-    "name": "Lagos"
+    "name": "Lagos",
+    "order": 51
   },
   "lagos-2": {
     "been": true,
@@ -343,7 +377,8 @@
     "country": "NG",
     "icons": ["🇳🇬"],
     "link": "https://www.airbnb.com/rooms/33292853",
-    "name": "Lagos 2"
+    "name": "Lagos 2",
+    "order": 53
   },
   "lamu": {
     "been": true,
@@ -351,7 +386,8 @@
     "country": "KE",
     "icons": ["🇰🇪"],
     "link": "https://www.airbnb.com/rooms/24845111",
-    "name": "Lamu"
+    "name": "Lamu",
+    "order": 26
   },
   "lisboa": {
     "been": true,
@@ -360,7 +396,8 @@
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://www.airbnb.com/rooms/20098324",
-    "name": "Lisboa"
+    "name": "Lisboa",
+    "order": 13
   },
   "lower-east-side": {
     "been": true,
@@ -369,7 +406,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/8080954",
-    "name": "Lower East Side"
+    "name": "Lower East Side",
+    "order": 7
   },
   "luxor": {
     "been": true,
@@ -377,7 +415,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/38220466",
-    "name": "Luxor"
+    "name": "Luxor",
+    "order": 38
   },
   "lyon": {
     "been": true,
@@ -386,7 +425,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/7503964",
-    "name": "Lyon"
+    "name": "Lyon",
+    "order": 6
   },
   "lyon-2": {
     "been": true,
@@ -395,7 +435,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/15093646",
-    "name": "Lyon 2"
+    "name": "Lyon 2",
+    "order": 8
   },
   "marsa-matruh": {
     "been": true,
@@ -403,7 +444,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/19940810",
-    "name": "Marsa Matruh"
+    "name": "Marsa Matruh",
+    "order": 34
   },
   "massy": {
     "been": true,
@@ -412,7 +454,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/30589099",
-    "name": "Massy"
+    "name": "Massy",
+    "order": 48
   },
   "mbarara": {
     "been": true,
@@ -420,7 +463,8 @@
     "country": "UG",
     "icons": ["🇺🇬"],
     "link": "https://www.airbnb.com/rooms/22482730",
-    "name": "Mbarara"
+    "name": "Mbarara",
+    "order": 31
   },
   "medellin": {
     "been": true,
@@ -429,14 +473,16 @@
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://www.airbnb.com/rooms/873789068269441384",
-    "name": "Medellín"
+    "name": "Medellín",
+    "order": 70
   },
   "mers-les-bains": {
     "been": true,
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/24603732",
-    "name": "Mers-les-Bains"
+    "name": "Mers-les-Bains",
+    "order": 74
   },
   "mexico-city": {
     "been": true,
@@ -445,7 +491,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://www.airbnb.com/rooms/1039152542487108116",
-    "name": "Mexico City"
+    "name": "Mexico City",
+    "order": 68
   },
   "montauk": {
     "been": true,
@@ -453,7 +500,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/6951481",
-    "name": "Montauk"
+    "name": "Montauk",
+    "order": 10
   },
   "nairobi": {
     "been": true,
@@ -462,7 +510,8 @@
     "country": "KE",
     "icons": ["🇰🇪"],
     "link": "https://www.airbnb.com/rooms/20911493",
-    "name": "Nairobi"
+    "name": "Nairobi",
+    "order": 25
   },
   "napoli": {
     "been": true,
@@ -471,14 +520,16 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://www.airbnb.com/rooms/639474721706566471",
-    "name": "Napoli"
+    "name": "Napoli",
+    "order": 47
   },
   "orduna": {
     "been": true,
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://www.booking.com/hotel/es/centrico-apartamento-con-encanto-ebi02770.html",
-    "name": "Orduña"
+    "name": "Orduña",
+    "order": 77
   },
   "oslo": {
     "been": true,
@@ -487,7 +538,8 @@
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://www.airbnb.com/rooms/972283059471503233",
-    "name": "Oslo"
+    "name": "Oslo",
+    "order": 67
   },
   "ouagadougou": {
     "been": true,
@@ -496,7 +548,8 @@
     "country": "BF",
     "icons": ["🇧🇫"],
     "link": "https://www.airbnb.com/rooms/31608361",
-    "name": "Ouagadougou"
+    "name": "Ouagadougou",
+    "order": 42
   },
   "ourcq": {
     "been": true,
@@ -505,7 +558,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/933756068586537240",
-    "name": "Ourcq"
+    "name": "Ourcq",
+    "order": 62
   },
   "paris": {
     "been": true,
@@ -514,7 +568,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/21988036",
-    "name": "Paris"
+    "name": "Paris",
+    "order": 12
   },
   "philadelphia": {
     "been": true,
@@ -523,7 +578,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/24608914",
-    "name": "Philadelphia"
+    "name": "Philadelphia",
+    "order": 15
   },
   "pittsburgh": {
     "been": true,
@@ -532,14 +588,16 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/30901607",
-    "name": "Pittsburgh"
+    "name": "Pittsburgh",
+    "order": 49
   },
   "plomion": {
     "been": true,
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/1268063621725507239",
-    "name": "Plomion"
+    "name": "Plomion",
+    "order": 76
   },
   "pomponne": {
     "been": true,
@@ -548,7 +606,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/869653546968487677",
-    "name": "Pomponne"
+    "name": "Pomponne",
+    "order": 61
   },
   "porto": {
     "been": true,
@@ -557,7 +616,8 @@
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "https://www.airbnb.com/rooms/29813558",
-    "name": "Porto"
+    "name": "Porto",
+    "order": 14
   },
   "punxsutawney": {
     "been": true,
@@ -565,7 +625,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/4734245",
-    "name": "Punxsutawney"
+    "name": "Punxsutawney",
+    "order": 21
   },
   "reykjanesbær": {
     "been": true,
@@ -573,7 +634,8 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://www.airbnb.com/rooms/1347096",
-    "name": "Reykjanesbær"
+    "name": "Reykjanesbær",
+    "order": 1
   },
   "san-jose": {
     "been": true,
@@ -583,6 +645,7 @@
     "icons": ["🇨🇷"],
     "link": "https://www.airbnb.com/rooms/51233728",
     "name": "San José",
+    "order": 69,
     "wikidata": "Q16553"
   },
   "santo-domingo": {
@@ -592,7 +655,8 @@
     "country": "DO",
     "icons": ["🇩🇴"],
     "link": "https://www.airbnb.com/rooms/52104372",
-    "name": "Santo Domingo"
+    "name": "Santo Domingo",
+    "order": 73
   },
   "schwalmtal": {
     "been": true,
@@ -600,7 +664,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://www.airbnb.com/rooms/51255969",
-    "name": "Schwalmtal"
+    "name": "Schwalmtal",
+    "order": 55
   },
   "siwa": {
     "been": true,
@@ -608,7 +673,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://www.airbnb.com/rooms/32910833",
-    "name": "Siwa"
+    "name": "Siwa",
+    "order": 35
   },
   "south-bend": {
     "been": true,
@@ -616,7 +682,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/53807509",
-    "name": "South Bend"
+    "name": "South Bend",
+    "order": 60
   },
   "strasbourg": {
     "been": true,
@@ -625,7 +692,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/683910842572603717",
-    "name": "Strasbourg"
+    "name": "Strasbourg",
+    "order": 45
   },
   "stroudsburg": {
     "been": true,
@@ -633,7 +701,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/35275756",
-    "name": "Stroudsburg"
+    "name": "Stroudsburg",
+    "order": 18
   },
   "sweet-valley": {
     "been": true,
@@ -641,7 +710,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/34039236",
-    "name": "Sweet Valley"
+    "name": "Sweet Valley",
+    "order": 19
   },
   "toulouse": {
     "been": true,
@@ -650,7 +720,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://www.airbnb.com/rooms/3529430",
-    "name": "Toulouse"
+    "name": "Toulouse",
+    "order": 4
   },
   "vienna": {
     "been": true,
@@ -659,7 +730,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://www.airbnb.com/rooms/855906058847271396",
-    "name": "Vienna"
+    "name": "Vienna",
+    "order": 56
   },
   "vik": {
     "been": true,
@@ -667,7 +739,8 @@
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "https://www.airbnb.com/rooms/1607102",
-    "name": "Vik"
+    "name": "Vik",
+    "order": 2
   },
   "walton": {
     "been": true,
@@ -675,7 +748,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/43442629",
-    "name": "Walton"
+    "name": "Walton",
+    "order": 22
   },
   "washington": {
     "been": true,
@@ -684,7 +758,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/5792741",
-    "name": "Washington"
+    "name": "Washington",
+    "order": 11
   },
   "windham": {
     "been": true,
@@ -692,6 +767,7 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.airbnb.com/rooms/40621075",
-    "name": "Windham"
+    "name": "Windham",
+    "order": 17
   }
 }

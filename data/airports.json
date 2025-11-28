@@ -7,7 +7,9 @@
       "zoom": "2"
     },
     "name": "Airports",
+    "prefixClass": "airport",
     "size": "large",
+    "sort": "prefix",
     "type": "place"
   },
   "abidjan-felix-houphouet-boigny": {
@@ -665,6 +667,16 @@
     "link": "https://en.wikipedia.org/wiki/Gatwick_Airport",
     "name": "Gatwick",
     "prefix": "LGW"
+  },
+  "gaza": {
+    "been": false,
+    "coords": "31.24638889, 34.27611111",
+    "country": "PS",
+    "icons": ["🇵🇸"],
+    "link": "https://en.wikipedia.org/wiki/Yasser_Arafat_International_Airport",
+    "name": "Gaza",
+    "prefix": "GZA",
+    "strike": true
   },
   "gaza-yasser-arafat": {
     "been": false,

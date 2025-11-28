@@ -3,6 +3,8 @@
     "icon": "🏗️",
     "name": "Rebuilt Stations",
     "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
     "type": "place"
   },
   "antwerpen-centraal": {
@@ -80,6 +82,7 @@
     "wikidata": "Q704354"
   },
   "gent-sint-pieters": {
+    "badges": ["🚧"],
     "been": true,
     "coords": "51.035556, 3.710556",
     "country": "BE",
@@ -140,6 +143,7 @@
     "prefix": "2008"
   },
   "mechelen": {
+    "badges": ["🚧"],
     "been": true,
     "coords": "51.0175, 4.483611",
     "country": "BE",
@@ -160,6 +164,7 @@
     "prefix": "2021"
   },
   "new-york-penn-station": {
+    "badges": ["😡"],
     "been": true,
     "city": "New York",
     "coords": "40.750638, -73.993899",

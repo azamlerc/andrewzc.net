@@ -1,8 +1,10 @@
 {
   "--info--": {
+    "header": "Locations where live albums were recorded.",
     "icon": "🏟️",
     "name": "Live",
     "size": "medium",
+    "tags": ["reference-key"],
     "type": "place"
   },
   "across-a-wire": {
@@ -128,8 +130,12 @@
   },
   "live": {
     "been": true,
+    "city": "Liverpool",
+    "coords": "53.407222222222224, -2.9916666666666667",
     "icons": ["🏟️"],
-    "name": "Live"
+    "link": "https://en.wikipedia.org/wiki/Live",
+    "name": "Live",
+    "wikidata": "Q24826"
   },
   "meadowlands-arena-dave-matthews-band": {
     "been": true,

@@ -7,9 +7,12 @@
     "reference": "Paris"
   },
   "--info--": {
+    "header": "Metro stations with only one platform edge.",
     "icon": "1️⃣",
     "name": "Single Platform",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "alberti": {
@@ -91,6 +94,7 @@
     "wikidata": "Q339108"
   },
   "danube": {
+    "badges": ["*"],
     "been": true,
     "city": "Paris",
     "coords": "48.88180772, 2.39420146",
@@ -185,11 +189,6 @@
     "link": "https://fr.wikipedia.org/wiki/Pré-Saint-Gervais_(métro_de_Paris)",
     "name": "Pré-St-Gervais",
     "reference": "Paris"
-  },
-  "single-platform": {
-    "been": true,
-    "icons": ["1️⃣"],
-    "name": "Single Platform"
   },
   "south-ferry": {
     "been": true,

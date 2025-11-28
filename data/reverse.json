@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Stations where train services reverse direction to continue.",
     "icon": "◀️",
     "name": "Reverse",
     "size": "large",
@@ -29,6 +30,7 @@
     "wikidata": "Q1754819"
   },
   "antwerpen-centraal": {
+    "badges": ["◀️"],
     "been": true,
     "city": "Antwerp",
     "coords": "51.21687, 4.421235",
@@ -129,6 +131,7 @@
     "name": "Glostrup"
   },
   "hakodate": {
+    "badges": ["◀️"],
     "been": true,
     "city": "Hakodate",
     "coords": "41.77373600, 140.72639800",
@@ -173,6 +176,7 @@
     "strike": true
   },
   "longueville": {
+    "badges": ["◀️"],
     "been": true,
     "city": "Paris",
     "coords": "48.513542, 3.250005",
@@ -265,9 +269,11 @@
   "reverse": {
     "been": true,
     "icons": ["◀️"],
-    "name": "Reverse"
+    "name": "Reverse",
+    "wikidata": "Q1542661"
   },
   "san-francisco-airport": {
+    "badges": ["◀️"],
     "been": true,
     "city": "San Francisco",
     "coords": "37.61640000, -122.39100000",

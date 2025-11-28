@@ -3,6 +3,8 @@
     "icon": "↕️",
     "name": "Split Platforms",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "125th-street": {
@@ -751,11 +753,6 @@
     "name": "Snowdon",
     "reference": "Montréal"
   },
-  "split-platforms": {
-    "been": true,
-    "icons": ["↕️"],
-    "name": "Split Platforms"
-  },
   "stevens": {
     "been": false,
     "city": "Singapore",
@@ -797,6 +794,7 @@
     "reference": "Hong Kong"
   },
   "toots-thielemans": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Brussels",
     "coords": "50.83972200, 4.34166700",

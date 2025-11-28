@@ -8,6 +8,8 @@
     },
     "name": "Anton Corbijn",
     "size": "medium",
+    "sort": "order",
+    "tags": ["people", "reference-key"],
     "type": "place"
   },
   "amsterdam-elvis-costello": {
@@ -254,6 +256,7 @@
     "icons": ["🇺🇸", "🚃"],
     "link": "https://en.wikipedia.org/wiki/Hackescher_Markt",
     "name": "Hackescher Markt",
+    "order": -1,
     "reference": "U2",
     "wikidata": "Q648165"
   },
@@ -304,6 +307,7 @@
     "icons": ["🇺🇸", "🏜️"],
     "link": "https://en.wikipedia.org/wiki/Joshua_Tree_National_Park",
     "name": "Joshua Tree National Park",
+    "order": -2,
     "reference": "U2"
   },
   "koutoubia-mosque-depeche-mode": {
@@ -677,6 +681,7 @@
   },
   "majorelle-garden-depeche-mode": {
     "been": false,
+    "city": "Marrakesh",
     "coords": "31.64277778, -8.00305556",
     "country": "MA",
     "icons": ["🇲🇦"],
@@ -686,6 +691,7 @@
   },
   "marrakech-depeche-mode": {
     "been": false,
+    "city": "Marrakesh",
     "coords": "31.63000000, -8.00888889",
     "country": "MA",
     "icons": ["🇲🇦"],
@@ -695,6 +701,7 @@
   },
   "marrakech-u2": {
     "been": false,
+    "city": "Marrakesh",
     "coords": "31.63000000, -8.00888889",
     "country": "MA",
     "icons": ["🇲🇦"],

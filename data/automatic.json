@@ -3,6 +3,8 @@
     "icon": "🤖",
     "name": "Automatic Metros",
     "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
     "type": "place"
   },
   "bangalore-yellow-line": {
@@ -73,12 +75,6 @@
     "link": "https://en.wikipedia.org/wiki/Brescia_Metro",
     "name": "Brescia Metro",
     "prefix": "2013"
-  },
-  "budapest-line-2": {
-    "been": false,
-    "country": "HU",
-    "link": "https://en.wikipedia.org/wiki/Line_2_(Budapest_Metro)",
-    "name": "Budapest Line 2"
   },
   "budapest-line-4": {
     "been": true,
@@ -520,17 +516,6 @@
     "name": "São Paulo Line 4",
     "prefix": "2010"
   },
-  "sao-paulo-metro": {
-    "been": false,
-    "city": "São Paulo",
-    "coords": "-23.550394444, -46.633947222",
-    "country": "BR",
-    "icons": ["🇧🇷"],
-    "info": "(6 lines)",
-    "link": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Metro",
-    "name": "São Paulo Metro",
-    "prefix": "2010"
-  },
   "seoul-lrt": {
     "been": false,
     "country": "KR",
@@ -595,16 +580,6 @@
     "link": "https://en.wikipedia.org/wiki/Mass_Rapid_Transit_(Singapore)",
     "name": "Singapore",
     "prefix": "2003"
-  },
-  "singapore-lrt": {
-    "been": false,
-    "country": "SG",
-    "icons": ["🇸🇬"],
-    "info": "(3 lines)",
-    "link": "https://en.wikipedia.org/wiki/Light_Rail_Transit_(Singapore)",
-    "name": "Singapore LRT",
-    "prefix": "1999",
-    "wikidata": "Q2231347"
   },
   "sofia-line-3": {
     "been": false,
@@ -757,6 +732,7 @@
     "wikidata": "Q1534900"
   },
   "vienna-line-u5": {
+    "badges": ["🚧"],
     "been": false,
     "country": "AT",
     "icons": ["🇦🇹"],

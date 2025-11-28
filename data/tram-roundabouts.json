@@ -8,6 +8,8 @@
     },
     "name": "Tram Roundabouts",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "alt-kopenick": {
@@ -28,6 +30,7 @@
     "reference": "Brussels"
   },
   "americka": {
+    "badges": ["🚎"],
     "been": true,
     "city": "Plzeň",
     "coords": "49.74332000, 13.37864000",
@@ -608,11 +611,6 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=29.9433_N_90.0725_W",
     "name": "Tivoli Circle",
     "reference": "New Orleans"
-  },
-  "tram-roundabouts": {
-    "been": true,
-    "icons": ["🔄"],
-    "name": "Tram Roundabouts"
   },
   "trg-zrtava-fasizma": {
     "been": false,

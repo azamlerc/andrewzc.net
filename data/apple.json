@@ -8,6 +8,7 @@
     },
     "name": "Apple Stores",
     "size": "large",
+    "tags": ["google"],
     "type": "place"
   },
   "4th-street": {
@@ -1129,6 +1130,7 @@
     "name": "Downtown Brooklyn"
   },
   "downtown-detroit": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Detroit",
     "coords": "42.33388889, -83.04777778",
@@ -1923,13 +1925,6 @@
     "icons": ["🇨🇳"],
     "link": "https://www.apple.com.cn/retail/jiefangbei/",
     "name": "Jiefangbei"
-  },
-  "jing'an": {
-    "been": false,
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://www.apple.com/cn/retail/jingan/",
-    "name": "Jing'an"
   },
   "jingan": {
     "been": false,
@@ -3458,14 +3453,22 @@
     "name": "Saint Louis Galleria"
   },
   "sainte-catherine": {
+    "been": true,
+    "city": "Bordeaux",
+    "coords": "44.84202, -0.57443",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://www.apple.com/fr/retail/sainte-catherine/",
+    "name": "Sainte-Catherine"
+  },
+  "sainte-catherine-(ca)": {
     "been": false,
     "city": "Montréal",
-    "coords": "45.49765, -73.57577",
+    "coords": "45.497642, -73.575745",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://www.apple.com/ca/retail/saintecatherine/",
-    "name": "Sainte-Catherine",
-    "wikidata": "Q380271"
+    "name": "Sainte-Catherine (CA)"
   },
   "saket": {
     "been": false,
@@ -3508,7 +3511,7 @@
     "coords": "43.06194444, 141.35444444",
     "country": "JP",
     "icons": ["🇯🇵"],
-    "link": "https://en.wikipedia.org/wiki/Sapporo",
+    "link": "https://www.apple.com/jp/retail/sapporo/",
     "name": "Sapporo",
     "strike": true
   },
@@ -4018,6 +4021,7 @@
     "wikidata": "Q44879584"
   },
   "town-square": {
+    "badges": ["*"],
     "been": true,
     "city": "Las Vegas",
     "coords": "36.06767, -115.17607",
@@ -4086,6 +4090,7 @@
     "name": "Tysons Corner"
   },
   "umeda": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Ōsaka",
     "coords": "34.70000000, 135.49700000",

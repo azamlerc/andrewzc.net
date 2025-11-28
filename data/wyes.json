@@ -1,8 +1,11 @@
 {
   "--info--": {
+    "header": "Tracks where a train can reverse by performing a three-point turn.",
     "icon": "🖖",
     "name": "Wyes",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "ararat": {
@@ -157,6 +160,7 @@
     "name": "Keddie Wye"
   },
   "kleine-scheidegg": {
+    "badges": ["*"],
     "been": true,
     "coords": "46.58500000, 7.96111111",
     "country": "CH",

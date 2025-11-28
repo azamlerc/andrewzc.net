@@ -1,8 +1,11 @@
 {
   "--info--": {
+    "header": "Lines that have switched from one service to another.",
     "icon": "🔀",
     "name": "Switched Service",
     "size": "medium",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first"],
     "type": "place"
   },
   "168th-street": {
@@ -514,6 +517,7 @@
     "reference": "Paris"
   },
   "rathaus–karlsplatz": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Vienna",
     "coords": "48.208333333333336, 16.3725",

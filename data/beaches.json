@@ -102,6 +102,7 @@
     "name": "Atlantic City"
   },
   "baker-beach": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "San Francisco",
     "coords": "37.79320000, -122.48400000",
@@ -326,6 +327,7 @@
     "name": "Coney Island"
   },
   "conquest-road": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
@@ -391,6 +393,7 @@
     "name": "Deauville"
   },
   "dechantlacke": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "Vienna",
     "coords": "48.18333300, 16.51666700",
@@ -400,6 +403,7 @@
     "name": "Dechantlacke"
   },
   "devils-slide": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "37.57438300, -122.52025500",
     "country": "US",
@@ -423,15 +427,25 @@
     "link": "https://en.wikipedia.org/wiki/Dominica",
     "name": "Dominica "
   },
-  "donauinsel": {
+  "donauinsel-norden": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "Vienna",
     "coords": "48.23333333, 16.40000000",
     "country": "AT",
     "icons": ["🇦🇹"],
-    "info": "Süd",
     "link": "https://en.wikipedia.org/wiki/Donauinsel",
-    "name": "Donauinsel"
+    "name": "Donauinsel Norden"
+  },
+  "donauinsel-sud": {
+    "badges": ["🤽🏻‍♂️"],
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.23333333, 16.40000000",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Donauinsel",
+    "name": "Donauinsel Süd"
   },
   "dubrovnik": {
     "been": true,
@@ -484,6 +498,7 @@
     "wikidata": "Q5851956"
   },
   "eureka": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "40.80194444, -124.16361111",
     "country": "US",
@@ -508,6 +523,7 @@
     "name": "Fire Island"
   },
   "fort-foster": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "43.06750000, -70.69138889",
     "country": "US",
@@ -587,6 +603,7 @@
     "name": "Grenadines"
   },
   "grimaldi": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "39.15, 16.233333333333",
     "country": "IT",
@@ -603,6 +620,7 @@
     "name": "Guadeloupe"
   },
   "guard-shore": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
@@ -661,9 +679,11 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "#",
     "name": "Hobuck"
   },
   "hoek-van-holland": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "51.98111111, 4.12861111",
     "country": "NL",
@@ -759,6 +779,7 @@
     "coords": "47.60444444, -124.37083333",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "#",
     "name": "Kalaloch"
   },
   "kamakura": {
@@ -770,6 +791,7 @@
     "name": "Kamakura"
   },
   "katwijk-aan-zee": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "52.20305556, 4.39527778",
     "country": "NL",
@@ -778,6 +800,7 @@
     "name": "Katwijk aan Zee"
   },
   "kijkduin": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "Den Haag",
     "coords": "52.06889, 4.22222",
@@ -807,6 +830,7 @@
     "been": false,
     "country": "NO",
     "icons": ["🇳🇴"],
+    "link": "#",
     "name": "Kjølnes"
   },
   "la-concha": {
@@ -916,6 +940,7 @@
     "name": "Lopez Island"
   },
   "maho-beach": {
+    "badges": ["✈️"],
     "been": false,
     "coords": "18.03983000, -63.12069000",
     "country": "SX",
@@ -1040,6 +1065,7 @@
     "name": "Monaco"
   },
   "monmouth-beach": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "40.33589500, -73.98560800",
     "country": "US",
@@ -1051,6 +1077,7 @@
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "#",
     "name": "Monroe Landing"
   },
   "mont-saint-michel": {
@@ -1226,6 +1253,7 @@
     "been": true,
     "country": "NG",
     "icons": ["🇳🇬"],
+    "link": "#",
     "name": "Nollywood",
     "wikidata": "Q21065894"
   },
@@ -1274,6 +1302,7 @@
     "name": "Odesa"
   },
   "ondarreta": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "43.3167, -2.00187",
     "country": "ES",
@@ -1478,6 +1507,7 @@
     "coords": "48.11305556, -123.44083333",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "#",
     "name": "Port Angeles"
   },
   "port-de-bouc": {
@@ -1581,6 +1611,7 @@
     "coords": "45.62444444, -123.93722222",
     "country": "US",
     "icons": ["🇺🇸"],
+    "link": "#",
     "name": "Rockaway Beach, OR",
     "state": "OR"
   },
@@ -1675,6 +1706,7 @@
     "name": "Scarborough"
   },
   "scheveningen": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "Den Haag",
     "coords": "52.10411667, 4.26825000",
@@ -1709,6 +1741,7 @@
     "name": "Sharm El-Sheikh"
   },
   "slano": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "42.78694444, 17.89000000",
     "country": "HR",
@@ -1733,6 +1766,14 @@
     "name": "Sorrento"
   },
   "st-lucia": {
+    "been": false,
+    "coords": "13.88333333, -60.96666667",
+    "country": "LC",
+    "icons": ["🇱🇨"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Lucia",
+    "name": "St Lucia "
+  },
+  "st-lucia-": {
     "been": false,
     "coords": "13.88333333, -60.96666667",
     "country": "LC",
@@ -1790,6 +1831,7 @@
     "name": "Tel Aviv"
   },
   "thessaloniki": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "city": "Thessaloniki",
     "coords": "40.640277777777776, 22.935555555555556",
@@ -1924,6 +1966,7 @@
     "name": "York Beach"
   },
   "zandvoort-aan-zee": {
+    "badges": ["🤽🏻‍♂️"],
     "been": true,
     "coords": "52.366666666667, 4.5333333333333",
     "country": "NL",

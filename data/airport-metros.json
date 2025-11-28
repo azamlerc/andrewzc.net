@@ -8,6 +8,8 @@
     },
     "name": "Airport Metros",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
   "aeroport-dorly-paris": {
@@ -103,6 +105,7 @@
     "reference": "Atlanta"
   },
   "airport-boston": {
+    "badges": ["🚌"],
     "been": true,
     "city": "Boston",
     "coords": "42.37437400, -71.03024300",
@@ -113,6 +116,7 @@
     "reference": "Boston"
   },
   "airport-free-zone-dubai": {
+    "badges": ["🚌"],
     "been": true,
     "city": "Dubai",
     "coords": "25.26990000, 55.37500000",
@@ -193,6 +197,7 @@
     "reference": "Dubai"
   },
   "aviation/lax-los-angeles": {
+    "badges": ["🚌"],
     "been": true,
     "city": "Los Angeles",
     "coords": "33.94250000, -118.40805556",
@@ -203,6 +208,7 @@
     "reference": "Los Angeles"
   },
   "capodichino-naples": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Naples",
     "coords": "40.87540000, 14.28550000",
@@ -224,6 +230,7 @@
     "wikidata": "Q3268527"
   },
   "chaudhary-charan-singh-bangalore": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Bangalore",
     "coords": "26.76615000, 80.88356100",
@@ -304,6 +311,7 @@
     "reference": "London"
   },
   "howard-beach–jfk-airport-new-york": {
+    "badges": ["🚝"],
     "been": true,
     "city": "New York",
     "coords": "40.66040000, -73.83030000",
@@ -314,6 +322,7 @@
     "reference": "New York"
   },
   "international-airport-miami": {
+    "badges": ["🚝"],
     "been": true,
     "city": "Miami",
     "coords": "25.78000000, -80.21000000",
@@ -415,6 +424,7 @@
     "reference": "Istanbul"
   },
   "sutphin-blvd–archer-av–jfk-airport-new-york": {
+    "badges": ["🚝"],
     "been": true,
     "city": "New York",
     "coords": "40.70048800, -73.80774000",

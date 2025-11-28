@@ -8,7 +8,9 @@
     },
     "name": "Border Posts",
     "size": "medium",
-    "type": "place"
+    "tags": ["middleSectionBeen"],
+    "type": "place",
+    "sort": "order"
   },
   "adutiskis": {
     "been": true,
@@ -16,7 +18,8 @@
     "countries": ["LT", "BY"],
     "icons": ["🇱🇹", "🇧🇾"],
     "link": "https://en.wikipedia.org/wiki/Aduti%C5%A1kis",
-    "name": "Adutiškis"
+    "name": "Adutiškis",
+    "order": 55
   },
   "as": {
     "been": true,
@@ -25,6 +28,7 @@
     "icons": ["🇨🇿", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.21255_N_12.17033_E",
     "name": "Aš",
+    "order": 33,
     "strike": true
   },
   "bad-brambach–vojtanov": {
@@ -34,6 +38,7 @@
     "icons": ["🇨🇿", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.17283_N_12.31521_E",
     "name": "Bad Brambach–Vojtanov",
+    "order": 34,
     "strike": true
   },
   "bad-leonfelden": {
@@ -43,6 +48,7 @@
     "icons": ["🇨🇿", "🇦🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.56340_N_14.31640_E",
     "name": "Bad Leonfelden",
+    "order": 35,
     "strike": true
   },
   "beit-shean": {
@@ -50,7 +56,8 @@
     "coords": "32.49678000, 35.57559000",
     "countries": ["IL", "JO"],
     "icons": ["🇮🇱", "🇯🇴"],
-    "name": "Beit She’an"
+    "name": "Beit She’an",
+    "order": 47
   },
   "bender": {
     "been": true,
@@ -60,6 +67,7 @@
     "icons": ["🇲🇩", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Bender",
     "name": "Bender",
+    "order": 12,
     "wikidata": "Q192176"
   },
   "bethlehem": {
@@ -69,7 +77,8 @@
     "countries": ["IL", "PS"],
     "icons": ["🇮🇱", "🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Bethlehem",
-    "name": "Bethlehem"
+    "name": "Bethlehem",
+    "order": 26
   },
   "bratislava": {
     "been": true,
@@ -79,6 +88,7 @@
     "icons": ["🇦🇹", "🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Bratislava",
     "name": "Bratislava",
+    "order": 7,
     "strike": true
   },
   "calais": {
@@ -87,7 +97,8 @@
     "countries": ["FR", "GB"],
     "icons": ["🇫🇷", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Calais",
-    "name": "Calais"
+    "name": "Calais",
+    "order": 6
   },
   "champlain": {
     "been": true,
@@ -95,6 +106,7 @@
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
     "name": "Champlain",
+    "order": 5,
     "wikidata": "Q68529"
   },
   "checkpoint-charlie": {
@@ -105,6 +117,7 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
     "name": "Checkpoint Charlie",
+    "order": 23,
     "strike": true
   },
   "chernivtsi": {
@@ -113,7 +126,8 @@
     "countries": ["UA", "RO"],
     "icons": ["🇺🇦", "🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Chernivtsi",
-    "name": "Chernivtsi"
+    "name": "Chernivtsi",
+    "order": 10
   },
   "deutsch-deutsches-freilandmuseum-behrungen": {
     "been": true,
@@ -122,6 +136,7 @@
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Deutsch-deutsches_Freilandmuseum",
     "name": "Deutsch-Deutsches Freilandmuseum Behrungen",
+    "order": 36,
     "wikidata": "Q1201900"
   },
   "deutsch-deutsches-museum-modlareuth": {
@@ -131,15 +146,18 @@
     "icons": ["🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Deutsch-Deutsches_Museum_M%C3%B6dlareuth",
     "name": "Deutsch-Deutsches Museum Mödlareuth",
+    "order": 37,
     "wikidata": "Q1454519"
   },
   "edirne": {
+    "badges": ["🚩"],
     "been": true,
     "coords": "41.67694444, 26.55555556",
     "countries": ["BG", "TR"],
     "icons": ["🇧🇬", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Edirne",
-    "name": "Edirne"
+    "name": "Edirne",
+    "order": 15
   },
   "erez": {
     "been": false,
@@ -148,7 +166,8 @@
     "countries": ["IL", "PS"],
     "icons": ["🇮🇱", "🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Erez_Crossing",
-    "name": "Erez"
+    "name": "Erez",
+    "order": 60
   },
   "gatuna": {
     "been": true,
@@ -156,7 +175,8 @@
     "countries": ["RW", "UG"],
     "icons": ["🇷🇼", "🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Gatuna",
-    "name": "Gatuna"
+    "name": "Gatuna",
+    "order": 51
   },
   "gedenkstatte-heinersdorf-welitsch": {
     "been": true,
@@ -164,13 +184,15 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Museums_of_the_inner_German_border",
     "name": "Gedenkstätte Heinersdorf-Welitsch",
+    "order": 38,
     "wikidata": "Q6941157"
   },
   "geranenskiy": {
     "been": true,
     "countries": ["LT", "BY"],
     "icons": ["🇱🇹", "🇧🇾"],
-    "name": "Geranenskiy"
+    "name": "Geranenskiy",
+    "order": 54
   },
   "gevgelija": {
     "been": true,
@@ -178,7 +200,8 @@
     "countries": ["GR", "MK"],
     "icons": ["🇬🇷", "🇲🇰"],
     "link": "https://en.wikipedia.org/wiki/Gevgelija",
-    "name": "Gevgelija"
+    "name": "Gevgelija",
+    "order": 17
   },
   "gisenyi": {
     "been": true,
@@ -186,15 +209,18 @@
     "countries": ["RW", "CD"],
     "icons": ["🇷🇼", "🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Gisenyi",
-    "name": "Gisenyi"
+    "name": "Gisenyi",
+    "order": 50
   },
   "giurgiulesti": {
+    "badges": ["🚩"],
     "been": true,
     "coords": "45.48333333, 28.20000000",
     "countries": ["MD", "RO"],
     "icons": ["🇲🇩", "🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Giurgiule%C8%99ti",
-    "name": "Giurgiulești"
+    "name": "Giurgiulești",
+    "order": 13
   },
   "gorlitz–zgorzelec": {
     "been": true,
@@ -202,7 +228,8 @@
     "countries": ["DE", "PL"],
     "icons": ["🇩🇪", "🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.15031_N_15.00098_E",
-    "name": "Görlitz–Zgorzelec"
+    "name": "Görlitz–Zgorzelec",
+    "order": 39
   },
   "grand-popo": {
     "been": true,
@@ -210,7 +237,8 @@
     "countries": ["BJ", "TG"],
     "icons": ["🇧🇯", "🇹🇬"],
     "link": "https://en.wikipedia.org/wiki/Grand_Popo",
-    "name": "Grand Popo"
+    "name": "Grand Popo",
+    "order": 27
   },
   "hrzensko–schmilka": {
     "been": true,
@@ -219,6 +247,7 @@
     "icons": ["🇨🇿", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.88924_N_14.23311_E",
     "name": "Hřzensko–Schmilka",
+    "order": 40,
     "strike": true
   },
   "iasi": {
@@ -227,7 +256,8 @@
     "countries": ["RO", "MD"],
     "icons": ["🇷🇴", "🇲🇩"],
     "link": "https://en.wikipedia.org/wiki/Ia%C8%99i",
-    "name": "Iași"
+    "name": "Iași",
+    "order": 11
   },
   "ikla": {
     "been": true,
@@ -236,6 +266,7 @@
     "icons": ["🇪🇪", "🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Ikla",
     "name": "Ikla",
+    "order": 0,
     "strike": true
   },
   "ipsala": {
@@ -244,7 +275,8 @@
     "countries": ["TR", "GR"],
     "icons": ["🇹🇷", "🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Ipsala",
-    "name": "Ipsala"
+    "name": "Ipsala",
+    "order": 16
   },
   "ivanica": {
     "been": true,
@@ -252,7 +284,8 @@
     "countries": ["BA", "HR"],
     "icons": ["🇧🇦", "🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Ivanica",
-    "name": "Ivanica"
+    "name": "Ivanica",
+    "order": 20
   },
   "kerem-shalom": {
     "been": false,
@@ -260,14 +293,16 @@
     "countries": ["IL", "PS"],
     "icons": ["🇮🇱", "🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Kerem_Shalom_border_crossing",
-    "name": "Kerem Shalom"
+    "name": "Kerem Shalom",
+    "order": 61
   },
   "keur-ayip": {
     "been": true,
     "coords": "13.57253000, -15.60019000",
     "countries": ["SN", "GM"],
     "icons": ["🇸🇳", "🇬🇲"],
-    "name": "Keur Ayip"
+    "name": "Keur Ayip",
+    "order": 29
   },
   "kidira": {
     "been": true,
@@ -275,7 +310,8 @@
     "countries": ["SN", "ML"],
     "icons": ["🇸🇳", "🇲🇱"],
     "link": "https://en.wikipedia.org/wiki/Kidira",
-    "name": "Kidira"
+    "name": "Kidira",
+    "order": 49
   },
   "koidula": {
     "been": true,
@@ -283,7 +319,8 @@
     "countries": ["EE", "RU"],
     "icons": ["🇪🇪", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Koidula,_Setomaa_Parish",
-    "name": "Koidula"
+    "name": "Koidula",
+    "order": 56
   },
   "koro": {
     "been": true,
@@ -291,6 +328,7 @@
     "countries": ["ML", "BF"],
     "icons": ["🇲🇱", "🇧🇫"],
     "name": "Koro",
+    "order": 3,
     "wikidata": "Q36162"
   },
   "kosice": {
@@ -300,13 +338,15 @@
     "icons": ["🇸🇰", "🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Ko%C5%A1ice",
     "name": "Košice",
+    "order": 8,
     "strike": true
   },
   "kubekhaza–rabe": {
     "been": false,
     "countries": ["HU", "RS"],
     "icons": ["🇭🇺", "🇷🇸"],
-    "name": "Kübekháza–Rabe"
+    "name": "Kübekháza–Rabe",
+    "order": 58
   },
   "kumanovo": {
     "been": true,
@@ -314,7 +354,8 @@
     "countries": ["MK", "RS"],
     "icons": ["🇲🇰", "🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Kumanovo",
-    "name": "Kumanovo"
+    "name": "Kumanovo",
+    "order": 18
   },
   "lome": {
     "been": true,
@@ -323,7 +364,8 @@
     "countries": ["TG", "GH"],
     "icons": ["🇹🇬", "🇬🇭"],
     "link": "https://en.wikipedia.org/wiki/Lom%C3%A9",
-    "name": "Lomé"
+    "name": "Lomé",
+    "order": 52
   },
   "macau": {
     "been": true,
@@ -332,7 +374,8 @@
     "countries": ["MO", "CN"],
     "icons": ["🇲🇴", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Macau",
-    "name": "Macau"
+    "name": "Macau",
+    "order": 1
   },
   "mangalia": {
     "been": true,
@@ -340,7 +383,8 @@
     "countries": ["RO", "BG"],
     "icons": ["🇷🇴", "🇧🇬"],
     "link": "https://en.wikipedia.org/wiki/Mangalia",
-    "name": "Mangalia"
+    "name": "Mangalia",
+    "order": 14
   },
   "matam": {
     "been": true,
@@ -349,6 +393,7 @@
     "icons": ["🇸🇳", "🇲🇷"],
     "link": "https://en.wikipedia.org/wiki/Matam",
     "name": "Matam",
+    "order": 48,
     "wikidata": "Q856275"
   },
   "mitterfirmiansreut": {
@@ -357,21 +402,24 @@
     "countries": ["AT", "DE"],
     "icons": ["🇦🇹", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.88102_N_13.70457_E",
-    "name": "Mitterfirmiansreut"
+    "name": "Mitterfirmiansreut",
+    "order": 41
   },
   "neum-(north)": {
     "been": true,
     "coords": "42.93857000, 17.58146000",
     "countries": ["BA", "HR"],
     "icons": ["🇧🇦", "🇭🇷"],
-    "name": "Neum (North)"
+    "name": "Neum (North)",
+    "order": 22
   },
   "neum-(south)": {
     "been": true,
     "coords": "42.89051000, 17.64982000",
     "countries": ["HR", "BA"],
     "icons": ["🇭🇷", "🇧🇦"],
-    "name": "Neum (South)"
+    "name": "Neum (South)",
+    "order": 21
   },
   "niagara-falls": {
     "been": true,
@@ -379,7 +427,8 @@
     "countries": ["CA", "US"],
     "icons": ["🇨🇦", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rainbow_Bridge_(Niagara_Falls)",
-    "name": "Niagara Falls"
+    "name": "Niagara Falls",
+    "order": 32
   },
   "nogales": {
     "been": true,
@@ -388,6 +437,7 @@
     "icons": ["🇺🇸", "🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Nogales",
     "name": "Nogales",
+    "order": 4,
     "wikidata": "Q79783"
   },
   "nova-bystrice": {
@@ -397,6 +447,7 @@
     "icons": ["🇨🇿", "🇦🇹"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49.00985_N_15.06591_E",
     "name": "Nová Bystřice",
+    "order": 42,
     "strike": true
   },
   "oujda": {
@@ -405,7 +456,8 @@
     "countries": ["MA", "DZ"],
     "icons": ["🇲🇦", "🇩🇿"],
     "link": "https://en.wikipedia.org/wiki/Oujda",
-    "name": "Oujda"
+    "name": "Oujda",
+    "order": 62
   },
   "panmunjom": {
     "been": true,
@@ -413,7 +465,8 @@
     "countries": ["KR", "KP"],
     "icons": ["🇰🇷", "🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Panmunjom",
-    "name": "Panmunjom"
+    "name": "Panmunjom",
+    "order": 46
   },
   "peace-bridge": {
     "been": true,
@@ -422,7 +475,8 @@
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Peace_Bridge",
-    "name": "Peace Bridge"
+    "name": "Peace Bridge",
+    "order": 31
   },
   "porajow–hradek-nad-nisou": {
     "been": true,
@@ -431,6 +485,7 @@
     "icons": ["🇵🇱", "🇨🇿"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.86917_N_14.84006_E",
     "name": "Porajów–Hrádek nad Nisou",
+    "order": 43,
     "strike": true
   },
   "porte": {
@@ -438,7 +493,8 @@
     "coords": "42.54377000, 1.73502000",
     "countries": ["AD", "FR"],
     "icons": ["🇦🇩", "🇫🇷"],
-    "name": "Porté"
+    "name": "Porté",
+    "order": 25
   },
   "radomierzyce–hagenwerder": {
     "been": true,
@@ -447,6 +503,7 @@
     "icons": ["🇩🇪", "🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=51.06035_N_14.96579_E",
     "name": "Radomierzyce–Hagenwerder",
+    "order": 44,
     "strike": true
   },
   "rafah": {
@@ -456,6 +513,7 @@
     "icons": ["🇪🇬", "🇵🇸"],
     "link": "https://en.wikipedia.org/wiki/Rafah_Border_Crossing",
     "name": "Rafah",
+    "order": 63,
     "wikidata": "Q2564302"
   },
   "rajka": {
@@ -465,6 +523,7 @@
     "icons": ["🇸🇰", "🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Rajka",
     "name": "Rajka",
+    "order": 30,
     "strike": true
   },
   "roxham-road": {
@@ -473,7 +532,8 @@
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Roxham_Road",
-    "name": "Roxham Road"
+    "name": "Roxham Road",
+    "order": 64
   },
   "rusumo": {
     "been": false,
@@ -482,6 +542,7 @@
     "icons": ["🇷🇼", "🇹🇿"],
     "link": "https://en.wikipedia.org/wiki/Rusumo",
     "name": "Rusumo",
+    "order": 65,
     "wikidata": "Q24236481"
   },
   "sant-julia-de-loria": {
@@ -490,7 +551,8 @@
     "countries": ["ES", "AD"],
     "icons": ["🇪🇸", "🇦🇩"],
     "link": "https://en.wikipedia.org/wiki/Sant_Julia_de_Loria",
-    "name": "Sant Julia de Loria"
+    "name": "Sant Julia de Loria",
+    "order": 24
   },
   "schirnding–cheb": {
     "been": true,
@@ -498,15 +560,18 @@
     "countries": ["CZ", "DE"],
     "icons": ["🇨🇿", "🇩🇪"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.08661_N_12.25428_E",
-    "name": "Schirnding–Cheb"
+    "name": "Schirnding–Cheb",
+    "order": 45
   },
   "senkivka": {
+    "badges": ["🚩"],
     "been": false,
     "coords": "52.10627778, 31.78136111",
     "countries": ["BY", "RU", "UA"],
     "icons": ["🇧🇾", "🇷🇺", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Senkivka_(border_checkpoint)",
-    "name": "Senkivka"
+    "name": "Senkivka",
+    "order": 57
   },
   "sweet-grass": {
     "been": true,
@@ -514,6 +579,7 @@
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
     "name": "Sweet Grass",
+    "order": 2,
     "wikidata": "Q161162"
   },
   "thoun": {
@@ -521,13 +587,15 @@
     "coords": "7.00677000, 1.63282000",
     "countries": ["TG", "BJ"],
     "icons": ["🇹🇬", "🇧🇯"],
-    "name": "Thoun"
+    "name": "Thoun",
+    "order": 28
   },
   "tiszasziget–ðala": {
     "been": false,
     "countries": ["HU", "RS"],
     "icons": ["🇭🇺", "🇷🇸"],
-    "name": "Tiszasziget–Ðala"
+    "name": "Tiszasziget–Ðala",
+    "order": 59
   },
   "trbusnica": {
     "been": true,
@@ -536,6 +604,7 @@
     "icons": ["🇷🇸", "🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Trbu%C5%A1nica",
     "name": "Trbušnica",
+    "order": 19,
     "wikidata": "Q1978174"
   },
   "vistytis": {
@@ -544,7 +613,8 @@
     "countries": ["LT", "RU"],
     "icons": ["🇱🇹", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Vi%C5%A1tytis",
-    "name": "Vištytis"
+    "name": "Vištytis",
+    "order": 53
   },
   "woodlands": {
     "been": false,
@@ -553,6 +623,7 @@
     "icons": ["🇸🇬", "🇲🇾"],
     "link": "https://en.wikipedia.org/wiki/Woodlands_Checkpoint",
     "name": "Woodlands",
+    "order": 66,
     "wikidata": "Q11289008"
   },
   "zahony": {
@@ -561,6 +632,7 @@
     "countries": ["HU", "UA"],
     "icons": ["🇭🇺", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Z%C3%A1hony",
-    "name": "Záhony"
+    "name": "Záhony",
+    "order": 9
   }
 }

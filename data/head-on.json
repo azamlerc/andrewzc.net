@@ -7,9 +7,12 @@
     "reference": "Sofia"
   },
   "--info--": {
+    "header": "Stations with a transfer from the end of one line to the beginning of another.",
     "icon": "🔃",
     "name": "Head-On Connections",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "69th-street": {
@@ -226,6 +229,7 @@
     "reference": "Sofia"
   },
   "observatorio": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Mexico City",
     "coords": "19.398237, -99.200363",
@@ -345,6 +349,7 @@
     "reference": "Stockholm"
   },
   "sabana-perdida": {
+    "badges": ["🚡"],
     "been": true,
     "city": "Santo Domingo",
     "country": "DO",
@@ -464,6 +469,7 @@
     "reference": "Paris"
   },
   "xalpa": {
+    "badges": ["🚡"],
     "been": true,
     "city": "Mexico City",
     "country": "MX",

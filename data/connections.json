@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Metro stations with different names connected inside fare control.",
     "icon": "⤴️",
     "map": {
       "lat": "25",
@@ -8,6 +9,8 @@
     },
     "name": "Connections",
     "size": "small",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "14th-street": {
@@ -263,6 +266,7 @@
     "reference": "Saint Petersburg"
   },
   "a-class=russian-href=https://ruwikipediaorg/wiki/площадь_ильича_(станция_метро)площадь-ильича/a-|-a-class=russian-href=https://ruwikipediaorg/wiki/римская_(станция_метро)римская/a": {
+    "badges": ["🏠"],
     "been": true,
     "city": "Moscow",
     "country": "RU",
@@ -469,11 +473,6 @@
     "name": "Cluny–La Sorbonne",
     "reference": "Paris"
   },
-  "connections": {
-    "been": true,
-    "icons": ["⤴️"],
-    "name": "Connections"
-  },
   "court-square–23-street": {
     "been": true,
     "city": "New York",
@@ -554,6 +553,7 @@
     "reference": "Tokyo"
   },
   "jackson": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "Chicago",
     "coords": "41.87818300, -87.62929600",
@@ -565,6 +565,7 @@
     "reference": "Chicago"
   },
   "junius-street": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "New York",
     "coords": "40.66361500, -73.90151000",
@@ -576,6 +577,7 @@
     "reference": "New York"
   },
   "lake": {
+    "badges": ["🐍"],
     "been": true,
     "city": "Chicago",
     "coords": "41.88480900, -87.62781300",
@@ -587,6 +589,7 @@
     "reference": "Chicago"
   },
   "lexington-av/59-st": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "New York",
     "coords": "40.762941, -73.969752",
@@ -610,6 +613,7 @@
     "reference": "London"
   },
   "metropolitan-avenue": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "New York",
     "coords": "40.71372222, -73.91944444",
@@ -688,6 +692,7 @@
     "wikidata": "Q11704016"
   },
   "state/lake": {
+    "badges": ["🚶‍♂️"],
     "been": true,
     "city": "Chicago",
     "coords": "50.64630000, -1.16640000",

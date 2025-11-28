@@ -8,9 +8,12 @@
     },
     "name": "Airport Trams",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
   "44th-st/washington-phoenix": {
+    "badges": ["🚝"],
     "been": false,
     "city": "Phoenix",
     "coords": "41.883164, -87.62944",
@@ -73,6 +76,7 @@
     "reference": "Manchester"
   },
   "airport-salt-lake-city": {
+    "badges": ["🚝"],
     "been": false,
     "city": "Salt Lake City",
     "coords": "40.78361111, -111.98000000",
@@ -83,6 +87,7 @@
     "reference": "Salt Lake City"
   },
   "airport-west-melbourne": {
+    "badges": ["🚌"],
     "been": false,
     "city": "Melbourne",
     "coords": "-37.72400000, 144.87900000",

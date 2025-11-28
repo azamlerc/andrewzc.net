@@ -10,6 +10,8 @@
     },
     "name": "Route 20",
     "size": "large",
+    "sort": "order",
+    "tags": ["ordered"],
     "type": "place"
   },
   "ackley-ia": {
@@ -530,6 +532,7 @@
     "state": "OH"
   },
   "correctionville-ia": {
+    "badges": ["📐"],
     "been": true,
     "coords": "42.47750000, -95.78305556",
     "country": "US",

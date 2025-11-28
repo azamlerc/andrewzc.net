@@ -1,8 +1,11 @@
 {
   "--info--": {
+    "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
     "icon": "🏚",
     "name": "Abandoned Stations",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "180th-st–bronx-park": {
@@ -1030,6 +1033,7 @@
     "name": "Lewisburg"
   },
   "ligne-de-bruxelles–tervuren": {
+    "badges": ["🥾"],
     "been": true,
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -1117,6 +1121,7 @@
     "name": "Monschau"
   },
   "montauk-branch": {
+    "badges": ["🚶"],
     "been": true,
     "coords": "40.70585000, -73.78450000",
     "country": "US",
@@ -1367,6 +1372,7 @@
     "reference": "Paris"
   },
   "port-morris-branch": {
+    "badges": ["🚶"],
     "been": true,
     "city": "New York",
     "coords": "40.81583333, -73.91277778",
@@ -1469,6 +1475,7 @@
     "wikidata": "Q3333794"
   },
   "rockaway-beach-branch": {
+    "badges": ["🚶"],
     "been": true,
     "city": "New York",
     "coords": "40.7254, -73.8608",

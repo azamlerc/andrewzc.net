@@ -1,8 +1,11 @@
 {
   "--info--": {
+    "header": "Stations served more than once by the same line.",
     "icon": "🔂",
     "name": "Loopback",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "barmbek": {
@@ -18,6 +21,7 @@
     "wikidata": "Q800870"
   },
   "champigny-centre": {
+    "badges": ["🚧"],
     "been": true,
     "city": "Paris",
     "coords": "48.816114, 2.502161",
@@ -49,11 +53,6 @@
     "link": "https://en.wikipedia.org/wiki/Euston_tube_station",
     "name": "Euston",
     "reference": "London"
-  },
-  "loopback": {
-    "been": true,
-    "icons": ["🔂"],
-    "name": "Loopback"
   },
   "monument": {
     "been": true,

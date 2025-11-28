@@ -3,16 +3,9 @@
     "icon": "🛫",
     "name": "Airport Trains",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
-  },
-  "a-href=https://wwwwestjrcojp/travel-information/en/tickets-passes/oneway/haruka/haruka-limited-osaka": {
-    "been": false,
-    "city": "Ōsaka",
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
-    "name": "<a href=\"https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/\">Haruka Limited",
-    "reference": "Osaka"
   },
   "aeroexpress-moscow": {
     "been": false,
@@ -25,6 +18,7 @@
     "wikidata": "Q4073726"
   },
   "airport-express-line-delhi": {
+    "badges": ["🚇"],
     "been": false,
     "city": "Delhi",
     "country": "IN",
@@ -121,6 +115,7 @@
     "wikidata": "Q65104715"
   },
   "haneda-monorail-tokyo": {
+    "badges": ["🚝"],
     "been": false,
     "city": "Tokyo",
     "country": "JP",

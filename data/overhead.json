@@ -1,8 +1,11 @@
 {
   "--info--": {
+    "header": "Metro lines where power is collected from overhead lines with a pantograph.",
     "icon": "🩼",
     "name": "Overhead Lines",
     "size": "large",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
   "-line-1-shenzhen": {
@@ -372,7 +375,8 @@
   "overhead-lines": {
     "been": true,
     "icons": ["🩼"],
-    "name": "Overhead Lines"
+    "name": "Overhead Lines",
+    "wikidata": "Q110701"
   },
   "toei-subway-tokyo": {
     "been": true,

@@ -8,6 +8,7 @@
     },
     "name": "Bilingual Stations",
     "size": "medium",
+    "sort": "city",
     "type": "place"
   },
   "aalto-yliopisto": {
@@ -52,8 +53,10 @@
   },
   "anciens-abattoirs": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Anciens Abattoirs",
     "reference": "المجازر القديمة"
   },
@@ -80,7 +83,7 @@
   },
   "austin": {
     "been": false,
-    "city": "Austin",
+    "city": "Hong Kong",
     "coords": "22.30460000, 114.16650000",
     "country": "HK",
     "icons": ["🇭🇰"],
@@ -120,8 +123,10 @@
   },
   "beausejour": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Beauséjour",
     "reference": "المنظر الجميل",
     "wikidata": "Q37222607"
@@ -135,11 +140,6 @@
     "link": "https://en.wikipedia.org/wiki/Beechwood_Luas_stop",
     "name": "Beechwood",
     "reference": "Coill na Feá"
-  },
-  "bilingual-stations": {
-    "been": true,
-    "icons": ["✌️"],
-    "name": "Bilingual Stations"
   },
   "blackhorse": {
     "been": false,
@@ -173,6 +173,7 @@
   },
   "brides-glen": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.24210932, -6.14284772",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -231,6 +232,7 @@
     "reference": "كريان سنطرال"
   },
   "causeway-bay": {
+    "badges": ["🍏"],
     "been": false,
     "city": "Hong Kong",
     "coords": "22.28020000, 114.18350000",
@@ -262,13 +264,16 @@
   },
   "centre-de-maintenance": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Centre de Maintenance",
     "reference": "مركز الصيانة"
   },
   "cheeverstown": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.29099161, -6.40685648",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -278,6 +283,7 @@
   },
   "cherrywood": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.24535460, -6.14583692",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -287,8 +293,10 @@
   },
   "cite-de-lair": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Cité de l’Air",
     "reference": "حي المطار"
   },
@@ -304,6 +312,7 @@
   },
   "citywest-campus": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.28781677, -6.41895241",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -424,6 +433,7 @@
   },
   "espoonlahti": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.14902500, 24.65425000",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -453,6 +463,7 @@
   },
   "europaparlement": {
     "been": true,
+    "city": "Luxembourg",
     "country": "LU",
     "icons": ["🇱🇺"],
     "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Parlement_europ%C3%A9en\">Parlement européen</a>",
@@ -472,15 +483,19 @@
   },
   "faculte-de-medecine": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Faculté de Médecine",
     "reference": "كلية الطب"
   },
   "facultes": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Facultés",
     "reference": "الكليات النهاية"
   },
@@ -496,6 +511,7 @@
   },
   "finnoo": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.15293500, 24.71103900",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -505,8 +521,10 @@
   },
   "forces-auxiliaires": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Forces Auxiliaires",
     "reference": "القوات المساعدة"
   },
@@ -522,6 +540,7 @@
   },
   "fortunestown": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.28424933, -6.42462110",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -561,6 +580,7 @@
   },
   "gare-de-casa-port": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Casa-Port",
@@ -569,36 +589,34 @@
   },
   "gare-de-casa-sud": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Gare de Casa-Sud",
     "reference": "كازا الجنوبية"
   },
   "gare-de-casa-voyageurs": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Casa-Voyageurs",
     "name": "Gare de Casa-Voyageurs",
     "reference": "محطة الدار البيضاء المسافرين"
   },
-  "gare-de-l'ouest": {
-    "been": true,
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Weststation_(metrostation)\">Weststation</a>",
-    "link": "https://fr.wikipedia.org/wiki/Gare_de_l%27Ouest_(métro_de_Bruxelles)",
-    "name": "Gare de l'Ouest"
-  },
   "gare-de-loasis": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Gare de l’Oasis",
     "reference": "محطة الوازيس"
   },
   "gare-de-louest": {
     "been": true,
+    "city": "Brussels",
     "country": "BE",
     "icons": ["🇧🇪"],
     "info": "<a class=\"dark\" href=\"https://nl.wikipedia.org/wiki/Weststation_(metrostation)\">Weststation</a>",
@@ -647,8 +665,10 @@
   },
   "grande-ceinture": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Grande Ceinture",
     "reference": "الحزام الكبير",
     "wikidata": "Q134560"
@@ -709,6 +729,7 @@
     "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Hermitage",
     "reference": "لرمتاج",
     "wikidata": "Q132783"
@@ -736,6 +757,7 @@
   },
   "hospital-union": {
     "been": false,
+    "city": "Macau",
     "country": "MO",
     "icons": ["🇲🇴"],
     "link": "https://en.wikipedia.org/wiki/Union_Hospital_station",
@@ -796,6 +818,7 @@
   },
   "kaitaa": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.14891900, 24.68990400",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -866,6 +889,7 @@
   },
   "kivenlahti": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.15541900, 24.63599700",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -885,6 +909,7 @@
   },
   "kontula": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.236012628504, 25.0845636297698",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -916,8 +941,10 @@
   },
   "la-resistance": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "La Résistance",
     "reference": "المقاومة",
     "wikidata": "Q157146"
@@ -934,6 +961,7 @@
   },
   "laughanstown": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.25061238, -6.15501545",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -963,13 +991,16 @@
   },
   "les-hopitaux": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Les Hôpitaux",
     "reference": "المستشفيات - وفاسلف"
   },
   "leschte-steiwer": {
     "been": true,
+    "city": "Luxembourg",
     "country": "LU",
     "icons": ["🇱🇺"],
     "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg\">Dernier Sol</a>",
@@ -979,8 +1010,10 @@
   },
   "littoral": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Littoral",
     "reference": "الساحل",
     "wikidata": "Q506894"
@@ -1018,8 +1051,10 @@
   },
   "marche-central": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Marché Central",
     "reference": "السوق المركزي"
   },
@@ -1035,6 +1070,7 @@
   },
   "matinkyla": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.15950000, 24.73866667",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1054,6 +1090,7 @@
   },
   "mellunmaki": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.23916667, 25.11083333",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1176,13 +1213,16 @@
   },
   "panoramique": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Panoramique",
     "reference": "بانوراميك"
   },
   "paraisser-plaz": {
     "been": true,
+    "city": "Luxembourg",
     "country": "LU",
     "icons": ["🇱🇺"],
     "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_Paris_(Luxembourg)\">Place de Paris</a>",
@@ -1201,8 +1241,10 @@
   },
   "parc-de-la-ligue-arabe": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Parc de la Ligue Arabe",
     "reference": "حديقة جامعة الدول العربية"
   },
@@ -1218,22 +1260,28 @@
   },
   "place-de-la-victoire": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Place de la Victoire",
     "reference": "ساحة النصر"
   },
   "place-des-nations-unies": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Place des Nations-Unies",
     "reference": "ساحة الأمم المتحدة"
   },
   "place-financiere": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Place Financière",
     "reference": "القطب المالي للدار البيضاء"
   },
@@ -1320,6 +1368,7 @@
   },
   "rastila": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.20527778, 25.12138889",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1349,8 +1398,10 @@
   },
   "riviera": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Riviera",
     "reference": "ريڤيرا",
     "wikidata": "Q4022"
@@ -1377,6 +1428,7 @@
   },
   "saggart": {
     "been": false,
+    "city": "Dublin",
     "coords": "53.28468432, -6.43774389",
     "country": "IE",
     "icons": ["🇮🇪"],
@@ -1456,6 +1508,7 @@
   },
   "soukka": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.14217300, 24.66936100",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1495,6 +1548,7 @@
   },
   "stareplaz": {
     "been": true,
+    "city": "Luxembourg",
     "country": "LU",
     "icons": ["🇱🇺"],
     "info": "<a class=\"dark\" href=\"https://fr.wikipedia.org/wiki/Place_de_l%27Étoile_(Luxembourg)\">Étoile</a>",
@@ -1533,6 +1587,7 @@
   },
   "sunny-bay": {
     "been": false,
+    "city": "Hong Kong",
     "coords": "22.33180000, 114.02880000",
     "country": "HK",
     "icons": ["🇭🇰"],
@@ -1562,6 +1617,7 @@
   },
   "technopark": {
     "been": true,
+    "city": "Casablanca",
     "coords": "50.81111, 12.92398",
     "country": "MA",
     "icons": ["🇲🇦"],
@@ -1643,6 +1699,7 @@
   },
   "vuosaari": {
     "been": false,
+    "city": "Helsinki",
     "coords": "60.20722222, 25.14222222",
     "country": "FI",
     "icons": ["🇫🇮"],
@@ -1694,15 +1751,19 @@
   },
   "zenith": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Zénith",
     "reference": "زنيث"
   },
   "zone-industrielle": {
     "been": true,
+    "city": "Casablanca",
     "country": "MA",
     "icons": ["🇲🇦"],
+    "link": "#",
     "name": "Zone Industrielle",
     "reference": "المنطقة الصناعية"
   }

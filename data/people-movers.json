@@ -3,6 +3,8 @@
     "icon": "🚝",
     "name": "People Movers",
     "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
     "type": "place"
   },
   "airrail-link": {
@@ -55,6 +57,7 @@
     "prefix": "2008"
   },
   "birmingham-interchange": {
+    "badges": ["🚧"],
     "been": false,
     "coords": "52.45243000, -1.70709000",
     "country": "GB",

@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
     "icon": "👯",
     "map": {
       "lat": "25",
@@ -8,6 +9,7 @@
     },
     "name": "Twin Cities",
     "size": "medium",
+    "tags": ["country-key", "todo-icon"],
     "type": "place"
   },
   "aberdeen-au": {
@@ -7429,6 +7431,7 @@
     "state": "NJ"
   },
   "new-holland-pa": {
+    "badges": ["🚜"],
     "been": true,
     "coords": "40.10222222, -76.08777778",
     "country": "US",
@@ -11148,11 +11151,6 @@
     "link": "https://en.wikipedia.org/wiki/Tucson,_Arizona",
     "name": "Tuscon, AZ",
     "state": "AZ"
-  },
-  "twin-cities-no-country": {
-    "been": true,
-    "icons": ["👯"],
-    "name": "Twin Cities"
   },
   "ulster-ia": {
     "been": false,

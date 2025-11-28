@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "footer": "",
     "icon": "🏛",
     "map": {
       "lat": "18",
@@ -8,6 +9,7 @@
     },
     "name": "Capitals",
     "size": "large",
+    "tags": ["city-flag"],
     "type": "place"
   },
   "abidjan": {
@@ -486,11 +488,6 @@
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Cape_Town",
     "name": "Cape Town"
-  },
-  "capitals": {
-    "been": true,
-    "icons": ["🏛"],
-    "name": "Capitals"
   },
   "caracas": {
     "been": false,
@@ -1429,6 +1426,7 @@
     "name": "Nukuʻalofa"
   },
   "nusantara": {
+    "badges": ["🚧"],
     "been": false,
     "coords": "-0.97305556, 116.70861111",
     "country": "ID",

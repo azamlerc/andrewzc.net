@@ -7,9 +7,12 @@
     "reference": "Paris"
   },
   "--info--": {
+    "header": "Metro stations with platforms that are not directly opposite one another.",
     "icon": "⚡️",
     "name": "Offset Platforms",
     "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "14th-street–union-square": {
@@ -109,11 +112,6 @@
     "link": "https://fr.wikipedia.org/wiki/Liège_(métro_de_Paris)",
     "name": "Liege",
     "reference": "Paris"
-  },
-  "offset-platforms": {
-    "been": true,
-    "icons": ["⚡️"],
-    "name": "Offset Platforms"
   },
   "san-antonio-abad": {
     "been": true,
