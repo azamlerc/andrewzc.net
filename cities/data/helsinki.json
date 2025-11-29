@@ -571,6 +571,30 @@
     "name": "Suomenlinna",
     "type": "forts"
   },
+  "gauges-finland": {
+    "been": false,
+    "city": "Helsinki",
+    "coords": "60.17083333, 24.93750000",
+    "country": "FI",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/VR_Group",
+    "name": "Finland",
+    "prefix": "1524",
+    "type": "gauges",
+    "wikidata": "Q913248"
+  },
+  "gauges-helsinki-metro": {
+    "been": false,
+    "city": "Helsinki",
+    "coords": "60.21028000, 25.07806000",
+    "country": "FI",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_Metro",
+    "name": "Helsinki Metro",
+    "prefix": "1522",
+    "type": "gauges",
+    "wikidata": "Q207287"
+  },
   "grand-unions-government-palace": {
     "been": false,
     "city": "Helsinki",
@@ -907,7 +931,7 @@
     "type": "music-places"
   },
   "northernmost-helsinki": {
-    "been": false,
+    "been": true,
     "city": "Helsinki",
     "coords": "60.09470000, 24.56300000",
     "country": "FI",

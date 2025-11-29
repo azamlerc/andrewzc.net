@@ -89,7 +89,7 @@
   "airports-barcelona": {
     "been": true,
     "city": "Barcelona",
-    "coords": "39.50000000, -3.70000000",
+    "coords": "41.29694444, 2.07833333",
     "country": "ES",
     "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Josep_Tarradellas_Barcelona–El_Prat_Airport",
@@ -582,6 +582,30 @@
     "prefix": "5.2",
     "reference": "Barcelona",
     "type": "furthest"
+  },
+  "gauges-barcelona-line-1": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.39400000, 2.14418000",
+    "country": "ES",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
+    "name": "Barcelona Line 1",
+    "prefix": "1672",
+    "type": "gauges",
+    "wikidata": "Q237189"
+  },
+  "gauges-barcelona-line-8": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.39400000, 2.14418000",
+    "country": "ES",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
+    "name": "Barcelona Line 8",
+    "prefix": "1000",
+    "type": "gauges",
+    "wikidata": "Q237189"
   },
   "head-on-sarria": {
     "been": true,
@@ -1448,7 +1472,7 @@
     "type": "tv-places"
   },
   "twin-cities-barcelona": {
-    "been": false,
+    "been": true,
     "city": "Barcelona",
     "coords": "10.14027778, -64.68333333",
     "country": "VE",

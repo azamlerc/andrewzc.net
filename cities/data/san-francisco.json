@@ -366,7 +366,7 @@
     "type": "ferries"
   },
   "ferris-wheels-skystar-wheel": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.80860600, -122.41348900",
     "country": "US",
@@ -457,6 +457,40 @@
     "prefix": "11.3",
     "reference": "San Francisco",
     "type": "furthest"
+  },
+  "gauges-bart": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78680000, -122.40230000",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit",
+    "name": "BART",
+    "prefix": "1676",
+    "type": "gauges",
+    "wikidata": "Q610120"
+  },
+  "gauges-san-francisco-cable-cars": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.79555556, -122.40750000",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+    "name": "San Francisco Cable Cars",
+    "prefix": "1067",
+    "type": "gauges"
+  },
+  "gauges-san-francisco-zoo": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.73305556, -122.50305556",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_Zoo",
+    "name": "San Francisco Zoo",
+    "prefix": "0578",
+    "type": "gauges"
   },
   "greenhouses-conservatory-of-flowers": {
     "been": true,
@@ -704,7 +738,7 @@
     "type": "metro-places"
   },
   "metro-places-san-francisco": {
-    "been": false,
+    "been": true,
     "city": "San Francisco",
     "coords": "37.77750000, -122.41638889",
     "countries": ["EC", "US"],

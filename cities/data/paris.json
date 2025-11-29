@@ -1278,6 +1278,18 @@
     "reference": "Paris",
     "type": "cross-platform"
   },
+  "cross-platform-gare-de-lest": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85666667, 2.35222222",
+    "country": "FR",
+    "icons": ["🔀"],
+    "link": "https://fr.wikipedia.org/wiki/Gare_de_l%27Est_(métro_de_Paris)",
+    "name": "Gare de l’Est",
+    "reference": "Paris",
+    "type": "cross-platform",
+    "wikidata": "Q90"
+  },
   "cross-platform-gare-du-nord": {
     "been": true,
     "city": "Paris",
@@ -3144,7 +3156,7 @@
     "type": "metro-people"
   },
   "metro-people-pasteur": {
-    "been": false,
+    "been": true,
     "city": "Paris",
     "coords": "48.84283600, 2.31268100",
     "countries": ["IT", "FR"],

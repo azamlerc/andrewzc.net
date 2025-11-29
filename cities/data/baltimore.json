@@ -1,4 +1,15 @@
 {
+  "airports-baltimore/washington": {
+    "been": true,
+    "city": "Baltimore",
+    "coords": "38.94444444, -77.45583333",
+    "country": "US",
+    "icons": ["🛫"],
+    "link": "https://en.wikipedia.org/wiki/Baltimore/Washington_International_Airport",
+    "name": "Baltimore/Washington",
+    "prefix": "BWI",
+    "type": "airports"
+  },
   "apple-towson-town-center": {
     "been": false,
     "city": "Baltimore",
@@ -112,8 +123,9 @@
   "gauges-baltimore": {
     "been": true,
     "city": "Baltimore",
+    "coords": "39.28944444, -76.61527778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["📏"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_Streetcar_System",
     "name": "Baltimore",
     "prefix": "1638",

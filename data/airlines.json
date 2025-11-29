@@ -1,0 +1,752 @@
+{
+  "--info--": {
+    "icon": "✈️",
+    "name": "Airlines",
+    "size": "large",
+    "type": "place"
+  },
+  "aer-lingus": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Aer_Lingus",
+    "name": "Aer Lingus",
+    "wikidata": "Q83716"
+  },
+  "aeroflot": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Aeroflot",
+    "name": "Aeroflot",
+    "wikidata": "Q58707"
+  },
+  "air-baltic": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.917232, 23.981073",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/AirBaltic",
+    "name": "Air Baltic",
+    "wikidata": "Q300924"
+  },
+  "air-burkina": {
+    "been": true,
+    "country": "BF",
+    "icons": ["🇧🇫"],
+    "link": "https://en.wikipedia.org/wiki/Air_Burkina",
+    "name": "Air Burkina",
+    "wikidata": "Q406928"
+  },
+  "air-canada": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Air_Canada",
+    "name": "Air Canada",
+    "wikidata": "Q185339"
+  },
+  "air-china": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Air_China",
+    "name": "Air China",
+    "wikidata": "Q51747"
+  },
+  "air-cote-divoire": {
+    "been": true,
+    "country": "CI",
+    "icons": ["🇨🇮"],
+    "link": "https://en.wikipedia.org/wiki/Air_Côte_d%27Ivoire",
+    "name": "Air Côte d’Ivoire",
+    "wikidata": "Q392864"
+  },
+  "air-europa": {
+    "been": true,
+    "coords": "39.48307290, 2.85285110",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Air_Europa",
+    "name": "Air Europa"
+  },
+  "air-france": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Air_France",
+    "name": "Air France",
+    "wikidata": "Q131005"
+  },
+  "air-greenland": {
+    "country": "GL",
+    "icons": ["🇬🇱"],
+    "link": "https://en.wikipedia.org/wiki/Air_Greenland",
+    "name": "Air Greenland"
+  },
+  "air-india": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Air_India",
+    "name": "Air India",
+    "wikidata": "Q69906"
+  },
+  "air-koryo": {
+    "been": false,
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "link": "https://en.wikipedia.org/wiki/Air_Koryo",
+    "name": "Air Koryo",
+    "wikidata": "Q257502"
+  },
+  "air-panama": {
+    "been": true,
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "link": "https://en.wikipedia.org/wiki/Air_Panama",
+    "name": "Air Panama",
+    "wikidata": "Q407708"
+  },
+  "air-senegal": {
+    "been": true,
+    "country": "SN",
+    "icons": ["🇸🇳"],
+    "link": "https://en.wikipedia.org/wiki/Air_Senegal",
+    "name": "Air Senegal",
+    "wikidata": "Q56754455"
+  },
+  "air-serbia": {
+    "been": false,
+    "country": "RS",
+    "icons": ["🇷🇸"],
+    "link": "https://en.wikipedia.org/wiki/Air_Serbia",
+    "name": "Air Serbia",
+    "wikidata": "Q460373"
+  },
+  "air-tanzania": {
+    "been": false,
+    "country": "TZ",
+    "icons": ["🇹🇿"],
+    "link": "https://en.wikipedia.org/wiki/Air_Tanzania",
+    "name": "Air Tanzania",
+    "wikidata": "Q407842"
+  },
+  "air-vanuatu": {
+    "been": true,
+    "country": "VU",
+    "icons": ["🇻🇺"],
+    "link": "https://en.wikipedia.org/wiki/Air_Vanuatu",
+    "name": "Air Vanuatu",
+    "wikidata": "Q407886"
+  },
+  "alaska": {
+    "been": true,
+    "coords": "64.00000000, -152.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Alaska_Airlines",
+    "name": "Alaska",
+    "wikidata": "Q822614"
+  },
+  "alitalia": {
+    "been": false,
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Alitalia",
+    "name": "Alitalia",
+    "strike": true,
+    "wikidata": "Q153975"
+  },
+  "all-nippon-airways": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/All_Nippon_Airways",
+    "name": "All Nippon Airways",
+    "wikidata": "Q204284"
+  },
+  "american": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/American_Airlines",
+    "name": "American",
+    "wikidata": "Q32396"
+  },
+  "arajet": {
+    "been": true,
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://es.wikipedia.org/wiki/Arajet",
+    "name": "Arajet",
+    "wikidata": "Q19903242"
+  },
+  "austrian": {
+    "been": false,
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Austrian_Airlines",
+    "name": "Austrian",
+    "wikidata": "Q781770"
+  },
+  "avianca": {
+    "been": true,
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Avianca",
+    "name": "Avianca",
+    "wikidata": "Q26736137"
+  },
+  "british-airways": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/British_Airways",
+    "name": "British Airways",
+    "wikidata": "Q8766"
+  },
+  "brussels": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Brussels_Airlines",
+    "name": "Brussels",
+    "wikidata": "Q153571"
+  },
+  "cathay-pacific": {
+    "been": true,
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://en.wikipedia.org/wiki/Cathay_Pacific",
+    "name": "Cathay Pacific",
+    "wikidata": "Q32141"
+  },
+  "china-eastern": {
+    "been": true,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/China_Eastern_Airlines",
+    "name": "China Eastern",
+    "wikidata": "Q291796"
+  },
+  "clic-air": {
+    "been": true,
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Clic_Air",
+    "name": "Clic Air",
+    "wikidata": "Q1278338"
+  },
+  "continental": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Continental_Airlines",
+    "name": "Continental",
+    "strike": true,
+    "wikidata": "Q216486"
+  },
+  "czech-airlines": {
+    "been": false,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Czech_Airlines",
+    "name": "Czech Airlines",
+    "strike": true,
+    "wikidata": "Q192653"
+  },
+  "delta": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Delta_Air_Lines",
+    "name": "Delta",
+    "wikidata": "Q188920"
+  },
+  "east-african": {
+    "been": true,
+    "country": "KE",
+    "icons": ["🇰🇪"],
+    "link": "https://en.wikipedia.org/wiki/Eastafrican.com",
+    "name": "East African",
+    "wikidata": "Q14628884"
+  },
+  "eastern": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Eastern_Air_Lines",
+    "name": "Eastern",
+    "strike": true,
+    "wikidata": "Q611742"
+  },
+  "easyjet": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/EasyJet",
+    "name": "easyJet",
+    "wikidata": "Q191551"
+  },
+  "egyptair": {
+    "been": true,
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Egyptair",
+    "name": "Egyptair",
+    "wikidata": "Q374740"
+  },
+  "el-al": {
+    "been": true,
+    "country": "IL",
+    "icons": ["🇮🇱"],
+    "link": "https://en.wikipedia.org/wiki/El_Al",
+    "name": "El Al",
+    "wikidata": "Q208489"
+  },
+  "emirates": {
+    "been": true,
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Emirates_(airline)",
+    "name": "Emirates",
+    "wikidata": "Q55613779"
+  },
+  "ethiopian": {
+    "been": true,
+    "country": "ET",
+    "icons": ["🇪🇹"],
+    "link": "https://en.wikipedia.org/wiki/Ethiopian_Airlines",
+    "name": "Ethiopian",
+    "wikidata": "Q245233"
+  },
+  "finnair": {
+    "been": false,
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Finnair",
+    "name": "Finnair",
+    "wikidata": "Q201821"
+  },
+  "flybe": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Flybe_(1979–2020)",
+    "name": "Flybe",
+    "strike": true,
+    "wikidata": "Q283790"
+  },
+  "french-bee": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷", "🐝"],
+    "link": "https://en.wikipedia.org/wiki/French_Bee",
+    "name": "French Bee",
+    "wikidata": "Q23979091"
+  },
+  "hop!": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Air_France_Hop",
+    "name": "Hop!",
+    "wikidata": "Q3951786"
+  },
+  "iberia": {
+    "been": false,
+    "coords": "40.50000000, -4.00000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Iberia_(airline)",
+    "name": "Iberia"
+  },
+  "icelandair": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "link": "https://en.wikipedia.org/wiki/Icelandair",
+    "name": "Icelandair",
+    "wikidata": "Q216645"
+  },
+  "iran-air": {
+    "been": false,
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Iran_Air",
+    "name": "Iran Air",
+    "wikidata": "Q461631"
+  },
+  "ita-airways": {
+    "been": false,
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/ITA_Airways",
+    "name": "ITA Airways",
+    "wikidata": "Q108251249"
+  },
+  "japan-airlines": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Japan_Airlines",
+    "name": "Japan Airlines",
+    "wikidata": "Q213140"
+  },
+  "jet2": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Jet2.com",
+    "name": "Jet2",
+    "wikidata": "Q1140807"
+  },
+  "jetblue": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75080000, -73.93860000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/JetBlue",
+    "name": "JetBlue"
+  },
+  "jetsmart": {
+    "been": true,
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/JetSmart",
+    "name": "JetSmart",
+    "wikidata": "Q30106175"
+  },
+  "jetstar": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Jetstar_Japan",
+    "name": "Jetstar",
+    "wikidata": "Q117433"
+  },
+  "kenmore": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kenmore_Air",
+    "name": "Kenmore",
+    "wikidata": "Q3195152"
+  },
+  "kenya-airways": {
+    "been": true,
+    "country": "KE",
+    "icons": ["🇰🇪"],
+    "link": "https://en.wikipedia.org/wiki/Kenya_Airways",
+    "name": "Kenya Airways",
+    "wikidata": "Q638900"
+  },
+  "klm": {
+    "been": true,
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/KLM",
+    "name": "KLM",
+    "wikidata": "Q181912"
+  },
+  "korean-air": {
+    "been": true,
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Korean_Air",
+    "name": "Korean Air",
+    "wikidata": "Q213147"
+  },
+  "la-compagnie": {
+    "been": false,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/La_Compagnie",
+    "name": "La Compagnie",
+    "wikidata": "Q18121467"
+  },
+  "level": {
+    "been": true,
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Level_(airline_brand)",
+    "name": "Level",
+    "wikidata": "Q37491373"
+  },
+  "lot": {
+    "been": true,
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/LOT_Polish_Airlines",
+    "name": "LOT",
+    "wikidata": "Q204268"
+  },
+  "lufthansa": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Lufthansa",
+    "name": "Lufthansa",
+    "wikidata": "Q9325"
+  },
+  "norse-atlantic": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Norse_Atlantic_Airways",
+    "name": "Norse Atlantic",
+    "wikidata": "Q107300119"
+  },
+  "northwest": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Northwest_Airlines",
+    "name": "Northwest",
+    "strike": true,
+    "wikidata": "Q309174"
+  },
+  "norwegian": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Norwegian_Air_Shuttle",
+    "name": "Norwegian",
+    "wikidata": "Q215392"
+  },
+  "pan-am": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Pan_American_World_Airways",
+    "name": "Pan Am",
+    "strike": true,
+    "wikidata": "Q8681"
+  },
+  "pegasus": {
+    "been": true,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Pegasus_Airlines",
+    "name": "Pegasus",
+    "wikidata": "Q1100424"
+  },
+  "porter": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Porter_Airlines",
+    "name": "Porter",
+    "wikidata": "Q1811473"
+  },
+  "primera": {
+    "been": true,
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Primera_Air",
+    "name": "Primera",
+    "strike": true,
+    "wikidata": "Q153686"
+  },
+  "qantas": {
+    "been": false,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Qantas",
+    "name": "Qantas",
+    "wikidata": "Q32491"
+  },
+  "qatar-airways": {
+    "been": false,
+    "country": "QA",
+    "icons": ["🇶🇦"],
+    "link": "https://en.wikipedia.org/wiki/Qatar_Airways",
+    "name": "Qatar Airways",
+    "wikidata": "Q208033"
+  },
+  "royal-air-maroc": {
+    "been": true,
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "link": "https://en.wikipedia.org/wiki/Royal_Air_Maroc",
+    "name": "Royal Air Maroc",
+    "wikidata": "Q866103"
+  },
+  "rwandair": {
+    "been": true,
+    "country": "RW",
+    "icons": ["🇷🇼"],
+    "link": "https://en.wikipedia.org/wiki/Rwandair",
+    "name": "RwandAir",
+    "wikidata": "Q392542"
+  },
+  "ryanair": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "https://en.wikipedia.org/wiki/Ryanair",
+    "name": "RyanAir",
+    "wikidata": "Q170614"
+  },
+  "sas": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Scandinavian_Airlines",
+    "name": "SAS",
+    "wikidata": "Q187854"
+  },
+  "smartwings": {
+    "been": false,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Smartwings",
+    "name": "Smartwings",
+    "wikidata": "Q1853488"
+  },
+  "southwest": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Southwest_Airlines",
+    "name": "Southwest",
+    "wikidata": "Q503308"
+  },
+  "spirit": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Spirit_Airlines",
+    "name": "Spirit",
+    "wikidata": "Q1190598"
+  },
+  "swiss": {
+    "been": false,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Swiss_International_Air_Lines",
+    "name": "Swiss",
+    "wikidata": "Q156776"
+  },
+  "tap-air-portugal": {
+    "been": true,
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/TAP_Air_Portugal",
+    "name": "TAP Air Portugal",
+    "wikidata": "Q208232"
+  },
+  "transavia": {
+    "been": true,
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Transavia",
+    "name": "Transavia",
+    "wikidata": "Q246952"
+  },
+  "turkish-airlines": {
+    "been": true,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Turkish_Airlines",
+    "name": "Turkish Airlines",
+    "wikidata": "Q4548"
+  },
+  "twa": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Trans_World_Airlines",
+    "name": "TWA",
+    "strike": true,
+    "wikidata": "Q527341"
+  },
+  "ukraine-international": {
+    "been": false,
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Ukraine_International_Airlines",
+    "name": "Ukraine International",
+    "wikidata": "Q836560"
+  },
+  "united": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/United_Airlines",
+    "name": "United",
+    "wikidata": "Q174769"
+  },
+  "us-airways": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/US_Airways",
+    "name": "US Airways",
+    "strike": true,
+    "wikidata": "Q208046"
+  },
+  "virgin-america": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Virgin_America",
+    "name": "Virgin America",
+    "strike": true,
+    "wikidata": "Q136668270"
+  },
+  "virgin-atlantic": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Virgin_Atlantic",
+    "name": "Virgin Atlantic",
+    "wikidata": "Q32277"
+  },
+  "viva": {
+    "been": true,
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Viva_(airline)",
+    "name": "Viva",
+    "wikidata": "Q48780330"
+  },
+  "vueling": {
+    "been": true,
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vueling",
+    "name": "Vueling",
+    "wikidata": "Q646741"
+  },
+  "wingo": {
+    "been": true,
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Wingo_(airline)",
+    "name": "Wingo",
+    "wikidata": "Q37455122"
+  },
+  "wizz": {
+    "been": true,
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Wizz_Air",
+    "name": "Wizz",
+    "wikidata": "Q335147"
+  },
+  "wow": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wow_Air",
+    "name": "WOW",
+    "strike": true,
+    "wikidata": "Q1156931"
+  }
+}

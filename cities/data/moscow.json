@@ -246,7 +246,7 @@
     "type": "connections"
   },
   "connections-a-class=russian-href=https://ruwikipediaorg/wiki/ленинскии_проспект_(станция_метро)ленинскии-проспект/a-|-a-class=russian-href=https://ruwikipediaorg/wiki/площадь_гагарина_(станция_мцк)площадь-гагарина/a": {
-    "been": false,
+    "been": true,
     "city": "Moscow",
     "country": "RU",
     "icons": ["🇷🇺"],
@@ -498,6 +498,17 @@
     "prefix": "6.6",
     "reference": "Moscow",
     "type": "furthest"
+  },
+  "gauges-russia": {
+    "been": true,
+    "city": "Moscow",
+    "coords": "55.75583333, 37.61722222",
+    "country": "RU",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/5_ft_and_1520_mm_gauge_railways",
+    "name": "Russia",
+    "prefix": "1520",
+    "type": "gauges"
   },
   "grand-unions-preobrazhenskaya-pl": {
     "been": false,
@@ -930,7 +941,7 @@
     "type": "music-places"
   },
   "northernmost-moscow": {
-    "been": false,
+    "been": true,
     "city": "Moscow",
     "coords": "55.83527800, 37.32666700",
     "country": "RU",

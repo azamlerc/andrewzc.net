@@ -146,7 +146,7 @@
     "type": "fare-cards"
   },
   "fare-cards-tarjeta-tullave": {
-    "been": false,
+    "been": true,
     "city": "Bogotá",
     "coords": "4.64900000, -74.10860000",
     "country": "CO",
@@ -155,6 +155,17 @@
     "name": "Tarjeta Tullave",
     "reference": "Bogotá",
     "type": "fare-cards"
+  },
+  "gauges-tren-turistico-de-la-sabana": {
+    "been": true,
+    "city": "Bogotá",
+    "coords": "4.69060000, -74.03820000",
+    "country": "CO",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Tren_Tur%C3%ADstico_de_la_Sabana",
+    "name": "Tren Turístico de la Sabana",
+    "prefix": "0914",
+    "type": "gauges"
   },
   "heritage-tren-turistico-de-la-sabana": {
     "been": true,

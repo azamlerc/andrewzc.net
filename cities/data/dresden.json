@@ -153,6 +153,17 @@
     "name": "Dresden Suspension Railway",
     "type": "funiculars"
   },
+  "gauges-dresden-tram": {
+    "been": true,
+    "city": "Dresden",
+    "coords": "51.05083333, 13.73333333",
+    "country": "DE",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Dresden",
+    "name": "Dresden Tram",
+    "prefix": "1450",
+    "type": "gauges"
+  },
   "grand-unions-albertplatz": {
     "been": false,
     "city": "Dresden",
@@ -177,7 +188,7 @@
     "type": "grand-unions"
   },
   "grand-unions-hauptbahnhof": {
-    "been": false,
+    "been": true,
     "city": "Dresden",
     "coords": "51.04057000, 13.73420000",
     "country": "DE",

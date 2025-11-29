@@ -259,6 +259,18 @@
     "name": "Elevador do Lavra",
     "type": "funiculars"
   },
+  "gauges-portugal": {
+    "been": true,
+    "city": "Lisbon",
+    "coords": "38.76666667, -9.15000000",
+    "country": "PT",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Comboios_de_Portugal",
+    "name": "Portugal",
+    "prefix": "1668",
+    "type": "gauges",
+    "wikidata": "Q81123"
+  },
   "ikea-alfragide": {
     "been": false,
     "city": "Lisbon",
@@ -714,7 +726,7 @@
     "type": "twin-stations"
   },
   "twin-stations-prazeres": {
-    "been": false,
+    "been": true,
     "city": "Lisbon",
     "coords": "38.70888889, -9.16888889",
     "country": "BR",

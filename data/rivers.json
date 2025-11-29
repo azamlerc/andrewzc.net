@@ -8,8 +8,8 @@
     },
     "name": "Rivers",
     "size": "medium",
-    "type": "place",
-    "sort": "iconCount"
+    "sort": "iconCount",
+    "type": "place"
   },
   "aa": {
     "been": true,
@@ -914,7 +914,7 @@
     "name": "Dniester"
   },
   "don": {
-    "been": false,
+    "been": true,
     "coords": "54.01194444, 38.27805556",
     "country": "UA",
     "icons": ["🇺🇦"],
@@ -980,7 +980,7 @@
     "name": "Duwamish → Puget Sound"
   },
   "dyle": {
-    "been": false,
+    "been": true,
     "city": "Antwerp",
     "coords": "51.07360000, 4.41988000",
     "country": "BE",
@@ -989,7 +989,7 @@
     "name": "Dyle"
   },
   "ebro": {
-    "been": false,
+    "been": true,
     "coords": "40.72000000, 0.86305556",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -1678,6 +1678,12 @@
     "link": "https://en.wikipedia.org/wiki/Limpopo_River",
     "name": "Limpopo"
   },
+  "litani": {
+    "country": "LB",
+    "icons": ["🇱🇧"],
+    "link": "https://en.wikipedia.org/wiki/Litani_River",
+    "name": "Litani"
+  },
   "llobregat": {
     "been": true,
     "city": "Barcelona",
@@ -2285,7 +2291,7 @@
     "name": "Ob"
   },
   "oder": {
-    "been": false,
+    "been": true,
     "coords": "53.67194444, 14.52361111",
     "countries": ["PL", "CZ", "DE"],
     "country": "DE",
@@ -2318,6 +2324,12 @@
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Oka_(river)",
     "name": "Oka"
+  },
+  "olza": {
+    "countries": ["CZ", "PL"],
+    "icons": ["🇨🇿", "🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Olza_(river)",
+    "name": "Olza"
   },
   "opava": {
     "been": true,

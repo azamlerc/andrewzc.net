@@ -126,8 +126,9 @@
   "gauges-glasgow": {
     "been": false,
     "city": "Glasgow",
+    "coords": "55.86160000, -4.28320000",
     "country": "GB-SCT",
-    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "icons": ["📏"],
     "link": "https://en.wikipedia.org/wiki/Glasgow_Subway",
     "name": "Glasgow",
     "prefix": "1220",
@@ -278,7 +279,7 @@
     "type": "trolleybuses"
   },
   "twin-cities-glasgow": {
-    "been": false,
+    "been": true,
     "city": "Glasgow",
     "coords": "55.86111111, -4.25000000",
     "country": "GY",

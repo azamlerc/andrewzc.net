@@ -321,14 +321,61 @@
     "strike": true,
     "type": "funiculars"
   },
+  "gauges-castle-shannon-plane": {
+    "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.42978000, -80.00248000",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Pittsburgh_and_Castle_Shannon_Plane",
+    "name": "Castle Shannon Plane",
+    "prefix": "1016",
+    "strike": true,
+    "type": "gauges"
+  },
+  "gauges-duquesne-incline": {
+    "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.43916667, -80.01805556",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Duquesne_Incline",
+    "name": "Duquesne Incline",
+    "prefix": "1524",
+    "type": "gauges"
+  },
+  "gauges-monongahela-incline": {
+    "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.43194444, -80.00555556",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Monongahela_Incline",
+    "name": "Monongahela Incline",
+    "prefix": "1524",
+    "type": "gauges"
+  },
   "gauges-pittsburgh": {
     "been": true,
     "city": "Pittsburgh",
+    "coords": "40.44166667, -80.00000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["📏"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh_Light_Rail",
     "name": "Pittsburgh",
     "prefix": "1588",
+    "type": "gauges"
+  },
+  "gauges-pittsburgh-inclines": {
+    "been": true,
+    "city": "Pittsburgh",
+    "coords": "40.42920000, -80.00260000",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Castle_Shannon_Incline",
+    "name": "Pittsburgh Inclines",
+    "prefix": "3048",
+    "strike": true,
     "type": "gauges"
   },
   "grand-unions-5th-&-craig": {

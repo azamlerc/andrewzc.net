@@ -423,6 +423,30 @@
     "reference": "Madrid",
     "type": "furthest"
   },
+  "gauges-madrid-metro": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.42526000, -3.69063000",
+    "country": "ES",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Madrid_Metro",
+    "name": "Madrid Metro",
+    "prefix": "1445",
+    "type": "gauges",
+    "wikidata": "Q191987"
+  },
+  "gauges-spain": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.43333333, -3.70000000",
+    "country": "ES",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Rail_transport_in_Spain",
+    "name": "Spain",
+    "prefix": "1668",
+    "type": "gauges",
+    "wikidata": "Q899228"
+  },
   "greenhouses-palacio-de-cristal-del-retiro": {
     "been": false,
     "city": "Madrid",
@@ -1167,7 +1191,7 @@
     "type": "trams"
   },
   "transfer-avenida-de-america": {
-    "been": false,
+    "been": true,
     "city": "Madrid",
     "coords": "40.43861100, -3.67527800",
     "country": "ES",

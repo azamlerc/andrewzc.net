@@ -1,4 +1,15 @@
 {
+  "airlines-air-baltic": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.91723200, 23.98107300",
+    "country": "LV",
+    "icons": ["✈️"],
+    "link": "https://en.wikipedia.org/wiki/AirBaltic",
+    "name": "Air Baltic",
+    "type": "airlines",
+    "wikidata": "Q300924"
+  },
   "airports-riga": {
     "been": true,
     "city": "Riga",
@@ -210,12 +221,24 @@
     "prefix": "2003",
     "type": "eurovision"
   },
+  "gauges-latvia": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.95000000, 24.10000000",
+    "country": "LV",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Rail_transport_in_Latvia",
+    "name": "Latvia",
+    "prefix": "1520",
+    "type": "gauges",
+    "wikidata": "Q839193"
+  },
   "gauges-riga": {
     "been": true,
     "city": "Riga",
-    "coords": "56.971906, 24.032467",
+    "coords": "56.97190600, 24.03246700",
     "country": "LV",
-    "icons": ["🇱🇻"],
+    "icons": ["📏"],
     "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
     "name": "Riga",
     "prefix": "1520",

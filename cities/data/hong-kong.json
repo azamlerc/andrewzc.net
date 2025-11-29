@@ -24,7 +24,7 @@
   "airports-hong-kong-kai-tak": {
     "been": true,
     "city": "Hong Kong",
-    "coords": "22.33500000, 114.18444444",
+    "coords": "22.32861111, 114.19416667",
     "country": "HK",
     "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Kai_Tak_Airport",
@@ -613,6 +613,18 @@
     "link": "https://en.wikipedia.org/wiki/Peak_Tram",
     "name": "Hong Kong Peak Tram",
     "type": "funiculars"
+  },
+  "gauges-peak-tram": {
+    "been": true,
+    "city": "Hong Kong",
+    "coords": "22.27204444, 114.15486667",
+    "country": "HK",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Hong_Kong",
+    "name": "Peak Tram",
+    "prefix": "1524",
+    "type": "gauges",
+    "wikidata": "Q116507488"
   },
   "housing-choi-hung-estate": {
     "been": false,

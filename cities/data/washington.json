@@ -78,7 +78,7 @@
   "airports-washington-national": {
     "been": true,
     "city": "Washington",
-    "coords": "38.85133333, -77.04450000",
+    "coords": "38.85222222, -77.03777778",
     "country": "US",
     "icons": ["🛫"],
     "link": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport",
@@ -1085,6 +1085,18 @@
     "prefix": "3.6",
     "reference": "Washington",
     "type": "furthest"
+  },
+  "gauges-washington-metro": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89905556, -77.02894444",
+    "country": "US",
+    "icons": ["📏"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Metro",
+    "name": "Washington Metro",
+    "prefix": "1429",
+    "type": "gauges",
+    "wikidata": "Q171221"
   },
   "grand-unions-florida-&-georgia-aves": {
     "been": true,
@@ -2868,7 +2880,7 @@
     "type": "twin-cities"
   },
   "twin-cities-washington": {
-    "been": false,
+    "been": true,
     "city": "Washington",
     "coords": "22.59333056, -80.31610833",
     "country": "CU",

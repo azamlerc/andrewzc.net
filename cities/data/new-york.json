@@ -301,6 +301,16 @@
     "order": 7,
     "type": "airbnb"
   },
+  "airlines-jetblue": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75080000, -73.93860000",
+    "country": "US",
+    "icons": ["✈️"],
+    "link": "https://en.wikipedia.org/wiki/JetBlue",
+    "name": "JetBlue",
+    "type": "airlines"
+  },
   "airport-metros-howard-beach–jfk-airport": {
     "badges": ["🚝"],
     "been": true,
@@ -2991,7 +3001,7 @@
   },
   "islands-governors-island": {
     "badges": ["⛴️"],
-    "been": false,
+    "been": true,
     "city": "New York",
     "coords": "40.69138900, -74.01611100",
     "country": "US",
@@ -7882,7 +7892,7 @@
     "type": "twin-cities"
   },
   "twin-cities-new-york": {
-    "been": false,
+    "been": true,
     "city": "New York",
     "coords": "48.33194444, 37.83638889",
     "country": "UA",
