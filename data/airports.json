@@ -449,7 +449,7 @@
     "prefix": "CFE"
   },
   "copenhagen": {
-    "been": false,
+    "been": true,
     "city": "Copenhagen",
     "coords": "55.61805556, 12.65611111",
     "country": "DK",
@@ -1896,5 +1896,15 @@
     "link": "https://en.wikipedia.org/wiki/Yaviza_Airport",
     "name": "Yaviza",
     "prefix": "PYV"
+  },
+  "zurich": {
+    "city": "Zürich",
+    "coords": "47.46472222, 8.54916667",
+    "country": "CH",
+    "dateAdded": "2025-11-29",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Zurich_Airport",
+    "name": "Zurich",
+    "prefix": "ZRH"
   }
 }

@@ -83,7 +83,8 @@ function enhancePage(places, pageName) {
     if (Array.isArray(entry.images) && entry.images.length) {
       const imagesDiv = document.createElement("div");
       imagesDiv.className = "images";
-      entry.images.forEach(fname => {
+      let images = randomElements(entry.images, 3);
+      images.forEach(fname => {
         const full = `https://images.andrewzc.net/${pageName}/${fname}`;
         const tn   = `https://images.andrewzc.net/${pageName}/tn/${fname}`;
         const link = document.createElement("a");
@@ -104,6 +105,19 @@ function enhancePage(places, pageName) {
       highlightDistances(cap);
     }
   });
+}
+
+function randomElements(arr, n, rng = Math.random) {
+  const len = arr.length;
+  if (n >= len) return arr;
+  if (n <= 0) return [];
+
+  const copy = arr.slice();
+  for (let i = 0; i < n; i++) {
+    const j = i + Math.floor(rng() * (len - i));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy.slice(0, n);
 }
 
 function highlightDistances(el) {
