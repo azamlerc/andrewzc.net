@@ -106,6 +106,27 @@
     "reference": "San Francisco",
     "type": "cross-platform"
   },
+  "grand-and-union--w-grand-ave-&-union-st": {
+    "city": "Oakland",
+    "coords": "37.81600000, -122.28616000",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.81600_N_122.28616_W",
+    "name": " W Grand Ave & Union St",
+    "reference": "Oakland, CA",
+    "type": "grand-and-union"
+  },
+  "grand-and-union-w-grand-ave-&-union-st": {
+    "been": false,
+    "city": "Oakland",
+    "coords": "37.81600000, -122.28616000",
+    "country": "US",
+    "icons": ["🚦"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=37.81600_N_122.28616_W",
+    "name": "W Grand Ave & Union St",
+    "reference": "Oakland, CA",
+    "type": "grand-and-union"
+  },
   "ikea-emeryville-ca": {
     "been": true,
     "city": "Oakland",
@@ -281,7 +302,7 @@
     "type": "twin-cities"
   },
   "twin-cities-oakland-md": {
-    "been": true,
+    "been": false,
     "coords": "39.41666667, -79.40222222",
     "country": "US",
     "icons": ["👯"],

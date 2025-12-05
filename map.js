@@ -51,27 +51,71 @@ const markerLayers = [
 
 let map;
 
+function getAndrewzcFlags() {
+  const content = document.querySelector('meta[name="andrewzc"]')?.content || "";
+  const flags = new Set(content.split(",").map(s => s.trim()).filter(Boolean));
+  return {
+    referenceKey: flags.has("reference-key"),
+    referenceFirst: flags.has("reference-first"),
+  };
+}
+
+// Given an <a>, find the "line" boundaries and pull name/reference text.
+// Assumes your format: one logical entry per line, terminated by <br>.
+function extractLineInfo(a, referenceFirst) {
+  // find ending <br>
+  let br = a.nextSibling;
+  while (br && br.nodeName !== "BR") br = br.nextSibling;
+  if (!br) return null;
+
+  // find start of line (node after previous <br>)
+  let prev = a.previousSibling;
+  while (prev && prev.nodeName !== "BR") prev = prev.previousSibling;
+  const lineStart = prev ? prev.nextSibling : a.parentNode.firstChild;
+
+  // collect nodes in this line
+  const lineNodes = [];
+  for (let n = lineStart; n && n !== br; n = n.nextSibling) {
+    lineNodes.push(n);
+  }
+
+  const name = a.textContent.trim();
+
+  // find reference from any <span class="dark"> in the line
+  const darkSpans = lineNodes
+    .filter(n => n.nodeType === 1) // element nodes
+    .flatMap(n => n.matches?.("span.dark") ? [n] : [...n.querySelectorAll?.("span.dark") || []]);
+
+  let reference = "";
+  if (darkSpans.length) {
+    // If multiple dark spans exist, pick first or last depending on reference-first.
+    const span = referenceFirst ? darkSpans[0] : darkSpans[darkSpans.length - 1];
+    reference = span.textContent.trim();
+  }
+
+  return { br, lineStart, name, reference };
+}
+
 function enhancePage(places, pageName) {
+  const { referenceKey, referenceFirst } = getAndrewzcFlags();
+
   // --- PASS 1: collect insertion anchors from the unmodified DOM ---
   const ops = [];
 
   document.querySelectorAll(".items a, .medium a").forEach(a => {
-    const key = simplify(a.textContent.trim());
+    const info = extractLineInfo(a, referenceFirst);
+    if (!info) return;
+
+    const { br, lineStart, name, reference } = info;
+
+    // build lookup key depending on flags
+    const baseKey = simplify(name);
+    const key = referenceKey && reference
+      ? `${baseKey}-${simplify(reference)}`
+      : baseKey;
+
     const entry = places[key];
-
     if (!entry) return;
-
-    // find the <br> that ends THIS line
-    let br = a.nextSibling;
-    while (br && br.nodeName !== "BR") br = br.nextSibling;
-    if (!br) return; // should not happen per your format
-
-    // find the first node of THIS line in the original DOM
-    // walk backwards to the previous <br>, then take the next sibling;
-    // if none, the line starts at the container's firstChild
-    let prev = a.previousSibling;
-    while (prev && prev.nodeName !== "BR") prev = prev.previousSibling;
-    const lineStart = prev ? prev.nextSibling : a.parentNode.firstChild;
 
     ops.push({ entry, lineStart, br, a });
   });
@@ -84,16 +128,20 @@ function enhancePage(places, pageName) {
       const imagesDiv = document.createElement("div");
       imagesDiv.className = "images";
       let images = randomElements(entry.images, 3);
+
       images.forEach(fname => {
         const full = `https://images.andrewzc.net/${pageName}/${fname}`;
         const tn   = `https://images.andrewzc.net/${pageName}/tn/${fname}`;
         const link = document.createElement("a");
         link.href = full; link.target = "_blank"; link.rel = "noopener";
+
         const img = document.createElement("img");
         img.src = tn; img.alt = entry.name || a.textContent.trim();
+
         link.appendChild(img);
         imagesDiv.appendChild(link);
       });
+
       parent.insertBefore(imagesDiv, lineStart);   // above THIS line only
     }
 

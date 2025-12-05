@@ -2,6 +2,7 @@
   "--info--": {
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
+    "featured": true,
     "map": {
       "clusterLevel": "6",
       "lat": "43",
@@ -10,7 +11,7 @@
       "zoom": "3"
     },
     "name": "Confluence Points",
-    "prefixClass": "coord",
+    "prefixClass": "coords",
     "size": "large",
     "tags": ["lookup-state"],
     "type": "place"
@@ -1066,14 +1067,6 @@
     "link": "https://confluence.org/confluence.php?lat=49&lon=-112",
     "name": "Coutts, AB",
     "prefix": "49°N 112°W"
-  },
-  "coutts-ab-/-sweet-grass-mt": {
-    "been": true,
-    "coords": "49.0, -112.0",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://confluence.org/confluence.php?lat=49&lon=-112",
-    "name": "Coutts, AB / Sweet Grass, MT"
   },
   "cramant": {
     "been": false,
@@ -4925,11 +4918,6 @@
     "name": "Vestal",
     "prefix": "42°N 76°W",
     "state": "NY"
-  },
-  "video-id=myvideo-controls-preload=none-poster=https://imagesandrewzcnet/confluence/kreuztal3jpg-width=1240-height=520-style=margin:-15px-0px--15px-0pxsource-src=https://imagesandrewzcnet/confluence/kreuztal-1080mp4-type=video/mp4/video": {
-    "been": true,
-    "icons": [],
-    "name": "<video id=\"myVideo\" controls preload=\"none\" poster=\"https://images.andrewzc.net/confluence/kreuztal3.jpg\" width=\"1240\" height=\"520\" style=\"margin: 15px 0px -15px 0px\"><source src=\"https://images.andrewzc.net/confluence/kreuztal-1080.mp4\" type=\"video/mp4\"></video>"
   },
   "vilksala": {
     "badges": ["🛣️"],

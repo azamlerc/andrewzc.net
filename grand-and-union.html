@@ -3,165 +3,41 @@
 <head>
 	<title>🚦 Grand & Union</title>
 	<meta charset="UTF-8">
-	<meta name="andrewzc" content="no-data" />
+	<meta name="andrewzc" content="reference-first, reference-key" />
   <meta name="viewport" content="width=device-width, initial-scale=0.45">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="headline">🚦 Grand & Union</div>
-<div class="text">
-
-<a href="images/grand-and-union/new-york.png"><img src="images/grand-and-union/tn/new-york.png" class="hike"></a>
-<a href="images/grand-and-union/clark.jpg"><img src="images/grand-and-union/tn/clark.jpg" class="hike"></a>
-<a href="images/grand-and-union/williamsburg.jpg"><img src="images/grand-and-union/tn/williamsburg.jpg" class="hike"></a>
-<a href="images/grand-and-union/rutherford.jpg"><img src="images/grand-and-union/tn/rutherford.jpg" class="hike"></a>
-<a href="images/grand-and-union/north-bergen.jpg"><img src="images/grand-and-union/tn/north-bergen.jpg" class="hike"></a>
-<a href="images/grand-and-union/poughkeepsie.jpg"><img src="images/grand-and-union/tn/poughkeepsie.jpg" class="hike"></a>
-<a href="images/grand-and-union/midwest.png"><img src="images/grand-and-union/tn/midwest.png" class="hike"></a>
-
-</div>
+<div id="map" lat="43" lon="-98" zoom="5" cluster="true"></div><script src="map.js"></script>
 <div class="items medium">
 
-<!--exact--><img class="state-medium" src="images/states/ny.png"> <span class="dark">Brooklyn, NY</span><a href="https://geohack.toolforge.org/geohack.php?params=40.71096_N_73.95112_W"> Grand St & Union Ave</a><br>
-<!--1 km--><img class="state-medium" src="images/states/wa.png"> <span class="dark">Centralia, WA</span><a href=""> Grand Ave & E Union St</a><br>
-<!--100m--><img class="state-medium" src="images/states/il.png"> <span class="dark">Chicago, IL</span><a href="https://geohack.toolforge.org/geohack.php?params=41.89121_N_87.64582_W"> W Grand Ave & N Union Ave</a><br>
-<!--exact--><img class="state-medium" src="images/states/nj.png"> <span class="dark">Clark, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.62380_N_74.30328_W"> Grand St & Union St</a><br>
-<!--100m--><img class="state-medium" src="images/states/nj.png"> <span class="dark">Elizabeth, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.66644_N_74.21723_W"> W Grand St & Union St</a><br>
-<!--200m--><img class="state-medium" src="images/states/nj.png"> <span class="dark">Jersey City, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.71313_N_74.07405_W"> Grand St & Union St*</a><br>
-<!--exact--><img class="state-medium" src="images/states/nj.png"> <span class="dark">North Bergen, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.77891_N_74.03445_W"> Grand Ave & Union Turnpike</a><br>
-<!--exact--><img class="state-medium" src="images/states/nj.png"> <span class="dark">Palisades Park, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.85117_N_74.00101_W"> Grand Ave & Union St</a><br>
-<!--exact--><img class="state-medium" src="images/states/or.png"> <span class="dark">Portland, OR</span><a href="https://geohack.toolforge.org/geohack.php?params=45.53675_N_122.66169_W"> Grand Ave & Union Ave</a><br>
-<!--exact--><img class="state-medium" src="images/states/ny.png"> <span class="dark">Poughkeepsie, NY</span><a href="https://geohack.toolforge.org/geohack.php?params=41.70399_N_73.93121_W"> Grand St & Union St</a><br>
-<!--exact--><img class="state-medium" src="images/states/nj.png"> <span class="dark">Rutherford, NJ</span><a href="https://geohack.toolforge.org/geohack.php?params=40.83938_N_74.11911_W"> Grand Ave & Union Ave</a><br>
-<!--exact--><img class="state-medium" src="images/states/ny.png"> <span class="dark">Troy, NY</span><a href="https://geohack.toolforge.org/geohack.php?params=42.73326_N_73.68663_W"> Grand St & Union St</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/ny.png"> <span class="dark">Brooklyn, NY</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.71096_N_73.95112_W">Grand St & Union Ave</a> 🏠<br>
+<!--1 km-->🇺🇸 <img class="state-medium" src="images/states/wa.png"> <span class="dark">Centralia, WA</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.70201_N_122.95529_W">Grand Ave & E Union St</a><br>
+<!--100m-->🇺🇸 <img class="state-medium" src="images/states/il.png"> <span class="dark">Chicago, IL</span> <a href="https://geohack.toolforge.org/geohack.php?params=41.89121_N_87.64582_W">W Grand Ave & N Union Ave</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">Clark, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.62380_N_74.30328_W">Grand St & Union St</a><br>
+<!--100m-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">Elizabeth, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.66644_N_74.21723_W">W Grand St & Union St</a><br>
+<!--200m-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">Jersey City, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.71313_N_74.07405_W">Grand St & Union St*</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">North Bergen, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.77891_N_74.03445_W">Grand Ave & Union Turnpike</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">Palisades Park, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.85117_N_74.00101_W">Grand Ave & Union St</a> ♨️<br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/or.png"> <span class="dark">Portland, OR</span> <a href="https://geohack.toolforge.org/geohack.php?params=45.53675_N_122.66169_W">Grand Ave & Union Ave</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/ny.png"> <span class="dark">Poughkeepsie, NY</span> <a href="https://geohack.toolforge.org/geohack.php?params=41.70399_N_73.93121_W">Grand St & Union St</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/nj.png"> <span class="dark">Rutherford, NJ</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.83938_N_74.11911_W">Grand Ave & Union Ave</a><br>
+<!--exact-->🇺🇸 <img class="state-medium" src="images/states/ny.png"> <span class="dark">Troy, NY</span> <a href="https://geohack.toolforge.org/geohack.php?params=42.73326_N_73.68663_W">Grand St & Union St</a><br>
 
 
 
 <hr>
 
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Coldwater, MI</span>
-<a href="https://geohack.toolforge.org/geohack.php?params=41.95627_N_85.01094_W"> Grand St & N Union Rd</a><br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Decatur, IL</span><a href="https://geohack.toolforge.org/geohack.php?params=39.85474_N_88.95915_W"> W Grand Ave & N Union St</a><br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Edwardsville, IL</span><a href="https://geohack.toolforge.org/geohack.php?params=38.81295_N_89.96633_W"> Grand Ave & W Union St</a><br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Lima, OH</span><a href="https://geohack.toolforge.org/geohack.php?params=40.75093_N_84.10319_W"> E Grand Ave & N Union St</a><br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Oakland, CA</span><a href="https://geohack.toolforge.org/geohack.php?params=37.81600_N_122.28616_W"> W Grand Ave & Union St</a><br>
-<img class="state-medium" src="images/states/wi.png"> <span class="dark">Oliver, WI</span><a href="https://geohack.toolforge.org/geohack.php?params=46.65799_N_92.18966_W"> S Grand Ave & E Union St</a><br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Ponca City, OK</span><a href="https://geohack.toolforge.org/geohack.php?params=36.70374_N_97.08539_W"> W Grand Ave & S Union St</a><br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Sabina, OH</span><a href="https://geohack.toolforge.org/geohack.php?params=39.48863_N_83.64188_W"> Grand Ave & Union St</a><br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Trotwood, OH</span><a href="https://geohack.toolforge.org/geohack.php?params=39.79635_N_84.31147_W"> Grand Ave & N Union Rd</a><br>
-
-<hr>
-
-</div>
-<div class="caption">And these were completely made up by ChatGPT:<br></div>
-<div class="items medium">
-  
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Adrian, MI</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Alexandria, VA</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Allentown, PA</span> N Grand Ave & E Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Amarillo, TX</span> S Grand Ave & E Union St<br>
-<img class="state-medium" src="images/states/sc.png"> <span class="dark">Anderson, SC</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Anna, IL</span> W Grand Ave & S Union Ave<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Ashtabula, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ga.png"> <span class="dark">Athens, GA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ga.png"> <span class="dark">Augusta, GA</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Bakersfield, CA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Baldwin Park, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Battle Creek, MI</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Bedford, VA</span> E Grand St & N Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Bethlehem, PA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Bloomfield, NJ</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/tn.png"> <span class="dark">Brownsville, TN</span> W Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Carbondale, IL</span> E Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/nm.png"> <span class="dark">Carlsbad, NM</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Carpinteria, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Carthage, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ga.png"> <span class="dark">Cedartown, GA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Chickasha, OK</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Chino Hills, CA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Dallas, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Danville, IL</span> E Grand Ave & N Union St<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Dayton, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Du Quoin, IL</span> E Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Elgin, IL</span> W Grand Ave & S Union Ave<br>
-<img class="state-medium" src="images/states/ny.png"> <span class="dark">Elmira, NY</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Englewood, NJ</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Enid, OK</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Erie, PA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/in.png"> <span class="dark">Evansville, IN</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/in.png"> <span class="dark">Fairmount, IN</span> W Grand Ave & N Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Fairview, NJ</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Findlay, OH</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/ma.png"> <span class="dark">Fitchburg, MA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Fort Worth, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Gainesville, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Grand Rapids, MI</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/sc.png"> <span class="dark">Greenwood, SC</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Grover Beach, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Hamilton, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Hillside, NJ</span> Grand St & Union Ave<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Hopewell, VA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Johnstown, PA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Joplin, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Kansas City, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ny.png"> <span class="dark">Kingston, NY</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/tn.png"> <span class="dark">Knoxville, TN</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Lansing, MI</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Laredo, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/in.png"> <span class="dark">Linton, IN</span> E Grand Ave & N Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Lompoc, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Los Angeles, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Lynchburg, VA</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/tn.png"> <span class="dark">Memphis, TN</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Miami, OK</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ny.png"> <span class="dark">Middletown, NY</span> Grand St & Union Pl<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Middletown, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Midland, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Muskogee, OK</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Neosho, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ma.png"> <span class="dark">New Haven, MA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Newark, NJ</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Newport News, VA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Oklahoma City, OK</span> Grand Blvd & Union Ave<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Painesville, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Paterson, NJ</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Pearsall, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Peoria, IL</span> W Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/ma.png"> <span class="dark">Pittsfield, MA</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Pomona, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Poplar Bluff, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/va.png"> <span class="dark">Portsmouth, VA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Redlands, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/nj.png"> <span class="dark">Ridgefield Park, NJ</span> Grand St & Union Ave<br>
-<img class="state-medium" src="images/states/ga.png"> <span class="dark">Rome, GA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/nm.png"> <span class="dark">Roswell, NM</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Sacramento, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Saint James, MO</span> E Grand Ave & S Union Ave<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">San Diego, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">San Luis Obispo, CA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">Santa Ana, CA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/ny.png"> <span class="dark">Schenectady, NY</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Scranton, PA</span> Grand Ave & Union Ave<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Sedalia, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Shawnee, OK</span> S Grand St & E Union St<br>
-<img class="state-medium" src="images/states/tx.png"> <span class="dark">Sherman, TX</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ma.png"> <span class="dark">Shirley, MA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/ca.png"> <span class="dark">South San Francisco, CA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/sc.png"> <span class="dark">Spartanburg, SC</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/wa.png"> <span class="dark">Spokane, WA</span> Grand Blvd & S Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">Springfield, IL</span> E Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">Springfield, MO</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mo.png"> <span class="dark">St. Louis, MO</span> Grand Blvd & Union Blvd<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Steubenville, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/wa.png"> <span class="dark">Tacoma, WA</span> Grand Ave & S Union St<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Toledo, OH</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/mi.png"> <span class="dark">Traverse City, MI</span> Grand St & Union St<br>
-<img class="state-medium" src="images/states/ok.png"> <span class="dark">Tulsa, OK</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/il.png"> <span class="dark">West Frankfort, IL</span> E Grand Ave & N Union St<br>
-<img class="state-medium" src="images/states/pa.png"> <span class="dark">Wilkes-Barre, PA</span> Grand Ave & Union St<br>
-<img class="state-medium" src="images/states/oh.png"> <span class="dark">Zanesville, OH</span> Grand Ave & Union St<br>									    
-
-<!--Maybe Claude can do better? https://claude.ai/chat/9d53646f-cfb9-4b1c-8e48-5f149203aeaf-->
+🇺🇸 <img class="state-medium" src="images/states/mi.png"> <span class="dark">Coldwater, MI</span> <a href="https://geohack.toolforge.org/geohack.php?params=41.95627_N_85.01094_W">Grand St & N Union Rd</a><br>
+🇺🇸 <img class="state-medium" src="images/states/il.png"> <span class="dark">Decatur, IL</span> <a href="https://geohack.toolforge.org/geohack.php?params=39.85474_N_88.95915_W">W Grand Ave & N Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/il.png"> <span class="dark">Edwardsville, IL</span> <a href="https://geohack.toolforge.org/geohack.php?params=38.81295_N_89.96633_W">Grand Ave & W Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/oh.png"> <span class="dark">Lima, OH</span> <a href="https://geohack.toolforge.org/geohack.php?params=40.75093_N_84.10319_W">E Grand Ave & N Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/ca.png"> <span class="dark">Oakland, CA</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.81600_N_122.28616_W">W Grand Ave & Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/wi.png"> <span class="dark">Oliver, WI</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.65799_N_92.18966_W">S Grand Ave & E Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/ok.png"> <span class="dark">Ponca City, OK</span> <a href="https://geohack.toolforge.org/geohack.php?params=36.70374_N_97.08539_W">W Grand Ave & S Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/oh.png"> <span class="dark">Sabina, OH</span> <a href="https://geohack.toolforge.org/geohack.php?params=39.48863_N_83.64188_W">Grand Ave & Union St</a><br>
+🇺🇸 <img class="state-medium" src="images/states/oh.png"> <span class="dark">Trotwood, OH</span> <a href="https://geohack.toolforge.org/geohack.php?params=39.79635_N_84.31147_W">Grand Ave & N Union Rd</a><br>
 
 </div>
 </body>

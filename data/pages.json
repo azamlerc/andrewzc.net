@@ -124,6 +124,7 @@
     "type": "place"
   },
   "apple": {
+    "featured": true,
     "icon": "🍏",
     "map": {
       "lat": "25",
@@ -162,6 +163,7 @@
     "type": "place"
   },
   "awa": {
+    "featured": true,
     "icon": "🏩",
     "map": {
       "icon": "1",
@@ -250,6 +252,11 @@
   "boundary-stones": {
     "header": "The forty <a href=\"https://en.wikipedia.org/wiki/Boundary_markers_of_the_original_District_of_Columbia\" class=\"dark\">boundary stones</a> were placed at one mile intervals around the original border of the District of Columbia in 1791. Most of them are now behind bars!",
     "icon": "🪨",
+    "map": {
+      "lat": "38.89324513",
+      "lon": "-77.04098558",
+      "zoom": "12"
+    },
     "name": "Boundary Stones",
     "size": "large",
     "type": "place"
@@ -414,6 +421,7 @@
     "type": "place"
   },
   "castles": {
+    "featured": true,
     "footer": "List of places named <a class=\"link\" href=\"newcastle.html\">Newcastle</a>.",
     "icon": "🏰",
     "map": {
@@ -426,6 +434,7 @@
     "type": "place"
   },
   "cathedrals": {
+    "featured": true,
     "icon": "⛪️",
     "map": {
       "lat": "50.8",
@@ -468,6 +477,7 @@
     "type": "place"
   },
   "cities": {
+    "featured": true,
     "icon": "🏙",
     "map": {
       "lat": "25",
@@ -522,6 +532,7 @@
     "type": "place"
   },
   "confluence": {
+    "featured": true,
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
     "map": {
@@ -532,7 +543,7 @@
       "zoom": "3"
     },
     "name": "Confluence Points",
-    "prefixClass": "coord",
+    "prefixClass": "coords",
     "size": "large",
     "tags": ["lookup-state"],
     "type": "place"
@@ -763,6 +774,7 @@
     "type": "place"
   },
   "extremities": {
+    "featured": true,
     "icon": "🧭",
     "map": {
       "cluster": "false",
@@ -820,7 +832,7 @@
       "zoom": "3"
     },
     "name": "Ferries",
-    "size": "small",
+    "size": "large",
     "tags": ["middleSectionBeen"],
     "type": "place"
   },
@@ -920,7 +932,22 @@
     "size": "large",
     "type": "place"
   },
+  "grand-and-union": {
+    "icon": "🚦",
+    "map": {
+      "cluster": "true",
+      "lat": "43",
+      "lon": "-98",
+      "zoom": "5"
+    },
+    "name": "Grand & Union",
+    "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first"],
+    "type": "place"
+  },
   "grand-unions": {
+    "featured": true,
     "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.<br><br>",
     "icon": "🦋",
     "map": {
@@ -972,6 +999,7 @@
     "type": "place"
   },
   "highest": {
+    "featured": true,
     "icon": "🧗",
     "map": {
       "lat": "25",
@@ -1575,6 +1603,7 @@
     "type": "place"
   },
   "pools": {
+    "featured": true,
     "icon": "🏊‍♂️",
     "map": {
       "lat": "37",
@@ -1985,6 +2014,7 @@
     "type": "place"
   },
   "stations": {
+    "featured": true,
     "icon": "🚉",
     "name": "Train Stations",
     "size": "large",
@@ -1997,6 +2027,7 @@
     "type": "place"
   },
   "struve": {
+    "featured": true,
     "icon": "📐",
     "map": {
       "cluster": "false",
@@ -2136,6 +2167,7 @@
     "type": "place"
   },
   "trams": {
+    "featured": true,
     "header": "I’ve been to every stop in:",
     "icon": "🚋",
     "map": {
@@ -2173,6 +2205,7 @@
     "type": "place"
   },
   "tri-states": {
+    "featured": true,
     "icon": "3️⃣",
     "map": {
       "cluster": "false",
@@ -2185,6 +2218,7 @@
     "type": "place"
   },
   "tripoints": {
+    "featured": true,
     "icon": "🚩",
     "map": {
       "cluster": "false",
