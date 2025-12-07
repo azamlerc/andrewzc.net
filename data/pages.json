@@ -177,6 +177,7 @@
     "type": "place"
   },
   "beaches": {
+    "featured": true,
     "icon": "🏖",
     "map": {
       "lat": "39",
@@ -580,6 +581,7 @@
     "type": "place"
   },
   "countries": {
+    "featured": true,
     "icon": "🌎",
     "name": "Countries",
     "size": "large",
@@ -2060,6 +2062,7 @@
     "type": "place"
   },
   "swimming": {
+    "featured": true,
     "icon": "🤽🏻‍♂️",
     "map": {
       "lat": "40",
@@ -2330,6 +2333,17 @@
   "universities": {
     "icon": "👨‍🎓",
     "name": "Universities",
+    "size": "large",
+    "type": "place"
+  },
+  "urinals": {
+    "icon": "🚽",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Urinals",
     "size": "large",
     "type": "place"
   },

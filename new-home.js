@@ -7,7 +7,7 @@ const IMG_THUMB = (listSlug, filename) =>
   `https://images.andrewzc.net/${listSlug}/tn/${filename}`;
 
 const FEATURED_PROB = 0.7;
-const HERO3_PROB = 0.5;  // probability of 1 big + 2 small when 3+ images
+const HERO3_PROB = 0.3;  // probability of 1 big + 2 small when 3+ images
 
 let featuredPool = [];
 let nonFeaturedPool = [];
@@ -206,7 +206,7 @@ function renderChunk({ listSlug, listMeta, visitedPlaces, unvisitedPlace, isFeat
         ${visitedBlocks}
         ${unvisitedBlock}
       </div>
-      <div class="largeSpace"><br></div>
+      <hr>
     </div>
   `;
 }
