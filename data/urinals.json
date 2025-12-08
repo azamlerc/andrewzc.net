@@ -1,7 +1,7 @@
 {
   "--info--": {
-    "icon": "🚽",
     "featured": true,
+    "icon": "🚽",
     "map": {
       "lat": "25",
       "lon": "15",
@@ -10,5 +10,92 @@
     "name": "Urinals",
     "size": "large",
     "type": "place"
+  },
+  "geneva-station": {
+    "been": true,
+    "city": "Geneva",
+    "coords": "46.21044500, 6.14151667",
+    "country": "CH",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇨🇭"],
+    "images": ["geneva-station1.jpg"],
+    "name": "Geneva Station"
+  },
+  "hombetsu": {
+    "been": true,
+    "coords": "43.20741667, 143.60867167",
+    "country": "JP",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇯🇵"],
+    "images": ["hombetsu1.jpg"],
+    "name": "Hombetsu"
+  },
+  "manhattanville": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.81653333, -73.95901333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["manhattanville1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Manhattanville,_Manhattan",
+    "name": "Manhattanville"
+  },
+  "museum-of-new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.79200833, -73.95131667",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["museum-of-new-york1.jpg"],
+    "name": "Museum of New York"
+  },
+  "nahalat-shiva": {
+    "been": false,
+    "city": "Jerusalem",
+    "coords": "31.78037300, 35.21926600",
+    "dateAdded": "2025-12-08",
+    "images": ["nahalat-shiva1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Nahalat_Shiv'a",
+    "name": "Nahalat Shiva"
+  },
+  "netherlands": {
+    "been": false,
+    "city": "Amsterdam",
+    "coords": "52.36666667, 4.88333333",
+    "dateAdded": "2025-12-08",
+    "images": ["netherlands1.jpg", "netherlands2.jpg", "netherlands3.jpg", "netherlands4.jpg", "netherlands5.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Netherlands",
+    "name": "Netherlands"
+  },
+  "orly-airport": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.72707000, 2.36488333",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["orly-airport1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Orly_Airport",
+    "name": "Orly Airport"
+  },
+  "st-marys-recreation-center": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.81195500, -73.91259667",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["st-marys-recreation-center1.jpg", "st-marys-recreation-center2.jpg", "st-marys-recreation-center3.jpg"],
+    "name": "St. Mary’s Recreation Center"
+  },
+  "wakkanai": {
+    "been": false,
+    "coords": "45.41555556, 141.67305556",
+    "dateAdded": "2025-12-08",
+    "images": ["wakkanai1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Wakkanai",
+    "name": "Wakkanai"
   }
 }
