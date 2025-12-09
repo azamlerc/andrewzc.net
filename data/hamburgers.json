@@ -10,7 +10,120 @@
     },
     "name": "Hamburgers",
     "size": "large",
+    "sort": "order",
     "type": "place"
+  },
+  "ainslie": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71257833, -73.95200333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["ainslie1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Ainslie",
+    "name": "Ainslie"
+  },
+  "ancestor-coffeehouse": {
+    "been": true,
+    "coords": "40.32891167, -76.51718000",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["ancestor-coffeehouse1.jpg"],
+    "name": "Ancestor Coffeehouse"
+  },
+  "bap": {
+    "been": true,
+    "city": "Lyon",
+    "coords": "45.74902833, 4.83886167",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["bap1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/BAP",
+    "name": "Bap"
+  },
+  "bareburger": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74200000, -74.00098333",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["bareburger1.jpg", "bareburger2.jpg"],
+    "name": "Bareburger"
+  },
+  "be-burger": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.81593667, 4.38954667",
+    "country": "BE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇧🇪"],
+    "images": ["be-burger1.jpg"],
+    "name": "Be Burger"
+  },
+  "bicafe": {
+    "been": true,
+    "coords": "41.14451667, -8.61259500",
+    "country": "PT",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇵🇹"],
+    "images": ["bicafe1.jpg"],
+    "name": "Bicafé"
+  },
+  "birdsong": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.96323833, -77.07445550",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["birdsong1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Bird_vocalization",
+    "name": "Birdsong"
+  },
+  "bleecker": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51304667, -0.13165833",
+    "country": "GB",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇬🇧"],
+    "images": ["bleecker1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Bleecker",
+    "name": "Bleecker"
+  },
+  "bos-burger": {
+    "been": true,
+    "city": "Bogotá",
+    "coords": "4.63451667, -74.06364450",
+    "country": "CO",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇨🇴"],
+    "images": ["bos-burger1.jpg"],
+    "name": "Bos Burger"
+  },
+  "bourbon-cafe": {
+    "been": true,
+    "city": "Kigali",
+    "coords": "-1.94065000, 30.10345283",
+    "country": "RW",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇷🇼"],
+    "images": ["bourbon-cafe1.jpg"],
+    "name": "Bourbon Cafe"
+  },
+  "bratislavsky-mestiansky-pivovar": {
+    "been": true,
+    "city": "Bratislava",
+    "coords": "48.14577217, 17.11785283",
+    "country": "SK",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇸🇰"],
+    "images": ["bratislavsky-mestiansky-pivovar1.jpg"],
+    "name": "Bratislavský meštiansky pivovar"
   },
   "bread-&-water": {
     "been": true,
@@ -20,8 +133,19 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["bread-&-water1.jpg"],
-    "name": "Bread & Water",
-    "link": "https://www.breadandwater.com"
+    "link": "https://www.breadandwater.com",
+    "name": "Bread & Water"
+  },
+  "brgr": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74611667, -73.99405000",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["brgr1.jpg", "brgr2.jpg", "brgr3.jpg", "brgr4.jpg"],
+    "name": "Brgr",
+    "strike": true
   },
   "bts-bethesda": {
     "been": true,
@@ -31,8 +155,77 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["bts-bethesda1.jpg"],
-    "name": "BT’s Bethesda",
-    "link": "https://btsbethesda.com"
+    "link": "https://btsbethesda.com",
+    "name": "BT’s Bethesda"
+  },
+  "bua": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72684667, -73.98372000",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["bua1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Bua",
+    "name": "Bua"
+  },
+  "burger-joint": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.77975833, -77.23588667",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["burger-joint1.jpg"],
+    "name": "Burger Joint"
+  },
+  "burgerology": {
+    "been": true,
+    "coords": "40.65657000, -73.64787167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["burgerology1.jpg"],
+    "name": "Burgerology"
+  },
+  "burgerz": {
+    "been": true,
+    "coords": "51.00498333, 9.47974667",
+    "country": "DE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇩🇪"],
+    "images": ["burgerz1.jpg"],
+    "name": "Burger’z"
+  },
+  "byron": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51203833, -0.12050833",
+    "country": "GB",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇬🇧"],
+    "images": ["byron1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Lord_Byron",
+    "name": "Byron"
+  },
+  "cafe-baci": {
+    "been": true,
+    "coords": "40.74706667, -73.58729500",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["cafe-baci1.jpg", "cafe-baci2.jpg"],
+    "name": "Cafe Baci"
+  },
+  "cafe-cleo": {
+    "been": true,
+    "city": "Montpellier",
+    "coords": "43.60971333, 3.87783667",
+    "country": "FR",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇫🇷"],
+    "images": ["cafe-cleo1.jpg"],
+    "name": "Café Cléo"
   },
   "cafe-elizabete": {
     "been": true,
@@ -44,6 +237,15 @@
     "images": ["cafe-elizabete1.jpg"],
     "name": "Cafe Elizabete"
   },
+  "cafe-piccolo": {
+    "been": true,
+    "coords": "50.23017500, 12.86833833",
+    "country": "CZ",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇨🇿"],
+    "images": ["cafe-piccolo1.jpg"],
+    "name": "Café Piccolo"
+  },
   "cafe-rosa": {
     "been": true,
     "city": "Antwerp",
@@ -54,6 +256,56 @@
     "images": ["cafe-rosa1.jpg"],
     "name": "Cafe Rosa"
   },
+  "cafetaria-sint-vincentius": {
+    "been": true,
+    "coords": "50.82890333, 3.27110833",
+    "country": "BE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇧🇪"],
+    "images": ["cafetaria-sint-vincentius1.jpg"],
+    "name": "Cafetaria Sint Vincentius"
+  },
+  "caffe-ladro": {
+    "been": true,
+    "city": "Seattle",
+    "coords": "47.62235333, -122.33427500",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["caffe-ladro1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Caffe_Ladro",
+    "name": "Caffe Ladro"
+  },
+  "camp-compass": {
+    "been": true,
+    "coords": "41.62685833, -74.57638667",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["camp-compass1.jpg"],
+    "name": "Camp Compass"
+  },
+  "compass": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.73660333, -73.99391167",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["compass1.jpg", "compass2.jpg", "compass3.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Compass",
+    "name": "Compass"
+  },
+  "compass-back-bay": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.35093333, -71.07615550",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["compass-back-bay1.jpg"],
+    "name": "Compass Back Bay"
+  },
   "copper-still": {
     "been": true,
     "city": "New York",
@@ -61,8 +313,8 @@
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
+    "images": ["copper-still1.jpg", "copper-still3.jpg", "copper-still4.jpg", "copper-still5.jpg", "copper-still6.jpg", "copper-still2.jpg"],
     "link": "https://www.thecopperstillnyc.com",
-    "images": ["copper-still1.jpg"],
     "name": "Copper Still"
   },
   "de-burgerij": {
@@ -73,8 +325,8 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇧🇪"],
     "images": ["de-burgerij2.jpg"],
-    "name": "De Burgerij",
-    "link": "https://burgerij.be"
+    "link": "https://burgerij.be",
+    "name": "De Burgerij"
   },
   "denny's-petersburg": {
     "been": true,
@@ -83,8 +335,33 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["denny's-petersburg1.jpg"],
-    "name": "Denny's Petersburg",
-    "link": "https://www.dennys.com"
+    "link": "https://www.dennys.com",
+    "name": "Denny's Petersburg"
+  },
+  "duke-&-darling": {
+    "been": true,
+    "coords": "40.88326333, -72.39153333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["duke-&-darling1.jpg"],
+    "name": "Duke & Darling"
+  },
+  "eds-easy-diner": {
+    "been": true,
+    "dateAdded": "2025-12-09",
+    "images": ["eds-easy-diner1.jpg"],
+    "name": "Ed’s Easy Diner"
+  },
+  "eisenbergs": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74105833, -73.98984500",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["eisenbergs1.jpg"],
+    "name": "Eisenberg’s"
   },
   "factory-&-co": {
     "been": true,
@@ -96,6 +373,17 @@
     "images": ["factory-&-co1.jpg"],
     "name": "Factory & Co"
   },
+  "fiasco": {
+    "been": true,
+    "city": "Oslo",
+    "coords": "59.91224167, 10.75547500",
+    "country": "NO",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇳🇴"],
+    "images": ["fiasco1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Fiasco",
+    "name": "Fiasco"
+  },
   "five-guys-14th-street": {
     "been": true,
     "city": "New York",
@@ -103,8 +391,84 @@
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["five-guys-14th-street1.jpg"],
-    "name": "Five Guys 14th Street"
+    "images": ["five-guys-14th-street1.jpg", "five-guys-14th-street2.jpg", "five-guys-14th-street3.jpg", "five-guys-14th-street4.jpg", "five-guys-14th-street5.jpg", "five-guys-14th-street6.jpg", "five-guys-14th-street7.jpg", "five-guys-14th-street8.jpg", "five-guys-14th-street9.jpg", "five-guys-14th-street10.jpg", "five-guys-14th-street11.jpg", "five-guys-14th-street12.jpg", "five-guys-14th-street13.jpg", "five-guys-14th-street14.jpg", "five-guys-14th-street15.jpg", "five-guys-14th-street16.jpg", "five-guys-14th-street17.jpg", "five-guys-14th-street18.jpg", "five-guys-14th-street19.jpg", "five-guys-14th-street20.jpg", "five-guys-14th-street21.jpg", "five-guys-14th-street22.jpg", "five-guys-14th-street23.jpg", "five-guys-14th-street24.jpg", "five-guys-14th-street25.jpg", "five-guys-14th-street26.jpg", "five-guys-14th-street27.jpg", "five-guys-14th-street28.jpg", "five-guys-14th-street29.jpg", "five-guys-14th-street30.jpg", "five-guys-14th-street31.jpg", "five-guys-14th-street32.jpg", "five-guys-14th-street33.jpg", "five-guys-14th-street34.jpg", "five-guys-14th-street35.jpg", "five-guys-14th-street36.jpg", "five-guys-14th-street37.jpg", "five-guys-14th-street38.jpg", "five-guys-14th-street39.jpg", "five-guys-14th-street40.jpg", "five-guys-14th-street41.jpg", "five-guys-14th-street42.jpg"],
+    "name": "Five Guys 14th Street",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-guys-34th-street": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75258333, -73.99450500",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["five-guys-34th-street1.jpg", "five-guys-34th-street2.jpg", "five-guys-34th-street3.jpg", "five-guys-34th-street4.jpg", "five-guys-34th-street5.jpg", "five-guys-34th-street6.jpg", "five-guys-34th-street7.jpg"],
+    "name": "Five Guys 34th Street",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-guys-fort-lincoln": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.92186333, -76.95233000",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["five-guys-fort-lincoln1.jpg"],
+    "name": "Five Guys Fort Lincoln",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-guys-garment-district": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75229167, -73.98813667",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["five-guys-garment-district1.jpg"],
+    "name": "Five Guys Garment District",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-guys-leesburg": {
+    "been": true,
+    "coords": "39.11370000, -77.53305000",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["five-guys-leesburg1.jpg"],
+    "name": "Five Guys Leesburg",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-guys-park-slope": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.66853333, -73.98013333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["five-guys-park-slope1.jpg"],
+    "name": "Five Guys Park Slope",
+    "link": "https://www.fiveguys.com"
+  },
+  "five-leaves": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72362167, -73.95145333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["five-leaves1.jpg"],
+    "name": "Five Leaves",
+    "link": "https://fiveleavesny.com"
+  },
+  "flunch": {
+    "been": true,
+    "coords": "50.37737833, 3.47675333",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["flunch1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Flunch",
+    "name": "Flunch"
   },
   "foodys-corner": {
     "been": true,
@@ -113,8 +477,7 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇧🇪"],
     "images": ["foodys-corner1.jpg"],
-    "name": "Foody’s Corner",
-    "link": "https://www.fiveguys.com"
+    "name": "Foody’s Corner"
   },
   "funky-burger": {
     "been": true,
@@ -124,8 +487,27 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇫🇷"],
     "images": ["funky-burger1.jpg"],
-    "name": "Funky Burger",
-    "link": "https://funkyburger.fr"
+    "link": "https://funkyburger.fr",
+    "name": "Funky Burger"
+  },
+  "giljis": {
+    "been": true,
+    "coords": "46.37965833, 7.62796167",
+    "country": "CH",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇨🇭"],
+    "images": ["giljis1.jpg"],
+    "name": "Gilji’s"
+  },
+  "goddess-and-baker": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88713833, -87.63224167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["goddess-and-baker1.jpg"],
+    "name": "Goddess and the Baker"
   },
   "gotts-roadside": {
     "been": true,
@@ -135,8 +517,38 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["gotts-roadside1.jpg", "gotts-roadside2.jpg"],
-    "name": "Gott’s Roadside",
-    "link": "https://www.gotts.com"
+    "link": "https://www.gotts.com",
+    "name": "Gott’s Roadside"
+  },
+  "green-pasture-cafe": {
+    "been": true,
+    "city": "Kampala",
+    "coords": "0.31459667, 32.56567833",
+    "country": "UG",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇬"],
+    "images": ["green-pasture-cafe1.jpg"],
+    "name": "Green Pasture Cafe"
+  },
+  "hill-high-marketplace": {
+    "been": true,
+    "coords": "39.12770000, -77.78715500",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["hill-high-marketplace1.jpg"],
+    "name": "Hill High Marketplace"
+  },
+  "hudson-yards": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75217000, -73.99545333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["hudson-yards1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Hudson_Yards",
+    "name": "Hudson Yards"
   },
   "in-n-out-millbrae": {
     "been": true,
@@ -145,8 +557,18 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["in-n-out-millbrae1.jpg", "in-n-out-millbrae2.jpg"],
-    "name": "In-N-Out Millbrae",
-    "link": "https://www.in-n-out.com"
+    "link": "https://www.in-n-out.com",
+    "name": "In-N-Out Millbrae"
+  },
+  "in-n-out-milpitas": {
+    "been": true,
+    "city": "San Jose, CA",
+    "coords": "37.42632167, -121.92247833",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["in-n-out-milpitas1.jpg"],
+    "name": "In-N-Out Milpitas"
   },
   "in-n-out-mountain-view": {
     "been": true,
@@ -155,8 +577,69 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
     "images": ["in-n-out-mountain-view1.jpg"],
-    "name": "In-N-Out Mountain View",
-    "link": "https://www.in-n-out.com"
+    "link": "https://www.in-n-out.com",
+    "name": "In-N-Out Mountain View"
+  },
+  "in-n-out-santa-rosa": {
+    "been": true,
+    "dateAdded": "2025-12-09",
+    "images": ["in-n-out-santa-rosa1.jpg"],
+    "name": "In-N-Out Santa Rosa"
+  },
+  "issy-val-de-seine": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82949500, 2.26377833",
+    "country": "FR",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇫🇷"],
+    "images": ["issy-val-de-seine1.jpg"],
+    "name": "Issy Val-de-Seine"
+  },
+  "kellys-cafe": {
+    "been": true,
+    "coords": "40.88735500, -72.38760333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["kellys-cafe1.jpg"],
+    "name": "Kelly’s Cafe"
+  },
+  "lavington-green": {
+    "been": true,
+    "coords": "-1.28027000, 36.77009500",
+    "country": "KE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇰🇪"],
+    "images": ["lavington-green1.jpg"],
+    "name": "Lavington Green"
+  },
+  "le-bistrot-du-village": {
+    "been": true,
+    "coords": "43.62750500, 7.09848333",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["le-bistrot-du-village1.jpg"],
+    "name": "Le Bistrot du Village"
+  },
+  "le-feuil": {
+    "been": true,
+    "coords": "45.16017217, 3.36737167",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["le-feuil1.jpg"],
+    "name": "Le Feuil"
+  },
+  "les-francs-burgers": {
+    "been": true,
+    "coords": "50.41322833, 2.97862000",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["les-francs-burgers1.jpg"],
+    "name": "Les Francs Burgers"
   },
   "loft": {
     "been": true,
@@ -169,6 +652,55 @@
     "link": "http://www.loft-brussels.be",
     "name": "Loft"
   },
+  "manhattns-burgers": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.83912833, 4.39825333",
+    "country": "BE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇧🇪"],
+    "images": ["manhattns-burgers1.jpg", "manhattns-burgers2.jpg"],
+    "name": "Manhattn’s Burgers"
+  },
+  "manifest-street-food": {
+    "been": true,
+    "city": "Katowice",
+    "coords": "50.25723333, 19.02872217",
+    "country": "PL",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇵🇱"],
+    "images": ["manifest-street-food1.jpg"],
+    "name": "Manifest Street Food"
+  },
+  "market-burger": {
+    "been": true,
+    "coords": "39.13677500, -77.71564500",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["market-burger1.jpg", "market-burger2.jpg"],
+    "name": "Market Burger"
+  },
+  "marquis-of-granby": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51797167, -0.13456950",
+    "country": "GB",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇬🇧"],
+    "images": ["marquis-of-granby1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Marquis_of_Granby",
+    "name": "Marquis of Granby"
+  },
+  "marriott-coral-springs": {
+    "been": true,
+    "coords": "26.31008667, -80.28301167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["marriott-coral-springs1.jpg"],
+    "name": "Marriott Coral Springs"
+  },
   "maxies": {
     "been": true,
     "city": "Las Vegas",
@@ -176,9 +708,88 @@
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["maxies1.jpg"],
-    "name": "Maxie’s",
-    "link": "https://maxieslv.com"
+    "images": ["maxies1.jpg", "maxies2.jpg"],
+    "link": "https://maxieslv.com",
+    "name": "Maxie’s"
+  },
+  "mcdonalds-barcelona-airport": {
+    "been": true,
+    "coords": "41.28838000, 2.07340283",
+    "country": "ES",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇪🇸"],
+    "images": ["mcdonalds-barcelona-airport1.jpg"],
+    "name": "McDonald’s Barcelona Airport"
+  },
+  "merchants-ny": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74296167, -73.99651333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["merchants-ny1.jpg", "merchants-ny2.jpg"],
+    "name": "Merchants NY"
+  },
+  "muthaiga-grill": {
+    "been": true,
+    "coords": "-1.23597500, 36.79345333",
+    "country": "KE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇰🇪"],
+    "images": ["muthaiga-grill1.jpg"],
+    "name": "Muthaiga Grill"
+  },
+  "novotel-issy-les-moulineaux": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.82872500, 2.26306667",
+    "country": "FR",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇫🇷"],
+    "images": ["novotel-issy-les-moulineaux1.jpg", "novotel-issy-les-moulineaux2.jpg"],
+    "name": "Novotel Issy-les-Moulineaux"
+  },
+  "nyugati-ter": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.51023833, 19.05591383",
+    "country": "HU",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇭🇺"],
+    "images": ["nyugati-ter1.jpg"],
+    "name": "Nyugati tér"
+  },
+  "off-rails": {
+    "been": true,
+    "coords": "37.78248667, -75.65315333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["off-rails1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Off_the_Rails_(TV_series)",
+    "name": "Off The Rails"
+  },
+  "oficina-do-duque": {
+    "been": true,
+    "city": "Lisbon",
+    "coords": "38.71334167, -9.14241950",
+    "country": "PT",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇵🇹"],
+    "images": ["oficina-do-duque1.jpg", "oficina-do-duque2.jpg"],
+    "name": "Oficina do Duque"
+  },
+  "oh-boy": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71387833, -73.95613833",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["oh-boy1.jpg", "oh-boy2.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Oh_Boy",
+    "name": "Oh Boy"
   },
   "olearys": {
     "been": true,
@@ -187,8 +798,48 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇳🇴"],
     "images": ["olearys1.jpg"],
-    "name": "O’Learys",
-    "link": "https://olearys.com/en-no/oslo-airport-international-terminal/"
+    "link": "https://olearys.com/en-no/oslo-airport-international-terminal/",
+    "name": "O’Learys"
+  },
+  "onda": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85695500, 2.35887500",
+    "country": "FR",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇫🇷"],
+    "images": ["onda1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Onda",
+    "name": "Onda"
+  },
+  "other-half-brewing": {
+    "been": true,
+    "city": "Philadelphia",
+    "coords": "39.96508000, -75.13535283",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["other-half-brewing1.jpg"],
+    "name": "Other Half Brewing"
+  },
+  "proper-burger": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.91023833, -77.03836950",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["proper-burger1.jpg"],
+    "name": "Proper Burger"
+  },
+  "rahway-river-park": {
+    "been": true,
+    "coords": "40.62125000, -74.28820833",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["rahway-river-park1.jpg"],
+    "name": "Rahway River Park"
   },
   "rambo": {
     "been": true,
@@ -201,17 +852,59 @@
     "link": "https://ramboburger.com",
     "name": "Rambo"
   },
-  "rock-bottom": {
+  "red-brick-pub": {
     "been": true,
-    "city": "Washington",
-    "coords": "38.98904167, -77.09748050",
+    "coords": "42.91040833, -76.79677500",
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["rock-bottom1.jpg"],
+    "images": ["red-brick-pub1.jpg"],
+    "name": "Red Brick Pub"
+  },
+  "ridgeway-diner": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74171167, -73.99361333",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["ridgeway-diner1.jpg", "ridgeway-diner2.jpg"],
+    "name": "Ridgeway Diner",
+    "strike": true
+  },
+  "rock-bottom": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.98912833, -77.09758883",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["rock-bottom1.jpg", "rock-bottom2.jpg"],
     "link": "https://www.rockbottom.com",
     "name": "Rock Bottom",
     "strike": true
+  },
+  "route-66": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.76699667, -73.98667167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["route-661.jpg", "route-662.jpg", "route-663.jpg", "route-664.jpg", "route-665.jpg", "route-666.jpg", "route-667.jpg", "route-668.jpg", "route-669.jpg", "route-6610.jpg", "route-6611.jpg", "route-6612.jpg", "route-6613.jpg", "route-6614.jpg"],
+    "link": "https://route66hellskitchen.com",
+    "name": "Route 66",
+    "order": -1
+  },
+  "semicolon-cafe": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71428333, -74.03466117",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["semicolon-cafe1.jpg"],
+    "name": "Semicolon Cafe"
   },
   "shake-shack-centro-banamex": {
     "been": true,
@@ -221,19 +914,41 @@
     "dateAdded": "2025-12-08",
     "icons": ["🇲🇽"],
     "images": ["shake-shack-centro-banamex1.jpg"],
-    "name": "Shake Shack Centro Banamex",
+    "link": "https://www.shakeshack.com",
+    "name": "Shake Shack Centro Banamex"
+  },
+  "shake-shack-downtown-brooklyn": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.69217833, -73.98863333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["shake-shack-downtown-brooklyn1.jpg"],
+    "name": "Shake Shack Downtown Brooklyn",
+    "link": "https://www.shakeshack.com"
+  },
+  "shake-shack-forest-hills": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71967167, -73.84381167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["shake-shack-forest-hills1.jpg"],
+    "name": "Shake Shack Forest Hills",
     "link": "https://www.shakeshack.com"
   },
   "shake-shack-fulton-center": {
     "been": true,
     "city": "New York",
-    "coords": "40.71049167, -74.00920000",
+    "coords": "40.71070500, -74.00896388",
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["shake-shack-fulton-center1.jpg", "shake-shack-fulton-center2.jpg", "shake-shack-fulton-center3.jpg"],
-    "name": "Shake Shack Fulton Center",
-    "link": "https://www.shakeshack.com"
+    "images": ["shake-shack-fulton-center1.jpg", "shake-shack-fulton-center2.jpg", "shake-shack-fulton-center3.jpg", "shake-shack-fulton-center4.jpg", "shake-shack-fulton-center5.jpg", "shake-shack-fulton-center6.jpg", "shake-shack-fulton-center7.jpg"],
+    "link": "https://www.shakeshack.com",
+    "name": "Shake Shack Fulton Center"
   },
   "shake-shack-garment-district": {
     "been": true,
@@ -242,30 +957,154 @@
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["shake-shack-garment-district1.jpg"],
-    "name": "Shake Shack Garment District",
+    "images": ["shake-shack-garment-district1.jpg", "shake-shack-garment-district2.jpg", "shake-shack-garment-district3.jpg", "shake-shack-garment-district4.jpg", "shake-shack-garment-district5.jpg", "shake-shack-garment-district6.jpg", "shake-shack-garment-district7.jpg", "shake-shack-garment-district8.jpg", "shake-shack-garment-district9.jpg", "shake-shack-garment-district10.jpg", "shake-shack-garment-district11.jpg", "shake-shack-garment-district12.jpg", "shake-shack-garment-district13.jpg", "shake-shack-garment-district14.jpg", "shake-shack-garment-district15.jpg", "shake-shack-garment-district16.jpg", "shake-shack-garment-district17.jpg"],
+    "link": "https://www.shakeshack.com",
+    "name": "Shake Shack Garment District"
+  },
+  "shake-shack-grand-central": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.75246167, -73.97748667",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["shake-shack-grand-central1.jpg"],
+    "name": "Shake Shack Grand Central",
+    "link": "https://www.shakeshack.com"
+  },
+  "shake-shack-hudson-square": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.72924167, -74.00541667",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["shake-shack-hudson-square1.jpg", "shake-shack-hudson-square2.jpg"],
+    "name": "Shake Shack Hudson Square",
     "link": "https://www.shakeshack.com"
   },
   "shake-shack-madison-square": {
     "been": true,
     "city": "New York",
-    "coords": "40.74155500, -73.98833333",
+    "coords": "40.74161167, -73.98851667",
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["shake-shack-madison-square1.jpg", "shake-shack-madison-square2.jpg"],
+    "images": ["shake-shack-madison-square1.jpg", "shake-shack-madison-square2.jpg", "shake-shack-madison-square3.jpg", "shake-shack-madison-square4.jpg", "shake-shack-madison-square5.jpg", "shake-shack-madison-square6.jpg", "shake-shack-madison-square7.jpg", "shake-shack-madison-square8.jpg", "shake-shack-madison-square9.jpg", "shake-shack-madison-square10.jpg", "shake-shack-madison-square11.jpg", "shake-shack-madison-square12.jpg", "shake-shack-madison-square13.jpg", "shake-shack-madison-square14.jpg", "shake-shack-madison-square15.jpg", "shake-shack-madison-square16.jpg", "shake-shack-madison-square17.jpg", "shake-shack-madison-square18.jpg", "shake-shack-madison-square19.jpg", "shake-shack-madison-square20.jpg", "shake-shack-madison-square21.jpg", "shake-shack-madison-square22.jpg", "shake-shack-madison-square23.jpg", "shake-shack-madison-square24.jpg", "shake-shack-madison-square25.jpg", "shake-shack-madison-square26.jpg", "shake-shack-madison-square27.jpg", "shake-shack-madison-square28.jpg"],
+    "link": "https://www.shakeshack.com",
     "name": "Shake Shack Madison Square",
-    "link": "https://www.shakeshack.com"
+    "order": -3
+  },
+  "sip-n-soda": {
+    "been": true,
+    "coords": "40.88747833, -72.38812167",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["sip-n-soda1.jpg"],
+    "name": "Sip ’n Soda"
+  },
+  "smashburger": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.74903000, -73.99220333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["smashburger1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Smash_burger",
+    "name": "Smashburger"
+  },
+  "sunbird": {
+    "been": true,
+    "coords": "41.78990833, -69.98946333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["sunbird1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Sunbird",
+    "name": "Sunbird"
+  },
+  "sunny": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.87868000, 2.37815000",
+    "country": "FR",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇫🇷"],
+    "images": ["sunny1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Sunny",
+    "name": "Sunny"
+  },
+  "terra-linda": {
+    "been": true,
+    "coords": "38.00981388, -122.56416333",
+    "country": "US",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇺🇸"],
+    "images": ["terra-linda1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Terra_Linda",
+    "name": "Terra Linda"
   },
   "two-8-two": {
     "been": true,
     "city": "New York",
-    "coords": "40.68869667, -73.98957000",
+    "coords": "40.68878000, -73.98956333",
     "country": "US",
     "dateAdded": "2025-12-08",
     "icons": ["🇺🇸"],
-    "images": ["two-8-two1.jpg", "two-8-two2.jpg", "two-8-two3.jpg", "two-8-two4.jpg", "two-8-two5.jpg"],
+    "images": ["two-8-two1.jpg", "two-8-two2.jpg", "two-8-two3.jpg", "two-8-two4.jpg", "two-8-two5.jpg", "two-8-two6.jpg", "two-8-two7.jpg", "two-8-two8.jpg", "two-8-two9.jpg", "two-8-two10.jpg", "two-8-two11.jpg", "two-8-two12.jpg", "two-8-two13.jpg"],
     "link": "https://www.two8twoburger.com",
-    "name": "Two 8 Two"
+    "name": "Two 8 Two",
+    "order": -2
+  },
+  "ultime-atome": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.83594500, 4.36465333",
+    "country": "BE",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇧🇪"],
+    "images": ["ultime-atome1.jpg"],
+    "name": "Ultime Atome"
+  },
+  "vik": {
+    "been": true,
+    "coords": "63.85065833, -19.71816667",
+    "country": "IS",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇮🇸"],
+    "images": ["vik1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/V%C3%ADk_%C3%AD_M%C3%BDrdal",
+    "name": "Vík"
+  },
+  "viking-pub": {
+    "been": true,
+    "coords": "45.03281667, 3.08935550",
+    "country": "FR",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇫🇷"],
+    "images": ["viking-pub1.jpg"],
+    "name": "Viking Pub"
+  },
+  "westgate": {
+    "been": true,
+    "city": "Las Vegas",
+    "coords": "36.13564717, -115.15208333",
+    "country": "US",
+    "dateAdded": "2025-12-08",
+    "icons": ["🇺🇸"],
+    "images": ["westgate1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Westgate",
+    "name": "Westgate"
+  },
+  "xbistro": {
+    "been": true,
+    "coords": "64.25222000, -15.20310333",
+    "country": "IS",
+    "dateAdded": "2025-12-09",
+    "icons": ["🇮🇸"],
+    "images": ["xbistro1.jpg"],
+    "name": "Xbistro"
   }
 }
