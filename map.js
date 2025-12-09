@@ -392,7 +392,21 @@ function refreshMap(places) {
 }
 
 function loadScripts(urls) {
-  return Promise.all(urls.map(loadScript));
+  return urls.reduce(
+    (p, url) => p.then(() => loadScript(url)),
+    Promise.resolve()
+  );
+}
+
+function loadScript(url) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = url;
+    script.async = false;          // IMPORTANT: preserve execution order
+    script.onload = resolve;
+    script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
+    document.head.appendChild(script);
+  });
 }
 
 function loadScript(url) {
