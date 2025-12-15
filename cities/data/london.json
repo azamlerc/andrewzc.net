@@ -253,7 +253,7 @@
     "icons": ["🏡"],
     "link": "https://www.airbnb.com/rooms/3456547",
     "name": "Hackney",
-    "order": 0,
+    "order": false,
     "type": "airbnb"
   },
   "airport-metros-heathrow-terminal-4": {
@@ -3173,6 +3173,47 @@
     "name": "Batttersea Power Station",
     "type": "power-stations"
   },
+  "projects-bakerloo-line-to-lewisham": {
+    "been": false,
+    "city": "London",
+    "coords": "51.49440000, -0.09970000",
+    "country": "GB",
+    "future": true,
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Bakerloo_line_extension",
+    "name": "Bakerloo Line to Lewisham",
+    "prefix": "2040",
+    "reference": "London",
+    "type": "projects"
+  },
+  "projects-east-london-line": {
+    "badges": ["🚇"],
+    "been": true,
+    "city": "London",
+    "coords": "51.52321666666667, -0.07523055555555555",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/East_London_line",
+    "name": "East London Line",
+    "prefix": "2010-10-23",
+    "reference": "London",
+    "type": "projects",
+    "wikidata": "Q831794"
+  },
+  "projects-elizabeth-line": {
+    "badges": ["🚇"],
+    "been": true,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Crossrail",
+    "name": "Elizabeth Line",
+    "prefix": "2022-10-24",
+    "reference": "London",
+    "type": "projects",
+    "wikidata": "Q732649"
+  },
   "projects-london-bakerloo-line-to-lewisham": {
     "been": false,
     "city": "London",
@@ -3239,6 +3280,44 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Heathrow_Terminal_5_station",
     "name": "London Piccadilly Line to Heathrow Terminal 5",
+    "prefix": "2008-03-27",
+    "reference": "London",
+    "type": "projects"
+  },
+  "projects-northern-line-to-battersea": {
+    "badges": ["🚇"],
+    "been": true,
+    "city": "London",
+    "coords": "51.48827778, -0.10566667",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Northern_line_extension_to_Battersea",
+    "name": "Northern Line to Battersea",
+    "prefix": "2021-09-20",
+    "reference": "London",
+    "type": "projects"
+  },
+  "projects-overground-to-barking-riverside": {
+    "been": false,
+    "city": "London",
+    "coords": "51.51910800, 0.11476400",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Barking_Riverside_railway_station",
+    "name": "Overground to Barking Riverside",
+    "prefix": "2022-07-18",
+    "reference": "London",
+    "type": "projects"
+  },
+  "projects-piccadilly-line-to-heathrow-terminal-5": {
+    "badges": ["🚇"],
+    "been": true,
+    "city": "London",
+    "coords": "51.47230000, -0.48800000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Heathrow_Terminal_5_station",
+    "name": "Piccadilly Line to Heathrow Terminal 5",
     "prefix": "2008-03-27",
     "reference": "London",
     "type": "projects"
