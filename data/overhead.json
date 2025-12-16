@@ -8,7 +8,29 @@
     "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
-  "blue-line-boston": {
+  "barcelona-metro": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.394, 2.14418",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
+    "name": "Metro",
+    "reference": "Barcelona",
+    "wikidata": "Q237189"
+  },
+  "bilbao-metro": {
+    "been": true,
+    "city": "Bilbao",
+    "coords": "43.2627, -2.9354",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bilbao_Metro",
+    "name": "Metro",
+    "reference": "Bilbao",
+    "wikidata": "Q325309"
+  },
+  "boston-blue-line": {
     "been": true,
     "city": "Boston",
     "coords": "22.623055555555556, 88.42722222222223",
@@ -20,29 +42,126 @@
     "reference": "Boston",
     "wikidata": "Q6427301"
   },
-  "chiyoda-line-tokyo": {
+  "budapest-line-1": {
     "been": true,
-    "city": "Tokyo",
-    "coords": "35.68972222, 139.69222222",
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Chiyoda_Line",
-    "name": "Chiyoda Line",
-    "reference": "Tokyo",
-    "wikidata": "Q1075089"
+    "city": "Budapest",
+    "coords": "47.49250000, 19.05138889",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Metro_Line_M1_(Budapest_Metro)",
+    "name": "Line 1",
+    "reference": "Budapest",
+    "wikidata": "Q729631"
   },
-  "cross-island-line-singapore": {
+  "buenos-aires-most-lines": {
     "been": false,
-    "city": "Singapore",
-    "coords": "1.28333333, 103.83333333",
-    "country": "SG",
-    "icons": ["🇸🇬"],
-    "link": "https://en.wikipedia.org/wiki/Cross_Island_Line",
-    "name": "Cross Island Line",
-    "reference": "Singapore",
-    "wikidata": "Q3335354"
+    "city": "Buenos Aires",
+    "coords": "-34.615, -58.40",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://es.wikipedia.org/wiki/Subte_de_Buenos_Aires",
+    "name": "Most Lines",
+    "reference": "Buenos Aires"
   },
-  "holmenkollen-line-oslo": {
+  "delhi-metro": {
+    "been": false,
+    "city": "Delhi",
+    "coords": "28.61472222, 77.21194444",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Delhi_Metro",
+    "name": "Metro",
+    "reference": "Delhi",
+    "wikidata": "Q271195"
+  },
+  "genoa-metro": {
+    "been": false,
+    "city": "Genoa",
+    "coords": "44.407186111, 8.933983333",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Genoa_Metro",
+    "name": "Metro",
+    "reference": "Genoa",
+    "wikidata": "Q1163754"
+  },
+  "guangzhou-most-lines": {
+    "been": false,
+    "city": "Guangzhou",
+    "coords": "23.10890000, 113.26470000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Guangzhou_Metro",
+    "name": "Most Lines",
+    "reference": "Guangzhou"
+  },
+  "hong-kong-mtr": {
+    "been": true,
+    "city": "Hong Kong",
+    "coords": "22.30000000, 114.20000000",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "link": "https://en.wikipedia.org/wiki/MTR",
+    "name": "MTR",
+    "reference": "Hong Kong",
+    "wikidata": "Q1479375"
+  },
+  "lyon-line-c": {
+    "been": true,
+    "city": "Lyon",
+    "coords": "45.76750000, 4.83500000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Lyon_Metro_Line_C",
+    "name": "Line C",
+    "reference": "Lyon",
+    "wikidata": "Q2969"
+  },
+  "medellin-metro": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.23083333, -75.59055556",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Medell%C3%ADn_Metro",
+    "name": "Metro",
+    "reference": "Medellín",
+    "wikidata": "Q654751"
+  },
+  "mexico-city-line-12": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Línea_12_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 12",
+    "reference": "Mexico City",
+    "wikidata": "Q5985548"
+  },
+  "mexico-city-line-a": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43333333, -99.13333333",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Línea_A_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line A",
+    "reference": "Mexico City",
+    "wikidata": "Q3239049"
+  },
+  "moscow-line-14": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.60000000, 37.60000000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Moscow_Central_Circle",
+    "name": "Line 14",
+    "reference": "Moscow",
+    "wikidata": "Q26856861"
+  },
+  "oslo-holmenkollen-line": {
     "been": true,
     "city": "Oslo",
     "coords": "59.91333333, 10.73888889",
@@ -54,7 +173,7 @@
     "strike": true,
     "wikidata": "Q1771722"
   },
-  "kolsas-line-oslo": {
+  "oslo-kolsas-line": {
     "been": true,
     "city": "Oslo",
     "coords": "59.91333333, 10.73888889",
@@ -66,148 +185,23 @@
     "strike": true,
     "wikidata": "Q4544753"
   },
-  "line-1-budapest": {
+  "overhead-lines": {
     "been": true,
-    "city": "Budapest",
-    "coords": "47.49250000, 19.05138889",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://en.wikipedia.org/wiki/Metro_Line_M1_(Budapest_Metro)",
-    "name": "Line 1",
-    "reference": "Budapest",
-    "wikidata": "Q729631"
+    "icons": ["🩼"],
+    "name": "Overhead Lines",
+    "wikidata": "Q110701"
   },
-  "line-1-shenzhen": {
+  "recife-metro": {
     "been": false,
-    "city": "Shenzhen",
-    "coords": "22.54150000, 114.05960000",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)",
-    "name": "Line 1",
-    "reference": "Shenzhen"
-  },
-  "line-11-shenzhen": {
-    "been": false,
-    "city": "Shenzhen",
-    "coords": "22.54150000, 114.05960000",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Line_11_(Shenzhen_Metro)",
-    "name": "Line 11",
-    "reference": "Shenzhen",
-    "wikidata": "Q2636308"
-  },
-  "line-12-mexico-city": {
-    "been": true,
-    "city": "Mexico City",
-    "coords": "19.43333333, -99.13333333",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Línea_12_del_Metro_de_la_Ciudad_de_México",
-    "name": "Line 12",
-    "reference": "Mexico City",
-    "wikidata": "Q5985548"
-  },
-  "line-13-shenzhen": {
-    "been": false,
-    "city": "Shenzhen",
-    "coords": "22.54150000, 114.05960000",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Line_13_(Shenzhen_Metro)",
-    "name": "Line 13",
-    "reference": "Shenzhen",
-    "wikidata": "Q847744"
-  },
-  "line-14-moscow": {
-    "been": false,
-    "city": "Moscow",
-    "coords": "55.60000000, 37.60000000",
-    "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://en.wikipedia.org/wiki/Moscow_Central_Circle",
-    "name": "Line 14",
-    "reference": "Moscow",
-    "wikidata": "Q26856861"
-  },
-  "line-2-seoul": {
-    "been": true,
-    "city": "Seoul",
-    "coords": "37.55600000, 126.94000000",
-    "country": "KR",
-    "icons": ["🇰🇷"],
-    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_2",
-    "name": "Line 2",
-    "reference": "Seoul"
-  },
-  "line-3-seoul": {
-    "been": true,
-    "city": "Seoul",
-    "coords": "37.56000000, 126.99000000",
-    "country": "KR",
-    "icons": ["🇰🇷"],
-    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_3",
-    "name": "Line 3",
-    "reference": "Seoul",
-    "wikidata": "Q20393"
-  },
-  "line-4-sao-paulo": {
-    "been": false,
-    "city": "São Paulo",
-    "coords": "-23.55000000, -46.63333333",
+    "coords": "-8.053888888, -34.880833333",
     "country": "BR",
     "icons": ["🇧🇷"],
-    "link": "https://en.wikipedia.org/wiki/Line_4_(São_Paulo_Metro)",
-    "name": "Line 4",
-    "reference": "São Paulo",
-    "wikidata": "Q1029921"
+    "link": "https://en.wikipedia.org/wiki/Recife_Metro",
+    "name": "Metro",
+    "reference": "Recife",
+    "wikidata": "Q1808272"
   },
-  "line-5-sao-paulo": {
-    "been": false,
-    "city": "São Paulo",
-    "coords": "-23.55000000, -46.63333333",
-    "country": "BR",
-    "icons": ["🇧🇷"],
-    "link": "https://en.wikipedia.org/wiki/Line_5_(São_Paulo_Metro)",
-    "name": "Line 5",
-    "reference": "São Paulo",
-    "wikidata": "Q647340"
-  },
-  "line-6-santiago": {
-    "been": false,
-    "city": "Santiago",
-    "coords": "-33.43750000, -70.65000000",
-    "country": "CL",
-    "icons": ["🇨🇱"],
-    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_6",
-    "name": "Line 6",
-    "reference": "Santiago",
-    "wikidata": "Q5986809"
-  },
-  "line-9-seoul": {
-    "been": true,
-    "city": "Seoul",
-    "coords": "37.56000000, 126.99000000",
-    "country": "KR",
-    "icons": ["🇰🇷"],
-    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_9",
-    "name": "Line 9",
-    "reference": "Seoul",
-    "wikidata": "Q17503"
-  },
-  "line-a-mexico-city": {
-    "been": true,
-    "city": "Mexico City",
-    "coords": "19.43333333, -99.13333333",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Línea_A_del_Metro_de_la_Ciudad_de_México",
-    "name": "Line A",
-    "reference": "Mexico City",
-    "wikidata": "Q3239049"
-  },
-  "line-a-rotterdam": {
+  "rotterdam-line-a": {
     "been": true,
     "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
@@ -219,7 +213,7 @@
     "reference": "Rotterdam",
     "wikidata": "Q2310450"
   },
-  "line-b-rotterdam": {
+  "rotterdam-line-b": {
     "been": true,
     "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
@@ -231,18 +225,7 @@
     "reference": "Rotterdam",
     "wikidata": "Q2960661"
   },
-  "line-c-lyon": {
-    "been": true,
-    "city": "Lyon",
-    "coords": "45.76750000, 4.83500000",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://en.wikipedia.org/wiki/Lyon_Metro_Line_C",
-    "name": "Line C",
-    "reference": "Lyon",
-    "wikidata": "Q2969"
-  },
-  "line-e-rotterdam": {
+  "rotterdam-line-e": {
     "been": true,
     "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
@@ -254,114 +237,115 @@
     "reference": "Rotterdam",
     "wikidata": "Q2687418"
   },
-  "line-u6-vienna": {
-    "been": true,
-    "city": "Vienna",
-    "coords": "48.208333333333336, 16.3725",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://en.wikipedia.org/wiki/U6_(Vienna_U-Bahn)",
-    "name": "Line U6",
-    "reference": "Vienna",
-    "wikidata": "Q1741"
-  },
-  "metro-barcelona": {
-    "been": true,
-    "city": "Barcelona",
-    "coords": "41.394, 2.14418",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
-    "name": "Metro",
-    "reference": "Barcelona",
-    "wikidata": "Q237189"
-  },
-  "metro-bilbao": {
-    "been": true,
-    "city": "Bilbao",
-    "coords": "43.2627, -2.9354",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Bilbao_Metro",
-    "name": "Metro",
-    "reference": "Bilbao",
-    "wikidata": "Q325309"
-  },
-  "metro-delhi": {
+  "santiago-line-6": {
     "been": false,
-    "city": "Delhi",
-    "coords": "28.61472222, 77.21194444",
-    "country": "IN",
-    "icons": ["🇮🇳"],
-    "link": "https://en.wikipedia.org/wiki/Delhi_Metro",
-    "name": "Metro",
-    "reference": "Delhi",
-    "wikidata": "Q271195"
+    "city": "Santiago",
+    "coords": "-33.43750000, -70.65000000",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_6",
+    "name": "Line 6",
+    "reference": "Santiago",
+    "wikidata": "Q5986809"
   },
-  "metro-genoa": {
+  "sao-paulo-line-4": {
     "been": false,
-    "city": "Genoa",
-    "coords": "44.407186111, 8.933983333",
-    "country": "IT",
-    "icons": ["🇮🇹"],
-    "link": "https://en.wikipedia.org/wiki/Genoa_Metro",
-    "name": "Metro",
-    "reference": "Genoa",
-    "wikidata": "Q1163754"
-  },
-  "metro-medellin": {
-    "been": true,
-    "city": "Medellín",
-    "coords": "6.23083333, -75.59055556",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://en.wikipedia.org/wiki/Medell%C3%ADn_Metro",
-    "name": "Metro",
-    "reference": "Medellín",
-    "wikidata": "Q654751"
-  },
-  "metro-recife": {
-    "been": false,
-    "coords": "-8.053888888, -34.880833333",
+    "city": "São Paulo",
+    "coords": "-23.55000000, -46.63333333",
     "country": "BR",
     "icons": ["🇧🇷"],
-    "link": "https://en.wikipedia.org/wiki/Recife_Metro",
-    "name": "Metro",
-    "reference": "Recife",
-    "wikidata": "Q1808272"
+    "link": "https://en.wikipedia.org/wiki/Line_4_(São_Paulo_Metro)",
+    "name": "Line 4",
+    "reference": "São Paulo",
+    "wikidata": "Q1029921"
   },
-  "most-lines-buenos-aires": {
+  "sao-paulo-line-5": {
     "been": false,
-    "city": "Buenos Aires",
-    "coords": "-34.615, -58.40",
-    "country": "AR",
-    "icons": ["🇦🇷"],
-    "link": "https://es.wikipedia.org/wiki/Subte_de_Buenos_Aires",
-    "name": "Most Lines",
-    "reference": "Buenos Aires"
+    "city": "São Paulo",
+    "coords": "-23.55000000, -46.63333333",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Line_5_(São_Paulo_Metro)",
+    "name": "Line 5",
+    "reference": "São Paulo",
+    "wikidata": "Q647340"
   },
-  "most-lines-guangzhou": {
+  "seoul-line-2": {
+    "been": true,
+    "city": "Seoul",
+    "coords": "37.55600000, 126.94000000",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_2",
+    "name": "Line 2",
+    "reference": "Seoul"
+  },
+  "seoul-line-3": {
+    "been": true,
+    "city": "Seoul",
+    "coords": "37.56000000, 126.99000000",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_3",
+    "name": "Line 3",
+    "reference": "Seoul",
+    "wikidata": "Q20393"
+  },
+  "seoul-line-9": {
+    "been": true,
+    "city": "Seoul",
+    "coords": "37.56000000, 126.99000000",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Seoul_Subway_Line_9",
+    "name": "Line 9",
+    "reference": "Seoul",
+    "wikidata": "Q17503"
+  },
+  "shenzhen-line-1": {
     "been": false,
-    "city": "Guangzhou",
-    "coords": "23.10890000, 113.26470000",
+    "city": "Shenzhen",
+    "coords": "22.54150000, 114.05960000",
     "country": "CN",
     "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Guangzhou_Metro",
-    "name": "Most Lines",
-    "reference": "Guangzhou"
+    "link": "https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)",
+    "name": "Line 1",
+    "reference": "Shenzhen"
   },
-  "mtr-hong-kong": {
-    "been": true,
-    "city": "Hong Kong",
-    "coords": "22.30000000, 114.20000000",
-    "country": "HK",
-    "icons": ["🇭🇰"],
-    "link": "https://en.wikipedia.org/wiki/MTR",
-    "name": "MTR",
-    "reference": "Hong Kong",
-    "wikidata": "Q1479375"
+  "shenzhen-line-11": {
+    "been": false,
+    "city": "Shenzhen",
+    "coords": "22.54150000, 114.05960000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_11_(Shenzhen_Metro)",
+    "name": "Line 11",
+    "reference": "Shenzhen",
+    "wikidata": "Q2636308"
   },
-  "north-east-line-singapore": {
+  "shenzhen-line-13": {
+    "been": false,
+    "city": "Shenzhen",
+    "coords": "22.54150000, 114.05960000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Line_13_(Shenzhen_Metro)",
+    "name": "Line 13",
+    "reference": "Shenzhen",
+    "wikidata": "Q847744"
+  },
+  "singapore-cross-island-line": {
+    "been": false,
+    "city": "Singapore",
+    "coords": "1.28333333, 103.83333333",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Cross_Island_Line",
+    "name": "Cross Island Line",
+    "reference": "Singapore",
+    "wikidata": "Q3335354"
+  },
+  "singapore-north-east-line": {
     "been": false,
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
@@ -372,13 +356,18 @@
     "reference": "Singapore",
     "wikidata": "Q1725116"
   },
-  "overhead-lines": {
+  "tokyo-chiyoda-line": {
     "been": true,
-    "icons": ["🩼"],
-    "name": "Overhead Lines",
-    "wikidata": "Q110701"
+    "city": "Tokyo",
+    "coords": "35.68972222, 139.69222222",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_Chiyoda_Line",
+    "name": "Chiyoda Line",
+    "reference": "Tokyo",
+    "wikidata": "Q1075089"
   },
-  "toei-subway-tokyo": {
+  "tokyo-toei-subway": {
     "been": true,
     "city": "Tokyo",
     "coords": "35.689444444, 139.691666666",
@@ -388,5 +377,16 @@
     "name": "Toei Subway",
     "reference": "Tokyo",
     "wikidata": "Q247782"
+  },
+  "vienna-line-u6": {
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.208333333333336, 16.3725",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/U6_(Vienna_U-Bahn)",
+    "name": "Line U6",
+    "reference": "Vienna",
+    "wikidata": "Q1741"
   }
 }

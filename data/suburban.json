@@ -13,28 +13,51 @@
     "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
-  "altamont-corridor-san-jose": {
+  "abuja-light-rail": {
     "been": false,
-    "city": "San José",
+    "city": "Abuja",
+    "coords": "9.05050000, 7.47190000",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "link": "https://en.wikipedia.org/wiki/Abuja_Light_Rail",
+    "name": "Light Rail",
+    "reference": "Abuja"
+  },
+  "albuquerque-rail-runner-express": {
+    "been": false,
+    "city": "Albuquerque",
+    "coords": "35.08500000, -106.65000000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Altamont_Corridor_Express",
-    "name": "Altamont Corridor",
-    "reference": "San Jose",
-    "wikidata": "Q434302"
+    "link": "https://en.wikipedia.org/wiki/Rail_Runner_Express",
+    "name": "Rail Runner Express",
+    "reference": "Albuquerque",
+    "wikidata": "Q11324955"
   },
-  "caltrain-san-francisco": {
+  "barcelona-rodalies": {
+    "been": false,
+    "city": "Barcelona",
+    "coords": "41.383333, 2.183333",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Rodalies_de_Catalunya",
+    "name": "Rodalies",
+    "reference": "Barcelona",
+    "wikidata": "Q3322422"
+  },
+  "berlin-s-bahn": {
     "been": true,
-    "city": "San Francisco",
-    "coords": "37.33944444, -121.90972222",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Caltrain",
-    "name": "Caltrain",
-    "reference": "San Francisco",
-    "wikidata": "Q166817"
+    "city": "Berlin",
+    "coords": "52.52017, 13.38596",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "info": "(Ring)",
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Berlin",
+    "name": "S-Bahn",
+    "reference": "Berlin",
+    "wikidata": "Q99654"
   },
-  "cercanias-bilbao": {
+  "bilbao-cercanias": {
     "been": false,
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
@@ -45,94 +68,7 @@
     "reference": "Bilbao",
     "wikidata": "Q10862037"
   },
-  "cercanias-madrid": {
-    "been": false,
-    "city": "Madrid",
-    "coords": "40.418888888889, -3.6919444444444",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Cercanías_Madrid",
-    "name": "Cercanías",
-    "reference": "Madrid",
-    "wikidata": "Q1054785"
-  },
-  "coaster-san-diego": {
-    "been": false,
-    "city": "San Diego",
-    "coords": "32.71500000, -117.16250000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Coaster_(rail_service)",
-    "name": "Coaster",
-    "reference": "San Diego",
-    "wikidata": "Q65082514"
-  },
-  "exo-montreal": {
-    "been": false,
-    "city": "Montréal",
-    "coords": "45.50888889, -73.55416667",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Exo_commuter_rail",
-    "name": "Exo",
-    "reference": "Montréal",
-    "wikidata": "Q494717"
-  },
-  "frontrunner-salt-lake-city": {
-    "been": false,
-    "city": "Salt Lake City",
-    "coords": "40.77083300, -111.92111100",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/FrontRunner",
-    "name": "FrontRunner",
-    "reference": "Salt Lake City",
-    "wikidata": "Q5505779"
-  },
-  "go-transit-toronto": {
-    "been": false,
-    "city": "Toronto",
-    "coords": "43.65250000, -79.38166667",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/GO_Transit",
-    "name": "GO Transit",
-    "reference": "Toronto",
-    "wikidata": "Q1357727"
-  },
-  "keio-line-tokyo": {
-    "been": false,
-    "city": "Tokyo",
-    "coords": "35.701389, 139.709722",
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://en.wikipedia.org/wiki/Keiō_Line",
-    "name": "Keiō Line",
-    "reference": "Tokyo",
-    "wikidata": "Q1323112"
-  },
-  "light-rail-abuja": {
-    "been": false,
-    "city": "Abuja",
-    "coords": "9.05050000, 7.47190000",
-    "country": "NG",
-    "icons": ["🇳🇬"],
-    "link": "https://en.wikipedia.org/wiki/Abuja_Light_Rail",
-    "name": "Light Rail",
-    "reference": "Abuja"
-  },
-  "long-island-rail-road-new-york": {
-    "been": false,
-    "city": "New York",
-    "coords": "40.750556, -73.993889",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Long_Island_Rail_Road",
-    "name": "Long Island Rail Road",
-    "reference": "New York",
-    "wikidata": "Q125943"
-  },
-  "mbta-boston": {
+  "boston-mbta": {
     "been": false,
     "city": "Boston",
     "coords": "42.31861111, -70.99111111",
@@ -143,7 +79,7 @@
     "reference": "Boston",
     "wikidata": "Q172457"
   },
-  "metra-chicago": {
+  "chicago-metra": {
     "been": false,
     "city": "Chicago",
     "coords": "41.88194444, -87.62777778",
@@ -154,18 +90,135 @@
     "reference": "Chicago",
     "wikidata": "Q37202925"
   },
-  "metro-north-new-york": {
+  "dakar-ter": {
+    "been": true,
+    "city": "Dakar",
+    "coords": "14.69277778, -17.44666667",
+    "country": "SN",
+    "icons": ["🇸🇳"],
+    "link": "https://fr.wikipedia.org/wiki/Train_express_régional_Dakar-AIBD",
+    "name": "TER",
+    "reference": "Dakar",
+    "wikidata": "Q66819158"
+  },
+  "dallas-trinity-railway-express": {
     "been": false,
-    "city": "New York",
-    "coords": "40.752778, -73.977222",
+    "city": "Dallas",
+    "coords": "32.77916667, -96.80888889",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Metro-North_Railroad",
-    "name": "Metro-North",
-    "reference": "New York",
-    "wikidata": "Q125908"
+    "link": "https://en.wikipedia.org/wiki/Trinity_Railway_Express",
+    "name": "Trinity Railway Express",
+    "reference": "Dallas",
+    "wikidata": "Q2453601"
   },
-  "metrolink-los-angeles": {
+  "dresden-s-bahn": {
+    "been": false,
+    "city": "Dresden",
+    "coords": "51.05000000, 13.74000000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Dresden",
+    "name": "S-Bahn",
+    "reference": "Dresden",
+    "wikidata": "Q513745"
+  },
+  "frankfurt-s-bahn": {
+    "been": false,
+    "city": "Frankfurt",
+    "coords": "50.11055556, 8.68222222",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Rhein-Main",
+    "name": "S-Bahn",
+    "reference": "Frankfurt",
+    "wikidata": "Q705684"
+  },
+  "hamburg-s-bahn": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.55, 10.0",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Hamburg",
+    "name": "S-Bahn",
+    "reference": "Hamburg",
+    "wikidata": "Q693956"
+  },
+  "hannover-s-bahn": {
+    "been": false,
+    "coords": "52.36666667, 9.71666667",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Hannover",
+    "name": "S-Bahn",
+    "reference": "Hannover",
+    "wikidata": "Q481504"
+  },
+  "ile-de-france-transilien": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.881111, 2.355278",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Transilien",
+    "name": "Transilien",
+    "reference": "Île-de-France",
+    "wikidata": "Q389554"
+  },
+  "koln-s-bahn": {
+    "been": false,
+    "city": "Cologne",
+    "coords": "50.93638889, 6.95277778",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Köln",
+    "name": "S-Bahn",
+    "reference": "Köln",
+    "wikidata": "Q95709"
+  },
+  "lagos-red-line": {
+    "been": false,
+    "city": "Lagos",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "link": "https://en.wikipedia.org/wiki/Lagos_Rail_Mass_Transit",
+    "name": "Red Line",
+    "reference": "Lagos"
+  },
+  "leipzig-s-bahn": {
+    "been": false,
+    "coords": "51.34000000, 12.37500000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Mitteldeutschland",
+    "name": "S-Bahn",
+    "reference": "Leipzig",
+    "wikidata": "Q95723"
+  },
+  "london-overground": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/London_Overground",
+    "name": "Overground",
+    "reference": "London",
+    "wikidata": "Q746021"
+  },
+  "london-thameslink": {
+    "been": false,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Thameslink",
+    "name": "Thameslink",
+    "reference": "London",
+    "wikidata": "Q1194990"
+  },
+  "los-angeles-metrolink": {
     "been": false,
     "city": "Los Angeles",
     "coords": "53.41667, -2.25",
@@ -175,6 +228,60 @@
     "name": "Metrolink",
     "reference": "Los Angeles",
     "wikidata": "Q18548"
+  },
+  "madrid-cercanias": {
+    "been": false,
+    "city": "Madrid",
+    "coords": "40.418888888889, -3.6919444444444",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Cercanías_Madrid",
+    "name": "Cercanías",
+    "reference": "Madrid",
+    "wikidata": "Q1054785"
+  },
+  "miami-tri-rail": {
+    "been": false,
+    "city": "Miami",
+    "coords": "25.78000000, -80.21000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Tri-Rail",
+    "name": "Tri-Rail",
+    "reference": "Miami",
+    "wikidata": "Q2452212"
+  },
+  "milan-s-lines": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://it.wikipedia.org/wiki/Servizio_ferroviario_suburbano_di_Milano",
+    "name": "S Lines",
+    "reference": "Milan",
+    "wikidata": "Q472223"
+  },
+  "minneapolis-northstar-line": {
+    "been": false,
+    "coords": "44.99861111, -93.48583333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Northstar_Line",
+    "name": "Northstar Line",
+    "reference": "Minneapolis",
+    "wikidata": "Q5327020"
+  },
+  "montreal-exo": {
+    "been": false,
+    "city": "Montréal",
+    "coords": "45.50888889, -73.55416667",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Exo_commuter_rail",
+    "name": "Exo",
+    "reference": "Montréal",
+    "wikidata": "Q494717"
   },
   "moscow": {
     "been": false,
@@ -187,59 +294,59 @@
     "name": "Moscow",
     "wikidata": "Q43289885"
   },
-  "northstar-line-minneapolis": {
+  "munchen-s-bahn": {
     "been": false,
-    "coords": "44.99861111, -93.48583333",
+    "coords": "48.14083333333333, 11.555",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_München",
+    "name": "S-Bahn",
+    "reference": "München",
+    "wikidata": "Q256524"
+  },
+  "new-york-long-island-rail-road": {
+    "been": false,
+    "city": "New York",
+    "coords": "40.750556, -73.993889",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Northstar_Line",
-    "name": "Northstar Line",
-    "reference": "Minneapolis",
-    "wikidata": "Q5327020"
+    "link": "https://en.wikipedia.org/wiki/Long_Island_Rail_Road",
+    "name": "Long Island Rail Road",
+    "reference": "New York",
+    "wikidata": "Q125943"
   },
-  "overground-london": {
-    "been": true,
-    "city": "London",
-    "coords": "51.50722222, -0.12750000",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/London_Overground",
-    "name": "Overground",
-    "reference": "London",
-    "wikidata": "Q746021"
-  },
-  "pendeltag-stockholm": {
+  "new-york-metro-north": {
     "been": false,
-    "city": "Stockholm",
-    "coords": "59.32944444, 18.06861111",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://en.wikipedia.org/wiki/Stockholm_commuter_rail",
-    "name": "Pendeltåg",
-    "reference": "Stockholm",
-    "wikidata": "Q211653"
-  },
-  "rail-runner-express-albuquerque": {
-    "been": false,
-    "city": "Albuquerque",
-    "coords": "35.08500000, -106.65000000",
+    "city": "New York",
+    "coords": "40.752778, -73.977222",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Rail_Runner_Express",
-    "name": "Rail Runner Express",
-    "reference": "Albuquerque",
-    "wikidata": "Q11324955"
+    "link": "https://en.wikipedia.org/wiki/Metro-North_Railroad",
+    "name": "Metro-North",
+    "reference": "New York",
+    "wikidata": "Q125908"
   },
-  "red-line-lagos": {
+  "nurnberg-s-bahn": {
     "been": false,
-    "city": "Lagos",
-    "country": "NG",
-    "icons": ["🇳🇬"],
-    "link": "https://en.wikipedia.org/wiki/Lagos_Rail_Mass_Transit",
-    "name": "Red Line",
-    "reference": "Lagos"
+    "coords": "49.45, 11.083333333333",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Nürnberg",
+    "name": "S-Bahn",
+    "reference": "Nürnberg",
+    "wikidata": "Q564895"
   },
-  "rer-paris": {
+  "orlando-sunrail": {
+    "been": false,
+    "city": "Orlando",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/SunRail",
+    "name": "SunRail",
+    "reference": "Orlando",
+    "wikidata": "Q3503715"
+  },
+  "paris-rer": {
     "been": true,
     "city": "Paris",
     "coords": "48.8615, 2.3465",
@@ -250,114 +357,7 @@
     "reference": "Paris",
     "wikidata": "Q46686"
   },
-  "rodalies-barcelona": {
-    "been": false,
-    "city": "Barcelona",
-    "coords": "41.383333, 2.183333",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Rodalies_de_Catalunya",
-    "name": "Rodalies",
-    "reference": "Barcelona",
-    "wikidata": "Q3322422"
-  },
-  "s-bahn-berlin": {
-    "been": true,
-    "city": "Berlin",
-    "coords": "52.52017, 13.38596",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "info": "(Ring)",
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Berlin",
-    "name": "S-Bahn",
-    "reference": "Berlin",
-    "wikidata": "Q99654"
-  },
-  "s-bahn-dresden": {
-    "been": false,
-    "city": "Dresden",
-    "coords": "51.05000000, 13.74000000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Dresden",
-    "name": "S-Bahn",
-    "reference": "Dresden",
-    "wikidata": "Q513745"
-  },
-  "s-bahn-frankfurt": {
-    "been": false,
-    "city": "Frankfurt",
-    "coords": "50.11055556, 8.68222222",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Rhein-Main",
-    "name": "S-Bahn",
-    "reference": "Frankfurt",
-    "wikidata": "Q705684"
-  },
-  "s-bahn-hamburg": {
-    "been": false,
-    "city": "Hamburg",
-    "coords": "53.55, 10.0",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Hamburg",
-    "name": "S-Bahn",
-    "reference": "Hamburg",
-    "wikidata": "Q693956"
-  },
-  "s-bahn-hannover": {
-    "been": false,
-    "coords": "52.36666667, 9.71666667",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Hannover",
-    "name": "S-Bahn",
-    "reference": "Hannover",
-    "wikidata": "Q481504"
-  },
-  "s-bahn-koln": {
-    "been": false,
-    "city": "Cologne",
-    "coords": "50.93638889, 6.95277778",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Köln",
-    "name": "S-Bahn",
-    "reference": "Köln",
-    "wikidata": "Q95709"
-  },
-  "s-bahn-leipzig": {
-    "been": false,
-    "coords": "51.34000000, 12.37500000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Mitteldeutschland",
-    "name": "S-Bahn",
-    "reference": "Leipzig",
-    "wikidata": "Q95723"
-  },
-  "s-bahn-munchen": {
-    "been": false,
-    "coords": "48.14083333333333, 11.555",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_München",
-    "name": "S-Bahn",
-    "reference": "München",
-    "wikidata": "Q256524"
-  },
-  "s-bahn-nurnberg": {
-    "been": false,
-    "coords": "49.45, 11.083333333333",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Nürnberg",
-    "name": "S-Bahn",
-    "reference": "Nürnberg",
-    "wikidata": "Q564895"
-  },
-  "s-bahn-rhine-ruhr": {
+  "rhine-ruhr-s-bahn": {
     "been": false,
     "coords": "51.45000000, 6.88333333",
     "country": "DE",
@@ -367,26 +367,69 @@
     "reference": "Rhine-Ruhr",
     "wikidata": "Q481509"
   },
-  "s-bahn-stuttgart": {
+  "salt-lake-city-frontrunner": {
     "been": false,
-    "coords": "48.666666666666664, 9.0",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/S-Bahn_Stuttgart",
-    "name": "S-Bahn",
-    "reference": "Stuttgart",
-    "wikidata": "Q81001"
+    "city": "Salt Lake City",
+    "coords": "40.77083300, -111.92111100",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/FrontRunner",
+    "name": "FrontRunner",
+    "reference": "Salt Lake City",
+    "wikidata": "Q5505779"
   },
-  "s-lines-milan": {
+  "san-diego-coaster": {
     "been": false,
-    "city": "Milan",
-    "coords": "45.46694444, 9.19000000",
-    "country": "IT",
-    "icons": ["🇮🇹"],
-    "link": "https://it.wikipedia.org/wiki/Servizio_ferroviario_suburbano_di_Milano",
-    "name": "S Lines",
-    "reference": "Milan",
-    "wikidata": "Q472223"
+    "city": "San Diego",
+    "coords": "32.71500000, -117.16250000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Coaster_(rail_service)",
+    "name": "Coaster",
+    "reference": "San Diego",
+    "wikidata": "Q65082514"
+  },
+  "san-francisco-caltrain": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.33944444, -121.90972222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Caltrain",
+    "name": "Caltrain",
+    "reference": "San Francisco",
+    "wikidata": "Q166817"
+  },
+  "san-jose-altamont-corridor": {
+    "been": false,
+    "city": "San José",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Altamont_Corridor_Express",
+    "name": "Altamont Corridor",
+    "reference": "San Jose",
+    "wikidata": "Q434302"
+  },
+  "san-sebastian-topo": {
+    "been": false,
+    "coords": "43.32, -1.98",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Topo_(San_Sebastián)",
+    "name": "Topo",
+    "reference": "San Sebastián",
+    "wikidata": "Q3333800"
+  },
+  "seattle-sounder": {
+    "been": false,
+    "city": "Seattle",
+    "coords": "39.82805556, -101.00000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sounder_commuter_rail",
+    "name": "Sounder",
+    "reference": "Seattle",
+    "wikidata": "Q7564853"
   },
   "seoul": {
     "been": false,
@@ -399,104 +442,39 @@
     "name": "Seoul",
     "wikidata": "Q24867030"
   },
-  "sounder-seattle": {
+  "stockholm-pendeltag": {
     "been": false,
-    "city": "Seattle",
-    "coords": "39.82805556, -101.00000000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Sounder_commuter_rail",
-    "name": "Sounder",
-    "reference": "Seattle",
-    "wikidata": "Q7564853"
+    "city": "Stockholm",
+    "coords": "59.32944444, 18.06861111",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Stockholm_commuter_rail",
+    "name": "Pendeltåg",
+    "reference": "Stockholm",
+    "wikidata": "Q211653"
   },
-  "sunrail-orlando": {
+  "stuttgart-s-bahn": {
     "been": false,
-    "city": "Orlando",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/SunRail",
-    "name": "SunRail",
-    "reference": "Orlando",
-    "wikidata": "Q3503715"
+    "coords": "48.666666666666664, 9.0",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/S-Bahn_Stuttgart",
+    "name": "S-Bahn",
+    "reference": "Stuttgart",
+    "wikidata": "Q81001"
   },
-  "ter-dakar": {
-    "been": true,
-    "city": "Dakar",
-    "coords": "14.69277778, -17.44666667",
-    "country": "SN",
-    "icons": ["🇸🇳"],
-    "link": "https://fr.wikipedia.org/wiki/Train_express_régional_Dakar-AIBD",
-    "name": "TER",
-    "reference": "Dakar",
-    "wikidata": "Q66819158"
-  },
-  "thameslink-london": {
+  "tokyo-keio-line": {
     "been": false,
-    "city": "London",
-    "coords": "51.50722222, -0.12750000",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Thameslink",
-    "name": "Thameslink",
-    "reference": "London",
-    "wikidata": "Q1194990"
+    "city": "Tokyo",
+    "coords": "35.701389, 139.709722",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Keiō_Line",
+    "name": "Keiō Line",
+    "reference": "Tokyo",
+    "wikidata": "Q1323112"
   },
-  "topo-san-sebastian": {
-    "been": false,
-    "coords": "43.32, -1.98",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Topo_(San_Sebastián)",
-    "name": "Topo",
-    "reference": "San Sebastián",
-    "wikidata": "Q3333800"
-  },
-  "transilien-ile-de-france": {
-    "been": true,
-    "city": "Paris",
-    "coords": "48.881111, 2.355278",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Transilien",
-    "name": "Transilien",
-    "reference": "Île-de-France",
-    "wikidata": "Q389554"
-  },
-  "tri-rail-miami": {
-    "been": false,
-    "city": "Miami",
-    "coords": "25.78000000, -80.21000000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Tri-Rail",
-    "name": "Tri-Rail",
-    "reference": "Miami",
-    "wikidata": "Q2452212"
-  },
-  "trinity-railway-express-dallas": {
-    "been": false,
-    "city": "Dallas",
-    "coords": "32.77916667, -96.80888889",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Trinity_Railway_Express",
-    "name": "Trinity Railway Express",
-    "reference": "Dallas",
-    "wikidata": "Q2453601"
-  },
-  "west-coast-express-vancouver": {
-    "been": false,
-    "city": "Vancouver",
-    "coords": "49.26083333, -123.11388889",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/West_Coast_Express",
-    "name": "West Coast Express",
-    "reference": "Vancouver",
-    "wikidata": "Q1675085"
-  },
-  "yamanote-line-tokyo": {
+  "tokyo-yamanote-line": {
     "been": false,
     "city": "Tokyo",
     "coords": "35.68333333, 139.76666667",
@@ -506,5 +484,27 @@
     "name": "Yamanote Line",
     "reference": "Tokyo",
     "wikidata": "Q693036"
+  },
+  "toronto-go-transit": {
+    "been": false,
+    "city": "Toronto",
+    "coords": "43.65250000, -79.38166667",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/GO_Transit",
+    "name": "GO Transit",
+    "reference": "Toronto",
+    "wikidata": "Q1357727"
+  },
+  "vancouver-west-coast-express": {
+    "been": false,
+    "city": "Vancouver",
+    "coords": "49.26083333, -123.11388889",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/West_Coast_Express",
+    "name": "West Coast Express",
+    "reference": "Vancouver",
+    "wikidata": "Q1675085"
   }
 }

@@ -12,7 +12,127 @@
     "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
-  "44th-st/washington-phoenix": {
+  "antalya-havalimanı": {
+    "been": false,
+    "coords": "36.88740000, 30.70750000",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Antalya",
+    "name": "Havalimanı",
+    "reference": "Antalya",
+    "wikidata": "Q402220"
+  },
+  "bergen-lufthavn": {
+    "been": false,
+    "city": "Bergen",
+    "coords": "60.29361111, 5.21805556",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bergen_Airport,_Flesland#Ground_transport",
+    "name": "Lufthavn",
+    "reference": "Bergen"
+  },
+  "bremen-flughafen-bremen": {
+    "been": false,
+    "coords": "53.0474, 8.786747222222223",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Flughafen_Bremen#%C3%96ffentlicher_Nahverkehr",
+    "name": "Flughafen Bremen",
+    "reference": "Bremen",
+    "wikidata": "Q665365"
+  },
+  "brodeaux-aeroport": {
+    "been": true,
+    "coords": "17.90333333, -62.84305556",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_A_du_tramway_de_Bordeaux",
+    "name": "Aéroport",
+    "reference": "Brodeaux",
+    "wikidata": "Q2658981"
+  },
+  "dallas–fort-worth-dfw-airport": {
+    "been": false,
+    "coords": "32.90683500, -97.04030900",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/DFW_Airport_Terminal_A_station",
+    "name": "DFW Airport",
+    "reference": "Dallas–Fort Worth"
+  },
+  "edinburgh-edinburgh-airport": {
+    "been": false,
+    "city": "Edinburgh",
+    "coords": "55.98000000, -3.18890000",
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "link": "https://en.wikipedia.org/wiki/Edinburgh_Trams",
+    "name": "Edinburgh Airport",
+    "reference": "Edinburgh"
+  },
+  "lyon-lyon-saint-exupery": {
+    "been": true,
+    "city": "Lyon",
+    "coords": "45.72111111, 5.07611111",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Lyon-Saint-Exupéry_TGV_station",
+    "name": "Lyon-Saint-Exupéry",
+    "reference": "Lyon"
+  },
+  "manchester-airport": {
+    "been": false,
+    "city": "Manchester",
+    "coords": "53.36540000, -2.27229000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Manchester_Airport_station#Manchester_Metrolink",
+    "name": "Airport",
+    "reference": "Manchester"
+  },
+  "melbourne-airport-west": {
+    "badges": ["🚌"],
+    "been": false,
+    "city": "Melbourne",
+    "coords": "-37.72400000, 144.87900000",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Airport_West",
+    "name": "Airport West",
+    "reference": "Melbourne"
+  },
+  "minneapolis-terminal-1–lindbergh": {
+    "been": false,
+    "coords": "44.88110000, -93.20570000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Terminal_1%E2%80%93Lindbergh_station",
+    "name": "Terminal 1–Lindbergh",
+    "reference": "Minneapolis"
+  },
+  "nice-aeroport": {
+    "been": true,
+    "city": "Nice",
+    "coords": "43.665278, 7.215",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_2_du_tramway_de_Nice",
+    "name": "Aéroport",
+    "reference": "Nice",
+    "wikidata": "Q3238814"
+  },
+  "paris-aeroport-dorly": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_7",
+    "name": "Aéroport d’Orly",
+    "reference": "Paris",
+    "wikidata": "Q3239019"
+  },
+  "phoenix-44th-st/washington": {
     "badges": ["🚝"],
     "been": false,
     "city": "Phoenix",
@@ -24,38 +144,16 @@
     "reference": "Phoenix",
     "wikidata": "Q3566503"
   },
-  "aeroport-brodeaux": {
-    "been": true,
-    "coords": "17.90333333, -62.84305556",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_A_du_tramway_de_Bordeaux",
-    "name": "Aéroport",
-    "reference": "Brodeaux",
-    "wikidata": "Q2658981"
+  "portland-portland-airport": {
+    "been": false,
+    "coords": "45.58750000, -122.59305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Portland_Airport_station",
+    "name": "Portland Airport",
+    "reference": "Portland"
   },
-  "aeroport-dorly-paris": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_7",
-    "name": "Aéroport d’Orly",
-    "reference": "Paris",
-    "wikidata": "Q3239019"
-  },
-  "aeroport-nice": {
-    "been": true,
-    "city": "Nice",
-    "coords": "43.665278, 7.215",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_2_du_tramway_de_Nice",
-    "name": "Aéroport",
-    "reference": "Nice",
-    "wikidata": "Q3238814"
-  },
-  "aeroporto-porto": {
+  "porto-aeroporto": {
     "been": true,
     "city": "Porto",
     "coords": "41.23722222, -8.66972222",
@@ -65,27 +163,17 @@
     "name": "Aeroporto",
     "reference": "Porto"
   },
-  "airport": {
-    "city": "Zürich",
-    "coords": "47.46472222, 8.54916667",
-    "country": "CH",
-    "dateAdded": "2025-11-29",
-    "icons": ["🇨🇭"],
-    "link": "https://en.wikipedia.org/wiki/Zurich_Airport",
-    "name": "Airport",
-    "reference": "Zurich"
-  },
-  "airport-manchester": {
+  "saint-louis-lambert-airport-terminal-1": {
     "been": false,
-    "city": "Manchester",
-    "coords": "53.36540000, -2.27229000",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Manchester_Airport_station#Manchester_Metrolink",
-    "name": "Airport",
-    "reference": "Manchester"
+    "city": "Saint Louis",
+    "coords": "38.74118200, -90.36483800",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lambert_Airport_Terminal_1_station",
+    "name": "Lambert Airport Terminal 1",
+    "reference": "Saint Louis"
   },
-  "airport-salt-lake-city": {
+  "salt-lake-city-airport": {
     "badges": ["🚝"],
     "been": false,
     "city": "Salt Lake City",
@@ -96,106 +184,7 @@
     "name": "Airport",
     "reference": "Salt Lake City"
   },
-  "airport-west-melbourne": {
-    "badges": ["🚌"],
-    "been": false,
-    "city": "Melbourne",
-    "coords": "-37.72400000, 144.87900000",
-    "country": "AU",
-    "icons": ["🇦🇺"],
-    "link": "https://en.wikipedia.org/wiki/Airport_West",
-    "name": "Airport West",
-    "reference": "Melbourne"
-  },
-  "dfw-airport-dallas–fort-worth": {
-    "been": false,
-    "coords": "32.90683500, -97.04030900",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/DFW_Airport_Terminal_A_station",
-    "name": "DFW Airport",
-    "reference": "Dallas–Fort Worth"
-  },
-  "edinburgh-airport-edinburgh": {
-    "been": false,
-    "city": "Edinburgh",
-    "coords": "55.98000000, -3.18890000",
-    "country": "GB-SCT",
-    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
-    "link": "https://en.wikipedia.org/wiki/Edinburgh_Trams",
-    "name": "Edinburgh Airport",
-    "reference": "Edinburgh"
-  },
-  "flughafen-bremen-bremen": {
-    "been": false,
-    "coords": "53.0474, 8.786747222222223",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Flughafen_Bremen#%C3%96ffentlicher_Nahverkehr",
-    "name": "Flughafen Bremen",
-    "reference": "Bremen",
-    "wikidata": "Q665365"
-  },
-  "havalimanı-antalya": {
-    "been": false,
-    "coords": "36.88740000, 30.70750000",
-    "country": "TR",
-    "icons": ["🇹🇷"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Antalya",
-    "name": "Havalimanı",
-    "reference": "Antalya",
-    "wikidata": "Q402220"
-  },
-  "lambert-airport-terminal-1-saint-louis": {
-    "been": false,
-    "city": "Saint Louis",
-    "coords": "38.74118200, -90.36483800",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Lambert_Airport_Terminal_1_station",
-    "name": "Lambert Airport Terminal 1",
-    "reference": "Saint Louis"
-  },
-  "lennujaama-tallinn": {
-    "been": true,
-    "city": "Tallinn",
-    "coords": "59.43722222, 24.74527778",
-    "country": "EE",
-    "icons": ["🇪🇪"],
-    "link": "https://et.wikipedia.org/wiki/Lennujaama_%C3%BChiss%C3%B5idukipeatus",
-    "name": "Lennujaama",
-    "reference": "Tallinn"
-  },
-  "lufthavn-bergen": {
-    "been": false,
-    "city": "Bergen",
-    "coords": "60.29361111, 5.21805556",
-    "country": "NO",
-    "icons": ["🇳🇴"],
-    "link": "https://en.wikipedia.org/wiki/Bergen_Airport,_Flesland#Ground_transport",
-    "name": "Lufthavn",
-    "reference": "Bergen"
-  },
-  "lyon-saint-exupery-lyon": {
-    "been": true,
-    "city": "Lyon",
-    "coords": "45.72111111, 5.07611111",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://en.wikipedia.org/wiki/Lyon-Saint-Exupéry_TGV_station",
-    "name": "Lyon-Saint-Exupéry",
-    "reference": "Lyon"
-  },
-  "portland-airport-portland": {
-    "been": false,
-    "coords": "45.58750000, -122.59305556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Portland_Airport_station",
-    "name": "Portland Airport",
-    "reference": "Portland"
-  },
-  "seatac/airport-seattle": {
+  "seattle-seatac/airport": {
     "been": true,
     "city": "Seattle",
     "coords": "47.44545, -122.29689",
@@ -206,13 +195,24 @@
     "reference": "Seattle",
     "wikidata": "Q4698883"
   },
-  "terminal-1–lindbergh-minneapolis": {
-    "been": false,
-    "coords": "44.88110000, -93.20570000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Terminal_1%E2%80%93Lindbergh_station",
-    "name": "Terminal 1–Lindbergh",
-    "reference": "Minneapolis"
+  "tallinn-lennujaama": {
+    "been": true,
+    "city": "Tallinn",
+    "coords": "59.43722222, 24.74527778",
+    "country": "EE",
+    "icons": ["🇪🇪"],
+    "link": "https://et.wikipedia.org/wiki/Lennujaama_%C3%BChiss%C3%B5idukipeatus",
+    "name": "Lennujaama",
+    "reference": "Tallinn"
+  },
+  "zurich-airport": {
+    "city": "Zürich",
+    "coords": "47.46472222, 8.54916667",
+    "country": "CH",
+    "dateAdded": "2025-11-29",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Zurich_Airport",
+    "name": "Airport",
+    "reference": "Zurich"
   }
 }

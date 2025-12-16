@@ -12,78 +12,7 @@
     "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
-  "aeroport-dorly-paris": {
-    "been": true,
-    "city": "Paris",
-    "coords": "48.72808084, 2.36236447",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://en.wikipedia.org/wiki/A%C3%A9roport_d%27Orly_station",
-    "name": "Aéroport d’Orly",
-    "reference": "Paris"
-  },
-  "aeroport-t1-barcelona": {
-    "been": true,
-    "city": "Barcelona",
-    "coords": "41.28963889, 2.07388889",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Aeroport_T1_(Barcelona_Metro)",
-    "name": "Aeroport T1",
-    "reference": "Barcelona"
-  },
-  "aeroport-t2-barcelona": {
-    "been": true,
-    "city": "Barcelona",
-    "coords": "41.30425556, 2.07330556",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Aeroport_T2_(Barcelona_Metro)",
-    "name": "Aeroport T2",
-    "reference": "Barcelona"
-  },
-  "aeroport-valencia": {
-    "been": false,
-    "city": "Paris",
-    "coords": "49.003652, 2.570892",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Estación_de_Aeroport_(Metrovalencia)",
-    "name": "Aeroport",
-    "reference": "Valencia",
-    "wikidata": "Q800424"
-  },
-  "aeroporto-lisbon": {
-    "been": true,
-    "city": "Lisbon",
-    "coords": "38.76900000, -9.12900000",
-    "country": "PT",
-    "icons": ["🇵🇹"],
-    "link": "https://en.wikipedia.org/wiki/Aeroporto_(Lisbon_Metro)",
-    "name": "Aeroporto",
-    "reference": "Lisbon"
-  },
-  "aeropuerto-t1–t2–t3-madrid": {
-    "been": true,
-    "city": "Madrid",
-    "coords": "40.46864700, -3.56965210",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Aeropuerto_T1-T2-T3_(Madrid_Metro)",
-    "name": "Aeropuerto T1–T2–T3",
-    "reference": "Madrid"
-  },
-  "aeropuerto-t4-madrid": {
-    "been": true,
-    "city": "Madrid",
-    "coords": "40.49176130, -3.59355370",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Aeropuerto_T4_(Madrid_Metro)",
-    "name": "Aeropuerto T4",
-    "reference": "Madrid"
-  },
-  "airport-athens": {
+  "athens-airport": {
     "been": false,
     "city": "Athens",
     "coords": "37.98416667, 23.72805556",
@@ -94,7 +23,7 @@
     "reference": "Athens",
     "wikidata": "Q1248784"
   },
-  "airport-atlanta": {
+  "atlanta-airport": {
     "been": false,
     "city": "Atlanta",
     "coords": "33.64075800, -84.44634100",
@@ -104,132 +33,7 @@
     "name": "Airport",
     "reference": "Atlanta"
   },
-  "airport-boston": {
-    "badges": ["🚌"],
-    "been": true,
-    "city": "Boston",
-    "coords": "42.37437400, -71.03024300",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Airport_station_(MBTA)",
-    "name": "Airport",
-    "reference": "Boston"
-  },
-  "airport-free-zone-dubai": {
-    "badges": ["🚌"],
-    "been": true,
-    "city": "Dubai",
-    "coords": "25.26990000, 55.37500000",
-    "country": "AE",
-    "icons": ["🇦🇪"],
-    "link": "https://en.wikipedia.org/wiki/Dubai_Airport_Free_Zone_(Dubai_Metro)",
-    "name": "Airport Free Zone",
-    "reference": "Dubai"
-  },
-  "airport-macau": {
-    "been": false,
-    "city": "Macau",
-    "coords": "22.15933900, 113.57463600",
-    "country": "MO",
-    "icons": ["🇲🇴"],
-    "link": "https://en.wikipedia.org/wiki/Airport_station_(Macau_Light_Rapid_Transit)",
-    "name": "Airport",
-    "reference": "Macau"
-  },
-  "airport-newcastle": {
-    "been": false,
-    "city": "Newcastle",
-    "coords": "55.03563730, -1.71109670",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Newcastle_Airport_Metro_station",
-    "name": "Airport",
-    "reference": "Newcastle"
-  },
-  "airport-north-/-terminal-2-guangzhou": {
-    "been": false,
-    "city": "Guangzhou",
-    "coords": "23.39711389, 113.30590833",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Airport_North_station_(Guangzhou_Metro)",
-    "name": "Airport North / Terminal 2",
-    "reference": "Guangzhou"
-  },
-  "airport-shenzhen": {
-    "been": false,
-    "city": "Shenzhen",
-    "coords": "22.62640000, 113.80890000",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Airport_station_(Shenzhen_Metro)",
-    "name": "Airport",
-    "reference": "Shenzhen"
-  },
-  "airport-south-/-terminal-1-guangzhou": {
-    "been": false,
-    "city": "Guangzhou",
-    "coords": "23.38657000, 113.30302000",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Airport_South_station_(Guangzhou_Metro)",
-    "name": "Airport South / Terminal 1",
-    "reference": "Guangzhou"
-  },
-  "airport-terminal-1-dubai": {
-    "been": true,
-    "city": "Dubai",
-    "coords": "25.24840000, 55.35230000",
-    "country": "AE",
-    "icons": ["🇦🇪"],
-    "link": "https://en.wikipedia.org/wiki/Airport_Terminal_1_(Dubai_Metro)",
-    "name": "Airport Terminal 1",
-    "reference": "Dubai"
-  },
-  "airport-terminal-3-dubai": {
-    "been": true,
-    "city": "Dubai",
-    "coords": "25.24526667, 55.35690556",
-    "country": "AE",
-    "icons": ["🇦🇪"],
-    "link": "https://en.wikipedia.org/wiki/Airport_Terminal_3_(Dubai_Metro)",
-    "name": "Airport Terminal 3",
-    "reference": "Dubai"
-  },
-  "aviation/lax-los-angeles": {
-    "badges": ["🚌"],
-    "been": true,
-    "city": "Los Angeles",
-    "coords": "33.94250000, -118.40805556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Aviation/LAX_station",
-    "name": "Aviation/LAX",
-    "reference": "Los Angeles"
-  },
-  "capodichino-naples": {
-    "badges": ["🚧"],
-    "been": false,
-    "city": "Naples",
-    "coords": "40.87540000, 14.28550000",
-    "country": "IT",
-    "icons": ["🇮🇹"],
-    "link": "https://en.wikipedia.org/wiki/Capodichino_station",
-    "name": "Capodichino",
-    "reference": "Naples"
-  },
-  "changi-airport-singapore": {
-    "been": false,
-    "city": "Singapore",
-    "coords": "1.3575, 103.98833333333333",
-    "country": "SG",
-    "icons": ["🇸🇬"],
-    "link": "https://en.wikipedia.org/wiki/Changi_Airport_MRT_station",
-    "name": "Changi Airport",
-    "reference": "Singapore",
-    "wikidata": "Q3268527"
-  },
-  "chaudhary-charan-singh-bangalore": {
+  "bangalore-chaudhary-charan-singh": {
     "badges": ["🚧"],
     "been": false,
     "city": "Bangalore",
@@ -240,37 +44,68 @@
     "name": "Chaudhary Charan Singh",
     "reference": "Bangalore"
   },
-  "chaudhary-charan-singh-lucknow": {
-    "been": false,
-    "coords": "26.76615000, 80.88356100",
-    "country": "IN",
-    "icons": ["🇮🇳"],
-    "link": "https://en.wikipedia.org/wiki/Chaudhary_Charan_Singh_International_Airport_metro_station",
-    "name": "Chaudhary Charan Singh",
-    "reference": "Lucknow"
-  },
-  "dulles-international-airport-washington": {
+  "barcelona-aeroport-t1": {
     "been": true,
-    "city": "Washington",
-    "coords": "38.955816533625715, -77.44822684826613",
+    "city": "Barcelona",
+    "coords": "41.28963889, 2.07388889",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aeroport_T1_(Barcelona_Metro)",
+    "name": "Aeroport T1",
+    "reference": "Barcelona"
+  },
+  "barcelona-aeroport-t2": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.30425556, 2.07330556",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aeroport_T2_(Barcelona_Metro)",
+    "name": "Aeroport T2",
+    "reference": "Barcelona"
+  },
+  "boston-airport": {
+    "badges": ["🚌"],
+    "been": true,
+    "city": "Boston",
+    "coords": "42.37437400, -71.03024300",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Dulles_International_Airport_station",
-    "name": "Dulles International Airport",
-    "reference": "Washington",
-    "wikidata": "Q5313452"
+    "link": "https://en.wikipedia.org/wiki/Airport_station_(MBTA)",
+    "name": "Airport",
+    "reference": "Boston"
   },
-  "gimpo-international-airport-seoul": {
+  "chicago-midway": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.78661000, -87.73787500",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Midway_station_(CTA)",
+    "name": "Midway",
+    "reference": "Chicago"
+  },
+  "chicago-ohare": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/O%27Hare_station_(CTA)",
+    "name": "O’Hare",
+    "reference": "Chicago"
+  },
+  "copenhagen-lufthavnen": {
     "been": false,
-    "city": "Seoul",
-    "coords": "37.56250000, 126.80083333",
-    "country": "KR",
-    "icons": ["🇰🇷"],
-    "link": "https://en.wikipedia.org/wiki/Gimpo_International_Airport_station",
-    "name": "Gimpo International Airport",
-    "reference": "Seoul"
+    "city": "Copenhagen",
+    "coords": "55.63083333, 12.64916667",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Lufthavnen_Station",
+    "name": "Lufthavnen",
+    "reference": "Copenhagen"
   },
-  "hamad-international-airport-t1-doha": {
+  "doha-hamad-international-airport-t1": {
     "been": false,
     "city": "Doha",
     "coords": "25.25670000, 51.61490000",
@@ -280,7 +115,88 @@
     "name": "Hamad International Airport T1",
     "reference": "Doha"
   },
-  "heathrow-terminal-4-london": {
+  "dubai-airport-free-zone": {
+    "badges": ["🚌"],
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.26990000, 55.37500000",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dubai_Airport_Free_Zone_(Dubai_Metro)",
+    "name": "Airport Free Zone",
+    "reference": "Dubai"
+  },
+  "dubai-airport-terminal-1": {
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.24840000, 55.35230000",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Airport_Terminal_1_(Dubai_Metro)",
+    "name": "Airport Terminal 1",
+    "reference": "Dubai"
+  },
+  "dubai-airport-terminal-3": {
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.24526667, 55.35690556",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Airport_Terminal_3_(Dubai_Metro)",
+    "name": "Airport Terminal 3",
+    "reference": "Dubai"
+  },
+  "guangzhou-airport-north-/-terminal-2": {
+    "been": false,
+    "city": "Guangzhou",
+    "coords": "23.39711389, 113.30590833",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Airport_North_station_(Guangzhou_Metro)",
+    "name": "Airport North / Terminal 2",
+    "reference": "Guangzhou"
+  },
+  "guangzhou-airport-south-/-terminal-1": {
+    "been": false,
+    "city": "Guangzhou",
+    "coords": "23.38657000, 113.30302000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Airport_South_station_(Guangzhou_Metro)",
+    "name": "Airport South / Terminal 1",
+    "reference": "Guangzhou"
+  },
+  "istanbul-istanbul-havalimanı": {
+    "been": false,
+    "city": "Istanbul",
+    "coords": "41.25611100, 28.74250000",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/İstanbul_Havalimanı_(Istanbul_Metro)",
+    "name": "İstanbul Havalimanı",
+    "reference": "Istanbul"
+  },
+  "istanbul-sabiha-gokcen-airport": {
+    "been": false,
+    "city": "Istanbul",
+    "coords": "40.90666700, 29.31194400",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Sabiha_G%C3%B6k%C3%A7en_Airport_(Istanbul_Metro)",
+    "name": "Sabiha Gökçen Airport",
+    "reference": "Istanbul"
+  },
+  "lisbon-aeroporto": {
+    "been": true,
+    "city": "Lisbon",
+    "coords": "38.76900000, -9.12900000",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Aeroporto_(Lisbon_Metro)",
+    "name": "Aeroporto",
+    "reference": "Lisbon"
+  },
+  "london-heathrow-terminal-4": {
     "been": true,
     "city": "London",
     "coords": "51.45900000, -0.44600000",
@@ -290,7 +206,7 @@
     "name": "Heathrow Terminal 4",
     "reference": "London"
   },
-  "heathrow-terminal-5-london": {
+  "london-heathrow-terminal-5": {
     "been": true,
     "city": "London",
     "coords": "51.47230000, -0.48800000",
@@ -300,7 +216,7 @@
     "name": "Heathrow Terminal 5",
     "reference": "London"
   },
-  "heathrow-terminals-2-&-3-london": {
+  "london-heathrow-terminals-2-&-3": {
     "been": true,
     "city": "London",
     "coords": "51.47100000, -0.45200000",
@@ -310,18 +226,77 @@
     "name": "Heathrow Terminals 2 & 3",
     "reference": "London"
   },
-  "howard-beach–jfk-airport-new-york": {
-    "badges": ["🚝"],
+  "london-london-city-airport": {
     "been": true,
-    "city": "New York",
-    "coords": "40.66040000, -73.83030000",
+    "city": "London",
+    "coords": "51.50361100, 0.04888900",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/London_City_Airport_DLR_station",
+    "name": "London City Airport",
+    "reference": "London"
+  },
+  "los-angeles-aviation/lax": {
+    "badges": ["🚌"],
+    "been": true,
+    "city": "Los Angeles",
+    "coords": "33.94250000, -118.40805556",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Howard_Beach–JFK_Airport_station",
-    "name": "Howard Beach–JFK Airport",
-    "reference": "New York"
+    "link": "https://en.wikipedia.org/wiki/Aviation/LAX_station",
+    "name": "Aviation/LAX",
+    "reference": "Los Angeles"
   },
-  "international-airport-miami": {
+  "lucknow-chaudhary-charan-singh": {
+    "been": false,
+    "coords": "26.76615000, 80.88356100",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Chaudhary_Charan_Singh_International_Airport_metro_station",
+    "name": "Chaudhary Charan Singh",
+    "reference": "Lucknow"
+  },
+  "macau-airport": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.15933900, 113.57463600",
+    "country": "MO",
+    "icons": ["🇲🇴"],
+    "link": "https://en.wikipedia.org/wiki/Airport_station_(Macau_Light_Rapid_Transit)",
+    "name": "Airport",
+    "reference": "Macau"
+  },
+  "madrid-aeropuerto-t1–t2–t3": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.46864700, -3.56965210",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aeropuerto_T1-T2-T3_(Madrid_Metro)",
+    "name": "Aeropuerto T1–T2–T3",
+    "reference": "Madrid"
+  },
+  "madrid-aeropuerto-t4": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.49176130, -3.59355370",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Aeropuerto_T4_(Madrid_Metro)",
+    "name": "Aeropuerto T4",
+    "reference": "Madrid"
+  },
+  "mexico-city-terminal-aerea": {
+    "been": true,
+    "city": "Mexico City",
+    "coords": "19.43373400, -99.08766700",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://en.wikipedia.org/wiki/Terminal_A%C3%A9rea_metro_station",
+    "name": "Terminal Aérea",
+    "reference": "Mexico City"
+  },
+  "miami-international-airport": {
     "badges": ["🚝"],
     "been": true,
     "city": "Miami",
@@ -333,97 +308,29 @@
     "reference": "Miami",
     "wikidata": "Q644371"
   },
-  "international-airport-san-francisco": {
+  "naples-capodichino": {
+    "badges": ["🚧"],
+    "been": false,
+    "city": "Naples",
+    "coords": "40.87540000, 14.28550000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Capodichino_station",
+    "name": "Capodichino",
+    "reference": "Naples"
+  },
+  "new-york-howard-beach–jfk-airport": {
+    "badges": ["🚝"],
     "been": true,
-    "city": "San Francisco",
-    "coords": "37.61640000, -122.39100000",
+    "city": "New York",
+    "coords": "40.66040000, -73.83030000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport_station",
-    "name": "International Airport",
-    "reference": "San Francisco"
+    "link": "https://en.wikipedia.org/wiki/Howard_Beach–JFK_Airport_station",
+    "name": "Howard Beach–JFK Airport",
+    "reference": "New York"
   },
-  "istanbul-havalimanı-istanbul": {
-    "been": false,
-    "city": "Istanbul",
-    "coords": "41.25611100, 28.74250000",
-    "country": "TR",
-    "icons": ["🇹🇷"],
-    "link": "https://en.wikipedia.org/wiki/İstanbul_Havalimanı_(Istanbul_Metro)",
-    "name": "İstanbul Havalimanı",
-    "reference": "Istanbul"
-  },
-  "london-city-airport-london": {
-    "been": true,
-    "city": "London",
-    "coords": "51.50361100, 0.04888900",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/London_City_Airport_DLR_station",
-    "name": "London City Airport",
-    "reference": "London"
-  },
-  "lufthavnen-copenhagen": {
-    "been": false,
-    "city": "Copenhagen",
-    "coords": "55.63083333, 12.64916667",
-    "country": "DK",
-    "icons": ["🇩🇰"],
-    "link": "https://en.wikipedia.org/wiki/Lufthavnen_Station",
-    "name": "Lufthavnen",
-    "reference": "Copenhagen"
-  },
-  "midway-chicago": {
-    "been": true,
-    "city": "Chicago",
-    "coords": "41.78661000, -87.73787500",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Midway_station_(CTA)",
-    "name": "Midway",
-    "reference": "Chicago"
-  },
-  "ohare-chicago": {
-    "been": true,
-    "city": "Chicago",
-    "coords": "41.88194444, -87.62777778",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/O%27Hare_station_(CTA)",
-    "name": "O’Hare",
-    "reference": "Chicago"
-  },
-  "pudong-airport-terminal-1&amp;2-shanghai": {
-    "been": false,
-    "city": "Shanghai",
-    "coords": "31.14959600, 121.80643600",
-    "country": "CN",
-    "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Pudong_Airport_Terminal_1%262_station",
-    "name": "Pudong Airport Terminal 1&amp;2",
-    "reference": "Shanghai"
-  },
-  "ronald-reagan-national-airport-washington": {
-    "been": true,
-    "city": "Washington",
-    "coords": "38.85298500, -77.04390000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport_station",
-    "name": "Ronald Reagan National Airport",
-    "reference": "Washington"
-  },
-  "sabiha-gokcen-airport-istanbul": {
-    "been": false,
-    "city": "Istanbul",
-    "coords": "40.90666700, 29.31194400",
-    "country": "TR",
-    "icons": ["🇹🇷"],
-    "link": "https://en.wikipedia.org/wiki/Sabiha_G%C3%B6k%C3%A7en_Airport_(Istanbul_Metro)",
-    "name": "Sabiha Gökçen Airport",
-    "reference": "Istanbul"
-  },
-  "sutphin-blvd–archer-av–jfk-airport-new-york": {
+  "new-york-sutphin-blvd–archer-av–jfk-airport": {
     "badges": ["🚝"],
     "been": true,
     "city": "New York",
@@ -434,27 +341,89 @@
     "name": "Sutphin Blvd–Archer Av–JFK Airport",
     "reference": "New York"
   },
-  "terminal-aerea-mexico-city": {
-    "been": true,
-    "city": "Mexico City",
-    "coords": "19.43373400, -99.08766700",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://en.wikipedia.org/wiki/Terminal_A%C3%A9rea_metro_station",
-    "name": "Terminal Aérea",
-    "reference": "Mexico City"
-  },
-  "tianhe-airport-wuhan": {
+  "newcastle-airport": {
     "been": false,
-    "coords": "30.77455278, 114.21309722",
+    "city": "Newcastle",
+    "coords": "55.03563730, -1.71109670",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Newcastle_Airport_Metro_station",
+    "name": "Airport",
+    "reference": "Newcastle"
+  },
+  "paris-aeroport-dorly": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.72808084, 2.36236447",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/A%C3%A9roport_d%27Orly_station",
+    "name": "Aéroport d’Orly",
+    "reference": "Paris"
+  },
+  "san-francisco-international-airport": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.61640000, -122.39100000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport_station",
+    "name": "International Airport",
+    "reference": "San Francisco"
+  },
+  "seoul-gimpo-international-airport": {
+    "been": false,
+    "city": "Seoul",
+    "coords": "37.56250000, 126.80083333",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "link": "https://en.wikipedia.org/wiki/Gimpo_International_Airport_station",
+    "name": "Gimpo International Airport",
+    "reference": "Seoul"
+  },
+  "shanghai-pudong-airport-terminal-1&amp;2": {
+    "been": false,
+    "city": "Shanghai",
+    "coords": "31.14959600, 121.80643600",
     "country": "CN",
     "icons": ["🇨🇳"],
-    "link": "https://en.wikipedia.org/wiki/Tianhe_International_Airport_station",
-    "name": "Tianhe Airport",
-    "reference": "Wuhan",
-    "wikidata": "Q24838067"
+    "link": "https://en.wikipedia.org/wiki/Pudong_Airport_Terminal_1%262_station",
+    "name": "Pudong Airport Terminal 1&amp;2",
+    "reference": "Shanghai"
   },
-  "yvr–airport-vancouver": {
+  "shenzhen-airport": {
+    "been": false,
+    "city": "Shenzhen",
+    "coords": "22.62640000, 113.80890000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Airport_station_(Shenzhen_Metro)",
+    "name": "Airport",
+    "reference": "Shenzhen"
+  },
+  "singapore-changi-airport": {
+    "been": false,
+    "city": "Singapore",
+    "coords": "1.3575, 103.98833333333333",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Changi_Airport_MRT_station",
+    "name": "Changi Airport",
+    "reference": "Singapore",
+    "wikidata": "Q3268527"
+  },
+  "valencia-aeroport": {
+    "been": false,
+    "city": "Paris",
+    "coords": "49.003652, 2.570892",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Aeroport_(Metrovalencia)",
+    "name": "Aeroport",
+    "reference": "Valencia",
+    "wikidata": "Q800424"
+  },
+  "vancouver-yvr–airport": {
     "been": false,
     "city": "Vancouver",
     "coords": "49.19416667, -123.17833333",
@@ -463,5 +432,36 @@
     "link": "https://en.wikipedia.org/wiki/YVR%E2%80%93Airport_station",
     "name": "YVR–Airport",
     "reference": "Vancouver"
+  },
+  "washington-dulles-international-airport": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.955816533625715, -77.44822684826613",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Dulles_International_Airport_station",
+    "name": "Dulles International Airport",
+    "reference": "Washington",
+    "wikidata": "Q5313452"
+  },
+  "washington-ronald-reagan-national-airport": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.85298500, -77.04390000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport_station",
+    "name": "Ronald Reagan National Airport",
+    "reference": "Washington"
+  },
+  "wuhan-tianhe-airport": {
+    "been": false,
+    "coords": "30.77455278, 114.21309722",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Tianhe_International_Airport_station",
+    "name": "Tianhe Airport",
+    "reference": "Wuhan",
+    "wikidata": "Q24838067"
   }
 }
