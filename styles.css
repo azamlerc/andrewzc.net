@@ -157,11 +157,27 @@ a {
 	top: -6px;
 }
 
-.coords {
+.large .coords {
 	font: 28pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;
 	top: -8px;
+  white-space: pre;
+}
+
+.medium .coords {
+	font: 20pt "SF Mono", Menlo; 
+	color: #777;
+	position: relative;
+	top: -5px;
+  white-space: pre;
+}
+
+.small.coords {
+	font: 16pt "SF Mono", Menlo; 
+	color: #777;
+	position: relative;
+	top: -3px;
   white-space: pre;
 }
 

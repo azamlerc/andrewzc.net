@@ -2,9 +2,11 @@
   "--info--": {
     "icon": "🚧",
     "name": "Projects",
+    "prefixClass": "coords",
+    "reverse": true,
     "size": "small",
     "sort": "prefix",
-    "tags": ["badge-been", "no-coords", "prefix", "reference-first", "reference-key", "second-future"],
+    "tags": ["badge-been", "no-coords", "no-link", "prefix", "reference-first", "reference-key", "second-future"],
     "type": "place"
   },
   "1-train-to-south-ferry-new-york": {
@@ -2356,16 +2358,6 @@
     "link": "https://en.wikipedia.org/wiki/Namma_Metro",
     "name": "Purple Line to Kengeri",
     "prefix": "2021-08-30",
-    "reference": "Bangalore"
-  },
-  "purple-line-to-krishnarajapura-&-challaghatta-bangalore": {
-    "been": false,
-    "city": "Bangalore",
-    "country": "IN",
-    "icons": ["🇮🇳"],
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Purple Line to Krishnarajapura & Challaghatta",
-    "prefix": "2023-10-09",
     "reference": "Bangalore"
   },
   "purple-line-to-whitefield-bangalore": {
