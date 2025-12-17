@@ -126,6 +126,7 @@
     "coords": "41.383333, 2.183333",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "images": ["barcelona.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
     "name": "Barcelona"
   },
@@ -153,6 +154,7 @@
     "coords": "52.52000000, 13.40500000",
     "country": "DE",
     "icons": ["🇩🇪"],
+    "images": ["berlin.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Berlin_U-Bahn",
     "name": "Berlin"
   },
@@ -162,6 +164,7 @@
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
     "icons": ["🇪🇸"],
+    "images": ["bilbao.png", "bilbao1.jpg", "bilbao2.jpg", "bilbao3.jpg", "bilbao4.jpg", "bilbao5.jpg", "bilbao6.jpg", "bilbao7.jpg", "bilbao8.jpg", "bilbao9.jpg", "bilbao10.jpg", "bilbao11.jpg", "bilbao12.jpg", "bilbao13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Metro_Bilbao",
     "name": "Bilbao"
   },
@@ -171,6 +174,7 @@
     "coords": "42.31861111, -70.99111111",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["boston.pdf.png", "boston1.jpg", "boston2.jpg", "boston3.jpg", "boston4.jpg", "boston5.jpg", "boston6.jpg", "boston7.jpg", "boston8.jpg"],
     "link": "https://en.wikipedia.org/wiki/MBTA_Subway",
     "name": "Boston"
   },
@@ -189,6 +193,7 @@
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🇧🇪"],
+    "images": ["brussels.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Metro",
     "name": "Brussels"
   },
@@ -207,6 +212,7 @@
     "coords": "47.49250000, 19.05138889",
     "country": "HU",
     "icons": ["🇭🇺"],
+    "images": ["budapest.pdf.png", "budapest1.jpg", "budapest2.jpg", "budapest3.jpg", "budapest4.jpg", "budapest5.jpg", "budapest6.jpg", "budapest7.jpg", "budapest8.jpg", "budapest9.jpg", "budapest10.jpg", "budapest11.jpg", "budapest12.jpg", "budapest13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Budapest_Metro",
     "name": "Budapest"
   },
@@ -303,6 +309,7 @@
     "coords": "41.88194444, -87.62777778",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["chicago.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Chicago_%22L%22",
     "name": "Chicago"
   },
@@ -391,6 +398,7 @@
     "coords": "25.26970000, 55.30950000",
     "country": "AE",
     "icons": ["🇦🇪"],
+    "images": ["dubai.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Dubai_Metro",
     "name": "Dubai"
   },
@@ -449,10 +457,6 @@
     "link": "https://en.wikipedia.org/wiki/Glasgow_Subway",
     "name": "Glasgow",
     "wikidata": "Q506290"
-  },
-  "glasgow</a>": {
-    "been": false,
-    "name": "Glasgow</a>"
   },
   "guadalajara": {
     "been": false,
@@ -792,6 +796,7 @@
     "coords": "38.72527778, -9.15000000",
     "country": "PT",
     "icons": ["🇵🇹"],
+    "images": ["lisbon.png"],
     "link": "https://en.wikipedia.org/wiki/Lisbon_Metro",
     "name": "Lisbon"
   },
@@ -801,6 +806,7 @@
     "coords": "51.50722222, -0.12750000",
     "country": "GB",
     "icons": ["🇬🇧"],
+    "images": ["london.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/London_Underground",
     "name": "London"
   },
@@ -837,6 +843,7 @@
     "coords": "45.76000000, 4.84000000",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["lyon.jpg", "lyon1.jpg", "lyon2.jpg", "lyon3.jpg", "lyon4.jpg", "lyon5.jpg", "lyon6.jpg", "lyon7.jpg", "lyon8.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Lyon",
     "name": "Lyon"
   },
@@ -883,6 +890,7 @@
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
     "icons": ["🇨🇴"],
+    "images": ["medellin.jpg", "medellin1.jpg", "medellin2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Medellín_Metro",
     "name": "Medellín"
   },
@@ -892,6 +900,7 @@
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽"],
+    "images": ["mexico-city.pdf.png"],
     "link": "mexico-city.html",
     "name": "Mexico City"
   },
@@ -901,6 +910,7 @@
     "coords": "25.78000000, -80.21000000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["miami.pdf.png", "miami1.jpg", "miami2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Metrorail_(Miami-Dade_County)",
     "name": "Miami"
   },
@@ -936,6 +946,7 @@
     "coords": "45.50888889, -73.55416667",
     "country": "CA",
     "icons": ["🇨🇦"],
+    "images": ["montreal.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Montreal_Metro",
     "name": "Montréal"
   },
@@ -1023,9 +1034,10 @@
   "naples": {
     "been": true,
     "city": "Naples",
-    "coords": "40.83583333333333, 14.248611111111112",
+    "coords": "40.83583333, 14.24861111",
     "country": "IT",
     "icons": ["🇮🇹"],
+    "images": ["naples.pdf.png", "naples1.jpg", "naples2.jpg", "naples3.jpg", "naples4.jpg", "naples5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Naples_Metro",
     "name": "Naples"
   },
@@ -1044,6 +1056,7 @@
     "coords": "40.7, -74.0",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["new-york.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/New_York_City_Subway",
     "name": "New York"
   },
@@ -1106,6 +1119,7 @@
     "coords": "59.91333333, 10.73888889",
     "country": "NO",
     "icons": ["🇳🇴"],
+    "images": ["oslo.jpg"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Metro",
     "name": "Oslo"
   },
@@ -1121,9 +1135,10 @@
   "paris": {
     "been": true,
     "city": "Paris",
-    "coords": "48.85666666666667, 2.352222222222222",
+    "coords": "48.85666667, 2.35222222",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["paris.pdf.png", "paris1.jpg", "paris2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Paris_Métro",
     "name": "Paris"
   },
@@ -1142,6 +1157,7 @@
     "coords": "39.95280000, -75.16360000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["philadelphia.pdf.png", "philadelphia1.jpg", "philadelphia2.jpg", "philadelphia3.jpg", "philadelphia4.jpg", "philadelphia5.jpg", "philadelphia6.jpg", "philadelphia7.jpg", "philadelphia8.jpg", "philadelphia9.jpg", "philadelphia10.jpg", "philadelphia11.jpg", "philadelphia12.jpg", "philadelphia13.jpg", "philadelphia14.jpg", "philadelphia15.jpg"],
     "link": "https://en.wikipedia.org/wiki/SEPTA",
     "name": "Philadelphia"
   },
@@ -1151,6 +1167,7 @@
     "coords": "50.08750000, 14.42138889",
     "country": "CZ",
     "icons": ["🇨🇿"],
+    "images": ["prague.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Prague_Metro",
     "name": "Prague"
   },
@@ -1193,8 +1210,10 @@
   },
   "rennes": {
     "been": true,
+    "coords": "48.08771383, -1.64423333",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["rennes.png", "rennes1.jpg", "rennes2.jpg", "rennes3.jpg", "rennes4.jpg", "rennes5.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Rennes",
     "name": "Rennes"
   },
@@ -1269,6 +1288,7 @@
     "coords": "37.77750000, -122.41638889",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["san-francisco.pdf.png", "san-francisco1.jpg", "san-francisco2.jpg", "san-francisco3.jpg", "san-francisco4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit",
     "name": "San Francisco"
   },
@@ -1295,6 +1315,7 @@
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
     "icons": ["🇩🇴"],
+    "images": ["santo-domingo.png", "santo-domingo1.jpg", "santo-domingo2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Santo_Domingo_Metro",
     "name": "Santo Domingo"
   },
@@ -1402,6 +1423,7 @@
     "coords": "59.32944444, 18.06861111",
     "country": "SE",
     "icons": ["🇸🇪"],
+    "images": ["stockholm.jpg"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_metro",
     "name": "Stockholm"
   },
@@ -1565,6 +1587,7 @@
     "coords": "48.20777778, 16.37138889",
     "country": "AT",
     "icons": ["🇦🇹"],
+    "images": ["vienna.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Vienna_U-Bahn",
     "name": "Vienna"
   },
@@ -1574,6 +1597,7 @@
     "coords": "52.23000000, 21.01111111",
     "country": "PL",
     "icons": ["🇵🇱"],
+    "images": ["warsaw.pdf.png", "warsaw1.jpg", "warsaw2.jpg", "warsaw3.jpg", "warsaw4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Warsaw_Metro",
     "name": "Warsaw"
   },
@@ -1583,6 +1607,7 @@
     "coords": "38.895, -77.036666666667",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["washington.pdf.png"],
     "link": "https://en.wikipedia.org/wiki/Washington_Metro",
     "name": "Washington"
   },

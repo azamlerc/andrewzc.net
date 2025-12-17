@@ -120,6 +120,7 @@ function enhancePage(places, pageName) {
     ops.push({ entry, lineStart, br, a });
   });
 
+
   // --- PASS 2: perform inserts based on stored anchors ---
   ops.forEach(({ entry, lineStart, br, a }) => {
     const parent = a.parentNode;
@@ -130,10 +131,11 @@ function enhancePage(places, pageName) {
       let images = randomElements(entry.images, 3);
 
       images.forEach(fname => {
-        const full = `https://images.andrewzc.net/${pageName}/${fname}`;
+        const full = fullLink(`https://images.andrewzc.net/${pageName}/${fname}`);
         const tn   = `https://images.andrewzc.net/${pageName}/tn/${fname}`;
         const link = document.createElement("a");
-        link.href = full; link.target = "_blank"; link.rel = "noopener";
+        link.href = full;
+        link.target = "_blank";
 
         const img = document.createElement("img");
         img.src = tn; img.alt = entry.name || a.textContent.trim();
@@ -154,7 +156,10 @@ function enhancePage(places, pageName) {
     }
   });
 }
-
+function fullLink(p) {
+  return p.includes(".pdf.") ? p.slice(0, p.indexOf(".pdf.") + 4) : p;
+}
+  
 function randomElements(arr, n, rng = Math.random) {
   const len = arr.length;
   if (n >= len) return arr;

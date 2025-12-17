@@ -1663,18 +1663,14 @@
     "type": "place"
   },
   "projects": {
-    "icon": "🚧",
-    "name": "Projects",
-    "prefixClass": "coords",
-    "reverse": true,
-    "size": "small",
-    "sort": "prefix",
-    "tags": ["badge-been", "no-coords", "no-link", "prefix", "reference-first", "reference-key", "second-future"],
-    "type": "place"
-  },
-  "projects-test": {
+    "auto": true,
     "group": "date",
     "icon": "🚧",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Projects",
     "prefixClass": "coords",
     "reverse": true,
