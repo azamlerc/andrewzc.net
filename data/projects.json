@@ -1623,7 +1623,7 @@
     "coords": "13.81388889, 100.74805556",
     "country": "TH",
     "end": "Min Buri",
-    "icons": ["🇹🇭", "🚇"],
+    "icons": ["🇹🇭", "🚝"],
     "line": "Pink Line",
     "link": "https://en.wikipedia.org/wiki/Pink_Line_(Bangkok)",
     "name": "Pink Line",
@@ -1640,7 +1640,7 @@
     "coords": "13.91300000, 100.54780000",
     "country": "TH",
     "end": "Lake Mueang Thong Thani",
-    "icons": ["🇹🇭"],
+    "icons": ["🇹🇭", "🚝"],
     "line": "Pink Line",
     "link": "https://en.wikipedia.org/wiki/Impact,_Muang_Thong_Thani",
     "name": "Pink Line to Lake Mueang Thong Thani",
@@ -3576,6 +3576,7 @@
     "type": "metro"
   },
   "bilbao-line-3-to-galdakao": {
+    "badges": ["👀"],
     "been": false,
     "city": "Bilbao",
     "country": "ES",
@@ -7218,16 +7219,6 @@
     "reference": "Copenhagen",
     "start": "Frederiksberg"
   },
-  "copenhagen-light-rail": {
-    "been": false,
-    "city": "Copenhagen",
-    "country": "DK",
-    "icons": ["🇩🇰"],
-    "link": "https://en.wikipedia.org/wiki/Greater_Copenhagen_Light_Rail",
-    "name": "Light Rail",
-    "prefix": "2025-10-26",
-    "reference": "Copenhagen"
-  },
   "copenhagen-line-2-to-lufthavnen": {
     "been": false,
     "city": "Copenhagen",
@@ -9913,7 +9904,7 @@
     "been": false,
     "country": "CN",
     "end": "Banzhou",
-    "icons": ["🇨🇳"],
+    "icons": ["🇨🇳", "🚇"],
     "line": "Line 4",
     "name": "Line 4 to Banzhou",
     "prefix": "2025-12-10",
@@ -12389,7 +12380,7 @@
     "reference": "Hiroshima",
     "type": "metro"
   },
-  "hiroshima-hijiyama-shita-to-hiroshima-station": {
+  "hiroshima-line-5-to-hiroshima-station": {
     "been": false,
     "city": "Hiroshima",
     "coords": "34.24916667, 132.56583333",
@@ -12397,22 +12388,12 @@
     "end": "Hiroshima Station",
     "icons": ["🇯🇵", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Kure,_Hiroshima",
-    "name": "Hijiyama-shita to Hiroshima Station",
+    "name": "Line 5 to Hiroshima Station",
     "prefix": "2025-08-03",
     "reference": "Hiroshima",
     "size": 1.1,
     "start": "Hijiyama-shita",
     "type": "tram"
-  },
-  "hiroshima-line-5-to-hiroshima-station": {
-    "been": false,
-    "city": "Hiroshima",
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://en.wikipedia.org/wiki/Hiroshima_Electric_Railway",
-    "name": "Line 5 to Hiroshima Station",
-    "prefix": "2025-08-03",
-    "reference": "Hiroshima"
   },
   "ho-chi-minh-city-metro": {
     "badges": ["✨"],
@@ -12735,21 +12716,6 @@
     "reference": "Hong Kong",
     "start": "Nam Cheong"
   },
-  "honolulu-halawa-to-kahauiki": {
-    "been": false,
-    "city": "Honolulu",
-    "coords": "21.30000000, -157.85000000",
-    "country": "US",
-    "end": "Kahauiki",
-    "icons": ["🇺🇸", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Kahauiki_station",
-    "name": "Halawa to Kahauiki",
-    "prefix": "2025-10-16",
-    "reference": "Honolulu",
-    "size": 8.5,
-    "start": "Halawa",
-    "type": "metro"
-  },
   "honolulu-metro": {
     "badges": ["✨"],
     "been": false,
@@ -12782,12 +12748,17 @@
   "honolulu-skyline-to-kahauiki": {
     "been": false,
     "city": "Honolulu",
+    "coords": "21.30000000, -157.85000000",
     "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Skyline_(Honolulu)",
+    "end": "Kahauiki",
+    "icons": ["🇺🇸", "🚇"],
+    "link": "https://en.wikipedia.org/wiki/Kahauiki_station",
     "name": "Skyline to Kahauiki",
     "prefix": "2025-10-16",
-    "reference": "Honolulu"
+    "reference": "Honolulu",
+    "size": 8.5,
+    "start": "Halawa",
+    "type": "metro"
   },
   "houston-green-line": {
     "been": false,
@@ -14303,11 +14274,14 @@
   "kansas-city-streetcar-to-umkc": {
     "been": false,
     "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/KC_Streetcar",
+    "end": "UMKC",
+    "icons": ["🇺🇸", "🚋"],
     "name": "Streetcar to UMKC",
     "prefix": "2025-10-24",
-    "reference": "Kansas City"
+    "reference": "Kansas City",
+    "size": 5.5,
+    "start": "Union Station",
+    "type": "tram"
   },
   "kansas-city-tram": {
     "badges": ["✨"],
@@ -14319,18 +14293,6 @@
     "new": "tram",
     "prefix": "2016-05-06",
     "reference": "Kansas City",
-    "start": "Union Station",
-    "type": "tram"
-  },
-  "kansas-city-union-station-to-umkc": {
-    "been": false,
-    "country": "US",
-    "end": "UMKC",
-    "icons": ["🇺🇸", "🚋"],
-    "name": "Union Station to UMKC",
-    "prefix": "2025-10-24",
-    "reference": "Kansas City",
-    "size": 5.5,
     "start": "Union Station",
     "type": "tram"
   },
@@ -16225,16 +16187,6 @@
     "start": "Aviation/LAX",
     "type": "metro"
   },
-  "los-angeles-c-&-k-lines-to-westchester/veterans": {
-    "been": false,
-    "city": "Los Angeles",
-    "country": "US",
-    "icons": ["🇺🇸", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/C_Line_(Los_Angeles_Metro)",
-    "name": "C & K Lines to Westchester/Veterans",
-    "prefix": "2025-06-06",
-    "reference": "Los Angeles"
-  },
   "los-angeles-expo-line-to-culver-city-and-farmdale-station": {
     "been": false,
     "city": "Los Angeles",
@@ -16328,7 +16280,7 @@
     "start": "Expo/Crenshaw",
     "type": "light-rail"
   },
-  "los-angeles-k/c-to-westchester/veterans-aviation/century": {
+  "los-angeles-k/c-lines-to-westchester/veterans": {
     "been": false,
     "city": "Los Angeles",
     "coords": "33.95972000, -118.39972000",
@@ -16337,7 +16289,7 @@
     "icons": ["🇺🇸", "🚋"],
     "line": "K/C",
     "link": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
-    "name": "K/C to Westchester/Veterans Aviation/Century",
+    "name": "K/C Lines to Westchester/Veterans",
     "prefix": "2025-06-06",
     "reference": "Los Angeles",
     "size": 1.9,
@@ -18682,16 +18634,16 @@
     "start": "Gare Centrale",
     "type": "metro"
   },
-  "montreal-rem-line-a-to-gare-centrale-deux-montagnes": {
+  "montreal-rem-line-a-to-deux-montagnes": {
     "been": false,
     "city": "Montréal",
     "coords": "45.49960000, -73.56680000",
     "country": "CA",
-    "end": "Gare Centrale Deux-Montagnes",
+    "end": "Deux-Montagnes",
     "icons": ["🇨🇦", "🚇"],
     "line": "REM A4",
     "link": "https://en.wikipedia.org/wiki/Montreal_Central_Station",
-    "name": "REM Line A to Gare Centrale Deux-Montagnes",
+    "name": "REM Line A to Deux-Montagnes",
     "prefix": "2025-11-17",
     "reference": "Montréal",
     "size": 29.7,
@@ -21772,7 +21724,7 @@
     "city": "Paris",
     "country": "FR",
     "future": true,
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🚊"],
     "link": "https://fr.wikipedia.org/wiki/CDG_Express",
     "name": "CDG Express",
     "prefix": "2027-03-28",
@@ -23006,25 +22958,27 @@
     "start": "Estádio do Dragão",
     "type": "tram"
   },
-  "porto-linha-g": {
+  "porto-line-g": {
+    "badges": ["👀"],
     "been": false,
     "city": "Porto",
     "country": "PT",
     "future": true,
     "icons": ["🇵🇹", "🚇"],
     "link": "https://pt.wikipedia.org/wiki/Linha_G_do_Metropolitano_do_Porto",
-    "name": "Linha G",
-    "prefix": "2025",
+    "name": "Line G",
+    "prefix": "2026",
     "reference": "Porto"
   },
-  "porto-linha-h": {
+  "porto-line-h": {
+    "badges": ["👀"],
     "been": false,
     "city": "Porto",
     "country": "PT",
     "future": true,
     "icons": ["🇵🇹", "🚇"],
     "link": "https://pt.wikipedia.org/wiki/Metro_do_Porto#Futuro",
-    "name": "Linha H",
+    "name": "Line H",
     "prefix": "2026",
     "reference": "Porto"
   },
@@ -23578,6 +23532,7 @@
     "type": "tram"
   },
   "rail-baltica": {
+    "badges": ["👀"],
     "been": false,
     "countries": ["EE", "LV", "LT"],
     "future": true,
@@ -25106,15 +25061,14 @@
     "start": "Bernardino",
     "type": "tram"
   },
-  "santos-conselheiro-nebias-valongo-(43-km-to-limited-service)": {
+  "santos-conselheiro-nebias-valongo": {
     "been": false,
     "country": "BR",
-    "end": "limited service)",
     "icons": ["🇧🇷", "🚋"],
-    "name": "Conselheiro Nébias Valongo (4.3 km to limited service)",
+    "name": "Conselheiro Nébias Valongo",
     "prefix": "2025-12-01",
     "reference": "Santos",
-    "start": "Conselheiro Nébias Valongo (4.3 km",
+    "start": "Conselheiro Nébias Valongo",
     "type": "tram"
   },
   "sanya-jiefang-road-to-jiangang-road": {
@@ -26954,6 +26908,21 @@
     "start": "Yuqiao",
     "type": "metro"
   },
+  "shanghai-line-2-to-convention-center": {
+    "been": false,
+    "city": "Shanghai",
+    "coords": "31.19055600, 121.29527800",
+    "country": "CN",
+    "end": "Convention Center",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 2",
+    "link": "https://en.wikipedia.org/wiki/National_Exhibition_and_Convention_Center_station",
+    "name": "Line 2 to Convention Center",
+    "prefix": "2025-11-01",
+    "reference": "Shanghai",
+    "size": 1.7,
+    "type": "metro"
+  },
   "shanghai-line-2-to-east-xujing": {
     "been": false,
     "city": "Shanghai",
@@ -26994,21 +26963,6 @@
     "name": "Line 2 to Hongqiao Railway Station",
     "prefix": "2010-07-01",
     "reference": "Shanghai"
-  },
-  "shanghai-line-2-to-national-exhibition-and-convention-center": {
-    "been": false,
-    "city": "Shanghai",
-    "coords": "31.19055600, 121.29527800",
-    "country": "CN",
-    "end": "National Exhibition and Convention Center",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 2",
-    "link": "https://en.wikipedia.org/wiki/National_Exhibition_and_Convention_Center_station",
-    "name": "Line 2 to National Exhibition and Convention Center",
-    "prefix": "2025-11-01",
-    "reference": "Shanghai",
-    "size": 1.7,
-    "type": "metro"
   },
   "shanghai-line-2-to-pudong-international-airport": {
     "been": false,
@@ -31408,10 +31362,10 @@
     "city": "Toronto",
     "country": "CA",
     "future": true,
-    "icons": ["🇨🇦"],
+    "icons": ["🇨🇦", "🚋"],
     "link": "https://en.wikipedia.org/wiki/Line_5_Eglinton",
     "name": "Line 5",
-    "prefix": "2025",
+    "prefix": "2026",
     "reference": "Toronto"
   },
   "toronto-tram-6": {
@@ -32082,6 +32036,7 @@
     "type": "tram"
   },
   "vienna-line-u5": {
+    "badges": ["👀"],
     "been": false,
     "city": "Vienna",
     "country": "AT",
@@ -32379,6 +32334,7 @@
     "type": "metro"
   },
   "warsaw-line-2-to-karolin": {
+    "badges": ["👀"],
     "been": false,
     "city": "Warsaw",
     "country": "PL",

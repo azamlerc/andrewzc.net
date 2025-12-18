@@ -128,7 +128,9 @@ function enhancePage(places, pageName) {
     if (Array.isArray(entry.images) && entry.images.length) {
       const imagesDiv = document.createElement("div");
       imagesDiv.className = "images";
-      let images = randomElements(entry.images, 3);
+      let images = pageName === "metros" && entry.images.length > 0 ?
+        shuffleElements([entry.images[0], ...randomElements(entry.images.slice(1), 2)]) :
+        randomElements(entry.images, 3);
 
       images.forEach(fname => {
         const full = fullLink(`https://images.andrewzc.net/${pageName}/${fname}`);
@@ -160,6 +162,17 @@ function fullLink(p) {
   return p.includes(".pdf.") ? p.slice(0, p.indexOf(".pdf.") + 4) : p;
 }
   
+function shuffleElements(arr, rng = Math.random) {
+  const len = arr.length;
+
+  const copy = arr.slice();
+  for (let i = 0; i < len; i++) {
+    const j = i + Math.floor(rng() * (len - i));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 function randomElements(arr, n, rng = Math.random) {
   const len = arr.length;
   if (n >= len) return arr;

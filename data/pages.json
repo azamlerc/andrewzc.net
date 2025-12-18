@@ -1486,6 +1486,7 @@
       "zoom": "2"
     },
     "name": "Northernmost",
+    "prefixClass": "coords",
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first", "reference-key"],
@@ -1758,6 +1759,9 @@
     "sort": "iconCount",
     "type": "place"
   },
+  "rolling-stock": {
+
+  },
   "roman-towns": {
     "icon": "🏛️",
     "map": {
@@ -1888,6 +1892,7 @@
       "zoom": "2"
     },
     "name": "Southernmost",
+    "prefixClass": "coords",
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first", "reference-key"],
