@@ -99,24 +99,33 @@
     "name": "Arbel Guest House"
   },
   "asser-levy": {
+    "address": "Asser Levy Place and E. 23rd Street",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.73611111, -73.97555556",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["asser-levy1.jpg", "asser-levy2.jpg", "asser-levy3.jpg", "asser-levy4.jpg", "asser-levy5.jpg", "asser-levy6.jpg", "asser-levy7.jpg", "asser-levy8.jpg", "asser-levy9.jpg", "asser-levy10.jpg", "asser-levy11.jpg", "asser-levy12.jpg", "asser-levy13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Asser_Levy_Recreation_Center",
-    "name": "Asser Levy"
+    "name": "Asser Levy",
+    "showers": "open",
+    "status": "open",
+    "type": "indoor"
   },
   "astoria-park": {
+    "address": "19th Street and 23rd Drive",
     "been": true,
+    "borough": "Queens",
     "city": "New York",
     "coords": "40.77896000, -73.92268000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["astoria-park1.jpg", "astoria-park2.jpg", "astoria-park3.jpg", "astoria-park4.jpg", "astoria-park5.jpg", "astoria-park6.jpg"],
     "link": "https://en.wikipedia.org/wiki/Astoria_Park#Pools",
-    "name": "Astoria Park"
+    "name": "Astoria Park",
+    "status": "closed",
+    "type": "outdoor"
   },
   "atxuri": {
     "been": true,
@@ -201,14 +210,18 @@
     "name": "Bethesda Pool"
   },
   "betsy-head": {
+    "address": "Boyland, Livonia and Dumont Avenues",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.66296000, -73.91271000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["betsy-head1.jpg", "betsy-head2.jpg"],
     "link": "https://www.nycgovparks.org/parks/betsy-head-memorial-playground/facilities/outdoor-pools/betsy-head-pool",
-    "name": "Betsy Head"
+    "name": "Betsy Head",
+    "status": "open",
+    "type": "outdoor"
   },
   "biotop-radotin": {
     "been": false,
@@ -247,6 +260,18 @@
     "link": "https://en.wikipedia.org/wiki/Brockwell_Lido",
     "name": "Brockwell Lido"
   },
+  "brownsville": {
+    "address": "Linden and Mother Gaston Blvds",
+    "been": false,
+    "borough": "Brooklyn",
+    "city": "New York",
+    "coords": "40.65621000, -73.90270000",
+    "dateAdded": "2025-12-18",
+    "link": "https://www.nycgovparks.org/parks/brownsville-playground/facilities/indoor-pools/brownsville-pool",
+    "name": "Brownsville",
+    "status": "closed",
+    "type": "indoor"
+  },
   "brush-ranch": {
     "been": true,
     "coords": "35.70726000, -105.68250000",
@@ -256,14 +281,19 @@
     "name": "Brush Ranch"
   },
   "bushwick": {
+    "address": "Humboldt Street, Flushing & Bushwick",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.70206000, -73.93943000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["bushwick1.jpg", "bushwick2.jpg", "bushwick3.jpg"],
     "link": "https://www.nycgovparks.org/parks/B310/facilities/outdoor-pools",
-    "name": "Bushwick"
+    "name": "Bushwick",
+    "showers": "public",
+    "status": "open",
+    "type": "outdoor"
   },
   "camp-compass": {
     "been": false,
@@ -303,23 +333,32 @@
     "icons": ["🇬🇧"],
     "name": "Chandlers Ford, Holiday Inn"
   },
-  "chelsea-pool": {
+  "chelsea": {
+    "address": "West 25th St. between 9th & 10th Aves",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.74828000, -74.00207000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/M260/facilities/indoor-pools",
-    "name": "Chelsea Pool"
+    "name": "Chelsea",
+    "showers": "stall",
+    "status": "open",
+    "type": "indoor"
   },
   "claremont": {
+    "address": "170th and Claremont",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "-31.97784000, 115.78087000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/claremont-park/facilities/outdoor-pools/claremont-pool",
-    "name": "Claremont"
+    "name": "Claremont",
+    "status": "open",
+    "type": "outdoor"
   },
   "cleopatra-spring": {
     "been": true,
@@ -350,16 +389,22 @@
     "name": "Club Natació Atlètic Barceloneta"
   },
   "commodore-barry": {
+    "address": "Flushing and Park Avenues",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.69784000, -73.97805000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/commodore-barry-park/facilities/outdoor-pools/commodore-barry-pool",
-    "name": "Commodore Barry"
+    "name": "Commodore Barry",
+    "status": "open",
+    "type": "outdoor"
   },
   "constance-baker-motley": {
+    "address": "E. 54th St. bet. First and Second Aves.",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.75644000, -73.96517000",
     "country": "US",
@@ -367,17 +412,24 @@
     "images": ["constance-baker-motley1.jpg"],
     "link": "https://www.nycgovparks.org/parks/M130/facilities/indoor-pools",
     "name": "Constance Baker Motley",
+    "showers": "open",
+    "status": "open",
+    "type": "indoor",
     "wikidata": "Q1127623"
   },
   "crotona": {
+    "address": "173rd Street and Fulton Avenue",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.83988000, -73.89812000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["crotona1.jpg", "crotona2.jpg"],
     "link": "https://www.nycgovparks.org/parks/X010/facilities/outdoor-pools",
-    "name": "Crotona"
+    "name": "Crotona",
+    "status": "open",
+    "type": "outdoor"
   },
   "crown-plaza-tel-aviv-beach": {
     "been": true,
@@ -387,6 +439,21 @@
     "icons": ["🇮🇱"],
     "link": "https://www.ihg.com/crowneplaza/hotels/us/en/tel-aviv/tlvil/hoteldetail",
     "name": "Crown Plaza Tel Aviv Beach"
+  },
+  "davis-center": {
+    "address": "110th Street & Lenox Avenue",
+    "been": true,
+    "borough": "Manhattan",
+    "city": "New York",
+    "coords": "40.79634000, -73.95467000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["harlem-meer1.jpg", "harlem-meer2.jpg", "harlem-meer3.jpg", "harlem-meer4.jpg", "harlem-meer5.jpg", "harlem-meer6.jpg", "harlem-meer7.jpg", "harlem-meer8.jpg"],
+    "link": "https://www.nycgovparks.org/parks/M010/facilities/outdoor-pools",
+    "name": "Davis Center",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor"
   },
   "de-blinkerd": {
     "been": true,
@@ -436,17 +503,23 @@
     "name": "Dolphin Beach Resort, Ain Sokhna"
   },
   "douglass-and-degraw": {
+    "address": "Third Avenue and Nevins Street",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.68043000, -73.98595000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["douglass-and-degraw1.jpg", "douglass-and-degraw2.jpg", "douglass-and-degraw3.jpg"],
     "link": "https://www.nycgovparks.org/parks/thomas-greene-playground/facilities/outdoor-pools/douglas-and-degraw-pool",
-    "name": "Douglass and DeGraw"
+    "name": "Douglass and DeGraw",
+    "status": "open",
+    "type": "outdoor"
   },
   "dry-dock": {
+    "address": "E. 10th St. between Aves. C and D",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.72539000, -73.97548000",
     "country": "US",
@@ -454,6 +527,8 @@
     "images": ["dry-dock1.jpg", "dry-dock2.jpg"],
     "link": "https://www.nycgovparks.org/parks/M270/facilities/outdoor-pools",
     "name": "Dry Dock",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q811177"
   },
   "dzban": {
@@ -504,33 +579,47 @@
     "name": "Fatnas Island"
   },
   "fisher": {
+    "address": "99th Street and 32nd Avenue",
     "been": true,
+    "borough": "Queens",
     "city": "New York",
     "coords": "40.75894000, -73.86926000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/fisher-pool/facilities/outdoor-pools/fisher-pool",
     "name": "Fisher",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q331432"
   },
   "floating-pool": {
+    "address": "Tiffany Street & Viele Avenue",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.80486000, -73.88827000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["floating-pool1.jpg", "floating-pool2.jpg", "floating-pool3.jpg", "floating-pool4.jpg", "floating-pool5.jpg", "floating-pool6.jpg"],
     "link": "https://www.nycgovparks.org/parks/X307/facilities/outdoor-pools",
-    "name": "Floating Pool"
+    "name": "Floating Pool",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor"
   },
   "flushing-meadows": {
+    "address": "Avery Avenue and 131 Street",
     "been": true,
+    "borough": "Queens",
     "city": "New York",
     "coords": "40.75165000, -73.83715000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/Q099/facilities/indoor-pools",
-    "name": "Flushing Meadows"
+    "name": "Flushing Meadows",
+    "showers": "stall",
+    "status": "open",
+    "type": "indoor"
   },
   "fluðir": {
     "badges": ["🏊‍♂️"],
@@ -543,17 +632,23 @@
     "name": "Flúðir"
   },
   "fort-totten": {
+    "address": "338 Story Avenue",
     "been": true,
+    "borough": "Queens",
     "city": "New York",
     "coords": "40.79220000, -73.77461000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["fort-totten1.jpg"],
     "link": "https://www.nycgovparks.org/parks/fort-totten-park/facilities/outdoor-pools/fort-totten-pool",
-    "name": "Fort Totten"
+    "name": "Fort Totten",
+    "status": "open",
+    "type": "outdoor"
   },
   "foster": {
+    "address": "E. 164th St. bet. Jerome & River Aves.",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.83192000, -73.92419000",
     "country": "US",
@@ -561,6 +656,9 @@
     "images": ["foster1.jpg"],
     "link": "https://www.nycgovparks.org/parks/X034/facilities/outdoor-pools",
     "name": "Foster",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q21501722"
   },
   "front-de-mer": {
@@ -583,27 +681,38 @@
     "name": "Garden Bistro"
   },
   "gertrude-ederle": {
+    "address": "232 West 60th Street",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.77141000, -73.98869000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["gertrude-ederle1.jpg"],
     "link": "https://www.nycgovparks.org/parks/M063/facilities/indoor-pools",
-    "name": "Gertrude Ederle"
+    "name": "Gertrude Ederle",
+    "status": "open",
+    "type": "indoor"
   },
   "haffen": {
+    "address": "Ely and Burke Avenues",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.87426000, -73.83921000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["haffen1.jpg", "haffen2.jpg"],
     "link": "https://www.nycgovparks.org/parks/X196/facilities/outdoor-pools",
-    "name": "Haffen"
+    "name": "Haffen",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor"
   },
   "hamilton-fish": {
+    "address": "Pitt Street and Houston Street",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.71974000, -73.98065000",
     "country": "US",
@@ -611,27 +720,24 @@
     "images": ["hamilton-fish1.jpg", "hamilton-fish2.jpg", "hamilton-fish3.jpg", "hamilton-fish4.jpg", "hamilton-fish5.jpg", "hamilton-fish6.jpg"],
     "link": "https://www.nycgovparks.org/parks/M033/facilities/outdoor-pools",
     "name": "Hamilton Fish",
+    "showers": "public",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q685992"
   },
   "hansborough": {
+    "address": "134th St. between Fifth & Lenox Aves",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.81290000, -73.93944000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["hansborough1.jpg", "hansborough2.jpg", "hansborough3.jpg", "hansborough4.jpg"],
     "link": "https://www.nycgovparks.org/parks/M131/facilities/indoor-pools",
-    "name": "Hansborough"
-  },
-  "harlem-meer": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.79634000, -73.95467000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["harlem-meer1.jpg", "harlem-meer2.jpg", "harlem-meer3.jpg", "harlem-meer4.jpg", "harlem-meer5.jpg", "harlem-meer6.jpg", "harlem-meer7.jpg", "harlem-meer8.jpg"],
-    "link": "https://www.nycgovparks.org/parks/M010/facilities/outdoor-pools",
-    "name": "Harlem Meer"
+    "name": "Hansborough",
+    "status": "closed",
+    "type": "indoor"
   },
   "harrahs": {
     "been": true,
@@ -663,14 +769,18 @@
     "name": "Hietzinger Bad"
   },
   "highbridge": {
+    "address": "Amsterdam Ave. and W. 173rd Street",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.84247000, -73.93336000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["highbridge1.jpg", "highbridge2.jpg", "highbridge3.jpg"],
     "link": "https://www.nycgovparks.org/parks/M037/facilities/outdoor-pools",
-    "name": "Highbridge"
+    "name": "Highbridge",
+    "status": "open",
+    "type": "outdoor"
   },
   "hofn-pool": {
     "been": true,
@@ -720,13 +830,17 @@
     "name": "Hotel La Perle"
   },
   "howard": {
+    "address": "Glenmore and Mother Gaston Blvd",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.67248000, -73.90906000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/howard-playground/facilities/outdoor-pools/howard-pool",
     "name": "Howard",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q908051"
   },
   "hreppslaug": {
@@ -767,7 +881,9 @@
     "name": "Ironmonger Row Baths"
   },
   "jackie-robinson": {
+    "address": "Bradhurst Avenue and W. 146th Street",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.82423000, -73.94284000",
     "country": "US",
@@ -775,6 +891,9 @@
     "images": ["jackie-robinson1.jpg", "jackie-robinson2.jpg", "jackie-robinson3.jpg", "jackie-robinson4.jpg", "jackie-robinson5.jpg", "jackie-robinson6.jpg"],
     "link": "https://www.nycgovparks.org/parks/M014/facilities/outdoor-pools",
     "name": "Jackie Robinson",
+    "showers": "public",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q221048"
   },
   "jamsil": {
@@ -787,7 +906,9 @@
     "name": "Jamsil"
   },
   "john-jay": {
+    "address": "East of York Avenue on 77th St",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.76946000, -73.94886000",
     "country": "US",
@@ -795,6 +916,9 @@
     "images": ["john-jay3.jpg", "john-jay1.jpg", "john-jay2.jpg"],
     "link": "https://www.nycgovparks.org/parks/john-jay-park-and-pool/facilities/outdoor-pools/john-jay-pool",
     "name": "John Jay",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q310847"
   },
   "jorgerbad": {
@@ -894,14 +1018,19 @@
     "name": "Kipsala Swimming Pool"
   },
   "kosciuszko": {
+    "address": "Marcy Avenue & Kosciuszko Street",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.69116000, -73.94958000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["kosciuszko1.jpg", "kosciuszko2.jpg", "kosciuszko3.jpg"],
     "link": "https://www.nycgovparks.org/parks/B351/facilities/outdoor-pools",
-    "name": "Kosciuszko"
+    "name": "Kosciuszko",
+    "showers": "public",
+    "status": "open",
+    "type": "outdoor"
   },
   "la-grenouillere": {
     "been": true,
@@ -970,6 +1099,17 @@
     "link": "https://www.laznezlin.cz",
     "name": "Lázně Zlín"
   },
+  "liberty": {
+    "address": "173rd Street and 106th Avenue",
+    "been": false,
+    "borough": "Queens",
+    "coords": "40.70183000, -73.78377000",
+    "dateAdded": "2025-12-18",
+    "link": "https://www.nycgovparks.org/parks/detective-keith-l-williams-park-liberty-park/facilities/outdoor-pools/liberty-pool",
+    "name": "Liberty",
+    "status": "open",
+    "type": "outdoor"
+  },
   "lowlands-hotel": {
     "badges": ["🧖"],
     "been": true,
@@ -999,7 +1139,9 @@
     "name": "Luzhniki"
   },
   "mapes": {
+    "address": "E. 180th Street & Mapes Ave",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.84646000, -73.88607000",
     "country": "US",
@@ -1007,6 +1149,9 @@
     "images": ["mapes1.jpg"],
     "link": "https://www.nycgovparks.org/parks/X289/facilities/outdoor-pools",
     "name": "Mapes",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q36881161"
   },
   "mar-adentro": {
@@ -1019,7 +1164,9 @@
     "wikidata": "Q593615"
   },
   "marcus-garvey": {
+    "address": "124th Street and Fifth Avenue",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.80524000, -73.94333000",
     "country": "US",
@@ -1027,6 +1174,8 @@
     "images": ["marcus-garvey1.jpg", "marcus-garvey2.jpg", "marcus-garvey3.jpg"],
     "link": "https://www.nycgovparks.org/parks/M058/facilities/outdoor-pools",
     "name": "Marcus Garvey",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q272504"
   },
   "marina-grande-on-halifax": {
@@ -1069,14 +1218,19 @@
     "name": "McBurney YMCA"
   },
   "mccarren-park": {
+    "address": "McCarren Park",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.72023000, -73.94931000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["mccarren-park5.jpg", "mccarren-park1.jpg", "mccarren-park2.jpg", "mccarren-park3.jpg", "mccarren-park4.jpg"],
     "link": "https://www.nycgovparks.org/parks/B058/facilities/outdoor-pools",
-    "name": "McCarren Park"
+    "name": "McCarren Park",
+    "showers": "public",
+    "status": "open",
+    "type": "outdoor"
   },
   "media-one-hotel": {
     "been": true,
@@ -1089,7 +1243,9 @@
     "name": "Media One Hotel"
   },
   "metropolitan": {
+    "address": "Bedford and Metropolitan Avenues",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.71502000, -73.96030000",
     "country": "US",
@@ -1097,6 +1253,9 @@
     "images": ["metropolitan1.jpg"],
     "link": "https://www.nycgovparks.org/parks/B085/facilities/indoor-pools",
     "name": "Metropolitan",
+    "showers": "open",
+    "status": "closed",
+    "type": "indoor",
     "wikidata": "Q189854"
   },
   "mezaparks-sports-village": {
@@ -1574,14 +1733,19 @@
     "name": "Rahway"
   },
   "red-hook": {
+    "address": "Bay and Henry",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.67273000, -74.00392000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["red-hook1.jpg", "red-hook2.jpg", "red-hook3.jpg"],
     "link": "https://www.nycgovparks.org/parks/B126/facilities/outdoor-pools",
-    "name": "Red Hook"
+    "name": "Red Hook",
+    "showers": "stall",
+    "status": "open",
+    "type": "outdoor"
   },
   "red-roof-plus-miami-airport": {
     "been": true,
@@ -1629,13 +1793,17 @@
     "name": "Rosario"
   },
   "roy-wilkins": {
+    "address": "177th Street and Baisley Boulevard",
     "been": true,
+    "borough": "Queens",
     "city": "New York",
     "coords": "40.68844000, -73.76949000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/roy-wilkins-recreation-center/facilities/indoor-pools/roy-wilkins-pool",
     "name": "Roy Wilkins",
+    "status": "open",
+    "type": "indoor",
     "wikidata": "Q2738344"
   },
   "saint-flour-margeride": {
@@ -1710,13 +1878,17 @@
     "name": "Seljavallalaug"
   },
   "sheltering-arms": {
+    "address": "W. 129th Street and Amsterdam Ave.",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.81487000, -73.95567000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/sheltering-arms-park/facilities/outdoor-pools/sheltering-arms-pool",
-    "name": "Sheltering Arms"
+    "name": "Sheltering Arms",
+    "status": "open",
+    "type": "outdoor"
   },
   "silver-spring-ymca": {
     "been": true,
@@ -1756,24 +1928,33 @@
     "name": "Sportcity Woluwe-Saint-Pierre"
   },
   "st-johns": {
+    "address": "Prospect Place & Schenectady Ave",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.67395000, -73.93489000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["st-johns1.jpg", "st-johns2.jpg"],
     "link": "https://www.nycgovparks.org/parks/B245/facilities/indoor-pools",
-    "name": "St. John’s"
+    "name": "St. John’s",
+    "showers": "stall",
+    "status": "open",
+    "type": "indoor"
   },
   "st-marys": {
+    "address": "St. Ann's Avenue and E. 145th Street",
     "badges": ["🚧"],
     "been": false,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.81139000, -73.91417000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/X045/facilities/indoor-pools",
-    "name": "St. Mary’s"
+    "name": "St. Mary’s",
+    "status": "closed",
+    "type": "indoor"
   },
   "stadhallenbad-wien": {
     "been": false,
@@ -1848,14 +2029,18 @@
     "name": "Stuyvesant High School"
   },
   "sunset-park": {
+    "address": "Seventh Avenue between 41st & 44th",
     "been": true,
+    "borough": "Brooklyn",
     "city": "New York",
     "coords": "40.64726000, -74.00262000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["sunset-park1.jpg", "sunset-park2.jpg", "sunset-park3.jpg"],
     "link": "https://www.nycgovparks.org/parks/sunset-park/facilities/outdoor-pools/sunset-park-pool",
-    "name": "Sunset Park"
+    "name": "Sunset Park",
+    "status": "open",
+    "type": "outdoor"
   },
   "szechenyi-furdo": {
     "been": true,
@@ -1876,14 +2061,18 @@
     "name": "Tenley Sport & Health"
   },
   "thomas-jefferson": {
+    "address": "E. 112th Street and First Avenue",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.79330000, -73.93599000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["thomas-jefferson1.jpg", "thomas-jefferson2.jpg", "thomas-jefferson3.jpg"],
     "link": "https://www.nycgovparks.org/parks/thomas-jefferson-park/facilities/outdoor-pools/thomas-jefferson-pool",
-    "name": "Thomas Jefferson"
+    "name": "Thomas Jefferson",
+    "status": "open",
+    "type": "outdoor"
   },
   "tinside-lido": {
     "been": false,
@@ -1895,14 +2084,18 @@
     "name": "Tinside Lido"
   },
   "tony-dapolito": {
+    "address": "Clarkson St. and Seventh Ave. South",
     "badges": ["🚧"],
     "been": false,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.72963000, -74.00549000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/M103/facilities/indoor-pools",
-    "name": "Tony Dapolito"
+    "name": "Tony Dapolito",
+    "status": "closed",
+    "type": "indoor"
   },
   "tooting-bec-lido": {
     "been": false,
@@ -1933,7 +2126,9 @@
     "name": "Ulsterwelle"
   },
   "van-cortlandt": {
+    "address": "W. 242nd St. and Broadway",
     "been": true,
+    "borough": "Bronx",
     "city": "New York",
     "coords": "40.88990000, -73.89604000",
     "country": "US",
@@ -1941,6 +2136,9 @@
     "images": ["van-cortlandt1.jpg", "van-cortlandt2.jpg", "van-cortlandt3.jpg", "van-cortlandt4.jpg"],
     "link": "https://www.nycgovparks.org/parks/X092/facilities/outdoor-pools",
     "name": "Van Cortlandt",
+    "showers": "open",
+    "status": "open",
+    "type": "outdoor",
     "wikidata": "Q21500726"
   },
   "vestkantbadet": {
@@ -1992,13 +2190,17 @@
     "name": "The Viscount"
   },
   "wagner-houses": {
+    "address": "E. 124th Street and First/Second",
     "been": true,
+    "borough": "Manhattan",
     "city": "New York",
     "coords": "40.80199000, -73.93334000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/wagner-houses-pool/facilities/outdoor-pools/wagner-pool",
-    "name": "Wagner Houses"
+    "name": "Wagner Houses",
+    "status": "open",
+    "type": "outdoor"
   },
   "warrender-baths": {
     "been": false,
