@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "auto": true,
     "featured": true,
     "icon": "🧗",
     "map": {
@@ -8,8 +9,10 @@
       "zoom": "2"
     },
     "name": "Highest Points",
+    "prefixClass": "coords",
+    "reverse": true,
     "size": "large",
-    "sort": "prefix",
+    "sort": "prefix-number",
     "tags": ["prefix"],
     "type": "place"
   },

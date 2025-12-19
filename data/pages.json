@@ -359,7 +359,17 @@
     "type": "place"
   },
   "cable-landings": {
-
+    "auto": true,
+    "icon": "🔌",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Cable Landings",
+    "size": "large",
+    "sort": "order",
+    "type": "place"
   },
   "calatrava": {
     "icon": "🦔",
@@ -1024,6 +1034,7 @@
     "type": "place"
   },
   "highest": {
+    "auto": true,
     "featured": true,
     "icon": "🧗",
     "map": {
@@ -1032,8 +1043,10 @@
       "zoom": "2"
     },
     "name": "Highest Points",
+    "prefixClass": "coords",
+    "reverse": true,
     "size": "large",
-    "sort": "prefix",
+    "sort": "prefix-number",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -1248,6 +1261,8 @@
     "type": "place"
   },
   "lowest": {
+    "auto": true,
+    "featured": true,
     "icon": "🤿",
     "map": {
       "lat": "25",
@@ -1255,8 +1270,9 @@
       "zoom": "2"
     },
     "name": "Lowest Points",
+    "prefixClass": "coords",
     "size": "large",
-    "sort": "prefix",
+    "sort": "prefix-number",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -1735,6 +1751,8 @@
     "type": "place"
   },
   "records": {
+    "auto": true,
+    "featured": true,
     "icon": "🥈",
     "map": {
       "lat": "50",
@@ -1742,7 +1760,7 @@
       "zoom": "2"
     },
     "name": "Records",
-    "size": "small",
+    "size": "large",
     "type": "place"
   },
   "reservations": {

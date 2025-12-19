@@ -1,15 +1,16 @@
 {
   "--info--": {
+    "auto": true,
     "icon": "🔌",
     "map": {
-      "lat": "50",
+      "lat": "25",
       "lon": "15",
       "zoom": "2"
     },
     "name": "Cable Landings",
     "size": "large",
-    "type": "place",
-    "sort": "order"
+    "sort": "order",
+    "type": "place"
   },
   "abidjan": {
     "been": false,
@@ -298,7 +299,8 @@
     "icons": ["🇺🇸"],
     "images": ["cape-cod1.jpg", "cape-cod2.jpg", "cape-cod3.jpg"],
     "link": "https://en.wikipedia.org/wiki/French_Cable_Hut",
-    "name": "Cape Cod"
+    "name": "Cape Cod",
+    "order": -1
   },
   "capetown": {
     "been": false,

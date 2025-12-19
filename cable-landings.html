@@ -3,12 +3,12 @@
 <head>
 	<title>🔌 Cable Landings</title>
 	<meta charset="UTF-8">
-	<meta name="andrewzc" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=0.45">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="headline">🔌 Cable Landings</div>
+<div id="map" lat="25" lon="15" zoom="2"></div><script src="map.js"></script>
 <div class="items large">
 
 🇺🇸 <a href="https://en.wikipedia.org/wiki/French_Cable_Hut">Cape Cod</a> 🛖<br>
@@ -38,10 +38,9 @@
 🇭🇰 <a href="http://www.kidorf.com/DBResult.php?Landing=Hong%20Kong,%20China&Location=NONE&Repeatered=Both">Hong Kong</a><br>
 🇹🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Istanbul,%20Turkey&Location=NONE&Repeatered=Both">Istanbul</a><br>
 🇳🇱 <a href="http://www.kidorf.com/DBResult.php?Landing=Katwijk,%20Netherlands&Location=NONE&Repeatered=Both">Katwijk</a><br>
-🇳🇬 <a href="http://www.kidorf.com/DBResult.php?Landing=Lagos,%20Nigeria&Location=NONE&Repeatered=Both">Lagos</a><br>
 🇬🇧 <a href="http://www.kidorf.com/DBResult.php?Landing=Larne,%20Northern%20Ireland&Location=NONE&Repeatered=Both">Larne</a><br>
 🇵🇹 <a href="http://www.kidorf.com/DBResult.php?Landing=Lisbon,%20Portugal&Location=NONE&Repeatered=Both">Lisbon</a><br>
-🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=Long%20Beach,%20New%20York,%20USA&Location=NONE&Repeatered=Both">Long Beach</a>, NY<br>
+🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=Long%20Beach,%20New%20York,%20USA&Location=NONE&Repeatered=Both">Long Beach</a> NY<br>
 🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=Los%20Angeles,%20California,%20USA&Location=NONE&Repeatered=Both">Los Angeles</a><br>
 🇲🇴 <a href="http://www.kidorf.com/DBResult.php?Landing=Taipa,%20Macau&Location=NONE&Repeatered=Both">Macau</a><br>
 🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=Manahawkin,%20New%20Jersey,%20USA&Location=NONE&Repeatered=Both">Manahawkin</a><br>
@@ -113,7 +112,7 @@
 🇫🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Ile%20Rousse,%20Corsica,%20France&Location=NONE&Repeatered=Both">Corsica</a><br>
 🇩🇪 <a href="http://www.kidorf.com/DBResult.php?Landing=Cuxhaven,%20Germany&Location=NONE&Repeatered=Both">Cuxhaven</a><br>
 🇶🇦 <a href="http://www.kidorf.com/DBResult.php?Landing=Das,%20Qatar&Location=NONE&Repeatered=Both">Das</a><br>
-🇮🇴 Deigo Garcia<br>
+🇮🇴 <a href="#">Deigo Garcia</a><br>
 🇫🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Dieppe,%20France&Location=NONE&Repeatered=Both">Dieppe</a><br>
 🇩🇯 <a href="http://www.kidorf.com/DBResult.php?Landing=Djibouti&Location=NONE&Repeatered=Both">Djibouti</a><br>
 🇩🇲 <a href="http://www.kidorf.com/DBResult.php?Landing=Dominica&Location=NONE&Repeatered=Both">Dominica</a><br>
@@ -124,8 +123,7 @@
 🇬🇩 <a href="http://www.kidorf.com/DBResult.php?Landing=Grenada&Location=NONE&Repeatered=Both">Grenada</a><br>
 🇫🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Guadeloupe,%20France&Location=NONE&Repeatered=Both">Guadeloupe</a><br>
 🇬🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Guam,%20USA&Location=NONE&Repeatered=Both">Guam</a><br>
-🇬🇬 <a href="http://www.kidorf.com/DBResult.php?Landing=Guernsey,%20Channel%20Islands&Location=NONE&Repeatered=Both">Guernsey</a> <br>
-🇯🇵 <a href="http://www.kidorf.com/DBResult.php?Landing=Guskikamison,%20island%20of%20Okinawa,%20Japan&Location=NONE&Repeatered=Both">Okinawa</a><br>
+🇬🇬 <a href="http://www.kidorf.com/DBResult.php?Landing=Guernsey,%20Channel%20Islands&Location=NONE&Repeatered=Both">Guernsey</a><br>
 🇳🇴 <a href="http://www.kidorf.com/DBResult.php?Landing=Harstad,%20Norway&Location=NONE&Repeatered=Both">Harstad</a><br>
 🇯🇵 <a href="http://www.kidorf.com/DBResult.php?Landing=Hitachi,%20island%20of%20Honshu,%20Japan&Location=NONE&Repeatered=Both">Hitachi</a><br>
 🇹🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Izmir,%20Turkey&Location=NONE&Repeatered=Both">Izmir</a><br>
@@ -158,6 +156,7 @@
 🇷🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Novorossijk,%20Russia&Location=NONE&Repeatered=Both">Novorossijk</a><br>
 🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=island%20of%20Oahu,%20Hawaii,%20USA&Location=NONE&Repeatered=Both">Oahu</a><br>
 🇺🇦 <a href="http://www.kidorf.com/DBResult.php?Landing=Odessa,%20Ukraine&Location=NONE&Repeatered=Both">Odessa</a><br>
+🇯🇵 <a href="http://www.kidorf.com/DBResult.php?Landing=Guskikamison,%20island%20of%20Okinawa,%20Japan&Location=NONE&Repeatered=Both">Okinawa</a><br>
 🇵🇼 <a href="http://www.kidorf.com/DBResult.php?Landing=Melekeok%20North,%20Palau&Location=NONE&Repeatered=Both">Palau</a><br>
 🇨🇾 <a href="http://www.kidorf.com/DBResult.php?Landing=Paphos,%20Cyprus&Location=NONE&Repeatered=Both">Paphos</a><br>
 🇦🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Perth,%20Australia&Location=NONE&Repeatered=Both">Perth</a><br>
@@ -176,19 +175,19 @@
 🇪🇨 <a href="http://www.kidorf.com/DBResult.php?Landing=Punta%20Carnero,%20Ecuador&Location=NONE&Repeatered=Both">Punta Carnero</a><br>
 🇨🇳 <a href="http://www.kidorf.com/DBResult.php?Landing=Qingdao,%20China&Location=NONE&Repeatered=Both">Qingdao</a><br>
 🇧🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Recife,%20Brazil&Location=NONE&Repeatered=Both">Recife</a><br>
+🇬🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=island%20of%20Rhodes,%20Greece&Location=NONE&Repeatered=Both">Rhodes</a><br>
 🇧🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Rio%20de%20Janeiro,%20Brazil&Location=NONE&Repeatered=Both">Rio de Janeiro</a><br>
 🇨🇴 <a href="http://www.kidorf.com/DBResult.php?Landing=Riohacha,%20Colombia&Location=NONE&Repeatered=Both">Riohacha</a><br>
-🇬🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=island%20of%20Rhodes,%20Greece&Location=NONE&Repeatered=Both">Rhodes</a><br>
-🇷🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Sakhalin%20Island,%20Russia&Location=NONE&Repeatered=Both">Sakhalin</a><br>
 🇰🇳 <a href="http://www.kidorf.com/DBResult.php?Landing=St.%20Kitts&Location=NONE&Repeatered=Both">Saint Kitts</a><br>
 🇱🇨 <a href="http://www.kidorf.com/DBResult.php?Landing=St.%20Lucia&Location=NONE&Repeatered=Both">Saint Lucia</a><br>
 🇷🇪 <a href="http://www.kidorf.com/DBResult.php?Landing=St.%20Paul,%20Reunion&Location=NONE&Repeatered=Both">Saint Paul</a><br>
 🇵🇲 <a href="https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon">Saint Pierre and Miquelon</a><br>
+🇷🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Sakhalin%20Island,%20Russia&Location=NONE&Repeatered=Both">Sakhalin</a><br>
 🇺🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=San%20Juan,%20Puerto%20Rico,%20USA&Location=NONE&Repeatered=Both">San Juan</a><br>
 🇦🇺 <a href="http://www.kidorf.com/DBResult.php?Landing=Sandy%20Point,%20Australia&Location=NONE&Repeatered=Both">Sandy Point</a><br>
 🇫🇷 <a href="http://www.kidorf.com/DBResult.php?Landing=Sangate,%20France&Location=NONE&Repeatered=Both">Sangate</a><br>
 🇮🇨 <a href="http://www.kidorf.com/DBResult.php?Landing=Santa%20Cruz%20de%20Tenerife,%20Canary%20Islands,%20Spain&Location=NONE&Repeatered=Both">Santa Cruz de Tenerife</a><br>
-🇮🇹 <a href="http://www.kidorf.com/DBResult.php?Landing=Golfo%20Aranci,%20Sardinia,%20Italy&Location=NONE&Repeatered=Both">Sardinia</a> <br>
+🇮🇹 <a href="http://www.kidorf.com/DBResult.php?Landing=Golfo%20Aranci,%20Sardinia,%20Italy&Location=NONE&Repeatered=Both">Sardinia</a><br>
 🇮🇹 <a href="http://www.kidorf.com/DBResult.php?Landing=Savona,%20Italy&Location=NONE&Repeatered=Both">Savona</a><br>
 🇮🇹 <a href="http://www.kidorf.com/DBResult.php?Landing=Scalea,%20Italy&Location=NONE&Repeatered=Both">Scalea</a><br>
 🇮🇸 <a href="http://www.kidorf.com/DBResult.php?Landing=Seydisfjordur,%20Iceland&Location=NONE&Repeatered=Both">Seyðisfjörður</a><br>
@@ -205,9 +204,6 @@
 🇨🇦 <a href="http://www.kidorf.com/DBResult.php?Landing=Vancouver%20Island,%20British%20Columbia,%20Canada&Location=NONE&Repeatered=Both">Vancouver Island</a><br>
 🇮🇸 <a href="http://www.kidorf.com/DBResult.php?Name=&Landing=Vestmannaeyjar,%20Iceland&Location=NONE&Repeatered=Both">Vestmannaeyjar</a><br>
 🇬🇧 <a href="https://en.wikipedia.org/wiki/Widemouth_Bay">Widemouth Bay</a><br>
-
-<!--http://www.kidorf.com/DBLandings.php-->
-
 
 </div>
 </body>
