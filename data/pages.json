@@ -9,6 +9,7 @@
     "type": "place"
   },
   "airbnb": {
+    "auto": true,
     "icon": "🏡",
     "map": {
       "lat": "25",
@@ -22,6 +23,7 @@
     "type": "place"
   },
   "airlines": {
+    "auto": true,
     "icon": "✈️",
     "name": "Airlines",
     "size": "large",
@@ -124,6 +126,7 @@
     "type": "place"
   },
   "apple": {
+    "auto": true,
     "featured": true,
     "icon": "🍏",
     "map": {
@@ -137,6 +140,7 @@
     "type": "place"
   },
   "aqueducts": {
+    "auto": true,
     "icon": "💦",
     "map": {
       "cluster": "true",
@@ -155,6 +159,7 @@
     "type": "place"
   },
   "automatic": {
+    "auto": true,
     "icon": "🤖",
     "name": "Automatic Metros",
     "size": "large",
@@ -189,6 +194,7 @@
     "type": "place"
   },
   "belfries": {
+    "auto": true,
     "icon": "🔔",
     "map": {
       "cluster": "false",
@@ -214,12 +220,14 @@
     "type": "place"
   },
   "bi-articulated": {
+    "auto": true,
     "icon": "🚛",
     "name": "Bi-Articulated Buses",
     "size": "large",
     "type": "place"
   },
   "bilingual": {
+    "auto": true,
     "icon": "✌️",
     "name": "Bilingual",
     "size": "large",
@@ -263,6 +271,7 @@
     "type": "place"
   },
   "brazil": {
+    "auto": true,
     "icon": "🇧🇷",
     "map": {
       "cluster": "false",
@@ -275,6 +284,7 @@
     "type": "place"
   },
   "break-of-gauge": {
+    "auto": true,
     "icon": "⛓️‍💥",
     "name": "Break of Gauge",
     "size": "medium",
@@ -347,6 +357,9 @@
     "name": "Cable Cars",
     "size": "large",
     "type": "place"
+  },
+  "cable-landings": {
+
   },
   "calatrava": {
     "icon": "🦔",
@@ -435,6 +448,7 @@
     "type": "place"
   },
   "cathedrals": {
+    "auto": true,
     "featured": true,
     "icon": "⛪️",
     "map": {
@@ -596,6 +610,7 @@
     "type": "place"
   },
   "culture": {
+    "auto": true,
     "icon": "🇪🇺",
     "map": {
       "lat": "50.8",
@@ -1303,6 +1318,7 @@
     "type": "place"
   },
   "metros": {
+    "featured": "true",
     "header": "I’ve been to every station in:",
     "icon": "🚇",
     "map": {

@@ -7,14 +7,14 @@
       "zoom": "2"
     },
     "name": "Records",
-    "size": "small",
+    "size": "large",
     "type": "place"
   },
   "ain-dubai": {
     "been": true,
     "country": "AE",
     "icons": ["🇦🇪", "🎡"],
-    "info": "tallest Ferris wheel ITW",
+    "caption": "Tallest Ferris wheel in the world",
     "link": "https://en.wikipedia.org/wiki/Ain_Dubai",
     "name": "Ain Dubai"
   },
@@ -23,7 +23,7 @@
     "coords": "36.12640000, -5.44900000",
     "country": "ES",
     "icons": ["🇪🇸", "🚉"],
-    "info": "southernmost train station in Europe",
+    "caption": "Southernmost train station in Europe",
     "link": "https://en.wikipedia.org/wiki/Algeciras_railway_station",
     "name": "Algeciras"
   },
@@ -33,7 +33,7 @@
     "coords": "31.87416667, 35.54083333",
     "country": "JO",
     "icons": ["🇯🇴", "🌉"],
-    "info": "lowest bridge ITW",
+    "caption": "Lowest bridge in the world",
     "link": "https://en.wikipedia.org/wiki/Allenby_Bridge",
     "name": "Allenby Bridge"
   },
@@ -41,7 +41,7 @@
     "been": false,
     "country": "KZ",
     "icons": ["🇰🇿", "🗼"],
-    "info": "tallest free-standing tubular steel structure ITW",
+    "caption": "Tallest free-standing tubular steel structure in the world",
     "link": "https://en.wikipedia.org/wiki/Almaty_Tower",
     "name": "Almaty Tower"
   },
@@ -50,7 +50,7 @@
     "coords": "42.50638889, 1.52138889",
     "country": "AD",
     "icons": ["🇦🇩", "🛂"],
-    "info": "oldest entire international border ITW",
+    "caption": "Oldest entire international border in the world",
     "link": "https://en.wikipedia.org/wiki/Borders_of_Andorra",
     "name": "Andorra"
   },
@@ -60,7 +60,7 @@
     "coords": "50.44444444, 30.54555556",
     "country": "UA",
     "icons": ["🇺🇦", "🚇"],
-    "info": "second deepest metro station ITW",
+    "caption": "Second deepest metro station in the world",
     "link": "https://en.wikipedia.org/wiki/Arsenalna_(Kyiv_Metro)",
     "name": "Arsenalna"
   },
@@ -70,31 +70,36 @@
     "coords": "40.74988889, -73.84702778",
     "country": "US",
     "icons": ["🇺🇸", "🏟️"],
-    "info": "largest tennis stadium ITW",
+    "caption": "Largest tennis stadium in the world",
     "link": "https://en.wikipedia.org/wiki/Arthur_Ashe_Stadium",
     "name": "Arthur Ashe Stadium"
   },
-  "astoria-oldest-american-settlement-west-of-rocky-mountains": {
+  "astoria-or": {
     "been": true,
+    "coords": "46.18816333, -123.82753833",
     "country": "US",
-    "icons": ["🇺🇸", "🛖"],
-    "name": "Astoria, oldest American settlement west of Rocky Mountains",
-    "state": "oldest American settlement west of Rocky Mountains"
+    "dateAdded": "2025-12-19",
+    "icons": ["🇺🇸"],
+    "images": ["astoria-or1.jpg", "astoria-or2.jpg", "astoria-or3.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Astoria,_Oregon",
+    "name": "Astoria, OR"
   },
   "astoria–megler-bridge": {
     "been": true,
     "coords": "46.21700000, -123.86300000",
     "country": "US",
     "icons": ["🇺🇸", "🌉"],
-    "info": "longest continuous truss bridge in North America",
+    "images": ["astoria–megler-bridge1.jpg", "astoria–megler-bridge2.jpg"],
+    "caption": "Longest continuous truss bridge in North America",
     "link": "https://en.wikipedia.org/wiki/Astoria–Megler_Bridge",
-    "name": "Astoria–Megler Bridge"
+    "name": "Astoria–Megler Bridge",
+    "reference": "longest continuous truss bridge in North America"
   },
   "atlanta-plane-train": {
     "been": true,
     "country": "US",
     "icons": ["🇺🇸", "🚝"],
-    "info": "highest capacity airport people mover ITW",
+    "caption": "Highest capacity airport people mover in the world",
     "link": "https://en.wikipedia.org/wiki/The_Plane_Train",
     "name": "Atlanta Plane Train",
     "wikidata": "Q16985535"
@@ -104,7 +109,7 @@
     "coords": "29.35150000, 110.46150000",
     "country": "CN",
     "icons": ["🇨🇳", "🛗"],
-    "info": "tallest outdoor elevator ITW",
+    "caption": "Tallest outdoor elevator in the world",
     "link": "https://en.wikipedia.org/wiki/Bailong_Elevator",
     "name": "Bailong Elevator"
   },
@@ -114,7 +119,7 @@
     "coords": "40.39527778, 49.88222222",
     "country": "AZ",
     "icons": ["🇦🇿", "🌃"],
-    "info": "lowest major city ITW",
+    "caption": "Lowest major city in the world",
     "link": "https://en.wikipedia.org/wiki/Baku",
     "name": "Baku"
   },
@@ -123,7 +128,7 @@
     "coords": "-31.75416667, 159.25166667",
     "country": "AU",
     "icons": ["🇦🇺", "🌋"],
-    "info": "tallest volcanic stack ITW",
+    "caption": "Tallest volcanic stack in the world",
     "link": "https://en.wikipedia.org/wiki/Ball%27s_Pyramid",
     "name": "Ball’s Pyramid"
   },
@@ -131,7 +136,7 @@
     "been": false,
     "country": "CN",
     "icons": ["🇨🇳", "🚄"],
-    "info": "longest high speed rail line ITW",
+    "caption": "Longest high speed rail line in the world",
     "link": "https://en.wikipedia.org/wiki/Beijing%E2%80%93Guangzhou%E2%80%93Shenzhen%E2%80%93Hong_Kong_high-speed_railway",
     "name": "Beijing–Guangzhou high-speed railway",
     "wikidata": "Q22712677"
@@ -141,7 +146,7 @@
     "coords": "35.52910000, 118.80450000",
     "country": "CN",
     "icons": ["🇨🇳", "🚄"],
-    "info": "fastest conventional train ITW",
+    "caption": "Fastest conventional train in the world",
     "link": "https://en.wikipedia.org/wiki/Beijing%E2%80%93Shanghai_high-speed_railway",
     "name": "Beijing–Shanghai high-speed railway"
   },
@@ -150,7 +155,7 @@
     "coords": "32.50000000, 35.50000000",
     "country": "IL",
     "icons": ["🇮🇱", "🚉"],
-    "info": "lowest train station ITW",
+    "caption": "Lowest train station in the world",
     "link": "https://en.wikipedia.org/wiki/Beit_She'an",
     "name": "Beit She’an"
   },
@@ -159,16 +164,18 @@
     "coords": "51.26495000, 3.00544000",
     "country": "BE",
     "icons": ["🇧🇪", "🚋"],
-    "info": "second longest tram line ITW",
+    "images": ["belgian.jpg", "belgian-coast-tram1.jpg", "belgian-coast-tram2.jpg", "belgian-coast-tram3.jpg", "belgian-coast-tram4.jpg"],
+    "caption": "Second longest tram line in the world",
     "link": "https://en.wikipedia.org/wiki/Coast_Tram_(Belgium)",
-    "name": "Belgian Coast Tram"
+    "name": "Belgian Coast Tram",
+    "reference": "second longest tram line in the world"
   },
   "bernina-pass": {
     "been": false,
     "coords": "46.41083333, 10.02750000",
     "country": "CH",
     "icons": ["🇨🇭", "🏔"],
-    "info": "highest rail pass in Europe",
+    "caption": "Highest rail pass in Europe",
     "link": "https://en.wikipedia.org/wiki/Bernina Pass",
     "name": "Bernina Pass"
   },
@@ -177,9 +184,11 @@
     "coords": "26.32277778, -12.84972222",
     "country": "EH",
     "icons": ["🇪🇭", "⚒️"],
-    "info": "longest conveyor belt ITW",
+    "images": ["bou-craa1.jpg", "bou-craa2.jpg", "bou-craa3.jpg"],
+    "caption": "Longest conveyor belt in the world",
     "link": "https://en.wikipedia.org/wiki/Bou_Craa",
-    "name": "Bou Craa"
+    "name": "Bou Craa",
+    "reference": "longest conveyor belt in the world"
   },
   "broad-green": {
     "been": false,
@@ -187,7 +196,7 @@
     "coords": "53.40650000, -2.89350000",
     "country": "GB",
     "icons": ["🇬🇧", "🚉"],
-    "info": "oldest operating train station ITW",
+    "caption": "Oldest operating train station in the world",
     "link": "https://en.wikipedia.org/wiki/Broad_Green_railway_station",
     "name": "Broad Green"
   },
@@ -197,19 +206,21 @@
     "coords": "50.84730000, 4.35890000",
     "country": "BE",
     "icons": ["🇧🇪", "🚇"],
-    "info": "busiest railway tunnel ITW",
+    "caption": "Busiest railway tunnel in the world",
     "link": "https://en.wikipedia.org/wiki/North–South_connection",
     "name": "Brussels North–South Connection"
   },
   "budapest": {
     "been": true,
     "city": "Budapest",
-    "coords": "47.5, 19.05",
+    "coords": "47.50000000, 19.05000000",
     "country": "HU",
     "icons": ["🇭🇺", "🚋"],
-    "info": "busiest tram system ITW",
+    "images": ["budapest1.jpg", "budapest2.jpg", "budapest3.jpg", "budapest4.jpg", "budapest5.jpg", "budapest6.jpg"],
+    "caption": "Busiest tram system in the world",
     "link": "https://en.wikipedia.org/wiki/Trams_in_Budapest",
     "name": "Budapest",
+    "reference": "busiest tram system in the world",
     "wikidata": "Q785837"
   },
   "burj-khalifa": {
@@ -218,26 +229,34 @@
     "coords": "25.197222222222223, 55.274166666666666",
     "country": "AE",
     "icons": ["🇦🇪", "🗼"],
-    "info": "tallest building ITW",
+    "caption": "Tallest building in the world",
     "link": "https://en.wikipedia.org/wiki/Burj_Khalifa",
     "name": "Burj Khalifa"
   },
   "cablebus-line-2": {
     "been": true,
+    "city": "Mexico City",
+    "coords": "19.34499500, -99.06272783",
     "country": "MX",
     "icons": ["🇲🇽", "🚡"],
-    "info": "longest public cable line ITW",
+    "images": ["cablebus-line-21.jpg", "cablebus-line-22.jpg", "cablebus-line-23.jpg", "cablebus-line-24.jpg", "cablebus-line-25.jpg", "cablebus-line-26.jpg"],
+    "caption": "Longest public cable line in the world",
     "link": "https://en.wikipedia.org/wiki/Cablebús",
     "name": "Cablebús Line 2",
+    "reference": "longest public cable line in the world",
     "wikidata": "Q65166549"
   },
   "caf-urbos": {
     "been": true,
+    "city": "Budapest",
+    "coords": "47.46411333, 19.02951667",
     "country": "HU",
     "icons": ["🇭🇺", "🚋"],
-    "info": "longest tram ITW",
+    "images": ["caf-urbos1.jpg", "caf-urbos2.jpg", "caf-urbos3.jpg"],
+    "caption": "Longest tram in the world",
     "link": "https://en.wikipedia.org/wiki/CAF_Urbos",
     "name": "CAF Urbos",
+    "reference": "longest tram in the world",
     "wikidata": "Q1022747"
   },
   "cape-charles-light": {
@@ -245,7 +264,7 @@
     "coords": "37.12292000, -75.90647000",
     "country": "US",
     "icons": ["🇺🇸", "🕯"],
-    "info": "second tallest lighthouse in the US",
+    "caption": "Second tallest lighthouse in the United States",
     "link": "https://en.wikipedia.org/wiki/Cape_Charles_Lighthouse",
     "name": "Cape Charles Light"
   },
@@ -254,16 +273,18 @@
     "coords": "45.06421600, 6.40783200",
     "country": "FR",
     "icons": ["🇫🇷", "🚴‍♂️"],
-    "info": "highest point of Tour de France",
+    "images": ["col-de-galiber.jpg", "col-de-galibier1.jpg", "col-de-galibier2.jpg"],
+    "caption": "Highest point of Tour de France",
     "link": "https://fr.wikipedia.org/wiki/Col_du_Galibier",
-    "name": "Col de Galibier"
+    "name": "Col de Galibier",
+    "reference": "highest point of Tour de France"
   },
   "col-de-l'iseran": {
     "been": false,
     "coords": "45.41694444, 7.03083333",
     "country": "FR",
     "icons": ["🇫🇷", "🏔"],
-    "info": "highest paved pass in the Alps",
+    "caption": "Highest paved pass in the Alps",
     "link": "https://fr.wikipedia.org/wiki/Col_de_l'Iseran",
     "name": "Col de l'Iseran"
   },
@@ -271,7 +292,7 @@
     "been": false,
     "country": "UA",
     "icons": ["🇺🇦", "🚎"],
-    "info": "longest trolleybus ITW",
+    "caption": "Longest trolleybus in the world",
     "link": "https://en.wikipedia.org/wiki/Crimean_Trolleybus",
     "name": "Crimean Trolleybus",
     "wikidata": "Q1146301"
@@ -281,7 +302,7 @@
     "coords": "65.78333333, -169.01666667",
     "countries": ["RU", "US"],
     "icons": ["🇷🇺", "🇺🇸"],
-    "info": "closest points of Russia and USA",
+    "caption": "Closest points of Russia and USA",
     "link": "https://en.wikipedia.org/wiki/Diomede_Islands",
     "name": "Diomede Islands"
   },
@@ -291,7 +312,7 @@
     "coords": "36.73583333, 3.13805556",
     "country": "DZ",
     "icons": ["🇩🇿", "🕌"],
-    "info": "tallest minaret ITW",
+    "caption": "Tallest minaret in the world",
     "link": "https://en.wikipedia.org/wiki/Djamaa_el_Djazaïr",
     "name": "Djamaa el Djazaïr"
   },
@@ -301,7 +322,7 @@
     "coords": "31.77800000, 35.23540000",
     "country": "PS",
     "icons": ["🇵🇸", "🕌"],
-    "info": "oldest Islamic building ITW",
+    "caption": "Oldest Islamic building in the world",
     "link": "https://en.wikipedia.org/wiki/Dome_of_the_Rock",
     "name": "Dome of the Rock"
   },
@@ -310,7 +331,7 @@
     "coords": "63.41416667, 10.37722222",
     "country": "NO",
     "icons": ["🇳🇴", "🚋"],
-    "info": "northernmost tram stop ITW",
+    "caption": "Northernmost tram stop in the world",
     "link": "https://en.wikipedia.org/wiki/Trondheim_Tramway",
     "name": "Dronningens Gate"
   },
@@ -320,9 +341,11 @@
     "coords": "25.25277778, 55.36444444",
     "country": "AE",
     "icons": ["🇦🇪", "🛫"],
-    "info": "most visited international airport ITW",
+    "images": ["dubai-airport1.jpg", "dubai-airport2.jpg", "dubai-airport3.jpg", "dubai-airport4.jpg", "dubai-airport5.jpg", "dubai-airport6.jpg", "dubai-airport7.jpg", "dubai-airport8.jpg"],
+    "caption": "Most visited international airport in the world",
     "link": "https://en.wikipedia.org/wiki/Dubai_International_Airport",
-    "name": "Dubai Airport"
+    "name": "Dubai Airport",
+    "reference": "most visited international airport in the world"
   },
   "dubai-mall": {
     "been": true,
@@ -330,17 +353,21 @@
     "coords": "25.1975, 55.279166666667",
     "country": "AE",
     "icons": ["🇦🇪", "🏬"],
-    "info": "second largest mall ITW",
+    "caption": "Second largest mall in the world",
     "link": "https://en.wikipedia.org/wiki/The_Dubai_Mall",
     "name": "Dubai Mall"
   },
   "dubai-red-line": {
     "been": true,
+    "city": "Dubai",
+    "coords": "25.24492500, 55.35930500",
     "country": "AE",
     "icons": ["🇦🇪", "🚝"],
-    "info": "longest automated metro line ITW",
+    "images": ["dubai-red-line1.jpg", "dubai-red-line2.jpg", "dubai-red-line3.jpg", "dubai-red-line4.jpg", "dubai-red-line5.jpg"],
+    "caption": "Longest automated metro line in the world",
     "link": "https://en.wikipedia.org/wiki/Red_Line_(Dubai_Metro)",
     "name": "Dubai Red Line",
+    "reference": "longest automated metro line in the world",
     "wikidata": "Q1369034"
   },
   "edge": {
@@ -349,16 +376,18 @@
     "coords": "40.75410000, -74.00080000",
     "country": "US",
     "icons": ["🇺🇸", "🗼"],
-    "info": "highest outdoor sky deck in the Western Hemisphere",
+    "images": ["edge.jpg", "edge1.jpg", "edge2.jpg", "edge3.jpg", "edge4.jpg"],
+    "caption": "Highest outdoor sky deck in the Western Hemisphere",
     "link": "https://en.wikipedia.org/wiki/30_Hudson_Yards",
-    "name": "The Edge"
+    "name": "The Edge",
+    "reference": "highest outdoor sky deck in the Western Hemisphere"
   },
   "el-ferdan-railway-bridge": {
     "been": false,
     "coords": "30.65694444, 32.33388889",
     "country": "EG",
     "icons": ["🇪🇬", "🌉"],
-    "info": "longest swing bridge ITW",
+    "caption": "Longest swing bridge in the world",
     "link": "https://en.wikipedia.org/wiki/El_Ferdan_Railway_Bridge",
     "name": "El Ferdan Railway Bridge"
   },
@@ -368,15 +397,17 @@
     "coords": "18.47320000, -69.88171000",
     "country": "DO",
     "icons": ["🇩🇴", "🪖"],
-    "info": "oldest colonial fort in the Americas",
+    "images": ["fortaleza-ozama1.jpg", "fortaleza-ozama2.jpg", "fortaleza-ozama3.jpg"],
+    "caption": "Oldest colonial fort in the Americas",
     "link": "https://en.wikipedia.org/wiki/Fortaleza_Ozama",
-    "name": "Fortaleza Ozama"
+    "name": "Fortaleza Ozama",
+    "reference": "oldest colonial fort in the Americas"
   },
   "friedrichshafen-hafen-railway": {
     "been": false,
     "country": "DE",
     "icons": ["🇩🇪", "🚃"],
-    "info": "shortest train line in Europe",
+    "caption": "Shortest train line in Europe",
     "link": "https://en.wikipedia.org/wiki/Friedrichshafen_Stadt%E2%80%93Friedrichshafen_Hafen_railway",
     "name": "Friedrichshafen Hafen Railway"
   },
@@ -386,16 +417,19 @@
     "coords": "48.88111111, 2.35527778",
     "country": "FR",
     "icons": ["🇫🇷", "🚉"],
-    "info": "largest train station in Europe",
+    "images": ["gare-du-nord1.jpg", "gare-du-nord2.jpg", "gare-du-nord3.jpg", "gare-du-nord4.jpg", "gare-du-nord5.jpg", "gare-du-nord6.jpg", "gare-du-nord7.jpg", "gare-du-nord8.jpg", "gare-du-nord9.jpg", "gare-du-nord10.jpg", "gare-du-nord11.jpg", "gare-du-nord12.jpg", "gare-du-nord13.jpg", "gare-du-nord14.jpg", "gare-du-nord15.jpg", "gare-du-nord16.jpg", "gare-du-nord17.jpg"],
+    "caption": "Largest train station in Europe",
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Nord",
-    "name": "Gare du Nord"
+    "name": "Gare du Nord",
+    "reference": "largest train station in Europe"
   },
   "grande-dixence": {
     "been": true,
     "coords": "46.08080000, 7.40330000",
     "country": "CH",
     "icons": ["🇨🇭", "🌊"],
-    "info": "highest gravity dam ITW",
+    "images": ["grand-dix.jpg"],
+    "caption": "Highest gravity dam in the world",
     "link": "https://fr.wikipedia.org/wiki/Barrage_de_la_Grande-Dixence",
     "name": "Grande-Dixence"
   },
@@ -403,7 +437,7 @@
     "been": false,
     "country": "CA",
     "icons": ["🇨🇦", "🌉"],
-    "info": "longest covered bridge ITW",
+    "caption": "Longest covered bridge in the world",
     "link": "https://en.wikipedia.org/wiki/Hartland_Covered_Bridge",
     "name": "Hartland Bridge"
   },
@@ -413,41 +447,51 @@
     "coords": "33.60850000, -7.63270000",
     "country": "MA",
     "icons": ["🇲🇦", "🕌"],
-    "info": "second tallest minaret ITW",
+    "images": ["hassan-ii-mosque1.jpg", "hassan-ii-mosque2.jpg", "hassan-ii-mosque3.jpg", "hassan-ii-mosque4.jpg"],
+    "caption": "Second tallest minaret in the world",
     "link": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
-    "name": "Hassan II Mosque"
+    "name": "Hassan II Mosque",
+    "reference": "second tallest minaret in the world"
   },
   "helsinki-metro": {
     "been": false,
     "country": "FI",
     "icons": ["🇫🇮", "🚇"],
-    "info": "northernmost metro ITW",
+    "caption": "Northernmost metro in the world",
     "link": "https://en.wikipedia.org/wiki/Helsinki_Metro",
     "name": "Helsinki Metro"
   },
   "high-roller": {
     "been": true,
+    "city": "Las Vegas",
+    "coords": "36.11806117, -115.16829667",
     "country": "US",
     "icons": ["🇺🇸", "🎡"],
-    "info": "second tallest Ferris wheel ITW",
+    "images": ["high-roller1.jpg", "high-roller2.jpg", "high-roller3.jpg", "high-roller4.jpg", "high-roller5.jpg", "high-roller6.jpg", "high-roller7.jpg", "high-roller8.jpg", "high-roller9.jpg", "high-roller10.jpg", "high-roller11.jpg", "high-roller12.jpg"],
+    "caption": "Second tallest Ferris wheel in the world",
     "link": "https://en.wikipedia.org/wiki/High_Roller_(Ferris_wheel)",
-    "name": "High Roller"
+    "name": "High Roller",
+    "reference": "second tallest Ferris wheel in the world"
   },
   "highway-1": {
     "been": false,
     "country": "AU",
     "icons": ["🇦🇺", "🛣️"],
-    "info": "longest national highway ITW",
+    "caption": "Longest national highway in the world",
     "link": "https://en.wikipedia.org/wiki/Highway_1_(Australia)",
     "name": "Highway 1"
   },
   "holmenkollen-line": {
     "been": true,
+    "city": "Oslo",
+    "coords": "59.96141333, 10.68271333",
     "country": "NO",
     "icons": ["🇳🇴", "🚇"],
-    "info": "greatest elevation difference ITW",
+    "images": ["holmenkollen-line1.jpg", "holmenkollen-line2.jpg", "holmenkollen-line3.jpg", "holmenkollen-line4.jpg", "holmenkollen-line5.jpg", "holmenkollen-line6.jpg", "holmenkollen-line7.jpg", "holmenkollen-line8.jpg"],
+    "caption": "Greatest elevation difference in the world",
     "link": "https://en.wikipedia.org/wiki/Holmenkollen_Line",
     "name": "Holmenkollen Line",
+    "reference": "greatest elevation difference in the world",
     "wikidata": "Q1771722"
   },
   "hongyancun": {
@@ -455,7 +499,7 @@
     "coords": "29.5535157, 106.4895489",
     "country": "CN",
     "icons": ["🇨🇳", "🚇"],
-    "info": "deepest metro station ITW",
+    "caption": "Deepest metro station in the world",
     "link": "https://en.wikipedia.org/wiki/Hongyancun_station",
     "name": "Hongyancun",
     "wikidata": "Q110812395"
@@ -464,14 +508,14 @@
     "been": false,
     "country": "CH",
     "icons": ["🇨🇭", "🚠"],
-    "name": "https://en.wikipedia.org/wiki/Metro_Alpin\">Metro Alpin</a>, highest funicular ITW"
+    "name": "https://en.wikipedia.org/wiki/Metro_Alpin\">Metro Alpin</a>, highest funicular in the world"
   },
   "huajiang-canyon-bridge": {
     "been": false,
     "coords": "25.70457600, 105.58746900",
     "country": "CN",
     "icons": ["🇨🇳", "🌉"],
-    "info": "highest bridge ITW",
+    "caption": "Highest bridge in the world",
     "link": "https://en.wikipedia.org/wiki/Huajiang_Canyon_Bridge",
     "name": "Huajiang Canyon Bridge"
   },
@@ -481,7 +525,7 @@
     "coords": "40.71166667, -74.01166667",
     "country": "US",
     "icons": ["🇺🇸", "🏢"],
-    "info": "largest office building ITW",
+    "caption": "Largest office building in the world",
     "link": "https://en.wikipedia.org/wiki/Hudson_Terminal",
     "name": "Hudson Terminal"
   },
@@ -491,9 +535,11 @@
     "coords": "47.50694444, 19.04555556",
     "country": "HU",
     "icons": ["🇭🇺", "🏛️"],
-    "info": "largest building in Hungary",
+    "images": ["hungarian-parliament1.jpg"],
+    "caption": "Largest building in Hungary",
     "link": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
-    "name": "Hungarian Parliament"
+    "name": "Hungarian Parliament",
+    "reference": "largest building in Hungary"
   },
   "jericho": {
     "been": true,
@@ -501,7 +547,7 @@
     "coords": "31.85611111, 35.46000000",
     "country": "PS",
     "icons": ["🇵🇸", "🌃"],
-    "info": "oldest city ITW",
+    "caption": "Oldest city in the world",
     "link": "https://en.wikipedia.org/wiki/Jericho",
     "name": "Jericho"
   },
@@ -510,7 +556,7 @@
     "coords": "40.32555556, -78.92861111",
     "country": "US",
     "icons": ["🇺🇸", "🚠"],
-    "info": "steepest funicular ITW",
+    "caption": "Steepest funicular in the world",
     "link": "https://en.wikipedia.org/wiki/Johnstown_Inclined_Plane",
     "name": "Johnstown Inclined Plane"
   },
@@ -519,7 +565,7 @@
     "coords": "55.68333333, 52.31666667",
     "country": "RU",
     "icons": ["🇷🇺", "🏭"],
-    "info": "largest vehicle factory ITW",
+    "caption": "Largest vehicle factory in the world",
     "link": "https://en.wikipedia.org/wiki/Naberezhnye_Chelny",
     "name": "Kamaz"
   },
@@ -529,7 +575,8 @@
     "coords": "48.25277778, 16.36500000",
     "country": "AT",
     "icons": ["🇦🇹", "🏠"],
-    "info": "longest residential building ITW",
+    "images": ["karl-marx-hof.jpg"],
+    "caption": "Longest residential building in the world",
     "link": "https://en.wikipedia.org/wiki/Karl-Marx-Hof",
     "name": "Karl-Marx-Hof"
   },
@@ -538,16 +585,18 @@
     "coords": "45.93833333, 7.72972222",
     "country": "CH",
     "icons": ["🇨🇭", "🗼"],
-    "info": "highest viewing platform in Europe",
+    "images": ["klein-matterhorn.jpg", "klein-matterhorn1.jpg", "klein-matterhorn2.jpg", "klein-matterhorn3.jpg", "klein-matterhorn4.jpg", "klein-matterhorn5.jpg", "klein-matterhorn6.jpg", "klein-matterhorn7.jpg", "klein-matterhorn8.jpg", "klein-matterhorn9.jpg", "klein-matterhorn10.jpg", "klein-matterhorn11.jpg", "klein-matterhorn12.jpg", "klein-matterhorn13.jpg", "klein-matterhorn14.jpg", "klein-matterhorn15.jpg", "klein-matterhorn16.jpg"],
+    "caption": "Highest viewing platform in Europe",
     "link": "https://en.wikipedia.org/wiki/Klein_Matterhorn",
-    "name": "Klein Matterhorn"
+    "name": "Klein Matterhorn",
+    "reference": "highest viewing platform in Europe"
   },
   "kochertalbrucke": {
     "been": true,
     "coords": "49.1773, 9.78499",
     "country": "DE",
     "icons": ["🇩🇪", "🌉"],
-    "info": "highest bridge in Germany",
+    "caption": "Highest bridge in Germany",
     "link": "https://de.wikipedia.org/wiki/Kochertalbrücke",
     "name": "Kochertalbrücke",
     "wikidata": "Q315075"
@@ -557,7 +606,7 @@
     "coords": "43.36000000, -101.97000000",
     "country": "US",
     "icons": ["🇺🇸", "⏺️"],
-    "info": "point furthest from ocean in North America",
+    "caption": "Point furthest from ocean in North America",
     "link": "https://en.wikipedia.org/wiki/Kyle,_South Dakota",
     "name": "Kyle, South Dakota",
     "state": "South Dakota"
@@ -567,16 +616,18 @@
     "coords": "42.04166667, -71.84166667",
     "country": "US",
     "icons": ["🇺🇸", "🛶"],
-    "info": "third longest place name ITW",
+    "images": ["lake-charg.jpg", "lake-chargoggagoggmanchauggagoggchaubunagungamaugg1.jpg", "lake-chargoggagoggmanchauggagoggchaubunagungamaugg2.jpg"],
+    "caption": "Third longest place name in the world",
     "link": "https://en.wikipedia.org/wiki/Lake_Chaubunagungamaug",
-    "name": "Lake Chargoggagoggmanchauggagoggchaubunagungamaugg"
+    "name": "Lake Chargoggagoggmanchauggagoggchaubunagungamaugg",
+    "reference": "third longest place name in the world"
   },
   "lake-pontchartrain-causeway": {
     "been": false,
     "coords": "30.199722222222, -90.122777777778",
     "country": "US",
     "icons": ["🇺🇸", "🌉"],
-    "info": "longest continuous bridge over water ITW",
+    "caption": "Longest continuous bridge over water in the world",
     "link": "https://en.wikipedia.org/wiki/Lake_Pontchartrain_Causeway",
     "name": "Lake Pontchartrain Causeway"
   },
@@ -585,7 +636,7 @@
     "coords": "47.52611111, 12.73916667",
     "country": "AT",
     "icons": ["🇦🇹", "⚒️"],
-    "info": "deepest known cave in European Union",
+    "caption": "Deepest known cave in European Union",
     "link": "https://en.wikipedia.org/wiki/Lamprechtsofen",
     "name": "Lamprechtsofen"
   },
@@ -595,7 +646,7 @@
     "coords": "53.40750000, -2.97840000",
     "country": "GB",
     "icons": ["🇬🇧", "🚉"],
-    "info": "oldest operating mainline terminal station ITW",
+    "caption": "Oldest operating mainline terminal station in the world",
     "link": "https://en.wikipedia.org/wiki/Liverpool_Lime_Street_railway_station",
     "name": "Liverpool Lime Street"
   },
@@ -604,15 +655,17 @@
     "coords": "53.22320000, -4.20080000",
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿", "🌃"],
-    "info": "second longest place name ITW",
+    "images": ["llanfair.jpg", "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch1.jpg", "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch2.jpg", "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch3.jpg"],
+    "caption": "Second longest place name in the world",
     "link": "https://en.wikipedia.org/wiki/Llanfairpwllgwyngyll",
-    "name": "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"
+    "name": "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch",
+    "reference": "second longest place name in the world"
   },
   "los-angeles-a-line": {
     "been": false,
     "country": "US",
     "icons": ["🇺🇸", "🚋"],
-    "info": "longest light rail line ITW",
+    "caption": "Longest light rail line in the world",
     "link": "https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)",
     "name": "Los Angeles A Line"
   },
@@ -622,16 +675,18 @@
     "coords": "40.75027778, -73.98833333",
     "country": "US",
     "icons": ["🇺🇸", "🏬"],
-    "info": "largest department store ITW",
+    "images": ["macys.jpg", "macys1.jpg", "macys2.jpg", "macys3.jpg", "macys4.jpg"],
+    "caption": "Largest department store in the world",
     "link": "https://en.wikipedia.org/wiki/Macy%27s_Herald_Square",
-    "name": "Macy’s"
+    "name": "Macy’s",
+    "reference": "largest department store in the world"
   },
   "mauritania-railway": {
     "been": false,
     "coords": "21.29799, -13.0476",
     "country": "MR",
     "icons": ["🇲🇷", "🚃"],
-    "info": "longest train consist ITW",
+    "caption": "Longest train consist in the world",
     "link": "https://en.wikipedia.org/wiki/Mauritania_Railway",
     "name": "Mauritania Railway"
   },
@@ -640,7 +695,7 @@
     "coords": "21.4225, 39.826111111",
     "country": "SA",
     "icons": ["🇸🇦", "🕋"],
-    "info": "highest capacity metro ITW",
+    "caption": "Highest capacity metro in the world",
     "link": "https://en.wikipedia.org/wiki/Al_Mashaaer_Al_Mugaddassah_Metro_line",
     "name": "Mecca Metro",
     "wikidata": "Q1809993"
@@ -650,7 +705,7 @@
     "coords": "60.23333333, 25.13333333",
     "country": "FI",
     "icons": ["🇫🇮", "🚇"],
-    "info": "northernmost metro station ITW",
+    "caption": "Northernmost metro station in the world",
     "link": "https://en.wikipedia.org/wiki/Mellunmäki_metro_station",
     "name": "Mellunmäki"
   },
@@ -659,7 +714,7 @@
     "coords": "8.52916667, -71.06361111",
     "country": "VE",
     "icons": ["🇻🇪", "🚡"],
-    "info": "highest cable car ITW",
+    "caption": "Highest cable car in the world",
     "link": "https://en.wikipedia.org/wiki/Mérida_cable_car",
     "name": "Mérida Cable Car"
   },
@@ -668,7 +723,7 @@
     "coords": "37.37940000, -118.16180000",
     "country": "US",
     "icons": ["🇺🇸", "🌲"],
-    "info": "oldest tree ITW",
+    "caption": "Oldest tree in the world",
     "link": "https://en.wikipedia.org/wiki/Methuselah_(pine_tree)",
     "name": "Methuselah"
   },
@@ -677,7 +732,7 @@
     "coords": "46.05777778, 7.90500000",
     "country": "CH",
     "icons": ["🇨🇭", "🚠"],
-    "info": "highest funicular ITW",
+    "caption": "Highest funicular in the world",
     "link": "https://en.wikipedia.org/wiki/Metro_Alpin",
     "name": "Metro Alpin"
   },
@@ -685,7 +740,8 @@
     "been": true,
     "country": "SK",
     "icons": ["🇸🇰", "🏠"],
-    "info": "narrowest house in Eastern Europe",
+    "caption": "Narrowest house in Eastern Europe",
+    "images": ["michalska.jpg"],
     "link": "https://www.tripadvisor.com/Attraction_Review-g274924-d8560693-Reviews-The_Narrowest_House_in_eastern_Europe_not_world-Bratislava_Bratislava_Region.html",
     "name": "Michalska 15"
   },
@@ -695,7 +751,8 @@
     "coords": "40.83444444, -73.93861111",
     "country": "US",
     "icons": ["🇺🇸", "🏠"],
-    "info": "oldest house in Manhattan",
+    "images": ["morris.jpg"],
+    "caption": "Oldest house in Manhattan",
     "link": "https://en.wikipedia.org/wiki/Morris–Jumel_Mansion",
     "name": "Morris-Jumel Mansion"
   },
@@ -704,7 +761,7 @@
     "coords": "33.41611111, 35.85750000",
     "country": "SY",
     "icons": ["🇸🇾", "🪖"],
-    "info": "highest permanently manned UN position ITW",
+    "caption": "Highest permanently manned UN position in the world",
     "link": "https://en.wikipedia.org/wiki/Mount_Hermon",
     "name": "Mount Hermon"
   },
@@ -714,15 +771,17 @@
     "coords": "50.07533250, 14.43769000",
     "country": "CZ",
     "icons": ["🇨🇿", "🚇"],
-    "info": "deepest metro station in European Union",
+    "images": ["namesti-miru1.jpg"],
+    "caption": "Deepest metro station in European Union",
     "link": "https://en.wikipedia.org/wiki/Náměst%C3%AD_M%C3%ADru_(Prague_Metro)",
-    "name": "Náměstí Míru"
+    "name": "Náměstí Míru",
+    "reference": "deepest metro station in European Union"
   },
   "narendra-modi-stadium": {
     "been": false,
     "country": "IN",
     "icons": ["🏟️", "🇮🇳"],
-    "info": "largest stadium ITW",
+    "caption": "Largest stadium in the world",
     "link": "https://en.wikipedia.org/wiki/Narendra_Modi_Stadium",
     "name": "Narendra Modi Stadium"
   },
@@ -731,7 +790,7 @@
     "coords": "68.34829, 18.93971",
     "country": "NO",
     "icons": ["🇳🇴", "🚃"],
-    "info": "northernmost railway in Western Europe",
+    "caption": "Northernmost railway in Western Europe",
     "link": "https://en.wikipedia.org/wiki/Iron_Ore_Line",
     "name": "Narvik",
     "wikidata": "Q220922"
@@ -741,7 +800,7 @@
     "coords": "42.92500000, 17.61666667",
     "country": "BA",
     "icons": ["🇧🇦", "🌃"],
-    "info": "only town on Bosnian coastline",
+    "caption": "Only town on Bosnian coastline",
     "link": "https://en.wikipedia.org/wiki/Neum",
     "name": "Neum"
   },
@@ -750,43 +809,51 @@
     "coords": "46.64611111, 7.65250000",
     "country": "CH",
     "icons": ["🇨🇭", "🪜"],
-    "info": "top of world's longest stairway",
+    "images": ["niesen.jpg", "niesen1.jpg", "niesen2.jpg", "niesen3.jpg", "niesen4.jpg", "niesen5.jpg", "niesen6.jpg", "niesen7.jpg", "niesen8.jpg", "niesen9.jpg", "niesen10.jpg", "niesen11.jpg"],
+    "caption": "Top of world's longest stairway",
     "link": "https://de.wikipedia.org/wiki/Niesen_(Berg)",
-    "name": "Niesen"
+    "name": "Niesen",
+    "reference": "top of world's longest stairway"
   },
   "noyelles": {
     "been": true,
     "coords": "50.41250000, 2.97700000",
     "country": "FR",
     "icons": ["🇫🇷", "🏬"],
-    "info": "largest grocery store in France",
+    "images": ["noyelles2.jpg", "noyelles3.jpg", "noyelles1.jpg"],
+    "caption": "Largest grocery store in France",
     "link": "https://fr.wikipedia.org/wiki/Noyelles_(centre_commercial)",
-    "name": "Noyelles"
+    "name": "Noyelles",
+    "reference": "largest grocery store in France"
   },
   "oregon-city": {
     "been": true,
     "coords": "45.35722222, -122.59166667",
     "country": "US",
     "icons": ["🇺🇸", "🐴"],
-    "info": "end of the Oregon Trail",
+    "images": ["oregon-trail.jpg", "oregon-city1.jpg"],
+    "caption": "End of the Oregon Trail",
     "link": "https://en.wikipedia.org/wiki/Oregon_City",
-    "name": "Oregon City"
+    "name": "Oregon City",
+    "reference": "end of the Oregon Trail"
   },
   "our-lady-of-pines": {
     "been": true,
     "coords": "39.25416667, -79.49777778",
     "country": "US",
     "icons": ["🇺🇸", "⛪️"],
-    "info": "smallest church in USA",
+    "images": ["our-lady-of-pines1.jpg", "our-lady-of-pines2.jpg", "our-lady-of-pines3.jpg", "our-lady-of-pines4.jpg"],
+    "caption": "Smallest church in the United StatesA",
     "link": "https://en.wikipedia.org/wiki/Silver_Lake,_West_Virginia",
-    "name": "Our Lady of the Pines"
+    "name": "Our Lady of the Pines",
+    "reference": "smallest church in the United StatesA"
   },
   "panmunjom-flagpole": {
     "been": true,
     "coords": "37.94173333, 126.68001944",
     "country": "KP",
     "icons": ["🇰🇵", "🏳"],
-    "info": "sixth-highest flagpole ITW",
+    "caption": "Sixth-highest flagpole in the world",
     "link": "https://en.wikipedia.org/wiki/Kijong-dong#Flagpole",
     "name": "Panmunjom flagpole"
   },
@@ -795,16 +862,18 @@
     "coords": "45.76670000, 2.96860000",
     "country": "FR",
     "icons": ["🇫🇷", "🚃"],
-    "info": "highest train station in Massif Central",
+    "images": ["panoramique.jpg", "panoramique-des-domes1.jpg", "panoramique-des-domes2.jpg", "panoramique-des-domes3.jpg", "panoramique-des-domes4.jpg", "panoramique-des-domes5.jpg"],
+    "caption": "Highest train station in Massif Central",
     "link": "https://fr.wikipedia.org/wiki/Panoramique_des_Dômes",
-    "name": "Panoramique des Dômes"
+    "name": "Panoramique des Dômes",
+    "reference": "highest train station in Massif Central"
   },
   "penon-de-velez-de-la-gomera": {
     "been": false,
     "coords": "35.17222222, -4.29972222",
     "country": "ES",
     "icons": ["🇪🇸", "🛂"],
-    "info": "shortest international land border ITW",
+    "caption": "Shortest international land border in the world",
     "link": "https://en.wikipedia.org/wiki/Peñón_de_Vélez_de_la_Gomera",
     "name": "Peñón de Vélez de la Gomera"
   },
@@ -813,7 +882,7 @@
     "coords": "14.79359000, 120.95354000",
     "country": "PH",
     "icons": ["🇵🇭", "🏟"],
-    "info": "largest indoor arena ITW",
+    "caption": "Largest indoor arena in the world",
     "link": "https://en.wikipedia.org/wiki/Philippine_Arena",
     "name": "Philippine Arena"
   },
@@ -822,7 +891,7 @@
     "coords": "46.95555556, 8.27694444",
     "country": "CH",
     "icons": ["🇨🇭", "⚙️"],
-    "info": "steepest rack railway ITW",
+    "caption": "Steepest rack railway in the world",
     "link": "https://en.wikipedia.org/wiki/Pilatus_Railway",
     "name": "Pilatus Railway"
   },
@@ -831,7 +900,7 @@
     "coords": "42.05222600, -70.18920150",
     "country": "US",
     "icons": ["🇺🇸", "🗼"],
-    "info": "tallest all-granite structure in the US",
+    "caption": "Tallest all-granite structure in the United States",
     "link": "https://en.wikipedia.org/wiki/Pilgrim_Monument",
     "name": "Pilgrim Monument"
   },
@@ -840,18 +909,22 @@
     "coords": "41.95808333, -70.66213889",
     "country": "US",
     "icons": ["🇺🇸", "🪨"],
-    "info": "legendary first landing site of settler religious extremists",
+    "images": ["plymouth-rock1.jpg", "plymouth-rock2.jpg", "plymouth-rock3.jpg", "plymouth-rock4.jpg", "plymouth-rock5.jpg", "plymouth-rock6.jpg"],
+    "caption": "Legendary first landing site of settler religious extremists",
     "link": "https://en.wikipedia.org/wiki/Plymouth_Rock",
-    "name": "Plymouth Rock"
+    "name": "Plymouth Rock",
+    "reference": "legendary first landing site of settler religious extremists"
   },
   "pocahontas-island": {
     "been": true,
     "coords": "37.23861111, -77.39972222",
     "country": "US",
     "icons": ["🇺🇸", "🏘"],
-    "info": "oldest black community in the US",
+    "images": ["pocahontas-island1.jpg", "pocahontas-island2.jpg", "pocahontas-island3.jpg", "pocahontas-island4.jpg"],
+    "caption": "Oldest black community in the United States",
     "link": "https://en.wikipedia.org/wiki/Pocahontas_Island",
-    "name": "Pocahontas Island"
+    "name": "Pocahontas Island",
+    "reference": "oldest black community in the United States"
   },
   "powers-street-mosque": {
     "been": true,
@@ -859,7 +932,7 @@
     "coords": "40.71194444, -73.94666667",
     "country": "US",
     "icons": ["🇺🇸", "🕌"],
-    "info": "second oldest mosque in the US",
+    "caption": "Second oldest mosque in the United States",
     "link": "https://en.wikipedia.org/wiki/Powers_Street_Mosque",
     "name": "Powers Street Mosque"
   },
@@ -868,7 +941,7 @@
     "city": "Richmond",
     "country": "US",
     "icons": ["🇺🇸", "🚋"],
-    "info": "first practical electric tram ITW",
+    "caption": "First practical electric tram in the world",
     "link": "https://en.wikipedia.org/wiki/Richmond_Union_Passenger_Railway",
     "name": "Richmond",
     "wikidata": "Q5325784"
@@ -878,7 +951,7 @@
     "coords": "45.42583333, -75.69722222",
     "country": "CA",
     "icons": ["🇨🇦", "🚢"],
-    "info": "oldest continuously operating canal in North America",
+    "caption": "Oldest continuously operating canal in North America",
     "link": "https://en.wikipedia.org/wiki/Rideau_Canal",
     "name": "Rideau Canal"
   },
@@ -888,7 +961,7 @@
     "coords": "56.92400000, 24.13700000",
     "country": "LV",
     "icons": ["🇱🇻", "🗼"],
-    "info": "tallest tower in the European Union",
+    "caption": "Tallest tower in the European Union",
     "link": "https://en.wikipedia.org/wiki/Riga_Radio_and_TV_Tower",
     "name": "Riga TV Tower"
   },
@@ -896,7 +969,7 @@
     "been": false,
     "country": "SA",
     "icons": ["🇸🇦", "🚇"],
-    "info": "longest automatic metro ITW",
+    "caption": "Longest automatic metro in the world",
     "link": "https://en.wikipedia.org/wiki/Riyadh_Metro",
     "name": "Riyadh Metro",
     "wikidata": "Q3855748"
@@ -907,7 +980,7 @@
     "coords": "39.04963000, 125.77537000",
     "country": "KP",
     "icons": ["🇰🇵", "🏟"],
-    "info": "largest stadium ITW",
+    "caption": "Largest stadium in the world",
     "link": "https://en.wikipedia.org/wiki/Rungrado_1st_of_May_Stadium",
     "name": "Rungrado 1st of May Stadium"
   },
@@ -916,19 +989,21 @@
     "coords": "59.03138889, 5.81500000",
     "country": "NO",
     "icons": ["🇳🇴", "🕳"],
-    "info": "lowest undersea road tunnel ITW",
+    "caption": "Lowest undersea road tunnel in the world",
     "link": "https://en.wikipedia.org/wiki/Ryfast",
     "name": "Ryfast Tunnel"
   },
   "sagrada-familia": {
     "been": true,
     "city": "Barcelona",
-    "coords": "41.40369, 2.17433",
+    "coords": "41.40369000, 2.17433000",
     "country": "ES",
     "icons": ["🇪🇸", "⛪️"],
-    "info": "tallest church ITW",
+    "images": ["sagrada-familia1.jpg"],
+    "caption": "Tallest church in the world",
     "link": "https://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia",
     "name": "Sagrada Familia",
+    "reference": "tallest church in the world",
     "wikidata": "Q48435"
   },
   "sandia-peak-tramway": {
@@ -936,17 +1011,20 @@
     "coords": "35.19055556, -106.47944444",
     "country": "US",
     "icons": ["🇺🇸", "🚡"],
-    "info": "longest cable car in the Americas",
+    "caption": "Longest cable car in the Americas",
     "link": "https://en.wikipedia.org/wiki/Sandia_Peak_Tramway",
     "name": "Sandia Peak Tramway"
   },
   "santa-cruz-wharf": {
     "been": true,
+    "coords": "36.95983667, -122.01932500",
     "country": "US",
     "icons": ["🇺🇸", "⚓️"],
-    "info": "longest pier on the west coast of USA<br>",
+    "images": ["santa-cruz-wharf1.jpg", "santa-cruz-wharf2.jpg", "santa-cruz-wharf3.jpg", "santa-cruz-wharf4.jpg", "santa-cruz-wharf5.jpg", "santa-cruz-wharf6.jpg", "santa-cruz-wharf7.jpg"],
+    "caption": "Longest pier on the west coast of USA<br>",
     "link": "https://en.wikipedia.org/wiki/Santa_Cruz_Wharf",
-    "name": "Santa Cruz Wharf"
+    "name": "Santa Cruz Wharf",
+    "reference": "longest pier on the west coast of USA<br>"
   },
   "santo-domingo": {
     "been": true,
@@ -954,9 +1032,11 @@
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
     "icons": ["🇩🇴", "🏙️"],
-    "info": "oldest colonial city in the Americas",
+    "images": ["santo-domingo1.jpg", "santo-domingo2.jpg", "santo-domingo3.jpg", "santo-domingo4.jpg", "santo-domingo5.jpg", "santo-domingo6.jpg", "santo-domingo7.jpg"],
+    "caption": "Oldest colonial city in the Americas",
     "link": "https://en.wikipedia.org/wiki/Santo_Domingo",
-    "name": "Santo Domingo"
+    "name": "Santo Domingo",
+    "reference": "oldest colonial city in the Americas"
   },
   "santo-domingo-cathedral": {
     "been": true,
@@ -964,16 +1044,18 @@
     "coords": "18.47277779, -69.88388890",
     "country": "DO",
     "icons": ["🇩🇴", "⛪️"],
-    "info": "oldest cathedral in the Americas",
+    "images": ["santo-domingo-cathedral1.jpg"],
+    "caption": "Oldest cathedral in the Americas",
     "link": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo",
-    "name": "Santo Domingo Cathedral"
+    "name": "Santo Domingo Cathedral",
+    "reference": "oldest cathedral in the Americas"
   },
   "seikan-tunnel": {
     "been": true,
     "coords": "41.31570000, 140.33510000",
     "country": "JP",
     "icons": ["🇯🇵", "🚇"],
-    "info": "lowest undersea rail tunnel",
+    "caption": "Lowest undersea rail tunnel",
     "link": "https://en.wikipedia.org/wiki/Seikan_Tunnel",
     "name": "Seikan Tunnel"
   },
@@ -982,7 +1064,7 @@
     "coords": "37.3857421596313, -5.9930955622969",
     "country": "ES",
     "icons": ["🇪🇸", "⛪️"],
-    "info": "largest gothic cathedral ITW",
+    "caption": "Largest gothic cathedral in the world",
     "link": "https://en.wikipedia.org/wiki/Seville_Cathedral",
     "name": "Seville Cathedral",
     "wikidata": "Q231606"
@@ -992,7 +1074,7 @@
     "coords": "52.70194444, -8.92472222",
     "country": "IE",
     "icons": ["🇮🇪", "🛫"],
-    "info": "westernmost international airport in Europe",
+    "caption": "Westernmost international airport in Europe",
     "link": "https://en.wikipedia.org/wiki/Shannon_Airport",
     "name": "Shannon Airport"
   },
@@ -1002,16 +1084,18 @@
     "coords": "41.27433333, -72.86277778",
     "country": "US",
     "icons": ["🇺🇸", "🚂"],
-    "info": "oldest operating troslley museum in the US",
+    "images": ["shore-line-trolley-museum1.jpg", "shore-line-trolley-museum2.jpg", "shore-line-trolley-museum3.jpg", "shore-line-trolley-museum4.jpg", "shore-line-trolley-museum5.jpg", "shore-line-trolley-museum6.jpg", "shore-line-trolley-museum7.jpg", "shore-line-trolley-museum8.jpg", "shore-line-trolley-museum9.jpg", "shore-line-trolley-museum10.jpg", "shore-line-trolley-museum11.jpg", "shore-line-trolley-museum12.jpg", "shore-line-trolley-museum13.jpg"],
+    "caption": "Oldest operating troslley museum in the United States",
     "link": "https://en.wikipedia.org/wiki/Shore_Line_Trolley_Museum",
-    "name": "Shore Line Trolley Museum"
+    "name": "Shore Line Trolley Museum",
+    "reference": "oldest operating troslley museum in the United States"
   },
   "sierre–montana–crans": {
     "been": false,
     "coords": "46.303, 7.5127",
     "country": "CH",
     "icons": ["🇨🇭", "🚠"],
-    "info": "longest funicular ITW",
+    "caption": "Longest funicular in the world",
     "link": "https://en.wikipedia.org/wiki/Funiculaire_Sierre–Montana–Crans",
     "name": "Sierre–Montana–Crans"
   },
@@ -1020,7 +1104,7 @@
     "coords": "71.08961111, 28.21838889",
     "country": "NO",
     "icons": ["🇳🇴", "🕯"],
-    "info": "northernmost mainland lighthouse ITW",
+    "caption": "Northernmost mainland lighthouse in the world",
     "link": "https://en.wikipedia.org/wiki/Slettnes_Lighthouse",
     "name": "Slettnes Lighthouse"
   },
@@ -1030,9 +1114,20 @@
     "coords": "40.67444444, -73.99722222",
     "country": "US",
     "icons": ["🇺🇸", "🚇"],
-    "info": "tallest metro station ITW",
+    "images": ["smith-ninth.jpg", "smith–ninth-streets1.jpg", "smith–ninth-streets2.jpg", "smith–ninth-streets3.jpg", "smith–ninth-streets4.jpg", "smith–ninth-streets5.jpg", "smith–ninth-streets6.jpg", "smith–ninth-streets7.jpg", "smith–ninth-streets8.jpg", "smith–ninth-streets9.jpg", "smith–ninth-streets10.jpg", "smith–ninth-streets11.jpg", "smith–ninth-streets12.jpg", "smith–ninth-streets13.jpg"],
+    "caption": "Tallest metro station in the world",
     "link": "https://en.wikipedia.org/wiki/Smith–Ninth_Streets_station",
-    "name": "Smith–Ninth Streets"
+    "name": "Smith–Ninth Streets",
+    "reference": "tallest metro station in the world"
+  },
+  "sound-transit-2-line": {
+    "been": false,
+    "country": "US",
+    "dateAdded": "2025-12-19",
+    "icons": ["🇺🇸", "🚋"],
+    "link": "https://en.wikipedia.org/wiki/2_Line_(Sound_Transit)",
+    "name": "Sound Transit 2 Line",
+    "reference": "first railway over a floating bridge in the world"
   },
   "southampton": {
     "been": true,
@@ -1040,24 +1135,28 @@
     "coords": "40.88527778, -72.39527778",
     "country": "US",
     "icons": ["🇺🇸", "🛖"],
-    "info": "oldest English settlement in New York",
+    "images": ["southampton1.jpg", "southampton2.jpg", "southampton3.jpg", "southampton4.jpg", "southampton5.jpg", "southampton6.jpg", "southampton7.jpg", "southampton8.jpg", "southampton9.jpg", "southampton10.jpg", "southampton11.jpg", "southampton12.jpg"],
+    "caption": "Oldest English settlement in New York",
     "link": "https://en.wikipedia.org/wiki/Southampton,_New_York",
-    "name": "Southampton"
+    "name": "Southampton",
+    "reference": "oldest English settlement in New York"
   },
   "speyer-cathedral": {
     "been": true,
     "coords": "49.31720000, 8.44240000",
     "country": "DE",
     "icons": ["🇩🇪", "⛪️"],
-    "info": "largest Romanesque church ITW",
+    "images": ["speyer-cathedral1.jpg", "speyer-cathedral2.jpg", "speyer-cathedral3.jpg", "speyer-cathedral4.jpg", "speyer-cathedral5.jpg", "speyer-cathedral6.jpg", "speyer-cathedral7.jpg", "speyer-cathedral8.jpg"],
+    "caption": "Largest Romanesque church in the world",
     "link": "https://en.wikipedia.org/wiki/Speyer_Cathedral",
-    "name": "Speyer Cathedral"
+    "name": "Speyer Cathedral",
+    "reference": "largest Romanesque church in the world"
   },
   "st-charles-streetcar-line": {
     "been": false,
     "country": "US",
     "icons": ["🇺🇸", "🚋"],
-    "info": "oldest continuously operating streetcar line ITW",
+    "caption": "Oldest continuously operating streetcar line in the world",
     "link": "https://en.wikipedia.org/wiki/St._Charles_Streetcar_Line",
     "name": "St. Charles Streetcar Line"
   },
@@ -1065,7 +1164,7 @@
     "been": false,
     "country": "GB",
     "icons": ["🇬🇧", "🚃"],
-    "info": "shortest train line in UK",
+    "caption": "Shortest train line in UK",
     "link": "https://en.wikipedia.org/wiki/Stourbridge_Town_branch_line",
     "name": "Stourbridge Town branch line",
     "wikidata": "Q7620589"
@@ -1075,9 +1174,11 @@
     "coords": "39.98313889, -76.15986111",
     "country": "US",
     "icons": ["🇺🇸", "🚂"],
-    "info": "oldest continuously operating standard-gauge railroad in the western hemisphere",
+    "images": ["strasburg-rail-road1.jpg", "strasburg-rail-road2.jpg", "strasburg-rail-road3.jpg", "strasburg-rail-road4.jpg", "strasburg-rail-road5.jpg"],
+    "caption": "Oldest continuously operating standard-gauge railroad in the western hemisphere",
     "link": "https://en.wikipedia.org/wiki/Strasburg_Rail_Road",
-    "name": "Strasburg Rail Road"
+    "name": "Strasburg Rail Road",
+    "reference": "oldest continuously operating standard-gauge railroad in the western hemisphere"
   },
   "szechenyi-furdo": {
     "been": true,
@@ -1085,18 +1186,20 @@
     "coords": "47.51861111, 19.08194444",
     "country": "HU",
     "icons": ["🇭🇺", "♨️"],
-    "info": "largest medicinal bath in Europe",
+    "caption": "Largest medicinal bath in Europe",
     "link": "https://en.wikipedia.org/wiki/Széchenyi_thermal_bath",
     "name": "Széchenyi Fürdő"
   },
   "tagebau-hambach": {
     "been": true,
-    "coords": "50.910833333333, 6.5027777777778",
+    "coords": "50.91083333, 6.50277778",
     "country": "DE",
     "icons": ["🇩🇪", "⚒️"],
-    "info": "deepest open pit mine in Europe",
+    "images": ["tagebau-hambach1.jpg", "tagebau-hambach2.jpg", "tagebau-hambach3.jpg", "tagebau-hambach4.jpg", "tagebau-hambach5.jpg", "tagebau-hambach6.jpg", "tagebau-hambach7.jpg", "tagebau-hambach8.jpg"],
+    "caption": "Deepest open pit mine in Europe",
     "link": "https://de.wikipedia.org/wiki/Tagebau_Hambach",
     "name": "Tagebau Hambach",
+    "reference": "deepest open pit mine in Europe",
     "wikidata": "Q315371"
   },
   "taumatawhakatangi­hangakoauauotamatea­turipukakapikimaunga­horonukupokaiwhen­uakitanatahu": {
@@ -1104,7 +1207,7 @@
     "coords": "-40.34600000, 176.54020000",
     "country": "NZ",
     "icons": ["🇳🇿", "⛰️"],
-    "info": "longest place name ITW",
+    "caption": "Longest place name in the world",
     "link": "https://en.wikipedia.org/wiki/Taumatawhakatangi%C2%ADhangakoauauotamatea%C2%ADturipukakapikimaunga%C2%ADhoronukupokaiwhen%C2%ADuakitanatahu",
     "name": "Taumatawhakatangi­hangakoauauotamatea­turipukakapikimaunga­horonukupokaiwhen­uakitanatahu"
   },
@@ -1114,16 +1217,18 @@
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
     "icons": ["🇲🇽", "🛕"],
-    "info": "largest city in pre-Columbian Americas",
+    "images": ["tenochtitlan1.jpg"],
+    "caption": "Largest city in pre-Columbian Americas",
     "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
-    "name": "Tenochtitlan"
+    "name": "Tenochtitlan",
+    "reference": "largest city in pre-Columbian Americas"
   },
   "tianmen-mountain": {
     "been": false,
     "coords": "29.04988056, 110.47888889",
     "country": "CN",
     "icons": ["🇨🇳", "🚡"],
-    "info": "longest cable car ITW",
+    "caption": "Longest cable car in the world",
     "link": "https://en.wikipedia.org/wiki/Tianmen_Mountain",
     "name": "Tianmen Mountain"
   },
@@ -1132,7 +1237,8 @@
     "coords": "46.90527778, 11.09666667",
     "country": "AT",
     "icons": ["🇦🇹", "🏔"],
-    "info": "second highest border crossing in Europe",
+    "images": ["timmelsjoch.jpg"],
+    "caption": "Second highest border crossing in Europe",
     "link": "https://en.wikipedia.org/wiki/Timmelsjoch",
     "name": "Timmelsjoch"
   },
@@ -1140,7 +1246,7 @@
     "been": false,
     "country": "RU",
     "icons": ["🇷🇺", "🚃"],
-    "info": "longest train service ITW",
+    "caption": "Longest train service in the world",
     "link": "https://en.wikipedia.org/wiki/Trans-Siberian_Railway",
     "name": "Trans-Siberian Railway",
     "wikidata": "Q58767"
@@ -1151,9 +1257,11 @@
     "coords": "49.75611111, 6.64305556",
     "country": "DE",
     "icons": ["🇩🇪", "⛪️"],
-    "info": "oldest church in Germany",
+    "images": ["trier-cathedral1.jpg", "trier-cathedral2.jpg", "trier-cathedral3.jpg", "trier-cathedral4.jpg"],
+    "caption": "Oldest church in Germany",
     "link": "https://en.wikipedia.org/wiki/Trier_Cathedral",
-    "name": "Trier Cathedral"
+    "name": "Trier Cathedral",
+    "reference": "oldest church in Germany"
   },
   "tunel-de-oriente": {
     "been": true,
@@ -1161,7 +1269,7 @@
     "coords": "6.20427731, -75.48790417",
     "country": "CO",
     "icons": ["🇨🇴", "🕳️"],
-    "info": "second longest tunnel in Latin America",
+    "caption": "Second longest tunnel in Latin America",
     "link": "https://es.wikipedia.org/wiki/Túnel_de_Oriente",
     "name": "Túnel de Oriente"
   },
@@ -1170,7 +1278,7 @@
     "coords": "-26.16666667, 26.46666667",
     "country": "ZA",
     "icons": ["🇿🇦", "🦬"],
-    "info": "fourth longest place name ITW",
+    "caption": "Fourth longest place name in the world",
     "link": "https://en.wikipedia.org/wiki/Tweebuffelsmeteenskootmorsdoodgeskietfontein",
     "name": "Tweebuffelsmeteenskootmorsdoodgeskietfontein"
   },
@@ -1179,17 +1287,20 @@
     "coords": "48.39861111, 9.99250000",
     "country": "DE",
     "icons": ["🇩🇪", "⛪️"],
-    "info": "second tallest church ITW",
+    "caption": "Second tallest church in the world",
     "link": "https://en.wikipedia.org/wiki/Ulm_Minster",
     "name": "Ulm Minster"
   },
   "us-20": {
     "been": true,
+    "coords": "42.90851167, -76.80057500",
     "country": "US",
     "icons": ["🇺🇸", "🛣"],
-    "info": "longest road in the US",
+    "images": ["us-201.jpg", "us-202.jpg", "us-203.jpg"],
+    "caption": "Longest road in the United States",
     "link": "https://en.wikipedia.org/wiki/U.S._Route_20",
     "name": "US 20",
+    "reference": "longest road in the United States",
     "wikidata": "Q407881"
   },
   "vander-ende–onderdonk-house": {
@@ -1198,7 +1309,7 @@
     "coords": "40.71111111, -73.92000000",
     "country": "US",
     "icons": ["🇺🇸", "🏠"],
-    "info": "oldest Dutch stone house in New York City",
+    "caption": "Oldest Dutch stone house in New York City",
     "link": "https://en.wikipedia.org/wiki/Vander_Ende–Onderdonk_House",
     "name": "Vander Ende–Onderdonk House"
   },
@@ -1207,7 +1318,7 @@
     "coords": "70.37222222, 31.09472222",
     "country": "NO",
     "icons": ["🇳🇴", "🪖"],
-    "info": "northernmost fortress ITW",
+    "caption": "Northernmost fortress in the world",
     "link": "https://en.wikipedia.org/wiki/Vardøhus_Fortress",
     "name": "Vardøhus Fortress"
   },
@@ -1217,7 +1328,7 @@
     "coords": "41.90333333, 12.45333333",
     "country": "VA",
     "icons": ["🇻🇦", "⛪️"],
-    "info": "smallest country on Earth",
+    "caption": "Smallest country on Earth",
     "link": "https://en.wikipedia.org/wiki/Vatican_City",
     "name": "Vatican City"
   },
@@ -1225,7 +1336,7 @@
     "been": false,
     "country": "VA",
     "icons": ["🇻🇦", "🚊"],
-    "info": "shortest national railway ITW",
+    "caption": "Shortest national railway in the world",
     "link": "https://en.wikipedia.org/wiki/Vatican_Railway",
     "name": "Vatican Railway"
   },
@@ -1234,7 +1345,7 @@
     "coords": "43.41555556, 40.35638889",
     "country": "GE",
     "icons": ["🇬🇪", "🪨"],
-    "info": "deepest known cave on earth",
+    "caption": "Deepest known cave on earth",
     "link": "https://en.wikipedia.org/wiki/Veryovkina_Cave",
     "name": "Veryovkina Cave"
   },
@@ -1243,7 +1354,7 @@
     "coords": "46.25000000, 7.90000000",
     "country": "CH",
     "icons": ["🇨🇭", "🍇"],
-    "info": "highest vineyards in Europe",
+    "caption": "Highest vineyards in Europe",
     "link": "https://en.wikipedia.org/wiki/Visperterminen",
     "name": "Visperterminen"
   },
@@ -1252,7 +1363,7 @@
     "coords": "46.57611111, 7.94388889",
     "country": "CH",
     "icons": ["🇨🇭", "🚞"],
-    "info": "longest rack railway ITW",
+    "caption": "Longest rack railway in the world",
     "link": "https://en.wikipedia.org/wiki/Wengernalpbahn",
     "name": "Wengernalpbahn"
   },
@@ -1261,7 +1372,7 @@
     "coords": "53.52277778, -113.62305556",
     "country": "CA",
     "icons": ["🇨🇦", "🏬"],
-    "info": "largest mall in North America",
+    "caption": "Largest mall in North America",
     "link": "https://en.wikipedia.org/wiki/West_Edmonton_Mall",
     "name": "West Edmonton Mall"
   },
@@ -1270,7 +1381,8 @@
     "coords": "49.59410000, 4.50250000",
     "country": "FR",
     "icons": ["🇫🇷", "🐗"],
-    "info": "largest wild boar statue ITW",
+    "images": ["woinic.jpg"],
+    "caption": "Largest wild boar statue in the world",
     "link": "https://fr.wikipedia.org/wiki/Woinic",
     "name": "Woinic"
   }
