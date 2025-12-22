@@ -111,7 +111,7 @@ function enhancePage(places, pageName) {
     // build lookup key depending on flags
     const baseKey = simplify(name);
     const key = referenceKey && reference
-      ? `${baseKey}-${simplify(reference)}`
+      ? (referenceFirst ? `${simplify(reference)}-${baseKey}` : `${baseKey}-${simplify(reference)}`)
       : baseKey;
 
     const entry = places[key];

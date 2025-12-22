@@ -575,8 +575,7 @@
     "country": "ZA",
     "icons": ["🇿🇦", "🔭"],
     "link": "https://en.wikipedia.org/wiki/Cape_Point",
-    "name": "Cape Point Viewfinder",
-    "reference": "Cape Town"
+    "name": "Cape Point Viewfinder"
   },
   "cardrona-hotel": {
     "been": false,
@@ -584,8 +583,7 @@
     "country": "NZ",
     "icons": ["🇳🇿", "🏨"],
     "link": "https://en.wikipedia.org/wiki/Cardrona,_New_Zealand",
-    "name": "Cardrona Hotel",
-    "reference": "Cardrona"
+    "name": "Cardrona Hotel"
   },
   "casa-de-serralves": {
     "been": false,
@@ -594,8 +592,7 @@
     "country": "PT",
     "icons": ["🇵🇹", "🖼️"],
     "link": "https://en.wikipedia.org/wiki/Serralves",
-    "name": "Casa de Serralves",
-    "reference": "Porto"
+    "name": "Casa de Serralves"
   },
   "casino-mont-blanc": {
     "been": true,
@@ -603,8 +600,7 @@
     "country": "FR",
     "icons": ["🇫🇷", "🎰"],
     "link": "https://en.wikipedia.org/wiki/Chamonix",
-    "name": "Casino Mont Blanc",
-    "reference": "Chamonix"
+    "name": "Casino Mont Blanc"
   },
   "cat": {
     "been": false,
@@ -628,7 +624,7 @@
   "central-fire-station": {
     "been": false,
     "city": "Singapore",
-    "coords": "30.31055556, -104.02555556",
+    "coords": "1.29208333, 103.84902778",
     "country": "SG",
     "icons": ["🇸🇬", "🚒"],
     "link": "https://en.wikipedia.org/wiki/Central_Fire_Station,_Singapore",
@@ -642,7 +638,16 @@
     "icons": ["🇺🇸", "🚒"],
     "link": "https://en.wikipedia.org/wiki/Marfa,_Texas",
     "name": "Central Fire Station, Marfa",
-    "state": "Marfa"
+    "state": "TX"
+  },
+  "central-fire-station-singapore": {
+    "been": false,
+    "city": "Singapore",
+    "coords": "30.31055556, -104.02555556",
+    "country": "SG",
+    "icons": ["🇸🇬", "🚒"],
+    "link": "https://en.wikipedia.org/wiki/Central_Fire_Station,_Singapore",
+    "name": "Central Fire Station, Singapore"
   },
   "central-wash": {
     "been": true,
@@ -672,7 +677,8 @@
     "icons": ["🇺🇸", "🇨🇳"],
     "images": ["chinatown.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=37.79244_N_122.40624_W",
-    "name": "Chinatown"
+    "name": "Chinatown",
+    "reference": "San Francisco"
   },
   "choi-hung-estate": {
     "been": false,
@@ -766,8 +772,7 @@
     "country": "US",
     "icons": ["🇺🇸", "🎶"],
     "link": "https://en.wikipedia.org/wiki/Cleveland_Institute_of_Music",
-    "name": "Cleveland Institute of Music",
-    "reference": "Cleveland"
+    "name": "Cleveland Institute of Music"
   },
   "club-de-regatas-la-marina": {
     "been": false,

@@ -20,6 +20,7 @@
   },
   "algoe-ny": {
     "been": true,
+    "caption": "Algoe is a paper town, a fictional place added to Rand McNally maps to detect plagarization. There’s nothing there.",
     "country": "US",
     "icons": ["🇺🇸", "📍"],
     "images": ["algoe-ny1.jpg", "algoe-ny2.jpg"],
@@ -29,16 +30,21 @@
   },
   "amalienbad": {
     "been": true,
-    "coords": "48.174282, 16.378814",
+    "caption": "One of Vienna’s lovely city baths, an art deco palace of a swimming pool surrounded by multiple levels of changing cabins.",
+    "city": "Vienna",
+    "coords": "48.17428200, 16.37881400",
     "country": "AT",
     "icons": ["🇦🇹", "🏊‍♂️"],
+    "images": ["amalienbad1.jpg", "amalienbad2.jpg", "amalienbad3.jpg"],
     "link": "https://de.wikipedia.org/wiki/Amalienbad",
     "name": "Amalienbad",
     "wikidata": "Q453248"
   },
   "aral-sea": {
     "been": false,
+    "caption": "Once the third largest lake in the world, now almost entirely dried up. Featured in Pink Floyd",
     "coords": "45.00000000, 60.00000000",
+    "countries": ["KZ", "UZ"],
     "country": "KZ",
     "icons": ["🇰🇿", "🏜️"],
     "link": "https://en.wikipedia.org/wiki/Aral_Sea",
@@ -46,6 +52,7 @@
   },
   "artek": {
     "been": false,
+    "caption": "Legendary Soviet children’s summer camp in the Crimea.",
     "coords": "44.55000000, 34.30000000",
     "country": "UA",
     "icons": ["🇺🇦", "🏖"],
@@ -54,6 +61,7 @@
   },
   "atomium": {
     "been": true,
+    "caption": "Sculptural centerpiece built for the 1958 Brussels World’s Fair. Featured on the cover of the Hooverphonic album <i>Blue Wonder Power Milk</i>.",
     "coords": "50.89472222, 4.34111111",
     "country": "BE",
     "icons": ["🇧🇪", "⚛️"],
@@ -63,14 +71,17 @@
   },
   "baarle-nassau": {
     "been": true,
+    "caption": "A patchwork town of exclaves and enclaves, where every house is in a different country.",
     "coords": "51.45000000, 4.93333333",
     "countries": ["NL", "BE"],
     "icons": ["🇳🇱", "🇧🇪"],
+    "images": ["baarle-nassau1.jpg", "baarle-nassau2.jpg", "baarle-nassau3.jpg", "baarle-nassau4.jpg", "baarle-nassau5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Baarle-Nassau",
     "name": "Baarle-Nassau"
   },
   "baden-baden": {
     "been": true,
+    "caption": "The best preserved of UNESCO’s Spa Towns of Europe, you can actually visit the spa as it was meant to be experienced, passing from one numbered room to the next.",
     "coords": "48.76277778, 8.24083333",
     "country": "DE",
     "icons": ["🇩🇪", "♨️"],
@@ -79,6 +90,7 @@
   },
   "batttersea-power-station": {
     "been": true,
+    "caption": "Iconic coal-fired power station featured on the cover of Pink Floyd’s <i>Animals</i> with a flying pig. Derelict for many years, now renovated with a shopping mall and an Apple Store.",
     "coords": "51.48180000, -0.14470000",
     "country": "GB",
     "icons": ["🇬🇧", "🐷"],
@@ -88,6 +100,7 @@
   },
   "belgian-coast-tram": {
     "been": true,
+    "caption": "A remnant of Belgium’s nationwide Vicinial tramway, the Kusttram is one of the longest interurban lines in the world. The journey from Knokke to De Panne spans the entire Belgian coast takes 2.5 hours.",
     "coords": "51.26495, 3.00544",
     "country": "BE",
     "icons": ["🇧🇪", "🚋"],
@@ -98,6 +111,7 @@
   },
   "berlin-wall": {
     "been": true,
+    "caption": "A concrete barrier that encircled West Berlin from 1961 to 1989, the Berlin Wall was an icon of the cold war and the division of Europe.",
     "coords": "52.50444444, 13.44111111",
     "country": "DE",
     "icons": ["🇩🇪", "🧱"],
@@ -107,6 +121,7 @@
   },
   "bikini-atoll": {
     "been": false,
+    "caption": "A coral reef in the Marshall Islands, used by the United States for 23 nuclear tests.",
     "coords": "11.60000000, 165.40000000",
     "country": "MH",
     "icons": ["🇲🇭", "👙"],
@@ -115,6 +130,7 @@
   },
   "brioude-a-saint-flour": {
     "been": true,
+    "caption": "The ligne de Brioude à Saint-Flour is a former railroad line in the Auvergne which opened in 1908 and closed in 1954. Over five days I hiked the entire 45-kilometer route, including a very scary walk through one of the tunnels!",
     "coords": "45.14504000, 3.22949000",
     "country": "FR",
     "icons": ["🇫🇷", "🥾"],
@@ -124,6 +140,7 @@
   },
   "canfranc": {
     "been": false,
+    "caption": "An extraordinarily grand train station built on the international line between France and Spain. The line closed in 1970 and the station fell into disrepair, but it has now been converted to a hotel.",
     "country": "ES",
     "icons": ["🇪🇸", "🚉"],
     "link": "https://en.wikipedia.org/wiki/Canfranc_International_railway_station",
@@ -142,6 +159,7 @@
     "coords": "48.44722222, 1.48777778",
     "country": "FR",
     "icons": ["🇫🇷", "⛪️"],
+    "images": ["chartres-cathedral1.jpg", "chartres-cathedral2.jpg", "chartres-cathedral3.jpg", "chartres-cathedral4.jpg", "chartres-cathedral5.jpg", "chartres-cathedral6.jpg", "chartres-cathedral7.jpg", "chartres-cathedral8.jpg"],
     "link": "https://en.wikipedia.org/wiki/Chartres_Cathedral",
     "name": "Chartres Cathedral"
   },
@@ -190,6 +208,7 @@
   },
   "dronningens-gate": {
     "been": false,
+    "caption": "Tram stop in Trondheim, the northernmost in the world.",
     "coords": "63.43183000, 10.38966000",
     "country": "NO",
     "icons": ["🇳🇴", "🚋"],
@@ -210,11 +229,13 @@
     "coords": "42.64027778, 18.10833333",
     "country": "HR",
     "icons": ["🇭🇷", "🏛"],
+    "images": ["dubrovnik1.jpg", "dubrovnik2.jpg", "dubrovnik3.jpg", "dubrovnik4.jpg", "dubrovnik5.jpg", "dubrovnik6.jpg", "dubrovnik7.jpg", "dubrovnik8.jpg", "dubrovnik9.jpg", "dubrovnik10.jpg", "dubrovnik11.jpg", "dubrovnik12.jpg", "dubrovnik13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dubrovnik",
     "name": "Dubrovnik"
   },
   "east-brighton": {
     "been": false,
+    "caption": "Tram stop in Melbourne, the southernmost in the world.",
     "coords": "-37.91444400, 145.01666700",
     "country": "AU",
     "icons": ["🇦🇺", "🚋"],
@@ -231,9 +252,11 @@
   },
   "etang-de-lavalduc": {
     "been": true,
-    "coords": "43.465, 4.967",
+    "caption": "A salt lake at ten meters below sea level, the lowest point in the European Union.",
+    "coords": "43.46500000, 4.96700000",
     "country": "FR",
     "icons": ["🇫🇷", "🤿"],
+    "images": ["etang-de-lavalduc1.jpg", "etang-de-lavalduc2.jpg", "etang-de-lavalduc3.jpg", "etang-de-lavalduc4.jpg", "etang-de-lavalduc5.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Étang_de_Lavalduc",
     "name": "Étang de Lavalduc",
     "wikidata": "Q3591700"
@@ -285,6 +308,7 @@
     "coords": "36.30000000, -112.75000000",
     "country": "US",
     "icons": ["🇺🇸", "🏜"],
+    "images": ["grand-canyon1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Grand_Canyon",
     "name": "Grand Canyon"
   },
@@ -316,17 +340,21 @@
   },
   "greenwich": {
     "been": true,
+    "city": "London",
     "coords": "51.48000000, 0.00000000",
     "country": "GB",
     "icons": ["🇬🇧", "🔭"],
+    "images": ["greenwich1.jpg", "greenwich2.jpg", "greenwich3.jpg", "greenwich4.jpg", "greenwich5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Greenwich",
     "name": "Greenwich"
   },
   "hagia-sophia": {
     "been": true,
+    "city": "Istanbul",
     "coords": "41.00833333, 28.98000000",
     "country": "TR",
     "icons": ["🇹🇷", "🕌"],
+    "images": ["hagia-sophia1.jpg", "hagia-sophia2.jpg", "hagia-sophia3.jpg", "hagia-sophia4.jpg", "hagia-sophia5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Hagia_Sophia",
     "name": "Hagia Sophia"
   },
@@ -411,6 +439,7 @@
     "coords": "53.22320000, -4.20080000",
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿", "🥈"],
+    "images": ["llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch1.jpg", "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch2.jpg", "llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Llanfairpwllgwyngyll",
     "name": "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"
   },
@@ -457,9 +486,11 @@
   },
   "marrakesh": {
     "been": true,
+    "city": "Marrakesh",
     "coords": "31.63000000, -8.00888889",
     "country": "MA",
     "icons": ["🇲🇦", "🕌"],
+    "images": ["marrakesh1.jpg", "marrakesh2.jpg", "marrakesh3.jpg", "marrakesh4.jpg", "marrakesh5.jpg", "marrakesh6.jpg", "marrakesh7.jpg", "marrakesh8.jpg", "marrakesh9.jpg", "marrakesh10.jpg", "marrakesh11.jpg", "marrakesh12.jpg", "marrakesh13.jpg", "marrakesh14.jpg", "marrakesh15.jpg", "marrakesh16.jpg", "marrakesh17.jpg", "marrakesh18.jpg", "marrakesh19.jpg", "marrakesh20.jpg", "marrakesh21.jpg", "marrakesh22.jpg", "marrakesh23.jpg", "marrakesh24.jpg", "marrakesh25.jpg"],
     "link": "https://en.wikipedia.org/wiki/Marrakesh",
     "name": "Marrakesh"
   },
@@ -484,6 +515,7 @@
   },
   "mellunmaki": {
     "been": false,
+    "caption": "Metro station in Helsinki, the northernmost in the world.",
     "coords": "60.23916700, 25.11083300",
     "country": "FI",
     "icons": ["🇫🇮", "🚇"],
@@ -518,6 +550,7 @@
     "coords": "43.40911200, -70.48941600",
     "country": "US",
     "icons": ["🇺🇸", "🥌"],
+    "images": ["conn-1160-1.jpg", "conn-1160-2.jpg", "johnstown-358-1.jpg", "johnstown-358-2.jpg", "new-york-6688-1.jpg", "new-york-6688-2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Seashore_Trolley_Museum",
     "name": "Operating a Tram"
   },
@@ -531,6 +564,7 @@
   },
   "plaza-de-los-virreyes": {
     "been": false,
+    "caption": "Metro station in Buenos Aires, the southernmost in the world.",
     "coords": "-34.64305600, -58.46166700",
     "country": "AR",
     "icons": ["🇦🇷", "🚇"],
@@ -576,6 +610,7 @@
     "coords": "49.46944444, 6.35888889",
     "countries": ["FR", "DE", "LU"],
     "icons": ["🇫🇷", "🇩🇪", "🇱🇺"],
+    "images": ["schengen1.jpg", "schengen2.jpg", "schengen3.jpg", "schengen4.jpg", "schengen5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
     "name": "Schengen"
   },
@@ -610,6 +645,7 @@
     "coords": "51.17888889, -1.82611111",
     "country": "GB",
     "icons": ["🇬🇧", "🪨"],
+    "images": ["stonehenge1.jpg", "stonehenge2.jpg", "stonehenge3.jpg", "stonehenge4.jpg", "stonehenge5.jpg", "stonehenge6.jpg", "stonehenge7.jpg"],
     "link": "https://en.wikipedia.org/wiki/Stonehenge",
     "name": "Stonehenge"
   },
@@ -653,6 +689,7 @@
     "coords": "16.77583333, -3.00944444",
     "country": "ML",
     "icons": ["🇲🇱", "🕌"],
+    "images": ["timbuktu1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Timbuktu",
     "name": "Timbuktu"
   },
@@ -688,24 +725,28 @@
     "coords": "39.65972222, -75.56361111",
     "country": "US",
     "icons": ["🇺🇸", "🧭"],
+    "images": ["twelve-mile-circle1.jpg", "twelve-mile-circle2.jpg", "twelve-mile-circle3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Twelve-Mile_Circle",
     "name": "Twelve-Mile Circle",
     "wikidata": "Q7857570"
   },
   "vanuatu": {
     "been": true,
-    "coords": "-16.633330555556, 168.01666944444",
+    "coords": "-16.63333056, 168.01666944",
     "country": "VU",
     "icons": ["🇻🇺", "🛖"],
+    "images": ["vanuatu1.jpg", "vanuatu2.jpg", "vanuatu3.jpg", "vanuatu4.jpg", "vanuatu5.jpg", "vanuatu6.jpg", "vanuatu7.jpg", "vanuatu8.jpg", "vanuatu9.jpg", "vanuatu10.jpg", "vanuatu11.jpg", "vanuatu12.jpg", "vanuatu13.jpg", "vanuatu14.jpg", "vanuatu15.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vanuatu",
     "name": "Vanuatu",
     "wikidata": "Q686"
   },
   "venice": {
     "been": true,
+    "city": "Venice",
     "coords": "45.43750000, 12.33583333",
     "country": "IT",
     "icons": ["🇮🇹", "🛶"],
+    "images": ["venice1.jpg", "venice2.jpg", "venice3.jpg", "venice4.jpg", "venice5.jpg", "venice6.jpg", "venice7.jpg", "venice8.jpg", "venice9.jpg", "venice10.jpg", "venice11.jpg", "venice12.jpg", "venice13.jpg", "venice14.jpg", "venice15.jpg", "venice16.jpg", "venice17.jpg", "venice18.jpg", "venice19.jpg", "venice20.jpg", "venice21.jpg", "venice22.jpg", "venice23.jpg", "venice24.jpg", "venice25.jpg", "venice26.jpg", "venice27.jpg", "venice28.jpg", "venice29.jpg", "venice30.jpg", "venice31.jpg"],
     "link": "https://en.wikipedia.org/wiki/Venice",
     "name": "Venice"
   },
@@ -720,9 +761,11 @@
   },
   "vessel": {
     "been": true,
+    "city": "New York",
     "coords": "40.75380000, -74.00220000",
     "country": "US",
     "icons": ["🇺🇸", "🗑"],
+    "images": ["vessel1.jpg", "vessel2.jpg", "vessel3.jpg", "vessel4.jpg", "vessel5.jpg", "vessel6.jpg", "vessel7.jpg", "vessel8.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vessel_(structure)",
     "name": "Vessel"
   },
@@ -797,9 +840,11 @@
   },
   "zlate-piesky": {
     "been": true,
+    "city": "Bratislava",
     "coords": "48.18472222, 17.18944444",
     "country": "SK",
     "icons": ["🇸🇰", "🏖"],
+    "images": ["zlate-piesky1.jpg", "zlate-piesky2.jpg", "zlate-piesky3.jpg", "zlate-piesky4.jpg", "zlate-piesky5.jpg", "zlate-piesky6.jpg", "zlate-piesky7.jpg", "zlate-piesky8.jpg", "zlate-piesky9.jpg", "zlate-piesky10.jpg"],
     "link": "https://en.wikipedia.org/wiki/Zlaté_Piesky",
     "name": "Zlaté Piesky"
   }

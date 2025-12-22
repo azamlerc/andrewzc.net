@@ -2,7 +2,7 @@
   "--info--": {
     "auto": true,
     "featured": true,
-    "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.<br><br>",
+    "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.",
     "icon": "🦋",
     "map": {
       "lat": "50.8",
@@ -12,38 +12,38 @@
     "name": "Grand Unions",
     "size": "medium",
     "sort": "reference",
-    "tags": ["reference-first"],
+    "tags": ["no-data", "reference-first", "fractions"],
     "type": "place"
   },
   "49th-&-chester": {
+    "badges": ["½"],
     "been": true,
     "city": "Philadelphia",
     "coords": "39.94413000, -75.21647000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=39.94413_N_75.21647_W",
     "name": "49th & Chester",
     "reference": "Philadelphia"
   },
   "49th-&-woodland": {
+    "badges": ["½"],
     "been": true,
     "city": "Philadelphia",
     "coords": "39.94087000, -75.21263000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=39.94087_N_75.21263_W",
     "name": "49th & Woodland",
     "reference": "Philadelphia"
   },
   "5th-&-craig": {
+    "badges": ["¾"],
     "been": true,
     "city": "Pittsburgh",
     "coords": "40.44790160, -79.93635740",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://en.wikipedia.org/wiki/Fifth_Avenue_(Pittsburgh)",
     "name": "5th & Craig",
     "reference": "Pittsburgh",
@@ -120,12 +120,12 @@
     "reference": "Magdeburg"
   },
   "allee-der-kosmonauten": {
+    "badges": ["¾"],
     "been": true,
     "city": "Berlin",
     "coords": "52.52595000, 13.51956000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.52595_N_13.51956_E",
     "name": "Allee der Kosmonauten",
     "reference": "Berlin"
@@ -150,34 +150,34 @@
     "reference": "Erfurt"
   },
   "anna-kut": {
+    "badges": ["⅜"],
     "been": true,
     "city": "Szeged",
     "coords": "46.25587000, 20.14813000",
     "country": "HU",
     "icons": ["🇭🇺"],
-    "info": "<div class=\"fraction\"><div>⅜</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params= 46.25587_N_20.14813_E",
     "name": "Anna kút",
     "reference": "Szeged"
   },
   "anton-/-leipziger-straße": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Dresden",
     "coords": "51.06320833, 13.73709167",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51_3_47.55_N_13_44_13.53_E",
     "name": "Anton / Leipziger Straße",
     "reference": "Dresden"
   },
   "arkady": {
+    "badges": ["¾"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.10131000, 17.02923000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.10131_N_17.02923_E",
     "name": "Arkady",
     "reference": "Wrocław"
@@ -193,34 +193,34 @@
     "reference": "Melbourne"
   },
   "barbarossaplatz": {
+    "badges": ["¾"],
     "been": false,
     "city": "Cologne",
     "coords": "50.92858333, 6.94269444",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.92858_N_6.94267_E",
     "name": "Barbarossaplatz",
-    "reference": "Köln"
+    "reference": "Cologne"
   },
   "bathurst-/-college": {
+    "badges": ["½"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65647000, -79.40772000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65647_N_79.40772_W",
     "name": "Bathurst / College",
     "reference": "Toronto"
   },
   "bathurst-/-dundas": {
+    "badges": ["¾"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65231000, -79.40602000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65231_N_79.40602_W",
     "name": "Bathurst / Dundas",
     "reference": "Toronto"
@@ -236,75 +236,75 @@
     "reference": "Toronto"
   },
   "bathurst-/-queen": {
+    "badges": ["⅜"],
     "been": false,
     "city": "Toronto",
     "coords": "43.64721000, -79.40402000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅜</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.64721_N_79.40402_W",
     "name": "Bathurst / Queen",
     "reference": "Toronto"
   },
   "berliner-allee": {
+    "badges": ["½"],
     "been": false,
     "coords": "51.21889000, 6.78199000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.21889_N_6.78199_E",
     "name": "Berliner Allee",
     "reference": "Düsseldorf"
   },
   "berliner-platz": {
+    "badges": ["½"],
     "been": false,
     "coords": "48.77812000, 9.16772000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48.77812_N_9.16772_E",
     "name": "Berliner Platz",
     "reference": "Stuttgart"
   },
   "bertoldsbrunnen": {
+    "badges": ["½"],
     "been": false,
     "coords": "47.99481000, 7.84985000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=47.99481_N_7.84985_E",
     "name": "Bertoldsbrunnen",
     "reference": "Freiburg"
   },
   "brama-portowa": {
+    "badges": ["¾"],
     "been": false,
     "city": "Szczecin",
     "coords": "53.42501000, 14.55096000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.42501_N_14.55096_E",
     "name": "Brama Portowa",
     "reference": "Szczecin"
   },
   "broadview-/-gerrard": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Toronto",
     "coords": "43.66548000, -79.35264000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.66548_N_79.35264_W",
     "name": "Broadview / Gerrard",
     "reference": "Toronto"
   },
   "bulevardul-ferdinand": {
+    "badges": ["½"],
     "been": false,
     "city": "Bucharest",
     "coords": "44.44378100, 26.12917700",
     "country": "RO",
     "icons": ["🇷🇴"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=44.443781_N_26.129177_E",
     "name": "Bulevardul Ferdinand",
     "reference": "Bucharest"
@@ -321,12 +321,12 @@
     "reference": "Brussels"
   },
   "bytom-jagiellonska": {
+    "badges": ["½"],
     "been": true,
     "city": "Katowice",
     "coords": "50.34476000, 18.91843200",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.344760_N_18.918432_E",
     "name": "Bytom Jagiellońska",
     "reference": "Katowice"
@@ -366,34 +366,34 @@
     "wikidata": "Q2847565"
   },
   "church-/-dundas": {
+    "badges": ["¾"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65650000, -79.37714000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65650_N_79.37714_W",
     "name": "Church / Dundas",
     "reference": "Toronto"
   },
   "church-/-king": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Toronto",
     "coords": "43.64992000, -79.37440000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.64992_N_79.37440_W",
     "name": "Church / King",
     "reference": "Toronto"
   },
   "church-/-queen": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65317000, -79.37577000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65317_N_79.37577_W",
     "name": "Church / Queen",
     "reference": "Toronto"
@@ -411,47 +411,46 @@
     "reference": "Melbourne"
   },
   "csongradi-sugarut": {
-    "badges": ["🚎"],
+    "badges": ["¾", "🚎"],
     "been": true,
     "city": "Szeged",
     "coords": "46.26156000, 20.15078000",
     "country": "HU",
     "icons": ["🇭🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=46.26156_N_20.15078_E",
     "name": "Csongrádi sugárút",
     "reference": "Szeged"
   },
   "dabrowskiego-kilinskiego": {
+    "badges": ["½"],
     "been": false,
     "city": "Łódź",
     "coords": "51.73844000, 19.47877000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73844_N_19.47877_E",
     "name": "Dąbrowskiego-Kilińskiego",
     "reference": "Łódź",
     "strike": true
   },
   "dabrowskiego–smigłego-rydza": {
+    "badges": ["¾"],
     "been": false,
     "city": "Łódź",
     "coords": "51.73756000, 19.48897000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.73756_N_19.48897_E",
     "name": "Dąbrowskiego–Śmigłego-Rydza",
     "reference": "Łódź"
   },
   "danziger-straße": {
+    "badges": ["½"],
     "been": true,
     "city": "Berlin",
     "coords": "52.53919000, 13.42423000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.53919_N_13.42423_E",
     "name": "Danziger Straße",
     "reference": "Berlin"
@@ -468,12 +467,12 @@
     "reference": "Amsterdam"
   },
   "derb-sultan": {
+    "badges": ["⅛"],
     "been": true,
     "city": "Casablanca",
     "coords": "33.57192000, -7.59723000",
     "country": "MA",
     "icons": ["🇲🇦"],
-    "info": "<div class=\"fraction\"><div>⅛</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=33.57192_N_7.59723_W",
     "name": "Derb Sultan",
     "reference": "Casablanca"
@@ -489,34 +488,34 @@
     "reference": "Düsseldorf"
   },
   "drziceva": {
+    "badges": ["¾"],
     "been": false,
     "city": "Zagreb",
     "coords": "45.80113000, 15.99900000",
     "country": "HR",
     "icons": ["🇭🇷"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.80113_N_15.999_E",
     "name": "Držićeva",
     "reference": "Zagreb"
   },
   "dufferin-/-king": {
+    "badges": ["⅞"],
     "been": false,
     "city": "Toronto",
     "coords": "43.63893056, -79.42734722",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅞</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43_38_20.15_N_79_25_38.45_W",
     "name": "Dufferin / King",
     "reference": "Toronto"
   },
   "dworzec-nadodrze": {
+    "badges": ["⅜"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.12423000, 17.03437000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅜</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.12423_N_17.03437_E",
     "name": "Dworzec Nadodrze",
     "reference": "Wrocław"
@@ -556,11 +555,11 @@
     "strike": true
   },
   "felsenkeller": {
+    "badges": ["¾"],
     "been": false,
     "coords": "51.33235833, 12.33880000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51_19_56.49_N_12_20_19.68_E",
     "name": "Felsenkeller",
     "reference": "Leipzig"
@@ -596,7 +595,6 @@
     "coords": "51.20576000, 4.47107000",
     "country": "BE",
     "icons": ["🇧🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.20576_N_4.47107_E",
     "name": "Florent Pauwels",
     "reference": "Antwerp"
@@ -662,23 +660,23 @@
     "reference": "Wrocław"
   },
   "gare-de-saint-denis": {
+    "badges": ["⅛"],
     "been": true,
     "city": "Paris",
     "coords": "48.93622000, 2.34688000",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "info": "<div class=\"fraction\"><div>⅛</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48.93622_N_2.34688_E",
     "name": "Gare de Saint Denis",
     "reference": "Paris"
   },
   "gdanska–zielona": {
+    "badges": ["½"],
     "been": false,
     "city": "Łódź",
     "coords": "51.76997000, 19.44896000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.76997_N_19.44896_E",
     "name": "Gdańska–Zielona",
     "reference": "Łódź",
@@ -754,33 +752,33 @@
     "reference": "Leipzig"
   },
   "government-palace": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Helsinki",
     "coords": "60.16911000, 24.95355000",
     "country": "FI",
     "icons": ["🇫🇮"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=60.16911_N_24.95355_E",
     "name": "Government Palace",
     "reference": "Helsinki"
   },
   "griefswalder-straße": {
+    "badges": ["½"],
     "been": true,
     "city": "Berlin",
     "coords": "52.53619000, 13.43299000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.53619_N_13.43299_E",
     "name": "Griefswalder Straße",
     "reference": "Berlin"
   },
   "hagenmarkt": {
+    "badges": ["¾"],
     "been": false,
     "coords": "52.26773000, 10.52460000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.26773_N_10.52460_E",
     "name": "Hagenmarkt",
     "reference": "Braunschweig"
@@ -797,22 +795,22 @@
     "reference": "Budapest"
   },
   "hasselbachplatz": {
+    "badges": ["¾"],
     "been": false,
     "coords": "52.12057000, 11.62758000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.12057_N_11.62758_E",
     "name": "Hasselbachplatz",
     "reference": "Magdeburg"
   },
   "hattulantie": {
+    "badges": ["½"],
     "been": false,
     "city": "Helsinki",
     "coords": "60.19450000, 24.95700000",
     "country": "FI",
     "icons": ["🇫🇮"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=60.19450_N_24.95700_E",
     "name": "Hattulantie",
     "reference": "Helsinki"
@@ -828,11 +826,11 @@
     "reference": "Cottbus"
   },
   "helenenstraße": {
+    "badges": ["¾"],
     "been": false,
     "coords": "51.46070000, 6.98021000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.46070_N_6.98021_E",
     "name": "Helenenstraße",
     "reference": "Essen"
@@ -859,45 +857,45 @@
     "reference": "Talinn"
   },
   "hohenschonhauser-straße": {
+    "badges": ["¾"],
     "been": true,
     "city": "Berlin",
     "coords": "52.53612000, 13.47347000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.53612_N_13.47347_E",
     "name": "Hohenschönhauser Straße",
     "reference": "Berlin"
   },
   "i-p-pavlova": {
+    "badges": ["¾"],
     "been": true,
     "city": "Prague",
     "coords": "50.07543000, 14.43021000",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.07543_N_14.43021_E",
     "name": "I. P. Pavlova",
     "reference": "Prague"
   },
   "idriss-el-allam": {
+    "badges": ["⅝"],
     "been": true,
     "city": "Casablanca",
     "coords": "33.56091000, -7.55194000",
     "country": "MA",
     "icons": ["🇲🇦"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=33.56091_N_7.55194_W",
     "name": "Idriss El Allam",
     "reference": "Casablanca"
   },
   "irinovskiy-prospekt": {
+    "badges": ["¾"],
     "been": false,
     "city": "Saint Petersburg",
     "coords": "59.95877000, 30.47800000",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=59.95877_N_30.47800_E",
     "name": "Irinovskiy Prospekt",
     "reference": "Saint Petersburg"
@@ -907,7 +905,7 @@
     "city": "Saint Petersburg",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "name": "Irinovskiy Prospekt <div class=\"fraction\"><div>¾</div></div>",
+    "name": "Irinovskiy Prospekt ¾",
     "reference": "Saint Petersburg"
   },
   "javabrug": {
@@ -920,87 +918,87 @@
     "strike": true
   },
   "jozefa-dietla": {
+    "badges": ["¾"],
     "been": false,
     "coords": "50°3′6.26″N, 19°56′30.22″E",
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50_3_6.26_N_19_56_30.22_E",
     "name": "Józefa Dietla",
     "reference": "Krakow"
   },
   "jugoslavska": {
+    "badges": ["¾"],
     "been": true,
     "city": "Brno",
     "coords": "49.20451111, 16.62376111",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "images": ["brno-jugoskavska-photo.jpg", "brno-jugoskavska-sat.jpg", "brno-jugoslavska-map.jpg"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49_12_16.24_N_16_37_25.54_E",
     "name": "Jugoslávská",
     "reference": "Brno"
   },
   "julius-raab-platz": {
+    "badges": ["¾"],
     "been": true,
     "city": "Vienna",
     "coords": "48.21125000, 16.38283000",
     "country": "AT",
     "icons": ["🇦🇹"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48.21125_N_16.38283_E",
     "name": "Julius Raab Platz",
     "reference": "Vienna",
     "strike": true
   },
   "kepa-mieszczanska": {
+    "badges": ["½"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.11688000, 17.02458000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.11688_N_17.02458_E",
     "name": "Kępa Mieszczańska",
     "reference": "Wrocław"
   },
   "khudoshestvennaya": {
+    "badges": ["¾"],
     "been": false,
     "coords": "53.37977700, 58.97826300",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.379777_N_58.978263_E",
     "name": "Khudoshestvennaya",
     "reference": "Magnitogorsk"
   },
   "kilinskiego-narutowicza": {
+    "badges": ["¾"],
     "been": false,
     "city": "Łódź",
     "coords": "51.77120000, 19.46341000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.77120_N_19.46341_E",
     "name": "Kilińskiego-Narutowicza",
     "reference": "Łódź"
   },
   "kilinskiego-piłsudskiego": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Łódź",
     "coords": "51.76026000, 19.46879000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.76026_N_19.46879_E",
     "name": "Kilińskiego-Piłsudskiego",
     "reference": "Łódź"
   },
   "kilinskiego-pomorska": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Łódź",
     "coords": "51.77742000, 19.46189000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.77742_N_19.46189_E",
     "name": "Kilińskiego-Pomorska",
     "reference": "Łódź"
@@ -1057,35 +1055,35 @@
     "reference": "Poznań"
   },
   "kosciuszki-mickiewicza": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Łódź",
     "coords": "51.75915000, 19.45579000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.75915_N_19.45579_E",
     "name": "Kościuszki-Mickiewicza",
     "reference": "Łódź"
   },
   "kosciuszki-zielona": {
+    "badges": ["½"],
     "been": false,
     "city": "Łódź",
     "coords": "51.77037000, 19.45342000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.77037_N_19.45342_E",
     "name": "Kościuszki-Zielona",
     "reference": "Łódź",
     "strike": true
   },
   "krupnicza": {
+    "badges": ["⅝"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.10668000, 17.02469000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.10668_N_17.02469_E",
     "name": "Krupnicza",
     "reference": "Wrocław"
@@ -1112,34 +1110,34 @@
     "wikidata": "Q2742215"
   },
   "landsberger-allee": {
+    "badges": ["¾"],
     "been": true,
     "city": "Berlin",
     "coords": "52.52638000, 13.44773000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.52638_N_13.44773_E",
     "name": "Landsberger Allee",
     "reference": "Berlin"
   },
   "largo-quinto-alpini": {
+    "badges": ["¾"],
     "been": false,
     "city": "Milan",
     "coords": "45.47235000, 9.16732000",
     "country": "IT",
     "icons": ["🇮🇹"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.47235_N_9.16732_E",
     "name": "Largo Quinto Alpini",
     "reference": "Milan"
   },
   "legionow–zachodnia": {
+    "badges": ["¾"],
     "been": false,
     "city": "Łódź",
     "coords": "51.77656000, 19.45215000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.77656_N_19.45215_E",
     "name": "Legionów–Zachodnia",
     "reference": "Łódź"
@@ -1173,12 +1171,12 @@
     "reference": "Düsseldorf"
   },
   "marnixstraat": {
+    "badges": ["¾"],
     "been": true,
     "city": "Amsterdam",
     "coords": "52.37224000, 4.87584000",
     "country": "NL",
     "icons": ["🇳🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.37224_N_4.87584_E",
     "name": "Marnixstraat",
     "reference": "Amsterdam"
@@ -1269,24 +1267,24 @@
     "reference": "Berlin"
   },
   "monstersestraat": {
+    "badges": ["½"],
     "been": true,
     "city": "Den Haag",
     "coords": "52.07305556, 4.29222222",
     "country": "NL",
     "icons": ["🇳🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://en.wikipedia.org/wiki/Monstersestraat_RandstadRail_station",
     "name": "Monstersestraat",
     "reference": "Den Haag"
   },
   "moravske-namesti": {
+    "badges": ["¾"],
     "been": true,
     "city": "Prague",
     "coords": "49.19890000, 16.60827000",
     "country": "CZ",
     "icons": ["🇨🇿"],
     "images": ["brno-moravske-namesti-map.jpg"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.19890_N_16.60827_E",
     "name": "Moravské Náměstí",
     "reference": "Prague"
@@ -1314,32 +1312,32 @@
     "reference": "Düsseldorf"
   },
   "moskovskaya": {
+    "badges": ["¾"],
     "been": false,
     "coords": "56.82928800, 60.58501700",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=56.829288_N_60.585017_E",
     "name": "Moskovskaya",
     "reference": "Yekaterinburg"
   },
   "neumarkt-/-bosestraße": {
+    "badges": ["⅝"],
     "been": false,
     "coords": "50.72262000, 12.49502000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.72262_N_12.49502_E",
     "name": "Neumarkt / Bosestraße",
     "reference": "Zwickau"
   },
   "nowe-ogrody": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Gdańsk",
     "coords": "54.35173000, 18.64223000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=54.35173_N_18.64223_E",
     "name": "Nowe Ogrody",
     "reference": "Gdańsk"
@@ -1355,12 +1353,12 @@
     "reference": "Warsaw"
   },
   "obor": {
+    "badges": ["½"],
     "been": false,
     "city": "Bucharest",
     "coords": "44.44949400, 26.12459800",
     "country": "RO",
     "icons": ["🇷🇴"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=44.449494_N_26.124598_E",
     "name": "Obor",
     "reference": "Bucharest"
@@ -1385,12 +1383,12 @@
     "reference": "Munich"
   },
   "otakarova": {
+    "badges": ["¾"],
     "been": true,
     "city": "Prague",
     "coords": "50.06532000, 14.43972000",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.06532_N_14.43972_E",
     "name": "Otakarova",
     "reference": "Prague"
@@ -1499,12 +1497,12 @@
     "strike": true
   },
   "piazzale-baracca": {
+    "badges": ["¾"],
     "been": false,
     "city": "Milan",
     "coords": "45.46618000, 9.16485000",
     "country": "IT",
     "icons": ["🇮🇹"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.46618_N_9.16485_E",
     "name": "Piazzale Baracca",
     "reference": "Milan"
@@ -1550,45 +1548,45 @@
     "reference": "Wrocław"
   },
   "plac-grunwaldzki": {
+    "badges": ["½"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.11175000, 17.06100000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.11175_N_17.06100_E",
     "name": "Plac Grunwaldzki",
     "reference": "Wrocław"
   },
   "plac-jana-pawła-ii": {
+    "badges": ["¾"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.11165000, 17.02178000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.11165_N_17.02178_E",
     "name": "Plac Jana Pawła II",
     "reference": "Wrocław"
   },
   "plac-legionow": {
+    "badges": ["¾"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.10459000, 17.02210000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.10459_N_17.02210_E",
     "name": "Plac Legionów",
     "reference": "Wrocław"
   },
   "plac-orlat-lwowskich": {
+    "badges": ["⅝"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.10786000, 17.02158000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.10786_N_17.02158_E",
     "name": "Plac Orląt Lwowskich",
     "reference": "Wrocław"
@@ -1604,43 +1602,43 @@
     "reference": "Szczecin"
   },
   "place-mohammed-v": {
+    "badges": ["¼"],
     "been": true,
     "city": "Casablanca",
     "coords": "33.56948000, -7.62602000",
     "country": "MA",
     "icons": ["🇲🇦"],
-    "info": "<div class=\"fraction\"><div>¼</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=33.56948_N_7.62602_W",
     "name": "Place Mohammed V",
     "reference": "Casablanca"
   },
   "ploschad-kommunarov": {
+    "badges": ["½"],
     "been": false,
     "coords": "56.83617600, 60.58206500",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=56.836176_N_60.582065_E",
     "name": "Ploschad Kommunarov",
     "reference": "Yekaterinburg"
   },
   "ploschad-mira": {
+    "badges": ["¾"],
     "been": false,
     "coords": "53.39800400, 58.97817800",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.398004_N_58.978178_E",
     "name": "Ploschad Mira",
     "reference": "Magnitogorsk"
   },
   "pomorska": {
+    "badges": ["¾"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.11768000, 17.03188000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.11768_N_17.03188_E",
     "name": "Pomorska",
     "reference": "Wrocław"
@@ -1656,12 +1654,12 @@
     "reference": "Dresden"
   },
   "preobrazhenskaya-pl": {
+    "badges": ["¾"],
     "been": false,
     "city": "Moscow",
     "coords": "55.79630000, 37.71510000",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://en.wikipedia.org/wiki/Preobrazhenskaya_Ploshchad",
     "name": "Preobrazhenskaya Pl.",
     "reference": "Moscow"
@@ -1691,45 +1689,45 @@
     "reference": "Saint Petersburg"
   },
   "przybyszewskiego–smigłego-rydza": {
+    "badges": ["½"],
     "been": false,
     "city": "Łódź",
     "coords": "51.74769000, 19.48978000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.74769_N_19.48978_E",
     "name": "Przybyszewskiego–Śmigłego-Rydza",
     "reference": "Łódź"
   },
   "quellenplatz": {
+    "badges": ["¾"],
     "been": true,
     "city": "Vienna",
     "coords": "48.17563889, 16.37352778",
     "country": "AT",
     "icons": ["🇦🇹"],
     "images": ["vienna-quellenplatz-map.jpg", "vienna-quellenplatz-flyover.jpg", "vienna-quellenplatz-photo.jpg"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48_10_32.3_N_16_22_24.7_E",
     "name": "Quellenplatz",
     "reference": "Vienna"
   },
   "rathaus-/-funffensterstraße": {
+    "badges": ["¾"],
     "been": false,
     "coords": "51.31195000, 9.49156667",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51_18_43.02_N_9_29_29.64_E",
     "name": "Rathaus / Fünffensterstraße",
     "reference": "Kassel"
   },
   "ratusz-arsenał": {
+    "badges": ["½"],
     "been": false,
     "city": "Warsaw",
     "coords": "52.24438000, 21.00125000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.24438_N_21.00125_E",
     "name": "Ratusz Arsenał",
     "reference": "Warsaw"
@@ -1745,88 +1743,88 @@
     "reference": "Halle"
   },
   "robert-karoly-korut": {
+    "badges": ["¼"],
     "been": true,
     "city": "Budapest",
     "coords": "47.52559000, 19.07787000",
     "country": "HU",
     "icons": ["🇭🇺"],
-    "info": "<div class=\"fraction\"><div>¼</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=47.52559_N_19.07787_E",
     "name": "Róbert Károly körút",
     "reference": "Budapest"
   },
   "roederplatz": {
+    "badges": ["¾"],
     "been": true,
     "city": "Berlin",
     "coords": "52.52668000, 13.47979000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.52668_N_13.47979_E",
     "name": "Roederplatz",
     "reference": "Berlin"
   },
   "rohnbachstraße": {
+    "badges": ["¾"],
     "been": false,
     "city": "Frankfurt",
     "coords": "50.12747000, 8.69212000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.12747_N_8.69212_E",
     "name": "Rohnbachstraße",
     "reference": "Frankfurt"
   },
   "romerkreis": {
+    "badges": ["½"],
     "been": false,
     "coords": "49.40547000, 8.68445000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.40547_N_8.68445_E",
     "name": "Römerkreis",
     "reference": "Heidelberg"
   },
   "roncesvalles-/-queen": {
+    "badges": ["¾"],
     "been": false,
     "city": "Toronto",
     "coords": "43.63876000, -79.44611000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.63876_N_79.44611_W",
     "name": "Roncesvalles / Queen",
     "reference": "Toronto"
   },
   "rondo-babka": {
+    "badges": ["¾"],
     "been": false,
     "city": "Warsaw",
     "coords": "52.25478889, 20.98253056",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52_15_17.24_N_20_58_57.11_E",
     "name": "Rondo Babka",
     "reference": "Warsaw"
   },
   "rondo-czyzynskie": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Kraków",
     "coords": "50.07341944, 20.01746944",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50_4_24.31_N_20_1_2.89_E",
     "name": "Rondo Czyżyńskie",
     "reference": "Krakow"
   },
   "rondo-daszynskiego": {
+    "badges": ["½"],
     "been": false,
     "city": "Warsaw",
     "coords": "52.23033000, 20.98448000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.23033_N_20.98448_E",
     "name": "Rondo Daszyńskiego",
     "reference": "Warsaw",
@@ -1863,12 +1861,12 @@
     "reference": "Krakow"
   },
   "rondo-mogilskie": {
+    "badges": ["¾"],
     "been": false,
     "city": "Kraków",
     "coords": "50.06553000, 19.95892000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.06553_N_19.95892_E",
     "name": "Rondo Mogilskie",
     "reference": "Krakow"
@@ -1894,23 +1892,23 @@
     "reference": "Szczecin"
   },
   "rondo-radosławska": {
+    "badges": ["¾"],
     "been": false,
     "city": "Warsaw",
     "coords": "52.25476000, 20.98253900",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.254760_N_20.982539_E",
     "name": "Rondo Radosławska",
     "reference": "Warsaw"
   },
   "rondo-srodka": {
+    "badges": ["¾"],
     "been": true,
     "city": "Poznań",
     "coords": "52.41006000, 16.95682000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.41006_N_16.95682_E",
     "name": "Rondo Śródka",
     "reference": "Poznań"
@@ -1926,23 +1924,23 @@
     "reference": "Poznań"
   },
   "rondo-starzynskiego": {
+    "badges": ["¾"],
     "been": false,
     "city": "Warsaw",
     "coords": "52.26360000, 21.02074000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.26360_N_21.02074_E",
     "name": "Rondo Starzyńskiego",
     "reference": "Warsaw"
   },
   "roosevelt": {
+    "badges": ["¾"],
     "been": true,
     "city": "Antwerp",
     "coords": "51.21971000, 4.41609000",
     "country": "BE",
     "icons": ["🇧🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.21971_N_4.41609_E",
     "name": "Roosevelt",
     "reference": "Antwerp"
@@ -1958,12 +1956,12 @@
     "reference": "Chelyabinsk"
   },
   "ruggeveld": {
+    "badges": ["¾"],
     "been": true,
     "city": "Antwerp",
     "coords": "51.21956000, 4.48079000",
     "country": "BE",
     "icons": ["🇧🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.21956_N_4.48079_E",
     "name": "Ruggeveld",
     "reference": "Antwerp"
@@ -2000,12 +1998,12 @@
     "reference": "Katowice"
   },
   "saalburg-/-wittelsbacherallee": {
+    "badges": ["½"],
     "been": false,
     "city": "Frankfurt",
     "coords": "50.12459000, 8.71341000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.12459_N_8.71341_E",
     "name": "Saalburg / Wittelsbacherallee",
     "reference": "Frankfurt"
@@ -2052,34 +2050,34 @@
     "reference": "Leipzig"
   },
   "schwartzenbergplatz": {
+    "badges": ["½"],
     "been": true,
     "city": "Vienna",
     "coords": "48.20160000, 16.37427000",
     "country": "AT",
     "icons": ["🇦🇹"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48.20160_N_16.37427_E",
     "name": "Schwartzenbergplatz",
     "reference": "Vienna",
     "strike": true
   },
   "schweiggerstraße": {
+    "badges": ["¾"],
     "been": false,
     "coords": "49.44150000, 11.08997000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.44150_N_11.08997_E",
     "name": "Schweiggerstraße",
     "reference": "Nuremburg"
   },
   "serpukhovsky-val": {
+    "badges": ["¾"],
     "been": false,
     "city": "Moscow",
     "coords": "55.71139400, 37.60625400",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=55.711394_N_37.606254_E",
     "name": "Serpukhovsky Val",
     "reference": "Moscow"
@@ -2095,66 +2093,66 @@
     "reference": "Pavlodar"
   },
   "simonkatu": {
+    "badges": ["¾"],
     "been": false,
     "city": "Helsinki",
     "coords": "60.16990000, 24.93850000",
     "country": "FI",
     "icons": ["🇫🇮"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=60.1699_N_24.9385_E",
     "name": "Simonkatu",
     "reference": "Helsinki"
   },
   "skwer-wakara": {
+    "badges": ["¾"],
     "been": false,
     "coords": "53.77645000, 20.48777000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.77645_N_20.48777_E",
     "name": "Skwer Wakara",
     "reference": "Olsztyn"
   },
   "soseaua-stefan-cel-mare": {
+    "badges": ["¾"],
     "been": false,
     "city": "Bucharest",
     "coords": "44.45200100, 26.11986500",
     "country": "RO",
     "icons": ["🇷🇴"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=44.452001_N_26.119865_E",
     "name": "Șoseaua Ștefan cel Mare",
     "reference": "Bucharest"
   },
   "south-hills-junction": {
+    "badges": ["½"],
     "been": true,
     "city": "Pittsburgh",
     "coords": "40.42090000, -80.00730000",
     "country": "US",
     "icons": ["🇺🇸"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://en.wikipedia.org/wiki/South_Hills_Junction_station",
     "name": "South Hills Junction",
     "reference": "Pittsburgh"
   },
   "spadina-/-college": {
+    "badges": ["¾"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65796000, -79.40005000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65796_N_79.40005_W",
     "name": "Spadina / College",
     "reference": "Toronto"
   },
   "spadina-/-dundas": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65294000, -79.39805000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65294_N_79.39805_W",
     "name": "Spadina / Dundas",
     "reference": "Toronto"
@@ -2182,22 +2180,22 @@
     "reference": "Toronto"
   },
   "sport-arena": {
+    "badges": ["¾"],
     "been": false,
     "coords": "49.80674000, 18.24874000",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.80674_N_18.24874_E",
     "name": "Sport Arena",
     "reference": "Ostrava"
   },
   "spui-/-grotemarktstraat": {
+    "badges": ["¾"],
     "been": true,
     "city": "Den Haag",
     "coords": "52.07611, 4.31111",
     "country": "NL",
     "icons": ["🇳🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://nl.wikipedia.org/wiki/Grote_Marktstraat",
     "name": "Spui / Grotemarktstraat",
     "reference": "Den Haag",
@@ -2233,12 +2231,12 @@
     "reference": "Krakow"
   },
   "stary-hloubetin": {
+    "badges": ["¾"],
     "been": true,
     "city": "Prague",
     "coords": "50.10449000, 14.52942000",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.10449_N_14.52942_E",
     "name": "Starý Hloubětín",
     "reference": "Prague"
@@ -2254,12 +2252,12 @@
     "reference": "1/2"
   },
   "stradom": {
+    "badges": ["¾"],
     "been": false,
     "city": "Kraków",
     "coords": "50.05173889, 19.94172778",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50_3_6.26_N_19_56_30.22_E",
     "name": "Stradom",
     "reference": "Krakow"
@@ -2296,46 +2294,46 @@
     "reference": "Magdeburg"
   },
   "svetlanovskaya-ploshchad": {
+    "badges": ["¾"],
     "been": false,
     "city": "Saint Petersburg",
     "coords": "60.0034, 30.32731",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://ru.wikipedia.org/wiki/Светлановская_площадь",
     "name": "Svetlanovskaya Ploshchad",
     "reference": "Saint Petersburg",
     "wikidata": "Q4410296"
   },
   "szarych-szeregow": {
+    "badges": ["⅝"],
     "been": false,
     "coords": "53.10758000, 18.04548000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.10758_N_18.04548_E",
     "name": "Szarych Szeregów",
     "reference": "Bydgoszcz"
   },
   "teatr-słowackiego": {
+    "badges": ["¾"],
     "been": false,
     "city": "Kraków",
     "coords": "50.06461000, 19.94497000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.06461_N_19.94497_E",
     "name": "Teatr Słowackiego",
     "reference": "Krakow"
   },
   "tower-18": {
+    "badges": ["⅝"],
     "been": true,
     "city": "Chicago",
     "coords": "41.88000000, -87.64638889",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["chicago-photo.jpg", "chicago-loop.jpg", "chicago-flyover.jpg"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://en.wikipedia.org/wiki/The_Loop_(CTA)",
     "name": "Tower 18",
     "reference": "Chicago"
@@ -2351,44 +2349,44 @@
     "reference": "Biysk"
   },
   "traugutta": {
+    "badges": ["¾"],
     "been": true,
     "city": "Poznań",
     "coords": "52.38506000, 16.91446000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.38506_N_16.91446_E",
     "name": "Traugutta",
     "reference": "Poznań"
   },
   "tullastraße": {
+    "badges": ["¾"],
     "been": false,
     "coords": "49.00641000, 8.43112000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.00641_N_8.43112_E",
     "name": "Tullastraße",
     "reference": "Karlsruhe"
   },
   "ulitsa-chaikovskogo": {
+    "badges": ["¾"],
     "been": false,
     "coords": "52.53410900, 103.89512500",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.534109_N_103.895125_E",
     "name": "Ulitsa Chaikovskogo",
     "reference": "Angarsk",
     "strike": true
   },
   "urzad-wojewodski": {
+    "badges": ["⅝"],
     "been": true,
     "city": "Wrocław",
     "coords": "51.10821000, 17.04783000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.10821_N_17.04783_E",
     "name": "Urząd Wojewódski",
     "reference": "Wrocław"
@@ -2405,78 +2403,78 @@
     "reference": "Amsterdam"
   },
   "vasteland-/-westzeedijk": {
+    "badges": ["¾"],
     "been": true,
     "city": "Rotterdam",
     "coords": "51.90389, 4.45583",
     "country": "NL",
     "icons": ["🇳🇱"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://nl.wikipedia.org/wiki/Westzeedijk",
     "name": "Vasteland / Westzeedijk",
     "reference": "Rotterdam",
     "wikidata": "Q2428828"
   },
   "via-bergamo": {
+    "badges": ["⅜"],
     "been": false,
     "city": "Milan",
     "coords": "45.45780000, 9.20572000",
     "country": "IT",
     "icons": ["🇮🇹"],
-    "info": "<div class=\"fraction\"><div>⅜</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.45780_N_9.20572_E",
     "name": "Via Bergamo",
     "reference": "Milan"
   },
   "via-ferrari": {
+    "badges": ["¼"],
     "been": false,
     "city": "Milan",
     "coords": "45.48570000, 9.18207000",
     "country": "IT",
     "icons": ["🇮🇹", "🏎️"],
-    "info": "<div class=\"fraction\"><div>¼</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.48570_N_9.18207_E",
     "name": "Via Ferrari",
     "reference": "Milan"
   },
   "via-ripamonte": {
+    "badges": ["½"],
     "been": false,
     "city": "Milan",
     "coords": "45.45094000, 9.19684000",
     "country": "IT",
     "icons": ["🇮🇹"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.45094_N_9.19684_E",
     "name": "Via Ripamonte",
     "reference": "Milan"
   },
   "via-vitruvio": {
+    "badges": ["⅝"],
     "been": false,
     "city": "Milan",
     "coords": "45.48242000, 9.20667000",
     "country": "IT",
     "icons": ["🇮🇹"],
-    "info": "<div class=\"fraction\"><div>⅝</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.48242_N_9.20667_E",
     "name": "Via Vitruvio",
     "reference": "Milan"
   },
   "victoria-/-queen": {
+    "badges": ["¾"],
     "been": false,
     "city": "Toronto",
     "coords": "43.65268000, -79.37808000",
     "country": "CA",
     "icons": ["🇨🇦"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=43.65268_N_79.37808_W",
     "name": "Victoria / Queen",
     "reference": "Toronto"
   },
   "vladislava-romanova": {
+    "badges": ["¾"],
     "been": false,
     "coords": "53.36493700, 58.97835400",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=53.364937_N_58.978354_E",
     "name": "Vladislava Romanova",
     "reference": "Magnitogorsk"
@@ -2492,52 +2490,52 @@
     "reference": "Zagreb"
   },
   "vogelweide": {
+    "badges": ["½"],
     "been": false,
     "coords": "51.45679000, 11.97213000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>½</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.45679_N_11.97213_E",
     "name": "Vogelweide",
     "reference": "Halle"
   },
   "vukovarska-/-drziceva": {
+    "badges": ["¾"],
     "been": false,
     "city": "Zagreb",
     "coords": "45.80113000, 15.99900000",
     "country": "HR",
     "icons": ["🇭🇷"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=45.80113_N_15.999_E",
     "name": "Vukovarska / Držićeva",
     "reference": "Zagreb"
   },
   "waldheim": {
+    "badges": ["¾"],
     "been": false,
     "coords": "52.34631000, 9.77495000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=52.34631_N_9.77495_E",
     "name": "Waldheim",
     "reference": "Hanover"
   },
   "waldplatz": {
+    "badges": ["¾"],
     "been": false,
     "coords": "51.34203056, 12.35865278",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51_20_31.31_N_12_21_31.15_E",
     "name": "Waldplatz",
     "reference": "Leipzig"
   },
   "weinbrennerplatz": {
+    "badges": ["¾"],
     "been": false,
     "coords": "49.00565000, 8.37781000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=49.00565_N_8.37781_E",
     "name": "Weinbrennerplatz",
     "reference": "Karlsruhe"
@@ -2562,12 +2560,12 @@
     "reference": "Magdeburg"
   },
   "wien-mitte": {
+    "badges": ["¼"],
     "been": true,
     "city": "Vienna",
     "coords": "48.20579000, 16.38555000",
     "country": "AT",
     "icons": ["🇦🇹"],
-    "info": "<div class=\"fraction\"><div>¼</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=48.20579_N_16.38555_E",
     "name": "Wien Mitte",
     "reference": "Vienna",
@@ -2595,23 +2593,23 @@
     "reference": "Warsaw"
   },
   "zachodnia–zielona": {
+    "badges": ["¼"],
     "been": false,
     "city": "Łódź",
     "coords": "51.77037000, 19.45341000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "info": "<div class=\"fraction\"><div>¼</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=51.77037_N_19.45341_E",
     "name": "Zachodnia–Zielona",
     "reference": "Łódź",
     "strike": true
   },
   "zentralhaltstelle": {
+    "badges": ["¾"],
     "been": false,
     "coords": "50.83139000, 12.92227000",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "info": "<div class=\"fraction\"><div>¾</div></div>",
     "link": "https://geohack.toolforge.org/geohack.php?params=50.83139_N_12.92227_E",
     "name": "Zentralhaltstelle",
     "reference": "Chemnitz"

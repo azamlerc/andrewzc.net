@@ -1,0 +1,309 @@
+{
+  "--info--": {
+    "icon": "🍴",
+    "name": "Branch Lines",
+    "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
+  "baltimore-green-line": {
+    "been": false,
+    "city": "Baltimore",
+    "coords": "39.28944444, -76.61527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Green_Line_(Baltimore)",
+    "name": "Green Line",
+    "reference": "Baltimore",
+    "wikidata": "Q6427302"
+  },
+  "baltimore-red-line": {
+    "been": false,
+    "city": "Baltimore",
+    "coords": "39.28944444, -76.61527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(Baltimore)",
+    "name": "Red Line",
+    "reference": "Baltimore",
+    "wikidata": "Q729631"
+  },
+  "baltimore-yellow-line": {
+    "been": false,
+    "city": "Baltimore",
+    "coords": "39.28944444, -76.61527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(Baltimore)",
+    "name": "Yellow Line",
+    "reference": "Baltimore",
+    "wikidata": "Q25587810"
+  },
+  "boston-red-line": {
+    "been": true,
+    "city": "Boston",
+    "coords": "42.36027778, -71.05777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(MBTA)",
+    "name": "Red Line",
+    "reference": "Boston",
+    "wikidata": "Q729631"
+  },
+  "bucharest-line-5": {
+    "been": false,
+    "city": "Bucharest",
+    "coords": "44.43250000, 26.10388889",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "link": "https://en.wikipedia.org/wiki/Bucharest_Metro_Line_M5",
+    "name": "Line 5",
+    "reference": "Bucharest",
+    "wikidata": "Q1641397"
+  },
+  "chicago-blue-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.91000000, -87.76000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(CTA)",
+    "name": "Blue Line",
+    "reference": "Chicago",
+    "strike": true
+  },
+  "chicago-green-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Green_Line_(CTA)",
+    "name": "Green Line",
+    "reference": "Chicago",
+    "wikidata": "Q6427302"
+  },
+  "hamburg-line-u1": {
+    "been": false,
+    "city": "Hamburg",
+    "coords": "53.55000000, 10.00000000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/U1_(Hamburg_U-Bahn)",
+    "name": "Line U1",
+    "reference": "Hamburg"
+  },
+  "helsinki-line-m1/m2": {
+    "been": false,
+    "city": "Helsinki",
+    "coords": "60.21028, 25.07806",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_Metro",
+    "name": "Line M1/M2",
+    "reference": "Helsinki",
+    "wikidata": "Q207287"
+  },
+  "london-bakerloo-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.59250000, -0.33555556",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Bakerloo_line_(London_Underground)",
+    "name": "Bakerloo Line",
+    "reference": "London",
+    "strike": true
+  },
+  "london-central-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.569722, -0.437222",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Central_line_(London_Underground)",
+    "name": "Central Line",
+    "reference": "London",
+    "wikidata": "Q205355"
+  },
+  "london-district-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50666667, -0.28527778",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/District_line",
+    "name": "District Line",
+    "reference": "London"
+  },
+  "london-east-london-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.52321666666667, -0.07523055555555555",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/East_London_line",
+    "name": "East London Line",
+    "reference": "London",
+    "wikidata": "Q831794"
+  },
+  "london-metropolitan-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.55777778, -0.25861111",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Metropolitan_line",
+    "name": "Metropolitan Line",
+    "reference": "London"
+  },
+  "london-piccadilly-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.65166667, -0.14888889",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Piccadilly_line",
+    "name": "Piccadilly Line",
+    "reference": "London"
+  },
+  "milan-line-m1": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_1",
+    "name": "Line M1",
+    "reference": "Milan",
+    "wikidata": "Q2400801"
+  },
+  "milan-line-m2": {
+    "been": false,
+    "city": "Milan",
+    "coords": "45.46694444, 9.19000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Milan_Metro_Line_2",
+    "name": "Line M2",
+    "reference": "Milan",
+    "wikidata": "Q2519385"
+  },
+  "moscow-filyovskaya-line": {
+    "been": true,
+    "city": "Moscow",
+    "coords": "55.7502, 37.6186",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Filyovskaya_Line",
+    "name": "Filyovskaya Line",
+    "reference": "Moscow",
+    "wikidata": "Q5499"
+  },
+  "new-york-a-train": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/A_(New_York_City_Subway_service)",
+    "name": "A Train",
+    "reference": "New York",
+    "wikidata": "Q109457138"
+  },
+  "paris-line-13": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_13_du_métro_de_Paris",
+    "name": "Line 13",
+    "reference": "Paris",
+    "wikidata": "Q50759"
+  },
+  "paris-line-7": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.92071000, 2.41051000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_7_du_métro_de_Paris",
+    "name": "Line 7",
+    "reference": "Paris"
+  },
+  "rome-line-b": {
+    "been": false,
+    "city": "Rome",
+    "coords": "41.88700000, 12.51000000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Line_B_(Rome_Metro)",
+    "name": "Line B",
+    "reference": "Rome"
+  },
+  "taipei-orange-line": {
+    "been": false,
+    "city": "Taipei",
+    "coords": "25.03750000, 121.56250000",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "link": "https://en.wikipedia.org/wiki/Zhonghe–Xinlu_line",
+    "name": "Orange Line",
+    "reference": "Taipei",
+    "wikidata": "Q6141590"
+  },
+  "tehran-line-1": {
+    "been": false,
+    "city": "Tehran",
+    "coords": "35.68888889, 51.38972222",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_1",
+    "name": "Line 1",
+    "reference": "Tehran",
+    "wikidata": "Q20110118"
+  },
+  "tehran-line-4": {
+    "been": false,
+    "city": "Tehran",
+    "coords": "35.68888889, 51.38972222",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_4",
+    "name": "Line 4",
+    "reference": "Tehran",
+    "wikidata": "Q20110121"
+  },
+  "valencia-line-1": {
+    "been": false,
+    "coords": "39.47000000, -0.37638889",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_1_(Metrovalencia)",
+    "name": "Line 1",
+    "reference": "Valencia",
+    "strike": true,
+    "wikidata": "Q729631"
+  },
+  "valencia-line-5": {
+    "been": false,
+    "coords": "39.492637, -0.475982",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_5_(Metrovalencia)",
+    "name": "Line 5",
+    "reference": "Valencia",
+    "strike": true,
+    "wikidata": "Q3238965"
+  },
+  "washington-silver-line": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Silver_Line_(Washington_Metro)",
+    "name": "Silver Line",
+    "reference": "Washington",
+    "wikidata": "Q1346603"
+  }
+}

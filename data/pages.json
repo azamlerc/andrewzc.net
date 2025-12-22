@@ -270,6 +270,14 @@
     "size": "large",
     "type": "place"
   },
+  "branches": {
+    "icon": "🍴",
+    "name": "Branch Lines",
+    "size": "medium",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
   "brazil": {
     "auto": true,
     "icon": "🇧🇷",
@@ -495,6 +503,15 @@
     "tags": ["city-flag"],
     "type": "place"
   },
+  "circle-lines": {
+    "header": "Routes where trains travel both directions in a continuous circle.",
+    "icon": "⭕️",
+    "name": "Circle Lines",
+    "size": "large",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
   "circular": {
     "icon": "☸️",
     "name": "Circular Grids",
@@ -569,8 +586,10 @@
     },
     "name": "Confluence Points",
     "prefixClass": "coords",
+    "script": "confluence.js",
     "size": "large",
-    "tags": ["lookup-state"],
+    "sort": "coords",
+    "tags": ["lookup-state", "no-data"],
     "type": "place"
   },
   "congestion": {
@@ -613,6 +632,11 @@
   },
   "cross-platform": {
     "icon": "🔀",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Cross-Platform",
     "size": "medium",
     "sort": "reference",
@@ -864,6 +888,7 @@
     "type": "place"
   },
   "ferris-wheels": {
+    "auto": true,
     "icon": "🎡",
     "map": {
       "lat": "25",
@@ -872,6 +897,14 @@
     },
     "name": "Ferris Wheels",
     "size": "large",
+    "type": "place"
+  },
+  "first-locations": {
+    "header": "</span><br>See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
+    "icon": "🍔",
+    "name": "First Locations",
+    "size": "large",
+    "tags": ["no-coords", "no-link"],
     "type": "place"
   },
   "flood": {
@@ -968,8 +1001,9 @@
     "type": "place"
   },
   "grand-unions": {
+    "auto": true,
     "featured": true,
-    "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.<br><br>",
+    "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.",
     "icon": "🦋",
     "map": {
       "lat": "50.8",
@@ -979,10 +1013,11 @@
     "name": "Grand Unions",
     "size": "medium",
     "sort": "reference",
-    "tags": ["reference-first"],
+    "tags": ["no-data", "reference-first", "fractions"],
     "type": "place"
   },
   "greenhouses": {
+    "auto": true,
     "icon": "🌴",
     "map": {
       "lat": "25",
@@ -1014,6 +1049,7 @@
     "type": "place"
   },
   "head-on": {
+    "auto": true,
     "header": "Stations with a transfer from the end of one line to the beginning of another.",
     "icon": "🔃",
     "name": "Head-On Connections",
@@ -1232,6 +1268,7 @@
     "type": "place"
   },
   "live": {
+    "auto": true,
     "header": "Locations where live albums were recorded.",
     "icon": "🏟️",
     "name": "Live",
@@ -1388,7 +1425,13 @@
     "type": "place"
   },
   "mines": {
+    "auto": true,
     "icon": "⚒️",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Mines",
     "size": "large",
     "type": "place"
@@ -1558,6 +1601,28 @@
     "tags": ["prefix"],
     "type": "place"
   },
+  "operating": {
+    "featured": true,
+    "icon": "🥌",
+    "map": {
+      "cluster": "false",
+      "lat": "47",
+      "lon": "15",
+      "zoom": "5"
+    },
+    "name": "Operating",
+    "size": "large",
+    "type": "place"
+  },
+  "opposites": {
+    "header": "Lines where different services run in opposite directions.",
+    "icon": "🔁",
+    "name": "Opposite Lines",
+    "size": "large",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
   "orient-express": {
     "icon": "🚂",
     "map": {
@@ -1642,7 +1707,7 @@
   "police": {
     "icon": "👮🏽‍♂️",
     "name": "Police Stations",
-    "size": "medium",
+    "size": "large",
     "type": "place"
   },
   "pools": {
@@ -1794,7 +1859,12 @@
     "type": "place"
   },
   "rolling-stock": {
-
+    "icon": "🚃",
+    "name": "Rolling Stock",
+    "size": "large",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
   },
   "roman-towns": {
     "icon": "🏛️",
@@ -2286,6 +2356,7 @@
     "type": "place"
   },
   "tripoints": {
+    "auto": true,
     "featured": true,
     "icon": "🚩",
     "map": {
@@ -2295,7 +2366,9 @@
       "zoom": "5"
     },
     "name": "Tripoints",
+    "nearDistance": 5,
     "size": "large",
+    "sort": "countries",
     "tags": ["middleSectionBeen"],
     "type": "place"
   },

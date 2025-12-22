@@ -1,0 +1,88 @@
+{
+  "--info--": {
+    "header": "Lines where different services run in opposite directions.",
+    "icon": "🔁",
+    "name": "Opposite Lines",
+    "size": "large",
+    "sort": "reference",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
+  "berlin-ringbahn": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.52000000, 13.40500000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Berlin_Ringbahn",
+    "name": "Ringbahn",
+    "reference": "Berlin",
+    "wikidata": "Q525056"
+  },
+  "charleroi-loop": {
+    "been": true,
+    "coords": "50.40805556, 4.44750000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Charleroi_Metro",
+    "name": "Loop",
+    "reference": "Charleroi",
+    "wikidata": "Q37453880"
+  },
+  "chicago-loop": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.85003, -87.65005",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chicago_%27L%27#Circle_Line",
+    "name": "Loop",
+    "reference": "Chicago",
+    "wikidata": "Q820880"
+  },
+  "den-haag-lines-15/16": {
+    "been": true,
+    "city": "Den Haag",
+    "coords": "52.08000000, 4.31000000",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Tramlijn_16_(Haaglanden)",
+    "name": "Lines 15/16",
+    "reference": "Den Haag",
+    "strike": true,
+    "wikidata": "Q2746551"
+  },
+  "wrocław-lines-0l/0p": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.11000000, 17.03250000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Wrocław",
+    "name": "Lines 0L/0P",
+    "reference": "Wrocław",
+    "wikidata": "Q1531939"
+  },
+  "wrocław-lines-14/24": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.11000000, 17.03250000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Wrocław",
+    "name": "Lines 14/24",
+    "reference": "Wrocław",
+    "wikidata": "Q1531939"
+  },
+  "wrocław-lines-18/19": {
+    "been": false,
+    "city": "Wrocław",
+    "coords": "51.11000000, 17.03250000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Wrocław",
+    "name": "Lines 18/19",
+    "reference": "Wrocław",
+    "wikidata": "Q1531939"
+  }
+}

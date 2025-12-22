@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "auto": true,
     "featured": true,
     "icon": "🚩",
     "map": {
@@ -9,7 +10,9 @@
       "zoom": "5"
     },
     "name": "Tripoints",
+    "nearDistance": 5,
     "size": "large",
+    "sort": "countries",
     "tags": ["middleSectionBeen"],
     "type": "place"
   },
@@ -68,6 +71,7 @@
     "city": "Basel",
     "coords": "47.58847000, 7.58975000",
     "countries": ["FR", "DE", "CH"],
+    "distance": 0.3,
     "icons": ["🇫🇷", "🇩🇪", "🇨🇭"],
     "images": ["basel1.jpg", "basel2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Basel",
@@ -75,21 +79,23 @@
   },
   "bet-shean": {
     "been": true,
-    "coords": "31.50000000, 35.48333333",
+    "caption": "Passed within 5 km while driving down highway 90 along the Jordan River from the Sea of Galilee to the Dead Sea.",
+    "coords": "32.38930000, 35.55498000",
     "countries": ["IL", "JO", "PS"],
+    "distance": 5,
     "icons": ["🇮🇱", "🇯🇴", "🇵🇸"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=31_30_N_35_29_E",
-    "name": "Bet She’an",
-    "reference": "4 km"
+    "images": ["bet-shean1.jpg"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=32.38930_N_35.55498_E",
+    "name": "Bet She’an"
   },
   "bijeljina": {
     "been": false,
     "coords": "44.85250000, 19.01055556",
     "countries": ["BA", "HR", "RS"],
+    "distance": 40,
     "icons": ["🇧🇦", "🇭🇷", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=44_51_09_N_19_00_38_E",
-    "name": "Bijeljina",
-    "reference": "40 km"
+    "name": "Bijeljina"
   },
   "cerro-de-montecristo": {
     "been": false,
@@ -117,12 +123,14 @@
   },
   "dead-sea": {
     "been": true,
+    "caption": "This tripoint is in the middle of the Dead Sea. Drove down highway 90 to Ein Gedi, passing within 8 km. The beach was lined with chain link fences and resorts with Russian tourists getting mineral treatments.",
     "coords": "32.38333333, 35.55000000",
     "countries": ["IL", "JO", "PS"],
+    "distance": 8,
     "icons": ["🇮🇱", "🇯🇴", "🇵🇸"],
+    "images": ["dead-sea1.jpg", "dead-sea2.jpg", "dead-sea3.jpg", "dead-sea4.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=32_23_N_35_33_E",
-    "name": "Dead Sea",
-    "reference": "8 km"
+    "name": "Dead Sea"
   },
   "doklam": {
     "badges": ["🏔️"],
@@ -146,6 +154,7 @@
     "caption": "Got stopped by the border police, who warned me not to pick up hitchhikers. Drove down the border guard road to the point where it was barred, about 2 km from the tripoint. That was also 1 km from the northern point of Belarus. Continued on dirt roads to the eastern point of Latvia.",
     "coords": "56.17018, 28.15136",
     "countries": ["BY", "LV", "RU"],
+    "distance": 2,
     "icons": ["🇧🇾", "🇱🇻", "🇷🇺"],
     "images": ["draudzibas-kurgans.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=56.17018_N_28.15136_E",
@@ -156,6 +165,7 @@
     "caption": "The tripoint is within 500m of the border post where I had to pay $100 cash to enter Turkey.",
     "coords": "41.67694444, 26.55555556",
     "countries": ["BG", "GR", "TR"],
+    "distance": 0.5,
     "icons": ["🇧🇬", "🇬🇷", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Edirne",
     "name": "Edirne"
@@ -165,6 +175,7 @@
     "caption": "Sandwiched between France and Spain, Andorra has two tripoints. We drove through the whole country without even stopping. The tripoint is within 100m of some switchbacks in France.",
     "coords": "42.54233611, 1.73382778",
     "countries": ["AD", "FR", "ES"],
+    "distance": 0.1,
     "icons": ["🇦🇩", "🇫🇷", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/El_Pas_de_la_Casa",
     "name": "El Pas de la Casa"
@@ -174,6 +185,7 @@
     "caption": "Around the corner from the northern point of Luxeumbourg, there’s a farm with a bridge over the Our river. The tripoint is at the midpoint of the bridge, and there’s a boundary marker where a tiny stream meets the river. The Monument to Europe is across the road.",
     "coords": "50.130277777778, 6.1358333333333",
     "countries": ["BE", "DE", "LU"],
+    "distance": false,
     "icons": ["🇧🇪", "🇩🇪", "🇱🇺"],
     "images": ["be-de-lu.jpg", "europadenkmal3.jpg", "europadenkmal2.jpg"],
     "link": "https://de.wikipedia.org/wiki/Europadenkmal",
@@ -189,40 +201,45 @@
   },
   "garbolc": {
     "been": true,
-    "coords": "47.94517000, 22.85993000",
+    "caption": "Passed within 15 km of the tripoint on the road between Nyíregyháza in Hungary and Uzhhorod in Ukraine.",
+    "coords": "47.95411, 22.89594",
     "countries": ["HU", "RO", "UA"],
+    "distance": 15,
     "icons": ["🇭🇺", "🇷🇴", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Garbolc",
-    "name": "Garbolc",
-    "reference": "15 km"
+    "name": "Garbolc"
   },
   "giby": {
     "been": true,
     "caption": "This tripoint is in the middle of a huge swamp. Was content to drive by on the nearest main road on the way to Druskininkai. Went for an international swim at the northwestern point of Poland.",
     "coords": "53.95472222, 23.51666667",
     "countries": ["BY", "LT", "PL"],
+    "distance": 20,
     "icons": ["🇧🇾", "🇱🇹", "🇵🇱"],
+    "images": ["giby1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=53_57_17_N_23_31_00_E",
-    "name": "Giby",
-    "reference": "20 km"
+    "name": "Giby"
   },
   "giurgiulesti": {
     "been": true,
     "caption": "Passed within 1 km of the tripoint in the Danube on the way out of Moldova. Had to wait three hours at the border checkpoint for them to check our papers, and ran into trouble because we got the неофициальный car insurance option on the way in.",
     "coords": "45.48333333, 28.20000000",
     "countries": ["MD", "RO", "UA"],
+    "distance": true,
     "icons": ["🇲🇩", "🇷🇴", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Giurgiulești",
     "name": "Giurgiulești"
   },
   "golan-heights": {
     "been": true,
+    "caption": "Passed within 10 km on the way around the Sea of Galilee.",
     "coords": "32.75000000, 35.75000000",
     "countries": ["IL", "JO", "SY"],
+    "distance": 10,
     "icons": ["🇮🇱", "🇯🇴", "🇸🇾"],
+    "images": ["golan-heights1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=32_45_N_35_45_E",
-    "name": "Golan Heights",
-    "reference": "10 km"
+    "name": "Golan Heights"
   },
   "golden-triangle": {
     "been": false,
@@ -255,6 +272,7 @@
     "caption": "This tripoint is at the confluence of the Thaya and Morava rivers. I was content to ride the train within 3 km.",
     "coords": "48.60000000, 16.90000000",
     "countries": ["AT", "CZ", "SK"],
+    "distance": 3,
     "icons": ["🇦🇹", "🇨🇿", "🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Hohenau_an_der_March",
     "name": "Hohenau an der March"
@@ -263,10 +281,10 @@
     "been": false,
     "coords": "49.51750000, 18.84888889",
     "countries": ["CZ", "PL", "SK"],
+    "distance": 30,
     "icons": ["🇨🇿", "🇵🇱", "🇸🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49_31_03_N_18_50_56_E",
-    "name": "Hrčava",
-    "reference": "30 km"
+    "name": "Hrčava"
   },
   "iguazu": {
     "been": false,
@@ -345,10 +363,10 @@
     "been": false,
     "coords": "46.47594000, 16.59684000",
     "countries": ["HR", "HU", "SI"],
+    "distance": 40,
     "icons": ["🇭🇷", "🇭🇺", "🇸🇮"],
     "link": "https://geohack.toolforge.org/geohack.php?params=46.47594_N_16.59684_E",
-    "name": "Kerkaszentkirály",
-    "reference": "40 km"
+    "name": "Kerkaszentkirály"
   },
   "khan-tengri": {
     "badges": ["🏔️"],
@@ -363,19 +381,20 @@
     "been": false,
     "coords": "49.08799000, 22.56570000",
     "countries": ["PL", "SK", "UA"],
+    "distance": 40,
     "icons": ["🇵🇱", "🇸🇰", "🇺🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=49.08799_N_22.56570_E",
-    "name": "Kremenec",
-    "reference": "40 km"
+    "name": "Kremenec"
   },
   "kumanovo": {
     "been": true,
+    "caption": "Drove by within 10 km on the highway from Skopje to Belgrade. That was in 2003, five years before Kosovo declared independence.",
     "coords": "42.26281000, 21.58693000",
     "countries": ["XK", "MK", "RS"],
+    "distance": 10,
     "icons": ["🇽🇰", "🇲🇰", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.26281_N_21.58693_E",
-    "name": "Kumanovo",
-    "reference": "10 km"
+    "name": "Kumanovo"
   },
   "kurumdy": {
     "badges": ["🏔️"],
@@ -418,6 +437,7 @@
     "caption": "After visiting the south point of Latvia, found a drivable path through the forest that led towards this tripoint. Just as the forest gave way to a clearing, reached the border zone sign and had to turn around about 750m away.",
     "coords": "55.68060, 26.63045",
     "countries": ["BY", "LV", "LT"],
+    "distance": 0.75,
     "icons": ["🇧🇾", "🇱🇻", "🇱🇹"],
     "images": ["lake-ludvinava.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=55_40_45_N_26_38_0_E",
@@ -451,12 +471,14 @@
   },
   "majdel-shams": {
     "been": true,
+    "caption": "This tripoint is hard to pin down because the border between Israel and Syria is not well-defined. Went all the way to the border with Lebanon and put my hand on the fence. Continued to visit Majdel Shams, a Druze village in the far north of the Golan. Saw a poster of Bashar al-Assad.",
     "coords": "33.33333333, 35.76666667",
     "countries": ["IL", "LB", "SY"],
+    "distance": 10,
     "icons": ["🇮🇱", "🇱🇧", "🇸🇾"],
+    "images": ["majdel-shams1.jpg", "majdel-shams2.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=33_20_N_35_46_E",
-    "name": "Majdel Shams",
-    "reference": "10 km"
+    "name": "Majdel Shams"
   },
   "mekong": {
     "been": false,
@@ -469,21 +491,24 @@
   "mont-dolent": {
     "badges": ["🏔"],
     "been": true,
+    "caption": "The tripoint is at 3749m, about 100 metres north-west of the summit of Mount Dolent. Passed within 15 km on the way from Jungfrau to Albertville.",
     "coords": "45.92250000, 7.04611111",
     "countries": ["FR", "IT", "CH"],
+    "distance": 15,
     "icons": ["🇫🇷", "🇮🇹", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Mont_Dolent",
-    "name": "Mont Dolent",
-    "reference": "15 km"
+    "name": "Mont Dolent"
   },
   "mouderi": {
     "been": true,
+    "caption": "The tripoint lies in the Senegal River. Passed within 12 km while driving around Senegal, on the way from Bakel to Kidira.",
     "coords": "14.76666667, -12.25000000",
     "countries": ["ML", "MR", "SN"],
+    "distance": 12,
     "icons": ["🇲🇱", "🇲🇷", "🇸🇳"],
+    "images": ["mouderi1.jpg", "mouderi2.jpg", "mouderi3.jpg", "mouderi4.jpg", "mouderi5.jpg", "mouderi6.jpg", "mouderi7.jpg", "mouderi8.jpg", "mouderi9.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=14_46_N_12_15_W",
-    "name": "Moudéri",
-    "reference": "12 km"
+    "name": "Moudéri"
   },
   "mount-roraima": {
     "been": false,
@@ -495,12 +520,14 @@
   },
   "mount-sabyinyo": {
     "been": true,
+    "caption": "Mount Sabyinyo is a prominent volcano about 5 km north of Mitobo.",
     "coords": "-1.40000000, 29.60000000",
     "countries": ["CD", "RW", "UG"],
+    "distance": 5,
     "icons": ["🇨🇩", "🇷🇼", "🇺🇬"],
+    "images": ["mount-sabyinyo1.jpg", "mount-sabyinyo2.jpg", "mount-sabyinyo3.jpg", "mount-sabyinyo4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Sabyinyo",
-    "name": "Mount Sabyinyo",
-    "reference": "5 km"
+    "name": "Mount Sabyinyo"
   },
   "mpundweni-beacon": {
     "been": false,
@@ -513,12 +540,13 @@
   "naafkopf": {
     "badges": ["🏔"],
     "been": true,
+    "caption": "Naafkopf is a 2570m peak, about 10 km from Vaduz.",
     "coords": "47.06070556, 9.60715278",
     "countries": ["AT", "LI", "CH"],
+    "distance": 10,
     "icons": ["🇦🇹", "🇱🇮", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Naafkopf",
-    "name": "Naafkopf",
-    "reference": "10 km"
+    "name": "Naafkopf"
   },
   "negotin": {
     "been": false,
@@ -533,6 +561,7 @@
     "caption": "Stayed at Gasthof Drielandereck in Schwarzenberg am Böhmerwald, a tripoint-themed hotel! Was pouring rain the next morning so not a good day to hike the 2 km from the trailhead to the summit.",
     "coords": "48.77111111, 13.83944444",
     "countries": ["AT", "CZ", "DE"],
+    "distance": 2,
     "icons": ["🇦🇹", "🇨🇿", "🇩🇪"],
     "images": ["nova-pec1.jpg", "nova-pec2.jpg", "nova-pec3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48_46_16_N_13_50_22_E",
@@ -551,6 +580,7 @@
     "caption": "Drove to the beginning of the border access road, which is blocked off. Continued along the main road to a point 1 km away. Backtracked and crossed the border into Estonia where I went for a nice swim in the Hino Nature Park.",
     "coords": "57.51805556, 27.35138889",
     "countries": ["EE", "LV", "RU"],
+    "distance": true,
     "icons": ["🇪🇪", "🇱🇻", "🇷🇺"],
     "images": ["parmu.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=57_31_05_N_27_21_05_E",
@@ -567,12 +597,13 @@
   "pic-de-medecourbe": {
     "badges": ["🏔"],
     "been": true,
+    "caption": "Androrra’s other tripoint is up in the mountains, about 13 km away from the zero point in Andorra la Vella.",
     "coords": "42.60194444, 1.44222222",
     "countries": ["AD", "FR", "ES"],
+    "distance": 13,
     "icons": ["🇦🇩", "🇫🇷", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Pic_de_Médécourbe",
-    "name": "Pic de Médécourbe",
-    "reference": "13 km"
+    "name": "Pic de Médécourbe"
   },
   "povalo-shveikovsky-pass": {
     "badges": ["🏔️"],
@@ -587,10 +618,10 @@
     "been": false,
     "coords": "48.25957000, 26.63016000",
     "countries": ["MD", "RO", "UA"],
+    "distance": 40,
     "icons": ["🇲🇩", "🇷🇴", "🇺🇦"],
     "link": "https://geohack.toolforge.org/geohack.php?params=48.25957_N_26.63016_E",
-    "name": "Prut",
-    "reference": "40 km"
+    "name": "Prut"
   },
   "rajka": {
     "been": true,
@@ -598,6 +629,7 @@
     "city": "Bratislava",
     "coords": "47.99689000, 17.19832000",
     "countries": ["AT", "HU", "SK"],
+    "distance": false,
     "icons": ["🇦🇹", "🇭🇺", "🇸🇰"],
     "images": ["at-hu-sk1.jpg", "at-hu-sk2.jpg", "rajka3.jpg"],
     "link": "https://hu.wikipedia.org/wiki/Rajka",
@@ -608,6 +640,7 @@
     "caption": "A former tripoint on the Iron Curtain where the Inter German Border met Czechoslovakia! Parked the car on a forest road and walked down a path to the marker, which is in a little swamp.",
     "coords": "50.31824000, 12.10097000",
     "countries": ["CZ", "DE"],
+    "distance": false,
     "icons": ["🇨🇿", "🇩🇪"],
     "images": ["regnitzlosau3.jpg", "regnitzlosau2.jpg", "regnitzlosau1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50.31824_N_12.10097_E",
@@ -628,6 +661,7 @@
     "caption": "Rodange is a village mostly known for having cheap gas. Parked at the gas station and walked along the road until I found a gravel path leading down into a ravine from the Belgian side. Located this vintage chess piece monument in a cluster of weeds.",
     "coords": "49.54666667, 5.83972222",
     "countries": ["BE", "FR", "LU"],
+    "distance": false,
     "icons": ["🇧🇪", "🇫🇷", "🇱🇺"],
     "images": ["be-fr-lu.jpg", "rodange2.jpg", "rodange3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rodange",
@@ -638,10 +672,10 @@
     "caption": "Liechtenstein is a small country so if you’ve been there at all you’ve been near both tripoints.",
     "coords": "47.24333333, 9.53000000",
     "countries": ["AT", "LI", "CH"],
+    "distance": 6,
     "icons": ["🇦🇹", "🇱🇮", "🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Ruggell",
-    "name": "Ruggell",
-    "reference": "6 km"
+    "name": "Ruggell"
   },
   "ruzizi-river": {
     "been": false,
@@ -672,6 +706,7 @@
     "caption": "The Schengen Treaty was signed on a boat in the middle of the Moselle river, during a tripoint visit by European leaders. The agreement removed internal European borders, leading to many more tripoint visits.",
     "coords": "49.46944444, 6.35888889",
     "countries": ["FR", "DE", "LU"],
+    "distance": false,
     "icons": ["🇫🇷", "🇩🇪", "🇱🇺"],
     "images": ["de-fr-lu.jpg", "schengen2.jpg", "schengen3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
@@ -692,10 +727,10 @@
     "been": false,
     "coords": "42.31173000, 22.35980000",
     "countries": ["BG", "MK", "RS"],
+    "distance": 40,
     "icons": ["🇧🇬", "🇲🇰", "🇷🇸"],
     "link": "https://geohack.toolforge.org/geohack.php?params=42.31173_N_22.35980_E",
-    "name": "Shulep Kamak",
-    "reference": "40 km"
+    "name": "Shulep Kamak"
   },
   "szeged": {
     "been": true,
@@ -703,10 +738,10 @@
     "city": "Szeged",
     "coords": "46.13333333, 20.26666667",
     "countries": ["HU", "RO", "RS"],
+    "distance": 20,
     "icons": ["🇭🇺", "🇷🇴", "🇷🇸"],
     "link": "https://hu.wikipedia.org/wiki/Triplex_Confinium",
-    "name": "Szeged",
-    "reference": "20 km"
+    "name": "Szeged"
   },
   "tamasouka": {
     "been": false,
@@ -763,10 +798,10 @@
     "been": false,
     "coords": "41.34361111, 22.94444444",
     "countries": ["BG", "GR", "MK"],
+    "distance": 40,
     "icons": ["🇧🇬", "🇬🇷", "🇲🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=41_20_37_N_22_56_40_E",
-    "name": "Tumba Peak",
-    "reference": "40 km"
+    "name": "Tumba Peak"
   },
   "tumen-river": {
     "been": false,
@@ -790,6 +825,7 @@
     "city": "Aachen",
     "coords": "50.75472222, 6.02083333",
     "countries": ["BE", "DE", "NL"],
+    "distance": false,
     "icons": ["🇧🇪", "🇩🇪", "🇳🇱"],
     "images": ["vaalserberg1.jpg", "vaalserberg2.jpg", "vaalserberg3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vaalserberg",
@@ -809,6 +845,7 @@
     "caption": "This tripoint on the corner of Kaliningrad Oblast has a parking lot in Poland and an official trail leading to the tripoint. The borders with Poland and Lithuania are now heavily fortified with razor wire. There’s a marble monument, a warning sign, and a Soviet flag for good measure. Got some sorbet from the souvenir stand on the way out.",
     "coords": "54.36250000, 22.79055556",
     "countries": ["LT", "PL", "RU"],
+    "distance": false,
     "icons": ["🇱🇹", "🇵🇱", "🇷🇺"],
     "images": ["wizajny1.jpg", "wizajny2.jpg", "wizajny3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=54_21_45_N_22_47_26_E",
@@ -819,6 +856,7 @@
     "caption": "Passed within 700m of the tripoint on the road between Nyíregyháza in Hungary and Uzhhorod in Ukraine.",
     "coords": "48.41700000, 22.18300000",
     "countries": ["HU", "SK", "UA"],
+    "distance": 0.7,
     "icons": ["🇭🇺", "🇸🇰", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Záhony",
     "name": "Záhony"
@@ -836,6 +874,7 @@
     "caption": "After visiting 51°N 15°E and the Turów mine, drove down an access road to the parking for the Trojmezí point. Due to an unusual European monsoon, the Neisse was in flood stage and I had to step over a meter of water to touch the tripoint marker. Continued on to Liberec and the Ještěd Tower.",
     "coords": "50.87027778, 14.82277778",
     "countries": ["CZ", "DE", "PL"],
+    "distance": false,
     "icons": ["🇨🇿", "🇩🇪", "🇵🇱"],
     "images": ["zittau2.jpg", "zittau1.jpg", "zittau3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=50_52_13_N_14_49_22_E",

@@ -1,6 +1,12 @@
 {
   "--info--": {
+    "auto": true,
     "icon": "⚒️",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Mines",
     "size": "large",
     "type": "place"
@@ -26,6 +32,7 @@
     "coords": "51.77240000, -3.10500000",
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
+    "images": ["blaenavon1.jpg", "blaenavon2.jpg", "blaenavon3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Big_Pit_National_Coal_Museum",
     "name": "Blaenavon"
   },
@@ -34,6 +41,7 @@
     "coords": "35.04290194, -117.67928111",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["boron1.jpg", "boron2.jpg", "boron3.jpg", "boron4.jpg", "boron5.jpg", "boron6.jpg", "boron7.jpg", "boron8.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rio_Tinto_Borax_Mine",
     "name": "Boron"
   },
@@ -127,8 +135,10 @@
   },
   "kopalnia-guido": {
     "been": true,
+    "coords": "50.28961667, 18.79156333",
     "country": "PL",
     "icons": ["🇵🇱"],
+    "images": ["kopalnia-guido1.jpg", "kopalnia-guido2.jpg", "kopalnia-guido3.jpg", "kopalnia-guido4.jpg", "kopalnia-guido5.jpg", "kopalnia-guido6.jpg", "kopalnia-guido7.jpg", "kopalnia-guido8.jpg"],
     "link": "https://pl.wikipedia.org/wiki/Kopalnia_Guido",
     "name": "Kopalnia Guido"
   },
@@ -141,8 +151,10 @@
   },
   "la-rodde": {
     "been": true,
+    "coords": "45.15336667, 3.32906333",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["la-rodde1.jpg", "la-rodde2.jpg", "la-rodde3.jpg", "la-rodde4.jpg", "la-rodde5.jpg", "la-rodde6.jpg", "la-rodde7.jpg", "la-rodde8.jpg", "la-rodde9.jpg"],
     "link": "https://ally43.fr/visites-guidees/mine/",
     "name": "La Rodde"
   },
@@ -152,6 +164,7 @@
     "coords": "55.56805556, 12.93611111",
     "country": "SE",
     "icons": ["🇸🇪"],
+    "images": ["limhamns-kalkbrott1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Limhamns_kalkbrott",
     "name": "Limhamns Kalkbrott"
   },
@@ -270,9 +283,10 @@
   },
   "tagebau-hambach": {
     "been": true,
-    "coords": "50.910833333333, 6.5027777777778",
+    "coords": "50.91083333, 6.50277778",
     "country": "DE",
     "icons": ["🇩🇪"],
+    "images": ["tagebau-hambach1.jpg", "tagebau-hambach2.jpg", "tagebau-hambach3.jpg", "tagebau-hambach4.jpg", "tagebau-hambach5.jpg", "tagebau-hambach6.jpg", "tagebau-hambach7.jpg", "tagebau-hambach8.jpg"],
     "link": "https://de.wikipedia.org/wiki/Tagebau_Hambach",
     "name": "Tagebau Hambach",
     "wikidata": "Q315371"
@@ -289,6 +303,7 @@
     "coords": "50.91250000, 14.90305556",
     "country": "PL",
     "icons": ["🇵🇱"],
+    "images": ["turow-coal-mine1.jpg", "turow-coal-mine2.jpg", "turow-coal-mine3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Tur%C3%B3w_Coal_Mine",
     "name": "Turów Coal Mine"
   },
@@ -306,6 +321,7 @@
     "coords": "52.68970000, -3.80040000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["yellow-aster-mine1.jpg", "yellow-aster-mine2.jpg", "yellow-aster-mine3.jpg", "yellow-aster-mine4.jpg", "yellow-aster-mine5.jpg", "yellow-aster-mine6.jpg", "yellow-aster-mine7.jpg", "yellow-aster-mine8.jpg"],
     "link": "https://en.wikipedia.org/wiki/Yellow_Aster_Mine",
     "name": "Yellow Aster Mine"
   },
