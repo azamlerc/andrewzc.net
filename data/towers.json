@@ -1,6 +1,12 @@
 {
   "--info--": {
+    "auto": true,
     "icon": "🗼",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Towers",
     "prefixClass": "fixed",
     "size": "large",
@@ -652,15 +658,6 @@
     "link": "https://en.wikipedia.org/wiki/John_Hancock_Center",
     "name": "John Hancock Center",
     "size": 344
-  },
-  "jpmorgan-chase-building": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.75580000, -73.97540000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/270_Park_Avenue_(2021–present)",
-    "name": "JPMorgan Chase Building"
   },
   "juche-tower": {
     "been": false,

@@ -295,6 +295,7 @@
     "type": "place"
   },
   "bridges": {
+    "auto": true,
     "icon": "🌉",
     "map": {
       "lat": "25",
@@ -567,6 +568,7 @@
     "type": "place"
   },
   "confluence": {
+    "auto": true,
     "featured": true,
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
@@ -2257,7 +2259,13 @@
     "type": "place"
   },
   "towers": {
+    "auto": true,
     "icon": "🗼",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Towers",
     "prefixClass": "fixed",
     "size": "large",
@@ -2364,6 +2372,7 @@
     "type": "place"
   },
   "tunnels": {
+    "auto": true,
     "icon": "🕳️",
     "map": {
       "lat": "48",
