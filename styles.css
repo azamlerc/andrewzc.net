@@ -157,7 +157,7 @@ a {
 	top: -6px;
 }
 
-.large .coords {
+.large .fixed {
 	font: 28pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;
@@ -165,7 +165,7 @@ a {
   white-space: pre;
 }
 
-.medium .coords {
+.medium .fixed {
 	font: 20pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;
@@ -173,7 +173,7 @@ a {
   white-space: pre;
 }
 
-.small .coords {
+.small .fixed {
 	font: 16pt "SF Mono", Menlo; 
 	color: #777;
 	position: relative;

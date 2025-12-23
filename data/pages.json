@@ -302,7 +302,9 @@
       "zoom": "2"
     },
     "name": "Bridges",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
     "sort": "-size",
     "tags": ["size"],
     "type": "place"
@@ -576,7 +578,7 @@
       "zoom": "3"
     },
     "name": "Confluence Points",
-    "prefixClass": "coords",
+    "prefixClass": "fixed",
     "script": "confluence.js",
     "size": "large",
     "sort": "coords",
@@ -1062,9 +1064,9 @@
       "zoom": "2"
     },
     "name": "Highest Points",
-    "prefixClass": "coords",
-    "reverse": true,
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
     "sort": "-size",
     "tags": ["prefix"],
     "type": "place"
@@ -1287,8 +1289,9 @@
       "zoom": "2"
     },
     "name": "Lowest Points",
-    "prefixClass": "coords",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
     "sort": "size",
     "tags": ["prefix"],
     "type": "place"
@@ -1540,7 +1543,7 @@
       "zoom": "2"
     },
     "name": "Northernmost",
-    "prefixClass": "coords",
+    "prefixClass": "fixed",
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first", "reference-key"],
@@ -1747,7 +1750,7 @@
       "zoom": "2"
     },
     "name": "Projects",
-    "prefixClass": "coords",
+    "prefixClass": "fixed",
     "size": "small",
     "sort": "-prefix",
     "tags": ["badge-been", "project-link", "prefix", "reference-first", "reference-key", "second-future"],
@@ -1969,7 +1972,7 @@
       "zoom": "2"
     },
     "name": "Southernmost",
-    "prefixClass": "coords",
+    "prefixClass": "fixed",
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first", "reference-key"],
@@ -2256,7 +2259,9 @@
   "towers": {
     "icon": "🗼",
     "name": "Towers",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
     "sort": "-size",
     "tags": ["size"],
     "type": "place"
@@ -2366,7 +2371,9 @@
       "zoom": "3"
     },
     "name": "Tunnels",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
     "sort": "-size",
     "tags": ["size"],
     "type": "place"
