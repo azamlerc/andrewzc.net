@@ -4,7 +4,6 @@
     "icon": "🏚",
     "name": "Abandoned Stations",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -304,7 +303,7 @@
     },
     "name": "Bridges",
     "size": "large",
-    "sort": "size",
+    "sort": "-size",
     "tags": ["size"],
     "type": "place"
   },
@@ -347,7 +346,6 @@
     },
     "name": "Bumper Blocks",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -541,7 +539,6 @@
     "icon": "☠️",
     "name": "Closed Lines",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -602,7 +599,6 @@
     },
     "name": "Connections",
     "size": "small",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -633,7 +629,6 @@
     },
     "name": "Cross-Platform",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -683,7 +678,6 @@
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -814,7 +808,6 @@
     "icon": "💨",
     "name": "Express Lines",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -851,7 +844,6 @@
     },
     "name": "Factories",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -859,7 +851,6 @@
     "icon": "🎟️",
     "name": "Fare Cards",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -894,7 +885,7 @@
     "type": "place"
   },
   "first-locations": {
-    "header": "</span><br>See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
+    "header": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
     "icon": "🍔",
     "name": "First Locations",
     "size": "large",
@@ -990,7 +981,6 @@
     },
     "name": "Grand & Union",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1048,7 +1038,6 @@
     "icon": "🔃",
     "name": "Head-On Connections",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1076,7 +1065,7 @@
     "prefixClass": "coords",
     "reverse": true,
     "size": "large",
-    "sort": "prefix-number",
+    "sort": "-size",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -1251,7 +1240,6 @@
     "icon": "🚦",
     "name": "Level Crossings",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1275,7 +1263,6 @@
     "icon": "🔂",
     "name": "Loopback",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1287,7 +1274,6 @@
     },
     "name": "Loops",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1303,7 +1289,7 @@
     "name": "Lowest Points",
     "prefixClass": "coords",
     "size": "large",
-    "sort": "prefix-number",
+    "sort": "size",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -1541,7 +1527,6 @@
     "icon": "💸",
     "name": "Non-Revenue Tracks",
     "size": "small",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1578,7 +1563,6 @@
     "icon": "⚡️",
     "name": "Offset Platforms",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1597,6 +1581,7 @@
   },
   "operating": {
     "featured": true,
+    "header": "I have operated the following transit vehicles:",
     "icon": "🥌",
     "map": {
       "cluster": "false",
@@ -1606,6 +1591,7 @@
     },
     "name": "Operating",
     "size": "large",
+    "tags": ["no-coords"],
     "type": "place"
   },
   "opposites": {
@@ -1719,7 +1705,6 @@
     "icon": "🇻🇦",
     "name": "Popemobiles",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1763,9 +1748,8 @@
     },
     "name": "Projects",
     "prefixClass": "coords",
-    "reverse": true,
     "size": "small",
-    "sort": "prefix",
+    "sort": "-prefix",
     "tags": ["badge-been", "project-link", "prefix", "reference-first", "reference-key", "second-future"],
     "type": "place"
   },
@@ -1952,7 +1936,6 @@
     "icon": "↩️",
     "name": "Short Turn",
     "size": "large",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -1961,7 +1944,6 @@
     "icon": "1️⃣",
     "name": "Single Platform",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -2034,7 +2016,6 @@
     "icon": "🇪🇸",
     "name": "Spanish Solution",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -2076,7 +2057,6 @@
     "icon": "↕️",
     "name": "Split Platforms",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -2277,7 +2257,7 @@
     "icon": "🗼",
     "name": "Towers",
     "size": "large",
-    "sort": "size",
+    "sort": "-size",
     "tags": ["size"],
     "type": "place"
   },
@@ -2290,7 +2270,6 @@
     },
     "name": "Tram Roundabouts",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
@@ -2388,7 +2367,7 @@
     },
     "name": "Tunnels",
     "size": "large",
-    "sort": "size",
+    "sort": "-size",
     "tags": ["size"],
     "type": "place"
   },
@@ -2536,7 +2515,6 @@
     "icon": "🖖",
     "name": "Wyes",
     "size": "medium",
-    "sort": "reference",
     "tags": ["reference-first"],
     "type": "place"
   },
