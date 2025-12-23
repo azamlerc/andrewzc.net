@@ -12,7 +12,7 @@
     "prefixClass": "coords",
     "reverse": true,
     "size": "large",
-    "sort": "prefix-number",
+    "sort": "-size",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -23,7 +23,7 @@
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Aconcagua",
     "name": "Aconcagua",
-    "prefix": "6960"
+    "size": 6960
   },
   "aukstojas-hill": {
     "been": true,
@@ -33,7 +33,7 @@
     "images": ["aukstojas-hill1.jpg", "aukstojas-hill2.jpg", "aukstojas-hill3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Auk%C5%A1tojas_Hill",
     "name": "Aukštojas Hill",
-    "prefix": "294"
+    "size": 294
   },
   "balanesti-hill": {
     "been": false,
@@ -42,7 +42,7 @@
     "icons": ["🇲🇩"],
     "link": "https://en.wikipedia.org/wiki/B%C4%83l%C4%83ne%C8%99ti_Hill",
     "name": "Bălănești Hill",
-    "prefix": "430"
+    "size": 430
   },
   "ben-nevis": {
     "been": true,
@@ -51,7 +51,7 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Ben_Nevis",
     "name": "Ben Nevis",
-    "prefix": "1345"
+    "size": 1345
   },
   "bluff": {
     "been": false,
@@ -60,7 +60,7 @@
     "icons": ["🇰🇾"],
     "link": "https://en.wikipedia.org/wiki/The_Bluff_(Cayman_Islands)",
     "name": "The Bluff",
-    "prefix": "49"
+    "size": 49
   },
   "bukit-timah-hill": {
     "been": false,
@@ -70,7 +70,7 @@
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Bukit_Timah_Hill",
     "name": "Bukit Timah Hill",
-    "prefix": "164"
+    "size": 164
   },
   "carrauntoohil": {
     "been": false,
@@ -79,7 +79,7 @@
     "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/Carrauntoohil",
     "name": "Carrauntoohil",
-    "prefix": "1038"
+    "size": 1038
   },
   "chappal-waddi": {
     "been": false,
@@ -88,7 +88,7 @@
     "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Chappal_Waddi",
     "name": "Chappal Waddi",
-    "prefix": "2419"
+    "size": 2419
   },
   "chimborazo": {
     "been": false,
@@ -97,7 +97,7 @@
     "icons": ["🇪🇨"],
     "link": "https://en.wikipedia.org/wiki/Chimborazo",
     "name": "Chimborazo",
-    "prefix": "6267"
+    "size": 6267
   },
   "cocos": {
     "been": false,
@@ -106,7 +106,7 @@
     "icons": ["🇨🇨"],
     "link": "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands",
     "name": "Cocos",
-    "prefix": "5"
+    "size": 5
   },
   "coma-pedrosa": {
     "been": false,
@@ -115,7 +115,7 @@
     "icons": ["🇦🇩"],
     "link": "https://en.wikipedia.org/wiki/Coma_Pedrosa",
     "name": "Coma Pedrosa",
-    "prefix": "2952"
+    "size": 2952
   },
   "denali": {
     "been": false,
@@ -124,7 +124,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Denali",
     "name": "Denali",
-    "prefix": "6190"
+    "size": 6190
   },
   "diego-garcia": {
     "been": false,
@@ -133,7 +133,7 @@
     "icons": ["🇮🇴"],
     "link": "https://en.wikipedia.org/wiki/Diego_Garcia",
     "name": "Diego Garcia",
-    "prefix": "15"
+    "size": 15
   },
   "dufourspitze": {
     "been": false,
@@ -142,7 +142,7 @@
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Dufourspitze",
     "name": "Dufourspitze",
-    "prefix": "4634"
+    "size": 4634
   },
   "dzyarzhynskaya-hara": {
     "been": false,
@@ -151,7 +151,7 @@
     "icons": ["🇧🇾"],
     "link": "https://en.wikipedia.org/wiki/Dzyarzhynskaya_Hara",
     "name": "Dzyarzhynskaya Hara",
-    "prefix": "346"
+    "size": 346
   },
   "ebright-azimuth": {
     "been": true,
@@ -162,7 +162,7 @@
     "images": ["ebright-azimuth1.jpg", "ebright-azimuth2.jpg", "ebright-azimuth3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Ebright_Azimuth",
     "name": "Ebright Azimuth",
-    "prefix": "137",
+    "size": 137,
     "reference": "Delaware",
     "state": "DE"
   },
@@ -173,7 +173,7 @@
     "icons": ["🇸🇿"],
     "link": "https://en.wikipedia.org/wiki/Emlembe",
     "name": "Emlembe",
-    "prefix": "1862"
+    "size": 1862
   },
   "fansipan": {
     "been": false,
@@ -182,7 +182,7 @@
     "icons": ["🇻🇳"],
     "link": "https://en.wikipedia.org/wiki/Fansipan",
     "name": "Fansipan",
-    "prefix": "3143"
+    "size": 3143
   },
   "fort-reno-park": {
     "been": true,
@@ -193,7 +193,7 @@
     "images": ["dc.jpg"],
     "link": "https://en.wikipedia.org/wiki/Fort_Reno_Park",
     "name": "Fort Reno Park",
-    "prefix": "125",
+    "size": 125,
     "reference": "Washington, DC",
     "state": "DC"
   },
@@ -204,7 +204,7 @@
     "icons": ["🇱🇻"],
     "link": "https://en.wikipedia.org/wiki/Gaizi%C5%86kalns",
     "name": "Gaiziņkalns",
-    "prefix": "312"
+    "size": 312
   },
   "galdhøpiggen": {
     "been": false,
@@ -213,7 +213,7 @@
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Galdh%C3%B8piggen",
     "name": "Galdhøpiggen",
-    "prefix": "2469"
+    "size": 2469
   },
   "gangkhar-puensum": {
     "been": false,
@@ -222,7 +222,7 @@
     "icons": ["🇧🇹", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Gangkhar_Puensum",
     "name": "Gangkhar Puensum",
-    "prefix": "7570"
+    "size": 7570
   },
   "gerlachovsky-stit": {
     "been": false,
@@ -231,7 +231,7 @@
     "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Gerlachovsk%C3%BD_%C5%A1t%C3%ADt",
     "name": "Gerlachovský Štít",
-    "prefix": "2655"
+    "size": 2655
   },
   "golem-korab": {
     "been": false,
@@ -240,7 +240,7 @@
     "icons": ["🇲🇰"],
     "link": "https://en.wikipedia.org/wiki/Golem_Korab",
     "name": "Golem Korab",
-    "prefix": "2764"
+    "size": 2764
   },
   "grauspitz": {
     "been": false,
@@ -249,7 +249,7 @@
     "icons": ["🇱🇮"],
     "link": "https://en.wikipedia.org/wiki/Grauspitz",
     "name": "Grauspitz",
-    "prefix": "2599"
+    "size": 2599
   },
   "grossglockner": {
     "been": false,
@@ -258,7 +258,7 @@
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Grossglockner",
     "name": "Grossglockner",
-    "prefix": "3798"
+    "size": 3798
   },
   "gunnbjørn-fjeld": {
     "been": false,
@@ -267,7 +267,7 @@
     "icons": ["🇬🇱"],
     "link": "https://en.wikipedia.org/wiki/Gunnbj%C3%B8rn_Fjeld",
     "name": "Gunnbjørn Fjeld",
-    "prefix": "3700"
+    "size": 3700
   },
   "halla-san": {
     "been": false,
@@ -276,7 +276,7 @@
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Halla-san",
     "name": "Halla-san",
-    "prefix": "1950"
+    "size": 1950
   },
   "halti": {
     "been": false,
@@ -285,7 +285,7 @@
     "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Halti",
     "name": "Halti",
-    "prefix": "1324"
+    "size": 1324
   },
   "high-point": {
     "been": true,
@@ -295,7 +295,7 @@
     "images": ["nj.jpg", "high-point2.jpg", "high-point3.jpg"],
     "link": "https://en.wikipedia.org/wiki/High_Point_(New_Jersey)",
     "name": "High Point",
-    "prefix": "550",
+    "size": 550,
     "reference": "New Jersey",
     "state": "NJ"
   },
@@ -306,7 +306,7 @@
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Hoverla",
     "name": "Hoverla",
-    "prefix": "2061"
+    "size": 2061
   },
   "hoye-crest": {
     "been": true,
@@ -316,7 +316,7 @@
     "images": ["hoye-crest1.jpg", "hoye-crest2.jpg", "hoye-crest3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Hoye-Crest",
     "name": "Hoye-Crest",
-    "prefix": "1027",
+    "size": 1027,
     "reference": "Maryland",
     "state": "MD"
   },
@@ -327,7 +327,7 @@
     "icons": ["🇵🇪"],
     "link": "https://en.wikipedia.org/wiki/Huascar%C3%A1n",
     "name": "Huascarán",
-    "prefix": "6768"
+    "size": 6768
   },
   "hvannadalshnukur": {
     "been": false,
@@ -336,7 +336,7 @@
     "icons": ["🇮🇸"],
     "link": "https://en.wikipedia.org/wiki/Hvannadalshn%C3%BAkur",
     "name": "Hvannadalshnúkur",
-    "prefix": "2110"
+    "size": 2110
   },
   "ismoil-somoni-peak": {
     "been": false,
@@ -345,7 +345,7 @@
     "icons": ["🇹🇯"],
     "link": "https://en.wikipedia.org/wiki/Ismoil_Somoni_Peak",
     "name": "Ismoil Somoni Peak",
-    "prefix": "7495"
+    "size": 7495
   },
   "jengish-chokusu": {
     "been": false,
@@ -354,7 +354,7 @@
     "icons": ["🇰🇬"],
     "link": "https://en.wikipedia.org/wiki/Jengish_Chokusu",
     "name": "Jengish Chokusu",
-    "prefix": "7439"
+    "size": 7439
   },
   "jerimoth-hill": {
     "been": true,
@@ -363,7 +363,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Jerimoth_Hill",
     "name": "Jerimoth Hill",
-    "prefix": "247",
+    "size": 247,
     "reference": "Rhode Island",
     "state": "RI"
   },
@@ -374,7 +374,7 @@
     "icons": ["🇸🇷"],
     "link": "https://en.wikipedia.org/wiki/Juliana_Top",
     "name": "Juliana Top",
-    "prefix": "1230"
+    "size": 1230
   },
   "k2": {
     "been": false,
@@ -383,7 +383,7 @@
     "icons": ["🇵🇰", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/K2",
     "name": "K2",
-    "prefix": "8611"
+    "size": 8611
   },
   "kangchenjunga": {
     "been": false,
@@ -392,7 +392,7 @@
     "icons": ["🇳🇵", "🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Kangchenjunga",
     "name": "Kangchenjunga",
-    "prefix": "8586"
+    "size": 8586
   },
   "kebnekaise": {
     "been": false,
@@ -401,7 +401,7 @@
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Kebnekaise",
     "name": "Kebnekaise",
-    "prefix": "2097"
+    "size": 2097
   },
   "kekes": {
     "been": false,
@@ -410,7 +410,7 @@
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/K%C3%A9kes",
     "name": "Kékes",
-    "prefix": "1014"
+    "size": 1014
   },
   "khan-tengri": {
     "been": false,
@@ -419,7 +419,7 @@
     "icons": ["🇰🇿"],
     "link": "https://en.wikipedia.org/wiki/Khan_Tengri",
     "name": "Khan Tengri",
-    "prefix": "7010"
+    "size": 7010
   },
   "khazret-sultan": {
     "been": false,
@@ -428,7 +428,7 @@
     "icons": ["🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Khazret_Sultan",
     "name": "Khazret Sultan",
-    "prefix": "4643"
+    "size": 4643
   },
   "kneiff": {
     "been": true,
@@ -439,7 +439,7 @@
     "images": ["lu.jpg", "kneiff2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Kneiff",
     "name": "Kneiff",
-    "prefix": "560"
+    "size": 560
   },
   "korab": {
     "been": false,
@@ -448,7 +448,7 @@
     "icons": ["🇦🇱"],
     "link": "https://en.wikipedia.org/wiki/Korab_(mountain)",
     "name": "Korab",
-    "prefix": "2764"
+    "size": 2764
   },
   "le-moulin": {
     "been": false,
@@ -457,7 +457,7 @@
     "icons": ["🇬🇬"],
     "link": "https://en.wikipedia.org/wiki/Le_Moulin",
     "name": "Le Moulin",
-    "prefix": "114"
+    "size": 114
   },
   "les-platons": {
     "been": false,
@@ -466,7 +466,7 @@
     "icons": ["🇯🇪"],
     "link": "https://en.wikipedia.org/wiki/Les_Platons",
     "name": "Les Platons",
-    "prefix": "136"
+    "size": 136
   },
   "mafadi": {
     "been": false,
@@ -475,7 +475,7 @@
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Mafadi",
     "name": "Mafadi",
-    "prefix": "3450"
+    "size": 3450
   },
   "maglic": {
     "been": false,
@@ -484,7 +484,7 @@
     "icons": ["🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Magli%C4%87_(mountain)",
     "name": "Maglić",
-    "prefix": "2386"
+    "size": 2386
   },
   "maldives": {
     "been": false,
@@ -493,7 +493,7 @@
     "icons": ["🇲🇻"],
     "link": "https://en.wikipedia.org/wiki/Maldives",
     "name": "Maldives",
-    "prefix": "5"
+    "size": 5
   },
   "marshall-islands": {
     "been": false,
@@ -502,7 +502,7 @@
     "icons": ["🇲🇭"],
     "link": "https://en.wikipedia.org/wiki/Marshall_Islands",
     "name": "Marshall Islands",
-    "prefix": "10"
+    "size": 10
   },
   "midzor": {
     "been": false,
@@ -511,7 +511,7 @@
     "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Mid%C5%BEor",
     "name": "Midžor",
-    "prefix": "2169"
+    "size": 2169
   },
   "moldoveanu": {
     "been": false,
@@ -520,7 +520,7 @@
     "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Moldoveanu_Peak",
     "name": "Moldoveanu",
-    "prefix": "2544"
+    "size": 2544
   },
   "mont-blanc": {
     "badges": ["👀"],
@@ -530,7 +530,7 @@
     "icons": ["🇫🇷", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Mont_Blanc",
     "name": "Mont Blanc",
-    "prefix": "4810"
+    "size": 4810
   },
   "mont-panie": {
     "been": false,
@@ -539,7 +539,7 @@
     "icons": ["🇳🇨"],
     "link": "https://en.wikipedia.org/wiki/Mont_Pani%C3%A9",
     "name": "Mont Panié",
-    "prefix": "1682"
+    "size": 1682
   },
   "montanha-do-pico": {
     "been": false,
@@ -548,7 +548,7 @@
     "icons": ["🇵🇹"],
     "link": "https://en.wikipedia.org/wiki/Mount_Pico",
     "name": "Montanha do Pico",
-    "prefix": "2351"
+    "size": 2351
   },
   "monte-titano": {
     "been": false,
@@ -557,7 +557,7 @@
     "icons": ["🇸🇲"],
     "link": "https://en.wikipedia.org/wiki/Monte_Titano",
     "name": "Monte Titano",
-    "prefix": "739"
+    "size": 739
   },
   "mount-apo": {
     "been": false,
@@ -566,7 +566,7 @@
     "icons": ["🇵🇭"],
     "link": "https://en.wikipedia.org/wiki/Mount_Apo",
     "name": "Mount Apo",
-    "prefix": "2954"
+    "size": 2954
   },
   "mount-ararat": {
     "been": false,
@@ -575,7 +575,7 @@
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Mount_Ararat",
     "name": "Mount Ararat",
-    "prefix": "5137"
+    "size": 5137
   },
   "mount-catherine": {
     "been": false,
@@ -584,7 +584,7 @@
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Mount_Catherine",
     "name": "Mount Catherine",
-    "prefix": "2629"
+    "size": 2629
   },
   "mount-constitution": {
     "been": true,
@@ -593,7 +593,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Constitution",
     "name": "Mount Constitution",
-    "prefix": "731",
+    "size": 731,
     "reference": "San Juan Islands"
   },
   "mount-cook": {
@@ -602,7 +602,7 @@
     "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
     "name": "Mount Cook",
-    "prefix": "3724"
+    "size": 3724
   },
   "mount-davis": {
     "been": true,
@@ -613,7 +613,7 @@
     "images": ["mount-davis2.jpg", "mount-davis3.jpg", "mount-davis1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Davis_(Pennsylvania)",
     "name": "Mount Davis",
-    "prefix": "979",
+    "size": 979,
     "reference": "Pennsylvania",
     "state": "PA"
   },
@@ -624,7 +624,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Elbert",
     "name": "Mount Elbert",
-    "prefix": "4401",
+    "size": 4401,
     "reference": "Rocky Mountains",
     "state": "CO"
   },
@@ -635,7 +635,7 @@
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Mount_Elbrus",
     "name": "Mount Elbrus",
-    "prefix": "5642"
+    "size": 5642
   },
   "mount-everest": {
     "been": false,
@@ -644,7 +644,7 @@
     "icons": ["🇳🇵", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Mount_Everest",
     "name": "Mount Everest",
-    "prefix": "8848",
+    "size": 8848,
     "reference": "Earth"
   },
   "mount-frissell": {
@@ -655,7 +655,7 @@
     "images": ["ct.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Frissell",
     "name": "Mount Frissell",
-    "prefix": "748",
+    "size": 748,
     "reference": "Connecticut",
     "state": "CT"
   },
@@ -667,7 +667,7 @@
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Mount_Fuji",
     "name": "Mount Fuji",
-    "prefix": "3776"
+    "size": 3776
   },
   "mount-greylock": {
     "been": true,
@@ -676,7 +676,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Greylock",
     "name": "Mount Greylock",
-    "prefix": "1063",
+    "size": 1063,
     "reference": "Massachusetts",
     "state": "MA"
   },
@@ -687,7 +687,7 @@
     "icons": ["🇸🇾"],
     "link": "https://en.wikipedia.org/wiki/Mount_Hermon",
     "name": "Mount Hermon",
-    "prefix": "1208"
+    "size": 1208
   },
   "mount-karisimbi": {
     "been": false,
@@ -696,7 +696,7 @@
     "icons": ["🇷🇼"],
     "link": "https://en.wikipedia.org/wiki/Mount_Karisimbi",
     "name": "Mount Karisimbi",
-    "prefix": "4507"
+    "size": 4507
   },
   "mount-kenya": {
     "badges": ["🥾"],
@@ -708,7 +708,7 @@
     "images": ["mount-kenya3.jpg", "mount-kenya2.jpg", "kenya.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Kenya",
     "name": "Mount Kenya",
-    "prefix": "5199"
+    "size": 5199
   },
   "mount-kigali": {
     "been": true,
@@ -718,7 +718,7 @@
     "icons": ["🇷🇼"],
     "link": "https://en.wikipedia.org/wiki/Mount_Kigali",
     "name": "Mount Kigali",
-    "prefix": "1853",
+    "size": 1853,
     "reference": "Kigali Province, 2nd"
   },
   "mount-kosciuszko": {
@@ -728,7 +728,7 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Mount_Kosciuszko",
     "name": "Mount Kosciuszko",
-    "prefix": "2228"
+    "size": 2228
   },
   "mount-logan": {
     "been": false,
@@ -737,7 +737,7 @@
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Mount_Logan",
     "name": "Mount Logan",
-    "prefix": "5959"
+    "size": 5959
   },
   "mount-mansfield": {
     "been": false,
@@ -746,7 +746,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Mansfield",
     "name": "Mount Mansfield",
-    "prefix": "1340",
+    "size": 1340,
     "reference": "Vermont",
     "state": "VT"
   },
@@ -757,7 +757,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Marcy_(New_York)",
     "name": "Mount Marcy",
-    "prefix": "1628",
+    "size": 1628,
     "reference": "New York State",
     "state": "NY"
   },
@@ -768,7 +768,7 @@
     "icons": ["🇨🇾"],
     "link": "https://en.wikipedia.org/wiki/Mount_Olympus_(Cyprus)",
     "name": "Mount Olympus",
-    "prefix": "1951"
+    "size": 1951
   },
   "mount-paektu": {
     "been": false,
@@ -778,7 +778,7 @@
     "info": "<a href=\"https://www.youtube.com/watch?v=qhXrye7zkwY\">🎶</a>",
     "link": "https://en.wikipedia.org/wiki/Paektu-san",
     "name": "Mount Paektu",
-    "prefix": "2744"
+    "size": 2744
   },
   "mount-rainier": {
     "been": true,
@@ -787,7 +787,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Rainier",
     "name": "Mount Rainier",
-    "prefix": "4392",
+    "size": 4392,
     "reference": "Washington State"
   },
   "mount-rogers": {
@@ -798,7 +798,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Rogers_(Virginia)",
     "name": "Mount Rogers",
-    "prefix": "1740",
+    "size": 1740,
     "reference": "Virginia",
     "state": "VA"
   },
@@ -809,7 +809,7 @@
     "icons": ["🇬🇾"],
     "link": "https://en.wikipedia.org/wiki/Mount_Roraima",
     "name": "Mount Roraima",
-    "prefix": "2772"
+    "size": 2772
   },
   "mount-stanley": {
     "been": false,
@@ -818,7 +818,7 @@
     "icons": ["🇨🇩"],
     "link": "https://en.wikipedia.org/wiki/Margherita_Peak",
     "name": "Mount Stanley",
-    "prefix": "5109"
+    "size": 5109
   },
   "mount-tabwemasana": {
     "been": false,
@@ -827,7 +827,7 @@
     "icons": ["🇻🇺"],
     "link": "https://en.wikipedia.org/wiki/Mount_Tabwemasana",
     "name": "Mount Tabwemasana",
-    "prefix": "1877"
+    "size": 1877
   },
   "mount-vinson": {
     "been": false,
@@ -836,7 +836,7 @@
     "icons": ["🇦🇶"],
     "link": "https://en.wikipedia.org/wiki/Mount_Vinson",
     "name": "Mount Vinson",
-    "prefix": "4892"
+    "size": 4892
   },
   "mount-washington": {
     "been": false,
@@ -845,7 +845,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Washington_(New_Hampshire)",
     "name": "Mount Washington",
-    "prefix": "1915",
+    "size": 1915,
     "reference": "New Hampshire",
     "state": "NH"
   },
@@ -856,7 +856,7 @@
     "icons": ["🇵🇬"],
     "link": "https://en.wikipedia.org/wiki/Mount_Wilhelm",
     "name": "Mount Wilhelm",
-    "prefix": "4509"
+    "size": 4509
   },
   "mount-yasur": {
     "been": true,
@@ -866,7 +866,7 @@
     "images": ["tanna.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Yasur",
     "name": "Mount Yasur",
-    "prefix": "1184",
+    "size": 1184,
     "reference": "Tanna"
   },
   "musala": {
@@ -876,7 +876,7 @@
     "icons": ["🇧🇬"],
     "link": "https://en.wikipedia.org/wiki/Musala",
     "name": "Musala",
-    "prefix": "2925"
+    "size": 2925
   },
   "møllehøj": {
     "been": false,
@@ -885,7 +885,7 @@
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/M%C3%B8lleh%C3%B8j",
     "name": "Møllehøj",
-    "prefix": "171"
+    "size": 171
   },
   "noshakh": {
     "been": false,
@@ -894,7 +894,7 @@
     "icons": ["🇦🇫"],
     "link": "https://en.wikipedia.org/wiki/Noshakh",
     "name": "Noshakh",
-    "prefix": "7492"
+    "size": 7492
   },
   "ojos-del-salado": {
     "been": false,
@@ -903,7 +903,7 @@
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Ojos_del_Salado",
     "name": "Ojos del Salado",
-    "prefix": "6893"
+    "size": 6893
   },
   "phnom-aural": {
     "been": false,
@@ -912,7 +912,7 @@
     "icons": ["🇭🇷"],
     "link": "https://en.wikipedia.org/wiki/Phnom_Aural",
     "name": "Phnom Aural",
-    "prefix": "1831"
+    "size": 1831
   },
   "pico-da-neblina": {
     "been": false,
@@ -921,7 +921,7 @@
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Pico_da_Neblina",
     "name": "Pico da Neblina",
-    "prefix": "2995"
+    "size": 2995
   },
   "pico-de-sao-tome": {
     "been": false,
@@ -930,7 +930,7 @@
     "icons": ["🇸🇹"],
     "link": "https://en.wikipedia.org/wiki/Pico_de_S%C3%A3o_Tom%C3%A9",
     "name": "Pico de São Tomé",
-    "prefix": "2024"
+    "size": 2024
   },
   "pico-do-fogo": {
     "been": false,
@@ -939,7 +939,7 @@
     "icons": ["🇨🇻"],
     "link": "https://en.wikipedia.org/wiki/Pico_do_Fogo",
     "name": "Pico do Fogo",
-    "prefix": "2829"
+    "size": 2829
   },
   "pico-turquino": {
     "been": false,
@@ -948,7 +948,7 @@
     "icons": ["🇨🇺"],
     "link": "https://en.wikipedia.org/wiki/Pico_Turquino",
     "name": "Pico Turquino",
-    "prefix": "1974"
+    "size": 1974
   },
   "piton-des-neiges": {
     "been": false,
@@ -957,7 +957,7 @@
     "icons": ["🇷🇪"],
     "link": "https://en.wikipedia.org/wiki/Piton_des_Neiges",
     "name": "Piton des Neiges",
-    "prefix": "3069"
+    "size": 3069
   },
   "plomb-du-cantal": {
     "been": true,
@@ -967,7 +967,7 @@
     "images": ["cantal1.jpg", "cantal2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Plomb_du_Cantal",
     "name": "Plomb du Cantal",
-    "prefix": "1855",
+    "size": 1855,
     "reference": "Massif Central, 2nd"
   },
   "puy-de-sancy": {
@@ -978,7 +978,7 @@
     "images": ["sancy1.jpg", "sancy2.jpg", "sancy3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Puy_de_Sancy",
     "name": "Puy de Sancy",
-    "prefix": "1886",
+    "size": 1886,
     "reference": "Massif Central"
   },
   "qurnat-as-sawda": {
@@ -988,7 +988,7 @@
     "icons": ["🇱🇧"],
     "link": "https://en.wikipedia.org/wiki/Qurnat_as_Sawda%27",
     "name": "Qurnat as Sawdā",
-    "prefix": "3088"
+    "size": 3088
   },
   "rock-of-gibraltar": {
     "been": false,
@@ -997,7 +997,7 @@
     "icons": ["🇬🇮"],
     "link": "https://en.wikipedia.org/wiki/Rock_of_Gibraltar",
     "name": "Rock of Gibraltar",
-    "prefix": "426"
+    "size": 426
   },
   "rysy": {
     "been": false,
@@ -1006,7 +1006,7 @@
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Rysy",
     "name": "Rysy",
-    "prefix": "2500"
+    "size": 2500
   },
   "sajama": {
     "been": false,
@@ -1015,7 +1015,7 @@
     "icons": ["🇧🇴"],
     "link": "https://en.wikipedia.org/wiki/Nevado_Sajama",
     "name": "Sajama",
-    "prefix": "6542"
+    "size": 6542
   },
   "signal-de-botrange": {
     "been": true,
@@ -1024,7 +1024,7 @@
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Signal_de_Botrange",
     "name": "Signal de Botrange",
-    "prefix": "694"
+    "size": 694
   },
   "snaefell": {
     "been": false,
@@ -1033,7 +1033,7 @@
     "icons": ["🇮🇲"],
     "link": "https://en.wikipedia.org/wiki/Snaefell",
     "name": "Snaefell",
-    "prefix": "621"
+    "size": 621
   },
   "snezka": {
     "been": false,
@@ -1042,7 +1042,7 @@
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Sn%C4%9B%C5%BEka",
     "name": "Sněžka",
-    "prefix": "1603"
+    "size": 1603
   },
   "snowdon": {
     "been": true,
@@ -1051,7 +1051,7 @@
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
     "link": "https://en.wikipedia.org/wiki/Snowdon",
     "name": "Snowdon",
-    "prefix": "1085"
+    "size": 1085
   },
   "spruce-knob": {
     "been": false,
@@ -1060,7 +1060,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Spruce_Knob",
     "name": "Spruce Knob",
-    "prefix": "1482",
+    "size": 1482,
     "reference": "West Virginia"
   },
   "suur-munamagi": {
@@ -1071,7 +1071,7 @@
     "images": ["suur-munamagi1.jpg", "suur-munamagi2.jpg", "suur-munamagi3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Suur_Munam%C3%A4gi",
     "name": "Suur Munamägi",
-    "prefix": "318"
+    "size": 318
   },
   "tadmejrek": {
     "been": false,
@@ -1081,7 +1081,7 @@
     "icons": ["🇲🇹"],
     "link": "https://en.wikipedia.org/wiki/Ta%27Dmejrek",
     "name": "Ta’Dmejrek",
-    "prefix": "253"
+    "size": 253
   },
   "tai-mo-shan": {
     "been": false,
@@ -1091,7 +1091,7 @@
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tai_Mo_Shan",
     "name": "Tai Mo Shan",
-    "prefix": "958"
+    "size": 958
   },
   "teide": {
     "been": false,
@@ -1100,7 +1100,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Teide",
     "name": "Teide",
-    "prefix": "3715"
+    "size": 3715
   },
   "tokelau": {
     "been": false,
@@ -1109,7 +1109,7 @@
     "icons": ["🇹🇰"],
     "link": "https://en.wikipedia.org/wiki/Tokelau",
     "name": "Tokelau",
-    "prefix": "5"
+    "size": 5
   },
   "toubkal": {
     "been": false,
@@ -1118,7 +1118,7 @@
     "icons": ["🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Toubkal",
     "name": "Toubkal",
-    "prefix": "4167"
+    "size": 4167
   },
   "triglav": {
     "been": false,
@@ -1127,7 +1127,7 @@
     "icons": ["🇸🇮"],
     "link": "https://en.wikipedia.org/wiki/Triglav",
     "name": "Triglav",
-    "prefix": "2864"
+    "size": 2864
   },
   "tuvalu": {
     "been": false,
@@ -1136,7 +1136,7 @@
     "icons": ["🇹🇻"],
     "link": "https://en.wikipedia.org/wiki/Tuvalu",
     "name": "Tuvalu",
-    "prefix": "4"
+    "size": 4
   },
   "vaalserberg": {
     "been": true,
@@ -1147,7 +1147,7 @@
     "images": ["nl.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vaalserberg",
     "name": "Vaalserberg",
-    "prefix": "322"
+    "size": 322
   },
   "velika-rudoka": {
     "been": false,
@@ -1156,7 +1156,7 @@
     "icons": ["🇽🇰"],
     "link": "https://en.wikipedia.org/wiki/Velika_Rudoka",
     "name": "Velika Rudoka",
-    "prefix": "2660"
+    "size": 2660
   },
   "volcan-baru": {
     "been": false,
@@ -1165,7 +1165,7 @@
     "icons": ["🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Bar%C3%BA",
     "name": "Volcán Barú",
-    "prefix": "3475"
+    "size": 3475
   },
   "volcan-citlaltepetl": {
     "been": false,
@@ -1174,7 +1174,7 @@
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Citlalt%C3%A9petl",
     "name": "Volcán Citlaltépetl",
-    "prefix": "5636"
+    "size": 5636
   },
   "yu-shan": {
     "been": false,
@@ -1183,7 +1183,7 @@
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Yu_Shan",
     "name": "Yu Shan",
-    "prefix": "3952"
+    "size": 3952
   },
   "zla-kolata": {
     "been": false,
@@ -1192,7 +1192,7 @@
     "icons": ["🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Zla_Kolata",
     "name": "Zla Kolata",
-    "prefix": "2534"
+    "size": 2534
   },
   "zugspitze": {
     "been": false,
@@ -1201,6 +1201,6 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Zugspitze",
     "name": "Zugspitze",
-    "prefix": "2962"
+    "size": 2962
   }
 }

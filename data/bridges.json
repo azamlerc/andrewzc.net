@@ -8,7 +8,7 @@
     },
     "name": "Bridges",
     "size": "large",
-    "sort": "size",
+    "sort": ["-size", "name"],
     "tags": ["size"],
     "type": "place"
   },

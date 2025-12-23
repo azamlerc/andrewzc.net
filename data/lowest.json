@@ -11,7 +11,7 @@
     "name": "Lowest Points",
     "prefixClass": "coords",
     "size": "large",
-    "sort": "prefix-number",
+    "sort": "size",
     "tags": ["prefix"],
     "type": "place"
   },
@@ -21,7 +21,7 @@
     "icons": ["🇺🇬"],
     "link": "https://en.wikipedia.org/wiki/Albert_Nile",
     "name": "Albert Nile",
-    "prefix": "0621"
+    "size": 621
   },
   "amu-darya": {
     "been": false,
@@ -30,7 +30,7 @@
     "icons": ["🇦🇫"],
     "link": "https://en.wikipedia.org/wiki/Amu_Darya",
     "name": "Amu Darya",
-    "prefix": "0258"
+    "size": 258
   },
   "ausa-river": {
     "been": true,
@@ -39,7 +39,7 @@
     "icons": ["🇸🇲"],
     "link": "https://en.wikipedia.org/wiki/Ausa_River",
     "name": "Ausa River",
-    "prefix": "0055"
+    "size": 55
   },
   "ayding-lake": {
     "been": false,
@@ -48,7 +48,7 @@
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Ayding_Lake",
     "name": "Ayding Lake",
-    "prefix": "-154"
+    "size": -154
   },
   "bayovar-depression": {
     "been": false,
@@ -56,7 +56,7 @@
     "icons": ["🇵🇪"],
     "link": "https://en.wikipedia.org/wiki/Bay%C3%B3var_Depression",
     "name": "Bayóvar Depression",
-    "prefix": "-034"
+    "size": -34
   },
   "black-volta": {
     "been": false,
@@ -65,7 +65,7 @@
     "icons": ["🇧🇫"],
     "link": "https://en.wikipedia.org/wiki/Black_Volta",
     "name": "Black Volta",
-    "prefix": "0200"
+    "size": 200
   },
   "bodrog": {
     "been": false,
@@ -74,7 +74,7 @@
     "icons": ["🇸🇰"],
     "link": "https://en.wikipedia.org/wiki/Bodrog",
     "name": "Bodrog",
-    "prefix": "0094"
+    "size": 94
   },
   "caspian-sea": {
     "been": false,
@@ -83,7 +83,7 @@
     "icons": ["🇦🇿", "🇷🇺", "🇮🇷"],
     "link": "https://en.wikipedia.org/wiki/Caspian_Sea",
     "name": "Caspian Sea",
-    "prefix": "-028"
+    "size": -28
   },
   "chott-melrhir": {
     "been": false,
@@ -92,7 +92,7 @@
     "icons": ["🇩🇿"],
     "link": "https://en.wikipedia.org/wiki/Chott_Melrhir",
     "name": "Chott Melrhir",
-    "prefix": "-040"
+    "size": -40
   },
   "danakil-depression": {
     "been": false,
@@ -101,7 +101,7 @@
     "icons": ["🇪🇹"],
     "link": "https://en.wikipedia.org/wiki/Danakil_Depression",
     "name": "Danakil Depression",
-    "prefix": "-125"
+    "size": -125
   },
   "dead-sea": {
     "been": true,
@@ -111,7 +111,7 @@
     "images": ["deadsea3.jpg", "deadsea2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dead_Sea",
     "name": "Dead Sea",
-    "prefix": "-428",
+    "size": -428,
     "reference": "Earth"
   },
   "death-valley": {
@@ -122,7 +122,7 @@
     "images": ["deathvalley1.jpg", "deathvalley2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Badwater_Basin",
     "name": "Death Valley",
-    "prefix": "-085",
+    "size": -85,
     "reference": "North America"
   },
   "debed": {
@@ -132,7 +132,7 @@
     "icons": ["🇦🇲"],
     "link": "https://en.wikipedia.org/wiki/Debed",
     "name": "Debed",
-    "prefix": "0400"
+    "size": 400
   },
   "djourab-depression": {
     "been": false,
@@ -140,7 +140,7 @@
     "icons": ["🇹🇩"],
     "link": "https://en.wikipedia.org/wiki/Djourab_Depression",
     "name": "Djourab Depression",
-    "prefix": "0160"
+    "size": 160
   },
   "dniester": {
     "been": true,
@@ -149,7 +149,7 @@
     "icons": ["🇲🇩"],
     "link": "https://en.wikipedia.org/wiki/Dniester",
     "name": "Dniester",
-    "prefix": "0002"
+    "size": 2
   },
   "drangme-chhu": {
     "been": false,
@@ -158,7 +158,7 @@
     "icons": ["🇧🇹"],
     "link": "https://en.wikipedia.org/wiki/Drangme_Chhu",
     "name": "Drangme Chhu",
-    "prefix": "0097"
+    "size": 97
   },
   "durres": {
     "been": false,
@@ -167,7 +167,7 @@
     "icons": ["🇦🇱"],
     "link": "https://en.wikipedia.org/wiki/Durrës",
     "name": "Durrës",
-    "prefix": "0000"
+    "size": 0
   },
   "elbe": {
     "been": true,
@@ -176,7 +176,7 @@
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Elbe",
     "name": "Elbe",
-    "prefix": "0115"
+    "size": 115
   },
   "epitalio": {
     "been": false,
@@ -185,7 +185,7 @@
     "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Epitalio",
     "name": "Epitalio",
-    "prefix": "-006"
+    "size": -6
   },
   "etang-de-lavalduc": {
     "been": true,
@@ -195,7 +195,7 @@
     "images": ["lavalduc1.jpg", "lavalduc2.jpg"],
     "link": "https://en.wikipedia.org/wiki/%C3%89tang_de_Lavalduc",
     "name": "Étang de Lavalduc",
-    "prefix": "-010"
+    "size": -10
   },
   "gran-valira": {
     "been": true,
@@ -204,7 +204,7 @@
     "icons": ["🇦🇩"],
     "link": "https://en.wikipedia.org/wiki/Gran_Valira",
     "name": "Gran Valira",
-    "prefix": "0840"
+    "size": 840
   },
   "hachiro-gata": {
     "been": false,
@@ -213,7 +213,7 @@
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hachiro-gata",
     "name": "Hachiro-gata",
-    "prefix": "-004"
+    "size": -4
   },
   "harpers-ferry": {
     "been": true,
@@ -222,7 +222,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Harpers_Ferry",
     "name": "Harpers Ferry",
-    "prefix": "0073",
+    "size": 73,
     "reference": "West Virginia",
     "state": "WV"
   },
@@ -233,7 +233,7 @@
     "icons": ["🇲🇳"],
     "link": "https://en.wikipedia.org/wiki/Hoh_Nuur",
     "name": "Hoh Nuur",
-    "prefix": "0518"
+    "size": 518
   },
   "holme-fen": {
     "been": false,
@@ -242,7 +242,7 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Holme_Fen",
     "name": "Holme Fen",
-    "prefix": "-004"
+    "size": -4
   },
   "jolanda-di-savoia": {
     "been": false,
@@ -251,7 +251,7 @@
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Jolanda_di_Savoia",
     "name": "Jolanda di Savoia",
-    "prefix": "-003"
+    "size": -3
   },
   "kara-darya": {
     "been": false,
@@ -260,7 +260,7 @@
     "icons": ["🇰🇬"],
     "link": "https://en.wikipedia.org/wiki/Kara_Darya",
     "name": "Kara Darya",
-    "prefix": "0435"
+    "size": 435
   },
   "karagiye-depression": {
     "been": false,
@@ -269,7 +269,7 @@
     "icons": ["🇰🇿"],
     "link": "https://en.wikipedia.org/wiki/Karagiye_Depression",
     "name": "Karagiye Depression",
-    "prefix": "-132"
+    "size": -132
   },
   "kopalnia-guido": {
     "been": true,
@@ -279,7 +279,7 @@
     "images": ["kopalnia-guido1.jpg", "kopalnia-guido2.jpg", "kopalnia-guido3.jpg", "kopalnia-guido4.jpg", "kopalnia-guido5.jpg", "kopalnia-guido6.jpg", "kopalnia-guido7.jpg"],
     "link": "https://pl.wikipedia.org/wiki/Kopalnia_Guido",
     "name": "Kopalnia Guido",
-    "prefix": "-320",
+    "size": -320,
     "reference": "below ground"
   },
   "kristianstad": {
@@ -289,7 +289,7 @@
     "icons": ["🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Kristianstad",
     "name": "Kristianstad",
-    "prefix": "-002"
+    "size": -2
   },
   "kuttanad": {
     "been": false,
@@ -298,7 +298,7 @@
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Kuttanad",
     "name": "Kuttanad",
-    "prefix": "-002"
+    "size": -2
   },
   "kuyalnik-estuary": {
     "been": false,
@@ -307,7 +307,7 @@
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Kuyalnik_Estuary",
     "name": "Kuyalnik Estuary",
-    "prefix": "-005"
+    "size": -5
   },
   "lagos-island": {
     "been": true,
@@ -317,7 +317,7 @@
     "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Lagos_Island",
     "name": "Lagos Island",
-    "prefix": "-001"
+    "size": -1
   },
   "laguna-del-carbon": {
     "been": false,
@@ -326,7 +326,7 @@
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Laguna_del_Carb%C3%B3n",
     "name": "Laguna del Carbón",
-    "prefix": "-105"
+    "size": -105
   },
   "laguna-salada": {
     "been": false,
@@ -335,7 +335,7 @@
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Laguna_Salada_(Mexico)",
     "name": "Laguna Salada",
-    "prefix": "-010"
+    "size": -10
   },
   "lagunillas": {
     "been": false,
@@ -344,7 +344,7 @@
     "icons": ["🇻🇪"],
     "link": "https://en.wikipedia.org/wiki/Lagunillas_Municipality,_Zulia",
     "name": "Lagunillas",
-    "prefix": "-012"
+    "size": -12
   },
   "lake-assal": {
     "been": false,
@@ -353,7 +353,7 @@
     "icons": ["🇩🇯"],
     "link": "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)",
     "name": "Lake Assal",
-    "prefix": "-155",
+    "size": -155,
     "reference": "Africa"
   },
   "lake-champlain": {
@@ -363,7 +363,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Champlain",
     "name": "Lake Champlain",
-    "prefix": "0029",
+    "size": 29,
     "reference": "Vermont",
     "state": "VT"
   },
@@ -374,7 +374,7 @@
     "icons": ["🇩🇴"],
     "link": "https://en.wikipedia.org/wiki/Lake_Enriquillo",
     "name": "Lake Enriquillo",
-    "prefix": "-045"
+    "size": -45
   },
   "lake-eyre": {
     "been": false,
@@ -383,7 +383,7 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Lake_Eyre",
     "name": "Lake Eyre",
-    "prefix": "-015"
+    "size": -15
   },
   "lake-kulul": {
     "been": false,
@@ -392,7 +392,7 @@
     "icons": ["🇪🇷"],
     "link": "https://en.wikipedia.org/wiki/Lake_Kulul",
     "name": "Lake Kulul",
-    "prefix": "-075"
+    "size": -75
   },
   "lake-maggiore": {
     "been": true,
@@ -401,7 +401,7 @@
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lake_Maggiore",
     "name": "Lake Maggiore",
-    "prefix": "0193"
+    "size": 193
   },
   "lake-tanganyika": {
     "been": false,
@@ -410,7 +410,7 @@
     "icons": ["🇧🇮"],
     "link": "https://en.wikipedia.org/wiki/Lake_Tanganyika",
     "name": "Lake Tanganyika",
-    "prefix": "0772"
+    "size": 772
   },
   "lammefjord": {
     "been": false,
@@ -419,7 +419,7 @@
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Lammefjord",
     "name": "Lammefjord",
-    "prefix": "-007"
+    "size": -7
   },
   "limpopo-river": {
     "been": false,
@@ -428,7 +428,7 @@
     "icons": ["🇧🇼"],
     "link": "https://en.wikipedia.org/wiki/Limpopo_River",
     "name": "Limpopo River",
-    "prefix": "0513"
+    "size": 513
   },
   "makhaleng-river": {
     "been": false,
@@ -437,7 +437,7 @@
     "icons": ["🇱🇸"],
     "link": "https://en.wikipedia.org/wiki/Makhaleng_River",
     "name": "Makhaleng River",
-    "prefix": "1400"
+    "size": 1400
   },
   "maputo-river": {
     "been": false,
@@ -446,7 +446,7 @@
     "icons": ["🇸🇿"],
     "link": "https://en.wikipedia.org/wiki/Maputo_River",
     "name": "Maputo River",
-    "prefix": "0021"
+    "size": 21
   },
   "marzecino": {
     "been": false,
@@ -455,7 +455,7 @@
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Marz%C4%99cino",
     "name": "Marzęcino",
-    "prefix": "-002"
+    "size": -2
   },
   "mekong": {
     "been": false,
@@ -464,7 +464,7 @@
     "icons": ["🇱🇦"],
     "link": "https://en.wikipedia.org/wiki/Mekong",
     "name": "Mekong",
-    "prefix": "0070"
+    "size": 70
   },
   "momona": {
     "been": false,
@@ -473,7 +473,7 @@
     "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Momona",
     "name": "Momona",
-    "prefix": "-002"
+    "size": -2
   },
   "moselle-river": {
     "been": true,
@@ -482,7 +482,7 @@
     "icons": ["🇱🇺"],
     "link": "https://en.wikipedia.org/wiki/Moselle_River",
     "name": "Moselle River",
-    "prefix": "0133"
+    "size": 133
   },
   "mukhiyapatti-musharniya": {
     "been": false,
@@ -491,7 +491,7 @@
     "icons": ["🇳🇵"],
     "link": "https://en.wikipedia.org/wiki/Mukhiyapatti_Musharniya",
     "name": "Mukhiyapatti Musharniya",
-    "prefix": "0059"
+    "size": 59
   },
   "neman": {
     "been": false,
@@ -500,7 +500,7 @@
     "icons": ["🇧🇾"],
     "link": "https://en.wikipedia.org/wiki/Neman_(river)",
     "name": "Neman",
-    "prefix": "0090"
+    "size": 90
   },
   "nemunas-delta": {
     "been": true,
@@ -509,7 +509,7 @@
     "icons": ["🇱🇹"],
     "link": "https://en.wikipedia.org/wiki/Nemunas_Delta",
     "name": "Nemunas Delta",
-    "prefix": "-005"
+    "size": -5
   },
   "neuendorf-sachsenbande": {
     "been": false,
@@ -518,7 +518,7 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Neuendorf-Sachsenbande",
     "name": "Neuendorf-Sachsenbande",
-    "prefix": "-004"
+    "size": -4
   },
   "neusiedlersee": {
     "been": true,
@@ -527,7 +527,7 @@
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Neusiedlersee",
     "name": "Neusiedlersee",
-    "prefix": "0115"
+    "size": 115
   },
   "niger-river": {
     "been": false,
@@ -536,7 +536,7 @@
     "icons": ["🇳🇪"],
     "link": "https://en.wikipedia.org/wiki/Niger_River",
     "name": "Niger River",
-    "prefix": "0200"
+    "size": 200
   },
   "north-slob": {
     "been": false,
@@ -545,7 +545,7 @@
     "icons": ["🇮🇪"],
     "link": "https://en.wikipedia.org/wiki/North_Slob",
     "name": "North Slob",
-    "prefix": "-003"
+    "size": -3
   },
   "paraguay-river": {
     "been": false,
@@ -554,7 +554,7 @@
     "icons": ["🇧🇴"],
     "link": "https://en.wikipedia.org/wiki/Paraguay_River",
     "name": "Paraguay River",
-    "prefix": "0090"
+    "size": 90
   },
   "qattara-depression": {
     "been": true,
@@ -564,7 +564,7 @@
     "images": ["egypt1.jpg", "egypt3.jpg", "egypt2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Qattara_Depression",
     "name": "Qattara Depression",
-    "prefix": "-133"
+    "size": -133
   },
   "rhine": {
     "been": true,
@@ -573,7 +573,7 @@
     "icons": ["🇱🇮"],
     "link": "https://en.wikipedia.org/wiki/Rhine",
     "name": "Rhine",
-    "prefix": "0430"
+    "size": 430
   },
   "runde-river": {
     "been": false,
@@ -582,7 +582,7 @@
     "icons": ["🇿🇼"],
     "link": "https://en.wikipedia.org/wiki/Runde_River",
     "name": "Runde River",
-    "prefix": "0162"
+    "size": 162
   },
   "ruzizi-river": {
     "been": false,
@@ -591,7 +591,7 @@
     "icons": ["🇷🇼"],
     "link": "https://en.wikipedia.org/wiki/Ruzizi_River",
     "name": "Ruzizi River",
-    "prefix": "0950"
+    "size": 950
   },
   "sabkhat-ghuzayyil": {
     "been": false,
@@ -600,7 +600,7 @@
     "icons": ["🇱🇾"],
     "link": "https://en.wikipedia.org/wiki/Sabkhat_Ghuzayyil",
     "name": "Sabkhat Ghuzayyil",
-    "prefix": "-047"
+    "size": -47
   },
   "saint-peters-square": {
     "been": true,
@@ -610,7 +610,7 @@
     "icons": ["🇻🇦"],
     "link": "https://en.wikipedia.org/wiki/Saint_Peter%27s_Square",
     "name": "Saint Peter’s Square",
-    "prefix": "0033"
+    "size": 33
   },
   "sariqarnish-kuli": {
     "been": false,
@@ -619,15 +619,14 @@
     "icons": ["🇺🇿"],
     "link": "https://en.wikipedia.org/wiki/Sarygamysh_Lake",
     "name": "Sariqarnish Kuli",
-    "prefix": "-012"
+    "size": -12
   },
   "sea-level": {
     "been": false,
     "icons": ["🌊"],
     "link": "https://en.wikipedia.org/wiki/Sea_level",
     "name": "Sea Level",
-    "prefix": "0000",
-    "wikidata": "Q125465"
+    "size": 0
   },
   "sebjet-tah": {
     "been": false,
@@ -636,7 +635,7 @@
     "icons": ["🇪🇭"],
     "link": "https://en.wikipedia.org/wiki/Sebkha_Tah",
     "name": "Sebjet Tah",
-    "prefix": "-055"
+    "size": -55
   },
   "sebkha-de-ndrhamcha": {
     "been": false,
@@ -645,7 +644,7 @@
     "icons": ["🇲🇷"],
     "link": "https://en.wikipedia.org/wiki/Sebkha_de_Ndrhamcha",
     "name": "Sebkha de Ndrhamcha",
-    "prefix": "-005"
+    "size": -5
   },
   "sebkha-tah": {
     "been": false,
@@ -654,7 +653,7 @@
     "icons": ["🇲🇦"],
     "link": "https://en.wikipedia.org/wiki/Sebkha_Tah",
     "name": "Sebkha Tah",
-    "prefix": "-055"
+    "size": -55
   },
   "senegal-river": {
     "been": true,
@@ -663,7 +662,7 @@
     "icons": ["🇲🇱"],
     "link": "https://en.wikipedia.org/wiki/Senegal_River",
     "name": "Senegal River",
-    "prefix": "0023"
+    "size": 23
   },
   "shatt-al-gharsah": {
     "been": false,
@@ -672,7 +671,7 @@
     "icons": ["🇹🇳"],
     "link": "https://en.wikipedia.org/wiki/Shatt_al_Gharsah",
     "name": "Shatt al Gharsah",
-    "prefix": "-017"
+    "size": -17
   },
   "shire-river": {
     "been": false,
@@ -681,7 +680,7 @@
     "icons": ["🇲🇼"],
     "link": "https://en.wikipedia.org/wiki/Shire_River",
     "name": "Shire River",
-    "prefix": "0037"
+    "size": 37
   },
   "syr-darya": {
     "been": false,
@@ -690,7 +689,7 @@
     "icons": ["🇹🇯"],
     "link": "https://en.wikipedia.org/wiki/Syr_Darya",
     "name": "Syr Darya",
-    "prefix": "0300"
+    "size": 300
   },
   "timok-river": {
     "been": false,
@@ -699,7 +698,7 @@
     "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Timok_River",
     "name": "Timok River",
-    "prefix": "0028"
+    "size": 28
   },
   "tisza": {
     "been": true,
@@ -708,7 +707,7 @@
     "icons": ["🇭🇺"],
     "link": "https://en.wikipedia.org/wiki/Tisza",
     "name": "Tisza",
-    "prefix": "0076"
+    "size": 76
   },
   "trieste": {
     "been": false,
@@ -717,7 +716,7 @@
     "icons": ["🇸🇮"],
     "link": "https://en.wikipedia.org/wiki/Trieste",
     "name": "Trieste",
-    "prefix": "0000"
+    "size": 0
   },
   "ubangi-river": {
     "been": false,
@@ -726,7 +725,7 @@
     "icons": ["🇨🇫"],
     "link": "https://en.wikipedia.org/wiki/Ubangi_River",
     "name": "Ubangi River",
-    "prefix": "0335"
+    "size": 335
   },
   "vardar": {
     "been": true,
@@ -735,7 +734,7 @@
     "icons": ["🇲🇰"],
     "link": "https://en.wikipedia.org/wiki/Vardar",
     "name": "Vardar",
-    "prefix": "0050"
+    "size": 50
   },
   "vestfold-hills": {
     "been": false,
@@ -744,7 +743,7 @@
     "icons": ["🇦🇶"],
     "link": "https://en.wikipedia.org/wiki/Vestfold_Hills",
     "name": "Vestfold Hills",
-    "prefix": "-050"
+    "size": -50
   },
   "veurne": {
     "been": true,
@@ -753,7 +752,7 @@
     "icons": ["🇧🇪"],
     "link": "https://en.wikipedia.org/wiki/Veurne",
     "name": "Veurne",
-    "prefix": "-004"
+    "size": -4
   },
   "vpadina-akchanaya": {
     "been": false,
@@ -762,7 +761,7 @@
     "icons": ["🇹🇲"],
     "link": "https://en.wikipedia.org/wiki/Akjaga%C3%BDa",
     "name": "Vpadina Akchanaya",
-    "prefix": "-081"
+    "size": -81
   },
   "white-drin": {
     "been": false,
@@ -771,7 +770,7 @@
     "icons": ["🇽🇰"],
     "link": "https://en.wikipedia.org/wiki/White_Drin",
     "name": "White Drin",
-    "prefix": "0297"
+    "size": 297
   },
   "white-nile": {
     "been": false,
@@ -780,7 +779,7 @@
     "icons": ["🇸🇸"],
     "link": "https://en.wikipedia.org/wiki/White_Nile",
     "name": "White Nile",
-    "prefix": "0350"
+    "size": 350
   },
   "zambezi": {
     "been": false,
@@ -789,7 +788,7 @@
     "icons": ["🇿🇲"],
     "link": "https://en.wikipedia.org/wiki/Zambezi",
     "name": "Zambezi",
-    "prefix": "0329"
+    "size": 329
   },
   "zuidplaspolder": {
     "been": true,
@@ -798,6 +797,6 @@
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Zuidplaspolder",
     "name": "Zuidplaspolder",
-    "prefix": "-007"
+    "size": -7
   }
 }
