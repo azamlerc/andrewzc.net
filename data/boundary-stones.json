@@ -9,6 +9,7 @@
     },
     "name": "Boundary Stones",
     "size": "large",
+    "tags": ["ordered"],
     "type": "place"
   },
   "east": {
@@ -19,7 +20,8 @@
     "icons": ["🇺🇸"],
     "images": ["e.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.8928605_N_76.90916553_W",
-    "name": "East"
+    "name": "East",
+    "order": 10
   },
   "north": {
     "been": true,
@@ -29,7 +31,8 @@
     "icons": ["🇺🇸"],
     "images": ["n.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.99595651_N_77.04098558_W",
-    "name": "North"
+    "name": "North",
+    "order": 0
   },
   "northeast-1": {
     "been": true,
@@ -39,7 +42,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.98562034_N_77.02774336_W",
-    "name": "Northeast 1"
+    "name": "Northeast 1",
+    "order": 1
   },
   "northeast-2": {
     "been": true,
@@ -49,7 +53,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne2.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.97535127_N_77.01459431_W",
-    "name": "Northeast 2"
+    "name": "Northeast 2",
+    "order": 2
   },
   "northeast-3": {
     "been": true,
@@ -59,7 +64,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9652726_N_77.00169083_W",
-    "name": "Northeast 3"
+    "name": "Northeast 3",
+    "order": 3
   },
   "northeast-4": {
     "been": true,
@@ -69,7 +75,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne4.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9547328_N_76.98820727_W",
-    "name": "Northeast 4"
+    "name": "Northeast 4",
+    "order": 4
   },
   "northeast-5": {
     "been": true,
@@ -79,7 +86,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne5.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.94441385_N_76.97500885_W",
-    "name": "Northeast 5"
+    "name": "Northeast 5",
+    "order": 5
   },
   "northeast-6": {
     "been": true,
@@ -89,7 +97,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne6.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.93371493_N_76.96132996_W",
-    "name": "Northeast 6"
+    "name": "Northeast 6",
+    "order": 6
   },
   "northeast-7": {
     "been": true,
@@ -99,7 +108,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne7.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9237882_N_76.94864949_W",
-    "name": "Northeast 7"
+    "name": "Northeast 7",
+    "order": 7
   },
   "northeast-8": {
     "been": true,
@@ -110,6 +120,7 @@
     "images": ["ne8*.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9134828_N_76.93548331_W",
     "name": "Northeast 8",
+    "order": 8,
     "strike": true
   },
   "northeast-9": {
@@ -120,7 +131,8 @@
     "icons": ["🇺🇸"],
     "images": ["ne9.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9031689_N_76.92231955_W",
-    "name": "Northeast 9"
+    "name": "Northeast 9",
+    "order": 9
   },
   "northwest-1": {
     "been": true,
@@ -130,7 +142,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.90356154_N_77.15914435_W",
-    "name": "Northwest 1"
+    "name": "Northwest 1",
+    "order": 31
   },
   "northwest-2": {
     "been": true,
@@ -140,7 +153,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw2.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.91388113_N_77.14598738_W",
-    "name": "Northwest 2"
+    "name": "Northwest 2",
+    "order": 32
   },
   "northwest-3": {
     "been": true,
@@ -150,7 +164,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.92463321_N_77.13223642_W",
-    "name": "Northwest 3"
+    "name": "Northwest 3",
+    "order": 33
   },
   "northwest-4": {
     "been": true,
@@ -160,7 +175,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw4.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.93760599_N_77.11567162_W",
-    "name": "Northwest 4"
+    "name": "Northwest 4",
+    "order": 34
   },
   "northwest-5": {
     "been": true,
@@ -171,6 +187,7 @@
     "images": ["nw5*.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.94463908_N_77.10668154_W",
     "name": "Northwest 5",
+    "order": 35,
     "strike": true
   },
   "northwest-6": {
@@ -181,7 +198,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw6.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.9549086_N_77.09354761_W",
-    "name": "Northwest 6"
+    "name": "Northwest 6",
+    "order": 36
   },
   "northwest-7": {
     "been": true,
@@ -191,7 +209,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw7.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.96518237_N_77.08040347_W",
-    "name": "Northwest 7"
+    "name": "Northwest 7",
+    "order": 37
   },
   "northwest-8": {
     "been": true,
@@ -201,7 +220,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw8.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.97544235_N_77.06726693_W",
-    "name": "Northwest 8"
+    "name": "Northwest 8",
+    "order": 38
   },
   "northwest-9": {
     "been": true,
@@ -211,7 +231,8 @@
     "icons": ["🇺🇸"],
     "images": ["nw9.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.98569855_N_77.05412886_W",
-    "name": "Northwest 9"
+    "name": "Northwest 9",
+    "order": 39
   },
   "south": {
     "been": true,
@@ -221,7 +242,8 @@
     "icons": ["🇺🇸"],
     "images": ["s.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.79033915_N_77.04058603_W",
-    "name": "South"
+    "name": "South",
+    "order": 20
   },
   "southeast-1": {
     "been": true,
@@ -231,7 +253,8 @@
     "icons": ["🇺🇸"],
     "images": ["se1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.88264005_N_76.92229346_W",
-    "name": "Southeast 1"
+    "name": "Southeast 1",
+    "order": 11
   },
   "southeast-2": {
     "been": true,
@@ -241,7 +264,8 @@
     "icons": ["🇺🇸"],
     "images": ["se2.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.87241045_N_76.93542433_W",
-    "name": "Southeast 2"
+    "name": "Southeast 2",
+    "order": 12
   },
   "southeast-3": {
     "been": true,
@@ -251,7 +275,8 @@
     "icons": ["🇺🇸"],
     "images": ["se3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.8621606_N_76.94857083_W",
-    "name": "Southeast 3"
+    "name": "Southeast 3",
+    "order": 13
   },
   "southeast-4": {
     "been": true,
@@ -261,7 +286,8 @@
     "icons": ["🇺🇸"],
     "images": ["se4.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.851756_N_76.961934_W",
-    "name": "Southeast 4"
+    "name": "Southeast 4",
+    "order": 14
   },
   "southeast-5": {
     "been": true,
@@ -271,7 +297,8 @@
     "icons": ["🇺🇸"],
     "images": ["se5.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.84168253_N_76.97483942_W",
-    "name": "Southeast 5"
+    "name": "Southeast 5",
+    "order": 15
   },
   "southeast-6": {
     "been": true,
@@ -281,7 +308,8 @@
     "icons": ["🇺🇸"],
     "images": ["se6.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.83143718_N_76.9879733_W",
-    "name": "Southeast 6"
+    "name": "Southeast 6",
+    "order": 16
   },
   "southeast-7": {
     "been": true,
@@ -291,7 +319,8 @@
     "icons": ["🇺🇸"],
     "images": ["se7.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.82119651_N_77.00109645_W",
-    "name": "Southeast 7"
+    "name": "Southeast 7",
+    "order": 17
   },
   "southeast-8": {
     "been": true,
@@ -302,6 +331,7 @@
     "images": ["se8*.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.81091966_N_77.01425045_W",
     "name": "Southeast 8",
+    "order": 18,
     "strike": true
   },
   "southeast-9": {
@@ -312,7 +342,8 @@
     "icons": ["🇺🇸"],
     "images": ["se9.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.80350665_N_77.0237372_W",
-    "name": "Southeast 9"
+    "name": "Southeast 9",
+    "order": 19
   },
   "southwest-1": {
     "been": true,
@@ -322,7 +353,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw1.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.80124355_N_77.05439303_W",
-    "name": "Southwest 1"
+    "name": "Southwest 1",
+    "order": 21
   },
   "southwest-2": {
     "been": true,
@@ -332,7 +364,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw2.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.80759243_N_77.06263793_W",
-    "name": "Southwest 2"
+    "name": "Southwest 2",
+    "order": 22
   },
   "southwest-3": {
     "been": true,
@@ -342,7 +375,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw3.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.82065264_N_77.0793202_W",
-    "name": "Southwest 3"
+    "name": "Southwest 3",
+    "order": 23
   },
   "southwest-4": {
     "been": true,
@@ -352,7 +386,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw4.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.83154299_N_77.09318693_W",
-    "name": "Southwest 4"
+    "name": "Southwest 4",
+    "order": 24
   },
   "southwest-5": {
     "been": true,
@@ -362,7 +397,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw5.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.84208118_N_77.10674008_W",
-    "name": "Southwest 5"
+    "name": "Southwest 5",
+    "order": 25
   },
   "southwest-6": {
     "been": true,
@@ -372,7 +408,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw6.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.85186534_N_77.11926358_W",
-    "name": "Southwest 6"
+    "name": "Southwest 6",
+    "order": 26
   },
   "southwest-7": {
     "been": true,
@@ -382,7 +419,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw7.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.86237205_N_77.13272594_W",
-    "name": "Southwest 7"
+    "name": "Southwest 7",
+    "order": 27
   },
   "southwest-8": {
     "been": true,
@@ -392,7 +430,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw8.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.8726712_N_77.14594528_W",
-    "name": "Southwest 8"
+    "name": "Southwest 8",
+    "order": 28
   },
   "southwest-9": {
     "been": true,
@@ -402,7 +441,8 @@
     "icons": ["🇺🇸"],
     "images": ["sw9.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.88294292_N_77.15909005_W",
-    "name": "Southwest 9"
+    "name": "Southwest 9",
+    "order": 29
   },
   "west": {
     "been": true,
@@ -412,6 +452,7 @@
     "icons": ["🇺🇸"],
     "images": ["w.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=38.89324513_N_77.17230114_W",
-    "name": "West"
+    "name": "West",
+    "order": 30
   }
 }

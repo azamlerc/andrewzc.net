@@ -42,12 +42,39 @@
     "name": "Denny’s",
     "reference": "Lakewood, CA"
   },
+  "duane-reade": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "💊"],
+    "link": "https://www.duanereade.com",
+    "name": "Duane Reade",
+    "reference": "Broadway",
+    "strike": true
+  },
   "dunkin-donuts": {
     "been": false,
     "country": "US",
     "icons": ["🇺🇸", "🍩"],
     "name": "Dunkin’ Donuts",
     "reference": "Quincy, MA"
+  },
+  "five-guys": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸", "🍔"],
+    "link": "https://www.fiveguys.com",
+    "name": "Five Guys",
+    "reference": "Arlington, VA",
+    "strike": true
+  },
+  "frys": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🖥"],
+    "link": "https://www.fryselectronics.com",
+    "name": "Fry’s",
+    "reference": "Sunnyvale",
+    "strike": true
   },
   "gap": {
     "been": false,
@@ -106,6 +133,15 @@
     "icons": ["🇬🇧", "☕️"],
     "name": "Pret a Manger",
     "reference": "Hampstead"
+  },
+  "sbarros": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸", "🍕"],
+    "link": "https://www.sbarros.com",
+    "name": "Sbarro’s",
+    "reference": "Brooklyn",
+    "strike": true
   },
   "shake-shack": {
     "been": true,
