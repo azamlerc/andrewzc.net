@@ -1,7 +1,7 @@
 let iconIndex = 0;
 
 function isNear(place) {
-  return (place.reference && place.reference.includes(" km")) || (place.info && place.info.endsWith("%"));
+  return (place.distance || (place.info && place.info.endsWith("%")));
 }
 
 addStylesheets([
@@ -32,13 +32,13 @@ const markerLayers = [
 	{
 		key: "been",
 		name: "Been",
-		filter: p => p.been == true && !isNear(p),
+		filter: p => p.been == true,
 		tag: "markerBeen"
 	},
 	{
 		key: "near",
 		name: "Near",
-		filter: p => isNear(p),
+		filter: p => p.been == false && isNear(p),
 		tag: "markerNear"
 	},
 	{

@@ -277,7 +277,7 @@
     "icon": "🍴",
     "name": "Branch Lines",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "brazil": {
@@ -320,6 +320,7 @@
     "icon": "🚌",
     "name": "Bus Rapid Transit",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "buc-ees": {
@@ -331,8 +332,10 @@
       "zoom": "5"
     },
     "name": "Buc-ee’s",
+    "prefixClass": "fixed",
     "size": "large",
-    "tags": ["google"],
+    "sort": "order",
+    "tags": ["auto", "google", "prefix"],
     "type": "place"
   },
   "bucket": {
