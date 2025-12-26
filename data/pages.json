@@ -269,6 +269,8 @@
     },
     "name": "Boundary Stones",
     "size": "large",
+    "sort": "order",
+    "tags": ["auto", "ordered"],
     "type": "place"
   },
   "branches": {
@@ -1743,7 +1745,7 @@
     "prefixClass": "fixed",
     "size": "small",
     "sort": "-prefix",
-    "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key", "second-future"],
+    "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key"],
     "type": "place"
   },
   "pyramids": {
@@ -1921,6 +1923,7 @@
     "icon": "🚷",
     "name": "Short Platforms",
     "size": "large",
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "short-turn": {
