@@ -1,6 +1,5 @@
 {
   "--info--": {
-    "auto": true,
     "group": "date",
     "icon": "🚧",
     "map": {
@@ -12,7 +11,7 @@
     "prefixClass": "fixed",
     "size": "small",
     "sort": "-prefix",
-    "tags": ["badge-been", "project-link", "prefix", "reference-first", "reference-key", "second-future"],
+    "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key", "second-future"],
     "type": "place"
   },
   "aarhus-aarhus-h-to-grenaa": {
@@ -3586,6 +3585,22 @@
     "start": "Hauts-du-Chazal",
     "type": "tram"
   },
+  "bhopal-metro": {
+    "badges": ["✨"],
+    "been": false,
+    "country": "IN",
+    "dateAdded": "2025-12-25",
+    "end": "AIIMS",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Orange Line",
+    "name": "Metro",
+    "new": "metro",
+    "prefix": "2025-12-21",
+    "reference": "Bhopal",
+    "size": 7.5,
+    "start": "Subash Nagar",
+    "type": "metro"
+  },
   "bielefeld-tram-2-to-altenhagen": {
     "been": false,
     "country": "DE",
@@ -6298,6 +6313,36 @@
     "start": "Shuangliu Intl Airport Terminal 2",
     "type": "metro"
   },
+  "chengdu-line-13": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-25",
+    "end": "Long’an",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 13",
+    "name": "Line 13",
+    "new": "line",
+    "prefix": "2025-12-16",
+    "reference": "Chengdu",
+    "size": 29.1,
+    "start": "Wayaotan",
+    "type": "metro"
+  },
+  "chengdu-line-13-to-longan": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-26",
+    "end": "Long’an",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 13",
+    "name": "Line 13 to Long’an",
+    "new": "line",
+    "prefix": "2025-12-16",
+    "reference": "Chengdu",
+    "size": 29.1,
+    "start": "Wayaotan",
+    "type": "metro"
+  },
   "chengdu-line-17": {
     "been": false,
     "country": "CN",
@@ -6471,6 +6516,36 @@
     "reference": "Chengdu",
     "size": 17.4,
     "start": "Taipingyuan",
+    "type": "metro"
+  },
+  "chengdu-line-30": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-25",
+    "end": "Longquanyi South",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 30",
+    "name": "Line 30",
+    "new": "line",
+    "prefix": "2025-12-16",
+    "reference": "Chengdu",
+    "size": 28,
+    "start": "Shuangliu Airport",
+    "type": "metro"
+  },
+  "chengdu-line-30-to-longquanyi-south": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-26",
+    "end": "Longquanyi South",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 30",
+    "name": "Line 30 to Longquanyi South",
+    "new": "line",
+    "prefix": "2025-12-16",
+    "reference": "Chengdu",
+    "size": 28,
+    "start": "Shuangliu Airport",
     "type": "metro"
   },
   "chengdu-line-4": {
@@ -11140,6 +11215,20 @@
     "reference": "Gothenburg",
     "size": 1.1,
     "start": "Järntorget",
+    "type": "tram"
+  },
+  "gothenburg-trams-10/12-to-lindholmen": {
+    "been": false,
+    "country": "SE",
+    "dateAdded": "2025-12-25",
+    "end": "Lindholmen",
+    "icons": ["🇸🇪", "🚋"],
+    "line": "Trams 10/12",
+    "name": "Trams 10/12 to Lindholmen",
+    "prefix": "2025-12-14",
+    "reference": "Gothenburg",
+    "size": 2.2,
+    "start": "Frihamnen",
     "type": "tram"
   },
   "granada-tram": {
@@ -17087,94 +17176,6 @@
     "start": "Grau",
     "type": "metro"
   },
-  "nanjing-line-10-to-dongqilu": {
-    "been": false,
-    "country": "CN",
-    "dateAdded": "2025-12-25",
-    "end": "Dongqilu",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 10",
-    "name": "Line 10 to Dongqilu",
-    "prefix": "2025-12-19",
-    "reference": "Nanjing",
-    "size": 13.3,
-    "start": "Andemen",
-    "type": "metro"
-  },
-  "chengdu-line-13": {
-    "been": false,
-    "country": "CN",
-    "dateAdded": "2025-12-25",
-    "end": "Long’an",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 13",
-    "name": "Line 13",
-    "new": "line",
-    "prefix": "2025-12-16",
-    "reference": "Chengdu",
-    "size": 29.1,
-    "start": "Wayaotan",
-    "type": "metro"
-  },
-  "warsaw-line-19-to-pole-mokotowskie": {
-    "been": false,
-    "city": "Warsaw",
-    "country": "PL",
-    "dateAdded": "2025-12-25",
-    "end": "Pole Mokotowskie",
-    "icons": ["🇵🇱", "🚋"],
-    "line": "Line 19",
-    "name": "Line 19 to Pole Mokotowskie",
-    "prefix": "2025-12-22",
-    "reference": "Warsaw",
-    "size": 0.9,
-    "start": "Goworka",
-    "type": "tram"
-  },
-  "nanjing-line-3-to-moling": {
-    "been": false,
-    "country": "CN",
-    "dateAdded": "2025-12-25",
-    "end": "Moling",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 3",
-    "name": "Line 3 to Moling",
-    "prefix": "2025-12-19",
-    "reference": "Nanjing",
-    "size": 3.3,
-    "start": "Mozhoudonglu",
-    "type": "metro"
-  },
-  "chengdu-line-30": {
-    "been": false,
-    "country": "CN",
-    "dateAdded": "2025-12-25",
-    "end": "Longquanyi South",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 30",
-    "name": "Line 30",
-    "new": "line",
-    "prefix": "2025-12-16",
-    "reference": "Chengdu",
-    "size": 28,
-    "start": "Shuangliu Airport",
-    "type": "metro"
-  },
-  "rome-line-c-to-colosseo": {
-    "been": false,
-    "city": "Rome",
-    "country": "IT",
-    "dateAdded": "2025-12-25",
-    "end": "Colosseo",
-    "icons": ["🇮🇹", "🚇"],
-    "line": "Line C",
-    "name": "Line C to Colosseo",
-    "prefix": "2025-12-16",
-    "reference": "Rome",
-    "size": 2.4,
-    "start": "San Giovanni",
-    "type": "metro"
-  },
   "linz-tram-3-to-doblerholz": {
     "been": false,
     "country": "AT",
@@ -21685,6 +21686,20 @@
     "reference": "Nanjing",
     "type": "metro"
   },
+  "nanjing-line-10-to-dongqilu": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-25",
+    "end": "Dongqilu",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 10",
+    "name": "Line 10 to Dongqilu",
+    "prefix": "2025-12-19",
+    "reference": "Nanjing",
+    "size": 13.3,
+    "start": "Andemen",
+    "type": "metro"
+  },
   "nanjing-line-10-to-yushanlu": {
     "been": false,
     "country": "CN",
@@ -21739,6 +21754,20 @@
     "prefix": "2015-04-01",
     "reference": "Nanjing",
     "start": "Linchang",
+    "type": "metro"
+  },
+  "nanjing-line-3-to-moling": {
+    "been": false,
+    "country": "CN",
+    "dateAdded": "2025-12-25",
+    "end": "Moling",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 3",
+    "name": "Line 3 to Moling",
+    "prefix": "2025-12-19",
+    "reference": "Nanjing",
+    "size": 3.3,
+    "start": "Mozhoudonglu",
     "type": "metro"
   },
   "nanjing-line-3-to-shangyuanmen-station": {
@@ -23144,22 +23173,6 @@
     "reference": "Oran",
     "start": "Senia Université",
     "type": "tram"
-  },
-  "bhopal-metro": {
-    "badges": ["✨"],
-    "been": false,
-    "country": "IN",
-    "dateAdded": "2025-12-25",
-    "end": "AIIMS",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Orange Line",
-    "name": "Metro",
-    "new": "metro",
-    "prefix": "2025-12-21",
-    "reference": "Bhopal",
-    "size": 7.5,
-    "start": "Subash Nagar",
-    "type": "metro"
   },
   "orleans-line-b-to-st-jean-de-braye": {
     "been": false,
@@ -26032,6 +26045,23 @@
     "start": "Parco di Centocelle",
     "type": "metro"
   },
+  "rome-line-c-to-colosseo": {
+    "been": false,
+    "city": "Rome",
+    "coords": "41.89138889, 12.49138889",
+    "country": "IT",
+    "dateAdded": "2025-12-25",
+    "end": "Colosseo",
+    "icons": ["🇮🇹", "🚇"],
+    "line": "Line C",
+    "link": "https://en.wikipedia.org/wiki/Colosseo_(Rome_Metro)",
+    "name": "Line C to Colosseo",
+    "prefix": "2025-12-16",
+    "reference": "Rome",
+    "size": 2.4,
+    "start": "San Giovanni",
+    "type": "metro"
+  },
   "rome-line-c-to-lodi": {
     "been": false,
     "city": "Rome",
@@ -26366,6 +26396,21 @@
     "size": 6.1,
     "start": "Mezhdunarodnaya",
     "type": "metro"
+  },
+  "saint-petersburg-tram-2-to-valdayskaya-ulitsa": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "dateAdded": "2025-12-25",
+    "end": "Valdayskaya Ulitsa",
+    "icons": ["🇷🇺", "🚋"],
+    "line": "Tram 2",
+    "name": "Tram 2 to Valdayskaya Ulitsa",
+    "prefix": "2025-12-24",
+    "reference": "Saint Petersburg",
+    "size": 4.7,
+    "start": "Kupchino",
+    "type": "tram"
   },
   "saint-petersburg-tram-59-to-ul-elektropultovchev": {
     "been": false,
@@ -34171,35 +34216,6 @@
     "start": "Vaucanson",
     "type": "tram"
   },
-  "saint-petersburg-tram-2-to-valdayskaya-ulitsa": {
-    "been": false,
-    "city": "Saint Petersburg",
-    "country": "RU",
-    "dateAdded": "2025-12-25",
-    "end": "Valdayskaya Ulitsa",
-    "icons": ["🇷🇺", "🚋"],
-    "line": "Tram 2",
-    "name": "Tram 2 to Valdayskaya Ulitsa",
-    "prefix": "2025-12-24",
-    "reference": "Saint Petersburg",
-    "size": 4.7,
-    "start": "Kupchino",
-    "type": "tram"
-  },
-  "gothenburg-trams-10/12-to-lindholmen": {
-    "been": false,
-    "country": "SE",
-    "dateAdded": "2025-12-25",
-    "end": "Lindholmen",
-    "icons": ["🇸🇪", "🚋"],
-    "line": "Trams 10/12",
-    "name": "Trams 10/12 to Lindholmen",
-    "prefix": "2025-12-14",
-    "reference": "Gothenburg",
-    "size": 2.2,
-    "start": "Frihamnen",
-    "type": "tram"
-  },
   "tucson-tram": {
     "badges": ["✨"],
     "been": true,
@@ -35047,6 +35063,23 @@
     "prefix": "2006-12-29",
     "reference": "Warsaw",
     "start": "Plac Wilsona"
+  },
+  "warsaw-line-19-to-pole-mokotowskie": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.20861111, 21.00777778",
+    "country": "PL",
+    "dateAdded": "2025-12-25",
+    "end": "Pole Mokotowskie",
+    "icons": ["🇵🇱", "🚋"],
+    "line": "Line 19",
+    "link": "https://en.wikipedia.org/wiki/Pole_Mokotowskie_metro_station",
+    "name": "Line 19 to Pole Mokotowskie",
+    "prefix": "2025-12-22",
+    "reference": "Warsaw",
+    "size": 0.9,
+    "start": "Goworka",
+    "type": "tram"
   },
   "warsaw-line-2": {
     "badges": ["✅"],

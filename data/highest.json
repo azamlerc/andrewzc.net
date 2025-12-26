@@ -1,7 +1,5 @@
 {
   "--info--": {
-    "auto": true,
-    "featured": true,
     "icon": "🧗",
     "map": {
       "lat": "25",
@@ -13,7 +11,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["prefix"],
+    "tags": ["auto", "featured", "prefix"],
     "type": "place"
   },
   "aconcagua": {

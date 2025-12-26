@@ -1,7 +1,5 @@
 {
   "--info--": {
-    "auto": true,
-    "featured": true,
     "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.",
     "icon": "🦋",
     "map": {
@@ -12,7 +10,7 @@
     "name": "Grand Unions",
     "size": "medium",
     "sort": "reference",
-    "tags": ["no-data", "reference-first", "fractions"],
+    "tags": ["auto", "featured", "fractions", "no-data", "reference-first"],
     "type": "place"
   },
   "49th-&-chester": {

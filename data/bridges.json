@@ -1,7 +1,5 @@
 {
   "--info--": {
-    "auto": true,
-    "featured": true,
     "icon": "🌉",
     "map": {
       "lat": "25",
@@ -13,7 +11,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["size"],
+    "tags": ["auto", "featured", "size"],
     "type": "place"
   },
   "1915-canakkale-bridge": {
@@ -1543,7 +1541,8 @@
     "icons": ["🇺🇸"],
     "images": ["williamsburg-bridge1.jpg", "williamsburg-bridge2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Williamsburg_Bridge",
-    "name": "Williamsburg Bridge"
+    "name": "Williamsburg Bridge",
+    "size": 2227
   },
   "woodrow-wilson-bridge": {
     "been": true,

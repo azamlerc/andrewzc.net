@@ -84,8 +84,7 @@ function rowHTML(place, listMeta) {
   const prefixClass = (listMeta && (listMeta.prefixClass || (listMeta.info && listMeta.info.prefixClass))) || null;
   if (prefixHTML && prefixClass) prefixHTML = span(prefixHTML, prefixClass);
 
-  const tags = (listMeta && listMeta.tags) || [];
-  const referenceFirst = tags.includes("reference-first");
+  const referenceFirst = hasTag(listMeta, "reference-first");
 
   let iconsHTML = (place.icons || []).join(" ");
   if (iconsHTML && place.been === false) iconsHTML = span(iconsHTML, "todo");
@@ -362,6 +361,10 @@ function onScroll() {
   if (nearBottom() && !isLoading) appendBatch(6);
 }
 
+function hasTag(meta, tag) {
+  return !!meta && Array.isArray(meta.tags) && meta.tags.includes(tag);
+}
+
 async function initHome() {
   const contentEl = document.getElementById("content");
   contentEl.textContent = "Loading…";
@@ -369,11 +372,8 @@ async function initHome() {
   const pagesResp = await fetch(PAGES_URL);
   const pagesJson = await pagesResp.json();
 
-  featuredPool = Object.entries(pagesJson)
-    .filter(([slug, meta]) => meta && meta.featured === true);
-
-  nonFeaturedPool = Object.entries(pagesJson)
-    .filter(([slug, meta]) => !meta || meta.featured !== true);
+  featuredPool = Object.entries(pagesJson).filter(([slug, meta]) => hasTag(meta, "featured"));
+  nonFeaturedPool = Object.entries(pagesJson).filter(([slug, meta]) => !hasTag(meta, "featured"));
 
   resetUnusedFeatured();
   resetUnusedNonFeatured();

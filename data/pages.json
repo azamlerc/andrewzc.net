@@ -8,7 +8,6 @@
     "type": "place"
   },
   "airbnb": {
-    "auto": true,
     "icon": "🏡",
     "map": {
       "lat": "25",
@@ -18,14 +17,14 @@
     "name": "Airbnbs",
     "size": "large",
     "sort": "order",
-    "tags": ["ordered"],
+    "tags": ["auto", "ordered"],
     "type": "place"
   },
   "airlines": {
-    "auto": true,
     "icon": "✈️",
     "name": "Airlines",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "airport-metros": {
@@ -122,8 +121,6 @@
     "type": "place"
   },
   "apple": {
-    "auto": true,
-    "featured": true,
     "icon": "🍏",
     "map": {
       "lat": "25",
@@ -132,11 +129,10 @@
     },
     "name": "Apple Stores",
     "size": "large",
-    "tags": ["google"],
+    "tags": ["auto", "featured", "google"],
     "type": "place"
   },
   "aqueducts": {
-    "auto": true,
     "icon": "💦",
     "map": {
       "cluster": "true",
@@ -146,6 +142,7 @@
     },
     "name": "Aqueducts",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "arches": {
@@ -155,16 +152,14 @@
     "type": "place"
   },
   "automatic": {
-    "auto": true,
     "icon": "🤖",
     "name": "Automatic Metros",
     "size": "large",
     "sort": "prefix",
-    "tags": ["prefix"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "awa": {
-    "featured": true,
     "icon": "🏩",
     "map": {
       "icon": "1",
@@ -174,11 +169,10 @@
     },
     "name": "Accidentally Wes Anderson",
     "size": "large",
-    "tags": ["middleSectionBeen"],
+    "tags": ["featured", "middleSectionBeen"],
     "type": "place"
   },
   "beaches": {
-    "featured": true,
     "icon": "🏖",
     "map": {
       "lat": "39",
@@ -187,10 +181,10 @@
     },
     "name": "Beaches",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "belfries": {
-    "auto": true,
     "icon": "🔔",
     "map": {
       "cluster": "false",
@@ -200,6 +194,7 @@
     },
     "name": "Belfries of Belgium and France",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "belgium": {
@@ -216,17 +211,17 @@
     "type": "place"
   },
   "bi-articulated": {
-    "auto": true,
     "icon": "🚛",
     "name": "Bi-Articulated Buses",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "bilingual": {
-    "auto": true,
     "icon": "✌️",
     "name": "Bilingual",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "bilingual-stations": {
@@ -274,7 +269,6 @@
     "type": "place"
   },
   "brazil": {
-    "auto": true,
     "icon": "🇧🇷",
     "map": {
       "cluster": "false",
@@ -284,19 +278,18 @@
     },
     "name": "Estados brasileiros",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "break-of-gauge": {
-    "auto": true,
     "icon": "⛓️‍💥",
     "name": "Break of Gauge",
     "size": "medium",
     "sort": "iconCount",
+    "tags": ["auto"],
     "type": "place"
   },
   "bridges": {
-    "auto": true,
-    "featured": true,
     "icon": "🌉",
     "map": {
       "lat": "25",
@@ -308,7 +301,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["size"],
+    "tags": ["auto", "featured", "size"],
     "type": "place"
   },
   "brt": {
@@ -365,7 +358,6 @@
     "type": "place"
   },
   "cable-landings": {
-    "auto": true,
     "icon": "🔌",
     "map": {
       "lat": "25",
@@ -375,6 +367,7 @@
     "name": "Cable Landings",
     "size": "large",
     "sort": "order",
+    "tags": ["auto"],
     "type": "place"
   },
   "calatrava": {
@@ -450,7 +443,6 @@
     "type": "place"
   },
   "castles": {
-    "featured": true,
     "footer": "List of places named <a class=\"link\" href=\"newcastle.html\">Newcastle</a>.",
     "icon": "🏰",
     "map": {
@@ -460,11 +452,10 @@
     },
     "name": "Castles & Palaces",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "cathedrals": {
-    "auto": true,
-    "featured": true,
     "icon": "⛪️",
     "map": {
       "lat": "50.8",
@@ -473,6 +464,7 @@
     },
     "name": "Cathedrals",
     "size": "large",
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "causeways": {
@@ -515,7 +507,6 @@
     "type": "place"
   },
   "cities": {
-    "featured": true,
     "icon": "🏙",
     "map": {
       "lat": "25",
@@ -524,6 +515,7 @@
     },
     "name": "Cities",
     "size": "large",
+    "tags": ["featured"],
     "type": "city"
   },
   "closed-cities": {
@@ -569,8 +561,6 @@
     "type": "place"
   },
   "confluence": {
-    "auto": true,
-    "featured": true,
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
     "map": {
@@ -585,7 +575,7 @@
     "script": "confluence.js",
     "size": "large",
     "sort": "coords",
-    "tags": ["lookup-state", "no-data"],
+    "tags": ["auto", "featured", "lookup-state", "no-data"],
     "type": "place"
   },
   "congestion": {
@@ -619,10 +609,10 @@
     "type": "place"
   },
   "countries": {
-    "featured": true,
     "icon": "🌎",
     "name": "Countries",
     "size": "large",
+    "tags": ["featured"],
     "type": "country"
   },
   "cross-platform": {
@@ -638,7 +628,6 @@
     "type": "place"
   },
   "culture": {
-    "auto": true,
     "icon": "🇪🇺",
     "map": {
       "lat": "50.8",
@@ -647,7 +636,7 @@
     },
     "name": "Culture Capitals",
     "size": "large",
-    "tags": ["city-flag"],
+    "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "curved": {
@@ -817,7 +806,6 @@
     "type": "place"
   },
   "extremities": {
-    "featured": true,
     "icon": "🧭",
     "map": {
       "cluster": "false",
@@ -827,6 +815,7 @@
     },
     "name": "Extreme Points",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "facades": {
@@ -878,7 +867,6 @@
     "type": "place"
   },
   "ferris-wheels": {
-    "auto": true,
     "icon": "🎡",
     "map": {
       "lat": "25",
@@ -887,6 +875,7 @@
     },
     "name": "Ferris Wheels",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "first-locations": {
@@ -990,8 +979,6 @@
     "type": "place"
   },
   "grand-unions": {
-    "auto": true,
-    "featured": true,
     "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.",
     "icon": "🦋",
     "map": {
@@ -1002,11 +989,10 @@
     "name": "Grand Unions",
     "size": "medium",
     "sort": "reference",
-    "tags": ["no-data", "reference-first", "fractions"],
+    "tags": ["auto", "featured", "fractions", "no-data", "reference-first"],
     "type": "place"
   },
   "greenhouses": {
-    "auto": true,
     "icon": "🌴",
     "map": {
       "lat": "25",
@@ -1015,6 +1001,7 @@
     },
     "name": "Greenhouses",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "ground-zero": {
@@ -1024,8 +1011,6 @@
     "type": "place"
   },
   "hamburgers": {
-    "auto": true,
-    "featured": true,
     "icon": "🍔",
     "map": {
       "lat": "37",
@@ -1035,15 +1020,15 @@
     "name": "Hamburgers",
     "size": "large",
     "sort": "order",
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "head-on": {
-    "auto": true,
     "header": "Stations with a transfer from the end of one line to the beginning of another.",
     "icon": "🔃",
     "name": "Head-On Connections",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "heritage": {
@@ -1058,8 +1043,6 @@
     "type": "place"
   },
   "highest": {
-    "auto": true,
-    "featured": true,
     "icon": "🧗",
     "map": {
       "lat": "25",
@@ -1071,7 +1054,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["prefix"],
+    "tags": ["auto", "featured", "prefix"],
     "type": "place"
   },
   "highway-strips": {
@@ -1255,12 +1238,11 @@
     "type": "place"
   },
   "live": {
-    "auto": true,
     "header": "Locations where live albums were recorded.",
     "icon": "🏟️",
     "name": "Live",
     "size": "medium",
-    "tags": ["reference-key"],
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "loopback": {
@@ -1283,8 +1265,6 @@
     "type": "place"
   },
   "lowest": {
-    "auto": true,
-    "featured": true,
     "icon": "🤿",
     "map": {
       "lat": "25",
@@ -1296,7 +1276,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "size",
-    "tags": ["prefix"],
+    "tags": ["auto", "featured", "prefix"],
     "type": "place"
   },
   "luna-park": {
@@ -1411,7 +1391,6 @@
     "type": "place"
   },
   "mines": {
-    "auto": true,
     "icon": "⚒️",
     "map": {
       "lat": "25",
@@ -1420,6 +1399,7 @@
     },
     "name": "Mines",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "mosques": {
@@ -1586,7 +1566,6 @@
     "type": "place"
   },
   "operating": {
-    "featured": true,
     "header": "I have operated the following transit vehicles:",
     "icon": "🥌",
     "map": {
@@ -1597,7 +1576,7 @@
     },
     "name": "Operating",
     "size": "large",
-    "tags": ["no-coords"],
+    "tags": ["featured", "no-coords"],
     "type": "place"
   },
   "opposites": {
@@ -1695,7 +1674,6 @@
     "type": "place"
   },
   "pools": {
-    "featured": true,
     "icon": "🏊‍♂️",
     "map": {
       "lat": "37",
@@ -1704,7 +1682,7 @@
     },
     "name": "Pools",
     "size": "large",
-    "tags": ["google"],
+    "tags": ["featured", "google"],
     "type": "place"
   },
   "popemobiles": {
@@ -1744,7 +1722,6 @@
     "type": "place"
   },
   "projects": {
-    "auto": true,
     "group": "date",
     "icon": "🚧",
     "map": {
@@ -1756,7 +1733,7 @@
     "prefixClass": "fixed",
     "size": "small",
     "sort": "-prefix",
-    "tags": ["badge-been", "project-link", "prefix", "reference-first", "reference-key", "second-future"],
+    "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key", "second-future"],
     "type": "place"
   },
   "pyramids": {
@@ -1798,8 +1775,6 @@
     "type": "place"
   },
   "records": {
-    "auto": true,
-    "featured": true,
     "icon": "🥈",
     "map": {
       "lat": "50",
@@ -1808,6 +1783,7 @@
     },
     "name": "Records",
     "size": "large",
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "reservations": {
@@ -1898,7 +1874,6 @@
     "type": "place"
   },
   "salt": {
-    "auto": true,
     "icon": "🧂",
     "map": {
       "cluster": "false",
@@ -1908,6 +1883,7 @@
     },
     "name": "Salt Ponds",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "second-cities": {
@@ -2128,10 +2104,10 @@
     "type": "place"
   },
   "stations": {
-    "featured": true,
     "icon": "🚉",
     "name": "Train Stations",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "statues": {
@@ -2141,7 +2117,6 @@
     "type": "place"
   },
   "struve": {
-    "featured": true,
     "icon": "📐",
     "map": {
       "cluster": "false",
@@ -2151,6 +2126,7 @@
     },
     "name": "Struve Geodetic Arc",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "suburban": {
@@ -2173,7 +2149,6 @@
     "type": "place"
   },
   "swimming": {
-    "featured": true,
     "icon": "🤽🏻‍♂️",
     "map": {
       "lat": "40",
@@ -2182,6 +2157,7 @@
     },
     "name": "Swimming",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "switched": {
@@ -2260,8 +2236,6 @@
     "type": "place"
   },
   "towers": {
-    "auto": true,
-    "featured": true,
     "icon": "🗼",
     "map": {
       "lat": "25",
@@ -2273,7 +2247,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["size"],
+    "tags": ["auto", "featured", "size"],
     "type": "place"
   },
   "tram-roundabouts": {
@@ -2289,7 +2263,6 @@
     "type": "place"
   },
   "trams": {
-    "featured": true,
     "header": "I’ve been to every stop in:",
     "icon": "🚋",
     "map": {
@@ -2299,6 +2272,7 @@
     },
     "name": "Trams",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "trans-siberian": {
@@ -2327,7 +2301,6 @@
     "type": "place"
   },
   "tri-states": {
-    "featured": true,
     "icon": "3️⃣",
     "map": {
       "cluster": "false",
@@ -2337,11 +2310,10 @@
     },
     "name": "Tri-States",
     "size": "large",
+    "tags": ["featured"],
     "type": "place"
   },
   "tripoints": {
-    "auto": true,
-    "featured": true,
     "icon": "🚩",
     "map": {
       "cluster": "false",
@@ -2353,7 +2325,7 @@
     "nearDistance": 5,
     "size": "large",
     "sort": "countries",
-    "tags": ["middleSectionBeen"],
+    "tags": ["auto", "featured", "middleSectionBeen"],
     "type": "place"
   },
   "trolley-poles": {
@@ -2374,7 +2346,6 @@
     "type": "place"
   },
   "tunnels": {
-    "auto": true,
     "icon": "🕳️",
     "map": {
       "lat": "48",
@@ -2386,7 +2357,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["size"],
+    "tags": ["auto", "size"],
     "type": "place"
   },
   "turntables": {
@@ -2462,8 +2433,6 @@
     "type": "place"
   },
   "urinals": {
-    "auto": true,
-    "featured": true,
     "icon": "🚽",
     "map": {
       "lat": "25",
@@ -2472,6 +2441,7 @@
     },
     "name": "Urinals",
     "size": "large",
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "useless": {

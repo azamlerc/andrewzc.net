@@ -1,6 +1,5 @@
 {
   "--info--": {
-    "featured": true,
     "header": "I have operated the following transit vehicles:",
     "icon": "🥌",
     "map": {
@@ -11,7 +10,7 @@
     },
     "name": "Operating",
     "size": "large",
-    "tags": ["no-coords"],
+    "tags": ["featured", "no-coords"],
     "type": "place"
   },
   "connecticut-1160": {

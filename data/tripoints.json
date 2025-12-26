@@ -1,7 +1,5 @@
 {
   "--info--": {
-    "auto": true,
-    "featured": true,
     "icon": "🚩",
     "map": {
       "cluster": "false",
@@ -13,7 +11,7 @@
     "nearDistance": 5,
     "size": "large",
     "sort": "countries",
-    "tags": ["middleSectionBeen"],
+    "tags": ["auto", "featured", "middleSectionBeen"],
     "type": "place"
   },
   "abercorn-drift": {
