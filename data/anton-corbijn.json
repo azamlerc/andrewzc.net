@@ -8,8 +8,8 @@
     },
     "name": "Anton Corbijn",
     "size": "medium",
-    "sort": "order",
-    "tags": ["people", "reference-key"],
+    "sort": ["order", "name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "amsterdam-elvis-costello": {
@@ -300,14 +300,6 @@
     "link": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
     "name": "Jerez de la Frontera",
     "reference": "Siouxsie and the Banshees"
-  },
-  "joshua-tree-national-park": {
-    "been": false,
-    "coords": "34.10000000, -116.27000000",
-    "dateAdded": "2025-12-19",
-    "images": ["joshua-tree-national-park1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Joshua_Tree_National_Park",
-    "name": "Joshua Tree National Park"
   },
   "joshua-tree-national-park-u2": {
     "been": true,

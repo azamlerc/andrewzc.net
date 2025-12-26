@@ -2,9 +2,14 @@
   "abandoned": {
     "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
     "icon": "🏚",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Abandoned Stations",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "airbnb": {
@@ -36,14 +41,14 @@
     },
     "name": "Airport Metros",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "airport-trains": {
     "icon": "🛫",
     "name": "Airport Trains",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "airport-trams": {
@@ -55,7 +60,7 @@
     },
     "name": "Airport Trams",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "airports": {
@@ -69,6 +74,7 @@
     "prefixClass": "airport",
     "size": "large",
     "sort": "prefix",
+    "tags": ["auto"],
     "type": "place"
   },
   "alexandria": {
@@ -81,6 +87,7 @@
     },
     "name": "Alexandria",
     "size": "small",
+    "tags": ["auto"],
     "type": "place"
   },
   "alt-power": {
@@ -94,6 +101,7 @@
     },
     "name": "Alt Power",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "anton-corbijn": {
@@ -105,8 +113,8 @@
     },
     "name": "Anton Corbijn",
     "size": "medium",
-    "sort": "order",
-    "tags": ["people", "reference-key"],
+    "sort": ["order", "name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "aop": {
@@ -118,6 +126,7 @@
     },
     "name": "Wine & Cheese",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "apple": {
@@ -149,6 +158,7 @@
     "icon": "🏛",
     "name": "Arches",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "automatic": {
@@ -181,7 +191,7 @@
     },
     "name": "Beaches",
     "size": "large",
-    "tags": ["featured"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "belfries": {

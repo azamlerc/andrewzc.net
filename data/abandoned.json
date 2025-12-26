@@ -2,9 +2,14 @@
   "--info--": {
     "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
     "icon": "🏚",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Abandoned Stations",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "180th-st–bronx-park": {
@@ -298,7 +303,6 @@
     "coords": "50.40890000, 1.59330000",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "info": "<br>🇪🇸 <a href=\"https://en.wikipedia.org/wiki/Bordeta_(Barcelona_Metro)\">Bordeta</a>",
     "link": "https://fr.wikipedia.org/wiki/Ligne_de_Berck-Plage_à_Paris-Plage",
     "name": "Berck-sur-Mer",
     "wikidata": "Q3239372"
