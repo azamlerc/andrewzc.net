@@ -1,6 +1,7 @@
 {
   "--info--": {
     "auto": true,
+    "featured": true,
     "icon": "🌉",
     "map": {
       "lat": "25",
@@ -165,6 +166,7 @@
     "coords": "40.70570000, -73.99640000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["brooklyn-bridge1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
     "name": "Brooklyn Bridge",
     "size": 1833
@@ -731,6 +733,7 @@
     "coords": "40.70700000, -73.99050000",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["manhattan-bridge1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Manhattan_Bridge",
     "name": "Manhattan Bridge",
     "size": 2089
@@ -1363,6 +1366,7 @@
     "coords": "40.44611111, -80.00194444",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["three-sisters2.jpg", "three-sisters3.jpg", "three-sisters1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Three_Sisters_(Pittsburgh)",
     "name": "Three Sisters",
     "size": 269
@@ -1432,6 +1436,7 @@
     "coords": "40.60638889, -74.04555556",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["verrazzano-bridge1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Verrazzano-Narrows_Bridge",
     "name": "Verrazzano Bridge",
     "size": 4176
@@ -1528,6 +1533,17 @@
     "link": "https://en.wikipedia.org/wiki/Taft_Bridge",
     "name": "William Howard Taft Bridge",
     "size": 275
+  },
+  "williamsburg-bridge": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.71454667, -73.97579167",
+    "country": "US",
+    "dateAdded": "2025-12-23",
+    "icons": ["🇺🇸"],
+    "images": ["williamsburg-bridge1.jpg", "williamsburg-bridge2.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Williamsburg_Bridge",
+    "name": "Williamsburg Bridge"
   },
   "woodrow-wilson-bridge": {
     "been": true,
