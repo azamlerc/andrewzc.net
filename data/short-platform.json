@@ -3,6 +3,7 @@
     "icon": "🚷",
     "name": "Short Platforms",
     "size": "large",
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "145th-street": {
@@ -12,7 +13,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/145th_Street_station_(IRT_Lenox_Avenue_Line)",
-    "name": "145th Street"
+    "name": "145th Street",
+    "reference": "New York"
   },
   "acton-town": {
     "been": true,
@@ -20,8 +22,9 @@
     "coords": "51.50277778, -0.28000000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Acton_Town",
-    "name": "Acton Town"
+    "link": "https://en.wikipedia.org/wiki/Acton_Town_tube_station",
+    "name": "Acton Town",
+    "reference": "London"
   },
   "baker-street": {
     "been": true,
@@ -29,8 +32,9 @@
     "coords": "51.52000000, -0.15660000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Baker_Street",
-    "name": "Baker Street"
+    "link": "https://en.wikipedia.org/wiki/Baker_Street_tube_station",
+    "name": "Baker Street",
+    "reference": "London"
   },
   "barbican": {
     "been": true,
@@ -38,8 +42,9 @@
     "coords": "51.519166666667, -0.093888888888889",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Barbican",
+    "link": "https://en.wikipedia.org/wiki/Barbican_tube_station",
     "name": "Barbican",
+    "reference": "London",
     "wikidata": "Q2319878"
   },
   "bayswater": {
@@ -48,8 +53,9 @@
     "coords": "51.50950000, -0.19290000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Bayswater",
-    "name": "Bayswater"
+    "link": "https://en.wikipedia.org/wiki/Bayswater_tube_station",
+    "name": "Bayswater",
+    "reference": "London"
   },
   "camden-town": {
     "been": true,
@@ -57,8 +63,9 @@
     "coords": "51.54100000, -0.14330000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Camden_Town",
-    "name": "Camden Town"
+    "link": "https://en.wikipedia.org/wiki/Camden_Town_tube_station",
+    "name": "Camden Town",
+    "reference": "London"
   },
   "canada-water": {
     "been": true,
@@ -66,8 +73,9 @@
     "coords": "51.49703056, -0.04825278",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Canada_Water",
-    "name": "Canada Water"
+    "link": "https://en.wikipedia.org/wiki/Canada_Water_station",
+    "name": "Canada Water",
+    "reference": "London"
   },
   "charing-cross": {
     "been": true,
@@ -75,8 +83,9 @@
     "coords": "51.50730000, -0.12755000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Charing_Cross",
-    "name": "Charing Cross"
+    "link": "https://en.wikipedia.org/wiki/Charing_Cross_station",
+    "name": "Charing Cross",
+    "reference": "London"
   },
   "city-hall": {
     "been": true,
@@ -86,6 +95,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/City_Hall_station_(IRT_Lexington_Avenue_Line)",
     "name": "City Hall",
+    "reference": "New York",
     "strike": true
   },
   "clapham-common": {
@@ -94,8 +104,9 @@
     "coords": "51.45780000, -0.14940000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Clapham_Common",
-    "name": "Clapham Common"
+    "link": "https://en.wikipedia.org/wiki/Clapham_Common_tube_station",
+    "name": "Clapham Common",
+    "reference": "London"
   },
   "cutty-sark": {
     "been": true,
@@ -103,8 +114,9 @@
     "coords": "51.48277778, -0.00972222",
     "country": "GB",
     "icons": ["🇬🇧", "🇨🇶"],
-    "link": "https://en.wikipedia.org/wiki/Cutty_Sark",
-    "name": "Cutty Sark"
+    "link": "https://en.wikipedia.org/wiki/Cutty_Sark_DLR_station",
+    "name": "Cutty Sark",
+    "reference": "London"
   },
   "ealing-broadway": {
     "been": true,
@@ -112,8 +124,9 @@
     "coords": "51.51750000, -0.29880000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Ealing_Broadway",
-    "name": "Ealing Broadway"
+    "link": "https://en.wikipedia.org/wiki/Ealing_Broadway_station",
+    "name": "Ealing Broadway",
+    "reference": "London"
   },
   "ealing-common": {
     "been": true,
@@ -121,16 +134,19 @@
     "coords": "51.51000000, -0.29400000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Ealing_Common",
-    "name": "Ealing Common"
+    "link": "https://en.wikipedia.org/wiki/Ealing_Common_tube_station",
+    "name": "Ealing Common",
+    "reference": "London"
   },
   "eastcote": {
     "been": true,
+    "city": "London",
     "coords": "51.58420000, -0.38970000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Eastcote",
-    "name": "Eastcote"
+    "link": "https://en.wikipedia.org/wiki/Eastcote_tube_station",
+    "name": "Eastcote",
+    "reference": "London"
   },
   "elverson-road": {
     "been": true,
@@ -138,25 +154,30 @@
     "coords": "51.46840000, -0.01620000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Elverson_Road",
-    "name": "Elverson Road"
+    "link": "https://en.wikipedia.org/wiki/Elverson_Road_DLR_station",
+    "name": "Elverson Road",
+    "reference": "London"
   },
   "euston": {
     "been": true,
+    "city": "London",
     "coords": "52.375, 0.786",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Euston",
+    "link": "https://en.wikipedia.org/wiki/Euston_station",
     "name": "Euston",
+    "reference": "London",
     "wikidata": "Q2290320"
   },
   "gallions-reach": {
     "been": true,
+    "city": "London",
     "coords": "51.50400000, 0.08200000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Gallions_Reach",
-    "name": "Gallions Reach"
+    "link": "https://en.wikipedia.org/wiki/Gallions_Reach_DLR_station",
+    "name": "Gallions Reach",
+    "reference": "London"
   },
   "gloucester-road": {
     "been": true,
@@ -164,8 +185,9 @@
     "coords": "51.4948, -0.1827",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Gloucester_Road",
+    "link": "https://en.wikipedia.org/wiki/Gloucester_Road_tube_station",
     "name": "Gloucester Road",
+    "reference": "London",
     "wikidata": "Q3772507"
   },
   "goldhawk-road": {
@@ -174,8 +196,9 @@
     "coords": "51.50200000, -0.22700000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Goldhawk_Road",
-    "name": "Goldhawk Road"
+    "link": "https://en.wikipedia.org/wiki/Goldhawk_Road_tube_station",
+    "name": "Goldhawk Road",
+    "reference": "London"
   },
   "great-portland": {
     "been": true,
@@ -183,14 +206,25 @@
     "icons": ["🇬🇧"],
     "name": "Great Portland"
   },
+  "great-portland-street": {
+    "been": true,
+    "city": "London",
+    "coords": "51.52380000, -0.14380000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Great_Portland_Street_tube_station",
+    "name": "Great Portland Street",
+    "reference": "London"
+  },
   "hammersmith": {
     "been": true,
     "city": "London",
     "coords": "51.49280000, -0.22290000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Hammersmith",
-    "name": "Hammersmith"
+    "link": "https://en.wikipedia.org/wiki/Hammersmith_tube_station",
+    "name": "Hammersmith",
+    "reference": "London"
   },
   "hampstead": {
     "been": true,
@@ -198,30 +232,38 @@
     "coords": "51.55410000, -0.17440000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Hampstead",
-    "name": "Hampstead"
+    "link": "https://en.wikipedia.org/wiki/Hampstead_tube_station",
+    "name": "Hampstead",
+    "reference": "London"
   },
   "harrow-on-hill": {
     "been": true,
+    "city": "London",
     "coords": "51.56549600, -0.33271600",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Harrow-on-the-Hill",
-    "name": "Harrow-on-the-Hill"
+    "link": "https://en.wikipedia.org/wiki/Harrow-on-the-Hill_station",
+    "name": "Harrow-on-the-Hill",
+    "reference": "London"
   },
   "holmenkollen-line": {
     "been": true,
+    "city": "Oslo",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Holmenkollen_Line",
     "name": "Holmenkollen Line",
+    "reference": "Oslo",
     "wikidata": "Q1771722"
   },
   "monument": {
     "been": true,
+    "city": "London",
     "country": "GB",
     "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Monument_station",
     "name": "Monument",
+    "reference": "London",
     "wikidata": "Q4989906"
   },
   "moorgate": {
@@ -230,8 +272,9 @@
     "coords": "51.51740000, -0.08870000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Moorgate",
-    "name": "Moorgate"
+    "link": "https://en.wikipedia.org/wiki/Moorgate_station",
+    "name": "Moorgate",
+    "reference": "London"
   },
   "neasden": {
     "been": true,
@@ -239,8 +282,9 @@
     "coords": "51.55520000, -0.24650000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Neasden",
-    "name": "Neasden"
+    "link": "https://en.wikipedia.org/wiki/Neasden_tube_station",
+    "name": "Neasden",
+    "reference": "London"
   },
   "notting-hill-gate": {
     "been": true,
@@ -248,8 +292,9 @@
     "coords": "51.50900000, -0.19700000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Notting_Hill_Gate",
-    "name": "Notting Hill Gate"
+    "link": "https://en.wikipedia.org/wiki/Notting_Hill_Gate_tube_station",
+    "name": "Notting Hill Gate",
+    "reference": "London"
   },
   "paddington": {
     "been": true,
@@ -257,8 +302,18 @@
     "coords": "51.51720000, -0.17300000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Paddington",
-    "name": "Paddington"
+    "link": "https://en.wikipedia.org/wiki/Paddington_station",
+    "name": "Paddington",
+    "reference": "London"
+  },
+  "parlamento": {
+    "been": true,
+    "coords": "42.87611111, -2.67972222",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
+    "name": "Parlamento",
+    "reference": "Vitoria-Gasteiz"
   },
   "parsons-green": {
     "been": true,
@@ -266,16 +321,19 @@
     "coords": "51.47380000, -0.19910000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Parsons_Green",
-    "name": "Parsons Green"
+    "link": "https://en.wikipedia.org/wiki/Parsons_Green_tube_station",
+    "name": "Parsons Green",
+    "reference": "London"
   },
   "rayners-lane": {
     "been": true,
+    "city": "London",
     "coords": "51.57370000, -0.37350000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Rayners_Lane",
-    "name": "Rayners Lane"
+    "link": "https://en.wikipedia.org/wiki/Rayners_Lane_tube_station",
+    "name": "Rayners Lane",
+    "reference": "London"
   },
   "rotherhithe": {
     "been": true,
@@ -283,8 +341,9 @@
     "coords": "51.49890000, -0.04260000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Rotherhithe",
-    "name": "Rotherhithe"
+    "link": "https://en.wikipedia.org/wiki/Rotherhithe_station",
+    "name": "Rotherhithe",
+    "reference": "London"
   },
   "royal-albert": {
     "been": true,
@@ -292,8 +351,9 @@
     "coords": "51.5083, 0.0459",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Royal_Albert",
+    "link": "https://en.wikipedia.org/wiki/Royal_Albert_DLR_station",
     "name": "Royal Albert",
+    "reference": "London",
     "wikidata": "Q1777884"
   },
   "south-ferry": {
@@ -304,21 +364,28 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/South_Ferry/Whitehall_Street_station#Original_IRT_station",
     "name": "South Ferry",
+    "reference": "New York",
     "strike": true,
     "wikidata": "Q11704016"
   },
   "street": {
     "been": true,
+    "city": "London",
     "country": "GB",
     "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Street_tube_station",
     "name": "Street",
+    "reference": "London",
     "wikidata": "Q79007"
   },
   "temple": {
     "been": true,
+    "city": "London",
     "country": "GB",
     "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Temple_tube_station",
     "name": "Temple",
+    "reference": "London",
     "wikidata": "Q21500480"
   },
   "wapping": {
@@ -327,8 +394,9 @@
     "coords": "51.50730000, -0.06100000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Wapping",
-    "name": "Wapping"
+    "link": "https://en.wikipedia.org/wiki/Wapping_station",
+    "name": "Wapping",
+    "reference": "London"
   },
   "west-kensington": {
     "been": true,
@@ -336,8 +404,9 @@
     "coords": "51.49070000, -0.20650000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/West_Kensington",
-    "name": "West Kensington"
+    "link": "https://en.wikipedia.org/wiki/West_Kensington_tube_station",
+    "name": "West Kensington",
+    "reference": "London"
   },
   "willesden-green": {
     "been": true,
@@ -345,7 +414,8 @@
     "coords": "51.54680000, -0.22950000",
     "country": "GB",
     "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Willesden_Green",
-    "name": "Willesden Green"
+    "link": "https://en.wikipedia.org/wiki/Willesden_Green_tube_station",
+    "name": "Willesden Green",
+    "reference": "London"
   }
 }

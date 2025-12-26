@@ -1,7 +1,7 @@
 {
   "countries": [{
       "been": 0.6889999999999999,
-      "count": 6265,
+      "count": 6268,
       "icon": "🇺🇸",
       "key": "united-states",
       "name": "United States"
@@ -12,8 +12,8 @@
       "key": "france",
       "name": "France"
     }, {
-      "been": 0.747,
-      "count": 1856,
+      "been": 0.751,
+      "count": 1890,
       "icon": "🇬🇧",
       "key": "united-kingdom",
       "name": "United Kingdom"
@@ -48,8 +48,8 @@
       "key": "czechia",
       "name": "Czechia"
     }, {
-      "been": 0.54,
-      "count": 452,
+      "been": 0.541,
+      "count": 453,
       "icon": "🇪🇸",
       "key": "spain",
       "name": "Spain"
@@ -120,8 +120,8 @@
       "key": "slovakia",
       "name": "Slovakia"
     }, {
-      "been": 0.266,
-      "count": 155,
+      "been": 0.268,
+      "count": 156,
       "icon": "🇳🇴",
       "key": "norway",
       "name": "Norway"
@@ -1765,6 +1765,7 @@
     "schengen": "0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0,2,1,0,1,1,1,1,1,1,1,0,3,1,0,2,1,1,0,2,1,0,1,1,0,7,1,0,2,1,0,9,1,0,1,1,0,4,1,1,0,2,1,1,0,8,1,0,3,1",
     "second-cities": "1,0,1,1,1,0,1,1,0,1,1,1,1,0,2,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0,2,1,0,1,1,1,1,0,2,1,0,3,1,0,1,1,1,0,2,1,0,5,1,0,2,1,0,4,1",
     "short-coastline": "0,3,1,0,21,1,0,15,1,0,5,1,0,7,1,0,14,1,0,1,1",
+    "short-platform": "3,0,1,35,0,5,1,0,11,1",
     "short-turn": "18,0,1,8,0,5,1,0,8,1,0,6,2",
     "shuttles": "9,3,6,0,1,1,0,3,3,0,5,1,0,20,1",
     "similar-flags": "1,0,5,1,0,2,1,1,1,0,1,1,0,2,1,0,2,1,0,3,1,0,2,1,0,2,1,1,0,3,1,0,4,1,0,2,1,0,3,1,0,3,1,1,1,0,1,1,1,0,8,1,0,1,1,0,1,1,1,0,10,1",
@@ -2765,6 +2766,13 @@
       "icon": "🇻🇦",
       "key": "popemobiles",
       "name": "Popemobiles"
+    }, {
+      "been": 1,
+      "count": 40,
+      "group": "trains",
+      "icon": "🚷",
+      "key": "short-platform",
+      "name": "Short Platforms"
     }, {
       "been": 0.582,
       "count": 39,
@@ -4257,5 +4265,5 @@
       "key": "zig-zag",
       "name": "Zig Zag"
     }],
-  "totalCount": 20596
+  "totalCount": 20635
 }
