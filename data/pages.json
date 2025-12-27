@@ -2395,7 +2395,7 @@
     "type": "place"
   },
   "twin-cities": {
-    "header": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
+    "footer": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
     "icon": "👯",
     "map": {
       "lat": "25",
@@ -2404,11 +2404,12 @@
     },
     "name": "Twin Cities",
     "size": "medium",
-    "tags": ["country-key", "todo-icon"],
+    "sort": ["group", "order", "name", "countries"],
+    "tags": ["auto", "country-key", "todo-icon"],
     "type": "place"
   },
   "twin-stations": {
-    "header": "For stations on the same metro, see <a class=\"dark\" href=\"duplicate-stations.html\">Duplicate Stations</a>.",
+    "footer": "For stations on the same metro, see <a class=\"dark\" href=\"duplicate-stations.html\">Duplicate Stations</a>.",
     "icon": "👯",
     "map": {
       "lat": "25",
@@ -2417,7 +2418,8 @@
     },
     "name": "Twin Stations",
     "size": "medium",
-    "tags": ["reference-key", "todo-icon"],
+    "sort": ["group", "countries"],
+    "tags": ["auto", "reference-key", "todo-icon"],
     "type": "place"
   },
   "unesco": {

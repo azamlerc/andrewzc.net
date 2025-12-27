@@ -617,7 +617,9 @@
     "prefix": "16°N 16°W"
   },
   "brownville": {
+    "badges": ["🛫"],
     "been": false,
+    "caption": "Near Watertown Airport, in some woods about 250 meters from a road.",
     "coords": "44.0, -76.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1164,6 +1166,7 @@
   "derby-line": {
     "badges": ["✂️", "📚"],
     "been": false,
+    "caption": "About 7 kilometers east of Haskell Free Library. Edge of a field, about 300 meters south of a road.",
     "coords": "45.0, -72.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1565,14 +1568,6 @@
     "name": "Four Corners (Canada)",
     "prefix": "60°N 102°W"
   },
-  "franklin": {
-    "been": false,
-    "coords": "45.0, -73.0",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://confluence.org/confluence.php?lat=45&lon=-73",
-    "name": "Franklin"
-  },
   "fredericktown": {
     "been": false,
     "coords": "40.0, -80.0",
@@ -1598,6 +1593,7 @@
   },
   "fryeburg": {
     "been": false,
+    "caption": "In the backyard of a country house, 80 meters from the driveway. Just inside the border with Maine.",
     "coords": "44.0, -71.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -1618,6 +1614,7 @@
   },
   "galway": {
     "been": false,
+    "caption": "On the very edge of a pond, just off a road.",
     "coords": "43.0, -74.0",
     "country": "US",
     "distance": 30,
@@ -1894,7 +1891,9 @@
     "prefix": "40°N 102°W"
   },
   "hancock": {
+    "badges": ["🚂"],
     "been": false,
+    "caption": "In the woods, about 700 meters from a road. Near an old train depot.",
     "coords": "43.0, -72.0",
     "country": "US",
     "distance": 10,
@@ -2081,6 +2080,7 @@
   },
   "ingleside": {
     "been": false,
+    "caption": "Park the car in a suburban development, walk 250 meters through tall grass. Point is just across a water ditch.",
     "coords": "45.0, -75.0",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -2489,6 +2489,7 @@
   },
   "lake-aziscohos": {
     "been": false,
+    "caption": "30 meters off the shore, will have to swim to this one!",
     "coords": "45.0, -71.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -2722,6 +2723,7 @@
   "lincoln": {
     "badges": ["👯"],
     "been": false,
+    "caption": "In the Green Mountain National Forest, about 2 kilometer hike from trailhead.",
     "coords": "44.0, -73.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -2871,6 +2873,7 @@
   },
   "manlius": {
     "been": false,
+    "caption": "In suburban Syracuse, in the woods about 200 meters off a road. Close to a swimming pool.",
     "coords": "43.0, -76.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -3086,6 +3089,7 @@
   },
   "mohawk": {
     "been": false,
+    "caption": "Right off Interstate 90, 300 meters from a road. Park near house and follow road cut to avoid long grass.",
     "coords": "43.0, -75.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -3181,6 +3185,7 @@
   },
   "morses-line": {
     "been": false,
+    "caption": "In a field on private property, about 20 meters from the road.",
     "coords": "45.0, -73.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -3425,7 +3430,9 @@
     "state": "FL"
   },
   "newcomb": {
+    "badges": ["🤽‍♂️"],
     "been": false,
+    "caption": "Five kilometer hike along a trail in Adirondack Park. Go for a swim in Trout Pond.",
     "coords": "44.0, -74.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -3808,6 +3815,7 @@
   },
   "piermont": {
     "been": false,
+    "caption": "In the woods about 50 meters from a road, just inside of New Hampshire.",
     "coords": "44.0, -72.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -4136,6 +4144,7 @@
   },
   "rockburn": {
     "been": false,
+    "caption": "In the woods, 700 meters south of a road and 500 meters north of the border. On private property, get permission from owner.",
     "coords": "45.0, -74.0",
     "country": "CA",
     "icons": ["🇨🇦"],
@@ -4695,6 +4704,7 @@
   },
   "star-lake": {
     "been": false,
+    "caption": "Deeeeeep in Adirondack Park, twenty kilometers from the road.",
     "coords": "44.0, -75.0",
     "country": "US",
     "icons": ["🇺🇸"],
@@ -4720,6 +4730,18 @@
     "link": "https://confluence.org/confluence.php?lat=48&lon=8",
     "name": "Stegen-Eschbach",
     "prefix": "48°N 8°E"
+  },
+  "stratton": {
+    "been": false,
+    "caption": "Deep in the woods. Road is barred 5 km from the point.",
+    "coords": "43.0, -73.0",
+    "country": "US",
+    "distance": 10,
+    "icons": ["🇺🇸"],
+    "link": "https://confluence.org/confluence.php?lat=43&lon=-73",
+    "name": "Stratton",
+    "prefix": "43°N 73°W",
+    "state": "VT"
   },
   "stuarts-draft": {
     "been": false,
@@ -5095,17 +5117,6 @@
     "name": "West Bridgewater",
     "prefix": "42°N 71°W",
     "state": "MA"
-  },
-  "west-dover": {
-    "been": false,
-    "coords": "43.0, -73.0",
-    "country": "US",
-    "distance": 10,
-    "icons": ["🇺🇸"],
-    "link": "https://confluence.org/confluence.php?lat=43&lon=-73",
-    "name": "West Dover",
-    "prefix": "43°N 73°W",
-    "state": "VT"
   },
   "wetterzeube-rossendorf": {
     "been": false,
