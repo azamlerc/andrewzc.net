@@ -347,6 +347,7 @@
     },
     "name": "Bucket List",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "bumper": {
@@ -358,7 +359,7 @@
     },
     "name": "Bumper Blocks",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "cable-cars": {
@@ -370,6 +371,7 @@
     },
     "name": "Cable Cars",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "cable-landings": {
@@ -394,6 +396,7 @@
     },
     "name": "Santiago Calatrava",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "canada": {
@@ -407,6 +410,7 @@
     },
     "name": "Canadian Provinces and Territories",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "capitals": {
@@ -419,7 +423,7 @@
     },
     "name": "Capitals",
     "size": "large",
-    "tags": ["city-flag"],
+    "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "car-free": {
@@ -431,6 +435,7 @@
     },
     "name": "Car-Free",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "car-places": {
@@ -443,7 +448,8 @@
     },
     "name": "Car Places",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "sort": ["order", "name"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "casinos": {
@@ -455,6 +461,7 @@
     },
     "name": "Casinos",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "castles": {
@@ -467,7 +474,7 @@
     },
     "name": "Castles & Palaces",
     "size": "large",
-    "tags": ["featured"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "cathedrals": {
@@ -486,12 +493,14 @@
     "icon": "🥓",
     "name": "Causeways",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "cemeteries": {
     "icon": "🪦",
     "name": "Cemeteries",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "china-cities": {
@@ -504,7 +513,7 @@
     },
     "name": "China Cities",
     "size": "large",
-    "tags": ["city-flag"],
+    "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "circle-lines": {
@@ -512,13 +521,14 @@
     "icon": "⭕️",
     "name": "Circle Lines",
     "size": "large",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "circular": {
     "icon": "☸️",
     "name": "Circular Grids",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "cities": {
@@ -543,14 +553,14 @@
     },
     "name": "Closed Cities",
     "size": "large",
-    "tags": ["city-flag"],
+    "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "closed-lines": {
     "icon": "☠️",
     "name": "Closed Lines",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "closed-trams": {
@@ -853,7 +863,8 @@
     },
     "name": "Factories",
     "size": "medium",
-    "tags": ["reference-first"],
+    "sort": ["name"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "fare-cards": {
@@ -2405,7 +2416,7 @@
     "name": "Twin Cities",
     "size": "medium",
     "sort": ["group", "order", "name", "countries"],
-    "tags": ["auto", "country-key", "todo-icon"],
+    "tags": ["auto", "featured", "country-key", "todo-icon"],
     "type": "place"
   },
   "twin-stations": {

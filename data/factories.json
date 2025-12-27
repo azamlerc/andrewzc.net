@@ -8,7 +8,8 @@
     },
     "name": "Factories",
     "size": "medium",
-    "tags": ["reference-first"],
+    "sort": ["name"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "anchieta": {
@@ -33,7 +34,7 @@
   "boulogne-billancourt": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Île_Seguin",
     "name": "Boulogne-Billancourt",
     "reference": "Renault",
@@ -43,7 +44,7 @@
     "been": false,
     "coords": "37.01139444, -86.36661389",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bowling_Green_Assembly_Plant",
     "name": "Bowling Green, KY",
     "reference": "General Motors",
@@ -62,7 +63,7 @@
   },
   "chattanooga-tn": {
     "been": false,
-    "coords": "35.08, -85.135",
+    "coords": "35.08000000, -85.13500000",
     "countries": ["DE", "US"],
     "icons": ["🇩🇪", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Volkswagen_Chattanooga_Assembly_Plant",
@@ -74,7 +75,7 @@
     "been": false,
     "coords": "53.10407222, -2.47235278",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Bentley_Crewe",
     "name": "Crewe",
     "reference": "Bentley"
@@ -84,7 +85,7 @@
     "city": "Detroit",
     "coords": "42.30500000, -83.16500000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Dearborn_Truck",
     "name": "Dearborn",
     "reference": "General Motors"
@@ -101,7 +102,7 @@
   "detroit/hamtramck": {
     "been": false,
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Detroit/Hamtramck_Assembly",
     "name": "Detroit/Hamtramck",
     "reference": "General Motors",
@@ -110,7 +111,7 @@
   "douai": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Renault_Douai_Factory",
     "name": "Douai",
     "reference": "Renault"
@@ -120,7 +121,7 @@
     "city": "Dresden",
     "coords": "51.04444444, 13.75555556",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Transparent_Factory",
     "name": "Dresden",
     "reference": "Volkswagen"
@@ -138,7 +139,7 @@
   "flins": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Flins_Renault_Factory",
     "name": "Flins",
     "reference": "Renault"
@@ -147,16 +148,16 @@
     "been": false,
     "coords": "43.00863390, -83.70991140",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Flint_Truck_Assembly",
     "name": "Flint",
     "reference": "General Motors"
   },
   "fremont": {
     "been": true,
-    "coords": "37.495, -121.9425",
+    "coords": "37.49500000, -121.94250000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tesla_Fremont_Factory",
     "name": "Fremont",
     "reference": "Tesla",
@@ -192,7 +193,7 @@
     "been": false,
     "coords": "39.53800000, -119.44000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Giga_Nevada",
     "name": "Gigafactory Nevada",
     "reference": "Tesla"
@@ -211,7 +212,7 @@
     "been": false,
     "coords": "30.22087464, -97.61864963",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Giga_Texas",
     "name": "Gigafactory Texas",
     "reference": "Tesla"
@@ -219,7 +220,7 @@
   "goodwood": {
     "been": false,
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars",
     "name": "Goodwood",
     "reference": "Rolls-Royce",
@@ -230,7 +231,7 @@
     "city": "Graz",
     "coords": "47.07083333, 15.43861111",
     "country": "AT",
-    "icons": ["🇦🇹"],
+    "icons": ["🇦🇹", "🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Magna_Steyr",
     "name": "Graz",
     "reference": "Magna Steyr",
@@ -241,7 +242,7 @@
     "city": "Hiroshima",
     "coords": "34.37787778, 132.50388611",
     "country": "JP",
-    "icons": ["🇯🇵"],
+    "icons": ["🇯🇵", "🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hiroshima_(Mazda_factory)",
     "name": "Hiroshima",
     "reference": "Mazda"
@@ -250,7 +251,7 @@
     "been": true,
     "coords": "49.44472222, 7.76888889",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Kaiserslautern",
     "name": "Kaiserslautern",
     "reference": "Opel"
@@ -298,16 +299,16 @@
     "been": false,
     "coords": "51.34000000, 12.37500000",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/BMW_Leipzig_Plant",
     "name": "Leipzig",
     "reference": "BMW"
   },
   "luton": {
     "been": true,
-    "coords": "51.876, -0.391",
+    "coords": "51.87600000, -0.39100000",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Vauxhall_Luton",
     "name": "Luton",
     "reference": "Vauxhall",
@@ -326,7 +327,7 @@
   "maubeuge": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Renault_Maubeuge_Factory",
     "name": "Maubeuge",
     "reference": "Renault"
@@ -335,7 +336,7 @@
     "been": false,
     "coords": "50.42111100, 14.93055600",
     "country": "CZ",
-    "icons": ["🇨🇿"],
+    "icons": ["🇨🇿", "🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Škoda_Auto#Manufacturing_facilities",
     "name": "Mladá Boleslav",
     "reference": "Škoda"
@@ -363,7 +364,7 @@
   "motomachi": {
     "been": false,
     "country": "JP",
-    "icons": ["🇯🇵"],
+    "icons": ["🇯🇵", "🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Toyota_Motomachi_plant",
     "name": "Motomachi",
     "reference": "Toyota",
@@ -372,7 +373,7 @@
   "mulhouse": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Stellantis_Mulhouse_Plant",
     "name": "Mulhouse",
     "reference": "Stellantis"
@@ -381,7 +382,7 @@
     "been": false,
     "coords": "48.17694444, 11.56000000",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/BMW_Headquarters",
     "name": "Munich",
     "reference": "BMW"
@@ -390,7 +391,7 @@
     "been": false,
     "coords": "55.68333333, 52.31666667",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Naberezhnye_Chelny",
     "name": "Naberezhnye Chelny",
     "reference": "Kamaz"
@@ -400,12 +401,13 @@
     "city": "Nizhny Novgorod",
     "coords": "56.24644444, 43.88988333",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/GAZ",
     "name": "Nizhny Novgorod",
     "reference": "GAZ"
   },
   "novo-mesto": {
+    "been": false,
     "coords": "45.80000000, 15.16666667",
     "countries": ["FR", "SI"],
     "dateAdded": "2025-11-29",
@@ -427,7 +429,7 @@
   "oppama": {
     "been": false,
     "country": "JP",
-    "icons": ["🇯🇵"],
+    "icons": ["🇯🇵", "🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Nissan_Oppama_Plant",
     "name": "Oppama",
     "reference": "Nissan",
@@ -435,9 +437,9 @@
   },
   "oxford": {
     "been": true,
-    "coords": "51.730058, -1.198726",
+    "coords": "51.73005800, -1.19872600",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Plant_Oxford",
     "name": "Oxford",
     "reference": "Mini",
@@ -448,7 +450,7 @@
     "city": "Paris",
     "coords": "48.94250000, 2.05000000",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Stellantis_Poissy_Plant",
     "name": "Poissy",
     "reference": "Stellantis"
@@ -466,7 +468,7 @@
   "quai-de-javel": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Usine_Citroën_du_quai_de_Javel",
     "name": "Quai de Javel",
     "reference": "Citroën",
@@ -475,7 +477,7 @@
   "rennes": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Stellantis_Rennes_Plant",
     "name": "Rennes",
     "reference": "Stellantis"
@@ -503,7 +505,7 @@
     "been": true,
     "coords": "49.98780000, 8.39960000",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Rüsselsheim_Opelwerk_station",
     "name": "Rüsselsheim",
     "reference": "Opel"
@@ -522,10 +524,10 @@
   },
   "san-jose": {
     "been": true,
-    "city": "San José",
+    "city": "San Jose",
     "coords": "37.41583333, -121.89805556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/San_Jose_Assembly_Plant",
     "name": "San Jose",
     "reference": "Ford",
@@ -534,7 +536,7 @@
   "sandouville": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Renault_Sandouville_Factory",
     "name": "Sandouville",
     "reference": "Renault"
@@ -543,7 +545,7 @@
     "been": false,
     "coords": "48.71333333, 9.00277778",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Mercedes-Benz_Sindelfingen_Plant",
     "name": "Sindelfingen",
     "reference": "Mercedes-Benz"
@@ -560,7 +562,7 @@
   "sochaux": {
     "been": false,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Stellantis_Sochaux_Plant",
     "name": "Sochaux",
     "reference": "Stellantis"
@@ -578,7 +580,7 @@
     "been": false,
     "coords": "35.74000000, -86.96500000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Spring_Hill_Manufacturing",
     "name": "Spring Hill, TN",
     "reference": "General Motors",
@@ -588,16 +590,16 @@
     "been": false,
     "coords": "42.57000000, -83.03100000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sterling_Heights_Assembly",
     "name": "Sterling Heights",
     "reference": "Stellantis"
   },
   "stuttgart": {
     "been": false,
-    "coords": "48.78855, 9.23376",
+    "coords": "48.78855000, 9.23376000",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Mercedes-Benz_Museum",
     "name": "Stuttgart",
     "reference": "Mercedes-Benz",
@@ -608,7 +610,7 @@
     "city": "Newcastle",
     "coords": "54.92034833, -1.46903983",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Nissan_Motor_Manufacturing_UK",
     "name": "Sunderland",
     "reference": "Nissan"
@@ -627,7 +629,7 @@
     "been": false,
     "coords": "53.50888889, 49.42222222",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/AvtoVAZ",
     "name": "Tolyatti",
     "reference": "AvtoVAZ",
@@ -637,7 +639,7 @@
     "been": false,
     "coords": "57.72361111, 11.84111111",
     "country": "SE",
-    "icons": ["🇸🇪"],
+    "icons": ["🇸🇪", "🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Torslandaverken",
     "name": "Torslanda",
     "reference": "Volvo"
@@ -655,7 +657,7 @@
     "been": false,
     "coords": "58.31400000, 12.32300000",
     "country": "SE",
-    "icons": ["🇸🇪"],
+    "icons": ["🇸🇪", "🇸🇪"],
     "link": "https://en.wikipedia.org/wiki/Trollhättan_Assembly",
     "name": "Trollhättan",
     "reference": "Saab",
@@ -665,7 +667,7 @@
     "been": false,
     "coords": "35.54489000, 129.37210800",
     "country": "KR",
-    "icons": ["🇰🇷"],
+    "icons": ["🇰🇷", "🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company#Manufacturing",
     "name": "Ulsan",
     "reference": "Hyundai"
@@ -681,7 +683,7 @@
   },
   "vitoria": {
     "been": false,
-    "coords": "42.85172, -2.71673",
+    "coords": "42.85172000, -2.71673000",
     "countries": ["DE", "ES"],
     "icons": ["🇩🇪", "🇪🇸"],
     "link": "https://group.mercedes-benz.com/company/locations/production-network-vitoria.html",
@@ -718,9 +720,9 @@
   },
   "wolfsburg": {
     "been": true,
-    "coords": "52.4388636, 10.7655251",
+    "coords": "52.43886360, 10.76552510",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Wolfsburg_Volkswagen_Plant",
     "name": "Wolfsburg",
     "reference": "Volkswagen"
@@ -729,7 +731,7 @@
     "been": false,
     "coords": "50.73277778, 12.48416667",
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/August_Horch_Museum_Zwickau",
     "name": "Zwickau",
     "reference": "Audi",
@@ -738,7 +740,7 @@
   "zwikau-sachsenring": {
     "been": false,
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/HQM_Sachsenring_GmbH",
     "name": "Zwikau Sachsenring",
     "reference": "Trabant",

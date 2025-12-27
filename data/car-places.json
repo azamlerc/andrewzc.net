@@ -9,7 +9,8 @@
     },
     "name": "Car Places",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "sort": "name",
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "alfa-romeo-brera": {
@@ -17,7 +18,7 @@
     "city": "Milan",
     "coords": "45.47138889, 9.18500000",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Brera_(district_of_Milan)",
     "name": "Brera",
     "reference": "Alfa Romeo"
@@ -27,7 +28,7 @@
     "city": "Milan",
     "coords": "45.46694444, 9.19000000",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan",
     "name": "Milano",
     "reference": "Alfa Romeo"
@@ -37,7 +38,7 @@
     "city": "Turin",
     "coords": "45.07916667, 7.67611111",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Turin",
     "name": "MiTo",
     "reference": "Alfa Romeo"
@@ -57,7 +58,7 @@
     "city": "Beijing",
     "coords": "39.90666667, 116.39750000",
     "country": "CN",
-    "icons": ["🇨🇳"],
+    "icons": ["🇨🇳", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Beijing",
     "name": "Beijing",
     "reference": "BAIC"
@@ -82,9 +83,9 @@
   },
   "buick-rainier": {
     "been": true,
-    "coords": "46.85166666666667, -121.76027777777777",
+    "coords": "46.85166667, -121.76027778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Rainier",
     "name": "Rainier",
     "reference": "Buick",
@@ -101,7 +102,7 @@
   },
   "buick-verano": {
     "been": false,
-    "coords": "46.605366, 11.226271",
+    "coords": "46.60536600, 11.22627100",
     "countries": ["US", "IT"],
     "icons": ["🇺🇸", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Verano_(Rome)",
@@ -113,7 +114,7 @@
     "been": false,
     "coords": "44.25000000, -85.41388889",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cadillac,_Michigan",
     "name": "Cadillac",
     "reference": "Cadillac"
@@ -140,9 +141,9 @@
   "chevrolet-bel-air": {
     "been": true,
     "city": "Los Angeles",
-    "coords": "34.08333, -118.44778",
+    "coords": "34.08333000, -118.44778000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bel_Air",
     "name": "Bel Air",
     "reference": "Chevrolet",
@@ -153,7 +154,7 @@
     "coords": "25.46944444, -80.18611111",
     "countries": ["US", "ES"],
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Biscayne_National_Park",
     "name": "Biscayne",
     "reference": "Chevrolet"
@@ -162,7 +163,7 @@
     "been": false,
     "coords": "41.14000000, -104.82027778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cheyenne,_Wyoming",
     "name": "Cheyenne",
     "reference": "Chevrolet"
@@ -171,7 +172,7 @@
     "been": true,
     "coords": "38.99720000, -105.54780000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Colorado",
     "name": "Colorado",
     "reference": "Chevrolet"
@@ -189,7 +190,7 @@
     "been": true,
     "coords": "26.45916667, -80.08305556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Delray_Beach,_Florida",
     "name": "Delray",
     "reference": "Chevrolet"
@@ -197,7 +198,7 @@
   "chevrolet-el-camino": {
     "been": true,
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/El_Camino_Real_(California)",
     "name": "El Camino",
     "reference": "Chevrolet"
@@ -206,7 +207,7 @@
     "been": true,
     "coords": "34.03500000, -118.69500000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Malibu,_California",
     "name": "Malibu",
     "reference": "Chevrolet"
@@ -234,7 +235,7 @@
     "been": false,
     "coords": "33.74817600, -117.62847900",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Silverado,_California",
     "name": "Silverado",
     "reference": "Chevrolet"
@@ -243,7 +244,7 @@
     "been": false,
     "coords": "39.00000000, -120.00000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lake_Tahoe",
     "name": "Tahoe",
     "reference": "Chevrolet"
@@ -251,9 +252,9 @@
   "chrysler-5th-avenue": {
     "been": true,
     "city": "New York",
-    "coords": "40.774078, -73.965863",
+    "coords": "40.77407800, -73.96586300",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Fifth_Avenue",
     "name": "5th Avenue",
     "reference": "Chrysler",
@@ -263,7 +264,7 @@
     "been": true,
     "coords": "39.19110000, -106.81750000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
     "name": "Aspen",
     "reference": "Chrysler"
@@ -280,9 +281,9 @@
   "chrysler-new-yorker": {
     "been": true,
     "city": "New York",
-    "coords": "40.71277777777778, -74.00611111111111",
+    "coords": "40.71277778, -74.00611111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_York_City",
     "name": "New Yorker",
     "reference": "Chrysler",
@@ -292,7 +293,7 @@
     "been": true,
     "coords": "41.49000000, -71.31000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Newport,_Rhode_Island",
     "name": "Newport",
     "reference": "Chrysler"
@@ -301,7 +302,7 @@
     "been": true,
     "coords": "37.62277778, -122.48555556",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pacifica,_California",
     "name": "Pacifica",
     "reference": "Chrysler"
@@ -310,7 +311,7 @@
     "been": false,
     "coords": "27.49555556, -81.44444444",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sebring,_Florida",
     "name": "Sebring",
     "reference": "Chrysler",
@@ -321,7 +322,7 @@
     "city": "Paris",
     "coords": "48.86990000, 2.30760000",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Champs-Élysées",
     "name": "C-Elysée",
     "reference": "Citroën"
@@ -330,7 +331,7 @@
     "been": true,
     "coords": "39.19110000, -106.81750000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Aspen,_Colorado",
     "name": "Aspen",
     "reference": "Dodge"
@@ -339,7 +340,7 @@
     "been": false,
     "coords": "44.00000000, -100.00000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/South_Dakota",
     "name": "Dakota",
     "reference": "Dodge",
@@ -349,7 +350,7 @@
     "been": true,
     "coords": "29.21083333, -81.02277778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Daytona_Beach,_Florida",
     "name": "Daytona",
     "reference": "Dodge"
@@ -358,7 +359,7 @@
     "been": false,
     "coords": "37.27530000, -107.88010000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Durango,_Colorado",
     "name": "Durango",
     "reference": "Dodge"
@@ -377,7 +378,7 @@
     "been": true,
     "coords": "35.49103500, -119.34785200",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/California",
     "name": "California",
     "reference": "Ferrari"
@@ -387,7 +388,7 @@
     "city": "Rome",
     "coords": "41.90000000, 12.48333333",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Ferrari_458_Italia",
     "name": "Italia",
     "reference": "Ferrari",
@@ -395,9 +396,9 @@
   },
   "ferrari-maranello": {
     "been": false,
-    "coords": "44.52638888888889, 10.866666666666667",
+    "coords": "44.52638889, 10.86666667",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Maranello",
     "name": "Maranello",
     "reference": "Ferrari",
@@ -407,7 +408,7 @@
     "been": true,
     "coords": "44.64694444, 10.92555556",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Modena",
     "name": "Modena",
     "reference": "Ferrari"
@@ -488,7 +489,7 @@
     "been": false,
     "coords": "63.06950000, -151.00740000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Denali",
     "name": "Denali",
     "reference": "GMC"
@@ -497,7 +498,7 @@
     "been": true,
     "coords": "38.51000000, -122.93000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sonoma_County,_California",
     "name": "Sonoma",
     "reference": "GMC"
@@ -525,6 +526,7 @@
     "coords": "36.97194444, -122.02638889",
     "countries": ["KR", "US"],
     "icons": ["🇰🇷", "🇺🇸"],
+    "images": ["santa-cruz1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Santa_Cruz,_California",
     "name": "Santa Cruz",
     "reference": "Hyundai"
@@ -562,7 +564,7 @@
   },
   "hyundai-veracruz": {
     "been": false,
-    "coords": "19.52722222222222, -96.9225",
+    "coords": "19.52722222, -96.92250000",
     "countries": ["KR", "MX"],
     "icons": ["🇰🇷", "🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Veracruz",
@@ -623,7 +625,7 @@
     "city": "Milan",
     "coords": "45.46694444, 9.19000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Milan",
     "name": "Milan",
     "reference": "Mercury"
@@ -632,7 +634,7 @@
     "been": false,
     "coords": "40.82593000, -74.20903000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Montclair,_New_Jersey",
     "name": "Montclair",
     "reference": "Mercury"
@@ -650,7 +652,7 @@
     "been": true,
     "coords": "36.60305556, -121.89361111",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Monterey,_California",
     "name": "Monterey",
     "reference": "Mercury"
@@ -679,7 +681,7 @@
     "been": false,
     "coords": "41.95833333, -70.66777778",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Plymouth,_Massachusetts",
     "name": "Plymouth",
     "reference": "Plymouth"
@@ -688,7 +690,7 @@
     "been": true,
     "coords": "40.79972222, -113.80000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bonneville_Salt_Flats",
     "name": "Bonneville",
     "reference": "Pontiac"
@@ -697,7 +699,7 @@
     "been": false,
     "coords": "33.38333333, -118.41666667",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Santa_Catalina_Island_(California)",
     "name": "Catalina",
     "reference": "Pontiac"
@@ -715,7 +717,7 @@
     "been": true,
     "coords": "47.00000000, -110.00000000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Montana",
     "name": "Montana",
     "reference": "Pontiac"
@@ -724,7 +726,7 @@
     "been": false,
     "coords": "42.64611111, -83.29250000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pontiac,_Michigan",
     "name": "Pontiac",
     "reference": "Pontiac"
@@ -733,7 +735,7 @@
     "been": false,
     "coords": "37.17750000, -3.59000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Alhambra",
     "name": "Alhambra",
     "reference": "Seat"
@@ -742,7 +744,7 @@
     "been": false,
     "coords": "38.59861111, -0.05194444",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Altea",
     "name": "Altea",
     "reference": "Seat"
@@ -751,7 +753,7 @@
     "been": false,
     "coords": "41.33333333, -1.78333333",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Ateca",
     "name": "Ateca",
     "reference": "Seat"
@@ -760,7 +762,7 @@
     "been": false,
     "coords": "37.89000000, -4.78000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Córdoba,_Spain",
     "name": "Cordoba",
     "reference": "Seat"
@@ -769,7 +771,7 @@
     "been": false,
     "coords": "38.98000000, 1.43000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Ibiza",
     "name": "Ibiza",
     "reference": "Seat"
@@ -779,7 +781,7 @@
     "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/León,_Spain",
     "name": "León",
     "reference": "Seat"
@@ -789,7 +791,7 @@
     "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Marbella",
     "name": "Marbella",
     "reference": "Seat"
@@ -798,7 +800,7 @@
     "been": false,
     "coords": "41.11638889, 1.25527778",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Tarraco",
     "name": "Tarraco",
     "reference": "Seat"
@@ -808,7 +810,7 @@
     "city": "Zaragoza",
     "coords": "39.50000000, -3.70000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Toledo,_Spain",
     "name": "Toledo",
     "reference": "Seat"
@@ -886,7 +888,8 @@
     "countries": ["US", "CA"],
     "icons": ["🇺🇸", "🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Windsor,_Ontario",
-    "name": "Windsor"
+    "name": "Windsor",
+    "reference": "Chrysler"
   },
   "yugo-florida": {
     "been": true,
