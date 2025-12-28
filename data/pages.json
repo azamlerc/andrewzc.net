@@ -702,7 +702,7 @@
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "tags": ["auto", "reference-first"],
+    "tags": ["reference-first"],
     "type": "place"
   },
   "disputed": {
@@ -862,6 +862,7 @@
     },
     "name": "Façades",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "factories": {
@@ -881,7 +882,7 @@
     "icon": "🎟️",
     "name": "Fare Cards",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "featuring": {
@@ -915,17 +916,18 @@
     "type": "place"
   },
   "first-locations": {
-    "header": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
+    "footer": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
     "icon": "🍔",
     "name": "First Locations",
     "size": "large",
-    "tags": ["no-coords", "no-link"],
+    "tags": ["auto", "no-coords", "no-link"],
     "type": "place"
   },
   "flood": {
     "icon": "🌊",
     "name": "Flood Barriers",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "forts": {
@@ -937,6 +939,7 @@
     },
     "name": "Fortifications",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "foster": {

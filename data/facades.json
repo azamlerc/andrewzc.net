@@ -8,6 +8,7 @@
     },
     "name": "Façades",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "14-rue-duvergier": {
@@ -100,16 +101,6 @@
     "name": "29 rue Quincampoix",
     "reference": "Paris"
   },
-  "3-rue-de-l'aqueduc": {
-    "been": false,
-    "city": "Paris",
-    "coords": "48.87978000, 2.35800000",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=48.87978_N_2.35800_E",
-    "name": "3 rue de l'Aqueduc",
-    "reference": "Paris"
-  },
   "3-rue-de-laqueduc": {
     "been": false,
     "city": "Paris",
@@ -149,16 +140,6 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=40.80783_N_73.90622_W",
     "name": "415 Bruckner Boulevard",
     "reference": "New York"
-  },
-  "44-rue-d'aboukir": {
-    "been": false,
-    "city": "Paris",
-    "coords": "48.86714000, 2.34540000",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=48.86714_N_2.34540_E",
-    "name": "44 rue d'Aboukir",
-    "reference": "Paris"
   },
   "44-rue-daboukir": {
     "been": false,
@@ -200,9 +181,4 @@
     "name": "58 Joralemon Street",
     "reference": "New York"
   },
-  "facades": {
-    "been": true,
-    "icons": ["🏠"],
-    "name": "Façades"
-  }
 }
