@@ -582,7 +582,7 @@
     "name": "Closest",
     "size": "small",
     "sort": "prefix",
-    "tags": ["prefix", "reference-first"],
+    "tags": ["auto", "prefix", "reference-first"],
     "type": "place"
   },
   "confluence": {
@@ -607,6 +607,7 @@
     "icon": "🚘",
     "name": "Congestion Charge",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "connections": {
@@ -631,6 +632,7 @@
     },
     "name": "Copies",
     "size": "medium",
+    "tags": [],
     "type": "place"
   },
   "countries": {
@@ -649,7 +651,7 @@
     },
     "name": "Cross-Platform",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "culture": {
@@ -667,7 +669,8 @@
   "curved": {
     "icon": "🍌",
     "name": "Curved Platforms",
-    "size": "large",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "czechia": {
@@ -1268,6 +1271,7 @@
     "icon": "🏟️",
     "name": "Live",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["auto", "reference-key"],
     "type": "place"
   },
