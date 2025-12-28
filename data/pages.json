@@ -448,7 +448,7 @@
     },
     "name": "Car Places",
     "size": "medium",
-    "sort": ["order", "name"],
+    "sort": "name",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
@@ -513,7 +513,7 @@
     },
     "name": "China Cities",
     "size": "large",
-    "tags": ["auto", "city-flag"],
+    "tags": ["city-flag"],
     "type": "place"
   },
   "circle-lines": {
@@ -2429,7 +2429,7 @@
     },
     "name": "Twin Stations",
     "size": "medium",
-    "sort": ["group", "countries"],
+    "sort": ["group", "countries", "reference"],
     "tags": ["auto", "reference-key", "todo-icon"],
     "type": "place"
   },

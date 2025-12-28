@@ -58,7 +58,8 @@
     "group": "aberdeen",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Aberdeen,_Maryland",
-    "name": "Aberdeen, MD"
+    "name": "Aberdeen, MD",
+    "state": "MD"
   },
   "aberdeen-sd": {
     "been": false,
@@ -195,8 +196,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Albany,_New_York",
     "name": "Albany, NY",
-    "state": "NY",
-    "order": -1
+    "order": -1,
+    "state": "NY"
   },
   "albany-or": {
     "been": true,
@@ -1021,8 +1022,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore",
     "name": "Baltimore, MD",
-    "state": "MD",
-    "order": -1
+    "order": -1,
+    "state": "MD"
   },
   "bangor-gb-wls": {
     "been": true,
@@ -1155,8 +1156,8 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Bath,_Somerset",
     "name": "Bath",
-    "wikidata": "Q22889",
-    "order": -1
+    "order": -1,
+    "wikidata": "Q22889"
   },
   "bath-jm": {
     "been": false,
@@ -1628,8 +1629,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bethany_Beach,_Delaware",
     "name": "Bethany Beach, DE",
-    "state": "DE",
-    "order": 1
+    "order": 1,
+    "state": "DE"
   },
   "bethany-ct": {
     "been": true,
@@ -1882,8 +1883,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bowling_Green,_Kentucky",
     "name": "Bowling Green, KY",
-    "state": "KY",
-    "order": -1
+    "order": -1,
+    "state": "KY"
   },
   "bowling-green-mo": {
     "been": false,
@@ -2126,7 +2127,8 @@
     "group": "bristol",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Bristol,_Virginia",
-    "name": "Bristol, VA"
+    "name": "Bristol, VA",
+    "state": "VA"
   },
   "brooklyn-ct": {
     "been": true,
@@ -2158,8 +2160,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Brooklyn",
     "name": "Brooklyn, NY",
-    "state": "New York",
-    "order": -1
+    "order": -1,
+    "state": "New York"
   },
   "brooklyn-or": {
     "been": true,
@@ -2265,8 +2267,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Buffalo,_New_York",
     "name": "Buffalo, NY",
-    "state": "NY",
-    "order": -1
+    "order": -1,
+    "state": "NY"
   },
   "buffalo-pa": {
     "been": true,
@@ -2395,6 +2397,7 @@
   },
   "calcutta-za": {
     "been": false,
+    "city": "Kolkata",
     "coords": "22.56750000, 88.37000000",
     "country": "ZA",
     "group": "calcutta",
@@ -3114,8 +3117,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cleveland",
     "name": "Cleveland, OH",
-    "state": "OH",
-    "order": -1
+    "order": -1,
+    "state": "OH"
   },
   "cleveland-tasmania": {
     "been": false,
@@ -3983,8 +3986,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_Greenwich,_Rhode_Island",
     "name": "East Greenwich, RI",
-    "state": "RI",
-    "order": 1
+    "order": 1,
+    "state": "RI"
   },
   "east-ham-gb": {
     "been": true,
@@ -4013,8 +4016,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_Palestine,_Ohio",
     "name": "East Palestine, OH",
-    "state": "OH",
-    "order": 1
+    "order": 1,
+    "state": "OH"
   },
   "east-rock-hill-pa": {
     "been": true,
@@ -4024,8 +4027,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/East_Rockhill_Township,_Bucks_County,_Pennsylvania",
     "name": "East Rock Hill, PA",
-    "state": "PA",
-    "order": 1
+    "order": 1,
+    "state": "PA"
   },
   "eastham-ma": {
     "been": true,
@@ -4628,8 +4631,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Georgetown_(Washington,_D.C.)",
     "name": "Georgetown, DC",
-    "state": "DC",
-    "order": -1
+    "order": -1,
+    "state": "DC"
   },
   "georgetown-gy": {
     "been": false,
@@ -4788,6 +4791,14 @@
     "link": "https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin",
     "name": "Green Bay (city)"
   },
+  "green-bay-(city)-us": {
+    "been": false,
+    "coords": "44.51333333, -88.01583333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin",
+    "name": "Green Bay (city)"
+  },
   "green-bay-(town)": {
     "been": false,
     "coords": "44.58916667, -87.79416667",
@@ -4798,15 +4809,13 @@
     "link": "https://en.wikipedia.org/wiki/Green_Bay_(town),_Wisconsin",
     "name": "Green Bay (town)"
   },
-  "greenwich-ct": {
-    "been": true,
-    "coords": "41.03888889, -73.61361111",
+  "green-bay-(town)-us": {
+    "been": false,
+    "coords": "44.58916667, -87.79416667",
     "country": "US",
-    "group": "greenwich",
     "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Greenwich,_Connecticut",
-    "name": "Greenwich, CT",
-    "state": "CT"
+    "link": "https://en.wikipedia.org/wiki/Green_Bay_(town),_Wisconsin",
+    "name": "Green Bay (town)"
   },
   "greenwich": {
     "been": true,
@@ -4818,6 +4827,25 @@
     "link": "https://en.wikipedia.org/wiki/Greenwich",
     "name": "Greenwich",
     "order": -1
+  },
+  "greenwich-ct": {
+    "been": true,
+    "coords": "41.03888889, -73.61361111",
+    "country": "US",
+    "group": "greenwich",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Greenwich,_Connecticut",
+    "name": "Greenwich, CT",
+    "state": "CT"
+  },
+  "greenwich-gb": {
+    "been": true,
+    "city": "London",
+    "coords": "51.48000000, 0.00000000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Greenwich",
+    "name": "Greenwich"
   },
   "greenwich-ny": {
     "been": true,
@@ -4884,6 +4912,16 @@
     "icons": ["🇿🇦"],
     "link": "https://en.wikipedia.org/wiki/Haarlem,_Western_Cape",
     "name": "Haarlem"
+  },
+  "hague-nl": {
+    "badges": ["🏠"],
+    "been": true,
+    "city": "Den Haag",
+    "coords": "52.08000000, 4.31000000",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/The_Hague",
+    "name": "The Hague"
   },
   "hague-ny": {
     "been": false,
@@ -4980,7 +5018,8 @@
     "group": "hamilton",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Hamilton,_New_York",
-    "name": "Hamilton, NY"
+    "name": "Hamilton, NY",
+    "state": "NY"
   },
   "hamilton-on": {
     "been": true,
@@ -5228,8 +5267,8 @@
     "icons": ["🇺🇸", "🍫"],
     "link": "https://en.wikipedia.org/wiki/Hershey,_Pennsylvania",
     "name": "Hershey, PA",
-    "state": "PA",
-    "order": -1
+    "order": -1,
+    "state": "PA"
   },
   "hickman-ar": {
     "been": false,
@@ -5367,8 +5406,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Houston",
     "name": "Houston, TX",
-    "state": "TX",
-    "order": -1
+    "order": -1,
+    "state": "TX"
   },
   "huntington-va": {
     "been": true,
@@ -5468,15 +5507,6 @@
     "name": "Ipswich, MA",
     "state": "MA"
   },
-  "islington-jm": {
-    "been": false,
-    "coords": "18.32100000, -76.85200000",
-    "country": "JM",
-    "group": "islington",
-    "icons": ["🇯🇲"],
-    "link": "https://en.wikipedia.org/wiki/Islington,_Jamaica",
-    "name": "Islington"
-  },
   "islington-gb": {
     "been": true,
     "city": "London",
@@ -5487,6 +5517,15 @@
     "link": "https://en.wikipedia.org/wiki/Islington",
     "name": "Islington",
     "order": -1
+  },
+  "islington-jm": {
+    "been": false,
+    "coords": "18.32100000, -76.85200000",
+    "country": "JM",
+    "group": "islington",
+    "icons": ["🇯🇲"],
+    "link": "https://en.wikipedia.org/wiki/Islington,_Jamaica",
+    "name": "Islington"
   },
   "italy-it": {
     "been": true,
@@ -5984,8 +6023,8 @@
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Kolkata",
     "name": "Kolkata",
-    "wikidata": "Q1348",
-    "order": -1
+    "order": -1,
+    "wikidata": "Q1348"
   },
   "la-rochelle-fr": {
     "been": false,
@@ -6155,8 +6194,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Las_Vegas",
     "name": "Las Vegas, NV",
-    "state": "NV",
-    "order": -1
+    "order": -1,
+    "state": "NV"
   },
   "lebanon-ct": {
     "been": true,
@@ -6380,7 +6419,8 @@
     "group": "lincoln-city",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Lincoln_Village,_Ohio",
-    "name": "Lincoln City, OH"
+    "name": "Lincoln City, OH",
+    "state": "OH"
   },
   "lincoln-city-or": {
     "been": true,
@@ -6870,8 +6910,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Manhattan",
     "name": "Manhattan, NY",
-    "state": "New York",
-    "order": -1
+    "order": -1,
+    "state": "New York"
   },
   "manheim-wv": {
     "been": true,
@@ -6920,8 +6960,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Marlboro,_Vermont",
     "name": "Marlboro, VT",
-    "state": "VT",
-    "order": 1
+    "order": 1,
+    "state": "VT"
   },
   "marlborough-ct": {
     "been": false,
@@ -7207,8 +7247,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Miami",
     "name": "Miami, FL",
-    "state": "FL",
-    "order": -1
+    "order": -1,
+    "state": "FL"
   },
   "miami-oh": {
     "been": false,
@@ -7246,7 +7286,8 @@
     "group": "milwaukee",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Milwaukie,_Oregon",
-    "name": "Mikwaukie, OR"
+    "name": "Mikwaukie, OR",
+    "state": "OR"
   },
   "milan-in": {
     "been": false,
@@ -7327,8 +7368,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Milwaukee",
     "name": "Milwaukee, WI",
-    "state": "WI",
-    "order": -1
+    "order": -1,
+    "state": "WI"
   },
   "milwaukie-or": {
     "been": true,
@@ -7739,8 +7780,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Vernon,_Virginia",
     "name": "Mount Vernon, VA",
-    "state": "VA",
-    "order": -1
+    "order": -1,
+    "state": "VA"
   },
   "mount-vernon-wa": {
     "been": true,
@@ -7914,8 +7955,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
     "name": "Nashville, TN",
-    "state": "TN",
-    "order": -1
+    "order": -1,
+    "state": "TN"
   },
   "nassau-bs": {
     "been": false,
@@ -8226,8 +8267,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_London,_Connecticut",
     "name": "New London, CT",
-    "state": "CT",
-    "order": 1
+    "order": 1,
+    "state": "CT"
   },
   "new-london-nh": {
     "been": false,
@@ -8237,8 +8278,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_London,_New_Hampshire",
     "name": "New London, NH",
-    "state": "NH",
-    "order": 1
+    "order": 1,
+    "state": "NH"
   },
   "new-madrid-mo": {
     "been": false,
@@ -8269,8 +8310,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Orleans",
     "name": "New Orleans, LA",
-    "state": "LA",
-    "order": -1
+    "order": -1,
+    "state": "LA"
   },
   "new-oxford-pa": {
     "been": true,
@@ -8280,8 +8321,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Oxford,_Pennsylvania",
     "name": "New Oxford, PA",
-    "state": "PA",
-    "order": 1
+    "order": 1,
+    "state": "PA"
   },
   "new-palestine-oh": {
     "been": true,
@@ -8291,8 +8332,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Palestine,_Ohio",
     "name": "New Palestine, OH",
-    "state": "OH",
-    "order": 1
+    "order": 1,
+    "state": "OH"
   },
   "new-paris-pa": {
     "been": true,
@@ -8302,8 +8343,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Paris,_Pennsylvania",
     "name": "New Paris, PA",
-    "state": "PA",
-    "order": 1
+    "order": 1,
+    "state": "PA"
   },
   "new-philadelphia-oh": {
     "been": false,
@@ -8313,8 +8354,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Philadelphia,_Ohio",
     "name": "New Philadelphia, OH",
-    "state": "OH",
-    "order": 1
+    "order": 1,
+    "state": "OH"
   },
   "new-richmond-oh": {
     "been": true,
@@ -8324,8 +8365,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Richmond,_Ohio",
     "name": "New Richmond, OH",
-    "state": "OH",
-    "order": 1
+    "order": 1,
+    "state": "OH"
   },
   "new-rochelle-ny": {
     "been": true,
@@ -8335,8 +8376,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Rochelle,_New_York",
     "name": "New Rochelle, NY",
-    "state": "NY",
-    "order": 1
+    "order": 1,
+    "state": "NY"
   },
   "new-salem-pa": {
     "been": true,
@@ -8346,8 +8387,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Salem,_Pennsylvania",
     "name": "New Salem, PA",
-    "state": "PA",
-    "order": 1
+    "order": 1,
+    "state": "PA"
   },
   "new-smyrna-beach-fl": {
     "been": true,
@@ -8356,8 +8397,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Smyrna_Beach,_Florida",
     "name": "New Smyrna Beach, FL",
-    "state": "FL",
-    "order": 1
+    "order": 1,
+    "state": "FL"
   },
   "new-tripoli-pa": {
     "been": true,
@@ -8367,8 +8408,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Tripoli,_Pennsylvania",
     "name": "New Tripoli, PA",
-    "state": "PA",
-    "order": 1
+    "order": 1,
+    "state": "PA"
   },
   "new-utrecht-ny": {
     "been": true,
@@ -8379,8 +8420,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Utrecht,_Brooklyn",
     "name": "New Utrecht, NY",
-    "state": "Brooklyn",
-    "order": 1
+    "order": 1,
+    "state": "Brooklyn"
   },
   "new-windsor-md": {
     "been": true,
@@ -8390,8 +8431,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_Windsor,_Maryland",
     "name": "New Windsor, MD",
-    "state": "MD",
-    "order": 1
+    "order": 1,
+    "state": "MD"
   },
   "new-york-gb": {
     "been": true,
@@ -8414,9 +8455,9 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/New_York_City",
     "name": "New York, NY",
+    "order": -1,
     "state": "NY",
-    "wikidata": "Q60",
-    "order": -1
+    "wikidata": "Q60"
   },
   "new-york-ua": {
     "been": false,
@@ -8987,17 +9028,6 @@
     "name": "Olympia, WA",
     "state": "WA"
   },
-  "ontario-canada": {
-    "been": true,
-    "coords": "49.25, -84.5",
-    "country": "CA",
-    "group": "ontario",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Ontario",
-    "name": "Ontario",
-    "state": "ON",
-    "order": -1
-  },
   "ontario-ca": {
     "been": true,
     "coords": "34.052778, -117.627778",
@@ -9007,6 +9037,17 @@
     "link": "https://en.wikipedia.org/wiki/Ontario,_California",
     "name": "Ontario, CA",
     "state": "CA"
+  },
+  "ontario-canada": {
+    "been": true,
+    "coords": "49.25, -84.5",
+    "country": "CA",
+    "group": "ontario",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Ontario",
+    "name": "Ontario",
+    "order": -1,
+    "state": "ON"
   },
   "ontario-ny": {
     "been": true,
@@ -9072,8 +9113,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Orlando,_Florida",
     "name": "Orlando, FL",
-    "state": "FL",
-    "order": -1
+    "order": -1,
+    "state": "FL"
   },
   "orlando-za": {
     "been": false,
@@ -9676,8 +9717,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
     "name": "Phoenix, AZ",
-    "state": "AZ",
-    "order": -1
+    "order": -1,
+    "state": "AZ"
   },
   "phoenix-za": {
     "been": false,
@@ -9766,8 +9807,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh",
     "name": "Pittsburgh, PA",
-    "state": "PA",
-    "order": -1
+    "order": -1,
+    "state": "PA"
   },
   "plainville-ct": {
     "been": true,
@@ -9846,8 +9887,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Plymouth,_Massachusetts",
     "name": "Plymouth, MA",
-    "state": "MA",
-    "order": -1
+    "order": -1,
+    "state": "MA"
   },
   "plymouth-ms": {
     "been": false,
@@ -9868,8 +9909,8 @@
     "icons": ["🇨🇿"],
     "link": "https://cs.wikipedia.org/wiki/Plze%C5%88",
     "name": "Plzeň",
-    "wikidata": "Q43453",
-    "order": -1
+    "order": -1,
+    "wikidata": "Q43453"
   },
   "podgorica-ba": {
     "been": false,
@@ -9891,8 +9932,8 @@
     "icons": ["🇲🇪"],
     "link": "https://en.wikipedia.org/wiki/Podgorica",
     "name": "Podgorica",
-    "wikidata": "Q23564",
-    "order": -1
+    "order": -1,
+    "wikidata": "Q23564"
   },
   "podgorica-mk": {
     "been": false,
@@ -10151,8 +10192,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Princeton,_New_Jersey",
     "name": "Princeton, NJ",
-    "state": "NJ",
-    "order": -1
+    "order": -1,
+    "state": "NJ"
   },
   "reading-gb": {
     "been": false,
@@ -10313,8 +10354,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
     "name": "Richmond, VA",
-    "state": "VA",
-    "order": -1
+    "order": -1,
+    "state": "VA"
   },
   "riga-lv": {
     "been": true,
@@ -10453,8 +10494,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rockaway_Beach,_Oregon",
     "name": "Rockaway Beach, OR",
-    "state": "OR",
-    "order": 1
+    "order": 1,
+    "state": "OR"
   },
   "rockaway-nj": {
     "been": true,
@@ -10596,8 +10637,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rosslyn,_Virginia",
     "name": "Rosslyn, VA",
-    "state": "VA",
-    "order": -1
+    "order": -1,
+    "state": "VA"
   },
   "rosslyn-za": {
     "been": false,
@@ -11073,7 +11114,7 @@
   },
   "san-jose-cr": {
     "been": true,
-    "city": "San Jose",
+    "city": "San José",
     "coords": "9.93250000, -84.08000000",
     "country": "CR",
     "group": "san-jose",
@@ -11150,8 +11191,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
     "name": "Santa Fe, NM",
-    "state": "NM",
-    "order": -1
+    "order": -1,
+    "state": "NM"
   },
   "sao-paulo-ao": {
     "been": false,
@@ -11591,8 +11632,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/South_Salem,_New_York",
     "name": "South Salem, NY",
-    "state": "NY",
-    "order": 1
+    "order": 1,
+    "state": "NY"
   },
   "southampton-gb": {
     "been": true,
@@ -11812,8 +11853,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Stanford,_California",
     "name": "Stanford, CA",
-    "state": "CA",
-    "order": -1
+    "order": -1,
+    "state": "CA"
   },
   "stanford-kent": {
     "been": false,
@@ -12150,6 +12191,16 @@
     "name": "Toronto, ON",
     "order": -1
   },
+  "transylvania-colony-us": {
+    "been": false,
+    "country": "US",
+    "group": "transylvania",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Transylvania_Colony",
+    "name": "Transylvania Colony",
+    "strike": true,
+    "wikidata": "Q1806491"
+  },
   "transylvania-ro": {
     "been": true,
     "coords": "46.50000000, 25.00000000",
@@ -12158,16 +12209,6 @@
     "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Transylvania",
     "name": "Transylvania"
-  },
-  "transylvania-colony-us": {
-    "been": false,
-    "country": "US",
-    "group": "transylvania",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Transylvania_Colony",
-    "name": "Transylvania Colony",
-    "wikidata": "Q1806491",
-    "strike": true
   },
   "trenton-ga": {
     "been": false,
@@ -12197,8 +12238,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Trenton,_New_Jersey",
     "name": "Trenton, NJ",
-    "state": "NJ",
-    "order": -1
+    "order": -1,
+    "state": "NJ"
   },
   "trenton-oh": {
     "been": false,
@@ -12292,6 +12333,7 @@
     "country": "CA",
     "group": "troy",
     "icons": ["🇨🇦"],
+    "link": "#",
     "name": "Troy, NS"
   },
   "troy-ny": {
@@ -12361,8 +12403,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tucson,_Arizona",
     "name": "Tuscon, AZ",
-    "state": "AZ",
-    "order": -1
+    "order": -1,
+    "state": "AZ"
   },
   "ulster-ia": {
     "been": false,
@@ -12857,8 +12899,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "name": "Washington, DC",
-    "state": "DC",
-    "order": -1
+    "order": -1,
+    "state": "DC"
   },
   "washington-gb": {
     "been": true,
@@ -12958,16 +13000,6 @@
     "link": "https://en.wikipedia.org/wiki/Waterloo,_Belgium",
     "name": "Waterloo"
   },
-  "waterloo-ia": {
-    "been": true,
-    "coords": "42.49250000, -92.34611111",
-    "country": "US",
-    "group": "waterloo",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Waterloo,_Iowa",
-    "name": "Waterloo, IA",
-    "state": "IA"
-  },
   "waterloo-gb": {
     "been": true,
     "city": "London",
@@ -12977,6 +13009,16 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Waterloo,_London",
     "name": "Waterloo"
+  },
+  "waterloo-ia": {
+    "been": true,
+    "coords": "42.49250000, -92.34611111",
+    "country": "US",
+    "group": "waterloo",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Waterloo,_Iowa",
+    "name": "Waterloo, IA",
+    "state": "IA"
   },
   "waterloo-ny": {
     "been": true,
@@ -13043,8 +13085,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Greenwich,_Rhode_Island",
     "name": "West Greenwich, RI",
-    "state": "RI",
-    "order": 1
+    "order": 1,
+    "state": "RI"
   },
   "west-new-york-nj": {
     "been": true,

@@ -9,7 +9,7 @@
     },
     "name": "Twin Stations",
     "size": "medium",
-    "sort": ["group", "countries"],
+    "sort": ["group", "countries", "reference"],
     "tags": ["auto", "reference-key", "todo-icon"],
     "type": "place"
   },
@@ -3298,6 +3298,7 @@
     "been": true,
     "city": "Vienna",
     "countries": ["US"],
+    "country": "US",
     "group": "vienna",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Vienna_station_(VTA)",
