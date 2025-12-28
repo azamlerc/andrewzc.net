@@ -683,6 +683,7 @@
     },
     "name": "České kraje",
     "size": "large",
+    "tags": [],
     "type": "place"
   },
   "deep-level": {
@@ -694,13 +695,14 @@
     },
     "name": "Deep Level",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "depots": {
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "disputed": {
@@ -723,18 +725,21 @@
     },
     "name": "Elements",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "elevator-stations": {
     "icon": "🛗",
     "name": "Elevator Stations",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "elevators": {
     "icon": "🛗",
     "name": "Elevators",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "emmaus": {
@@ -747,7 +752,7 @@
     },
     "name": "Emmaüs",
     "size": "large",
-    "tags": ["google"],
+    "tags": ["auto", "google"],
     "type": "place"
   },
   "enclaves": {
@@ -765,6 +770,7 @@
     "icon": "🏜️",
     "name": "Endoheric Basins",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "europe-2003": {
@@ -824,13 +830,14 @@
     },
     "name": "Expos",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "express": {
     "icon": "💨",
     "name": "Express Lines",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "extremities": {

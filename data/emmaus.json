@@ -9,7 +9,7 @@
     },
     "name": "Emmaüs",
     "size": "large",
-    "tags": ["google"],
+    "tags": ["auto", "google"],
     "type": "place"
   },
   "agen": {
@@ -187,12 +187,8 @@
     "coords": "48.3886429, 4.5278847",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "name": "Brienne-le-Château"
-  },
-  "brienne-le-château": {
     "address": "34, Rue De L'ecole Militaire",
     "city": "Brienne-le-Château",
-    "country": "FR",
     "name": "Brienne-le-Château",
     "zip": "10500"
   },
@@ -347,16 +343,12 @@
     "zip": "68700"
   },
   "chalon-sur-saone": {
+    "address": "10 Avenue Salvadore Allende",
+    "city": "Chalon-sur-Saône",
     "been": false,
     "coords": "46.8055019, 4.8577925",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "name": "Chalon-sur-Saône"
-  },
-  "chalon-sur-saône": {
-    "address": "10 Avenue Salvadore Allende",
-    "city": "Chalon-sur-Saône",
-    "country": "FR",
     "name": "Chalon-sur-Saône",
     "zip": "71100"
   },
@@ -385,6 +377,9 @@
     "coords": "47.8569051, 4.5757435",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "address": "12 Rue Du Bourg",
+    "city": "Châtillon-sur-Seine",
+    "zip": "21400",
     "name": "Châtillon-sur-Seine"
   },
   "chaumont": {
@@ -416,13 +411,6 @@
     "icons": ["🇫🇷"],
     "name": "Cholet",
     "zip": "49300"
-  },
-  "châtillon-sur-seine": {
-    "address": "12 Rue Du Bourg",
-    "city": "Châtillon-sur-Seine",
-    "country": "FR",
-    "name": "Châtillon-sur-Seine",
-    "zip": "21400"
   },
   "coulounieix-chamiers": {
     "address": "7 Rue Gustave Eiffel",
@@ -587,14 +575,10 @@
   "etoile-sur-rhone": {
     "been": false,
     "coords": "44.8307762, 4.9088926",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "name": "Étoile-sur-Rhône"
-  },
-  "etoile-sur-rhône": {
     "address": "Prieuré De Saint Marcellin",
     "city": "Étoile-sur-Rhône",
     "country": "FR",
+    "icons": ["🇫🇷"],
     "name": "Étoile-sur-Rhône",
     "zip": "26800"
   },
@@ -1260,13 +1244,9 @@
     "been": false,
     "coords": "48.3642531, 5.6799428",
     "country": "FR",
-    "icons": ["🇫🇷"],
-    "name": "Neufchâteau"
-  },
-  "neufchâteau": {
     "address": "80 Rue Des Riaux",
     "city": "Neufchâteau",
-    "country": "FR",
+    "icons": ["🇫🇷"],
     "name": "Neufchâteau",
     "zip": "88300"
   },
@@ -1515,12 +1495,8 @@
     "coords": "45.5396288, 4.872145499999999",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "name": "Pont-Évêque"
-  },
-  "pont-evêque": {
     "address": "Rue Gilbert Ollier",
     "city": "Pont-Évêque",
-    "country": "FR",
     "name": "Pont-Évêque",
     "zip": "38780"
   },
@@ -2064,16 +2040,12 @@
     "name": "Trappes",
     "zip": "78190"
   },
-  "vandoeuvre-les-nancy": {
-    "address": "32 Rue du 8E Régiment D'Artillerie",
-    "city": "Vandœuvre-lès-Nancy",
-    "country": "FR",
-    "name": "Vandœuvre-lès-Nancy",
-    "zip": "54500"
-  },
   "vandœuvre-les-nancy": {
     "been": false,
+    "address": "32 Rue du 8E Régiment D'Artillerie",
+    "city": "Vandœuvre-lès-Nancy",
     "coords": "48.667557, 6.188231",
+    "zip": "54500",
     "country": "FR",
     "icons": ["🇫🇷"],
     "name": "Vandœuvre-lès-Nancy"
@@ -2112,13 +2084,9 @@
     "been": false,
     "coords": "43.895369, 2.327693",
     "country": "FR",
-    "icons": ["🇫🇷"],
-    "name": "Villefranche-d'Albigeois"
-  },
-  "villefranche-dalbigeois": {
     "address": "Bénèche",
     "city": "Villefranche-d'Albigeois",
-    "country": "FR",
+    "icons": ["🇫🇷"],
     "name": "Villefranche-d'Albigeois",
     "zip": "81430"
   },
