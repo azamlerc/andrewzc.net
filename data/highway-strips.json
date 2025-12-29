@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Highways that can be used as emergency runways for military aircraft.",
     "icon": "🛬",
     "map": {
       "lat": "15",
@@ -8,6 +9,8 @@
     },
     "name": "Highway Strips",
     "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
     "type": "place"
   },
   "adelsheim": {
@@ -1451,8 +1454,10 @@
     "coords": "58.56638890, 23.79666670",
     "country": "EE",
     "icons": ["🇪🇪"],
+    "images": ["vatla4.jpg", "vatla6.jpg", "vatla5.jpg"],
     "link": "https://geohack.toolforge.org/geohack.php?params=58.5663889_N_23.7966667_E",
-    "name": "Vatla"
+    "name": "Vatla",
+    "order": -1
   },
   "vidsel": {
     "been": false,

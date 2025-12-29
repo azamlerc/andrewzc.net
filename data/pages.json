@@ -951,6 +951,7 @@
     },
     "name": "Norman Foster",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "france": {
@@ -963,6 +964,7 @@
     },
     "name": "Départements français",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "funiculars": {
@@ -974,6 +976,7 @@
     },
     "name": "Funiculars",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "furthest": {
@@ -1014,7 +1017,7 @@
     },
     "name": "Grand & Union",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "grand-unions": {
@@ -1047,6 +1050,7 @@
     "icon": "🤯",
     "name": "Ground Zero",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "hamburgers": {
@@ -1079,6 +1083,7 @@
     },
     "name": "Heritage Railways",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "highest": {
@@ -1097,6 +1102,7 @@
     "type": "place"
   },
   "highway-strips": {
+    "header": "Highways that can be used as emergency runways for military aircraft.",
     "icon": "🛬",
     "map": {
       "lat": "15",
@@ -1105,6 +1111,8 @@
     },
     "name": "Highway Strips",
     "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
     "type": "place"
   },
   "hotels": {
@@ -1116,6 +1124,7 @@
     },
     "name": "Hotels",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "housing": {
