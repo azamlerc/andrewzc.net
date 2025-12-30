@@ -1277,20 +1277,21 @@
     },
     "name": "Legislatures",
     "size": "small",
-    "tags": ["country-key"],
+    "tags": ["auto", "country-key"],
     "type": "place"
   },
   "level-crossings": {
     "icon": "🚦",
     "name": "Level Crossings",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "lighthouses": {
     "icon": "🕯️",
     "name": "Lighthouses",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "live": {
@@ -1307,7 +1308,7 @@
     "icon": "🔂",
     "name": "Loopback",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "loops": {
@@ -1318,7 +1319,7 @@
     },
     "name": "Loops",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "lowest": {
@@ -1345,6 +1346,7 @@
     },
     "name": "Luna Park",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "malls": {
@@ -1356,7 +1358,7 @@
     },
     "name": "Shopping Malls",
     "size": "large",
-    "tags": ["google"],
+    "tags": ["auto", "google"],
     "type": "place"
   },
   "metro-people": {
@@ -1390,7 +1392,7 @@
     },
     "name": "Metro Themes",
     "size": "medium",
-    "tags": ["reference-key"],
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "metros": {
@@ -1428,6 +1430,7 @@
     },
     "name": "Ciudad de México",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "micronations": {
@@ -1439,12 +1442,14 @@
     },
     "name": "Micronations",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "microstates": {
     "icon": "🔬",
     "name": "Microstates",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "mines": {
@@ -1479,12 +1484,14 @@
     },
     "name": "Mountains & Passes",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "moving-walkways": {
     "icon": "🛴",
     "name": "Moving Walkways",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "museums": {
@@ -1496,6 +1503,7 @@
     },
     "name": "Museums",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "music-places": {
@@ -1514,6 +1522,7 @@
     "icon": "🏞️",
     "name": "National Parks",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "netherlands": {
@@ -1556,6 +1565,7 @@
     "icon": "⛔️",
     "name": "No Exit",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "no-metro": {
@@ -1570,7 +1580,7 @@
     "icon": "💸",
     "name": "Non-Revenue Tracks",
     "size": "small",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "northernmost": {
@@ -1599,6 +1609,7 @@
     },
     "name": "Observatories",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "offset": {
@@ -1606,7 +1617,7 @@
     "icon": "⚡️",
     "name": "Offset Platforms",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "olympics": {
@@ -1619,7 +1630,7 @@
     "name": "Olympics",
     "size": "large",
     "sort": "prefix",
-    "tags": ["prefix"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "operating": {
@@ -1641,7 +1652,7 @@
     "icon": "🔁",
     "name": "Opposite Lines",
     "size": "large",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "orient-express": {
