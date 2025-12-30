@@ -4,6 +4,7 @@
     "icon": "🚉",
     "name": "Premetros",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "antwerp": {
@@ -32,18 +33,27 @@
     "name": "Boston Green Line",
     "wikidata": "Q152061"
   },
-  "brussels": {
+  "brussels-line-3": {
     "badges": ["🚧"],
     "been": true,
     "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
     "icons": ["🇧🇪"],
-    "images": ["brussels1.jpg", "brussels2.jpg", "brussels3.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Brussels_premetro",
+    "name": "Brussels Line 3",
+    "reference": "Brussels Line 7"
+  },
+  "brussels-line-7": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.84666667, 4.35250000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
     "info": "Line 7",
     "link": "https://en.wikipedia.org/wiki/Brussels_premetro",
     "name": "Brussels",
-    "reference": "Line 7"
+    "reference": "Brussels Line 7"
   },
   "brussels-lines-1/5": {
     "been": true,
@@ -62,6 +72,7 @@
     "coords": "50.846666666, 4.3525",
     "country": "BE",
     "icons": ["🇧🇪"],
+    "images": ["brussels1.jpg", "brussels2.jpg", "brussels3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Metro",
     "name": "Brussels Lines 2/6",
     "strike": true,

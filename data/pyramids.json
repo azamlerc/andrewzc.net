@@ -1,8 +1,17 @@
 {
   "--info--": {
     "icon": "🛕",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Pyramids",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "size"],
     "type": "place"
   },
   "bent-pyramid": {
@@ -11,7 +20,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Bent_Pyramid",
-    "name": "Bent Pyramid"
+    "name": "Bent Pyramid",
+    "size": 104
   },
   "great-pyramid-of-cholula": {
     "been": false,
@@ -19,7 +29,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula",
-    "name": "Great Pyramid of Cholula"
+    "name": "Great Pyramid of Cholula",
+    "size": 66
   },
   "great-pyramid-of-giza": {
     "been": true,
@@ -27,8 +38,10 @@
     "coords": "29.97916667, 31.13416667",
     "country": "EG",
     "icons": ["🇪🇬"],
+    "images": ["great-pyramid-of-giza1.jpg", "great-pyramid-of-giza2.jpg", "great-pyramid-of-giza3.jpg", "great-pyramid-of-giza4.jpg", "great-pyramid-of-giza5.jpg", "great-pyramid-of-giza6.jpg", "great-pyramid-of-giza7.jpg", "great-pyramid-of-giza8.jpg", "great-pyramid-of-giza9.jpg", "great-pyramid-of-giza10.jpg", "great-pyramid-of-giza11.jpg", "great-pyramid-of-giza12.jpg", "great-pyramid-of-giza13.jpg", "great-pyramid-of-giza14.jpg", "great-pyramid-of-giza15.jpg"],
     "link": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-    "name": "Great Pyramid of Giza"
+    "name": "Great Pyramid of Giza",
+    "size": 138
   },
   "la-danta": {
     "been": false,
@@ -36,7 +49,8 @@
     "country": "GT",
     "icons": ["🇬🇹"],
     "link": "https://en.wikipedia.org/wiki/El_Mirador",
-    "name": "La Danta"
+    "name": "La Danta",
+    "size": 72
   },
   "long-beach-pyramid": {
     "been": false,
@@ -45,7 +59,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Walter_Pyramid",
-    "name": "Long Beach Pyramid"
+    "name": "Long Beach Pyramid",
+    "size": 58
   },
   "louvre-pyramid": {
     "been": true,
@@ -53,8 +68,10 @@
     "coords": "48.86100000, 2.33586111",
     "country": "FR",
     "icons": ["🇫🇷"],
+    "images": ["louvre-pyramid1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Louvre_Pyramid",
-    "name": "Louvre Pyramid"
+    "name": "Louvre Pyramid",
+    "size": 21
   },
   "luxor-pyramid": {
     "been": true,
@@ -62,8 +79,10 @@
     "coords": "36.09546389, -115.17581667",
     "country": "US",
     "icons": ["🇺🇸"],
+    "images": ["luxor-pyramid1.jpg", "luxor-pyramid2.jpg", "luxor-pyramid3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Luxor_Las_Vegas",
-    "name": "Luxor Pyramid"
+    "name": "Luxor Pyramid",
+    "size": 107
   },
   "memphis-pyramid": {
     "been": false,
@@ -71,7 +90,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Memphis_Pyramid",
-    "name": "Memphis Pyramid"
+    "name": "Memphis Pyramid",
+    "size": 98
   },
   "pyramid-of-djoser": {
     "been": false,
@@ -80,7 +100,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
-    "name": "Pyramid of Djoser"
+    "name": "Pyramid of Djoser",
+    "size": 62
   },
   "pyramid-of-khafre": {
     "been": true,
@@ -89,7 +110,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
-    "name": "Pyramid of Khafre"
+    "name": "Pyramid of Khafre",
+    "size": 136
   },
   "pyramid-of-meidum": {
     "been": false,
@@ -97,7 +119,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Meidum",
-    "name": "Pyramid of Meidum"
+    "name": "Pyramid of Meidum",
+    "size": 65
   },
   "pyramid-of-menkaure": {
     "been": true,
@@ -106,7 +129,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure",
-    "name": "Pyramid of Menkaure"
+    "name": "Pyramid of Menkaure",
+    "size": 65
   },
   "pyramid-of-moon": {
     "been": false,
@@ -114,7 +138,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Pyramid_of_the_Moon",
-    "name": "Pyramid of the Moon"
+    "name": "Pyramid of the Moon",
+    "size": 43
   },
   "pyramid-of-sun": {
     "been": false,
@@ -122,7 +147,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun",
-    "name": "Pyramid of the Sun"
+    "name": "Pyramid of the Sun",
+    "size": 65
   },
   "qin-shi-huang-mausoleum": {
     "been": false,
@@ -130,7 +156,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Mausoleum_of_the_First_Qin_Emperor",
-    "name": "Qin Shi Huang Mausoleum"
+    "name": "Qin Shi Huang Mausoleum",
+    "size": 76
   },
   "red-pyramid": {
     "been": false,
@@ -138,7 +165,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Red_Pyramid",
-    "name": "Red Pyramid"
+    "name": "Red Pyramid",
+    "size": 105
   },
   "ryugyong-hotel": {
     "been": false,
@@ -147,7 +175,8 @@
     "country": "KP",
     "icons": ["🇰🇵"],
     "link": "https://en.wikipedia.org/wiki/Ryugyong_Hotel",
-    "name": "Ryugyong Hotel"
+    "name": "Ryugyong Hotel",
+    "size": 330
   },
   "shard": {
     "been": true,
@@ -155,8 +184,10 @@
     "coords": "51.50450000, -0.08650000",
     "country": "GB",
     "icons": ["🇬🇧"],
+    "images": ["shard1.jpg"],
     "link": "https://en.wikipedia.org/wiki/The_Shard",
-    "name": "The Shard"
+    "name": "The Shard",
+    "size": 309
   },
   "slovak-radio-building": {
     "been": true,
@@ -164,8 +195,10 @@
     "coords": "48.15416667, 17.11416667",
     "country": "SK",
     "icons": ["🇸🇰"],
+    "images": ["slovak-radio-building1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Slovak_Radio_Building",
-    "name": "Slovak Radio Building"
+    "name": "Slovak Radio Building",
+    "size": 80
   },
   "tonina-pyramid": {
     "been": false,
@@ -173,7 +206,8 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Tonin%C3%A1",
-    "name": "Toniná Pyramid"
+    "name": "Toniná Pyramid",
+    "size": 74
   },
   "transamerica-pyramid": {
     "been": true,
@@ -182,6 +216,7 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Transamerica_Pyramid",
-    "name": "Transamerica Pyramid"
+    "name": "Transamerica Pyramid",
+    "size": 260
   }
 }

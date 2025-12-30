@@ -8,6 +8,7 @@
     },
     "name": "Power Stations",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "akademik-lomonosov": {
@@ -520,6 +521,7 @@
     "strike": true
   },
   "rooppur": {
+    "been": false,
     "coords": "24.06666667, 89.04722222",
     "country": "BD",
     "dateAdded": "2025-11-29",
@@ -570,10 +572,10 @@
     "name": "Sizewell"
   },
   "susquehanna": {
-    "been": false,
+    "been": true,
     "coords": "41.08888889, -76.14888889",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🪨"],
     "link": "https://en.wikipedia.org/wiki/Susquehanna_Steam_Electric_Station",
     "name": "Susquehanna"
   },
@@ -619,10 +621,10 @@
     "name": "Torness"
   },
   "turow": {
-    "been": false,
+    "been": true,
     "coords": "50.94583333, 14.91472222",
     "country": "PL",
-    "icons": ["🇵🇱"],
+    "icons": ["🇵🇱", "🪨"],
     "images": ["turow1.jpg", "turow2.jpg", "turow3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Turów_Power_Station",
     "name": "Turów"

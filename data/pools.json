@@ -8,7 +8,7 @@
     },
     "name": "Pools",
     "size": "large",
-    "tags": ["featured", "google"],
+    "tags": ["auto", "featured", "google"],
     "type": "place"
   },
   "achwac-aquatic-complex": {
@@ -344,15 +344,6 @@
     "showers": "stall",
     "status": "open",
     "type": "indoor"
-  },
-  "chelsea-pool": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.74826849999999, -74.00206469999999",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://www.nycgovparks.org/parks/M260/facilities/indoor-pools",
-    "name": "Chelsea Pool"
   },
   "claremont": {
     "address": "170th and Claremont",
@@ -1118,9 +1109,11 @@
   "liberty": {
     "address": "173rd Street and 106th Avenue",
     "been": false,
+    "country": "US",
     "borough": "Queens",
     "coords": "40.70183000, -73.78377000",
     "dateAdded": "2025-12-18",
+    "icons": ["🇺🇸"],
     "link": "https://www.nycgovparks.org/parks/detective-keith-l-williams-park-liberty-park/facilities/outdoor-pools/liberty-pool",
     "name": "Liberty",
     "status": "open",

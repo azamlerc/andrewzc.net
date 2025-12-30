@@ -1678,13 +1678,14 @@
     "icon": "🩼",
     "name": "Overhead Lines",
     "size": "large",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "parking": {
     "icon": "🅿️",
     "name": "Parking",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "parks": {
@@ -1696,18 +1697,21 @@
     },
     "name": "Parks",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "part-time": {
     "icon": "⏰",
     "name": "Part Time",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "pcc": {
     "icon": "🚃",
     "name": "PCC Streetcars",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "people-movers": {
@@ -1739,12 +1743,14 @@
     },
     "name": "Planned Cities",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "police": {
     "icon": "👮🏽‍♂️",
     "name": "Police Stations",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "pools": {
@@ -1756,14 +1762,14 @@
     },
     "name": "Pools",
     "size": "large",
-    "tags": ["featured", "google"],
+    "tags": ["auto", "featured", "google"],
     "type": "place"
   },
   "popemobiles": {
     "icon": "🇻🇦",
     "name": "Popemobiles",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "ports": {
@@ -1775,6 +1781,7 @@
     },
     "name": "Ports",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "power-stations": {
@@ -1786,6 +1793,7 @@
     },
     "name": "Power Stations",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "premetros": {
@@ -1793,6 +1801,7 @@
     "icon": "🚉",
     "name": "Premetros",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "projects": {
@@ -1812,26 +1821,38 @@
   },
   "pyramids": {
     "icon": "🛕",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Pyramids",
+    "prefixClass": "fixed",
     "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "size"],
     "type": "place"
   },
   "racetracks": {
     "icon": "🏁",
     "name": "Racetracks",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "rack": {
     "icon": "🚞",
     "name": "Rack Railways",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "rail-trails": {
     "icon": "🥾",
     "name": "Rail Trails",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "rebuilt": {
@@ -1846,6 +1867,7 @@
     "icon": "🛟",
     "name": "Reclaimed Land",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "records": {
@@ -1869,6 +1891,7 @@
     },
     "name": "Reservations",
     "size": "large",
+    "tags": [],
     "type": "place"
   },
   "reverse": {
@@ -1876,6 +1899,7 @@
     "icon": "◀️",
     "name": "Reverse",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "rivers": {
@@ -1893,8 +1917,10 @@
   "rolling-stock": {
     "icon": "🚃",
     "name": "Rolling Stock",
+    "script": "map.js",
     "size": "large",
-    "tags": ["reference-first", "reference-key"],
+    "sort": ["reference", "order"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "roman-towns": {

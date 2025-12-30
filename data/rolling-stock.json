@@ -2,8 +2,10 @@
   "--info--": {
     "icon": "🚃",
     "name": "Rolling Stock",
+    "script": "map.js",
     "size": "large",
-    "tags": ["reference-first", "reference-key"],
+    "sort": ["reference", "order"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "berlin-class-a3": {
@@ -495,15 +497,18 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/MF_01",
     "name": "MF 01",
+    "order": 1,
     "reference": "Paris"
   },
   "paris-mf-19": {
+    "badges": ["🚧"],
     "been": false,
     "city": "Paris",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/MF_19",
     "name": "MF 19",
+    "order": 19,
     "reference": "Paris"
   },
   "paris-mf-67": {
@@ -540,6 +545,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/MP_05",
     "name": "MP 05",
+    "order": 5,
     "reference": "Paris"
   },
   "paris-mp-14": {
@@ -549,6 +555,7 @@
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/MP_14",
     "name": "MP 14",
+    "order": 14,
     "reference": "Paris"
   },
   "paris-mp-59": {
@@ -588,17 +595,6 @@
     "link": "https://fr.wikipedia.org/wiki/MR3V_et_MR6V",
     "name": "MR6V",
     "reference": "Paris"
-  },
-  "r1": {
-    "been": false,
-    "city": "New York",
-    "coords": "40.75472167, -73.98408667",
-    "country": "US",
-    "dateAdded": "2025-12-21",
-    "icons": ["🇺🇸"],
-    "images": ["r11.jpg", "r12.jpg", "r13.jpg", "r14.jpg"],
-    "link": "https://en.wikipedia.org/wiki/R1",
-    "name": "R1"
   },
   "san-francisco-a-series": {
     "been": true,
