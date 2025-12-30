@@ -2,8 +2,8 @@
   "--info--": {
     "icon": "🏗",
     "name": "Infill Stations",
-    "size": "large",
-    "tags": ["auto"],
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "10th-avenue": {
@@ -14,15 +14,18 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/10th_Avenue_station_(IRT_Flushing_Line)",
-    "name": "10th Avenue"
+    "name": "10th Avenue",
+    "reference": "New York"
   },
   "american-boulevard": {
     "been": false,
+    "city": "Minneapolis",
     "coords": "44.85873000, -93.22314000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/American_Boulevard_station",
-    "name": "American Boulevard"
+    "name": "American Boulevard",
+    "reference": "Minneapolis"
   },
   "arstaberg": {
     "been": false,
@@ -31,7 +34,8 @@
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "https://sv.wikipedia.org/wiki/%C3%85rstabergs_station",
-    "name": "Årstaberg"
+    "name": "Årstaberg",
+    "reference": "Stockholm"
   },
   "assembly": {
     "been": true,
@@ -40,24 +44,28 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Assembly_station",
-    "name": "Assembly"
+    "name": "Assembly",
+    "reference": "Boston"
   },
   "beitaipingzhuang": {
     "been": false,
     "city": "Beijing",
-    "coords": "39.96644, 116.363963",
+    "coords": "39.96644000, 116.36396300",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Beitaipingzhuang_station",
-    "name": "Beitaipingzhuang"
+    "name": "Beitaipingzhuang",
+    "reference": "Beijing"
   },
   "beiyunhedong": {
     "been": false,
+    "city": "Beijing",
     "coords": "39.90200600, 116.70113100",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Beiyunhedong_station",
-    "name": "Beiyunhedong"
+    "name": "Beiyunhedong",
+    "reference": "Beijing"
   },
   "canal": {
     "been": false,
@@ -66,7 +74,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Canal_(Madrid_Metro)",
-    "name": "Canal"
+    "name": "Canal",
+    "reference": "Madrid"
   },
   "canberra": {
     "been": false,
@@ -75,7 +84,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Canberra_MRT_station",
-    "name": "Canberra"
+    "name": "Canberra",
+    "reference": "Singapore"
   },
   "capstan": {
     "been": false,
@@ -84,7 +94,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Capstan_station",
-    "name": "Capstan"
+    "name": "Capstan",
+    "reference": "Vancouver"
   },
   "casa-de-campo": {
     "been": true,
@@ -93,7 +104,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Casa_de_Campo_(Madrid_Metro)",
-    "name": "Casa de Campo"
+    "name": "Casa de Campo",
+    "reference": "Madrid"
   },
   "cermak–mccormick-place": {
     "been": false,
@@ -102,16 +114,18 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cermak%E2%80%93McCormick_Place_station",
-    "name": "Cermak–McCormick Place"
+    "name": "Cermak–McCormick Place",
+    "reference": "Chicago"
   },
   "corso-italia": {
-    "badges": ["🚧"],
     "been": false,
+    "city": "Ottawa",
     "coords": "45.40416667, -75.71444444",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Corso_Italia_station",
-    "name": "Corso Italia"
+    "name": "Corso Italia",
+    "reference": "Ottawa"
   },
   "creteil-pompadour": {
     "been": true,
@@ -120,7 +134,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Créteil-Pompadour",
-    "name": "Créteil-Pompadour"
+    "name": "Créteil-Pompadour",
+    "reference": "Paris"
   },
   "damen": {
     "been": false,
@@ -129,23 +144,28 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Damen_station_(CTA_Green_Line)",
-    "name": "Damen"
+    "name": "Damen",
+    "reference": "Chicago"
   },
   "dangjeong": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.34444444, 126.94833333",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Dangjeong_Station",
-    "name": "Dangjeong"
+    "name": "Dangjeong",
+    "reference": "Seoul"
   },
   "darwol": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.38010000, 126.74540000",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Darwol_Station",
-    "name": "Darwol"
+    "name": "Darwol",
+    "reference": "Seoul"
   },
   "dongmyo": {
     "been": false,
@@ -154,7 +174,8 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Dongmyo_Station",
-    "name": "Dongmyo"
+    "name": "Dongmyo",
+    "reference": "Seoul"
   },
   "dover": {
     "been": false,
@@ -163,7 +184,8 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Dover_MRT_station",
-    "name": "Dover"
+    "name": "Dover",
+    "reference": "Singapore"
   },
   "embarcadero": {
     "been": true,
@@ -172,7 +194,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Embarcadero_station",
-    "name": "Embarcadero"
+    "name": "Embarcadero",
+    "reference": "San Francisco"
   },
   "erligou": {
     "been": false,
@@ -181,14 +204,17 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Erligou_station",
-    "name": "Erligou"
+    "name": "Erligou",
+    "reference": "Beijing"
   },
   "ernest-lluch": {
     "been": true,
+    "city": "Barcelona",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Ernest_Lluch",
-    "name": "Ernest Lluch"
+    "name": "Ernest Lluch",
+    "reference": "Barcelona"
   },
   "eugenia-de-montijo": {
     "been": false,
@@ -197,7 +223,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Eugenia_de_Montijo_(Madrid_Metro)",
-    "name": "Eugenia de Montijo"
+    "name": "Eugenia de Montijo",
+    "reference": "Madrid"
   },
   "farmdale": {
     "been": false,
@@ -206,7 +233,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Farmdale_station",
-    "name": "Farmdale"
+    "name": "Farmdale",
+    "reference": "Los Angeles"
   },
   "first-avenue": {
     "been": true,
@@ -215,7 +243,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/First_Avenue_station_(PAAC)",
-    "name": "First Avenue"
+    "name": "First Avenue",
+    "reference": "Pittsburgh"
   },
   "fo-tan": {
     "been": false,
@@ -224,7 +253,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Fo_Tan_station",
-    "name": "Fo Tan"
+    "name": "Fo Tan",
+    "reference": "Hong Kong"
   },
   "franklin-square": {
     "been": false,
@@ -233,7 +263,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Franklin_Square_station",
-    "name": "Franklin Square"
+    "name": "Franklin Square",
+    "reference": "Philadelphia"
   },
   "gangmae": {
     "been": false,
@@ -242,49 +273,59 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Gangmae_Station",
-    "name": "Gangmae"
+    "name": "Gangmae",
+    "reference": "Seoul"
   },
   "ibarbengoa": {
     "been": false,
     "city": "Bilbao",
-    "coords": "43.3633, -3.00693",
+    "coords": "43.36330000, -3.00693000",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Ibarbengoa",
     "name": "Ibarbengoa",
+    "reference": "Bilbao",
     "wikidata": "Q45838338"
   },
   "imae": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.39573056, 127.12836667",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Imae_Station",
-    "name": "Imae"
+    "name": "Imae",
+    "reference": "Seoul"
   },
   "irvington": {
     "badges": ["🚧"],
     "been": false,
+    "city": "San Francsico",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Irvington_station_(BART)",
-    "name": "Irvington"
+    "name": "Irvington",
+    "reference": "San Francsico"
   },
   "jukjeon": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.32500000, 127.11027778",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Jukjeon_Station",
-    "name": "Jukjeon"
+    "name": "Jukjeon",
+    "reference": "Seoul"
   },
   "kandan": {
     "been": false,
+    "city": "Beijing",
     "coords": "39.83359900, 116.26654000",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Kandan_station",
-    "name": "Kandan"
+    "name": "Kandan",
+    "reference": "Beijing"
   },
   "kowloon-tong": {
     "been": false,
@@ -293,7 +334,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Kowloon_Tong_station",
-    "name": "Kowloon Tong"
+    "name": "Kowloon Tong",
+    "reference": "Hong Kong"
   },
   "lake-city-way": {
     "been": false,
@@ -302,7 +344,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Lake_City_Way_station",
-    "name": "Lake City Way"
+    "name": "Lake City Way",
+    "reference": "Vancouver"
   },
   "langdon-park": {
     "been": true,
@@ -311,7 +354,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Langdon_Park_DLR_station",
-    "name": "Langdon Park"
+    "name": "Langdon Park",
+    "reference": "London"
   },
   "mong-kok": {
     "been": false,
@@ -320,7 +364,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Mong_Kok_station",
-    "name": "Mong Kok"
+    "name": "Mong Kok",
+    "reference": "Hong Kong"
   },
   "morgan": {
     "been": false,
@@ -329,7 +374,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Morgan_station",
-    "name": "Morgan"
+    "name": "Morgan",
+    "reference": "Chicago"
   },
   "nam-cheong": {
     "been": false,
@@ -338,7 +384,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Nam_Cheong_station",
-    "name": "Nam Cheong"
+    "name": "Nam Cheong",
+    "reference": "Hong Kong"
   },
   "noma–gallaudet-u": {
     "been": true,
@@ -347,7 +394,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/NoMa%E2%80%93Gallaudet_U_station",
-    "name": "NoMa–Gallaudet U"
+    "name": "NoMa–Gallaudet U",
+    "reference": "Washington"
   },
   "north-york-centre": {
     "been": false,
@@ -356,7 +404,8 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/North_York_Centre_station",
-    "name": "North York Centre"
+    "name": "North York Centre",
+    "reference": "Toronto"
   },
   "northumberland-park": {
     "been": false,
@@ -365,7 +414,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Northumberland_Park_Metro_station",
-    "name": "Northumberland Park"
+    "name": "Northumberland Park",
+    "reference": "Newcastle"
   },
   "oakton–skokie": {
     "been": false,
@@ -374,7 +424,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oakton%E2%80%93Skokie_station",
-    "name": "Oakton–Skokie"
+    "name": "Oakton–Skokie",
+    "reference": "Chicago"
   },
   "oldenfelde": {
     "been": false,
@@ -383,7 +434,8 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Oldenfelde_station",
-    "name": "Oldenfelde"
+    "name": "Oldenfelde",
+    "reference": "Hamburg"
   },
   "peachtree-center": {
     "been": false,
@@ -392,7 +444,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Peachtree_Center_station",
-    "name": "Peachtree Center"
+    "name": "Peachtree Center",
+    "reference": "Atlanta"
   },
   "potomac-yard": {
     "been": true,
@@ -401,7 +454,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Potomac_Yard_station",
-    "name": "Potomac Yard"
+    "name": "Potomac Yard",
+    "reference": "Washington"
   },
   "prince-edward": {
     "been": false,
@@ -410,7 +464,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Prince_Edward_station",
-    "name": "Prince Edward"
+    "name": "Prince Edward",
+    "reference": "Hong Kong"
   },
   "principe-pio": {
     "been": true,
@@ -419,7 +474,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Pr%C3%ADncipe_P%C3%ADo_(Madrid_Metro)",
-    "name": "Príncipe Pío"
+    "name": "Príncipe Pío",
+    "reference": "Madrid"
   },
   "pudding-mill-lane": {
     "been": true,
@@ -428,15 +484,18 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Pudding_Mill_Lane_DLR_station",
-    "name": "Pudding Mill Lane"
+    "name": "Pudding Mill Lane",
+    "reference": "London"
   },
   "qinghe": {
     "been": false,
+    "city": "Beijing",
     "coords": "40.03861111, 116.31000000",
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Qinghe_railway_station#Beijing_Subway",
-    "name": "Qinghe"
+    "name": "Qinghe",
+    "reference": "Beijing"
   },
   "quincy-adams": {
     "been": true,
@@ -445,7 +504,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Quincy_Adams_station",
-    "name": "Quincy Adams"
+    "name": "Quincy Adams",
+    "reference": "Boston"
   },
   "rosa-parks": {
     "been": true,
@@ -454,7 +514,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Rosa-Parks_station",
-    "name": "Rosa Parks"
+    "name": "Rosa Parks",
+    "reference": "Paris"
   },
   "saint-louis": {
     "been": false,
@@ -463,7 +524,8 @@
     "country": "TH",
     "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/Saint_Louis_BTS_station",
-    "name": "Saint Louis"
+    "name": "Saint Louis",
+    "reference": "Saint Louis"
   },
   "san-jose-de-la-estrella": {
     "been": false,
@@ -472,23 +534,28 @@
     "country": "CL",
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_de_la_Estrella_metro_station",
-    "name": "San José de la Estrella"
+    "name": "San José de la Estrella",
+    "reference": "Santiago"
   },
   "sportivnaya": {
     "been": false,
+    "city": "Novosibirsk",
     "coords": "54.99700000, 82.92050000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Sportivnaya_(Novosibirsk_Metro)",
-    "name": "Sportivnaya"
+    "name": "Sportivnaya",
+    "reference": "Novosibirsk"
   },
   "sunny-bay": {
     "been": false,
+    "city": "Hong Kong",
     "coords": "22.33180000, 114.02880000",
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Sunny_Bay_station",
-    "name": "Sunny Bay"
+    "name": "Sunny Bay",
+    "reference": "Hong Kong"
   },
   "tai-wai": {
     "been": false,
@@ -497,7 +564,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tai_Wai_station",
-    "name": "Tai Wai"
+    "name": "Tai Wai",
+    "reference": "Hong Kong"
   },
   "tai-wo": {
     "been": false,
@@ -506,7 +574,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Tai_Wo_station",
-    "name": "Tai Wo"
+    "name": "Tai Wo",
+    "reference": "Shenzhen"
   },
   "takanawa-gateway": {
     "been": false,
@@ -515,7 +584,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Takanawa_Gateway_Station",
-    "name": "Takanawa Gateway"
+    "name": "Takanawa Gateway",
+    "reference": "Tokyo"
   },
   "tameike-sanno": {
     "been": false,
@@ -524,7 +594,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tameike-Sann%C5%8D_Station",
-    "name": "Tameike-Sannō"
+    "name": "Tameike-Sannō",
+    "reference": "Tokyo"
   },
   "tiantongyuan": {
     "been": false,
@@ -533,7 +604,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Tiantongyuan_station",
-    "name": "Tiantongyuan"
+    "name": "Tiantongyuan",
+    "reference": "Beijing"
   },
   "toranomon-hills": {
     "been": false,
@@ -542,15 +614,18 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Toranomon_Hills_Station",
-    "name": "Toranomon Hills"
+    "name": "Toranomon Hills",
+    "reference": "Tokyo"
   },
   "walkley": {
     "been": false,
+    "city": "Ottawa",
     "coords": "45.36888889, -75.66722222",
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Walkley_station",
-    "name": "Walkley"
+    "name": "Walkley",
+    "reference": "Ottawa"
   },
   "west-3rd": {
     "been": false,
@@ -559,15 +634,18 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_3rd_station",
-    "name": "West 3rd"
+    "name": "West 3rd",
+    "reference": "Cleveland"
   },
   "west-dublin/pleasanton": {
     "been": false,
+    "city": "San Francisco",
     "coords": "37.65841111, -121.88219444",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/West_Dublin/Pleasanton_station",
-    "name": "West Dublin/Pleasanton"
+    "name": "West Dublin/Pleasanton",
+    "reference": "San Francisco"
   },
   "wilhelminaplein": {
     "been": true,
@@ -576,15 +654,18 @@
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://nl.wikipedia.org/wiki/Wilhelminaplein_(metrostation)",
-    "name": "Wilhelminaplein"
+    "name": "Wilhelminaplein",
+    "reference": "Rotterdam"
   },
   "wonheung": {
     "been": false,
+    "city": "Seoul",
     "coords": "37.65044400, 126.87377700",
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Wonheung_Station",
-    "name": "Wonheung"
+    "name": "Wonheung",
+    "reference": "Seoul"
   },
   "wood-lane": {
     "been": true,
@@ -593,7 +674,8 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Wood_Lane_tube_station",
-    "name": "Wood Lane"
+    "name": "Wood Lane",
+    "reference": "London"
   },
   "yau-ma-tei": {
     "been": false,
@@ -602,7 +684,8 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_station",
-    "name": "Yau Ma Tei"
+    "name": "Yau Ma Tei",
+    "reference": "Hong Kong"
   },
   "yongdu": {
     "been": false,
@@ -611,7 +694,8 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Yongdu_Station",
-    "name": "Yongdu"
+    "name": "Yongdu",
+    "reference": "Seoul"
   },
   "zhoujiazhuang": {
     "been": false,
@@ -620,7 +704,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Zhoujiazhuang_station",
-    "name": "Zhoujiazhuang"
+    "name": "Zhoujiazhuang",
+    "reference": "Beijing"
   },
   "zia-road": {
     "been": false,
@@ -629,6 +714,7 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Zia_Road_station",
-    "name": "Zia Road"
+    "name": "Zia Road",
+    "reference": "Santa Fe"
   }
 }

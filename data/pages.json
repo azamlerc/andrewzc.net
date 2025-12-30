@@ -1143,7 +1143,7 @@
     },
     "name": "IKEA",
     "size": "large",
-    "tags": ["auto", "google", "middleSectionBeen"],
+    "tags": ["google", "middleSectionBeen"],
     "type": "place"
   },
   "industrial": {
@@ -1161,8 +1161,8 @@
   "infill": {
     "icon": "🏗",
     "name": "Infill Stations",
-    "size": "large",
-    "tags": ["auto"],
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "intermodal": {
@@ -1245,12 +1245,13 @@
     "map": {
       "cluster": "false",
       "icon": "1",
-      "lat": "45",
-      "lon": "3",
+      "lat": "55",
+      "lon": "-3",
       "zoom": "5"
     },
     "name": "Least Used UK",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "left-right": {
