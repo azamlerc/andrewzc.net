@@ -7,8 +7,11 @@
       "zoom": "3"
     },
     "name": "Mountains & Passes",
+    "prefixClass": "fixed",
     "size": "large",
-    "tags": [],
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "size"],
     "type": "place"
   },
   "bernina-pass": {
@@ -17,7 +20,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Bernina_Pass",
-    "name": "Bernina Pass"
+    "name": "Bernina Pass",
+    "size": 2328
   },
   "cascade-pass": {
     "been": true,
@@ -25,7 +29,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Cascade_Pass",
-    "name": "Cascade Pass"
+    "name": "Cascade Pass",
+    "size": 1643
   },
   "col-de-fix-saint-geneys": {
     "been": true,
@@ -33,7 +38,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_Fix-Saint-Geneys",
-    "name": "Col de Fix-Saint-Geneys"
+    "name": "Col de Fix-Saint-Geneys",
+    "size": 1115
   },
   "col-de-galibier": {
     "been": true,
@@ -41,7 +47,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_du_Galibier",
-    "name": "Col de Galibier"
+    "name": "Col de Galibier",
+    "size": 2645
   },
   "col-de-la-bonette": {
     "been": false,
@@ -49,7 +56,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Col_de_la_Bonette",
-    "name": "Col de la Bonette"
+    "name": "Col de la Bonette",
+    "size": 2715
   },
   "col-de-la-croix-de-lhomme-mort": {
     "been": true,
@@ -57,7 +65,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_la_Croix_de_l%27Homme_Mort",
-    "name": "Col de la Croix de l’Homme Mort"
+    "name": "Col de la Croix de l’Homme Mort",
+    "size": 1162
   },
   "col-de-la-fageole": {
     "been": true,
@@ -65,7 +74,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_la_Fageole",
-    "name": "Col de la Fageole"
+    "name": "Col de la Fageole",
+    "size": 1115
   },
   "col-de-liseran": {
     "been": false,
@@ -73,7 +83,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_l'Iseran",
-    "name": "Col de l’Iseran"
+    "name": "Col de l’Iseran",
+    "size": 2764
   },
   "col-de-vars": {
     "been": true,
@@ -81,7 +92,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_Vars",
-    "name": "Col de Vars"
+    "name": "Col de Vars",
+    "size": 2108
   },
   "col-des-issartets": {
     "been": true,
@@ -89,7 +101,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_des_Issartets",
-    "name": "Col des Issartets"
+    "name": "Col des Issartets",
+    "size": 1123
   },
   "col-des-limites": {
     "been": true,
@@ -97,7 +110,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_des_Limites",
-    "name": "Col des Limites"
+    "name": "Col des Limites",
+    "size": 1157
   },
   "col-des-pradeaux": {
     "been": true,
@@ -105,7 +119,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Col_des_Pradeaux",
-    "name": "Col des Pradeaux"
+    "name": "Col des Pradeaux",
+    "size": 1195
   },
   "col-du-grand-saint-bernard": {
     "been": false,
@@ -113,14 +128,16 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Great_St_Bernard_Pass",
-    "name": "Col du Grand-Saint-Bernard"
+    "name": "Col du Grand-Saint-Bernard",
+    "size": 2469
   },
   "colle-della-lombarda": {
     "been": true,
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://it.wikipedia.org/wiki/Colle_della_Lombarda",
-    "name": "Colle della Lombarda"
+    "name": "Colle della Lombarda",
+    "size": 2350
   },
   "colle-della-maddalena": {
     "been": true,
@@ -128,7 +145,8 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://fr.wikipedia.org/wiki/Col_de_Larche",
-    "name": "Colle della Maddalena"
+    "name": "Colle della Maddalena",
+    "size": 1997
   },
   "colle-dellagnello": {
     "been": false,
@@ -136,7 +154,8 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Colle_dell%27Agnello",
-    "name": "Colle dell’Agnello"
+    "name": "Colle dell’Agnello",
+    "size": 2744
   },
   "furka-pass": {
     "been": true,
@@ -144,7 +163,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Furka_Pass",
-    "name": "Furka Pass"
+    "name": "Furka Pass",
+    "size": 2429
   },
   "grimsel-pass": {
     "been": true,
@@ -152,7 +172,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Grimsel_Pass",
-    "name": "Grimsel Pass"
+    "name": "Grimsel Pass",
+    "size": 2164
   },
   "großglockner-hochalpenstraße": {
     "been": false,
@@ -160,7 +181,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Grossglockner_High_Alpine_Road",
-    "name": "Großglockner Hochalpenstraße"
+    "name": "Großglockner Hochalpenstraße",
+    "size": 2504
   },
   "jungfraujoch": {
     "been": false,
@@ -168,7 +190,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Jungfraujoch",
-    "name": "Jungfraujoch"
+    "name": "Jungfraujoch",
+    "size": 3463
   },
   "karakoram-pass": {
     "been": false,
@@ -176,7 +199,8 @@
     "countries": ["IN", "CN"],
     "icons": ["🇮🇳", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Karakoram_Pass",
-    "name": "Karakoram Pass"
+    "name": "Karakoram Pass",
+    "size": 5540
   },
   "klein-matterhorn": {
     "badges": ["🚠"],
@@ -185,7 +209,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Klein_Matterhorn",
-    "name": "Klein Matterhorn"
+    "name": "Klein Matterhorn",
+    "size": 3883
   },
   "kolahoi": {
     "been": false,
@@ -203,7 +228,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/La_Rhune",
-    "name": "La Rhune"
+    "name": "La Rhune",
+    "size": 900
   },
   "licancabur": {
     "been": false,
@@ -211,7 +237,8 @@
     "countries": ["BO", "CL"],
     "icons": ["🇧🇴", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Licancabur",
-    "name": "Licancabur"
+    "name": "Licancabur",
+    "size": 5916
   },
   "llullaillaco": {
     "been": false,
@@ -219,7 +246,8 @@
     "countries": ["AR", "CL"],
     "icons": ["🇦🇷", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Llullaillaco",
-    "name": "Llullaillaco"
+    "name": "Llullaillaco",
+    "size": 6723
   },
   "macizo-de-montserrat": {
     "badges": ["🚡"],
@@ -227,7 +255,8 @@
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Macizo_de_Montserrat",
-    "name": "Macizo de Montserrat"
+    "name": "Macizo de Montserrat",
+    "size": 1236
   },
   "matterhorn": {
     "been": true,
@@ -235,7 +264,8 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Matterhorn",
-    "name": "Matterhorn"
+    "name": "Matterhorn",
+    "size": 4478
   },
   "monserrate": {
     "been": true,
@@ -244,7 +274,8 @@
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/Monserrate",
-    "name": "Monserrate"
+    "name": "Monserrate",
+    "size": 3152
   },
   "mont-blanc": {
     "been": true,
@@ -252,7 +283,8 @@
     "countries": ["FR", "IT"],
     "icons": ["🇫🇷", "🇮🇹"],
     "link": "https://fr.wikipedia.org/wiki/Mont_Blanc",
-    "name": "Mont Blanc"
+    "name": "Mont Blanc",
+    "size": 4807
   },
   "mount-baker": {
     "been": true,
@@ -260,7 +292,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Baker",
-    "name": "Mount Baker"
+    "name": "Mount Baker",
+    "size": 3288
   },
   "mount-catherine": {
     "been": false,
@@ -268,7 +301,8 @@
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Mount_Catherine",
-    "name": "Mount Catherine"
+    "name": "Mount Catherine",
+    "size": 2629
   },
   "mount-constitution": {
     "badges": ["🚗"],
@@ -277,7 +311,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Constitution",
-    "name": "Mount Constitution"
+    "name": "Mount Constitution",
+    "size": 731
   },
   "mount-elbert": {
     "badges": ["🥾"],
@@ -286,7 +321,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Elbert",
-    "name": "Mount Elbert"
+    "name": "Mount Elbert",
+    "size": 4401
   },
   "mount-etna": {
     "been": true,
@@ -294,7 +330,8 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Mount_Etna",
-    "name": "Mount Etna"
+    "name": "Mount Etna",
+    "size": 3357
   },
   "mount-everest": {
     "been": false,
@@ -302,7 +339,8 @@
     "countries": ["NP", "CN"],
     "icons": ["🇳🇵", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Mount_Everest",
-    "name": "Mount Everest"
+    "name": "Mount Everest",
+    "size": 8848
   },
   "mount-fuji": {
     "badges": ["🚅"],
@@ -311,7 +349,8 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Mount_Fuji",
-    "name": "Mount Fuji"
+    "name": "Mount Fuji",
+    "size": 3778
   },
   "mount-hood": {
     "been": true,
@@ -319,7 +358,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Hood",
-    "name": "Mount Hood"
+    "name": "Mount Hood",
+    "size": 3429
   },
   "mount-karthala": {
     "been": false,
@@ -327,7 +367,8 @@
     "country": "KM",
     "icons": ["🇰🇲"],
     "link": "https://en.wikipedia.org/wiki/Mount_Karthala",
-    "name": "Mount Karthala"
+    "name": "Mount Karthala",
+    "size": 2361
   },
   "mount-kenya": {
     "badges": ["🚶"],
@@ -337,7 +378,8 @@
     "icons": ["🇰🇪"],
     "images": ["mount-kenya1.jpg", "mount-kenya2.jpg", "mount-kenya3.jpg", "mount-kenya4.jpg", "mount-kenya5.jpg", "mount-kenya6.jpg", "mount-kenya7.jpg", "mount-kenya8.jpg", "mount-kenya9.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mount_Kenya",
-    "name": "Mount Kenya"
+    "name": "Mount Kenya",
+    "size": 5199
   },
   "mount-kigali": {
     "badges": ["🥾"],
@@ -347,7 +389,8 @@
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "https://en.wikipedia.org/wiki/Mount_Kigali",
-    "name": "Mount Kigali"
+    "name": "Mount Kigali",
+    "size": 1853
   },
   "mount-olympus": {
     "been": true,
@@ -355,7 +398,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Olympus",
-    "name": "Mount Olympus"
+    "name": "Mount Olympus",
+    "size": 2917
   },
   "mount-rainier": {
     "badges": ["🚶"],
@@ -364,7 +408,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_Rainier",
-    "name": "Mount Rainier"
+    "name": "Mount Rainier",
+    "size": 4394
   },
   "mount-st-helens": {
     "been": true,
@@ -372,7 +417,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Mount_St._Helens",
-    "name": "Mount St. Helens"
+    "name": "Mount St. Helens",
+    "size": 2549
   },
   "mount-yasur": {
     "badges": ["🌋"],
@@ -381,7 +427,8 @@
     "country": "VU",
     "icons": ["🇻🇺"],
     "link": "https://en.wikipedia.org/wiki/Mount_Yasur",
-    "name": "Mount Yasur"
+    "name": "Mount Yasur",
+    "size": 361
   },
   "nevado-del-ruiz": {
     "been": false,
@@ -389,7 +436,8 @@
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/Nevado_del_Ruiz",
-    "name": "Nevado del Ruiz"
+    "name": "Nevado del Ruiz",
+    "size": 5321
   },
   "passo-dello-stelvio": {
     "been": false,
@@ -397,7 +445,8 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Passo_dello_Stelvio",
-    "name": "Passo dello Stelvio"
+    "name": "Passo dello Stelvio",
+    "size": 2764
   },
   "plomb-du-cantal": {
     "badges": ["🥾"],
@@ -406,7 +455,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Plomb_du_Cantal",
-    "name": "Plomb du Cantal"
+    "name": "Plomb du Cantal",
+    "size": 1855
   },
   "puy-de-dome": {
     "badges": ["🚃"],
@@ -415,7 +465,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Puy_de_Dôme",
-    "name": "Puy de Dôme"
+    "name": "Puy de Dôme",
+    "size": 1465
   },
   "puy-de-sancy": {
     "badges": ["🥾"],
@@ -424,7 +475,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Puy_de_Sancy",
-    "name": "Puy de Sancy"
+    "name": "Puy de Sancy",
+    "size": 1886
   },
   "puy-mary": {
     "badges": ["🥾"],
@@ -433,7 +485,8 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Puy_Mary",
-    "name": "Puy Mary"
+    "name": "Puy Mary",
+    "size": 1783
   },
   "rohtang-pass": {
     "been": false,
@@ -441,7 +494,8 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Rohtang_Pass",
-    "name": "Rohtang Pass"
+    "name": "Rohtang Pass",
+    "size": 3980
   },
   "semmering-pass": {
     "badges": ["🚃"],
@@ -450,7 +504,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Semmering_Pass",
-    "name": "Semmering Pass"
+    "name": "Semmering Pass",
+    "size": 965
   },
   "snowdon": {
     "badges": ["🚃"],
@@ -459,7 +514,8 @@
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
     "link": "https://en.wikipedia.org/wiki/Snowdon",
-    "name": "Snowdon"
+    "name": "Snowdon",
+    "size": 1085
   },
   "socompa": {
     "been": false,
@@ -467,14 +523,16 @@
     "countries": ["AR", "CL"],
     "icons": ["🇦🇷", "🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Socompa",
-    "name": "Socompa"
+    "name": "Socompa",
+    "size": 6051
   },
   "taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwe­nuakitanatahu": {
     "been": false,
     "country": "NZ",
     "icons": ["🇳🇿"],
     "link": "https://en.wikipedia.org/wiki/Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwe­nuakitanatahu",
-    "name": "Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwe­nuakitanatahu"
+    "name": "Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwe­nuakitanatahu",
+    "size": 305
   },
   "tianmen": {
     "been": false,
@@ -482,7 +540,8 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Tianmen_Mountain",
-    "name": "Tianmen"
+    "name": "Tianmen",
+    "size": 1518
   },
   "timmelsjoch": {
     "been": true,
@@ -490,7 +549,8 @@
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://en.wikipedia.org/wiki/Timmelsjoch",
-    "name": "Timmelsjoch"
+    "name": "Timmelsjoch",
+    "size": 2474
   },
   "whitehorse-mountain": {
     "been": true,
@@ -498,6 +558,7 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Whitehorse_Mountain_(Washington)",
-    "name": "Whitehorse Mountain"
+    "name": "Whitehorse Mountain",
+    "size": 2080
   }
 }

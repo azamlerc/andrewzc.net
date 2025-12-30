@@ -449,7 +449,7 @@
     "name": "Car Places",
     "size": "medium",
     "sort": "name",
-    "tags": ["auto", "reference-first", "reference-key"],
+    "tags": ["auto", "double-flag", "reference-first", "reference-key"],
     "type": "place"
   },
   "casinos": {
@@ -875,7 +875,7 @@
     "name": "Factories",
     "size": "medium",
     "sort": ["name"],
-    "tags": ["auto", "reference-first"],
+    "tags": ["auto", "double-flag", "reference-first"],
     "type": "place"
   },
   "fare-cards": {
@@ -1098,7 +1098,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "-size",
-    "tags": ["auto", "featured", "prefix"],
+    "tags": ["auto", "featured", "prefix", "size"],
     "type": "place"
   },
   "highway-strips": {
@@ -1319,7 +1319,7 @@
     },
     "name": "Loops",
     "size": "medium",
-    "tags": ["auto", "reference-first"],
+    "tags": ["reference-first"],
     "type": "place"
   },
   "lowest": {
@@ -1334,7 +1334,7 @@
     "size": "large",
     "sizeFormat": "meters",
     "sort": "size",
-    "tags": ["auto", "featured", "prefix"],
+    "tags": ["auto", "featured", "prefix", "size"],
     "type": "place"
   },
   "luna-park": {
@@ -1381,6 +1381,7 @@
     },
     "name": "Metro Places",
     "size": "large",
+    "tags": ["double-flag"],
     "type": "place"
   },
   "metro-themes": {
@@ -1430,7 +1431,7 @@
     },
     "name": "Ciudad de México",
     "size": "large",
-    "tags": ["auto"],
+    "tags": [],
     "type": "place"
   },
   "micronations": {
@@ -1449,7 +1450,7 @@
     "icon": "🔬",
     "name": "Microstates",
     "size": "large",
-    "tags": ["auto"],
+    "tags": ["auto", "country-flag"],
     "type": "place"
   },
   "mines": {
@@ -1483,8 +1484,11 @@
       "zoom": "3"
     },
     "name": "Mountains & Passes",
+    "prefixClass": "fixed",
     "size": "large",
-    "tags": ["auto"],
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "size"],
     "type": "place"
   },
   "moving-walkways": {
@@ -1630,7 +1634,7 @@
     "name": "Olympics",
     "size": "large",
     "sort": "prefix",
-    "tags": ["auto", "prefix"],
+    "tags": ["prefix"],
     "type": "place"
   },
   "operating": {
@@ -1722,6 +1726,7 @@
     },
     "name": "Places",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "planned": {
