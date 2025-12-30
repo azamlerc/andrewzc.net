@@ -1933,12 +1933,14 @@
     },
     "name": "Roman Towns",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "roundabouts": {
     "icon": "🔄",
     "name": "Roundabouts",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "route-20": {
@@ -1953,13 +1955,14 @@
     "name": "Route 20",
     "size": "large",
     "sort": "order",
-    "tags": ["ordered"],
+    "tags": ["auto", "ordered"],
     "type": "place"
   },
   "rubber": {
     "icon": "🛞",
     "name": "Rubber Tires",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "salients": {
@@ -1971,6 +1974,7 @@
     },
     "name": "Salients",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "salt": {
@@ -2019,7 +2023,7 @@
     "icon": "↩️",
     "name": "Short Turn",
     "size": "large",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "single-platform": {
@@ -2027,19 +2031,21 @@
     "icon": "1️⃣",
     "name": "Single Platform",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "skip-stop": {
     "icon": "🐛",
     "name": "Skip-Stop Lines",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "sloped": {
     "icon": "🚞",
     "name": "Sloped Platforms",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "southernmost": {
@@ -2068,6 +2074,7 @@
     },
     "name": "Spa Towns of Europe",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "space-shuttle": {
@@ -2075,12 +2082,14 @@
     "icon": "🛬",
     "name": "Space Shuttle",
     "size": "medium",
+    "tags": ["auto"],
     "type": "place"
   },
   "spaceports": {
     "icon": "🚀",
     "name": "Spaceports",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "spain": {
@@ -2093,13 +2102,14 @@
     },
     "name": "Comunidades autónomas de España",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "spanish": {
     "icon": "🇪🇸",
     "name": "Spanish Solution",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "spas": {
@@ -2111,6 +2121,7 @@
     },
     "name": "Spas",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "spheres": {
@@ -2122,6 +2133,7 @@
     },
     "name": "Spheres",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "spirals": {
@@ -2134,19 +2146,21 @@
     },
     "name": "Spirals",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "split-platform": {
     "icon": "↕️",
     "name": "Split Platforms",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "springs": {
     "icon": "⛲️",
     "name": "Springs",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "squares": {
@@ -2158,7 +2172,7 @@
     },
     "name": "Squares",
     "size": "medium",
-    "tags": ["reference-key"],
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "stadiums": {
@@ -2170,12 +2184,14 @@
     },
     "name": "Stadiums",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "stairs": {
     "icon": "🪜",
     "name": "Stairs",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "state-capitals": {
@@ -2208,13 +2224,14 @@
     "icon": "🚉",
     "name": "Train Stations",
     "size": "large",
-    "tags": ["featured"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "statues": {
     "icon": "🗽",
     "name": "Statues",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "struve": {
@@ -2227,7 +2244,8 @@
     },
     "name": "Struve Geodetic Arc",
     "size": "large",
-    "tags": ["featured"],
+    "sort": ["coords"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "suburban": {
@@ -2240,7 +2258,7 @@
     },
     "name": "Suburban Trains",
     "size": "small",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "suspension": {
@@ -2257,8 +2275,10 @@
       "zoom": "3"
     },
     "name": "Swimming",
+    "script": "swimming.js",
     "size": "large",
-    "tags": ["featured"],
+    "sort": ["iconCount"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "switched": {

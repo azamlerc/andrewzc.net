@@ -7,8 +7,10 @@
       "zoom": "3"
     },
     "name": "Swimming",
+    "script": "swimming.js",
     "size": "large",
-    "tags": ["featured"],
+    "sort": ["iconCount"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "aglona": {
@@ -1287,12 +1289,6 @@
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Sognsvann",
     "name": "Svartkulp"
-  },
-  "swimming": {
-    "been": true,
-    "icons": ["🤽🏻‍♂️"],
-    "name": "Swimming",
-    "wikidata": "Q31920"
   },
   "tapon": {
     "been": true,

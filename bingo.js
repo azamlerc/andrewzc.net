@@ -10,7 +10,7 @@ function createHeader() {
   places.forEach(place => {
     let cell = document.createElement("th");
     let icon = place.code ? 
-			`<img class="state-small" src="images/states/${place.code.toLowerCase()}.png">`:
+			`<img class="state" src="images/states/${place.code.toLowerCase()}.png">`:
 			`<a href="countries/${place.key}.html">${place.icon}</a>`;
     cell.innerHTML = `<div class="tooltip">${icon}<span class="tooltiptext">${place.name}</span></div>`;
     header.appendChild(cell);
@@ -146,7 +146,7 @@ function createLists(bingoResults, type) {
 }
 
 function stateFlag(code) {
-  return `<img class="state-small" src="images/states/${code.toLowerCase()}.png">`;
+  return `<img class="state" src="images/states/${code.toLowerCase()}.png">`;
 }
 
 async function loadData(filename) {

@@ -9,6 +9,8 @@
     },
     "name": "Roman Towns",
     "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
     "type": "place"
   },
   "ancyra": {
@@ -401,6 +403,7 @@
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Rome",
     "name": "Roma",
+    "order": -1,
     "reference": "Rome"
   },
   "salonae": {
