@@ -8,7 +8,7 @@
     },
     "name": "Metro Places",
     "size": "large",
-    "tags": ["double-flag"],
+    "tags": ["auto", "double-flag"],
     "type": "place"
   },
   "163rd-street–amsterdam-avenue": {
@@ -31,7 +31,7 @@
   "62nd-street/new-utrecht-avenue": {
     "been": true,
     "city": "New York",
-    "coords": "40.62482, -73.99636",
+    "coords": "40.62482000, -73.99636000",
     "countries": ["US", "NL"],
     "icons": ["🇺🇸", "🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/62nd_Street/New_Utrecht_Avenue_station",
@@ -52,7 +52,7 @@
     "city": "New York",
     "coords": "40.67683000, -73.90000800",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Alabama_Avenue_station",
     "name": "Alabama Avenue"
   },
@@ -75,7 +75,7 @@
   "anatole-france": {
     "been": true,
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Anatole_France",
     "name": "Anatole France",
     "wikidata": "Q42443"
@@ -83,7 +83,7 @@
   "anvers": {
     "been": true,
     "city": "Paris",
-    "coords": "48.88278, 2.34472",
+    "coords": "48.88278000, 2.34472000",
     "countries": ["FR", "BE"],
     "icons": ["🇫🇷", "🇧🇪"],
     "link": "https://fr.wikipedia.org/wiki/Anvers_(métro_de_Paris)",
@@ -99,7 +99,7 @@
   "argentine": {
     "been": true,
     "city": "Paris",
-    "coords": "48.875533092935, 2.2893216639617",
+    "coords": "48.87553309, 2.28932166",
     "countries": ["FR", "AR"],
     "icons": ["🇫🇷", "🇦🇷"],
     "link": "https://fr.wikipedia.org/wiki/Argentine_(métro_de_Paris)",
@@ -124,7 +124,7 @@
   "avenida-de-la-paz": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.4533, -3.66252",
+    "coords": "40.45330000, -3.66252000",
     "countries": ["ES", "BO"],
     "icons": ["🇪🇸", "🇧🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Avenida_de_la_Paz",
@@ -170,7 +170,7 @@
   "berliner-platz": {
     "been": false,
     "country": "DE",
-    "icons": ["🇩🇪"],
+    "icons": ["🇩🇪", "🇩🇪"],
     "link": "https://de.wikipedia.org/wiki/Berliner_Platz_(Stuttgart)",
     "name": "Berliner Platz"
   },
@@ -186,7 +186,7 @@
     "city": "Madrid",
     "coords": "40.42905430, -3.70218160",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Bilbao_(Madrid_Metro)",
     "name": "Bilbao"
   },
@@ -204,7 +204,7 @@
     "city": "Rome",
     "coords": "41.91333333, 12.52055556",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Bologna_(Rome_Metro)",
     "name": "Bologna"
   },
@@ -267,14 +267,14 @@
     "city": "Chicago",
     "coords": "41.92222222, -87.69722222",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/California_station_(CTA_Blue_Line)",
     "name": "California"
   },
   "californie": {
     "been": true,
     "country": "MA",
-    "icons": ["🇲🇦"],
+    "icons": ["🇲🇦", "🇲🇦"],
     "link": "https://fr.wikipedia.org/wiki/Busway_de_Casablanca",
     "name": "Californie",
     "wikidata": "Q111207649"
@@ -320,7 +320,8 @@
     "icons": ["🇸🇬", "🇨🇳"],
     "info": "(MRT)",
     "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
-    "name": "Chinatown"
+    "name": "Chinatown",
+    "reference": "(MRT)"
   },
   "chinatown-(mbta)": {
     "been": true,
@@ -357,12 +358,13 @@
     "icons": ["🇺🇸", "🇨🇳"],
     "info": "(MUNI)",
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
-    "name": "Chinatown–Rose Pak"
+    "name": "Chinatown–Rose Pak",
+    "reference": "(MUNI)"
   },
   "ciudad-de-los-angeles": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.36, -3.69389",
+    "coords": "40.36000000, -3.69389000",
     "countries": ["ES", "US"],
     "icons": ["🇪🇸", "🇺🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Ciudad_de_los_Ángeles",
@@ -469,7 +471,7 @@
     "city": "Madrid",
     "coords": "40.43333333, -3.70000000",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://ca.wikipedia.org/wiki/Estació_d%27Espanya",
     "name": "Espanya"
   },
@@ -537,7 +539,7 @@
     "city": "Los Angeles",
     "coords": "33.97480000, -118.24300000",
     "country": "IT",
-    "icons": ["🇮🇹"],
+    "icons": ["🇮🇹", "🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Florence_station_(Los_Angeles_Metro)",
     "name": "Florence"
   },
@@ -545,7 +547,7 @@
     "been": false,
     "coords": "28.00000000, -82.00000000",
     "country": "AR",
-    "icons": ["🇦🇷"],
+    "icons": ["🇦🇷", "🇦🇷"],
     "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
     "name": "Florida"
   },
@@ -570,7 +572,7 @@
     "city": "Washington",
     "coords": "38.93611200, -77.02439500",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Georgia_Avenue–Petworth_station",
     "name": "Georgia Avenue–Petworth"
   },
@@ -585,7 +587,7 @@
   },
   "grecia": {
     "been": false,
-    "coords": "10.0693118, -84.3135805",
+    "coords": "10.06931180, -84.31358050",
     "countries": ["CL", "GR"],
     "icons": ["🇨🇱", "🇬🇷"],
     "link": "https://es.wikipedia.org/wiki/Grecia_(estación)",
@@ -609,7 +611,7 @@
   "hamburgas-iela": {
     "been": true,
     "city": "Riga",
-    "coords": "56.971906, 24.032467",
+    "coords": "56.97190600, 24.03246700",
     "countries": ["LV", "DE"],
     "icons": ["🇱🇻", "🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
@@ -647,7 +649,7 @@
     "city": "Madrid",
     "coords": "40.41836290, -3.67796970",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Ibiza_(Madrid_Metro)",
     "name": "Ibiza"
   },
@@ -667,14 +669,14 @@
     "city": "Los Angeles",
     "coords": "34.03430000, -118.19220000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Indiana_station_(Los_Angeles_Metro)",
     "name": "Indiana"
   },
   "international-district/chinatown": {
     "been": true,
     "city": "Seattle",
-    "coords": "47.598333, -122.328056",
+    "coords": "47.59833300, -122.32805600",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/International_District/Chinatown_station",
@@ -697,7 +699,7 @@
   "jamaica": {
     "been": true,
     "city": "Mexico City",
-    "coords": "19.409004, -99.122171",
+    "coords": "19.40900400, -99.12217100",
     "countries": ["MX", "JM"],
     "icons": ["🇲🇽", "🇯🇲"],
     "link": "https://es.wikipedia.org/wiki/Jamaica_(estación_del_Metro_de_Ciudad_de_México)",
@@ -755,9 +757,9 @@
   "juarez": {
     "been": true,
     "city": "El Paso",
-    "coords": "31.745, -106.485",
+    "coords": "31.74500000, -106.48500000",
     "country": "MX",
-    "icons": ["🇲🇽"],
+    "icons": ["🇲🇽", "🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Juárez_(estación)",
     "name": "Juárez"
   },
@@ -774,7 +776,7 @@
     "city": "Moscow",
     "coords": "55.77333300, 37.65638900",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Kazansky_railway_station",
     "name": "Kazansky Vokzal"
   },
@@ -801,7 +803,7 @@
     "city": "Kharkiv",
     "coords": "50.00115278, 36.27024167",
     "country": "UA",
-    "icons": ["🇺🇦"],
+    "icons": ["🇺🇦", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Kyivska_(Kharkiv_Metro)",
     "name": "Kyivska"
   },
@@ -818,7 +820,7 @@
     "city": "Moscow",
     "coords": "55.77611100, 37.65527800",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Leningradsky_railway_station",
     "name": "Leningradsky Vokzal"
   },
@@ -859,7 +861,7 @@
     "city": "London",
     "coords": "51.51860000, -0.08130000",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Liverpool_Street_station",
     "name": "Liverpool Street"
   },
@@ -891,7 +893,7 @@
   "luxembourg": {
     "been": true,
     "city": "Luxembourg",
-    "coords": "48.846667, 2.340278",
+    "coords": "48.84666700, 2.34027800",
     "countries": ["BE", "LU"],
     "icons": ["🇧🇪", "🇱🇺"],
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Bruxelles-Luxembourg",
@@ -903,7 +905,7 @@
     "city": "London",
     "coords": "51.54600000, 0.00590000",
     "country": "GB",
-    "icons": ["🇬🇧"],
+    "icons": ["🇬🇧", "🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Maryland_railway_station",
     "name": "Maryland"
   },
@@ -958,7 +960,7 @@
   },
   "mindelo": {
     "been": true,
-    "coords": "41.16214166666666, -8.621952777777778",
+    "coords": "41.16214167, -8.62195278",
     "countries": ["PT", "CV"],
     "icons": ["🇵🇹", "🇨🇻"],
     "link": "https://en.wikipedia.org/wiki/Porto_Metro",
@@ -976,7 +978,7 @@
     "city": "Washington",
     "coords": "38.89860000, -76.94690000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Minnesota_Avenue_station",
     "name": "Minnesota Avenue"
   },
@@ -1019,7 +1021,7 @@
     "city": "Saint Petersburg",
     "coords": "59.92972222, 30.36222222",
     "country": "RU",
-    "icons": ["🇷🇺"],
+    "icons": ["🇷🇺", "🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moskovsky_railway_station_(Saint_Petersburg)",
     "name": "Moskovsky Vokzal"
   },
@@ -1071,7 +1073,7 @@
     "city": "Washington",
     "coords": "38.90702530, -77.00315280",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/NoMa–Gallaudet_U_station",
     "name": "New York Ave–Florida Ave "
   },
@@ -1106,7 +1108,7 @@
     "city": "Philadelphia",
     "coords": "39.91680000, -75.17130000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oregon_station",
     "name": "Oregon"
   },
@@ -1124,7 +1126,7 @@
     "city": "Kyiv",
     "coords": "50.42083333, 30.52083333",
     "country": "UA",
-    "icons": ["🇺🇦"],
+    "icons": ["🇺🇦", "🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Palats_Ukraina_(Kyiv_Metro)",
     "name": "Palats Ukraina"
   },
@@ -1141,7 +1143,7 @@
     "badges": ["🚧"],
     "been": false,
     "city": "Lima",
-    "coords": "-12.06, -77.0375",
+    "coords": "-12.06000000, -77.03750000",
     "countries": ["PE", "PA"],
     "icons": ["🇵🇪", "🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/Lima_and_Callao_Metro",
@@ -1150,7 +1152,7 @@
   "paris": {
     "been": true,
     "city": "Paris",
-    "coords": "48.85666666666667, 2.352222222222222",
+    "coords": "48.85666667, 2.35222222",
     "countries": ["MX", "FR"],
     "icons": ["🇲🇽", "🇫🇷"],
     "link": "https://es.wikipedia.org/wiki/Metrobús_de_la_Ciudad_de_México",
@@ -1179,7 +1181,7 @@
     "city": "New York",
     "coords": "40.66472200, -73.89412900",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pennsylvania_Avenue_station_(IRT_New_Lots_Line)",
     "name": "Pennsylvania Avenue"
   },
@@ -1195,7 +1197,7 @@
   "petit-bourgogne": {
     "been": true,
     "city": "Liège",
-    "coords": "50.6304, 5.582",
+    "coords": "50.63040000, 5.58200000",
     "countries": ["BE", "FR"],
     "icons": ["🇧🇪", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
@@ -1231,16 +1233,16 @@
   "plaza-de-espana": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.423391666667, -3.7122333333333",
+    "coords": "40.42339167, -3.71223333",
     "country": "ES",
-    "icons": ["🇪🇸"],
+    "icons": ["🇪🇸", "🇪🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Plaza_de_España/Noviciado",
     "name": "Plaza de España"
   },
   "plaza-italia": {
     "been": false,
     "city": "Santiago",
-    "coords": "-33.437, -70.63441111",
+    "coords": "-33.43700000, -70.63441111",
     "countries": ["AR", "IT"],
     "icons": ["🇦🇷", "🇮🇹"],
     "link": "https://es.wikipedia.org/wiki/Plaza_Italia_(subte_de_Buenos_Aires)",
@@ -1277,7 +1279,7 @@
     "been": true,
     "coords": "19.00000000, -97.88333333",
     "country": "MX",
-    "icons": ["🇲🇽"],
+    "icons": ["🇲🇽", "🇲🇽"],
     "link": "https://es.wikipedia.org/wiki/Puebla_(estación)",
     "name": "Puebla"
   },
@@ -1295,7 +1297,7 @@
     "city": "Paris",
     "coords": "48.87387501, 2.38525897",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Pyrénées_(métro_de_Paris)",
     "name": "Pyrénées"
   },
@@ -1313,7 +1315,7 @@
     "city": "Paris",
     "coords": "48.84819314, 2.32776314",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Rennes_(métro_de_Paris)",
     "name": "Rennes"
   },
@@ -1331,7 +1333,7 @@
     "city": "Washington",
     "coords": "38.92074100, -76.99598400",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rhode_Island_Avenue_station",
     "name": "Rhode Island Avenue"
   },
@@ -1392,7 +1394,7 @@
   },
   "san-antonio": {
     "been": true,
-    "coords": "29.425, -98.49388888888889",
+    "coords": "29.42500000, -98.49388889",
     "countries": ["CO", "US"],
     "icons": ["🇨🇴", "🇺🇸"],
     "link": "https://es.wikipedia.org/wiki/Estación_San_Antonio_(SITVA)",
@@ -1410,8 +1412,8 @@
   },
   "san-jose": {
     "been": true,
-    "city": "San José",
-    "coords": "37.304166666667, -121.87277777778",
+    "city": "San Jose",
+    "coords": "37.30416667, -121.87277778",
     "countries": ["CO", "CR"],
     "icons": ["🇨🇴", "🇨🇷"],
     "link": "https://es.wikipedia.org/wiki/Estación_San_José_(Metro_de_Medellín)",
@@ -1421,7 +1423,7 @@
   "santo-domingo": {
     "been": true,
     "city": "Santo Domingo",
-    "coords": "6.30593, -75.58213",
+    "coords": "6.30593000, -75.58213000",
     "countries": ["CO", "DO"],
     "icons": ["🇨🇴", "🇩🇴"],
     "link": "https://en.wikipedia.org/wiki/Metrocable_(Medellín)",
@@ -1431,7 +1433,7 @@
   "santo-domingo-(madrid)": {
     "been": true,
     "city": "Madrid",
-    "coords": "40.42, -3.70806",
+    "coords": "40.42000000, -3.70806000",
     "countries": ["ES", "DO"],
     "icons": ["🇪🇸", "🇩🇴"],
     "link": "https://es.wikipedia.org/wiki/Estación_de_Santo_Domingo",
@@ -1505,7 +1507,7 @@
     "city": "Paris",
     "coords": "48.86959150, 2.35400856",
     "country": "FR",
-    "icons": ["🇫🇷"],
+    "icons": ["🇫🇷", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Strasbourg_-_Saint-Denis_(métro_de_Paris)",
     "name": "Strasbourg–Saint-Denis"
   },
@@ -1528,7 +1530,7 @@
   "surinameplein": {
     "been": true,
     "city": "Amsterdam",
-    "coords": "52.358333333333334, 4.852777777777778",
+    "coords": "52.35833333, 4.85277778",
     "countries": ["NL", "SR"],
     "icons": ["🇳🇱", "🇸🇷"],
     "link": "https://nl.wikipedia.org/wiki/Surinameplein",
@@ -1625,7 +1627,7 @@
     "been": false,
     "coords": "29.42033438, -98.47810732",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Vermont/Sunset_station",
     "name": "Vermont/Sunset"
   },
@@ -1648,7 +1650,7 @@
   "virginia": {
     "been": false,
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Virginia_station",
     "name": "Virginia"
   },
@@ -1671,7 +1673,7 @@
   "warschauer-straße": {
     "been": true,
     "city": "Berlin",
-    "coords": "52.506416666667, 13.450955555556",
+    "coords": "52.50641667, 13.45095556",
     "countries": ["DE", "PL"],
     "icons": ["🇩🇪", "🇵🇱"],
     "link": "https://de.wikipedia.org/wiki/Bahnhof_Berlin_Warschauer_Straße",
@@ -1723,7 +1725,8 @@
     "icons": ["🇺🇸", "🇰🇷"],
     "info": "(Koreatown)",
     "link": "https://en.wikipedia.org/wiki/Wilshire/Western_station",
-    "name": "Wilshire/Western"
+    "name": "Wilshire/Western",
+    "reference": "(Koreatown)"
   },
   "winchester": {
     "been": false,
@@ -1737,7 +1740,7 @@
     "city": "Poznań",
     "coords": "52.40561000, 16.93218000",
     "country": "PL",
-    "icons": ["🇵🇱"],
+    "icons": ["🇵🇱", "🇵🇱"],
     "link": "https://geohack.toolforge.org/geohack.php?params=52.40561_N_16.93218_E",
     "name": "Wrocławska"
   },
@@ -1746,7 +1749,7 @@
     "city": "Philadelphia",
     "coords": "40.02460000, -75.14790000",
     "country": "US",
-    "icons": ["🇺🇸"],
+    "icons": ["🇺🇸", "🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wyoming_station_(SEPTA)",
     "name": "Wyoming"
   },
