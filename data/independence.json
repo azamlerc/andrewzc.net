@@ -1,0 +1,1629 @@
+{
+  "--info--": {
+    "icon": "🎆",
+    "name": "Independence",
+    "size": "medium",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  "afghanistan": {
+    "been": false,
+    "coords": "34.51666667, 69.18333333",
+    "country": "AF",
+    "icons": ["🇦🇫"],
+    "link": "https://en.wikipedia.org/wiki/Afghanistan",
+    "name": "Afghanistan",
+    "prefix": "1747",
+    "reference": "Afsharid Empire"
+  },
+  "albania": {
+    "been": false,
+    "coords": "41.31666667, 19.81666667",
+    "countries": ["AL", "TR"],
+    "icons": ["🇦🇱", "🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Albania",
+    "name": "Albania",
+    "prefix": "1912",
+    "reference": "Ottoman Empire"
+  },
+  "algeria": {
+    "been": false,
+    "coords": "36.70000000, 3.21666667",
+    "countries": ["DZ", "FR"],
+    "icons": ["🇩🇿", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Algeria",
+    "name": "Algeria",
+    "prefix": "1962"
+  },
+  "angola": {
+    "been": false,
+    "coords": "-8.83333333, 13.33333333",
+    "countries": ["AO", "PT"],
+    "icons": ["🇦🇴", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Angola",
+    "name": "Angola",
+    "prefix": "1975"
+  },
+  "antigua-and-barbuda": {
+    "been": false,
+    "coords": "17.11666667, -61.85000000",
+    "countries": ["AG", "GB"],
+    "icons": ["🇦🇬", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
+    "name": "Antigua and Barbuda",
+    "prefix": "1981"
+  },
+  "argentina": {
+    "been": false,
+    "coords": "-34.60000000, -58.38333333",
+    "countries": ["AR", "ES"],
+    "icons": ["🇦🇷", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Argentina",
+    "name": "Argentina",
+    "prefix": "1816"
+  },
+  "armenia": {
+    "been": false,
+    "coords": "40.18333333, 44.51666667",
+    "country": "AM",
+    "flags": ["soviet-union"],
+    "icons": ["🇦🇲"],
+    "link": "https://en.wikipedia.org/wiki/Armenia",
+    "name": "Armenia",
+    "prefix": "1991"
+  },
+  "australia": {
+    "been": false,
+    "coords": "-35.30805556, 149.12444444",
+    "countries": ["AU", "GB"],
+    "icons": ["🇦🇺", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Australia",
+    "name": "Australia",
+    "prefix": "1942"
+  },
+  "azerbaijan": {
+    "been": false,
+    "coords": "40.38333333, 49.83333333",
+    "country": "AZ",
+    "flags": ["soviet-union"],
+    "icons": ["🇦🇿"],
+    "link": "https://en.wikipedia.org/wiki/Azerbaijan",
+    "name": "Azerbaijan",
+    "prefix": "1991"
+  },
+  "bahamas": {
+    "been": false,
+    "coords": "25.07805556, -77.33861111",
+    "countries": ["BS", "GB"],
+    "icons": ["🇧🇸", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Bahamas",
+    "name": "Bahamas",
+    "prefix": "1973"
+  },
+  "bahrain": {
+    "been": false,
+    "coords": "26.21666667, 50.58333333",
+    "countries": ["BH", "GB"],
+    "icons": ["🇧🇭", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Bahrain",
+    "name": "Bahrain",
+    "prefix": "1971"
+  },
+  "bangladesh": {
+    "been": false,
+    "coords": "23.76388889, 90.38888889",
+    "countries": ["BD", "PK"],
+    "icons": ["🇧🇩", "🇵🇰"],
+    "link": "https://en.wikipedia.org/wiki/Bangladesh",
+    "name": "Bangladesh",
+    "prefix": "1971"
+  },
+  "barbados": {
+    "been": false,
+    "coords": "13.09777778, -59.61833333",
+    "countries": ["BB", "GB"],
+    "icons": ["🇧🇧", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Barbados",
+    "name": "Barbados",
+    "prefix": "1966"
+  },
+  "belarus": {
+    "been": false,
+    "coords": "53.91666667, 27.55000000",
+    "country": "BY",
+    "flags": ["soviet-union"],
+    "icons": ["🇧🇾"],
+    "link": "https://en.wikipedia.org/wiki/Belarus",
+    "name": "Belarus",
+    "prefix": "1991"
+  },
+  "belgium": {
+    "been": true,
+    "coords": "50.85000000, 4.35000000",
+    "countries": ["BE", "NL"],
+    "icons": ["🇧🇪", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Belgium",
+    "name": "Belgium",
+    "prefix": "1830"
+  },
+  "belize": {
+    "been": false,
+    "coords": "17.25000000, -88.76666667",
+    "countries": ["BZ", "GB"],
+    "icons": ["🇧🇿", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Belize",
+    "name": "Belize",
+    "prefix": "1981"
+  },
+  "benin": {
+    "been": true,
+    "coords": "6.35000000, 2.40000000",
+    "countries": ["BJ", "FR"],
+    "icons": ["🇧🇯", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Benin",
+    "name": "Benin",
+    "prefix": "1960"
+  },
+  "bolivia": {
+    "been": false,
+    "coords": "-17.80000000, -63.16666667",
+    "countries": ["BO", "ES"],
+    "icons": ["🇧🇴", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bolivia",
+    "name": "Bolivia",
+    "prefix": "1825"
+  },
+  "bosnia-and-herzegovina": {
+    "been": true,
+    "coords": "43.86666667, 18.41666667",
+    "country": "BA",
+    "flags": ["yugoslavia"],
+    "icons": ["🇧🇦"],
+    "link": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "prefix": "1992"
+  },
+  "botswana": {
+    "been": false,
+    "coords": "-24.65833333, 25.90833333",
+    "countries": ["BW", "GB"],
+    "icons": ["🇧🇼", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Botswana",
+    "name": "Botswana",
+    "prefix": "1966"
+  },
+  "brazil": {
+    "been": false,
+    "coords": "-15.78333333, -47.86666667",
+    "countries": ["BR", "PT"],
+    "icons": ["🇧🇷", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Brazil",
+    "name": "Brazil",
+    "prefix": "1825"
+  },
+  "brunei": {
+    "been": false,
+    "coords": "4.89028333, 114.94221667",
+    "countries": ["BN", "GB"],
+    "icons": ["🇧🇳", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Brunei",
+    "name": "Brunei",
+    "prefix": "1984"
+  },
+  "bulgaria": {
+    "been": true,
+    "coords": "42.69750000, 23.32250000",
+    "countries": ["BG", "TR"],
+    "icons": ["🇧🇬", "🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Bulgaria",
+    "name": "Bulgaria",
+    "prefix": "1908",
+    "reference": "Ottoman Empire"
+  },
+  "burkina-faso": {
+    "been": true,
+    "coords": "12.36666667, -1.53333333",
+    "countries": ["BF", "FR"],
+    "icons": ["🇧🇫", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Burkina_Faso",
+    "name": "Burkina Faso",
+    "prefix": "1960"
+  },
+  "burundi": {
+    "been": false,
+    "coords": "-3.50000000, 30.00000000",
+    "countries": ["BI", "BE"],
+    "icons": ["🇧🇮", "🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Burundi",
+    "name": "Burundi",
+    "prefix": "1962"
+  },
+  "cambodia": {
+    "been": false,
+    "coords": "11.56944444, 104.92111111",
+    "countries": ["KH", "FR"],
+    "icons": ["🇰🇭", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Cambodia",
+    "name": "Cambodia",
+    "prefix": "1953"
+  },
+  "cameroon": {
+    "been": false,
+    "coords": "3.86138889, 11.52055556",
+    "countries": ["CM", "GB"],
+    "icons": ["🇨🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Cameroon",
+    "name": "Cameroon",
+    "prefix": "1961"
+  },
+  "canada": {
+    "been": true,
+    "coords": "45.40000000, -75.66666667",
+    "countries": ["CA", "GB"],
+    "icons": ["🇨🇦", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Canada",
+    "name": "Canada",
+    "prefix": "1931"
+  },
+  "cape-verde": {
+    "been": true,
+    "coords": "14.91638889, -23.50944444",
+    "countries": ["CV", "PT"],
+    "icons": ["🇨🇻", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Cape_Verde",
+    "name": "Cape Verde",
+    "prefix": "1975"
+  },
+  "central-african-republic": {
+    "been": false,
+    "coords": "4.36666667, 18.58333333",
+    "countries": ["CF", "FR"],
+    "icons": ["🇨🇫", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Central_African_Republic",
+    "name": "Central African Republic",
+    "prefix": "1960"
+  },
+  "chad": {
+    "been": false,
+    "coords": "12.10527778, 15.04472222",
+    "countries": ["TD", "FR"],
+    "icons": ["🇹🇩", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Chad",
+    "name": "Chad",
+    "prefix": "1960"
+  },
+  "chile": {
+    "been": false,
+    "coords": "-33.43333333, -70.66666667",
+    "countries": ["CL", "ES"],
+    "icons": ["🇨🇱", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chile",
+    "name": "Chile",
+    "prefix": "1818"
+  },
+  "colombia": {
+    "been": true,
+    "coords": "4.58333333, -74.06666667",
+    "countries": ["CO", "ES"],
+    "icons": ["🇨🇴", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Colombia",
+    "name": "Colombia",
+    "prefix": "1819"
+  },
+  "comoros": {
+    "been": false,
+    "coords": "-11.69000000, 43.26000000",
+    "countries": ["KM", "FR"],
+    "icons": ["🇰🇲", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Comoros",
+    "name": "Comoros",
+    "prefix": "1975"
+  },
+  "congo-brazzaville": {
+    "been": false,
+    "coords": "-4.26666667, 15.28333333",
+    "countries": ["CG", "FR"],
+    "icons": ["🇨🇬", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Congo-Brazzaville",
+    "name": "Congo-Brazzaville",
+    "prefix": "1960"
+  },
+  "congo-kinshasa": {
+    "been": false,
+    "coords": "-4.31666667, 15.31666667",
+    "countries": ["CD", "BE"],
+    "icons": ["🇨🇩", "🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Congo-Kinshasa",
+    "name": "Congo-Kinshasa",
+    "prefix": "1960"
+  },
+  "cook-islands": {
+    "been": false,
+    "coords": "-21.20000000, -159.76666667",
+    "countries": ["CK", "NZ"],
+    "icons": ["🇨🇰", "🇳🇿"],
+    "link": "https://en.wikipedia.org/wiki/Cook_Islands",
+    "name": "Cook Islands",
+    "prefix": "1965"
+  },
+  "costa-rica": {
+    "been": true,
+    "coords": "9.93333333, -84.08333333",
+    "countries": ["CR", "NI"],
+    "icons": ["🇨🇷", "🇳🇮"],
+    "link": "https://en.wikipedia.org/wiki/Costa_Rica",
+    "name": "Costa Rica",
+    "prefix": "1838",
+    "reference": "Federal Republic of Central America"
+  },
+  "cote-divoire": {
+    "been": false,
+    "coords": "6.85000000, -5.30000000",
+    "countries": ["CI", "FR"],
+    "icons": ["🇨🇮", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/C%C3%B4te_d%E2%80%99Ivoire",
+    "name": "Côte d’Ivoire",
+    "prefix": "1960"
+  },
+  "croatia": {
+    "been": true,
+    "coords": "45.81305556, 15.97750000",
+    "country": "HR",
+    "flags": ["yugoslavia"],
+    "icons": ["🇭🇷"],
+    "link": "https://en.wikipedia.org/wiki/Croatia",
+    "name": "Croatia",
+    "prefix": "1991"
+  },
+  "cuba": {
+    "been": false,
+    "coords": "23.13333333, -82.38333333",
+    "countries": ["CU", "US"],
+    "icons": ["🇨🇺", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cuba",
+    "name": "Cuba",
+    "prefix": "1902"
+  },
+  "curacao": {
+    "been": false,
+    "coords": "12.10500000, -68.93500000",
+    "countries": ["CW", "GB"],
+    "icons": ["🇨🇼", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Cura%C3%A7ao",
+    "name": "Curaçao",
+    "prefix": "1960"
+  },
+  "cyprus": {
+    "been": false,
+    "coords": "35.16666667, 33.36666667",
+    "countries": ["CY", "GB"],
+    "icons": ["🇨🇾", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Cyprus",
+    "name": "Cyprus",
+    "prefix": "1960"
+  },
+  "czechia": {
+    "been": true,
+    "coords": "50.08333333, 14.46666667",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Czechia",
+    "name": "Czechia",
+    "prefix": "1993",
+    "reference": "Czechoslovakia"
+  },
+  "djibouti": {
+    "been": false,
+    "coords": "11.60000000, 43.16666667",
+    "countries": ["DJ", "GB"],
+    "icons": ["🇩🇯", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Djibouti",
+    "name": "Djibouti",
+    "prefix": "1978"
+  },
+  "dominica": {
+    "been": false,
+    "coords": "15.30000000, -61.38333333",
+    "countries": ["DM", "GB"],
+    "icons": ["🇩🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Dominica",
+    "name": "Dominica",
+    "prefix": "1978"
+  },
+  "dominican-republic": {
+    "been": true,
+    "coords": "18.45000000, -69.93333333",
+    "countries": ["DO", "HT"],
+    "icons": ["🇩🇴", "🇭🇹"],
+    "link": "https://en.wikipedia.org/wiki/Dominican_Republic",
+    "name": "Dominican Republic",
+    "prefix": "1844"
+  },
+  "ecuador": {
+    "been": false,
+    "coords": "-0.22000000, -78.51194444",
+    "countries": ["EC", "CO"],
+    "icons": ["🇪🇨", "🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Ecuador",
+    "name": "Ecuador",
+    "prefix": "1830"
+  },
+  "egypt": {
+    "been": true,
+    "coords": "30.03333333, 31.21666667",
+    "countries": ["EG", "GB"],
+    "icons": ["🇪🇬", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Egypt",
+    "name": "Egypt",
+    "prefix": "1922"
+  },
+  "el-salvador": {
+    "been": false,
+    "coords": "13.70000000, -89.20000000",
+    "countries": ["SV", "NI"],
+    "icons": ["🇸🇻", "🇳🇮"],
+    "link": "https://en.wikipedia.org/wiki/El_Salvador",
+    "name": "El Salvador",
+    "prefix": "1898",
+    "reference": "Greater Republic of Central America"
+  },
+  "equatorial-guinea": {
+    "been": false,
+    "coords": "3.75000000, 8.78333333",
+    "countries": ["GQ", "ES"],
+    "icons": ["🇬🇶", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Equatorial_Guinea",
+    "name": "Equatorial Guinea",
+    "prefix": "1968"
+  },
+  "eritrea": {
+    "been": false,
+    "coords": "15.33333333, 38.91666667",
+    "countries": ["ER", "ET"],
+    "icons": ["🇪🇷", "🇪🇹"],
+    "link": "https://en.wikipedia.org/wiki/Eritrea",
+    "name": "Eritrea",
+    "prefix": "1993"
+  },
+  "estonia": {
+    "been": true,
+    "coords": "59.41666667, 24.75000000",
+    "country": "EE",
+    "flags": ["soviet-union"],
+    "icons": ["🇪🇪"],
+    "link": "https://en.wikipedia.org/wiki/Estonia",
+    "name": "Estonia",
+    "prefix": "1991"
+  },
+  "eswatini": {
+    "been": false,
+    "coords": "-26.50000000, 31.50000000",
+    "countries": ["SZ", "GB"],
+    "icons": ["🇸🇿", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Eswatini",
+    "name": "Eswatini",
+    "prefix": "1968"
+  },
+  "ethiopia": {
+    "been": true,
+    "coords": "9.01666667, 38.75000000",
+    "countries": ["ET", "IT"],
+    "icons": ["🇪🇹", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Ethiopia",
+    "name": "Ethiopia",
+    "prefix": "1941"
+  },
+  "fiji": {
+    "been": false,
+    "coords": "-18.16666667, 178.45000000",
+    "countries": ["FJ", "GB"],
+    "icons": ["🇫🇯", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Fiji",
+    "name": "Fiji",
+    "prefix": "1970"
+  },
+  "finland": {
+    "been": true,
+    "coords": "60.17083333, 24.93750000",
+    "countries": ["FI", "RU"],
+    "icons": ["🇫🇮", "🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Finland",
+    "name": "Finland",
+    "prefix": "1917"
+  },
+  "gabon": {
+    "been": false,
+    "coords": "0.38333333, 9.45000000",
+    "countries": ["GA", "FR"],
+    "icons": ["🇬🇦", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Gabon",
+    "name": "Gabon",
+    "prefix": "1960"
+  },
+  "gambia": {
+    "been": true,
+    "coords": "13.45000000, -16.57500000",
+    "countries": ["GM", "GB"],
+    "icons": ["🇬🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Gambia",
+    "name": "Gambia",
+    "prefix": "1965"
+  },
+  "georgia": {
+    "been": false,
+    "coords": "33.0, -83.5",
+    "country": "GE",
+    "flags": ["soviet-union"],
+    "icons": ["🇬🇪"],
+    "link": "https://en.wikipedia.org/wiki/Georgia",
+    "name": "Georgia",
+    "prefix": "1991",
+    "wikidata": "Q1428"
+  },
+  "ghana": {
+    "been": false,
+    "coords": "5.55500000, -0.19250000",
+    "countries": ["GH", "GB"],
+    "icons": ["🇬🇭", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Ghana",
+    "name": "Ghana",
+    "prefix": "1957"
+  },
+  "greece": {
+    "been": true,
+    "coords": "37.96666667, 23.71666667",
+    "countries": ["GR", "TR"],
+    "icons": ["🇬🇷", "🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Greece",
+    "name": "Greece",
+    "prefix": "1822",
+    "reference": "Ottoman Empire"
+  },
+  "grenada": {
+    "been": false,
+    "coords": "12.05388889, -61.74527778",
+    "countries": ["GD", "GB"],
+    "icons": ["🇬🇩", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Grenada",
+    "name": "Grenada",
+    "prefix": "1974"
+  },
+  "guatemala": {
+    "been": false,
+    "coords": "14.63333333, -90.50000000",
+    "countries": ["GT", "NI"],
+    "icons": ["🇬🇹", "🇳🇮"],
+    "link": "https://en.wikipedia.org/wiki/Guatemala",
+    "name": "Guatemala",
+    "prefix": "1839",
+    "reference": "Federal Republic of Central America"
+  },
+  "guinea": {
+    "been": false,
+    "coords": "9.51666667, -13.70000000",
+    "countries": ["GN", "FR"],
+    "icons": ["🇬🇳", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Guinea",
+    "name": "Guinea",
+    "prefix": "1958"
+  },
+  "guinea-bissau": {
+    "been": false,
+    "coords": "11.86666667, -15.60000000",
+    "countries": ["GW", "PT"],
+    "icons": ["🇬🇼", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Guinea-Bissau",
+    "name": "Guinea-Bissau",
+    "prefix": "1973"
+  },
+  "guyana": {
+    "been": false,
+    "coords": "6.80111111, -58.15500000",
+    "countries": ["GY", "GB"],
+    "icons": ["🇬🇾", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Guyana",
+    "name": "Guyana",
+    "prefix": "1966"
+  },
+  "haiti": {
+    "been": false,
+    "coords": "18.53611111, -72.34638889",
+    "countries": ["HT", "FR"],
+    "icons": ["🇭🇹", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Haiti",
+    "name": "Haiti",
+    "prefix": "1804"
+  },
+  "honduras": {
+    "been": false,
+    "coords": "14.10000000, -87.21666667",
+    "countries": ["HN", "NI"],
+    "icons": ["🇭🇳", "🇳🇮"],
+    "link": "https://en.wikipedia.org/wiki/Honduras",
+    "name": "Honduras",
+    "prefix": "1898",
+    "reference": "Greater Republic of Central America"
+  },
+  "iceland": {
+    "been": true,
+    "coords": "64.13333333, -21.93333333",
+    "countries": ["IS", "DK"],
+    "icons": ["🇮🇸", "🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Iceland",
+    "name": "Iceland",
+    "prefix": "1918"
+  },
+  "india": {
+    "been": true,
+    "coords": "28.61388889, 77.20833333",
+    "countries": ["IN", "GB"],
+    "icons": ["🇮🇳", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/India",
+    "name": "India",
+    "prefix": "1947"
+  },
+  "indonesia": {
+    "been": false,
+    "coords": "-6.16666667, 106.81666667",
+    "countries": ["ID", "NL"],
+    "icons": ["🇮🇩", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Indonesia",
+    "name": "Indonesia",
+    "prefix": "1949"
+  },
+  "iraq": {
+    "been": false,
+    "coords": "33.33333333, 44.38333333",
+    "countries": ["IQ", "GB"],
+    "icons": ["🇮🇶", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Iraq",
+    "name": "Iraq",
+    "prefix": "1932"
+  },
+  "ireland": {
+    "been": true,
+    "coords": "53.00000000, -8.00000000",
+    "countries": ["IE", "GB"],
+    "icons": ["🇮🇪", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Ireland",
+    "name": "Ireland",
+    "prefix": "1931"
+  },
+  "israel": {
+    "been": true,
+    "coords": "31.78333333, 35.21666667",
+    "countries": ["IL", "GB"],
+    "icons": ["🇮🇱", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Israel",
+    "name": "Israel",
+    "prefix": "1948"
+  },
+  "jamaica": {
+    "been": false,
+    "coords": "17.97138889, -76.79305556",
+    "countries": ["JM", "GB"],
+    "icons": ["🇯🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Jamaica",
+    "name": "Jamaica",
+    "prefix": "1962"
+  },
+  "jordan": {
+    "been": false,
+    "coords": "31.95000000, 35.93333333",
+    "countries": ["JO", "PS"],
+    "icons": ["🇯🇴", "🇵🇸"],
+    "link": "https://en.wikipedia.org/wiki/Jordan",
+    "name": "Jordan",
+    "prefix": "1958",
+    "reference": "Arab Federation"
+  },
+  "kazakhstan": {
+    "been": false,
+    "coords": "51.13333333, 71.43333333",
+    "country": "KZ",
+    "flags": ["soviet-union"],
+    "icons": ["🇰🇿"],
+    "link": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "name": "Kazakhstan",
+    "prefix": "1991"
+  },
+  "kenya": {
+    "been": true,
+    "coords": "-1.26666667, 36.80000000",
+    "countries": ["KE", "GB"],
+    "icons": ["🇰🇪", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Kenya",
+    "name": "Kenya",
+    "prefix": "1963"
+  },
+  "kiribati": {
+    "been": false,
+    "coords": "1.46666667, 173.03333333",
+    "countries": ["KI", "GB"],
+    "icons": ["🇰🇮", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Kiribati",
+    "name": "Kiribati",
+    "prefix": "1979"
+  },
+  "kosovo": {
+    "been": false,
+    "coords": "42.66666667, 21.16666667",
+    "countries": ["XK", "RS"],
+    "icons": ["🇽🇰", "🇷🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kosovo",
+    "name": "Kosovo",
+    "prefix": "2008"
+  },
+  "kuwait": {
+    "been": false,
+    "coords": "29.50000000, 47.75000000",
+    "country": "KW",
+    "icons": ["🇰🇼"],
+    "link": "https://en.wikipedia.org/wiki/Kuwait",
+    "name": "Kuwait",
+    "prefix": "1752",
+    "reference": "Khalidi Emirate"
+  },
+  "kyrgyzstan": {
+    "been": false,
+    "coords": "42.86666667, 74.60000000",
+    "country": "KG",
+    "flags": ["soviet-union"],
+    "icons": ["🇰🇬"],
+    "link": "https://en.wikipedia.org/wiki/Kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "prefix": "1991"
+  },
+  "laos": {
+    "been": false,
+    "coords": "17.96666667, 102.60000000",
+    "countries": ["LA", "FR"],
+    "icons": ["🇱🇦", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Laos",
+    "name": "Laos",
+    "prefix": "1953"
+  },
+  "latvia": {
+    "been": true,
+    "coords": "56.95000000, 24.10000000",
+    "country": "LV",
+    "flags": ["soviet-union"],
+    "icons": ["🇱🇻"],
+    "link": "https://en.wikipedia.org/wiki/Latvia",
+    "name": "Latvia",
+    "prefix": "1990"
+  },
+  "lebanon": {
+    "been": false,
+    "coords": "33.90000000, 35.53333333",
+    "countries": ["LB", "FR"],
+    "icons": ["🇱🇧", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Lebanon",
+    "name": "Lebanon",
+    "prefix": "1943"
+  },
+  "lesotho": {
+    "been": false,
+    "coords": "-29.31500000, 27.48694444",
+    "countries": ["LS", "GB"],
+    "icons": ["🇱🇸", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Lesotho",
+    "name": "Lesotho",
+    "prefix": "1966"
+  },
+  "liberia": {
+    "been": false,
+    "coords": "6.50000000, -9.50000000",
+    "countries": ["LR", "US"],
+    "icons": ["🇱🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Liberia",
+    "name": "Liberia",
+    "prefix": "1847"
+  },
+  "libya": {
+    "been": false,
+    "coords": "32.86666667, 13.18333333",
+    "countries": ["LY", "FR", "GB"],
+    "icons": ["🇱🇾", "🇫🇷", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Libya",
+    "name": "Libya",
+    "prefix": "1951"
+  },
+  "liechtenstein": {
+    "been": true,
+    "coords": "47.16666667, 9.50972222",
+    "countries": ["LI", "DE"],
+    "icons": ["🇱🇮", "🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Liechtenstein",
+    "name": "Liechtenstein",
+    "prefix": "1866"
+  },
+  "lithuania": {
+    "been": false,
+    "coords": "54.68333333, 25.31666667",
+    "country": "LT",
+    "flags": ["soviet-union"],
+    "icons": ["🇱🇹"],
+    "link": "https://en.wikipedia.org/wiki/Lithuania",
+    "name": "Lithuania",
+    "prefix": "1990"
+  },
+  "luxembourg": {
+    "been": true,
+    "coords": "49.77, 6.13",
+    "countries": ["LU", "NL"],
+    "icons": ["🇱🇺", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Luxembourg",
+    "name": "Luxembourg",
+    "prefix": "1890",
+    "wikidata": "Q32"
+  },
+  "madagascar": {
+    "been": false,
+    "coords": "-18.91666667, 47.51666667",
+    "countries": ["MG", "FR"],
+    "icons": ["🇲🇬", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Madagascar",
+    "name": "Madagascar",
+    "prefix": "1960"
+  },
+  "malawi": {
+    "been": false,
+    "coords": "-13.95000000, 33.70000000",
+    "countries": ["MW", "GB"],
+    "icons": ["🇲🇼", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Malawi",
+    "name": "Malawi",
+    "prefix": "1964"
+  },
+  "malaysia": {
+    "been": false,
+    "coords": "3.13333333, 101.68333333",
+    "countries": ["MY", "GB"],
+    "icons": ["🇲🇾", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Malaysia",
+    "name": "Malaysia",
+    "prefix": "1957"
+  },
+  "maldives": {
+    "been": false,
+    "coords": "4.17527778, 73.50888889",
+    "countries": ["MV", "GB"],
+    "icons": ["🇲🇻", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Maldives",
+    "name": "Maldives",
+    "prefix": "1965"
+  },
+  "mali": {
+    "been": true,
+    "coords": "12.65000000, -8.00000000",
+    "country": "ML",
+    "icons": ["🇲🇱"],
+    "link": "https://en.wikipedia.org/wiki/Mali",
+    "name": "Mali",
+    "prefix": "1960",
+    "reference": "Mali Federation"
+  },
+  "malta": {
+    "been": false,
+    "coords": "35.90000000, 14.51666667",
+    "countries": ["MT", "GB"],
+    "icons": ["🇲🇹", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Malta",
+    "name": "Malta",
+    "prefix": "1964"
+  },
+  "marshall-islands": {
+    "been": false,
+    "coords": "7.11666667, 171.06666667",
+    "countries": ["MH", "US"],
+    "icons": ["🇲🇭", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Marshall_Islands",
+    "name": "Marshall Islands",
+    "prefix": "1986"
+  },
+  "mauritania": {
+    "been": false,
+    "coords": "18.15000000, -15.96666667",
+    "countries": ["MR", "FR"],
+    "icons": ["🇲🇷", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Mauritania",
+    "name": "Mauritania",
+    "prefix": "1960"
+  },
+  "mauritius": {
+    "been": false,
+    "coords": "-20.20000000, 57.50000000",
+    "countries": ["MU", "GB"],
+    "icons": ["🇲🇺", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Mauritius",
+    "name": "Mauritius",
+    "prefix": "1968"
+  },
+  "mexico": {
+    "been": true,
+    "coords": "19.43333333, -99.13333333",
+    "countries": ["MX", "ES"],
+    "icons": ["🇲🇽", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Mexico",
+    "name": "Mexico",
+    "prefix": "1836"
+  },
+  "micronesia": {
+    "been": false,
+    "coords": "12.0, 152.0",
+    "countries": ["FM", "US"],
+    "icons": ["🇫🇲", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Micronesia",
+    "name": "Micronesia",
+    "prefix": "1986",
+    "wikidata": "Q3359409"
+  },
+  "moldova": {
+    "been": true,
+    "coords": "47.00000000, 28.91666667",
+    "country": "MD",
+    "flags": ["soviet-union"],
+    "icons": ["🇲🇩"],
+    "link": "https://en.wikipedia.org/wiki/Moldova",
+    "name": "Moldova",
+    "prefix": "1991"
+  },
+  "monaco": {
+    "been": true,
+    "coords": "43.73111111, 7.42000000",
+    "countries": ["MC", "FR"],
+    "icons": ["🇲🇨", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Monaco",
+    "name": "Monaco",
+    "prefix": "1861"
+  },
+  "mongolia": {
+    "been": false,
+    "coords": "48.00000000, 106.00000000",
+    "countries": ["MN", "CN"],
+    "icons": ["🇲🇳", "🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Mongolia",
+    "name": "Mongolia",
+    "prefix": "1911"
+  },
+  "montenegro": {
+    "been": true,
+    "coords": "42.78333333, 19.46666667",
+    "country": "ME",
+    "flags": ["yugoslavia"],
+    "icons": ["🇲🇪"],
+    "link": "https://en.wikipedia.org/wiki/Montenegro",
+    "name": "Montenegro",
+    "prefix": "2006"
+  },
+  "morocco": {
+    "been": true,
+    "coords": "34.03333333, -6.85000000",
+    "countries": ["MA", "FR", "ES"],
+    "icons": ["🇲🇦", "🇫🇷", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Morocco",
+    "name": "Morocco",
+    "prefix": "1956"
+  },
+  "mozambique": {
+    "been": false,
+    "coords": "-25.95000000, 32.58333333",
+    "countries": ["MZ", "PT"],
+    "icons": ["🇲🇿", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Mozambique",
+    "name": "Mozambique",
+    "prefix": "1975"
+  },
+  "myanmar": {
+    "been": false,
+    "coords": "21.00000000, 96.00000000",
+    "countries": ["MM", "GB"],
+    "icons": ["🇲🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Myanmar",
+    "name": "Myanmar",
+    "prefix": "1948"
+  },
+  "namibia": {
+    "been": false,
+    "coords": "-22.56666667, 17.08333333",
+    "countries": ["NA", "ZA"],
+    "icons": ["🇳🇦", "🇿🇦"],
+    "link": "https://en.wikipedia.org/wiki/Namibia",
+    "name": "Namibia",
+    "prefix": "1990"
+  },
+  "nauru": {
+    "been": false,
+    "coords": "-0.52750000, 166.93500000",
+    "countries": ["NR", "AU"],
+    "icons": ["🇳🇷", "🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Nauru",
+    "name": "Nauru",
+    "prefix": "1968"
+  },
+  "netherlands": {
+    "been": true,
+    "coords": "52.36666667, 4.88333333",
+    "countries": ["NL", "ES"],
+    "icons": ["🇳🇱", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Netherlands",
+    "name": "Netherlands",
+    "prefix": "1581"
+  },
+  "new-zealand": {
+    "been": false,
+    "coords": "-41.30000000, 174.78333333",
+    "countries": ["NZ", "GB"],
+    "icons": ["🇳🇿", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/New_Zealand",
+    "name": "New Zealand",
+    "prefix": "1947"
+  },
+  "nicaragua": {
+    "been": false,
+    "coords": "12.10000000, -86.23333333",
+    "country": "NI",
+    "icons": ["🇳🇮"],
+    "link": "https://en.wikipedia.org/wiki/Nicaragua",
+    "name": "Nicaragua",
+    "prefix": "1898",
+    "reference": "Greater Republic of Central America"
+  },
+  "niger": {
+    "been": false,
+    "coords": "13.51361111, 2.10888889",
+    "countries": ["NE", "FR"],
+    "icons": ["🇳🇪", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Niger",
+    "name": "Niger",
+    "prefix": "1960"
+  },
+  "nigeria": {
+    "been": true,
+    "coords": "9.06666667, 7.48333333",
+    "countries": ["NG", "GB"],
+    "icons": ["🇳🇬", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Nigeria",
+    "name": "Nigeria",
+    "prefix": "1960"
+  },
+  "north-korea": {
+    "been": false,
+    "coords": "39.03333333, 125.75000000",
+    "country": "KP",
+    "flags": ["soviet-union"],
+    "icons": ["🇰🇵"],
+    "link": "https://en.wikipedia.org/wiki/North_Korea",
+    "name": "North Korea",
+    "prefix": "1948"
+  },
+  "north-macedonia": {
+    "been": true,
+    "coords": "42.00000000, 21.43333333",
+    "country": "MK",
+    "flags": ["yugoslavia"],
+    "icons": ["🇲🇰"],
+    "link": "https://en.wikipedia.org/wiki/North_Macedonia",
+    "name": "North Macedonia",
+    "prefix": "1991"
+  },
+  "oman": {
+    "been": false,
+    "coords": "23.58888889, 58.40833333",
+    "country": "OM",
+    "icons": ["🇴🇲"],
+    "link": "https://en.wikipedia.org/wiki/Oman",
+    "name": "Oman",
+    "prefix": "1743",
+    "reference": "Afsharid Empire"
+  },
+  "pakistan": {
+    "been": false,
+    "coords": "33.69166667, 73.05000000",
+    "countries": ["PK", "GB"],
+    "icons": ["🇵🇰", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Pakistan",
+    "name": "Pakistan",
+    "prefix": "1947"
+  },
+  "palau": {
+    "been": false,
+    "coords": "7.50000000, 134.61666667",
+    "countries": ["PW", "US"],
+    "icons": ["🇵🇼", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Palau",
+    "name": "Palau",
+    "prefix": "1994"
+  },
+  "palestine": {
+    "been": true,
+    "coords": "32.00000000, 35.25000000",
+    "countries": ["PS", "IL"],
+    "icons": ["🇵🇸", "🇮🇱"],
+    "link": "https://en.wikipedia.org/wiki/Palestine",
+    "name": "Palestine",
+    "prefix": "1988"
+  },
+  "panama": {
+    "been": true,
+    "coords": "8.96666667, -79.53333333",
+    "countries": ["PA", "ES"],
+    "icons": ["🇵🇦", "🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Panama",
+    "name": "Panama",
+    "prefix": "1904"
+  },
+  "papua-new-guinea": {
+    "been": false,
+    "coords": "-9.47888889, 147.14944444",
+    "countries": ["PG", "AU"],
+    "icons": ["🇵🇬", "🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Papua_New_Guinea",
+    "name": "Papua New Guinea",
+    "prefix": "1975"
+  },
+  "paraguay": {
+    "been": false,
+    "coords": "-25.26666667, -57.66666667",
+    "countries": ["PY", "BR"],
+    "icons": ["🇵🇾", "🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Paraguay",
+    "name": "Paraguay",
+    "prefix": "1845"
+  },
+  "philippines": {
+    "been": false,
+    "coords": "13.00000000, 122.00000000",
+    "countries": ["PH", "US"],
+    "icons": ["🇵🇭", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Philippines",
+    "name": "Philippines",
+    "prefix": "1946"
+  },
+  "poland": {
+    "been": true,
+    "coords": "52.21666667, 21.03333333",
+    "countries": ["PL", "DE"],
+    "flags": ["soviet-union"],
+    "icons": ["🇵🇱", "🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Poland",
+    "name": "Poland",
+    "prefix": "1944"
+  },
+  "qatar": {
+    "been": false,
+    "coords": "25.30000000, 51.51666667",
+    "countries": ["QA", "GB"],
+    "icons": ["🇶🇦", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Qatar",
+    "name": "Qatar",
+    "prefix": "1971"
+  },
+  "romania": {
+    "been": true,
+    "coords": "44.41666667, 26.10000000",
+    "countries": ["RO", "TR"],
+    "icons": ["🇷🇴", "🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Romania",
+    "name": "Romania",
+    "prefix": "1877",
+    "reference": "Ottoman Empire"
+  },
+  "russia": {
+    "been": true,
+    "coords": "55.75583333, 37.61722222",
+    "country": "RU",
+    "flags": ["soviet-union"],
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Russia",
+    "name": "Russia",
+    "prefix": "1991"
+  },
+  "rwanda": {
+    "been": true,
+    "coords": "-1.94388889, 30.05944444",
+    "countries": ["RW", "BE"],
+    "icons": ["🇷🇼", "🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Rwanda",
+    "name": "Rwanda",
+    "prefix": "1962"
+  },
+  "saint-kitts-and-nevis": {
+    "been": false,
+    "coords": "17.30000000, -62.73333333",
+    "countries": ["KN", "GB"],
+    "icons": ["🇰🇳", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
+    "name": "Saint Kitts and Nevis",
+    "prefix": "1983"
+  },
+  "saint-lucia": {
+    "been": false,
+    "coords": "13.88333333, -60.96666667",
+    "countries": ["LC", "GB"],
+    "icons": ["🇱🇨", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Lucia",
+    "name": "Saint Lucia",
+    "prefix": "1979"
+  },
+  "saint-vincent-and-grenadines": {
+    "been": false,
+    "coords": "13.16666667, -61.23333333",
+    "countries": ["VC", "GB"],
+    "icons": ["🇻🇨", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
+    "name": "Saint Vincent and the Grenadines",
+    "prefix": "1979"
+  },
+  "samoa": {
+    "been": false,
+    "coords": "-13.83333333, -171.76222222",
+    "countries": ["WS", "NZ"],
+    "icons": ["🇼🇸", "🇳🇿"],
+    "link": "https://en.wikipedia.org/wiki/Samoa",
+    "name": "Samoa",
+    "prefix": "1962"
+  },
+  "sao-tome-and-principe": {
+    "been": false,
+    "coords": "0.33333333, 6.73333333",
+    "countries": ["ST", "PT"],
+    "icons": ["🇸🇹", "🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+    "name": "São Tomé and Príncipe",
+    "prefix": "1975"
+  },
+  "senegal": {
+    "been": true,
+    "coords": "14.66666667, -17.41666667",
+    "country": "SN",
+    "icons": ["🇸🇳"],
+    "link": "https://en.wikipedia.org/wiki/Senegal",
+    "name": "Senegal",
+    "prefix": "1960",
+    "reference": "Mali Federation"
+  },
+  "serbia": {
+    "been": true,
+    "coords": "44.80000000, 20.46666667",
+    "country": "RS",
+    "flags": ["yugoslavia"],
+    "icons": ["🇷🇸"],
+    "link": "https://en.wikipedia.org/wiki/Serbia",
+    "name": "Serbia",
+    "prefix": "2006"
+  },
+  "seychelles": {
+    "been": false,
+    "coords": "-4.61666667, 55.45000000",
+    "countries": ["SC", "GB"],
+    "icons": ["🇸🇨", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Seychelles",
+    "name": "Seychelles",
+    "prefix": "1976"
+  },
+  "sierra-leone": {
+    "been": false,
+    "coords": "8.50000000, -12.10000000",
+    "countries": ["SL", "GB"],
+    "icons": ["🇸🇱", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Sierra_Leone",
+    "name": "Sierra Leone",
+    "prefix": "1961"
+  },
+  "singapore": {
+    "been": false,
+    "coords": "1.28333333, 103.83333333",
+    "countries": ["SG", "MY"],
+    "icons": ["🇸🇬", "🇲🇾"],
+    "link": "https://en.wikipedia.org/wiki/Singapore",
+    "name": "Singapore",
+    "prefix": "1965"
+  },
+  "slovakia": {
+    "been": true,
+    "coords": "48.15000000, 17.11666667",
+    "countries": ["SK", "CZ"],
+    "icons": ["🇸🇰", "🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Slovakia",
+    "name": "Slovakia",
+    "prefix": "1993",
+    "reference": "Czechoslovakia"
+  },
+  "slovenia": {
+    "been": true,
+    "coords": "46.05138889, 14.50611111",
+    "country": "SI",
+    "flags": ["yugoslavia"],
+    "icons": ["🇸🇮"],
+    "link": "https://en.wikipedia.org/wiki/Slovenia",
+    "name": "Slovenia",
+    "prefix": "1991"
+  },
+  "solomon-islands": {
+    "been": false,
+    "coords": "-9.43194444, 159.95555556",
+    "countries": ["SB", "GB"],
+    "icons": ["🇸🇧", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Solomon_Islands",
+    "name": "Solomon Islands",
+    "prefix": "1978"
+  },
+  "somalia": {
+    "been": false,
+    "coords": "2.03333333, 45.35000000",
+    "countries": ["SO", "IT", "GB"],
+    "icons": ["🇸🇴", "🇮🇹", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Somalia",
+    "name": "Somalia",
+    "prefix": "1960"
+  },
+  "south-africa": {
+    "been": false,
+    "coords": "-30.00000000, 25.00000000",
+    "countries": ["ZA", "GB"],
+    "icons": ["🇿🇦", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/South_Africa",
+    "name": "South Africa",
+    "prefix": "1931"
+  },
+  "south-korea": {
+    "been": true,
+    "coords": "37.55000000, 126.96666667",
+    "countries": ["KR", "US"],
+    "icons": ["🇰🇷", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/South_Korea",
+    "name": "South Korea",
+    "prefix": "1948"
+  },
+  "south-sudan": {
+    "been": false,
+    "coords": "4.85000000, 31.56666667",
+    "countries": ["SS", "SD"],
+    "icons": ["🇸🇸", "🇸🇩"],
+    "link": "https://en.wikipedia.org/wiki/South_Sudan",
+    "name": "South Sudan",
+    "prefix": "2011"
+  },
+  "sri-lanka": {
+    "been": false,
+    "coords": "6.93333333, 79.86666667",
+    "countries": ["LK", "GB"],
+    "icons": ["🇱🇰", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "name": "Sri Lanka",
+    "prefix": "1948"
+  },
+  "sudan": {
+    "been": false,
+    "coords": "15.63333333, 32.53333333",
+    "countries": ["SD", "EG", "GB"],
+    "icons": ["🇸🇩", "🇪🇬", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Sudan",
+    "name": "Sudan",
+    "prefix": "1956"
+  },
+  "suriname": {
+    "been": false,
+    "coords": "5.83333333, -55.16666667",
+    "countries": ["SR", "NL"],
+    "icons": ["🇸🇷", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Suriname",
+    "name": "Suriname",
+    "prefix": "1975"
+  },
+  "syria": {
+    "been": false,
+    "coords": "33.50000000, 36.30000000",
+    "countries": ["SY", "EG"],
+    "icons": ["🇸🇾", "🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Syria",
+    "name": "Syria",
+    "prefix": "1961"
+  },
+  "taiwan": {
+    "been": false,
+    "coords": "25.06666667, 121.51666667",
+    "countries": ["TW", "JP"],
+    "icons": ["🇹🇼", "🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Taiwan",
+    "name": "Taiwan",
+    "prefix": "1945"
+  },
+  "tajikistan": {
+    "been": false,
+    "coords": "38.55000000, 68.80000000",
+    "country": "TJ",
+    "flags": ["soviet-union"],
+    "icons": ["🇹🇯"],
+    "link": "https://en.wikipedia.org/wiki/Tajikistan",
+    "name": "Tajikistan",
+    "prefix": "1991"
+  },
+  "tanzania": {
+    "been": false,
+    "coords": "-6.16666667, 35.73333333",
+    "countries": ["TZ", "GB"],
+    "icons": ["🇹🇿", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Tanzania",
+    "name": "Tanzania",
+    "prefix": "1961"
+  },
+  "timor-leste": {
+    "been": false,
+    "coords": "-8.55000000, 125.56000000",
+    "countries": ["TL", "ID"],
+    "icons": ["🇹🇱", "🇮🇩"],
+    "link": "https://en.wikipedia.org/wiki/Timor-Leste",
+    "name": "Timor-Leste",
+    "prefix": "2002"
+  },
+  "togo": {
+    "been": true,
+    "coords": "6.13333333, 1.21666667",
+    "countries": ["TG", "FR"],
+    "icons": ["🇹🇬", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Togo",
+    "name": "Togo",
+    "prefix": "1960"
+  },
+  "tonga": {
+    "been": false,
+    "coords": "-21.13333333, -175.20000000",
+    "countries": ["TO", "GB"],
+    "icons": ["🇹🇴", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Tonga",
+    "name": "Tonga",
+    "prefix": "1970"
+  },
+  "trinidad-and-tobago": {
+    "been": false,
+    "coords": "10.66700000, -61.50750000",
+    "countries": ["TT", "GB"],
+    "icons": ["🇹🇹", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
+    "name": "Trinidad and Tobago",
+    "prefix": "1962"
+  },
+  "tunisia": {
+    "been": false,
+    "coords": "36.81666667, 10.18333333",
+    "countries": ["TN", "FR"],
+    "icons": ["🇹🇳", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Tunisia",
+    "name": "Tunisia",
+    "prefix": "1956"
+  },
+  "turkiye": {
+    "been": true,
+    "coords": "39.91666667, 32.85000000",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/T%C3%BCrkiye",
+    "name": "Türkiye",
+    "prefix": "1923",
+    "reference": "Ottoman Empire"
+  },
+  "turkmenistan": {
+    "been": false,
+    "coords": "37.96666667, 58.33333333",
+    "country": "TM",
+    "flags": ["soviet-union"],
+    "icons": ["🇹🇲"],
+    "link": "https://en.wikipedia.org/wiki/Turkmenistan",
+    "name": "Turkmenistan",
+    "prefix": "1991"
+  },
+  "tuvalu": {
+    "been": false,
+    "coords": "-8.51666667, 179.20000000",
+    "countries": ["TV", "GB"],
+    "icons": ["🇹🇻", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Tuvalu",
+    "name": "Tuvalu",
+    "prefix": "1978"
+  },
+  "uganda": {
+    "been": true,
+    "coords": "1.00000000, 32.00000000",
+    "countries": ["UG", "GB"],
+    "icons": ["🇺🇬", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Uganda",
+    "name": "Uganda",
+    "prefix": "1962"
+  },
+  "ukraine": {
+    "been": true,
+    "coords": "50.45000000, 30.51666667",
+    "country": "UA",
+    "flags": ["soviet-union"],
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Ukraine",
+    "name": "Ukraine",
+    "prefix": "1991"
+  },
+  "united-arab-emirates": {
+    "been": true,
+    "coords": "24.46666667, 54.36666667",
+    "countries": ["AE", "GB"],
+    "icons": ["🇦🇪", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+    "name": "United Arab Emirates",
+    "prefix": "1971"
+  },
+  "united-states": {
+    "been": true,
+    "coords": "38.88333333, -77.01666667",
+    "countries": ["US", "GB"],
+    "icons": ["🇺🇸", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/United_States",
+    "name": "United States",
+    "prefix": "1776"
+  },
+  "uruguay": {
+    "been": false,
+    "coords": "-34.88333333, -56.16666667",
+    "countries": ["UY", "BR"],
+    "icons": ["🇺🇾", "🇧🇷"],
+    "link": "https://en.wikipedia.org/wiki/Uruguay",
+    "name": "Uruguay",
+    "prefix": "1825"
+  },
+  "uzbekistan": {
+    "been": false,
+    "coords": "41.31666667, 69.26666667",
+    "country": "UZ",
+    "flags": ["soviet-union"],
+    "icons": ["🇺🇿"],
+    "link": "https://en.wikipedia.org/wiki/Uzbekistan",
+    "name": "Uzbekistan",
+    "prefix": "1991"
+  },
+  "vanuatu": {
+    "been": true,
+    "coords": "-16.633330555556, 168.01666944444",
+    "countries": ["VU", "FR", "GB"],
+    "icons": ["🇻🇺", "🇫🇷", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Vanuatu",
+    "name": "Vanuatu",
+    "prefix": "1980",
+    "wikidata": "Q686"
+  },
+  "vatican-city": {
+    "been": true,
+    "coords": "41.90333333, 12.45333333",
+    "countries": ["VA", "IT"],
+    "icons": ["🇻🇦", "🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Vatican_City",
+    "name": "Vatican City",
+    "prefix": "1929"
+  },
+  "venezuela": {
+    "been": false,
+    "coords": "10.48055556, -66.90361111",
+    "countries": ["VE", "CO"],
+    "icons": ["🇻🇪", "🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Venezuela",
+    "name": "Venezuela",
+    "prefix": "1830"
+  },
+  "zambia": {
+    "been": false,
+    "coords": "-15.41666667, 28.28333333",
+    "countries": ["ZM", "GB"],
+    "icons": ["🇿🇲", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Zambia",
+    "name": "Zambia",
+    "prefix": "1964"
+  },
+  "zimbabwe": {
+    "been": false,
+    "coords": "-17.82916667, 31.05222222",
+    "countries": ["ZW", "GB"],
+    "icons": ["🇿🇼", "🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Zimbabwe",
+    "name": "Zimbabwe",
+    "prefix": "1980"
+  }
+}
