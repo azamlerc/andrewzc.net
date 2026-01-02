@@ -52,7 +52,8 @@
     "city": "New York",
     "coords": "40.67683000, -73.90000800",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "icons": ["🇺🇸"],
+    "flags": ["AL"],
     "link": "https://en.wikipedia.org/wiki/Alabama_Avenue_station",
     "name": "Alabama Avenue"
   },
@@ -547,7 +548,8 @@
     "been": false,
     "coords": "28.00000000, -82.00000000",
     "country": "AR",
-    "icons": ["🇦🇷", "🇦🇷"],
+    "icons": ["🇦🇷"],
+    "flags": ["FL"],
     "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
     "name": "Florida"
   },
@@ -1068,14 +1070,14 @@
     "name": "New York",
     "wikidata": "Q2420027"
   },
-  "new-york-ave–florida-ave-": {
+  "new-york-ave–florida-ave": {
     "been": true,
     "city": "Washington",
     "coords": "38.90702530, -77.00315280",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["NY", "FL"],
     "link": "https://en.wikipedia.org/wiki/NoMa–Gallaudet_U_station",
-    "name": "New York Ave–Florida Ave "
+    "name": "New York Ave–Florida Ave"
   },
   "newkirk-avenue–little-haiti": {
     "been": true,
@@ -1412,7 +1414,7 @@
   },
   "san-jose": {
     "been": true,
-    "city": "San Jose",
+    "city": "San José",
     "coords": "37.30416667, -121.87277778",
     "countries": ["CO", "CR"],
     "icons": ["🇨🇴", "🇨🇷"],

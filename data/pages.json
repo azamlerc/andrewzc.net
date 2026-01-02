@@ -2053,7 +2053,7 @@
   "skip-stop": {
     "icon": "🐛",
     "name": "Skip-Stop Lines",
-    "size": "large",
+    "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
@@ -2233,7 +2233,7 @@
     },
     "name": "US States",
     "size": "large",
-    "tags": ["middleSectionBeen"],
+    "tags": [],
     "type": "place"
   },
   "stations": {
@@ -2447,6 +2447,7 @@
     },
     "name": "Tri-States",
     "size": "large",
+    "sort": ["order", "countries"],
     "tags": ["featured"],
     "type": "place"
   },
