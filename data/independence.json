@@ -1,9 +1,17 @@
 {
   "--info--": {
     "icon": "🎆",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
     "name": "Independence",
+    "prefixClass": "fixed",
     "size": "medium",
-    "tags": ["prefix"],
+    "sort": "prefix",
+    "tags": ["auto", "prefix", "double-flag"],
     "type": "place"
   },
   "afghanistan": {
@@ -406,7 +414,7 @@
     "been": true,
     "coords": "50.08333333, 14.46666667",
     "country": "CZ",
-    "icons": ["🇨🇿"],
+    "icons": ["🇨🇿", "🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Czechia",
     "name": "Czechia",
     "prefix": "1993",
@@ -1064,7 +1072,7 @@
     "been": false,
     "coords": "12.10000000, -86.23333333",
     "country": "NI",
-    "icons": ["🇳🇮"],
+    "icons": ["🇳🇮", "🇳🇮"],
     "link": "https://en.wikipedia.org/wiki/Nicaragua",
     "name": "Nicaragua",
     "prefix": "1898",
@@ -1499,7 +1507,7 @@
     "been": true,
     "coords": "39.91666667, 32.85000000",
     "country": "TR",
-    "icons": ["🇹🇷"],
+    "icons": ["🇹🇷", "🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/T%C3%BCrkiye",
     "name": "Türkiye",
     "prefix": "1923",

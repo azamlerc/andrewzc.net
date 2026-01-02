@@ -1,194 +1,195 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>🎆 Independence</title>
-  <meta charset="UTF-8">
-	<meta name="andrewzc" content="prefix" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.45">
-  <link rel="stylesheet" href="styles.css">
+	<title>🎆 Independence</title>
+	<meta charset="UTF-8">
+	<meta name="andrewzc" content="auto, double-flag, prefix" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.45">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="headline">🎆 Independence</div>
+<div id="map" lat="25" lon="15" zoom="2" cluster="false"></div><script src="map.js"></script>
 <div class="items medium">
 
-1581 🇳🇱 🇪🇸 Netherlands<br>
-1776 🇺🇸 🇬🇧 United States<br>
-1819 🇨🇴 🇪🇸 Colombia<br>
-1822 🇬🇷 🇹🇷 Greece <span class="dark">Ottoman Empire</span><br>
-1830 🇧🇪 🇳🇱 Belgium<br>
-1836 🇲🇽 🇪🇸 Mexico<br>
-1838 🇨🇷 🇳🇮 Costa Rica <span class="dark">Federal Republic of Central America</span><br>
-1844 🇩🇴 🇭🇹 Dominican Republic<br>
-1861 🇲🇨 🇫🇷 Monaco<br>
-1866 🇱🇮 🇩🇪 Liechtenstein<br>
-1877 🇷🇴 🇹🇷 Romania <span class="dark">Ottoman Empire</span><br>
-1890 🇱🇺 🇳🇱 Luxembourg<br>
-1904 🇵🇦 🇪🇸 Panama<br>
-1908 🇧🇬 🇹🇷 Bulgaria <span class="dark">Ottoman Empire</span><br>
-1917 🇫🇮 🇷🇺 Finland<br>
-1918 🇮🇸 🇩🇰 Iceland<br>
-1922 🇪🇬 🇬🇧 Egypt<br>
-1923 🇹🇷 🇹🇷 Türkiye <span class="dark">Ottoman Empire</span><br>
-1929 🇻🇦 🇮🇹 Vatican City<br>
-1931 🇨🇦 🇬🇧 Canada<br>
-1931 🇮🇪 🇬🇧 Ireland<br>
-1941 🇪🇹 🇮🇹 Ethiopia<br>
-1944 🇵🇱 🇩🇪 <img class="state" src="images/flags/soviet-union.png"> Poland<br>
-1947 🇮🇳 🇬🇧 India<br>
-1948 🇮🇱 🇬🇧 Israel<br>
-1948 🇰🇷 🇺🇸 South Korea<br>
-1956 🇲🇦 🇫🇷 🇪🇸 Morocco<br>
-1960 🇧🇯 🇫🇷 Benin<br>
-1960 🇧🇫 🇫🇷 Burkina Faso<br>
-1960 🇲🇱 Mali <span class="dark">Mali Federation</span><br>
-1960 🇳🇬 🇬🇧 Nigeria<br>
-1960 🇸🇳 Senegal <span class="dark">Mali Federation</span><br>
-1960 🇹🇬 🇫🇷 Togo<br>
-1962 🇷🇼 🇧🇪 Rwanda<br>
-1962 🇺🇬 🇬🇧 Uganda<br>
-1963 🇰🇪 🇬🇧 Kenya<br>
-1965 🇬🇲 🇬🇧 Gambia<br>
-1971 🇦🇪 🇬🇧 United Arab Emirates<br>
-1975 🇨🇻 🇵🇹 Cape Verde<br>
-1980 🇻🇺 🇫🇷 🇬🇧 Vanuatu<br>
-1988 🇵🇸 🇮🇱 Palestine<br>
-1990 🇱🇻 <img class="state" src="images/flags/soviet-union.png"> Latvia<br>
-1991 🇭🇷 <img class="state" src="images/flags/yugoslavia.png"> Croatia<br>
-1991 🇪🇪 <img class="state" src="images/flags/soviet-union.png"> Estonia<br>
-1991 🇲🇩 <img class="state" src="images/flags/soviet-union.png"> Moldova<br>
-1991 🇲🇰 <img class="state" src="images/flags/yugoslavia.png"> North Macedonia<br>
-1991 🇷🇺 <img class="state" src="images/flags/soviet-union.png"> Russia<br>
-1991 🇸🇮 <img class="state" src="images/flags/yugoslavia.png"> Slovenia<br>
-1991 🇺🇦 <img class="state" src="images/flags/soviet-union.png"> Ukraine<br>
-1992 🇧🇦 <img class="state" src="images/flags/yugoslavia.png"> Bosnia and Herzegovina<br>
-1993 🇨🇿 🇨🇿 Czechia <span class="dark">Czechoslovakia</span><br>
-1993 🇸🇰 🇨🇿 Slovakia <span class="dark">Czechoslovakia</span><br>
-2006 🇲🇪 <img class="state" src="images/flags/yugoslavia.png"> Montenegro<br>
-2006 🇷🇸 <img class="state" src="images/flags/yugoslavia.png"> Serbia<br>
+<span class="fixed">1581</span> 🇳🇱 🇪🇸 <a href="https://en.wikipedia.org/wiki/Netherlands">Netherlands</a><br>
+<span class="fixed">1776</span> 🇺🇸 🇬🇧 <a href="https://en.wikipedia.org/wiki/United_States">United States</a><br>
+<span class="fixed">1819</span> 🇨🇴 🇪🇸 <a href="https://en.wikipedia.org/wiki/Colombia">Colombia</a><br>
+<span class="fixed">1822</span> 🇬🇷 🇹🇷 <a href="https://en.wikipedia.org/wiki/Greece">Greece</a> <span class="dark">Ottoman Empire</span><br>
+<span class="fixed">1830</span> 🇧🇪 🇳🇱 <a href="https://en.wikipedia.org/wiki/Belgium">Belgium</a><br>
+<span class="fixed">1836</span> 🇲🇽 🇪🇸 <a href="https://en.wikipedia.org/wiki/Mexico">Mexico</a><br>
+<span class="fixed">1838</span> 🇨🇷 🇳🇮 <a href="https://en.wikipedia.org/wiki/Costa_Rica">Costa Rica</a> <span class="dark">Federal Republic of Central America</span><br>
+<span class="fixed">1844</span> 🇩🇴 🇭🇹 <a href="https://en.wikipedia.org/wiki/Dominican_Republic">Dominican Republic</a><br>
+<span class="fixed">1861</span> 🇲🇨 🇫🇷 <a href="https://en.wikipedia.org/wiki/Monaco">Monaco</a><br>
+<span class="fixed">1866</span> 🇱🇮 🇩🇪 <a href="https://en.wikipedia.org/wiki/Liechtenstein">Liechtenstein</a><br>
+<span class="fixed">1877</span> 🇷🇴 🇹🇷 <a href="https://en.wikipedia.org/wiki/Romania">Romania</a> <span class="dark">Ottoman Empire</span><br>
+<span class="fixed">1890</span> 🇱🇺 🇳🇱 <a href="https://en.wikipedia.org/wiki/Luxembourg">Luxembourg</a><br>
+<span class="fixed">1904</span> 🇵🇦 🇪🇸 <a href="https://en.wikipedia.org/wiki/Panama">Panama</a><br>
+<span class="fixed">1908</span> 🇧🇬 🇹🇷 <a href="https://en.wikipedia.org/wiki/Bulgaria">Bulgaria</a> <span class="dark">Ottoman Empire</span><br>
+<span class="fixed">1917</span> 🇫🇮 🇷🇺 <a href="https://en.wikipedia.org/wiki/Finland">Finland</a><br>
+<span class="fixed">1918</span> 🇮🇸 🇩🇰 <a href="https://en.wikipedia.org/wiki/Iceland">Iceland</a><br>
+<span class="fixed">1922</span> 🇪🇬 🇬🇧 <a href="https://en.wikipedia.org/wiki/Egypt">Egypt</a><br>
+<span class="fixed">1923</span> 🇹🇷 🇹🇷 <a href="https://en.wikipedia.org/wiki/T%C3%BCrkiye">Türkiye</a> <span class="dark">Ottoman Empire</span><br>
+<span class="fixed">1929</span> 🇻🇦 🇮🇹 <a href="https://en.wikipedia.org/wiki/Vatican_City">Vatican City</a><br>
+<span class="fixed">1931</span> 🇨🇦 🇬🇧 <a href="https://en.wikipedia.org/wiki/Canada">Canada</a><br>
+<span class="fixed">1931</span> 🇮🇪 🇬🇧 <a href="https://en.wikipedia.org/wiki/Ireland">Ireland</a><br>
+<span class="fixed">1941</span> 🇪🇹 🇮🇹 <a href="https://en.wikipedia.org/wiki/Ethiopia">Ethiopia</a><br>
+<span class="fixed">1944</span> 🇵🇱 🇩🇪 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Poland">Poland</a><br>
+<span class="fixed">1947</span> 🇮🇳 🇬🇧 <a href="https://en.wikipedia.org/wiki/India">India</a><br>
+<span class="fixed">1948</span> 🇮🇱 🇬🇧 <a href="https://en.wikipedia.org/wiki/Israel">Israel</a><br>
+<span class="fixed">1948</span> 🇰🇷 🇺🇸 <a href="https://en.wikipedia.org/wiki/South_Korea">South Korea</a><br>
+<span class="fixed">1956</span> 🇲🇦 🇫🇷 🇪🇸 <a href="https://en.wikipedia.org/wiki/Morocco">Morocco</a><br>
+<span class="fixed">1960</span> 🇧🇯 🇫🇷 <a href="https://en.wikipedia.org/wiki/Benin">Benin</a><br>
+<span class="fixed">1960</span> 🇧🇫 🇫🇷 <a href="https://en.wikipedia.org/wiki/Burkina_Faso">Burkina Faso</a><br>
+<span class="fixed">1960</span> 🇲🇱 <a href="https://en.wikipedia.org/wiki/Mali">Mali</a> <span class="dark">Mali Federation</span><br>
+<span class="fixed">1960</span> 🇳🇬 🇬🇧 <a href="https://en.wikipedia.org/wiki/Nigeria">Nigeria</a><br>
+<span class="fixed">1960</span> 🇸🇳 <a href="https://en.wikipedia.org/wiki/Senegal">Senegal</a> <span class="dark">Mali Federation</span><br>
+<span class="fixed">1960</span> 🇹🇬 🇫🇷 <a href="https://en.wikipedia.org/wiki/Togo">Togo</a><br>
+<span class="fixed">1962</span> 🇷🇼 🇧🇪 <a href="https://en.wikipedia.org/wiki/Rwanda">Rwanda</a><br>
+<span class="fixed">1962</span> 🇺🇬 🇬🇧 <a href="https://en.wikipedia.org/wiki/Uganda">Uganda</a><br>
+<span class="fixed">1963</span> 🇰🇪 🇬🇧 <a href="https://en.wikipedia.org/wiki/Kenya">Kenya</a><br>
+<span class="fixed">1965</span> 🇬🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Gambia">Gambia</a><br>
+<span class="fixed">1971</span> 🇦🇪 🇬🇧 <a href="https://en.wikipedia.org/wiki/United_Arab_Emirates">United Arab Emirates</a><br>
+<span class="fixed">1975</span> 🇨🇻 🇵🇹 <a href="https://en.wikipedia.org/wiki/Cape_Verde">Cape Verde</a><br>
+<span class="fixed">1980</span> 🇻🇺 🇫🇷 🇬🇧 <a href="https://en.wikipedia.org/wiki/Vanuatu">Vanuatu</a><br>
+<span class="fixed">1988</span> 🇵🇸 🇮🇱 <a href="https://en.wikipedia.org/wiki/Palestine">Palestine</a><br>
+<span class="fixed">1990</span> 🇱🇻 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Latvia">Latvia</a><br>
+<span class="fixed">1991</span> 🇭🇷 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/Croatia">Croatia</a><br>
+<span class="fixed">1991</span> 🇪🇪 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Estonia">Estonia</a><br>
+<span class="fixed">1991</span> 🇲🇩 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Moldova">Moldova</a><br>
+<span class="fixed">1991</span> 🇲🇰 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/North_Macedonia">North Macedonia</a><br>
+<span class="fixed">1991</span> 🇷🇺 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Russia">Russia</a><br>
+<span class="fixed">1991</span> 🇸🇮 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/Slovenia">Slovenia</a><br>
+<span class="fixed">1991</span> 🇺🇦 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Ukraine">Ukraine</a><br>
+<span class="fixed">1992</span> 🇧🇦 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina">Bosnia and Herzegovina</a><br>
+<span class="fixed">1993</span> 🇨🇿 🇨🇿 <a href="https://en.wikipedia.org/wiki/Czechia">Czechia</a> <span class="dark">Czechoslovakia</span><br>
+<span class="fixed">1993</span> 🇸🇰 🇨🇿 <a href="https://en.wikipedia.org/wiki/Slovakia">Slovakia</a> <span class="dark">Czechoslovakia</span><br>
+<span class="fixed">2006</span> 🇲🇪 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/Montenegro">Montenegro</a><br>
+<span class="fixed">2006</span> 🇷🇸 <img class="state" src="images/flags/yugoslavia.png"> <a href="https://en.wikipedia.org/wiki/Serbia">Serbia</a><br>
 
 <hr>
 
-1743 🇴🇲 Oman <span class="dark">Afsharid Empire</span><br>
-1747 🇦🇫 Afghanistan <span class="dark">Afsharid Empire</span><br>
-1752 🇰🇼 Kuwait <span class="dark">Khalidi Emirate</span><br>
-1804 🇭🇹 🇫🇷 Haiti<br>
-1816 🇦🇷 🇪🇸 Argentina<br>
-1818 🇨🇱 🇪🇸 Chile<br>
-1825 🇧🇴 🇪🇸 Bolivia<br>
-1825 🇧🇷 🇵🇹 Brazil<br>
-1825 🇺🇾 🇧🇷 Uruguay<br>
-1830 🇪🇨 🇨🇴 Ecuador<br>
-1830 🇻🇪 🇨🇴 Venezuela<br>
-1839 🇬🇹 🇳🇮 Guatemala <span class="dark">Federal Republic of Central America</span><br>
-1845 🇵🇾 🇧🇷 Paraguay<br>
-1847 🇱🇷 🇺🇸 Liberia<br>
-1898 🇸🇻 🇳🇮 El Salvador <span class="dark">Greater Republic of Central America</span><br>
-1898 🇭🇳 🇳🇮 Honduras <span class="dark">Greater Republic of Central America</span><br>
-1898 🇳🇮 🇳🇮 Nicaragua <span class="dark">Greater Republic of Central America</span><br>
-1902 🇨🇺 🇺🇸 Cuba<br>
-1911 🇲🇳 🇨🇳 Mongolia<br>
-1912 🇦🇱 🇹🇷 Albania <span class="dark">Ottoman Empire</span><br>
-1931 🇿🇦 🇬🇧 South Africa<br>
-1932 🇮🇶 🇬🇧 Iraq<br>
-1942 🇦🇺 🇬🇧 Australia<br>
-1943 🇱🇧 🇫🇷 Lebanon<br>
-1945 🇹🇼 🇯🇵 Taiwan<br>
-1946 🇵🇭 🇺🇸 Philippines<br>
-1947 🇳🇿 🇬🇧 New Zealand<br>
-1947 🇵🇰 🇬🇧 Pakistan<br>
-1948 🇲🇲 🇬🇧 Myanmar<br>
-1948 🇰🇵 <img class="state" src="images/flags/soviet-union.png"> North Korea<br>
-1948 🇱🇰 🇬🇧 Sri Lanka<br>
-1949 🇮🇩 🇳🇱 Indonesia<br>
-1951 🇱🇾 🇫🇷 🇬🇧 Libya<br>
-1953 🇰🇭 🇫🇷 Cambodia<br>
-1953 🇱🇦 🇫🇷 Laos<br>
-1956 🇸🇩 🇪🇬 🇬🇧 Sudan<br>
-1956 🇹🇳 🇫🇷 Tunisia<br>
-1957 🇬🇭 🇬🇧 Ghana<br>
-1957 🇲🇾 🇬🇧 Malaysia<br>
-1958 🇬🇳 🇫🇷 Guinea<br>
-1958 🇯🇴 🇵🇸 Jordan <span class="dark">Arab Federation</span><br>
-1960 🇨🇫 🇫🇷 Central African Republic<br>
-1960 🇹🇩 🇫🇷 Chad<br>
-1960 🇨🇬 🇫🇷 Congo-Brazzaville<br>
-1960 🇨🇩 🇧🇪 Congo-Kinshasa<br>
-1960 🇨🇮 🇫🇷 Côte d’Ivoire<br>
-1960 🇨🇼 🇬🇧 Curaçao<br>
-1960 🇨🇾 🇬🇧 Cyprus<br>
-1960 🇬🇦 🇫🇷 Gabon<br>
-1960 🇲🇬 🇫🇷 Madagascar<br>
-1960 🇲🇷 🇫🇷 Mauritania<br>
-1960 🇳🇪 🇫🇷 Niger<br>
-1960 🇸🇴 🇮🇹 🇬🇧 Somalia<br>
-1961 🇨🇲 🇬🇧 Cameroon<br>
-1961 🇸🇱 🇬🇧 Sierra Leone<br>
-1961 🇸🇾 🇪🇬 Syria<br>
-1961 🇹🇿 🇬🇧 Tanzania<br>
-1962 🇩🇿 🇫🇷 Algeria<br>
-1962 🇧🇮 🇧🇪 Burundi<br>
-1962 🇯🇲 🇬🇧 Jamaica<br>
-1962 🇼🇸 🇳🇿 Samoa<br>
-1962 🇹🇹 🇬🇧 Trinidad and Tobago<br>
-1964 🇲🇼 🇬🇧 Malawi<br>
-1964 🇲🇹 🇬🇧 Malta<br>
-1964 🇿🇲 🇬🇧 Zambia<br>
-1965 🇨🇰 🇳🇿 Cook Islands<br>
-1965 🇲🇻 🇬🇧 Maldives<br>
-1965 🇸🇬 🇲🇾 Singapore<br>
-1966 🇧🇧 🇬🇧 Barbados<br>
-1966 🇧🇼 🇬🇧 Botswana<br>
-1966 🇬🇾 🇬🇧 Guyana<br>
-1966 🇱🇸 🇬🇧 Lesotho<br>
-1968 🇬🇶 🇪🇸 Equatorial Guinea<br>
-1968 🇸🇿 🇬🇧 Eswatini<br>
-1968 🇲🇺 🇬🇧 Mauritius<br>
-1968 🇳🇷 🇦🇺 Nauru<br>
-1970 🇫🇯 🇬🇧 Fiji<br>
-1970 🇹🇴 🇬🇧 Tonga<br>
-1971 🇧🇭 🇬🇧 Bahrain<br>
-1971 🇧🇩 🇵🇰 Bangladesh<br>
-1971 🇶🇦 🇬🇧 Qatar<br>
-1973 🇧🇸 🇬🇧 Bahamas<br>
-1973 🇬🇼 🇵🇹 Guinea-Bissau<br>
-1974 🇬🇩 🇬🇧 Grenada<br>
-1975 🇦🇴 🇵🇹 Angola<br>
-1975 🇰🇲 🇫🇷 Comoros<br>
-1975 🇲🇿 🇵🇹 Mozambique<br>
-1975 🇵🇬 🇦🇺 Papua New Guinea<br>
-1975 🇸🇹 🇵🇹 São Tomé and Príncipe<br>
-1975 🇸🇷 🇳🇱 Suriname<br>
-1976 🇸🇨 🇬🇧 Seychelles<br>
-1978 🇩🇯 🇬🇧 Djibouti<br>
-1978 🇩🇲 🇬🇧 Dominica<br>
-1978 🇸🇧 🇬🇧 Solomon Islands<br>
-1978 🇹🇻 🇬🇧 Tuvalu<br>
-1979 🇰🇮 🇬🇧 Kiribati<br>
-1979 🇱🇨 🇬🇧 Saint Lucia<br>
-1979 🇻🇨 🇬🇧 Saint Vincent and the Grenadines<br>
-1980 🇿🇼 🇬🇧 Zimbabwe<br>
-1981 🇦🇬 🇬🇧 Antigua and Barbuda<br>
-1981 🇧🇿 🇬🇧 Belize<br>
-1983 🇰🇳 🇬🇧 Saint Kitts and Nevis<br>
-1984 🇧🇳 🇬🇧 Brunei<br>
-1986 🇲🇭 🇺🇸 Marshall Islands<br>
-1986 🇫🇲 🇺🇸 Micronesia<br>
-1990 🇱🇹 <img class="state" src="images/flags/soviet-union.png"> Lithuania<br>
-1990 🇳🇦 🇿🇦 Namibia<br>
-1991 🇦🇲 <img class="state" src="images/flags/soviet-union.png"> Armenia<br>
-1991 🇦🇿 <img class="state" src="images/flags/soviet-union.png"> Azerbaijan<br>
-1991 🇧🇾 <img class="state" src="images/flags/soviet-union.png"> Belarus<br>
-1991 🇬🇪 <img class="state" src="images/flags/soviet-union.png"> Georgia<br>
-1991 🇰🇿 <img class="state" src="images/flags/soviet-union.png"> Kazakhstan<br>
-1991 🇰🇬 <img class="state" src="images/flags/soviet-union.png"> Kyrgyzstan<br>
-1991 🇹🇯 <img class="state" src="images/flags/soviet-union.png"> Tajikistan<br>
-1991 🇹🇲 <img class="state" src="images/flags/soviet-union.png"> Turkmenistan<br>
-1991 🇺🇿 <img class="state" src="images/flags/soviet-union.png"> Uzbekistan<br>
-1993 🇪🇷 🇪🇹 Eritrea<br>
-1994 🇵🇼 🇺🇸 Palau<br>
-2002 🇹🇱 🇮🇩 Timor-Leste<br>
-2008 🇽🇰 🇷🇸 Kosovo<br>
-2011 🇸🇸 🇸🇩 South Sudan<br>
+<span class="fixed">1743</span> 🇴🇲 <a href="https://en.wikipedia.org/wiki/Oman">Oman</a> <span class="dark">Afsharid Empire</span><br>
+<span class="fixed">1747</span> 🇦🇫 <a href="https://en.wikipedia.org/wiki/Afghanistan">Afghanistan</a> <span class="dark">Afsharid Empire</span><br>
+<span class="fixed">1752</span> 🇰🇼 <a href="https://en.wikipedia.org/wiki/Kuwait">Kuwait</a> <span class="dark">Khalidi Emirate</span><br>
+<span class="fixed">1804</span> 🇭🇹 🇫🇷 <a href="https://en.wikipedia.org/wiki/Haiti">Haiti</a><br>
+<span class="fixed">1816</span> 🇦🇷 🇪🇸 <a href="https://en.wikipedia.org/wiki/Argentina">Argentina</a><br>
+<span class="fixed">1818</span> 🇨🇱 🇪🇸 <a href="https://en.wikipedia.org/wiki/Chile">Chile</a><br>
+<span class="fixed">1825</span> 🇧🇴 🇪🇸 <a href="https://en.wikipedia.org/wiki/Bolivia">Bolivia</a><br>
+<span class="fixed">1825</span> 🇧🇷 🇵🇹 <a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a><br>
+<span class="fixed">1825</span> 🇺🇾 🇧🇷 <a href="https://en.wikipedia.org/wiki/Uruguay">Uruguay</a><br>
+<span class="fixed">1830</span> 🇪🇨 🇨🇴 <a href="https://en.wikipedia.org/wiki/Ecuador">Ecuador</a><br>
+<span class="fixed">1830</span> 🇻🇪 🇨🇴 <a href="https://en.wikipedia.org/wiki/Venezuela">Venezuela</a><br>
+<span class="fixed">1839</span> 🇬🇹 🇳🇮 <a href="https://en.wikipedia.org/wiki/Guatemala">Guatemala</a> <span class="dark">Federal Republic of Central America</span><br>
+<span class="fixed">1845</span> 🇵🇾 🇧🇷 <a href="https://en.wikipedia.org/wiki/Paraguay">Paraguay</a><br>
+<span class="fixed">1847</span> 🇱🇷 🇺🇸 <a href="https://en.wikipedia.org/wiki/Liberia">Liberia</a><br>
+<span class="fixed">1898</span> 🇸🇻 🇳🇮 <a href="https://en.wikipedia.org/wiki/El_Salvador">El Salvador</a> <span class="dark">Greater Republic of Central America</span><br>
+<span class="fixed">1898</span> 🇭🇳 🇳🇮 <a href="https://en.wikipedia.org/wiki/Honduras">Honduras</a> <span class="dark">Greater Republic of Central America</span><br>
+<span class="fixed">1898</span> 🇳🇮 🇳🇮 <a href="https://en.wikipedia.org/wiki/Nicaragua">Nicaragua</a> <span class="dark">Greater Republic of Central America</span><br>
+<span class="fixed">1902</span> 🇨🇺 🇺🇸 <a href="https://en.wikipedia.org/wiki/Cuba">Cuba</a><br>
+<span class="fixed">1911</span> 🇲🇳 🇨🇳 <a href="https://en.wikipedia.org/wiki/Mongolia">Mongolia</a><br>
+<span class="fixed">1912</span> 🇦🇱 🇹🇷 <a href="https://en.wikipedia.org/wiki/Albania">Albania</a> <span class="dark">Ottoman Empire</span><br>
+<span class="fixed">1931</span> 🇿🇦 🇬🇧 <a href="https://en.wikipedia.org/wiki/South_Africa">South Africa</a><br>
+<span class="fixed">1932</span> 🇮🇶 🇬🇧 <a href="https://en.wikipedia.org/wiki/Iraq">Iraq</a><br>
+<span class="fixed">1942</span> 🇦🇺 🇬🇧 <a href="https://en.wikipedia.org/wiki/Australia">Australia</a><br>
+<span class="fixed">1943</span> 🇱🇧 🇫🇷 <a href="https://en.wikipedia.org/wiki/Lebanon">Lebanon</a><br>
+<span class="fixed">1945</span> 🇹🇼 🇯🇵 <a href="https://en.wikipedia.org/wiki/Taiwan">Taiwan</a><br>
+<span class="fixed">1946</span> 🇵🇭 🇺🇸 <a href="https://en.wikipedia.org/wiki/Philippines">Philippines</a><br>
+<span class="fixed">1947</span> 🇳🇿 🇬🇧 <a href="https://en.wikipedia.org/wiki/New_Zealand">New Zealand</a><br>
+<span class="fixed">1947</span> 🇵🇰 🇬🇧 <a href="https://en.wikipedia.org/wiki/Pakistan">Pakistan</a><br>
+<span class="fixed">1948</span> 🇲🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Myanmar">Myanmar</a><br>
+<span class="fixed">1948</span> 🇰🇵 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/North_Korea">North Korea</a><br>
+<span class="fixed">1948</span> 🇱🇰 🇬🇧 <a href="https://en.wikipedia.org/wiki/Sri_Lanka">Sri Lanka</a><br>
+<span class="fixed">1949</span> 🇮🇩 🇳🇱 <a href="https://en.wikipedia.org/wiki/Indonesia">Indonesia</a><br>
+<span class="fixed">1951</span> 🇱🇾 🇫🇷 🇬🇧 <a href="https://en.wikipedia.org/wiki/Libya">Libya</a><br>
+<span class="fixed">1953</span> 🇰🇭 🇫🇷 <a href="https://en.wikipedia.org/wiki/Cambodia">Cambodia</a><br>
+<span class="fixed">1953</span> 🇱🇦 🇫🇷 <a href="https://en.wikipedia.org/wiki/Laos">Laos</a><br>
+<span class="fixed">1956</span> 🇸🇩 🇪🇬 🇬🇧 <a href="https://en.wikipedia.org/wiki/Sudan">Sudan</a><br>
+<span class="fixed">1956</span> 🇹🇳 🇫🇷 <a href="https://en.wikipedia.org/wiki/Tunisia">Tunisia</a><br>
+<span class="fixed">1957</span> 🇬🇭 🇬🇧 <a href="https://en.wikipedia.org/wiki/Ghana">Ghana</a><br>
+<span class="fixed">1957</span> 🇲🇾 🇬🇧 <a href="https://en.wikipedia.org/wiki/Malaysia">Malaysia</a><br>
+<span class="fixed">1958</span> 🇬🇳 🇫🇷 <a href="https://en.wikipedia.org/wiki/Guinea">Guinea</a><br>
+<span class="fixed">1958</span> 🇯🇴 🇵🇸 <a href="https://en.wikipedia.org/wiki/Jordan">Jordan</a> <span class="dark">Arab Federation</span><br>
+<span class="fixed">1960</span> 🇨🇫 🇫🇷 <a href="https://en.wikipedia.org/wiki/Central_African_Republic">Central African Republic</a><br>
+<span class="fixed">1960</span> 🇹🇩 🇫🇷 <a href="https://en.wikipedia.org/wiki/Chad">Chad</a><br>
+<span class="fixed">1960</span> 🇨🇬 🇫🇷 <a href="https://en.wikipedia.org/wiki/Congo-Brazzaville">Congo-Brazzaville</a><br>
+<span class="fixed">1960</span> 🇨🇩 🇧🇪 <a href="https://en.wikipedia.org/wiki/Congo-Kinshasa">Congo-Kinshasa</a><br>
+<span class="fixed">1960</span> 🇨🇮 🇫🇷 <a href="https://en.wikipedia.org/wiki/C%C3%B4te_d%E2%80%99Ivoire">Côte d’Ivoire</a><br>
+<span class="fixed">1960</span> 🇨🇼 🇬🇧 <a href="https://en.wikipedia.org/wiki/Cura%C3%A7ao">Curaçao</a><br>
+<span class="fixed">1960</span> 🇨🇾 🇬🇧 <a href="https://en.wikipedia.org/wiki/Cyprus">Cyprus</a><br>
+<span class="fixed">1960</span> 🇬🇦 🇫🇷 <a href="https://en.wikipedia.org/wiki/Gabon">Gabon</a><br>
+<span class="fixed">1960</span> 🇲🇬 🇫🇷 <a href="https://en.wikipedia.org/wiki/Madagascar">Madagascar</a><br>
+<span class="fixed">1960</span> 🇲🇷 🇫🇷 <a href="https://en.wikipedia.org/wiki/Mauritania">Mauritania</a><br>
+<span class="fixed">1960</span> 🇳🇪 🇫🇷 <a href="https://en.wikipedia.org/wiki/Niger">Niger</a><br>
+<span class="fixed">1960</span> 🇸🇴 🇮🇹 🇬🇧 <a href="https://en.wikipedia.org/wiki/Somalia">Somalia</a><br>
+<span class="fixed">1961</span> 🇨🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Cameroon">Cameroon</a><br>
+<span class="fixed">1961</span> 🇸🇱 🇬🇧 <a href="https://en.wikipedia.org/wiki/Sierra_Leone">Sierra Leone</a><br>
+<span class="fixed">1961</span> 🇸🇾 🇪🇬 <a href="https://en.wikipedia.org/wiki/Syria">Syria</a><br>
+<span class="fixed">1961</span> 🇹🇿 🇬🇧 <a href="https://en.wikipedia.org/wiki/Tanzania">Tanzania</a><br>
+<span class="fixed">1962</span> 🇩🇿 🇫🇷 <a href="https://en.wikipedia.org/wiki/Algeria">Algeria</a><br>
+<span class="fixed">1962</span> 🇧🇮 🇧🇪 <a href="https://en.wikipedia.org/wiki/Burundi">Burundi</a><br>
+<span class="fixed">1962</span> 🇯🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Jamaica">Jamaica</a><br>
+<span class="fixed">1962</span> 🇼🇸 🇳🇿 <a href="https://en.wikipedia.org/wiki/Samoa">Samoa</a><br>
+<span class="fixed">1962</span> 🇹🇹 🇬🇧 <a href="https://en.wikipedia.org/wiki/Trinidad_and_Tobago">Trinidad and Tobago</a><br>
+<span class="fixed">1964</span> 🇲🇼 🇬🇧 <a href="https://en.wikipedia.org/wiki/Malawi">Malawi</a><br>
+<span class="fixed">1964</span> 🇲🇹 🇬🇧 <a href="https://en.wikipedia.org/wiki/Malta">Malta</a><br>
+<span class="fixed">1964</span> 🇿🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Zambia">Zambia</a><br>
+<span class="fixed">1965</span> 🇨🇰 🇳🇿 <a href="https://en.wikipedia.org/wiki/Cook_Islands">Cook Islands</a><br>
+<span class="fixed">1965</span> 🇲🇻 🇬🇧 <a href="https://en.wikipedia.org/wiki/Maldives">Maldives</a><br>
+<span class="fixed">1965</span> 🇸🇬 🇲🇾 <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a><br>
+<span class="fixed">1966</span> 🇧🇧 🇬🇧 <a href="https://en.wikipedia.org/wiki/Barbados">Barbados</a><br>
+<span class="fixed">1966</span> 🇧🇼 🇬🇧 <a href="https://en.wikipedia.org/wiki/Botswana">Botswana</a><br>
+<span class="fixed">1966</span> 🇬🇾 🇬🇧 <a href="https://en.wikipedia.org/wiki/Guyana">Guyana</a><br>
+<span class="fixed">1966</span> 🇱🇸 🇬🇧 <a href="https://en.wikipedia.org/wiki/Lesotho">Lesotho</a><br>
+<span class="fixed">1968</span> 🇬🇶 🇪🇸 <a href="https://en.wikipedia.org/wiki/Equatorial_Guinea">Equatorial Guinea</a><br>
+<span class="fixed">1968</span> 🇸🇿 🇬🇧 <a href="https://en.wikipedia.org/wiki/Eswatini">Eswatini</a><br>
+<span class="fixed">1968</span> 🇲🇺 🇬🇧 <a href="https://en.wikipedia.org/wiki/Mauritius">Mauritius</a><br>
+<span class="fixed">1968</span> 🇳🇷 🇦🇺 <a href="https://en.wikipedia.org/wiki/Nauru">Nauru</a><br>
+<span class="fixed">1970</span> 🇫🇯 🇬🇧 <a href="https://en.wikipedia.org/wiki/Fiji">Fiji</a><br>
+<span class="fixed">1970</span> 🇹🇴 🇬🇧 <a href="https://en.wikipedia.org/wiki/Tonga">Tonga</a><br>
+<span class="fixed">1971</span> 🇧🇭 🇬🇧 <a href="https://en.wikipedia.org/wiki/Bahrain">Bahrain</a><br>
+<span class="fixed">1971</span> 🇧🇩 🇵🇰 <a href="https://en.wikipedia.org/wiki/Bangladesh">Bangladesh</a><br>
+<span class="fixed">1971</span> 🇶🇦 🇬🇧 <a href="https://en.wikipedia.org/wiki/Qatar">Qatar</a><br>
+<span class="fixed">1973</span> 🇧🇸 🇬🇧 <a href="https://en.wikipedia.org/wiki/Bahamas">Bahamas</a><br>
+<span class="fixed">1973</span> 🇬🇼 🇵🇹 <a href="https://en.wikipedia.org/wiki/Guinea-Bissau">Guinea-Bissau</a><br>
+<span class="fixed">1974</span> 🇬🇩 🇬🇧 <a href="https://en.wikipedia.org/wiki/Grenada">Grenada</a><br>
+<span class="fixed">1975</span> 🇦🇴 🇵🇹 <a href="https://en.wikipedia.org/wiki/Angola">Angola</a><br>
+<span class="fixed">1975</span> 🇰🇲 🇫🇷 <a href="https://en.wikipedia.org/wiki/Comoros">Comoros</a><br>
+<span class="fixed">1975</span> 🇲🇿 🇵🇹 <a href="https://en.wikipedia.org/wiki/Mozambique">Mozambique</a><br>
+<span class="fixed">1975</span> 🇵🇬 🇦🇺 <a href="https://en.wikipedia.org/wiki/Papua_New_Guinea">Papua New Guinea</a><br>
+<span class="fixed">1975</span> 🇸🇹 🇵🇹 <a href="https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe">São Tomé and Príncipe</a><br>
+<span class="fixed">1975</span> 🇸🇷 🇳🇱 <a href="https://en.wikipedia.org/wiki/Suriname">Suriname</a><br>
+<span class="fixed">1976</span> 🇸🇨 🇬🇧 <a href="https://en.wikipedia.org/wiki/Seychelles">Seychelles</a><br>
+<span class="fixed">1978</span> 🇩🇯 🇬🇧 <a href="https://en.wikipedia.org/wiki/Djibouti">Djibouti</a><br>
+<span class="fixed">1978</span> 🇩🇲 🇬🇧 <a href="https://en.wikipedia.org/wiki/Dominica">Dominica</a><br>
+<span class="fixed">1978</span> 🇸🇧 🇬🇧 <a href="https://en.wikipedia.org/wiki/Solomon_Islands">Solomon Islands</a><br>
+<span class="fixed">1978</span> 🇹🇻 🇬🇧 <a href="https://en.wikipedia.org/wiki/Tuvalu">Tuvalu</a><br>
+<span class="fixed">1979</span> 🇰🇮 🇬🇧 <a href="https://en.wikipedia.org/wiki/Kiribati">Kiribati</a><br>
+<span class="fixed">1979</span> 🇱🇨 🇬🇧 <a href="https://en.wikipedia.org/wiki/Saint_Lucia">Saint Lucia</a><br>
+<span class="fixed">1979</span> 🇻🇨 🇬🇧 <a href="https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines">Saint Vincent and the Grenadines</a><br>
+<span class="fixed">1980</span> 🇿🇼 🇬🇧 <a href="https://en.wikipedia.org/wiki/Zimbabwe">Zimbabwe</a><br>
+<span class="fixed">1981</span> 🇦🇬 🇬🇧 <a href="https://en.wikipedia.org/wiki/Antigua_and_Barbuda">Antigua and Barbuda</a><br>
+<span class="fixed">1981</span> 🇧🇿 🇬🇧 <a href="https://en.wikipedia.org/wiki/Belize">Belize</a><br>
+<span class="fixed">1983</span> 🇰🇳 🇬🇧 <a href="https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis">Saint Kitts and Nevis</a><br>
+<span class="fixed">1984</span> 🇧🇳 🇬🇧 <a href="https://en.wikipedia.org/wiki/Brunei">Brunei</a><br>
+<span class="fixed">1986</span> 🇲🇭 🇺🇸 <a href="https://en.wikipedia.org/wiki/Marshall_Islands">Marshall Islands</a><br>
+<span class="fixed">1986</span> 🇫🇲 🇺🇸 <a href="https://en.wikipedia.org/wiki/Micronesia">Micronesia</a><br>
+<span class="fixed">1990</span> 🇱🇹 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Lithuania">Lithuania</a><br>
+<span class="fixed">1990</span> 🇳🇦 🇿🇦 <a href="https://en.wikipedia.org/wiki/Namibia">Namibia</a><br>
+<span class="fixed">1991</span> 🇦🇲 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Armenia">Armenia</a><br>
+<span class="fixed">1991</span> 🇦🇿 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Azerbaijan">Azerbaijan</a><br>
+<span class="fixed">1991</span> 🇧🇾 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Belarus">Belarus</a><br>
+<span class="fixed">1991</span> 🇬🇪 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Georgia">Georgia</a><br>
+<span class="fixed">1991</span> 🇰🇿 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Kazakhstan">Kazakhstan</a><br>
+<span class="fixed">1991</span> 🇰🇬 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Kyrgyzstan">Kyrgyzstan</a><br>
+<span class="fixed">1991</span> 🇹🇯 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Tajikistan">Tajikistan</a><br>
+<span class="fixed">1991</span> 🇹🇲 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Turkmenistan">Turkmenistan</a><br>
+<span class="fixed">1991</span> 🇺🇿 <img class="state" src="images/flags/soviet-union.png"> <a href="https://en.wikipedia.org/wiki/Uzbekistan">Uzbekistan</a><br>
+<span class="fixed">1993</span> 🇪🇷 🇪🇹 <a href="https://en.wikipedia.org/wiki/Eritrea">Eritrea</a><br>
+<span class="fixed">1994</span> 🇵🇼 🇺🇸 <a href="https://en.wikipedia.org/wiki/Palau">Palau</a><br>
+<span class="fixed">2002</span> 🇹🇱 🇮🇩 <a href="https://en.wikipedia.org/wiki/Timor-Leste">Timor-Leste</a><br>
+<span class="fixed">2008</span> 🇽🇰 🇷🇸 <a href="https://en.wikipedia.org/wiki/Kosovo">Kosovo</a><br>
+<span class="fixed">2011</span> 🇸🇸 🇸🇩 <a href="https://en.wikipedia.org/wiki/South_Sudan">South Sudan</a><br>
 
 </div>
 </body>
