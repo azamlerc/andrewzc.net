@@ -1397,7 +1397,7 @@
     },
     "name": "Metro Places",
     "size": "large",
-    "tags": ["double-flag"],
+    "tags": ["auto", "double-flag"],
     "type": "place"
   },
   "metro-themes": {
@@ -2188,6 +2188,7 @@
     },
     "name": "Squares",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["auto", "reference-key"],
     "type": "place"
   },
@@ -2234,7 +2235,7 @@
     "name": "US States",
     "size": "large",
     "tags": [],
-    "type": "place"
+    "type": "state"
   },
   "stations": {
     "icon": "🚉",
@@ -2447,8 +2448,8 @@
     },
     "name": "Tri-States",
     "size": "large",
-    "sort": ["order", "countries"],
-    "tags": ["featured"],
+    "sort": ["order", "countries", "states"],
+    "tags": ["auto", "featured", "states"],
     "type": "place"
   },
   "tripoints": {

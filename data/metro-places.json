@@ -8,7 +8,7 @@
     },
     "name": "Metro Places",
     "size": "large",
-    "tags": ["double-flag"],
+    "tags": ["auto", "double-flag"],
     "type": "place"
   },
   "163rd-street–amsterdam-avenue": {
@@ -52,10 +52,11 @@
     "city": "New York",
     "coords": "40.67683000, -73.90000800",
     "country": "US",
+    "flags": ["al"],
     "icons": ["🇺🇸"],
-    "flags": ["AL"],
     "link": "https://en.wikipedia.org/wiki/Alabama_Avenue_station",
-    "name": "Alabama Avenue"
+    "name": "Alabama Avenue",
+    "state": "AL"
   },
   "americke-namestie": {
     "been": true,
@@ -268,16 +269,20 @@
     "city": "Chicago",
     "coords": "41.92222222, -87.69722222",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["ca"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/California_station_(CTA_Blue_Line)",
-    "name": "California"
+    "name": "California",
+    "state": "CA"
   },
   "californie": {
     "been": true,
     "country": "MA",
-    "icons": ["🇲🇦", "🇲🇦"],
+    "flags": ["ca"],
+    "icons": ["🇲🇦"],
     "link": "https://fr.wikipedia.org/wiki/Busway_de_Casablanca",
     "name": "Californie",
+    "state": "CA",
     "wikidata": "Q111207649"
   },
   "canada-water": {
@@ -313,17 +318,6 @@
     "link": "https://es.wikipedia.org/wiki/Chile_España_(estación)",
     "name": "Chile España"
   },
-  "chinatown": {
-    "been": false,
-    "city": "Boston",
-    "coords": "42.35220000, -71.06270000",
-    "countries": ["SG", "CN"],
-    "icons": ["🇸🇬", "🇨🇳"],
-    "info": "(MRT)",
-    "link": "https://en.wikipedia.org/wiki/Chinatown_MRT_station",
-    "name": "Chinatown",
-    "reference": "(MRT)"
-  },
   "chinatown-(mbta)": {
     "been": true,
     "city": "Boston",
@@ -357,10 +351,8 @@
     "coords": "37.79480600, -122.40808200",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳"],
-    "info": "(MUNI)",
     "link": "https://en.wikipedia.org/wiki/Chinatown_station_(Muni_Metro)",
-    "name": "Chinatown–Rose Pak",
-    "reference": "(MUNI)"
+    "name": "Chinatown–Rose Pak"
   },
   "ciudad-de-los-angeles": {
     "been": true,
@@ -548,10 +540,11 @@
     "been": false,
     "coords": "28.00000000, -82.00000000",
     "country": "AR",
+    "flags": ["fl"],
     "icons": ["🇦🇷"],
-    "flags": ["FL"],
     "link": "https://es.wikipedia.org/wiki/Florida_(subte_de_Buenos_Aires)",
-    "name": "Florida"
+    "name": "Florida",
+    "state": "FL"
   },
   "gallery-place–chinatown": {
     "been": true,
@@ -574,9 +567,11 @@
     "city": "Washington",
     "coords": "38.93611200, -77.02439500",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["ga"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Georgia_Avenue–Petworth_station",
-    "name": "Georgia Avenue–Petworth"
+    "name": "Georgia Avenue–Petworth",
+    "state": "GA"
   },
   "gibraltar": {
     "badges": ["🚧"],
@@ -607,8 +602,10 @@
   "hamburg-street": {
     "been": false,
     "countries": ["US", "DE"],
-    "link": "https://en.wikipedia.org/wiki/Hamburg_Street_station_(Light_RailLink)",
-    "name": "Hamburg Street"
+    "icons": ["🇺🇸", "🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Stadium/Federal_Hill_station",
+    "name": "Hamburg Street",
+    "strike": true
   },
   "hamburgas-iela": {
     "been": true,
@@ -671,9 +668,11 @@
     "city": "Los Angeles",
     "coords": "34.03430000, -118.19220000",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["in"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Indiana_station_(Los_Angeles_Metro)",
-    "name": "Indiana"
+    "name": "Indiana",
+    "state": "IN"
   },
   "international-district/chinatown": {
     "been": true,
@@ -907,9 +906,11 @@
     "city": "London",
     "coords": "51.54600000, 0.00590000",
     "country": "GB",
-    "icons": ["🇬🇧", "🇬🇧"],
+    "flags": ["md"],
+    "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Maryland_railway_station",
-    "name": "Maryland"
+    "name": "Maryland",
+    "state": "MD"
   },
   "mekka": {
     "been": true,
@@ -968,21 +969,16 @@
     "link": "https://en.wikipedia.org/wiki/Porto_Metro",
     "name": "Mindelo"
   },
-  "minnesota-avene": {
-    "been": false,
-    "coords": "38.8986°N, 76.9469°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Minnesota_Avenue_station",
-    "name": "Minnesota Avene"
-  },
   "minnesota-avenue": {
     "been": true,
     "city": "Washington",
     "coords": "38.89860000, -76.94690000",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["mn"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Minnesota_Avenue_station",
-    "name": "Minnesota Avenue"
+    "name": "Minnesota Avenue",
+    "state": "MN"
   },
   "minska": {
     "been": false,
@@ -1076,6 +1072,7 @@
     "coords": "38.90702530, -77.00315280",
     "country": "US",
     "flags": ["NY", "FL"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/NoMa–Gallaudet_U_station",
     "name": "New York Ave–Florida Ave"
   },
@@ -1110,9 +1107,11 @@
     "city": "Philadelphia",
     "coords": "39.91680000, -75.17130000",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["or"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Oregon_station",
-    "name": "Oregon"
+    "name": "Oregon",
+    "state": "OR"
   },
   "osloer-straße": {
     "been": true,
@@ -1183,9 +1182,11 @@
     "city": "New York",
     "coords": "40.66472200, -73.89412900",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["pa"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Pennsylvania_Avenue_station_(IRT_New_Lots_Line)",
-    "name": "Pennsylvania Avenue"
+    "name": "Pennsylvania Avenue",
+    "state": "PA"
   },
   "peru": {
     "been": false,
@@ -1335,9 +1336,11 @@
     "city": "Washington",
     "coords": "38.92074100, -76.99598400",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["ri"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Rhode_Island_Avenue_station",
-    "name": "Rhode Island Avenue"
+    "name": "Rhode Island Avenue",
+    "state": "RI"
   },
   "riga": {
     "badges": ["🚧"],
@@ -1414,7 +1417,7 @@
   },
   "san-jose": {
     "been": true,
-    "city": "San José",
+    "city": "San Jose",
     "coords": "37.30416667, -121.87277778",
     "countries": ["CO", "CR"],
     "icons": ["🇨🇴", "🇨🇷"],
@@ -1629,9 +1632,11 @@
     "been": false,
     "coords": "29.42033438, -98.47810732",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["vt"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Vermont/Sunset_station",
-    "name": "Vermont/Sunset"
+    "name": "Vermont/Sunset",
+    "state": "VT"
   },
   "vienna": {
     "been": true,
@@ -1652,9 +1657,11 @@
   "virginia": {
     "been": false,
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["va"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Virginia_station",
-    "name": "Virginia"
+    "name": "Virginia",
+    "state": "VA"
   },
   "vizcaya": {
     "been": true,
@@ -1721,14 +1728,12 @@
     "name": "Wiener",
     "wikidata": "Q181055"
   },
-  "wilshire/western": {
+  "wilshire/western-(koreatown)": {
     "been": false,
     "countries": ["US", "KR"],
     "icons": ["🇺🇸", "🇰🇷"],
-    "info": "(Koreatown)",
     "link": "https://en.wikipedia.org/wiki/Wilshire/Western_station",
-    "name": "Wilshire/Western",
-    "reference": "(Koreatown)"
+    "name": "Wilshire/Western (Koreatown)"
   },
   "winchester": {
     "been": false,
@@ -1751,9 +1756,11 @@
     "city": "Philadelphia",
     "coords": "40.02460000, -75.14790000",
     "country": "US",
-    "icons": ["🇺🇸", "🇺🇸"],
+    "flags": ["wy"],
+    "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Wyoming_station_(SEPTA)",
-    "name": "Wyoming"
+    "name": "Wyoming",
+    "state": "WY"
   },
   "zaragoza": {
     "been": true,
