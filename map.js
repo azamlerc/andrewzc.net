@@ -516,6 +516,11 @@ function simplify(value) {
     .replace(/"/g, "")
     .replace(/</g, "")
     .replace(/>/g, "")
+    .replace(/\(/g, "")
+    .replace(/\)/g, "")
+    .replace(/\//g, "")
+    .replace(/&/g, "")
+    .replace(/--/g, "-")
     .normalize("NFD") // decompose accents/diacritics
     .replace(/[\u0300-\u036f]/g, "") // remove diacritical marks
     .replace(/the-/, "");
