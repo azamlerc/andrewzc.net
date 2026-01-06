@@ -14,39 +14,39 @@ loadScripts([
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
   "https://unpkg.com/leaflet-graticule@0.0.1/Leaflet.Graticule.js"
-]).then(() => {	
+]).then(() => {
   let filename = getFilename();
-	fetch(`data/${filename}.json`)
-	  .then(response => response.json())
-	  .then(places => {
-			enhancePage(places, filename);
-			replaceFlagsWithLinks();
-			showPlaces(places, filename);
-		})
-	  .catch(error => {
-	    console.error(`Error loading ${filename}:`, error);
-	  });
+    fetch(`data/${filename}.json`)
+      .then(response => response.json())
+      .then(places => {
+            enhancePage(places, filename);
+            replaceFlagsWithLinks();
+            showPlaces(places, filename);
+        })
+      .catch(error => {
+        console.error(`Error loading ${filename}:`, error);
+      });
 });
 
 const markerLayers = [
-	{
-		key: "been",
-		name: "Been",
-		filter: p => p.been == true,
-		tag: "markerBeen"
-	},
-	{
-		key: "near",
-		name: "Near",
-		filter: p => p.been == false && isNear(p),
-		tag: "markerNear"
-	},
-	{
-		key: "todo",
-		name: "Todo",
-		filter: p => p.been == false && !isNear(p),
-		tag: "markerTodo"
-	}
+    {
+        key: "been",
+        name: "Been",
+        filter: p => p.been == true,
+        tag: "markerBeen"
+    },
+    {
+        key: "near",
+        name: "Near",
+        filter: p => p.been == false && isNear(p),
+        tag: "markerNear"
+    },
+    {
+        key: "todo",
+        name: "Todo",
+        filter: p => p.been == false && !isNear(p),
+        tag: "markerTodo"
+    }
 ];
 
 let map;
@@ -102,17 +102,15 @@ function enhancePage(places, pageName) {
   // --- PASS 1: collect insertion anchors from the unmodified DOM ---
   const ops = [];
 
-  document.querySelectorAll(".items a, .medium a").forEach(a => {
+  document.querySelectorAll(".items a").forEach(a => {
     const info = extractLineInfo(a, referenceFirst);
     if (!info) return;
 
     const { br, lineStart, name, reference } = info;
 
-    // build lookup key depending on flags
-    const baseKey = simplify(name);
-    const key = referenceKey && reference
-      ? (referenceFirst ? `${simplify(reference)}-${baseKey}` : `${baseKey}-${simplify(reference)}`)
-      : baseKey;
+    const key = a.id || simplify(referenceKey && reference
+        ? (referenceFirst ? `${reference}-${name}` : `${name}-${reference}`)
+        : name);
 
     const entry = places[key];
     if (!entry) return;
@@ -147,6 +145,7 @@ function enhancePage(places, pageName) {
       });
 
       parent.insertBefore(imagesDiv, lineStart);   // above THIS line only
+      a.classList.add("withImages");
     }
 
     if (entry.caption) {
@@ -157,7 +156,16 @@ function enhancePage(places, pageName) {
       highlightDistances(cap);
     }
   });
+  
+  rescrollPage()
 }
+
+function rescrollPage() {
+  if (location.hash) {
+    document.querySelector(location.hash)?.scrollIntoView();
+  }
+}
+
 function fullLink(p) {
   return p.includes(".pdf.") ? p.slice(0, p.indexOf(".pdf.") + 4) : p;
 }
@@ -213,26 +221,26 @@ function highlightDistances(el) {
 }
 
 function showPlaces(places, filename) {
-	let element = document.getElementById('map');
-	let lat = element.getAttribute('lat') || 37;
-	let lon = element.getAttribute('lon') || -40;
-	let zoom = element.getAttribute('zoom') || 3;
-	iconIndex = Number(element.getAttribute('icon')) || 0;
+    let element = document.getElementById('map');
+    let lat = element.getAttribute('lat') || 37;
+    let lon = element.getAttribute('lon') || -40;
+    let zoom = element.getAttribute('zoom') || 3;
+    iconIndex = Number(element.getAttribute('icon')) || 0;
   let cluster = (element.getAttribute('cluster') || "true") == "true";
   let lines = (element.getAttribute('lines') || "false") == "true";
-	let maxClusterRadius = 60;
+    let maxClusterRadius = 60;
   let disableClusteringAtZoom = element.getAttribute('clusterLevel') || 8;
   let overrideClick = false;
 
-	markerLayers.forEach(markerLayer => {
-		markerLayer.group = !cluster ? L.layerGroup() : L.markerClusterGroup({
-	    maxClusterRadius,
-	    disableClusteringAtZoom,
-	    iconCreateFunction: function (cluster) {
-	      return createClusterIcon(cluster, markerLayer.key);
-	    }
-	  });
-	});
+    markerLayers.forEach(markerLayer => {
+        markerLayer.group = !cluster ? L.layerGroup() : L.markerClusterGroup({
+        maxClusterRadius,
+        disableClusteringAtZoom,
+        iconCreateFunction: function (cluster) {
+          return createClusterIcon(cluster, markerLayer.key);
+        }
+      });
+    });
   
   const darkTiles = L.tileLayer(
     'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
@@ -245,8 +253,8 @@ function showPlaces(places, filename) {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-	map = L.map('map', {center: [lat, lon], zoom: zoom, scrollWheelZoom: false, zoomSnap: 1, wheelDebounceTime: 150, wheelPxPerZoomLevel: 2000, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
-	const baseLayers = { 'OpenStreetMap': initialTiles };
+    map = L.map('map', {center: [lat, lon], zoom: zoom, scrollWheelZoom: false, zoomSnap: 1, wheelDebounceTime: 150, wheelPxPerZoomLevel: 2000, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
+    const baseLayers = { 'OpenStreetMap': initialTiles };
   const graticule = L.latlngGraticule({
     showLabel: false,
     color: 'blue',
@@ -261,30 +269,30 @@ function showPlaces(places, filename) {
   map.once('mousedown touchstart', () => map.scrollWheelZoom.enable());
   
   if (lines) graticule.addTo(map);
-	let overlays = { };
-	markerLayers.forEach(layer => {
-		overlays[layer.name] = layer.group;
-	});
-	overlays["Gridlines"] = graticule;
-	const layerControl = L.control.layers(null, overlays).addTo(map);
+    let overlays = { };
+    markerLayers.forEach(layer => {
+        overlays[layer.name] = layer.group;
+    });
+    overlays["Gridlines"] = graticule;
+    const layerControl = L.control.layers(null, overlays).addTo(map);
   
-	markerLayers.forEach(layer => {
-		addMarkers(map, layer.group, places, layer.filter, layer.tag, filename);
-	});
+    markerLayers.forEach(layer => {
+        addMarkers(map, layer.group, places, layer.filter, layer.tag, filename);
+    });
   
   if (filename == "route-20") {
   
-		markerLayers.forEach(layer => {
-			map.removeLayer(layer.group);
-			
-	    map.on('zoomend', () => {
-	      if (map.getZoom() >= 8) {
-	        map.addLayer(layer.group);
-	      } else {
-	        map.removeLayer(layer.group);
-	      }
-	    });
-		});	
+        markerLayers.forEach(layer => {
+            map.removeLayer(layer.group);
+            
+        map.on('zoomend', () => {
+          if (map.getZoom() >= 8) {
+            map.addLayer(layer.group);
+          } else {
+            map.removeLayer(layer.group);
+          }
+        });
+        });
   }
   
   if (overrideClick) {
@@ -331,69 +339,69 @@ function createClusterIcon(cluster, type) {
 }
 
 function addMarkers(map, layer, places, test, tag, filename) {
-	for (let key in places) {
-  	let place = places[key];
-		if (place.coords) {
-			if (!place.hide) {
-				let marker = addEmojiMarker(map, place, test, tag, filename);
-				if (marker) marker.addTo(layer);
-			}
-		} else {
-			console.log(`No coordinates: ${place.name}`);
-		}
+    for (let key in places) {
+      let place = places[key];
+        if (place.coords) {
+            if (!place.hide) {
+                let marker = addEmojiMarker(map, place, test, tag, filename);
+                if (marker) marker.addTo(layer);
+            }
+        } else {
+            console.log(`No coordinates: ${place.name}`);
+        }
   }
 }
 
 function addMarker(map, place, test, tag) {
-	if (test(place)) {
-		let latLong = place.coords.split(',').map(s => convertToDecimal(s));
-		if (latLong.length == 2) {
-			let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
-			if (place.icons) text = place.icons.join(' ') + ' ' + text;
-			if (place.prefix) text = place.prefix + "<br>" + text;
-			if (place.reference) text += "<br>" + place.reference;
-			if (place.info) text += "<br>" + place.info;
-			let marker = L.marker(latLong).addTo(map).bindPopup(text);
-			marker._icon.classList.add(tag);
-			if (place.strike) marker._icon.classList.add("markerStrike");
-			return marker;
-		} else {
-			console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
-		}
-	}
+    if (test(place)) {
+        let latLong = place.coords.split(',').map(s => convertToDecimal(s));
+        if (latLong.length == 2) {
+            let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
+            if (place.icons) text = place.icons.join(' ') + ' ' + text;
+            if (place.prefix) text = place.prefix + "<br>" + text;
+            if (place.reference) text += "<br>" + place.reference;
+            if (place.info) text += "<br>" + place.info;
+            let marker = L.marker(latLong).addTo(map).bindPopup(text);
+            marker._icon.classList.add(tag);
+            if (place.strike) marker._icon.classList.add("markerStrike");
+            return marker;
+        } else {
+            console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
+        }
+    }
 }
 
 function addEmojiMarker(map, place, test, tag, filename) {
-	if (test(place)) {
-		let latLong = place.coords.split(',').map(s => convertToDecimal(s));
-		if (latLong.length === 2) {
-			let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
-			if (place.icons) text = place.icons.join(' ') + ' ' + text;
-			if (place.prefix) text = place.prefix + "<br>" + text;
-			if (place.images) text = `<img src="https://images.andrewzc.net/${filename}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
-			if (place.reference) text += "<br>" + place.reference;
-			if (place.info) text += "<br>" + place.info;
-			if (place.caption) text += '<br><div class="mapcap">' + firstSentence(place.caption) + "</div>";
+    if (test(place)) {
+        let latLong = place.coords.split(',').map(s => convertToDecimal(s));
+        if (latLong.length === 2) {
+            let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
+            if (place.icons) text = place.icons.join(' ') + ' ' + text;
+            if (place.prefix) text = place.prefix + "<br>" + text;
+            if (place.images) text = `<img src="https://images.andrewzc.net/${filename}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
+            if (place.reference) text += "<br>" + place.reference;
+            if (place.info) text += "<br>" + place.info;
+            if (place.caption) text += '<br><div class="mapcap">' + firstSentence(place.caption) + "</div>";
       if (place.images) text = `<div class="imagepopup">${text}</div>`;
       
-			let emoji = (place.icons && place.icons.length > iconIndex) ? place.icons[iconIndex] : "";
+            let emoji = (place.icons && place.icons.length > iconIndex) ? place.icons[iconIndex] : "";
 
-			let marker = L.marker(latLong, {
-				icon: L.divIcon({
-					className: `emoji-pin ${tag} ${place.strike ? 'markerStrike' : ''}`,
-					html: `<div class="pin-emoji ${tag}">${emoji}</div>`,
-					iconSize: [25, 41], // Size of default Leaflet pin
-					iconAnchor: [12, 41], // Bottom center point
-					popupAnchor: [0, -30]
-				})
-			})
+            let marker = L.marker(latLong, {
+                icon: L.divIcon({
+                    className: `emoji-pin ${tag} ${place.strike ? 'markerStrike' : ''}`,
+                    html: `<div class="pin-emoji ${tag}">${emoji}</div>`,
+                    iconSize: [25, 41], // Size of default Leaflet pin
+                    iconAnchor: [12, 41], // Bottom center point
+                    popupAnchor: [0, -30]
+                })
+            })
       
       marker.bindPopup(text);
-			return marker;
-		} else {
-			console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
-		}
-	}
+            return marker;
+        } else {
+            console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
+        }
+    }
 }
 
 function firstSentence(text) {
@@ -404,10 +412,10 @@ function firstSentence(text) {
 }
 
 function refreshMap(places) {
-	markerLayers.forEach(layer => {
-		layer.group.clearLayers();
-		addMarkers(map, layer.group, places, layer.filter, layer.tag);
-	});
+    markerLayers.forEach(layer => {
+        layer.group.clearLayers();
+        addMarkers(map, layer.group, places, layer.filter, layer.tag);
+    });
 }
 
 function loadScripts(urls) {
@@ -513,9 +521,8 @@ function simplify(value) {
     .replace(/the-/, "");
 }
 
-// Create a JavaScript object where the keys are the two letter country codes 
-// for every country and the values are the name of the country in lowercase 
-// with spaces replaced by hyphens
+// Create a JavaScript object where the keys are the two letter country codes
+// for every country and the values are the name of the country in lowercase
 const countryCodes = {
     "ad": "andorra",
     "ae": "united-arab-emirates",

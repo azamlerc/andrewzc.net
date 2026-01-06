@@ -253,7 +253,7 @@ a {
 	white-space: nowrap;
 }
 
-.images {
+:root {
   --gap: 30px;
   --tile: min(400px, calc((100vw - 120px) / 3));
 }
@@ -268,6 +268,10 @@ a {
   align-items: flex-start;
   gap: var(--gap);
   margin: 20px 0px 10px 10px;
+}
+
+.items a.withImages {
+  scroll-margin-top: calc(var(--tile) + var(--gap));
 }
 
 .images img {
