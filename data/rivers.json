@@ -1024,16 +1024,17 @@
     "link": "https://en.wikipedia.org/wiki/Elizabeth_River_(Virginia)",
     "name": "Elizabeth"
   },
-  "elizabeth-(nj)": {
+  "elizabeth-nj": {
     "been": true,
     "coords": "40.73656600, -74.22853100",
     "country": "US",
     "icons": ["🇺🇸"],
     "info": "→ Arthur Kill",
     "link": "https://en.wikipedia.org/wiki/Elizabeth_River_(New_Jersey)",
-    "name": "Elizabeth (NJ)"
+    "name": "Elizabeth (NJ)",
+    "reference": "→ Arthur Kill"
   },
-  "elizabeth-(va)": {
+  "elizabeth-va": {
     "been": true,
     "city": "Norfolk",
     "coords": "36.92500000, -76.34361111",
@@ -1041,7 +1042,8 @@
     "icons": ["🇺🇸"],
     "info": "→ Atlantic",
     "link": "https://en.wikipedia.org/wiki/Elizabeth_River_(Virginia)",
-    "name": "Elizabeth (VA)"
+    "name": "Elizabeth (VA)",
+    "reference": "→ Atlantic"
   },
   "elwha": {
     "been": true,
@@ -1245,7 +1247,7 @@
     "link": "https://en.wikipedia.org/wiki/Guadalquivir",
     "name": "Guadalquivir"
   },
-  "guadalupe-(ca)": {
+  "guadalupe-ca": {
     "been": true,
     "city": "San Jose, CA",
     "coords": "37.42569444, -121.97916667",
@@ -1253,9 +1255,10 @@
     "icons": ["🇺🇸"],
     "info": "→ San Francisco Bay",
     "link": "https://en.wikipedia.org/wiki/Guadalupe_River_(California)",
-    "name": "Guadalupe (CA)"
+    "name": "Guadalupe (CA)",
+    "reference": "→ San Francisco Bay"
   },
-  "guadalupe-(tx)": {
+  "guadalupe-tx": {
     "been": false,
     "coords": "28.40194444, -96.78250000",
     "country": "US",
@@ -3287,23 +3290,25 @@
     "link": "https://en.wikipedia.org/wiki/Souhegan_River",
     "name": "Souhegan"
   },
-  "south-(md)": {
+  "south-md": {
     "been": true,
     "coords": "38.92055556, -76.50250000",
     "country": "US",
     "icons": ["🇺🇸"],
     "info": "→ Chesapeake",
     "link": "https://en.wikipedia.org/wiki/South_River_(Maryland)",
-    "name": "South (MD)"
+    "name": "South (MD)",
+    "reference": "→ Chesapeake"
   },
-  "south-(nj)": {
+  "south-nj": {
     "been": true,
     "coords": "40.44680600, -74.36439800",
     "country": "US",
     "icons": ["🇺🇸"],
     "info": "→ Raritan",
     "link": "https://en.wikipedia.org/wiki/South_River_(Raritan_River_tributary)",
-    "name": "South (NJ)"
+    "name": "South (NJ)",
+    "reference": "→ Raritan"
   },
   "speyerbach": {
     "been": true,
@@ -3455,14 +3460,15 @@
     "link": "https://en.wikipedia.org/wiki/River_Thames",
     "name": "Thames"
   },
-  "thames-(ct)": {
+  "thames-ct": {
     "been": true,
     "coords": "41.31250000, -72.08040000",
     "country": "US",
     "icons": ["🇺🇸"],
     "info": "→ Atlantic",
     "link": "https://en.wikipedia.org/wiki/Thames_River_(Connecticut)",
-    "name": "Thames (CT)"
+    "name": "Thames (CT)",
+    "reference": "→ Atlantic"
   },
   "thaya": {
     "been": true,

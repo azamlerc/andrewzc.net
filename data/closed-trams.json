@@ -22,20 +22,20 @@
     "tags": ["prefix"],
     "type": "place"
   },
-  "a-coruna-(first-era)": {
+  "a-coruna-first-era": {
     "badges": ["1️⃣"],
     "been": false,
-    "coords": "43.365, -8.41",
+    "coords": "43.36500000, -8.41000000",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/A_Coru%C3%B1a",
     "name": "A Coruña (first era)",
     "prefix": "1962"
   },
-  "a-coruna-(second-era)": {
+  "a-coruna-second-era": {
     "badges": ["2️⃣"],
     "been": false,
-    "coords": "43.365, -8.41",
+    "coords": "43.36500000, -8.41000000",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/A_Coru%C3%B1a",
@@ -1461,9 +1461,9 @@
     "name": "Biddeford",
     "prefix": "1939"
   },
-  "biel/bienne": {
+  "biel-bienne": {
     "been": true,
-    "coords": "47.137222222222, 7.2472222222222",
+    "coords": "47.13722222, 7.24722222",
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Biel/Bienne",
@@ -2128,7 +2128,7 @@
     "name": "Caen",
     "prefix": "1937"
   },
-  "caen-(second-era)": {
+  "caen-second-era": {
     "badges": ["2️⃣"],
     "been": true,
     "country": "FR",
@@ -2593,7 +2593,7 @@
     "name": "Charleville-Mézières",
     "prefix": "1914"
   },
-  "charlotte-(first-era)": {
+  "charlotte-first-era": {
     "badges": ["1️⃣"],
     "been": false,
     "coords": "35.22722222, -80.84305556",
@@ -2603,7 +2603,7 @@
     "name": "Charlotte (first era)",
     "prefix": "1938"
   },
-  "charlotte-(second-era)": {
+  "charlotte-second-era": {
     "badges": ["2️⃣"],
     "been": false,
     "country": "US",
@@ -3554,7 +3554,7 @@
     "prefix": "1956",
     "wikidata": "Q5265906"
   },
-  "detroit-(second-era)": {
+  "detroit-second-era": {
     "badges": ["2️⃣"],
     "been": true,
     "country": "US",
@@ -7015,7 +7015,7 @@
     "state": "PA",
     "wikidata": "Q5159538"
   },
-  "landshut-(in-bayern)": {
+  "landshut-in-bayern": {
     "been": false,
     "coords": "48.53972222, 12.15083333",
     "country": "DE",
@@ -9090,7 +9090,7 @@
     "prefix": "1949",
     "wikidata": "Q6990437"
   },
-  "neunkirchen-(im-saarland)": {
+  "neunkirchen-im-saarland": {
     "been": false,
     "coords": "49.35000000, 7.16666667",
     "country": "DE",
@@ -9622,7 +9622,7 @@
     "name": "Oakland",
     "prefix": "1948"
   },
-  "oberhausen-(im-rheinland)": {
+  "oberhausen-im-rheinland": {
     "badges": ["1️⃣"],
     "been": false,
     "coords": "51.49666667, 6.87055556",
@@ -10516,7 +10516,7 @@
     "name": "Plattsmouth",
     "prefix": "1892"
   },
-  "plaue-(an-der-havel)": {
+  "plaue-an-der-havel": {
     "been": false,
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -12112,7 +12112,7 @@
     "prefix": "1954",
     "wikidata": "Q7438751"
   },
-  "seattle-(first-era)": {
+  "seattle-first-era": {
     "badges": ["1️⃣"],
     "been": true,
     "country": "US",
@@ -12122,7 +12122,7 @@
     "prefix": "1941",
     "wikidata": "Q28769803"
   },
-  "seattle-(second-era)": {
+  "seattle-second-era": {
     "badges": ["2️⃣"],
     "been": true,
     "country": "US",
@@ -14355,7 +14355,7 @@
     "prefix": "1938",
     "state": "IN"
   },
-  "washington-(first-era)": {
+  "washington-first-era": {
     "badges": ["1️⃣"],
     "been": true,
     "city": "Washington",
@@ -14365,18 +14365,6 @@
     "link": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "name": "Washington (first era)",
     "prefix": "1962"
-  },
-  "washington-(second-era)": {
-    "badges": ["2️⃣"],
-    "been": true,
-    "city": "Washington",
-    "coords": "38.89997000, -76.98318000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/DC_Streetcar",
-    "name": "Washington (second era)",
-    "prefix": "2026",
-    "wikidata": "Q3537231"
   },
   "washington-in": {
     "been": false,
@@ -14397,6 +14385,18 @@
     "name": "Washington, PA",
     "prefix": "1909",
     "state": "PA"
+  },
+  "washington-second-era": {
+    "badges": ["2️⃣"],
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89997000, -76.98318000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/DC_Streetcar",
+    "name": "Washington (second era)",
+    "prefix": "2026",
+    "wikidata": "Q3537231"
   },
   "waterbury": {
     "been": false,
@@ -14857,7 +14857,7 @@
     "prefix": "1947",
     "wikidata": "Q8047106"
   },
-  "yangon-(first-era)": {
+  "yangon-first-era": {
     "badges": ["1️⃣"],
     "been": false,
     "country": "MM",
@@ -14867,7 +14867,7 @@
     "prefix": "1945",
     "wikidata": "Q23926718"
   },
-  "yangon-(second-era)": {
+  "yangon-second-era": {
     "badges": ["2️⃣"],
     "been": false,
     "country": "MM",

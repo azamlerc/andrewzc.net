@@ -8,7 +8,8 @@
   "16-times-square–42nd-street": {
     "name": "1️⃣6️⃣ Times Square–42nd Street"
   },
-  "4-7th-street/metro-center": {
+  "4-7th-street-metro-center": {
+    "been": false,
     "name": "4️⃣ 7th Street/Metro Center"
   },
   "4-arbatskaya": {
@@ -155,7 +156,8 @@
   "6-atlantic-avenue–barclays-center": {
     "name": "6️⃣ Atlantic Avenue–Barclays Center"
   },
-  "6-bank/monument": {
+  "6-bank-monument": {
+    "been": false,
     "name": "6️⃣ Bank/Monument"
   },
   "6-clark": {
@@ -164,13 +166,10 @@
   "6-kings-cross–st-pancras": {
     "name": "6️⃣ King’s Cross–St Pancras"
   },
-  "7-canal-street": {
-    "name": "Canal Street"
-  },
-  "7th-street/metro-center": {
+  "7th-street-metro-center": {
     "been": false,
     "city": "Newcastle",
-    "coords": "54.9569, -1.6689",
+    "coords": "54.95690000, -1.66890000",
     "country": "US",
     "icons": ["🇺🇸", "4️⃣"],
     "link": "https://en.wikipedia.org/wiki/7th_Street/Metro_Center",
@@ -220,7 +219,7 @@
     "link": "https://en.wikipedia.org/wiki/Baker_Street",
     "name": "Baker Street"
   },
-  "bank/monument": {
+  "bank-monument": {
     "been": true,
     "country": "GB",
     "icons": ["🇬🇧", "6️⃣"],
@@ -259,12 +258,7 @@
     "name": "Brooklyn Bridge–City Hall"
   },
   "canal-street": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.7187, -74.001",
-    "country": "US",
-    "icons": ["🇺🇸", "7️⃣"],
-    "link": "https://en.wikipedia.org/wiki/Canal_Street",
+    "been": false,
     "name": "Canal Street"
   },
   "centraal-station": {

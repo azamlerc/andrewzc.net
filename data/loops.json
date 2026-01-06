@@ -10,7 +10,7 @@
     "tags": ["reference-first"],
     "type": "place"
   },
-  "14th-&-colorado": {
+  "14th-colorado": {
     "been": true,
     "city": "Washington",
     "coords": "38.95558000, -77.03317000",
@@ -21,7 +21,7 @@
     "reference": "Washington",
     "strike": true
   },
-  "40th-&-filbert": {
+  "40th-filbert": {
     "badges": ["2️⃣"],
     "been": true,
     "city": "Philadelphia",
@@ -32,7 +32,7 @@
     "name": "40th & Filbert",
     "reference": "Philadelphia"
   },
-  "41st-&-parkside": {
+  "41st-parkside": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.97527000, -75.20664000",
@@ -52,7 +52,7 @@
     "name": "45. Vidusskola",
     "reference": "Riga"
   },
-  "45th-&-lancaster": {
+  "45th-lancaster": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.96959000, -75.21271000",
@@ -62,7 +62,7 @@
     "name": "45th & Lancaster",
     "reference": "Philadelphia"
   },
-  "61st-&-baltimore": {
+  "61st-baltimore": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.94353000, -75.24664000",
@@ -72,7 +72,7 @@
     "name": "61st & Baltimore",
     "reference": "Philadelphia"
   },
-  "63rd-&-girard": {
+  "63rd-girard": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.97036000, -75.24516000",
@@ -82,7 +82,7 @@
     "name": "63rd & Girard",
     "reference": "Philadelphia"
   },
-  "63rd-&-malvern": {
+  "63rd-malvern": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.98391000, -75.24610000",
@@ -110,7 +110,7 @@
     "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
     "name": "69th St Transportation Center"
   },
-  "80th-&-eastwick": {
+  "80th-eastwick": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.89886000, -75.23939000",
@@ -131,7 +131,7 @@
     "name": "Absberggasse",
     "reference": "Vienna"
   },
-  "ahrensfelde/stadtgrenze": {
+  "ahrensfelde-stadtgrenze": {
     "been": true,
     "city": "Berlin",
     "coords": "52.57315000, 13.57430000",
@@ -1660,7 +1660,7 @@
     "name": "Fortveld",
     "reference": "Antwerp"
   },
-  "frankford-&-delaware": {
+  "frankford-delaware": {
     "been": true,
     "city": "Philadelphia",
     "coords": "39.96456500, -75.13437600",
@@ -1783,7 +1783,7 @@
     "name": "Geislerova",
     "reference": "Brno"
   },
-  "georgia-ave-/-florida-ave": {
+  "georgia-ave-florida-ave": {
     "badges": ["4️⃣"],
     "been": true,
     "city": "Washington",
@@ -2085,7 +2085,7 @@
     "name": "High Park",
     "reference": "Toronto"
   },
-  "hilmteich/botanischer-garten": {
+  "hilmteich-botanischer-garten": {
     "been": true,
     "city": "Graz",
     "coords": "47.08292000, 15.45955000",
@@ -2874,7 +2874,7 @@
     "name": "Lidové Sady",
     "reference": "Liberec"
   },
-  "liebenau/murpark": {
+  "liebenau-murpark": {
     "been": true,
     "city": "Graz",
     "coords": "47.04109000, 15.46219000",
@@ -4235,7 +4235,7 @@
     "name": "Radošovická",
     "reference": "Prague"
   },
-  "rahnsdorf/waldschanke": {
+  "rahnsdorf-waldschanke": {
     "been": true,
     "city": "Berlin",
     "coords": "52.44372000, 13.68527000",
@@ -4325,7 +4325,16 @@
     "name": "Reininghaus",
     "reference": "Graz"
   },
-  "richmond-&-cumberland": {
+  "richmond-broad-street": {
+    "been": true,
+    "city": "Richmond",
+    "coords": "37.561111°N, 77.465833°W",
+    "country": "US",
+    "link": "https://en.wikipedia.org/wiki/Broad_Street_Station_(Richmond)",
+    "name": "Richmond Broad Street",
+    "strike": true
+  },
+  "richmond-cumberland": {
     "been": false,
     "city": "Philadelphia",
     "coords": "",
@@ -4335,7 +4344,7 @@
     "name": "Richmond & Cumberland",
     "reference": "Philadelphia"
   },
-  "richmond-&-westmoreland": {
+  "richmond-westmoreland": {
     "been": false,
     "city": "Philadelphia",
     "coords": "39.98416667, -75.09944444",
@@ -4344,15 +4353,6 @@
     "link": "https://en.wikipedia.org/wiki/Richmond-Westmoreland_Streets_Loop",
     "name": "Richmond & Westmoreland",
     "reference": "Philadelphia"
-  },
-  "richmond-broad-street": {
-    "been": true,
-    "city": "Richmond",
-    "coords": "37.561111°N, 77.465833°W",
-    "country": "US",
-    "link": "https://en.wikipedia.org/wiki/Broad_Street_Station_(Richmond)",
-    "name": "Richmond Broad Street",
-    "strike": true
   },
   "riesaer-straße": {
     "been": true,
@@ -4364,7 +4364,7 @@
     "name": "Riesaer Straße",
     "reference": "Berlin"
   },
-  "ring/volkstheater": {
+  "ring-volkstheater": {
     "badges": ["4️⃣"],
     "been": true,
     "city": "Vienna",
@@ -4384,7 +4384,7 @@
     "name": "RIS",
     "reference": "Magnitogorsk"
   },
-  "risorgimento-/-san-pietro": {
+  "risorgimento-san-pietro": {
     "been": true,
     "city": "Rome",
     "coords": "41.90636000, 12.45826000",
@@ -5932,7 +5932,7 @@
     "name": "Yai Oi",
     "reference": "Hong Kong"
   },
-  "yamhill-st-&-11th-ave": {
+  "yamhill-st-11th-ave": {
     "been": true,
     "city": "Portland, OR",
     "coords": "45.51924000, -122.68310000",
@@ -5946,16 +5946,6 @@
     "been": false,
     "city": "Hong Kong",
     "coords": "22.44444444, 114.02583333",
-    "country": "HK",
-    "icons": ["🇭🇰"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=22.44607_N_114.03543_E",
-    "name": "Yuen Long",
-    "reference": "Hong Kong"
-  },
-  "yuen-long": {
-    "been": false,
-    "city": "Hong Kong",
-    "coords": "22.44607000, 114.03543000",
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "https://geohack.toolforge.org/geohack.php?params=22.44607_N_114.03543_E",

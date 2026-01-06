@@ -493,7 +493,7 @@
     "start": "Moscow",
     "type": "metro"
   },
-  "amsterdam-noord/zuidlijn": {
+  "amsterdam-noord-zuidlijn": {
     "been": false,
     "city": "Amsterdam",
     "coords": "52.36666667, 4.88333333",
@@ -549,7 +549,7 @@
     "start": "Centre de Congrès",
     "type": "tram"
   },
-  "angers-lines-b-&-c": {
+  "angers-lines-b-c": {
     "been": false,
     "country": "FR",
     "icons": ["🇫🇷", "🚋"],
@@ -627,7 +627,7 @@
     "start": "Atatürk Kültür Merkezi",
     "type": "metro"
   },
-  "antalya-meydan---expo-/-havalinami-to-airport": {
+  "antalya-meydan-expo-havalinami-to-airport": {
     "been": false,
     "country": "TR",
     "end": "Airport",
@@ -665,7 +665,7 @@
     "start": "Atatürk",
     "type": "light-rail"
   },
-  "antwerp-tram-1/24-to-havenhuis": {
+  "antwerp-tram-1-24-to-havenhuis": {
     "badges": ["✅"],
     "been": true,
     "city": "Antwerp",
@@ -698,7 +698,7 @@
     "start": "Zegel",
     "type": "tram"
   },
-  "antwerp-tram-5-to-wijnegem/fortveldstraat": {
+  "antwerp-tram-5-to-wijnegem-fortveldstraat": {
     "badges": ["✅"],
     "been": true,
     "city": "Antwerp",
@@ -764,7 +764,7 @@
     "start": "Eilandje MAS",
     "type": "tram"
   },
-  "antwerp-tram-8-&-10-to-stadspark": {
+  "antwerp-tram-8-10-to-stadspark": {
     "badges": ["✅"],
     "been": true,
     "city": "Antwerp",
@@ -1232,244 +1232,6 @@
     "reference": "Baku",
     "size": 2.3,
     "start": "Avtovagzal",
-    "type": "metro"
-  },
-  "bengaluru-pink-line": {
-    "badges": ["👀"],
-    "been": true,
-    "city": "Bengaluru",
-    "country": "IN",
-    "icons": ["🇮🇳", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Pink_Line_(Namma_Metro)",
-    "name": "Pink Line",
-    "prefix": "2026",
-    "reference": "Bengaluru"
-  },
-  "bengaluru-blue-line": {
-    "badges": ["👀"],
-    "been": true,
-    "city": "Bengaluru",
-    "country": "IN",
-    "icons": ["🇮🇳", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Blue_Line_(Namma_Metro)",
-    "name": "Blue Line",
-    "prefix": "2026",
-    "reference": "Bengaluru"
-  },
-  "bengaluru-green-line": {
-    "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "13.03000000, 77.51400000",
-    "country": "IN",
-    "end": "Peenya Industry",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Green Line",
-    "link": "https://en.wikipedia.org/wiki/Green_Line_(Namma_Metro)",
-    "name": "Green Line",
-    "prefix": "2014-02-28",
-    "reference": "Bengaluru",
-    "start": "Sampige Road",
-    "type": "metro"
-  },
-  "bengaluru-green-line-to-madavara": {
-    "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "end": "Madavara",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Green Line",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Green Line to Madavara",
-    "prefix": "2024-11-07",
-    "reference": "Bengaluru",
-    "size": 3.1,
-    "start": "Nagasandra",
-    "type": "metro"
-  },
-  "bengaluru-green-line-to-nagasandra": {
-    "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "13.04804100, 77.50009100",
-    "country": "IN",
-    "end": "Nagasandra",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Green Line",
-    "link": "https://en.wikipedia.org/wiki/Nagasandra_metro_station",
-    "name": "Green Line to Nagasandra",
-    "prefix": "2015-05-01",
-    "reference": "Bengaluru",
-    "start": "Peenya Industry",
-    "type": "metro"
-  },
-  "bengaluru-green-line-to-silk-institute": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "end": "Silk Institute",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Green Line",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Green Line to Silk Institute",
-    "prefix": "2021-01-15",
-    "reference": "Bengaluru",
-    "size": 6,
-    "start": "Yelachenahalli",
-    "type": "metro"
-  },
-  "bengaluru-green-line-to-yelachenahalli": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.89598300, 77.57015900",
-    "country": "IN",
-    "end": "Yelachenahalli",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Green Line",
-    "link": "https://en.wikipedia.org/wiki/Yelachenahalli_metro_station",
-    "name": "Green Line to Yelachenahalli",
-    "prefix": "2017-06-18",
-    "reference": "Bengaluru",
-    "size": 10.5,
-    "start": "Sampige Road",
-    "type": "metro"
-  },
-  "bengaluru-metro": {
-    "badges": ["✅", "✨"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "end": "Baiyappanahalli",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Line 2",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Metro",
-    "prefix": "2011-10-20",
-    "reference": "Bengaluru",
-    "start": "Mahatma Gandhi Road",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-challaghatta": {
-      "badges": ["✅"],
-   "been": true,
-    "city": "Bengaluru",
-    "coords": "12.89742000, 77.46124000",
-    "country": "IN",
-    "end": "Challaghatta",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/Challaghatta_metro_station",
-    "name": "Purple Line to Challaghatta",
-    "prefix": "2023-10-09",
-    "reference": "Bengaluru",
-    "size": 2,
-    "start": "Kengeri",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-kengeri": {
-      "badges": ["✅"],
-   "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "end": "Kengeri",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Purple Line to Kengeri",
-    "prefix": "2021-08-30",
-    "reference": "Bengaluru",
-    "size": 7.5,
-    "start": "Mysuru Road",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-krishnarajapura": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.99999000, 77.67794000",
-    "country": "IN",
-    "end": "Krishnarajapura",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/Krishnarajapura_metro_station",
-    "name": "Purple Line to Krishnarajapura",
-    "prefix": "2023-10-09",
-    "reference": "Bengaluru",
-    "size": 2.8,
-    "start": "Baiyappanahalli",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-magadi-road": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97557800, 77.55543000",
-    "country": "IN",
-    "end": "Magadi Road",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/Magadi_Road_metro_station",
-    "name": "Purple Line to Magadi Road",
-    "prefix": "2015-11-16",
-    "reference": "Bengaluru",
-    "start": "Mysore Road",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-mg-road": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97380100, 77.61188500",
-    "country": "IN",
-    "end": "M.G. Road",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/M_G_Road,_Bengaluru",
-    "name": "Purple Line to M.G. Road",
-    "prefix": "2016-04-30",
-    "reference": "Bengaluru",
-    "start": "Magadi Road",
-    "type": "metro"
-  },
-  "bengaluru-purple-line-to-whitefield": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "end": "Whitefield",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Purple Line",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Purple Line to Whitefield",
-    "prefix": "2023-03-26",
-    "reference": "Bengaluru",
-    "size": 12.9,
-    "start": "Krishnarajapura",
-    "type": "metro"
-  },
-  "bengaluru-yellow-line": {
-      "badges": ["✅"],
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "12.97911980, 77.59129970",
-    "country": "IN",
-    "start": "Rashtreeya Vidyalaya Road",
-    "end": "Delta Electronics Bommasandra",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Yellow Line",
-    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
-    "name": "Yellow Line",
-    "prefix": "2025-08-10",
-    "reference": "Bengaluru",
-    "size": 18.8,
     "type": "metro"
   },
   "bangkok-blue-line-to-hua-lampong": {
@@ -2068,7 +1830,7 @@
     "reference": "Barcelona",
     "type": "metro"
   },
-  "barcelona-lines-9/10-to-bon-pastor": {
+  "barcelona-lines-9-10-to-bon-pastor": {
     "badges": ["✅"],
     "been": true,
     "city": "Barcelona",
@@ -2083,7 +1845,7 @@
     "reference": "Barcelona",
     "start": "Sagrera"
   },
-  "barcelona-lines-9/10-to-gorg/can-peixauet": {
+  "barcelona-lines-9-10-to-gorg-can-peixauet": {
     "badges": ["✅"],
     "been": true,
     "city": "Barcelona",
@@ -2859,7 +2621,7 @@
     "start": "Beijing West Railway Station",
     "type": "metro"
   },
-  "beijing-line-7-&-batong-line-to-universal-resort": {
+  "beijing-line-7-batong-line-to-universal-resort": {
     "been": false,
     "city": "Beijing",
     "coords": "39.84524722, 116.67240833",
@@ -3126,7 +2888,7 @@
     "start": "Suzhuang",
     "type": "metro"
   },
-  "belgrade-lines-11/13-to-zs-novi-beograd": {
+  "belgrade-lines-11-13-to-zs-novi-beograd": {
     "been": false,
     "city": "Belgrade",
     "coords": "44.81777778, 20.45694444",
@@ -3152,6 +2914,244 @@
     "name": "Metro",
     "prefix": "2033",
     "reference": "Belgrade"
+  },
+  "bengaluru-blue-line": {
+    "badges": ["👀"],
+    "been": true,
+    "city": "Bengaluru",
+    "country": "IN",
+    "icons": ["🇮🇳", "🚇"],
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(Namma_Metro)",
+    "name": "Blue Line",
+    "prefix": "2026",
+    "reference": "Bengaluru"
+  },
+  "bengaluru-green-line": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "13.03000000, 77.51400000",
+    "country": "IN",
+    "end": "Peenya Industry",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Green Line",
+    "link": "https://en.wikipedia.org/wiki/Green_Line_(Namma_Metro)",
+    "name": "Green Line",
+    "prefix": "2014-02-28",
+    "reference": "Bengaluru",
+    "start": "Sampige Road",
+    "type": "metro"
+  },
+  "bengaluru-green-line-to-madavara": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Madavara",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Green Line",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Green Line to Madavara",
+    "prefix": "2024-11-07",
+    "reference": "Bengaluru",
+    "size": 3.1,
+    "start": "Nagasandra",
+    "type": "metro"
+  },
+  "bengaluru-green-line-to-nagasandra": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "13.04804100, 77.50009100",
+    "country": "IN",
+    "end": "Nagasandra",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Green Line",
+    "link": "https://en.wikipedia.org/wiki/Nagasandra_metro_station",
+    "name": "Green Line to Nagasandra",
+    "prefix": "2015-05-01",
+    "reference": "Bengaluru",
+    "start": "Peenya Industry",
+    "type": "metro"
+  },
+  "bengaluru-green-line-to-silk-institute": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Silk Institute",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Green Line",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Green Line to Silk Institute",
+    "prefix": "2021-01-15",
+    "reference": "Bengaluru",
+    "size": 6,
+    "start": "Yelachenahalli",
+    "type": "metro"
+  },
+  "bengaluru-green-line-to-yelachenahalli": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.89598300, 77.57015900",
+    "country": "IN",
+    "end": "Yelachenahalli",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Green Line",
+    "link": "https://en.wikipedia.org/wiki/Yelachenahalli_metro_station",
+    "name": "Green Line to Yelachenahalli",
+    "prefix": "2017-06-18",
+    "reference": "Bengaluru",
+    "size": 10.5,
+    "start": "Sampige Road",
+    "type": "metro"
+  },
+  "bengaluru-metro": {
+    "badges": ["✅", "✨"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Baiyappanahalli",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Line 2",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Metro",
+    "prefix": "2011-10-20",
+    "reference": "Bengaluru",
+    "start": "Mahatma Gandhi Road",
+    "type": "metro"
+  },
+  "bengaluru-pink-line": {
+    "badges": ["👀"],
+    "been": true,
+    "city": "Bengaluru",
+    "country": "IN",
+    "icons": ["🇮🇳", "🚇"],
+    "link": "https://en.wikipedia.org/wiki/Pink_Line_(Namma_Metro)",
+    "name": "Pink Line",
+    "prefix": "2026",
+    "reference": "Bengaluru"
+  },
+  "bengaluru-purple-line-to-challaghatta": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.89742000, 77.46124000",
+    "country": "IN",
+    "end": "Challaghatta",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/Challaghatta_metro_station",
+    "name": "Purple Line to Challaghatta",
+    "prefix": "2023-10-09",
+    "reference": "Bengaluru",
+    "size": 2,
+    "start": "Kengeri",
+    "type": "metro"
+  },
+  "bengaluru-purple-line-to-kengeri": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Kengeri",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Purple Line to Kengeri",
+    "prefix": "2021-08-30",
+    "reference": "Bengaluru",
+    "size": 7.5,
+    "start": "Mysuru Road",
+    "type": "metro"
+  },
+  "bengaluru-purple-line-to-krishnarajapura": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.99999000, 77.67794000",
+    "country": "IN",
+    "end": "Krishnarajapura",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/Krishnarajapura_metro_station",
+    "name": "Purple Line to Krishnarajapura",
+    "prefix": "2023-10-09",
+    "reference": "Bengaluru",
+    "size": 2.8,
+    "start": "Baiyappanahalli",
+    "type": "metro"
+  },
+  "bengaluru-purple-line-to-magadi-road": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97557800, 77.55543000",
+    "country": "IN",
+    "end": "Magadi Road",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/Magadi_Road_metro_station",
+    "name": "Purple Line to Magadi Road",
+    "prefix": "2015-11-16",
+    "reference": "Bengaluru",
+    "start": "Mysore Road",
+    "type": "metro"
+  },
+  "bengaluru-purple-line-to-mg-road": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97380100, 77.61188500",
+    "country": "IN",
+    "end": "M.G. Road",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/M_G_Road,_Bengaluru",
+    "name": "Purple Line to M.G. Road",
+    "prefix": "2016-04-30",
+    "reference": "Bengaluru",
+    "start": "Magadi Road",
+    "type": "metro"
+  },
+  "bengaluru-purple-line-to-whitefield": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Whitefield",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Purple Line",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Purple Line to Whitefield",
+    "prefix": "2023-03-26",
+    "reference": "Bengaluru",
+    "size": 12.9,
+    "start": "Krishnarajapura",
+    "type": "metro"
+  },
+  "bengaluru-yellow-line": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97911980, 77.59129970",
+    "country": "IN",
+    "end": "Delta Electronics Bommasandra",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Yellow Line",
+    "link": "https://en.wikipedia.org/wiki/Namma_Metro",
+    "name": "Yellow Line",
+    "prefix": "2025-08-10",
+    "reference": "Bengaluru",
+    "size": 18.8,
+    "start": "Rashtreeya Vidyalaya Road",
+    "type": "metro"
   },
   "bergen-birkelandsskiftet-to-bergen-lufthavn-flesland": {
     "been": false,
@@ -3279,7 +3279,7 @@
     "start": "Wedding",
     "type": "suburban"
   },
-  "berlin-s9/s45-to-flughafen-ber-terminal-1-2": {
+  "berlin-s9-s45-to-flughafen-ber-terminal-1-2": {
     "been": false,
     "city": "Berlin",
     "coords": "52.36666667, 13.50333333",
@@ -3388,7 +3388,7 @@
     "start": "Hauptbahnhof",
     "type": "metro"
   },
-  "bern-trams-7/8-to-bumpliz": {
+  "bern-trams-7-8-to-bumpliz": {
     "been": false,
     "city": "Bern",
     "coords": "46.94265000, 7.36175000",
@@ -3499,7 +3499,7 @@
     "prefix": "2027",
     "reference": "Bilbao"
   },
-  "bilbao-line-1/2-to-ariz": {
+  "bilbao-line-1-2-to-ariz": {
     "badges": ["✅"],
     "been": true,
     "city": "Bilbao",
@@ -3647,7 +3647,7 @@
     "prefix": "2022-12-18",
     "reference": "Bilbao"
   },
-  "birmingham-bull-street-to-grand-central-(new-street)": {
+  "birmingham-bull-street-to-grand-central-new-street": {
     "been": false,
     "city": "Birmingham",
     "coords": "52.47777222, -1.89885000",
@@ -3661,7 +3661,7 @@
     "start": "Bull Street",
     "type": "tram"
   },
-  "birmingham-grand-central-to-library/centenary-square": {
+  "birmingham-grand-central-to-library-centenary-square": {
     "been": false,
     "city": "Birmingham",
     "coords": "52.47972222, -1.90833333",
@@ -3676,7 +3676,7 @@
     "start": "Grand Central",
     "type": "tram"
   },
-  "birmingham-library/centenary-sq-to-edgbaston-village": {
+  "birmingham-library-centenary-sq-to-edgbaston-village": {
     "been": false,
     "city": "Birmingham",
     "coords": "52.45800000, -1.91900000",
@@ -3742,7 +3742,7 @@
     "start": "North Pier",
     "type": "tram"
   },
-  "bochum-bochumer-verein/jahrhunderthalle-to-lohring": {
+  "bochum-bochumer-verein-jahrhunderthalle-to-lohring": {
     "been": false,
     "country": "DE",
     "end": "Lohring",
@@ -3752,7 +3752,7 @@
     "reference": "Bochum",
     "start": "Bochumer Verein/Jahrhunderthalle"
   },
-  "bochum-lines-309/310-to-papenholz": {
+  "bochum-lines-309-310-to-papenholz": {
     "been": false,
     "country": "DE",
     "end": "Papenholz",
@@ -3971,7 +3971,7 @@
     "prefix": "2023-04-29",
     "reference": "Bordeaux"
   },
-  "boston-green-line-to-medford/tufts": {
+  "boston-green-line-to-medford-tufts": {
     "badges": ["👀"],
     "been": true,
     "city": "Boston",
@@ -4186,7 +4186,7 @@
     "prefix": "2026-02-14",
     "reference": "Brest"
   },
-  "brisbane-petrie-to-kippa-ring-(redcliffe-peninsula-line)": {
+  "brisbane-petrie-to-kippa-ring-redcliffe-peninsula-line": {
     "been": false,
     "country": "AU",
     "end": "Kippa-Ring (Redcliffe Peninsula Line)",
@@ -4469,7 +4469,7 @@
     "start": "Kelenföld vasútállomás",
     "type": "metro"
   },
-  "budapest-tram-1-to-etele-ut/fehervari-ut": {
+  "budapest-tram-1-to-etele-ut-fehervari-ut": {
     "badges": ["✅"],
     "been": true,
     "city": "Budapest",
@@ -4696,7 +4696,7 @@
     "reference": "Buenos Aires",
     "type": "metro"
   },
-  "buffalo-canalside-dl&w": {
+  "buffalo-canalside-dl-w": {
     "badges": ["👀"],
     "been": true,
     "city": "Buffalo",
@@ -4745,7 +4745,7 @@
     "start": "Organize Sanayi (1050 Konutlar)",
     "type": "metro"
   },
-  "bursa-line-1-to-gecit/balat": {
+  "bursa-line-1-to-gecit-balat": {
     "been": false,
     "country": "TR",
     "end": "Gecit/Balat",
@@ -4914,7 +4914,7 @@
     "start": "Minam",
     "type": "metro"
   },
-  "bydgoszcz-fordonska/wyscigowa-to-loskon": {
+  "bydgoszcz-fordonska-wyscigowa-to-loskon": {
     "been": false,
     "country": "PL",
     "end": "Loskon",
@@ -4926,7 +4926,7 @@
     "start": "Fordonska/Wyscigowa",
     "type": "metro"
   },
-  "bydgoszcz-most-kazimierza-wielkiego-to-torunska/kazimierza-wielkiego": {
+  "bydgoszcz-most-kazimierza-wielkiego-to-torunska-kazimierza-wielkiego": {
     "been": false,
     "country": "PL",
     "end": "Torunska/Kazimierza Wielkiego",
@@ -5222,7 +5222,7 @@
     "start": "Gungahlin Place",
     "type": "tram"
   },
-  "caracas-line-3-to-la-rinconada-(without-intermediate-stations)": {
+  "caracas-line-3-to-la-rinconada-without-intermediate-stations": {
     "been": false,
     "country": "VE",
     "end": "La Rinconada (without intermediate stations)",
@@ -5358,7 +5358,7 @@
     "start": "Parc de la Ligue Arabe",
     "type": "tram"
   },
-  "casablanca-trams-t3-&-t4": {
+  "casablanca-trams-t3-t4": {
     "been": false,
     "city": "Casablanca",
     "country": "MA",
@@ -5759,7 +5759,7 @@
     "start": "CTC/Arena",
     "type": "tram"
   },
-  "charlotte-hawthorne/5th-to-sunnyside-avenue": {
+  "charlotte-hawthorne-5th-to-sunnyside-avenue": {
     "been": false,
     "country": "US",
     "end": "Sunnyside Avenue",
@@ -6366,7 +6366,7 @@
     "reference": "Chicago",
     "type": "metro"
   },
-  "chicago-green/pink-line-to-morgan-station": {
+  "chicago-green-pink-line-to-morgan-station": {
     "been": false,
     "city": "Chicago",
     "coords": "41.87863889, -87.64025000",
@@ -6629,7 +6629,7 @@
     "start": "Lianglukou",
     "type": "metro"
   },
-  "chongqing-line-3-to-chalukou-huaxi-&-jinzhu-stations": {
+  "chongqing-line-3-to-chalukou-huaxi-jinzhu-stations": {
     "been": false,
     "country": "CN",
     "end": "Chalukou, Huaxi & Jinzhu stations",
@@ -7662,7 +7662,7 @@
     "start": "Ledbetter",
     "type": "tram"
   },
-  "dallas-green-line-to-north-carrollton/frankford": {
+  "dallas-green-line-to-north-carrollton-frankford": {
     "been": false,
     "city": "Dallas",
     "coords": "40.02333333, -75.07694444",
@@ -7758,7 +7758,7 @@
     "start": "Jahnstraße",
     "type": "tram"
   },
-  "daugavpils-lines-3/5-to-stropi-ezers": {
+  "daugavpils-lines-3-5-to-stropi-ezers": {
     "badges": ["✅"],
     "been": true,
     "country": "LV",
@@ -7771,6 +7771,15 @@
     "size": 1.8,
     "start": "Butlerova iela",
     "type": "tram"
+  },
+  "daugavpils-tram-3-5-to-stropi-ezers": {
+    "been": false,
+    "country": "LV",
+    "icons": ["🇱🇻", "🚋"],
+    "link": "https://en.wikipedia.org/wiki/Daugavpils_Satiksme",
+    "name": "Tram 3/5 to Stropi Ezers",
+    "prefix": "2024-01-25",
+    "reference": "Daugavpils"
   },
   "daugavpils-tram-3-to-stropu-ezers": {
     "badges": ["✅"],
@@ -7785,15 +7794,6 @@
     "size": 2.1,
     "start": "Bralu kapi",
     "type": "tram"
-  },
-  "daugavpils-tram-3/5-to-stropi-ezers": {
-    "been": false,
-    "country": "LV",
-    "icons": ["🇱🇻", "🚋"],
-    "link": "https://en.wikipedia.org/wiki/Daugavpils_Satiksme",
-    "name": "Tram 3/5 to Stropi Ezers",
-    "prefix": "2024-01-25",
-    "reference": "Daugavpils"
   },
   "debrecen-tram-2-to-doberdo-utca": {
     "been": false,
@@ -7820,7 +7820,7 @@
     "reference": "Delhi",
     "type": "metro"
   },
-  "delhi-airport-express-line-to-aerocity-&-dhaula-kuan-stations": {
+  "delhi-airport-express-line-to-aerocity-dhaula-kuan-stations": {
     "been": false,
     "city": "Delhi",
     "coords": "28.61000000, 77.23000000",
@@ -8770,7 +8770,7 @@
     "start": "Union Station",
     "type": "suburban"
   },
-  "denver-w-line-to-jefferson-county-government-center/golden": {
+  "denver-w-line-to-jefferson-county-government-center-golden": {
     "been": false,
     "city": "Denver",
     "coords": "39.72638889, -105.20111111",
@@ -8993,7 +8993,7 @@
     "start": "Legtaifiya",
     "type": "light-rail"
   },
-  "doha-red-line-to-lusail-&-airport-branch": {
+  "doha-red-line-to-lusail-airport-branch": {
     "been": false,
     "city": "Doha",
     "coords": "25.30000000, 51.51666667",
@@ -9481,7 +9481,7 @@
     "start": "Otogar",
     "type": "tram"
   },
-  "eskisehir-ssk-to-camlica-/-batikent": {
+  "eskisehir-ssk-to-camlica-batikent": {
     "been": false,
     "country": "TR",
     "end": "Çamlica / Batikent",
@@ -9690,7 +9690,7 @@
     "start": "Nanhai",
     "type": "tram"
   },
-  "frankfurt-s8/s9-to-gateway-gardens-station": {
+  "frankfurt-s8-s9-to-gateway-gardens-station": {
     "been": false,
     "city": "Frankfurt",
     "coords": "50.05662000, 8.59517000",
@@ -9965,7 +9965,7 @@
     "start": "Gdansk Glowny",
     "type": "suburban"
   },
-  "gdansk-lines-10/12-to-bretowo-/-migowo": {
+  "gdansk-lines-10-12-to-bretowo-migowo": {
     "been": false,
     "city": "Gdańsk",
     "country": "PL",
@@ -9979,7 +9979,7 @@
     "start": "Siedlce",
     "type": "tram"
   },
-  "gdansk-lines-2/6/7-to-lostowice-swietokrzyska": {
+  "gdansk-lines-2-6-7-to-lostowice-swietokrzyska": {
     "been": false,
     "city": "Gdańsk",
     "country": "PL",
@@ -10169,7 +10169,7 @@
     "reference": "Genoa",
     "start": "San Giorgio"
   },
-  "genoa-sarzano/santagostino-station": {
+  "genoa-sarzano-santagostino-station": {
     "been": false,
     "city": "Genoa",
     "coords": "44.41111111, 8.93277778",
@@ -10229,7 +10229,7 @@
     "start": "Gold Coast University Hospital",
     "type": "tram"
   },
-  "gorzow-lines-1/3-to-fieldorfa-nila": {
+  "gorzow-lines-1-3-to-fieldorfa-nila": {
     "been": false,
     "country": "PL",
     "end": "Fieldorfa-Nila",
@@ -10238,11 +10238,11 @@
     "name": "Lines 1/3 to Fieldorfa-Nila",
     "prefix": "2023-07-22",
     "reference": "Gorzów",
-    "size": true,
+    "size": 1,
     "start": "Szarych Szeregów",
     "type": "tram"
   },
-  "gothenburg-lines-1/9-to-brunsparken": {
+  "gothenburg-lines-1-9-to-brunsparken": {
     "been": false,
     "country": "SE",
     "end": "Brunsparken",
@@ -10255,7 +10255,7 @@
     "start": "Järntorget",
     "type": "tram"
   },
-  "gothenburg-trams-10/12-to-lindholmen": {
+  "gothenburg-trams-10-12-to-lindholmen": {
     "been": false,
     "country": "SE",
     "dateAdded": "2025-12-25",
@@ -10337,7 +10337,7 @@
     "start": "Waagner-Biro-Str",
     "type": "tram"
   },
-  "graz-trams-16/17-to-jakominiplatz": {
+  "graz-trams-16-17-to-jakominiplatz": {
     "been": false,
     "city": "Graz",
     "country": "AT",
@@ -10350,7 +10350,7 @@
     "size": 1.1,
     "type": "tram"
   },
-  "grenoble-line-a-to-pont-de-claix/letoile": {
+  "grenoble-line-a-to-pont-de-claix-letoile": {
     "been": false,
     "country": "FR",
     "end": "Pont-de-Claix/LÉtoile",
@@ -10359,7 +10359,7 @@
     "name": "Line A to Pont-de-Claix/LÉtoile",
     "prefix": "2019-12-21",
     "reference": "Grenoble",
-    "size": true,
+    "size": 1,
     "start": "Échirolles/Denis-Papin",
     "type": "tram"
   },
@@ -10971,7 +10971,7 @@
     "reference": "Guangzhou",
     "start": "Jiaokou"
   },
-  "guangzhou-line-5-to-huangpu---new-port": {
+  "guangzhou-line-5-to-huangpu-new-port": {
     "been": false,
     "city": "Guangzhou",
     "coords": "23.10941778, 113.45419722",
@@ -11296,7 +11296,7 @@
     "reference": "Gwangju",
     "start": "Sangmu"
   },
-  "hamburg-s1-to-hamburg-airport-(flughafen)": {
+  "hamburg-s1-to-hamburg-airport-flughafen": {
     "been": false,
     "city": "Hamburg",
     "coords": "53.63027778, 9.99111111",
@@ -11324,7 +11324,7 @@
     "reference": "Hamburg",
     "type": "suburban"
   },
-  "hamburg-s3/s31-to-elbbrucken-station": {
+  "hamburg-s3-s31-to-elbbrucken-station": {
     "been": false,
     "city": "Hamburg",
     "coords": "53.55000000, 10.00000000",
@@ -11536,7 +11536,7 @@
     "start": "Chaowang Road",
     "type": "metro"
   },
-  "hangzhou-line-3-to-west-wenyi-road-/-shima": {
+  "hangzhou-line-3-to-west-wenyi-road-shima": {
     "been": false,
     "country": "CN",
     "end": "West Wenyi Road / Shima",
@@ -11878,7 +11878,7 @@
     "prefix": "2018-10-11",
     "reference": "Haramain"
   },
-  "harbin-line-1-to-bowuguan-(museum)-station": {
+  "harbin-line-1-to-bowuguan-museum-station": {
     "been": false,
     "country": "CN",
     "end": "Bowuguan (Museum) station",
@@ -12149,7 +12149,7 @@
     "start": "Hefei Railway Station",
     "type": "metro"
   },
-  "heidelberg-lines-22/26-gadamerplatz-to-montpellierbrucke": {
+  "heidelberg-lines-22-26-gadamerplatz-to-montpellierbrucke": {
     "been": false,
     "country": "DE",
     "end": "Montpellierbrücke",
@@ -12157,7 +12157,7 @@
     "name": "Lines 22/26 Gadamerplatz to Montpellierbrücke",
     "prefix": "2018-12-09",
     "reference": "Heidelberg",
-    "size": true,
+    "size": 1,
     "start": "Lines 22/26 Gadamerplatz",
     "type": "tram"
   },
@@ -12173,7 +12173,7 @@
     "start": "Harmonie",
     "type": "tram"
   },
-  "helsinki-kalasatama/fiskhamnen": {
+  "helsinki-kalasatama-fiskhamnen": {
     "been": false,
     "city": "Helsinki",
     "country": "FI",
@@ -12582,7 +12582,7 @@
     "start": "Admiralty",
     "type": "metro"
   },
-  "hong-kong-tseung-kwan---line-to-lohas-park": {
+  "hong-kong-tseung-kwan-line-to-lohas-park": {
     "been": false,
     "city": "Hong Kong",
     "coords": "22.29500000, 114.27100000",
@@ -12767,7 +12767,7 @@
     "start": "Theater District",
     "type": "tram"
   },
-  "houston-red-line-to-northline-tc/hcc": {
+  "houston-red-line-to-northline-tc-hcc": {
     "been": false,
     "city": "Houston",
     "coords": "29.76277778, -95.38305556",
@@ -12906,7 +12906,7 @@
     "start": "Ameerpet",
     "type": "metro"
   },
-  "iasi-tram-9-to-tehnopolis-(cug)": {
+  "iasi-tram-9-to-tehnopolis-cug": {
     "been": false,
     "country": "RO",
     "end": "Tehnopolis (CUG)",
@@ -13037,7 +13037,7 @@
     "start": "Leipziger Platz",
     "type": "tram"
   },
-  "innsbruck-tram-3-to-technik-west-&-peerhofsiedlung": {
+  "innsbruck-tram-3-to-technik-west-peerhofsiedlung": {
     "been": false,
     "country": "AT",
     "end": "Technik West & Peerhofsiedlung",
@@ -13050,7 +13050,7 @@
     "start": "Höttinger Au/West",
     "type": "tram"
   },
-  "innsbruck-tram-5-to-klinik/uni": {
+  "innsbruck-tram-5-to-klinik-uni": {
     "been": false,
     "country": "AT",
     "end": "Klinik/Uni",
@@ -14015,7 +14015,7 @@
     "start": "Heil Ha-Avir",
     "type": "tram"
   },
-  "jiaxing-fanggong-rd/binhe-rd-to-jiaxing-railway-station": {
+  "jiaxing-fanggong-rd-binhe-rd-to-jiaxing-railway-station": {
     "been": false,
     "country": "CN",
     "end": "Jiaxing Railway Station",
@@ -14041,7 +14041,7 @@
     "start": "Fanggong Rd./Binhe Rd.",
     "type": "tram"
   },
-  "jiaxing-tram-1-to-east-zhongshan-rd/anle-rd": {
+  "jiaxing-tram-1-to-east-zhongshan-rd-anle-rd": {
     "been": false,
     "country": "CN",
     "end": "East Zhongshan Rd/Anle Rd",
@@ -14176,7 +14176,7 @@
     "start": "Jinhua Railway Station",
     "type": "suburban"
   },
-  "jinhua-sports-center-to-ming-&-qing-dynasty-palaces": {
+  "jinhua-sports-center-to-ming-qing-dynasty-palaces": {
     "been": false,
     "country": "CN",
     "end": "Ming & Qing Dynasty Palaces",
@@ -14484,7 +14484,7 @@
     "start": "Dab Huta Baildon",
     "type": "tram"
   },
-  "kayseri-erciyes-universitesi/lojmanlar-to-talas/cemilbaba": {
+  "kayseri-erciyes-universitesi-lojmanlar-to-talas-cemilbaba": {
     "been": false,
     "country": "TR",
     "end": "Talas/Cemilbaba",
@@ -14985,7 +14985,7 @@
     "start": "Alaaddin",
     "type": "tram"
   },
-  "krakow-lines-10/11/50-to-kurdwanow": {
+  "krakow-lines-10-11-50-to-kurdwanow": {
     "been": false,
     "city": "Kraków",
     "coords": "50.06138889, 19.93722222",
@@ -15001,7 +15001,7 @@
     "start": "Lagiewniki SKA",
     "type": "tram"
   },
-  "krakow-lines-18/50-to-gorka-narodowa": {
+  "krakow-lines-18-50-to-gorka-narodowa": {
     "been": false,
     "city": "Kraków",
     "country": "PL",
@@ -15015,7 +15015,7 @@
     "start": "Papierni Pradnickich",
     "type": "tram"
   },
-  "krakow-lines-18/50-to-papierni-pradnickich": {
+  "krakow-lines-18-50-to-papierni-pradnickich": {
     "been": false,
     "city": "Kraków",
     "coords": "50.06138889, 19.93722222",
@@ -15031,7 +15031,7 @@
     "start": "Krowodrza Górka",
     "type": "tram"
   },
-  "krakow-lines-9/11/50-to-dw-plaszow": {
+  "krakow-lines-9-11-50-to-dw-plaszow": {
     "been": false,
     "city": "Kraków",
     "coords": "50.06138889, 19.93722222",
@@ -15047,7 +15047,7 @@
     "start": "Dworcowa",
     "type": "tram"
   },
-  "krakow-tram-18/50-to-gorka-narodowa": {
+  "krakow-tram-18-50-to-gorka-narodowa": {
     "been": false,
     "city": "Kraków",
     "country": "PL",
@@ -15922,7 +15922,7 @@
     "start": "Kirkby",
     "type": "suburban"
   },
-  "lodz-lines-3/10-to-olechow": {
+  "lodz-lines-3-10-to-olechow": {
     "been": false,
     "country": "PL",
     "end": "Olechów",
@@ -16113,7 +16113,7 @@
     "prefix": "2028",
     "reference": "Los Angeles"
   },
-  "los-angeles-c-&-k-lines-to-aviation/century": {
+  "los-angeles-c-k-lines-to-aviation-century": {
     "been": false,
     "city": "Los Angeles",
     "coords": "34.05000000, -118.25000000",
@@ -16160,7 +16160,7 @@
     "start": "Culver City",
     "type": "tram"
   },
-  "los-angeles-expo-line-to-la-cienega/jefferson": {
+  "los-angeles-expo-line-to-la-cienega-jefferson": {
     "been": false,
     "city": "Los Angeles",
     "coords": "39.95263000, -75.15811000",
@@ -16175,7 +16175,7 @@
     "start": "7th St/Metro Center",
     "type": "tram"
   },
-  "los-angeles-gold-line-to-apu/citrus-college": {
+  "los-angeles-gold-line-to-apu-citrus-college": {
     "been": false,
     "city": "Los Angeles",
     "coords": "34.05000000, -118.25000000",
@@ -16205,6 +16205,21 @@
     "reference": "Los Angeles",
     "start": "Union Station"
   },
+  "los-angeles-k-c-lines-to-westchester-veterans": {
+    "been": false,
+    "city": "Los Angeles",
+    "coords": "33.95972000, -118.39972000",
+    "country": "US",
+    "end": "Westchester/Veterans Aviation/Century",
+    "icons": ["🇺🇸", "🚋"],
+    "line": "K/C",
+    "link": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
+    "name": "K/C Lines to Westchester/Veterans",
+    "prefix": "2025-06-06",
+    "reference": "Los Angeles",
+    "size": 1.9,
+    "type": "light-rail"
+  },
   "los-angeles-k-line": {
     "been": false,
     "city": "Los Angeles",
@@ -16221,21 +16236,6 @@
     "start": "Expo/Crenshaw",
     "type": "light-rail"
   },
-  "los-angeles-k/c-lines-to-westchester/veterans": {
-    "been": false,
-    "city": "Los Angeles",
-    "coords": "33.95972000, -118.39972000",
-    "country": "US",
-    "end": "Westchester/Veterans Aviation/Century",
-    "icons": ["🇺🇸", "🚋"],
-    "line": "K/C",
-    "link": "https://en.wikipedia.org/wiki/Westchester,_Los_Angeles",
-    "name": "K/C Lines to Westchester/Veterans",
-    "prefix": "2025-06-06",
-    "reference": "Los Angeles",
-    "size": 1.9,
-    "type": "light-rail"
-  },
   "los-angeles-lax-automated-people-mover": {
     "been": false,
     "city": "Los Angeles",
@@ -16246,7 +16246,7 @@
     "prefix": "2026-06",
     "reference": "Los Angeles"
   },
-  "los-angeles-line-a-to-apu/citrus-college-pomona-north": {
+  "los-angeles-line-a-to-apu-citrus-college-pomona-north": {
     "been": false,
     "city": "Los Angeles",
     "coords": "34.05000000, -118.25000000",
@@ -16285,7 +16285,7 @@
     "prefix": "2023-06-16",
     "reference": "Los Angeles"
   },
-  "los-angeles-regional-connector-to-7th-st/metro-center": {
+  "los-angeles-regional-connector-to-7th-st-metro-center": {
     "been": false,
     "city": "Los Angeles",
     "coords": "38.89830300, -77.02809900",
@@ -17115,7 +17115,7 @@
     "reference": "Madrid",
     "start": "Pinar de Chamartín"
   },
-  "madrid-ml2/ml3-to-aravaca/boadilla": {
+  "madrid-ml2-ml3-to-aravaca-boadilla": {
     "been": false,
     "city": "Madrid",
     "coords": "40.50000000, -3.66666667",
@@ -17167,7 +17167,7 @@
     "start": "Leipziger Chaussee",
     "type": "tram"
   },
-  "magnitogorsk-pros-karla-marksa-to-k/p-zelenyi-log": {
+  "magnitogorsk-pros-karla-marksa-to-k-p-zelenyi-log": {
     "been": false,
     "country": "RU",
     "end": "K/p Zelenyi Log",
@@ -17179,7 +17179,7 @@
     "start": "Pros. Karla Marksa",
     "type": "tram"
   },
-  "mainz-hauptbahnhof-west-to-lerchenberg/hindemithstr": {
+  "mainz-hauptbahnhof-west-to-lerchenberg-hindemithstr": {
     "been": false,
     "country": "DE",
     "end": "Lerchenberg/Hindemithstr.",
@@ -17271,7 +17271,7 @@
     "start": "Trafford Bar",
     "type": "tram"
   },
-  "manchester-oldham-mumps-to-shaw-&-crompton": {
+  "manchester-oldham-mumps-to-shaw-crompton": {
     "been": false,
     "city": "Manchester",
     "coords": "53.57700000, -2.09200000",
@@ -17328,7 +17328,7 @@
     "start": "Rochdale Railway Station",
     "type": "tram"
   },
-  "manchester-shaw-&-crompton-to-rochdale-railway-station": {
+  "manchester-shaw-crompton-to-rochdale-railway-station": {
     "been": false,
     "city": "Manchester",
     "coords": "53.61101000, -2.15445000",
@@ -17474,7 +17474,7 @@
     "size": 4.3,
     "start": "Santolan"
   },
-  "manila-purple-line-(2)-to-recto": {
+  "manila-purple-line-2-to-recto": {
     "been": false,
     "city": "Manila",
     "coords": "14.60349722, 120.98340278",
@@ -17503,7 +17503,7 @@
     "start": "Bensheimer Str.",
     "type": "tram"
   },
-  "mannheim-tram-4-to-waldfriedhof-/-kafertaler-wald": {
+  "mannheim-tram-4-to-waldfriedhof-kafertaler-wald": {
     "been": false,
     "country": "DE",
     "end": "Waldfriedhof / Käfertaler Wald",
@@ -18151,7 +18151,7 @@
     "start": "Zara",
     "type": "metro"
   },
-  "milan-line-5-to-gerusalemme-station---": {
+  "milan-line-5-to-gerusalemme-station-": {
     "been": false,
     "city": "Milan",
     "coords": "45.29044400, 9.10005100",
@@ -18252,7 +18252,7 @@
     "start": "Viale Romagna",
     "type": "tram"
   },
-  "milan-tram-7-to-adriano/vipiteno": {
+  "milan-tram-7-to-adriano-vipiteno": {
     "been": false,
     "city": "Milan",
     "coords": "45.46694444, 9.19000000",
@@ -18491,7 +18491,7 @@
     "start": "Odysséum",
     "type": "tram"
   },
-  "montpellier-tram-3-to-lattes/perols": {
+  "montpellier-tram-3-to-lattes-perols": {
     "been": false,
     "city": "Montpellier",
     "coords": "43.60498000, 3.88051000",
@@ -19402,6 +19402,22 @@
     "prefix": "2022-04-02",
     "reference": "Mumbai"
   },
+  "mumbai-line-2a-7": {
+    "been": false,
+    "city": "Mumbai",
+    "coords": "19.25006900, 72.85934700",
+    "country": "IN",
+    "end": "Dahisar East",
+    "icons": ["🇮🇳", "🚇"],
+    "line": "Line 2A/7",
+    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(Mumbai_Metro)",
+    "name": "Line 2A/7",
+    "prefix": "2022-04-02",
+    "reference": "Mumbai",
+    "size": 18.4,
+    "start": "Dhanukarwadi",
+    "type": "metro"
+  },
   "mumbai-line-2a-to-andheri-west": {
     "been": false,
     "city": "Mumbai",
@@ -19416,22 +19432,6 @@
     "reference": "Mumbai",
     "size": 9,
     "start": "Dahanukarwadi",
-    "type": "metro"
-  },
-  "mumbai-line-2a/7": {
-    "been": false,
-    "city": "Mumbai",
-    "coords": "19.25006900, 72.85934700",
-    "country": "IN",
-    "end": "Dahisar East",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Line 2A/7",
-    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(Mumbai_Metro)",
-    "name": "Line 2A/7",
-    "prefix": "2022-04-02",
-    "reference": "Mumbai",
-    "size": 18.4,
-    "start": "Dhanukarwadi",
     "type": "metro"
   },
   "mumbai-line-3": {
@@ -19788,7 +19788,7 @@
     "reference": "Naha",
     "type": "monorail"
   },
-  "nanchang-line-1-to-changbei-airport-&-yaohu-lake-west": {
+  "nanchang-line-1-to-changbei-airport-yaohu-lake-west": {
     "been": false,
     "country": "CN",
     "end": "Changbei Airport & Yaohu Lake West",
@@ -20161,7 +20161,7 @@
     "start": "Maqun",
     "type": "tram"
   },
-  "nanjing-s1/s7-to-wuxiangshan": {
+  "nanjing-s1-s7-to-wuxiangshan": {
     "been": false,
     "country": "CN",
     "end": "Wuxiangshan",
@@ -20498,7 +20498,7 @@
     "start": "Belapur",
     "type": "metro"
   },
-  "new-orleans-canal-street-&-rampart-to-elysian-fields-avenue": {
+  "new-orleans-canal-street-rampart-to-elysian-fields-avenue": {
     "been": false,
     "city": "New Orleans",
     "coords": "30.03037000, -90.06162300",
@@ -20989,7 +20989,7 @@
     "start": "EVMC Fort Norfolk",
     "type": "tram"
   },
-  "nottingham-nottingham-station-to-clifton-south-/-toton-lane": {
+  "nottingham-nottingham-station-to-clifton-south-toton-lane": {
     "been": false,
     "city": "Nottingham",
     "coords": "52.95610000, -1.15120000",
@@ -21169,7 +21169,7 @@
     "size": 8,
     "type": "tram"
   },
-  "olomouc-lines-3-&-5-to-u-kaplicky": {
+  "olomouc-lines-3-5-to-u-kaplicky": {
     "been": false,
     "country": "CZ",
     "end": "U Kaplicky",
@@ -21182,7 +21182,7 @@
     "start": "Trnkova",
     "type": "tram"
   },
-  "olsztyn-lines-4-&-5-to-pieczewo": {
+  "olsztyn-lines-4-5-to-pieczewo": {
     "been": false,
     "country": "PL",
     "end": "Pieczewo",
@@ -21208,7 +21208,7 @@
     "start": "Wysoka Brama",
     "type": "tram"
   },
-  "oradea-lines-5/7-to-lotus": {
+  "oradea-lines-5-7-to-lotus": {
     "been": false,
     "country": "RO",
     "end": "Lotus",
@@ -21401,7 +21401,7 @@
     "reference": "Oslo",
     "start": "Åsjordet"
   },
-  "oslo-lines-13/19-to-oslo-hospital": {
+  "oslo-lines-13-19-to-oslo-hospital": {
     "badges": ["✅"],
     "been": true,
     "city": "Oslo",
@@ -22409,7 +22409,7 @@
     "prefix": "2030",
     "reference": "Penang"
   },
-  "perm-tram-6/11-to-dvorets-sporta-orlyonok": {
+  "perm-tram-6-11-to-dvorets-sporta-orlyonok": {
     "been": false,
     "country": "RU",
     "end": "Dvorets Sporta Orlyonok",
@@ -22418,7 +22418,7 @@
     "name": "Tram 6/11 to Dvorets Sporta Orlyonok",
     "prefix": "2021-01-16",
     "reference": "Perm",
-    "size": true,
+    "size": 1,
     "start": "Dinamo",
     "type": "tram"
   },
@@ -22528,7 +22528,7 @@
     "reference": "Perugia",
     "start": "Pian de Massiano"
   },
-  "phoenix-19th-ave/dunlap-to-metro-parkway": {
+  "phoenix-19th-ave-dunlap-to-metro-parkway": {
     "been": false,
     "city": "Phoenix",
     "coords": "33.44826389, -112.07458333",
@@ -22553,7 +22553,7 @@
     "prefix": "2025-06-07",
     "reference": "Phoenix"
   },
-  "phoenix-line-b-to-baseline/central-ave": {
+  "phoenix-line-b-to-baseline-central-ave": {
     "been": false,
     "city": "Phoenix",
     "coords": "42.27000000, -71.07320000",
@@ -22569,7 +22569,7 @@
     "start": "Downtown Phoenix Hub",
     "type": "tram"
   },
-  "phoenix-mesa-drive-to-gilbert-rd/main-st": {
+  "phoenix-mesa-drive-to-gilbert-rd-main-st": {
     "been": false,
     "city": "Phoenix",
     "coords": "37.53472200, -77.42916700",
@@ -22584,7 +22584,7 @@
     "start": "Mesa Drive",
     "type": "tram"
   },
-  "phoenix-montebello/19th-to-19th-ave/dunlap": {
+  "phoenix-montebello-19th-to-19th-ave-dunlap": {
     "been": false,
     "city": "Phoenix",
     "coords": "33.44833333, -112.07388889",
@@ -23048,7 +23048,7 @@
     "start": "Levského",
     "type": "tram"
   },
-  "prague-tram-20/26-to-dedina": {
+  "prague-tram-20-26-to-dedina": {
     "badges": ["👀"],
     "been": true,
     "city": "Prague",
@@ -23063,7 +23063,7 @@
     "start": "Divoka Sarka",
     "type": "tram"
   },
-  "prague-tram-4/5-to-slivenec": {
+  "prague-tram-4-5-to-slivenec": {
     "badges": ["👀"],
     "been": true,
     "city": "Prague",
@@ -23639,7 +23639,7 @@
     "start": "Parada dos Museus",
     "type": "tram"
   },
-  "rio-de-janeiro-tram-1/4-to-terminal-intermodal-gentileza": {
+  "rio-de-janeiro-tram-1-4-to-terminal-intermodal-gentileza": {
     "been": false,
     "city": "Rio de Janeiro",
     "coords": "-22.81000000, -43.25055556",
@@ -23671,7 +23671,7 @@
     "start": "Candelária",
     "type": "tram"
   },
-  "rio-de-janeiro-vlt-line-2-to-gamboa/pereira-reis": {
+  "rio-de-janeiro-vlt-line-2-to-gamboa-pereira-reis": {
     "been": false,
     "city": "Rio de Janeiro",
     "coords": "-22.91111111, -43.20555556",
@@ -24588,7 +24588,7 @@
     "prefix": "2017-03-25",
     "reference": "San Francisco"
   },
-  "san-francisco-bart-to-warm-springs/south-fremont": {
+  "san-francisco-bart-to-warm-springs-south-fremont": {
     "been": false,
     "city": "San Francisco",
     "coords": "37.78333333, -122.41666667",
@@ -24603,7 +24603,7 @@
     "start": "Fremont",
     "type": "metro"
   },
-  "san-francisco-bart-to-west-dublin/pleasanton-station": {
+  "san-francisco-bart-to-west-dublin-pleasanton-station": {
     "been": false,
     "city": "San Francisco",
     "coords": "37.65841111, -121.88219444",
@@ -24618,16 +24618,6 @@
     "type": "metro"
   },
   "san-francisco-t-line-to-chinatown-rose-pak": {
-    "been": false,
-    "city": "San Francisco",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Central_Subway_(San_Francisco)",
-    "name": "T Line to Chinatown-Rose Pak",
-    "prefix": "2022-11-19",
-    "reference": "San Francisco"
-  },
-  "san-francisco-t-line-to-chinatown/rose-pak": {
     "badges": ["✅"],
     "been": true,
     "city": "San Francisco",
@@ -25749,7 +25739,7 @@
     "start": "Seolleung",
     "type": "metro"
   },
-  "seoul-everline-to-jeondae/everland": {
+  "seoul-everline-to-jeondae-everland": {
     "been": false,
     "city": "Seoul",
     "coords": "37.28527778, 127.21941667",
@@ -25970,7 +25960,7 @@
     "prefix": "2020-09-12",
     "reference": "Seoul"
   },
-  "seoul-line-5-to-hanam-geomdansan-&-gangil-station": {
+  "seoul-line-5-to-hanam-geomdansan-gangil-station": {
     "been": false,
     "city": "Seoul",
     "coords": "37.56000000, 126.99000000",
@@ -26217,7 +26207,7 @@
     "start": "Saetgang",
     "type": "metro"
   },
-  "seoul-sin-bundang-line-(dx)": {
+  "seoul-sin-bundang-line-dx": {
     "been": false,
     "city": "Seoul",
     "coords": "37.56000000, 126.99000000",
@@ -26679,7 +26669,7 @@
     "start": "Changshou Road",
     "type": "metro"
   },
-  "shanghai-line-13-to-shibo-avenue-(expo)": {
+  "shanghai-line-13-to-shibo-avenue-expo": {
     "been": false,
     "city": "Shanghai",
     "coords": "31.22861111, 121.47472222",
@@ -27768,7 +27758,22 @@
     "size": 9.5,
     "type": "metro"
   },
-  "shenzhen-line-2-(shekou-line)": {
+  "shenzhen-line-2-8-to-yantian-road": {
+    "been": false,
+    "city": "Shenzhen",
+    "coords": "22.56370000, 114.24000000",
+    "country": "CN",
+    "end": "Yantian Road",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 2/8",
+    "link": "https://en.wikipedia.org/wiki/Yantian,_Shenzhen",
+    "name": "Line 2/8 to Yantian Road",
+    "prefix": "2020-10-28",
+    "reference": "Shenzhen",
+    "start": "Xinxiu",
+    "type": "metro"
+  },
+  "shenzhen-line-2-shekou-line": {
     "been": false,
     "city": "Shenzhen",
     "coords": "22.47558000, 113.88103000",
@@ -27795,21 +27800,6 @@
     "prefix": "2011-06-28",
     "reference": "Shenzhen",
     "start": "Window of the World",
-    "type": "metro"
-  },
-  "shenzhen-line-2/8-to-yantian-road": {
-    "been": false,
-    "city": "Shenzhen",
-    "coords": "22.56370000, 114.24000000",
-    "country": "CN",
-    "end": "Yantian Road",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 2/8",
-    "link": "https://en.wikipedia.org/wiki/Yantian,_Shenzhen",
-    "name": "Line 2/8 to Yantian Road",
-    "prefix": "2020-10-28",
-    "reference": "Shenzhen",
-    "start": "Xinxiu",
     "type": "metro"
   },
   "shenzhen-line-20": {
@@ -28772,7 +28762,7 @@
     "reference": "Sofia",
     "start": "Slivnitsa"
   },
-  "sofia-line-1-to-sofia-letishte/airport": {
+  "sofia-line-1-to-sofia-letishte-airport": {
     "been": false,
     "city": "Sofia",
     "coords": "42.69500000, 23.40833333",
@@ -29237,7 +29227,7 @@
     "reference": "Stuttgart",
     "start": "Möhringen Freibad"
   },
-  "stuttgart-u6-to-messe/flughafen": {
+  "stuttgart-u6-to-messe-flughafen": {
     "been": false,
     "country": "DE",
     "end": "Messe/Flughafen",
@@ -29574,7 +29564,7 @@
     "start": "Rondo Olszewskiego",
     "type": "tram"
   },
-  "szczecin-tram-2/8-to-turkusowa": {
+  "szczecin-tram-2-8-to-turkusowa": {
     "been": false,
     "city": "Szczecin",
     "coords": "53.43810000, 14.54220000",
@@ -29603,7 +29593,7 @@
     "start": "Las Arkonski",
     "type": "tram"
   },
-  "szczecin-tram-5/7-to-osiedle-zawadzkiego": {
+  "szczecin-tram-5-7-to-osiedle-zawadzkiego": {
     "been": false,
     "city": "Szczecin",
     "coords": "53.43250000, 14.54805556",
@@ -29884,7 +29874,7 @@
     "start": "Daqiaotou",
     "type": "metro"
   },
-  "taipei-xindian-line---branch-to-xiaobitan": {
+  "taipei-xindian-line-branch-to-xiaobitan": {
     "been": false,
     "city": "Taipei",
     "coords": "24.97306500, 121.52998700",
@@ -30313,7 +30303,7 @@
     "start": "Vali-e Asr",
     "type": "metro"
   },
-  "tehran-line-3-to-ghaem-(with-two-intermediate-stations)": {
+  "tehran-line-3-to-ghaem-with-two-intermediate-stations": {
     "been": false,
     "city": "Tehran",
     "coords": "35.70000000, 51.41666667",
@@ -30656,7 +30646,7 @@
     "start": "Tarbiat Modares University",
     "type": "metro"
   },
-  "tehran-line-6-to-shahid-arman-aliverdi-(kouhsar)": {
+  "tehran-line-6-to-shahid-arman-aliverdi-kouhsar": {
     "been": false,
     "city": "Tehran",
     "coords": "35.68888889, 51.38972222",
@@ -30929,7 +30919,7 @@
     "start": "Caozhuang",
     "type": "metro"
   },
-  "tianjin-line-2-to-binhaiguojijichang-(binhai-intl-airport)": {
+  "tianjin-line-2-to-binhaiguojijichang-binhai-intl-airport": {
     "been": false,
     "country": "CN",
     "end": "Binhaiguojijichang (Binhai Int’l Airport)",
@@ -31130,7 +31120,7 @@
     "start": "Zhongshanmen",
     "type": "metro"
   },
-  "tianjin-line-9-to-tianjinzhan-(tianjin-railway-station)": {
+  "tianjin-line-9-to-tianjinzhan-tianjin-railway-station": {
     "been": false,
     "country": "CN",
     "end": "Tianjinzhan (Tianjin Railway Station)",
@@ -31291,7 +31281,7 @@
     "start": "Finch West",
     "type": "tram"
   },
-  "torun-lines-3/6-to-heweliusza": {
+  "torun-lines-3-6-to-heweliusza": {
     "been": false,
     "country": "PL",
     "end": "Heweliusza",
@@ -31304,7 +31294,7 @@
     "start": "Waly gen. Sikorskiego",
     "type": "tram"
   },
-  "torun-tram-3-&-6-to-heweliusza": {
+  "torun-tram-3-6-to-heweliusza": {
     "been": false,
     "country": "PL",
     "icons": ["🇵🇱", "🚋"],
@@ -31542,7 +31532,7 @@
     "start": "XVIII Dicembre",
     "type": "tram"
   },
-  "uijeongbu-(seoul)-u-line": {
+  "uijeongbu-seoul-u-line": {
     "been": false,
     "country": "KR",
     "end": "Tapseok",
@@ -32094,7 +32084,7 @@
     "reference": "Vienna",
     "start": "Schottenring"
   },
-  "vinnytsia-barske-shose/zakhidniy-avtovokzal-to-vyshenka": {
+  "vinnytsia-barske-shose-zakhidniy-avtovokzal-to-vyshenka": {
     "been": false,
     "country": "UA",
     "end": "Vyshen’ka",
@@ -32458,7 +32448,7 @@
     "start": "Stare Swidry",
     "type": "tram"
   },
-  "warsaw-trams-14-&-16-to-to-miasteczko-wilanow": {
+  "warsaw-trams-14-16-to-to-miasteczko-wilanow": {
     "been": false,
     "city": "Warsaw",
     "country": "PL",
@@ -32651,7 +32641,7 @@
     "size": 10.7,
     "type": "tram"
   },
-  "wroclaw-line-16-to-hubska/prudnicka": {
+  "wroclaw-line-16-to-hubska-prudnicka": {
     "badges": ["✅"],
     "been": true,
     "country": "PL",
@@ -32665,7 +32655,7 @@
     "start": "Pulaskiego/Kosciuszki",
     "type": "metro"
   },
-  "wroclaw-lines-13/23-to-nowy-dwor": {
+  "wroclaw-lines-13-23-to-nowy-dwor": {
     "been": false,
     "country": "PL",
     "icons": ["🇵🇱", "🚋"],
@@ -32674,7 +32664,7 @@
     "prefix": "2023-09-03",
     "reference": "Wroclaw"
   },
-  "wroclaw-lines-13/23-to-nowy-dwor-p+r": {
+  "wroclaw-lines-13-23-to-nowy-dwor-p+r": {
     "badges": ["✅"],
     "been": true,
     "country": "PL",
@@ -32688,7 +32678,7 @@
     "start": "Park Biznesu",
     "type": "tram"
   },
-  "wroclaw-lines-18/19-to-wejherowska": {
+  "wroclaw-lines-18-19-to-wejherowska": {
     "badges": ["✅"],
     "been": true,
     "country": "PL",
@@ -32702,7 +32692,7 @@
     "start": "Dmowskiego",
     "type": "tram"
   },
-  "wroclaw-lines-31/32-to-stadion-wroclaw/dokerska": {
+  "wroclaw-lines-31-32-to-stadion-wroclaw-dokerska": {
     "badges": ["✅"],
     "been": true,
     "country": "PL",
@@ -32729,7 +32719,7 @@
     "start": "Plac Orlat Lwowskich",
     "type": "tram"
   },
-  "wroclaw-wroclaw-lines-18/19-to-wejherowska": {
+  "wroclaw-wroclaw-lines-18-19-to-wejherowska": {
     "been": false,
     "country": "PL",
     "icons": ["🇵🇱", "🚋"],
@@ -33704,7 +33694,7 @@
     "start": "Geologicheskaya",
     "type": "metro"
   },
-  "yekaterinburg-lines-2-&-18-to-krasnouralskaya": {
+  "yekaterinburg-lines-2-18-to-krasnouralskaya": {
     "been": false,
     "country": "RU",
     "end": "Krasnouralskaya",
@@ -33790,7 +33780,7 @@
     "size": 4.1,
     "type": "metro"
   },
-  "yokohama-tokyu/sotetsu-to-hazawa-yokohama-kokudai": {
+  "yokohama-tokyu-sotetsu-to-hazawa-yokohama-kokudai": {
     "been": false,
     "country": "JP",
     "end": "Hazawa Yokohama-kokudai",

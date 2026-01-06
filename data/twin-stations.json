@@ -1442,17 +1442,6 @@
     "name": "Kenmore",
     "reference": "Cleveland"
   },
-  "kensington-(olympia)-london": {
-    "been": true,
-    "city": "London",
-    "coords": "51.49860000, -0.21080000",
-    "country": "GB",
-    "group": "kensington",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
-    "name": "Kensington (Olympia)",
-    "reference": "London"
-  },
   "kensington-atlanta": {
     "been": false,
     "city": "Atlanta",
@@ -1463,6 +1452,17 @@
     "link": "https://en.wikipedia.org/wiki/Kensington_station_(MARTA)",
     "name": "Kensington",
     "reference": "Atlanta"
+  },
+  "kensington-olympia-london": {
+    "been": true,
+    "city": "London",
+    "coords": "51.49860000, -0.21080000",
+    "country": "GB",
+    "group": "kensington",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
+    "name": "Kensington (Olympia)",
+    "reference": "London"
   },
   "king-george-v": {
     "been": true,
@@ -2821,7 +2821,7 @@
     "name": "Saxe-Gambetta",
     "reference": "Lyon"
   },
-  "science-&amp;-technology-park-shenzhen": {
+  "science-technology-park-shenzhen": {
     "been": false,
     "city": "Shenzhen",
     "country": "CN",
@@ -2831,7 +2831,7 @@
     "name": "Science & Technology Park",
     "reference": "Shenzhen"
   },
-  "science-&amp;-technology-town-suzhou": {
+  "science-technology-town-suzhou": {
     "been": false,
     "country": "CN",
     "group": "science-technology",

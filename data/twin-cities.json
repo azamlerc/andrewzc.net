@@ -4781,17 +4781,6 @@
     "link": "https://en.wikipedia.org/wiki/Great_Britain",
     "name": "Great Britain"
   },
-  "greenwich": {
-    "been": true,
-    "city": "London",
-    "coords": "51.48000000, 0.00000000",
-    "country": "GB",
-    "group": "greenwich",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Greenwich",
-    "name": "Greenwich",
-    "order": -1
-  },
   "greenwich-ct": {
     "been": true,
     "coords": "41.03888889, -73.61361111",
@@ -4807,9 +4796,11 @@
     "city": "London",
     "coords": "51.48000000, 0.00000000",
     "country": "GB",
+    "group": "greenwich",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Greenwich",
-    "name": "Greenwich"
+    "name": "Greenwich",
+    "order": -1
   },
   "greenwich-ny": {
     "been": true,
@@ -4883,9 +4874,11 @@
     "city": "Den Haag",
     "coords": "52.08000000, 4.31000000",
     "country": "NL",
+    "group": "hague",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/The_Hague",
-    "name": "The Hague"
+    "name": "The Hague",
+    "order": -1
   },
   "hague-ny": {
     "been": false,
@@ -8987,17 +8980,7 @@
   },
   "ontario-ca": {
     "been": true,
-    "coords": "34.052778, -117.627778",
-    "country": "US",
-    "group": "ontario",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Ontario,_California",
-    "name": "Ontario, CA",
-    "state": "CA"
-  },
-  "ontario-canada": {
-    "been": true,
-    "coords": "49.25, -84.5",
+    "coords": "49.25000000, -84.50000000",
     "country": "CA",
     "group": "ontario",
     "icons": ["🇨🇦"],
@@ -12074,18 +12057,6 @@
     "link": "https://en.wikipedia.org/wiki/Syracuse,_New_York",
     "name": "Syracuse, NY",
     "state": "NY"
-  },
-  "the-hague-nl": {
-    "badges": ["🏠"],
-    "been": true,
-    "city": "Den Haag",
-    "coords": "52.08000000, 4.31000000",
-    "country": "NL",
-    "group": "hague",
-    "icons": ["🇳🇱"],
-    "link": "https://en.wikipedia.org/wiki/The_Hague",
-    "name": "The Hague",
-    "order": -1
   },
   "toledo-es": {
     "been": false,
