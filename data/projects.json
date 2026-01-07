@@ -10,7 +10,7 @@
     "name": "Projects",
     "prefixClass": "fixed",
     "size": "small",
-    "sort": "-prefix",
+    "sort": "-prefixDate",
     "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key"],
     "type": "place"
   },
@@ -4934,18 +4934,6 @@
     "start": "Rondo Kujawskie",
     "type": "tram"
   },
-  "caen-lines-t1-t3-rebuilt": {
-    "badges": ["✅"],
-    "been": true,
-    "country": "FR",
-    "icons": ["🇫🇷", "🚋"],
-    "line": "Lines T1-T3",
-    "name": "Lines T1-T3 rebuilt",
-    "prefix": "2019-07-27",
-    "reference": "Caen",
-    "size": 16.4,
-    "type": "tram"
-  },
   "caen-tram-3-to-hauts-de-lorne": {
     "been": false,
     "country": "FR",
@@ -4957,6 +4945,18 @@
     "reference": "Caen",
     "size": 0.6,
     "start": "Collège Hawking",
+    "type": "tram"
+  },
+  "caen-trams-1-3-rebuilt": {
+    "badges": ["✅"],
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷", "🚋"],
+    "line": "Trams 1/3",
+    "name": "Trams 1/3 rebuilt",
+    "prefix": "2019-07-27",
+    "reference": "Caen",
+    "size": 16.4,
     "type": "tram"
   },
   "caen-tramway": {
@@ -5593,7 +5593,7 @@
   "changsha-line-6": {
     "been": false,
     "country": "CN",
-    "end": "Huanghua Airport T1&T2",
+    "end": "Huanghua Airport T1 & T2",
     "icons": ["🇨🇳", "🚇"],
     "line": "Line 6",
     "name": "Line 6",
@@ -6150,16 +6150,6 @@
     "reference": "Chengdu",
     "start": "Shenxian Lake"
   },
-  "chengdu-t2-three-sections": {
-    "been": false,
-    "country": "CN",
-    "end": "T2 three sections",
-    "icons": ["🇨🇳", "🚋"],
-    "name": "T2 three sections",
-    "prefix": "2019-12-27",
-    "reference": "Chengdu",
-    "type": "tram"
-  },
   "chengdu-tram": {
     "badges": ["✨"],
     "been": true,
@@ -6172,6 +6162,15 @@
     "reference": "Chengdu",
     "size": 13.5,
     "start": "Chenguang",
+    "type": "tram"
+  },
+  "chengdu-tram-2-three-sections": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳", "🚋"],
+    "name": "Tram 2 three sections",
+    "prefix": "2019-12-27",
+    "reference": "Chengdu",
     "type": "tram"
   },
   "chennai-blue-line": {
@@ -6405,6 +6404,17 @@
     "start": "Bishan",
     "type": "suburban"
   },
+  "chongqing-chalukou-huaxi-jinzhu": {
+    "been": false,
+    "country": "CN",
+    "end": "Chalukou, Huaxi & Jinzhu",
+    "icons": ["🇨🇳", "🚇"],
+    "line": "Line 3",
+    "name": "Chalukou, Huaxi & Jinzhu",
+    "prefix": "2013-01-31",
+    "reference": "Chongqing",
+    "type": "metro"
+  },
   "chongqing-chongqing-yunba": {
     "been": false,
     "country": "CN",
@@ -6601,17 +6611,6 @@
     "prefix": "2011-09-29",
     "reference": "Chongqing",
     "start": "Lianglukou",
-    "type": "metro"
-  },
-  "chongqing-line-3-to-chalukou-huaxi-jinzhu-stations": {
-    "been": false,
-    "country": "CN",
-    "end": "Chalukou, Huaxi & Jinzhu stations",
-    "icons": ["🇨🇳", "🚇"],
-    "line": "Line 3",
-    "name": "Line 3 to Chalukou, Huaxi & Jinzhu stations",
-    "prefix": "2013-01-31",
-    "reference": "Chongqing",
     "type": "metro"
   },
   "chongqing-line-3-to-jiangbei-intl-airport": {
@@ -12196,22 +12195,6 @@
     "prefix": "2024-08-12",
     "reference": "Helsinki"
   },
-  "helsinki-tram-13-to-nihti": {
-    "been": false,
-    "city": "Helsinki",
-    "coords": "60.17083333, 24.93750000",
-    "country": "FI",
-    "end": "Nihti",
-    "icons": ["🇫🇮", "🚋"],
-    "line": "Line 13",
-    "link": "https://en.wikipedia.org/wiki/Helsinki",
-    "name": "Tram 13 to Nihti",
-    "prefix": "2024-08-12",
-    "reference": "Helsinki",
-    "size": 4.3,
-    "start": "Pasila",
-    "type": "tram"
-  },
   "helsinki-tram-15": {
     "been": false,
     "city": "Helsinki",
@@ -17514,30 +17497,30 @@
     "start": "Belsunce/Alcazar",
     "type": "tram"
   },
-  "marseille-t3-to-capitaine-geze": {
+  "marseille-tram-3-to-capitaine-geze": {
     "been": false,
     "city": "Marseille",
     "country": "FR",
     "dateAdded": "2025-12-27",
     "end": "Capitaine Gèze",
     "icons": ["🇫🇷", "🚋"],
-    "line": "T3",
-    "name": "T3 to Capitaine Gèze",
+    "line": "Tram 3",
+    "name": "Tram 3 to Capitaine Gèze",
     "prefix": "2026-01-07",
     "reference": "Marseille",
     "size": 1.6,
     "start": "Arenc",
     "type": "tram"
   },
-  "marseille-t3-to-la-gaye": {
+  "marseille-tram-3-to-la-gaye": {
     "been": false,
     "city": "Marseille",
     "country": "FR",
     "dateAdded": "2025-12-27",
     "end": "La Gaye",
     "icons": ["🇫🇷", "🚋"],
-    "line": "T3",
-    "name": "T3 to La Gaye",
+    "line": "Tram 3",
+    "name": "Tram 3 to La Gaye",
     "prefix": "2026-01-07",
     "reference": "Marseille",
     "size": 4.4,
@@ -27114,16 +27097,15 @@
     "reference": "Shanghai",
     "start": "Gui Lin Road"
   },
-  "shanghai-songjiang-tram-t2-to-full-circle": {
+  "shanghai-songjiang-tram-2-full-circle": {
     "been": false,
     "city": "Shanghai",
     "coords": "31.22861111, 121.47472222",
     "country": "CN",
     "end": "Full circle",
     "icons": ["🇨🇳", "🚋"],
-    "line": "Songjiang Tram T2",
-    "link": "https://en.wikipedia.org/wiki/Full_Circle_with_Michael_Palin",
-    "name": "Songjiang Tram T2 to Full circle",
+    "line": "Songjiang Tram 2",
+    "name": "Songjiang Tram 2 full circle",
     "prefix": "2019-08-10",
     "reference": "Shanghai",
     "size": 12.7,

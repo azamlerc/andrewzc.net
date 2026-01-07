@@ -1018,7 +1018,7 @@
     },
     "name": "Grand & Union",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
   "grand-unions": {
@@ -1831,7 +1831,7 @@
     "name": "Projects",
     "prefixClass": "fixed",
     "size": "small",
-    "sort": "-prefix",
+    "sort": "-prefixDate",
     "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key"],
     "type": "place"
   },
