@@ -4101,22 +4101,6 @@
     "start": "Safarikovo nam.",
     "type": "tram"
   },
-  "bratislava-tram-3-to-juzne-mesto": {
-    "been": false,
-    "city": "Bratislava",
-    "coords": "48.14388889, 17.10972222",
-    "country": "SK",
-    "end": "Juzne mesto",
-    "icons": ["🇸🇰", "🚋"],
-    "line": "Line 3",
-    "link": "https://en.wikipedia.org/wiki/Metro_Bratislava",
-    "name": "Tram 3 to Juzne mesto",
-    "prefix": "2025-07-27",
-    "reference": "Bratislava",
-    "size": 3.9,
-    "start": "Jungmannova",
-    "type": "tram"
-  },
   "bratislava-tram-3-to-petrzalka": {
     "been": false,
     "city": "Bratislava",
@@ -5324,7 +5308,7 @@
     "start": "Anoual",
     "type": "tram"
   },
-  "casablanca-tram-3-to-hay-el-wahda": {
+  "casablanca-tram-3": {
     "badges": ["✅"],
     "been": true,
     "city": "Casablanca",
@@ -5334,14 +5318,14 @@
     "icons": ["🇲🇦", "🚋"],
     "line": "Tram 3",
     "link": "https://en.wikipedia.org/wiki/Casablanca_Tramway",
-    "name": "Tram 3 to Hay El Wahda",
+    "name": "Tram 3",
     "prefix": "2024-09-24",
     "reference": "Casablanca",
     "size": 14.1,
     "start": "Gare de Casa-Port",
     "type": "tram"
   },
-  "casablanca-tram-4-to-mohammed-erradi": {
+  "casablanca-tram-4": {
     "badges": ["✅"],
     "been": true,
     "city": "Casablanca",
@@ -5351,22 +5335,12 @@
     "icons": ["🇲🇦", "🚋"],
     "line": "Tram 4",
     "link": "https://en.wikipedia.org/wiki/Casablanca_Tramway",
-    "name": "Tram 4 to Mohammed Erradi",
+    "name": "Tram 4",
     "prefix": "2024-09-24",
     "reference": "Casablanca",
     "size": 12.5,
     "start": "Parc de la Ligue Arabe",
     "type": "tram"
-  },
-  "casablanca-trams-t3-t4": {
-    "been": false,
-    "city": "Casablanca",
-    "country": "MA",
-    "icons": ["🇲🇦", "🚋"],
-    "link": "https://en.wikipedia.org/wiki/Casablanca_Tramway",
-    "name": "Trams T3 & T4",
-    "prefix": "2024-09-24",
-    "reference": "Casablanca"
   },
   "catania-borgo-to-nesima": {
     "been": false,
@@ -8298,26 +8272,10 @@
     "city": "Delhi",
     "country": "IN",
     "icons": ["🇮🇳", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Magenta_Line_(Delhi_Metro)",
+    "link": "https://en.wikipedia.org/wiki/Krishna_Park_Extension_metro_station",
     "name": "Magenta Line to Krishna Park",
     "prefix": "2025-01-05",
     "reference": "Delhi"
-  },
-  "delhi-magenta-line-to-krishna-park-extension": {
-    "been": false,
-    "city": "Delhi",
-    "coords": "28.64777080, 77.08439350",
-    "country": "IN",
-    "end": "Krishna Park Extension",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Magenta Line",
-    "link": "https://en.wikipedia.org/wiki/Krishna_Park_Extension_metro_station",
-    "name": "Magenta Line to Krishna Park Extension",
-    "prefix": "2025-01-05",
-    "reference": "Delhi",
-    "size": 2,
-    "start": "Janakpuri West",
-    "type": "metro"
   },
   "delhi-orange-line-to-yashobhoomi-dwarka-sector-25": {
     "been": false,
@@ -16098,7 +16056,7 @@
     "city": "Los Angeles",
     "country": "US",
     "icons": ["🇺🇸", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)",
+    "link": "https://en.wikipedia.org/wiki/APU/Citrus_College_station",
     "name": "A Line to Pomona North",
     "prefix": "2025-09-19",
     "reference": "Los Angeles"
@@ -16245,21 +16203,6 @@
     "name": "LAX Automated People Mover",
     "prefix": "2026-06",
     "reference": "Los Angeles"
-  },
-  "los-angeles-line-a-to-apu-citrus-college-pomona-north": {
-    "been": false,
-    "city": "Los Angeles",
-    "coords": "34.05000000, -118.25000000",
-    "country": "US",
-    "end": "APU/Citrus College Pomona North",
-    "icons": ["🇺🇸", "🚇"],
-    "line": "Line A",
-    "link": "https://en.wikipedia.org/wiki/APU/Citrus_College_station",
-    "name": "Line A to APU/Citrus College Pomona North",
-    "prefix": "2025-09-19",
-    "reference": "Los Angeles",
-    "size": 14.7,
-    "type": "metro"
   },
   "los-angeles-metro-gold-line-to-atlantic": {
     "been": false,
@@ -17526,15 +17469,6 @@
     "prefix": "2009-06-08",
     "reference": "Maracaibo",
     "start": "Sabaneta"
-  },
-  "mardrid-line-3-to-el-casar": {
-    "been": false,
-    "country": "ES",
-    "icons": ["🇪🇸", "🚇"],
-    "link": "https://es.wikipedia.org/wiki/Línea_3_(Metro_de_Madrid)",
-    "name": "Line 3 to El Casar",
-    "prefix": "2025-04-21",
-    "reference": "Mardrid"
   },
   "marseille-line-1-to-la-fourragere": {
     "been": false,
@@ -19316,22 +19250,6 @@
     "reference": "Moscow",
     "start": "Annino"
   },
-  "moscow-tram-2-to-metro-ploschad-ilyicha": {
-    "been": false,
-    "city": "Moscow",
-    "coords": "55.75660000, 37.62160000",
-    "country": "RU",
-    "end": "Metro Ploschad Ilyicha",
-    "icons": ["🇷🇺", "🚋"],
-    "line": "Line 2",
-    "link": "https://en.wikipedia.org/wiki/Ploshchad_Revolyutsii_(Moscow_Metro)",
-    "name": "Tram 2 to Metro Ploschad Ilyicha",
-    "prefix": "2024-09-23",
-    "reference": "Moscow",
-    "size": 0.8,
-    "start": "Kostomarovskiy Most",
-    "type": "tram"
-  },
   "moscow-tram-2-to-ploschad-ilyicha": {
     "been": false,
     "city": "Moscow",
@@ -19459,21 +19377,6 @@
     "name": "Line 3 to Acharya Atre Chowk",
     "prefix": "2025-05-10",
     "reference": "Mumbai"
-  },
-  "mumbai-line-3-to-bandra-kurla-complex-acharya-atre-chowk": {
-    "been": false,
-    "city": "Mumbai",
-    "coords": "19.06066290, 72.85467970",
-    "country": "IN",
-    "end": "Bandra-Kurla Complex Acharya Atre Chowk",
-    "icons": ["🇮🇳", "🚇"],
-    "line": "Line 3",
-    "link": "https://en.wikipedia.org/wiki/Bandra_Kurla_Complex_metro_station",
-    "name": "Line 3 to Bandra-Kurla Complex Acharya Atre Chowk",
-    "prefix": "2025-05-10",
-    "reference": "Mumbai",
-    "size": 9.800000000000001,
-    "type": "metro"
   },
   "mumbai-line-3-to-cuffe-parade": {
     "been": false,
@@ -21003,17 +20906,6 @@
     "size": 17.5,
     "start": "Nottingham Station",
     "type": "tram"
-  },
-  "novosibirsk-leninskaya-to-sportivnaya": {
-    "been": false,
-    "country": "RU",
-    "end": "Sportivnaya",
-    "icons": ["🇷🇺", "🚇"],
-    "name": "Leninskaya to Sportivnaya",
-    "prefix": "2025-09-05",
-    "reference": "Novosibirsk",
-    "start": "Leninskaya",
-    "type": "metro"
   },
   "novosibirsk-line-2-to-beryozovaya-roshcha": {
     "been": false,
@@ -22546,23 +22438,13 @@
   "phoenix-line-b": {
     "been": false,
     "city": "Phoenix",
-    "country": "US",
-    "icons": ["🇺🇸", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/B_Line_(Valley_Metro_Rail)",
-    "name": "Line B",
-    "prefix": "2025-06-07",
-    "reference": "Phoenix"
-  },
-  "phoenix-line-b-to-baseline-central-ave": {
-    "been": false,
-    "city": "Phoenix",
     "coords": "42.27000000, -71.07320000",
     "country": "US",
     "end": "Baseline/Central Ave",
     "icons": ["🇺🇸", "🚋"],
     "line": "Line B",
-    "link": "https://en.wikipedia.org/wiki/Baseline/Central_Avenue_station",
-    "name": "Line B to Baseline/Central Ave",
+    "link": "https://en.wikipedia.org/wiki/B_Line_(Valley_Metro_Rail)",
+    "name": "Line B",
     "prefix": "2025-06-07",
     "reference": "Phoenix",
     "size": 7.7,
@@ -26355,15 +26237,6 @@
     "start": "Eduardo Dato",
     "type": "tram"
   },
-  "seville-tram-1-to-luis-de-morales": {
-    "been": false,
-    "country": "ES",
-    "icons": ["🇪🇸", "🚋"],
-    "link": "https://en.wikipedia.org/wiki/MetroCentro_(Seville)",
-    "name": "Tram 1 to Luis de Morales",
-    "prefix": "2024-11-18",
-    "reference": "Seville"
-  },
   "shanghai-airport-link-line": {
     "been": false,
     "city": "Shanghai",
@@ -29116,31 +28989,13 @@
     "end": "Wolfisheim Henri Rendu",
     "icons": ["🇫🇷", "🚋"],
     "line": "Line F",
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Strasbourg",
     "name": "Line F to Wolfisheim Henri Rendu",
     "prefix": "2025-11-15",
     "reference": "Strasbourg",
     "size": 4,
     "start": "Comtes",
     "type": "tram"
-  },
-  "strasbourg-tram-f-to-wolfisheim-henri-rendu": {
-    "been": false,
-    "city": "Strasbourg",
-    "country": "FR",
-    "icons": ["🇫🇷", "🚋"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Strasbourg",
-    "name": "Tram F to Wolfisheim Henri Rendu",
-    "prefix": "2025-11-15",
-    "reference": "Strasbourg"
-  },
-  "stuttgart-line-u5-to-leinfelden-neuer-markt": {
-    "been": false,
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Stuttgart_Stadtbahn#U5",
-    "name": "Line U5 to Leinfelden Neuer Markt",
-    "prefix": "2024-10-18",
-    "reference": "Stuttgart"
   },
   "stuttgart-u12-to-durrlewang": {
     "been": false,
@@ -30015,18 +29870,6 @@
     "prefix": "2017-09-01",
     "reference": "Tallinn",
     "start": "Ülemiste",
-    "type": "tram"
-  },
-  "tampere-santalahti-to-pyhallonpuisto": {
-    "been": false,
-    "country": "FI",
-    "end": "Pyhällönpuisto",
-    "icons": ["🇫🇮", "🚋"],
-    "name": "Santalahti to Pyhällönpuisto",
-    "prefix": "2025-01-07",
-    "reference": "Tampere",
-    "size": 4.6,
-    "start": "Santalahti",
     "type": "tram"
   },
   "tampere-tram": {
@@ -31788,25 +31631,11 @@
     "reference": "Vancouver",
     "start": "Waterfront"
   },
-  "vancouver-canada-line-to-capstan-station": {
-    "been": false,
-    "city": "Vancouver",
-    "coords": "49.18925400, -123.13167700",
-    "country": "CA",
-    "end": "Capstan station",
-    "icons": ["🇨🇦", "🚇"],
-    "line": "Canada Line",
-    "link": "https://en.wikipedia.org/wiki/Capstan_station",
-    "name": "Canada Line to Capstan station",
-    "prefix": "2024-12-20",
-    "reference": "Vancouver",
-    "type": "metro"
-  },
   "vancouver-capstan-station": {
     "been": false,
     "city": "Vancouver",
     "country": "CA",
-    "icons": ["🇨🇦"],
+    "icons": ["🇨🇦", "🚇"],
     "link": "https://en.wikipedia.org/wiki/Capstan_station",
     "name": "Capstan station",
     "prefix": "2024-12-20",
@@ -31818,7 +31647,7 @@
     "coords": "49.25460000, -122.93900000",
     "country": "CA",
     "end": "Lake City Way",
-    "icons": ["🇨🇦"],
+    "icons": ["🇨🇦", "🚇"],
     "link": "https://en.wikipedia.org/wiki/Lake_City_Way",
     "name": "Lake City Way",
     "prefix": "2003-11-21",
@@ -32292,22 +32121,6 @@
     "start": "Ksiecia Janusza",
     "type": "metro"
   },
-  "warsaw-lines-14-to-miasteczko-wilanow": {
-    "been": false,
-    "city": "Warsaw",
-    "coords": "52.23222222, 21.00833333",
-    "country": "PL",
-    "end": "Miasteczko Wilanów",
-    "icons": ["🇵🇱", "🚋"],
-    "line": "Lines 14 & 16",
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Warsaw",
-    "name": "Lines 14 to Miasteczko Wilanów",
-    "prefix": "2024-10-29",
-    "reference": "Warsaw",
-    "size": 6.3,
-    "start": "Spacerowa",
-    "type": "tram"
-  },
   "warsaw-marymont-to-slodowiec": {
     "been": false,
     "city": "Warsaw",
@@ -32403,19 +32216,6 @@
     "name": "Tram 19 to Stegny",
     "prefix": "2025-06-28",
     "reference": "Warsaw"
-  },
-  "warsaw-tram-19-to-sw-bonifacego-stegny": {
-    "been": false,
-    "city": "Warsaw",
-    "country": "PL",
-    "end": "Sw. Bonifacego Stegny",
-    "icons": ["🇵🇱", "🚋"],
-    "line": "Line 19",
-    "name": "Tram 19 to Sw. Bonifacego Stegny",
-    "prefix": "2025-06-28",
-    "reference": "Warsaw",
-    "size": 0.8,
-    "type": "tram"
   },
   "warsaw-tram-2-to-nowodwory": {
     "been": false,
@@ -34177,23 +33977,5 @@
     "size": 0.7,
     "start": "Hardplatz",
     "type": "tram"
-  },
-  "‎saint-petersburg-line-4-to-gornyi-institut": {
-    "been": false,
-    "country": "RU",
-    "icons": ["🇷🇺", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Line_4_(Saint_Petersburg_Metro)",
-    "name": "Line 4 to Gornyi Institut",
-    "prefix": "2024-12-27",
-    "reference": "‎Saint Petersburg"
-  },
-  "‎saint-petersburg-line-5-to-shushary": {
-    "been": false,
-    "country": "RU",
-    "icons": ["🇷🇺", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Line_5_(Saint_Petersburg_Metro)",
-    "name": "Line 5 to Shushary",
-    "prefix": "2019-10-03",
-    "reference": "‎Saint Petersburg"
   }
 }
