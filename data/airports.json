@@ -72,6 +72,28 @@
     "name": "Amsterdam Schiphol",
     "prefix": "AMS"
   },
+  "athens-eleftherios-venizelos": {
+    "been": false,
+    "coords": "37.93638889, 23.94722222",
+    "country": "GR",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Athens_International_Airport",
+    "name": "Athens Eleftherios Venizelos",
+    "prefix": "ATH"
+  },
+  "athens-ellinikon": {
+    "been": false,
+    "city": "Athens",
+    "coords": "37.89833333, 23.72944444",
+    "country": "GR",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Ellinikon_International_Airport",
+    "name": "Athens Ellinikon",
+    "prefix": "ATH",
+    "strike": true
+  },
   "atlanta-hartsfield-jackson": {
     "been": true,
     "city": "Atlanta",
@@ -101,16 +123,6 @@
     "link": "https://en.wikipedia.org/wiki/Modibo_Keita_International_Airport",
     "name": "Bamako Modibo Keita",
     "prefix": "BKO"
-  },
-  "bangalore-kempegowda": {
-    "been": true,
-    "city": "Bengaluru",
-    "coords": "13.19888889, 77.70555556",
-    "country": "IN",
-    "icons": ["🇮🇳"],
-    "link": "https://en.wikipedia.org/wiki/Kempegowda_International_Airport",
-    "name": "Bangalore Kempegowda",
-    "prefix": "BLR"
   },
   "bangkok-suvarnabhumi": {
     "been": true,
@@ -169,6 +181,28 @@
     "link": "https://en.wikipedia.org/wiki/Belgrade_Nikola_Tesla_Airport",
     "name": "Belgrade Nikola Tesla",
     "prefix": "BEG"
+  },
+  "bengaluru-hal": {
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.95000000, 77.66833333",
+    "country": "IN",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/HAL_Airport",
+    "name": "Bengaluru HAL",
+    "prefix": "BLR",
+    "strike": true
+  },
+  "bengaluru-kempegowda": {
+    "been": true,
+    "coords": "13.19888889, 77.70555556",
+    "country": "IN",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇮🇳"],
+    "link": "https://en.wikipedia.org/wiki/Kempegowda_International_Airport",
+    "name": "Bengaluru Kempegowda",
+    "prefix": "BLR"
   },
   "berlin-brandenburg": {
     "been": true,
@@ -683,8 +717,8 @@
     "been": true,
     "city": "Geneva",
     "coords": "46.23756000, 6.10921000",
-    "country": "CH",
-    "icons": ["🇨🇭"],
+    "countries": ["CH", "FR"],
+    "icons": ["🇨🇭", "🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Geneva_Airport",
     "name": "Geneva",
     "prefix": "GVA"
@@ -727,7 +761,8 @@
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Kai_Tak_Airport",
     "name": "Hong Kong Kai Tak",
-    "prefix": "HKG"
+    "prefix": "HKG",
+    "strike": true
   },
   "istanbul": {
     "been": true,
@@ -738,6 +773,17 @@
     "link": "https://en.wikipedia.org/wiki/Istanbul_Airport",
     "name": "Istanbul",
     "prefix": "IST"
+  },
+  "istanbul-ataturk": {
+    "been": false,
+    "city": "Istanbul",
+    "coords": "40.97611111, 28.81416667",
+    "country": "TR",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Airport",
+    "name": "Istanbul Atatürk",
+    "prefix": "ISL"
   },
   "john-f-kennedy": {
     "been": true,
@@ -1136,6 +1182,27 @@
     "name": "Mulatupo",
     "prefix": "MPP"
   },
+  "munich-riem": {
+    "been": false,
+    "coords": "48.13777778, 11.69027778",
+    "country": "DE",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Munich-Riem_Airport",
+    "name": "Munich Riem",
+    "prefix": "MUC",
+    "strike": true
+  },
+  "munich-strauss": {
+    "been": false,
+    "coords": "48.35388889, 11.78611111",
+    "country": "DE",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Munich_Airport",
+    "name": "Munich Strauss",
+    "prefix": "MUC"
+  },
   "nairobi-jomo-kenyatta": {
     "been": true,
     "city": "Nairobi",
@@ -1234,14 +1301,26 @@
     "name": "Orly",
     "prefix": "ORY"
   },
-  "oslo": {
+  "oslo-fornebu": {
+    "been": false,
+    "city": "Oslo",
+    "coords": "59.88972222, 10.59777778",
+    "country": "NO",
+    "dateAdded": "2026-01-09",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Oslo_Airport,_Fornebu",
+    "name": "Oslo Fornebu",
+    "prefix": "OSL",
+    "strike": true
+  },
+  "oslo-gardermoen": {
     "been": true,
     "city": "Oslo",
     "coords": "60.20277778, 11.08388889",
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Airport,_Gardermoen",
-    "name": "Oslo",
+    "name": "Oslo Gardermoen",
     "prefix": "OSL"
   },
   "ouagadougou-thomas-sankara": {
