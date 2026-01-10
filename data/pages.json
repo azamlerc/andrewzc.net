@@ -1189,6 +1189,18 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "international-trams": {
+    "icon": "🗺️",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Cross-Border",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
   "islands": {
     "icon": "🏝️",
     "map": {
@@ -1376,6 +1388,18 @@
     "name": "Shopping Malls",
     "size": "large",
     "tags": ["auto", "google"],
+    "type": "place"
+  },
+  "metro-food": {
+    "icon": "🍒",
+    "map": {
+      "lat": "40",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Metro Food",
+    "size": "medium",
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "metro-people": {
@@ -2626,6 +2650,19 @@
     "icon": "💦",
     "name": "Waterfalls",
     "size": "large",
+    "type": "place"
+  },
+  "women-only": {
+    "icon": "🥻",
+    "map": {
+      "cluster": "true",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Women Only",
+    "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "worldsfair": {

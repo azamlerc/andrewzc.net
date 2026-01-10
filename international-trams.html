@@ -3,33 +3,34 @@
 <head>
 	<title>🗺️ Cross-Border</title>
 	<meta charset="UTF-8">
-	<meta name="andrewzc" content="reference-first" />
+	<meta name="andrewzc" content="auto, reference-first" />
 	<meta name="viewport" content="width=device-width, initial-scale=0.45">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="headline">🗺️ Cross-Border</div>
+<div id="map" lat="25" lon="15" zoom="2"></div><script src="map.js"></script>
 <div class="items medium">
 
-🇩🇪 🇧🇪 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike">Altenburg</a><br>
-🇩🇪 🇧🇪 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike">Eupen</a><br>
-🇩🇪 🇳🇱 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike">Vaals</a><br>
-🇨🇭 🇫🇷 <span class="dark">Basel</span> <a href="https://fr.wikipedia.org/wiki/Saint-Louis_(Haut-Rhin)">Saint-Louis</a><br>
-🇨🇭 🇩🇪 <span class="dark">Basel</span> <a href="https://de.wikipedia.org/wiki/Weil_am_Rhein">Weil am Rhein</a><br>
-🇫🇷 🇧🇪 <span class="dark">Lille</span> <a href="https://nl.wikipedia.org/wiki/Station_Herzeeuw" class="strike">Herseaux</a><br>
-🇺🇸 🇨🇦 <a href="https://en.wikipedia.org/wiki/International_Railway_(New_York–Ontario)" class="strike">Niagara Falls</a><br>
-🇮🇹 🇻🇦 <span class="dark">Rome</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Rome">Risorgimento / San Pietro</a><br>
-🇩🇪 🇫🇷 <span class="dark">Saarbrücken</span> <a href="https://fr.wikipedia.org/wiki/Sarreguemines">Sarreguemines</a><br>
-🇫🇷 🇩🇪 <span class="dark">Strasbourg</span> <a href="https://de.wikipedia.org/wiki/Kehl">Kehl</a><br>
+🇩🇪 🇧🇪 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike" id="altenburg">Altenburg</a><br>
+🇩🇪 🇧🇪 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike" id="eupen">Eupen</a><br>
+🇩🇪 🇳🇱 <span class="dark">Aachen</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Aachen" class="strike" id="vaals">Vaals</a><br>
+🇨🇭 🇫🇷 <span class="dark">Basel</span> <a href="https://fr.wikipedia.org/wiki/Saint-Louis_(Haut-Rhin)" id="saint-louis">Saint-Louis</a><br>
+🇨🇭 🇩🇪 <span class="dark">Basel</span> <a href="https://de.wikipedia.org/wiki/Weil_am_Rhein" id="weil-am-rhein">Weil am Rhein</a><br>
+🇫🇷 🇧🇪 <span class="dark">Lille</span> <a href="https://nl.wikipedia.org/wiki/Station_Herzeeuw" class="strike" id="herseaux">Herseaux</a><br>
+🇮🇹 🇻🇦 <span class="dark">Rome</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Rome" id="risorgimento-san-pietro">Risorgimento / San Pietro</a><br>
+🇩🇪 🇫🇷 <span class="dark">Saarbrücken</span> <a href="https://fr.wikipedia.org/wiki/Sarreguemines" id="sarreguemines">Sarreguemines</a><br>
+🇫🇷 🇩🇪 <span class="dark">Strasbourg</span> <a href="https://de.wikipedia.org/wiki/Kehl" id="kehl">Kehl</a><br>
+🇺🇸 🇨🇦 <a href="https://en.wikipedia.org/wiki/International_Railway_(New_York–Ontario)" class="strike" id="niagara-falls">Niagara Falls</a><br>
 
 <hr>
 
-🇺🇸 🇲🇽 <span class="dark">El Paso</span> <a href="https://en.wikipedia.org/wiki/El_Paso_Streetcar" class="strike">Juárez</a><br>
-🇨🇭 🇫🇷 <span class="dark">Geneva</span> <a href="https://fr.wikipedia.org/wiki/Annemasse">Annemasse</a><br>
-🇵🇱 🇩🇪 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/1921_Upper_Silesia_plebiscite" class="strike">German Upper Silesia</a><br>
-🇲🇴 🇨🇳 <span class="dark">Macau</span> <a href="https://en.wikipedia.org/wiki/Hengqin_line">Hengqin</a><br>
-🇸🇬 🇲🇾 <span class="dark">Singapore</span> <a href="https://en.wikipedia.org/wiki/Johor_Bahru–Singapore_Rapid_Transit_System">Johor Bahru</a> 🚧<br>
-🇨🇿 🇵🇱 <span class="dark">Český Těšín</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Teschen" class="strike">Cieszyn</a><br>
+🇨🇿 🇵🇱 <span class="dark">Český Těšín</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Teschen" class="strike" id="cieszyn">Cieszyn</a><br>
+🇺🇸 🇲🇽 <span class="dark">El Paso</span> <a href="https://en.wikipedia.org/wiki/El_Paso_Streetcar" class="strike" id="juarez">Juárez</a><br>
+🇨🇭 🇫🇷 <span class="dark">Geneva</span> <a href="https://fr.wikipedia.org/wiki/Annemasse" id="annemasse">Annemasse</a><br>
+🇵🇱 🇩🇪 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/1921_Upper_Silesia_plebiscite" class="strike" id="german-upper-silesia">German Upper Silesia</a><br>
+🇲🇴 🇨🇳 <span class="dark">Macau</span> <a href="https://en.wikipedia.org/wiki/Hengqin_line" id="hengqin">Hengqin</a><br>
+🇸🇬 🇲🇾 <span class="dark">Singapore</span> <a href="https://en.wikipedia.org/wiki/Johor_Bahru–Singapore_Rapid_Transit_System" id="johor-bahru">Johor Bahru</a> 🚧<br>
 
 </div>
 </body>
