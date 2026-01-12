@@ -129,6 +129,15 @@
     "name": "Hainault",
     "reference": "London"
   },
+  "harbourfront": {
+    "been": true,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "info": "Circle/North East",
+    "link": "https://en.wikipedia.org/wiki/HarbourFront_MRT_station",
+    "name": "HarbourFront"
+  },
   "jatkasaari": {
     "been": false,
     "city": "Helsinki",
@@ -191,7 +200,7 @@
     "info": "T12/V",
     "link": "https://fr.wikipedia.org/wiki/Gare_de_Massy_-_Palaiseau",
     "name": "Massy–Palaiseau",
-    "reference": "Paris"
+    "reference": "T12/V"
   },
   "nation": {
     "been": true,
@@ -401,6 +410,16 @@
     "reference": "Oslo",
     "strike": true
   },
+  "sungei-bedok": {
+    "badges": ["🚧"],
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "info": "DT/TE",
+    "link": "https://en.wikipedia.org/wiki/Sungei_Bedok_MRT_station",
+    "name": "Sungei Bedok"
+  },
   "tasquena": {
     "been": true,
     "city": "Mexico City",
@@ -453,7 +472,7 @@
     "info": "M7/T7",
     "link": "https://fr.wikipedia.org/wiki/Villejuif_-_Louis_Aragon_(métro_de_Paris)",
     "name": "Villejuif–Louis Aragon",
-    "reference": "Paris"
+    "reference": "M7/T7"
   },
   "xalpa": {
     "badges": ["🚡"],

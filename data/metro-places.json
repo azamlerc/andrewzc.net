@@ -38,15 +38,6 @@
     "name": "62nd Street/New Utrecht Avenue",
     "wikidata": "Q2615298"
   },
-  "a-href=https:--enwikipediaorg-wiki-noma–gallaudet_u_station-id=new-york-ave–florida-avenew-york-ave–florida-ave": {
-    "been": true,
-    "city": "Washington",
-    "coords": "38.90702530, -77.00315280",
-    "country": "US",
-    "flags": ["NY", "FL"],
-    "link": "https://en.wikipedia.org/wiki/NoMa–Gallaudet_U_station",
-    "name": " <a href=\"https://en.wikipedia.org/wiki/NoMa–Gallaudet_U_station\" id=\"new-york-ave–florida-ave\">New York Ave–Florida Ave"
-  },
   "afriquia": {
     "been": true,
     "countries": ["MA", ""],
@@ -304,7 +295,7 @@
     "name": "Canada Water"
   },
   "canberra": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.44305556, 103.82972222",
     "countries": ["SG", "AU"],
@@ -337,7 +328,7 @@
     "name": "Chinatown (MBTA)"
   },
   "chinatown-mrt": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.28490000, 103.84396000",
     "countries": ["SG", "CN"],
@@ -427,7 +418,7 @@
     "name": "Danube"
   },
   "dover": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.31131389, 103.77865833",
     "countries": ["SG", "GB"],
@@ -644,6 +635,15 @@
     "link": "https://en.wikipedia.org/wiki/Harlem_station_(CTA_Blue_Line_Forest_Park_branch)",
     "name": "Harlem"
   },
+  "holland-village": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.44305556, 103.82972222",
+    "countries": ["SG", "NL"],
+    "icons": ["🇸🇬", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Holland_Village_MRT_station",
+    "name": "Holland Village"
+  },
   "honduras": {
     "been": false,
     "coords": "42.87611111, -2.67972222",
@@ -853,7 +853,7 @@
     "name": "Lima"
   },
   "little-india": {
-    "been": false,
+    "been": true,
     "countries": ["SG", "IN"],
     "icons": ["🇸🇬", "🇮🇳"],
     "link": "https://en.wikipedia.org/wiki/Little_India_MRT_station",
@@ -1214,6 +1214,14 @@
     "icons": ["🇧🇪", "🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
     "name": "Petit Bourgogne"
+  },
+  "phoenix": {
+    "been": true,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬", "🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bukit_Panjang_LRT_line",
+    "name": "Phoenix"
   },
   "place-de-metz": {
     "been": true,

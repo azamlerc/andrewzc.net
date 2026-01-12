@@ -620,16 +620,6 @@
     "link": "https://en.wikipedia.org/wiki/Istanbul",
     "name": "Cat, Istanbul"
   },
-  "central-fire-station": {
-    "been": false,
-    "city": "Singapore",
-    "coords": "1.29208333, 103.84902778",
-    "country": "SG",
-    "icons": ["🇸🇬", "🚒"],
-    "link": "https://en.wikipedia.org/wiki/Central_Fire_Station,_Singapore",
-    "name": "Central Fire Station",
-    "reference": "Singapore"
-  },
   "central-fire-station-marfa": {
     "been": false,
     "coords": "30.31055556, -104.02555556",
@@ -640,9 +630,9 @@
     "state": "TX"
   },
   "central-fire-station-singapore": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
-    "coords": "30.31055556, -104.02555556",
+    "coords": "1.29208333, 103.84902778",
     "country": "SG",
     "icons": ["🇸🇬", "🚒"],
     "link": "https://en.wikipedia.org/wiki/Central_Fire_Station,_Singapore",
@@ -3254,7 +3244,8 @@
     "reference": "Reefton"
   },
   "regent-singapore-hotel": {
-    "been": false,
+    "badges": ["*"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.30468000, 103.82443000",
     "country": "SG",
@@ -3514,12 +3505,12 @@
     "reference": "Bangkok"
   },
   "singapore-changi-airport": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.35916667, 103.98944444",
     "country": "SG",
     "icons": ["🇸🇬", "🛫"],
-    "link": "Singapore Changi Airport",
+    "link": "https://en.wikipedia.org/wiki/Changi_Airport",
     "name": "Singapore Changi Airport",
     "reference": "Singapore"
   },
@@ -3627,15 +3618,15 @@
     "name": "St. Nicholas Church",
     "reference": "Leipzig"
   },
-  "stadium": {
-    "been": false,
+  "queenstown-stadium": {
+    "badges": ["🚇"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.29580000, 103.80250000",
     "country": "SG",
     "icons": ["🇸🇬", "🏟️"],
     "link": "https://en.wikipedia.org/wiki/Queenstown_Stadium",
-    "name": "Stadium",
-    "reference": "Queenstown"
+    "name": "Queenstown Stadium"
   },
   "stadtbad-oderberger-strasse": {
     "been": true,
