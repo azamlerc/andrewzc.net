@@ -1,0 +1,487 @@
+{
+  "--info--": {
+    "icon": "🚀",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Shuttles",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  "barcelona-line-11": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41°27′47,55″N, 2°10′18,5″E",
+    "country": "ES",
+    "icons": ["🇪🇸", "5️⃣"],
+    "link": "https://es.wikipedia.org/wiki/Línea_11_(Metro_de_Barcelona)",
+    "name": "Line 11",
+    "reference": "Barcelona"
+  },
+  "barcelona-line-12": {
+    "been": true,
+    "city": "Barcelona",
+    "coords": "41.38333333, 2.18333333",
+    "country": "ES",
+    "icons": ["🇪🇸", "2️⃣"],
+    "link": "https://es.wikipedia.org/wiki/Línea_12_(Metro_de_Barcelona)",
+    "name": "Line 12",
+    "reference": "Barcelona",
+    "wikidata": "Q877180"
+  },
+  "berlin-line-u55": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.52000000, 13.40500000",
+    "country": "DE",
+    "icons": ["🇩🇪", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/U55_%28Berlin_U-Bahn%29",
+    "name": "Line U55",
+    "reference": "Berlin",
+    "strike": true
+  },
+  "chicago-yellow-line": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "42.040277777778, -87.752222222222",
+    "country": "US",
+    "icons": ["🇺🇸", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(CTA)",
+    "name": "Yellow Line",
+    "reference": "Chicago",
+    "wikidata": "Q568297"
+  },
+  "dubai-jabal-ali-branch": {
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.20472222, 55.27083333",
+    "country": "AE",
+    "icons": ["🇦🇪", "5️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(Dubai_Metro)",
+    "name": "Jabal Ali Branch",
+    "reference": "Dubai",
+    "wikidata": "Q1369034"
+  },
+  "kishu-railway": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵", "5️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Kishū_Railway_Line",
+    "name": "Kishū Railway",
+    "wikidata": "Q6416678"
+  },
+  "london-aldwych-branch": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51215000, -0.11595000",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Aldwych_tube_station",
+    "name": "Aldwych Branch",
+    "reference": "London",
+    "strike": true
+  },
+  "london-chesham-branch": {
+    "been": true,
+    "city": "London",
+    "coords": "51.68376000, -0.58763000",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Chesham_branch",
+    "name": "Chesham Branch",
+    "reference": "London",
+    "strike": true
+  },
+  "london-kensington-olympia": {
+    "been": true,
+    "city": "London",
+    "coords": "51.49860000, -0.21080000",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Kensington_(Olympia)_station",
+    "name": "Kensington (Olympia)",
+    "reference": "London"
+  },
+  "london-mill-hill-east": {
+    "been": true,
+    "city": "London",
+    "coords": "51.60833333, -0.21027778",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Mill_Hill_East_tube_station",
+    "name": "Mill Hill East",
+    "reference": "London",
+    "strike": true
+  },
+  "london-romford-upminster-line": {
+    "been": false,
+    "city": "London",
+    "coords": "51.567896, 0.222204",
+    "country": "GB",
+    "icons": ["🇬🇧", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Romford–Upminster_line",
+    "name": "Romford–Upminster Line",
+    "reference": "London",
+    "wikidata": "Q7363198"
+  },
+  "london-slough-windsor-eton-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.50722222, -0.12750000",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Slough–Windsor_%26_Eton_line",
+    "name": "Slough–Windsor & Eton Line",
+    "reference": "London",
+    "strike": true
+  },
+  "london-waterloo-city-line": {
+    "been": true,
+    "city": "London",
+    "coords": "51.51305556, -0.08805556",
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Waterloo_%26_City_line",
+    "name": "Waterloo & City Line",
+    "reference": "London"
+  },
+  "macau-seac-pai-van-line": {
+    "been": false,
+    "city": "Macau",
+    "coords": "22.19000000, 113.54000000",
+    "country": "MO",
+    "icons": ["🇲🇴", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Seac_Pai_Van_line",
+    "name": "Seac Pai Van Line",
+    "reference": "Macau",
+    "wikidata": "Q17500826"
+  },
+  "madrid-ramal": {
+    "been": true,
+    "city": "Madrid",
+    "coords": "40.50027778, 47.49166667",
+    "country": "ES",
+    "icons": ["🇪🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Ramal_(Madrid_Metro)",
+    "name": "Ramal",
+    "reference": "Madrid"
+  },
+  "mannheim-tram-16": {
+    "been": false,
+    "coords": "49.48111111, 8.43527778",
+    "country": "DE",
+    "icons": ["🇩🇪", "2️⃣"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Mannheim/Ludwigshafen",
+    "name": "Tram 16",
+    "reference": "Mannheim"
+  },
+  "moscow-kakhovskaya-line": {
+    "been": false,
+    "city": "Moscow",
+    "coords": "55.75583333, 37.61777778",
+    "country": "RU",
+    "icons": ["🇷🇺", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Kakhovskaya_line",
+    "name": "Kakhovskaya Line",
+    "reference": "Moscow",
+    "strike": true,
+    "wikidata": "Q924052"
+  },
+  "nagoya-kamiiida-line": {
+    "been": false,
+    "city": "Nagoya",
+    "coords": "35.20000000, 136.92972222",
+    "country": "JP",
+    "icons": ["🇯🇵", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Kamiiida_Line",
+    "name": "Kamiiida Line",
+    "reference": "Nagoya"
+  },
+  "new-jersey-princeton-branch": {
+    "been": false,
+    "coords": "40.32989000, -74.64179000",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Princeton_Branch",
+    "name": "Princeton Branch",
+    "reference": "New Jersey"
+  },
+  "new-york-42nd-street-shuttle": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.756, -73.987",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/42nd_Street_Shuttle",
+    "name": "42nd Street Shuttle",
+    "reference": "New York",
+    "wikidata": "Q126698"
+  },
+  "new-york-bowling-green-south-ferry": {
+    "been": true,
+    "city": "New York",
+    "coords": "43.0, -75.0",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Bowling_Green–South_Ferry_shuttle",
+    "name": "Bowling Green–South Ferry",
+    "reference": "New York",
+    "strike": true,
+    "wikidata": "Q1384"
+  },
+  "new-york-court-street-shuttle": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/HH_(Court_Street_Shuttle)",
+    "name": "Court Street Shuttle",
+    "reference": "New York",
+    "strike": true,
+    "wikidata": "Q5629612"
+  },
+  "new-york-culver-shuttle": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸", "4️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Culver_Shuttle",
+    "name": "Culver Shuttle",
+    "reference": "New York",
+    "strike": true,
+    "wikidata": "Q5193747"
+  },
+  "new-york-dyre-avenue": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸", "6️⃣"],
+    "link": "https://en.wikipedia.org/wiki/IRT_Dyre_Avenue_Line",
+    "name": "Dyre Avenue",
+    "reference": "New York",
+    "wikidata": "Q616682"
+  },
+  "new-york-franklin-avenue-shuttle": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸", "4️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Franklin_Avenue_Shuttle",
+    "name": "Franklin Avenue Shuttle",
+    "reference": "New York",
+    "wikidata": "Q126725"
+  },
+  "new-york-rockaway-shuttle": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.5807, -73.8362",
+    "country": "US",
+    "icons": ["🇺🇸", "5️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Rockaway_Park_Shuttle",
+    "name": "Rockaway Shuttle",
+    "reference": "New York",
+    "wikidata": "Q126772"
+  },
+  "paris-line-3-bis": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷", "4️⃣"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_3_bis_du_métro_de_Paris",
+    "name": "Line 3 bis",
+    "reference": "Paris",
+    "wikidata": "Q50742"
+  },
+  "paris-line-7-bis": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷", "8️⃣"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_7_bis_du_métro_de_Paris",
+    "name": "Line 7 bis",
+    "reference": "Paris",
+    "wikidata": "Q50749"
+  },
+  "paris-tram-14": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.85666666666667, 2.352222222222222",
+    "country": "FR",
+    "icons": ["🇫🇷", "5️⃣"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_14_du_tramway_d%27Île-de-France",
+    "name": "Tram 14",
+    "reference": "Paris",
+    "wikidata": "Q90"
+  },
+  "paris-transilien-ligne-v": {
+    "been": false,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷", "7️⃣"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_V_du_Transilien",
+    "name": "Transilien Ligne V",
+    "reference": "Paris",
+    "wikidata": "Q123097765"
+  },
+  "paris-voie-des-fetes": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷", "2️⃣"],
+    "link": "https://fr.wikipedia.org/wiki/Voie_des_Fêtes_et_voie_navette_du_métro_de_Paris",
+    "name": "Voie des Fêtes",
+    "reference": "Paris",
+    "strike": true,
+    "wikidata": "Q38398"
+  },
+  "san-francisco-purple-line": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
+    "country": "US",
+    "icons": ["🇺🇸", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Purple_Line_(BART)",
+    "name": "Purple Line",
+    "reference": "San Francisco",
+    "strike": true,
+    "wikidata": "Q27502952"
+  },
+  "san-francisco-s-shuttle": {
+    "been": false,
+    "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
+    "country": "US",
+    "icons": ["🇺🇸", "9️⃣"],
+    "link": "https://en.wikipedia.org/wiki/S_Shuttle",
+    "name": "S Shuttle",
+    "reference": "San Francisco",
+    "wikidata": "Q7395342"
+  },
+  "shibayama-railway": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Shibayama_Railway",
+    "name": "Shibayama Railway",
+    "wikidata": "Q1104545"
+  },
+  "singapore-circle-line-marina-bay-branch": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.2752777777777777, 103.85472222222222",
+    "country": "SG",
+    "icons": ["🇸🇬", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Marina_Bay_MRT_station",
+    "name": "Circle Line Marina Bay Branch",
+    "reference": "Singapore",
+    "strike": true,
+    "wikidata": "Q2292422"
+  },
+  "singapore-east-west-line-airport-branch": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.3575, 103.98833333333333",
+    "country": "SG",
+    "icons": ["🇸🇬", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Changi_Airport_MRT_station",
+    "name": "East-West Line Airport Branch",
+    "reference": "Singapore",
+    "strike": true,
+    "wikidata": "Q3268527"
+  },
+  "stourbridge-town-line": {
+    "been": false,
+    "country": "GB",
+    "icons": ["🇬🇧", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Stourbridge_Town_branch_line",
+    "name": "Stourbridge Town Line",
+    "wikidata": "Q7620589"
+  },
+  "sydney-olympic-park-line": {
+    "been": false,
+    "city": "Sydney",
+    "coords": "-33.846469444444, 151.07008055556",
+    "country": "AU",
+    "icons": ["🇦🇺", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Olympic_Park_railway_line",
+    "name": "Olympic Park Line",
+    "reference": "Sydney",
+    "wikidata": "Q4663585"
+  },
+  "taipei-xiaobitan-line": {
+    "been": false,
+    "city": "Taipei",
+    "coords": "25.03750000, 121.56250000",
+    "country": "TW",
+    "icons": ["🇹🇼", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Xiaobitan_branch_line",
+    "name": "Xiaobitan Line",
+    "reference": "Taipei",
+    "wikidata": "Q8044250"
+  },
+  "taipei-xiaobotan": {
+    "been": false,
+    "city": "Taipei",
+    "coords": "25.03750000, 121.56250000",
+    "country": "TW",
+    "icons": ["🇹🇼", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Xiaobitan_branch_line",
+    "name": "Xiaobotan",
+    "reference": "Taipei",
+    "wikidata": "Q8044250"
+  },
+  "taipei-xinbeitou": {
+    "badges": ["♨️"],
+    "been": false,
+    "city": "Taipei",
+    "coords": "25.03750000, 121.56250000",
+    "country": "TW",
+    "icons": ["🇹🇼", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Xinbeitou_branch_line",
+    "name": "Xinbeitou",
+    "reference": "Taipei",
+    "wikidata": "Q8044505"
+  },
+  "tehran-line-1": {
+    "been": false,
+    "city": "Tehran",
+    "coords": "35.68888889, 51.38972222",
+    "country": "IR",
+    "icons": ["🇮🇷", "4️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_1",
+    "name": "Line 1",
+    "reference": "Tehran",
+    "wikidata": "Q20110118"
+  },
+  "tehran-line-4": {
+    "been": false,
+    "city": "Tehran",
+    "coords": "35.68888889, 51.38972222",
+    "country": "IR",
+    "icons": ["🇮🇷", "3️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Tehran_Metro_Line_4#Mehrabad_Airport_Extension",
+    "name": "Line 4",
+    "reference": "Tehran",
+    "wikidata": "Q20110121"
+  },
+  "valencia-line-8": {
+    "been": false,
+    "coords": "39.47000000, -0.37638889",
+    "country": "ES",
+    "icons": ["🇪🇸", "4️⃣"],
+    "link": "https://es.wikipedia.org/wiki/Línea_8_(Metrovalencia)",
+    "name": "Line 8",
+    "reference": "Valencia",
+    "wikidata": "Q18638820"
+  },
+  "zermatt-shuttle": {
+    "been": true,
+    "country": "CH",
+    "icons": ["🇨🇭", "2️⃣"],
+    "link": "https://en.wikipedia.org/wiki/Zermatt_railway_station",
+    "name": "Zermatt Shuttle"
+  }
+}

@@ -2067,12 +2067,37 @@
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
+  "shuttles": {
+    "icon": "🚀",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Shuttles",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
   "single-platform": {
     "header": "Metro stations with only one platform edge.",
     "icon": "1️⃣",
     "name": "Single Platform",
     "size": "medium",
     "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  "single-track": {
+    "header": "Routes where trains travel back and forth on the same track.",
+    "icon": "1️⃣",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Single Track",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "skip-stop": {

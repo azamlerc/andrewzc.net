@@ -9,63 +9,61 @@
 </head>
 <body>
 <div class="headline">1️⃣ Single Track</div>
+<div id="map" lat="25" lon="15" zoom="2"></div><script src="map.js"></script>
 <div class="caption">Routes where trains travel back and forth on the same track.</div>
 <div class="items medium">
 
-🇪🇸 <span class="dark">Barcelona</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Barcelona">Tram T2</a>, Sant Joan Despí<br>
-🇪🇸 <span class="dark">Barcelona</span> <a href="https://en.wikipedia.org/wiki/Barcelona_Metro_line_11">Line 11</a><br>
-🇩🇪 <span class="dark">Berlin</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Berlin">Tram M1</a>, Rosenthal<br>
-🇪🇸 <span class="dark">Bilbao</span> <a href="https://es.wikipedia.org/wiki/Estación_de_Plentzia">Line 1</a>, Plentzia<br>
-🇪🇸 <span class="dark">Bilbao</span> <a href="https://es.wikipedia.org/wiki/Tranvía_de_Bilbao">Tram</a>, Atxuri<br>
-
-🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux">Tram B</a>, France Alouette<br>
-🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux">Tram B</a>, Berges de Garonne<br>
-🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_D_du_tramway_de_Bordeaux">Tram D</a>, Cantinolle<br>
-🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_E_du_tramway_de_Bordeaux">Tram E</a>, Blanquefort<br>
-🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_F_du_tramway_de_Bordeaux">Tram F</a>, Aeroport<br>
-
-🇧🇪 <span class="dark">Charleroi</span> <a href="https://en.wikipedia.org/wiki/Charleroi_Metro_line_1">Line 1</a>, Anderlues<br>
-🇱🇻 <span class="dark">Daugavpils</span> <a href="https://en.wikipedia.org/wiki/Daugavpils_Satiksme">Tram 2/4</a><br>
-🇱🇻 <span class="dark">Daugavpils</span> <a href="https://en.wikipedia.org/wiki/Daugavpils_Satiksme">Tram 3/5</a><br>
-🇦🇹 <span class="dark">Graz</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Graz">Tram 1</a>, Mariatrost<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 1</a>, Ruda<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 3</a>, Mikulczyce, Guido, Makoszowy<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 9</a>, Nowy Bytom, Wirek, Zdoga<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 13</a>, Wełnowiec<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 14</a>, Mysłowice<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 17</a>, Chropaczow<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 22</a>, Czeladź<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 24</a>, Konstantynów<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 26</a>, Niwka<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 27</a>, Klimontów, Porąbka<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans">Tram 38</a>, Bytom<br>
-🇨🇿 <span class="dark">Liberec–Jablonec</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Liberec_and_Jablonec_nad_Nisou">Tram 11</a><br>
-🇧🇪 <span class="dark">Liège</span> <a href="https://fr.wikipedia.org/wiki/Féronstrée">Tram 1</a>, Féronstrée (Sundays)<br>
-🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Chesham_branch">Chesham Branch</a><br>
-🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Kensington_(Olympia)_station">Kensington Branch</a><br>
-🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Mill_Hill_East_tube_station">Mill Hill Branch</a><br>
-🇺🇸 <span class="dark">New York</span> <a href="https://en.wikipedia.org/wiki/42nd_Street_Shuttle">42nd Street Shuttle</a> 2️⃣<br>
-🇺🇸 <span class="dark">New York</span> <a href="https://en.wikipedia.org/wiki/Franklin_Avenue_Shuttle">Franklin Avenue Shuttle</a><br>
-🇫🇷 <span class="dark">Paris</span> <a href="https://fr.wikipedia.org/wiki/Ligne_12_du_tramway_d%27Île-de-France">Tram 12</a>, Épinay-sur-Orge<br>
-🇫🇷 <span class="dark">Paris</span> <a href="https://fr.wikipedia.org/wiki/Ligne_14_du_tramway_d%27Île-de-France">Tram 14</a><br>
-🇺🇸 <span class="dark">Philadelphia</span> <a href="https://en.wikipedia.org/wiki/D_(SEPTA_Metro)">D1</a>, Media<br>
-🇺🇸 <span class="dark">Philadelphia</span> <a href="https://en.wikipedia.org/wiki/D_(SEPTA_Metro)">D2</a>, Sharon Hill<br>
-🇱🇻 <span class="dark">Riga</span><a href="https://en.wikipedia.org/wiki/Rīgas_Satiksme">Tram 10</a><br>
-🇸🇪 <span class="dark">Stockholm</span> <a href="https://en.wikipedia.org/wiki/Lidingöbanan">Lidingöbanan</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Seashore_Trolley_Museum">Seashore Trolley Museum</a> 🥌<br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Shore_Line_Trolley_Museum">Shore Line Trolley Museum</a> 🥌<br>
-🇵🇹 <a href="https://en.wikipedia.org/wiki/Trams_in_Sintra">Sintra</a><br>
-🇭🇺 <span class="dark">Szeged</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Szeged">Line 3</a><br>
-🇭🇺 <span class="dark">Szeged</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Szeged">Line 4</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Trolley_Museum_of_New_York">Trolley Museum of New York</a> 🥌<br>
-🇪🇸 <span class="dark">Vitoria-Gasteiz</span>  <a href="https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram">Abetxuko</a><br>
+🇪🇸 <span class="dark">Barcelona</span> <a href="https://en.wikipedia.org/wiki/Barcelona_Metro_line_11" id="barcelona-line-11">Line 11</a><br>
+🇪🇸 <span class="dark">Barcelona</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Barcelona" id="barcelona-tram-t2">Tram T2</a> Sant Joan Despí<br>
+🇩🇪 <span class="dark">Berlin</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Berlin" id="berlin-tram-m1">Tram M1</a> Rosenthal<br>
+🇪🇸 <span class="dark">Bilbao</span> <a href="https://es.wikipedia.org/wiki/Estación_de_Plentzia" id="bilbao-line-1">Line 1</a> Plentzia<br>
+🇪🇸 <span class="dark">Bilbao</span> <a href="https://es.wikipedia.org/wiki/Tranvía_de_Bilbao" id="bilbao-tram">Tram</a> Atxuri<br>
+🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_B_du_tramway_de_Bordeaux" id="bordeaux-tram-b">Tram B</a> Berges de Garonne<br>
+🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_D_du_tramway_de_Bordeaux" id="bordeaux-tram-d">Tram D</a> Cantinolle<br>
+🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_E_du_tramway_de_Bordeaux" id="bordeaux-tram-e">Tram E</a> Blanquefort<br>
+🇫🇷 <span class="dark">Bordeaux</span> <a href="https://fr.wikipedia.org/wiki/Ligne_F_du_tramway_de_Bordeaux" id="bordeaux-tram-f">Tram F</a> Aeroport<br>
+🇧🇪 <span class="dark">Charleroi</span> <a href="https://en.wikipedia.org/wiki/Charleroi_Metro_line_1" id="charleroi-line-1">Line 1</a> Anderlues<br>
+🇱🇻 <span class="dark">Daugavpils</span> <a href="https://en.wikipedia.org/wiki/Daugavpils_Satiksme" id="daugavpils-tram-2-4">Tram 2/4</a><br>
+🇱🇻 <span class="dark">Daugavpils</span> <a href="https://en.wikipedia.org/wiki/Daugavpils_Satiksme" id="daugavpils-tram-3-5">Tram 3/5</a><br>
+🇦🇹 <span class="dark">Graz</span> <a href="https://de.wikipedia.org/wiki/Straßenbahn_Graz" id="graz-tram-1">Tram 1</a> Mariatrost<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-1">Tram 1</a> Ruda<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-3">Tram 3</a> Mikulczyce Guido Makoszowy<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-9">Tram 9</a> Nowy Bytom Wirek Zdoga<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-13">Tram 13</a> Wełnowiec<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-14">Tram 14</a> Mysłowice<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-17">Tram 17</a> Chropaczow<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-22">Tram 22</a> Czeladź<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-24">Tram 24</a> Konstantynów<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-26">Tram 26</a> Niwka<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-27">Tram 27</a> Klimontów Porąbka<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://en.wikipedia.org/wiki/Silesian_Interurbans" id="katowice-tram-38">Tram 38</a> Bytom<br>
+🇨🇿 <span class="dark">Liberec–Jablonec</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Liberec_and_Jablonec_nad_Nisou" id="liberec-jablonec-tram-11">Tram 11</a><br>
+🇧🇪 <span class="dark">Liège</span> <a href="https://fr.wikipedia.org/wiki/Féronstrée" id="liege-tram-1">Tram 1</a> Féronstrée (Sundays)<br>
+🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Chesham_branch" id="london-chesham-branch">Chesham Branch</a><br>
+🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Kensington_(Olympia)_station" id="london-kensington-branch">Kensington Branch</a><br>
+🇬🇧 <span class="dark">London</span> <a href="https://en.wikipedia.org/wiki/Mill_Hill_East_tube_station" id="london-mill-hill-branch">Mill Hill Branch</a><br>
+🇺🇸 <span class="dark">New York</span> <a href="https://en.wikipedia.org/wiki/42nd_Street_Shuttle" id="new-york-42nd-street-shuttle">42nd Street Shuttle</a> 2️⃣<br>
+🇺🇸 <span class="dark">New York</span> <a href="https://en.wikipedia.org/wiki/Franklin_Avenue_Shuttle" id="new-york-franklin-avenue-shuttle">Franklin Avenue Shuttle</a><br>
+🇫🇷 <span class="dark">Paris</span> <a href="https://fr.wikipedia.org/wiki/Ligne_12_du_tramway_d%27Île-de-France" id="paris-tram-12">Tram 12</a> Épinay-sur-Orge<br>
+🇫🇷 <span class="dark">Paris</span> <a href="https://fr.wikipedia.org/wiki/Ligne_14_du_tramway_d%27Île-de-France" id="paris-tram-14">Tram 14</a><br>
+🇺🇸 <span class="dark">Philadelphia</span> <a href="https://en.wikipedia.org/wiki/D_(SEPTA_Metro)" id="philadelphia-d1">D1</a> Media<br>
+🇺🇸 <span class="dark">Philadelphia</span> <a href="https://en.wikipedia.org/wiki/D_(SEPTA_Metro)" id="philadelphia-d2">D2</a> Sharon Hill<br>
+🇱🇻 <span class="dark">Riga</span> <a href="https://en.wikipedia.org/wiki/Rīgas_Satiksme" id="riga-tram-10">Tram 10</a><br>
+🇸🇪 <span class="dark">Stockholm</span> <a href="https://en.wikipedia.org/wiki/Lidingöbanan" id="stockholm-lidingobanan">Lidingöbanan</a><br>
+🇭🇺 <span class="dark">Szeged</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Szeged" id="szeged-line-3">Line 3</a><br>
+🇭🇺 <span class="dark">Szeged</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Szeged" id="szeged-line-4">Line 4</a><br>
+🇪🇸 <span class="dark">Vitoria-Gasteiz</span> <a href="https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram" id="vitoria-gasteiz-abetxuko">Abetxuko</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Seashore_Trolley_Museum" id="seashore-trolley-museum">Seashore Trolley Museum</a> 🥌<br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Shore_Line_Trolley_Museum" id="shore-line-trolley-museum">Shore Line Trolley Museum</a> 🥌<br>
+🇵🇹 <a href="https://en.wikipedia.org/wiki/Trams_in_Sintra" id="sintra">Sintra</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Trolley_Museum_of_New_York" id="trolley-museum-of-new-york">Trolley Museum of New York</a> 🥌<br>
 
 <hr>
 
-🇭🇷 <span class="dark">Osijek</span> <a href="https://en.m.wikipedia.org/wiki/Trams_in_Osijek" class="strike">Line 2</a><br> 
-🇮🇹 <span class="dark">Milan</span> <a href="https://it.wikipedia.org/wiki/Tranvia_Milano-Limbiate" class="strike">Milano–Limbiate</a><br> 
-🇮🇹 <span class="dark">Milan</span> <a href="https://it.wikipedia.org/wiki/Tranvia_Milano-Carate/Giussano" class="strike">Milano–Desio</a><br> 
-🇵🇱 <span class="dark">Warsaw</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Warsaw">Tram 20</a>, Bemowo<br>
+🇮🇹 <span class="dark">Milan</span> <a href="https://it.wikipedia.org/wiki/Tranvia_Milano-Carate/Giussano" class="strike" id="milan-milano-desio">Milano–Desio</a><br>
+🇮🇹 <span class="dark">Milan</span> <a href="https://it.wikipedia.org/wiki/Tranvia_Milano-Limbiate" class="strike" id="milan-milano-limbiate">Milano–Limbiate</a><br>
+🇭🇷 <span class="dark">Osijek</span> <a href="https://en.m.wikipedia.org/wiki/Trams_in_Osijek" class="strike" id="osijek-line-2">Line 2</a><br>
+🇵🇱 <span class="dark">Warsaw</span> <a href="https://en.wikipedia.org/wiki/Trams_in_Warsaw" id="warsaw-tram-20">Tram 20</a> Bemowo<br>
 
 </div>
 </body>

@@ -1,9 +1,9 @@
 {
   "--info--": {
-    "group": "date",
-    "icon": "🚊",
-    "header": "Modern trams that run partially on mainline train tracks.",
     "footer": "For classic trams that run between towns, see <a class=\"dark\" href=\"interurbans.html\">Interurbans</a>.",
+    "group": "date",
+    "header": "Modern trams that run partially on mainline train tracks.",
+    "icon": "🚊",
     "map": {
       "lat": "25",
       "lon": "15",
@@ -15,7 +15,7 @@
     "type": "place"
   },
   "aarhus": {
-    "been": false,
+    "been": true,
     "coords": "56.15000000, 10.21666667",
     "country": "DK",
     "icons": ["🇩🇰"],
@@ -24,7 +24,7 @@
     "wikidata": "Q114327756"
   },
   "alicante": {
-    "been": false,
+    "been": true,
     "coords": "38.36527778, -0.44444444",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -58,7 +58,7 @@
     "name": "Bordeaux Tram C"
   },
   "cadiz": {
-    "been": false,
+    "been": true,
     "coords": "36.53500000, -6.29750000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -67,7 +67,7 @@
     "wikidata": "Q6151804"
   },
   "chemnitz": {
-    "been": false,
+    "been": true,
     "coords": "50.83194444, 12.92222222",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -75,7 +75,7 @@
     "name": "Chemnitz"
   },
   "fukui": {
-    "been": false,
+    "been": true,
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Fukui_Railway_Fukubu_Line",
@@ -92,7 +92,7 @@
     "wikidata": "Q874436"
   },
   "kassel": {
-    "been": false,
+    "been": true,
     "coords": "51.31580000, 9.49790000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -101,7 +101,7 @@
     "wikidata": "Q2138125"
   },
   "louest-lyonnais": {
-    "been": false,
+    "been": true,
     "city": "Lyon",
     "coords": "45.76602400, 4.82694900",
     "country": "FR",
@@ -110,7 +110,7 @@
     "name": "l’Ouest Lyonnais"
   },
   "mallorca": {
-    "been": false,
+    "been": true,
     "coords": "39.57622000, 2.65440000",
     "country": "ES",
     "icons": ["🇪🇸"],
@@ -118,7 +118,7 @@
     "name": "Mallorca"
   },
   "mulhouse": {
-    "been": false,
+    "been": true,
     "coords": "47.749166666667, 7.34",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -127,7 +127,7 @@
     "wikidata": "Q268195"
   },
   "nantes": {
-    "been": false,
+    "been": true,
     "coords": "47.21810000, -1.55280000",
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -136,7 +136,7 @@
     "wikidata": "Q3536982"
   },
   "nordhausen": {
-    "been": false,
+    "been": true,
     "coords": "51.00000000, 10.00000000",
     "country": "DE",
     "icons": ["🇩🇪"],
@@ -202,7 +202,7 @@
   },
   "regiotram": {
     "badges": ["🚧"],
-    "been": false,
+    "been": true,
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "https://en.wikipedia.org/wiki/RegioTram",
@@ -244,7 +244,7 @@
     "name": "Szeged-Hódmezővásárhely"
   },
   "traunsee": {
-    "been": false,
+    "been": true,
     "coords": "47.91681, 13.79648",
     "country": "AT",
     "icons": ["🇦🇹"],
@@ -253,7 +253,7 @@
     "wikidata": "Q689127"
   },
   "zwickau": {
-    "been": false,
+    "been": true,
     "coords": "dd°mm′ss″N, dd°mm′ss″E",
     "country": "DE",
     "icons": ["🇩🇪"],
