@@ -8,7 +8,7 @@
       "zoom": "2"
     },
     "name": "Accidentally Wes Anderson",
-    "size": "large",
+    "size": "medium",
     "tags": ["featured", "middleSectionBeen"],
     "type": "place"
   },
@@ -619,6 +619,15 @@
     "icons": ["🇹🇷", "🐈"],
     "link": "https://en.wikipedia.org/wiki/Istanbul",
     "name": "Cat, Istanbul"
+  },
+  "central-fire-station": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬", "🚒"],
+    "link": "https://en.wikipedia.org/wiki/Central_Fire_Station,_Singapore",
+    "name": "Central Fire Station",
+    "reference": "Singapore"
   },
   "central-fire-station-marfa": {
     "been": false,
@@ -3177,6 +3186,16 @@
     "name": "Queens College",
     "reference": "Oxford"
   },
+  "queenstown-stadium": {
+    "badges": ["🚇"],
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.29580000, 103.80250000",
+    "country": "SG",
+    "icons": ["🇸🇬", "🏟️"],
+    "link": "https://en.wikipedia.org/wiki/Queenstown_Stadium",
+    "name": "Queenstown Stadium"
+  },
   "qvarnen-tre-kronor": {
     "been": false,
     "city": "Stockholm",
@@ -3245,7 +3264,7 @@
   },
   "regent-singapore-hotel": {
     "badges": ["*"],
-    "been": true,
+    "been": false,
     "city": "Singapore",
     "coords": "1.30468000, 103.82443000",
     "country": "SG",
@@ -3505,12 +3524,12 @@
     "reference": "Bangkok"
   },
   "singapore-changi-airport": {
-    "been": true,
+    "been": false,
     "city": "Singapore",
     "coords": "1.35916667, 103.98944444",
     "country": "SG",
     "icons": ["🇸🇬", "🛫"],
-    "link": "https://en.wikipedia.org/wiki/Changi_Airport",
+    "link": "Singapore Changi Airport",
     "name": "Singapore Changi Airport",
     "reference": "Singapore"
   },
@@ -3618,15 +3637,13 @@
     "name": "St. Nicholas Church",
     "reference": "Leipzig"
   },
-  "queenstown-stadium": {
-    "badges": ["🚇"],
-    "been": true,
-    "city": "Singapore",
-    "coords": "1.29580000, 103.80250000",
+  "stadium": {
+    "been": false,
     "country": "SG",
     "icons": ["🇸🇬", "🏟️"],
     "link": "https://en.wikipedia.org/wiki/Queenstown_Stadium",
-    "name": "Queenstown Stadium"
+    "name": "Stadium",
+    "reference": "Queenstown"
   },
   "stadtbad-oderberger-strasse": {
     "been": true,

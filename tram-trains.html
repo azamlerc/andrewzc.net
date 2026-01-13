@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>🚊 Tram-Trains</title>
+	<title>🚊 Tram-Trains</title>
 	<meta charset="UTF-8">
-	<meta name="andrewzc" content="no-data" />
+	<meta name="andrewzc" content="auto" />
 	<meta name="viewport" content="width=device-width, initial-scale=0.45">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="headline">🚊 Tram-Trains</div>
+<div id="map" lat="25" lon="15" zoom="2"></div><script src="map.js"></script>
 <div class="caption">Modern trams that run partially on mainline train tracks.</div>
 <div class="items large">
 
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Stadtbahn_Karlsruhe">Karlsruhe</a><br>
-🇦🇹 <a href="https://en.wikipedia.org/wiki/Badner_Bahn">Badner Bahn</a><br>
-🇪🇸 <a href="https://es.wikipedia.org/wiki/Tranvía_de_Bilbao">Bilbao</a><br>
-🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_C_du_tramway_de_Bordeaux">Bordeaux Tram C</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_4">Paris Tram 4</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_11_Express">Paris Tram 11</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_12_Express">Paris Tram 12</a> 🔀<br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/%C3%8Ele-de-France_tramway_Line_13_Express">Paris Tram 13</a> 🔀<br>
-🇵🇹 <a href="https://en.wikipedia.org/wiki/Porto_Metro">Porto</a><br>
-🇳🇱 <a href="https://en.wikipedia.org/wiki/RandstadRail">RandstadRail</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/Rh%C3%B4nexpress">Rhônexpress</a><br>
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Saarbahn">Saarbrücken</a><br>
-🇬🇧 <a href="https://en.wikipedia.org/wiki/Sheffield_Supertram">Sheffield</a><br>
-🇭🇺 <a href="https://en.wikipedia.org/wiki/Szeged-H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_Tram-train">Szeged-Hódmezővásárhely</a><br>
+🇩🇰 <a href="https://en.wikipedia.org/wiki/Aarhus_Letbane" id="aarhus">Aarhus</a><br>
+🇪🇸 <a href="https://en.wikipedia.org/wiki/Alicante_Tram" id="alicante">Alicante</a><br>
+🇦🇹 <a href="https://en.wikipedia.org/wiki/Badner_Bahn" id="badner-bahn">Badner Bahn</a><br>
+🇪🇸 <a href="https://es.wikipedia.org/wiki/Tranvía_de_Bilbao" id="bilbao">Bilbao</a><br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_C_du_tramway_de_Bordeaux" id="bordeaux-tram-c">Bordeaux Tram C</a><br>
+🇪🇸 <a href="https://en.wikipedia.org/wiki/C%C3%A1diz_Bay_tram-train" id="cadiz">Cádiz</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Chemnitz" id="chemnitz">Chemnitz</a><br>
+🇯🇵 <a href="https://en.wikipedia.org/wiki/Fukui_Railway_Fukubu_Line" id="fukui">Fukui</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Stadtbahn_Karlsruhe" id="karlsruhe">Karlsruhe</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Kassel_RegioTram" id="kassel">Kassel</a><br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Tram-train_de_l%27Ouest_lyonnais" id="louest-lyonnais">l’Ouest Lyonnais</a><br>
+🇪🇸 <a href="https://en.wikipedia.org/wiki/Mallorca_rail_network" id="mallorca">Mallorca</a><br>
+🇫🇷 <a href="https://en.wikipedia.org/wiki/Mulhouse_tramway" id="mulhouse">Mulhouse</a><br>
+🇫🇷 <a href="https://en.wikipedia.org/wiki/Nantes_tram-train" id="nantes">Nantes</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Nordhausen" id="nordhausen">Nordhausen</a><br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_4_du_tramway_d%27Île-de-France" id="paris-tram-4">Paris Tram 4</a><br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_11_du_tramway_d%27Île-de-France" id="paris-tram-11">Paris Tram 11</a><br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_12_du_tramway_d%27Île-de-France" id="paris-tram-12">Paris Tram 12</a> 🔀<br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_13_du_tramway_d%27Île-de-France" id="paris-tram-13">Paris Tram 13</a> 🔀<br>
+🇫🇷 <a href="https://fr.wikipedia.org/wiki/Ligne_14_du_tramway_d%27Île-de-France" id="paris-tram-14">Paris Tram 14</a><br>
+🇵🇹 <a href="https://en.wikipedia.org/wiki/Porto_Metro" id="porto">Porto</a><br>
+🇳🇱 <a href="https://en.wikipedia.org/wiki/RandstadRail" id="randstadrail">RandstadRail</a><br>
+🇨🇴 <a href="https://en.wikipedia.org/wiki/RegioTram" id="regiotram">RegioTram</a> 🚧<br>
+🇫🇷 <a href="https://en.wikipedia.org/wiki/Rh%C3%B4nexpress" id="rhonexpress">Rhônexpress</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Saarbahn" id="saarbrucken">Saarbrücken</a><br>
+🇬🇧 <a href="https://en.wikipedia.org/wiki/Sheffield_Supertram" id="sheffield">Sheffield</a><br>
+🇭🇺 <a href="https://en.wikipedia.org/wiki/Szeged-H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_Tram-train" id="szeged-hodmezovasarhely">Szeged-Hódmezővásárhely</a><br>
+🇦🇹 <a href="https://en.wikipedia.org/wiki/Gmunden_Tramway" id="traunsee">Traunsee</a><br>
+🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Zwickau" id="zwickau">Zwickau</a><br>
 
 <hr>
 
-🇪🇸 <a href="https://en.wikipedia.org/wiki/Alicante_Tram">Alicante</a><br>
-🇩🇰 <a href="https://en.wikipedia.org/wiki/Aarhus_Letbane">Aarhus</a><br>
-🇪🇸 <a href="https://en.wikipedia.org/wiki/C%C3%A1diz_Bay_tram-train">Cádiz</a><br>
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Chemnitz">Chemnitz</a><br>
-🇯🇵 <a href="https://en.wikipedia.org/wiki/Fukui_Railway_Fukubu_Line">Fukui</a><br>
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Kassel_RegioTram">Kassel</a><br>
-🇪🇸 <a href="https://en.wikipedia.org/wiki/Mallorca_rail_network">Mallorca</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/Mulhouse_tramway">Mulhouse</a><br>
-🇫🇷 <a href="https://en.wikipedia.org/wiki/Nantes_tram-train">Nantes</a><br>
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Nordhausen">Nordhausen</a><br>
-🇫🇷 <a href="https://fr.wikipedia.org/wiki/Tram-train_de_l%27Ouest_lyonnais">l’Ouest Lyonnais</a><br>
-🇨🇴 <a href="https://en.wikipedia.org/wiki/RegioTram">RegioTram</a> 🚧<br>
-🇦🇹 <a href="https://en.wikipedia.org/wiki/Gmunden_Tramway">Traunsee</a><br>
-🇩🇪 <a href="https://en.wikipedia.org/wiki/Trams_in_Zwickau">Zwickau</a><br>
 
- </div>
-<div class="caption"><br>For classic trams that run between towns, see <a class="dark" href="interurbans.html">Interurbans</a>.</div>
+</div>
+<div class="caption">For classic trams that run between towns, see <a class="dark" href="interurbans.html">Interurbans</a>.</div>
 </body>
 <script src="flags.js"></script>
 <script src="typeahead.js"></script>

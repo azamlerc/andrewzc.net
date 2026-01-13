@@ -14,6 +14,16 @@
     "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key"],
     "type": "place"
   },
+  "singapore-cross-island-line": {
+    "been": false,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Cross_Island_Line",
+    "name": "Cross Island Line",
+    "reference": "Singapore",
+    "prefix": "2030"
+  },
   "aarhus-aarhus-h-to-grenaa": {
     "been": false,
     "country": "DK",
@@ -3634,6 +3644,28 @@
     "icons": ["🇪🇸", "🚇"],
     "link": "https://es.wikipedia.org/wiki/Línea_3_(Metro_de_Bilbao)",
     "name": "Line 3 to Galdakao",
+    "prefix": "2027",
+    "reference": "Bilbao"
+  },
+  "bilbao-line-4": {
+    "been": false,
+    "city": "Bilbao",
+    "country": "ES",
+    "dateAdded": "2026-01-12",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_4_(Metro_de_Bilbao)",
+    "name": "Line 4",
+    "prefix": "20??",
+    "reference": "Bilbao"
+  },
+  "bilbao-line-5": {
+    "been": false,
+    "city": "Bilbao",
+    "country": "ES",
+    "dateAdded": "2026-01-12",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_5_(Metro_de_Bilbao)",
+    "name": "Line 5",
     "prefix": "2027",
     "reference": "Bilbao"
   },
@@ -28176,7 +28208,8 @@
     "reference": "Silesia"
   },
   "singapore-circle-line": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.34916667, 103.83944444",
     "country": "SG",
@@ -28189,8 +28222,20 @@
     "reference": "Singapore",
     "start": "Bartley"
   },
+  "singapore-circle-line-full-circle": {
+    "been": true,
+    "city": "Singapore",
+    "country": "SG",
+    "dateAdded": "2026-01-12",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Circle_Line_(Singapore)",
+    "name": "Circle Line (full circle)",
+    "prefix": "2026",
+    "reference": "Singapore"
+  },
   "singapore-circle-line-to-bartley": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.34275600, 103.87969700",
     "country": "SG",
@@ -28204,7 +28249,8 @@
     "start": "Dhoby Ghaut"
   },
   "singapore-circle-line-to-habourfront": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.26527778, 103.82222222",
     "country": "SG",
@@ -28219,7 +28265,8 @@
     "type": "metro"
   },
   "singapore-circle-line-to-marina-bay": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28444444, 103.85583333",
     "country": "SG",
@@ -28234,7 +28281,8 @@
     "type": "metro"
   },
   "singapore-downtown-line": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.29921000, 103.85618000",
     "country": "SG",
@@ -28249,7 +28297,8 @@
     "type": "metro"
   },
   "singapore-downtown-line-to-bukit-panjang": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.38083333, 103.76250000",
     "country": "SG",
@@ -28264,7 +28313,8 @@
     "type": "metro"
   },
   "singapore-dtl-to-expo": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.33403333, 103.95893056",
     "country": "SG",
@@ -28279,8 +28329,22 @@
     "start": "Chinatown",
     "type": "metro"
   },
-  "singapore-ew-line-to-tuas-link": {
+  "singapore-dtl-to-sungei-bedok": {
+    "badges": ["👀"],
     "been": false,
+    "city": "Singapore",
+    "coords": "1.32031000, 103.95709000",
+    "country": "SG",
+    "dateAdded": "2026-01-12",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Sungei_Bedok_MRT_station",
+    "name": "DTL to Sungei Bedok",
+    "prefix": "2026",
+    "reference": "Singapore"
+  },
+  "singapore-ew-line-to-tuas-link": {
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.31666667, 103.65000000",
     "country": "SG",
@@ -28296,7 +28360,8 @@
     "type": "metro"
   },
   "singapore-nel-to-buangkok-station-added": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
@@ -28309,7 +28374,8 @@
     "reference": "Singapore"
   },
   "singapore-nel-to-punggol-coast": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.41527778, 103.91111111",
     "country": "SG",
@@ -28325,7 +28391,8 @@
     "type": "metro"
   },
   "singapore-nel-to-punggol-east": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -28339,8 +28406,26 @@
     "start": "Woodleigh",
     "type": "metro"
   },
+  "singapore-nel-to-woodlands-north": {
+    "badges": ["✅"],
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.43626944, 103.78670556",
+    "country": "SG",
+    "end": "Woodlands South",
+    "icons": ["🇸🇬", "🚇"],
+    "line": "NEL",
+    "link": "https://en.wikipedia.org/wiki/Woodlands_North_MRT_station",
+    "name": "NEL to Woodlands North",
+    "prefix": "2020-01-31",
+    "reference": "Singapore",
+    "size": 3.2,
+    "start": "Woodlands North",
+    "type": "metro"
+  },
   "singapore-north-east-line": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
@@ -28352,7 +28437,8 @@
     "reference": "Singapore"
   },
   "singapore-north-south-line-to-marina-south-pier": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.27094444, 103.86325000",
     "country": "SG",
@@ -28367,7 +28453,8 @@
     "type": "metro"
   },
   "singapore-nsl-to-canberra-station": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.44305556, 103.82972222",
     "country": "SG",
@@ -28381,7 +28468,7 @@
     "type": "metro"
   },
   "singapore-punggol-lrt-east-loop": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -28393,7 +28480,8 @@
     "reference": "Singapore"
   },
   "singapore-punggol-lrt-to-sam-kee-station": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -28407,7 +28495,8 @@
     "type": "metro"
   },
   "singapore-punggol-west-loop": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -28420,6 +28509,7 @@
     "type": "metro"
   },
   "singapore-rts-link-to-johor-bahru": {
+    "badges": ["👀"],
     "been": false,
     "city": "Singapore",
     "countries": ["SG", "MY"],
@@ -28431,7 +28521,8 @@
     "reference": "Singapore"
   },
   "singapore-sengkang-lrt": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
@@ -28442,8 +28533,9 @@
     "prefix": "2003-06-20",
     "reference": "Singapore"
   },
-  "singapore-sengkang-lrt-to-east-loop": {
-    "been": false,
+  "singapore-sengkang-lrt-east-loop": {
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -28451,12 +28543,13 @@
     "icons": ["🇸🇬", "🚝"],
     "line": "Sengkang LRT",
     "link": "https://en.wikipedia.org/wiki/Punggol_LRT_line",
-    "name": "Sengkang LRT to East Loop",
+    "name": "Sengkang LRT East Loop",
     "prefix": "2003-01-20",
     "reference": "Singapore"
   },
-  "singapore-sengkang-lrt-to-kupang-station": {
-    "been": false,
+  "singapore-sengkang-lrt-kupang-station": {
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.35053980, 103.60077920",
     "country": "SG",
@@ -28464,13 +28557,14 @@
     "icons": ["🇸🇬", "🚝"],
     "line": "Sengkang LRT",
     "link": "https://en.wikipedia.org/wiki/List_of_Singapore_LRT_stations",
-    "name": "Sengkang LRT to Kupang station",
+    "name": "Sengkang LRT Kupang station",
     "prefix": "2015-06-27",
     "reference": "Singapore",
     "type": "metro"
   },
   "singapore-sengkang-lrt-west-loop": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
@@ -28481,24 +28575,9 @@
     "prefix": "2005-01-29",
     "reference": "Singapore"
   },
-  "singapore-tel": {
-    "been": false,
-    "city": "Singapore",
-    "coords": "1.43626944, 103.78670556",
-    "country": "SG",
-    "end": "Woodlands South",
-    "icons": ["🇸🇬", "🚇"],
-    "line": "TEL",
-    "link": "https://en.wikipedia.org/wiki/Singtel",
-    "name": "TEL",
-    "prefix": "2020-01-31",
-    "reference": "Singapore",
-    "size": 3.2,
-    "start": "Woodlands North",
-    "type": "metro"
-  },
   "singapore-tel-to-bayshore": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.31471200, 103.94371700",
     "country": "SG",
@@ -28514,7 +28593,8 @@
     "type": "metro"
   },
   "singapore-tel-to-caldecott": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.33776100, 103.83944700",
     "country": "SG",
@@ -28530,7 +28610,8 @@
     "type": "metro"
   },
   "singapore-tel-to-gardens-by-bay": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "coords": "1.28472222, 103.86500000",
     "country": "SG",
@@ -28545,34 +28626,28 @@
     "start": "Caldecott",
     "type": "metro"
   },
-  "singapore-thomson-east-coast-line": {
+  "singapore-tel-to-sungei-bedok": {
+    "badges": ["👀"],
     "been": false,
+    "city": "Singapore",
+    "coords": "1.32031000, 103.95709000",
+    "country": "SG",
+    "dateAdded": "2026-01-12",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Sungei_Bedok_MRT_station",
+    "name": "TEL to Sungei Bedok",
+    "prefix": "2026",
+    "reference": "Singapore"
+  },
+  "singapore-thomson-east-coast-line": {
+    "badges": ["✅"],
+    "been": true,
     "city": "Singapore",
     "country": "SG",
     "icons": ["🇸🇬", "🚇"],
     "link": "https://en.wikipedia.org/wiki/Thomson–East_Coast_MRT_line",
     "name": "Thomson East Coast Line",
     "prefix": "2020-01-31",
-    "reference": "Singapore"
-  },
-  "singapore-thomson-ecl-to-bayshore": {
-    "been": false,
-    "city": "Singapore",
-    "country": "SG",
-    "icons": ["🇸🇬", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Thomson–East_Coast_MRT_line",
-    "name": "Thomson ECL to Bayshore",
-    "prefix": "2024-06-23",
-    "reference": "Singapore"
-  },
-  "singapore-thomson-ecl-to-gardens-by-bay": {
-    "been": false,
-    "city": "Singapore",
-    "country": "SG",
-    "icons": ["🇸🇬", "🚇"],
-    "link": "https://en.wikipedia.org/wiki/Thomson–East_Coast_MRT_line",
-    "name": "Thomson ECL to Gardens by the Bay",
-    "prefix": "2022-11-13",
     "reference": "Singapore"
   },
   "sofia-line-1-to-business-park-sofia": {

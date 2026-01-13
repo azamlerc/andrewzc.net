@@ -178,7 +178,7 @@
       "zoom": "2"
     },
     "name": "Accidentally Wes Anderson",
-    "size": "large",
+    "size": "medium",
     "tags": ["featured", "middleSectionBeen"],
     "type": "place"
   },
@@ -1560,7 +1560,7 @@
     },
     "name": "Music Places",
     "size": "large",
-    "tags": ["people", "reference-key"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "national-parks": {
@@ -2423,6 +2423,21 @@
     "name": "Tram Roundabouts",
     "size": "medium",
     "tags": ["reference-first"],
+    "type": "place"
+  },
+  "tram-trains": {
+    "footer": "For classic trams that run between towns, see <a class=\"dark\" href=\"interurbans.html\">Interurbans</a>.",
+    "group": "date",
+    "header": "Modern trams that run partially on mainline train tracks.",
+    "icon": "🚊",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Tram-Trains",
+    "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "trams": {
