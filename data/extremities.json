@@ -636,6 +636,16 @@
     "name": "Chancy",
     "wikidata": "Q69811"
   },
+  "changi-airport": {
+    "been": true,
+    "coords": "1.35631000, 104.03134000",
+    "country": "SG",
+    "dateAdded": "2026-01-14",
+    "distance": 5,
+    "icons": ["🇸🇬", "➡️"],
+    "link": "https://en.wikipedia.org/wiki/Changi_Airport",
+    "name": "Changi Airport"
+  },
   "cinkasse": {
     "been": false,
     "coords": "11.11823000, 0.14380000",
@@ -792,10 +802,9 @@
     "country": "US",
     "flags": ["nh"],
     "icons": ["🇺🇸", "⬇️"],
-    "info": "(10 km)",
     "link": "https://en.wikipedia.org/wiki/Dracut,_New_Hampshire",
     "name": "Dracut, NH",
-    "reference": "(10 km)",
+    "distance": 10,
     "state": "NH"
   },
   "dunnet-head": {
@@ -1057,10 +1066,9 @@
     "coords": "47.94517000, 22.85993000",
     "country": "HU",
     "icons": ["🇭🇺", "➡️"],
-    "info": "(15 km)",
     "link": "https://en.wikipedia.org/wiki/Garbolc",
     "name": "Garbolc",
-    "reference": "(15 km)"
+    "distance": 15
   },
   "giurgiulesti": {
     "been": true,
@@ -1105,10 +1113,9 @@
     "country": "US",
     "flags": ["pa"],
     "icons": ["🇺🇸", "⬇️"],
-    "info": "(5 km)",
     "link": "https://en.wikipedia.org/wiki/Hanover,_Pennsylvania",
     "name": "Hanover, PA",
-    "reference": "(5 km)",
+    "distance": 5,
     "state": "PA"
   },
   "harpers-ferry-wv": {
@@ -1170,10 +1177,9 @@
     "coords": "48.56064000, 20.83825000",
     "country": "HU",
     "icons": ["🇭🇺", "⬆️"],
-    "info": "(40 km)",
     "link": "https://en.wikipedia.org/wiki/Hidvégardó",
     "name": "Hidvégardó",
-    "reference": "(40 km)"
+    "distance": 40
   },
   "ich": {
     "been": false,
@@ -1294,9 +1300,8 @@
     "country": "US",
     "flags": ["ks"],
     "icons": ["🇺🇸", "➡️"],
-    "info": "(5 km)",
     "name": "Kansas City, KS",
-    "reference": "(5 km)",
+    "distance": 5,
     "state": "KS"
   },
   "karisoodi": {
@@ -1567,10 +1572,9 @@
     "country": "US",
     "flags": ["tn"],
     "icons": ["🇺🇸", "⬅️"],
-    "info": "(15 km)",
     "link": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
     "name": "Memphis, TN",
-    "reference": "(15 km)",
+    "distance": 15,
     "state": "TN"
   },
   "mers-les-bains": {
@@ -1696,10 +1700,9 @@
     "flags": ["de"],
     "icons": ["🇺🇸", "⏺️"],
     "images": ["new-castle.jpg"],
-    "info": "<a href=\"https://en.wikipedia.org/wiki/Twelve-Mile_Circle\" class=\"dark\">12 Mile Circle</a>",
     "link": "https://en.wikipedia.org/wiki/New_Castle_Court_House_Museum",
     "name": "New Castle, DE",
-    "reference": "<a href=\"https://en.wikipedia.org/wiki/Twelve-Mile_Circle\" class=\"dark\">12 Mile Circle</a>",
+    "reference": "12 Mile Circle",
     "state": "DE"
   },
   "new-castle-nh": {
@@ -1824,10 +1827,9 @@
     "country": "US",
     "flags": ["fl"],
     "icons": ["🇺🇸", "➡️"],
-    "info": "(2 km)",
     "link": "https://en.wikipedia.org/wiki/Palm_Beach_Shores,_Florida",
     "name": "Palm Beach Shores, FL",
-    "reference": "(2 km)",
+    "distance": 2,
     "state": "FL"
   },
   "panama-island": {
@@ -2214,11 +2216,20 @@
     "country": "US",
     "flags": ["de"],
     "icons": ["🇺🇸", "⬇️"],
-    "info": "(5 km)",
     "link": "https://en.wikipedia.org/wiki/Selbyville,_Delaware",
     "name": "Selbyville, DE",
-    "reference": "(5 km)",
+    "distance": 5,
     "state": "DE"
+  },
+  "sembawang": {
+    "been": true,
+    "coords": "1.47067000, 103.81624000",
+    "country": "SG",
+    "dateAdded": "2026-01-14",
+    "distance": 2,
+    "icons": ["🇸🇬", "⬆️"],
+    "link": "https://en.wikipedia.org/wiki/Sembawang",
+    "name": "Sembawang"
   },
   "senokos": {
     "been": false,
@@ -2227,6 +2238,17 @@
     "icons": ["🇷🇸", "➡️"],
     "link": "https://en.wikipedia.org/wiki/Senokos,_Dimitrovgrad",
     "name": "Senokos"
+  },
+  "sentosa": {
+    "been": true,
+    "city": "Singapore",
+    "coords": "1.23807000, 103.83289000",
+    "country": "SG",
+    "dateAdded": "2026-01-14",
+    "distance": 2,
+    "icons": ["🇸🇬", "⬇️"],
+    "link": "https://en.wikipedia.org/wiki/Sentosa",
+    "name": "Sentosa"
   },
   "severni": {
     "been": true,
@@ -2368,10 +2390,9 @@
     "coords": "46.10027778, 19.66555556",
     "country": "RS",
     "icons": ["🇷🇸", "⬆️"],
-    "info": "(30 km)",
     "link": "https://en.wikipedia.org/wiki/Subotica",
     "name": "Subotica",
-    "reference": "(30 km)"
+    "distance": 30
   },
   "surre": {
     "been": true,
@@ -2498,6 +2519,16 @@
     "link": "https://en.wikipedia.org/wiki/Troisvierges",
     "name": "Troisvierges",
     "wikidata": "Q24454"
+  },
+  "tuas": {
+    "been": true,
+    "coords": "1.29453000, 103.61894000",
+    "country": "SG",
+    "dateAdded": "2026-01-14",
+    "distance": 2,
+    "icons": ["🇸🇬", "⬅️"],
+    "link": "https://en.wikipedia.org/wiki/Tuas",
+    "name": "Tuas"
   },
   "uzhhorod": {
     "been": true,
@@ -2667,10 +2698,9 @@
     "coords": "49.05472222, 22.69527778",
     "country": "PL",
     "icons": ["🇵🇱", "⬇️"],
-    "info": "(40 km)",
+    "distance": 40,
     "link": "https://en.wikipedia.org/wiki/Wołosate",
-    "name": "Wołosate",
-    "reference": "(40 km)"
+    "name": "Wołosate"
   },
   "zahorska-ves": {
     "been": true,
