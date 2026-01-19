@@ -1454,6 +1454,8 @@
   },
   "metros": {
     "featured": "true",
+    "flagClass": "icon",
+    "flagFolder": "trains",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
@@ -1465,7 +1467,7 @@
     "sections": ["done", "taken", "visited", "want"],
     "size": "large",
     "sort": "-size",
-    "tags": ["featured"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "mexico": {
@@ -2495,7 +2497,7 @@
     "sections": ["done", "taken", "seen"],
     "size": "large",
     "sort": "-size",
-    "tags": ["featured"],
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "trans-siberian": {

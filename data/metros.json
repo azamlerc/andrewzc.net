@@ -1,7 +1,8 @@
 {
   "--info--": {
     "featured": "true",
-    "sections": ["done", "taken", "visited", "want"],
+    "flagClass": "icon",
+    "flagFolder": "trains",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
@@ -10,9 +11,10 @@
       "zoom": "2"
     },
     "name": "Metros",
+    "sections": ["done", "taken", "visited", "want"],
     "size": "large",
-    "tags": ["featured"],
     "sort": "-size",
+    "tags": ["auto", "featured"],
     "type": "place"
   },
   "agra": {
@@ -60,11 +62,12 @@
     "city": "Amsterdam",
     "coords": "52.37277778, 4.89361111",
     "country": "NL",
-    "section": "taken",
+    "flags": ["amsterdam"],
     "icons": ["🇳🇱"],
     "info": "(25%)",
     "link": "https://en.wikipedia.org/wiki/Amsterdam_Metro",
     "name": "Amsterdam",
+    "section": "taken",
     "size": 39
   },
   "ankara": {
@@ -82,10 +85,11 @@
     "city": "Athens",
     "coords": "37.98416667, 23.72805556",
     "country": "GR",
-    "section": "want",
+    "flags": ["athens"],
     "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Athens_Metro",
     "name": "Athens",
+    "section": "want",
     "size": 66
   },
   "atlanta": {
@@ -93,10 +97,11 @@
     "city": "Atlanta",
     "coords": "33.74888889, -84.39000000",
     "country": "US",
-    "section": "visited",
+    "flags": ["marta"],
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Metropolitan_Atlanta_Rapid_Transit_Authority",
     "name": "Atlanta",
+    "section": "visited",
     "size": 38
   },
   "baku": {
@@ -114,10 +119,11 @@
     "city": "Baltimore",
     "coords": "39.28944444, -76.61527778",
     "country": "US",
-    "section": "visited",
+    "flags": ["baltimore"],
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_Metro_SubwayLink",
     "name": "Baltimore",
+    "section": "visited",
     "size": 14
   },
   "bangkok": {
@@ -125,10 +131,11 @@
     "city": "Bangkok",
     "coords": "13.75250000, 100.49416667",
     "country": "TH",
-    "section": "visited",
+    "flags": ["bangkok"],
     "icons": ["🇹🇭"],
     "link": "https://en.wikipedia.org/wiki/MRT_(Bangkok)",
     "name": "Bangkok",
+    "section": "visited",
     "size": 107
   },
   "barcelona": {
@@ -136,11 +143,12 @@
     "city": "Barcelona",
     "coords": "41.38333300, 2.18333300",
     "country": "ES",
-    "section": "done",
+    "flags": ["barcelona"],
     "icons": ["🇪🇸"],
     "images": ["barcelona.pdf.png", "barcelona1.jpg", "barcelona2.jpg", "barcelona3.jpg", "barcelona4.jpg", "barcelona5.jpg", "barcelona6.jpg", "barcelona7.jpg", "barcelona8.jpg", "barcelona9.jpg", "barcelona10.jpg"],
     "link": "https://en.wikipedia.org/wiki/Barcelona_Metro",
     "name": "Barcelona",
+    "section": "done",
     "size": 189
   },
   "beijing": {
@@ -168,11 +176,12 @@
     "city": "Bengaluru",
     "coords": "12.97888889, 77.59166667",
     "country": "IN",
-    "section": "done",
+    "flags": ["bangalore"],
     "icons": ["🇮🇳"],
     "images": ["bangalore1.jpg", "bangalore2.jpg", "bangalore3.jpg", "bangalore4.jpg", "bangalore5.jpg", "bangalore6.jpg", "bengaluru1.jpg", "bengaluru2.jpg", "bengaluru3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Namma_Metro",
     "name": "Bengaluru",
+    "section": "done",
     "size": 83
   },
   "berlin": {
@@ -180,11 +189,12 @@
     "city": "Berlin",
     "coords": "52.52000000, 13.40500000",
     "country": "DE",
-    "section": "done",
+    "flags": ["ubahn"],
     "icons": ["🇩🇪"],
     "images": ["berlin.pdf.png", "berlin1.jpg", "berlin2.jpg", "berlin3.jpg", "berlin4.jpg", "berlin5.jpg", "berlin6.jpg", "berlin7.jpg", "berlin8.jpg", "berlin9.jpg", "berlin10.jpg", "berlin11.jpg", "berlin12.jpg", "berlin13.jpg", "berlin14.jpg", "berlin15.jpg", "berlin16.jpg", "berlin17.jpg", "berlin18.jpg", "berlin19.jpg", "berlin20.jpg"],
     "link": "https://en.wikipedia.org/wiki/Berlin_U-Bahn",
     "name": "Berlin",
+    "section": "done",
     "size": 175
   },
   "bilbao": {
@@ -192,11 +202,12 @@
     "city": "Bilbao",
     "coords": "43.25694444, -2.92361111",
     "country": "ES",
-    "section": "done",
+    "flags": ["bilbao"],
     "icons": ["🇪🇸"],
     "images": ["bilbao.png", "bilbao1.jpg", "bilbao2.jpg", "bilbao3.jpg", "bilbao4.jpg", "bilbao5.jpg", "bilbao6.jpg", "bilbao7.jpg", "bilbao8.jpg", "bilbao9.jpg", "bilbao10.jpg", "bilbao11.jpg", "bilbao12.jpg", "bilbao13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Metro_Bilbao",
     "name": "Bilbao",
+    "section": "done",
     "size": 48
   },
   "boston": {
@@ -204,11 +215,12 @@
     "city": "Boston",
     "coords": "42.31861111, -70.99111111",
     "country": "US",
-    "section": "done",
+    "flags": ["boston"],
     "icons": ["🇺🇸"],
     "images": ["boston.pdf.png", "boston1.jpg", "boston2.jpg", "boston3.jpg", "boston4.jpg", "boston5.jpg", "boston6.jpg", "boston7.jpg", "boston8.jpg"],
     "link": "https://en.wikipedia.org/wiki/MBTA_Subway",
     "name": "Boston",
+    "section": "done",
     "size": 54
   },
   "brescia": {
@@ -226,11 +238,12 @@
     "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
-    "section": "done",
+    "flags": ["brussels"],
     "icons": ["🇧🇪"],
     "images": ["brussels.pdf.png", "brussels1.jpg", "brussels2.jpg", "brussels3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Brussels_Metro",
     "name": "Brussels",
+    "section": "done",
     "size": 59
   },
   "bucharest": {
@@ -238,10 +251,11 @@
     "city": "Bucharest",
     "coords": "44.43250000, 26.10388889",
     "country": "RO",
-    "section": "want",
+    "flags": ["bucharest"],
     "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Bucharest_Metro",
     "name": "Bucharest",
+    "section": "want",
     "size": 64
   },
   "budapest": {
@@ -249,11 +263,12 @@
     "city": "Budapest",
     "coords": "47.49250000, 19.05138889",
     "country": "HU",
-    "section": "done",
+    "flags": ["budapest"],
     "icons": ["🇭🇺"],
     "images": ["budapest.pdf.png", "budapest1.jpg", "budapest2.jpg", "budapest3.jpg", "budapest4.jpg", "budapest5.jpg", "budapest6.jpg", "budapest7.jpg", "budapest8.jpg", "budapest9.jpg", "budapest10.jpg", "budapest11.jpg", "budapest12.jpg", "budapest13.jpg"],
     "link": "https://en.wikipedia.org/wiki/Budapest_Metro",
     "name": "Budapest",
+    "section": "done",
     "size": 48
   },
   "buenos-aires": {
@@ -261,10 +276,11 @@
     "city": "Buenos Aires",
     "coords": "-34.60333333, -58.38166667",
     "country": "AR",
-    "section": "want",
+    "flags": ["buenos-aires"],
     "icons": ["🇦🇷"],
     "link": "https://en.wikipedia.org/wiki/Buenos_Aires_Underground",
     "name": "Buenos Aires",
+    "section": "want",
     "size": 78
   },
   "busan": {
@@ -272,10 +288,11 @@
     "city": "Busan",
     "coords": "35.18000000, 129.07500000",
     "country": "KR",
-    "section": "taken",
+    "flags": ["busan"],
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Busan_Metro",
     "name": "Busan",
+    "section": "taken",
     "size": 114
   },
   "cairo": {
@@ -283,10 +300,11 @@
     "city": "Cairo",
     "coords": "30.04444444, 31.23583333",
     "country": "EG",
-    "section": "taken",
+    "flags": ["cairo"],
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Cairo_Metro",
     "name": "Cairo",
+    "section": "taken",
     "size": 84
   },
   "caracas": {
@@ -302,10 +320,11 @@
     "been": false,
     "coords": "37.50000000, 15.09027778",
     "country": "IT",
-    "section": "visited",
+    "flags": ["catania"],
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Catania_Metro",
     "name": "Catania",
+    "section": "visited",
     "size": 12
   },
   "changchun": {
@@ -362,11 +381,12 @@
     "city": "Chicago",
     "coords": "41.88194444, -87.62777778",
     "country": "US",
-    "section": "done",
+    "flags": ["cta"],
     "icons": ["🇺🇸"],
     "images": ["chicago.pdf.png", "chicago1.jpg", "chicago2.jpg", "chicago3.jpg", "chicago4.jpg", "chicago5.jpg", "chicago6.jpg", "chicago7.jpg", "chicago8.jpg", "chicago9.jpg", "chicago10.jpg", "chicago11.jpg", "chicago12.jpg", "chicago13.jpg", "chicago14.jpg", "chicago15.jpg", "chicago16.jpg", "chicago17.jpg", "chicago18.jpg", "chicago19.jpg", "chicago20.jpg", "chicago21.jpg", "chicago22.jpg", "chicago23.jpg", "chicago24.jpg", "chicago25.jpg", "chicago26.jpg", "chicago27.jpg", "chicago28.jpg", "chicago29.jpg"],
     "link": "https://en.wikipedia.org/wiki/Chicago_%22L%22",
     "name": "Chicago",
+    "section": "done",
     "size": 146
   },
   "chongqing": {
@@ -384,10 +404,11 @@
     "city": "Cleveland",
     "coords": "41.48222222, -81.66972222",
     "country": "US",
-    "section": "taken",
+    "flags": ["cleveland"],
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Red_Line_(RTA_Rapid_Transit)",
     "name": "Cleveland",
+    "section": "taken",
     "size": 18
   },
   "copenhagen": {
@@ -395,10 +416,11 @@
     "city": "Copenhagen",
     "coords": "55.67611111, 12.56833333",
     "country": "DK",
-    "section": "want",
+    "flags": ["copenhagen"],
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Copenhagen_Metro",
     "name": "Copenhagen",
+    "section": "want",
     "size": 44
   },
   "dalian": {
@@ -464,11 +486,12 @@
     "city": "Dubai",
     "coords": "25.26970000, 55.30950000",
     "country": "AE",
-    "section": "done",
+    "flags": ["dubai"],
     "icons": ["🇦🇪"],
     "images": ["dubai.pdf.png", "dubai1.jpg", "dubai2.jpg", "dubai3.jpg", "dubai4.jpg", "dubai5.jpg", "dubai6.jpg", "dubai7.jpg", "dubai8.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dubai_Metro",
     "name": "Dubai",
+    "section": "done",
     "size": 55
   },
   "foshan": {
@@ -486,10 +509,11 @@
     "city": "Frankfurt",
     "coords": "50.113611111111, 8.6797222222222",
     "country": "DE",
-    "section": "visited",
+    "flags": ["ubahn"],
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Frankfurt_U-Bahn",
     "name": "Frankfurt",
+    "section": "visited",
     "size": 84,
     "wikidata": "Q164050"
   },
@@ -498,10 +522,11 @@
     "city": "Fukuoka",
     "coords": "33.59000000, 130.40166667",
     "country": "JP",
-    "section": "visited",
+    "flags": ["fukuoka"],
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Fukuoka_City_Subway",
     "name": "Fukuoka",
+    "section": "visited",
     "size": 36
   },
   "fuzhou": {
@@ -519,10 +544,11 @@
     "city": "Genoa",
     "coords": "44.41111111, 8.93277778",
     "country": "IT",
-    "section": "visited",
+    "flags": ["italy"],
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Genoa_Metro",
     "name": "Genoa",
+    "section": "visited",
     "size": 8
   },
   "glasgow": {
@@ -530,10 +556,10 @@
     "city": "Glasgow",
     "coords": "55.8616, -4.2832",
     "country": "GB-SCT",
-    "section": "visited",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "https://en.wikipedia.org/wiki/Glasgow_Subway",
     "name": "Glasgow",
+    "section": "visited",
     "size": 15,
     "wikidata": "Q506290"
   },
@@ -545,17 +571,19 @@
     "icons": ["🇲🇽"],
     "link": "https://en.wikipedia.org/wiki/Sistema_de_Tren_Eléctrico_Urbano",
     "name": "Guadalajara",
-    "size": 28
+    "size": 28,
+    "type": "light-rail"
   },
   "guangzhou": {
     "been": false,
     "city": "Guangzhou",
     "coords": "23.13000000, 113.26000000",
     "country": "CN",
-    "section": "visited",
+    "flags": ["guangzhou"],
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Guangzhou_Metro",
     "name": "Guangzhou",
+    "section": "visited",
     "size": 381
   },
   "guiyang": {
@@ -583,10 +611,11 @@
     "city": "Hamburg",
     "coords": "53.54419800, 9.97941100",
     "country": "DE",
-    "section": "want",
+    "flags": ["ubahn"],
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Hamburg_U-Bahn",
     "name": "Hamburg",
+    "section": "want",
     "size": 93
   },
   "hangzhou": {
@@ -634,10 +663,11 @@
     "city": "Helsinki",
     "coords": "60.17083333, 24.93750000",
     "country": "FI",
-    "section": "visited",
+    "flags": ["helsinki"],
     "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Helsinki_Metro",
     "name": "Helsinki",
+    "section": "visited",
     "size": 30
   },
   "ho-chi-minh-city": {
@@ -666,10 +696,11 @@
     "city": "Hong Kong",
     "coords": "22.30000000, 114.20000000",
     "country": "HK",
-    "section": "taken",
+    "flags": ["hong-kong"],
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/MTR",
     "name": "Hong Kong",
+    "section": "taken",
     "size": 99
   },
   "honolulu": {
@@ -715,10 +746,11 @@
     "city": "Istanbul",
     "coords": "41.01361111, 28.95500000",
     "country": "TR",
-    "section": "visited",
+    "flags": ["istanbul"],
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Istanbul_Metro",
     "name": "Istanbul",
+    "section": "visited",
     "size": 159
   },
   "jaipur": {
@@ -766,10 +798,11 @@
     "city": "Kazan",
     "coords": "55.79638889, 49.10888889",
     "country": "RU",
-    "section": "visited",
+    "flags": ["kazan"],
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Kazan_Metro",
     "name": "Kazan",
+    "section": "visited",
     "size": 11
   },
   "kharkiv": {
@@ -857,10 +890,11 @@
     "city": "Lagos",
     "coords": "6.45502700, 3.38408200",
     "country": "NG",
-    "section": "taken",
+    "flags": ["lagos"],
     "icons": ["🇳🇬"],
     "link": "https://en.wikipedia.org/wiki/Lagos_Rail_Mass_Transit",
     "name": "Lagos",
+    "section": "taken",
     "size": 5
   },
   "lahore": {
@@ -887,10 +921,11 @@
     "city": "Lausanne",
     "coords": "46.51983333, 6.63350000",
     "country": "CH",
-    "section": "visited",
+    "flags": ["lausanne"],
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Lausanne_Métro",
     "name": "Lausanne",
+    "section": "visited",
     "size": 28
   },
   "lille": {
@@ -898,11 +933,12 @@
     "city": "Lille",
     "coords": "50.62780000, 3.05830000",
     "country": "FR",
-    "section": "taken",
+    "flags": ["lille"],
     "icons": ["🇫🇷"],
     "info": "(25%)",
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Lille",
     "name": "Lille",
+    "section": "taken",
     "size": 60
   },
   "lima": {
@@ -910,10 +946,11 @@
     "city": "Lima",
     "coords": "-12.04333333, -77.02833333",
     "country": "PE",
-    "section": "want",
+    "flags": ["lima"],
     "icons": ["🇵🇪"],
     "link": "https://en.wikipedia.org/wiki/Lima_Metro",
     "name": "Lima",
+    "section": "want",
     "size": 61
   },
   "lisbon": {
@@ -921,11 +958,12 @@
     "city": "Lisbon",
     "coords": "38.72527778, -9.15000000",
     "country": "PT",
-    "section": "done",
+    "flags": ["lisbon"],
     "icons": ["🇵🇹"],
     "images": ["lisbon.png", "lisbon1.jpg", "lisbon2.jpg", "lisbon3.jpg", "lisbon4.jpg", "lisbon5.jpg", "lisbon6.jpg", "lisbon7.jpg"],
     "link": "https://en.wikipedia.org/wiki/Lisbon_Metro",
     "name": "Lisbon",
+    "section": "done",
     "size": 56
   },
   "london": {
@@ -933,11 +971,12 @@
     "city": "London",
     "coords": "51.50722222, -0.12750000",
     "country": "GB",
-    "section": "done",
+    "flags": ["london"],
     "icons": ["🇬🇧"],
     "images": ["london.pdf.png", "london1.jpg", "london2.jpg", "london3.jpg", "london4.jpg", "london5.jpg", "london6.jpg", "london7.jpg", "london8.jpg", "london9.jpg", "london10.jpg", "london11.jpg", "london12.jpg", "london13.jpg", "london14.jpg", "london15.jpg", "london16.jpg", "london17.jpg", "london18.jpg", "london19.jpg", "london20.jpg", "london21.jpg", "london22.jpg", "london23.jpg", "london24.jpg", "london25.jpg", "london26.jpg", "london27.jpg", "london28.jpg", "london29.jpg", "london30.jpg", "london31.jpg", "london32.jpg", "london33.jpg", "london34.jpg", "london35.jpg", "london36.jpg", "london37.jpg", "london38.jpg", "london39.jpg", "london40.jpg", "london41.jpg", "london42.jpg", "london43.jpg", "london44.jpg", "london45.jpg", "london46.jpg", "london47.jpg", "london48.jpg", "london49.jpg", "london50.jpg", "london51.jpg", "london52.jpg", "london53.jpg", "london54.jpg", "london55.jpg"],
     "link": "https://en.wikipedia.org/wiki/London_Underground",
     "name": "London",
+    "section": "done",
     "size": 272
   },
   "los-angeles": {
@@ -945,10 +984,11 @@
     "city": "Los Angeles",
     "coords": "34.05000000, -118.25000000",
     "country": "US",
-    "section": "visited",
+    "flags": ["los-angeles"],
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Los_Angeles_Metro_Rail",
     "name": "Los Angeles",
+    "section": "visited",
     "size": 102
   },
   "lucknow": {
@@ -976,11 +1016,12 @@
     "city": "Lyon",
     "coords": "45.76000000, 4.84000000",
     "country": "FR",
-    "section": "done",
+    "flags": ["lyon"],
     "icons": ["🇫🇷"],
     "images": ["lyon.jpg", "lyon1.jpg", "lyon2.jpg", "lyon3.jpg", "lyon4.jpg", "lyon5.jpg", "lyon6.jpg", "lyon7.jpg", "lyon8.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Lyon",
     "name": "Lyon",
+    "section": "done",
     "size": 40
   },
   "madrid": {
@@ -988,12 +1029,12 @@
     "city": "Madrid",
     "coords": "40.41694444, -3.70333333",
     "country": "ES",
-    "section": "taken",
+    "flags": ["madrid"],
     "icons": ["🇪🇸"],
     "info": "(60%)",
     "link": "https://en.wikipedia.org/wiki/Madrid_Metro",
     "name": "Madrid",
-    "reference": "30%",
+    "section": "taken",
     "size": 276
   },
   "manila": {
@@ -1011,10 +1052,11 @@
     "city": "Marseille",
     "coords": "43.29640000, 5.37000000",
     "country": "FR",
-    "section": "want",
+    "flags": ["marseille"],
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Marseille",
     "name": "Marseille",
+    "section": "want",
     "size": 29
   },
   "mecca": {
@@ -1031,11 +1073,12 @@
     "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
-    "section": "done",
+    "flags": ["medellin"],
     "icons": ["🇨🇴"],
     "images": ["medellin.jpg", "medellin1.jpg", "medellin2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Medellín_Metro",
     "name": "Medellín",
+    "section": "done",
     "size": 27
   },
   "mexico-city": {
@@ -1043,11 +1086,12 @@
     "city": "Mexico City",
     "coords": "19.43333333, -99.13333333",
     "country": "MX",
-    "section": "done",
+    "flags": ["mexico-city"],
     "icons": ["🇲🇽"],
     "images": ["mexico-city.pdf.png", "mexico-city1.jpg", "mexico-city2.jpg", "mexico-city3.jpg", "mexico-city4.jpg", "mexico-city5.jpg", "mexico-city6.jpg", "mexico-city7.jpg", "mexico-city8.jpg", "mexico-city9.jpg", "mexico-city10.jpg"],
     "link": "mexico-city.html",
     "name": "Mexico City",
+    "section": "done",
     "size": 195
   },
   "miami": {
@@ -1055,11 +1099,12 @@
     "city": "Miami",
     "coords": "25.78000000, -80.21000000",
     "country": "US",
-    "section": "done",
+    "flags": ["miami"],
     "icons": ["🇺🇸"],
     "images": ["miami.pdf.png", "miami1.jpg", "miami2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Metrorail_(Miami-Dade_County)",
     "name": "Miami",
+    "section": "done",
     "size": 23
   },
   "milan": {
@@ -1067,10 +1112,11 @@
     "city": "Milan",
     "coords": "45.46694444, 9.19000000",
     "country": "IT",
-    "section": "want",
+    "flags": ["italy"],
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Milan_Metro",
     "name": "Milan",
+    "section": "want",
     "size": 125
   },
   "minsk": {
@@ -1097,11 +1143,12 @@
     "city": "Montréal",
     "coords": "45.50888889, -73.55416667",
     "country": "CA",
-    "section": "done",
+    "flags": ["montreal"],
     "icons": ["🇨🇦"],
     "images": ["montreal.pdf.png", "montreal1.jpg", "montreal2.jpg", "montreal3.jpg", "montreal4.jpg", "montreal5.jpg", "montreal6.jpg", "montreal7.jpg", "montreal8.jpg", "montreal9.jpg", "montreal10.jpg", "montreal11.jpg", "montreal12.jpg", "montreal13.jpg", "montreal14.jpg", "montreal15.jpg", "montreal16.jpg", "montreal17.jpg", "montreal18.jpg"],
     "link": "https://en.wikipedia.org/wiki/Montreal_Metro",
     "name": "Montréal",
+    "section": "done",
     "size": 68
   },
   "moscow": {
@@ -1109,10 +1156,11 @@
     "city": "Moscow",
     "coords": "55.75583333, 37.61722222",
     "country": "RU",
-    "section": "taken",
+    "flags": ["moscow"],
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Moscow_Metro",
     "name": "Moscow",
+    "section": "taken",
     "size": 300
   },
   "mumbai": {
@@ -1130,10 +1178,11 @@
     "been": false,
     "coords": "48.13750000, 11.57500000",
     "country": "DE",
-    "section": "want",
+    "flags": ["ubahn"],
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Munich_U-Bahn",
     "name": "Munich",
+    "section": "want",
     "size": 96
   },
   "nagoya": {
@@ -1201,11 +1250,12 @@
     "city": "Naples",
     "coords": "40.83583333, 14.24861111",
     "country": "IT",
-    "section": "done",
+    "flags": ["italy"],
     "icons": ["🇮🇹"],
     "images": ["naples.pdf.png", "naples1.jpg", "naples2.jpg", "naples3.jpg", "naples4.jpg", "naples5.jpg"],
     "link": "https://en.wikipedia.org/wiki/Naples_Metro",
     "name": "Naples",
+    "section": "done",
     "size": 30
   },
   "navi-mumbai": {
@@ -1223,11 +1273,12 @@
     "city": "New York",
     "coords": "40.7, -74.0",
     "country": "US",
-    "section": "done",
+    "flags": ["mta"],
     "icons": ["🇺🇸"],
     "images": ["new-york.pdf.png", "r32-1.jpg", "r32-2.jpg", "r32-3.jpg", "r32-4.jpg", "r32-5.jpg", "r32-6.jpg", "r211-1.jpg", "r211-2.jpg", "r211-3.jpg", "r211-4.jpg", "r211-5.jpg", "r211-6.jpg"],
     "link": "https://en.wikipedia.org/wiki/New_York_City_Subway",
     "name": "New York",
+    "section": "done",
     "size": 423
   },
   "ningbo": {
@@ -1274,10 +1325,11 @@
     "been": false,
     "coords": "49.45388889, 11.07750000",
     "country": "DE",
-    "section": "want",
+    "flags": ["ubahn"],
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Nuremberg_U-Bahn",
     "name": "Nuremberg",
+    "section": "want",
     "size": 49
   },
   "osaka": {
@@ -1285,10 +1337,11 @@
     "city": "Ōsaka",
     "coords": "34.69388889, 135.50222222",
     "country": "JP",
-    "section": "visited",
+    "flags": ["osaka"],
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Osaka_Metro",
     "name": "Ōsaka",
+    "section": "visited",
     "size": 124
   },
   "oslo": {
@@ -1296,11 +1349,12 @@
     "city": "Oslo",
     "coords": "59.91333333, 10.73888889",
     "country": "NO",
-    "section": "done",
+    "flags": ["oslo"],
     "icons": ["🇳🇴"],
     "images": ["oslo.jpg", "oslo1.jpg", "oslo2.jpg", "oslo3.jpg", "oslo4.jpg", "oslo5.jpg", "oslo6.jpg", "oslo7.jpg", "oslo8.jpg", "oslo9.jpg", "oslo10.jpg", "oslo11.jpg", "oslo12.jpg", "oslo13.jpg", "oslo14.jpg", "oslo15.jpg", "oslo16.jpg", "oslo17.jpg", "oslo18.jpg"],
     "link": "https://en.wikipedia.org/wiki/Oslo_Metro",
     "name": "Oslo",
+    "section": "done",
     "size": 101
   },
   "panama-city": {
@@ -1308,10 +1362,11 @@
     "city": "Panama City",
     "coords": "8.98333333, -79.51666667",
     "country": "PA",
-    "section": "visited",
+    "flags": ["panama"],
     "icons": ["🇵🇦"],
     "link": "https://en.wikipedia.org/wiki/Panama_Metro",
     "name": "Panama City",
+    "section": "visited",
     "size": 32
   },
   "paris": {
@@ -1319,11 +1374,12 @@
     "city": "Paris",
     "coords": "48.85666667, 2.35222222",
     "country": "FR",
-    "section": "done",
+    "flags": ["paris"],
     "icons": ["🇫🇷"],
     "images": ["paris.pdf.png", "paris1.jpg", "paris2.jpg", "paris3.jpg", "paris4.jpg", "paris5.jpg", "paris10.jpg", "paris11.jpg", "paris12.jpg", "paris13.jpg", "paris14.jpg", "paris15.jpg", "paris16.jpg", "paris17.jpg", "paris18.jpg", "paris19.jpg", "paris20.jpg", "paris21.jpg", "paris22.jpg", "paris23.jpg", "paris24.jpg", "paris25.jpg", "paris26.jpg", "paris27.jpg", "paris28.jpg", "paris29.jpg", "paris30.jpg", "paris31.jpg", "paris32.jpg", "paris33.jpg", "paris34.jpg", "paris35.jpg", "paris36.jpg", "paris37.jpg", "paris38.jpg", "paris39.jpg", "paris40.jpg", "paris41.jpg", "paris42.jpg", "paris43.jpg", "paris44.jpg"],
     "link": "https://en.wikipedia.org/wiki/Paris_Métro",
     "name": "Paris",
+    "section": "done",
     "size": 321
   },
   "patna": {
@@ -1341,11 +1397,12 @@
     "city": "Philadelphia",
     "coords": "39.95280000, -75.16360000",
     "country": "US",
-    "section": "done",
+    "flags": ["septa"],
     "icons": ["🇺🇸"],
     "images": ["philadelphia.pdf.png", "philadelphia1.jpg", "philadelphia2.jpg", "philadelphia3.jpg", "philadelphia4.jpg", "philadelphia5.jpg", "philadelphia6.jpg", "philadelphia7.jpg", "philadelphia8.jpg", "philadelphia9.jpg", "philadelphia10.jpg", "philadelphia11.jpg", "philadelphia12.jpg", "philadelphia13.jpg", "philadelphia14.jpg", "philadelphia15.jpg"],
     "link": "https://en.wikipedia.org/wiki/SEPTA",
     "name": "Philadelphia",
+    "section": "done",
     "size": 53
   },
   "prague": {
@@ -1353,11 +1410,12 @@
     "city": "Prague",
     "coords": "50.08750000, 14.42138889",
     "country": "CZ",
-    "section": "done",
+    "flags": ["prague"],
     "icons": ["🇨🇿"],
     "images": ["prague.pdf.png", "prague1.jpg", "prague2.jpg", "prague3.jpg", "prague4.jpg", "prague5.jpg", "prague6.jpg", "prague7.jpg", "prague8.jpg", "prague9.jpg", "prague10.jpg", "prague11.jpg", "prague12.jpg", "prague13.jpg", "prague14.jpg", "prague15.jpg"],
     "link": "https://en.wikipedia.org/wiki/Prague_Metro",
     "name": "Prague",
+    "section": "done",
     "size": 61
   },
   "pune": {
@@ -1396,21 +1454,23 @@
     "city": "Quito",
     "coords": "-0.22000000, -78.51250000",
     "country": "EC",
-    "section": "want",
+    "flags": ["quito"],
     "icons": ["🇪🇨"],
     "link": "https://en.wikipedia.org/wiki/Quito_Metro",
     "name": "Quito",
+    "section": "want",
     "size": 15
   },
   "rennes": {
     "been": true,
     "coords": "48.08771383, -1.64423333",
     "country": "FR",
-    "section": "done",
+    "flags": ["rennes"],
     "icons": ["🇫🇷"],
     "images": ["rennes.png", "rennes1.jpg", "rennes2.jpg", "rennes3.jpg", "rennes4.jpg", "rennes5.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Métro_de_Rennes",
     "name": "Rennes",
+    "section": "done",
     "size": 28
   },
   "rio-de-janeiro": {
@@ -1418,10 +1478,11 @@
     "city": "Rio de Janeiro",
     "coords": "-22.91111111, -43.20555556",
     "country": "BR",
-    "section": "want",
+    "flags": ["rio"],
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
     "name": "Rio de Janeiro",
+    "section": "want",
     "size": 41
   },
   "riyadh": {
@@ -1440,10 +1501,11 @@
     "city": "Rome",
     "coords": "41.89333333, 12.48277778",
     "country": "IT",
-    "section": "taken",
+    "flags": ["italy"],
     "icons": ["🇮🇹"],
     "link": "https://en.wikipedia.org/wiki/Rome_Metro",
     "name": "Rome",
+    "section": "taken",
     "size": 73
   },
   "rotterdam": {
@@ -1451,12 +1513,12 @@
     "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
     "country": "NL",
-    "section": "taken",
+    "flags": ["rotterdam"],
     "icons": ["🇳🇱"],
     "info": "(30%)",
     "link": "https://en.wikipedia.org/wiki/Rotterdam_Metro",
     "name": "Rotterdam",
-    "reference": "30%",
+    "section": "taken",
     "size": 71
   },
   "saint-petersburg": {
@@ -1464,10 +1526,11 @@
     "city": "Saint Petersburg",
     "coords": "59.93750000, 30.30861111",
     "country": "RU",
-    "section": "taken",
+    "flags": ["saint-petersburg"],
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Saint_Petersburg_Metro",
     "name": "Saint Petersburg",
+    "section": "taken",
     "size": 73
   },
   "salvador": {
@@ -1494,11 +1557,12 @@
     "city": "San Francisco",
     "coords": "37.77750000, -122.41638889",
     "country": "US",
-    "section": "done",
+    "flags": ["bart"],
     "icons": ["🇺🇸"],
     "images": ["san-francisco.pdf.png", "san-francisco1.jpg", "san-francisco2.jpg", "san-francisco3.jpg", "san-francisco4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit",
     "name": "San Francisco",
+    "section": "done",
     "size": 50
   },
   "san-juan": {
@@ -1515,10 +1579,11 @@
     "city": "Santiago",
     "coords": "-33.43750000, -70.65000000",
     "country": "CL",
-    "section": "want",
+    "flags": ["santiago"],
     "icons": ["🇨🇱"],
     "link": "https://en.wikipedia.org/wiki/Santiago_Metro",
     "name": "Santiago",
+    "section": "want",
     "size": 143
   },
   "santo-domingo": {
@@ -1526,11 +1591,12 @@
     "city": "Santo Domingo",
     "coords": "18.46666667, -69.95000000",
     "country": "DO",
-    "section": "done",
+    "flags": ["santo-domingo"],
     "icons": ["🇩🇴"],
     "images": ["santo-domingo.png", "santo-domingo1.jpg", "santo-domingo2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Santo_Domingo_Metro",
     "name": "Santo Domingo",
+    "section": "done",
     "size": 33
   },
   "sao-paulo": {
@@ -1538,10 +1604,11 @@
     "city": "São Paulo",
     "coords": "-23.55000000, -46.63333333",
     "country": "BR",
-    "section": "want",
+    "flags": ["sao-paulo"],
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/São_Paulo_Metro",
     "name": "São Paulo",
+    "section": "want",
     "size": 91
   },
   "sapporo": {
@@ -1549,10 +1616,11 @@
     "city": "Sapporo",
     "coords": "43.06194444, 141.35444444",
     "country": "JP",
-    "section": "visited",
+    "flags": ["sapporo"],
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Sapporo_Municipal_Subway",
     "name": "Sapporo",
+    "section": "visited",
     "size": 49
   },
   "sendai": {
@@ -1569,10 +1637,11 @@
     "city": "Seoul",
     "coords": "37.56000000, 126.99000000",
     "country": "KR",
-    "section": "taken",
+    "flags": ["seoul"],
     "icons": ["🇰🇷"],
     "link": "https://en.wikipedia.org/wiki/Seoul_Metropolitan_Subway",
     "name": "Seoul",
+    "section": "taken",
     "size": 444
   },
   "shanghai": {
@@ -1610,10 +1679,11 @@
     "city": "Shenzhen",
     "coords": "22.55000000, 114.10000000",
     "country": "CN",
-    "section": "visited",
+    "flags": ["shenzhen"],
     "icons": ["🇨🇳"],
     "link": "https://en.wikipedia.org/wiki/Shenzhen_Metro",
     "name": "Shenzhen",
+    "section": "visited",
     "size": 409
   },
   "shijiazhuang": {
@@ -1631,11 +1701,12 @@
     "city": "Singapore",
     "coords": "1.28333333, 103.83333333",
     "country": "SG",
-    "section": "done",
+    "flags": ["singapore"],
     "icons": ["🇸🇬"],
     "images": ["singapore1.jpg", "singapore2.jpg", "singapore3.jpg", "singapore4.jpg", "singapore5.jpg", "singapore6.jpg", "singapore7.jpg", "singapore8.jpg", "singapore9.jpg", "singapore10.jpg", "singapore11.jpg", "singapore12.jpg", "singapore13.jpg", "singapore14.jpg", "singapore15.jpg", "singapore16.jpg", "singapore17.jpg", "singapore18.jpg"],
     "link": "https://en.wikipedia.org/wiki/Mass_Rapid_Transit_(Singapore)",
     "name": "Singapore",
+    "section": "done",
     "size": 143
   },
   "sofia": {
@@ -1643,10 +1714,11 @@
     "city": "Sofia",
     "coords": "42.70000000, 23.33000000",
     "country": "BG",
-    "section": "taken",
+    "flags": ["sofia"],
     "icons": ["🇧🇬"],
     "link": "https://en.wikipedia.org/wiki/Sofia_Metro",
     "name": "Sofia",
+    "section": "taken",
     "size": 47
   },
   "stockholm": {
@@ -1654,11 +1726,12 @@
     "city": "Stockholm",
     "coords": "59.32944444, 18.06861111",
     "country": "SE",
-    "section": "done",
+    "flags": ["stockholm"],
     "icons": ["🇸🇪"],
     "images": ["stockholm.jpg", "stockholm1.jpg", "stockholm2.jpg", "stockholm3.jpg", "stockholm4.jpg", "stockholm5.jpg", "stockholm6.jpg", "stockholm7.jpg", "stockholm8.jpg", "stockholm9.jpg", "stockholm10.jpg", "stockholm11.jpg", "stockholm12.jpg", "stockholm13.jpg", "stockholm14.jpg", "stockholm15.jpg", "stockholm16.jpg", "stockholm17.jpg", "stockholm18.jpg", "stockholm19.jpg", "stockholm20.jpg", "stockholm21.jpg", "stockholm22.jpg", "stockholm23.jpg", "stockholm24.jpg", "stockholm25.jpg"],
     "link": "https://en.wikipedia.org/wiki/Stockholm_metro",
     "name": "Stockholm",
+    "section": "done",
     "size": 100
   },
   "suzhou": {
@@ -1696,10 +1769,11 @@
     "city": "Taipei",
     "coords": "25.03750000, 121.56250000",
     "country": "TW",
-    "section": "want",
+    "flags": ["taipei"],
     "icons": ["🇹🇼"],
     "link": "https://en.wikipedia.org/wiki/Taipei_Metro",
     "name": "Taipei",
+    "section": "want",
     "size": 119
   },
   "taiyuan": {
@@ -1757,10 +1831,11 @@
     "city": "Thessaloniki",
     "coords": "40.6156, 22.9601",
     "country": "GR",
-    "section": "visited",
+    "flags": ["thessaloniki"],
     "icons": ["🇬🇷"],
     "link": "https://en.wikipedia.org/wiki/Thessaloniki_Metro",
     "name": "Thessaloniki",
+    "section": "visited",
     "size": 13,
     "wikidata": "Q1326567"
   },
@@ -1779,10 +1854,11 @@
     "city": "Tokyo",
     "coords": "35.68972222, 139.69222222",
     "country": "JP",
-    "section": "taken",
+    "flags": ["tokyo"],
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Tokyo_Metro",
     "name": "Tokyo",
+    "section": "taken",
     "size": 180
   },
   "toronto": {
@@ -1790,10 +1866,11 @@
     "city": "Toronto",
     "coords": "43.74166667, -79.37333333",
     "country": "CA",
-    "section": "taken",
+    "flags": ["toronto"],
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Subway",
     "name": "Toronto",
+    "section": "taken",
     "size": 70
   },
   "toulouse": {
@@ -1801,10 +1878,11 @@
     "city": "Toulouse",
     "coords": "43.60450000, 1.44400000",
     "country": "FR",
-    "section": "taken",
+    "flags": ["toulouse"],
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Toulouse_Metro",
     "name": "Toulouse",
+    "section": "taken",
     "size": 39
   },
   "turin": {
@@ -1842,11 +1920,12 @@
     "city": "Vienna",
     "coords": "48.20777778, 16.37138889",
     "country": "AT",
-    "section": "done",
+    "flags": ["vienna"],
     "icons": ["🇦🇹"],
     "images": ["vienna.pdf.png", "vienna1.jpg", "vienna2.jpg", "vienna3.jpg", "vienna4.jpg", "vienna5.jpg", "vienna6.jpg", "vienna7.jpg", "vienna8.jpg", "vienna9.jpg", "vienna10.jpg", "vienna11.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vienna_U-Bahn",
     "name": "Vienna",
+    "section": "done",
     "size": 98
   },
   "warsaw": {
@@ -1854,11 +1933,12 @@
     "city": "Warsaw",
     "coords": "52.23000000, 21.01111111",
     "country": "PL",
-    "section": "done",
+    "flags": ["warsaw"],
     "icons": ["🇵🇱"],
     "images": ["warsaw.pdf.png", "warsaw1.jpg", "warsaw2.jpg", "warsaw3.jpg", "warsaw4.jpg"],
     "link": "https://en.wikipedia.org/wiki/Warsaw_Metro",
     "name": "Warsaw",
+    "section": "done",
     "size": 39
   },
   "washington": {
@@ -1866,11 +1946,12 @@
     "city": "Washington",
     "coords": "38.89500000, -77.03666667",
     "country": "US",
-    "section": "done",
+    "flags": ["metro"],
     "icons": ["🇺🇸"],
     "images": ["washington.pdf.png", "washington1.jpg", "washington2.jpg", "washington3.jpg", "washington4.jpg", "washington5.jpg", "washington6.jpg", "washington7.jpg", "washington8.jpg", "washington9.jpg", "washington10.jpg"],
     "link": "https://en.wikipedia.org/wiki/Washington_Metro",
     "name": "Washington",
+    "section": "done",
     "size": 98
   },
   "wuhan": {
