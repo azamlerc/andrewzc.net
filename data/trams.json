@@ -32,17 +32,6 @@
     "link": "https://ru.wikipedia.org/wiki/Ачинский_трамвай",
     "name": "Achinsk"
   },
-  "addis-ababa": {
-    "been": false,
-    "city": "Addis Ababa",
-    "coords": "9.03000000, 38.74000000",
-    "country": "ET",
-    "icons": ["🇪🇹"],
-    "link": "https://en.wikipedia.org/wiki/Addis_Ababa_Light_Rail",
-    "name": "Addis Ababa",
-    "wikidata": "Q16250141",
-    "type": "light-rail"
-  },
   "adelaide": {
     "been": false,
     "coords": "-34.92750000, 138.60000000",
@@ -94,7 +83,7 @@
   "amsterdam": {
     "been": false,
     "city": "Amsterdam",
-    "coords": "52.367, 4.9",
+    "coords": "52.36700000, 4.90000000",
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Amsterdam",
@@ -113,7 +102,7 @@
   },
   "angers": {
     "been": false,
-    "coords": "47.473611111111, 0.55416666666667",
+    "coords": "47.47361111, 0.55416667",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Angers_tramway",
@@ -136,26 +125,16 @@
   },
   "arad": {
     "been": false,
-    "coords": "46.166666666667, 21.316666666667",
+    "coords": "46.16666667, 21.31666667",
     "country": "RO",
     "icons": ["🇷🇴"],
     "link": "https://ro.wikipedia.org/wiki/Tramvaiul_din_Arad",
     "name": "Arad",
     "wikidata": "Q173591"
   },
-  "arhus": {
-    "been": false,
-    "coords": "56.166666666, 9.5",
-    "country": "DK",
-    "icons": ["🇩🇰"],
-    "link": "https://en.wikipedia.org/wiki/Aarhus_Letbane",
-    "name": "Århus",
-    "wikidata": "Q4661716",
-    "type": "light-rail"
-  },
   "arkhangelsk": {
     "been": false,
-    "coords": "64.54305555555555, 40.5375",
+    "coords": "64.54305556, 40.53750000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Arkhangelsk",
@@ -202,7 +181,7 @@
   },
   "avignon": {
     "been": false,
-    "coords": "43.949444444444445, 4.808888888888889",
+    "coords": "43.94944444, 4.80888889",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_d%27Avignon",
@@ -212,7 +191,7 @@
   "bad-schandau": {
     "badges": ["🚗"],
     "been": true,
-    "coords": "50.92126, 14.1582",
+    "coords": "50.92126000, 14.15820000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "images": ["bad-schandau2.jpg", "bad-schandau3.jpg", "bad-schandau1.jpg"],
@@ -234,21 +213,10 @@
     "section": "done",
     "size": 36
   },
-  "baltimore": {
-    "been": false,
-    "city": "Baltimore",
-    "coords": "39.28944444, -76.61527778",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Baltimore_Light_RailLink",
-    "name": "Baltimore",
-    "wikidata": "Q3333820",
-    "type": "light-rail"
-  },
   "barcelona": {
     "been": true,
     "city": "Barcelona",
-    "coords": "41.383333, 2.183333",
+    "coords": "41.38333300, 2.18333300",
     "country": "ES",
     "icons": ["🇪🇸"],
     "images": ["barcelona1.jpg", "barcelona2.jpg", "barcelona3.jpg"],
@@ -341,15 +309,6 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Besan%C3%A7on",
     "name": "Besançon"
   },
-  "bielefeld": {
-    "been": false,
-    "coords": "52.03916667, 8.49694444",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Bielefeld_Stadtbahn",
-    "name": "Bielefeld",
-    "type": "light-rail"
-  },
   "bilbao": {
     "been": true,
     "caption": "",
@@ -366,7 +325,7 @@
   "birmingham": {
     "been": false,
     "city": "Birmingham",
-    "coords": "52.48, -1.9025",
+    "coords": "52.48000000, -1.90250000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/West_Midlands_Metro",
@@ -384,22 +343,12 @@
   },
   "blackpool": {
     "been": false,
-    "coords": "53.7781, -3.05728",
+    "coords": "53.77810000, -3.05728000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Blackpool_tramway",
     "name": "Blackpool",
     "wikidata": "Q1881383"
-  },
-  "bochum": {
-    "been": false,
-    "coords": "51.483333333, 7.216666666",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Bochum/Gelsenkirchen",
-    "name": "Bochum",
-    "wikidata": "Q526306",
-    "type": "light-rail"
   },
   "bonn": {
     "been": false,
@@ -416,7 +365,7 @@
     "been": true,
     "caption": "",
     "city": "Bordeaux",
-    "coords": "44.838611111111, -0.57833333333333",
+    "coords": "44.83861111, -0.57833333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["bordeaux1.jpg", "bordeaux2.jpg", "bordeaux3.jpg"],
@@ -426,23 +375,10 @@
     "size": 135,
     "wikidata": "Q606304"
   },
-  "boston-green-line": {
-    "been": true,
-    "city": "Boston",
-    "coords": "42.31861111, -70.99111111",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["boston1.jpg", "boston3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Green_Line_(MBTA)",
-    "name": "Boston Green Line",
-    "section": "done",
-    "size": 70,
-    "type": "light-rail"
-  },
   "boston": {
     "been": true,
     "city": "Boston",
-    "coords": "42.2843, -71.0638",
+    "coords": "42.28430000, -71.06380000",
     "country": "US",
     "icons": ["🇺🇸"],
     "images": ["boston2.jpg"],
@@ -491,7 +427,7 @@
   },
   "brest": {
     "been": false,
-    "coords": "48.39, -4.4869444444444",
+    "coords": "48.39000000, -4.48694444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Brest_tramway",
@@ -534,7 +470,7 @@
   "budapest": {
     "been": true,
     "city": "Budapest",
-    "coords": "47.5, 19.05",
+    "coords": "47.50000000, 19.05000000",
     "country": "HU",
     "icons": ["🇭🇺"],
     "images": ["budapest1.jpg", "budapest2.jpg", "budapest3.jpg"],
@@ -554,23 +490,9 @@
     "name": "Buenos Aires",
     "wikidata": "Q3409024"
   },
-  "buffalo": {
-    "been": true,
-    "city": "Buffalo",
-    "coords": "42.954722222222, -78.820555555556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["buffalo1.jpg", "buffalo2.jpg", "buffalo3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Buffalo_Metro_Rail",
-    "name": "Buffalo",
-    "section": "done",
-    "size": 13,
-    "wikidata": "Q112604647",
-    "type": "light-rail"
-  },
   "caen": {
     "been": true,
-    "coords": "49.183055555556, -0.36944444444444",
+    "coords": "49.18305556, -0.36944444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["caen1.jpg", "caen2.jpg", "caen3.jpg"],
@@ -579,17 +501,6 @@
     "section": "done",
     "size": 37,
     "wikidata": "Q3537240"
-  },
-  "calgary": {
-    "been": false,
-    "city": "Calgary",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/CTrain",
-    "name": "Calgary",
-    "section": "seen",
-    "wikidata": "Q1022321",
-    "type": "light-rail"
   },
   "canberra": {
     "been": false,
@@ -625,7 +536,7 @@
   },
   "charleroi": {
     "been": true,
-    "coords": "50.416666666, 4.444166666",
+    "coords": "50.41666667, 4.44416667",
     "country": "BE",
     "icons": ["🇧🇪"],
     "images": ["charleroi1.jpg", "charleroi2.jpg", "charleroi3.jpg"],
@@ -699,7 +610,7 @@
   },
   "clermont-ferrand": {
     "been": true,
-    "coords": "45.78055555555556, 3.0875",
+    "coords": "45.78055556, 3.08750000",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["clermont-ferrand1.jpg", "clermont-ferrand2.jpg", "clermont-ferrand3.jpg"],
@@ -709,17 +620,6 @@
     "size": 34,
     "wikidata": "Q1419423"
   },
-  "cleveland": {
-    "been": false,
-    "city": "Cleveland",
-    "coords": "41.48222222, -81.66972222",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Waterfront_Line",
-    "name": "Cleveland",
-    "wikidata": "Q66788923",
-    "type": "light-rail"
-  },
   "cluj-napoca": {
     "been": false,
     "coords": "46.76666667, 23.58333333",
@@ -727,17 +627,6 @@
     "icons": ["🇷🇴"],
     "link": "https://en.wikipedia.org/wiki/Cluj-Napoca#Trams",
     "name": "Cluj-Napoca"
-  },
-  "cologne": {
-    "been": false,
-    "city": "Cologne",
-    "coords": "50.93638889, 6.95277778",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Cologne_Stadtbahn",
-    "name": "Cologne",
-    "wikidata": "Q95685",
-    "type": "light-rail"
   },
   "constantine": {
     "been": false,
@@ -756,8 +645,8 @@
     "link": "https://en.wikipedia.org/wiki/Greater_Copenhagen_Light_Rail",
     "name": "Copenhagen",
     "size": 12,
-    "wikidata": "Q10655459",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q10655459"
   },
   "cottbus": {
     "been": false,
@@ -769,7 +658,7 @@
   },
   "cuenca": {
     "been": false,
-    "coords": "40.0, -2.0",
+    "coords": "40.00000000, -2.00000000",
     "country": "EC",
     "icons": ["🇪🇨"],
     "link": "https://en.wikipedia.org/wiki/Cuenca_tram",
@@ -828,7 +717,7 @@
   "den-haag": {
     "been": true,
     "city": "Den Haag",
-    "coords": "52.083, 4.317",
+    "coords": "52.08300000, 4.31700000",
     "country": "NL",
     "icons": ["🇳🇱"],
     "images": ["denhaag1.jpg", "denhaag2.jpg", "denhaag3.jpg"],
@@ -837,17 +726,6 @@
     "section": "done",
     "size": 239,
     "wikidata": "Q1429361"
-  },
-  "denver": {
-    "been": false,
-    "city": "Denver",
-    "coords": "39.73920000, -104.98490000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/RTD_Bus_%26_Rail#Light_rail",
-    "name": "Denver",
-    "wikidata": "Q7309183",
-    "type": "light-rail"
   },
   "dessau": {
     "been": false,
@@ -870,7 +748,7 @@
   },
   "dijon": {
     "been": false,
-    "coords": "47.323055555556, 5.0419444444444",
+    "coords": "47.32305556, 5.04194444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Dijon_tramway",
@@ -901,16 +779,6 @@
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Donetsk#Transport",
     "name": "Donetsk"
-  },
-  "dortmund": {
-    "been": false,
-    "coords": "51.5175, 7.4588888888889",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Dortmund_Stadtbahn",
-    "name": "Dortmund",
-    "wikidata": "Q474954",
-    "type": "light-rail"
   },
   "dresden": {
     "been": false,
@@ -986,16 +854,6 @@
     "link": "https://en.wikipedia.org/wiki/Edinburgh_Trams",
     "name": "Edinburgh"
   },
-  "edmonton": {
-    "been": false,
-    "coords": "55.0, -115.0",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Edmonton_Light_Rail_Transit",
-    "name": "Edmonton",
-    "wikidata": "Q1285861",
-    "type": "light-rail"
-  },
   "el-paso": {
     "been": false,
     "city": "El Paso",
@@ -1013,18 +871,9 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Elbląg",
     "name": "Elbląg"
   },
-  "erfurt": {
-    "been": false,
-    "coords": "50.97597000, 11.03416000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Erfurt_Stadtbahn",
-    "name": "Erfurt",
-    "type": "light-rail"
-  },
   "eskisehir": {
     "been": false,
-    "coords": "43.836388888889, 0.84861111111111",
+    "coords": "43.83638889, 0.84861111",
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/EsTram",
@@ -1138,7 +987,7 @@
   },
   "gmunden": {
     "been": false,
-    "coords": "47.91681, 13.79648",
+    "coords": "47.91681000, 13.79648000",
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "https://de.wikipedia.org/wiki/Straßenbahn_Gmunden",
@@ -1186,7 +1035,7 @@
   },
   "grenoble": {
     "been": false,
-    "coords": "45.186944444444, 5.7263888888889",
+    "coords": "45.18694444, 5.72638889",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Grenoble_tramway",
@@ -1199,16 +1048,6 @@
     "icons": ["🇵🇱"],
     "link": "https://pl.wikipedia.org/wiki/Zajezdnia_tramwajowa_w_Grudziądzu",
     "name": "Grudziądz"
-  },
-  "guadalajara": {
-    "been": false,
-    "city": "Guadalajara",
-    "coords": "20.73027778, -103.35222222",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://en.wikipedia.org/wiki/Guadalajara_light_rail_system",
-    "name": "Guadalajara",
-    "type": "light-rail"
   },
   "guangzhou": {
     "been": false,
@@ -1245,16 +1084,6 @@
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Halle_(Saale)",
     "name": "Halle (Saale)"
-  },
-  "hannover": {
-    "been": false,
-    "coords": "52.37416666666667, 9.716666666666667",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Stadtbahn_Hannover",
-    "name": "Hannover",
-    "wikidata": "Q637855",
-    "type": "light-rail"
   },
   "helsinki": {
     "been": false,
@@ -1304,17 +1133,6 @@
     "icons": ["🇺🇦"],
     "link": "https://uk.wikipedia.org/wiki/Горлівський_трамвай",
     "name": "Horlivka"
-  },
-  "houston": {
-    "been": false,
-    "city": "Houston",
-    "coords": "38.899055555556, -77.028944444444",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/METRORail",
-    "name": "Houston",
-    "wikidata": "Q171221",
-    "type": "light-rail"
   },
   "huaian": {
     "been": false,
@@ -1390,31 +1208,17 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Jena",
     "name": "Jena"
   },
-  "jersey-city": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.73, -74.08",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["jersey-city1.jpg", "jersey-city2.jpg", "jersey-city3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Hudson–Bergen_Light_Rail",
-    "name": "Jersey City",
-    "section": "done",
-    "size": 24,
-    "wikidata": "Q1357874",
-    "type": "light-rail"
-  },
   "jerusalem": {
     "been": false,
     "city": "Jerusalem",
-    "coords": "31.778888888, 35.225555555",
+    "coords": "31.77888889, 35.22555555",
     "country": "IL",
     "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
     "name": "Jerusalem",
     "section": "taken",
-    "wikidata": "Q403269",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q403269"
   },
   "jiaxing": {
     "been": false,
@@ -1453,7 +1257,7 @@
   },
   "kamianske": {
     "been": false,
-    "coords": "48.516666666666666, 34.61333333333333",
+    "coords": "48.51666667, 34.61333333",
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "https://uk.wikipedia.org/wiki/Кам%27янський_трамвай",
@@ -1469,16 +1273,6 @@
     "name": "Kansas City",
     "wikidata": "Q6364889"
   },
-  "karlsruhe": {
-    "been": false,
-    "coords": "49.00916667, 8.40388889",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://en.wikipedia.org/wiki/Karlsruhe_Stadtbahn",
-    "name": "Karlsruhe",
-    "section": "taken",
-    "type": "light-rail"
-  },
   "kassel": {
     "been": false,
     "coords": "51.00000000, 9.00000000",
@@ -1490,7 +1284,7 @@
   "katowice": {
     "been": true,
     "city": "Katowice",
-    "coords": "50.261161884504276, 19.066045924456443",
+    "coords": "50.26116188, 19.06604592",
     "country": "PL",
     "icons": ["🇵🇱"],
     "images": ["katowice1.jpg", "katowice2.jpg", "katowice3.jpg"],
@@ -1537,7 +1331,7 @@
   },
   "kirnitzschtal": {
     "been": false,
-    "coords": "50.92126, 14.1582",
+    "coords": "50.92126000, 14.15820000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Kirnitzschtal_tramway",
@@ -1632,15 +1426,6 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Krefeld",
     "name": "Krefeld"
   },
-  "kryvyi-rih": {
-    "been": false,
-    "coords": "47.91000000, 33.39000000",
-    "country": "UA",
-    "icons": ["🇺🇦"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kryvyi_Rih",
-    "name": "Kryvyi Rih",
-    "type": "light-rail"
-  },
   "kumamoto": {
     "been": false,
     "coords": "32.80305556, 130.70777778",
@@ -1700,7 +1485,7 @@
   },
   "le-mans": {
     "been": false,
-    "coords": "48.02, 0.19888888888889",
+    "coords": "48.02000000, 0.19888889",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Le_Mans_tramway",
@@ -1730,7 +1515,7 @@
     "been": true,
     "caption": "",
     "city": "Liège",
-    "coords": "50.6304, 5.582",
+    "coords": "50.63040000, 5.58200000",
     "country": "BE",
     "icons": ["🇧🇪"],
     "images": ["liege1.jpg", "liege2.jpg", "liege4.jpg", "liege3.jpg"],
@@ -1754,7 +1539,7 @@
   "lille": {
     "been": false,
     "city": "Lille",
-    "coords": "50.637222222222, 3.0633333333333",
+    "coords": "50.63722222, 3.06333333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lille_tramway",
@@ -1794,7 +1579,7 @@
   "london": {
     "been": true,
     "city": "London",
-    "coords": "51.3872, -0.1344",
+    "coords": "51.38720000, -0.13440000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "images": ["london1.jpg", "london2.jpg"],
@@ -1854,6 +1639,20 @@
     "section": "seen",
     "wikidata": "Q1566611"
   },
+  "san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["san-francisco2.jpg", "san-francisco3jpg"],
+    "link": "https://en.wikipedia.org/wiki/Muni_Metro",
+    "name": "San Francisco",
+    "section": "done",
+    "size": 117,
+    "type": "trams",
+    "wikidata": "Q278074"
+  },
   "lyon": {
     "been": true,
     "city": "Lyon",
@@ -1902,17 +1701,6 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Mainz",
     "name": "Mainz"
   },
-  "manchester": {
-    "been": false,
-    "city": "Manchester",
-    "coords": "53.41667, -2.25",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Manchester_Metrolink",
-    "name": "Manchester",
-    "wikidata": "Q18548",
-    "type": "light-rail"
-  },
   "mannheim": {
     "been": false,
     "coords": "49.48111111, 8.43527778",
@@ -1932,7 +1720,7 @@
   "marseille": {
     "been": false,
     "city": "Marseille",
-    "coords": "43.2975, 5.3769444444444",
+    "coords": "43.29750000, 5.37694444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Marseille_tramway",
@@ -1995,20 +1783,6 @@
     "name": "Memphis",
     "wikidata": "Q1881190"
   },
-  "mexico-city": {
-    "been": true,
-    "city": "Mexico City",
-    "coords": "19.419444444, -99.145555555",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "images": ["mexico-city1.jpg", "mexico-city2.jpg", "mexico-city3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Xochimilco_Light_Rail",
-    "name": "Mexico City",
-    "section": "done",
-    "size": 18,
-    "wikidata": "Q2576140",
-    "type": "light-rail"
-  },
   "milan": {
     "been": false,
     "city": "Milan",
@@ -2026,15 +1800,6 @@
     "link": "https://en.wikipedia.org/wiki/The_Hop_(streetcar)",
     "name": "Milwaukee",
     "size": 21
-  },
-  "minneapolis": {
-    "been": false,
-    "coords": "44.98472222, -93.28166667",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/METRO_(Minnesota)",
-    "name": "Minneapolis",
-    "type": "light-rail"
   },
   "minsk": {
     "been": false,
@@ -2098,7 +1863,7 @@
   },
   "mulhouse": {
     "been": false,
-    "coords": "47.749166666667, 7.34",
+    "coords": "47.74916667, 7.34000000",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Mulhouse_tramway",
@@ -2141,7 +1906,7 @@
   },
   "nancy": {
     "been": false,
-    "coords": "48.693333333333335, 6.184444444444445",
+    "coords": "48.69333333, 6.18444444",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Nancy_Guided_Light_Transit",
@@ -2159,7 +1924,7 @@
   },
   "nantes": {
     "been": false,
-    "coords": "47.218055555556, -1.5527777777778",
+    "coords": "47.21805556, -1.55277778",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Nantes_tramway",
@@ -2213,20 +1978,6 @@
     "name": "New Orleans",
     "wikidata": "Q3468104"
   },
-  "newark": {
-    "been": true,
-    "city": "Newark",
-    "coords": "40.735277777, -74.185",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["newark1.jpg", "newark2.jpg", "newark3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Newark_Light_Rail",
-    "name": "Newark",
-    "section": "done",
-    "size": 17,
-    "wikidata": "Q3078283",
-    "type": "light-rail"
-  },
   "newcastle": {
     "been": false,
     "city": "Newcastle",
@@ -2234,8 +1985,8 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Newcastle_Light_Rail",
     "name": "Newcastle",
-    "wikidata": "Q17016515",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q17016515"
   },
   "nice": {
     "been": true,
@@ -2292,17 +2043,6 @@
     "name": "Norrköping",
     "wikidata": "Q2142442"
   },
-  "nottingham": {
-    "been": false,
-    "city": "Nottingham",
-    "coords": "52.95610000, -1.15120000",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Nottingham_Express_Transit",
-    "name": "Nottingham",
-    "wikidata": "Q64138",
-    "type": "light-rail"
-  },
   "novocherkassk": {
     "been": false,
     "coords": "47.42222222, 40.09388889",
@@ -2349,7 +2089,7 @@
   },
   "odense": {
     "been": false,
-    "coords": "55.38, 10.38",
+    "coords": "55.38000000, 10.38000000",
     "country": "DK",
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Odense_Letbane",
@@ -2428,7 +2168,7 @@
   },
   "orleans": {
     "been": false,
-    "coords": "47.902222222222, 1.9041666666667",
+    "coords": "47.90222222, 1.90416667",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Orl%C3%A9ans_tramway",
@@ -2513,7 +2253,7 @@
   "paris": {
     "been": true,
     "city": "Paris",
-    "coords": "48.85666666666667, 2.352222222222222",
+    "coords": "48.85666667, 2.35222222",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["paris1.jpg", "paris2.jpg", "paris3.jpg"],
@@ -2539,37 +2279,10 @@
     "icons": ["🇺🇸"],
     "images": ["philadelphia1.jpg", "philadelphia3.jpg"],
     "link": "https://en.wikipedia.org/wiki/G_(SEPTA_Metro)",
-    "name": "Philadelphia Subway-Surface",
+    "name": "Philadelphia",
     "section": "done",
     "size": 64,
     "type": "tram"
-  },
-  "philadelphia-trolley": {
-    "been": true,
-    "city": "Philadelphia",
-    "coords": "39.95280000, -75.16360000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["philadelphia2.jpg"],
-    "link": "https://en.wikipedia.org/wiki/SEPTA_subway–surface_trolley_lines",
-    "name": "Philadelphia Trolley",
-    "section": "done",
-    "size": 247,
-    "type": "light-rail"
-  },
-  "pittsburgh": {
-    "been": true,
-    "city": "Pittsburgh",
-    "coords": "40.441666666, -80.0",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["pittsburgh2.jpg", "pittsburgh3.jpg", "pittsburgh1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Pittsburgh_Light_Rail",
-    "name": "Pittsburgh",
-    "section": "done",
-    "size": 53,
-    "wikidata": "Q603805",
-    "type": "light-rail"
   },
   "plauen": {
     "been": false,
@@ -2601,23 +2314,13 @@
     "name": "Portland",
     "section": "done",
     "size": 57,
-    "wikidata": "Q1753708",
-    "type": "tram"
-  },
-  "portland-max": {
-    "been": true,
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/MAX_Light_Rail",
-    "name": "Portland MAX",
-    "section": "seen",
-    "size": 93,
-    "type": "light-rail"
+    "type": "tram",
+    "wikidata": "Q1753708"
   },
   "porto": {
     "been": true,
     "city": "Porto",
-    "coords": "41.16214166666666, -8.621952777777778",
+    "coords": "41.16214167, -8.62195278",
     "country": "PT",
     "icons": ["🇵🇹"],
     "images": ["porto1.jpg"],
@@ -2626,20 +2329,6 @@
     "section": "done",
     "size": 35,
     "type": "tram"
-  },
-  "porto-metro": {
-    "been": true,
-    "city": "Porto",
-    "coords": "41.16214166666666, -8.621952777777778",
-    "country": "PT",
-    "icons": ["🇵🇹"],
-    "images": ["porto2.jpg", "porto3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Porto_Metro",
-    "name": "Porto Metro",
-    "section": "done",
-    "size": 85,
-    "wikidata": "Q29757",
-    "type": "light-rail"
   },
   "potsdam": {
     "been": false,
@@ -2730,7 +2419,7 @@
   },
   "reims": {
     "been": true,
-    "coords": "49.265277777778, 4.0286111111111",
+    "coords": "49.26527778, 4.02861111",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["reims1.jpg", "reims2.jpg", "reims3.jpg"],
@@ -2742,7 +2431,7 @@
   },
   "rennes": {
     "been": true,
-    "coords": "48.114166666, -1.680833333",
+    "coords": "48.11416667, -1.68083333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["rennes2.jpg", "rennes1.jpg", "rennes3.jpg"],
@@ -2763,7 +2452,7 @@
   "riga": {
     "been": true,
     "city": "Riga",
-    "coords": "56.971906, 24.032467",
+    "coords": "56.97190600, 24.03246700",
     "country": "LV",
     "icons": ["🇱🇻"],
     "images": ["riga1.jpg", "riga2.jpg", "riga3.jpg"],
@@ -2781,8 +2470,8 @@
     "icons": ["🇧🇷"],
     "link": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Light_Rail",
     "name": "Rio de Janeiro",
-    "wikidata": "Q10388586",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q10388586"
   },
   "rome": {
     "been": false,
@@ -2823,7 +2512,7 @@
   },
   "rouen": {
     "been": false,
-    "coords": "49.443888888889, 1.1030555555556",
+    "coords": "49.44388889, 1.10305556",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Rouen_tramway",
@@ -2843,7 +2532,7 @@
   },
   "saarbrucken": {
     "been": true,
-    "coords": "49.233333333333, 7.0",
+    "coords": "49.23333333, 7.00000000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "images": ["saarbrucken1.jpg", "saarbrucken2.jpg", "saarbrucken3.jpg"],
@@ -2853,18 +2542,9 @@
     "size": 43,
     "wikidata": "Q558389"
   },
-  "sacramento": {
-    "been": false,
-    "coords": "38.58166667, -121.49444444",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Sacramento_light_rail",
-    "name": "Sacramento",
-    "type": "light-rail"
-  },
   "saint-etienne": {
     "been": true,
-    "coords": "45.433888888889, 4.3897222222222",
+    "coords": "45.43388889, 4.38972222",
     "country": "FR",
     "icons": ["🇫🇷"],
     "images": ["saint-etienne1.jpg", "saint-etienne2.jpg", "saint-etienne3.jpg"],
@@ -2892,16 +2572,6 @@
     "link": "https://ru.wikipedia.org/wiki/Салаватский_трамвай",
     "name": "Salavat"
   },
-  "salt-lake-city": {
-    "been": false,
-    "city": "Salt Lake City",
-    "coords": "40.77083300, -111.92111100",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/TRAX_(light_rail)",
-    "name": "Salt Lake City",
-    "type": "light-rail"
-  },
   "samara": {
     "been": false,
     "coords": "53.20277778, 50.14083333",
@@ -2918,34 +2588,6 @@
     "icons": ["🇺🇿"],
     "link": "https://uz.wikipedia.org/wiki/Samarqand_tramvaylari",
     "name": "Samarkand"
-  },
-  "san-francisco": {
-    "been": true,
-    "city": "San Francisco",
-    "coords": "37.78333333, -122.41666667",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["san-francisco1.jpg", "san-francisco2.jpg", "san-francisco3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Muni_Metro",
-    "name": "San Francisco",
-    "section": "done",
-    "size": 117,
-    "wikidata": "Q278074",
-    "type": "light-rail"
-  },
-  "san-jose": {
-    "been": false,
-    "city": "San José",
-    "coords": "37.40789000, -121.94418000",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "info": "(50%)",
-    "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
-    "name": "San Jose",
-    "section": "taken",
-    "size": 60,
-    "wikidata": "Q1337235",
-    "type": "light-rail"
   },
   "sanya": {
     "been": false,
@@ -3006,19 +2648,6 @@
     "size": 17,
     "type": "tram"
   },
-  "seattle-link": {
-    "been": true,
-    "city": "Seattle",
-    "coords": "47.60000000, -122.33333333",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["seattle1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Link_light_rail",
-    "name": "Seattle Link",
-    "section": "done",
-    "size": 48,
-    "type": "light-rail"
-  },
   "setagaya": {
     "been": false,
     "city": "Tokyo",
@@ -3046,17 +2675,6 @@
     "link": "https://en.wikipedia.org/wiki/Songjiang_Tram",
     "name": "Shanghai",
     "wikidata": "Q15848353"
-  },
-  "sheffield": {
-    "been": false,
-    "city": "Sheffield",
-    "coords": "53.38083333, -1.47027778",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Sheffield_Supertram",
-    "name": "Sheffield",
-    "section": "taken",
-    "type": "light-rail"
   },
   "shenyang": {
     "been": false,
@@ -3109,7 +2727,7 @@
   },
   "stary-oskol": {
     "been": false,
-    "coords": "51.298055555556, 37.835",
+    "coords": "51.29805556, 37.83500000",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://ru.wikipedia.org/wiki/Старый_Оскол",
@@ -3142,7 +2760,7 @@
   },
   "strausberg": {
     "been": false,
-    "coords": "52.53275555555555, 13.835986111111112",
+    "coords": "52.53275556, 13.83598611",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Strausberg_Railway",
@@ -3151,7 +2769,7 @@
   },
   "stuttgart": {
     "been": false,
-    "coords": "48.7544, 9.13833",
+    "coords": "48.75440000, 9.13833000",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Stuttgart_Stadtbahn",
@@ -3175,8 +2793,8 @@
     "icons": ["🇦🇺"],
     "link": "https://en.wikipedia.org/wiki/Light_rail_in_Sydney",
     "name": "Sydney",
-    "wikidata": "Q771666",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q771666"
   },
   "szczecin": {
     "been": false,
@@ -3221,7 +2839,7 @@
     "badges": ["🚗"],
     "been": true,
     "city": "Tallinn",
-    "coords": "59.437222222222225, 24.745",
+    "coords": "59.43722222, 24.74500000",
     "country": "EE",
     "icons": ["🇪🇪"],
     "images": ["tallinn1.jpg", "tallinn2.jpg", "tallinn3.jpg"],
@@ -3238,8 +2856,8 @@
     "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Tampere_light_rail",
     "name": "Tampere",
-    "wikidata": "Q3544559",
-    "type": "tram"
+    "type": "tram",
+    "wikidata": "Q3544559"
   },
   "temirtau": {
     "been": false,
@@ -3328,7 +2946,7 @@
   "toulouse": {
     "been": false,
     "city": "Toulouse",
-    "coords": "43.5926562443911, 1.4346536657002795",
+    "coords": "43.59265624, 1.43465367",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Toulouse_tramway",
@@ -3338,7 +2956,7 @@
   },
   "tours": {
     "been": false,
-    "coords": "47.392777777778, 0.68833333333333",
+    "coords": "47.39277778, 0.68833333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Tours_tramway",
@@ -3479,7 +3097,7 @@
   },
   "valencia": {
     "been": false,
-    "coords": "39.47, -0.376388888",
+    "coords": "39.47000000, -0.37638889",
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Metrovalencia",
@@ -3488,7 +3106,7 @@
   },
   "valenciennes": {
     "been": false,
-    "coords": "50.358055555556, 3.5233333333333",
+    "coords": "50.35805556, 3.52333333",
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Valenciennes_tramway",
@@ -3546,7 +3164,7 @@
   },
   "vladivostok": {
     "been": false,
-    "coords": "43.115, 131.8852777777778",
+    "coords": "43.11500000, 131.88527778",
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Vladivostok",
@@ -3561,15 +3179,6 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Volchansk",
     "name": "Volchansk"
   },
-  "volgograd": {
-    "been": false,
-    "coords": "48.70861111, 44.51472222",
-    "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://ru.wikipedia.org/wiki/Волгоградский_трамвай",
-    "name": "Volgograd",
-    "type": "light-rail"
-  },
   "volzhsky": {
     "been": false,
     "country": "RU",
@@ -3581,7 +3190,7 @@
   "warsaw": {
     "been": false,
     "city": "Warsaw",
-    "coords": "52.23222222222222, 21.008333333333333",
+    "coords": "52.23222222, 21.00833333",
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Warsaw",
@@ -3620,7 +3229,7 @@
   },
   "woltersdorf": {
     "been": false,
-    "coords": "52.4433344, 13.7640061",
+    "coords": "52.44333440, 13.76400610",
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Woltersdorf_Tramway",
@@ -3765,7 +3374,7 @@
   "zurich": {
     "been": false,
     "city": "Zürich",
-    "coords": "47.378169444444445, 8.540177777777778",
+    "coords": "47.37816944, 8.54017778",
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Zürich",

@@ -1317,7 +1317,7 @@
     "type": "place"
   },
   "light-rail": {
-    "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
+    "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
       "lat": "25",
@@ -1328,7 +1328,7 @@
     "sections": ["done", "taken", "visited", "want"],
     "size": "large",
     "sort": "-size",
-    "tags": ["featured", "size"],
+    "tags": ["featured", "auto"],
     "type": "place"
   },
   "lighthouses": {
@@ -2336,7 +2336,7 @@
     "type": "place"
   },
   "suburban": {
-    "icon": "🚈",
+    "icon": "🚃",
     "map": {
       "cluster": "true",
       "lat": "25",
