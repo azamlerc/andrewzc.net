@@ -2263,6 +2263,34 @@
     "size": 271,
     "wikidata": "Q90"
   },
+  "arhus": {
+    "been": false,
+    "coords": "56.166666666, 9.5",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Aarhus_Letbane",
+    "name": "Århus",
+    "type": "tram",
+    "wikidata": "Q4661716"
+  },
+  "volgograd": {
+    "been": false,
+    "coords": "48.70861111, 44.51472222",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://ru.wikipedia.org/wiki/Волгоградский_трамвай",
+    "name": "Volgograd",
+    "type": "light-rail"
+  },
+  "kryvyi-rih": {
+    "been": false,
+    "coords": "47.91000000, 33.39000000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Kryvyi_Rih",
+    "name": "Kryvyi Rih",
+    "type": "tram"
+  },
   "perm": {
     "been": false,
     "country": "RU",
@@ -2320,15 +2348,14 @@
   "porto": {
     "been": true,
     "city": "Porto",
-    "coords": "41.16214167, -8.62195278",
+    "coords": "41.16214166666666, -8.621952777777778",
     "country": "PT",
     "icons": ["🇵🇹"],
-    "images": ["porto1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Porto",
+    "images": ["porto1.jpg", "porto2.jpg", "porto3.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Porto_Metro",
     "name": "Porto",
     "section": "done",
-    "size": 35,
-    "type": "tram"
+    "size": 120
   },
   "potsdam": {
     "been": false,
@@ -2428,18 +2455,6 @@
     "section": "done",
     "size": 24,
     "wikidata": "Q638252"
-  },
-  "rennes": {
-    "been": true,
-    "coords": "48.11416667, -1.68083333",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "images": ["rennes2.jpg", "rennes1.jpg", "rennes3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Rennes_Metro",
-    "name": "Rennes",
-    "section": "done",
-    "size": 28,
-    "wikidata": "Q366979"
   },
   "resita": {
     "been": false,

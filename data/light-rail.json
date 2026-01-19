@@ -3,9 +3,9 @@
     "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
-      "lat": "25",
-      "lon": "5",
-      "zoom": "2"
+      "lat": "37",
+      "lon": "-42",
+      "zoom": "3"
     },
     "name": "Light Rail",
     "sections": ["done", "taken", "visited"],
@@ -25,16 +25,6 @@
     "type": "light-rail",
     "wikidata": "Q16250141",
     "section": "visited"
-  },
-  "arhus": {
-    "been": false,
-    "coords": "56.166666666, 9.5",
-    "country": "DK",
-    "icons": ["🇩🇰"],
-    "link": "https://en.wikipedia.org/wiki/Aarhus_Letbane",
-    "name": "Århus",
-    "type": "light-rail",
-    "wikidata": "Q4661716"
   },
   "baltimore": {
     "been": false,
@@ -98,6 +88,7 @@
     "been": false,
     "city": "Calgary",
     "country": "CA",
+    "coords": "51.05, -114.07",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/CTrain",
     "name": "Calgary",
@@ -193,7 +184,7 @@
   "houston": {
     "been": false,
     "city": "Houston",
-    "coords": "38.899055555556, -77.028944444444",
+    "coords": "29.762778, -95.383056",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/METRORail",
@@ -223,15 +214,6 @@
     "link": "https://en.wikipedia.org/wiki/Karlsruhe_Stadtbahn",
     "name": "Karlsruhe",
     "section": "taken",
-    "type": "light-rail"
-  },
-  "kryvyi-rih": {
-    "been": false,
-    "coords": "47.91000000, 33.39000000",
-    "country": "UA",
-    "icons": ["🇺🇦"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kryvyi_Rih",
-    "name": "Kryvyi Rih",
     "type": "light-rail"
   },
   "manchester": {
@@ -323,28 +305,15 @@
     "wikidata": "Q603805"
   },
   "portland": {
-    "been": true,
+    "been": false,
     "country": "US",
+    "coords": "45.52, -122.681944",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/MAX_Light_Rail",
     "name": "Portland",
     "section": "visited",
     "size": 93,
     "type": "light-rail"
-  },
-  "porto": {
-    "been": true,
-    "city": "Porto",
-    "coords": "41.16214166666666, -8.621952777777778",
-    "country": "PT",
-    "icons": ["🇵🇹"],
-    "images": ["porto2.jpg", "porto3.jpg"],
-    "link": "https://en.wikipedia.org/wiki/Porto_Metro",
-    "name": "Porto",
-    "section": "done",
-    "size": 85,
-    "type": "light-rail",
-    "wikidata": "Q29757"
   },
   "sacramento": {
     "been": false,
@@ -417,15 +386,6 @@
     "link": "https://en.wikipedia.org/wiki/Sheffield_Supertram",
     "name": "Sheffield",
     "section": "taken",
-    "type": "light-rail"
-  },
-  "volgograd": {
-    "been": false,
-    "coords": "48.70861111, 44.51472222",
-    "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://ru.wikipedia.org/wiki/Волгоградский_трамвай",
-    "name": "Volgograd",
     "type": "light-rail"
   }
 }

@@ -68,10 +68,24 @@ function extractLineInfo(a, referenceFirst) {
   while (br && br.nodeName !== "BR") br = br.nextSibling;
   if (!br) return null;
 
-  // find start of line (node after previous <br>)
+  // find start of line (node after previous <br>),
+  // but also treat block inserts (caption/images) as boundaries so we don't
+  // accidentally insert above a section header when the first item has no <br> above it.
   let prev = a.previousSibling;
-  while (prev && prev.nodeName !== "BR") prev = prev.previousSibling;
-  const lineStart = prev ? prev.nextSibling : a.parentNode.firstChild;
+  while (
+    prev &&
+    prev.nodeName !== "BR" &&
+    !(prev.nodeType === 1 && prev.classList && (prev.classList.contains("caption") || prev.classList.contains("images")))
+  ) {
+    prev = prev.previousSibling;
+  }
+
+  let lineStart = prev ? prev.nextSibling : a.parentNode.firstChild;
+
+  // Skip whitespace-only text nodes so insertion lands in the right visual spot.
+  while (lineStart && lineStart.nodeType === 3 && !lineStart.textContent.trim()) {
+    lineStart = lineStart.nextSibling;
+  }
 
   // collect nodes in this line
   const lineNodes = [];
