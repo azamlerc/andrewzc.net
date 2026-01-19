@@ -1,13 +1,17 @@
-"--info--": {
-  "header": "I’ve been to every stop in:",
-  "icon": "🚈",
-  "map": {
-    "lat": "43",
-    "lon": "-27",
-    "zoom": "3"
-  },
-  "name": "Light Rail",
-  "size": "large",
-  "tags": ["featured"],
-  "type": "place"
-},
+{
+  "--info--": {
+    "sections": ["done", "taken", "visited", "want"],
+    "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
+    "icon": "🚈",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Light Rail",
+    "size": "large",
+    "sort": "-size",
+    "tags": ["featured", "size"],
+    "type": "place"
+  }
+}

@@ -1,12 +1,8 @@
 {
   "--info--": {
-    "header": "I’ve been to every stop in:",
+    "sections": ["done", "taken", "seen"],
+    "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
-    "groups": [
-    	{"group": "done", "header": "I’ve been to every stop in:"},
-    	{"group": "taken", "header": "I've taken the tram in:"},
-    	{"group": "seen", "header": "I've seen trams in:"}
-    ],
     "map": {
       "lat": "43",
       "lon": "-27",
@@ -14,7 +10,8 @@
     },
     "name": "Trams",
     "size": "large",
-    "tags": ["featured", "size"],
+    "sort": "-size",
+    "tags": ["featured"],
     "type": "place"
   },
   "abuja": {
@@ -57,7 +54,7 @@
     "city": "Alexandria",
     "coords": "31.19750000, 29.89250000",
     "country": "EG",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇪🇬"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Alexandria",
     "name": "Alexandria",
@@ -97,10 +94,11 @@
     "city": "Amsterdam",
     "coords": "52.367, 4.9",
     "country": "NL",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Amsterdam",
     "name": "Amsterdam",
+    "size": 500,
     "wikidata": "Q2060132"
   },
   "angarsk": {
@@ -126,11 +124,12 @@
     "city": "Antwerp",
     "coords": "51.21777778, 4.40027778",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["antwerp2.jpg", "antwerp3.jpg", "antwerp1.jpg"],
     "link": "https://nl.wikipedia.org/wiki/Antwerpse_tram",
     "name": "Antwerp",
+    "size": 175,
     "wikidata": "Q777867"
   },
   "arad": {
@@ -212,11 +211,12 @@
     "been": true,
     "coords": "50.92126, 14.1582",
     "country": "DE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇩🇪"],
     "images": ["bad-schandau2.jpg", "bad-schandau3.jpg", "bad-schandau1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Kirnitzschtal_tramway",
     "name": "Bad Schandau",
+    "size": 9,
     "wikidata": "Q12645"
   },
   "baden-bei-wien": {
@@ -224,11 +224,12 @@
     "city": "Vienna",
     "coords": "48.09940000, 16.31490000",
     "country": "AT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇦🇹"],
     "images": ["baden-bei-wien1.jpg", "baden-bei-wien2.jpg", "baden-bei-wien3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Badner_Bahn",
-    "name": "Baden bei Wien"
+    "name": "Baden bei Wien",
+    "size": 36
   },
   "baltimore": {
     "been": false,
@@ -245,11 +246,12 @@
     "city": "Barcelona",
     "coords": "41.383333, 2.183333",
     "country": "ES",
-    "group": "done",
+    "section": "done",
     "icons": ["🇪🇸"],
     "images": ["barcelona1.jpg", "barcelona2.jpg", "barcelona3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Barcelona",
     "name": "Barcelona",
+    "size": 91,
     "wikidata": "Q118983"
   },
   "barnaul": {
@@ -266,7 +268,7 @@
     "city": "Basel",
     "coords": "47.55472222, 7.58916667",
     "country": "CH",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Basel",
     "name": "Basel"
@@ -275,21 +277,23 @@
     "been": true,
     "coords": "51.26495000, 3.00544000",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["belgian-coast1.jpg", "belgian-coast2.jpg", "belgian-coast3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Coast_Tram_(Belgium)",
-    "name": "Belgian Coast"
+    "name": "Belgian Coast",
+    "size": 70
   },
   "belgrade": {
     "been": true,
     "city": "Belgrade",
     "coords": "44.81777778, 20.45694444",
     "country": "RS",
-    "group": "done",
+    "section": "done",
     "icons": ["🇷🇸"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Belgrade",
-    "name": "Belgrade"
+    "name": "Belgrade",
+    "size": 82
   },
   "bergen": {
     "been": false,
@@ -305,11 +309,12 @@
     "city": "Berlin",
     "coords": "52.52000000, 13.40500000",
     "country": "DE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇩🇪"],
     "images": ["berlin1.jpg", "berlin3.jpg", "berlin2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Berlin",
     "name": "Berlin",
+    "size": 803,
     "wikidata": "Q99668"
   },
   "bern": {
@@ -317,7 +322,7 @@
     "city": "Bern",
     "coords": "46.94750000, 7.44055556",
     "country": "CH",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇭"],
     "info": "(40%)",
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bern",
@@ -345,11 +350,12 @@
     "city": "Bilbao",
     "coords": "43.25361111, -2.92166667",
     "country": "ES",
-    "group": "done",
+    "section": "done",
     "icons": ["🇪🇸"],
     "images": ["bilbao1.jpg", "bilbao2.jpg", "bilbao3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bilbao_tram",
-    "name": "Bilbao"
+    "name": "Bilbao",
+    "size": 16
   },
   "birmingham": {
     "been": false,
@@ -393,7 +399,7 @@
     "city": "Bonn",
     "coords": "50.73333333, 7.10000000",
     "country": "DE",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bonn",
     "name": "Bonn",
@@ -405,11 +411,12 @@
     "city": "Bordeaux",
     "coords": "44.838611111111, -0.57833333333333",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["bordeaux1.jpg", "bordeaux2.jpg", "bordeaux3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Bordeaux_tramway",
     "name": "Bordeaux",
+    "size": 135,
     "wikidata": "Q606304"
   },
   "boston": {
@@ -417,11 +424,12 @@
     "city": "Boston",
     "coords": "42.31861111, -70.99111111",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["boston1.jpg", "boston2.jpg", "boston3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Green_Line_(MBTA)",
     "name": "Boston",
+    "size": 70,
     "wikidata": "Q152061"
   },
   "brandenburg": {
@@ -438,11 +446,12 @@
     "city": "Bratislava",
     "coords": "48.14388889, 17.10972222",
     "country": "SK",
-    "group": "done",
+    "section": "done",
     "icons": ["🇸🇰"],
     "images": ["bratislava1.jpg", "bratislava2.jpg", "bratislava3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Bratislava",
-    "name": "Bratislava"
+    "name": "Bratislava",
+    "size": 155
   },
   "braunschweig": {
     "been": false,
@@ -474,7 +483,7 @@
     "city": "Brno",
     "coords": "49.19250000, 16.60833333",
     "country": "CZ",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇿"],
     "info": "(60%)",
     "link": "https://en.wikipedia.org/wiki/Trams_in_Brno",
@@ -485,11 +494,12 @@
     "city": "Brussels",
     "coords": "50.84666667, 4.35250000",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["brussels1.jpg", "brussels2.jpg", "brussels3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles",
-    "name": "Brussels"
+    "name": "Brussels",
+    "size": 298
   },
   "bucharest": {
     "been": false,
@@ -506,11 +516,12 @@
     "city": "Budapest",
     "coords": "47.5, 19.05",
     "country": "HU",
-    "group": "done",
+    "section": "done",
     "icons": ["🇭🇺"],
     "images": ["budapest1.jpg", "budapest2.jpg", "budapest3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Budapest",
     "name": "Budapest",
+    "size": 630,
     "wikidata": "Q785837"
   },
   "buenos-aires": {
@@ -528,29 +539,31 @@
     "city": "Buffalo",
     "coords": "42.954722222222, -78.820555555556",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["buffalo1.jpg", "buffalo2.jpg", "buffalo3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Buffalo_Metro_Rail",
     "name": "Buffalo",
+    "size": 13,
     "wikidata": "Q112604647"
   },
   "caen": {
     "been": true,
     "coords": "49.183055555556, -0.36944444444444",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["caen1.jpg", "caen2.jpg", "caen3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Caen_tramway",
     "name": "Caen",
+    "size": 37,
     "wikidata": "Q3537240"
   },
   "calgary": {
     "been": false,
     "city": "Calgary",
     "country": "CA",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/CTrain",
     "name": "Calgary",
@@ -570,11 +583,12 @@
     "city": "Casablanca",
     "coords": "33.53333333, -7.58333333",
     "country": "MA",
-    "group": "done",
+    "section": "done",
     "icons": ["🇲🇦"],
     "images": ["casablanca1.jpg", "casablanca2.jpg", "casablanca3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Casablanca_Tramway",
     "name": "Casablanca",
+    "size": 110,
     "wikidata": "Q1522904"
   },
   "changchun": {
@@ -590,11 +604,12 @@
     "been": true,
     "coords": "50.416666666, 4.444166666",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["charleroi1.jpg", "charleroi2.jpg", "charleroi3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Charleroi_Metro",
     "name": "Charleroi",
+    "size": 48,
     "wikidata": "Q1682845"
   },
   "chelyabinsk": {
@@ -663,11 +678,12 @@
     "been": true,
     "coords": "45.78055555555556, 3.0875",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["clermont-ferrand1.jpg", "clermont-ferrand2.jpg", "clermont-ferrand3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Clermont-Ferrand_tramway",
     "name": "Clermont-Ferrand",
+    "size": 34,
     "wikidata": "Q1419423"
   },
   "cleveland": {
@@ -714,6 +730,7 @@
     "icons": ["🇩🇰"],
     "link": "https://en.wikipedia.org/wiki/Greater_Copenhagen_Light_Rail",
     "name": "Copenhagen",
+    "size": 12,
     "wikidata": "Q10655459"
   },
   "cottbus": {
@@ -750,6 +767,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Dallas_Streetcar",
     "name": "Dallas",
+    "size": 6,
     "wikidata": "Q19878111"
   },
   "darmstadt": {
@@ -765,11 +783,12 @@
     "been": true,
     "coords": "55.87500000, 26.53555556",
     "country": "LV",
-    "group": "done",
+    "section": "done",
     "icons": ["🇱🇻"],
     "images": ["daugavpils1.jpg", "daugavpils2.jpg", "daugavpils3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Daugavpils_Satiksme",
-    "name": "Daugavpils"
+    "name": "Daugavpils",
+    "size": 38
   },
   "debrecen": {
     "been": false,
@@ -785,11 +804,12 @@
     "city": "Den Haag",
     "coords": "52.083, 4.317",
     "country": "NL",
-    "group": "done",
+    "section": "done",
     "icons": ["🇳🇱"],
     "images": ["denhaag1.jpg", "denhaag2.jpg", "denhaag3.jpg"],
     "link": "https://nl.wikipedia.org/wiki/Haagse_tram",
     "name": "Den Haag",
+    "size": 239,
     "wikidata": "Q1429361"
   },
   "denver": {
@@ -818,6 +838,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/QLine",
     "name": "Detroit",
+    "size": 12,
     "wikidata": "Q5265966"
   },
   "dijon": {
@@ -868,7 +889,7 @@
     "city": "Dresden",
     "coords": "51.05083333, 13.73333333",
     "country": "DE",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Dresden",
     "name": "Dresden"
@@ -886,11 +907,12 @@
     "city": "Dubai",
     "coords": "25.26970000, 55.30950000",
     "country": "AE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇦🇪"],
     "images": ["dubai1.jpg", "dubai2.jpg", "dubai3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Dubai_Tram",
     "name": "Dubai",
+    "size": 11,
     "wikidata": "Q837216"
   },
   "dublin": {
@@ -1009,7 +1031,7 @@
     "city": "Frankfurt",
     "coords": "50.10777778, 8.66472222",
     "country": "DE",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Frankfurt_am_Main",
     "name": "Frankfurt am Main"
@@ -1019,7 +1041,7 @@
     "city": "Frankfurt (Oder)",
     "coords": "52.00000000, 14.00000000",
     "country": "DE",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Frankfurt_(Oder)",
     "name": "Frankfurt (Oder)"
@@ -1047,10 +1069,11 @@
     "city": "Geneva",
     "coords": "46.21027778, 6.14333333",
     "country": "CH",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Geneva",
-    "name": "Geneva"
+    "name": "Geneva",
+    "size": 83
   },
   "gera": {
     "been": false,
@@ -1076,11 +1099,12 @@
     "caption": "",
     "coords": "51.05300000, 3.72000000",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["ghent1.jpg", "ghent2.jpg", "ghent3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Ghent",
-    "name": "Ghent"
+    "name": "Ghent",
+    "size": 88
   },
   "gmunden": {
     "been": false,
@@ -1095,7 +1119,7 @@
     "been": false,
     "coords": "51.15305556, 14.98666667",
     "country": "DE",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_G%C3%B6rlitz",
     "name": "Görlitz"
@@ -1122,11 +1146,12 @@
     "city": "Graz",
     "coords": "47.07083333, 15.43861111",
     "country": "AT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇦🇹"],
     "images": ["graz1.jpg", "graz2.jpg", "graz3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Graz",
     "name": "Graz",
+    "size": 95,
     "wikidata": "Q626381"
   },
   "grenoble": {
@@ -1168,7 +1193,7 @@
     "been": false,
     "coords": "41.76861111, 140.72888889",
     "country": "JP",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hakodate_City_Transportation_Bureau",
     "name": "Hakodate",
@@ -1207,6 +1232,7 @@
     "icons": ["🇫🇮"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Helsinki",
     "name": "Helsinki",
+    "size": 344,
     "wikidata": "Q1192334"
   },
   "hiroshima": {
@@ -1214,10 +1240,11 @@
     "city": "Hiroshima",
     "coords": "34.39138889, 132.45194444",
     "country": "JP",
-    "group": "done",
+    "section": "done",
     "icons": ["🇯🇵"],
     "link": "https://en.wikipedia.org/wiki/Hiroshima_Electric_Railway",
     "name": "Hiroshima",
+    "size": 76,
     "wikidata": "Q1196530"
   },
   "hong-kong": {
@@ -1225,7 +1252,7 @@
     "city": "Hong Kong",
     "coords": "22.28830000, 114.13770000",
     "country": "HK",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇭🇰"],
     "link": "https://en.wikipedia.org/wiki/Hong_Kong_Tramways",
     "name": "Hong Kong"
@@ -1288,7 +1315,7 @@
     "city": "Istanbul",
     "coords": "41.01361111, 28.95500000",
     "country": "TR",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇹🇷"],
     "link": "https://en.wikipedia.org/wiki/Istanbul_Tram",
     "name": "Istanbul",
@@ -1335,11 +1362,12 @@
     "city": "New York",
     "coords": "40.73, -74.08",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["jersey-city1.jpg", "jersey-city2.jpg", "jersey-city3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Hudson–Bergen_Light_Rail",
     "name": "Jersey City",
+    "size": 24,
     "wikidata": "Q1357874"
   },
   "jerusalem": {
@@ -1347,7 +1375,7 @@
     "city": "Jerusalem",
     "coords": "31.778888888, 35.225555555",
     "country": "IL",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇮🇱"],
     "link": "https://en.wikipedia.org/wiki/Jerusalem_Light_Rail",
     "name": "Jerusalem",
@@ -1410,7 +1438,7 @@
     "been": false,
     "coords": "49.00916667, 8.40388889",
     "country": "DE",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇩🇪"],
     "link": "https://en.wikipedia.org/wiki/Karlsruhe_Stadtbahn",
     "name": "Karlsruhe"
@@ -1428,11 +1456,12 @@
     "city": "Katowice",
     "coords": "50.261161884504276, 19.066045924456443",
     "country": "PL",
-    "group": "done",
+    "section": "done",
     "icons": ["🇵🇱"],
     "images": ["katowice1.jpg", "katowice2.jpg", "katowice3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Silesian_Interurbans",
     "name": "Katowice",
+    "size": 246,
     "wikidata": "Q1788325"
   },
   "kazan": {
@@ -1654,11 +1683,12 @@
     "been": true,
     "coords": "50.76666667, 15.06666667",
     "country": "CZ",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇿"],
     "images": ["liberec1.jpg", "liberec2.jpg", "liberec3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Liberec_and_Jablonec_nad_Nisou",
-    "name": "Liberec–Jablonec"
+    "name": "Liberec–Jablonec",
+    "size": 40
   },
   "liege": {
     "been": true,
@@ -1666,29 +1696,31 @@
     "city": "Liège",
     "coords": "50.6304, 5.582",
     "country": "BE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇪"],
     "images": ["liege1.jpg", "liege2.jpg", "liege4.jpg", "liege3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Liège",
-    "name": "Liège"
+    "name": "Liège",
+    "size": 23
   },
   "liepaja": {
     "badges": ["🚗"],
     "been": true,
     "coords": "56.52194444, 21.01805556",
     "country": "LV",
-    "group": "done",
+    "section": "done",
     "icons": ["🇱🇻"],
     "images": ["liepaja1.jpg", "liepaja2.jpg", "liepaja3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Liepājas_tramvajs",
-    "name": "Liepāja"
+    "name": "Liepāja",
+    "size": 18
   },
   "lille": {
     "been": false,
     "city": "Lille",
     "coords": "50.637222222222, 3.0633333333333",
     "country": "FR",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Lille_tramway",
     "name": "Lille",
@@ -1715,11 +1747,12 @@
     "city": "Lisbon",
     "coords": "38.72527778, -9.15000000",
     "country": "PT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇵🇹"],
     "images": ["lisbon3.jpg", "lisbon2.jpg", "lisbon1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Lisbon",
     "name": "Lisbon",
+    "size": 102,
     "wikidata": "Q149629"
   },
   "london": {
@@ -1727,11 +1760,12 @@
     "city": "London",
     "coords": "51.3872, -0.1344",
     "country": "GB",
-    "group": "done",
+    "section": "done",
     "icons": ["🇬🇧"],
     "images": ["london1.jpg", "london2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Tramlink",
     "name": "London",
+    "size": 39,
     "wikidata": "Q786032"
   },
   "luhansk": {
@@ -1766,18 +1800,19 @@
     "city": "Luxembourg",
     "coords": "49.81444444, 6.13166667",
     "country": "LU",
-    "group": "done",
+    "section": "done",
     "icons": ["🇱🇺"],
     "images": ["luxembourg3.jpg", "luxembourg2.jpg", "luxembourg1.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg",
     "name": "Luxembourg",
+    "size": 24,
     "wikidata": "Q33228583"
   },
   "lviv": {
     "been": false,
     "coords": "49.84250000, 24.03222222",
     "country": "UA",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇺🇦"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Lviv",
     "name": "Lviv",
@@ -1788,11 +1823,12 @@
     "city": "Lyon",
     "coords": "45.71840000, 4.92865000",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["lyon1.jpg", "lyon2.jpg", "lyon3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Lyon",
-    "name": "Lyon"
+    "name": "Lyon",
+    "size": 103
   },
   "madrid": {
     "been": false,
@@ -1802,6 +1838,7 @@
     "icons": ["🇪🇸"],
     "link": "https://en.wikipedia.org/wiki/Metro_Ligero_de_Madrid",
     "name": "Madrid",
+    "size": 37,
     "wikidata": "Q939283"
   },
   "magdeburg": {
@@ -1895,11 +1932,12 @@
     "city": "Medellín",
     "coords": "6.23083333, -75.59055556",
     "country": "CO",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇴"],
     "images": ["medellin2.jpg", "medellin3.jpg", "medellin1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Ayacucho_Tram",
     "name": "Medellín",
+    "size": 9,
     "wikidata": "Q18327073"
   },
   "melbourne": {
@@ -1925,11 +1963,12 @@
     "city": "Mexico City",
     "coords": "19.419444444, -99.145555555",
     "country": "MX",
-    "group": "done",
+    "section": "done",
     "icons": ["🇲🇽"],
     "images": ["mexico-city1.jpg", "mexico-city2.jpg", "mexico-city3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Xochimilco_Light_Rail",
     "name": "Mexico City",
+    "size": 18,
     "wikidata": "Q2576140"
   },
   "milan": {
@@ -1947,7 +1986,8 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/The_Hop_(streetcar)",
-    "name": "Milwaukee"
+    "name": "Milwaukee",
+    "size": 21
   },
   "minneapolis": {
     "been": false,
@@ -1981,18 +2021,19 @@
     "city": "Montpellier",
     "coords": "43.60498000, 3.88051000",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["montpellier1.jpg", "montpellier2.jpg", "montpellier3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Montpellier_tramway",
-    "name": "Montpellier"
+    "name": "Montpellier",
+    "size": 84
   },
   "moscow": {
     "been": false,
     "city": "Moscow",
     "coords": "55.00000000, 37.00000000",
     "country": "RU",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Moscow",
     "name": "Moscow"
@@ -2001,11 +2042,12 @@
     "badges": ["🚗"],
     "been": true,
     "country": "CZ",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇿"],
     "images": ["most-litvinov1.jpg", "most-litvinov2.jpg", "most-litvinov3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Most_and_Litvínov",
-    "name": "Most–Litvínov"
+    "name": "Most–Litvínov",
+    "size": 27
   },
   "mulheim": {
     "been": false,
@@ -2089,11 +2131,12 @@
     "been": true,
     "city": "Naples",
     "country": "IT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇮🇹"],
     "images": ["naples1.jpg", "naples2.jpg", "naples3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Naples",
     "name": "Naples",
+    "size": 32,
     "wikidata": "Q1575695"
   },
   "naumburg-saale": {
@@ -2136,11 +2179,12 @@
     "city": "Newark",
     "coords": "40.735277777, -74.185",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["newark1.jpg", "newark2.jpg", "newark3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Newark_Light_Rail",
     "name": "Newark",
+    "size": 17,
     "wikidata": "Q3078283"
   },
   "newcastle": {
@@ -2157,11 +2201,12 @@
     "city": "Nice",
     "coords": "43.69704444, 7.27037500",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["nice1.jpg", "nice2.jpg", "nice3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Nice_tramway",
-    "name": "Nice"
+    "name": "Nice",
+    "size": 46
   },
   "nizhnekamsk": {
     "been": false,
@@ -2299,7 +2344,7 @@
     "been": false,
     "coords": "49.59388889, 17.25083333",
     "country": "CZ",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Olomouc",
     "name": "Olomouc",
@@ -2398,17 +2443,18 @@
     "city": "Oslo",
     "coords": "59.91333333, 10.73888889",
     "country": "NO",
-    "group": "done",
+    "section": "done",
     "icons": ["🇳🇴"],
     "images": ["oslo3.jpg", "oslo2.jpg", "oslo1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Oslo",
-    "name": "Oslo"
+    "name": "Oslo",
+    "size": 88
   },
   "ostrava": {
     "been": false,
     "coords": "49.83555556, 18.29250000",
     "country": "CZ",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇨🇿"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Ostrava",
     "name": "Ostrava"
@@ -2427,11 +2473,12 @@
     "city": "Paris",
     "coords": "48.85666666666667, 2.352222222222222",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["paris1.jpg", "paris2.jpg", "paris3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_d%27Île-de-France",
     "name": "Paris",
+    "size": 271,
     "wikidata": "Q90"
   },
   "perm": {
@@ -2447,11 +2494,12 @@
     "city": "Philadelphia",
     "coords": "39.95280000, -75.16360000",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["philadelphia1.jpg", "philadelphia2.jpg", "philadelphia3.jpg"],
     "link": "https://en.wikipedia.org/wiki/SEPTA_subway–surface_trolley_lines",
     "name": "Philadelphia",
+    "size": 311,
     "wikidata": "Q839339"
   },
   "pittsburgh": {
@@ -2459,11 +2507,12 @@
     "city": "Pittsburgh",
     "coords": "40.441666666, -80.0",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["pittsburgh2.jpg", "pittsburgh3.jpg", "pittsburgh1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Pittsburgh_Light_Rail",
     "name": "Pittsburgh",
+    "size": 53,
     "wikidata": "Q603805"
   },
   "plauen": {
@@ -2479,21 +2528,23 @@
     "city": "Plzeň",
     "coords": "49.74750000, 13.37750000",
     "country": "CZ",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇿"],
     "images": ["plzen1.jpg", "plzen2.jpg", "plzen3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Plze%C5%88",
     "name": "Plzeň",
+    "size": 54,
     "wikidata": "Q1242719"
   },
   "portland": {
     "been": true,
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["portland1.jpg", "portland2.jpg", "portland3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Portland_Streetcar",
     "name": "Portland",
+    "size": 57,
     "wikidata": "Q1753708"
   },
   "porto": {
@@ -2501,11 +2552,12 @@
     "city": "Porto",
     "coords": "41.16214166666666, -8.621952777777778",
     "country": "PT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇵🇹"],
     "images": ["porto1.jpg", "porto2.jpg", "porto3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Porto_Metro",
     "name": "Porto",
+    "size": 82,
     "wikidata": "Q29757"
   },
   "potsdam": {
@@ -2521,12 +2573,13 @@
     "city": "Poznań",
     "coords": "52.40833333, 16.93361111",
     "country": "PL",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇵🇱"],
     "images": ["poznan1.jpg", "poznan2.jpg", "poznan3.jpg"],
     "info": "(40%)",
     "link": "https://en.wikipedia.org/wiki/Trams_in_Poznań",
     "name": "Poznań",
+    "size": 135,
     "wikidata": "Q53429"
   },
   "prague": {
@@ -2534,11 +2587,12 @@
     "city": "Prague",
     "coords": "50.08750000, 14.42138889",
     "country": "CZ",
-    "group": "done",
+    "section": "done",
     "icons": ["🇨🇿"],
     "images": ["prague1.jpg", "prague2.jpg", "prague3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Prague",
     "name": "Prague",
+    "size": 596,
     "wikidata": "Q1420119"
   },
   "propkopyevsk": {
@@ -2597,22 +2651,24 @@
     "been": true,
     "coords": "49.265277777778, 4.0286111111111",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["reims1.jpg", "reims2.jpg", "reims3.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Reims",
     "name": "Reims",
+    "size": 24,
     "wikidata": "Q638252"
   },
   "rennes": {
     "been": true,
     "coords": "48.114166666, -1.680833333",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["rennes2.jpg", "rennes1.jpg", "rennes3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rennes_Metro",
     "name": "Rennes",
+    "size": 28,
     "wikidata": "Q366979"
   },
   "resita": {
@@ -2628,11 +2684,12 @@
     "city": "Riga",
     "coords": "56.971906, 24.032467",
     "country": "LV",
-    "group": "done",
+    "section": "done",
     "icons": ["🇱🇻"],
     "images": ["riga1.jpg", "riga2.jpg", "riga3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rīgas_Satiksme",
     "name": "Riga",
+    "size": 117,
     "wikidata": "Q2280274"
   },
   "rio-de-janeiro": {
@@ -2677,7 +2734,7 @@
     "city": "Rotterdam",
     "coords": "51.92166667, 4.48111111",
     "country": "NL",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Rotterdam",
     "name": "Rotterdam"
@@ -2706,11 +2763,12 @@
     "been": true,
     "coords": "49.233333333333, 7.0",
     "country": "DE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇩🇪"],
     "images": ["saarbrucken1.jpg", "saarbrucken2.jpg", "saarbrucken3.jpg"],
     "link": "https://de.wikipedia.org/wiki/Saarbahn",
     "name": "Saarbrücken",
+    "size": 43,
     "wikidata": "Q558389"
   },
   "sacramento": {
@@ -2725,11 +2783,12 @@
     "been": true,
     "coords": "45.433888888889, 4.3897222222222",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["saint-etienne1.jpg", "saint-etienne2.jpg", "saint-etienne3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Saint-Étienne_tramway",
     "name": "Saint-Étienne",
+    "size": 39,
     "wikidata": "Q1629492"
   },
   "saint-petersburg": {
@@ -2737,7 +2796,7 @@
     "city": "Saint Petersburg",
     "coords": "59.93750000, 30.30861111",
     "country": "RU",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Saint_Petersburg",
     "name": "Saint Petersburg"
@@ -2781,11 +2840,12 @@
     "city": "San Francisco",
     "coords": "37.78333333, -122.41666667",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["san-francisco1.jpg", "san-francisco2.jpg", "san-francisco3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Muni_Metro",
     "name": "San Francisco",
+    "size": 117,
     "wikidata": "Q278074"
   },
   "san-jose": {
@@ -2793,11 +2853,12 @@
     "city": "San José",
     "coords": "37.40789000, -121.94418000",
     "country": "US",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇺🇸"],
     "info": "(50%)",
     "link": "https://en.wikipedia.org/wiki/Santa_Clara_Valley_Transportation_Authority_light_rail",
     "name": "San Jose",
+    "size": 60,
     "wikidata": "Q1337235"
   },
   "sanya": {
@@ -2824,10 +2885,11 @@
     "city": "Sarajevo",
     "coords": "43.85638889, 18.41305556",
     "country": "BA",
-    "group": "done",
+    "section": "done",
     "icons": ["🇧🇦"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Sarajevo",
-    "name": "Sarajevo"
+    "name": "Sarajevo",
+    "size": 28
   },
   "saratov": {
     "been": false,
@@ -2850,11 +2912,12 @@
     "city": "Seattle",
     "coords": "47.60000000, -122.33333333",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["seattle1.jpg", "seattle2.jpg", "seattle3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Red_Line_(Sound_Transit)",
-    "name": "Seattle"
+    "name": "Seattle",
+    "size": 19
   },
   "setagaya": {
     "been": false,
@@ -2889,7 +2952,7 @@
     "city": "Sheffield",
     "coords": "53.38083333, -1.47027778",
     "country": "GB",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Sheffield_Supertram",
     "name": "Sheffield"
@@ -2917,11 +2980,12 @@
     "been": true,
     "coords": "38.79916667, -9.38833333",
     "country": "PT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇵🇹"],
     "images": ["sintra1.jpg", "sintra2.jpg", "sintra3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Sintra",
-    "name": "Sintra"
+    "name": "Sintra",
+    "size": 8
   },
   "smolensk": {
     "been": false,
@@ -2937,7 +3001,7 @@
     "city": "Sofia",
     "coords": "42.70000000, 23.33000000",
     "country": "BG",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇧🇬"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Sofia",
     "name": "Sofia"
@@ -2956,22 +3020,24 @@
     "city": "Stockholm",
     "coords": "59.00000000, 18.00000000",
     "country": "SE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇸🇪"],
     "images": ["stockholm1.jpg", "stockholm3.jpg", "stockholm2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Stockholm",
-    "name": "Stockholm"
+    "name": "Stockholm",
+    "size": 62
   },
   "strasbourg": {
     "been": true,
     "city": "Strasbourg",
     "coords": "48.58436111, 7.74422222",
     "country": "FR",
-    "group": "done",
+    "section": "done",
     "icons": ["🇫🇷"],
     "images": ["strasbourg3.jpg", "strasbourg2.jpg", "strasbourg1.jpg"],
     "link": "https://fr.wikipedia.org/wiki/Tramway_de_Strasbourg",
-    "name": "Strasbourg"
+    "name": "Strasbourg",
+    "size": 87
   },
   "strausberg": {
     "been": false,
@@ -3024,11 +3090,12 @@
     "city": "Szeged",
     "coords": "46.25500000, 20.14500000",
     "country": "HU",
-    "group": "done",
+    "section": "done",
     "icons": ["🇭🇺"],
     "images": ["szeged1.jpg", "szeged2.jpg", "szeged3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Szeged",
     "name": "Szeged",
+    "size": 50,
     "wikidata": "Q833824"
   },
   "taganrog": {
@@ -3054,11 +3121,12 @@
     "city": "Tallinn",
     "coords": "59.437222222222225, 24.745",
     "country": "EE",
-    "group": "done",
+    "section": "done",
     "icons": ["🇪🇪"],
     "images": ["tallinn1.jpg", "tallinn2.jpg", "tallinn3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Tallinn",
     "name": "Tallinn",
+    "size": 45,
     "wikidata": "Q660474"
   },
   "tampere": {
@@ -3085,6 +3153,7 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Tempe_Streetcar",
     "name": "Tempe",
+    "size": 14,
     "wikidata": "Q23308659"
   },
   "tenerife": {
@@ -3137,10 +3206,11 @@
     "city": "Toronto",
     "coords": "43.74166667, -79.37333333",
     "country": "CA",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Toronto_Transit_Commission",
     "name": "Toronto",
+    "size": 708,
     "wikidata": "Q17978"
   },
   "torun": {
@@ -3157,7 +3227,7 @@
     "city": "Toulouse",
     "coords": "43.5926562443911, 1.4346536657002795",
     "country": "FR",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇫🇷"],
     "link": "https://en.wikipedia.org/wiki/Toulouse_tramway",
     "name": "Toulouse",
@@ -3290,7 +3360,7 @@
     "been": false,
     "coords": "52.00920000, 5.03830000",
     "country": "NL",
-    "group": "seen",
+    "section": "seen",
     "icons": ["🇳🇱"],
     "link": "https://en.wikipedia.org/wiki/Utrecht_sneltram",
     "name": "Utrecht"
@@ -3326,11 +3396,12 @@
     "city": "Vienna",
     "coords": "48.20816667, 16.37253611",
     "country": "AT",
-    "group": "done",
+    "section": "done",
     "icons": ["🇦🇹"],
     "images": ["vienna3.jpg", "vienna2.jpg", "vienna1.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Vienna",
-    "name": "Vienna"
+    "name": "Vienna",
+    "size": 1076
   },
   "vinnytsia": {
     "been": false,
@@ -3353,11 +3424,12 @@
     "caption": "",
     "coords": "42.87611111, -2.67972222",
     "country": "ES",
-    "group": "done",
+    "section": "done",
     "icons": ["🇪🇸"],
     "images": ["vitoria-gasteiz1.jpg", "vitoria-gasteiz3.jpg", "vitoria-gasteiz4.jpg", "vitoria-gasteiz2.jpg"],
     "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz_tram",
-    "name": "Vitoria-Gasteiz"
+    "name": "Vitoria-Gasteiz",
+    "size": 28
   },
   "vladikavkaz": {
     "been": false,
@@ -3407,7 +3479,7 @@
     "city": "Warsaw",
     "coords": "52.23222222222222, 21.008333333333333",
     "country": "PL",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇵🇱"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Warsaw",
     "name": "Warsaw",
@@ -3417,11 +3489,12 @@
     "been": true,
     "city": "Washington",
     "country": "US",
-    "group": "done",
+    "section": "done",
     "icons": ["🇺🇸"],
     "images": ["washington1.jpg", "washington2.jpg", "washington3.jpg"],
     "link": "https://en.wikipedia.org/wiki/DC_Streetcar",
     "name": "Washington",
+    "size": 8,
     "strike": true,
     "wikidata": "Q3537231"
   },
@@ -3464,11 +3537,12 @@
     "city": "Wrocław",
     "coords": "51.11000000, 17.03250000",
     "country": "PL",
-    "group": "done",
+    "section": "done",
     "icons": ["🇵🇱"],
     "images": ["wroclaw1.jpg", "wroclaw2.jpg", "wroclaw3.jpg"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Wroc%C5%82aw",
     "name": "Wrocław",
+    "size": 190,
     "wikidata": "Q1531939"
   },
   "wuhan": {
@@ -3589,7 +3663,7 @@
     "city": "Zürich",
     "coords": "47.378169444444445, 8.540177777777778",
     "country": "CH",
-    "group": "taken",
+    "section": "taken",
     "icons": ["🇨🇭"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Zürich",
     "name": "Zürich",

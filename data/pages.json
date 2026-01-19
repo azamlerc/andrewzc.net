@@ -1316,6 +1316,21 @@
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
+  "light-rail": {
+    "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
+    "icon": "🚈",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Light Rail",
+    "sections": ["done", "taken", "visited", "want"],
+    "size": "large",
+    "sort": "-size",
+    "tags": ["featured", "size"],
+    "type": "place"
+  },
   "lighthouses": {
     "icon": "🕯️",
     "name": "Lighthouses",
@@ -1439,7 +1454,7 @@
   },
   "metros": {
     "featured": "true",
-    "header": "I’ve been to every station in:",
+    "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
       "lat": "25",
@@ -1447,7 +1462,10 @@
       "zoom": "2"
     },
     "name": "Metros",
+    "sections": ["done", "taken", "visited", "want"],
     "size": "large",
+    "sort": "-size",
+    "tags": ["featured"],
     "type": "place"
   },
   "mexico": {
@@ -2466,7 +2484,7 @@
     "type": "place"
   },
   "trams": {
-    "header": "I’ve been to every stop in:",
+    "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
     "map": {
       "lat": "43",
@@ -2474,7 +2492,9 @@
       "zoom": "3"
     },
     "name": "Trams",
+    "sections": ["done", "taken", "seen"],
     "size": "large",
+    "sort": "-size",
     "tags": ["featured"],
     "type": "place"
   },
@@ -2716,7 +2736,7 @@
     "name": "World Cities",
     "size": "large",
     "sort": "prefix",
-    "tags": ["auto"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "worldsfair": {
