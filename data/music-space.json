@@ -1,0 +1,931 @@
+{
+  "--info--": {
+    "icon": "🪐",
+    "name": "Music Space",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  "-her-space-holiday": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Her Space Holiday"
+  },
+  "-jefferson-starship": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Jefferson Starship"
+  },
+  "-laziest-men-on-mars": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "The Laziest Men on Mars"
+  },
+  "-manfred-manns-earth-band": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Manfred Mann’s Earth Band"
+  },
+  "a-guiding-star-at-night-hooverphonic": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "A Guiding Star at Night",
+    "reference": "Hooverphonic"
+  },
+  "across-universe-beatles": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Across the Universe",
+    "reference": "The Beatles"
+  },
+  "all-around-world-oasis": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "All Around the World",
+    "reference": "Oasis"
+  },
+  "all-around-world-paul-simon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "All Around the World",
+    "reference": "Paul Simon"
+  },
+  "all-over-world-pet-shop-boys": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "All Over the World",
+    "reference": "Pet Shop Boys"
+  },
+  "around-sun-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Around the Sun",
+    "reference": "R.E.M."
+  },
+  "astronaut-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Astronaut",
+    "reference": "Duran Duran"
+  },
+  "astronomic-club-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Astronomic Club",
+    "reference": "Air"
+  },
+  "astronomy-domine-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Astronomy Domine",
+    "reference": "Pink Floyd"
+  },
+  "best-of-both-worlds-midnight-oil": {
+    "been": true,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Best of Both Worlds",
+    "reference": "Midnight Oil"
+  },
+  "black-hole-sun-soundgarden": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Black Hole Sun",
+    "reference": "Soundgarden"
+  },
+  "black-star-radiohead": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Black Star",
+    "reference": "Radiohead"
+  },
+  "blackstar-david-bowie": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Blackstar",
+    "reference": "David Bowie"
+  },
+  "blister-in-sun-violent-fermmes": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Blister in the Sun",
+    "reference": "Violent Fermmes"
+  },
+  "brave-new-world-michael-penn": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Brave New World",
+    "reference": "Michael Penn"
+  },
+  "breakfast-on-pluto": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Breakfast on Pluto"
+  },
+  "by-starlight-smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "By Starlight",
+    "reference": "The Smashing Pumpkins"
+  },
+  "cats-eye-nebula-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Cat’s Eye Nebula",
+    "reference": "Nick Rhodes"
+  },
+  "changing-aspects-of-rings-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Changing Aspects of the Rings",
+    "reference": "Nick Rhodes"
+  },
+  "chemical-world-blur": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Chemical World",
+    "reference": "Blur"
+  },
+  "citizen-of-planet-alanis-morissette": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Citizen of the Planet",
+    "reference": "Alanis Morissette"
+  },
+  "dark-side-of-moon-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Dark Side of the Moon",
+    "reference": "Pink Floyd"
+  },
+  "dark-side-of-sun-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Dark Side of the Sun",
+    "reference": "Tori Amos"
+  },
+  "darkest-star-depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Darkest Star",
+    "reference": "Depeche Mode"
+  },
+  "day-world-went-away-nine-inch-nails": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The Day the World Went Away",
+    "reference": "Nine Inch Nails"
+  },
+  "deep-sky-objects-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Deep Sky Objects",
+    "reference": "Nick Rhodes"
+  },
+  "don't-let-sun-go-down-on-me-elton-john": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Don't Let the Sun Go Down on Me",
+    "reference": "Elton John"
+  },
+  "drowning-heart-of-andromeda-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Drowning Heart of Andromeda",
+    "reference": "Nick Rhodes"
+  },
+  "eclipse-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Eclipse",
+    "reference": "Pink Floyd"
+  },
+  "every-planet-we-reach-is-dead-gorillaz": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Every Planet we Reach is Dead",
+    "reference": "Gorillaz"
+  },
+  "everybody-wants-to-rule-world-tears-for-fears": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Everybody Wants to Rule the World",
+    "reference": "Tears for Fears"
+  },
+  "fall-of-saturn-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Fall of Saturn",
+    "reference": "Nick Rhodes"
+  },
+  "fat-old-sun-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Fat Old Sun",
+    "reference": "Pink Floyd"
+  },
+  "fifth-star-of-mausoleum-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Fifth Star of the Mausoleum",
+    "reference": "Nick Rhodes"
+  },
+  "follow-moon-paula-cole": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Follow the Moon",
+    "reference": "Paula Cole"
+  },
+  "for-stars-elvis-costello": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "For the Stars",
+    "reference": "Elvis Costello"
+  },
+  "galactic-halo-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Galactic Halo",
+    "reference": "Nick Rhodes"
+  },
+  "galaxy-war": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Galaxy",
+    "reference": "War"
+  },
+  "goodbye-cruel-world-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Goodbye Cruel World",
+    "reference": "Pink Floyd"
+  },
+  "half-a-world-away-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Half a World Away",
+    "reference": "R.E.M."
+  },
+  "hallo-spaceboy-david-bowie": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Hallo Spaceboy",
+    "reference": "David Bowie"
+  },
+  "heart-shaped-world-chris-isaak": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Heart Shaped World",
+    "reference": "Chris Isaak"
+  },
+  "heaven-is-a-place-on-earth-belinda-carlisle": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Heaven is a Place on Earth",
+    "reference": "Belinda Carlisle"
+  },
+  "hello-earth-kate-bush": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Hello Earth",
+    "reference": "Kate Bush"
+  },
+  "here-comes-sun-beatles": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Here Comes the Sun",
+    "reference": "The Beatles"
+  },
+  "hey-jupiter-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Hey Jupiter",
+    "reference": "Tori Amos"
+  },
+  "in-space-royksopp": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "name": "In Space",
+    "reference": "Röyksopp"
+  },
+  "insomnia-and-hole-in-universe-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Insomnia and the Hole in the Universe",
+    "reference": "Live"
+  },
+  "interstellar-space-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Interstellar Space",
+    "reference": "Nick Rhodes"
+  },
+  "invisible-sun-police": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Invisible Sun",
+    "reference": "The Police"
+  },
+  "invisible-sun-prodigy": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Invisible Sun",
+    "reference": "The Prodigy"
+  },
+  "jupiter-crash-cure": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Jupiter Crash",
+    "reference": "The Cure"
+  },
+  "kelly-watch-stars-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Kelly Watch the Stars",
+    "reference": "Air"
+  },
+  "last-day-on-earth-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Last Day on Earth",
+    "reference": "Duran Duran"
+  },
+  "last-day-on-earth-marilyn-manson": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Last Day on Earth",
+    "reference": "Marilyn Manson"
+  },
+  "little-star-madonna": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Little Star",
+    "reference": "Madonna"
+  },
+  "looking-for-stars-hooverphonic": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Looking for Stars",
+    "reference": "Hooverphonic"
+  },
+  "lucky-star-basement-jaxx": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Lucky Star",
+    "reference": "Basement Jaxx"
+  },
+  "lucky-star-madonna": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lucky Star",
+    "reference": "Madonna"
+  },
+  "mars-meets-venus-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Mars Meets Venus",
+    "reference": "Duran Duran"
+  },
+  "mars-rendez-vous-stereo-total": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Mars Rendez-Vous",
+    "reference": "Stereo Total"
+  },
+  "mercury-and-solace-bt": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Mercury and Solace",
+    "reference": "BT"
+  },
+  "mercury-counting-crows": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Mercury",
+    "reference": "Counting Crows"
+  },
+  "mercury-falling-sting": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Mercury Falling",
+    "reference": "Sting"
+  },
+  "meteor-shower-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Meteor Shower",
+    "reference": "Nick Rhodes"
+  },
+  "midnight-sun-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Midnight Sun",
+    "reference": "Duran Duran"
+  },
+  "moon-safari-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Moon Safari",
+    "reference": "Air"
+  },
+  "morning-sun-robbie-williams": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Morning Sun",
+    "reference": "Robbie Williams"
+  },
+  "mother-universe-soup-dragons": {
+    "been": true,
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "name": "Mother Universe",
+    "reference": "The Soup Dragons"
+  },
+  "my-little-universe-depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "My Little Universe",
+    "reference": "Depeche Mode"
+  },
+  "neptune-sleeping-at-last": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Neptune",
+    "reference": "Sleeping at Last"
+  },
+  "new-star-in-sky-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "New Star in the Sky",
+    "reference": "Air"
+  },
+  "nightlight-to-venus-boney-m": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Nightlight to Venus",
+    "reference": "Boney M"
+  },
+  "oceans-of-titan-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Oceans of Titan",
+    "reference": "Nick Rhodes"
+  },
+  "on-this-night-of-a-thousand-stars-madonna": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "On This Night of a Thousand Stars",
+    "reference": "Madonna"
+  },
+  "pandora-and-prometheus-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Pandora and Prometheus",
+    "reference": "Nick Rhodes"
+  },
+  "peace-on-earth-u2": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Peace on Earth",
+    "reference": "U2"
+  },
+  "planet-earth-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Planet Earth",
+    "reference": "Duran Duran"
+  },
+  "planet-home-jamiroquai": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Planet Home",
+    "reference": "Jamiroquai"
+  },
+  "planet-telex-radiohead": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Planet Telex",
+    "reference": "Radiohead"
+  },
+  "planets-in-universe-stevie-nicks": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Planets in the Universe",
+    "reference": "Stevie Nicks"
+  },
+  "pluto-bjork": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "name": "Pluto",
+    "reference": "Björk"
+  },
+  "prisoner-of-mars-stereolab": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Prisoner of Mars",
+    "reference": "Stereolab"
+  },
+  "rocket-def-leppard": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Rocket",
+    "reference": "Def Leppard"
+  },
+  "rocket-man-elton-john": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Rocket Man",
+    "reference": "Elton John"
+  },
+  "rocket-man-kate-bush": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Rocket Man",
+    "reference": "Kate Bush"
+  },
+  "rocket-queen-guns-n-roses": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rocket Queen",
+    "reference": "Guns N’ Roses"
+  },
+  "rocket-smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rocket",
+    "reference": "The Smashing Pumpkins"
+  },
+  "saturn-return-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Saturn Return",
+    "reference": "R.E.M."
+  },
+  "saturnalia-marilyn-manson": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Saturnalia",
+    "reference": "Marilyn Manson"
+  },
+  "set-controls-for-heart-of-sun-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Set the Controls for the Heart of the Sun",
+    "reference": "Pink Floyd"
+  },
+  "seven-stars-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Seven Stars",
+    "reference": "Air"
+  },
+  "sex-o-matic-venus-freak-macy-gray": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Sex-o-Matic Venus Freak",
+    "reference": "Macy Gray"
+  },
+  "shooting-rubberbands-at-stars-edie-brickell-new-bohemians": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Shooting Rubberbands at the Stars",
+    "reference": "Edie Brickell & New Bohemians"
+  },
+  "sixth-planet-from-sun-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Sixth Planet from the Sun",
+    "reference": "Nick Rhodes"
+  },
+  "sounds-of-universe-depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Sounds of the Universe",
+    "reference": "Depeche Mode"
+  },
+  "space-dog-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Space Dog",
+    "reference": "Tori Amos"
+  },
+  "space-oddity-david-bowie": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Space Oddity",
+    "reference": "David Bowie"
+  },
+  "spaceboy-smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Spaceboy",
+    "reference": "The Smashing Pumpkins"
+  },
+  "spacelab-kraftwerk": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Spacelab",
+    "reference": "Kraftwerk"
+  },
+  "spaceman-babylon-zoo": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Spaceman",
+    "reference": "Babylon Zoo"
+  },
+  "spaceman-dave-matthews-band": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Spaceman",
+    "reference": "Dave Matthews Band"
+  },
+  "spacewaker-depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Spacewaker",
+    "reference": "Depeche Mode"
+  },
+  "star-dust-dave-brubeck": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Star Dust",
+    "reference": "Dave Brubeck"
+  },
+  "star-of-wonder-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Star of Wonder",
+    "reference": "Tori Amos"
+  },
+  "star-sail-verve": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Star Sail",
+    "reference": "The Verve"
+  },
+  "staring-at-sun-u2": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Staring at the Sun",
+    "reference": "U2"
+  },
+  "stars-moby": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The Stars",
+    "reference": "Moby"
+  },
+  "sun-and-moon-and-stars-depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Sun and the Moon and the Stars",
+    "reference": "Depeche Mode"
+  },
+  "sun-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Sun",
+    "reference": "Live"
+  },
+  "surfing-on-a-rocket-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Surfing on a Rocket",
+    "reference": "Air"
+  },
+  "tales-of-a-scorched-earth-smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Tales of a Scorched Earth",
+    "reference": "The Smashing Pumpkins"
+  },
+  "three-sunrises-u2": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Three Sunrises",
+    "reference": "U2"
+  },
+  "to-venus-and-back-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "To Venus and Back",
+    "reference": "Tori Amos"
+  },
+  "two-planets-bat-for-lashes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Two Planets",
+    "reference": "Bat for Lashes"
+  },
+  "two-suns-bat-for-lashes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Two Suns",
+    "reference": "Bat for Lashes"
+  },
+  "two-suns-in-sunset-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Two Suns in the Sunset",
+    "reference": "Pink Floyd"
+  },
+  "universe-alone-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Universe Alone",
+    "reference": "Duran Duran"
+  },
+  "universe-listened-melissa-etheridge": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The Universe Listened",
+    "reference": "Melissa Etheridge"
+  },
+  "universe-savage-garden": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Universe",
+    "reference": "Savage Garden"
+  },
+  "uranus-sleeping-at-last": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Uranus",
+    "reference": "Sleeping at Last"
+  },
+  "venus-air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Venus",
+    "reference": "Air"
+  },
+  "venus-as-a-boy-bjork": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "name": "Venus as a Boy",
+    "reference": "Björk"
+  },
+  "venus-bananarama": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Venus",
+    "reference": "Bananarama"
+  },
+  "veronica-mars": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Veronica Mars"
+  },
+  "we-came-from-outer-space-pet-shop-boys": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "We Came From Outer Space",
+    "reference": "Pet Shop Boys"
+  },
+  "world-new-order": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "World",
+    "reference": "New Order"
+  },
+  "x-ray-flare-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "X-Ray Flare",
+    "reference": "Nick Rhodes"
+  }
+}

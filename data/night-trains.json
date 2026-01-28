@@ -1,0 +1,122 @@
+{
+  "--info--": {
+    "icon": "🛌",
+    "name": "Night Trains",
+    "size": "large",
+    "tags": ["no-links", "ordered"],
+    "type": "place"
+  },
+  "anatolian-express": {
+    "been": false,
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Anatolian_Express",
+    "name": "Anatolian Express",
+    "order": 8
+  },
+  "aurora-borealis-express": {
+    "been": false,
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Aurora_Borealis_Express",
+    "name": "Aurora Borealis Express",
+    "order": 9
+  },
+  "chicago-lamy": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago–Lamy",
+    "order": 1
+  },
+  "european-sleeper": {
+    "been": false,
+    "countries": ["FR", "DE"],
+    "icons": ["🇫🇷", "🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/European_Sleeper",
+    "name": "European Sleeper",
+    "order": 10
+  },
+  "international-express": {
+    "been": false,
+    "countries": ["TH", "MY"],
+    "icons": ["🇹🇭", "🇲🇾"],
+    "link": "https://en.wikipedia.org/wiki/International_Express",
+    "name": "International Express",
+    "order": 11
+  },
+  "lamy-los-angeles": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lamy–Los Angeles",
+    "order": 5
+  },
+  "ljubljana-zagreb-belgrade": {
+    "been": true,
+    "countries": ["SI", "HR", "RS"],
+    "icons": ["🇸🇮", "🇭🇷", "🇷🇸"],
+    "name": "Ljubljana–Zagreb-Belgrade",
+    "order": 6
+  },
+  "moscow-saint-petersburg": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Moscow–Saint Petersburg",
+    "order": 2
+  },
+  "obb-nightjet": {
+    "been": false,
+    "countries": ["AT", "EU"],
+    "icons": ["🇦🇹", "🇪🇺"],
+    "link": "https://en.wikipedia.org/wiki/Nightjet",
+    "name": "ÖBB Nightjet",
+    "order": 12
+  },
+  "orient-express": {
+    "been": false,
+    "countries": ["FR", "TR"],
+    "icons": ["🇫🇷", "🇹🇷"],
+    "link": "https://en.wikipedia.org/wiki/Orient_Express",
+    "name": "Orient Express",
+    "order": 13,
+    "strike": true
+  },
+  "riga-moscow": {
+    "been": true,
+    "countries": ["LV", "RU"],
+    "icons": ["🇱🇻", "🇷🇺"],
+    "name": "Riga–Moscow",
+    "order": 4
+  },
+  "saint-petersburg-talinn": {
+    "been": true,
+    "countries": ["RU", "EE"],
+    "icons": ["🇷🇺", "🇪🇪"],
+    "name": "Saint Petersburg–Talinn",
+    "order": 3
+  },
+  "sarajevo-zagreb-budapest": {
+    "been": true,
+    "countries": ["BA", "HR", "HU"],
+    "icons": ["🇧🇦", "🇭🇷", "🇭🇺"],
+    "name": "Sarajevo–Zagreb–Budapest",
+    "order": 7
+  },
+  "trans-siberian-railway": {
+    "been": false,
+    "countries": ["RU", "CN"],
+    "icons": ["🇷🇺", "🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Trans-Siberian_Railway",
+    "name": "Trans-Siberian Railway",
+    "order": 14
+  },
+  "washington-chicago": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Washington–Chicago",
+    "order": 0
+  }
+}

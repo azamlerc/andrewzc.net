@@ -1,0 +1,359 @@
+{
+  "--info--": {
+    "icon": "🐍",
+    "name": "Open Gangways",
+    "size": "medium",
+    "tags": ["no-coords", "prefix", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  "almaty-hyundai-rotem": {
+    "been": false,
+    "city": "Almaty",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "link": "https://en.wikipedia.org/wiki/Almaty_Metro",
+    "name": "Hyundai Rotem",
+    "prefix": "2010",
+    "reference": "Almaty"
+  },
+  "amsterdam-m5": {
+    "been": true,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/M5_(Amsterdam_Metro)",
+    "name": "M5",
+    "prefix": "2013",
+    "reference": "Amsterdam"
+  },
+  "baku-oka": {
+    "been": false,
+    "city": "Baku",
+    "country": "AZ",
+    "icons": ["🇦🇿"],
+    "link": "https://en.wikipedia.org/wiki/Baku_Metro#Rolling_stock",
+    "name": "Oka",
+    "prefix": "2015",
+    "reference": "Baku"
+  },
+  "barcelona-series-5000": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Línea_3_(Metro_de_Barcelona)#Material_rodante",
+    "name": "Series 5000",
+    "prefix": "2002",
+    "reference": "Barcelona"
+  },
+  "berlin-ik": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/BVG_Class_IK",
+    "name": "IK",
+    "prefix": "2015",
+    "reference": "Berlin"
+  },
+  "brussels-m6": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Métro_de_Bruxelles#Une_nouvelle_génération_de_matériel_roulant",
+    "name": "M6",
+    "prefix": "2007",
+    "reference": "Brussels"
+  },
+  "budapest-metropolis": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Alstom_Metropolis",
+    "name": "Metropolis",
+    "prefix": "2012",
+    "reference": "Budapest"
+  },
+  "buenos-aires-100-series": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "link": "https://en.wikipedia.org/wiki/Buenos_Aires_Underground_100_Series",
+    "name": "100 Series",
+    "prefix": "2004",
+    "reference": "Buenos Aires"
+  },
+  "dubai-5000-series": {
+    "been": true,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dubai_Metro#Rolling_stock",
+    "name": "5000 Series",
+    "prefix": "2009",
+    "reference": "Dubai"
+  },
+  "london-s-stock": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/London_Underground_S7_and_S8_Stock",
+    "name": "S Stock",
+    "prefix": "2010",
+    "reference": "London"
+  },
+  "madrid-series-7000": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Series_7000_y_9000",
+    "name": "Series 7000",
+    "prefix": "2002",
+    "reference": "Madrid"
+  },
+  "medellin-series-3": {
+    "been": true,
+    "city": "Medellín",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://en.wikipedia.org/wiki/Medellín_Metro#Rolling_stock",
+    "name": "Series 3",
+    "prefix": "2017",
+    "reference": "Medellín"
+  },
+  "mexico-city-fe-07": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-07",
+    "name": "FE-07",
+    "prefix": "2009",
+    "reference": "Mexico City"
+  },
+  "mexico-city-fe-10": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/FE-10",
+    "name": "FE-10",
+    "prefix": "2012",
+    "reference": "Mexico City"
+  },
+  "mexico-city-nm-02": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-02",
+    "name": "NM-02",
+    "prefix": "2004",
+    "reference": "Mexico City"
+  },
+  "mexico-city-nm-22": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/NM-22",
+    "name": "NM-22",
+    "prefix": "2024",
+    "reference": "Mexico City"
+  },
+  "montreal-mpm-10": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/MPM-10",
+    "name": "MPM-10",
+    "prefix": "2016",
+    "reference": "Montréal"
+  },
+  "moscow-81-765": {
+    "been": false,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/81-765_series",
+    "name": "81-765",
+    "prefix": "2016",
+    "reference": "Moscow"
+  },
+  "new-york-d-type-triplex": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/D-type_Triplex_(New_York_City_Subway_car)",
+    "name": "D-type Triplex",
+    "prefix": "1925",
+    "reference": "New York",
+    "strike": true
+  },
+  "new-york-r211t": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/R211_(New_York_City_Subway_car)",
+    "name": "R211T",
+    "prefix": "2024",
+    "reference": "New York"
+  },
+  "oslo-mx3000": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/OS_MX3000",
+    "name": "MX3000",
+    "prefix": "2007",
+    "reference": "Oslo"
+  },
+  "paris-mf-88": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/MF_88",
+    "name": "MF 88",
+    "prefix": "1993",
+    "reference": "Paris"
+  },
+  "paris-mp-89": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/MP_89",
+    "name": "MP 89",
+    "prefix": "1997",
+    "reference": "Paris"
+  },
+  "riyadh-inspiro": {
+    "been": false,
+    "city": "Riyadh",
+    "country": "SA",
+    "icons": ["🇸🇦"],
+    "link": "https://en.wikipedia.org/wiki/Siemens_Inspiro",
+    "name": "Inspiro",
+    "prefix": "2024",
+    "reference": "Riyadh"
+  },
+  "rome-ma-300": {
+    "been": false,
+    "city": "Rome",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://it.wikipedia.org/wiki/CAF_S/300",
+    "name": "MA-300",
+    "prefix": "2005",
+    "reference": "Rome"
+  },
+  "santiago-ns-93": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/NS_93",
+    "name": "NS 93",
+    "prefix": "1997",
+    "reference": "Santiago"
+  },
+  "santo-domingo-metropolis-9000": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "link": "https://es.wikipedia.org/wiki/Metro_de_Santo_Domingo#Material_rodante",
+    "name": "Metrópolis 9000",
+    "prefix": "2009",
+    "reference": "Santo Domingo"
+  },
+  "singapore-c151": {
+    "been": true,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "link": "https://en.wikipedia.org/wiki/Kawasaki_Heavy_Industries_C151",
+    "name": "C151",
+    "prefix": "1987",
+    "reference": "Singapore"
+  },
+  "stockholm-c20": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/SL_C20",
+    "name": "C20",
+    "prefix": "1998",
+    "reference": "Stockholm"
+  },
+  "sydney-metropolis": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "https://en.wikipedia.org/wiki/Sydney_Metro_Metropolis_Stock",
+    "name": "Metropolis",
+    "prefix": "2019",
+    "reference": "Sydney"
+  },
+  "taskkent-moskva": {
+    "been": false,
+    "country": "UZ",
+    "icons": ["🇺🇿"],
+    "link": "https://en.wikipedia.org/wiki/Tashkent_Metro#Rolling_stock",
+    "name": "Moskva",
+    "prefix": "2020",
+    "reference": "Taskkent"
+  },
+  "tokyo-05-series": {
+    "been": false,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Tokyo_Metro_05_series",
+    "name": "05 Series",
+    "prefix": "1993",
+    "reference": "Tokyo"
+  },
+  "toronto-rocket": {
+    "been": true,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Toronto_Rocket",
+    "name": "Rocket",
+    "prefix": "2010",
+    "reference": "Toronto"
+  },
+  "vancouver-art-mark-iii": {
+    "been": false,
+    "city": "Vancouver",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Bombardier_Innovia_Metro",
+    "name": "ART Mark III",
+    "prefix": "2016",
+    "reference": "Vancouver"
+  },
+  "vienna-v-type": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Siemens_Modular_Metro",
+    "name": "V Type",
+    "prefix": "2002",
+    "reference": "Vienna"
+  }
+}

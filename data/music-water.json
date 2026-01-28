@@ -1,0 +1,661 @@
+{
+  "--info--": {
+    "icon": "🌊",
+    "name": "Music Water",
+    "size": "medium",
+    "tags": ["no-links", "people", "reference-key"],
+    "type": "place"
+  },
+  "-aqua": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Aqua"
+  },
+  "-tears-for-fears": {
+    "badges": ["🇬🇧"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Tears for Fears"
+  },
+  "-toad-wet-sprocket": {
+    "badges": ["🇺🇸"],
+    "been": true,
+    "icons": [],
+    "name": "",
+    "reference": "Toad the Wet Sprocket"
+  },
+  "1000-oceans-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "1000 Oceans",
+    "reference": "Tori Amos"
+  },
+  "across-river-peter-gabriel": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Across the River",
+    "reference": "Peter Gabriel"
+  },
+  "after-rain-has-fallen-sting": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "After the Rain Has Fallen",
+    "reference": "Sting"
+  },
+  "belgium-in-rain-hooverphonic": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Belgium in the Rain",
+    "reference": "Hooverphonic"
+  },
+  "black-lake-bjork": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "name": "Black Lake",
+    "reference": "Björk"
+  },
+  "black-water-lilies-aurora": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Black Water Lilies",
+    "reference": "Aurora"
+  },
+  "bridge-over-troubled-water-johnny-cash": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bridge Over Troubled Water",
+    "reference": "Johnny Cash"
+  },
+  "bridge-over-troubled-water-paul-simon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bridge Over Troubled Water",
+    "reference": "Paul Simon"
+  },
+  "bring-me-some-water-melissa-etheridge": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Bring Me Some Water",
+    "reference": "Melissa Etheridge"
+  },
+  "come-hell-or-high-water-poison": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Come Hell or High Water",
+    "reference": "Poison"
+  },
+  "cool-cool-river-paul-simon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The Cool, Cool River",
+    "reference": "Paul Simon",
+    "state": "Cool River"
+  },
+  "crater-lake-liz-phair": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Crater Lake",
+    "reference": "Liz Phair"
+  },
+  "cry-me-a-river-justin-timberlake": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cry Me a River",
+    "reference": "Justin Timberlake"
+  },
+  "dam-at-otter-creek-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The Dam at Otter Creek",
+    "reference": "Live"
+  },
+  "deal-sea-diver-bat-for-lashes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Deal Sea Diver",
+    "reference": "Bat For Lashes"
+  },
+  "dont-drink-water-dave-matthews-band": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Don’t Drink the Water",
+    "reference": "Dave Matthews Band"
+  },
+  "down-by-seaside-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Down by the Seaside",
+    "reference": "Tori Amos"
+  },
+  "down-to-river-to-pray-alison-krauss": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Down to the River to Pray",
+    "reference": "Alison Krauss"
+  },
+  "down-to-waterline-dire-straits": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Down to the Waterline",
+    "reference": "Dire Straits"
+  },
+  "echoes-in-rain-enya": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Echoes in Rain",
+    "reference": "Enya"
+  },
+  "endless-river-pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Endless River",
+    "reference": "Pink Floyd"
+  },
+  "english-summer-rain-placebo": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "English Summer Rain",
+    "reference": "Placebo"
+  },
+  "feel-quiet-river-rage-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Feel the Quiet River Rage",
+    "reference": "Live"
+  },
+  "find-river-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Find the River",
+    "reference": "R.E.M."
+  },
+  "god-moving-over-face-of-water-moby": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "God Moving Over the Face of the Water",
+    "reference": "Moby"
+  },
+  "have-you-ever-seen-rain-creedence-clearwater-revival": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Have You Ever Seen the Rain",
+    "reference": "Creedence Clearwater Revival"
+  },
+  "here-comes-rain-again-annie-lennox": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Here Comes the Rain Again",
+    "reference": "Annie Lennox"
+  },
+  "hold-back-rain-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Hold Back the Rain",
+    "reference": "Duran Duran"
+  },
+  "horse-to-water-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Horse to Water",
+    "reference": "R.E.M."
+  },
+  "i-cant-stand-rain-peebles": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "I Can’t Stand the Rain",
+    "reference": "Peebles"
+  },
+  "ill-take-rain-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "I’ll Take the Rain",
+    "reference": "R.E.M."
+  },
+  "its-raining-men-weather-girls": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "It’s Raining Men",
+    "reference": "The Weather Girls"
+  },
+  "jump-in-river-sinead-oconnor": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Jump in the River",
+    "reference": "Sinéad O’Connor"
+  },
+  "lake-of-fire-nirvana": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Lake of Fire",
+    "reference": "Nirvana"
+  },
+  "lake-shore-driving-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Lake Shore Driving",
+    "reference": "Duran Duran"
+  },
+  "lake-tahoe-kate-bush": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Lake Tahoe",
+    "reference": "Kate Bush"
+  },
+  "love-sea-alphabeat": {
+    "been": true,
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "name": "Love Sea",
+    "reference": "Alphabeat"
+  },
+  "loves-great-ocean-kd-lang": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Love’s Great Ocean",
+    "reference": "k.d. lang"
+  },
+  "make-it-rain-klf": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Make It Rain",
+    "reference": "The KLF"
+  },
+  "naked-in-rain-red-hot-chili-peppers": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Naked in the Rain",
+    "reference": "Red Hot Chili Peppers"
+  },
+  "no-rain-blind-melon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "No Rain",
+    "reference": "Blind Melon"
+  },
+  "november-rain-guns-n-roses": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "November Rain",
+    "reference": "Guns N’ Roses"
+  },
+  "ocean-led-zeppelin": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Ocean",
+    "reference": "Led Zeppelin"
+  },
+  "oceans-evanescence": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Oceans",
+    "reference": "Evanescence"
+  },
+  "oceans-of-titan-nick-rhodes": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Oceans of Titan",
+    "reference": "Nick Rhodes"
+  },
+  "oceans-pearl-jam": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Oceans",
+    "reference": "Pearl Jam"
+  },
+  "only-happy-when-it-rains-garbage": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Only Happy When It Rains",
+    "reference": "Garbage"
+  },
+  "orinoco-flow-enya": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Orinoco Flow",
+    "reference": "Enya"
+  },
+  "pain-lies-on-riverside-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Pain Lies on the Riverside",
+    "reference": "Live"
+  },
+  "pandoras-aquarium-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Pandora’s Aquarium",
+    "reference": "Tori Amos"
+  },
+  "peace-like-a-river-paul-simon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Peace Like a River",
+    "reference": "Paul Simon"
+  },
+  "porcelain-of-vast-oceans-smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Porcelain of the Vast Oceans",
+    "reference": "The Smashing Pumpkins"
+  },
+  "power-river-violet-indiana": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Power River",
+    "reference": "Violet Indiana"
+  },
+  "rain-beatles": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Rain",
+    "reference": "The Beatles"
+  },
+  "rain-king-counting-crows": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rain King",
+    "reference": "Counting Crows"
+  },
+  "rain-madonna": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rain",
+    "reference": "Madonna"
+  },
+  "rain-on-me-lady-gaga": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Rain On Me",
+    "reference": "Lady Gaga"
+  },
+  "rain-song-led-zeppelin": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Rain Song",
+    "reference": "Led Zeppelin"
+  },
+  "raining-again-moby": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Raining Again",
+    "reference": "Moby"
+  },
+  "raining-blood-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Raining Blood",
+    "reference": "Tori Amos"
+  },
+  "raining-in-baltimore-counting-crows": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Raining in Baltimore",
+    "reference": "Counting Crows"
+  },
+  "raining-in-my-heart-cranberries": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Raining in My Heart",
+    "reference": "The Cranberries"
+  },
+  "red-rain-peter-gabriel": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Red Rain",
+    "reference": "Peter Gabriel"
+  },
+  "rio-duran-duran": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Rio",
+    "reference": "Duran Duran"
+  },
+  "river-deep-mountain-high-annie-lennox": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "River Deep Mountain High",
+    "reference": "Annie Lennox"
+  },
+  "river-enya": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "River",
+    "reference": "Enya"
+  },
+  "river-in-reverse-elvis-costello": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The River in Reverse",
+    "reference": "Elvis Costello"
+  },
+  "river-is-wild-killers": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The River is Wild",
+    "reference": "The Killers"
+  },
+  "river-joni-mitchell": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "River",
+    "reference": "Joni Mitchell"
+  },
+  "river-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The River",
+    "reference": "Live"
+  },
+  "river-of-dreams-billy-joel": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "The River of Dreams",
+    "reference": "Billy Joel"
+  },
+  "river-town-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "River Town",
+    "reference": "Live"
+  },
+  "rivers-of-belief-enigma": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "The Rivers of Belief",
+    "reference": "Enigma"
+  },
+  "rivers-of-love-sarah-mclachlan": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Rivers of Love",
+    "reference": "Sarah McLachlan"
+  },
+  "riverwide-sheryl-crow": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Riverwide",
+    "reference": "Sheryl Crow"
+  },
+  "run-to-water-live": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Run to the Water",
+    "reference": "Live"
+  },
+  "sea-refuses-no-river-pete-townsend": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "The Sea Refuses No River",
+    "reference": "Pete Townsend"
+  },
+  "september-in-rain-annie-lennox": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "September in the Rain",
+    "reference": "Annie Lennox"
+  },
+  "shattering-sea-tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Shattering Sea",
+    "reference": "Tori Amos"
+  },
+  "silver-springs-fleetwood-mac": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Silver Springs",
+    "reference": "Fleetwood Mac"
+  },
+  "slippery-when-wet-bon-jovi": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Slippery When Wet",
+    "reference": "Bon Jovi"
+  },
+  "so-central-rain-rem": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "So. Central Rain",
+    "reference": "R.E.M."
+  },
+  "standing-in-shower…-thinking-janes-addiction": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Standing in the Shower… Thinking",
+    "reference": "Jane’s Addiction"
+  },
+  "still-rainin-jonny-lang": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Still Rainin’",
+    "reference": "Jonny Lang"
+  },
+  "take-me-to-water-nina-simone": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Take Me to the Water",
+    "reference": "Nina Simone"
+  },
+  "walk-on-water-aerosmith": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Walk on Water",
+    "reference": "Aerosmith"
+  },
+  "washing-of-water-peter-gabriel": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Washing of the Water",
+    "reference": "Peter Gabriel"
+  },
+  "watermark-enya": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "name": "Watermark",
+    "reference": "Enya"
+  },
+  "weather-experience-prodigy": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "Weather Experience",
+    "reference": "The Prodigy"
+  },
+  "what-water-gave-me-florence-+-machine": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "What the Water Gave Me",
+    "reference": "Florence + the Machine"
+  }
+}

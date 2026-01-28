@@ -1,0 +1,629 @@
+{
+  "--info--": {
+    "icon": "📛",
+    "name": "Place Names",
+    "size": "medium",
+    "tags": ["n"],
+    "type": "place"
+  },
+  "almaty": {
+    "been": false,
+    "city": "Almaty",
+    "coords": "43.23333333, 76.95000000",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "info": "/ Alma-Ata",
+    "link": "https://en.wikipedia.org/wiki/Almaty",
+    "name": "Almaty"
+  },
+  "astana": {
+    "been": false,
+    "coords": "51.13333333, 71.43333333",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "info": "/ Nur-Sultan",
+    "link": "https://en.wikipedia.org/wiki/Astana",
+    "name": "Astana"
+  },
+  "beijing": {
+    "been": false,
+    "city": "Beijing",
+    "coords": "39.90666667, 116.39750000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "info": "/ Peking",
+    "link": "https://en.wikipedia.org/wiki/Beijing",
+    "name": "Beijing"
+  },
+  "bengaluru": {
+    "been": true,
+    "city": "Bengaluru",
+    "coords": "12.97888889, 77.59166667",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "info": "/ Bengaluru",
+    "link": "https://en.wikipedia.org/wiki/Bengaluru",
+    "name": "Bengaluru"
+  },
+  "bishkek": {
+    "been": false,
+    "coords": "42.87472222, 74.61222222",
+    "country": "KG",
+    "icons": ["🇰🇬"],
+    "info": "/ Frunze",
+    "link": "https://en.wikipedia.org/wiki/Bishkek",
+    "name": "Bishkek"
+  },
+  "cape-verde": {
+    "been": true,
+    "city": "Praia",
+    "coords": "14.91638889, -23.50944444",
+    "country": "CV",
+    "icons": ["🇨🇻"],
+    "info": "/ Cabo Verde",
+    "link": "https://en.wikipedia.org/wiki/Cape_Verde",
+    "name": "Cape Verde"
+  },
+  "chemnitz": {
+    "been": true,
+    "coords": "50.83333333, 12.91666667",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "info": "/ Karl-Marx-Stadt",
+    "link": "https://en.wikipedia.org/wiki/Chemnitz",
+    "name": "Chemnitz"
+  },
+  "chennai": {
+    "been": false,
+    "coords": "13.0825, 80.275",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "info": "/ Madras",
+    "link": "https://en.wikipedia.org/wiki/Chennai",
+    "name": "Chennai",
+    "wikidata": "Q1352"
+  },
+  "chisinau": {
+    "been": true,
+    "city": "Chișinău",
+    "coords": "47.02277778, 28.83527778",
+    "country": "MD",
+    "icons": ["🇲🇩"],
+    "info": "/ Kishinyov",
+    "link": "https://en.wikipedia.org/wiki/Chișinău",
+    "name": "Chișinău"
+  },
+  "cote-divoire": {
+    "been": false,
+    "coords": "6.85000000, -5.30000000",
+    "country": "CI",
+    "icons": ["🇨🇮"],
+    "info": "/ Ivory Coast",
+    "link": "https://en.wikipedia.org/wiki/C%C3%B4te_d%27Ivoire",
+    "name": "Côte d’Ivoire"
+  },
+  "czechia": {
+    "been": true,
+    "city": "Prague",
+    "coords": "50.08333333, 14.46666667",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "info": "/ Czech Republic",
+    "link": "https://en.wikipedia.org/wiki/Name_of_the_Czech_Republic",
+    "name": "Czechia",
+    "wikidata": "Q3342946"
+  },
+  "daugavpils": {
+    "been": true,
+    "coords": "55.87500000, 26.53555556",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "info": "/ Dvinsk",
+    "link": "https://en.wikipedia.org/wiki/Daugavpils",
+    "name": "Daugavpils"
+  },
+  "den-haag": {
+    "been": true,
+    "city": "Den Haag",
+    "coords": "52.08, 4.31",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "info": "/ The Hague",
+    "link": "https://nl.wikipedia.org/wiki/Den_Haag",
+    "name": "Den Haag",
+    "wikidata": "Q36600"
+  },
+  "denali": {
+    "been": false,
+    "coords": "63.06916667, -151.00638889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "/ Mount McKinley",
+    "link": "https://en.wikipedia.org/wiki/Denali%E2%80%93Mount_McKinley_naming_dispute",
+    "name": "Denali",
+    "wikidata": "Q5256579"
+  },
+  "dnipro": {
+    "been": false,
+    "coords": "48.46750000, 35.04000000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Dnipropetrovsk",
+    "link": "https://en.wikipedia.org/wiki/Dnipro",
+    "name": "Dnipro"
+  },
+  "eswatini": {
+    "been": false,
+    "coords": "-26.50000000, 31.50000000",
+    "country": "SZ",
+    "icons": ["🇸🇿"],
+    "info": "/ Swaziland",
+    "link": "https://en.wikipedia.org/wiki/Eswatini",
+    "name": "Eswatini"
+  },
+  "falklands": {
+    "been": false,
+    "coords": "-51.69527778, -57.84944444",
+    "country": "FK",
+    "icons": ["🇫🇰"],
+    "info": "/ Islas Malvinas",
+    "link": "https://en.wikipedia.org/wiki/Falkland_Islands",
+    "name": "Falklands"
+  },
+  "guangdong": {
+    "been": true,
+    "coords": "23.40000000, 113.50000000",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "info": "/ Canton",
+    "link": "https://en.wikipedia.org/wiki/Guangdong",
+    "name": "Guangdong"
+  },
+  "gulf-of-mexico": {
+    "been": true,
+    "coords": "25.00000000, -90.00000000",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "/ Gulf of America",
+    "link": "https://en.wikipedia.org/wiki/Gulf_of_Mexico#Gulf_of_America",
+    "name": "Gulf of Mexico"
+  },
+  "ho-chi-minh-city": {
+    "been": false,
+    "city": "Ho Chi Minh City",
+    "coords": "10.77555556, 106.70194444",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "info": "/ Saigon",
+    "link": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+    "name": "Ho Chi Minh City"
+  },
+  "istanbul": {
+    "been": true,
+    "city": "Istanbul",
+    "coords": "41.01361111, 28.95500000",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "info": "/ Byzantium / Constantinople",
+    "link": "https://en.wikipedia.org/wiki/Istanbul",
+    "name": "Istanbul"
+  },
+  "ivano-frankivsk": {
+    "been": true,
+    "coords": "48.92277778, 24.71055556",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Stanislav",
+    "link": "https://en.wikipedia.org/wiki/Ivano-Frankivsk",
+    "name": "Ivano-Frankivsk"
+  },
+  "kaliningrad": {
+    "been": false,
+    "coords": "54.70027778, 20.45305556",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Königsberg",
+    "link": "https://en.wikipedia.org/wiki/Kaliningrad",
+    "name": "Kaliningrad"
+  },
+  "kazakhstan": {
+    "been": false,
+    "coords": "51.13333333, 71.43333333",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "info": "/ Qazaqstan",
+    "link": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "name": "Kazakhstan"
+  },
+  "khujand": {
+    "been": false,
+    "coords": "40.279444444444444, 69.63194444444444",
+    "country": "TJ",
+    "icons": ["🇹🇯"],
+    "info": "/ Leninabad",
+    "link": "https://en.wikipedia.org/wiki/Khujand",
+    "name": "Khujand",
+    "wikidata": "Q373808"
+  },
+  "klaipeda": {
+    "been": true,
+    "coords": "55.71250000, 21.13500000",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "info": "/ Memel",
+    "link": "https://en.wikipedia.org/wiki/Klaipėda",
+    "name": "Klaipėda"
+  },
+  "kolkata": {
+    "been": false,
+    "city": "Kolkata",
+    "coords": "22.5675, 88.37",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "info": "/ Calcutta",
+    "link": "https://en.wikipedia.org/wiki/Kolkata",
+    "name": "Kolkata",
+    "wikidata": "Q1348"
+  },
+  "kropyvnytskyi": {
+    "been": false,
+    "coords": "48.50000000, 32.26666667",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Kirovohrad",
+    "link": "https://en.wikipedia.org/wiki/Kropyvnytskyi",
+    "name": "Kropyvnytskyi"
+  },
+  "kyiv": {
+    "been": false,
+    "city": "Kyiv",
+    "coords": "50.45000000, 30.52333333",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Kiev",
+    "link": "https://en.wikipedia.org/wiki/Kyiv",
+    "name": "Kyiv"
+  },
+  "luhansk": {
+    "been": false,
+    "coords": "48.56777778, 39.30305556",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Voroshilovgrad",
+    "link": "https://en.wikipedia.org/wiki/Luhansk",
+    "name": "Luhansk"
+  },
+  "luke": {
+    "been": true,
+    "coords": "39.47555556, -79.05777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "/ West Piedmont",
+    "link": "https://en.wikipedia.org/wiki/Luke,_Maryland",
+    "name": "Luke"
+  },
+  "lviv": {
+    "been": true,
+    "coords": "49.84250000, 24.03222222",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ Lvov / Lwów",
+    "link": "https://en.wikipedia.org/wiki/Lviv",
+    "name": "Lviv"
+  },
+  "mons": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "info": "/ Bergen",
+    "link": "https://en.wikipedia.org/wiki/Mons",
+    "name": "Mons",
+    "wikidata": "Q429088"
+  },
+  "mumbai": {
+    "been": false,
+    "city": "Mumbai",
+    "coords": "19.07611111, 72.87750000",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "info": "/ Bombay",
+    "link": "https://en.wikipedia.org/wiki/Mumbai",
+    "name": "Mumbai"
+  },
+  "myanmar": {
+    "been": false,
+    "coords": "21.00000000, 96.00000000",
+    "country": "MM",
+    "icons": ["🇲🇲"],
+    "info": "/ Burma",
+    "link": "https://en.wikipedia.org/wiki/Names_of_Myanmar",
+    "name": "Myanmar"
+  },
+  "new-york": {
+    "been": true,
+    "city": "New York",
+    "coords": "43.0, -75.0",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "/ New Amsterdam",
+    "link": "https://en.wikipedia.org/wiki/New_York",
+    "name": "New York",
+    "wikidata": "Q1384"
+  },
+  "nizhny-novgorod": {
+    "been": false,
+    "city": "Nizhny Novgorod",
+    "coords": "56.32694444, 44.00750000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Gorky",
+    "link": "https://en.wikipedia.org/wiki/Nizhny_Novgorod",
+    "name": "Nizhny Novgorod"
+  },
+  "north-macedonia": {
+    "been": true,
+    "city": "Skopje",
+    "coords": "42.00000000, 21.43333333",
+    "country": "MK",
+    "icons": ["🇲🇰"],
+    "info": "/ Macedonia",
+    "link": "https://en.wikipedia.org/wiki/Macedonia_naming_dispute",
+    "name": "North Macedonia",
+    "wikidata": "Q1139479"
+  },
+  "nuuk": {
+    "been": false,
+    "coords": "64.17666667, -51.73611111",
+    "country": "GL",
+    "icons": ["🇬🇱"],
+    "info": "/ Godthåb",
+    "link": "https://en.wikipedia.org/wiki/Nuuk",
+    "name": "Nuuk"
+  },
+  "palestine": {
+    "been": true,
+    "coords": "32.00000000, 35.25000000",
+    "country": "PS",
+    "icons": ["🇵🇸"],
+    "info": "/ West Bank",
+    "link": "https://en.wikipedia.org/wiki/Palestine",
+    "name": "Palestine"
+  },
+  "pamplona": {
+    "been": true,
+    "coords": "42.81666667, -1.65000000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "/ Iruña",
+    "link": "https://en.wikipedia.org/wiki/Pamplona",
+    "name": "Pamplona"
+  },
+  "persian-gulf": {
+    "been": true,
+    "coords": "26.00000000, 52.00000000",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "info": "/ Arabian Gulf",
+    "link": "https://en.wikipedia.org/wiki/Persian_Gulf_naming_dispute",
+    "name": "Persian Gulf",
+    "wikidata": "Q1710822"
+  },
+  "plzen": {
+    "been": true,
+    "city": "Plzeň",
+    "coords": "49.74750000, 13.37750000",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "info": "/ Pilsen",
+    "link": "https://en.wikipedia.org/wiki/Plze%C5%88",
+    "name": "Plzeň"
+  },
+  "pune": {
+    "been": false,
+    "city": "Pune",
+    "coords": "18.52027778, 73.85666667",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "info": "/ Poona",
+    "link": "https://en.wikipedia.org/wiki/Pune",
+    "name": "Pune"
+  },
+  "saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "coords": "59.93750000, 30.30861111",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Leningrad",
+    "link": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+    "name": "Saint Petersburg"
+  },
+  "samara": {
+    "been": false,
+    "coords": "53.20277778, 50.14083333",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Kuybyshev",
+    "link": "https://en.wikipedia.org/wiki/Samara",
+    "name": "Samara"
+  },
+  "san-sebastian": {
+    "been": true,
+    "coords": "43.32138889, -1.98555556",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "/ Donostia",
+    "link": "https://en.wikipedia.org/wiki/San_Sebastián",
+    "name": "San Sebastián"
+  },
+  "sea-of-japan": {
+    "been": true,
+    "coords": "40.00000000, 135.00000000",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "info": "/ East Sea",
+    "link": "https://en.wikipedia.org/wiki/Sea_of_Japan_naming_dispute",
+    "name": "Sea of Japan",
+    "wikidata": "Q488662"
+  },
+  "semey": {
+    "been": false,
+    "coords": "50.43333333, 80.26666667",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "info": "/ Semipalatinsk",
+    "link": "https://en.wikipedia.org/wiki/Semey",
+    "name": "Semey"
+  },
+  "staines": {
+    "been": true,
+    "coords": "51.43400000, -0.51100000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "/ Staines-upon-Thames",
+    "link": "https://en.wikipedia.org/wiki/Staines-upon-Thames",
+    "name": "Staines"
+  },
+  "taiwan": {
+    "been": false,
+    "coords": "23.80000000, 121.00000000",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "info": "/ Chinese Taipei",
+    "link": "https://en.wikipedia.org/wiki/Taiwan_Province",
+    "name": "Taiwan"
+  },
+  "timor-leste": {
+    "been": false,
+    "coords": "-8.55000000, 125.56000000",
+    "country": "TL",
+    "icons": ["🇹🇱"],
+    "info": "/ East Timor",
+    "link": "https://en.wikipedia.org/wiki/Timor-Leste",
+    "name": "Timor-Leste"
+  },
+  "turkey": {
+    "been": true,
+    "city": "Ankara",
+    "coords": "39.91666667, 32.85000000",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "info": "/ Türkiye",
+    "link": "https://en.wikipedia.org/wiki/Turkey",
+    "name": "Turkey"
+  },
+  "tver": {
+    "been": false,
+    "coords": "56.86250000, 35.92416667",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Kalinin",
+    "link": "https://en.wikipedia.org/wiki/Tver",
+    "name": "Tver"
+  },
+  "ukraine": {
+    "been": true,
+    "city": "Kyiv",
+    "coords": "50.45000000, 30.51666667",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "info": "/ The Ukraine",
+    "link": "https://en.wikipedia.org/wiki/Name_of_Ukraine",
+    "name": "Ukraine",
+    "wikidata": "Q2056436"
+  },
+  "ulyanovsk": {
+    "been": false,
+    "coords": "54.31666667, 48.36666667",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Simbirsk",
+    "link": "https://en.wikipedia.org/wiki/Ulyanovsk",
+    "name": "Ulyanovsk"
+  },
+  "utqiagvik": {
+    "been": false,
+    "coords": "71.29055556, -156.78861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "/ Barrow",
+    "link": "https://en.wikipedia.org/wiki/Utqia%C4%A1vik",
+    "name": "Utqiaġvik"
+  },
+  "vanuatu": {
+    "been": true,
+    "coords": "-16.633330555556, 168.01666944444",
+    "country": "VU",
+    "icons": ["🇻🇺"],
+    "info": "/ New Hebredies",
+    "link": "https://en.wikipedia.org/wiki/Vanuatu",
+    "name": "Vanuatu",
+    "wikidata": "Q686"
+  },
+  "vilnius": {
+    "been": true,
+    "city": "Vilnius",
+    "coords": "54.68722222, 25.28000000",
+    "country": "LT",
+    "icons": ["🇱🇹"],
+    "info": "/ Wilno",
+    "link": "https://en.wikipedia.org/wiki/Vilnius",
+    "name": "Vilnius"
+  },
+  "vitoria": {
+    "been": true,
+    "coords": "42.85000000, -2.68333333",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "info": "/ Gasteiz",
+    "link": "https://en.wikipedia.org/wiki/Vitoria-Gasteiz",
+    "name": "Vitoria"
+  },
+  "volgograd": {
+    "been": false,
+    "coords": "48.70861111, 44.51472222",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Stalingrad",
+    "link": "https://en.wikipedia.org/wiki/Volgograd",
+    "name": "Volgograd"
+  },
+  "winchester": {
+    "been": true,
+    "coords": "39.18333333, -78.16666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "/ Frederick Town",
+    "link": "https://en.wikipedia.org/wiki/Winchester,_Virginia",
+    "name": "Winchester"
+  },
+  "yekaterinburg": {
+    "been": false,
+    "coords": "56.83555556, 60.61277778",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "/ Sverdlovsk",
+    "link": "https://en.wikipedia.org/wiki/Ekaterinburg",
+    "name": "Yekaterinburg"
+  },
+  "zambia": {
+    "been": false,
+    "city": "Ho Chi Minh City",
+    "coords": "10.77555556, 106.70194444",
+    "country": "ZM",
+    "icons": ["🇿🇲"],
+    "info": "/ Northern Rhodesia",
+    "link": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+    "name": "Zambia"
+  },
+  "zimbabwe": {
+    "been": false,
+    "city": "Ho Chi Minh City",
+    "coords": "10.77555556, 106.70194444",
+    "country": "ZW",
+    "icons": ["🇿🇼"],
+    "info": "/ Rhodesia",
+    "link": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+    "name": "Zimbabwe"
+  }
+}

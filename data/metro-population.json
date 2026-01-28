@@ -1,0 +1,1368 @@
+{
+  "--info--": {
+    "header": "Thousands of people per metro station.",
+    "icon": "🧑‍🧑‍🧒‍🧒",
+    "name": "Metro Population",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  "agra": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Agra",
+    "prefix": "265.0"
+  },
+  "ahmedabad": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Ahmedabad",
+    "prefix": "264.1"
+  },
+  "algiers": {
+    "been": false,
+    "city": "Algiers",
+    "country": "DZ",
+    "icons": ["🇩🇿"],
+    "name": "Algiers",
+    "prefix": "210.5"
+  },
+  "almaty": {
+    "been": false,
+    "city": "Almaty",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "name": "Almaty",
+    "prefix": "181.8"
+  },
+  "amsterdam": {
+    "been": true,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Amsterdam",
+    "prefix": "64.10"
+  },
+  "ankara": {
+    "been": false,
+    "city": "Ankara",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "name": "Ankara",
+    "prefix": "100.0"
+  },
+  "athens": {
+    "been": false,
+    "city": "Athens",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "name": "Athens",
+    "prefix": "48.48"
+  },
+  "atlanta": {
+    "been": false,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Atlanta",
+    "prefix": "160.5"
+  },
+  "baku": {
+    "been": false,
+    "city": "Baku",
+    "country": "AZ",
+    "icons": ["🇦🇿"],
+    "name": "Baku",
+    "prefix": "87.78"
+  },
+  "baltimore": {
+    "been": false,
+    "city": "Baltimore",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Baltimore",
+    "prefix": "200.0"
+  },
+  "bangkok": {
+    "been": false,
+    "city": "Bangkok",
+    "country": "TH",
+    "icons": ["🇹🇭"],
+    "name": "Bangkok",
+    "prefix": "275.5"
+  },
+  "barcelona": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Barcelona",
+    "prefix": "29.84"
+  },
+  "beijing": {
+    "been": false,
+    "city": "Beijing",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Beijing",
+    "prefix": "47.71"
+  },
+  "bengaluru": {
+    "been": true,
+    "city": "Bengaluru",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Bengaluru",
+    "prefix": "329.8"
+  },
+  "berlin": {
+    "been": true,
+    "city": "Berlin",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Berlin",
+    "prefix": "35.49"
+  },
+  "bilbao": {
+    "been": true,
+    "city": "Bilbao",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Bilbao",
+    "prefix": "20.83"
+  },
+  "boston": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Boston",
+    "prefix": "92.45"
+  },
+  "brussels": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "name": "Brussels",
+    "prefix": "43.39"
+  },
+  "bucharest": {
+    "been": false,
+    "city": "Bucharest",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "name": "Bucharest",
+    "prefix": "36.51"
+  },
+  "budapest": {
+    "been": true,
+    "city": "Budapest",
+    "country": "RO",
+    "icons": ["🇷🇴"],
+    "name": "Budapest",
+    "prefix": "63.46"
+  },
+  "buenos-aires": {
+    "been": false,
+    "city": "Buenos Aires",
+    "country": "AR",
+    "icons": ["🇦🇷"],
+    "name": "Buenos Aires",
+    "prefix": "166.7"
+  },
+  "busan": {
+    "been": true,
+    "city": "Busan",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "name": "Busan",
+    "prefix": "61.40"
+  },
+  "cairo": {
+    "been": true,
+    "city": "Cairo",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "name": "Cairo",
+    "prefix": "353.1"
+  },
+  "caracas": {
+    "been": false,
+    "country": "VE",
+    "icons": ["🇻🇪"],
+    "name": "Caracas",
+    "prefix": "61.25"
+  },
+  "catania": {
+    "been": false,
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Catania",
+    "prefix": "100.0"
+  },
+  "changchun": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Changchun",
+    "prefix": "58.02"
+  },
+  "changsha": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Changsha",
+    "prefix": "56.08"
+  },
+  "changzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Changzhou",
+    "prefix": "65.56"
+  },
+  "chengdu": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Chengdu",
+    "prefix": "56.03"
+  },
+  "chennai": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Chennai",
+    "prefix": "274.5"
+  },
+  "chicago": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Chicago",
+    "prefix": "64.00"
+  },
+  "chongqing": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Chongqing",
+    "prefix": "84.32"
+  },
+  "cleveland": {
+    "been": true,
+    "city": "Cleveland",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Cleveland",
+    "prefix": "113.9"
+  },
+  "copenhagen": {
+    "been": false,
+    "city": "Copenhagen",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "name": "Copenhagen",
+    "prefix": "51.28"
+  },
+  "dalian": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Dalian",
+    "prefix": "47.86"
+  },
+  "delhi": {
+    "been": false,
+    "city": "Delhi",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Delhi",
+    "prefix": "108.4"
+  },
+  "dhaka": {
+    "been": false,
+    "city": "Dhaka",
+    "country": "BD",
+    "icons": ["🇧🇩"],
+    "name": "Dhaka",
+    "prefix": "1405"
+  },
+  "dnipro": {
+    "been": false,
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Dnipro",
+    "prefix": "163.3"
+  },
+  "doha": {
+    "been": false,
+    "city": "Doha",
+    "country": "QA",
+    "icons": ["🇶🇦"],
+    "name": "Doha",
+    "prefix": "64.32"
+  },
+  "dongguan": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Dongguan",
+    "prefix": "698.0"
+  },
+  "dubai": {
+    "been": true,
+    "city": "Dubai",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "name": "Dubai",
+    "prefix": "67.96"
+  },
+  "foshan": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Foshan",
+    "prefix": "95.00"
+  },
+  "frankfurt": {
+    "been": false,
+    "city": "Frankfurt",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Frankfurt",
+    "prefix": "65.12"
+  },
+  "fukuoka": {
+    "been": false,
+    "city": "Fukuoka",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Fukuoka",
+    "prefix": "71.43"
+  },
+  "fuzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Fuzhou",
+    "prefix": "55.00"
+  },
+  "genoa": {
+    "been": false,
+    "city": "Genoa",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Genoa",
+    "prefix": "187.5"
+  },
+  "glasgow": {
+    "been": false,
+    "city": "Glasgow",
+    "country": "GB-SCT",
+    "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "name": "Glasgow",
+    "prefix": "120.0"
+  },
+  "guadalajara": {
+    "been": false,
+    "city": "Guadalajara",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "name": "Guadalajara",
+    "prefix": "109.8"
+  },
+  "guangzhou": {
+    "been": false,
+    "city": "Guangzhou",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Guangzhou",
+    "prefix": "101.2"
+  },
+  "guiyang": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Guiyang",
+    "prefix": "49.00"
+  },
+  "gurgaon": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Gurgaon",
+    "prefix": "104.5"
+  },
+  "hamburg": {
+    "been": false,
+    "city": "Hamburg",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Hamburg",
+    "prefix": "56.99"
+  },
+  "hangzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Hangzhou",
+    "prefix": "65.05"
+  },
+  "hanoi": {
+    "been": false,
+    "city": "Hanoi",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "name": "Hanoi",
+    "prefix": "670.8"
+  },
+  "harbin": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Harbin",
+    "prefix": "79.83"
+  },
+  "hefei": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Hefei",
+    "prefix": "51.59"
+  },
+  "helsinki": {
+    "been": false,
+    "city": "Helsinki",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "name": "Helsinki",
+    "prefix": "60.00"
+  },
+  "ho-chi-minh-city": {
+    "been": false,
+    "city": "Ho Chi Minh City",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "name": "Ho Chi Minh City",
+    "prefix": "655.0"
+  },
+  "hohhot": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Hohhot",
+    "prefix": "65.11"
+  },
+  "hong-kong": {
+    "been": true,
+    "city": "Hong Kong",
+    "country": "HK",
+    "icons": ["🇭🇰"],
+    "name": "Hong Kong",
+    "prefix": "76.53"
+  },
+  "honolulu": {
+    "been": false,
+    "city": "Honolulu",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Honolulu",
+    "prefix": "110.0"
+  },
+  "hyderabad": {
+    "been": false,
+    "city": "Hyderabad",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Hyderabad",
+    "prefix": "156.3"
+  },
+  "isfahan": {
+    "been": false,
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "name": "Isfahan",
+    "prefix": "110.0"
+  },
+  "istanbul": {
+    "been": false,
+    "city": "Istanbul",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "name": "Istanbul",
+    "prefix": "143.5"
+  },
+  "jaipur": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Jaipur",
+    "prefix": "369.1"
+  },
+  "jakarta": {
+    "been": false,
+    "city": "Jakarta",
+    "country": "ID",
+    "icons": ["🇮🇩"],
+    "name": "Jakarta",
+    "prefix": "2657"
+  },
+  "jinan": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Jinan",
+    "prefix": "60.13"
+  },
+  "kanpur": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Kanpur",
+    "prefix": "365.6"
+  },
+  "kazan": {
+    "been": false,
+    "city": "Kazan",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Kazan",
+    "prefix": "118.2"
+  },
+  "kharkiv": {
+    "been": false,
+    "city": "Kharkiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kharkiv",
+    "prefix": "47.67"
+  },
+  "kobe": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Kobe",
+    "prefix": "56.53"
+  },
+  "kochi": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Kochi",
+    "prefix": "146.4"
+  },
+  "kolkata": {
+    "been": false,
+    "city": "Kolkata",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Kolkata",
+    "prefix": "427.7"
+  },
+  "kuala-lumpur": {
+    "been": false,
+    "city": "Kuala Lumpur",
+    "country": "MY",
+    "icons": ["🇲🇾"],
+    "name": "Kuala Lumpur",
+    "prefix": "57.14"
+  },
+  "kunming": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Kunming",
+    "prefix": "53.66"
+  },
+  "kyiv": {
+    "been": false,
+    "city": "Kyiv",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "name": "Kyiv",
+    "prefix": "57.69"
+  },
+  "kyoto": {
+    "been": false,
+    "city": "Kyoto",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Kyoto",
+    "prefix": "90.00"
+  },
+  "lagos": {
+    "been": true,
+    "city": "Lagos",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "name": "Lagos",
+    "prefix": "1640"
+  },
+  "lahore": {
+    "been": false,
+    "country": "PK",
+    "icons": ["🇵🇰"],
+    "name": "Lahore",
+    "prefix": "501.5"
+  },
+  "lanzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Lanzhou",
+    "prefix": "103.8"
+  },
+  "lausanne": {
+    "been": false,
+    "city": "Lausanne",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "name": "Lausanne",
+    "prefix": "14.29"
+  },
+  "lille": {
+    "been": true,
+    "city": "Lille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lille",
+    "prefix": "25.33"
+  },
+  "lima": {
+    "been": false,
+    "city": "Lima",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "name": "Lima",
+    "prefix": "424.6"
+  },
+  "lisbon": {
+    "been": true,
+    "city": "Lisbon",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "name": "Lisbon",
+    "prefix": "53.39"
+  },
+  "london": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "name": "London",
+    "prefix": "53.22"
+  },
+  "los-angeles": {
+    "been": true,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Los Angeles",
+    "prefix": "130.7"
+  },
+  "lucknow": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Lucknow",
+    "prefix": "179.5"
+  },
+  "luoyang": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Luoyang",
+    "prefix": "40.00"
+  },
+  "lyon": {
+    "been": true,
+    "city": "Lyon",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Lyon",
+    "prefix": "55.00"
+  },
+  "madrid": {
+    "been": true,
+    "city": "Madrid",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "name": "Madrid",
+    "prefix": "24.06"
+  },
+  "manila": {
+    "been": false,
+    "city": "Manila",
+    "country": "PH",
+    "icons": ["🇵🇭"],
+    "name": "Manila",
+    "prefix": "307.8"
+  },
+  "marseille": {
+    "been": false,
+    "city": "Marseille",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Marseille",
+    "prefix": "54.84"
+  },
+  "medellin": {
+    "been": true,
+    "city": "Medellín",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "name": "Medellín",
+    "prefix": "148.1"
+  },
+  "mexico-city": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "name": "Mexico City",
+    "prefix": "111.8"
+  },
+  "miami": {
+    "been": true,
+    "city": "Miami",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Miami",
+    "prefix": "267.0"
+  },
+  "milan": {
+    "been": false,
+    "city": "Milan",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Milan",
+    "prefix": "66.37"
+  },
+  "minsk": {
+    "been": false,
+    "city": "Minsk",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "name": "Minsk",
+    "prefix": "60.91"
+  },
+  "monterrey": {
+    "been": false,
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "name": "Monterrey",
+    "prefix": "133.5"
+  },
+  "montreal": {
+    "been": true,
+    "city": "Montréal",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Montréal",
+    "prefix": "67.79"
+  },
+  "moscow": {
+    "been": true,
+    "city": "Moscow",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Moscow",
+    "prefix": "76.20"
+  },
+  "mumbai": {
+    "been": false,
+    "city": "Mumbai",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Mumbai",
+    "prefix": "272.0"
+  },
+  "munich": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Munich",
+    "prefix": "60.00"
+  },
+  "nagoya": {
+    "been": false,
+    "city": "Nagoya",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Nagoya",
+    "prefix": "117.2"
+  },
+  "nagpur": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Nagpur",
+    "prefix": "120.8"
+  },
+  "nanchang": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Nanchang",
+    "prefix": "37.31"
+  },
+  "nanjing": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Nanjing",
+    "prefix": "44.93"
+  },
+  "nanning": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Nanning",
+    "prefix": "56.25"
+  },
+  "nantong": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Nantong",
+    "prefix": "273.6"
+  },
+  "naples": {
+    "been": true,
+    "city": "Naples",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Naples",
+    "prefix": "120.0"
+  },
+  "navi-mumbai": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Navi Mumbai",
+    "prefix": "101.8"
+  },
+  "new-york": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "New York",
+    "prefix": "41.44"
+  },
+  "ningbo": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Ningbo",
+    "prefix": "62.12"
+  },
+  "nizhny-novgorod": {
+    "been": false,
+    "city": "Nizhny Novgorod",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Nizhny Novgorod",
+    "prefix": "83.33"
+  },
+  "noida": {
+    "been": false,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Noida",
+    "prefix": "51.90"
+  },
+  "novosibirsk": {
+    "been": false,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Novosibirsk",
+    "prefix": "124.6"
+  },
+  "nuremberg": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "name": "Nuremberg",
+    "prefix": "73.47"
+  },
+  "osaka": {
+    "been": false,
+    "city": "Ōsaka",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Osaka",
+    "prefix": "145.1"
+  },
+  "oslo": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Oslo",
+    "prefix": "16.93"
+  },
+  "panama-city": {
+    "been": false,
+    "city": "Panama City",
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "name": "Panama City",
+    "prefix": "54.84"
+  },
+  "paris": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Paris",
+    "prefix": "35.78"
+  },
+  "philadelphia": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Philadelphia",
+    "prefix": "83.20"
+  },
+  "prague": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "name": "Prague",
+    "prefix": "43.93"
+  },
+  "pune": {
+    "been": false,
+    "city": "Pune",
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "Pune",
+    "prefix": "246.7"
+  },
+  "pyongyang": {
+    "been": false,
+    "city": "Pyongyang",
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "name": "Pyongyang",
+    "prefix": "184.7"
+  },
+  "qingdao": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Qingdao",
+    "prefix": "62.89"
+  },
+  "quito": {
+    "been": false,
+    "city": "Quito",
+    "country": "EC",
+    "icons": ["🇪🇨"],
+    "name": "Quito",
+    "prefix": "134.0"
+  },
+  "rio-de-janeiro": {
+    "been": false,
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "name": "Rio de Janeiro",
+    "prefix": "326.1"
+  },
+  "riyadh": {
+    "been": false,
+    "city": "Riyadh",
+    "country": "SA",
+    "icons": ["🇸🇦"],
+    "name": "Riyadh",
+    "prefix": "89.41"
+  },
+  "rome": {
+    "been": true,
+    "city": "Rome",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Rome",
+    "prefix": "59.59"
+  },
+  "rotterdam": {
+    "been": true,
+    "city": "Rotterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Rotterdam",
+    "prefix": "39.29"
+  },
+  "saint-petersburg": {
+    "been": true,
+    "city": "Saint Petersburg",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Saint Petersburg",
+    "prefix": "86.11"
+  },
+  "salvador": {
+    "been": false,
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "name": "Salvador",
+    "prefix": "198.0"
+  },
+  "samara": {
+    "been": false,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Samara",
+    "prefix": "115.0"
+  },
+  "san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Francisco",
+    "prefix": "94.60"
+  },
+  "san-juan": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "San Juan",
+    "prefix": "152.5"
+  },
+  "santiago": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "name": "Santiago",
+    "prefix": "51.47"
+  },
+  "santo-domingo": {
+    "been": true,
+    "city": "Santo Domingo",
+    "country": "DO",
+    "icons": ["🇩🇴"],
+    "name": "Santo Domingo",
+    "prefix": "108.8"
+  },
+  "sao-paulo": {
+    "been": false,
+    "city": "São Paulo",
+    "country": "BR",
+    "icons": ["🇧🇷"],
+    "name": "São Paulo",
+    "prefix": "217.8"
+  },
+  "sapporo": {
+    "been": false,
+    "city": "Sapporo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Sapporo",
+    "prefix": "56.52"
+  },
+  "sendai": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Sendai",
+    "prefix": "36.33"
+  },
+  "seoul": {
+    "been": true,
+    "city": "Seoul",
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "name": "Seoul",
+    "prefix": "44.33"
+  },
+  "shanghai": {
+    "been": false,
+    "city": "Shanghai",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shanghai",
+    "prefix": "74.07"
+  },
+  "shaoxing": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shaoxing",
+    "prefix": "502.0"
+  },
+  "shenyang": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shenyang",
+    "prefix": "65.87"
+  },
+  "shenzhen": {
+    "been": false,
+    "city": "Shenzhen",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shenzhen",
+    "prefix": "81.47"
+  },
+  "shijiazhuang": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Shijiazhuang",
+    "prefix": "183.3"
+  },
+  "singapore": {
+    "been": true,
+    "city": "Singapore",
+    "country": "SG",
+    "icons": ["🇸🇬"],
+    "name": "Singapore",
+    "prefix": "30.48"
+  },
+  "sofia": {
+    "been": true,
+    "city": "Sofia",
+    "country": "BG",
+    "icons": ["🇧🇬"],
+    "name": "Sofia",
+    "prefix": "39.07"
+  },
+  "stockholm": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "name": "Stockholm",
+    "prefix": "24.20"
+  },
+  "suzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Suzhou",
+    "prefix": "75.89"
+  },
+  "sydney": {
+    "been": false,
+    "city": "Sydney",
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "name": "Sydney",
+    "prefix": "413.1"
+  },
+  "tabriz": {
+    "been": false,
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "name": "Tabriz",
+    "prefix": "86.67"
+  },
+  "taipei": {
+    "been": false,
+    "city": "Taipei",
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "name": "Taipei",
+    "prefix": "53.44"
+  },
+  "taiyuan": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Taiyuan",
+    "prefix": "208.3"
+  },
+  "taoyuan": {
+    "been": false,
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "name": "Taoyuan",
+    "prefix": "107.6"
+  },
+  "tashkent": {
+    "been": false,
+    "city": "Tashkent",
+    "country": "UZ",
+    "icons": ["🇺🇿"],
+    "name": "Tashkent",
+    "prefix": "57.20"
+  },
+  "tbilisi": {
+    "been": false,
+    "city": "Tbilisi",
+    "country": "GE",
+    "icons": ["🇬🇪"],
+    "name": "Tbilisi",
+    "prefix": "50.00"
+  },
+  "tehran": {
+    "been": false,
+    "city": "Tehran",
+    "country": "IR",
+    "icons": ["🇮🇷"],
+    "name": "Tehran",
+    "prefix": "111.9"
+  },
+  "thessaloniki": {
+    "been": false,
+    "city": "Thessaloniki",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "name": "Thessaloniki",
+    "prefix": "63.08"
+  },
+  "tianjin": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Tianjin",
+    "prefix": "85.53"
+  },
+  "tokyo": {
+    "been": true,
+    "city": "Tokyo",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Tokyo",
+    "prefix": "127.2"
+  },
+  "toronto": {
+    "been": true,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Toronto",
+    "prefix": "86.27"
+  },
+  "toulouse": {
+    "been": true,
+    "city": "Toulouse",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "name": "Toulouse",
+    "prefix": "39.21"
+  },
+  "turin": {
+    "been": false,
+    "city": "Turin",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "name": "Turin",
+    "prefix": "76.96"
+  },
+  "urumqi": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Ürümqi",
+    "prefix": "135.9"
+  },
+  "vancouver": {
+    "been": false,
+    "city": "Vancouver",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "name": "Vancouver",
+    "prefix": "49.06"
+  },
+  "vienna": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "name": "Vienna",
+    "prefix": "29.08"
+  },
+  "warsaw": {
+    "been": true,
+    "city": "Warsaw",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "name": "Warsaw",
+    "prefix": "71.54"
+  },
+  "washington": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "name": "Washington",
+    "prefix": "68.90"
+  },
+  "wuhan": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Wuhan",
+    "prefix": "67.38"
+  },
+  "wuxi": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Wuxi",
+    "prefix": "57.02"
+  },
+  "xiamen": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Xiamen",
+    "prefix": "44.79"
+  },
+  "xian": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Xi’an",
+    "prefix": "82.35"
+  },
+  "xuzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Xuzhou",
+    "prefix": "57.41"
+  },
+  "yekaterinburg": {
+    "been": false,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "name": "Yekaterinburg",
+    "prefix": "171.1"
+  },
+  "yerevan": {
+    "been": false,
+    "city": "Yerevan",
+    "country": "AM",
+    "icons": ["🇦🇲"],
+    "name": "Yerevan",
+    "prefix": "109.0"
+  },
+  "yokohama": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Yokohama",
+    "prefix": "94.50"
+  },
+  "zhengzhou": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "Zhengzhou",
+    "prefix": "59.76"
+  }
+}
