@@ -1320,9 +1320,9 @@
     "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
-      "lat": "25",
-      "lon": "5",
-      "zoom": "2"
+      "lat": "37",
+      "lon": "-42",
+      "zoom": "3"
     },
     "name": "Light Rail",
     "sections": ["done", "taken", "visited"],
@@ -1453,7 +1453,6 @@
     "type": "place"
   },
   "metros": {
-    "featured": "true",
     "flagClass": "icon",
     "flagFolder": "trains",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],

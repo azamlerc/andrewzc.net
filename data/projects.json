@@ -3243,6 +3243,7 @@
     "type": "suburban"
   },
   "berlin-line-u8-to-markisches-viertel": {
+    "badges": ["👀"],
     "been": false,
     "city": "Berlin",
     "country": "DE",
@@ -3638,6 +3639,7 @@
     "reference": "Bilbao"
   },
   "bilbao-line-4": {
+    "badges": ["👀"],
     "been": false,
     "city": "Bilbao",
     "country": "ES",
@@ -3649,6 +3651,7 @@
     "reference": "Bilbao"
   },
   "bilbao-line-5": {
+    "badges": ["👀"],
     "been": false,
     "city": "Bilbao",
     "country": "ES",
@@ -16900,6 +16903,7 @@
     "start": "Parque de Santa María"
   },
   "madrid-line-5-to-aeropuerto-t1-t2-t3": {
+    "badges": ["👀"],
     "been": false,
     "city": "Madrid",
     "country": "ES",
@@ -21546,7 +21550,7 @@
     "type": "metro"
   },
   "paris-cable-1": {
-    "badges": ["👀"],
+    "badges": ["✅"],
     "been": true,
     "city": "Paris",
     "country": "FR",
@@ -21579,7 +21583,8 @@
     "reference": "Paris"
   },
   "paris-line-11-to-rosny-bois-perrier": {
-    "been": false,
+    "badges": ["✅"],
+    "been": true,
     "city": "Paris",
     "coords": "48.88242000, 2.48083000",
     "country": "FR",
@@ -21906,6 +21911,7 @@
     "type": "tram"
   },
   "paris-tram-1-to-petit-colombes": {
+    "badges": ["👀"],
     "been": false,
     "city": "Paris",
     "country": "FR",
@@ -21913,6 +21919,17 @@
     "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_d%27Île-de-France",
     "name": "Tram 1 to Petit Colombes",
     "prefix": "2028",
+    "reference": "Paris"
+  },
+  "paris-tram-1-to-rueil-malmaison": {
+    "badges": ["👀"],
+    "been": false,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷", "🚋"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_1_du_tramway_d%27Île-de-France",
+    "name": "Tram 1 to Rueil-Malmaison",
+    "prefix": "2030",
     "reference": "Paris"
   },
   "paris-tram-1-to-quatre-routes": {
@@ -25487,6 +25504,7 @@
     "type": "light-rail"
   },
   "seattle-line-2-to-international-district": {
+    "badges": ["👀"],
     "been": false,
     "city": "Seattle",
     "coords": "47.67611111, -122.11694444",
@@ -25502,6 +25520,7 @@
     "type": "light-rail"
   },
   "seattle-line-2-to-redmond-technology": {
+    "badges": ["👀"],
     "been": false,
     "city": "Seattle",
     "coords": "47.67611111, -122.11694444",
@@ -28214,6 +28233,7 @@
     "start": "Bartley"
   },
   "singapore-circle-line-full-circle": {
+    "badges": ["👀"],
     "been": true,
     "city": "Singapore",
     "country": "SG",
