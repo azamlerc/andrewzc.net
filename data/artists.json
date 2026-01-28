@@ -1,0 +1,724 @@
+{
+  "--info--": {
+    "icon": "👩‍🎤",
+    "name": "Artists",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  "abba": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "artists/abba.html",
+    "name": "ABBA"
+  },
+  "ace-of-base": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "artists/ace-of-base.html",
+    "name": "Ace of Base"
+  },
+  "air": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "</a>",
+    "link": "artists/air.html",
+    "name": "Air"
+  },
+  "alanis-morissette": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "artists/alanis-morissette.html",
+    "name": "Alanis Morissette"
+  },
+  "alphabeat": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "artists/alphabeat.html",
+    "name": "Alphabeat"
+  },
+  "amanda-palmer": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/amanda-palmer.html",
+    "name": "Amanda Palmer"
+  },
+  "amy-winehouse": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🍷"],
+    "link": "artists/amy-winehouse.html",
+    "name": "Amy Winehouse"
+  },
+  "awkwafina": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/awkwafina.html",
+    "name": "Awkwafina"
+  },
+  "b-52s": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "✈️"],
+    "link": "artists/b-52s.html",
+    "name": "The B-52s"
+  },
+  "babylon-zoo": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/babylon-zoo.html",
+    "name": "Babylon Zoo"
+  },
+  "barenaked-ladies": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "artists/barenaked-ladies.html",
+    "name": "Barenaked Ladies"
+  },
+  "beastie-boys": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/beastie-boys.html",
+    "name": "Beastie Boys"
+  },
+  "beatles": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/beatles.html",
+    "name": "The Beatles"
+  },
+  "beck": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/beck.html",
+    "name": "Beck"
+  },
+  "bel-canto": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "artists/bel-canto.html",
+    "name": "Bel Canto"
+  },
+  "billy-joel": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/billy-joel.html",
+    "name": "Billy Joel"
+  },
+  "bjork": {
+    "been": true,
+    "country": "IS",
+    "icons": ["🇮🇸"],
+    "link": "artists/bjork.html",
+    "name": "Björk"
+  },
+  "black-crowes": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🐧"],
+    "link": "artists/black-crowes.html",
+    "name": "The Black Crowes"
+  },
+  "bon-jovi": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/bon-jovi.html",
+    "name": "Bon Jovi"
+  },
+  "cake": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🍰"],
+    "link": "artists/cake.html",
+    "name": "Cake"
+  },
+  "cesaria-evora": {
+    "been": true,
+    "country": "CV",
+    "icons": ["🇨🇻"],
+    "link": "artists/cesaria-evora.html",
+    "name": "Césaria Évora"
+  },
+  "cheb-mami": {
+    "been": true,
+    "country": "DZ",
+    "icons": ["🇩🇿"],
+    "link": "artists/cheb-mami.html",
+    "name": "Cheb Mami"
+  },
+  "counting-crows": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/counting-crows.html",
+    "name": "Counting Crows"
+  },
+  "cranberries": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "artists/cranberries.html",
+    "name": "The Cranberries"
+  },
+  "daft-punk": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "artists/daft-punk.html",
+    "name": "Daft Punk"
+  },
+  "dave-matthews-band": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🎻"],
+    "link": "artists/dave-matthews-band.html",
+    "name": "Dave Matthews Band"
+  },
+  "david-bowie": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "👨‍🎤"],
+    "link": "artists/david-bowie.html",
+    "name": "David Bowie"
+  },
+  "depeche-mode": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/depeche-mode.html",
+    "name": "Depeche Mode"
+  },
+  "dido": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/dido.html",
+    "name": "Dido"
+  },
+  "dua-lipa": {
+    "been": true,
+    "country": "AL",
+    "icons": ["🇦🇱"],
+    "link": "artists/dua-lipa.html",
+    "name": "Dua Lipa"
+  },
+  "duran-duran": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/duran-duran.html",
+    "name": "Duran Duran"
+  },
+  "elton-john": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🕺"],
+    "link": "artists/elton-john.html",
+    "name": "Elton John"
+  },
+  "elvis-costello": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/elvis-costello.html",
+    "name": "Elvis Costello"
+  },
+  "elvis-presley": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🤴"],
+    "link": "artists/elvis-presley.html",
+    "name": "Elvis Presley"
+  },
+  "emf": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/emf.html",
+    "name": "EMF"
+  },
+  "enigma": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "artists/enigma.html",
+    "name": "Enigma"
+  },
+  "faith-no-more": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/faith-no-more.html",
+    "name": "Faith No More"
+  },
+  "fleetwood-mac": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🖥"],
+    "link": "artists/fleetwood-mac.html",
+    "name": "Fleetwood Mac"
+  },
+  "florence-+-machine": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/florence-+-machine.html",
+    "name": "Florence + the Machine"
+  },
+  "garbage": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🗑"],
+    "link": "artists/garbage.html",
+    "name": "Garbage"
+  },
+  "green-day": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/green-day.html",
+    "name": "Green Day"
+  },
+  "guns-n-roses": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🌹"],
+    "link": "artists/guns-n-roses.html",
+    "name": "Guns N’ Roses"
+  },
+  "hooverphonic": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "artists/hooverphonic.html",
+    "name": "Hooverphonic"
+  },
+  "inxs": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "artists/inxs.html",
+    "name": "INXS"
+  },
+  "jay-z": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/jay-z.html",
+    "name": "Jay-Z"
+  },
+  "jimi-hendrix": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🎸"],
+    "link": "artists/jimi-hendrix.html",
+    "name": "Jimi Hendrix"
+  },
+  "joan-osborne": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/joan-osborne.html",
+    "name": "Joan Osborne"
+  },
+  "johnny-cash": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "💵"],
+    "link": "artists/johnny-cash.html",
+    "name": "Johnny Cash"
+  },
+  "kate-bush": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/kate-bush.html",
+    "name": "Kate Bush"
+  },
+  "killers": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/killers.html",
+    "name": "The Killers"
+  },
+  "klf": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/klf.html",
+    "name": "The KLF"
+  },
+  "kraftwerk": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "artists/kraftwerk.html",
+    "name": "Kraftwerk"
+  },
+  "la-roux": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "👩‍🦰"],
+    "link": "artists/la-roux.html",
+    "name": "La Roux"
+  },
+  "lady-gaga": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "💃"],
+    "link": "artists/lady-gaga.html",
+    "name": "Lady Gaga"
+  },
+  "led-zeppelin": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/led-zeppelin.html",
+    "name": "Led Zeppelin"
+  },
+  "leonard-cohen": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "artists/leonard-cohen.html",
+    "name": "Leonard Cohen"
+  },
+  "live": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/live.html",
+    "name": "Live"
+  },
+  "liz-phair": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/liz-phair.html",
+    "name": "Liz Phair"
+  },
+  "madonna": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "👱‍♀️"],
+    "link": "artists/madonna.html",
+    "name": "Madonna"
+  },
+  "massive-attack": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/massive-attack.html",
+    "name": "Massive Attack"
+  },
+  "melissa-etheridge": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/melissa-etheridge.html",
+    "name": "Melissa Etheridge"
+  },
+  "metallica": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🤘"],
+    "link": "artists/metallica.html",
+    "name": "Metallica"
+  },
+  "moby": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/moby.html",
+    "name": "Moby"
+  },
+  "morrissey": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/morrissey.html",
+    "name": "Morrissey"
+  },
+  "motley-crue": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/motley-crue.html",
+    "name": "Mötley Crüe"
+  },
+  "natalie-imbruglia": {
+    "been": true,
+    "country": "AU",
+    "icons": ["🇦🇺"],
+    "link": "artists/natalie-imbruglia.html",
+    "name": "Natalie Imbruglia"
+  },
+  "new-order": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/new-order.html",
+    "name": "New Order"
+  },
+  "nina-simone": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🙍🏾‍♀️"],
+    "link": "artists/nina-simone.html",
+    "name": "Nina Simone"
+  },
+  "nine-inch-nails": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "💅"],
+    "link": "artists/nine-inch-nails.html",
+    "name": "Nine Inch Nails"
+  },
+  "oasis": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🌴"],
+    "link": "artists/oasis.html",
+    "name": "Oasis"
+  },
+  "paul-simon": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/paul-simon.html",
+    "name": "Paul Simon"
+  },
+  "paula-cole": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/paula-cole.html",
+    "name": "Paula Cole"
+  },
+  "pet-shop-boys": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/pet-shop-boys.html",
+    "name": "Pet Shop Boys"
+  },
+  "peter-gabriel": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/peter-gabriel.html",
+    "name": "Peter Gabriel"
+  },
+  "pink": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "👩‍🎤"],
+    "link": "artists/pink.html",
+    "name": "Pink"
+  },
+  "pink-floyd": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🐷"],
+    "link": "artists/pink-floyd.html",
+    "name": "Pink Floyd"
+  },
+  "placebo": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "💊"],
+    "link": "artists/placebo.html",
+    "name": "Placebo"
+  },
+  "poison": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🧪"],
+    "link": "artists/poison.html",
+    "name": "Poison"
+  },
+  "prodigy": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "🐜"],
+    "link": "artists/prodigy.html",
+    "name": "The Prodigy"
+  },
+  "radiohead": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "📻"],
+    "link": "artists/radiohead.html",
+    "name": "Radiohead"
+  },
+  "regina-spektor": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "artists/regina-spektor.html",
+    "name": "Regina Spektor"
+  },
+  "rem": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/rem.html",
+    "name": "R.E.M."
+  },
+  "robbie-williams": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/robbie-williams.html",
+    "name": "Robbie Williams"
+  },
+  "roxette": {
+    "been": true,
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "artists/roxette.html",
+    "name": "Roxette"
+  },
+  "rush": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "artists/rush.html",
+    "name": "Rush"
+  },
+  "sarah-mclachlan": {
+    "been": true,
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "artists/sarah-mclachlan.html",
+    "name": "Sarah McLachlan"
+  },
+  "scissor-sisters": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "✂️"],
+    "link": "artists/scissor-sisters.html",
+    "name": "Scissor Sisters"
+  },
+  "sheryl-crow": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/sheryl-crow.html",
+    "name": "Sheryl Crow"
+  },
+  "sinead-oconnor": {
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪", "👩🏻‍🦲"],
+    "link": "artists/sinead-oconnor.html",
+    "name": "Sinéad O’Connor"
+  },
+  "smashing-pumpkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🎃"],
+    "link": "artists/smashing-pumpkins.html",
+    "name": "The Smashing Pumpkins"
+  },
+  "sophie-b-hawkins": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/sophie-b-hawkins.html",
+    "name": "Sophie B. Hawkins"
+  },
+  "stereo-total": {
+    "been": true,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "artists/stereo-total.html",
+    "name": "Stereo Total"
+  },
+  "sting": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "artists/sting.html",
+    "name": "Sting"
+  },
+  "tatu": {
+    "been": true,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "artists/tatu.html",
+    "name": "t.A.T.u."
+  },
+  "tears-for-fears": {
+    "been": true,
+    "country": "GB",
+    "icons": ["🇬🇧", "😭"],
+    "link": "artists/tears-for-fears.html",
+    "name": "Tears for Fears"
+  },
+  "tom-petty": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/tom-petty.html",
+    "name": "Tom Petty"
+  },
+  "tori-amos": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸", "🎹"],
+    "link": "artists/tori-amos.html",
+    "name": "Tori Amos"
+  },
+  "u2": {
+    "badges": ["🤟"],
+    "been": true,
+    "country": "IE",
+    "icons": ["🇮🇪"],
+    "link": "artists/u2.html",
+    "name": "U2"
+  },
+  "veronique-sanson": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "artists/veronique-sanson.html",
+    "name": "Véronique Sanson"
+  },
+  "white-stripes": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "artists/white-stripes.html",
+    "name": "The White Stripes"
+  }
+}

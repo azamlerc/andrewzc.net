@@ -1,0 +1,729 @@
+{
+  "--info--": {
+    "icon": "🚢",
+    "name": "Canals",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  "amsterdam-canals": {
+    "been": true,
+    "city": "Amsterdam",
+    "coords": "52.36500000, 4.88777778",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Canals_of_Amsterdam",
+    "name": "Amsterdam Canals"
+  },
+  "amsterdam-rhine-canal": {
+    "been": true,
+    "coords": "52.15222222, 5.00638889",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam%E2%80%93Rhine_Canal",
+    "name": "Amsterdam–Rhine Canal"
+  },
+  "bio-bio-canal": {
+    "been": false,
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "link": "https://en.wikipedia.org/wiki/B%C3%ADo-B%C3%ADo_Canal",
+    "name": "Bío-Bío Canal",
+    "wikidata": "Q5005116"
+  },
+  "bossuit-kortrijk-canal": {
+    "been": true,
+    "city": "Lille",
+    "coords": "50.49000000, 3.00000000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bossuit-Kortrijk_Canal",
+    "name": "Bossuit–Kortrijk Canal"
+  },
+  "bruges-ostend-canal": {
+    "been": true,
+    "coords": "51.13170000, 3.14030000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Bruges%E2%80%93Ostend_Canal",
+    "name": "Bruges–Ostend Canal"
+  },
+  "brussels-charleroi-canal": {
+    "been": true,
+    "coords": "50.60870000, 4.22440000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Brussels-Charleroi_Canal",
+    "name": "Brussels–Charleroi Canal"
+  },
+  "brussels-scheldt-canal": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "51.02800000, 4.35700000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Brussels%E2%80%93Scheldt_Maritime_Canal",
+    "name": "Brussels–Scheldt Canal"
+  },
+  "canal-de-briare": {
+    "been": true,
+    "coords": "47.63888889, 2.72944444",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_de_Briare",
+    "name": "Canal de Briare",
+    "wikidata": "Q432090"
+  },
+  "canal-de-castilla": {
+    "been": false,
+    "coords": "41.74944400, -4.64694300",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Canal_de_Castilla",
+    "name": "Canal de Castilla"
+  },
+  "canal-de-l'ourcq": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.95390000, 2.63250000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_de_l%27Ourcq",
+    "name": "Canal de l'Ourcq"
+  },
+  "canal-de-la-marne-au-rhin": {
+    "been": false,
+    "coords": "48.73012300, 4.60667000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_de_la_Marne_au_Rhin",
+    "name": "Canal de la Marne au Rhin"
+  },
+  "canal-de-la-sambre-a-loise": {
+    "been": true,
+    "coords": "50.12638889, 3.6875",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_de_la_Sambre_%C3%A0_l%27Oise",
+    "name": "Canal de la Sambre à l’Oise",
+    "wikidata": "Q677388"
+  },
+  "canal-de-la-sensee": {
+    "been": true,
+    "coords": "50.338888888889, 3.0541666666667",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_de_la_Sensée",
+    "name": "Canal de la Sensée",
+    "wikidata": "Q2936064"
+  },
+  "canal-de-laisne-a-la-marne": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_de_l%27Aisne_à_la_Marne",
+    "name": "Canal de l’Aisne a la Marne"
+  },
+  "canal-de-roubaix": {
+    "been": true,
+    "city": "Lille",
+    "coords": "50.69555556, 3.18888889",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_de_Roubaix",
+    "name": "Canal de Roubaix"
+  },
+  "canal-de-saint-denis": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.90000000, 2.38333333",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_de_Saint-Denis",
+    "name": "Canal de Saint-Denis"
+  },
+  "canal-des-ardennes": {
+    "been": true,
+    "coords": "49.69361111, 4.82944444",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_des_Ardennes",
+    "name": "Canal des Ardennes",
+    "wikidata": "Q328903"
+  },
+  "canal-des-furnes": {
+    "been": true,
+    "coords": "0.00000000, 0.00000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Nieuwpoort%E2%80%93Dunkirk_Canal",
+    "name": "Canal des Furnes"
+  },
+  "canal-des-moeres": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://nl.wikipedia.org/wiki/Moerenvaart",
+    "name": "Canal des Moëres"
+  },
+  "canal-du-centre": {
+    "been": false,
+    "coords": "50.47805556, 4.11000000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_du_Centre_(France)",
+    "name": "Canal du Centre"
+  },
+  "canal-du-loing": {
+    "been": true,
+    "coords": "48.0275, 2.72222222",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_du_Loing",
+    "name": "Canal du Loing",
+    "wikidata": "Q1032662"
+  },
+  "canal-du-midi": {
+    "been": true,
+    "city": "Toulouse",
+    "coords": "43.61102000, 1.41844000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_du_Midi",
+    "name": "Canal du Midi"
+  },
+  "canal-du-nord": {
+    "been": true,
+    "coords": "50.28333333, 3.11666667",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_du_Nord_(France)",
+    "name": "Canal du Nord"
+  },
+  "canal-du-rhone-au-rhin": {
+    "been": false,
+    "coords": "47.10777778, 5.31361111",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_du_Rh%C3%B4ne_au_Rhin",
+    "name": "Canal du Rhône au Rhin",
+    "wikidata": "Q1755012"
+  },
+  "canal-lateral-a-la-loire": {
+    "been": true,
+    "coords": "46.47972222, 3.98222222",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_latéral_à_la_Loire",
+    "name": "Canal Latéral à la Loire",
+    "wikidata": "Q1032697"
+  },
+  "canal-lateral-a-laisne": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_latéral_à_l%27Aisne",
+    "name": "Canal Lateral à l’Aisne"
+  },
+  "canal-louvain-dyle": {
+    "been": true,
+    "coords": "50.97416977905815, 4.5596268121755115",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_Louvain-Dyle",
+    "name": "Canal Louvain-Dyle",
+    "wikidata": "Q1630799"
+  },
+  "canal-nimy-blaton-peronnes": {
+    "been": true,
+    "coords": "50.5027, 3.70114",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Canal_Nimy-Blaton-Péronnes",
+    "name": "Canal Nimy-Blaton-Péronnes",
+    "wikidata": "Q2434753"
+  },
+  "canal-saint-martin": {
+    "been": true,
+    "city": "Paris",
+    "coords": "48.89230000, 2.38620000",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+    "name": "Canal Saint-Martin"
+  },
+  "cape-cod-canal": {
+    "been": true,
+    "coords": "41.76416667, -70.56833333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Cape_Cod_Canal",
+    "name": "Cape Cod Canal"
+  },
+  "chesapeake-delaware-canal": {
+    "been": true,
+    "coords": "39.52380000, -75.87340000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chesapeake_%26_Delaware_Canal",
+    "name": "Chesapeake & Delaware Canal"
+  },
+  "chesapeake-ohio-canal": {
+    "been": true,
+    "city": "Washington",
+    "coords": "38.89193050, -77.03974980",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Chesapeake_and_Ohio_Canal",
+    "name": "Chesapeake & Ohio Canal"
+  },
+  "corinthian-canal": {
+    "been": false,
+    "coords": "37.93472222, 22.98388889",
+    "country": "GR",
+    "icons": ["🇬🇷"],
+    "link": "https://en.wikipedia.org/wiki/Corinthian_Canal",
+    "name": "Corinthian Canal"
+  },
+  "danube-oder-canal": {
+    "been": false,
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Danube-Oder-Canal",
+    "name": "Danube–Oder Canal",
+    "wikidata": "Q336097"
+  },
+  "danube-tisa-danube-canal": {
+    "been": false,
+    "coords": "44.82638889, 21.33583333",
+    "country": "RS",
+    "icons": ["🇷🇸"],
+    "link": "https://en.wikipedia.org/wiki/Danube%E2%80%93Tisa%E2%80%93Danube_Canal",
+    "name": "Danube–Tisa–Danube Canal"
+  },
+  "delaware-raritan-canal": {
+    "been": true,
+    "coords": "40.15170000, -74.71610000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Delaware_and_Raritan_Canal",
+    "name": "Delaware & Raritan Canal"
+  },
+  "donaukanal": {
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.21305556, 16.37527778",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Donaukanal",
+    "name": "Donaukanal"
+  },
+  "dubai-canal": {
+    "been": true,
+    "city": "Dubai",
+    "coords": "25.20330000, 55.32710000",
+    "country": "AE",
+    "icons": ["🇦🇪"],
+    "link": "https://en.wikipedia.org/wiki/Dubai_Canal",
+    "name": "Dubai Canal"
+  },
+  "eindhovensch-kanaal": {
+    "been": true,
+    "coords": "51.43746600, 5.48697000",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Eindhovensch_Kanaal",
+    "name": "Eindhovensch Kanaal"
+  },
+  "erie-canal": {
+    "been": false,
+    "coords": "42.78340000, -73.67670000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Erie_Canal",
+    "name": "Erie Canal"
+  },
+  "ghent-terneuzen-canal": {
+    "been": true,
+    "coords": "51.14660000, 3.78239000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Ghent%E2%80%93Terneuzen_Canal",
+    "name": "Ghent–Terneuzen Canal"
+  },
+  "gowanus-canal": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.67410000, -73.99650000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Gowanus_Canal",
+    "name": "Gowanus Canal"
+  },
+  "grand-canal": {
+    "been": false,
+    "coords": "30.26138889, 120.22388889",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Grand_Canal_(China)",
+    "name": "Grand Canal"
+  },
+  "grand-union-canal": {
+    "been": true,
+    "coords": "52.05076000, -0.73400000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Grand_Union_Canal",
+    "name": "Grand Union Canal"
+  },
+  "haarlemmertrekvaart": {
+    "been": true,
+    "coords": "52.15222222, 5.00638889",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam%E2%80%93Rhine_Canal",
+    "name": "Haarlemmertrekvaart"
+  },
+  "illinois-waterway": {
+    "been": true,
+    "city": "Chicago",
+    "coords": "41.65206944, -87.56701111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Illinois_Waterway",
+    "name": "Illinois Waterway"
+  },
+  "indiana-harbor": {
+    "been": false,
+    "coords": "41.66840000, -87.44020000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Indiana_Harbor_and_Ship_Canal",
+    "name": "Indiana Harbor"
+  },
+  "interlaken-ship-canal": {
+    "been": true,
+    "coords": "46.68270000, 7.85060000",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Interlaken_Ship_Canal",
+    "name": "Interlaken Ship Canal"
+  },
+  "julianakanaal": {
+    "been": true,
+    "coords": "51.014166666667, 5.7836111111111",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Julianakanaal",
+    "name": "Julianakanaal",
+    "wikidata": "Q1712089"
+  },
+  "kachhi-canal": {
+    "been": false,
+    "country": "PK",
+    "icons": ["🇵🇰"],
+    "link": "https://en.wikipedia.org/wiki/Kachhi_Canal_Project",
+    "name": "Kachhi Canal",
+    "wikidata": "Q6344658"
+  },
+  "kanal-powodziowy": {
+    "been": true,
+    "city": "Wrocław",
+    "coords": "51.128888888889, 17.061944444444",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://pl.wikipedia.org/wiki/Kanał_Powodziowy_we_Wrocławiu",
+    "name": "Kanal Powodziowy",
+    "wikidata": "Q11734828"
+  },
+  "leidsevaart": {
+    "been": true,
+    "coords": "52.15222222, 5.00638889",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam%E2%80%93Rhine_Canal",
+    "name": "Leidsevaart"
+  },
+  "leopold-canal": {
+    "been": true,
+    "coords": "51.26446600, 3.63836300",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Leopold_Canal_(Belgium)",
+    "name": "Leopold Canal"
+  },
+  "main-donau-kanal": {
+    "been": true,
+    "coords": "49.191666666667, 11.250833333333",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Main-Donau-Kanal",
+    "name": "Main–Donau Kanal",
+    "wikidata": "Q153085"
+  },
+  "marchfeldcanal": {
+    "been": true,
+    "city": "Vienna",
+    "coords": "48.3044, 16.4475",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Marchfeldkanal",
+    "name": "Marchfeldcanal",
+    "wikidata": "Q1893474"
+  },
+  "miami-canal": {
+    "been": true,
+    "coords": "25.91694444, -80.40861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Miami_Canal",
+    "name": "Miami Canal"
+  },
+  "moscow-canal": {
+    "been": false,
+    "coords": "56.71666667, 37.13333333",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Moscow_Canal",
+    "name": "Moscow Canal"
+  },
+  "nieuwe-waterweg": {
+    "been": true,
+    "coords": "52.15222222, 5.00638889",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam%E2%80%93Rhine_Canal",
+    "name": "Nieuwe Waterweg"
+  },
+  "noordzeekanaal": {
+    "been": true,
+    "coords": "52.15222222, 5.00638889",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Amsterdam%E2%80%93Rhine_Canal",
+    "name": "Noordzeekanaal"
+  },
+  "ohio-and-erie-canal": {
+    "been": false,
+    "coords": "40.74083333, -80.89361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ohio_and_Erie_Canal",
+    "name": "Ohio and Erie Canal"
+  },
+  "ontsluitingsweg": {
+    "been": true,
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "name": "Ontsluitingsweg"
+  },
+  "oudegracht": {
+    "been": true,
+    "coords": "52.08200000, 5.12300000",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Oudegracht",
+    "name": "Oudegracht"
+  },
+  "oxford-canal": {
+    "been": true,
+    "coords": "52.45, -1.4666666666667",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Oxford_Canal",
+    "name": "Oxford Canal",
+    "wikidata": "Q238725"
+  },
+  "panama-canal": {
+    "been": true,
+    "coords": "9.12, -79.75",
+    "country": "PA",
+    "icons": ["🇵🇦"],
+    "link": "https://en.wikipedia.org/wiki/Panama_Canal",
+    "name": "Panama Canal",
+    "wikidata": "Q7350"
+  },
+  "qaraqum-canal": {
+    "been": false,
+    "country": "TM",
+    "icons": ["🇹🇲"],
+    "link": "https://en.wikipedia.org/wiki/Qaraqum_Canal",
+    "name": "Qaraqum Canal"
+  },
+  "red-flag-canal": {
+    "been": false,
+    "coords": "36.35333333, 113.75944444",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/Red_Flag_Canal",
+    "name": "Red Flag Canal"
+  },
+  "regents-canal": {
+    "been": true,
+    "coords": "52.45, -1.4666666666667",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Oxford_Canal",
+    "name": "Regent’s Canal",
+    "wikidata": "Q238725"
+  },
+  "rideau-canal": {
+    "been": false,
+    "coords": "45.42583333, -75.69722222",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Rideau_Canal",
+    "name": "Rideau Canal"
+  },
+  "ringvaart": {
+    "been": true,
+    "coords": "52.23160000, 4.55500000",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Ringvaart",
+    "name": "Ringvaart"
+  },
+  "roeselare-leie-canal": {
+    "been": true,
+    "coords": "50.913, 3.284",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Roeselare–Leie_Canal",
+    "name": "Roeselare–Leie Canal",
+    "wikidata": "Q2737686"
+  },
+  "rotterdamse-schie": {
+    "been": true,
+    "city": "Den Haag",
+    "coords": "52.00555556, 4.36111111",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Rotterdamse_Schie",
+    "name": "Rotterdamse Schie"
+  },
+  "saimaa-canal": {
+    "been": false,
+    "coords": "61.07861111, 28.27333333",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Saimaa_Canal",
+    "name": "Saimaa Canal"
+  },
+  "saint-lawrence-seaway": {
+    "been": false,
+    "coords": "45.30350000, -73.92680556",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Lawrence_Seaway",
+    "name": "Saint Lawrence Seaway"
+  },
+  "shinnecock-canal": {
+    "been": true,
+    "coords": "40.88750000, -72.50138889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Shinnecock_Canal",
+    "name": "Shinnecock Canal"
+  },
+  "south-north-water-transfer-project": {
+    "been": false,
+    "coords": "32.67388889, 111.70888889",
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/South%E2%80%93North_Water_Transfer_Project",
+    "name": "South–North Water Transfer Project"
+  },
+  "stratford-upon-avon-canal": {
+    "been": true,
+    "coords": "52.45, -1.4666666666667",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Oxford_Canal",
+    "name": "Stratford-upon-Avon Canal",
+    "wikidata": "Q238725"
+  },
+  "suez-canal": {
+    "been": true,
+    "coords": "31.22850000, 32.30420000",
+    "country": "EG",
+    "icons": ["🇪🇬"],
+    "link": "https://en.wikipedia.org/wiki/Suez_Canal",
+    "name": "Suez Canal"
+  },
+  "teltowkanal": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.446388888889, 13.470555555556",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Teltowkanal",
+    "name": "Teltowkanal",
+    "wikidata": "Q562206"
+  },
+  "thun-ship-canal": {
+    "been": true,
+    "coords": "46.75410800, 7.63227900",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://en.wikipedia.org/wiki/Thun_Ship_Canal",
+    "name": "Thun Ship Canal"
+  },
+  "venice-grand-canal": {
+    "been": true,
+    "city": "Venice",
+    "coords": "45.43138889, 12.33444444",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/Grand_Canal_(Venice)",
+    "name": "Venice Grand Canal"
+  },
+  "vinh-te-canal": {
+    "been": false,
+    "coords": "10.71888889, 105.11388889",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "link": "https://en.wikipedia.org/wiki/V%C4%A9nh_T%E1%BA%BF_Canal",
+    "name": "Vĩnh Tế Canal"
+  },
+  "vliet": {
+    "been": true,
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Vliet",
+    "name": "Vliet",
+    "wikidata": "Q37453609"
+  },
+  "volga-baltic-waterway": {
+    "been": false,
+    "city": "Saint Petersburg",
+    "coords": "59.96666667, 30.16666667",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/Volga%E2%80%93Baltic_Waterway",
+    "name": "Volga–Baltic Waterway"
+  },
+  "wabash-and-erie-canal": {
+    "been": false,
+    "coords": "40.59127778, -86.68044444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Wabash_and_Erie_Canal",
+    "name": "Wabash and Erie Canal"
+  },
+  "welland-canal": {
+    "been": true,
+    "coords": "43.07796000, -79.20991000",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Welland_Canal",
+    "name": "Welland Canal"
+  },
+  "white-sea-baltic-canal": {
+    "been": false,
+    "coords": "62.80000000, 34.80000000",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://en.wikipedia.org/wiki/White_Sea_%E2%80%93_Baltic_Canal",
+    "name": "White Sea–Baltic Canal"
+  }
+}

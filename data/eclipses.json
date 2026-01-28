@@ -1,0 +1,25 @@
+{
+  "--info--": {
+    "icon": "🌒",
+    "name": "Eclipses",
+    "size": "large",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  "lunar-eclipse": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/September_1996_lunar_eclipse",
+    "name": "Lunar eclipse",
+    "prefix": "1996"
+  },
+  "solar-eclipse": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2024",
+    "name": "Solar eclipse",
+    "prefix": "2024"
+  }
+}

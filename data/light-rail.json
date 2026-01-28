@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
@@ -22,9 +23,9 @@
     "icons": ["🇪🇹"],
     "link": "https://en.wikipedia.org/wiki/Addis_Ababa_Light_Rail",
     "name": "Addis Ababa",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q16250141",
-    "section": "visited"
+    "wikidata": "Q16250141"
   },
   "baltimore": {
     "been": false,
@@ -34,9 +35,9 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Baltimore_Light_RailLink",
     "name": "Baltimore",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q3333820",
-    "section": "visited"
+    "wikidata": "Q3333820"
   },
   "bielefeld": {
     "been": false,
@@ -87,8 +88,8 @@
   "calgary": {
     "been": false,
     "city": "Calgary",
-    "country": "CA",
     "coords": "51.05, -114.07",
+    "country": "CA",
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/CTrain",
     "name": "Calgary",
@@ -104,9 +105,9 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Waterfront_Line",
     "name": "Cleveland",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q66788923",
-    "section": "visited"
+    "wikidata": "Q66788923"
   },
   "cologne": {
     "been": false,
@@ -127,9 +128,9 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/RTD_Bus_%26_Rail#Light_rail",
     "name": "Denver",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q7309183",
-    "section": "visited"
+    "wikidata": "Q7309183"
   },
   "dortmund": {
     "been": false,
@@ -148,9 +149,9 @@
     "icons": ["🇨🇦"],
     "link": "https://en.wikipedia.org/wiki/Edmonton_Light_Rail_Transit",
     "name": "Edmonton",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q1285861",
-    "section": "visited"
+    "wikidata": "Q1285861"
   },
   "erfurt": {
     "been": false,
@@ -224,9 +225,9 @@
     "icons": ["🇬🇧"],
     "link": "https://en.wikipedia.org/wiki/Manchester_Metrolink",
     "name": "Manchester",
+    "section": "visited",
     "type": "light-rail",
-    "wikidata": "Q18548",
-    "section": "visited"
+    "wikidata": "Q18548"
   },
   "mexico-city": {
     "been": true,
@@ -294,8 +295,9 @@
   },
   "portland": {
     "been": false,
-    "country": "US",
+    "city": "Portland, OR",
     "coords": "45.52, -122.681944",
+    "country": "US",
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/MAX_Light_Rail",
     "name": "Portland",
@@ -310,8 +312,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/Sacramento_light_rail",
     "name": "Sacramento",
-    "type": "light-rail",
-    "section": "visited"
+    "section": "visited",
+    "type": "light-rail"
   },
   "salt-lake-city": {
     "been": false,
@@ -321,8 +323,8 @@
     "icons": ["🇺🇸"],
     "link": "https://en.wikipedia.org/wiki/TRAX_(light_rail)",
     "name": "Salt Lake City",
-    "type": "light-rail",
-    "section": "visited"
+    "section": "visited",
+    "type": "light-rail"
   },
   "san-francisco": {
     "been": true,

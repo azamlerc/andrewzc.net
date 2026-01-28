@@ -141,6 +141,20 @@
     "tags": ["auto", "featured", "google"],
     "type": "place"
   },
+  "apple-pay": {
+    "icon": "🍏",
+    "name": "Apple Pay",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  "apple-wallet": {
+    "icon": "💳",
+    "name": "Apple Wallet",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
   "aqueducts": {
     "icon": "💦",
     "map": {
@@ -159,6 +173,34 @@
     "name": "Arches",
     "size": "large",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "architects": {
+    "icon": "👷‍♂️",
+    "name": "Architects",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  "artist-names": {
+    "icon": "🪪",
+    "name": "Real Names",
+    "size": "small",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  "artists": {
+    "icon": "👩‍🎤",
+    "name": "Artists",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  "auto-trains": {
+    "icon": "🚗",
+    "name": "Auto Trains",
+    "size": "large",
+    "tags": ["no-coords"],
     "type": "place"
   },
   "automatic": {
@@ -180,6 +222,20 @@
     "name": "Accidentally Wes Anderson",
     "size": "medium",
     "tags": ["featured", "middleSectionBeen"],
+    "type": "place"
+  },
+  "backing-bands": {
+    "icon": "🎺",
+    "name": "Backing Bands",
+    "size": "medium",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  "baths": {
+    "icon": "🛁",
+    "name": "Public Baths",
+    "size": "large",
+    "tags": ["no-links"],
     "type": "place"
   },
   "beaches": {
@@ -227,6 +283,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "bi-people": {
+    "icon": "🏳️‍🌈",
+    "name": "Bisexual People",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
   "bilingual": {
     "icon": "✌️",
     "name": "Bilingual",
@@ -244,6 +307,13 @@
     "name": "Bilingual Stations",
     "size": "medium",
     "sort": "city",
+    "type": "place"
+  },
+  "books": {
+    "icon": "📚",
+    "name": "Books",
+    "size": "large",
+    "tags": ["no-coords"],
     "type": "place"
   },
   "border-posts": {
@@ -399,6 +469,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "camping": {
+    "icon": "⛺️",
+    "name": "Camping",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
   "canada": {
     "headlines": ["Canadian Provinces and Territories", "Provinces et territoires canadiens"],
     "icon": "🇨🇦",
@@ -409,6 +486,13 @@
       "zoom": "4"
     },
     "name": "Canadian Provinces and Territories",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  "canals": {
+    "icon": "🚢",
+    "name": "Canals",
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -451,6 +535,14 @@
     "sort": "name",
     "tags": ["auto", "double-flag", "reference-first", "reference-key"],
     "type": "place"
+  },
+  "cars": {
+    "icon": "🚗",
+    "name": "My Cars",
+    "size": "large",
+    "sort": "order",
+    "tags": ["ordered", "reference-first", "reference-key", "no-links"],
+    "type": "entity"
   },
   "casinos": {
     "icon": "🎰",
@@ -585,6 +677,21 @@
     "tags": ["auto", "prefix", "reference-first"],
     "type": "place"
   },
+  "co-rulers": {
+    "icon": "👬",
+    "name": "Co-Rulers",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  "concerts": {
+    "icon": "🤘",
+    "name": "Concerts",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["no-links", "people", "prefix", "reference-key"],
+    "type": "place"
+  },
   "confluence": {
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
@@ -641,6 +748,13 @@
     "size": "large",
     "tags": ["featured"],
     "type": "country"
+  },
+  "cover-songs": {
+    "icon": "🙉",
+    "name": "Cover Songs",
+    "size": "large",
+    "tags": ["people", "no-links", "reference-key"],
+    "type": "entity"
   },
   "cross-platform": {
     "icon": "🔀",
@@ -705,6 +819,12 @@
     "tags": ["reference-first"],
     "type": "place"
   },
+  "directions": {
+    "icon": "🇲🇰",
+    "name": "Directions",
+    "size": "large",
+    "type": "place"
+  },
   "disputed": {
     "icon": "💥",
     "map": {
@@ -714,6 +834,20 @@
     },
     "name": "Disputed Territories",
     "size": "large",
+    "type": "place"
+  },
+  "diverse": {
+    "icon": "👩🏽",
+    "name": "Diverse Bands",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  "eclipses": {
+    "icon": "🌒",
+    "name": "Eclipses",
+    "size": "large",
+    "tags": ["no-coords", "prefix"],
     "type": "place"
   },
   "elements": {
@@ -886,10 +1020,25 @@
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
+  "fare-free": {
+    "icon": "🤑",
+    "name": "Fare Free",
+    "size": "medium",
+    "tags": ["prefix"],
+    "type": "place"
+  },
   "featuring": {
     "icon": "🎤",
     "name": "Featuring",
     "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  "female-bassists": {
+    "icon": "🦹‍♀️",
+    "name": "Female Bassists",
+    "size": "medium",
+    "tags": ["people"],
     "type": "place"
   },
   "ferries": {
@@ -1116,6 +1265,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "homes": {
+    "icon": "🏠",
+    "name": "Hometowns",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
   "hotels": {
     "icon": "🏨",
     "map": {
@@ -1317,6 +1473,7 @@
     "type": "place"
   },
   "light-rail": {
+    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
@@ -1455,6 +1612,7 @@
   "metros": {
     "flagClass": "icon",
     "flagFolder": "trains",
+    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
@@ -1579,6 +1737,7 @@
     },
     "name": "Music Places",
     "size": "large",
+    "sort": ["name", "reference"],
     "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
@@ -2485,6 +2644,7 @@
     "type": "place"
   },
   "trams": {
+    "header": "I’ve been to every stop in:",
     "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
     "map": {

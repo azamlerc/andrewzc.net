@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "I’ve been to every stop in:",
     "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
     "map": {
@@ -131,6 +132,16 @@
     "link": "https://ro.wikipedia.org/wiki/Tramvaiul_din_Arad",
     "name": "Arad",
     "wikidata": "Q173591"
+  },
+  "arhus": {
+    "been": false,
+    "coords": "56.166666666, 9.5",
+    "country": "DK",
+    "icons": ["🇩🇰"],
+    "link": "https://en.wikipedia.org/wiki/Aarhus_Letbane",
+    "name": "Århus",
+    "type": "tram",
+    "wikidata": "Q4661716"
   },
   "arkhangelsk": {
     "been": false,
@@ -1426,6 +1437,15 @@
     "link": "https://en.wikipedia.org/wiki/Trams_in_Krefeld",
     "name": "Krefeld"
   },
+  "kryvyi-rih": {
+    "been": false,
+    "coords": "47.91000000, 33.39000000",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Kryvyi_Rih",
+    "name": "Kryvyi Rih",
+    "type": "tram"
+  },
   "kumamoto": {
     "been": false,
     "coords": "32.80305556, 130.70777778",
@@ -1638,20 +1658,6 @@
     "name": "Lviv",
     "section": "seen",
     "wikidata": "Q1566611"
-  },
-  "san-francisco": {
-    "been": true,
-    "city": "San Francisco",
-    "coords": "37.78333333, -122.41666667",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["san-francisco2.jpg", "san-francisco3jpg"],
-    "link": "https://en.wikipedia.org/wiki/Muni_Metro",
-    "name": "San Francisco",
-    "section": "done",
-    "size": 117,
-    "type": "trams",
-    "wikidata": "Q278074"
   },
   "lyon": {
     "been": true,
@@ -2043,6 +2049,18 @@
     "name": "Norrköping",
     "wikidata": "Q2142442"
   },
+  "nottingham": {
+    "been": false,
+    "city": "Nottingham",
+    "coords": "52.95610000, -1.15120000",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Nottingham_Express_Transit",
+    "name": "Nottingham",
+    "section": "visited",
+    "type": "tram",
+    "wikidata": "Q64138"
+  },
   "novocherkassk": {
     "been": false,
     "coords": "47.42222222, 40.09388889",
@@ -2263,34 +2281,6 @@
     "size": 271,
     "wikidata": "Q90"
   },
-  "arhus": {
-    "been": false,
-    "coords": "56.166666666, 9.5",
-    "country": "DK",
-    "icons": ["🇩🇰"],
-    "link": "https://en.wikipedia.org/wiki/Aarhus_Letbane",
-    "name": "Århus",
-    "type": "tram",
-    "wikidata": "Q4661716"
-  },
-  "volgograd": {
-    "been": false,
-    "coords": "48.70861111, 44.51472222",
-    "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://ru.wikipedia.org/wiki/Волгоградский_трамвай",
-    "name": "Volgograd",
-    "type": "light-rail"
-  },
-  "kryvyi-rih": {
-    "been": false,
-    "coords": "47.91000000, 33.39000000",
-    "country": "UA",
-    "icons": ["🇺🇦"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kryvyi_Rih",
-    "name": "Kryvyi Rih",
-    "type": "tram"
-  },
   "perm": {
     "been": false,
     "country": "RU",
@@ -2456,18 +2446,6 @@
     "size": 24,
     "wikidata": "Q638252"
   },
-  "nottingham": {
-    "been": false,
-    "city": "Nottingham",
-    "coords": "52.95610000, -1.15120000",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Nottingham_Express_Transit",
-    "name": "Nottingham",
-    "type": "tram",
-    "wikidata": "Q64138",
-    "section": "visited"
-  },
   "resita": {
     "been": false,
     "coords": "45.30000000, 21.89027778",
@@ -2615,6 +2593,20 @@
     "icons": ["🇺🇿"],
     "link": "https://uz.wikipedia.org/wiki/Samarqand_tramvaylari",
     "name": "Samarkand"
+  },
+  "san-francisco": {
+    "been": true,
+    "city": "San Francisco",
+    "coords": "37.78333333, -122.41666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["san-francisco2.jpg", "san-francisco3jpg"],
+    "link": "https://en.wikipedia.org/wiki/Muni_Metro",
+    "name": "San Francisco",
+    "section": "done",
+    "size": 117,
+    "type": "trams",
+    "wikidata": "Q278074"
   },
   "sanya": {
     "been": false,
@@ -3205,6 +3197,15 @@
     "icons": ["🇷🇺"],
     "link": "https://en.wikipedia.org/wiki/Trams_in_Volchansk",
     "name": "Volchansk"
+  },
+  "volgograd": {
+    "been": false,
+    "coords": "48.70861111, 44.51472222",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://ru.wikipedia.org/wiki/Волгоградский_трамвай",
+    "name": "Volgograd",
+    "type": "light-rail"
   },
   "volzhsky": {
     "been": false,
