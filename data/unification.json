@@ -1,0 +1,59 @@
+{
+  "--info--": {
+    "icon": "🤝",
+    "name": "Unification",
+    "size": "medium",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  "germany": {
+    "been": true,
+    "coords": "52.51666667, 13.38333333",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/Germany",
+    "name": "Germany",
+    "prefix": "1990",
+    "reference": "West Germany & East Germany"
+  },
+  "peru": {
+    "been": false,
+    "coords": "-12.04333333, -77.02833333",
+    "country": "PE",
+    "icons": ["🇵🇪"],
+    "link": "https://en.wikipedia.org/wiki/Peru",
+    "name": "Peru",
+    "prefix": "1839",
+    "reference": "North Peru & South Peru"
+  },
+  "united-kingdom": {
+    "been": true,
+    "coords": "51.50000000, -0.11666667",
+    "countries": ["GB", "GB-SCT"],
+    "icons": ["🇬🇧", "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+    "link": "https://en.wikipedia.org/wiki/United_Kingdom",
+    "name": "United Kingdom",
+    "prefix": "1707",
+    "reference": "England & Scotland"
+  },
+  "vietnam": {
+    "been": false,
+    "coords": "21.03333333, 105.85000000",
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "link": "https://en.wikipedia.org/wiki/Vietnam",
+    "name": "Vietnam",
+    "prefix": "1976",
+    "reference": "North Vietnam & South Vietnam"
+  },
+  "yemen": {
+    "been": false,
+    "coords": "15.34833333, 44.20638889",
+    "country": "YE",
+    "icons": ["🇾🇪"],
+    "link": "https://en.wikipedia.org/wiki/Yemen",
+    "name": "Yemen",
+    "prefix": "1990",
+    "reference": "North Yemen & South Yemen"
+  }
+}

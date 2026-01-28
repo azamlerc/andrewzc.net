@@ -1,0 +1,442 @@
+{
+  "--info--": {
+    "icon": "💰",
+    "name": "Tariffs",
+    "size": "large",
+    "tags": ["no-links", "prefix"],
+    "type": "place"
+  },
+  "algeria": {
+    "been": false,
+    "country": "DZ",
+    "icons": ["🇩🇿"],
+    "name": "Algeria",
+    "prefix": "30%"
+  },
+  "angola": {
+    "been": false,
+    "country": "AO",
+    "icons": ["🇦🇴"],
+    "name": "Angola",
+    "prefix": "32%"
+  },
+  "bangladesh": {
+    "been": false,
+    "country": "BD",
+    "icons": ["🇧🇩"],
+    "name": "Bangladesh",
+    "prefix": "37%"
+  },
+  "bosnia-and-herzegovina": {
+    "been": true,
+    "country": "BA",
+    "icons": ["🇧🇦"],
+    "name": "Bosnia and Herzegovina",
+    "prefix": "36%"
+  },
+  "botswana": {
+    "been": false,
+    "country": "BW",
+    "icons": ["🇧🇼"],
+    "name": "Botswana",
+    "prefix": "38%"
+  },
+  "brunei": {
+    "been": false,
+    "country": "BN",
+    "icons": ["🇧🇳"],
+    "name": "Brunei",
+    "prefix": "24%"
+  },
+  "cambodia": {
+    "been": false,
+    "country": "KH",
+    "icons": ["🇰🇭"],
+    "name": "Cambodia",
+    "prefix": "49%"
+  },
+  "cameroon": {
+    "been": false,
+    "country": "CM",
+    "icons": ["🇨🇲"],
+    "name": "Cameroon",
+    "prefix": "12%"
+  },
+  "chad": {
+    "been": false,
+    "country": "TD",
+    "icons": ["🇹🇩"],
+    "name": "Chad",
+    "prefix": "13%"
+  },
+  "china": {
+    "been": true,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "name": "China",
+    "prefix": "145%"
+  },
+  "congo-kinshasa": {
+    "been": false,
+    "country": "CD",
+    "icons": ["🇨🇩"],
+    "name": "Congo-Kinshasa",
+    "prefix": "11%"
+  },
+  "cote-divoire": {
+    "been": false,
+    "country": "CI",
+    "icons": ["🇨🇮"],
+    "name": "Côte d’Ivoire",
+    "prefix": "21%"
+  },
+  "equatorial-guinea": {
+    "been": false,
+    "country": "GQ",
+    "icons": ["🇬🇶"],
+    "name": "Equatorial Guinea",
+    "prefix": "13%"
+  },
+  "european-union": {
+    "been": true,
+    "country": "EU",
+    "icons": ["🇪🇺"],
+    "name": "European Union",
+    "prefix": "20%"
+  },
+  "falklands": {
+    "been": false,
+    "country": "FK",
+    "icons": ["🇫🇰"],
+    "name": "Falklands",
+    "prefix": "42%"
+  },
+  "fiji": {
+    "been": false,
+    "country": "FJ",
+    "icons": ["🇫🇯"],
+    "name": "Fiji",
+    "prefix": "32%"
+  },
+  "guyana": {
+    "been": false,
+    "country": "GY",
+    "icons": ["🇬🇾"],
+    "name": "Guyana",
+    "prefix": "38%"
+  },
+  "heard-and-mcdonald-islands": {
+    "been": false,
+    "country": "NZ",
+    "icons": ["🇳🇿"],
+    "name": "Heard and McDonald Islands",
+    "prefix": "10%"
+  },
+  "india": {
+    "been": true,
+    "country": "IN",
+    "icons": ["🇮🇳"],
+    "name": "India",
+    "prefix": "27%"
+  },
+  "indonesia": {
+    "been": false,
+    "country": "ID",
+    "icons": ["🇮🇩"],
+    "name": "Indonesia",
+    "prefix": "32%"
+  },
+  "iraq": {
+    "been": false,
+    "country": "IQ",
+    "icons": ["🇮🇶"],
+    "name": "Iraq",
+    "prefix": "39%"
+  },
+  "israel": {
+    "been": true,
+    "country": "IL",
+    "icons": ["🇮🇱"],
+    "name": "Israel",
+    "prefix": "17%"
+  },
+  "japan": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "name": "Japan",
+    "prefix": "24%"
+  },
+  "jordan": {
+    "been": false,
+    "country": "JO",
+    "icons": ["🇯🇴"],
+    "name": "Jordan",
+    "prefix": "20%"
+  },
+  "kazakhstan": {
+    "been": false,
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "name": "Kazakhstan",
+    "prefix": "27%"
+  },
+  "laos": {
+    "been": false,
+    "country": "LA",
+    "icons": ["🇱🇦"],
+    "name": "Laos",
+    "prefix": "48%"
+  },
+  "lesotho": {
+    "been": false,
+    "country": "LS",
+    "icons": ["🇱🇸"],
+    "name": "Lesotho",
+    "prefix": "50%"
+  },
+  "libya": {
+    "been": false,
+    "country": "LY",
+    "icons": ["🇱🇾"],
+    "name": "Libya",
+    "prefix": "31%"
+  },
+  "liechtenstein": {
+    "been": true,
+    "country": "LI",
+    "icons": ["🇱🇮"],
+    "name": "Liechtenstein",
+    "prefix": "37%"
+  },
+  "madagascar": {
+    "been": false,
+    "country": "MG",
+    "icons": ["🇲🇬"],
+    "name": "Madagascar",
+    "prefix": "47%"
+  },
+  "malawi": {
+    "been": false,
+    "country": "MW",
+    "icons": ["🇲🇼"],
+    "name": "Malawi",
+    "prefix": "18%"
+  },
+  "malaysia": {
+    "been": false,
+    "country": "MY",
+    "icons": ["🇲🇾"],
+    "name": "Malaysia",
+    "prefix": "24%"
+  },
+  "mauritius": {
+    "been": false,
+    "country": "MU",
+    "icons": ["🇲🇺"],
+    "name": "Mauritius",
+    "prefix": "40%"
+  },
+  "moldova": {
+    "been": true,
+    "country": "MD",
+    "icons": ["🇲🇩"],
+    "name": "Moldova",
+    "prefix": "31%"
+  },
+  "mozambique": {
+    "been": false,
+    "country": "MZ",
+    "icons": ["🇲🇿"],
+    "name": "Mozambique",
+    "prefix": "16%"
+  },
+  "myanmar": {
+    "been": false,
+    "country": "MM",
+    "icons": ["🇲🇲"],
+    "name": "Myanmar",
+    "prefix": "45%"
+  },
+  "namibia": {
+    "been": false,
+    "country": "NA",
+    "icons": ["🇳🇦"],
+    "name": "Namibia",
+    "prefix": "21%"
+  },
+  "nauru": {
+    "been": false,
+    "country": "NR",
+    "icons": ["🇳🇷"],
+    "name": "Nauru",
+    "prefix": "30%"
+  },
+  "nicaragua": {
+    "been": false,
+    "country": "NI",
+    "icons": ["🇳🇮"],
+    "name": "Nicaragua",
+    "prefix": "19%"
+  },
+  "nigeria": {
+    "been": true,
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "name": "Nigeria",
+    "prefix": "14%"
+  },
+  "norfolk-island": {
+    "been": false,
+    "country": "NF",
+    "icons": ["🇳🇫"],
+    "name": "Norfolk Island",
+    "prefix": "29%"
+  },
+  "north-macedonia": {
+    "been": true,
+    "country": "MK",
+    "icons": ["🇲🇰"],
+    "name": "North Macedonia",
+    "prefix": "33%"
+  },
+  "norway": {
+    "been": true,
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "name": "Norway",
+    "prefix": "16%"
+  },
+  "pakistan": {
+    "been": false,
+    "country": "PK",
+    "icons": ["🇵🇰"],
+    "name": "Pakistan",
+    "prefix": "30%"
+  },
+  "philippines": {
+    "been": false,
+    "country": "PH",
+    "icons": ["🇵🇭"],
+    "name": "Philippines",
+    "prefix": "18%"
+  },
+  "rest-of-world": {
+    "been": true,
+    "icons": ["🌍"],
+    "name": "Rest of the world",
+    "prefix": "10%"
+  },
+  "reunion": {
+    "been": false,
+    "country": "RE",
+    "icons": ["🇷🇪"],
+    "name": "Réunion",
+    "prefix": "37%"
+  },
+  "saint-pierre-and-miquelon": {
+    "been": false,
+    "country": "PM",
+    "icons": ["🇵🇲"],
+    "name": "Saint Pierre and Miquelon",
+    "prefix": "50%"
+  },
+  "serbia": {
+    "been": true,
+    "country": "RS",
+    "icons": ["🇷🇸"],
+    "name": "Serbia",
+    "prefix": "38%"
+  },
+  "south-africa": {
+    "been": false,
+    "country": "ZA",
+    "icons": ["🇿🇦"],
+    "name": "South Africa",
+    "prefix": "31%"
+  },
+  "south-korea": {
+    "been": true,
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "name": "South Korea",
+    "prefix": "26%"
+  },
+  "sri-lanka": {
+    "been": false,
+    "country": "LK",
+    "icons": ["🇱🇰"],
+    "name": "Sri Lanka",
+    "prefix": "44%"
+  },
+  "switzerland": {
+    "been": true,
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "name": "Switzerland",
+    "prefix": "32%"
+  },
+  "syria": {
+    "been": false,
+    "country": "SY",
+    "icons": ["🇸🇾"],
+    "name": "Syria",
+    "prefix": "41%"
+  },
+  "taiwan": {
+    "been": false,
+    "country": "TW",
+    "icons": ["🇹🇼"],
+    "name": "Taiwan",
+    "prefix": "32%"
+  },
+  "thailand": {
+    "been": true,
+    "country": "TH",
+    "icons": ["🇹🇭"],
+    "name": "Thailand",
+    "prefix": "37%"
+  },
+  "tunisia": {
+    "been": false,
+    "country": "TN",
+    "icons": ["🇹🇳"],
+    "name": "Tunisia",
+    "prefix": "28%"
+  },
+  "vanuatu": {
+    "been": true,
+    "country": "VU",
+    "icons": ["🇻🇺"],
+    "name": "Vanuatu",
+    "prefix": "23%"
+  },
+  "venezuela": {
+    "been": false,
+    "country": "VE",
+    "icons": ["🇻🇪"],
+    "name": "Venezuela",
+    "prefix": "15%"
+  },
+  "vietnam": {
+    "been": false,
+    "country": "VN",
+    "icons": ["🇻🇳"],
+    "name": "Vietnam",
+    "prefix": "46%"
+  },
+  "zambia": {
+    "been": false,
+    "country": "ZM",
+    "icons": ["🇿🇲"],
+    "name": "Zambia",
+    "prefix": "17%"
+  },
+  "zimbabwe": {
+    "been": false,
+    "country": "ZW",
+    "icons": ["🇿🇼"],
+    "name": "Zimbabwe",
+    "prefix": "18%"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "--info--": {
+    "icon": "🚄",
+    "name": "High-Speed Trains",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  "acela": {
+    "badges": ["😒"],
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Washington–New York–Boston",
+    "link": "https://en.wikipedia.org/wiki/Acela",
+    "name": "Acela",
+    "prefix": "240"
+  },
+  "al-boraq": {
+    "badges": ["👀"],
+    "been": true,
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "info": "Casablanca–Tangier",
+    "link": "https://en.wikipedia.org/wiki/Al_Boraq",
+    "name": "Al Boraq",
+    "prefix": "320"
+  },
+  "alfa-pendular": {
+    "been": true,
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "info": "Lisbon–Porto",
+    "link": "https://en.wikipedia.org/wiki/Alfa_Pendular",
+    "name": "Alfa Pendular",
+    "prefix": "220"
+  },
+  "ave-madrid-barcelona": {
+    "been": true,
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Madrid–Barcelona_high-speed_rail_line",
+    "name": "AVE, Madrid–Barcelona",
+    "prefix": "300"
+  },
+  "beijing-shanghai": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "info": "京沪高速铁路",
+    "link": "https://en.wikipedia.org/wiki/Beijing–Shanghai_high-speed_railway",
+    "name": "Beijing–Shanghai",
+    "prefix": "350"
+  },
+  "brightline": {
+    "been": true,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Orlando–Miami",
+    "link": "https://en.wikipedia.org/wiki/Brightline",
+    "name": "Brightline",
+    "prefix": "200"
+  },
+  "cd": {
+    "been": true,
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "info": "Olomouc–Prague",
+    "link": "https://en.wikipedia.org/wiki/High-speed_rail_in_the_Czech_Republic",
+    "name": "ČD",
+    "prefix": "200"
+  },
+  "china": {
+    "been": false,
+    "country": "CN",
+    "icons": ["🇨🇳"],
+    "link": "https://en.wikipedia.org/wiki/High-speed_rail_in_China",
+    "name": "China",
+    "prefix": "350"
+  },
+  "eurostar-london-brussels": {
+    "been": true,
+    "countries": ["GB", "BE"],
+    "icons": ["🇬🇧", "🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Eurostar",
+    "name": "Eurostar, London–Brussels",
+    "prefix": "300"
+  },
+  "eurostar-london-paris": {
+    "been": true,
+    "countries": ["GB", "FR"],
+    "icons": ["🇬🇧", "🇫🇷"],
+    "link": "https://en.wikipedia.org/wiki/Eurostar",
+    "name": "Eurostar, London–Paris",
+    "prefix": "300"
+  },
+  "eurostar-paris-brussels": {
+    "been": true,
+    "countries": ["FR", "BE"],
+    "icons": ["🇫🇷", "🇧🇪"],
+    "link": "https://en.wikipedia.org/wiki/Thalys",
+    "name": "Eurostar, Paris–Brussels",
+    "prefix": "300"
+  },
+  "germany": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://en.wikipedia.org/wiki/High-speed_rail_in_Germany",
+    "name": "Germany",
+    "prefix": "330"
+  },
+  "high-speed-2": {
+    "badges": ["🚧"],
+    "been": false,
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "info": "London–Birmingham",
+    "link": "https://en.wikipedia.org/wiki/High_Speed_2",
+    "name": "High Speed 2",
+    "prefix": "360"
+  },
+  "hokkaido-shinkansen": {
+    "badges": ["🚧"],
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵", "🚅"],
+    "info": "北海道新幹線 Aomori–Sapporo",
+    "link": "https://en.wikipedia.org/wiki/Hokkaido_Shinkansen",
+    "name": "Hokkaido Shinkansen",
+    "prefix": "260"
+  },
+  "intercity-express": {
+    "been": true,
+    "countries": ["FR", "DE"],
+    "icons": ["🇫🇷", "🇩🇪"],
+    "info": "Paris–Frankfurt",
+    "link": "https://en.wikipedia.org/wiki/Intercity_Express",
+    "name": "Intercity Express",
+    "prefix": "320"
+  },
+  "italy": {
+    "been": false,
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://en.wikipedia.org/wiki/High-speed_rail_in_Italy",
+    "name": "Italy",
+    "prefix": "300"
+  },
+  "ktx": {
+    "been": true,
+    "country": "KR",
+    "icons": ["🇰🇷"],
+    "info": "Seoul–Busan",
+    "link": "https://en.wikipedia.org/wiki/Korea_Train_Express",
+    "name": "KTX",
+    "prefix": "300"
+  },
+  "kyushu-shinkansen": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵", "🚅"],
+    "info": "九州新幹線 Hakata–Kagoshima",
+    "link": "https://en.wikipedia.org/wiki/Kyushu_Shinkansen",
+    "name": "Kyushu Shinkansen",
+    "prefix": "260"
+  },
+  "pkp-intercity": {
+    "been": true,
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "info": "Warsaw–Katowice",
+    "link": "https://en.wikipedia.org/wiki/PKP_Intercity",
+    "name": "PKP Intercity",
+    "prefix": "200"
+  },
+  "sanyo-shinkansen": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵", "🚅"],
+    "info": "山陽新幹線 Osaka–Hakata",
+    "link": "https://en.wikipedia.org/wiki/San%27yō_Shinkansen",
+    "name": "Sanyō Shinkansen",
+    "prefix": "300"
+  },
+  "sapsan": {
+    "been": false,
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "info": "Moscow–Saint Petersburg",
+    "link": "https://en.wikipedia.org/wiki/Sapsan",
+    "name": "Sapsan",
+    "prefix": "250"
+  },
+  "tgv-atlantique": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Paris–Bordeaux",
+    "link": "https://en.wikipedia.org/wiki/SNCF_TGV_Atlantique",
+    "name": "TGV Atlantique",
+    "prefix": "320"
+  },
+  "tgv-est": {
+    "been": true,
+    "countries": ["FR", "LU"],
+    "icons": ["🇫🇷", "🇱🇺"],
+    "info": "Paris–Luxembourg",
+    "link": "https://en.wikipedia.org/wiki/LGV_Est",
+    "name": "TGV Est",
+    "prefix": "320"
+  },
+  "tgv-lyria": {
+    "been": true,
+    "countries": ["FR", "CH"],
+    "icons": ["🇫🇷", "🇨🇭"],
+    "info": "Paris–Geneva",
+    "link": "https://en.wikipedia.org/wiki/TGV_Lyria",
+    "name": "TGV Lyria",
+    "prefix": "300"
+  },
+  "tgv-sud-est": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Paris–Lyon–Montpellier",
+    "link": "https://en.wikipedia.org/wiki/SNCF_TGV_Sud-Est",
+    "name": "TGV Sud-Est",
+    "prefix": "300"
+  },
+  "thalys": {
+    "been": true,
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "Paris–Avignon",
+    "link": "https://en.wikipedia.org/wiki/Thalys",
+    "name": "Thalys",
+    "prefix": "300"
+  },
+  "thalys-paris-den-haag": {
+    "been": true,
+    "countries": ["FR", "NL"],
+    "icons": ["🇫🇷", "🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Thalys",
+    "name": "Thalys, Paris-Den Haag",
+    "prefix": "300",
+    "strike": true
+  },
+  "tohoku-shinkansen": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵", "🚅"],
+    "info": "東北新幹線 Tokyo–Aomori",
+    "link": "https://en.wikipedia.org/wiki/Tōhoku_Shinkansen",
+    "name": "Tōhoku Shinkansen",
+    "prefix": "320"
+  },
+  "tokaido-shinkansen": {
+    "been": true,
+    "country": "JP",
+    "icons": ["🇯🇵", "🚅"],
+    "info": "東海道新幹線 Tokyo–Osaka",
+    "link": "https://en.wikipedia.org/wiki/Tokaido_Shinkansen",
+    "name": "Tokaido Shinkansen",
+    "prefix": "285"
+  }
+}

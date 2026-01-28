@@ -1,0 +1,370 @@
+{
+  "--info--": {
+    "icon": "🛣",
+    "name": "Highway Medians",
+    "size": "small",
+    "tags": ["no-coords", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  "atlanta-red-line": {
+    "been": false,
+    "city": "Atlanta",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 85",
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(MARTA)",
+    "name": "Red Line",
+    "reference": "Atlanta"
+  },
+  "baltimore-metro": {
+    "been": false,
+    "city": "Baltimore",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 795",
+    "link": "https://en.wikipedia.org/wiki/Baltimore_Metro_SubwayLink",
+    "name": "Metro",
+    "reference": "Baltimore"
+  },
+  "calgary-blue-line": {
+    "been": false,
+    "city": "Calgary",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "info": "Bow Trail",
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(Calgary)",
+    "name": "Blue Line",
+    "reference": "Calgary"
+  },
+  "calgary-red-line": {
+    "been": true,
+    "city": "Calgary",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "info": "Crowchild Trail",
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(Calgary)",
+    "name": "Red Line",
+    "reference": "Calgary"
+  },
+  "chicago-blue-line": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Kennedy Expressway",
+    "link": "https://en.wikipedia.org/wiki/Kennedy_Expressway",
+    "name": "Blue Line",
+    "reference": "Chicago"
+  },
+  "chicago-red-line": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Dan Ryan",
+    "link": "https://en.wikipedia.org/wiki/Red_Line_(CTA)",
+    "name": "Red Line",
+    "reference": "Chicago"
+  },
+  "denver-h-line": {
+    "been": false,
+    "city": "Denver",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 25",
+    "link": "https://en.wikipedia.org/wiki/H_Line_(RTD)",
+    "name": "H Line",
+    "reference": "Denver"
+  },
+  "denver-r-line": {
+    "been": false,
+    "city": "Denver",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 26",
+    "link": "https://en.wikipedia.org/wiki/R_Line_(RTD)",
+    "name": "R Line",
+    "reference": "Denver"
+  },
+  "essen-u18": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "info": "A40",
+    "link": "https://en.wikipedia.org/wiki/Essen_Stadtbahn",
+    "name": "U18",
+    "reference": "Essen"
+  },
+  "highway-medians": {
+    "been": true,
+    "icons": ["🛣"],
+    "name": "Highway Medians"
+  },
+  "kobe-seishin-yamate-line": {
+    "been": false,
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "info": "Route 65",
+    "link": "https://en.wikipedia.org/wiki/Seishin-Yamate_Line",
+    "name": "Seishin-Yamate Line",
+    "reference": "Kobe"
+  },
+  "lagos-blue-line": {
+    "been": true,
+    "city": "Lagos",
+    "country": "NG",
+    "icons": ["🇳🇬"],
+    "info": "Lagos-Badagry Expressway",
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(Lagos_Rail_Mass_Transit)",
+    "name": "Blue Line",
+    "reference": "Lagos"
+  },
+  "los-angeles-a-line": {
+    "been": false,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 210",
+    "link": "https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)",
+    "name": "A Line",
+    "reference": "Los Angeles"
+  },
+  "los-angeles-c-line": {
+    "been": false,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 105",
+    "link": "https://en.wikipedia.org/wiki/C_Line_(Los_Angeles_Metro)",
+    "name": "C Line",
+    "reference": "Los Angeles"
+  },
+  "los-angeles-l-line": {
+    "been": false,
+    "city": "Los Angeles",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 210",
+    "link": "https://en.wikipedia.org/wiki/L_Line_(Los_Angeles_Metro)",
+    "name": "L Line",
+    "reference": "Los Angeles"
+  },
+  "mexico-city-line-2": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada de Tlalpan",
+    "link": "https://es.wikipedia.org/wiki/Línea_2_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 2",
+    "reference": "Mexico City"
+  },
+  "mexico-city-line-3": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Insurgentes Norte",
+    "link": "https://es.wikipedia.org/wiki/Línea_3_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 3",
+    "reference": "Mexico City"
+  },
+  "mexico-city-line-5": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Lazaro Cardenas",
+    "link": "https://es.wikipedia.org/wiki/Línea_5_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 5",
+    "reference": "Mexico City"
+  },
+  "mexico-city-line-8": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Francisco del Paso y Troncoso",
+    "link": "https://es.wikipedia.org/wiki/Línea_8_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line 8",
+    "reference": "Mexico City"
+  },
+  "mexico-city-line-a": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada General Ignacio Zaragoza",
+    "link": "https://es.wikipedia.org/wiki/Línea_A_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line A",
+    "reference": "Mexico City"
+  },
+  "mexico-city-line-b": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Avenida Central Carlos Hank González",
+    "link": "https://es.wikipedia.org/wiki/Línea_B_del_Metro_de_la_Ciudad_de_México",
+    "name": "Line B",
+    "reference": "Mexico City"
+  },
+  "mexico-city-tram-1": {
+    "been": true,
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "info": "Calzada de Tlalpan",
+    "link": "https://es.wikipedia.org/wiki/Tren_ligero_de_la_Ciudad_de_México",
+    "name": "Tram 1",
+    "reference": "Mexico City"
+  },
+  "osaka-midosuji-line": {
+    "been": false,
+    "city": "Ōsaka",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "info": "Route 423",
+    "link": "https://en.wikipedia.org/wiki/Midōsuji_Line",
+    "name": "Midōsuji Line",
+    "reference": "Osaka"
+  },
+  "paris-line-8": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "info": "D1",
+    "link": "https://en.wikipedia.org/wiki/Paris_Métro_Line_8",
+    "name": "Line 8",
+    "reference": "Paris"
+  },
+  "philadelphia-market-frankford-line": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 95",
+    "link": "https://en.wikipedia.org/wiki/Market–Frankford_Line",
+    "name": "Market–Frankford Line",
+    "reference": "Philadelphia"
+  },
+  "portland-red-line": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 205",
+    "link": "https://en.wikipedia.org/wiki/MAX_Red_Line",
+    "name": "Red Line",
+    "reference": "Portland"
+  },
+  "sacramento-blue-line": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 80",
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(SacRT)",
+    "name": "Blue Line",
+    "reference": "Sacramento"
+  },
+  "san-francisco-blue-line": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 580",
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(BART)",
+    "name": "Blue Line",
+    "reference": "San Francisco"
+  },
+  "san-francisco-yellow-line": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "CA Route 24",
+    "link": "https://en.wikipedia.org/wiki/Yellow_Line_(BART)",
+    "name": "Yellow Line",
+    "reference": "San Francisco"
+  },
+  "san-jose-blue-line": {
+    "been": true,
+    "city": "San José",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "CA Route 87",
+    "link": "https://en.wikipedia.org/wiki/Blue_Line_(VTA)",
+    "name": "Blue Line",
+    "reference": "San Jose"
+  },
+  "santiago-line-2": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "info": "Route 5",
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_2",
+    "name": "Line 2",
+    "reference": "Santiago"
+  },
+  "santiago-line-4": {
+    "been": false,
+    "city": "Santiago",
+    "country": "CL",
+    "icons": ["🇨🇱"],
+    "info": "Route 70",
+    "link": "https://en.wikipedia.org/wiki/Santiago_Metro_Line_4",
+    "name": "Line 4",
+    "reference": "Santiago"
+  },
+  "seattle-1-line": {
+    "been": true,
+    "city": "Seattle",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 5",
+    "link": "https://en.wikipedia.org/wiki/1_Line_(Sound_Transit)",
+    "name": "1 Line",
+    "reference": "Seattle"
+  },
+  "seattle-2-line": {
+    "been": false,
+    "city": "Seattle",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 90",
+    "link": "https://en.wikipedia.org/wiki/2_Line_(Sound_Transit)",
+    "name": "2 Line",
+    "reference": "Seattle"
+  },
+  "toronto-line-1": {
+    "been": false,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "info": "Allen Road",
+    "link": "https://en.wikipedia.org/wiki/Line_1_Yonge–University",
+    "name": "Line 1",
+    "reference": "Toronto"
+  },
+  "washington-orange-line": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "Interstate 66",
+    "link": "https://en.wikipedia.org/wiki/Orange_Line_(Washington_Metro)",
+    "name": "Orange Line",
+    "reference": "Washington"
+  },
+  "washington-silver-line": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "VA Route 267",
+    "link": "https://en.wikipedia.org/wiki/Silver_Line_(Washington_Metro)",
+    "name": "Silver Line",
+    "reference": "Washington"
+  }
+}
