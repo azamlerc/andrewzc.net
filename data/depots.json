@@ -3,7 +3,7 @@
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "tags": ["reference-first", "reference-key"],
+    "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "aachen-eupen": {
@@ -593,6 +593,15 @@
     "name": "Gare de Dakar",
     "reference": "Dakar"
   },
+  "daugavpils-depot": {
+    "been": true,
+    "coords": "55.89660700, 26.56394700",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=55.896607_N_26.563947_E",
+    "name": "Depot",
+    "reference": "Daugavpils"
+  },
   "den-haag-frans-halsstraat": {
     "been": true,
     "city": "Den Haag",
@@ -838,6 +847,15 @@
     "link": "https://geohack.toolforge.org/geohack.php?params=50.64527_N_5.61180_E",
     "name": "Bressoux",
     "reference": "Liège"
+  },
+  "liepaja-depot": {
+    "been": true,
+    "coords": "56.52209000, 21.01796000",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.52209_N_21.01796_E",
+    "name": "Depot",
+    "reference": "Liepāja"
   },
   "lille-ch-dron": {
     "been": false,
