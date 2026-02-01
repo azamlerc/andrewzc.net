@@ -816,7 +816,14 @@
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
+  "diamond": {
+    "icon": "💎",
+    "name": "Diamond Crossings",
+    "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "directions": {
@@ -1104,6 +1111,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "founded": {
+    "icon": "🪦",
+    "name": "Founded",
+    "size": "large",
+    "tags": ["prefix"],
+    "type": "place"
+  },
   "france": {
     "icon": "🇫🇷",
     "map": {
@@ -1135,6 +1149,12 @@
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first"],
+    "type": "place"
+  },
+  "galleries": {
+    "icon": "🏛",
+    "name": "Galleries & Passages",
+    "size": "large",
     "type": "place"
   },
   "gauges": {
@@ -1203,6 +1223,21 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "guest-singers": {
+    "header": "Band members who sing lead vocals on a few songs.",
+    "icon": "🎤",
+    "name": "Lead Vocals",
+    "size": "small",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  "gyms": {
+    "icon": "🏋️",
+    "name": "Gyms",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
   "hamburgers": {
     "icon": "🍔",
     "map": {
@@ -1236,6 +1271,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "high-speed": {
+    "icon": "🚄",
+    "name": "High-Speed Trains",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
   "highest": {
     "icon": "🧗",
     "map": {
@@ -1251,6 +1293,13 @@
     "tags": ["auto", "featured", "prefix", "size"],
     "type": "place"
   },
+  "highway-medians": {
+    "icon": "🛣",
+    "name": "Highway Medians",
+    "size": "small",
+    "tags": ["no-coords", "reference-first", "reference-key"],
+    "type": "place"
+  },
   "highway-strips": {
     "header": "Highways that can be used as emergency runways for military aircraft.",
     "icon": "🛬",
@@ -1263,6 +1312,13 @@
     "size": "large",
     "sort": "order",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "highways": {
+    "icon": "🛣",
+    "name": "Highways",
+    "size": "large",
+    "tags": ["country-key", "no-coords"],
     "type": "place"
   },
   "homes": {
@@ -1337,6 +1393,13 @@
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
+  "instrumentals": {
+    "icon": "🎺",
+    "name": "Instrumentals",
+    "size": "medium",
+    "tags": ["people"],
+    "type": "place"
+  },
   "intermodal": {
     "header": "Stations with direct interchange between different modes of transport.",
     "icon": "🎛️",
@@ -1355,6 +1418,13 @@
     "name": "Cross-Border",
     "size": "medium",
     "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  "interurbans": {
+    "header": "Classic trams that run between towns over rural tram tracks.",
+    "icon": "🚃",
+    "name": "Interurbans",
+    "size": "large",
     "type": "place"
   },
   "islands": {
@@ -1406,6 +1476,21 @@
     "size": "large",
     "sort": "iconCount",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "last-locations": {
+    "footer": "See also <a href=\"first-locations.html\" class=\"dark\">first locations</a>.",
+    "icon": "🏚️",
+    "name": "Last Locations",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  "late-night": {
+    "icon": "🌙",
+    "name": "Late Night",
+    "size": "large",
+    "tags": ["reference-first"],
     "type": "place"
   },
   "leaders": {
@@ -1473,7 +1558,6 @@
     "type": "place"
   },
   "light-rail": {
-    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
     "icon": "🚈",
     "map": {
@@ -1502,6 +1586,13 @@
     "size": "medium",
     "sort": ["name", "reference"],
     "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  "longest-tunnels": {
+    "icon": "🚇",
+    "name": "Longest Tunnels",
+    "size": "small",
+    "tags": ["no-coords", "prefix", "reference-first", "reference-key"],
     "type": "place"
   },
   "loopback": {
@@ -1562,6 +1653,18 @@
     "tags": ["auto", "google"],
     "type": "place"
   },
+  "metro-bridges": {
+    "icon": "🌉",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Metro Bridges",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
   "metro-food": {
     "icon": "🍒",
     "map": {
@@ -1597,6 +1700,22 @@
     "tags": ["auto", "double-flag"],
     "type": "place"
   },
+  "metro-population": {
+    "header": "Thousands of people per metro station.",
+    "icon": "🧑‍🧑‍🧒‍🧒",
+    "name": "Metro Population",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  "metro-prices": {
+    "header": "Price of a metro ticket in US dollars.",
+    "icon": "💵",
+    "name": "Metro Prices",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
   "metro-themes": {
     "icon": "🪸",
     "map": {
@@ -1609,10 +1728,29 @@
     "tags": ["auto", "reference-key"],
     "type": "place"
   },
+  "metro-tunnels": {
+    "icon": "🕳️",
+    "name": "Metro Tunnels",
+    "size": "large",
+    "tags": ["reference-first", "auto"],
+    "type": "place"
+  },
+  "metro-widths": {
+    "icon": "📏",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Metro Widths",
+    "size": "large",
+    "sort": "size",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
   "metros": {
     "flagClass": "icon",
     "flagFolder": "trains",
-    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
@@ -1683,6 +1821,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "money-heist": {
+    "icon": "👺",
+    "name": "Money Heist",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
   "mosques": {
     "icon": "🕌",
     "map": {
@@ -1709,6 +1854,13 @@
     "tags": ["auto", "size"],
     "type": "place"
   },
+  "movie-places": {
+    "icon": "🎬",
+    "name": "Movie Places",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
   "moving-walkways": {
     "icon": "🛴",
     "name": "Moving Walkways",
@@ -1728,6 +1880,34 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "music-cars": {
+    "icon": "🚗",
+    "name": "Music Cars",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  "music-family": {
+    "icon": "🧑‍🧑‍🧒‍🧒",
+    "name": "Music Family",
+    "size": "medium",
+    "tags": ["people"],
+    "type": "place"
+  },
+  "music-origins": {
+    "icon": "🎸",
+    "name": "Music Origins",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  "music-people": {
+    "icon": "🕺",
+    "name": "Music People",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
   "music-places": {
     "icon": "🎙️",
     "map": {
@@ -1739,6 +1919,27 @@
     "size": "large",
     "sort": ["name", "reference"],
     "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  "music-space": {
+    "icon": "🪐",
+    "name": "Music Space",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  "music-time": {
+    "icon": "⏰",
+    "name": "Music Time",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  "music-water": {
+    "icon": "🌊",
+    "name": "Music Water",
+    "size": "medium",
+    "tags": ["no-links", "people", "reference-key"],
     "type": "place"
   },
   "national-parks": {
@@ -1782,6 +1983,13 @@
     },
     "name": "Newcastle",
     "size": "small",
+    "type": "place"
+  },
+  "night-trains": {
+    "icon": "🛌",
+    "name": "Night Trains",
+    "size": "large",
+    "tags": ["no-links", "ordered"],
     "type": "place"
   },
   "no-exit": {
@@ -1835,12 +2043,26 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "official-languages": {
+    "icon": "💬",
+    "name": "Official Languages",
+    "size": "large",
+    "tags": ["country-key", "no-links"],
+    "type": "place"
+  },
   "offset": {
     "header": "Metro stations with platforms that are not directly opposite one another.",
     "icon": "⚡️",
     "name": "Offset Platforms",
     "size": "medium",
     "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  "old-names": {
+    "icon": "🧬",
+    "name": "Old Names",
+    "size": "medium",
+    "tags": ["no-links", "people"],
     "type": "place"
   },
   "olympics": {
@@ -1854,6 +2076,21 @@
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
+    "type": "place"
+  },
+  "one-way": {
+    "header": "Routes where trains travel in a single direction.",
+    "icon": "➡️",
+    "name": "One Way",
+    "size": "medium",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
+  "open-gangways": {
+    "icon": "🐍",
+    "name": "Open Gangways",
+    "size": "medium",
+    "tags": ["no-coords", "prefix", "reference-first", "reference-key"],
     "type": "place"
   },
   "operating": {
@@ -1940,6 +2177,20 @@
     "tags": ["prefix"],
     "type": "place"
   },
+  "photographers": {
+    "icon": "🤳",
+    "name": "Photographers",
+    "size": "large",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  "place-names": {
+    "icon": "📛",
+    "name": "Place Names",
+    "size": "medium",
+    "tags": ["n"],
+    "type": "place"
+  },
   "places": {
     "icon": "📍",
     "map": {
@@ -1990,6 +2241,13 @@
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
+  "popes": {
+    "icon": "🇻🇦",
+    "name": "Popes",
+    "size": "small",
+    "tags": ["no-coords", "people", "prefix"],
+    "type": "place"
+  },
   "ports": {
     "icon": "⚓️",
     "map": {
@@ -2020,6 +2278,13 @@
     "name": "Premetros",
     "size": "large",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "producers": {
+    "icon": "🎛",
+    "name": "Producers",
+    "size": "medium",
+    "tags": ["no-links", "people", "reference-key"],
     "type": "place"
   },
   "projects": {
@@ -2257,6 +2522,20 @@
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
+  "singing-bassists": {
+    "icon": "🎸",
+    "name": "Singing Bassists",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  "singing-drummers": {
+    "icon": "🥁",
+    "name": "Singing Drummers",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
   "single-platform": {
     "header": "Metro stations with only one platform edge.",
     "icon": "1️⃣",
@@ -2290,6 +2569,20 @@
     "name": "Sloped Platforms",
     "size": "large",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "solo": {
+    "icon": "🙋‍♂️",
+    "name": "Solo Musicians",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  "songwriters": {
+    "icon": "✏️",
+    "name": "Songwriters",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
     "type": "place"
   },
   "southernmost": {
@@ -2526,6 +2819,17 @@
     "tags": ["auto", "featured"],
     "type": "place"
   },
+  "switchbacks": {
+    "icon": "🐍",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Switchbacks",
+    "size": "large",
+    "type": "place"
+  },
   "switched": {
     "header": "Lines that have switched from one service to another.",
     "icon": "🔀",
@@ -2566,6 +2870,13 @@
     "size": "large",
     "type": "place"
   },
+  "tariffs": {
+    "icon": "💰",
+    "name": "Tariffs",
+    "size": "large",
+    "tags": ["no-links", "prefix"],
+    "type": "place"
+  },
   "temples": {
     "icon": "⛩️",
     "map": {
@@ -2575,6 +2886,13 @@
     },
     "name": "Temples",
     "size": "large",
+    "type": "place"
+  },
+  "territories": {
+    "icon": "🏝️",
+    "name": "Territories",
+    "size": "large",
+    "tags": ["no-coords"],
     "type": "place"
   },
   "tintin": {
@@ -2644,7 +2962,6 @@
     "type": "place"
   },
   "trams": {
-    "header": "I’ve been to every stop in:",
     "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
     "map": {
@@ -2678,6 +2995,13 @@
     "size": "large",
     "type": "place"
   },
+  "transit-apps": {
+    "icon": "📱",
+    "name": "Transit Apps",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
   "transporter": {
     "icon": "🚟",
     "name": "Transporter Bridges",
@@ -2696,6 +3020,13 @@
     "size": "large",
     "sort": ["order", "countries", "states"],
     "tags": ["auto", "featured", "states"],
+    "type": "place"
+  },
+  "trios": {
+    "icon": "👨‍👦‍👦",
+    "name": "Power Trios",
+    "size": "large",
+    "tags": ["no-coords", "people"],
     "type": "place"
   },
   "tripoints": {
@@ -2751,6 +3082,13 @@
     "size": "large",
     "type": "place"
   },
+  "tv": {
+    "icon": "📺",
+    "name": "Television",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
   "tv-places": {
     "icon": "🎥",
     "map": {
@@ -2800,6 +3138,13 @@
     },
     "name": "World Heritage Sites",
     "size": "large",
+    "type": "place"
+  },
+  "unification": {
+    "icon": "🤝",
+    "name": "Unification",
+    "size": "medium",
+    "tags": ["prefix"],
     "type": "place"
   },
   "united-kingdom": {
@@ -2918,7 +3263,15 @@
     "icon": "🖖",
     "name": "Wyes",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["reference-first", "auto"],
+    "type": "place"
+  },
+  "young-leaders": {
+    "header": "<br>See also <a href=\"leaders.html\" class=\"dark\">heads of state</a> I have seen in real life.",
+    "icon": "👦🏻",
+    "name": "Young Leaders",
+    "size": "medium",
+    "tags": ["people", "prefix"],
     "type": "place"
   },
   "zero-points": {

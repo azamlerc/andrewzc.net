@@ -3,170 +3,184 @@
     "icon": "🏭",
     "name": "Depots",
     "size": "medium",
-    "tags": ["reference-first"],
+    "tags": ["reference-first", "reference-key"],
     "type": "place"
   },
-  "207th-street-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#207th_Street_Yard",
-    "name": "207th Street Yard",
-    "reference": "New York"
-  },
-  "239th-street-yard": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.82277778, -73.95305556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["239th-street-yard1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#239th_Street_Yard",
-    "name": "239th Street Yard",
-    "reference": "New York"
-  },
-  "240th-street-yard": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.82277778, -73.95305556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["240th-street-yard1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#240th_Street_Yard",
-    "name": "240th Street Yard",
-    "reference": "New York"
-  },
-  "38th-street-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#36th–38th_Street_Yard",
-    "name": "38th Street Yard",
-    "reference": "New York"
-  },
-  "54th-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/54th_Yard",
-    "name": "54th Yard",
-    "reference": "New York"
-  },
-  "69th-street-tc": {
-    "been": true,
-    "city": "Philadelphia",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
-    "name": "69th Street TC",
-    "reference": "Philadelphia"
-  },
-  "98th-yard": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/98th_Yard",
-    "name": "98th Yard",
-    "reference": "Chicago"
-  },
-  "acton-works": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Acton_Works",
-    "name": "Acton Works",
-    "reference": "London"
-  },
-  "aga": {
-    "been": true,
-    "city": "Stockholm",
-    "coords": "59.34710000, 18.15258000",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=59.34710_N_18.15258_E",
-    "name": "AGA",
-    "reference": "Stockholm"
-  },
-  "alexandria": {
-    "been": true,
-    "city": "Alexandria",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
-    "name": "Alexandria",
-    "reference": "Washington"
-  },
-  "alkarrshallen": {
-    "been": true,
-    "city": "Stockholm",
-    "coords": "59.32553000, 18.09429000",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=59.32553_N_18.09429_E",
-    "name": "Alkärrshallen",
-    "reference": "Stockholm"
-  },
-  "alte-poststraße": {
-    "been": true,
-    "city": "Graz",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "http://www.public-transport.at/remise-III-fotos.htm",
-    "name": "Alte Poststraße",
-    "reference": "Graz"
-  },
-  "alvik": {
-    "been": true,
-    "city": "Stockholm",
-    "coords": "59.33451000, 17.97214000",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=59.33451_N_17.97214_E",
-    "name": "Alvik",
-    "reference": "Stockholm"
-  },
-  "am-steinberg": {
+  "aachen-eupen": {
     "been": false,
+    "city": "Aachen",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
+    "name": "Eupen",
+    "reference": "Aachen",
+    "strike": true
+  },
+  "aachen-talstraße": {
+    "been": false,
+    "city": "Aachen",
     "country": "DE",
     "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Düsseldorf#Betriebshof_Am_Steinberg",
-    "name": "Am Steinberg",
-    "reference": "Düsseldorf"
+    "link": "https://www.aachen.de/DE/kultur_freizeit/kultur/depot/Aktuelles/index.html",
+    "name": "Talstraße",
+    "reference": "Aachen",
+    "strike": true
   },
-  "anderlues": {
+  "amsterdam-havenstraat": {
+    "been": false,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Havenstraat",
+    "name": "Havenstraat",
+    "reference": "Amsterdam"
+  },
+  "amsterdam-lekstraat": {
+    "been": false,
+    "city": "Amsterdam",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Lekstraat",
+    "name": "Lekstraat",
+    "reference": "Amsterdam"
+  },
+  "antwerp-deurne": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.22353000, 4.49644000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.22353_N_4.49644_E",
+    "name": "Deurne",
+    "reference": "Antwerp"
+  },
+  "antwerp-groenenhoek": {
+    "been": false,
+    "city": "Antwerp",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Vlaams_Tram-_en_Autobusmuseum",
+    "name": "Groenenhoek",
+    "reference": "Antwerp"
+  },
+  "antwerp-hoboken": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.18086000, 4.36484000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.18086_N_4.36484_E",
+    "name": "Hoboken",
+    "reference": "Antwerp"
+  },
+  "antwerp-punt-aan-de-lijn": {
+    "been": true,
+    "city": "Antwerp",
+    "coords": "51.24941000, 4.41838000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.24941_N_4.41838_E",
+    "name": "Punt aan de Lijn",
+    "reference": "Antwerp"
+  },
+  "bad-schandau-pirna-sebnitz": {
+    "been": true,
+    "coords": "50.92532000, 14.17660000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.92532_N_14.17660_E",
+    "name": "Pirna-Sebnitz",
+    "reference": "Bad Schandau"
+  },
+  "barcelona-bon-viatge": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bon_Viatge_(TRAM)",
+    "name": "Bon Viatge",
+    "reference": "Barcelona"
+  },
+  "barcelona-ecopark": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://es.wikipedia.org/wiki/Estación_de_Ecoparc#Cocheras_y_talleres",
+    "name": "Ecopark",
+    "reference": "Barcelona"
+  },
+  "barcelona-port-forum": {
+    "been": true,
+    "city": "Barcelona",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://en.wikipedia.org/wiki/Trambesòs",
+    "name": "Port Fòrum",
+    "reference": "Barcelona"
+  },
+  "belgian-coast-de-panne": {
     "been": true,
     "country": "BE",
     "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Métro_léger_de_Charleroi#Dépôts",
-    "name": "Anderlues",
-    "reference": "Charleroi"
+    "link": "https://nl.wikipedia.org/wiki/Kusttram#De_Panne",
+    "name": "De Panne",
+    "reference": "Belgian Coast"
   },
-  "angyalfold-kocsiszin": {
+  "belgian-coast-knokke-heist": {
     "been": true,
-    "city": "Budapest",
-    "coords": "47.55170000, 19.09257000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.55170_N_19.09257_E",
-    "name": "Angyalföld kocsiszín",
-    "reference": "Budapest"
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Kusttram#Knokke-Heist",
+    "name": "Knokke-Heist",
+    "reference": "Belgian Coast"
   },
-  "apsu-iela": {
+  "belgian-coast-nieuwpoortse-steenweg": {
     "been": true,
-    "city": "Riga",
-    "coords": "56.92033000, 24.09156000",
-    "country": "LV",
-    "icons": ["🇱🇻"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=56.92033_N_24.09156_E",
-    "name": "Āpšu iela",
-    "reference": "Riga"
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Kusttram#Nieuwpoort",
+    "name": "Nieuwpoortse Steenweg",
+    "reference": "Belgian Coast"
   },
-  "ariz": {
+  "belgian-coast-slijkensesteenweg": {
+    "been": true,
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Kusttram#Oostende",
+    "name": "Slijkensesteenweg",
+    "reference": "Belgian Coast"
+  },
+  "belgrade-bulevar-kralja-aleksandra": {
+    "been": false,
+    "city": "Belgrade",
+    "country": "RS",
+    "icons": ["🇷🇸"],
+    "link": "https://en.wikipedia.org/wiki/Bulevar_kralja_Aleksandra#Depo",
+    "name": "Bulevar Kralja Aleksandra",
+    "reference": "Belgrade"
+  },
+  "berlin-erkner": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.42971000, 13.75128000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.42971_N_13.75128_E",
+    "name": "Erkner",
+    "reference": "Berlin"
+  },
+  "berlin-warschauer-straße": {
+    "been": true,
+    "city": "Berlin",
+    "coords": "52.50458000, 13.45119000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.50458_N_13.45119_E",
+    "name": "Warschauer Straße",
+    "reference": "Berlin"
+  },
+  "bilbao-ariz": {
     "been": true,
     "city": "Bilbao",
     "coords": "43.24402000, -2.88708000",
@@ -176,70 +190,15 @@
     "name": "Ariz",
     "reference": "Bilbao"
   },
-  "ashland": {
+  "bilbao-sopela": {
     "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Ashland_Yard",
-    "name": "Ashland",
-    "reference": "Chicago"
-  },
-  "aterlaa": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://en.wikipedia.org/wiki/Alterlaa",
-    "name": "Aterlaa",
-    "reference": "Vienna"
-  },
-  "bachet-de-pesay": {
-    "been": false,
-    "city": "Geneva",
-    "country": "CH",
-    "icons": ["🇨🇭"],
-    "link": "https://fr.wikipedia.org/wiki/Dépôt_du_Bachet-de-Pesay",
-    "name": "Bachet-de-Pesay",
-    "reference": "Geneva"
-  },
-  "balboa-park": {
-    "been": true,
-    "city": "San Francisco",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Balboa_Park_station",
-    "name": "Balboa Park",
-    "reference": "San Francisco"
-  },
-  "baross-kocsiszin": {
-    "been": true,
-    "city": "Budapest",
-    "coords": "47.49073000, 19.08885000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.49073_N_19.08885_E",
-    "name": "Baross kocsiszín",
-    "reference": "Budapest"
-  },
-  "bedzin": {
-    "been": true,
-    "city": "Katowice",
-    "coords": "50.32761000, 19.11115000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.32761_N_19.11115_E",
-    "name": "Będzin",
-    "reference": "Katowice"
-  },
-  "benning-road": {
-    "been": true,
-    "city": "Washington",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/H_Street/Benning_Road_Line",
-    "name": "Benning Road",
-    "reference": "Washington"
+    "city": "Bilbao",
+    "coords": "43.38016000, -2.96895000",
+    "country": "ES",
+    "icons": ["🇪🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=43.38016_N_2.96895_W",
+    "name": "Sopela",
+    "reference": "Bilbao"
   },
   "bishan-main-depo": {
     "been": true,
@@ -251,36 +210,27 @@
     "link": "https://en.wikipedia.org/wiki/Bishan_MRT_station",
     "name": "Bishan Main Depo"
   },
-  "bobigny": {
+  "bonn-straßenbahndepot": {
     "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Bobigny",
-    "name": "Bobigny",
-    "reference": "Paris"
+    "city": "Bonn",
+    "coords": "50.75189000, 7.08800000",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.75189_N_7.08800_E",
+    "name": "Straßenbahndepot",
+    "reference": "Bonn"
   },
-  "bolesława-krzywoustego": {
+  "bordeaux-parc-des-expositions": {
     "been": true,
-    "city": "Poznań",
-    "coords": "52.39542000, 16.95340000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.39542_N_16.95340_E",
-    "name": "Bolesława Krzywoustego",
-    "reference": "Poznań",
-    "strike": true
+    "city": "Bordeaux",
+    "coords": "44.89713000, -0.55628000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=44.89713_N_0.55628_W",
+    "name": "Parc des Expositions",
+    "reference": "Bordeaux"
   },
-  "bon-viatge": {
-    "been": true,
-    "city": "Barcelona",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Bon_Viatge_(TRAM)",
-    "name": "Bon Viatge",
-    "reference": "Barcelona"
-  },
-  "boston-college": {
+  "boston-boston-college": {
     "been": true,
     "city": "Boston",
     "country": "US",
@@ -289,36 +239,156 @@
     "name": "Boston College",
     "reference": "Boston"
   },
-  "brasa": {
+  "boston-lechmere": {
     "been": true,
-    "city": "Riga",
-    "coords": "56.97051800, 24.15255000",
-    "country": "LV",
-    "icons": ["🇱🇻"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=56.970518_N_24.152550_E",
-    "name": "Brasa",
-    "reference": "Riga"
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lechmere_station",
+    "name": "Lechmere",
+    "reference": "Boston"
   },
-  "bressoux": {
-    "been": false,
-    "city": "Liège",
-    "coords": "50.64527000, 5.61180000",
+  "boston-mattapan": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Mattapan_station",
+    "name": "Mattapan",
+    "reference": "Boston"
+  },
+  "boston-riverside-yard": {
+    "been": true,
+    "city": "Boston",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Riverside_station_(MBTA)",
+    "name": "Riverside Yard",
+    "reference": "Boston"
+  },
+  "bratislava-jurajov-dvor": {
+    "been": true,
+    "city": "Bratislava",
+    "country": "SK",
+    "icons": ["🇸🇰"],
+    "link": "https://sk.wikipedia.org/wiki/Vozovňa_Jurajov_dvor",
+    "name": "Jurajov Dvor",
+    "reference": "Bratislava"
+  },
+  "bratislava-krasnany": {
+    "been": true,
+    "city": "Bratislava",
+    "country": "SK",
+    "icons": ["🇸🇰"],
+    "link": "https://sk.wikipedia.org/wiki/Vozovňa_Krasňany",
+    "name": "Krasňany",
+    "reference": "Bratislava"
+  },
+  "brno-technologicky-park": {
+    "been": true,
+    "city": "Brno",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Český_technologický_park",
+    "name": "Technologický Park",
+    "reference": "Brno"
+  },
+  "brussels-grimbergen": {
+    "been": true,
+    "city": "Brussels",
+    "coords": "50.93333333, 4.38333333",
     "country": "BE",
     "icons": ["🇧🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.64527_N_5.61180_E",
-    "name": "Bressoux",
-    "reference": "Liège"
+    "link": "https://nl.wikipedia.org/wiki/Grimbergen",
+    "name": "Grimbergen",
+    "reference": "Brussels",
+    "strike": true,
+    "wikidata": "Q633063"
   },
-  "brigittenau": {
+  "brussels-haren": {
     "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Brigittenau",
-    "reference": "Vienna"
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Haren",
+    "reference": "Brussels"
   },
-  "budafok-kocsiszin": {
+  "brussels-ixelles": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Ixelles",
+    "reference": "Brussels"
+  },
+  "brussels-marconi": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Marconi",
+    "reference": "Brussels"
+  },
+  "brussels-molenbeek": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Molenbeek",
+    "reference": "Brussels"
+  },
+  "brussels-saint-gilles": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Saint-Gilles",
+    "reference": "Brussels"
+  },
+  "brussels-schaerbeek": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
+    "name": "Schaerbeek",
+    "reference": "Brussels"
+  },
+  "brussels-woluwe": {
+    "been": true,
+    "city": "Brussels",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://nl.wikipedia.org/wiki/Museum_voor_het_Stedelijk_Vervoer_te_Brussel",
+    "name": "Woluwe",
+    "reference": "Brussels"
+  },
+  "budapest-angyalfold-kocsiszin": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.55170000, 19.09257000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.55170_N_19.09257_E",
+    "name": "Angyalföld kocsiszín",
+    "reference": "Budapest"
+  },
+  "budapest-baross-kocsiszin": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.49073000, 19.08885000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.49073_N_19.08885_E",
+    "name": "Baross kocsiszín",
+    "reference": "Budapest"
+  },
+  "budapest-budafok-kocsiszin": {
     "been": true,
     "city": "Budapest",
     "coords": "47.44023000, 19.03548000",
@@ -328,354 +398,7 @@
     "name": "Budafok kocsiszín",
     "reference": "Budapest"
   },
-  "budziszynska": {
-    "been": false,
-    "city": "Poznań",
-    "coords": "52.38346000, 16.83408000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.38346_N_16.83408_E",
-    "name": "Budziszyńska",
-    "reference": "Poznań",
-    "strike": true
-  },
-  "bulevar-kralja-aleksandra": {
-    "been": false,
-    "city": "Belgrade",
-    "country": "RS",
-    "icons": ["🇷🇸"],
-    "link": "https://en.wikipedia.org/wiki/Bulevar_kralja_Aleksandra#Depo",
-    "name": "Bulevar Kralja Aleksandra",
-    "reference": "Belgrade"
-  },
-  "bytom-stroszek": {
-    "been": true,
-    "city": "Katowice",
-    "coords": "50.39906000, 18.86812000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.39906_N_18.86812_E",
-    "name": "Bytom-Stroszek",
-    "reference": "Katowice"
-  },
-  "callowhill": {
-    "been": false,
-    "city": "Philadelphia",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Callowhill_Depot",
-    "name": "Callowhill",
-    "reference": "Philadelphia"
-  },
-  "canarsie-yard": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.64890333, -73.90026167",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["canarsie-yard1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Canarsie_Yard",
-    "name": "Canarsie Yard",
-    "reference": "New York"
-  },
-  "centre-administratif": {
-    "been": true,
-    "city": "Nice",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Nice#Dépôts",
-    "name": "Centre Administratif",
-    "reference": "Nice"
-  },
-  "centre-de-maintenance": {
-    "been": true,
-    "city": "Casablanca",
-    "coords": "33.57863000, -7.51680000",
-    "country": "MA",
-    "icons": ["🇲🇦"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=33.57863_N_7.51680_W",
-    "name": "Centre de Maintenance",
-    "reference": "Casablanca"
-  },
-  "ch-dron": {
-    "been": false,
-    "city": "Lille",
-    "coords": "50.74730000, 3.18422000",
-    "country": "FR",
-    "dateAdded": "2026-01-27",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/CH_Dron_(métro_de_Lille)",
-    "name": "CH Dron",
-    "reference": "Lille"
-  },
-  "chatenay-malabry": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_10_du_tramway_d%27Île-de-France#Site_de_maintenance_et_de_remisage_(SMR)",
-    "name": "Châtenay-Malabry",
-    "reference": "Paris"
-  },
-  "chatillon": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Châtillon",
-    "name": "Châtillon",
-    "reference": "Paris"
-  },
-  "cockfosters": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Cockfosters_tube_station",
-    "name": "Cockfosters",
-    "reference": "London"
-  },
-  "concord": {
-    "been": true,
-    "city": "San Francisco",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Concord_station_(BART)",
-    "name": "Concord",
-    "reference": "San Francisco"
-  },
-  "concourse-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Concourse_Yard",
-    "name": "Concourse Yard",
-    "reference": "New York"
-  },
-  "coney-island": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Coney_Island_Complex",
-    "name": "Coney Island",
-    "reference": "New York"
-  },
-  "corona-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Corona_Yard",
-    "name": "Corona Yard",
-    "reference": "New York"
-  },
-  "creteil": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Créteil",
-    "name": "Créteil",
-    "reference": "Paris"
-  },
-  "cronenbourg": {
-    "been": true,
-    "city": "Strasbourg",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
-    "name": "Cronenbourg",
-    "reference": "Strasbourg"
-  },
-  "de-panne": {
-    "been": true,
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Kusttram#De_Panne",
-    "name": "De Panne",
-    "reference": "Belgian Coast"
-  },
-  "decatur-street": {
-    "been": true,
-    "city": "Washington",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Capital_Traction_Company_Car_Barn",
-    "name": "Decatur Street",
-    "reference": "Washington"
-  },
-  "deposito-desio": {
-    "been": false,
-    "city": "Milan",
-    "coords": "45.62673000, 9.20850000",
-    "country": "IT",
-    "icons": ["🇮🇹"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=45.62673_N_9.20850_E",
-    "name": "Deposito Desio",
-    "reference": "Milan",
-    "strike": true
-  },
-  "deposito-varedo": {
-    "been": false,
-    "city": "Milan",
-    "coords": "45.59626000, 9.14472000",
-    "country": "IT",
-    "icons": ["🇮🇹"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=45.59626_N_9.14472_E",
-    "name": "Deposito Varedo",
-    "reference": "Milan",
-    "strike": true
-  },
-  "depot": {
-    "been": false,
-    "coords": "48.52148600, 34.58452500",
-    "country": "UA",
-    "icons": ["🇺🇦"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=48.521486_N_34.584525_E",
-    "name": "Depot",
-    "reference": "Kamianske"
-  },
-  "deurne": {
-    "been": true,
-    "city": "Antwerp",
-    "coords": "51.22353000, 4.49644000",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.22353_N_4.49644_E",
-    "name": "Deurne",
-    "reference": "Antwerp"
-  },
-  "ealing-common": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Ealing_Common_Depot",
-    "name": "Ealing Common",
-    "reference": "London"
-  },
-  "east-180th-street-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#East_180th_Street_Yard",
-    "name": "East 180th Street Yard",
-    "reference": "New York"
-  },
-  "east-bridgeport-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/New_Haven_Line",
-    "name": "East Bridgeport Yard",
-    "reference": "New York"
-  },
-  "east-new-york-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#East_New_York_Yard",
-    "name": "East New York Yard",
-    "reference": "New York"
-  },
-  "eba": {
-    "been": true,
-    "city": "Hiroshima",
-    "country": "JP",
-    "icons": ["🇯🇵"],
-    "link": "https://en.wikipedia.org/wiki/Eba_Station",
-    "name": "Eba",
-    "reference": "Hiroshima"
-  },
-  "eckenheimer": {
-    "been": false,
-    "city": "Frankfurt",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Eckenheimer_Depot",
-    "name": "Eckenheimer",
-    "reference": "Frankfurt"
-  },
-  "ecopark": {
-    "been": true,
-    "city": "Barcelona",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://es.wikipedia.org/wiki/Estación_de_Ecoparc#Cocheras_y_talleres",
-    "name": "Ecopark",
-    "reference": "Barcelona"
-  },
-  "elmwood": {
-    "been": true,
-    "city": "Philadelphia",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/73rd_Street_station#Elmwood_Carhouse",
-    "name": "Elmwood",
-    "reference": "Philadelphia"
-  },
-  "elsau": {
-    "been": true,
-    "city": "Strasbourg",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
-    "name": "Elsau",
-    "reference": "Strasbourg"
-  },
-  "erkner": {
-    "been": true,
-    "city": "Berlin",
-    "coords": "52.42971000, 13.75128000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.42971_N_13.75128_E",
-    "name": "Erkner",
-    "reference": "Berlin"
-  },
-  "eskisehir": {
-    "been": false,
-    "coords": "39.77913800, 30.55025500",
-    "country": "TR",
-    "icons": ["🇹🇷"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=39.779138_N_30.550255_E",
-    "name": "Eskişehir",
-    "reference": "Eskişehir"
-  },
-  "estadio-azteca": {
-    "been": true,
-    "city": "Mexico City",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Estadio_Azteca_(estación)",
-    "name": "Estadio Azteca",
-    "reference": "Mexico City"
-  },
-  "eupen": {
-    "been": false,
-    "city": "Aachen",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Aachen",
-    "name": "Eupen",
-    "reference": "Aachen",
-    "strike": true
-  },
-  "favoriten": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Favoriten",
-    "reference": "Vienna"
-  },
-  "ferencvaros-kocsiszin": {
+  "budapest-ferencvaros-kocsiszin": {
     "been": true,
     "city": "Budapest",
     "coords": "47.47075000, 19.09281000",
@@ -685,349 +408,7 @@
     "name": "Ferencváros kocsiszín",
     "reference": "Budapest"
   },
-  "fern-rock": {
-    "been": true,
-    "city": "Philadelphia",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Fern_Rock_Transportation_Center",
-    "name": "Fern Rock",
-    "reference": "Philadelphia"
-  },
-  "floridsdorf": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Floridsdorf",
-    "reference": "Vienna"
-  },
-  "frankfordt": {
-    "been": true,
-    "city": "Philadelphia",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Frankford_Transportation_Center",
-    "name": "Frankfordt",
-    "reference": "Philadelphia"
-  },
-  "franowo": {
-    "been": false,
-    "city": "Poznań",
-    "coords": "52.38460000, 17.00641000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.38460_N_17.00641_E",
-    "name": "Franowo",
-    "reference": "Poznań"
-  },
-  "frans-halsstraat": {
-    "been": true,
-    "city": "Den Haag",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Frans_Halsstraat",
-    "name": "Frans Halsstraat",
-    "reference": "Den Haag"
-  },
-  "fresh-pond-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Fresh_Pond_Yard",
-    "name": "Fresh Pond Yard",
-    "reference": "New York"
-  },
-  "gajowa": {
-    "been": true,
-    "city": "Poznań",
-    "coords": "52.40941, 16.90652",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://pl.wikipedia.org/wiki/Zajezdnia_tramwajowa_przy_ulicy_Gajowej_w_Poznaniu",
-    "name": "Gajowa",
-    "reference": "Poznań",
-    "strike": true,
-    "wikidata": "Q9385990"
-  },
-  "gare-de-dakar": {
-    "been": true,
-    "city": "Dakar",
-    "country": "SN",
-    "icons": ["🇸🇳"],
-    "link": "https://fr.wikipedia.org/wiki/Train_express_régional_Dakar-AIBD",
-    "name": "Gare de Dakar",
-    "reference": "Dakar"
-  },
-  "gentbrugge": {
-    "been": true,
-    "coords": "51.03660000, 3.75411000",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.03660_N_3.75411_E",
-    "name": "Gentbrugge",
-    "reference": "Ghent"
-  },
-  "georgetown-car-barn": {
-    "been": true,
-    "city": "Washington",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Georgetown_Car_Barn",
-    "name": "Georgetown Car Barn",
-    "reference": "Washington"
-  },
-  "gliwice": {
-    "been": true,
-    "city": "Katowice",
-    "coords": "50.30199000, 18.72941000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.30199_N_18.72941_E",
-    "name": "Gliwice",
-    "reference": "Katowice"
-  },
-  "golders-green": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Golders_Green_tube_station",
-    "name": "Golders Green",
-    "reference": "London"
-  },
-  "grefsen": {
-    "been": true,
-    "city": "Oslo",
-    "country": "NO",
-    "icons": ["🇳🇴"],
-    "link": "https://en.wikipedia.org/wiki/Grefsen_Depot",
-    "name": "Grefsen",
-    "reference": "Oslo"
-  },
-  "grimbergen": {
-    "been": true,
-    "city": "Brussels",
-    "coords": "50.933333333333, 4.3833333333333",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Grimbergen",
-    "name": "Grimbergen",
-    "reference": "Brussels",
-    "strike": true,
-    "wikidata": "Q633063"
-  },
-  "groenenhoek": {
-    "been": false,
-    "city": "Antwerp",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Vlaams_Tram-_en_Autobusmuseum",
-    "name": "Groenenhoek",
-    "reference": "Antwerp"
-  },
-  "gurtel": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Gürtel",
-    "reference": "Vienna"
-  },
-  "głogowska": {
-    "been": true,
-    "city": "Poznań",
-    "coords": "52.38781000, 16.89395000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.38781_N_16.89395_E",
-    "name": "Głogowska",
-    "reference": "Poznań"
-  },
-  "hainault": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Hainault_Depot",
-    "name": "Hainault",
-    "reference": "London"
-  },
-  "hammarby": {
-    "been": true,
-    "city": "Stockholm",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://en.wikipedia.org/wiki/Hammarby_depot",
-    "name": "Hammarby",
-    "reference": "Stockholm"
-  },
-  "hammersmith": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Hammersmith_tube_station_(Circle_and_Hammersmith_&_City_lines)",
-    "name": "Hammersmith",
-    "reference": "London"
-  },
-  "haren": {
-    "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Haren",
-    "reference": "Brussels"
-  },
-  "harlem": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Harlem_Yard",
-    "name": "Harlem",
-    "reference": "Chicago"
-  },
-  "harrison": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/PATH_(rail_system)",
-    "name": "Harrison",
-    "reference": "New York"
-  },
-  "hauptwerkstatte": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Hauptwerkstätte_der_Wiener_Linien",
-    "name": "Hauptwerkstätte",
-    "reference": "Vienna"
-  },
-  "havenstraat": {
-    "been": false,
-    "city": "Amsterdam",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Havenstraat",
-    "name": "Havenstraat",
-    "reference": "Amsterdam"
-  },
-  "heerdt": {
-    "been": false,
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Betriebshof_Heerdt",
-    "name": "Heerdt",
-    "reference": "Düsseldorf"
-  },
-  "henri-sappia": {
-    "been": true,
-    "city": "Nice",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Nice#Dépôts",
-    "name": "Henri Sappia",
-    "reference": "Nice"
-  },
-  "hernals": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Hernals",
-    "reference": "Vienna"
-  },
-  "high-barnet": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/High_Barnet_tube_station",
-    "name": "High Barnet",
-    "reference": "London"
-  },
-  "hillcrest-complex": {
-    "been": false,
-    "city": "Toronto",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Hillcrest_Complex",
-    "name": "Hillcrest Complex",
-    "reference": "Toronto"
-  },
-  "hloubetin": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Hloub%C4%9Bt%C3%ADn",
-    "name": "Hloubětín",
-    "reference": "Prague"
-  },
-  "hoboken": {
-    "been": true,
-    "city": "Antwerp",
-    "coords": "51.18086000, 4.36484000",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.18086_N_4.36484_E",
-    "name": "Hoboken",
-    "reference": "Antwerp"
-  },
-  "hogdalen": {
-    "been": true,
-    "city": "Stockholm",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://en.wikipedia.org/wiki/H%C3%B6gdalen_metro_station",
-    "name": "Högdalen",
-    "reference": "Stockholm"
-  },
-  "holtet": {
-    "been": true,
-    "city": "Oslo",
-    "country": "NO",
-    "icons": ["🇳🇴"],
-    "link": "https://en.wikipedia.org/wiki/Holtet_tram_stop",
-    "name": "Holtet",
-    "reference": "Oslo"
-  },
-  "hostivar": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://en.wikipedia.org/wiki/Depo_Hostivař_(Prague_Metro)",
-    "name": "Hostivař",
-    "reference": "Prague"
-  },
-  "howard": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Howard_Yard",
-    "name": "Howard",
-    "reference": "Chicago"
-  },
-  "hudson-yards": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Hudson_Yards_(development)#Rail_yard_platform",
-    "name": "Hudson Yards",
-    "reference": "New York"
-  },
-  "hungaria-kocsiszin": {
+  "budapest-hungaria-kocsiszin": {
     "been": true,
     "city": "Budapest",
     "coords": "47.49222000, 19.10368000",
@@ -1037,53 +418,93 @@
     "name": "Hungária kocsiszín",
     "reference": "Budapest"
   },
-  "inzersdorf": {
+  "budapest-kelenfold-kocsiszin": {
     "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Lokalbahn_Wien–Baden",
-    "name": "Inzersdorf",
-    "reference": "Vienna"
+    "city": "Budapest",
+    "coords": "47.47029000, 19.02497000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.47029_N_19.02497_E",
+    "name": "Kelenföld kocsiszín",
+    "reference": "Budapest"
   },
-  "ixelles": {
+  "budapest-mexikoi-ut": {
     "been": true,
-    "city": "Brussels",
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Mexikói_út_metro_station",
+    "name": "Mexikói út",
+    "reference": "Budapest"
+  },
+  "budapest-ors-vezer-tere": {
+    "been": true,
+    "city": "Budapest",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://en.wikipedia.org/wiki/Örs_vezér_tere_metro_station",
+    "name": "Örs vezér tere",
+    "reference": "Budapest"
+  },
+  "budapest-szava-kocsiszin": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.46519000, 19.12331000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.46519_N_19.12331_E",
+    "name": "Száva kocsiszín",
+    "reference": "Budapest"
+  },
+  "budapest-szepilona-kocsiszin": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.51810000, 18.99288000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.51810_N_18.99288_E",
+    "name": "Szépilona kocsiszín",
+    "reference": "Budapest"
+  },
+  "budapest-zuglo-kocsiszin": {
+    "been": true,
+    "city": "Budapest",
+    "coords": "47.51841000, 19.11146000",
+    "country": "HU",
+    "icons": ["🇭🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=47.51841_N_19.11146_E",
+    "name": "Zugló kocsiszín",
+    "reference": "Budapest"
+  },
+  "casablanca-centre-de-maintenance": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.57863000, -7.51680000",
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.57863_N_7.51680_W",
+    "name": "Centre de Maintenance",
+    "reference": "Casablanca"
+  },
+  "casablanca-sidi-barnoussi": {
+    "been": true,
+    "city": "Casablanca",
+    "coords": "33.60915000, -7.50919000",
+    "country": "MA",
+    "icons": ["🇲🇦"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=33.60915_N_7.50919_W",
+    "name": "Sidi Barnoussi",
+    "reference": "Casablanca"
+  },
+  "charleroi-anderlues": {
+    "been": true,
     "country": "BE",
     "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Ixelles",
-    "reference": "Brussels"
+    "link": "https://fr.wikipedia.org/wiki/Métro_léger_de_Charleroi#Dépôts",
+    "name": "Anderlues",
+    "reference": "Charleroi"
   },
-  "jamaica-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Jamaica_Yard",
-    "name": "Jamaica Yard",
-    "reference": "New York"
-  },
-  "jerome-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Jerome_Yard",
-    "name": "Jerome Yard",
-    "reference": "New York"
-  },
-  "johannesfred": {
-    "been": true,
-    "city": "Stockholm",
-    "coords": "59.34340000, 17.96694000",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=59.34340_N_17.96694°_E",
-    "name": "Johannesfred",
-    "reference": "Stockholm"
-  },
-  "jumet": {
+  "charleroi-jumet": {
     "been": true,
     "country": "BE",
     "icons": ["🇧🇪"],
@@ -1091,14 +512,227 @@
     "name": "Jumet",
     "reference": "Charleroi"
   },
-  "jurajov-dvor": {
+  "chicago-98th-yard": {
     "been": true,
-    "city": "Bratislava",
-    "country": "SK",
-    "icons": ["🇸🇰"],
-    "link": "https://sk.wikipedia.org/wiki/Vozovňa_Jurajov_dvor",
-    "name": "Jurajov Dvor",
-    "reference": "Bratislava"
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/98th_Yard",
+    "name": "98th Yard",
+    "reference": "Chicago"
+  },
+  "chicago-ashland": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Ashland_Yard",
+    "name": "Ashland",
+    "reference": "Chicago"
+  },
+  "chicago-harlem": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Harlem_Yard",
+    "name": "Harlem",
+    "reference": "Chicago"
+  },
+  "chicago-howard": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Howard_Yard",
+    "name": "Howard",
+    "reference": "Chicago"
+  },
+  "chicago-kimball": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Kimball_Yard",
+    "name": "Kimball",
+    "reference": "Chicago"
+  },
+  "chicago-linden": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Linden_Yard_(CTA)",
+    "name": "Linden",
+    "reference": "Chicago"
+  },
+  "chicago-midway": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Midway_Yard",
+    "name": "Midway",
+    "reference": "Chicago"
+  },
+  "chicago-skokie": {
+    "been": true,
+    "city": "Chicago",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Skokie_Shops",
+    "name": "Skokie",
+    "reference": "Chicago"
+  },
+  "dakar-gare-de-dakar": {
+    "been": true,
+    "city": "Dakar",
+    "country": "SN",
+    "icons": ["🇸🇳"],
+    "link": "https://fr.wikipedia.org/wiki/Train_express_régional_Dakar-AIBD",
+    "name": "Gare de Dakar",
+    "reference": "Dakar"
+  },
+  "den-haag-frans-halsstraat": {
+    "been": true,
+    "city": "Den Haag",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Frans_Halsstraat",
+    "name": "Frans Halsstraat",
+    "reference": "Den Haag"
+  },
+  "den-haag-lijsterbesstraaat": {
+    "been": true,
+    "city": "Den Haag",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Lijsterbesstraat",
+    "name": "Lijsterbesstraaat",
+    "reference": "Den Haag"
+  },
+  "den-haag-scheveningen": {
+    "been": true,
+    "city": "Den Haag",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Scheveningen",
+    "name": "Scheveningen",
+    "reference": "Den Haag"
+  },
+  "den-haag-zichtenburg": {
+    "been": true,
+    "city": "Den Haag",
+    "country": "NL",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Zichtenburg",
+    "name": "Zichtenburg",
+    "reference": "Den Haag"
+  },
+  "dusseldorf-am-steinberg": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Düsseldorf#Betriebshof_Am_Steinberg",
+    "name": "Am Steinberg",
+    "reference": "Düsseldorf"
+  },
+  "dusseldorf-heerdt": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Betriebshof_Heerdt",
+    "name": "Heerdt",
+    "reference": "Düsseldorf"
+  },
+  "dusseldorf-lierenfeld": {
+    "been": false,
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Düsseldorf#Betriebshof_Lierenfeld",
+    "name": "Lierenfeld",
+    "reference": "Düsseldorf"
+  },
+  "eskisehir-eskisehir": {
+    "been": false,
+    "coords": "39.77913800, 30.55025500",
+    "country": "TR",
+    "icons": ["🇹🇷"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=39.779138_N_30.550255_E",
+    "name": "Eskişehir",
+    "reference": "Eskişehir"
+  },
+  "frankfurt-eckenheimer": {
+    "been": false,
+    "city": "Frankfurt",
+    "country": "DE",
+    "icons": ["🇩🇪"],
+    "link": "https://de.wikipedia.org/wiki/Eckenheimer_Depot",
+    "name": "Eckenheimer",
+    "reference": "Frankfurt"
+  },
+  "geneva-bachet-de-pesay": {
+    "been": false,
+    "city": "Geneva",
+    "country": "CH",
+    "icons": ["🇨🇭"],
+    "link": "https://fr.wikipedia.org/wiki/Dépôt_du_Bachet-de-Pesay",
+    "name": "Bachet-de-Pesay",
+    "reference": "Geneva"
+  },
+  "ghent-gentbrugge": {
+    "been": true,
+    "coords": "51.03660000, 3.75411000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.03660_N_3.75411_E",
+    "name": "Gentbrugge",
+    "reference": "Ghent"
+  },
+  "graz-alte-poststraße": {
+    "been": true,
+    "city": "Graz",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "http://www.public-transport.at/remise-III-fotos.htm",
+    "name": "Alte Poststraße",
+    "reference": "Graz"
+  },
+  "helsinki-koskela": {
+    "been": false,
+    "city": "Helsinki",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
+    "name": "Koskela",
+    "reference": "Helsinki"
+  },
+  "helsinki-toolo": {
+    "been": false,
+    "city": "Helsinki",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
+    "name": "Töölö",
+    "reference": "Helsinki"
+  },
+  "helsinki-vallila": {
+    "been": false,
+    "city": "Helsinki",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
+    "name": "Vallila",
+    "reference": "Helsinki"
+  },
+  "hiroshima-eba": {
+    "been": true,
+    "city": "Hiroshima",
+    "country": "JP",
+    "icons": ["🇯🇵"],
+    "link": "https://en.wikipedia.org/wiki/Eba_Station",
+    "name": "Eba",
+    "reference": "Hiroshima"
   },
   "jurong-east": {
     "been": true,
@@ -1110,219 +744,266 @@
     "link": "https://en.wikipedia.org/wiki/Jurong_East_MRT_station",
     "name": "Jurong East"
   },
-  "kagran": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Kagran",
-    "reference": "Vienna"
+  "kamianske-depot": {
+    "been": false,
+    "coords": "48.52148600, 34.58452500",
+    "country": "UA",
+    "icons": ["🇺🇦"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=48.521486_N_34.584525_E",
+    "name": "Depot",
+    "reference": "Kamianske"
   },
-  "kelenfold-kocsiszin": {
+  "katowice-bedzin": {
     "been": true,
-    "city": "Budapest",
-    "coords": "47.47029000, 19.02497000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.47029_N_19.02497_E",
-    "name": "Kelenföld kocsiszín",
-    "reference": "Budapest"
+    "city": "Katowice",
+    "coords": "50.32761000, 19.11115000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.32761_N_19.11115_E",
+    "name": "Będzin",
+    "reference": "Katowice"
   },
-  "kibitzenau": {
+  "katowice-bytom-stroszek": {
     "been": true,
-    "city": "Strasbourg",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
-    "name": "Kibitzenau",
-    "reference": "Strasbourg"
+    "city": "Katowice",
+    "coords": "50.39906000, 18.86812000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.39906_N_18.86812_E",
+    "name": "Bytom-Stroszek",
+    "reference": "Katowice"
   },
-  "kimball": {
+  "katowice-gliwice": {
     "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Kimball_Yard",
-    "name": "Kimball",
-    "reference": "Chicago"
+    "city": "Katowice",
+    "coords": "50.30199000, 18.72941000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.30199_N_18.72941_E",
+    "name": "Gliwice",
+    "reference": "Katowice"
   },
-  "knokke-heist": {
+  "katowice-zawodzie": {
     "been": true,
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Kusttram#Knokke-Heist",
-    "name": "Knokke-Heist",
-    "reference": "Belgian Coast"
+    "city": "Katowice",
+    "coords": "50.26135800, 19.06885100",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.261358_N_19.068851_E",
+    "name": "Zawodzie",
+    "reference": "Katowice"
   },
-  "kobylisy": {
+  "krakow-zajezdnia-nowa-huta": {
+    "been": false,
+    "city": "Kraków",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
+    "name": "Zajezdnia Nowa Huta",
+    "reference": "Kraków"
+  },
+  "krakow-zajezdnia-podgorze": {
+    "been": false,
+    "city": "Kraków",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
+    "name": "Zajezdnia Podgórze",
+    "reference": "Kraków"
+  },
+  "krakow-zajezdnia-sw-wawrzynca": {
+    "been": false,
+    "city": "Kraków",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
+    "name": "Zajezdnia Św. Wawrzyńca",
+    "reference": "Kraków"
+  },
+  "liberec-nadrazi": {
     "been": true,
-    "city": "Prague",
+    "coords": "50.76144000, 15.04975000",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Kobylisy",
-    "name": "Kobylisy",
-    "reference": "Prague"
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.76144_N_15.04975_E",
+    "name": "Nádraźí",
+    "reference": "Liberec"
   },
-  "koskela": {
+  "liege-bressoux": {
     "been": false,
-    "city": "Helsinki",
-    "country": "FI",
-    "icons": ["🇫🇮"],
-    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
-    "name": "Koskela",
-    "reference": "Helsinki"
+    "city": "Liège",
+    "coords": "50.64527000, 5.61180000",
+    "country": "BE",
+    "icons": ["🇧🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.64527_N_5.61180_E",
+    "name": "Bressoux",
+    "reference": "Liège"
   },
-  "krasnany": {
-    "been": true,
-    "city": "Bratislava",
-    "country": "SK",
-    "icons": ["🇸🇰"],
-    "link": "https://sk.wikipedia.org/wiki/Vozovňa_Krasňany",
-    "name": "Krasňany",
-    "reference": "Bratislava"
-  },
-  "kwiska": {
-    "been": true,
-    "city": "Wrocław",
-    "coords": "51.12636000, 16.98347000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.12636_N_16.98347_E",
-    "name": "Kwiska",
-    "reference": "Wrocław",
-    "strike": true
-  },
-  "lechmere": {
-    "been": true,
-    "city": "Boston",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Lechmere_station",
-    "name": "Lechmere",
-    "reference": "Boston"
-  },
-  "leesdorf": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Leesdorf_(Gemeinde_Baden)",
-    "name": "Leesdorf",
-    "reference": "Vienna"
-  },
-  "lekstraat": {
+  "lille-ch-dron": {
     "been": false,
-    "city": "Amsterdam",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Lekstraat",
-    "name": "Lekstraat",
-    "reference": "Amsterdam"
+    "city": "Lille",
+    "coords": "50.74730000, 3.18422000",
+    "country": "FR",
+    "dateAdded": "2026-01-27",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/CH_Dron_(métro_de_Lille)",
+    "name": "CH Dron",
+    "reference": "Lille"
   },
-  "lenox-yard": {
+  "lisbon-santo-amaro": {
     "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Lenox_Yard",
-    "name": "Lenox Yard",
-    "reference": "New York"
+    "city": "Lisbon",
+    "country": "PT",
+    "icons": ["🇵🇹"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Lisbon",
+    "name": "Santo Amaro",
+    "reference": "Lisbon"
   },
-  "les-moulineaux": {
+  "london-acton-works": {
     "been": true,
-    "city": "Paris",
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Acton_Works",
+    "name": "Acton Works",
+    "reference": "London"
+  },
+  "london-cockfosters": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Cockfosters_tube_station",
+    "name": "Cockfosters",
+    "reference": "London"
+  },
+  "london-ealing-common": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Ealing_Common_Depot",
+    "name": "Ealing Common",
+    "reference": "London"
+  },
+  "london-golders-green": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Golders_Green_tube_station",
+    "name": "Golders Green",
+    "reference": "London"
+  },
+  "london-hainault": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Hainault_Depot",
+    "name": "Hainault",
+    "reference": "London"
+  },
+  "london-hammersmith": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Hammersmith_tube_station_(Circle_and_Hammersmith_&_City_lines)",
+    "name": "Hammersmith",
+    "reference": "London"
+  },
+  "london-high-barnet": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/High_Barnet_tube_station",
+    "name": "High Barnet",
+    "reference": "London"
+  },
+  "london-neasden": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Neasden_Depot",
+    "name": "Neasden",
+    "reference": "London"
+  },
+  "london-northfields": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Northfields_tube_station",
+    "name": "Northfields",
+    "reference": "London"
+  },
+  "london-ruislip": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Ruislip_Depot",
+    "name": "Ruislip",
+    "reference": "London"
+  },
+  "london-stonebridge-park": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Stonebridge_Park_Depot",
+    "name": "Stonebridge Park",
+    "reference": "London"
+  },
+  "london-stratford-market": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Stratford_Market_Depot",
+    "name": "Stratford Market",
+    "reference": "London"
+  },
+  "london-upminster": {
+    "been": true,
+    "city": "London",
+    "country": "GB",
+    "icons": ["🇬🇧"],
+    "link": "https://en.wikipedia.org/wiki/Upminster_Depot",
+    "name": "Upminster",
+    "reference": "London"
+  },
+  "luxembourg-tramsschapp": {
+    "been": true,
+    "city": "Luxembourg",
+    "country": "LU",
+    "icons": ["🇱🇺"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg#Le_Tramsschapp",
+    "name": "Tramsschapp",
+    "reference": "Luxembourg"
+  },
+  "lyon-meyzieu": {
+    "been": true,
+    "city": "Lyon",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_2_du_tramway_d'Île-de-France",
-    "name": "Les Moulineaux",
-    "reference": "Paris"
+    "link": "https://fr.wikipedia.org/wiki/Meyzieu_Z.I._(tramway_de_Lyon)",
+    "name": "Meyzieu",
+    "reference": "Lyon"
   },
-  "leslie-barns": {
-    "been": false,
-    "city": "Toronto",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Leslie_Barns",
-    "name": "Leslie Barns",
-    "reference": "Toronto"
-  },
-  "lierenfeld": {
-    "been": false,
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Düsseldorf#Betriebshof_Lierenfeld",
-    "name": "Lierenfeld",
-    "reference": "Düsseldorf"
-  },
-  "lijsterbesstraaat": {
+  "lyon-porte-des-alpes": {
     "been": true,
-    "city": "Den Haag",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Lijsterbesstraat",
-    "name": "Lijsterbesstraaat",
-    "reference": "Den Haag"
-  },
-  "linden": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Linden_Yard_(CTA)",
-    "name": "Linden",
-    "reference": "Chicago"
-  },
-  "linden-shops": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Linden_Shops",
-    "name": "Linden Shops",
-    "reference": "New York"
-  },
-  "livonia-yard": {
-    "been": true,
-    "city": "New York",
-    "coords": "40.82277778, -73.95305556",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "images": ["livonia-yard1.jpg"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Livonia_Yard",
-    "name": "Livonia Yard",
-    "reference": "New York"
-  },
-  "lower-63rd": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Lower_63rd_Yard",
-    "name": "Lower 63rd",
-    "reference": "New York"
-  },
-  "lucotte": {
-    "been": true,
-    "city": "Paris",
+    "city": "Lyon",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_3a_du_tramway_d'Île-de-France",
-    "name": "Lucotte",
-    "reference": "Paris"
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Lyon#Dépôts",
+    "name": "Porte des Alpes",
+    "reference": "Lyon"
   },
-  "madalinskiego": {
-    "been": true,
-    "city": "Poznań",
-    "coords": "52.38623000, 16.91429000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.38623_N_16.91429_E",
-    "name": "Madalińskiego",
-    "reference": "Poznań",
-    "strike": true
-  },
-  "magnitogorsk": {
+  "magnitogorsk-magnitogorsk": {
     "been": false,
     "coords": "53.36707700, 58.95502500",
     "country": "RU",
@@ -1331,7 +1012,45 @@
     "name": "Magnitogorsk",
     "reference": "Magnitogorsk"
   },
-  "malvern": {
+  "magnitogorsk-polevaya": {
+    "been": false,
+    "coords": "53.38701100, 59.07624100",
+    "country": "RU",
+    "icons": ["🇷🇺"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.387011_N_59.076241_E",
+    "name": "Polevaya",
+    "reference": "Magnitogorsk"
+  },
+  "mazyr-mazyr": {
+    "been": false,
+    "coords": "52.04260000, 29.21748000",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.04260_N_29.21748_E",
+    "name": "Mazyr",
+    "reference": "Mazyr"
+  },
+  "medellin-miraflores": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.24207000, -75.54954000",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=6.24207_N_75.54954_W",
+    "name": "Miraflores",
+    "reference": "Medellín"
+  },
+  "medellin-talleres-metro": {
+    "been": true,
+    "city": "Medellín",
+    "coords": "6.32782000, -75.55359000",
+    "country": "CO",
+    "icons": ["🇨🇴"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=6.32782_N_75.55359_W",
+    "name": "Talleres Metro",
+    "reference": "Medellín"
+  },
+  "melbourne-malvern": {
     "been": false,
     "city": "Melbourne",
     "coords": "-37.85861000, 145.02772000",
@@ -1342,226 +1061,34 @@
     "name": "Malvern",
     "reference": "Melbourne"
   },
-  "marconi": {
+  "mexico-city-estadio-azteca": {
     "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Marconi",
-    "reference": "Brussels"
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Estadio_Azteca_(estación)",
+    "name": "Estadio Azteca",
+    "reference": "Mexico City"
   },
-  "massarelos": {
+  "mexico-city-tasquena": {
     "been": true,
-    "city": "Porto",
-    "country": "PT",
-    "icons": ["🇵🇹"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Porto#Line_18_-_Massarelos–Carmo",
-    "name": "Massarelos",
-    "reference": "Porto"
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
+    "name": "Tasqueña",
+    "reference": "Mexico City"
   },
-  "mattapan": {
+  "mexico-city-xochimilco": {
     "been": true,
-    "city": "Boston",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Mattapan_station",
-    "name": "Mattapan",
-    "reference": "Boston"
+    "city": "Mexico City",
+    "country": "MX",
+    "icons": ["🇲🇽"],
+    "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
+    "name": "Xochimilco",
+    "reference": "Mexico City"
   },
-  "mazyr": {
-    "been": false,
-    "coords": "52.04260000, 29.21748000",
-    "country": "BY",
-    "icons": ["🇧🇾"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.04260_N_29.21748_E",
-    "name": "Mazyr",
-    "reference": "Mazyr"
-  },
-  "medlanky": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Medlánky",
-    "name": "Medlánky",
-    "reference": "Prague"
-  },
-  "mexikoi-ut": {
-    "been": true,
-    "city": "Budapest",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://en.wikipedia.org/wiki/Mexikói_út_metro_station",
-    "name": "Mexikói út",
-    "reference": "Budapest"
-  },
-  "meyzieu": {
-    "been": true,
-    "city": "Lyon",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Meyzieu_Z.I._(tramway_de_Lyon)",
-    "name": "Meyzieu",
-    "reference": "Lyon"
-  },
-  "michelbeuren": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/U-Bahn-Station_Michelbeuern",
-    "name": "Michelbeuren",
-    "reference": "Vienna"
-  },
-  "midway": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Midway_Yard",
-    "name": "Midway",
-    "reference": "Chicago"
-  },
-  "miraflores": {
-    "been": true,
-    "city": "Medellín",
-    "coords": "6.24207000, -75.54954000",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=6.24207_N_75.54954_W",
-    "name": "Miraflores",
-    "reference": "Medellín"
-  },
-  "mokotow": {
-    "been": false,
-    "city": "Warsaw",
-    "coords": "52.18733000, 21.00019000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.18733_N_21.00019_E",
-    "name": "Mokotów",
-    "reference": "Warsaw"
-  },
-  "molenbeek": {
-    "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Molenbeek",
-    "reference": "Brussels"
-  },
-  "motol": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Motol",
-    "name": "Motol",
-    "reference": "Prague"
-  },
-  "muni-metro-east-yard": {
-    "been": true,
-    "city": "San Francisco",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/T_Third_Street",
-    "name": "Muni Metro East Yard",
-    "reference": "San Francisco"
-  },
-  "munsu": {
-    "been": false,
-    "city": "Pyongyang",
-    "coords": "39.03762000, 125.78671000",
-    "country": "KP",
-    "icons": ["🇰🇵"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=39.03762_N_125.78671_E",
-    "name": "Munsu",
-    "reference": "Pyongyang"
-  },
-  "nadrazi": {
-    "been": true,
-    "coords": "50.76144000, 15.04975000",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.76144_N_15.04975_E",
-    "name": "Nádraźí",
-    "reference": "Liberec"
-  },
-  "neasden": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Neasden_Depot",
-    "name": "Neasden",
-    "reference": "London"
-  },
-  "new-carrollton": {
-    "been": true,
-    "city": "Washington",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
-    "name": "New Carrollton",
-    "reference": "Washington"
-  },
-  "nieuwpoortse-steenweg": {
-    "been": true,
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Kusttram#Nieuwpoort",
-    "name": "Nieuwpoortse Steenweg",
-    "reference": "Belgian Coast"
-  },
-  "no-3-depo": {
-    "been": true,
-    "city": "Riga",
-    "coords": "56.93368700, 24.15857400",
-    "country": "LV",
-    "icons": ["🇱🇻"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=56.933687_N_24.158574_E",
-    "name": "No. 3 Depo",
-    "reference": "Riga"
-  },
-  "norsborg": {
-    "been": true,
-    "city": "Stockholm",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://en.wikipedia.org/wiki/Norsborg_metro_station",
-    "name": "Norsborg",
-    "reference": "Stockholm"
-  },
-  "northfields": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Northfields_tube_station",
-    "name": "Northfields",
-    "reference": "London"
-  },
-  "nyboda": {
-    "been": true,
-    "city": "Stockholm",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://en.wikipedia.org/wiki/Nyboda_depot",
-    "name": "Nyboda",
-    "reference": "Stockholm"
-  },
-  "oberlaa": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://en.wikipedia.org/wiki/Oberlaa_station",
-    "name": "Oberlaa",
-    "reference": "Vienna"
-  },
-  "okeechobee": {
+  "miami-okeechobee": {
     "been": true,
     "city": "Miami",
     "country": "US",
@@ -1570,217 +1097,48 @@
     "name": "Okeechobee",
     "reference": "Miami"
   },
-  "orly": {
+  "miami-third-street": {
     "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_9_du_tramway_d'Île-de-France",
-    "name": "Orly",
-    "reference": "Paris"
-  },
-  "ors-vezer-tere": {
-    "been": true,
-    "city": "Budapest",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://en.wikipedia.org/wiki/Örs_vezér_tere_metro_station",
-    "name": "Örs vezér tere",
-    "reference": "Budapest"
-  },
-  "ottakring": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Ottakring",
-    "reference": "Vienna"
-  },
-  "pankrac": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Pankr%C3%A1c",
-    "name": "Pankrác",
-    "reference": "Prague"
-  },
-  "parc-des-expositions": {
-    "been": true,
-    "city": "Bordeaux",
-    "coords": "44.89713000, -0.55628000",
+    "city": "Miami",
     "country": "US",
     "icons": ["🇺🇸"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=44.89713_N_0.55628_W",
-    "name": "Parc des Expositions",
-    "reference": "Bordeaux"
+    "link": "https://en.wikipedia.org/wiki/Miami_Metromover",
+    "name": "Third Street",
+    "reference": "Miami"
   },
-  "pierrefitte": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_5_du_tramway_d'Île-de-France",
-    "name": "Pierrefitte",
-    "reference": "Paris"
-  },
-  "pirna-sebnitz": {
-    "been": true,
-    "coords": "50.92532000, 14.17660000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.92532_N_14.17660_E",
-    "name": "Pirna-Sebnitz",
-    "reference": "Bad Schandau"
-  },
-  "pitkin-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Pitkin_Yard",
-    "name": "Pitkin Yard",
-    "reference": "New York"
-  },
-  "polevaya": {
+  "milan-deposito-desio": {
     "been": false,
-    "coords": "53.38701100, 59.07624100",
-    "country": "RU",
-    "icons": ["🇷🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=53.387011_N_59.076241_E",
-    "name": "Polevaya",
-    "reference": "Magnitogorsk"
+    "city": "Milan",
+    "coords": "45.62673000, 9.20850000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45.62673_N_9.20850_E",
+    "name": "Deposito Desio",
+    "reference": "Milan",
+    "strike": true
   },
-  "port-forum": {
-    "been": true,
-    "city": "Barcelona",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://en.wikipedia.org/wiki/Trambesòs",
-    "name": "Port Fòrum",
-    "reference": "Barcelona"
-  },
-  "porte-des-alpes": {
-    "been": true,
-    "city": "Lyon",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Lyon#Dépôts",
-    "name": "Porte des Alpes",
-    "reference": "Lyon"
-  },
-  "punt-aan-de-lijn": {
-    "been": true,
-    "city": "Antwerp",
-    "coords": "51.24941000, 4.41838000",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.24941_N_4.41838_E",
-    "name": "Punt aan de Lijn",
-    "reference": "Antwerp"
-  },
-  "rangrang": {
+  "milan-deposito-varedo": {
     "been": false,
-    "city": "Pyongyang",
-    "coords": "38.97416000, 125.70832000",
-    "country": "KP",
-    "icons": ["🇰🇵"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=38.97416_N_125.70832_E",
-    "name": "Rangrang",
-    "reference": "Pyongyang"
+    "city": "Milan",
+    "coords": "45.59626000, 9.14472000",
+    "country": "IT",
+    "icons": ["🇮🇹"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45.59626_N_9.14472_E",
+    "name": "Deposito Varedo",
+    "reference": "Milan",
+    "strike": true
   },
-  "remiza": {
+  "minsk-tramvayny-park": {
     "been": false,
-    "coords": "45.55920000, 18.70282000",
-    "country": "HR",
-    "icons": ["🇭🇷"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=45.55920_N_18.70282_E",
-    "name": "Remiza",
-    "reference": "Osijek"
+    "city": "Minsk",
+    "coords": "53.90497000, 27.60370900",
+    "country": "BY",
+    "icons": ["🇧🇾"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=53.904970_N_27.603709_E",
+    "name": "Tramvayny Park",
+    "reference": "Minsk"
   },
-  "rissnedepan": {
-    "been": true,
-    "city": "Stockholm",
-    "country": "SE",
-    "icons": ["🇸🇪"],
-    "link": "https://sv.wikipedia.org/wiki/Rissnedepån",
-    "name": "Rissnedepån",
-    "reference": "Stockholm"
-  },
-  "riverside-yard": {
-    "been": true,
-    "city": "Boston",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Riverside_station_(MBTA)",
-    "name": "Riverside Yard",
-    "reference": "Boston"
-  },
-  "rockaway-park-yard": {
-    "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Rockaway_Park_Yard",
-    "name": "Rockaway Park Yard",
-    "reference": "New York"
-  },
-  "roncesvalles-carhouse": {
-    "been": false,
-    "city": "Toronto",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Roncesvalles_Carhouse",
-    "name": "Roncesvalles Carhouse",
-    "reference": "Toronto"
-  },
-  "rudolfsheim": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Rudolfsheim",
-    "reference": "Vienna"
-  },
-  "ruislip": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Ruislip_Depot",
-    "name": "Ruislip",
-    "reference": "London"
-  },
-  "russell-carhouse": {
-    "been": false,
-    "city": "Toronto",
-    "country": "CA",
-    "icons": ["🇨🇦"],
-    "link": "https://en.wikipedia.org/wiki/Russell_Carhouse",
-    "name": "Russell Carhouse",
-    "reference": "Toronto"
-  },
-  "ryen": {
-    "been": true,
-    "city": "Oslo",
-    "country": "NO",
-    "icons": ["🇳🇴"],
-    "link": "https://en.wikipedia.org/wiki/Ryen_Depot",
-    "name": "Ryen",
-    "reference": "Oslo"
-  },
-  "saint-gilles": {
-    "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Saint-Gilles",
-    "reference": "Brussels"
-  },
-  "san-giovanni": {
+  "naples-san-giovanni": {
     "been": true,
     "city": "Naples",
     "country": "IT",
@@ -1789,98 +1147,558 @@
     "name": "San Giovanni",
     "reference": "Naples"
   },
-  "santo-amaro": {
+  "new-york-207th-street-yard": {
     "been": true,
-    "city": "Lisbon",
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#207th_Street_Yard",
+    "name": "207th Street Yard",
+    "reference": "New York"
+  },
+  "new-york-239th-street-yard": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.82277778, -73.95305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["239th-street-yard1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#239th_Street_Yard",
+    "name": "239th Street Yard",
+    "reference": "New York"
+  },
+  "new-york-240th-street-yard": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.82277778, -73.95305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["240th-street-yard1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#240th_Street_Yard",
+    "name": "240th Street Yard",
+    "reference": "New York"
+  },
+  "new-york-38th-street-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#36th–38th_Street_Yard",
+    "name": "38th Street Yard",
+    "reference": "New York"
+  },
+  "new-york-54th-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/54th_Yard",
+    "name": "54th Yard",
+    "reference": "New York"
+  },
+  "new-york-canarsie-yard": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.64890333, -73.90026167",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["canarsie-yard1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Canarsie_Yard",
+    "name": "Canarsie Yard",
+    "reference": "New York"
+  },
+  "new-york-concourse-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Concourse_Yard",
+    "name": "Concourse Yard",
+    "reference": "New York"
+  },
+  "new-york-coney-island": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Coney_Island_Complex",
+    "name": "Coney Island",
+    "reference": "New York"
+  },
+  "new-york-corona-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Corona_Yard",
+    "name": "Corona Yard",
+    "reference": "New York"
+  },
+  "new-york-east-180th-street-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#East_180th_Street_Yard",
+    "name": "East 180th Street Yard",
+    "reference": "New York"
+  },
+  "new-york-east-bridgeport-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/New_Haven_Line",
+    "name": "East Bridgeport Yard",
+    "reference": "New York"
+  },
+  "new-york-east-new-york-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#East_New_York_Yard",
+    "name": "East New York Yard",
+    "reference": "New York"
+  },
+  "new-york-fresh-pond-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Fresh_Pond_Yard",
+    "name": "Fresh Pond Yard",
+    "reference": "New York"
+  },
+  "new-york-harrison": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/PATH_(rail_system)",
+    "name": "Harrison",
+    "reference": "New York"
+  },
+  "new-york-hudson-yards": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Hudson_Yards_(development)#Rail_yard_platform",
+    "name": "Hudson Yards",
+    "reference": "New York"
+  },
+  "new-york-jamaica-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Jamaica_Yard",
+    "name": "Jamaica Yard",
+    "reference": "New York"
+  },
+  "new-york-jerome-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Jerome_Yard",
+    "name": "Jerome Yard",
+    "reference": "New York"
+  },
+  "new-york-lenox-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Lenox_Yard",
+    "name": "Lenox Yard",
+    "reference": "New York"
+  },
+  "new-york-linden-shops": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Linden_Shops",
+    "name": "Linden Shops",
+    "reference": "New York"
+  },
+  "new-york-livonia-yard": {
+    "been": true,
+    "city": "New York",
+    "coords": "40.82277778, -73.95305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "images": ["livonia-yard1.jpg"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Livonia_Yard",
+    "name": "Livonia Yard",
+    "reference": "New York"
+  },
+  "new-york-lower-63rd": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Lower_63rd_Yard",
+    "name": "Lower 63rd",
+    "reference": "New York"
+  },
+  "new-york-pitkin-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Pitkin_Yard",
+    "name": "Pitkin Yard",
+    "reference": "New York"
+  },
+  "new-york-rockaway-park-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Rockaway_Park_Yard",
+    "name": "Rockaway Park Yard",
+    "reference": "New York"
+  },
+  "new-york-sunnyside-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Sunnyside_Yard",
+    "name": "Sunnyside Yard",
+    "reference": "New York"
+  },
+  "new-york-westchester-yard": {
+    "been": true,
+    "city": "New York",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Westchester_Yard",
+    "name": "Westchester Yard",
+    "reference": "New York"
+  },
+  "nice-centre-administratif": {
+    "been": true,
+    "city": "Nice",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Nice#Dépôts",
+    "name": "Centre Administratif",
+    "reference": "Nice"
+  },
+  "nice-henri-sappia": {
+    "been": true,
+    "city": "Nice",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Nice#Dépôts",
+    "name": "Henri Sappia",
+    "reference": "Nice"
+  },
+  "osijek-remiza": {
+    "been": false,
+    "coords": "45.55920000, 18.70282000",
+    "country": "HR",
+    "icons": ["🇭🇷"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=45.55920_N_18.70282_E",
+    "name": "Remiza",
+    "reference": "Osijek"
+  },
+  "oslo-grefsen": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Grefsen_Depot",
+    "name": "Grefsen",
+    "reference": "Oslo"
+  },
+  "oslo-holtet": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Holtet_tram_stop",
+    "name": "Holtet",
+    "reference": "Oslo"
+  },
+  "oslo-ryen": {
+    "been": true,
+    "city": "Oslo",
+    "country": "NO",
+    "icons": ["🇳🇴"],
+    "link": "https://en.wikipedia.org/wiki/Ryen_Depot",
+    "name": "Ryen",
+    "reference": "Oslo"
+  },
+  "paris-bobigny": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Bobigny",
+    "name": "Bobigny",
+    "reference": "Paris"
+  },
+  "paris-chatenay-malabry": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_10_du_tramway_d%27Île-de-France#Site_de_maintenance_et_de_remisage_(SMR)",
+    "name": "Châtenay-Malabry",
+    "reference": "Paris"
+  },
+  "paris-chatillon": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Châtillon",
+    "name": "Châtillon",
+    "reference": "Paris"
+  },
+  "paris-creteil": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Créteil",
+    "name": "Créteil",
+    "reference": "Paris"
+  },
+  "paris-les-moulineaux": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_2_du_tramway_d'Île-de-France",
+    "name": "Les Moulineaux",
+    "reference": "Paris"
+  },
+  "paris-lucotte": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_3a_du_tramway_d'Île-de-France",
+    "name": "Lucotte",
+    "reference": "Paris"
+  },
+  "paris-orly": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_9_du_tramway_d'Île-de-France",
+    "name": "Orly",
+    "reference": "Paris"
+  },
+  "paris-pierrefitte": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_5_du_tramway_d'Île-de-France",
+    "name": "Pierrefitte",
+    "reference": "Paris"
+  },
+  "paris-stade-jules-ladoumegue": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_3b_du_tramway_d'Île-de-France",
+    "name": "Stade Jules-Ladoumègue",
+    "reference": "Paris"
+  },
+  "paris-vaugirard": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Vaugirard",
+    "name": "Vaugirard",
+    "reference": "Paris"
+  },
+  "paris-velizy-villacoublay": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_6_du_tramway_d'Île-de-France",
+    "name": "Vélizy-Villacoublay",
+    "reference": "Paris"
+  },
+  "paris-versailles-matelots": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_13_Express_du_tramway_d'Île-de-France",
+    "name": "Versailles-Matelots",
+    "reference": "Paris"
+  },
+  "paris-villetaneuse": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_8_du_tramway_d'Île-de-France",
+    "name": "Villetaneuse",
+    "reference": "Paris"
+  },
+  "paris-vitry-sur-seine": {
+    "been": true,
+    "city": "Paris",
+    "country": "FR",
+    "icons": ["🇫🇷"],
+    "link": "https://fr.wikipedia.org/wiki/Ligne_7_du_tramway_d'Île-de-France",
+    "name": "Vitry-sur-Seine",
+    "reference": "Paris"
+  },
+  "philadelphia-69th-street-tc": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/69th_Street_Transportation_Center",
+    "name": "69th Street TC",
+    "reference": "Philadelphia"
+  },
+  "philadelphia-callowhill": {
+    "been": false,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Callowhill_Depot",
+    "name": "Callowhill",
+    "reference": "Philadelphia"
+  },
+  "philadelphia-elmwood": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/73rd_Street_station#Elmwood_Carhouse",
+    "name": "Elmwood",
+    "reference": "Philadelphia"
+  },
+  "philadelphia-fern-rock": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Fern_Rock_Transportation_Center",
+    "name": "Fern Rock",
+    "reference": "Philadelphia"
+  },
+  "philadelphia-frankfordt": {
+    "been": true,
+    "city": "Philadelphia",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Frankford_Transportation_Center",
+    "name": "Frankfordt",
+    "reference": "Philadelphia"
+  },
+  "pittsburgh-south-hills-village": {
+    "been": true,
+    "city": "Pittsburgh",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/South_Hills_Village_station",
+    "name": "South Hills Village",
+    "reference": "Pittsburgh"
+  },
+  "plzen-voznova-slovanska": {
+    "been": true,
+    "city": "Plzeň",
+    "coords": "49.72728000, 13.40613000",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=49.72728_N_13.40613_E",
+    "name": "Voznova Slovanská",
+    "reference": "Plzeň"
+  },
+  "porto-massarelos": {
+    "been": true,
+    "city": "Porto",
     "country": "PT",
     "icons": ["🇵🇹"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Lisbon",
-    "name": "Santo Amaro",
-    "reference": "Lisbon"
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Porto#Line_18_-_Massarelos–Carmo",
+    "name": "Massarelos",
+    "reference": "Porto"
   },
-  "sarajevo": {
-    "been": false,
-    "city": "Sarajevo",
-    "country": "BA",
-    "icons": ["🇧🇦"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Sarajevo",
-    "name": "Sarajevo",
-    "reference": "Sarajevo"
-  },
-  "schaerbeek": {
+  "poznan-bolesława-krzywoustego": {
     "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Bruxelles#Dépôts",
-    "name": "Schaerbeek",
-    "reference": "Brussels"
-  },
-  "scheveningen": {
-    "been": true,
-    "city": "Den Haag",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Scheveningen",
-    "name": "Scheveningen",
-    "reference": "Den Haag"
-  },
-  "shady-grove": {
-    "been": true,
-    "city": "Washington",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
-    "name": "Shady Grove",
-    "reference": "Washington"
-  },
-  "sidi-barnoussi": {
-    "been": true,
-    "city": "Casablanca",
-    "coords": "33.60915000, -7.50919000",
-    "country": "MA",
-    "icons": ["🇲🇦"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=33.60915_N_7.50919_W",
-    "name": "Sidi Barnoussi",
-    "reference": "Casablanca"
-  },
-  "simmering": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
-    "name": "Simmering",
-    "reference": "Vienna"
-  },
-  "skokie": {
-    "been": true,
-    "city": "Chicago",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Skokie_Shops",
-    "name": "Skokie",
-    "reference": "Chicago"
-  },
-  "slezna": {
-    "been": true,
-    "city": "Wrocław",
-    "coords": "51.08810000, 17.02866000",
+    "city": "Poznań",
+    "coords": "52.39542000, 16.95340000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.08810_N_17.02866_E",
-    "name": "Ślężna",
-    "reference": "Wrocław"
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.39542_N_16.95340_E",
+    "name": "Bolesława Krzywoustego",
+    "reference": "Poznań",
+    "strike": true
   },
-  "slijkensesteenweg": {
+  "poznan-budziszynska": {
+    "been": false,
+    "city": "Poznań",
+    "coords": "52.38346000, 16.83408000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.38346_N_16.83408_E",
+    "name": "Budziszyńska",
+    "reference": "Poznań",
+    "strike": true
+  },
+  "poznan-franowo": {
+    "been": false,
+    "city": "Poznań",
+    "coords": "52.38460000, 17.00641000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.38460_N_17.00641_E",
+    "name": "Franowo",
+    "reference": "Poznań"
+  },
+  "poznan-gajowa": {
     "been": true,
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Kusttram#Oostende",
-    "name": "Slijkensesteenweg",
-    "reference": "Belgian Coast"
+    "city": "Poznań",
+    "coords": "52.40941000, 16.90652000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://pl.wikipedia.org/wiki/Zajezdnia_tramwajowa_przy_ulicy_Gajowej_w_Poznaniu",
+    "name": "Gajowa",
+    "reference": "Poznań",
+    "strike": true,
+    "wikidata": "Q9385990"
   },
-  "slowianska": {
+  "poznan-głogowska": {
+    "been": true,
+    "city": "Poznań",
+    "coords": "52.38781000, 16.89395000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.38781_N_16.89395_E",
+    "name": "Głogowska",
+    "reference": "Poznań"
+  },
+  "poznan-madalinskiego": {
+    "been": true,
+    "city": "Poznań",
+    "coords": "52.38623000, 16.91429000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.38623_N_16.91429_E",
+    "name": "Madalińskiego",
+    "reference": "Poznań",
+    "strike": true
+  },
+  "poznan-slowianska": {
     "been": true,
     "city": "Poznań",
     "coords": "52.42775000, 16.92119000",
@@ -1891,73 +1709,7 @@
     "reference": "Poznań",
     "strike": true
   },
-  "songsan": {
-    "been": false,
-    "city": "Pyongyang",
-    "coords": "39.00872000, 125.64946000",
-    "country": "KP",
-    "icons": ["🇰🇵"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=39.00872_N_125.64946_E",
-    "name": "Songsan",
-    "reference": "Pyongyang"
-  },
-  "songsin": {
-    "been": false,
-    "city": "Pyongyang",
-    "country": "KP",
-    "icons": ["🇰🇵"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Pyongyang",
-    "name": "Songsin",
-    "reference": "Pyongyang",
-    "strike": true
-  },
-  "sopela": {
-    "been": true,
-    "city": "Bilbao",
-    "coords": "43.38016000, -2.96895000",
-    "country": "ES",
-    "icons": ["🇪🇸"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=43.38016_N_2.96895_W",
-    "name": "Sopela",
-    "reference": "Bilbao"
-  },
-  "south-hills-village": {
-    "been": true,
-    "city": "Pittsburgh",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/South_Hills_Village_station",
-    "name": "South Hills Village",
-    "reference": "Pittsburgh"
-  },
-  "speising": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Betriebsbahnhof_Speising",
-    "name": "Speising",
-    "reference": "Vienna"
-  },
-  "spittelau": {
-    "been": true,
-    "city": "Vienna",
-    "country": "AT",
-    "icons": ["🇦🇹"],
-    "link": "https://de.wikipedia.org/wiki/Verkehrsstation_Wien_Spittelau",
-    "name": "Spittelau",
-    "reference": "Vienna"
-  },
-  "stade-jules-ladoumegue": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_3b_du_tramway_d'Île-de-France",
-    "name": "Stade Jules-Ladoumègue",
-    "reference": "Paris"
-  },
-  "starołeka": {
+  "poznan-starołeka": {
     "been": false,
     "city": "Poznań",
     "coords": "52.36808000, 16.93322000",
@@ -1967,16 +1719,61 @@
     "name": "Starołęka",
     "reference": "Poznań"
   },
-  "stonebridge-park": {
+  "prague-hloubetin": {
     "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Stonebridge_Park_Depot",
-    "name": "Stonebridge Park",
-    "reference": "London"
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Hloub%C4%9Bt%C3%ADn",
+    "name": "Hloubětín",
+    "reference": "Prague"
   },
-  "strasnice": {
+  "prague-hostivar": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://en.wikipedia.org/wiki/Depo_Hostivař_(Prague_Metro)",
+    "name": "Hostivař",
+    "reference": "Prague"
+  },
+  "prague-kobylisy": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Kobylisy",
+    "name": "Kobylisy",
+    "reference": "Prague"
+  },
+  "prague-medlanky": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Medlánky",
+    "name": "Medlánky",
+    "reference": "Prague"
+  },
+  "prague-motol": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Motol",
+    "name": "Motol",
+    "reference": "Prague"
+  },
+  "prague-pankrac": {
+    "been": true,
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Pankr%C3%A1c",
+    "name": "Pankrác",
+    "reference": "Prague"
+  },
+  "prague-strasnice": {
     "been": true,
     "city": "Prague",
     "coords": "50.07622500, 14.48954667",
@@ -1987,26 +1784,7 @@
     "name": "Strašnice",
     "reference": "Prague"
   },
-  "stratford-market": {
-    "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Stratford_Market_Depot",
-    "name": "Stratford Market",
-    "reference": "London"
-  },
-  "straßenbahndepot": {
-    "been": true,
-    "city": "Bonn",
-    "coords": "50.75189000, 7.08800000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.75189_N_7.08800_E",
-    "name": "Straßenbahndepot",
-    "reference": "Bonn"
-  },
-  "stresovice": {
+  "prague-stresovice": {
     "been": true,
     "city": "Prague",
     "country": "CZ",
@@ -2015,139 +1793,139 @@
     "name": "Střešovice",
     "reference": "Prague"
   },
-  "sunnyside-yard": {
+  "prague-vokovice": {
     "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Sunnyside_Yard",
-    "name": "Sunnyside Yard",
-    "reference": "New York"
-  },
-  "szava-kocsiszin": {
-    "been": true,
-    "city": "Budapest",
-    "coords": "47.46519000, 19.12331000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.46519_N_19.12331_E",
-    "name": "Száva kocsiszín",
-    "reference": "Budapest"
-  },
-  "szepilona-kocsiszin": {
-    "been": true,
-    "city": "Budapest",
-    "coords": "47.51810000, 18.99288000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.51810_N_18.99288_E",
-    "name": "Szépilona kocsiszín",
-    "reference": "Budapest"
-  },
-  "talleres-metro": {
-    "been": true,
-    "city": "Medellín",
-    "coords": "6.32782000, -75.55359000",
-    "country": "CO",
-    "icons": ["🇨🇴"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=6.32782_N_75.55359_W",
-    "name": "Talleres Metro",
-    "reference": "Medellín"
-  },
-  "talstraße": {
-    "been": false,
-    "city": "Aachen",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://www.aachen.de/DE/kultur_freizeit/kultur/depot/Aktuelles/index.html",
-    "name": "Talstraße",
-    "reference": "Aachen",
-    "strike": true
-  },
-  "tampere": {
-    "been": false,
-    "coords": "61.45149000, 23.87338000",
-    "country": "FI",
-    "icons": ["🇫🇮"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=61.45149_N_23.87338_E",
-    "name": "Tampere",
-    "reference": "Tampere"
-  },
-  "tasquena": {
-    "been": true,
-    "city": "Mexico City",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Tasque%C3%B1a_(estaci%C3%B3n_del_Metro_de_Ciudad_de_M%C3%A9xico)",
-    "name": "Tasqueña",
-    "reference": "Mexico City"
-  },
-  "technologicky-park": {
-    "been": true,
-    "city": "Brno",
+    "city": "Prague",
     "country": "CZ",
     "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Český_technologický_park",
-    "name": "Technologický Park",
-    "reference": "Brno"
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_Vokovice",
+    "name": "Vokovice",
+    "reference": "Prague"
   },
-  "telefoniczna-zajezdnia": {
-    "been": false,
-    "city": "Łódź",
-    "coords": "51.78231000, 19.50976000",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=51.78231_N_19.50976_E",
-    "name": "Telefoniczna Zajezdnia",
-    "reference": "Łódź"
-  },
-  "temirtau": {
-    "been": false,
-    "coords": "50.05234000, 72.94677000",
-    "country": "KZ",
-    "icons": ["🇰🇿"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.05234_N_72.94677_E",
-    "name": "Temirtau",
-    "reference": "Temirtau"
-  },
-  "third-street": {
+  "prague-zizkov": {
     "been": true,
-    "city": "Miami",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/Miami_Metromover",
-    "name": "Third Street",
-    "reference": "Miami"
+    "city": "Prague",
+    "country": "CZ",
+    "icons": ["🇨🇿"],
+    "link": "https://cs.wikipedia.org/wiki/Vozovna_%C5%BDi%C5%BEkov",
+    "name": "Žižkov",
+    "reference": "Prague"
   },
-  "toolo": {
+  "pyongyang-munsu": {
     "been": false,
-    "city": "Helsinki",
-    "country": "FI",
-    "icons": ["🇫🇮"],
-    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
-    "name": "Töölö",
-    "reference": "Helsinki"
+    "city": "Pyongyang",
+    "coords": "39.03762000, 125.78671000",
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=39.03762_N_125.78671_E",
+    "name": "Munsu",
+    "reference": "Pyongyang"
   },
-  "tramsschapp": {
+  "pyongyang-rangrang": {
+    "been": false,
+    "city": "Pyongyang",
+    "coords": "38.97416000, 125.70832000",
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=38.97416_N_125.70832_E",
+    "name": "Rangrang",
+    "reference": "Pyongyang"
+  },
+  "pyongyang-songsan": {
+    "been": false,
+    "city": "Pyongyang",
+    "coords": "39.00872000, 125.64946000",
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=39.00872_N_125.64946_E",
+    "name": "Songsan",
+    "reference": "Pyongyang"
+  },
+  "pyongyang-songsin": {
+    "been": false,
+    "city": "Pyongyang",
+    "country": "KP",
+    "icons": ["🇰🇵"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Pyongyang",
+    "name": "Songsin",
+    "reference": "Pyongyang",
+    "strike": true
+  },
+  "riga-apsu-iela": {
     "been": true,
-    "city": "Luxembourg",
-    "country": "LU",
-    "icons": ["🇱🇺"],
-    "link": "https://fr.wikipedia.org/wiki/Tramway_de_Luxembourg#Le_Tramsschapp",
-    "name": "Tramsschapp",
-    "reference": "Luxembourg"
+    "city": "Riga",
+    "coords": "56.92033000, 24.09156000",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.92033_N_24.09156_E",
+    "name": "Āpšu iela",
+    "reference": "Riga"
   },
-  "tramvayny-park": {
-    "been": false,
-    "city": "Minsk",
-    "coords": "53.90497000, 27.60370900",
-    "country": "BY",
-    "icons": ["🇧🇾"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=53.904970_N_27.603709_E",
-    "name": "Tramvayny Park",
-    "reference": "Minsk"
+  "riga-brasa": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.97051800, 24.15255000",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.970518_N_24.152550_E",
+    "name": "Brasa",
+    "reference": "Riga"
   },
-  "transpole": {
+  "riga-no-3-depo": {
+    "been": true,
+    "city": "Riga",
+    "coords": "56.93368700, 24.15857400",
+    "country": "LV",
+    "icons": ["🇱🇻"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=56.933687_N_24.158574_E",
+    "name": "No. 3 Depo",
+    "reference": "Riga"
+  },
+  "rotterdam-kleiweg": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.94440833, 4.46840556",
+    "country": "NL",
+    "dateAdded": "2026-02-01",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Kleiweg",
+    "name": "Kleiweg",
+    "reference": "Rotterdam"
+  },
+  "rotterdam-kralingen": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.92057778, 4.50960278",
+    "country": "NL",
+    "dateAdded": "2026-02-01",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_Kralingen",
+    "name": "Kralingen",
+    "reference": "Rotterdam"
+  },
+  "rotterdam-s-gravenweg": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.92080833, 4.54706389",
+    "country": "NL",
+    "dateAdded": "2026-02-01",
+    "icons": ["🇳🇱"],
+    "link": "https://nl.wikipedia.org/wiki/Remise_'s-Gravenweg",
+    "name": "\"’s-Gravenweg\"",
+    "reference": "Rotterdam"
+  },
+  "rotterdam-schulpweg": {
+    "been": true,
+    "city": "Rotterdam",
+    "coords": "51.86962000, 4.44774000",
+    "country": "NL",
+    "dateAdded": "2026-02-01",
+    "icons": ["🇳🇱"],
+    "link": "https://en.wikipedia.org/wiki/Willem_Cornelis_Bauer",
+    "name": "Schulpweg",
+    "reference": "Rotterdam"
+  },
+  "saint-etienne-transpole": {
     "been": true,
     "country": "FR",
     "icons": ["🇫🇷"],
@@ -2155,25 +1933,128 @@
     "name": "Transpôle",
     "reference": "Saint Étienne"
   },
-  "upminster": {
+  "san-francisco-balboa-park": {
     "been": true,
-    "city": "London",
-    "country": "GB",
-    "icons": ["🇬🇧"],
-    "link": "https://en.wikipedia.org/wiki/Upminster_Depot",
-    "name": "Upminster",
-    "reference": "London"
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Balboa_Park_station",
+    "name": "Balboa Park",
+    "reference": "San Francisco"
   },
-  "vallila": {
+  "san-francisco-concord": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Concord_station_(BART)",
+    "name": "Concord",
+    "reference": "San Francisco"
+  },
+  "san-francisco-muni-metro-east-yard": {
+    "been": true,
+    "city": "San Francisco",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/T_Third_Street",
+    "name": "Muni Metro East Yard",
+    "reference": "San Francisco"
+  },
+  "sarajevo-sarajevo": {
     "been": false,
-    "city": "Helsinki",
-    "country": "FI",
-    "icons": ["🇫🇮"],
-    "link": "https://en.wikipedia.org/wiki/Helsinki_tram_network#Depots",
-    "name": "Vallila",
-    "reference": "Helsinki"
+    "city": "Sarajevo",
+    "country": "BA",
+    "icons": ["🇧🇦"],
+    "link": "https://en.wikipedia.org/wiki/Trams_in_Sarajevo",
+    "name": "Sarajevo",
+    "reference": "Sarajevo"
   },
-  "vallingby": {
+  "stockholm-aga": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.34710000, 18.15258000",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.34710_N_18.15258_E",
+    "name": "AGA",
+    "reference": "Stockholm"
+  },
+  "stockholm-alkarrshallen": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.32553000, 18.09429000",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.32553_N_18.09429_E",
+    "name": "Alkärrshallen",
+    "reference": "Stockholm"
+  },
+  "stockholm-alvik": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.33451000, 17.97214000",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.33451_N_17.97214_E",
+    "name": "Alvik",
+    "reference": "Stockholm"
+  },
+  "stockholm-hammarby": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Hammarby_depot",
+    "name": "Hammarby",
+    "reference": "Stockholm"
+  },
+  "stockholm-hogdalen": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/H%C3%B6gdalen_metro_station",
+    "name": "Högdalen",
+    "reference": "Stockholm"
+  },
+  "stockholm-johannesfred": {
+    "been": true,
+    "city": "Stockholm",
+    "coords": "59.34340000, 17.96694000",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=59.34340_N_17.96694°_E",
+    "name": "Johannesfred",
+    "reference": "Stockholm"
+  },
+  "stockholm-norsborg": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Norsborg_metro_station",
+    "name": "Norsborg",
+    "reference": "Stockholm"
+  },
+  "stockholm-nyboda": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://en.wikipedia.org/wiki/Nyboda_depot",
+    "name": "Nyboda",
+    "reference": "Stockholm"
+  },
+  "stockholm-rissnedepan": {
+    "been": true,
+    "city": "Stockholm",
+    "country": "SE",
+    "icons": ["🇸🇪"],
+    "link": "https://sv.wikipedia.org/wiki/Rissnedepån",
+    "name": "Rissnedepån",
+    "reference": "Stockholm"
+  },
+  "stockholm-vallingby": {
     "been": true,
     "city": "Stockholm",
     "country": "SE",
@@ -2182,34 +2063,34 @@
     "name": "Vällingby",
     "reference": "Stockholm"
   },
-  "vaugirard": {
+  "strasbourg-cronenbourg": {
     "been": true,
-    "city": "Paris",
+    "city": "Strasbourg",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ateliers_du_métro_de_Paris#Vaugirard",
-    "name": "Vaugirard",
-    "reference": "Paris"
+    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
+    "name": "Cronenbourg",
+    "reference": "Strasbourg"
   },
-  "velizy-villacoublay": {
+  "strasbourg-elsau": {
     "been": true,
-    "city": "Paris",
+    "city": "Strasbourg",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_6_du_tramway_d'Île-de-France",
-    "name": "Vélizy-Villacoublay",
-    "reference": "Paris"
+    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
+    "name": "Elsau",
+    "reference": "Strasbourg"
   },
-  "versailles-matelots": {
+  "strasbourg-kibitzenau": {
     "been": true,
-    "city": "Paris",
+    "city": "Strasbourg",
     "country": "FR",
     "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_13_Express_du_tramway_d'Île-de-France",
-    "name": "Versailles-Matelots",
-    "reference": "Paris"
+    "link": "https://fr.wikipedia.org/wiki/Compagnie_des_transports_strasbourgeois#Les_dépôts",
+    "name": "Kibitzenau",
+    "reference": "Strasbourg"
   },
-  "villamos-remiz": {
+  "szeged-villamos-remiz": {
     "been": true,
     "city": "Szeged",
     "coords": "46.26374000, 20.12312000",
@@ -2219,54 +2100,278 @@
     "name": "Villamos remíz",
     "reference": "Szeged"
   },
-  "villetaneuse": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_8_du_tramway_d'Île-de-France",
-    "name": "Villetaneuse",
-    "reference": "Paris"
+  "tampere-tampere": {
+    "been": false,
+    "coords": "61.45149000, 23.87338000",
+    "country": "FI",
+    "icons": ["🇫🇮"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=61.45149_N_23.87338_E",
+    "name": "Tampere",
+    "reference": "Tampere"
   },
-  "vitry-sur-seine": {
-    "been": true,
-    "city": "Paris",
-    "country": "FR",
-    "icons": ["🇫🇷"],
-    "link": "https://fr.wikipedia.org/wiki/Ligne_7_du_tramway_d'Île-de-France",
-    "name": "Vitry-sur-Seine",
-    "reference": "Paris"
+  "temirtau-temirtau": {
+    "been": false,
+    "coords": "50.05234000, 72.94677000",
+    "country": "KZ",
+    "icons": ["🇰🇿"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=50.05234_N_72.94677_E",
+    "name": "Temirtau",
+    "reference": "Temirtau"
   },
-  "vokovice": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_Vokovice",
-    "name": "Vokovice",
-    "reference": "Prague"
+  "toronto-hillcrest-complex": {
+    "been": false,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Hillcrest_Complex",
+    "name": "Hillcrest Complex",
+    "reference": "Toronto"
   },
-  "voznova-slovanska": {
-    "been": true,
-    "city": "Plzeň",
-    "coords": "49.72728000, 13.40613000",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=49.72728_N_13.40613_E",
-    "name": "Voznova Slovanská",
-    "reference": "Plzeň"
+  "toronto-leslie-barns": {
+    "been": false,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Leslie_Barns",
+    "name": "Leslie Barns",
+    "reference": "Toronto"
   },
-  "warschauer-straße": {
-    "been": true,
-    "city": "Berlin",
-    "coords": "52.50458000, 13.45119000",
-    "country": "DE",
-    "icons": ["🇩🇪"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=52.50458_N_13.45119_E",
-    "name": "Warschauer Straße",
-    "reference": "Berlin"
+  "toronto-roncesvalles-carhouse": {
+    "been": false,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Roncesvalles_Carhouse",
+    "name": "Roncesvalles Carhouse",
+    "reference": "Toronto"
   },
-  "west-falls-church": {
+  "toronto-russell-carhouse": {
+    "been": false,
+    "city": "Toronto",
+    "country": "CA",
+    "icons": ["🇨🇦"],
+    "link": "https://en.wikipedia.org/wiki/Russell_Carhouse",
+    "name": "Russell Carhouse",
+    "reference": "Toronto"
+  },
+  "vienna-aterlaa": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Alterlaa",
+    "name": "Aterlaa",
+    "reference": "Vienna"
+  },
+  "vienna-brigittenau": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Brigittenau",
+    "reference": "Vienna"
+  },
+  "vienna-favoriten": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Favoriten",
+    "reference": "Vienna"
+  },
+  "vienna-floridsdorf": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Floridsdorf",
+    "reference": "Vienna"
+  },
+  "vienna-gurtel": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Gürtel",
+    "reference": "Vienna"
+  },
+  "vienna-hauptwerkstatte": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Hauptwerkstätte_der_Wiener_Linien",
+    "name": "Hauptwerkstätte",
+    "reference": "Vienna"
+  },
+  "vienna-hernals": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Hernals",
+    "reference": "Vienna"
+  },
+  "vienna-inzersdorf": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Lokalbahn_Wien–Baden",
+    "name": "Inzersdorf",
+    "reference": "Vienna"
+  },
+  "vienna-kagran": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Kagran",
+    "reference": "Vienna"
+  },
+  "vienna-leesdorf": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Leesdorf_(Gemeinde_Baden)",
+    "name": "Leesdorf",
+    "reference": "Vienna"
+  },
+  "vienna-michelbeuren": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/U-Bahn-Station_Michelbeuern",
+    "name": "Michelbeuren",
+    "reference": "Vienna"
+  },
+  "vienna-oberlaa": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://en.wikipedia.org/wiki/Oberlaa_station",
+    "name": "Oberlaa",
+    "reference": "Vienna"
+  },
+  "vienna-ottakring": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Ottakring",
+    "reference": "Vienna"
+  },
+  "vienna-rudolfsheim": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Rudolfsheim",
+    "reference": "Vienna"
+  },
+  "vienna-simmering": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Straßenbahn_Wien#Betriebsbahnhöfe",
+    "name": "Simmering",
+    "reference": "Vienna"
+  },
+  "vienna-speising": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Betriebsbahnhof_Speising",
+    "name": "Speising",
+    "reference": "Vienna"
+  },
+  "vienna-spittelau": {
+    "been": true,
+    "city": "Vienna",
+    "country": "AT",
+    "icons": ["🇦🇹"],
+    "link": "https://de.wikipedia.org/wiki/Verkehrsstation_Wien_Spittelau",
+    "name": "Spittelau",
+    "reference": "Vienna"
+  },
+  "warsaw-mokotow": {
+    "been": false,
+    "city": "Warsaw",
+    "coords": "52.18733000, 21.00019000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=52.18733_N_21.00019_E",
+    "name": "Mokotów",
+    "reference": "Warsaw"
+  },
+  "washington-alexandria": {
+    "been": true,
+    "city": "Alexandria",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
+    "name": "Alexandria",
+    "reference": "Washington"
+  },
+  "washington-benning-road": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/H_Street/Benning_Road_Line",
+    "name": "Benning Road",
+    "reference": "Washington"
+  },
+  "washington-decatur-street": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Capital_Traction_Company_Car_Barn",
+    "name": "Decatur Street",
+    "reference": "Washington"
+  },
+  "washington-georgetown-car-barn": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Georgetown_Car_Barn",
+    "name": "Georgetown Car Barn",
+    "reference": "Washington"
+  },
+  "washington-new-carrollton": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
+    "name": "New Carrollton",
+    "reference": "Washington"
+  },
+  "washington-shady-grove": {
+    "been": true,
+    "city": "Washington",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Metro_rolling_stock#Rail_yards",
+    "name": "Shady Grove",
+    "reference": "Washington"
+  },
+  "washington-west-falls-church": {
     "been": true,
     "city": "Washington",
     "country": "US",
@@ -2275,34 +2380,28 @@
     "name": "West Falls Church",
     "reference": "Washington"
   },
-  "westchester-yard": {
+  "wrocław-kwiska": {
     "been": true,
-    "city": "New York",
-    "country": "US",
-    "icons": ["🇺🇸"],
-    "link": "https://en.wikipedia.org/wiki/List_of_New_York_City_Subway_yards#Westchester_Yard",
-    "name": "Westchester Yard",
-    "reference": "New York"
+    "city": "Wrocław",
+    "coords": "51.12636000, 16.98347000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.12636_N_16.98347_E",
+    "name": "Kwiska",
+    "reference": "Wrocław",
+    "strike": true
   },
-  "woluwe": {
+  "wrocław-slezna": {
     "been": true,
-    "city": "Brussels",
-    "country": "BE",
-    "icons": ["🇧🇪"],
-    "link": "https://nl.wikipedia.org/wiki/Museum_voor_het_Stedelijk_Vervoer_te_Brussel",
-    "name": "Woluwe",
-    "reference": "Brussels"
+    "city": "Wrocław",
+    "coords": "51.08810000, 17.02866000",
+    "country": "PL",
+    "icons": ["🇵🇱"],
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.08810_N_17.02866_E",
+    "name": "Ślężna",
+    "reference": "Wrocław"
   },
-  "xochimilco": {
-    "been": true,
-    "city": "Mexico City",
-    "country": "MX",
-    "icons": ["🇲🇽"],
-    "link": "https://es.wikipedia.org/wiki/Xochimilco_(estación)",
-    "name": "Xochimilco",
-    "reference": "Mexico City"
-  },
-  "zajezdnia-dabie": {
+  "wrocław-zajezdnia-dabie": {
     "been": true,
     "city": "Wrocław",
     "coords": "51.10454000, 17.08625000",
@@ -2312,69 +2411,14 @@
     "name": "Zajezdnia Dąbie",
     "reference": "Wrocław"
   },
-  "zajezdnia-nowa-huta": {
+  "łodz-telefoniczna-zajezdnia": {
     "been": false,
-    "city": "Kraków",
+    "city": "Łódź",
+    "coords": "51.78231000, 19.50976000",
     "country": "PL",
     "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
-    "name": "Zajezdnia Nowa Huta",
-    "reference": "Kraków"
-  },
-  "zajezdnia-podgorze": {
-    "been": false,
-    "city": "Kraków",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
-    "name": "Zajezdnia Podgórze",
-    "reference": "Kraków"
-  },
-  "zajezdnia-sw-wawrzynca": {
-    "been": false,
-    "city": "Kraków",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://en.wikipedia.org/wiki/Trams_in_Kraków#Tram_depots",
-    "name": "Zajezdnia Św. Wawrzyńca",
-    "reference": "Kraków"
-  },
-  "zawodzie": {
-    "been": true,
-    "city": "Katowice",
-    "coords": "50.26135800, 19.06885100",
-    "country": "PL",
-    "icons": ["🇵🇱"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=50.261358_N_19.068851_E",
-    "name": "Zawodzie",
-    "reference": "Katowice"
-  },
-  "zichtenburg": {
-    "been": true,
-    "city": "Den Haag",
-    "country": "NL",
-    "icons": ["🇳🇱"],
-    "link": "https://nl.wikipedia.org/wiki/Remise_Zichtenburg",
-    "name": "Zichtenburg",
-    "reference": "Den Haag"
-  },
-  "zizkov": {
-    "been": true,
-    "city": "Prague",
-    "country": "CZ",
-    "icons": ["🇨🇿"],
-    "link": "https://cs.wikipedia.org/wiki/Vozovna_%C5%BDi%C5%BEkov",
-    "name": "Žižkov",
-    "reference": "Prague"
-  },
-  "zuglo-kocsiszin": {
-    "been": true,
-    "city": "Budapest",
-    "coords": "47.51841000, 19.11146000",
-    "country": "HU",
-    "icons": ["🇭🇺"],
-    "link": "https://geohack.toolforge.org/geohack.php?params=47.51841_N_19.11146_E",
-    "name": "Zugló kocsiszín",
-    "reference": "Budapest"
+    "link": "https://geohack.toolforge.org/geohack.php?params=51.78231_N_19.50976_E",
+    "name": "Telefoniczna Zajezdnia",
+    "reference": "Łódź"
   }
 }

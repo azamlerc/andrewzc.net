@@ -2,7 +2,6 @@
   "--info--": {
     "flagClass": "icon",
     "flagFolder": "trains",
-    "header": "I’ve been to every station in:",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
     "icon": "🚇",
     "map": {
@@ -1498,16 +1497,16 @@
     "size": 73
   },
   "rotterdam": {
-    "been": false,
+    "been": true,
     "city": "Rotterdam",
     "coords": "51.92000000, 4.48000000",
     "country": "NL",
     "flags": ["rotterdam"],
     "icons": ["🇳🇱"],
-    "info": "(30%)",
+    "images": ["rotterdam7.jpg", "rotterdam8.jpg", "rotterdam9.jpg", "rotterdam10.jpg", "rotterdam11.jpg", "rotterdam1.jpg", "rotterdam2.jpg", "rotterdam3.jpg", "rotterdam4.jpg", "rotterdam5.jpg", "rotterdam6.jpg"],
     "link": "https://en.wikipedia.org/wiki/Rotterdam_Metro",
     "name": "Rotterdam",
-    "section": "taken",
+    "section": "done",
     "size": 71
   },
   "saint-petersburg": {

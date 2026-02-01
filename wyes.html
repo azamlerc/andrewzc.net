@@ -3,8 +3,8 @@
 <head>
 	<title>🖖 Wyes</title>
 	<meta charset="UTF-8">
-	<meta name="andrewzc" content="reference-first" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.45">
+	<meta name="andrewzc" content="auto, reference-first" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.45">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,43 +12,45 @@
 <div class="caption">Tracks where a train can reverse by performing a three-point turn.</div>
 <div class="items medium">
 
-🇺🇸 <span class="dark">Cumbres & Toltec</span> <a href="https://geohack.toolforge.org/geohack.php?params=36.89647_N_106.58191_W">Chama</a><br>
-🇳🇱 <span class="dark">Den Haag</span> <a href="https://nl.wikipedia.org/wiki/Station_Delft" class="strike">Delft</a><br>
-🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.11252_N_4.28922_E">Harstenhoekweg</a><br>
-🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.10015_N_4.28166_E" class="strike">Kanaalweg</a><br>
-🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.08215_N_4.31467_E" class="strike">Lange Voorhout</a><br>
-🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.10731_N_4.28904_E" class="strike">Nieuwe Duinweg</a><br>
-🇨🇭 <span class="dark">Jungfraubahn</span> <a href="https://en.wikipedia.org/wiki/Kleine_Scheidegg">Kleine Scheidegg</a>*<br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.32982_N_19.12590_E">Będzin Muzeum</a><br>
-🇵🇱 <span class="dark">Katowice</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.295315_N_19.145268_E">Konstantynów Okrzei</a><br>
-🇳🇴 <span class="dark">Oslo</span> <a href="https://geohack.toolforge.org/geohack.php?params=59.93866_N_10.78542_E">Sinnsenkrysset</a><br>
-🇨🇿 <span class="dark">Prague</span> <a href="https://en.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD">Hlavní Nádraží</a><br>
-🇨🇿 <span class="dark">Prague</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.07093_N_14.43423_E">Zvonařka</a><br>
-🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74209_N_122.42683_W">Church & 30th Street</a><br>
-🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74294_N_122.49291_W">Taraval & 35th Avenue</a><br>
-🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74170_N_122.50676_W">Taraval & 48th Avenue</a><br>
-🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.23970_N_20.11797_E">Kecskés</a><br>
-🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.26445_N_20.10984_E">Fonógyári út</a><br> 
-🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.253983_N_20.118745_E">Vadaspark</a><br>
-🇵🇱 <span class="dark">Wrocław</span> <a href="https://geohack.toolforge.org/geohack.php?params=51.10536_N_17.03678_E">Wierzbowa</a><br>
+🇺🇸 <span class="dark">Cumbres & Toltec</span> <a href="https://geohack.toolforge.org/geohack.php?params=36.89647_N_106.58191_W" id="chama">Chama</a><br>
+🇳🇱 <span class="dark">Den Haag</span> <a href="https://nl.wikipedia.org/wiki/Station_Delft" class="strike" id="delft">Delft</a><br>
+🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.11252_N_4.28922_E" id="harstenhoekweg">Harstenhoekweg</a><br>
+🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.10015_N_4.28166_E" class="strike" id="kanaalweg">Kanaalweg</a><br>
+🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.08215_N_4.31467_E" class="strike" id="lange-voorhout">Lange Voorhout</a><br>
+🇳🇱 <span class="dark">Den Haag</span> <a href="https://geohack.toolforge.org/geohack.php?params=52.10731_N_4.28904_E" class="strike" id="nieuwe-duinweg">Nieuwe Duinweg</a><br>
+🇨🇭 <span class="dark">Jungfraubahn</span> <a href="https://en.wikipedia.org/wiki/Kleine_Scheidegg" id="kleine-scheidegg">Kleine Scheidegg</a> *<br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.32982_N_19.12590_E" id="bedzin-muzeum">Będzin Muzeum</a><br>
+🇵🇱 <span class="dark">Katowice</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.295315_N_19.145268_E" id="konstantynow-okrzei">Konstantynów Okrzei</a><br>
+🇳🇴 <span class="dark">Oslo</span> <a href="https://geohack.toolforge.org/geohack.php?params=59.93866_N_10.78542_E" id="sinnsenkrysset">Sinnsenkrysset</a><br>
+🇨🇿 <span class="dark">Prague</span> <a href="https://en.wikipedia.org/wiki/Praha_hlavn%C3%AD_n%C3%A1dra%C5%BE%C3%AD" id="hlavni-nadrazi">Hlavní Nádraží</a><br>
+🇨🇿 <span class="dark">Prague</span> <a href="https://geohack.toolforge.org/geohack.php?params=50.07093_N_14.43423_E" id="zvonarka">Zvonařka</a><br>
+🇳🇱 <span class="dark">Rotterdam</span> <a href="#" id="holysingel">Holysingel</a><br>
+🇳🇱 <span class="dark">Rotterdam</span> <a href="https://en.wikipedia.org/wiki/Beatrixkwartier" id="prinses-beatrixlaan">Prinses Beatrixlaan</a><br>
+🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74209_N_122.42683_W" id="church-30th-street">Church & 30th Street</a><br>
+🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74294_N_122.49291_W" id="taraval-35th-avenue">Taraval & 35th Avenue</a><br>
+🇺🇸 <span class="dark">San Francisco</span> <a href="https://geohack.toolforge.org/geohack.php?params=37.74170_N_122.50676_W" id="taraval-48th-avenue">Taraval & 48th Avenue</a><br>
+🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.26445_N_20.10984_E" id="fonogyari-ut">Fonógyári út</a><br>
+🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.23970_N_20.11797_E" id="kecskes">Kecskés</a><br>
+🇭🇺 <span class="dark">Szeged</span> <a href="https://geohack.toolforge.org/geohack.php?params=46.253983_N_20.118745_E" id="vadaspark">Vadaspark</a><br>
+🇵🇱 <span class="dark">Wrocław</span> <a href="https://geohack.toolforge.org/geohack.php?params=51.10536_N_17.03678_E" id="wierzbowa">Wierzbowa</a><br>
 
 <hr>
 
-🇦🇺 <a href="https://en.wikipedia.org/wiki/Ararat_railway_station">Ararat</a><br>
-🇬🇧 <a href="https://en.wikipedia.org/wiki/Earlestown_railway_station">Earlestown</a><br>
-🇵🇱 <a href="https://en.wikipedia.org/wiki/Trams_in_Kraków#Other_termini">Dworcowa Street</a><br>
-🇬🇧 <a href="https://en.wikipedia.org/wiki/Downpatrick_Loop_Platform_railway_station">Downpatrick Loop</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Grand_Canyon_Village,_Arizona">Grand Canyon Village</a><br>
-🇬🇧 <a href="https://en.wikipedia.org/wiki/Belfast_Great_Victoria_Street_railway_station">Great Victoria Street</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Keddie_Wye">Keddie Wye</a><br>
-🇮🇪 <a href="https://en.wikipedia.org/wiki/Lavistown_Loop_Line">Lavistown</a><br>
-🇮🇪 <a href="https://en.wikipedia.org/wiki/Limerick_Junction_railway_station">Limerick Junction</a><br>
-🇳🇦 <a href="https://geohack.toolforge.org/geohack.php?params=26.67763_S_15.16698_E">Lüderitz</a><br>
-🇦🇺 <a href="https://en.wikipedia.org/wiki/North_Geelong_railway_station">North Geelong</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Oakland_Wye">Oakland Wye</a><br>
-🇭🇷 <a href="https://geohack.toolforge.org/geohack.php?params=45.55920_N_18.70282_E">Remiza</a><br>
-🇺🇸 <a href="https://en.wikipedia.org/wiki/Williams,_Arizona">Williams</a><br>
-🇦🇺 <a href="https://en.wikipedia.org/wiki/Wodonga">Wodonga</a><br>
+🇦🇺 <a href="https://en.wikipedia.org/wiki/Ararat_railway_station" id="ararat">Ararat</a><br>
+🇬🇧 <a href="https://en.wikipedia.org/wiki/Downpatrick_Loop_Platform_railway_station" id="downpatrick-loop">Downpatrick Loop</a><br>
+🇵🇱 <a href="https://en.wikipedia.org/wiki/Trams_in_Kraków#Other_termini" id="dworcowa-street">Dworcowa Street</a><br>
+🇬🇧 <a href="https://en.wikipedia.org/wiki/Earlestown_railway_station" id="earlestown">Earlestown</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Grand_Canyon_Village,_Arizona" id="grand-canyon-village">Grand Canyon Village</a><br>
+🇬🇧 <a href="https://en.wikipedia.org/wiki/Belfast_Great_Victoria_Street_railway_station" id="great-victoria-street">Great Victoria Street</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Keddie_Wye" id="keddie-wye">Keddie Wye</a><br>
+🇮🇪 <a href="https://en.wikipedia.org/wiki/Lavistown_Loop_Line" id="lavistown">Lavistown</a><br>
+🇮🇪 <a href="https://en.wikipedia.org/wiki/Limerick_Junction_railway_station" id="limerick-junction">Limerick Junction</a><br>
+🇳🇦 <a href="https://geohack.toolforge.org/geohack.php?params=26.67763_S_15.16698_E" id="luderitz">Lüderitz</a><br>
+🇦🇺 <a href="https://en.wikipedia.org/wiki/North_Geelong_railway_station" id="north-geelong">North Geelong</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Oakland_Wye" id="oakland-wye">Oakland Wye</a><br>
+🇭🇷 <a href="https://geohack.toolforge.org/geohack.php?params=45.55920_N_18.70282_E" id="remiza">Remiza</a><br>
+🇺🇸 <a href="https://en.wikipedia.org/wiki/Williams,_Arizona" id="williams">Williams</a><br>
+🇦🇺 <a href="https://en.wikipedia.org/wiki/Wodonga" id="wodonga">Wodonga</a><br>
 
 </div>
 </body>
