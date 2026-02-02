@@ -753,7 +753,8 @@
     "icon": "🙉",
     "name": "Cover Songs",
     "size": "large",
-    "tags": ["people", "no-links", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "no-links", "reference-key"],
     "type": "entity"
   },
   "cross-platform": {
@@ -1318,6 +1319,7 @@
     "icon": "🛣",
     "name": "Highways",
     "size": "large",
+    "sort": ["countries", "name"],
     "tags": ["country-key", "no-coords"],
     "type": "place"
   },
@@ -1884,6 +1886,7 @@
     "icon": "🚗",
     "name": "Music Cars",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["people", "reference-key"],
     "type": "place"
   },
@@ -1898,6 +1901,7 @@
     "icon": "🎸",
     "name": "Music Origins",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["people", "reference-key"],
     "type": "place"
   },
@@ -1905,7 +1909,8 @@
     "icon": "🕺",
     "name": "Music People",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-places": {
@@ -1925,21 +1930,24 @@
     "icon": "🪐",
     "name": "Music Space",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-time": {
     "icon": "⏰",
     "name": "Music Time",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-water": {
     "icon": "🌊",
     "name": "Music Water",
     "size": "medium",
-    "tags": ["no-links", "people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
     "type": "place"
   },
   "national-parks": {
@@ -2046,8 +2054,9 @@
   "official-languages": {
     "icon": "💬",
     "name": "Official Languages",
-    "size": "large",
-    "tags": ["country-key", "no-links"],
+    "size": "medium",
+    "sort": ["name", "countries"],
+    "tags": ["auto", "country-key", "no-links"],
     "type": "place"
   },
   "offset": {
@@ -2284,7 +2293,8 @@
     "icon": "🎛",
     "name": "Producers",
     "size": "medium",
-    "tags": ["no-links", "people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
     "type": "place"
   },
   "projects": {
@@ -3098,7 +3108,8 @@
     },
     "name": "TV Places",
     "size": "medium",
-    "tags": ["reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "twin-cities": {

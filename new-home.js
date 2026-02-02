@@ -91,7 +91,7 @@ function rowHTML(place, listMeta) {
 
   const sizeForFlags = (listMeta && listMeta.size) || "large";
   const flagsHTML = place.flags
-    ? place.flags.map(f => img(`images/flags/${f}.png`, `state-${sizeForFlags}`)).join(" ")
+    ? place.flags.map(f => img(`images/flags/${f}.png`, `state`)).join(" ")
     : null;
 
   const referenceHTML = place.reference ? span(place.reference, "dark") : null;

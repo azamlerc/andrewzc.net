@@ -3,6 +3,7 @@
     "icon": "🚗",
     "name": "Music Cars",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["people", "reference-key"],
     "type": "place"
   },
@@ -78,11 +79,9 @@
     "reference": "Stereo Total"
   },
   "cars": {
-    "badges": ["🚗"],
     "been": true,
-    "icons": [],
-    "name": "",
-    "reference": "The Cars"
+    "icons": ["🇺🇸"],
+    "name": "The Cars"
   },
   "cars-bjork": {
     "been": true,

@@ -3,7 +3,8 @@
     "icon": "🌊",
     "name": "Music Water",
     "size": "medium",
-    "tags": ["no-links", "people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
     "type": "place"
   },
   "1000-oceans-tori-amos": {
@@ -28,11 +29,9 @@
     "reference": "Sting"
   },
   "aqua": {
-    "badges": ["🇺🇸"],
     "been": true,
-    "icons": [],
-    "name": "",
-    "reference": "Aqua"
+    "icons": ["🇺🇸"],
+    "name": "Aqua"
   },
   "belgium-in-rain-hooverphonic": {
     "been": true,
@@ -610,18 +609,14 @@
     "reference": "Nina Simone"
   },
   "tears-for-fears": {
-    "badges": ["🇬🇧"],
+    "icons": ["🇬🇧"],
     "been": true,
-    "icons": [],
-    "name": "",
-    "reference": "Tears for Fears"
+    "name": "Tears for Fears"
   },
   "toad-wet-sprocket": {
-    "badges": ["🇺🇸"],
+    "icons": ["🇺🇸"],
     "been": true,
-    "icons": [],
-    "name": "",
-    "reference": "Toad the Wet Sprocket"
+    "name": "Toad the Wet Sprocket"
   },
   "walk-on-water-aerosmith": {
     "been": true,

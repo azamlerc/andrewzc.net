@@ -8,7 +8,7 @@
       "zoom": "2"
     },
     "name": "Suburban Trains",
-    "size": "small",
+    "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
@@ -282,15 +282,15 @@
     "reference": "Montréal",
     "wikidata": "Q494717"
   },
-  "moscow": {
+  "moscow-central-diameters": {
     "been": false,
     "city": "Moscow",
     "coords": "55.60000000, 37.60000000",
     "country": "RU",
     "icons": ["🇷🇺"],
-    "info": "<a href=\"https://ru.wikipedia.org/wiki/Московские_центральные_диаметры\">Central Diameters</a>",
     "link": "https://ru.wikipedia.org/wiki/Московские_центральные_диаметры",
-    "name": "Moscow",
+    "name": "Central Diameters",
+    "reference": "Moscow",
     "wikidata": "Q43289885"
   },
   "munchen-s-bahn": {
@@ -430,15 +430,15 @@
     "reference": "Seattle",
     "wikidata": "Q7564853"
   },
-  "seoul": {
+  "seoul-gtx": {
     "been": false,
     "city": "Seoul",
     "coords": "37.56666667, 126.98333333",
     "country": "KR",
     "icons": ["🇰🇷"],
-    "info": "<a href=\"https://en.wikipedia.org/wiki/Great_Train_eXpress\">GTX",
     "link": "https://en.wikipedia.org/wiki/Great_Train_eXpress",
-    "name": "Seoul",
+    "name": "GTX",
+    "reference": "Seoul",
     "wikidata": "Q24867030"
   },
   "stockholm-pendeltag": {
