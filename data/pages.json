@@ -206,6 +206,7 @@
   "automatic": {
     "icon": "🤖",
     "name": "Automatic Metros",
+    "prefixClass": "fixed",
     "size": "large",
     "sort": "prefix",
     "tags": ["auto", "prefix"],
@@ -635,6 +636,13 @@
     "tags": ["featured"],
     "type": "city"
   },
+  "citizenship": {
+    "icon": "🗽",
+    "name": "Citizenship",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
   "closed-cities": {
     "icon": "⛔",
     "map": {
@@ -753,7 +761,8 @@
     "icon": "🙉",
     "name": "Cover Songs",
     "size": "large",
-    "tags": ["people", "no-links", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "no-links", "reference-key"],
     "type": "entity"
   },
   "cross-platform": {
@@ -949,6 +958,13 @@
     "size": "medium",
     "type": "place"
   },
+  "european-union": {
+    "icon": "🇪🇺",
+    "name": "European Union",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
   "eurovision": {
     "icon": "💙",
     "map": {
@@ -957,9 +973,17 @@
       "zoom": "4"
     },
     "name": "Eurovision",
+    "prefixType": "year",
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
+    "type": "place"
+  },
+  "eurozone": {
+    "icon": "💶",
+    "name": "Eurozone",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "expos": {
@@ -1114,6 +1138,7 @@
   "founded": {
     "icon": "🪦",
     "name": "Founded",
+    "prefixType": "year",
     "size": "large",
     "tags": ["prefix"],
     "type": "place"
@@ -1318,7 +1343,8 @@
     "icon": "🛣",
     "name": "Highways",
     "size": "large",
-    "tags": ["country-key", "no-coords"],
+    "sort": ["countries", "name"],
+    "tags": ["auto", "country-key", "no-coords"],
     "type": "place"
   },
   "homes": {
@@ -1369,6 +1395,7 @@
     },
     "name": "Independence",
     "prefixClass": "fixed",
+    "prefixType": "year",
     "size": "medium",
     "sort": "prefix",
     "tags": ["auto", "prefix", "double-flag"],
@@ -1465,6 +1492,14 @@
     "tags": ["prefix"],
     "type": "place"
   },
+  "kosovo": {
+    "icon": "🇽🇰",
+    "name": "Kosovo",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
   "lakes": {
     "icon": "🛶",
     "map": {
@@ -1476,6 +1511,13 @@
     "size": "large",
     "sort": "iconCount",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "landlocked": {
+    "icon": "🔒",
+    "name": "Landlocked",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "last-locations": {
@@ -1504,9 +1546,10 @@
     "header": "Metro stations with the fewest annual passenger entrances.",
     "icon": "🕸️",
     "name": "Least Used",
+    "prefixClass": "fixed",
     "size": "medium",
     "sort": "prefix",
-    "tags": ["prefix"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "least-used-uk": {
@@ -1535,6 +1578,13 @@
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
+    "type": "place"
+  },
+  "lefthand": {
+    "icon": "⬅️",
+    "name": "Left-Hand Drive",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "legislatures": {
@@ -1651,6 +1701,13 @@
     "name": "Shopping Malls",
     "size": "large",
     "tags": ["auto", "google"],
+    "type": "place"
+  },
+  "marriage": {
+    "icon": "🏳️‍🌈",
+    "name": "Marriage",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "metro-bridges": {
@@ -1884,6 +1941,7 @@
     "icon": "🚗",
     "name": "Music Cars",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["people", "reference-key"],
     "type": "place"
   },
@@ -1898,6 +1956,7 @@
     "icon": "🎸",
     "name": "Music Origins",
     "size": "medium",
+    "sort": ["name", "reference"],
     "tags": ["people", "reference-key"],
     "type": "place"
   },
@@ -1905,7 +1964,8 @@
     "icon": "🕺",
     "name": "Music People",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-places": {
@@ -1925,21 +1985,24 @@
     "icon": "🪐",
     "name": "Music Space",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-time": {
     "icon": "⏰",
     "name": "Music Time",
     "size": "medium",
-    "tags": ["people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "music-water": {
     "icon": "🌊",
     "name": "Music Water",
     "size": "medium",
-    "tags": ["no-links", "people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
     "type": "place"
   },
   "national-parks": {
@@ -1947,6 +2010,13 @@
     "name": "National Parks",
     "size": "large",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "nato": {
+    "icon": "🧭",
+    "name": "NATO",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "netherlands": {
@@ -1969,9 +2039,10 @@
       "zoom": "2"
     },
     "name": "New Stations",
+    "prefixClass": "fixed",
     "size": "medium",
     "sort": "prefix",
-    "tags": ["prefix", "reference-first"],
+    "tags": ["auto", "prefix", "reference-first"],
     "type": "place"
   },
   "newcastle": {
@@ -2005,6 +2076,20 @@
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
+    "type": "place"
+  },
+  "no-trains": {
+    "icon": "🙅",
+    "name": "No Trains",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  "non-binary": {
+    "icon": "🏳️‍⚧️",
+    "name": "Non-Binary",
+    "size": "large",
+    "tags": ["country-flag"],
     "type": "place"
   },
   "non-revenue": {
@@ -2047,7 +2132,8 @@
     "icon": "💬",
     "name": "Official Languages",
     "size": "large",
-    "tags": ["country-key", "no-links"],
+    "sort": ["name", "countries"],
+    "tags": ["auto", "country-key", "no-links"],
     "type": "place"
   },
   "offset": {
@@ -2073,6 +2159,7 @@
       "zoom": "2"
     },
     "name": "Olympics",
+    "prefixType": "year",
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
@@ -2136,6 +2223,14 @@
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
+  "palestine": {
+    "icon": "🇵🇸",
+    "name": "Palestine",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
   "parking": {
     "icon": "🅿️",
     "name": "Parking",
@@ -2174,7 +2269,7 @@
     "name": "People Movers",
     "size": "large",
     "sort": "prefix",
-    "tags": ["prefix"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "photographers": {
@@ -2260,6 +2355,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "portuguese": {
+    "icon": "🇵🇹",
+    "name": "Portuguese",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
   "power-stations": {
     "icon": "☢️",
     "map": {
@@ -2284,7 +2386,8 @@
     "icon": "🎛",
     "name": "Producers",
     "size": "medium",
-    "tags": ["no-links", "people", "reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
     "type": "place"
   },
   "projects": {
@@ -2474,9 +2577,17 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "schengen": {
+    "icon": "🇱🇺",
+    "name": "Schengen",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
   "second-cities": {
     "icon": "🥈",
     "name": "Second Cities",
+    "prefixType": "population",
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
@@ -2490,6 +2601,7 @@
       "zoom": "3"
     },
     "name": "Short Coastline",
+    "prefixType": "length_km",
     "size": "large",
     "sort": "prefix",
     "tags": ["country-flag", "prefix"],
@@ -2506,7 +2618,7 @@
     "header": "Stations where metro services sometimes turn around early to maintain higher frequency on part of the line.",
     "icon": "↩️",
     "name": "Short Turn",
-    "size": "large",
+    "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
@@ -2520,6 +2632,13 @@
     "name": "Shuttles",
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  "similar-flags": {
+    "icon": "🇵🇳",
+    "name": "Similar Flags",
+    "size": "large",
+    "tags": ["country-flag", "todo-icon"],
     "type": "place"
   },
   "singing-bassists": {
@@ -2834,6 +2953,7 @@
     "header": "Lines that have switched from one service to another.",
     "icon": "🔀",
     "name": "Switched Service",
+    "prefixType": "year",
     "size": "medium",
     "sort": "prefix",
     "tags": ["prefix", "reference-first"],
@@ -2868,11 +2988,13 @@
     "icon": "🇨🇿",
     "name": "Tatra T3",
     "size": "large",
+    "tags": ["auto"],
     "type": "place"
   },
   "tariffs": {
     "icon": "💰",
     "name": "Tariffs",
+    "prefixType": "percent",
     "size": "large",
     "tags": ["no-links", "prefix"],
     "type": "place"
@@ -2891,6 +3013,7 @@
   "territories": {
     "icon": "🏝️",
     "name": "Territories",
+    "prefixType": "year",
     "size": "large",
     "tags": ["no-coords"],
     "type": "place"
@@ -3098,7 +3221,8 @@
     },
     "name": "TV Places",
     "size": "medium",
-    "tags": ["reference-key"],
+    "sort": ["name", "reference"],
+    "tags": ["auto", "reference-key"],
     "type": "place"
   },
   "twin-cities": {
@@ -3143,6 +3267,7 @@
   "unification": {
     "icon": "🤝",
     "name": "Unification",
+    "prefixType": "year",
     "size": "medium",
     "tags": ["prefix"],
     "type": "place"
@@ -3219,6 +3344,14 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "western-sahara": {
+    "icon": "🇪🇭",
+    "name": "Western Sahara",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
   "women-only": {
     "icon": "🧕",
     "map": {
@@ -3240,6 +3373,7 @@
       "zoom": "2"
     },
     "name": "World Cities",
+    "prefixType": "year",
     "size": "large",
     "sort": "prefix",
     "tags": ["auto", "prefix"],
@@ -3253,6 +3387,7 @@
       "zoom": "3"
     },
     "name": "World’s Fairs",
+    "prefixType": "year",
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first"],

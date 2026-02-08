@@ -10,22 +10,106 @@ addStylesheets([
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
 ]);
 
+// Convert an array of place entities into the object shape this file expects:
+// { [key]: place }
+function placesArrayToObject(arr) {
+  const out = {};
+  (arr || []).forEach(p => {
+    if (!p) return;
+    const k = p.key || simplify(p.name || "");
+    if (!k) return;
+    out[k] = p;
+  });
+  return out;
+}
+
+// Prefer GeoJSON location over legacy coords for marker placement
+function getLatLong(place) {
+  // Prefer GeoJSON location: { type: "Point", coordinates: [lon, lat] }
+  const loc = place && place.location;
+  if (loc && loc.type === "Point" && Array.isArray(loc.coordinates) && loc.coordinates.length >= 2) {
+    const lon = Number(loc.coordinates[0]);
+    const lat = Number(loc.coordinates[1]);
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+      return [lat, lon]; // Leaflet expects [lat, lon]
+    }
+  }
+
+  // Fallback to legacy coords string: "lat, lon" (supports DMS via convertToDecimal)
+  if (place && typeof place.coords === "string") {
+    const parts = place.coords.split(',').map(s => s.trim()).filter(Boolean);
+    if (parts.length >= 2) {
+      try {
+        const lat = convertToDecimal(parts[0]);
+        const lon = convertToDecimal(parts[1]);
+        if (Number.isFinite(lat) && Number.isFinite(lon)) {
+          return [lat, lon];
+        }
+      } catch (e) {
+        // handled by caller
+      }
+    }
+  }
+
+  return null;
+}
+
+// Try to reuse places data already loaded by the page renderer.
+// Supported globals:
+// - window.__ANDREWZC_PLACES__  (object map or array)
+// - window.__ANDREWZC_PAGE_DATA__ (API payload like {"--info--":..., entities:[...]})
+// - window.places (legacy)
+function getPlacesFromGlobals(filename) {
+  const g = window.__ANDREWZC_PLACES__ ?? window.places;
+  if (g) {
+    if (Array.isArray(g)) return placesArrayToObject(g);
+    if (typeof g === "object") return g;
+  }
+
+  const pageData = window.__ANDREWZC_PAGE_DATA__;
+  if (pageData && Array.isArray(pageData.entities)) {
+    return placesArrayToObject(pageData.entities);
+  }
+
+  // Some renderers might stash per-page data in a map.
+  const pagesMap = window.__ANDREWZC_PAGES__;
+  if (pagesMap && pagesMap[filename] && Array.isArray(pagesMap[filename].entities)) {
+    return placesArrayToObject(pagesMap[filename].entities);
+  }
+
+  return null;
+}
+
+async function loadPlaces(filename) {
+  const fromGlobals = getPlacesFromGlobals(filename);
+  if (fromGlobals) return fromGlobals;
+
+  // Fallback to the legacy static JSON location
+  const res = await fetch(`data/${filename}.json`);
+  if (!res.ok) {
+    throw new Error(`Failed to load data/${filename}.json (${res.status})`);
+  }
+
+  const json = await res.json();
+  // Accept either an object-map or an array
+  return Array.isArray(json) ? placesArrayToObject(json) : json;
+}
+
 loadScripts([
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
   "https://unpkg.com/leaflet-graticule@0.0.1/Leaflet.Graticule.js"
-]).then(() => {
-  let filename = getFilename();
-    fetch(`data/${filename}.json`)
-      .then(response => response.json())
-      .then(places => {
-            enhancePage(places, filename);
-            replaceFlagsWithLinks();
-            showPlaces(places, filename);
-        })
-      .catch(error => {
-        console.error(`Error loading ${filename}:`, error);
-      });
+]).then(async () => {
+  const filename = getFilename();
+
+  try {
+    const places = await loadPlaces(filename);
+    enhancePage(places, filename);
+    replaceFlagsWithLinks();
+    showPlaces(places, filename);
+  } catch (error) {
+    console.error(`Error loading ${filename}:`, error);
+  }
 });
 
 const markerLayers = [
@@ -355,21 +439,22 @@ function createClusterIcon(cluster, type) {
 function addMarkers(map, layer, places, test, tag, filename) {
     for (let key in places) {
       let place = places[key];
-        if (place.coords) {
-            if (!place.hide) {
-                let marker = addEmojiMarker(map, place, test, tag, filename);
-                if (marker) marker.addTo(layer);
-            }
-        } else {
-            console.log(`No coordinates: ${place.name}`);
+      const latLong = getLatLong(place);
+      if (latLong) {
+        if (!place.hide) {
+          let marker = addEmojiMarker(map, place, test, tag, filename);
+          if (marker) marker.addTo(layer);
         }
+      } else {
+        console.log(`No coordinates: ${place.name}`);
+      }
   }
 }
 
 function addMarker(map, place, test, tag) {
     if (test(place)) {
-        let latLong = place.coords.split(',').map(s => convertToDecimal(s));
-        if (latLong.length == 2) {
+        let latLong = getLatLong(place);
+        if (latLong && latLong.length == 2) {
             let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
             if (place.icons) text = place.icons.join(' ') + ' ' + text;
             if (place.prefix) text = place.prefix + "<br>" + text;
@@ -380,15 +465,15 @@ function addMarker(map, place, test, tag) {
             if (place.strike) marker._icon.classList.add("markerStrike");
             return marker;
         } else {
-            console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
+            console.log(`Invalid coordinates: ${place.name}, ${place.coords}`);
         }
     }
 }
 
 function addEmojiMarker(map, place, test, tag, filename) {
     if (test(place)) {
-        let latLong = place.coords.split(',').map(s => convertToDecimal(s));
-        if (latLong.length === 2) {
+        let latLong = getLatLong(place);
+        if (latLong && latLong.length === 2) {
             let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
             if (place.icons) text = place.icons.join(' ') + ' ' + text;
             if (place.prefix) text = place.prefix + "<br>" + text;
@@ -413,7 +498,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
       marker.bindPopup(text);
             return marker;
         } else {
-            console.log(`Invalid coordinates: ${place.name}, ${place.coord}`);
+            console.log(`Invalid coordinates: ${place.name}, ${place.coords}`);
         }
     }
 }
@@ -450,16 +535,6 @@ function loadScript(url) {
   });
 }
 
-function loadScript(url) {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = url;
-    script.onload = resolve;
-    script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
-    document.head.appendChild(script);
-  });
-}
-
 function addStylesheets(urls) {
   urls.forEach(url => {
     const link = document.createElement('link');
@@ -470,6 +545,7 @@ function addStylesheets(urls) {
 }
 
 function getFilename() {
+  if (window.pageInfo && window.pageInfo.key) return window.pageInfo.key;
   return window.location.pathname.split('/').pop().split('.')[0];
 }
 

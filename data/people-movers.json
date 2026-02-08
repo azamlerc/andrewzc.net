@@ -4,7 +4,7 @@
     "name": "People Movers",
     "size": "large",
     "sort": "prefix",
-    "tags": ["prefix"],
+    "tags": ["auto", "prefix"],
     "type": "place"
   },
   "airrail-link": {
@@ -76,7 +76,7 @@
     "prefix": "2020"
   },
   "bukit-panjang-lrt": {
-    "been": false,
+    "been": true,
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Bukit_Panjang_LRT_line",
@@ -93,7 +93,7 @@
     "prefix": "2013"
   },
   "changi-airport": {
-    "been": false,
+    "been": true,
     "coords": "1.35916667, 103.98944444",
     "country": "SG",
     "icons": ["🇸🇬"],
@@ -551,7 +551,7 @@
     "wikidata": "Q7230715"
   },
   "punggol-lrt": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.40527778, 103.90250000",
     "country": "SG",
@@ -614,7 +614,7 @@
     "prefix": "1973"
   },
   "sengkang-lrt": {
-    "been": false,
+    "been": true,
     "city": "Singapore",
     "coords": "1.39165300, 103.89513300",
     "country": "SG",
@@ -624,7 +624,7 @@
     "prefix": "2003"
   },
   "sentosa-express": {
-    "been": false,
+    "been": true,
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "https://en.wikipedia.org/wiki/Sentosa_Express",

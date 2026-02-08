@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🔒 Admin</title>
+  <meta charset="UTF-8">
+  <meta name="andrewzc" content="auto" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.45">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Extra styles specific to admin UI -->
+  <style>
+    .adminCard {
+      display: inline-block;
+      padding: 18px 22px;
+      border-radius: 25px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+      background: white;
+      margin-left: 10px;
+      min-width: 680px;
+    }
+
+    .adminRow {
+      margin: 14px 0px;
+      white-space: nowrap;
+    }
+
+    .adminLabel {
+      display: inline-block;
+      width: 160px;
+      font: 24pt Avenir;
+      color: #999;
+      vertical-align: middle;
+    }
+
+    .adminInput {
+      font: 24pt Avenir;
+      color: #444;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      padding: 10px 14px;
+      width: 420px;
+      outline: none;
+      vertical-align: middle;
+      background: white;
+    }
+
+    .adminInput:focus {
+      border-color: #999;
+    }
+
+    .adminBtn {
+      font: 24pt Avenir;
+      border-radius: 18px;
+      padding: 10px 16px;
+      border: 0px;
+      cursor: pointer;
+      background: #f2f2f2;
+      color: black;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.25);
+    }
+
+    .adminBtn:active {
+      transform: translateY(1px);
+    }
+
+    .adminStatus {
+      font: 24pt Avenir;
+      color: #999;
+      margin-top: 10px;
+      margin-left: 10px;
+      min-width: 680px;
+    }
+
+    .adminError {
+      color: #BA373E;
+    }
+
+    .adminOk {
+      color: #55AB3D;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .adminCard {
+        background: black;
+      }
+      .adminInput {
+        background: black;
+        color: #BBB;
+        border-color: #444;
+      }
+      .adminBtn {
+        background: #222;
+        color: #BBB;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="headline">🔒 Admin</div>
+
+  <div id="status" class="adminStatus">Checking session…</div><br>
+
+  <!-- Signed out -->
+  <div id="signedOut" class="adminCard" style="display:none;">
+    <div class="items large">
+      <div class="adminRow">
+        <span class="adminLabel">Username</span>
+        <input id="username" class="adminInput" type="text" autocomplete="username" spellcheck="false">
+      </div>
+
+      <div class="adminRow">
+        <span class="adminLabel">Password</span>
+        <input id="password" class="adminInput" type="password" autocomplete="current-password">
+      </div>
+
+      <div class="adminRow" style="margin-top: 18px;">
+        <button id="signInBtn" class="adminBtn">Sign In</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Signed in -->
+  <div id="signedIn" class="adminCard" style="display:none;">
+    <div class="items large">
+      <div id="signedInText" class="adminRow">Signed in.</div>
+      <div class="adminRow" style="margin-top: 18px;">
+        <button id="signOutBtn" class="adminBtn">Sign Out</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "https://api.andrewzc.net";
+
+    const elStatus = document.getElementById("status");
+    const elSignedOut = document.getElementById("signedOut");
+    const elSignedIn = document.getElementById("signedIn");
+
+    const elUsername = document.getElementById("username");
+    const elPassword = document.getElementById("password");
+    const elSignInBtn = document.getElementById("signInBtn");
+    const elSignOutBtn = document.getElementById("signOutBtn");
+
+    function setStatus(text, kind) {
+      elStatus.textContent = text;
+      elStatus.classList.remove("adminError", "adminOk");
+      if (kind === "error") elStatus.classList.add("adminError");
+      if (kind === "ok") elStatus.classList.add("adminOk");
+    }
+
+    function showSignedIn() {
+      elSignedOut.style.display = "none";
+      elSignedIn.style.display = "inline-block";
+      setStatus("Authenticated.", "ok");
+    }
+
+    function showSignedOut() {
+      elSignedIn.style.display = "none";
+      elSignedOut.style.display = "inline-block";
+      setStatus("Not signed in.", null);
+      elPassword.value = "";
+      // Nice UX: focus username if empty, otherwise password
+      setTimeout(() => {
+        (elUsername.value ? elPassword : elUsername).focus();
+      }, 0);
+    }
+
+    async function api(path, opts = {}) {
+      const res = await fetch(API_BASE + path, {
+        ...opts,
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+          ...(opts.headers || {})
+        }
+      });
+
+      // Best-effort parse JSON
+      let data = null;
+      try { data = await res.json(); } catch (_) {}
+
+      if (!res.ok) {
+        const msg = (data && (data.message || data.error)) ? (data.message || data.error) : ("HTTP " + res.status);
+        const err = new Error(msg);
+        err.status = res.status;
+        err.data = data;
+        throw err;
+      }
+
+      return data;
+    }
+
+    async function checkSession() {
+      setStatus("Checking session…");
+      try {
+        const me = await api("/admin/me", { method: "GET" });
+        if (me && me.authenticated) showSignedIn();
+        else showSignedOut();
+      } catch (err) {
+        // If API is unreachable/misconfigured, make it obvious
+        showSignedOut();
+        setStatus("Couldn’t reach API (check CORS / deployment). " + err.message, "error");
+      }
+    }
+
+    async function signIn() {
+      const username = (elUsername.value || "").trim();
+      const password = elPassword.value || "";
+
+      if (!username || !password) {
+        setStatus("Missing username or password.", "error");
+        return;
+      }
+
+      setStatus("Signing in…");
+      elSignInBtn.disabled = true;
+
+      try {
+        await api("/admin/login", {
+          method: "POST",
+          body: JSON.stringify({
+            username,
+            password,
+            label: navigator.platform ? (navigator.platform + " · " + (navigator.userAgent.includes("Chrome") ? "Chrome" : "Browser")) : "Browser"
+          })
+        });
+
+        // Cookie is set by the API response; verify
+        await checkSession();
+      } catch (err) {
+        setStatus("Sign in failed. " + err.message, "error");
+      } finally {
+        elSignInBtn.disabled = false;
+      }
+    }
+
+    async function signOut() {
+      setStatus("Signing out…");
+      elSignOutBtn.disabled = true;
+
+      try {
+        await api("/admin/logout", { method: "POST", body: "{}" });
+      } catch (err) {
+        // Even if logout fails, clear UI state; cookie might already be gone.
+        setStatus("Sign out issue. " + err.message, "error");
+      } finally {
+        elSignOutBtn.disabled = false;
+        await checkSession();
+      }
+    }
+
+    elSignInBtn.addEventListener("click", signIn);
+    elSignOutBtn.addEventListener("click", signOut);
+
+    // Enter key submits
+    elPassword.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") signIn();
+    });
+    elUsername.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") signIn();
+    });
+
+    // Boot
+    checkSession();
+  </script>
+</body>
+</html>

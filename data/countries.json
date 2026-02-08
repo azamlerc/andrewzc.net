@@ -11,1735 +11,5127 @@
     "country": "AF",
     "icons": ["🇦🇫"],
     "link": "countries/afghanistan.html",
-    "name": "Afghanistan"
+    "name": "Afghanistan",
+    "props": {
+      "independence": {
+        "reference": "Afsharid Empire",
+        "year": "1747"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "aland": {
     "been": false,
     "country": "AX",
     "icons": ["🇦🇽"],
     "link": "countries/aland.html",
-    "name": "Åland"
+    "name": "Åland",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "FI"
+      }
+    }
   },
   "albania": {
     "been": false,
     "country": "AL",
     "icons": ["🇦🇱"],
     "link": "countries/albania.html",
-    "name": "Albania"
+    "name": "Albania",
+    "props": {
+      "independence": {
+        "country": "TR",
+        "reference": "Ottoman Empire",
+        "year": "1912"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1987"
+      }
+    }
   },
   "algeria": {
     "been": false,
     "country": "DZ",
     "icons": ["🇩🇿"],
     "link": "countries/algeria.html",
-    "name": "Algeria"
+    "name": "Algeria",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1962"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "30%"
+      },
+      "western-sahara": {
+        "year": "1976"
+      }
+    }
   },
   "american-samoa": {
     "been": false,
     "country": "AS",
     "icons": ["🇦🇸"],
     "link": "countries/american-samoa.html",
-    "name": "American Samoa"
+    "name": "American Samoa",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "US"
+      }
+    }
   },
   "andorra": {
     "been": true,
     "country": "AD",
     "icons": ["🇦🇩"],
     "link": "countries/andorra.html",
-    "name": "Andorra"
+    "name": "Andorra",
+    "props": {
+      "eurozone": true,
+      "founded": {
+        "year": "1278"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "landlocked": true,
+      "marriage": true,
+      "microstates": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "similar-flags": true
+    }
   },
   "angola": {
     "been": false,
     "country": "AO",
     "icons": ["🇦🇴"],
     "link": "countries/angola.html",
-    "name": "Angola"
+    "name": "Angola",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1975"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "portuguese": true,
+      "tariffs": {
+        "percent": "32%"
+      },
+      "western-sahara": {
+        "year": "1976"
+      }
+    }
   },
   "anguilla": {
     "been": false,
     "country": "AI",
     "icons": ["🇦🇮"],
     "link": "countries/anguilla.html",
-    "name": "Anguilla"
+    "name": "Anguilla",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "antarctica": {
     "been": false,
     "country": "AQ",
     "icons": ["🇦🇶"],
     "link": "countries/antarctica.html",
-    "name": "Antarctica"
+    "name": "Antarctica",
+    "props": {
+      "territories": true
+    }
   },
   "antigua-and-barbuda": {
     "been": false,
     "country": "AG",
     "icons": ["🇦🇬"],
     "link": "countries/antigua-and-barbuda.html",
-    "name": "Antigua and Barbuda"
+    "name": "Antigua and Barbuda",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1981"
+      },
+      "kosovo": {
+        "year": "2015"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1987"
+      }
+    }
   },
   "argentina": {
     "been": false,
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "countries/argentina.html",
-    "name": "Argentina"
+    "name": "Argentina",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1816"
+      },
+      "left-to-right": {
+        "prefix": "1945"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2010"
+      },
+      "similar-flags": true
+    }
   },
   "armenia": {
     "been": false,
     "country": "AM",
     "icons": ["🇦🇲"],
     "link": "countries/armenia.html",
-    "name": "Armenia"
+    "name": "Armenia",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "2024"
+      }
+    }
   },
   "aruba": {
     "been": false,
     "country": "AW",
     "icons": ["🇦🇼"],
     "link": "countries/aruba.html",
-    "name": "Aruba"
+    "name": "Aruba",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "NL"
+      }
+    }
   },
   "australia": {
     "been": false,
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "countries/australia.html",
-    "name": "Australia"
+    "name": "Australia",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1942"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": true,
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "similar-flags": true
+    }
   },
   "austria": {
     "been": true,
     "country": "AT",
     "icons": ["🇦🇹"],
     "link": "countries/austria.html",
-    "name": "Austria"
+    "name": "Austria",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "1156"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1938"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "schengen": true
+    }
   },
   "azerbaijan": {
     "been": false,
     "country": "AZ",
     "icons": ["🇦🇿"],
     "link": "countries/azerbaijan.html",
-    "name": "Azerbaijan"
+    "name": "Azerbaijan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1992"
+      }
+    }
   },
   "bahamas": {
     "been": false,
     "country": "BS",
     "icons": ["🇧🇸"],
     "link": "countries/bahamas.html",
-    "name": "Bahamas"
+    "name": "Bahamas",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1973"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "2024"
+      }
+    }
   },
   "bahrain": {
     "been": false,
     "country": "BH",
     "icons": ["🇧🇭"],
     "link": "countries/bahrain.html",
-    "name": "Bahrain"
+    "name": "Bahrain",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1971"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "left-to-right": {
+        "prefix": "1967"
+      },
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "bangladesh": {
     "been": false,
     "country": "BD",
     "icons": ["🇧🇩"],
     "link": "countries/bangladesh.html",
-    "name": "Bangladesh"
+    "name": "Bangladesh",
+    "props": {
+      "independence": {
+        "country": "PK",
+        "year": "1971"
+      },
+      "kosovo": {
+        "year": "2017"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "37%"
+      }
+    }
   },
   "barbados": {
     "been": false,
     "country": "BB",
     "icons": ["🇧🇧"],
     "link": "countries/barbados.html",
-    "name": "Barbados"
+    "name": "Barbados",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1966"
+      },
+      "kosovo": {
+        "year": "2018"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1988"
+      }
+    }
   },
   "belarus": {
     "been": false,
     "country": "BY",
     "icons": ["🇧🇾"],
     "link": "countries/belarus.html",
-    "name": "Belarus"
+    "name": "Belarus",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "belgium": {
     "been": true,
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "countries/belgium.html",
-    "name": "Belgium"
+    "name": "Belgium",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "NL",
+        "year": "1830"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1899"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "schengen": true,
+      "short-coastline": {
+        "length_km": "66"
+      }
+    }
   },
   "belize": {
     "been": false,
     "country": "BZ",
     "icons": ["🇧🇿"],
     "link": "countries/belize.html",
-    "name": "Belize"
+    "name": "Belize",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1981"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1961"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "year": "1986"
+      }
+    }
   },
   "benin": {
     "been": true,
     "country": "BJ",
     "icons": ["🇧🇯"],
     "link": "countries/benin.html",
-    "name": "Benin"
+    "name": "Benin",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "palestine": {
+        "year": "1989"
+      },
+      "short-coastline": {
+        "length_km": "121"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1976"
+      }
+    }
   },
   "bermuda": {
     "been": false,
     "country": "BM",
     "icons": ["🇧🇲"],
     "link": "countries/bermuda.html",
-    "name": "Bermuda"
+    "name": "Bermuda",
+    "props": {
+      "marriage": {
+        "strike": true,
+        "value": true
+      },
+      "microstates": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "bhutan": {
     "been": false,
     "country": "BT",
     "icons": ["🇧🇹"],
     "link": "countries/bhutan.html",
-    "name": "Bhutan"
+    "name": "Bhutan",
+    "props": {
+      "founded": {
+        "year": "1634"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "bolivia": {
     "been": false,
     "country": "BO",
     "icons": ["🇧🇴"],
     "link": "countries/bolivia.html",
-    "name": "Bolivia"
+    "name": "Bolivia",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1825"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "2010"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1982"
+      }
+    }
   },
   "bonaire": {
     "been": false,
     "country": "BQ",
     "icons": ["🇧🇶"],
     "link": "countries/bonaire.html",
-    "name": "Bonaire"
+    "name": "Bonaire",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "NL"
+      }
+    }
   },
   "bosnia-and-herzegovina": {
     "been": true,
     "country": "BA",
     "icons": ["🇧🇦"],
     "link": "countries/bosnia-and-herzegovina.html",
-    "name": "Bosnia and Herzegovina"
+    "name": "Bosnia and Herzegovina",
+    "props": {
+      "independence": {
+        "year": "1992"
+      },
+      "left-to-right": {
+        "prefix": "1918"
+      },
+      "palestine": {
+        "year": "1992"
+      },
+      "short-coastline": {
+        "length_km": "20"
+      },
+      "tariffs": {
+        "percent": "36%"
+      }
+    }
   },
   "botswana": {
     "been": false,
     "country": "BW",
     "icons": ["🇧🇼"],
     "link": "countries/botswana.html",
-    "name": "Botswana"
+    "name": "Botswana",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1966"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "38%"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "brazil": {
     "been": false,
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "countries/brazil.html",
-    "name": "Brazil"
+    "name": "Brazil",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1825"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2010"
+      },
+      "portuguese": true
+    }
   },
   "british-indian-ocean-territory": {
     "been": false,
     "country": "IO",
     "icons": ["🇮🇴"],
     "link": "countries/british-indian-ocean-territory.html",
-    "name": "British Indian Ocean Territory"
+    "name": "British Indian Ocean Territory",
+    "props": {
+      "microstates": {
+        "strike": true,
+        "value": true
+      },
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "brunei": {
     "been": false,
     "country": "BN",
     "icons": ["🇧🇳"],
     "link": "countries/brunei.html",
-    "name": "Brunei"
+    "name": "Brunei",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1984"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "24%"
+      }
+    }
   },
   "bulgaria": {
     "been": true,
     "country": "BG",
     "icons": ["🇧🇬"],
     "link": "countries/bulgaria.html",
-    "name": "Bulgaria"
+    "name": "Bulgaria",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "TR",
+        "reference": "Ottoman Empire",
+        "year": "1908"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true
+    }
   },
   "burkina-faso": {
     "been": true,
     "country": "BF",
     "icons": ["🇧🇫"],
     "link": "countries/burkina-faso.html",
-    "name": "Burkina Faso"
+    "name": "Burkina Faso",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1984"
+      }
+    }
   },
   "burundi": {
     "been": false,
     "country": "BI",
     "icons": ["🇧🇮"],
     "link": "countries/burundi.html",
-    "name": "Burundi"
+    "name": "Burundi",
+    "props": {
+      "independence": {
+        "country": "BE",
+        "year": "1962"
+      },
+      "landlocked": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1976"
+      }
+    }
   },
   "cambodia": {
     "been": false,
     "country": "KH",
     "icons": ["🇰🇭"],
     "link": "countries/cambodia.html",
-    "name": "Cambodia"
+    "name": "Cambodia",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1953"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "49%"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "cameroon": {
     "been": false,
     "country": "CM",
     "icons": ["🇨🇲"],
     "link": "countries/cameroon.html",
-    "name": "Cameroon"
+    "name": "Cameroon",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1961"
+      },
+      "left-to-right": {
+        "prefix": "1961"
+      },
+      "tariffs": {
+        "percent": "12%"
+      }
+    }
   },
   "canada": {
     "been": true,
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "countries/canada.html",
-    "name": "Canada"
+    "name": "Canada",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1931"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1924"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2025"
+      }
+    }
   },
   "canary-islands": {
     "been": false,
     "country": "ES-CN",
     "icons": ["🇮🇨"],
     "link": "countries/canary-islands.html",
-    "name": "Canary Islands"
+    "name": "Canary Islands",
+    "props": {
+      "territories": {
+        "country": "ES"
+      }
+    }
   },
   "cape-verde": {
     "been": true,
     "country": "CV",
     "icons": ["🇨🇻"],
     "link": "countries/cape-verde.html",
-    "name": "Cape Verde"
+    "name": "Cape Verde",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1975"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "portuguese": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "cayman-islands": {
     "been": false,
     "country": "KY",
     "icons": ["🇰🇾"],
     "link": "countries/cayman-islands.html",
-    "name": "Cayman Islands"
+    "name": "Cayman Islands",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "central-african-republic": {
     "been": false,
     "country": "CF",
     "icons": ["🇨🇫"],
     "link": "countries/central-african-republic.html",
-    "name": "Central African Republic"
+    "name": "Central African Republic",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "landlocked": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "chad": {
     "been": false,
     "country": "TD",
     "icons": ["🇹🇩"],
     "link": "countries/chad.html",
-    "name": "Chad"
+    "name": "Chad",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "landlocked": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "13%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1980"
+      }
+    }
   },
   "chile": {
     "been": false,
     "country": "CL",
     "icons": ["🇨🇱"],
     "link": "countries/chile.html",
-    "name": "Chile"
+    "name": "Chile",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1818"
+      },
+      "left-to-right": {
+        "prefix": "1920"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2011"
+      }
+    }
   },
   "china": {
     "been": true,
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "countries/china.html",
-    "name": "China"
+    "name": "China",
+    "props": {
+      "founded": {
+        "year": "–1600"
+      },
+      "left-to-right": {
+        "prefix": "1946"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "145%"
+      }
+    }
   },
   "christmas-island": {
     "been": false,
     "country": "CX",
     "icons": ["🇨🇽"],
     "link": "countries/christmas-island.html",
-    "name": "Christmas Island"
+    "name": "Christmas Island",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "AU"
+      }
+    }
   },
   "cocos-islands": {
     "been": false,
     "country": "CC",
     "icons": ["🇨🇨"],
     "link": "countries/cocos-islands.html",
-    "name": "Cocos Islands"
+    "name": "Cocos Islands",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "AU"
+      }
+    }
   },
   "colombia": {
     "been": true,
     "country": "CO",
     "icons": ["🇨🇴"],
     "link": "countries/colombia.html",
-    "name": "Colombia"
+    "name": "Colombia",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1819"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2018"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1985"
+      }
+    }
   },
   "comoros": {
     "been": false,
     "country": "KM",
     "icons": ["🇰🇲"],
     "link": "countries/comoros.html",
-    "name": "Comoros"
+    "name": "Comoros",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1975"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "congo-brazzaville": {
     "been": false,
     "country": "CG",
     "icons": ["🇨🇬"],
     "link": "countries/congo-brazzaville.html",
-    "name": "Congo-Brazzaville"
+    "name": "Congo-Brazzaville",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1978"
+      }
+    }
   },
   "congo-kinshasa": {
     "been": false,
     "country": "CD",
     "icons": ["🇨🇩"],
     "link": "countries/congo-kinshasa.html",
-    "name": "Congo-Kinshasa"
+    "name": "Congo-Kinshasa",
+    "props": {
+      "independence": {
+        "country": "BE",
+        "year": "1960"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "short-coastline": {
+        "badges": ["🍌"],
+        "length_km": "37"
+      },
+      "tariffs": {
+        "percent": "11%"
+      }
+    }
   },
   "cook-islands": {
     "been": false,
     "country": "CK",
     "icons": ["🇨🇰"],
     "link": "countries/cook-islands.html",
-    "name": "Cook Islands"
+    "name": "Cook Islands",
+    "props": {
+      "independence": {
+        "country": "NZ",
+        "year": "1965"
+      },
+      "microstates": true,
+      "similar-flags": true
+    }
   },
   "costa-rica": {
     "been": true,
     "country": "CR",
     "icons": ["🇨🇷"],
     "link": "countries/costa-rica.html",
-    "name": "Costa Rica"
+    "name": "Costa Rica",
+    "props": {
+      "independence": {
+        "country": "NI",
+        "reference": "Federal Republic of Central America",
+        "year": "1838"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2008"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "cote-divoire": {
     "been": false,
     "country": "CI",
     "icons": ["🇨🇮"],
     "link": "countries/cote-divoire.html",
-    "name": "Côte d’Ivoire"
+    "name": "Côte d’Ivoire",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "palestine": {
+        "year": "2008"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "21%"
+      }
+    }
   },
   "croatia": {
     "been": true,
     "country": "HR",
     "icons": ["🇭🇷"],
     "link": "countries/croatia.html",
-    "name": "Croatia"
+    "name": "Croatia",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "year": "1991"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1926"
+      },
+      "nato": true,
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "cuba": {
     "been": false,
     "country": "CU",
     "icons": ["🇨🇺"],
     "link": "countries/cuba.html",
-    "name": "Cuba"
+    "name": "Cuba",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1902"
+      },
+      "marriage": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "curacao": {
     "been": false,
     "country": "CW",
     "icons": ["🇨🇼"],
     "link": "countries/curacao.html",
-    "name": "Curaçao"
+    "name": "Curaçao",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1960"
+      },
+      "microstates": true
+    }
   },
   "cyprus": {
     "been": false,
     "country": "CY",
     "icons": ["🇨🇾"],
     "link": "countries/cyprus.html",
-    "name": "Cyprus"
+    "name": "Cyprus",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "GB",
+        "year": "1960"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "czechia": {
     "been": true,
     "country": "CZ",
     "icons": ["🇨🇿"],
     "link": "countries/czechia.html",
-    "name": "Czechia"
+    "name": "Czechia",
+    "props": {
+      "european-union": true,
+      "independence": {
+        "reference": "Czechoslovakia",
+        "year": "1993"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1939"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true
+    }
   },
   "denmark": {
     "been": true,
     "country": "DK",
     "icons": ["🇩🇰"],
     "link": "countries/denmark.html",
-    "name": "Denmark"
+    "name": "Denmark",
+    "props": {
+      "european-union": true,
+      "founded": {
+        "year": "0965"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "schengen": true
+    }
   },
   "djibouti": {
     "been": false,
     "country": "DJ",
     "icons": ["🇩🇯"],
     "link": "countries/djibouti.html",
-    "name": "Djibouti"
+    "name": "Djibouti",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1978"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "dominica": {
     "been": false,
     "country": "DM",
     "icons": ["🇩🇲"],
     "link": "countries/dominica.html",
-    "name": "Dominica"
+    "name": "Dominica",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1978"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "dominican-republic": {
     "been": true,
     "country": "DO",
     "icons": ["🇩🇴"],
     "link": "countries/dominican-republic.html",
-    "name": "Dominican Republic"
+    "name": "Dominican Republic",
+    "props": {
+      "independence": {
+        "country": "HT",
+        "year": "1844"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "palestine": {
+        "year": "2009"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1986"
+      }
+    }
   },
   "ecuador": {
     "been": false,
     "country": "EC",
     "icons": ["🇪🇨"],
     "link": "countries/ecuador.html",
-    "name": "Ecuador"
+    "name": "Ecuador",
+    "props": {
+      "independence": {
+        "country": "CO",
+        "year": "1830"
+      },
+      "marriage": true,
+      "palestine": {
+        "year": "2010"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1983"
+      }
+    }
   },
   "egypt": {
     "been": true,
     "country": "EG",
     "icons": ["🇪🇬"],
     "link": "countries/egypt.html",
-    "name": "Egypt"
+    "name": "Egypt",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1922"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "el-salvador": {
     "been": false,
     "country": "SV",
     "icons": ["🇸🇻"],
     "link": "countries/el-salvador.html",
-    "name": "El Salvador"
+    "name": "El Salvador",
+    "props": {
+      "independence": {
+        "country": "NI",
+        "reference": "Greater Republic of Central America",
+        "year": "1898"
+      },
+      "kosovo": {
+        "year": "2014"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1989"
+      }
+    }
   },
   "equatorial-guinea": {
     "been": false,
     "country": "GQ",
     "icons": ["🇬🇶"],
     "link": "countries/equatorial-guinea.html",
-    "name": "Equatorial Guinea"
+    "name": "Equatorial Guinea",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1968"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1989"
+      },
+      "portuguese": true,
+      "tariffs": {
+        "percent": "13%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1978"
+      }
+    }
   },
   "eritrea": {
     "been": false,
     "country": "ER",
     "icons": ["🇪🇷"],
     "link": "countries/eritrea.html",
-    "name": "Eritrea"
+    "name": "Eritrea",
+    "props": {
+      "independence": {
+        "country": "ET",
+        "year": "1993"
+      },
+      "left-to-right": {
+        "prefix": "1964"
+      }
+    }
   },
   "estonia": {
     "been": true,
     "country": "EE",
     "icons": ["🇪🇪"],
     "link": "countries/estonia.html",
-    "name": "Estonia"
+    "name": "Estonia",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "year": "1991"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "nato": true,
+      "schengen": true
+    }
   },
   "eswatini": {
     "been": false,
     "country": "SZ",
     "icons": ["🇸🇿"],
     "link": "countries/eswatini.html",
-    "name": "Eswatini"
+    "name": "Eswatini",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1968"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "1991"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1980"
+      }
+    }
   },
   "ethiopia": {
     "been": true,
     "country": "ET",
     "icons": ["🇪🇹"],
     "link": "countries/ethiopia.html",
-    "name": "Ethiopia"
+    "name": "Ethiopia",
+    "props": {
+      "independence": {
+        "country": "IT",
+        "year": "1941"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1964"
+      },
+      "palestine": {
+        "year": "1989"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "falklands": {
     "been": false,
     "country": "FK",
     "icons": ["🇫🇰"],
     "link": "countries/falklands.html",
-    "name": "Falklands"
+    "name": "Falklands",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "42%"
+      },
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "faroe-islands": {
     "been": false,
     "country": "FO",
     "icons": ["🇫🇴"],
     "link": "countries/faroe-islands.html",
-    "name": "Faroe Islands"
+    "name": "Faroe Islands",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "DK"
+      }
+    }
   },
   "fiji": {
     "been": false,
     "country": "FJ",
     "icons": ["🇫🇯"],
     "link": "countries/fiji.html",
-    "name": "Fiji"
+    "name": "Fiji",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1970"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "lefthand": true,
+      "tariffs": {
+        "percent": "32%"
+      }
+    }
   },
   "finland": {
     "been": true,
     "country": "FI",
     "icons": ["🇫🇮"],
     "link": "countries/finland.html",
-    "name": "Finland"
+    "name": "Finland",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "RU",
+        "year": "1917"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1858"
+      },
+      "marriage": true,
+      "nato": true,
+      "schengen": true
+    }
   },
   "france": {
     "been": true,
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "countries/france.html",
-    "name": "France"
+    "name": "France",
+    "props": {
+      "citizenship": true,
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "0843"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1792"
+      },
+      "marriage": {
+        "badges": ["💍"],
+        "value": true
+      },
+      "nato": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "schengen": true
+    }
   },
   "french-guiana": {
     "been": false,
     "country": "GF",
     "icons": ["🇬🇫"],
     "link": "countries/french-guiana.html",
-    "name": "French Guiana"
+    "name": "French Guiana",
+    "props": {
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "french-polynesia": {
     "been": false,
     "country": "PF",
     "icons": ["🇵🇫"],
     "link": "countries/french-polynesia.html",
-    "name": "French Polynesia"
+    "name": "French Polynesia",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "french-southern-territories": {
     "been": false,
     "country": "TF",
     "icons": ["🇹🇫"],
     "link": "countries/french-southern-territories.html",
-    "name": "French Southern Territories"
+    "name": "French Southern Territories",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "gabon": {
     "been": false,
     "country": "GA",
     "icons": ["🇬🇦"],
     "link": "countries/gabon.html",
-    "name": "Gabon"
+    "name": "Gabon",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "gambia": {
     "been": true,
     "country": "GM",
     "icons": ["🇬🇲"],
     "link": "countries/gambia.html",
-    "name": "Gambia"
+    "name": "Gambia",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1965"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "left-to-right": {
+        "prefix": "1965"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "short-coastline": {
+        "length_km": "80"
+      }
+    }
   },
   "georgia": {
     "been": false,
     "country": "GE",
     "icons": ["🇬🇪"],
     "link": "countries/georgia.html",
-    "name": "Georgia"
+    "name": "Georgia",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "palestine": {
+        "year": "1992"
+      }
+    }
   },
   "germany": {
     "been": true,
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "countries/germany.html",
-    "name": "Germany"
+    "name": "Germany",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "1867"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "schengen": true,
+      "unification": {
+        "reference": "West Germany & East Germany",
+        "year": "1990"
+      }
+    }
   },
   "ghana": {
     "been": false,
     "country": "GH",
     "icons": ["🇬🇭"],
     "link": "countries/ghana.html",
-    "name": "Ghana"
+    "name": "Ghana",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1957"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "left-to-right": {
+        "prefix": "1974"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "gibraltar": {
     "been": false,
     "country": "GI",
     "icons": ["🇬🇮"],
     "link": "countries/gibraltar.html",
-    "name": "Gibraltar"
+    "name": "Gibraltar",
+    "props": {
+      "left-to-right": {
+        "prefix": "1929"
+      },
+      "microstates": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "greece": {
     "been": true,
     "country": "GR",
     "icons": ["🇬🇷"],
     "link": "countries/greece.html",
-    "name": "Greece"
+    "name": "Greece",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "TR",
+        "reference": "Ottoman Empire",
+        "year": "1822"
+      },
+      "left-to-right": {
+        "prefix": "1926"
+      },
+      "marriage": true,
+      "nato": true,
+      "schengen": true
+    }
   },
   "greenland": {
     "been": false,
     "country": "GL",
     "icons": ["🇬🇱"],
     "link": "countries/greenland.html",
-    "name": "Greenland"
+    "name": "Greenland",
+    "props": {
+      "territories": {
+        "country": "DK"
+      }
+    }
   },
   "grenada": {
     "been": false,
     "country": "GD",
     "icons": ["🇬🇩"],
     "link": "countries/grenada.html",
-    "name": "Grenada"
+    "name": "Grenada",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1974"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "guadeloupe": {
     "been": false,
     "country": "GP",
     "icons": ["🇬🇵"],
     "link": "countries/guadeloupe.html",
-    "name": "Guadeloupe"
+    "name": "Guadeloupe",
+    "props": {
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "guam": {
     "been": false,
     "country": "GU",
     "icons": ["🇬🇺"],
     "link": "countries/guam.html",
-    "name": "Guam"
+    "name": "Guam",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "US"
+      }
+    }
   },
   "guatemala": {
     "been": false,
     "country": "GT",
     "icons": ["🇬🇹"],
     "link": "countries/guatemala.html",
-    "name": "Guatemala"
+    "name": "Guatemala",
+    "props": {
+      "independence": {
+        "country": "NI",
+        "reference": "Federal Republic of Central America",
+        "year": "1839"
+      },
+      "palestine": {
+        "year": "2013"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1986"
+      }
+    }
   },
   "guernsey": {
     "been": false,
     "country": "GG",
     "icons": ["🇬🇬"],
     "link": "countries/guernsey.html",
-    "name": "Guernsey"
+    "name": "Guernsey",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "guinea": {
     "been": false,
     "country": "GN",
     "icons": ["🇬🇳"],
     "link": "countries/guinea.html",
-    "name": "Guinea"
+    "name": "Guinea",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1958"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "guinea-bissau": {
     "been": false,
     "country": "GW",
     "icons": ["🇬🇼"],
     "link": "countries/guinea-bissau.html",
-    "name": "Guinea-Bissau"
+    "name": "Guinea-Bissau",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1973"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "portuguese": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1976"
+      }
+    }
   },
   "guyana": {
     "been": false,
     "country": "GY",
     "icons": ["🇬🇾"],
     "link": "countries/guyana.html",
-    "name": "Guyana"
+    "name": "Guyana",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1966"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "tariffs": {
+        "percent": "38%"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "haiti": {
     "been": false,
     "country": "HT",
     "icons": ["🇭🇹"],
     "link": "countries/haiti.html",
-    "name": "Haiti"
+    "name": "Haiti",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1804"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "palestine": {
+        "year": "2013"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "2006"
+      }
+    }
   },
   "honduras": {
     "been": false,
     "country": "HN",
     "icons": ["🇭🇳"],
     "link": "countries/honduras.html",
-    "name": "Honduras"
+    "name": "Honduras",
+    "props": {
+      "independence": {
+        "country": "NI",
+        "reference": "Greater Republic of Central America",
+        "year": "1898"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1989"
+      }
+    }
   },
   "hong-kong": {
     "been": true,
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "countries/hong-kong.html",
-    "name": "Hong Kong"
+    "name": "Hong Kong",
+    "props": {
+      "lefthand": true,
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "CN"
+      }
+    }
   },
   "hungary": {
     "been": true,
     "country": "HU",
     "icons": ["🇭🇺"],
     "link": "countries/hungary.html",
-    "name": "Hungary"
+    "name": "Hungary",
+    "props": {
+      "european-union": true,
+      "founded": {
+        "year": "0895"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1941"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "iceland": {
     "been": true,
     "country": "IS",
     "icons": ["🇮🇸"],
     "link": "countries/iceland.html",
-    "name": "Iceland"
+    "name": "Iceland",
+    "props": {
+      "independence": {
+        "country": "DK",
+        "year": "1918"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1968"
+      },
+      "marriage": true,
+      "nato": true,
+      "no-trains": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "schengen": true
+    }
   },
   "india": {
     "been": true,
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "countries/india.html",
-    "name": "India"
+    "name": "India",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1947"
+      },
+      "lefthand": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "27%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1985"
+      }
+    }
   },
   "indonesia": {
     "been": false,
     "country": "ID",
     "icons": ["🇮🇩"],
     "link": "countries/indonesia.html",
-    "name": "Indonesia"
+    "name": "Indonesia",
+    "props": {
+      "independence": {
+        "country": "NL",
+        "year": "1949"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "32%"
+      }
+    }
   },
   "iran": {
     "been": false,
     "country": "IR",
     "icons": ["🇮🇷"],
     "link": "countries/iran.html",
-    "name": "Iran"
+    "name": "Iran",
+    "props": {
+      "founded": {
+        "year": "1501"
+      },
+      "palestine": {
+        "year": "1989"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "iraq": {
     "been": false,
     "country": "IQ",
     "icons": ["🇮🇶"],
     "link": "countries/iraq.html",
-    "name": "Iraq"
+    "name": "Iraq",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1932"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "short-coastline": {
+        "length_km": "58"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "39%"
+      }
+    }
   },
   "ireland": {
     "been": true,
     "country": "IE",
     "icons": ["🇮🇪"],
     "link": "countries/ireland.html",
-    "name": "Ireland"
+    "name": "Ireland",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "GB",
+        "year": "1931"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": {
+        "badges": ["🚗"],
+        "value": true
+      },
+      "marriage": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "similar-flags": true
+    }
   },
   "isle-of-man": {
     "been": false,
     "country": "IM",
     "icons": ["🇮🇲"],
     "link": "countries/isle-of-man.html",
-    "name": "Isle of Man"
+    "name": "Isle of Man",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "israel": {
     "been": true,
     "country": "IL",
     "icons": ["🇮🇱"],
     "link": "countries/israel.html",
-    "name": "Israel"
+    "name": "Israel",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1948"
+      },
+      "kosovo": {
+        "year": "2020"
+      },
+      "tariffs": {
+        "percent": "17%"
+      }
+    }
   },
   "italy": {
     "been": true,
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "countries/italy.html",
-    "name": "Italy"
+    "name": "Italy",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "1861"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1926"
+      },
+      "nato": true,
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "jamaica": {
     "been": false,
     "country": "JM",
     "icons": ["🇯🇲"],
     "link": "countries/jamaica.html",
-    "name": "Jamaica"
+    "name": "Jamaica",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1962"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "japan": {
     "been": true,
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "countries/japan.html",
-    "name": "Japan"
+    "name": "Japan",
+    "props": {
+      "founded": {
+        "year": "–660"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": {
+        "badges": ["🚗"],
+        "value": true
+      },
+      "tariffs": {
+        "percent": "24%"
+      }
+    }
   },
   "jersey": {
     "been": false,
     "country": "JE",
     "icons": ["🇯🇪"],
     "link": "countries/jersey.html",
-    "name": "Jersey"
+    "name": "Jersey",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "jordan": {
     "been": false,
     "country": "JO",
     "icons": ["🇯🇴"],
     "link": "countries/jordan.html",
-    "name": "Jordan"
+    "name": "Jordan",
+    "props": {
+      "independence": {
+        "country": "PS",
+        "reference": "Arab Federation",
+        "year": "1958"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "short-coastline": {
+        "length_km": "26"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "20%"
+      }
+    }
   },
   "kazakhstan": {
     "been": false,
     "country": "KZ",
     "icons": ["🇰🇿"],
     "link": "countries/kazakhstan.html",
-    "name": "Kazakhstan"
+    "name": "Kazakhstan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1992"
+      },
+      "tariffs": {
+        "percent": "27%"
+      }
+    }
   },
   "kenya": {
     "been": true,
     "country": "KE",
     "icons": ["🇰🇪"],
     "link": "countries/kenya.html",
-    "name": "Kenya"
+    "name": "Kenya",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1963"
+      },
+      "kosovo": {
+        "year": "2025"
+      },
+      "lefthand": {
+        "badges": ["🚗"],
+        "value": true
+      },
+      "palestine": {
+        "year": "1989"
+      },
+      "western-sahara": {
+        "year": "2005"
+      }
+    }
   },
   "kiribati": {
     "been": false,
     "country": "KI",
     "icons": ["🇰🇮"],
     "link": "countries/kiribati.html",
-    "name": "Kiribati"
+    "name": "Kiribati",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1979"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1981"
+      }
+    }
   },
   "kosovo": {
     "been": false,
     "country": "XK",
     "icons": ["🇽🇰"],
     "link": "countries/kosovo.html",
-    "name": "Kosovo"
+    "name": "Kosovo",
+    "props": {
+      "eurozone": true,
+      "independence": {
+        "country": "RS",
+        "year": "2008"
+      },
+      "landlocked": true,
+      "microstates": true
+    }
   },
   "kuwait": {
     "been": false,
     "country": "KW",
     "icons": ["🇰🇼"],
     "link": "countries/kuwait.html",
-    "name": "Kuwait"
+    "name": "Kuwait",
+    "props": {
+      "independence": {
+        "reference": "Khalidi Emirate",
+        "year": "1752"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "kyrgyzstan": {
     "been": false,
     "country": "KG",
     "icons": ["🇰🇬"],
     "link": "countries/kyrgyzstan.html",
-    "name": "Kyrgyzstan"
+    "name": "Kyrgyzstan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1995"
+      }
+    }
   },
   "laos": {
     "been": false,
     "country": "LA",
     "icons": ["🇱🇦"],
     "link": "countries/laos.html",
-    "name": "Laos"
+    "name": "Laos",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1953"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "48%"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "latvia": {
     "been": true,
     "country": "LV",
     "icons": ["🇱🇻"],
     "link": "countries/latvia.html",
-    "name": "Latvia"
+    "name": "Latvia",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "year": "1990"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "schengen": true
+    }
   },
   "lebanon": {
     "been": false,
     "country": "LB",
     "icons": ["🇱🇧"],
     "link": "countries/lebanon.html",
-    "name": "Lebanon"
+    "name": "Lebanon",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1943"
+      },
+      "palestine": {
+        "year": "2008"
+      }
+    }
   },
   "lesotho": {
     "been": false,
     "country": "LS",
     "icons": ["🇱🇸"],
     "link": "countries/lesotho.html",
-    "name": "Lesotho"
+    "name": "Lesotho",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1966"
+      },
+      "kosovo": {
+        "year": "2014"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "tariffs": {
+        "percent": "50%"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "liberia": {
     "been": false,
     "country": "LR",
     "icons": ["🇱🇷"],
     "link": "countries/liberia.html",
-    "name": "Liberia"
+    "name": "Liberia",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1847"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1985"
+      }
+    }
   },
   "libya": {
     "been": false,
     "country": "LY",
     "icons": ["🇱🇾"],
     "link": "countries/libya.html",
-    "name": "Libya"
+    "name": "Libya",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1951"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "31%"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "liechtenstein": {
     "been": true,
     "country": "LI",
     "icons": ["🇱🇮"],
     "link": "countries/liechtenstein.html",
-    "name": "Liechtenstein"
+    "name": "Liechtenstein",
+    "props": {
+      "independence": {
+        "country": "DE",
+        "year": "1866"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": {
+        "badges": ["2️⃣"],
+        "value": true
+      },
+      "microstates": true,
+      "schengen": true,
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "37%"
+      }
+    }
   },
   "lithuania": {
     "been": false,
     "country": "LT",
     "icons": ["🇱🇹"],
     "link": "countries/lithuania.html",
-    "name": "Lithuania"
+    "name": "Lithuania",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "year": "1990"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "schengen": true,
+      "short-coastline": {
+        "length_km": "90"
+      }
+    }
   },
   "luxembourg": {
     "been": true,
     "country": "LU",
     "icons": ["🇱🇺"],
     "link": "countries/luxembourg.html",
-    "name": "Luxembourg"
+    "name": "Luxembourg",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "NL",
+        "year": "1890"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "marriage": true,
+      "nato": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "macau": {
     "been": true,
     "country": "MO",
     "icons": ["🇲🇴"],
     "link": "countries/macau.html",
-    "name": "Macau"
+    "name": "Macau",
+    "props": {
+      "lefthand": true,
+      "microstates": true,
+      "portuguese": true,
+      "territories": {
+        "country": "CN"
+      }
+    }
   },
   "madagascar": {
     "been": false,
     "country": "MG",
     "icons": ["🇲🇬"],
     "link": "countries/madagascar.html",
-    "name": "Madagascar"
+    "name": "Madagascar",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "47%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1976"
+      }
+    }
   },
   "malawi": {
     "been": false,
     "country": "MW",
     "icons": ["🇲🇼"],
     "link": "countries/malawi.html",
-    "name": "Malawi"
+    "name": "Malawi",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1964"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "1998"
+      },
+      "tariffs": {
+        "percent": "18%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1994"
+      }
+    }
   },
   "malaysia": {
     "been": false,
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "countries/malaysia.html",
-    "name": "Malaysia"
+    "name": "Malaysia",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1957"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "24%"
+      }
+    }
   },
   "maldives": {
     "been": false,
     "country": "MV",
     "icons": ["🇲🇻"],
     "link": "countries/maldives.html",
-    "name": "Maldives"
+    "name": "Maldives",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1965"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "mali": {
     "been": true,
     "country": "ML",
     "icons": ["🇲🇱"],
     "link": "countries/mali.html",
-    "name": "Mali"
+    "name": "Mali",
+    "props": {
+      "independence": {
+        "reference": "Mali Federation",
+        "year": "1960"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "malta": {
     "been": false,
     "country": "MT",
     "icons": ["🇲🇹"],
     "link": "countries/malta.html",
-    "name": "Malta"
+    "name": "Malta",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "GB",
+        "year": "1964"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": true,
+      "marriage": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "schengen": true
+    }
   },
   "marshall-islands": {
     "been": false,
     "country": "MH",
     "icons": ["🇲🇭"],
     "link": "countries/marshall-islands.html",
-    "name": "Marshall Islands"
+    "name": "Marshall Islands",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1986"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "microstates": true,
+      "no-trains": true
+    }
   },
   "martinique": {
     "been": false,
     "country": "MQ",
     "icons": ["🇲🇶"],
     "link": "countries/martinique.html",
-    "name": "Martinique"
+    "name": "Martinique",
+    "props": {
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "mauritania": {
     "been": false,
     "country": "MR",
     "icons": ["🇲🇷"],
     "link": "countries/mauritania.html",
-    "name": "Mauritania"
+    "name": "Mauritania",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1984"
+      }
+    }
   },
   "mauritius": {
     "been": false,
     "country": "MU",
     "icons": ["🇲🇺"],
     "link": "countries/mauritius.html",
-    "name": "Mauritius"
+    "name": "Mauritius",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1968"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "40%"
+      },
+      "western-sahara": {
+        "year": "1982"
+      }
+    }
   },
   "mayotte": {
     "been": false,
     "country": "YT",
     "icons": ["🇾🇹"],
     "link": "countries/mayotte.html",
-    "name": "Mayotte"
+    "name": "Mayotte",
+    "props": {
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "mexico": {
     "been": true,
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "countries/mexico.html",
-    "name": "Mexico"
+    "name": "Mexico",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1836"
+      },
+      "marriage": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "micronesia": {
     "been": false,
     "country": "FM",
     "icons": ["🇫🇲"],
     "link": "countries/micronesia.html",
-    "name": "Micronesia"
+    "name": "Micronesia",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1986"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "microstates": true,
+      "no-trains": true
+    }
   },
   "moldova": {
     "been": true,
     "country": "MD",
     "icons": ["🇲🇩"],
     "link": "countries/moldova.html",
-    "name": "Moldova"
+    "name": "Moldova",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "31%"
+      }
+    }
   },
   "monaco": {
     "been": true,
     "country": "MC",
     "icons": ["🇲🇨"],
     "link": "countries/monaco.html",
-    "name": "Monaco"
+    "name": "Monaco",
+    "props": {
+      "eurozone": true,
+      "independence": {
+        "country": "FR",
+        "year": "1861"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "microstates": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "schengen": true,
+      "short-coastline": {
+        "length_km": "04"
+      },
+      "similar-flags": true
+    }
   },
   "mongolia": {
     "been": false,
     "country": "MN",
     "icons": ["🇲🇳"],
     "link": "countries/mongolia.html",
-    "name": "Mongolia"
+    "name": "Mongolia",
+    "props": {
+      "independence": {
+        "country": "CN",
+        "year": "1911"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "montenegro": {
     "been": true,
     "country": "ME",
     "icons": ["🇲🇪"],
     "link": "countries/montenegro.html",
-    "name": "Montenegro"
+    "name": "Montenegro",
+    "props": {
+      "eurozone": true,
+      "independence": {
+        "year": "2006"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "2006"
+      }
+    }
   },
   "montserrat": {
     "been": false,
     "country": "MS",
     "icons": ["🇲🇸"],
     "link": "countries/montserrat.html",
-    "name": "Montserrat"
+    "name": "Montserrat",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "morocco": {
     "been": false,
     "country": "MA",
     "icons": ["🇲🇦"],
     "link": "countries/morocco.html",
-    "name": "Morocco"
+    "name": "Morocco",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1956"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "mozambique": {
     "been": false,
     "country": "MZ",
     "icons": ["🇲🇿"],
     "link": "countries/mozambique.html",
-    "name": "Mozambique"
+    "name": "Mozambique",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1975"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "portuguese": true,
+      "tariffs": {
+        "percent": "16%"
+      },
+      "western-sahara": {
+        "year": "1976"
+      }
+    }
   },
   "myanmar": {
     "been": false,
     "country": "MM",
     "icons": ["🇲🇲"],
     "link": "countries/myanmar.html",
-    "name": "Myanmar"
+    "name": "Myanmar",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1948"
+      },
+      "left-to-right": {
+        "prefix": "1970"
+      },
+      "tariffs": {
+        "percent": "45%"
+      }
+    }
   },
   "namibia": {
     "been": false,
     "country": "NA",
     "icons": ["🇳🇦"],
     "link": "countries/namibia.html",
-    "name": "Namibia"
+    "name": "Namibia",
+    "props": {
+      "independence": {
+        "country": "ZA",
+        "year": "1990"
+      },
+      "left-to-right": {
+        "badges": ["⬅️"],
+        "prefix": "1920"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "21%"
+      },
+      "western-sahara": {
+        "year": "1990"
+      }
+    }
   },
   "nauru": {
     "been": false,
     "country": "NR",
     "icons": ["🇳🇷"],
     "link": "countries/nauru.html",
-    "name": "Nauru"
+    "name": "Nauru",
+    "props": {
+      "independence": {
+        "country": "AU",
+        "year": "1968"
+      },
+      "left-to-right": {
+        "badges": ["⬅️"],
+        "prefix": "1918"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "tariffs": {
+        "percent": "30%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1981"
+      }
+    }
   },
   "nepal": {
     "been": false,
     "country": "NP",
     "icons": ["🇳🇵"],
     "link": "countries/nepal.html",
-    "name": "Nepal"
+    "name": "Nepal",
+    "props": {
+      "founded": {
+        "year": "1768"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "netherlands": {
     "been": true,
     "country": "NL",
     "icons": ["🇳🇱"],
     "link": "countries/netherlands.html",
-    "name": "Netherlands"
+    "name": "Netherlands",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "ES",
+        "year": "1581"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1906"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "new-caledonia": {
     "been": true,
     "country": "NC",
     "icons": ["🇳🇨"],
     "link": "countries/new-caledonia.html",
-    "name": "New Caledonia"
+    "name": "New Caledonia",
+    "props": {
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "new-zealand": {
     "been": false,
     "country": "NZ",
     "icons": ["🇳🇿"],
     "link": "countries/new-zealand.html",
-    "name": "New Zealand"
+    "name": "New Zealand",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1947"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "lefthand": true,
+      "marriage": true,
+      "non-binary": true,
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "10%"
+      }
+    }
   },
   "nicaragua": {
     "been": false,
     "country": "NI",
     "icons": ["🇳🇮"],
     "link": "countries/nicaragua.html",
-    "name": "Nicaragua"
+    "name": "Nicaragua",
+    "props": {
+      "independence": {
+        "reference": "Greater Republic of Central America",
+        "year": "1898"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "19%"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "niger": {
     "been": false,
     "country": "NE",
     "icons": ["🇳🇪"],
     "link": "countries/niger.html",
-    "name": "Niger"
+    "name": "Niger",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "landlocked": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "nigeria": {
     "been": true,
     "country": "NG",
     "icons": ["🇳🇬"],
     "link": "countries/nigeria.html",
-    "name": "Nigeria"
+    "name": "Nigeria",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1960"
+      },
+      "left-to-right": {
+        "prefix": "1972"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "14%"
+      },
+      "western-sahara": {
+        "year": "1984"
+      }
+    }
   },
   "niue": {
     "been": false,
     "country": "NU",
     "icons": ["🇳🇺"],
     "link": "countries/niue.html",
-    "name": "Niue"
+    "name": "Niue",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "NZ"
+      }
+    }
   },
   "norfolk-island": {
     "been": false,
     "country": "NF",
     "icons": ["🇳🇫"],
     "link": "countries/norfolk-island.html",
-    "name": "Norfolk Island"
+    "name": "Norfolk Island",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "29%"
+      },
+      "territories": {
+        "country": "AU"
+      }
+    }
   },
   "north-korea": {
     "been": false,
     "country": "KP",
     "icons": ["🇰🇵"],
     "link": "countries/north-korea.html",
-    "name": "North Korea"
+    "name": "North Korea",
+    "props": {
+      "independence": {
+        "year": "1948"
+      },
+      "left-to-right": {
+        "prefix": "1946"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1976"
+      }
+    }
   },
   "north-macedonia": {
     "been": true,
     "country": "MK",
     "icons": ["🇲🇰"],
     "link": "countries/north-macedonia.html",
-    "name": "North Macedonia"
+    "name": "North Macedonia",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "nato": true,
+      "tariffs": {
+        "percent": "33%"
+      }
+    }
   },
   "northern-mariana-islands": {
     "been": false,
     "country": "MP",
     "icons": ["🇲🇵"],
     "link": "countries/northern-mariana-islands.html",
-    "name": "Northern Mariana Islands"
+    "name": "Northern Mariana Islands",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "US"
+      }
+    }
   },
   "norway": {
     "been": true,
     "country": "NO",
     "icons": ["🇳🇴"],
     "link": "countries/norway.html",
-    "name": "Norway"
+    "name": "Norway",
+    "props": {
+      "founded": {
+        "year": "0872"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": true,
+      "nato": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "schengen": true,
+      "tariffs": {
+        "percent": "16%"
+      }
+    }
   },
   "oman": {
     "been": false,
     "country": "OM",
     "icons": ["🇴🇲"],
     "link": "countries/oman.html",
-    "name": "Oman"
+    "name": "Oman",
+    "props": {
+      "independence": {
+        "reference": "Afsharid Empire",
+        "year": "1743"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "pakistan": {
     "been": false,
     "country": "PK",
     "icons": ["🇵🇰"],
     "link": "countries/pakistan.html",
-    "name": "Pakistan"
+    "name": "Pakistan",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1947"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "lefthand": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "30%"
+      }
+    }
   },
   "palau": {
     "been": false,
     "country": "PW",
     "icons": ["🇵🇼"],
     "link": "countries/palau.html",
-    "name": "Palau"
+    "name": "Palau",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1994"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "microstates": true
+    }
   },
   "palestine": {
     "been": true,
     "country": "PS",
     "icons": ["🇵🇸"],
     "link": "countries/palestine.html",
-    "name": "Palestine"
+    "name": "Palestine",
+    "props": {
+      "independence": {
+        "country": "IL",
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "panama": {
     "been": true,
     "country": "PA",
     "icons": ["🇵🇦"],
     "link": "countries/panama.html",
-    "name": "Panama"
+    "name": "Panama",
+    "props": {
+      "independence": {
+        "country": "ES",
+        "year": "1904"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "left-to-right": {
+        "prefix": "1943"
+      },
+      "western-sahara": {
+        "year": "1978"
+      }
+    }
   },
   "papua-new-guinea": {
     "been": false,
     "country": "PG",
     "icons": ["🇵🇬"],
     "link": "countries/papua-new-guinea.html",
-    "name": "Papua New Guinea"
+    "name": "Papua New Guinea",
+    "props": {
+      "independence": {
+        "country": "AU",
+        "year": "1975"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1994"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1981"
+      }
+    }
   },
   "paraguay": {
     "been": false,
     "country": "PY",
     "icons": ["🇵🇾"],
     "link": "countries/paraguay.html",
-    "name": "Paraguay"
+    "name": "Paraguay",
+    "props": {
+      "independence": {
+        "country": "BR",
+        "year": "1845"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1945"
+      },
+      "palestine": {
+        "year": "2005"
+      },
+      "similar-flags": true,
+      "western-sahara": {
+        "year": "2000"
+      }
+    }
   },
   "peru": {
     "been": false,
     "country": "PE",
     "icons": ["🇵🇪"],
     "link": "countries/peru.html",
-    "name": "Peru"
+    "name": "Peru",
+    "props": {
+      "kosovo": {
+        "year": "2008"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "unification": {
+        "reference": "North Peru & South Peru",
+        "year": "1839"
+      },
+      "western-sahara": {
+        "year": "1984"
+      }
+    }
   },
   "philippines": {
     "been": false,
     "country": "PH",
     "icons": ["🇵🇭"],
     "link": "countries/philippines.html",
-    "name": "Philippines"
+    "name": "Philippines",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1946"
+      },
+      "left-to-right": {
+        "prefix": "1946"
+      },
+      "palestine": {
+        "year": "1989"
+      },
+      "tariffs": {
+        "percent": "18%"
+      }
+    }
   },
   "pitcairn-islands": {
     "been": false,
     "country": "PN",
     "icons": ["🇵🇳"],
     "link": "countries/pitcairn-islands.html",
-    "name": "Pitcairn Islands"
+    "name": "Pitcairn Islands",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "poland": {
     "been": true,
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "countries/poland.html",
-    "name": "Poland"
+    "name": "Poland",
+    "props": {
+      "european-union": true,
+      "independence": {
+        "country": "DE",
+        "year": "1944"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "portugal": {
     "been": true,
     "country": "PT",
     "icons": ["🇵🇹"],
     "link": "countries/portugal.html",
-    "name": "Portugal"
+    "name": "Portugal",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "1143"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "portuguese": true,
+      "schengen": true
+    }
   },
   "puerto-rico": {
     "been": false,
     "country": "PR",
     "icons": ["🇵🇷"],
     "link": "countries/puerto-rico.html",
-    "name": "Puerto Rico"
+    "name": "Puerto Rico",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "US"
+      }
+    }
   },
   "qatar": {
     "been": false,
     "country": "QA",
     "icons": ["🇶🇦"],
     "link": "countries/qatar.html",
-    "name": "Qatar"
+    "name": "Qatar",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1971"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "reunion": {
     "been": false,
     "country": "RE",
     "icons": ["🇷🇪"],
     "link": "countries/reunion.html",
-    "name": "Réunion"
+    "name": "Réunion",
+    "props": {
+      "tariffs": {
+        "percent": "37%"
+      },
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "romania": {
     "been": true,
     "country": "RO",
     "icons": ["🇷🇴"],
     "link": "countries/romania.html",
-    "name": "Romania"
+    "name": "Romania",
+    "props": {
+      "european-union": true,
+      "independence": {
+        "country": "TR",
+        "reference": "Ottoman Empire",
+        "year": "1877"
+      },
+      "left-to-right": {
+        "prefix": "1919"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "russia": {
     "been": true,
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "countries/russia.html",
-    "name": "Russia"
+    "name": "Russia",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true
+    }
   },
   "rwanda": {
     "been": true,
     "country": "RW",
     "icons": ["🇷🇼"],
     "link": "countries/rwanda.html",
-    "name": "Rwanda"
+    "name": "Rwanda",
+    "props": {
+      "independence": {
+        "country": "BE",
+        "year": "1962"
+      },
+      "landlocked": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "1989"
+      },
+      "western-sahara": {
+        "year": "1976"
+      }
+    }
   },
   "saint-barthelemy": {
     "been": false,
     "country": "BL",
     "icons": ["🇧🇱"],
     "link": "countries/saint-barthelemy.html",
-    "name": "Saint Barthélemy"
+    "name": "Saint Barthélemy",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "saint-helena": {
     "been": false,
     "country": "SH",
     "icons": ["🇸🇭"],
     "link": "countries/saint-helena.html",
-    "name": "Saint Helena"
+    "name": "Saint Helena",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "saint-kitts-and-nevis": {
     "been": false,
     "country": "KN",
     "icons": ["🇰🇳"],
     "link": "countries/saint-kitts-and-nevis.html",
-    "name": "Saint Kitts and Nevis"
+    "name": "Saint Kitts and Nevis",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1983"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2019"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1987"
+      }
+    }
   },
   "saint-lucia": {
     "been": false,
     "country": "LC",
     "icons": ["🇱🇨"],
     "link": "countries/saint-lucia.html",
-    "name": "Saint Lucia"
+    "name": "Saint Lucia",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1979"
+      },
+      "kosovo": {
+        "year": "2011"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2015"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "saint-pierre-and-miquelon": {
     "been": false,
     "country": "PM",
     "icons": ["🇵🇲"],
     "link": "countries/saint-pierre-and-miquelon.html",
-    "name": "Saint Pierre and Miquelon"
+    "name": "Saint Pierre and Miquelon",
+    "props": {
+      "microstates": true,
+      "tariffs": {
+        "percent": "50%"
+      },
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "saint-vincent-and-grenadines": {
     "been": false,
     "country": "VC",
     "icons": ["🇻🇨"],
     "link": "countries/saint-vincent-and-the-grenadines.html",
-    "name": "Saint Vincent and the Grenadines"
+    "name": "Saint Vincent and the Grenadines",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1979"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "2002"
+      }
+    }
   },
   "samoa": {
     "been": false,
     "country": "WS",
     "icons": ["🇼🇸"],
     "link": "countries/samoa.html",
-    "name": "Samoa"
+    "name": "Samoa",
+    "props": {
+      "independence": {
+        "country": "NZ",
+        "year": "1962"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "badges": ["⬅️"],
+        "prefix": "2009"
+      },
+      "lefthand": true
+    }
   },
   "san-marino": {
     "been": true,
     "country": "SM",
     "icons": ["🇸🇲"],
     "link": "countries/san-marino.html",
-    "name": "San Marino"
+    "name": "San Marino",
+    "props": {
+      "eurozone": true,
+      "founded": {
+        "year": "1243"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "microstates": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "schengen": true
+    }
   },
   "sao-tome-and-principe": {
     "been": false,
     "country": "ST",
     "icons": ["🇸🇹"],
     "link": "countries/sao-tome-and-principe.html",
-    "name": "São Tomé and Príncipe"
+    "name": "São Tomé and Príncipe",
+    "props": {
+      "independence": {
+        "country": "PT",
+        "year": "1975"
+      },
+      "left-to-right": {
+        "prefix": "1928"
+      },
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "portuguese": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1978"
+      }
+    }
   },
   "saudi-arabia": {
     "been": false,
     "country": "SA",
     "icons": ["🇸🇦"],
     "link": "countries/saudi-arabia.html",
-    "name": "Saudi Arabia"
+    "name": "Saudi Arabia",
+    "props": {
+      "founded": {
+        "year": "1902"
+      },
+      "kosovo": {
+        "year": "2009"
+      },
+      "left-to-right": {
+        "prefix": "1942"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "scotland": {
     "been": true,
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "countries/scotland.html",
-    "name": "Scotland"
+    "name": "Scotland",
+    "props": {
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "senegal": {
     "been": true,
     "country": "SN",
     "icons": ["🇸🇳"],
     "link": "countries/senegal.html",
-    "name": "Senegal"
+    "name": "Senegal",
+    "props": {
+      "independence": {
+        "reference": "Mali Federation",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "serbia": {
     "been": true,
     "country": "RS",
     "icons": ["🇷🇸"],
     "link": "countries/serbia.html",
-    "name": "Serbia"
+    "name": "Serbia",
+    "props": {
+      "independence": {
+        "year": "2006"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1926"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "38%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1984"
+      }
+    }
   },
   "seychelles": {
     "been": false,
     "country": "SC",
     "icons": ["🇸🇨"],
     "link": "countries/seychelles.html",
-    "name": "Seychelles"
+    "name": "Seychelles",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1976"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1977"
+      }
+    }
   },
   "sierra-leone": {
     "been": false,
     "country": "SL",
     "icons": ["🇸🇱"],
     "link": "countries/sierra-leone.html",
-    "name": "Sierra Leone"
+    "name": "Sierra Leone",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1961"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1971"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "singapore": {
     "been": true,
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "countries/singapore.html",
-    "name": "Singapore"
+    "name": "Singapore",
+    "props": {
+      "independence": {
+        "country": "MY",
+        "year": "1965"
+      },
+      "kosovo": {
+        "year": "2016"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "similar-flags": true
+    }
   },
   "sint-maarten": {
     "been": false,
     "country": "SX",
     "icons": ["🇸🇽"],
     "link": "countries/sint-maarten.html",
-    "name": "Sint Maarten"
+    "name": "Sint Maarten",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "NL"
+      }
+    }
   },
   "slovakia": {
     "been": true,
     "country": "SK",
     "icons": ["🇸🇰"],
     "link": "countries/slovakia.html",
-    "name": "Slovakia"
+    "name": "Slovakia",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "country": "CZ",
+        "reference": "Czechoslovakia",
+        "year": "1993"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1941"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "schengen": true,
+      "similar-flags": true
+    }
   },
   "slovenia": {
     "been": true,
     "country": "SI",
     "icons": ["🇸🇮"],
     "link": "countries/slovenia.html",
-    "name": "Slovenia"
+    "name": "Slovenia",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "independence": {
+        "year": "1991"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1926"
+      },
+      "marriage": true,
+      "nato": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "schengen": true,
+      "short-coastline": {
+        "length_km": "47"
+      },
+      "similar-flags": true
+    }
   },
   "solomon-islands": {
     "been": false,
     "country": "SB",
     "icons": ["🇸🇧"],
     "link": "countries/solomon-islands.html",
-    "name": "Solomon Islands"
+    "name": "Solomon Islands",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1978"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1981"
+      }
+    }
   },
   "somalia": {
     "been": false,
     "country": "SO",
     "icons": ["🇸🇴"],
     "link": "countries/somalia.html",
-    "name": "Somalia"
+    "name": "Somalia",
+    "props": {
+      "independence": {
+        "country": "IT",
+        "year": "1960"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "south-africa": {
     "been": false,
     "country": "ZA",
     "icons": ["🇿🇦"],
     "link": "countries/south-africa.html",
-    "name": "South Africa"
+    "name": "South Africa",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1931"
+      },
+      "lefthand": true,
+      "marriage": true,
+      "palestine": {
+        "year": "1995"
+      },
+      "tariffs": {
+        "percent": "31%"
+      },
+      "western-sahara": {
+        "year": "2004"
+      }
+    }
   },
   "south-georgia": {
     "been": false,
     "country": "GS",
     "icons": ["🇬🇸"],
     "link": "countries/south-georgia.html",
-    "name": "South Georgia"
+    "name": "South Georgia",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "south-korea": {
     "been": true,
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "countries/south-korea.html",
-    "name": "South Korea"
+    "name": "South Korea",
+    "props": {
+      "independence": {
+        "country": "US",
+        "year": "1948"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1946"
+      },
+      "tariffs": {
+        "percent": "26%"
+      }
+    }
   },
   "south-sudan": {
     "been": false,
     "country": "SS",
     "icons": ["🇸🇸"],
     "link": "countries/south-sudan.html",
-    "name": "South Sudan"
+    "name": "South Sudan",
+    "props": {
+      "independence": {
+        "country": "SD",
+        "year": "2011"
+      },
+      "landlocked": true,
+      "left-to-right": {
+        "prefix": "1973"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "year": "2011"
+      }
+    }
   },
   "spain": {
     "been": true,
     "country": "ES",
     "icons": ["🇪🇸"],
     "link": "countries/spain.html",
-    "name": "Spain"
+    "name": "Spain",
+    "props": {
+      "european-union": true,
+      "eurozone": true,
+      "founded": {
+        "year": "0542"
+      },
+      "left-to-right": {
+        "prefix": "1924"
+      },
+      "marriage": true,
+      "nato": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "schengen": true
+    }
   },
   "sri-lanka": {
     "been": false,
     "country": "LK",
     "icons": ["🇱🇰"],
     "link": "countries/sri-lanka.html",
-    "name": "Sri Lanka"
+    "name": "Sri Lanka",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1948"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "44%"
+      }
+    }
   },
   "sudan": {
     "been": false,
     "country": "SD",
     "icons": ["🇸🇩"],
     "link": "countries/sudan.html",
-    "name": "Sudan"
+    "name": "Sudan",
+    "props": {
+      "independence": {
+        "country": "EG",
+        "year": "1956"
+      },
+      "kosovo": {
+        "year": "2025"
+      },
+      "left-to-right": {
+        "prefix": "1973"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "suriname": {
     "been": false,
     "country": "SR",
     "icons": ["🇸🇷"],
     "link": "countries/suriname.html",
-    "name": "Suriname"
+    "name": "Suriname",
+    "props": {
+      "independence": {
+        "country": "NL",
+        "year": "1975"
+      },
+      "kosovo": {
+        "year": "2016"
+      },
+      "left-to-right": {
+        "badges": ["⬅️"],
+        "prefix": "1920"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1982"
+      }
+    }
   },
   "sweden": {
     "been": true,
     "country": "SE",
     "icons": ["🇸🇪"],
     "link": "countries/sweden.html",
-    "name": "Sweden"
+    "name": "Sweden",
+    "props": {
+      "european-union": true,
+      "founded": {
+        "year": "0970"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1967"
+      },
+      "marriage": true,
+      "nato": true,
+      "palestine": {
+        "year": "2014"
+      },
+      "schengen": true
+    }
   },
   "switzerland": {
     "been": true,
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "countries/switzerland.html",
-    "name": "Switzerland"
+    "name": "Switzerland",
+    "props": {
+      "founded": {
+        "year": "1291"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "landlocked": true,
+      "marriage": true,
+      "schengen": true,
+      "tariffs": {
+        "percent": "32%"
+      }
+    }
   },
   "syria": {
     "been": false,
     "country": "SY",
     "icons": ["🇸🇾"],
     "link": "countries/syria.html",
-    "name": "Syria"
+    "name": "Syria",
+    "props": {
+      "independence": {
+        "country": "EG",
+        "year": "1961"
+      },
+      "palestine": {
+        "year": "2011"
+      },
+      "similar-flags": {
+        "strike": true,
+        "value": true
+      },
+      "tariffs": {
+        "percent": "41%"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "taiwan": {
     "been": false,
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "countries/taiwan.html",
-    "name": "Taiwan"
+    "name": "Taiwan",
+    "props": {
+      "independence": {
+        "country": "JP",
+        "year": "1945"
+      },
+      "left-to-right": {
+        "prefix": "1946"
+      },
+      "marriage": true,
+      "non-binary": true,
+      "tariffs": {
+        "percent": "32%"
+      }
+    }
   },
   "tajikistan": {
     "been": false,
     "country": "TJ",
     "icons": ["🇹🇯"],
     "link": "countries/tajikistan.html",
-    "name": "Tajikistan"
+    "name": "Tajikistan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1994"
+      },
+      "similar-flags": true
+    }
   },
   "tanzania": {
     "been": false,
     "country": "TZ",
     "icons": ["🇹🇿"],
     "link": "countries/tanzania.html",
-    "name": "Tanzania"
+    "name": "Tanzania",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1961"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1978"
+      }
+    }
   },
   "thailand": {
     "been": true,
     "country": "TH",
     "icons": ["🇹🇭"],
     "link": "countries/thailand.html",
-    "name": "Thailand"
+    "name": "Thailand",
+    "props": {
+      "founded": {
+        "year": "1351"
+      },
+      "kosovo": {
+        "year": "2013"
+      },
+      "lefthand": true,
+      "marriage": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2012"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "37%"
+      }
+    }
   },
   "timor-leste": {
     "been": false,
     "country": "TL",
     "icons": ["🇹🇱"],
     "link": "countries/east-timor.html",
-    "name": "Timor-Leste"
+    "name": "Timor-Leste",
+    "props": {
+      "independence": {
+        "country": "ID",
+        "year": "2002"
+      },
+      "kosovo": {
+        "year": "2012"
+      },
+      "left-to-right": {
+        "badges": ["⬅️"],
+        "prefix": "1976"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2004"
+      },
+      "portuguese": true,
+      "western-sahara": {
+        "year": "2002"
+      }
+    }
   },
   "togo": {
     "been": true,
     "country": "TG",
     "icons": ["🇹🇬"],
     "link": "countries/togo.html",
-    "name": "Togo"
+    "name": "Togo",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1960"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "short-coastline": {
+        "length_km": "56"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1976"
+      }
+    }
   },
   "tokelau": {
     "been": false,
     "country": "TK",
     "icons": ["🇹🇰"],
     "link": "countries/tokelau.html",
-    "name": "Tokelau"
+    "name": "Tokelau",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "NZ"
+      }
+    }
   },
   "tonga": {
     "been": false,
     "country": "TO",
     "icons": ["🇹🇴"],
     "link": "countries/tonga.html",
-    "name": "Tonga"
+    "name": "Tonga",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1970"
+      },
+      "kosovo": {
+        "year": "2014"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "no-trains": true
+    }
   },
   "trinidad-and-tobago": {
     "been": false,
     "country": "TT",
     "icons": ["🇹🇹"],
     "link": "countries/trinidad-and-tobago.html",
-    "name": "Trinidad and Tobago"
+    "name": "Trinidad and Tobago",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1962"
+      },
+      "lefthand": true,
+      "no-trains": true,
+      "palestine": {
+        "year": "2024"
+      },
+      "western-sahara": {
+        "year": "1986"
+      }
+    }
   },
   "tunisia": {
     "been": false,
     "country": "TN",
     "icons": ["🇹🇳"],
     "link": "countries/tunisia.html",
-    "name": "Tunisia"
+    "name": "Tunisia",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1956"
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "28%"
+      }
+    }
   },
   "turkiye": {
     "been": true,
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "countries/turkiye.html",
-    "name": "Türkiye"
+    "name": "Türkiye",
+    "props": {
+      "independence": {
+        "reference": "Ottoman Empire",
+        "year": "1923"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "nato": true,
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "turkmenistan": {
     "been": false,
     "country": "TM",
     "icons": ["🇹🇲"],
     "link": "countries/turkmenistan.html",
-    "name": "Turkmenistan"
+    "name": "Turkmenistan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": true,
+      "palestine": {
+        "year": "1992"
+      }
+    }
   },
   "turks-and-caicos": {
     "been": false,
     "country": "TC",
     "icons": ["🇹🇨"],
     "link": "countries/turks-and-caicos.html",
-    "name": "Turks and Caicos"
+    "name": "Turks and Caicos",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "tuvalu": {
     "been": false,
     "country": "TV",
     "icons": ["🇹🇻"],
     "link": "countries/tuvalu.html",
-    "name": "Tuvalu"
+    "name": "Tuvalu",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1978"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "lefthand": true,
+      "microstates": true,
+      "no-trains": true,
+      "western-sahara": {
+        "strike": true,
+        "year": "1981"
+      }
+    }
   },
   "uganda": {
     "been": true,
     "country": "UG",
     "icons": ["🇺🇬"],
     "link": "countries/uganda.html",
-    "name": "Uganda"
+    "name": "Uganda",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1962"
+      },
+      "landlocked": true,
+      "lefthand": {
+        "badges": ["🚗"],
+        "value": true
+      },
+      "palestine": {
+        "year": "1988"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "ukraine": {
     "been": true,
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "countries/ukraine.html",
-    "name": "Ukraine"
+    "name": "Ukraine",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "left-to-right": {
+        "prefix": "1922"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "united-arab-emirates": {
     "been": true,
     "country": "AE",
     "icons": ["🇦🇪"],
     "link": "countries/united-arab-emirates.html",
-    "name": "United Arab Emirates"
+    "name": "United Arab Emirates",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1971"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "left-to-right": {
+        "prefix": "1966"
+      },
+      "palestine": {
+        "year": "1988"
+      }
+    }
   },
   "united-kingdom": {
     "been": true,
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "countries/united-kingdom.html",
-    "name": "United Kingdom"
+    "name": "United Kingdom",
+    "props": {
+      "european-union": {
+        "badges": ["🤬"],
+        "strike": true,
+        "value": true
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "lefthand": {
+        "badges": ["🚗"],
+        "value": true
+      },
+      "marriage": true,
+      "nato": true,
+      "non-binary": true,
+      "palestine": {
+        "year": "2025"
+      },
+      "unification": {
+        "country": "GB-SCT",
+        "reference": "England & Scotland",
+        "year": "1707"
+      }
+    }
   },
   "united-states": {
     "been": true,
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "countries/united-states.html",
-    "name": "United States"
+    "name": "United States",
+    "props": {
+      "citizenship": true,
+      "independence": {
+        "country": "GB",
+        "year": "1776"
+      },
+      "kosovo": {
+        "year": "2008"
+      },
+      "marriage": {
+        "badges": ["💍"],
+        "value": true
+      },
+      "nato": true,
+      "non-binary": {
+        "badges": ["🤬"],
+        "strike": true,
+        "value": true
+      },
+      "similar-flags": true
+    }
   },
   "uruguay": {
     "been": false,
     "country": "UY",
     "icons": ["🇺🇾"],
     "link": "countries/uruguay.html",
-    "name": "Uruguay"
+    "name": "Uruguay",
+    "props": {
+      "independence": {
+        "country": "BR",
+        "year": "1825"
+      },
+      "left-to-right": {
+        "prefix": "1945"
+      },
+      "marriage": true,
+      "palestine": {
+        "year": "2011"
+      },
+      "western-sahara": {
+        "year": "2005"
+      }
+    }
   },
   "us-virgin-islands": {
     "been": false,
     "country": "VI",
     "icons": ["🇻🇮"],
     "link": "countries/u.s.-virgin-islands.html",
-    "name": "U.S. Virgin Islands"
+    "name": "U.S. Virgin Islands",
+    "props": {
+      "lefthand": true,
+      "microstates": true,
+      "territories": {
+        "country": "US"
+      }
+    }
   },
   "uzbekistan": {
     "been": false,
     "country": "UZ",
     "icons": ["🇺🇿"],
     "link": "countries/uzbekistan.html",
-    "name": "Uzbekistan"
+    "name": "Uzbekistan",
+    "props": {
+      "independence": {
+        "year": "1991"
+      },
+      "landlocked": {
+        "badges": ["2️⃣"],
+        "value": true
+      },
+      "palestine": {
+        "year": "1994"
+      }
+    }
   },
   "vanuatu": {
     "been": true,
     "country": "VU",
     "icons": ["🇻🇺"],
     "link": "countries/vanuatu.html",
-    "name": "Vanuatu"
+    "name": "Vanuatu",
+    "props": {
+      "independence": {
+        "country": "FR",
+        "year": "1980"
+      },
+      "kosovo": {
+        "year": "2010"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1989"
+      },
+      "tariffs": {
+        "percent": "23%"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   },
   "vatican-city": {
     "been": true,
     "country": "VA",
     "icons": ["🇻🇦"],
     "link": "countries/vatican-city.html",
-    "name": "Vatican City"
+    "name": "Vatican City",
+    "props": {
+      "eurozone": true,
+      "independence": {
+        "country": "IT",
+        "year": "1929"
+      },
+      "landlocked": true,
+      "microstates": true,
+      "palestine": {
+        "year": "2013"
+      },
+      "schengen": true
+    }
   },
   "venezuela": {
     "been": false,
     "country": "VE",
     "icons": ["🇻🇪"],
     "link": "countries/venezuela.html",
-    "name": "Venezuela"
+    "name": "Venezuela",
+    "props": {
+      "independence": {
+        "country": "CO",
+        "year": "1830"
+      },
+      "palestine": {
+        "year": "2009"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "15%"
+      },
+      "western-sahara": {
+        "year": "1982"
+      }
+    }
   },
   "vietnam": {
     "been": false,
     "country": "VN",
     "icons": ["🇻🇳"],
     "link": "countries/vietnam.html",
-    "name": "Vietnam"
+    "name": "Vietnam",
+    "props": {
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "tariffs": {
+        "percent": "46%"
+      },
+      "unification": {
+        "reference": "North Vietnam & South Vietnam",
+        "year": "1976"
+      },
+      "western-sahara": {
+        "year": "1979"
+      }
+    }
   },
   "virgin-islands": {
     "been": false,
     "country": "VG",
     "icons": ["🇻🇬"],
     "link": "countries/virgin-islands.html",
-    "name": "Virgin Islands"
+    "name": "Virgin Islands",
+    "props": {
+      "microstates": true,
+      "similar-flags": true,
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "wales": {
     "been": true,
     "country": "GB-WLS",
     "icons": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"],
     "link": "countries/wales.html",
-    "name": "Wales"
+    "name": "Wales",
+    "props": {
+      "territories": {
+        "country": "GB"
+      }
+    }
   },
   "wallis-and-futuna": {
     "been": false,
     "country": "WF",
     "icons": ["🇼🇫"],
     "link": "countries/wallis-and-futuna.html",
-    "name": "Wallis and Futuna"
+    "name": "Wallis and Futuna",
+    "props": {
+      "microstates": true,
+      "territories": {
+        "country": "FR"
+      }
+    }
   },
   "western-sahara": {
     "been": false,
     "country": "EH",
     "icons": ["🇪🇭"],
     "link": "countries/western-sahara.html",
-    "name": "Western Sahara"
+    "name": "Western Sahara",
+    "props": {
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "territories": {
+        "country": "MA"
+      }
+    }
   },
   "yemen": {
     "been": false,
     "country": "YE",
     "icons": ["🇾🇪"],
     "link": "countries/yemen.html",
-    "name": "Yemen"
+    "name": "Yemen",
+    "props": {
+      "kosovo": {
+        "year": "2013"
+      },
+      "left-to-right": {
+        "prefix": "1977"
+      },
+      "no-trains": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "similar-flags": true,
+      "unification": {
+        "reference": "North Yemen & South Yemen",
+        "year": "1990"
+      },
+      "western-sahara": {
+        "year": "1977"
+      }
+    }
   },
   "zambia": {
     "been": false,
     "country": "ZM",
     "icons": ["🇿🇲"],
     "link": "countries/zambia.html",
-    "name": "Zambia"
+    "name": "Zambia",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1964"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "17%"
+      },
+      "western-sahara": {
+        "strike": true,
+        "year": "1979"
+      }
+    }
   },
   "zimbabwe": {
     "been": false,
     "country": "ZW",
     "icons": ["🇿🇼"],
     "link": "countries/zimbabwe.html",
-    "name": "Zimbabwe"
+    "name": "Zimbabwe",
+    "props": {
+      "independence": {
+        "country": "GB",
+        "year": "1980"
+      },
+      "landlocked": true,
+      "lefthand": true,
+      "palestine": {
+        "year": "1988"
+      },
+      "tariffs": {
+        "percent": "18%"
+      },
+      "western-sahara": {
+        "year": "1980"
+      }
+    }
   }
 }

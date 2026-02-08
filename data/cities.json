@@ -35,7 +35,10 @@
     "country": "AE",
     "icons": ["🇦🇪"],
     "link": "cities/abu-dhabi.html",
-    "name": "Abu Dhabi"
+    "name": "Abu Dhabi",
+    "props": {
+      "ports": true
+    }
   },
   "abuja": {
     "been": false,
@@ -79,7 +82,13 @@
     "icons": ["🇪🇬"],
     "images": ["alexandria1.jpg", "alexandria2.jpg", "alexandria4.jpg"],
     "link": "cities/alexandria.html",
-    "name": "Alexandria"
+    "name": "Alexandria",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "9.70M"
+      }
+    }
   },
   "algiers": {
     "been": false,
@@ -87,7 +96,11 @@
     "country": "DZ",
     "icons": ["🇩🇿"],
     "link": "cities/algiers.html",
-    "name": "Algiers"
+    "name": "Algiers",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "almaty": {
     "been": false,
@@ -95,7 +108,12 @@
     "country": "KZ",
     "icons": ["🇰🇿"],
     "link": "cities/almaty.html",
-    "name": "Almaty"
+    "name": "Almaty",
+    "props": {
+      "second-cities": {
+        "population": "2.0M"
+      }
+    }
   },
   "amman": {
     "been": false,
@@ -113,7 +131,17 @@
     "icons": ["🇳🇱"],
     "images": ["amsterdam3.jpg", "amsterdam2.jpg", "amsterdam7.jpg"],
     "link": "cities/amsterdam.html",
-    "name": "Amsterdam"
+    "name": "Amsterdam",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1970"
+      },
+      "olympics": {
+        "year": "1928"
+      },
+      "ports": true
+    }
   },
   "ankara": {
     "been": false,
@@ -121,7 +149,12 @@
     "country": "TR",
     "icons": ["🇹🇷"],
     "link": "cities/ankara.html",
-    "name": "Ankara"
+    "name": "Ankara",
+    "props": {
+      "second-cities": {
+        "population": "5.5M"
+      }
+    }
   },
   "antwerp": {
     "been": true,
@@ -131,7 +164,18 @@
     "icons": ["🇧🇪"],
     "images": ["antwerp3.jpg", "antwerp4.jpg", "antwerp5.jpg"],
     "link": "cities/antwerp.html",
-    "name": "Antwerp"
+    "name": "Antwerp",
+    "props": {
+      "culture": true,
+      "olympics": {
+        "year": "1920"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "537K"
+      },
+      "tintin": true
+    }
   },
   "athens": {
     "been": false,
@@ -139,7 +183,17 @@
     "country": "GR",
     "icons": ["🇬🇷"],
     "link": "cities/athens.html",
-    "name": "Athens"
+    "name": "Athens",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2006"
+      },
+      "olympics": {
+        "year": "2004"
+      },
+      "ports": true
+    }
   },
   "atlanta": {
     "been": true,
@@ -147,7 +201,13 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/atlanta.html",
-    "name": "Atlanta"
+    "name": "Atlanta",
+    "props": {
+      "olympics": {
+        "badges": ["🏃‍♂️", "🤸‍♂️", "🏊‍♀️", "🏓"],
+        "year": "1996"
+      }
+    }
   },
   "auckland": {
     "been": false,
@@ -159,7 +219,7 @@
   },
   "austin": {
     "been": false,
-    "coords": "39.50000000, -98.35000000",
+    "coords": "30.267222, -97.743056",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/austin.html",
@@ -179,7 +239,12 @@
     "country": "AZ",
     "icons": ["🇦🇿"],
     "link": "cities/baku.html",
-    "name": "Baku"
+    "name": "Baku",
+    "props": {
+      "eurovision": {
+        "year": "2012"
+      }
+    }
   },
   "baltimore": {
     "been": true,
@@ -189,7 +254,10 @@
     "icons": ["🇺🇸"],
     "images": ["baltimore1.jpg", "baltimore2.jpg", "baltimore3.jpg"],
     "link": "cities/baltimore.html",
-    "name": "Baltimore"
+    "name": "Baltimore",
+    "props": {
+      "ports": true
+    }
   },
   "bamako": {
     "been": true,
@@ -205,7 +273,12 @@
     "country": "TH",
     "icons": ["🇹🇭"],
     "link": "cities/bangkok.html",
-    "name": "Bangkok"
+    "name": "Bangkok",
+    "props": {
+      "second-cities": {
+        "population": "820K"
+      }
+    }
   },
   "barcelona": {
     "been": true,
@@ -215,7 +288,18 @@
     "icons": ["🇪🇸"],
     "images": ["barcelona1.jpg", "barcelona2.jpg", "barcelona3.jpg"],
     "link": "cities/barcelona.html",
-    "name": "Barcelona"
+    "name": "Barcelona",
+    "props": {
+      "culture": true,
+      "olympics": {
+        "badges": ["🏟"],
+        "year": "1992"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "1.65M"
+      }
+    }
   },
   "basel": {
     "been": true,
@@ -233,7 +317,16 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "cities/beijing.html",
-    "name": "Beijing"
+    "name": "Beijing",
+    "props": {
+      "china-cities": true,
+      "olympics": {
+        "year": "2022"
+      },
+      "second-cities": {
+        "population": "12.9M"
+      }
+    }
   },
   "beirut": {
     "been": false,
@@ -241,7 +334,15 @@
     "country": "LB",
     "icons": ["🇱🇧"],
     "link": "cities/beirut.html",
-    "name": "Beirut"
+    "name": "Beirut",
+    "props": {
+      "ports": {
+        "badges": ["💥"],
+        "strike": true,
+        "value": true
+      },
+      "tintin": true
+    }
   },
   "belfast": {
     "been": true,
@@ -249,7 +350,10 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "cities/belfast.html",
-    "name": "Belfast"
+    "name": "Belfast",
+    "props": {
+      "ports": true
+    }
   },
   "belgrade": {
     "been": true,
@@ -259,7 +363,13 @@
     "icons": ["🇷🇸"],
     "images": ["belgrade7.jpg", "belgrade1.jpg", "belgrade3.jpg"],
     "link": "cities/belgrade.html",
-    "name": "Belgrade"
+    "name": "Belgrade",
+    "props": {
+      "eurovision": {
+        "year": "2008"
+      },
+      "tintin": true
+    }
   },
   "bengaluru": {
     "been": true,
@@ -267,7 +377,12 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "cities/bengaluru.html",
-    "name": "Bengaluru"
+    "name": "Bengaluru",
+    "props": {
+      "second-cities": {
+        "population": "12.3M"
+      }
+    }
   },
   "bergen": {
     "been": true,
@@ -277,7 +392,17 @@
     "icons": ["🇳🇴"],
     "images": ["bergen1.jpg", "bergen2.jpg", "bergen3.jpg"],
     "link": "cities/bergen.html",
-    "name": "Bergen"
+    "name": "Bergen",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1986"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "210K"
+      }
+    }
   },
   "berlin": {
     "been": true,
@@ -287,7 +412,15 @@
     "icons": ["🇩🇪"],
     "images": ["berlin2.jpg", "berlin3.jpg", "berlin4.jpg"],
     "link": "cities/berlin.html",
-    "name": "Berlin"
+    "name": "Berlin",
+    "props": {
+      "culture": true,
+      "money-heist": true,
+      "olympics": {
+        "year": "1936"
+      },
+      "tintin": true
+    }
   },
   "bern": {
     "been": true,
@@ -308,15 +441,29 @@
     "icons": ["🇪🇸"],
     "images": ["bilbao7.jpg", "bilbao8.jpg", "bilbao1.jpg"],
     "link": "cities/bilbao.html",
-    "name": "Bilbao"
+    "name": "Bilbao",
+    "props": {
+      "ports": true,
+      "world-cities": {
+        "year": "2010"
+      }
+    }
   },
   "birmingham": {
     "been": true,
-    "coords": "52.48, -1.9025",
+    "coords": "52.48000000, -1.90250000",
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "cities/birmingham.html",
-    "name": "Birmingham"
+    "name": "Birmingham",
+    "props": {
+      "eurovision": {
+        "year": "1998"
+      },
+      "second-cities": {
+        "population": "2.80M"
+      }
+    }
   },
   "bogota": {
     "been": true,
@@ -326,7 +473,11 @@
     "icons": ["🇨🇴"],
     "images": ["bogota1.jpg", "bogota2.jpg", "bogota3.jpg"],
     "link": "cities/bogota.html",
-    "name": "Bogotá"
+    "name": "Bogotá",
+    "props": {
+      "money-heist": true,
+      "tintin": true
+    }
   },
   "boise": {
     "been": true,
@@ -354,7 +505,10 @@
     "icons": ["🇫🇷"],
     "images": ["bordeaux1.jpg", "bordeaux3.jpg", "bordeaux4.jpg"],
     "link": "cities/bordeaux.html",
-    "name": "Bordeaux"
+    "name": "Bordeaux",
+    "props": {
+      "ports": true
+    }
   },
   "boston": {
     "been": true,
@@ -364,7 +518,10 @@
     "icons": ["🇺🇸"],
     "images": ["boston3.jpg", "boston1.jpg", "boston2.jpg"],
     "link": "cities/boston.html",
-    "name": "Boston"
+    "name": "Boston",
+    "props": {
+      "ports": true
+    }
   },
   "bratislava": {
     "been": true,
@@ -392,7 +549,12 @@
     "icons": ["🇨🇿"],
     "images": ["brno1.jpg", "brno2.jpg", "brno3.jpg", "brno4.jpg", "brno5.jpg", "brno6.jpg", "brno14.jpg", "brno15.jpg"],
     "link": "cities/brno.html",
-    "name": "Brno"
+    "name": "Brno",
+    "props": {
+      "second-cities": {
+        "population": "380K"
+      }
+    }
   },
   "brussels": {
     "been": true,
@@ -402,7 +564,14 @@
     "icons": ["🇧🇪"],
     "images": ["brussels1.jpg", "brussels2.jpg", "brussels3.jpg"],
     "link": "cities/brussels.html",
-    "name": "Brussels"
+    "name": "Brussels",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1987"
+      },
+      "tintin": true
+    }
   },
   "bucharest": {
     "been": false,
@@ -428,7 +597,10 @@
     "country": "AR",
     "icons": ["🇦🇷"],
     "link": "cities/buenos-aires.html",
-    "name": "Buenos Aires"
+    "name": "Buenos Aires",
+    "props": {
+      "ports": true
+    }
   },
   "buffalo": {
     "been": true,
@@ -446,7 +618,13 @@
     "country": "KR",
     "icons": ["🇰🇷"],
     "link": "cities/busan.html",
-    "name": "Busan"
+    "name": "Busan",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "2.80M"
+      }
+    }
   },
   "cairo": {
     "been": true,
@@ -456,7 +634,10 @@
     "icons": ["🇪🇬"],
     "images": ["cairo1.jpg", "cairo2.jpg", "cairo3.jpg", "cairo4.jpg", "cairo5.jpg", "cairo6.jpg", "cairo7.jpg", "cairo8.jpg", "cairo9.jpg", "cairo10.jpg", "cairo11.jpg", "cairo12.jpg", "cairo13.jpg", "cairo14.jpg", "cairo15.jpg", "cairo16.jpg", "cairo17.jpg", "cairo18.jpg", "cairo19.jpg", "cairo20.jpg", "cairo21.jpg", "cairo22.jpg", "cairo23.jpg", "cairo24.jpg", "cairo25.jpg", "cairo26.jpg", "cairo27.jpg", "cairo28.jpg", "cairo29.jpg", "cairo30.jpg", "cairo31.jpg", "cairo32.jpg"],
     "link": "cities/cairo.html",
-    "name": "Cairo"
+    "name": "Cairo",
+    "props": {
+      "tintin": true
+    }
   },
   "calgary": {
     "been": true,
@@ -466,7 +647,13 @@
     "icons": ["🇨🇦"],
     "images": ["calgary1.jpg", "calgary2.jpg", "calgary3.jpg"],
     "link": "cities/calgary.html",
-    "name": "Calgary"
+    "name": "Calgary",
+    "props": {
+      "olympics": {
+        "badges": ["🏔"],
+        "year": "1988"
+      }
+    }
   },
   "cape-town": {
     "been": false,
@@ -474,7 +661,13 @@
     "country": "ZA",
     "icons": ["🇿🇦"],
     "link": "cities/cape-town.html",
-    "name": "Cape Town"
+    "name": "Cape Town",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "4.9M"
+      }
+    }
   },
   "cartagena": {
     "been": true,
@@ -485,6 +678,9 @@
     "images": ["cartagena1.jpg", "cartagena2.jpg", "cartagena3.jpg", "cartagena4.jpg", "cartagena5.jpg", "cartagena6.jpg", "cartagena7.jpg", "cartagena8.jpg", "cartagena9.jpg", "cartagena10.jpg", "cartagena11.jpg", "cartagena12.jpg", "cartagena13.jpg", "cartagena14.jpg", "cartagena15.jpg", "cartagena16.jpg", "cartagena17.jpg", "cartagena18.jpg"],
     "link": "cities/cartagena.html",
     "name": "Cartagena",
+    "props": {
+      "ports": true
+    },
     "wikidata": "Q37053572"
   },
   "casablanca": {
@@ -495,7 +691,10 @@
     "icons": ["🇲🇦"],
     "images": ["casablanca1.jpg", "casablanca3.jpg", "casablanca4.jpg", "casablanca5.jpg", "casablanca6.jpg", "casablanca7.jpg", "casablanca8.jpg", "casablanca9.jpg", "casablanca10.jpg", "casablanca11.jpg", "casablanca12.jpg", "casablanca13.jpg", "casablanca14.jpg", "casablanca15.jpg", "casablanca16.jpg", "casablanca17.jpg", "casablanca18.jpg", "casablanca19.jpg", "casablanca20.jpg", "casablanca40.jpg", "casablanca41.jpg", "casablanca42.jpg"],
     "link": "cities/casablanca.html",
-    "name": "Casablanca"
+    "name": "Casablanca",
+    "props": {
+      "ports": true
+    }
   },
   "chicago": {
     "been": true,
@@ -505,7 +704,11 @@
     "icons": ["🇺🇸"],
     "images": ["chicago1.jpg", "chicago2.jpg", "chicago3.jpg"],
     "link": "cities/chicago.html",
-    "name": "Chicago"
+    "name": "Chicago",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "chihuahua": {
     "been": true,
@@ -553,7 +756,14 @@
     "country": "DK",
     "icons": ["🇩🇰"],
     "link": "cities/copenhagen.html",
-    "name": "Copenhagen"
+    "name": "Copenhagen",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2014"
+      },
+      "ports": true
+    }
   },
   "cotonou": {
     "been": true,
@@ -563,7 +773,10 @@
     "icons": ["🇧🇯"],
     "images": ["cotonou1.jpg", "cotonou2.jpg", "cotonou3.jpg", "cotonou4.jpg", "cotonou5.jpg", "cotonou6.jpg", "cotonou7.jpg", "cotonou8.jpg", "cotonou9.jpg", "cotonou10.jpg", "cotonou11.jpg", "cotonou12.jpg", "cotonou13.jpg", "cotonou14.jpg", "cotonou15.jpg", "cotonou16.jpg", "cotonou17.jpg", "cotonou18.jpg"],
     "link": "cities/cotonou.html",
-    "name": "Cotonou"
+    "name": "Cotonou",
+    "props": {
+      "ports": true
+    }
   },
   "dakar": {
     "been": true,
@@ -573,7 +786,10 @@
     "icons": ["🇸🇳"],
     "images": ["dakar1.jpg", "dakar2.jpg", "dakar3.jpg", "dakar4.jpg", "dakar5.jpg", "dakar6.jpg", "dakar7.jpg", "dakar8.jpg", "dakar9.jpg", "dakar10.jpg", "dakar11.jpg", "dakar12.jpg", "dakar13.jpg", "dakar14.jpg", "dakar15.jpg", "dakar16.jpg", "dakar17.jpg", "dakar18.jpg", "dakar19.jpg", "dakar20.jpg", "dakar21.jpg", "dakar22.jpg", "dakar23.jpg", "dakar24.jpg", "dakar25.jpg", "dakar26.jpg", "dakar27.jpg", "dakar28.jpg", "dakar29.jpg", "dakar30.jpg", "dakar61.jpg", "dakar62.jpg", "dakar63.jpg", "dakar64.jpg", "dakar65.jpg", "dakar66.jpg", "dakar67.jpg", "dakar68.jpg"],
     "link": "cities/dakar.html",
-    "name": "Dakar"
+    "name": "Dakar",
+    "props": {
+      "ports": true
+    }
   },
   "dallas": {
     "been": false,
@@ -589,7 +805,10 @@
     "country": "TZ",
     "icons": ["🇹🇿"],
     "link": "cities/dar-es-salaam.html",
-    "name": "Dar es Salaam"
+    "name": "Dar es Salaam",
+    "props": {
+      "ports": true
+    }
   },
   "delhi": {
     "been": false,
@@ -597,7 +816,10 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "cities/delhi.html",
-    "name": "Delhi"
+    "name": "Delhi",
+    "props": {
+      "tintin": true
+    }
   },
   "den-haag": {
     "been": true,
@@ -607,7 +829,13 @@
     "icons": ["🇳🇱"],
     "images": ["den-haag1.jpg", "den-haag2.jpg", "den-haag3.jpg", "den-haag4.jpg", "den-haag5.jpg", "den-haag6.jpg", "den-haag7.jpg", "den-haag8.jpg", "den-haag9.jpg", "den-haag10.jpg"],
     "link": "cities/den-haag.html",
-    "name": "Den Haag"
+    "name": "Den Haag",
+    "props": {
+      "eurovision": {
+        "year": "1980"
+      },
+      "ports": true
+    }
   },
   "denver": {
     "been": true,
@@ -615,7 +843,10 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/denver.html",
-    "name": "Denver"
+    "name": "Denver",
+    "props": {
+      "money-heist": true
+    }
   },
   "detroit": {
     "been": true,
@@ -639,7 +870,10 @@
     "country": "QA",
     "icons": ["🇶🇦"],
     "link": "cities/doha.html",
-    "name": "Doha"
+    "name": "Doha",
+    "props": {
+      "ports": true
+    }
   },
   "dresden": {
     "been": true,
@@ -659,7 +893,13 @@
     "icons": ["🇦🇪"],
     "images": ["dubai1.jpg", "dubai2.jpg", "dubai3.jpg", "dubai4.jpg", "dubai5.jpg", "dubai6.jpg", "dubai7.jpg"],
     "link": "cities/dubai.html",
-    "name": "Dubai"
+    "name": "Dubai",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "1.60M"
+      }
+    }
   },
   "dublin": {
     "been": true,
@@ -667,7 +907,17 @@
     "country": "IE",
     "icons": ["🇮🇪"],
     "link": "cities/dublin.html",
-    "name": "Dublin"
+    "name": "Dublin",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1997"
+      },
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      }
+    }
   },
   "edinburgh": {
     "been": true,
@@ -675,7 +925,13 @@
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "cities/edinburgh.html",
-    "name": "Edinburgh"
+    "name": "Edinburgh",
+    "props": {
+      "eurovision": {
+        "year": "1972"
+      },
+      "ports": true
+    }
   },
   "el-paso": {
     "been": false,
@@ -700,7 +956,13 @@
     "icons": ["🇩🇪"],
     "info": "(Main)",
     "link": "cities/frankfurt.html",
-    "name": "Frankfurt"
+    "name": "Frankfurt",
+    "props": {
+      "eurovision": {
+        "year": "1957"
+      },
+      "tintin": true
+    }
   },
   "frankfurt-oder": {
     "been": true,
@@ -716,7 +978,10 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "cities/fukuoka.html",
-    "name": "Fukuoka"
+    "name": "Fukuoka",
+    "props": {
+      "ports": true
+    }
   },
   "gaza-city": {
     "been": false,
@@ -724,7 +989,14 @@
     "country": "PS",
     "icons": ["🇵🇸"],
     "link": "cities/gaza-city.html",
-    "name": "Gaza City"
+    "name": "Gaza City",
+    "props": {
+      "ports": {
+        "badges": ["⛔️"],
+        "strike": true,
+        "value": true
+      }
+    }
   },
   "gdansk": {
     "been": false,
@@ -732,7 +1004,10 @@
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "cities/gdansk.html",
-    "name": "Gdańsk"
+    "name": "Gdańsk",
+    "props": {
+      "ports": true
+    }
   },
   "geneva": {
     "been": true,
@@ -742,7 +1017,13 @@
     "icons": ["🇨🇭"],
     "images": ["geneva1.jpg", "geneva2.jpg", "geneva3.jpg"],
     "link": "cities/geneva.html",
-    "name": "Geneva"
+    "name": "Geneva",
+    "props": {
+      "second-cities": {
+        "population": "200K"
+      },
+      "tintin": true
+    }
   },
   "genoa": {
     "been": true,
@@ -752,7 +1033,11 @@
     "icons": ["🇮🇹"],
     "images": ["genoa1.jpg", "genoa2.jpg", "genoa3.jpg", "genoa4.jpg", "genoa5.jpg", "genoa6.jpg"],
     "link": "cities/genoa.html",
-    "name": "Genoa"
+    "name": "Genoa",
+    "props": {
+      "culture": true,
+      "ports": true
+    }
   },
   "glasgow": {
     "been": true,
@@ -760,7 +1045,14 @@
     "country": "GB-SCT",
     "icons": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
     "link": "cities/glasgow.html",
-    "name": "Glasgow"
+    "name": "Glasgow",
+    "props": {
+      "culture": true,
+      "second-cities": {
+        "population": "635K"
+      },
+      "tintin": true
+    }
   },
   "graz": {
     "been": true,
@@ -770,7 +1062,13 @@
     "icons": ["🇦🇹"],
     "images": ["graz1.jpg", "graz2.jpg", "graz3.jpg", "graz4.jpg", "graz5.jpg", "graz6.jpg", "graz7.jpg", "graz8.jpg", "graz9.jpg", "graz10.jpg"],
     "link": "cities/graz.html",
-    "name": "Graz"
+    "name": "Graz",
+    "props": {
+      "culture": true,
+      "second-cities": {
+        "population": "210K"
+      }
+    }
   },
   "guadalajara": {
     "been": false,
@@ -778,7 +1076,12 @@
     "country": "MX",
     "icons": ["🇲🇽"],
     "link": "cities/guadalajara.html",
-    "name": "Guadalajara"
+    "name": "Guadalajara",
+    "props": {
+      "second-cities": {
+        "population": "1.5M"
+      }
+    }
   },
   "guangzhou": {
     "been": true,
@@ -786,7 +1089,11 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "cities/guangzhou.html",
-    "name": "Guangzhou"
+    "name": "Guangzhou",
+    "props": {
+      "china-cities": true,
+      "ports": true
+    }
   },
   "hamburg": {
     "been": false,
@@ -794,7 +1101,13 @@
     "country": "DE",
     "icons": ["🇩🇪"],
     "link": "cities/hamburg.html",
-    "name": "Hamburg"
+    "name": "Hamburg",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "1.9M"
+      }
+    }
   },
   "hamilton": {
     "been": true,
@@ -804,7 +1117,10 @@
     "icons": ["🇨🇦"],
     "images": ["hamilton1.jpg", "hamilton2.jpg", "hamilton3.jpg", "hamilton4.jpg"],
     "link": "cities/hamilton.html",
-    "name": "Hamilton"
+    "name": "Hamilton",
+    "props": {
+      "ports": true
+    }
   },
   "hanoi": {
     "been": false,
@@ -812,7 +1128,12 @@
     "country": "VN",
     "icons": ["🇻🇳"],
     "link": "cities/hanoi.html",
-    "name": "Hanoi"
+    "name": "Hanoi",
+    "props": {
+      "second-cities": {
+        "population": "3.8M"
+      }
+    }
   },
   "havana": {
     "been": false,
@@ -820,7 +1141,10 @@
     "country": "CU",
     "icons": ["🇨🇺"],
     "link": "cities/havana.html",
-    "name": "Havana"
+    "name": "Havana",
+    "props": {
+      "ports": true
+    }
   },
   "helsinki": {
     "been": true,
@@ -828,7 +1152,21 @@
     "country": "FI",
     "icons": ["🇫🇮"],
     "link": "cities/helsinki.html",
-    "name": "Helsinki"
+    "name": "Helsinki",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2007"
+      },
+      "money-heist": true,
+      "olympics": {
+        "year": "1952"
+      },
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      }
+    }
   },
   "hiroshima": {
     "been": true,
@@ -836,7 +1174,10 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "cities/hiroshima.html",
-    "name": "Hiroshima"
+    "name": "Hiroshima",
+    "props": {
+      "ports": true
+    }
   },
   "ho-chi-minh-city": {
     "been": false,
@@ -844,7 +1185,10 @@
     "country": "VN",
     "icons": ["🇻🇳"],
     "link": "cities/ho-chi-minh-city.html",
-    "name": "Ho Chi Minh City"
+    "name": "Ho Chi Minh City",
+    "props": {
+      "ports": true
+    }
   },
   "hong-kong": {
     "been": true,
@@ -852,7 +1196,14 @@
     "country": "HK",
     "icons": ["🇭🇰"],
     "link": "cities/hong-kong.html",
-    "name": "Hong Kong"
+    "name": "Hong Kong",
+    "props": {
+      "china-cities": true,
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      }
+    }
   },
   "honolulu": {
     "been": false,
@@ -868,7 +1219,10 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/houston.html",
-    "name": "Houston"
+    "name": "Houston",
+    "props": {
+      "ports": true
+    }
   },
   "hyderabad": {
     "been": false,
@@ -886,15 +1240,25 @@
     "icons": ["🇹🇷"],
     "images": ["istanbul1.jpg", "istanbul2.jpg", "istanbul3.jpg"],
     "link": "cities/istanbul.html",
-    "name": "Istanbul"
+    "name": "Istanbul",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2004"
+      },
+      "ports": true
+    }
   },
   "jakarta": {
     "been": false,
-    "coords": "-6.175, 106.8275",
+    "coords": "-6.17500000, 106.82750000",
     "country": "ID",
     "icons": ["🇮🇩"],
     "link": "cities/jakarta.html",
-    "name": "Jakarta"
+    "name": "Jakarta",
+    "props": {
+      "tintin": true
+    }
   },
   "jericho": {
     "been": true,
@@ -910,7 +1274,12 @@
     "country": "IL",
     "icons": ["🇮🇱"],
     "link": "cities/jerusalem.html",
-    "name": "Jerusalem"
+    "name": "Jerusalem",
+    "props": {
+      "eurovision": {
+        "year": "1999"
+      }
+    }
   },
   "johannesburg": {
     "been": false,
@@ -948,7 +1317,13 @@
     "icons": ["🇱🇹"],
     "images": ["kaunas1.jpg", "kaunas2.jpg", "kaunas3.jpg", "kaunas4.jpg", "kaunas5.jpg", "kaunas6.jpg", "kaunas7.jpg"],
     "link": "cities/kaunas.html",
-    "name": "Kaunas"
+    "name": "Kaunas",
+    "props": {
+      "culture": true,
+      "second-cities": {
+        "population": "280K"
+      }
+    }
   },
   "kazan": {
     "been": true,
@@ -964,7 +1339,12 @@
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "cities/kharkiv.html",
-    "name": "Kharkiv"
+    "name": "Kharkiv",
+    "props": {
+      "second-cities": {
+        "population": "1.0M"
+      }
+    }
   },
   "khartoum": {
     "been": false,
@@ -972,7 +1352,12 @@
     "country": "SD",
     "icons": ["🇸🇩"],
     "link": "cities/khartoum.html",
-    "name": "Khartoum"
+    "name": "Khartoum",
+    "props": {
+      "second-cities": {
+        "population": "6.9M"
+      }
+    }
   },
   "kigali": {
     "been": true,
@@ -990,7 +1375,10 @@
     "country": "CD",
     "icons": ["🇨🇩"],
     "link": "cities/kinshasa.html",
-    "name": "Kinshasa"
+    "name": "Kinshasa",
+    "props": {
+      "tintin": true
+    }
   },
   "kolkata": {
     "been": false,
@@ -998,7 +1386,10 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "cities/kolkata.html",
-    "name": "Kolkata"
+    "name": "Kolkata",
+    "props": {
+      "tintin": true
+    }
   },
   "krakow": {
     "been": false,
@@ -1006,7 +1397,13 @@
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "cities/krakow.html",
-    "name": "Kraków"
+    "name": "Kraków",
+    "props": {
+      "culture": true,
+      "second-cities": {
+        "population": "770K"
+      }
+    }
   },
   "kuala-lumpur": {
     "been": false,
@@ -1014,7 +1411,10 @@
     "country": "MY",
     "icons": ["🇲🇾"],
     "link": "cities/kuala-lumpur.html",
-    "name": "Kuala Lumpur"
+    "name": "Kuala Lumpur",
+    "props": {
+      "ports": true
+    }
   },
   "kyiv": {
     "been": false,
@@ -1022,7 +1422,12 @@
     "country": "UA",
     "icons": ["🇺🇦"],
     "link": "cities/kyiv.html",
-    "name": "Kyiv"
+    "name": "Kyiv",
+    "props": {
+      "eurovision": {
+        "year": "2017"
+      }
+    }
   },
   "kyoto": {
     "been": false,
@@ -1040,7 +1445,10 @@
     "icons": ["🇳🇬"],
     "images": ["lagos1.jpg", "lagos2.jpg", "lagos3.jpg", "lagos4.jpg", "lagos5.jpg", "lagos6.jpg", "lagos7.jpg", "lagos8.jpg", "lagos9.jpg", "lagos10.jpg", "lagos11.jpg", "lagos12.jpg", "lagos13.jpg", "lagos14.jpg", "lagos15.jpg", "lagos16.jpg", "lagos17.jpg", "lagos18.jpg", "lagos19.jpg"],
     "link": "cities/lagos.html",
-    "name": "Lagos"
+    "name": "Lagos",
+    "props": {
+      "ports": true
+    }
   },
   "las-vegas": {
     "been": true,
@@ -1058,7 +1466,12 @@
     "country": "CH",
     "icons": ["🇨🇭"],
     "link": "cities/lausanne.html",
-    "name": "Lausanne"
+    "name": "Lausanne",
+    "props": {
+      "eurovision": {
+        "year": "1989"
+      }
+    }
   },
   "leuven": {
     "been": true,
@@ -1066,7 +1479,10 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "cities/leuven.html",
-    "name": "Leuven"
+    "name": "Leuven",
+    "props": {
+      "tintin": true
+    }
   },
   "liege": {
     "been": false,
@@ -1074,7 +1490,10 @@
     "country": "BE",
     "icons": ["🇧🇪"],
     "link": "cities/liege.html",
-    "name": "Liège"
+    "name": "Liège",
+    "props": {
+      "tintin": true
+    }
   },
   "lille": {
     "been": true,
@@ -1084,7 +1503,10 @@
     "icons": ["🇫🇷"],
     "images": ["lille1.jpg", "lille2.jpg", "lille3.jpg"],
     "link": "cities/lille.html",
-    "name": "Lille"
+    "name": "Lille",
+    "props": {
+      "culture": true
+    }
   },
   "lima": {
     "been": false,
@@ -1092,7 +1514,11 @@
     "country": "PE",
     "icons": ["🇵🇪"],
     "link": "cities/lima.html",
-    "name": "Lima"
+    "name": "Lima",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "lisbon": {
     "been": true,
@@ -1102,7 +1528,16 @@
     "icons": ["🇵🇹"],
     "images": ["lisbon1.jpg", "lisbon2.jpg", "lisbon3.jpg", "lisbon4.jpg", "lisbon5.jpg", "lisbon6.jpg", "lisbon7.jpg", "lisbon8.jpg", "lisbon9.jpg", "lisbon10.jpg", "lisbon11.jpg", "lisbon12.jpg", "lisbon13.jpg", "lisbon14.jpg", "lisbon15.jpg", "lisbon16.jpg", "lisbon17.jpg"],
     "link": "cities/lisbon.html",
-    "name": "Lisbon"
+    "name": "Lisbon",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2018"
+      },
+      "money-heist": true,
+      "ports": true,
+      "tintin": true
+    }
   },
   "liverpool": {
     "been": true,
@@ -1110,7 +1545,18 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "cities/liverpool.html",
-    "name": "Liverpool"
+    "name": "Liverpool",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2023"
+      },
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      },
+      "tintin": true
+    }
   },
   "ljubljana": {
     "been": true,
@@ -1130,7 +1576,10 @@
     "icons": ["🇹🇬"],
     "images": ["lome1.jpg", "lome2.jpg", "lome3.jpg", "lome4.jpg", "lome5.jpg", "lome6.jpg", "lome7.jpg"],
     "link": "cities/lome.html",
-    "name": "Lomé"
+    "name": "Lomé",
+    "props": {
+      "ports": true
+    }
   },
   "london": {
     "been": true,
@@ -1140,7 +1589,18 @@
     "icons": ["🇬🇧"],
     "images": ["london1.jpg", "london2.jpg", "london3.jpg"],
     "link": "cities/london.html",
-    "name": "London"
+    "name": "London",
+    "props": {
+      "eurovision": {
+        "year": "1977"
+      },
+      "olympics": {
+        "badges": ["🗼"],
+        "year": "2012"
+      },
+      "ports": true,
+      "tintin": true
+    }
   },
   "longyearbyen": {
     "been": false,
@@ -1156,7 +1616,16 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/los-angeles.html",
-    "name": "Los Angeles"
+    "name": "Los Angeles",
+    "props": {
+      "olympics": {
+        "year": "2028"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "3.98M"
+      }
+    }
   },
   "luanda": {
     "been": false,
@@ -1174,7 +1643,13 @@
     "icons": ["🇱🇺"],
     "images": ["luxembourg1.jpg", "luxembourg2.jpg", "luxembourg3.jpg", "luxembourg4.jpg", "luxembourg5.jpg", "luxembourg6.jpg", "luxembourg7.jpg", "luxembourg8.jpg"],
     "link": "cities/luxembourg.html",
-    "name": "Luxembourg"
+    "name": "Luxembourg",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1984"
+      }
+    }
   },
   "lyon": {
     "been": true,
@@ -1192,7 +1667,11 @@
     "country": "MO",
     "icons": ["🇲🇴"],
     "link": "cities/macau.html",
-    "name": "Macau"
+    "name": "Macau",
+    "props": {
+      "china-cities": true,
+      "ports": true
+    }
   },
   "madrid": {
     "been": true,
@@ -1202,7 +1681,13 @@
     "icons": ["🇪🇸"],
     "images": ["madrid1.jpg", "madrid2.jpg", "madrid3.jpg", "madrid4.jpg", "madrid5.jpg", "madrid6.jpg", "madrid7.jpg", "madrid8.jpg"],
     "link": "cities/madrid.html",
-    "name": "Madrid"
+    "name": "Madrid",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1969"
+      }
+    }
   },
   "manchester": {
     "been": true,
@@ -1218,7 +1703,11 @@
     "country": "PH",
     "icons": ["🇵🇭"],
     "link": "cities/manila.html",
-    "name": "Manila"
+    "name": "Manila",
+    "props": {
+      "money-heist": true,
+      "ports": true
+    }
   },
   "marrakesh": {
     "been": true,
@@ -1236,7 +1725,16 @@
     "country": "FR",
     "icons": ["🇫🇷"],
     "link": "cities/marseille.html",
-    "name": "Marseille"
+    "name": "Marseille",
+    "props": {
+      "culture": true,
+      "money-heist": true,
+      "ports": true,
+      "second-cities": {
+        "population": "870K"
+      },
+      "tintin": true
+    }
   },
   "medellin": {
     "been": true,
@@ -1246,7 +1744,15 @@
     "icons": ["🇨🇴"],
     "images": ["medellin1.jpg", "medellin2.jpg", "medellin3.jpg", "medellin4.jpg", "medellin5.jpg", "medellin6.jpg", "medellin7.jpg", "medellin8.jpg", "medellin9.jpg", "medellin10.jpg", "medellin11.jpg"],
     "link": "cities/medellin.html",
-    "name": "Medellín"
+    "name": "Medellín",
+    "props": {
+      "second-cities": {
+        "population": "2.50M"
+      },
+      "world-cities": {
+        "year": "2016"
+      }
+    }
   },
   "melbourne": {
     "been": false,
@@ -1254,7 +1760,13 @@
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "cities/melbourne.html",
-    "name": "Melbourne"
+    "name": "Melbourne",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "5.3M"
+      }
+    }
   },
   "mexico-city": {
     "been": true,
@@ -1264,7 +1776,15 @@
     "icons": ["🇲🇽"],
     "images": ["mexico-city1.jpg", "mexico-city2.jpg", "mexico-city3.jpg", "mexico-city4.jpg", "mexico-city5.jpg", "mexico-city6.jpg", "mexico-city7.jpg", "mexico-city8.jpg", "mexico-city9.jpg", "mexico-city10.jpg", "mexico-city11.jpg", "mexico-city12.jpg", "mexico-city13.jpg", "mexico-city14.jpg", "mexico-city15.jpg", "mexico-city16.jpg", "mexico-city17.jpg", "mexico-city18.jpg", "mexico-city19.jpg", "mexico-city20.jpg", "mexico-city21.jpg", "mexico-city22.jpg", "mexico-city23.jpg", "mexico-city24.jpg", "mexico-city25.jpg", "mexico-city26.jpg", "mexico-city27.jpg", "mexico-city28.jpg", "mexico-city29.jpg", "mexico-city30.jpg", "mexico-city31.jpg", "mexico-city32.jpg", "mexico-city33.jpg", "mexico-city34.jpg", "mexico-city35.jpg", "mexico-city36.jpg", "mexico-city37.jpg", "mexico-city38.jpg", "mexico-city39.jpg", "mexico-city40.jpg", "mexico-city41.jpg", "mexico-city42.jpg", "mexico-city43.jpg", "mexico-city44.jpg", "mexico-city45.jpg", "mexico-city46.jpg", "mexico-city47.jpg", "mexico-city48.jpg", "mexico-city49.jpg", "mexico-city50.jpg", "mexico-city51.jpg", "mexico-city52.jpg", "mexico-city53.jpg", "mexico-city54.jpg", "mexico-city55.jpg", "mexico-city56.jpg"],
     "link": "cities/mexico-city.html",
-    "name": "Mexico City"
+    "name": "Mexico City",
+    "props": {
+      "olympics": {
+        "year": "1968"
+      },
+      "world-cities": {
+        "year": "2024"
+      }
+    }
   },
   "miami": {
     "been": true,
@@ -1274,7 +1794,10 @@
     "icons": ["🇺🇸"],
     "images": ["miami1.jpg", "miami2.jpg", "miami3.jpg", "miami4.jpg", "miami5.jpg", "miami6.jpg", "miami7.jpg", "miami8.jpg", "miami9.jpg", "miami10.jpg"],
     "link": "cities/miami.html",
-    "name": "Miami"
+    "name": "Miami",
+    "props": {
+      "ports": true
+    }
   },
   "milan": {
     "been": false,
@@ -1282,7 +1805,15 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "cities/milan.html",
-    "name": "Milan"
+    "name": "Milan",
+    "props": {
+      "olympics": {
+        "year": "2026"
+      },
+      "second-cities": {
+        "population": "850K"
+      }
+    }
   },
   "minsk": {
     "been": false,
@@ -1298,7 +1829,13 @@
     "country": "KE",
     "icons": ["🇰🇪"],
     "link": "cities/mombasa.html",
-    "name": "Mombasa"
+    "name": "Mombasa",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "1.1M"
+      }
+    }
   },
   "monaco": {
     "been": true,
@@ -1306,7 +1843,11 @@
     "country": "MC",
     "icons": ["🇲🇨"],
     "link": "cities/monaco.html",
-    "name": "Monaco"
+    "name": "Monaco",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "montpellier": {
     "been": true,
@@ -1326,7 +1867,12 @@
     "icons": ["🇨🇦"],
     "images": ["montreal1.jpg", "montreal2.jpg", "montreal3.jpg", "montreal4.jpg", "montreal5.jpg", "montreal6.jpg", "montreal7.jpg", "montreal8.jpg", "montreal9.jpg", "montreal10.jpg", "montreal11.jpg", "montreal12.jpg", "montreal13.jpg", "montreal14.jpg", "montreal15.jpg", "montreal16.jpg", "montreal17.jpg", "montreal18.jpg", "montreal19.jpg", "montreal20.jpg", "montreal21.jpg", "montreal22.jpg"],
     "link": "cities/montreal.html",
-    "name": "Montréal"
+    "name": "Montréal",
+    "props": {
+      "second-cities": {
+        "population": "2.85M"
+      }
+    }
   },
   "moscow": {
     "been": true,
@@ -1334,7 +1880,17 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "cities/moscow.html",
-    "name": "Moscow"
+    "name": "Moscow",
+    "props": {
+      "eurovision": {
+        "year": "2009"
+      },
+      "money-heist": true,
+      "olympics": {
+        "year": "1980"
+      },
+      "tintin": true
+    }
   },
   "mumbai": {
     "been": false,
@@ -1342,7 +1898,11 @@
     "country": "IN",
     "icons": ["🇮🇳"],
     "link": "cities/mumbai.html",
-    "name": "Mumbai"
+    "name": "Mumbai",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "nagoya": {
     "been": true,
@@ -1360,7 +1920,10 @@
     "icons": ["🇰🇪"],
     "images": ["nairobi1.jpg", "nairobi2.jpg", "nairobi3.jpg", "nairobi4.jpg", "nairobi5.jpg", "nairobi6.jpg", "nairobi7.jpg", "nairobi8.jpg", "nairobi9.jpg", "nairobi10.jpg", "nairobi11.jpg", "nairobi12.jpg", "nairobi13.jpg", "nairobi14.jpg", "nairobi15.jpg", "nairobi16.jpg", "nairobi17.jpg", "nairobi18.jpg", "nairobi19.jpg", "nairobi20.jpg", "nairobi21.jpg", "nairobi22.jpg", "nairobi23.jpg", "nairobi24.jpg", "nairobi25.jpg"],
     "link": "cities/nairobi.html",
-    "name": "Nairobi"
+    "name": "Nairobi",
+    "props": {
+      "money-heist": true
+    }
   },
   "namur": {
     "been": true,
@@ -1380,7 +1943,14 @@
     "icons": ["🇮🇹"],
     "images": ["naples1.jpg", "naples2.jpg", "naples3.jpg", "naples4.jpg", "naples5.jpg", "naples6.jpg", "naples7.jpg", "naples8.jpg", "naples9.jpg", "naples10.jpg", "naples11.jpg", "naples12.jpg", "naples13.jpg", "naples14.jpg", "naples15.jpg", "naples16.jpg", "naples17.jpg", "naples18.jpg", "naples19.jpg", "naples20.jpg", "naples21.jpg", "naples22.jpg", "naples23.jpg", "naples24.jpg", "naples25.jpg", "naples26.jpg", "naples27.jpg", "naples28.jpg", "naples29.jpg", "naples30.jpg", "naples31.jpg", "naples32.jpg", "naples33.jpg", "naples34.jpg", "naples35.jpg", "naples36.jpg", "naples37.jpg", "naples38.jpg", "naples39.jpg"],
     "link": "cities/naples.html",
-    "name": "Naples"
+    "name": "Naples",
+    "props": {
+      "eurovision": {
+        "year": "1965"
+      },
+      "ports": true,
+      "tintin": true
+    }
   },
   "new-haven": {
     "been": true,
@@ -1390,15 +1960,21 @@
     "icons": ["🇺🇸"],
     "images": ["new-haven1.jpg", "new-haven2.jpg", "new-haven3.jpg", "new-haven4.jpg", "new-haven5.jpg", "new-haven6.jpg"],
     "link": "cities/new-haven.html",
-    "name": "New Haven"
+    "name": "New Haven",
+    "props": {
+      "ports": true
+    }
   },
   "new-orleans": {
     "been": false,
-    "coords": "29.976111111111113, -90.07833333333333",
+    "coords": "29.97611111, -90.07833333",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/new-orleans.html",
-    "name": "New Orleans"
+    "name": "New Orleans",
+    "props": {
+      "ports": true
+    }
   },
   "new-york": {
     "been": true,
@@ -1406,7 +1982,14 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/new-york.html",
-    "name": "New York"
+    "name": "New York",
+    "props": {
+      "ports": true,
+      "tintin": true,
+      "world-cities": {
+        "year": "2012"
+      }
+    }
   },
   "newcastle": {
     "been": true,
@@ -1414,7 +1997,10 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "cities/newcastle.html",
-    "name": "Newcastle"
+    "name": "Newcastle",
+    "props": {
+      "ports": true
+    }
   },
   "nice": {
     "been": true,
@@ -1424,7 +2010,10 @@
     "icons": ["🇫🇷"],
     "images": ["nice1.jpg", "nice2.jpg", "nice3.jpg", "nice4.jpg", "nice5.jpg", "nice6.jpg", "nice7.jpg", "nice8.jpg", "nice9.jpg", "nice10.jpg", "nice11.jpg", "nice12.jpg", "nice13.jpg", "nice14.jpg", "nice15.jpg", "nice16.jpg", "nice17.jpg"],
     "link": "cities/nice.html",
-    "name": "Nice"
+    "name": "Nice",
+    "props": {
+      "ports": true
+    }
   },
   "nizhny-novgorod": {
     "been": false,
@@ -1436,11 +2025,14 @@
   },
   "norfolk": {
     "been": true,
-    "coords": "36.85489, -76.28061",
+    "coords": "36.85489000, -76.28061000",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/norfolk.html",
-    "name": "Norfolk"
+    "name": "Norfolk",
+    "props": {
+      "ports": true
+    }
   },
   "nottingham": {
     "been": true,
@@ -1456,7 +2048,10 @@
     "country": "NC",
     "icons": ["🇳🇨"],
     "link": "cities/noumea.html",
-    "name": "Noumea"
+    "name": "Noumea",
+    "props": {
+      "ports": true
+    }
   },
   "oakland": {
     "been": true,
@@ -1464,7 +2059,10 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/oakland.html",
-    "name": "Oakland"
+    "name": "Oakland",
+    "props": {
+      "ports": true
+    }
   },
   "orlando": {
     "been": true,
@@ -1480,7 +2078,10 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "cities/ōsaka.html",
-    "name": "Ōsaka"
+    "name": "Ōsaka",
+    "props": {
+      "ports": true
+    }
   },
   "oslo": {
     "been": true,
@@ -1490,7 +2091,19 @@
     "icons": ["🇳🇴"],
     "images": ["oslo1.jpg", "oslo2.jpg", "oslo3.jpg", "oslo4.jpg", "oslo5.jpg", "oslo6.jpg", "oslo7.jpg", "oslo8.jpg", "oslo9.jpg", "oslo10.jpg", "oslo11.jpg", "oslo12.jpg", "oslo13.jpg", "oslo14.jpg", "oslo15.jpg", "oslo16.jpg", "oslo17.jpg", "oslo18.jpg", "oslo19.jpg"],
     "link": "cities/oslo.html",
-    "name": "Oslo"
+    "name": "Oslo",
+    "props": {
+      "eurovision": {
+        "year": "2010"
+      },
+      "olympics": {
+        "year": "1952"
+      },
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      }
+    }
   },
   "ouagadougou": {
     "been": true,
@@ -1508,7 +2121,11 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "cities/palermo.html",
-    "name": "Palermo"
+    "name": "Palermo",
+    "props": {
+      "money-heist": true,
+      "ports": true
+    }
   },
   "panama-city": {
     "been": true,
@@ -1516,7 +2133,10 @@
     "country": "PA",
     "icons": ["🇵🇦"],
     "link": "cities/panama-city.html",
-    "name": "Panama City"
+    "name": "Panama City",
+    "props": {
+      "ports": true
+    }
   },
   "paris": {
     "been": true,
@@ -1526,7 +2146,17 @@
     "icons": ["🇫🇷"],
     "images": ["paris1.jpg", "paris2.jpg", "paris3.jpg", "paris4.jpg", "paris5.jpg", "paris6.jpg", "paris7.jpg", "paris8.jpg", "paris9.jpg", "paris10.jpg", "paris11.jpg", "paris12.jpg", "paris13.jpg", "paris14.jpg", "paris15.jpg", "paris16.jpg", "paris17.jpg", "paris18.jpg", "paris19.jpg", "paris20.jpg", "paris21.jpg", "paris22.jpg", "paris23.jpg", "paris24.jpg", "paris25.jpg"],
     "link": "cities/paris.html",
-    "name": "Paris"
+    "name": "Paris",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "1978"
+      },
+      "olympics": {
+        "year": "2024"
+      },
+      "tintin": true
+    }
   },
   "philadelphia": {
     "been": true,
@@ -1536,7 +2166,10 @@
     "icons": ["🇺🇸"],
     "images": ["philadelphia1.jpg", "philadelphia2.jpg", "philadelphia3.jpg", "philadelphia4.jpg", "philadelphia5.jpg"],
     "link": "cities/philadelphia.html",
-    "name": "Philadelphia"
+    "name": "Philadelphia",
+    "props": {
+      "ports": true
+    }
   },
   "phoenix": {
     "been": true,
@@ -1564,7 +2197,10 @@
     "icons": ["🇨🇿"],
     "images": ["plzen1.jpg", "plzen2.jpg", "plzen3.jpg", "plzen4.jpg", "plzen5.jpg", "plzen6.jpg", "plzen7.jpg", "plzen8.jpg", "plzen9.jpg"],
     "link": "cities/plzen.html",
-    "name": "Plzeň"
+    "name": "Plzeň",
+    "props": {
+      "culture": true
+    }
   },
   "podgorica": {
     "been": true,
@@ -1580,7 +2216,10 @@
     "country": "VU",
     "icons": ["🇻🇺"],
     "link": "cities/port-vila.html",
-    "name": "Port Vila"
+    "name": "Port Vila",
+    "props": {
+      "ports": true
+    }
   },
   "portland-me": {
     "been": true,
@@ -1608,7 +2247,14 @@
     "icons": ["🇵🇹"],
     "images": ["porto1.jpg", "porto2.jpg", "porto3.jpg", "porto4.jpg", "porto5.jpg", "porto6.jpg", "porto7.jpg", "porto8.jpg", "porto9.jpg", "porto10.jpg", "porto11.jpg", "porto12.jpg", "porto13.jpg", "porto14.jpg", "porto15.jpg", "porto16.jpg", "porto17.jpg", "porto18.jpg", "porto19.jpg", "porto20.jpg", "porto21.jpg", "porto22.jpg", "porto23.jpg", "porto24.jpg"],
     "link": "cities/porto.html",
-    "name": "Porto"
+    "name": "Porto",
+    "props": {
+      "culture": true,
+      "ports": true,
+      "second-cities": {
+        "population": "230K"
+      }
+    }
   },
   "poznan": {
     "been": true,
@@ -1628,7 +2274,11 @@
     "icons": ["🇨🇿"],
     "images": ["prague1.jpg", "prague2.jpg", "prague3.jpg"],
     "link": "cities/prague.html",
-    "name": "Prague"
+    "name": "Prague",
+    "props": {
+      "culture": true,
+      "tintin": true
+    }
   },
   "praia": {
     "been": true,
@@ -1638,7 +2288,10 @@
     "icons": ["🇨🇻"],
     "images": ["praia1.jpg", "praia2.jpg", "praia3.jpg", "praia4.jpg", "praia5.jpg", "praia6.jpg", "praia7.jpg", "praia8.jpg", "praia9.jpg", "praia10.jpg", "praia11.jpg", "praia12.jpg"],
     "link": "cities/praia.html",
-    "name": "Praia"
+    "name": "Praia",
+    "props": {
+      "ports": true
+    }
   },
   "pristina": {
     "been": false,
@@ -1670,7 +2323,13 @@
     "country": "EC",
     "icons": ["🇪🇨"],
     "link": "cities/quito.html",
-    "name": "Quito"
+    "name": "Quito",
+    "props": {
+      "second-cities": {
+        "population": "2.0M"
+      },
+      "tintin": true
+    }
   },
   "reykjavik": {
     "been": true,
@@ -1680,7 +2339,13 @@
     "icons": ["🇮🇸"],
     "images": ["reykjavik1.jpg", "reykjavik2.jpg", "reykjavik3.jpg", "reykjavik4.jpg", "reykjavik5.jpg", "reykjavik6.jpg", "reykjavik7.jpg", "reykjavik8.jpg", "reykjavik9.jpg", "reykjavik10.jpg", "reykjavik11.jpg", "reykjavik12.jpg", "reykjavik13.jpg", "reykjavik14.jpg", "reykjavik15.jpg", "reykjavik16.jpg"],
     "link": "cities/reykjavik.html",
-    "name": "Reykjavík"
+    "name": "Reykjavík",
+    "props": {
+      "culture": true,
+      "second-cities": {
+        "population": "135K"
+      }
+    }
   },
   "richmond": {
     "been": true,
@@ -1698,7 +2363,14 @@
     "icons": ["🇱🇻"],
     "images": ["riga1.jpg", "riga2.jpg", "riga3.jpg", "riga4.jpg", "riga5.jpg", "riga6.jpg", "riga7.jpg", "riga8.jpg", "riga9.jpg", "riga10.jpg", "riga11.jpg", "riga12.jpg", "riga13.jpg", "riga14.jpg", "riga15.jpg", "riga16.jpg", "riga17.jpg", "riga18.jpg", "riga19.jpg", "riga20.jpg", "riga21.jpg", "riga22.jpg"],
     "link": "cities/riga.html",
-    "name": "Riga"
+    "name": "Riga",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2003"
+      },
+      "ports": true
+    }
   },
   "rio-de-janeiro": {
     "been": false,
@@ -1706,7 +2378,16 @@
     "country": "BR",
     "icons": ["🇧🇷"],
     "link": "cities/rio-de-janeiro.html",
-    "name": "Rio de Janeiro"
+    "name": "Rio de Janeiro",
+    "props": {
+      "olympics": {
+        "year": "2016"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "12.3M"
+      }
+    }
   },
   "riyadh": {
     "been": false,
@@ -1730,7 +2411,16 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "cities/rome.html",
-    "name": "Rome"
+    "name": "Rome",
+    "props": {
+      "eurovision": {
+        "year": "1991"
+      },
+      "olympics": {
+        "year": "1960"
+      },
+      "tintin": true
+    }
   },
   "rotterdam": {
     "been": true,
@@ -1740,7 +2430,17 @@
     "icons": ["🇳🇱"],
     "images": ["rotterdam1.jpg", "rotterdam2.jpg", "rotterdam3.jpg", "rotterdam4.jpg", "rotterdam5.jpg", "rotterdam6.jpg", "rotterdam7.jpg", "rotterdam8.jpg", "rotterdam9.jpg", "rotterdam10.jpg"],
     "link": "cities/rotterdam.html",
-    "name": "Rotterdam"
+    "name": "Rotterdam",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2021"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "870K"
+      }
+    }
   },
   "saint-louis": {
     "been": true,
@@ -1748,7 +2448,13 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/saint-louis.html",
-    "name": "Saint Louis"
+    "name": "Saint Louis",
+    "props": {
+      "olympics": {
+        "year": "1904"
+      },
+      "ports": true
+    }
   },
   "saint-petersburg": {
     "been": true,
@@ -1756,7 +2462,13 @@
     "country": "RU",
     "icons": ["🇷🇺"],
     "link": "cities/saint-petersburg.html",
-    "name": "Saint Petersburg"
+    "name": "Saint Petersburg",
+    "props": {
+      "ports": true,
+      "second-cities": {
+        "population": "5.36M"
+      }
+    }
   },
   "salt-lake-city": {
     "been": true,
@@ -1764,7 +2476,12 @@
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/salt-lake-city.html",
-    "name": "Salt Lake City"
+    "name": "Salt Lake City",
+    "props": {
+      "olympics": {
+        "year": "2002"
+      }
+    }
   },
   "san-diego": {
     "been": true,
@@ -1782,7 +2499,10 @@
     "icons": ["🇺🇸"],
     "images": ["san-francisco1.jpg", "san-francisco2.jpg", "san-francisco3.jpg", "san-francisco4.jpg", "san-francisco5.jpg", "san-francisco6.jpg", "san-francisco7.jpg", "san-francisco8.jpg", "san-francisco9.jpg", "san-francisco10.jpg", "san-francisco11.jpg", "san-francisco12.jpg", "san-francisco13.jpg", "san-francisco14.jpg", "san-francisco15.jpg", "san-francisco16.jpg", "san-francisco17.jpg", "san-francisco18.jpg", "san-francisco19.jpg", "san-francisco20.jpg", "san-francisco21.jpg", "san-francisco22.jpg", "san-francisco23.jpg", "san-francisco24.jpg", "san-francisco25.jpg", "san-francisco26.jpg"],
     "link": "cities/san-francisco.html",
-    "name": "San Francisco"
+    "name": "San Francisco",
+    "props": {
+      "ports": true
+    }
   },
   "san-jose": {
     "been": true,
@@ -1796,11 +2516,14 @@
   },
   "san-jose-ca": {
     "been": true,
-    "coords": "37.336111, -121.890556",
+    "coords": "37.33611100, -121.89055600",
     "country": "US",
     "icons": ["🇺🇸"],
     "link": "cities/san-jose-ca.html",
     "name": "San Jose, CA",
+    "props": {
+      "tintin": true
+    },
     "state": "CA"
   },
   "santa-fe": {
@@ -1829,7 +2552,11 @@
     "icons": ["🇩🇴"],
     "images": ["santo-domingo1.jpg", "santo-domingo2.jpg", "santo-domingo3.jpg", "santo-domingo4.jpg", "santo-domingo5.jpg", "santo-domingo6.jpg", "santo-domingo7.jpg", "santo-domingo8.jpg", "santo-domingo9.jpg", "santo-domingo10.jpg", "santo-domingo11.jpg", "santo-domingo12.jpg", "santo-domingo13.jpg", "santo-domingo14.jpg", "santo-domingo15.jpg", "santo-domingo16.jpg", "santo-domingo17.jpg", "santo-domingo18.jpg", "santo-domingo19.jpg", "santo-domingo20.jpg", "santo-domingo21.jpg"],
     "link": "cities/santo-domingo",
-    "name": "Santo Domingo"
+    "name": "Santo Domingo",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "sao-paulo": {
     "been": false,
@@ -1845,7 +2572,12 @@
     "country": "JP",
     "icons": ["🇯🇵"],
     "link": "cities/sapporo.html",
-    "name": "Sapporo"
+    "name": "Sapporo",
+    "props": {
+      "olympics": {
+        "year": "1972"
+      }
+    }
   },
   "sarajevo": {
     "been": true,
@@ -1853,7 +2585,13 @@
     "country": "BA",
     "icons": ["🇧🇦"],
     "link": "cities/sarajevo.html",
-    "name": "Sarajevo"
+    "name": "Sarajevo",
+    "props": {
+      "olympics": {
+        "badges": ["🏟"],
+        "year": "1984"
+      }
+    }
   },
   "seattle": {
     "been": true,
@@ -1863,7 +2601,10 @@
     "icons": ["🇺🇸"],
     "images": ["seattle1.jpg", "seattle2.jpg", "seattle3.jpg", "seattle4.jpg", "seattle5.jpg", "seattle6.jpg", "seattle7.jpg", "seattle8.jpg", "seattle9.jpg", "seattle10.jpg", "seattle11.jpg"],
     "link": "cities/seattle.html",
-    "name": "Seattle"
+    "name": "Seattle",
+    "props": {
+      "ports": true
+    }
   },
   "seoul": {
     "been": true,
@@ -1873,7 +2614,16 @@
     "icons": ["🇰🇷"],
     "images": ["seoul1.jpg", "seoul2.jpg", "seoul3.jpg", "seoul4.jpg", "seoul5.jpg", "seoul6.jpg", "seoul7.jpg", "seoul8.jpg", "seoul9.jpg", "seoul10.jpg", "seoul11.jpg", "seoul12.jpg"],
     "link": "cities/seoul.html",
-    "name": "Seoul"
+    "name": "Seoul",
+    "props": {
+      "olympics": {
+        "badges": ["🏟"],
+        "year": "1988"
+      },
+      "world-cities": {
+        "year": "2018"
+      }
+    }
   },
   "shanghai": {
     "been": false,
@@ -1881,7 +2631,12 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "cities/shanghai.html",
-    "name": "Shanghai"
+    "name": "Shanghai",
+    "props": {
+      "china-cities": true,
+      "ports": true,
+      "tintin": true
+    }
   },
   "sheffield": {
     "been": true,
@@ -1899,7 +2654,11 @@
     "country": "CN",
     "icons": ["🇨🇳"],
     "link": "cities/shenzhen.html",
-    "name": "Shenzhen"
+    "name": "Shenzhen",
+    "props": {
+      "china-cities": true,
+      "ports": true
+    }
   },
   "singapore": {
     "been": true,
@@ -1907,7 +2666,11 @@
     "country": "SG",
     "icons": ["🇸🇬"],
     "link": "cities/singapore.html",
-    "name": "Singapore"
+    "name": "Singapore",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "skopje": {
     "been": true,
@@ -1933,7 +2696,11 @@
     "country": "GB",
     "icons": ["🇬🇧"],
     "link": "cities/southampton.html",
-    "name": "Southampton"
+    "name": "Southampton",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "stockholm": {
     "been": true,
@@ -1943,7 +2710,18 @@
     "icons": ["🇸🇪"],
     "images": ["stockholm1.jpg", "stockholm2.jpg", "stockholm3.jpg", "stockholm4.jpg", "stockholm5.jpg", "stockholm6.jpg", "stockholm7.jpg", "stockholm8.jpg", "stockholm9.jpg", "stockholm10.jpg", "stockholm11.jpg", "stockholm12.jpg", "stockholm13.jpg", "stockholm14.jpg", "stockholm15.jpg", "stockholm16.jpg", "stockholm17.jpg", "stockholm18.jpg", "stockholm19.jpg"],
     "link": "cities/stockholm.html",
-    "name": "Stockholm"
+    "name": "Stockholm",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2016"
+      },
+      "money-heist": true,
+      "olympics": {
+        "year": "1912"
+      },
+      "ports": true
+    }
   },
   "strasbourg": {
     "been": true,
@@ -1961,7 +2739,14 @@
     "country": "AU",
     "icons": ["🇦🇺"],
     "link": "cities/sydney.html",
-    "name": "Sydney"
+    "name": "Sydney",
+    "props": {
+      "olympics": {
+        "year": "2000"
+      },
+      "ports": true,
+      "tintin": true
+    }
   },
   "szczecin": {
     "been": false,
@@ -1969,7 +2754,10 @@
     "country": "PL",
     "icons": ["🇵🇱"],
     "link": "cities/szczecin.html",
-    "name": "Szczecin"
+    "name": "Szczecin",
+    "props": {
+      "ports": true
+    }
   },
   "szeged": {
     "been": true,
@@ -1987,7 +2775,10 @@
     "country": "TW",
     "icons": ["🇹🇼"],
     "link": "cities/taipei.html",
-    "name": "Taipei"
+    "name": "Taipei",
+    "props": {
+      "ports": true
+    }
   },
   "tallinn": {
     "been": true,
@@ -1997,7 +2788,17 @@
     "icons": ["🇪🇪"],
     "images": ["tallinn1.jpg", "tallinn2.jpg", "tallinn3.jpg", "tallinn4.jpg", "tallinn5.jpg", "tallinn6.jpg", "tallinn7.jpg", "tallinn8.jpg", "tallinn9.jpg", "tallinn10.jpg"],
     "link": "cities/tallinn.html",
-    "name": "Tallinn"
+    "name": "Tallinn",
+    "props": {
+      "culture": true,
+      "eurovision": {
+        "year": "2002"
+      },
+      "ports": {
+        "badges": ["⛴️"],
+        "value": true
+      }
+    }
   },
   "tashkent": {
     "been": false,
@@ -2021,7 +2822,10 @@
     "country": "IR",
     "icons": ["🇮🇷"],
     "link": "cities/tehran.html",
-    "name": "Tehran"
+    "name": "Tehran",
+    "props": {
+      "tintin": true
+    }
   },
   "tel-aviv": {
     "been": true,
@@ -2031,15 +2835,31 @@
     "icons": ["🇮🇱"],
     "images": ["tel-aviv1.jpg", "tel-aviv2.jpg", "tel-aviv3.jpg"],
     "link": "cities/tel-aviv.html",
-    "name": "Tel Aviv"
+    "name": "Tel Aviv",
+    "props": {
+      "eurovision": {
+        "year": "2019"
+      },
+      "ports": true,
+      "second-cities": {
+        "population": "460K"
+      }
+    }
   },
   "thessaloniki": {
     "been": true,
-    "coords": "40.640277777777776, 22.935555555555556",
+    "coords": "40.64027778, 22.93555556",
     "country": "GR",
     "icons": ["🇬🇷"],
     "link": "cities/thessaloniki.html",
-    "name": "Thessaloniki"
+    "name": "Thessaloniki",
+    "props": {
+      "culture": true,
+      "ports": true,
+      "second-cities": {
+        "population": "790K"
+      }
+    }
   },
   "tirana": {
     "been": false,
@@ -2067,7 +2887,15 @@
     "icons": ["🇯🇵"],
     "images": ["tokyo1.jpg", "tokyo2.jpg", "tokyo3.jpg", "tokyo4.jpg", "tokyo5.jpg"],
     "link": "cities/tokyo.html",
-    "name": "Tokyo"
+    "name": "Tokyo",
+    "props": {
+      "money-heist": true,
+      "olympics": {
+        "year": "2020"
+      },
+      "ports": true,
+      "tintin": true
+    }
   },
   "toronto": {
     "been": true,
@@ -2077,7 +2905,10 @@
     "icons": ["🇨🇦"],
     "images": ["toronto1.jpg", "toronto2.jpg", "toronto3.jpg", "toronto4.jpg", "toronto5.jpg", "toronto6.jpg", "toronto7.jpg", "toronto8.jpg", "toronto9.jpg"],
     "link": "cities/toronto.html",
-    "name": "Toronto"
+    "name": "Toronto",
+    "props": {
+      "ports": true
+    }
   },
   "toulouse": {
     "been": true,
@@ -2121,7 +2952,11 @@
     "country": "TN",
     "icons": ["🇹🇳"],
     "link": "cities/tunis.html",
-    "name": "Tunis"
+    "name": "Tunis",
+    "props": {
+      "ports": true,
+      "tintin": true
+    }
   },
   "turin": {
     "been": true,
@@ -2129,15 +2964,27 @@
     "country": "IT",
     "icons": ["🇮🇹"],
     "link": "cities/turin.html",
-    "name": "Turin"
+    "name": "Turin",
+    "props": {
+      "eurovision": {
+        "year": "2022"
+      },
+      "olympics": {
+        "year": "2006"
+      }
+    }
   },
   "valletta": {
     "been": false,
-    "coords": "35.898333, 14.5125",
+    "coords": "35.89833300, 14.51250000",
     "country": "MT",
     "icons": ["🇲🇹"],
     "link": "cities/valletta.html",
-    "name": "Valletta"
+    "name": "Valletta",
+    "props": {
+      "culture": true,
+      "tintin": true
+    }
   },
   "vancouver": {
     "been": false,
@@ -2145,7 +2992,13 @@
     "country": "CA",
     "icons": ["🇨🇦"],
     "link": "cities/vancouver.html",
-    "name": "Vancouver"
+    "name": "Vancouver",
+    "props": {
+      "olympics": {
+        "year": "2010"
+      },
+      "ports": true
+    }
   },
   "venice": {
     "been": true,
@@ -2155,7 +3008,10 @@
     "icons": ["🇮🇹"],
     "images": ["venice1.jpg", "venice2.jpg", "venice3.jpg", "venice4.jpg", "venice5.jpg", "venice6.jpg", "venice7.jpg", "venice8.jpg", "venice9.jpg", "venice10.jpg", "venice11.jpg", "venice12.jpg", "venice13.jpg", "venice14.jpg", "venice15.jpg", "venice16.jpg", "venice17.jpg", "venice18.jpg", "venice19.jpg", "venice20.jpg", "venice21.jpg", "venice22.jpg", "venice23.jpg", "venice24.jpg", "venice25.jpg", "venice26.jpg", "venice27.jpg", "venice28.jpg", "venice29.jpg", "venice30.jpg", "venice31.jpg", "venice32.jpg", "venice33.jpg", "venice34.jpg", "venice35.jpg"],
     "link": "cities/venice.html",
-    "name": "Venice"
+    "name": "Venice",
+    "props": {
+      "ports": true
+    }
   },
   "vienna": {
     "been": true,
@@ -2165,7 +3021,16 @@
     "icons": ["🇦🇹"],
     "images": ["vienna1.jpg", "vienna2.jpg", "vienna3.jpg", "vienna4.jpg", "vienna5.jpg", "vienna6.jpg", "vienna7.jpg", "vienna8.jpg", "vienna9.jpg", "vienna10.jpg", "vienna11.jpg", "vienna12.jpg", "vienna13.jpg", "vienna14.jpg", "vienna15.jpg", "vienna16.jpg", "vienna17.jpg", "vienna18.jpg", "vienna19.jpg", "vienna20.jpg", "vienna21.jpg", "vienna22.jpg", "vienna23.jpg", "vienna24.jpg", "vienna25.jpg", "vienna26.jpg", "vienna27.jpg"],
     "link": "cities/vienna.html",
-    "name": "Vienna"
+    "name": "Vienna",
+    "props": {
+      "eurovision": {
+        "year": "2015"
+      },
+      "tintin": true,
+      "world-cities": {
+        "year": "2020"
+      }
+    }
   },
   "vilnius": {
     "been": true,
@@ -2175,7 +3040,10 @@
     "icons": ["🇱🇹"],
     "images": ["vilnius1.jpg", "vilnius2.jpg", "vilnius3.jpg", "vilnius4.jpg", "vilnius5.jpg", "vilnius6.jpg", "vilnius7.jpg", "vilnius8.jpg", "vilnius9.jpg"],
     "link": "cities/vilnius.html",
-    "name": "Vilnius"
+    "name": "Vilnius",
+    "props": {
+      "culture": true
+    }
   },
   "warsaw": {
     "been": true,
@@ -2185,7 +3053,10 @@
     "icons": ["🇵🇱"],
     "images": ["warsaw1.jpg", "warsaw2.jpg", "warsaw3.jpg", "warsaw4.jpg", "warsaw5.jpg", "warsaw6.jpg", "warsaw7.jpg", "warsaw8.jpg", "warsaw9.jpg", "warsaw10.jpg", "warsaw11.jpg", "warsaw12.jpg", "warsaw13.jpg", "warsaw14.jpg", "warsaw15.jpg"],
     "link": "cities/warsaw.html",
-    "name": "Warsaw"
+    "name": "Warsaw",
+    "props": {
+      "tintin": true
+    }
   },
   "washington": {
     "been": true,
@@ -2205,7 +3076,10 @@
     "icons": ["🇵🇱"],
     "images": ["wrocław1.jpg", "wrocław2.jpg", "wrocław3.jpg", "wrocław4.jpg", "wrocław5.jpg", "wrocław6.jpg", "wrocław7.jpg", "wrocław8.jpg", "wrocław9.jpg", "wrocław10.jpg", "wrocław11.jpg"],
     "link": "cities/wrocław.html",
-    "name": "Wrocław"
+    "name": "Wrocław",
+    "props": {
+      "culture": true
+    }
   },
   "yerevan": {
     "been": false,
@@ -2221,7 +3095,12 @@
     "country": "HR",
     "icons": ["🇭🇷"],
     "link": "cities/zagreb.html",
-    "name": "Zagreb"
+    "name": "Zagreb",
+    "props": {
+      "eurovision": {
+        "year": "1990"
+      }
+    }
   },
   "zanzibar": {
     "been": false,

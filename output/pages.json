@@ -1,0 +1,3772 @@
+[
+  {
+    "icon": "⚡️",
+    "key": "alt-power",
+    "map": {
+      "cluster": "false",
+      "icon": "1",
+      "lat": "35",
+      "lon": "62",
+      "zoom": "3"
+    },
+    "name": "Alt Power",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Cities in China with a population over one million people.",
+    "icon": "🇨🇳",
+    "key": "china-cities",
+    "map": {
+      "lat": "35",
+      "lon": "110",
+      "zoom": "4"
+    },
+    "name": "China Cities",
+    "size": "large",
+    "tags": ["city-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🎥",
+    "key": "tv-places",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "TV Places",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🦔",
+    "key": "calatrava",
+    "map": {
+      "lat": "48",
+      "lon": "-45",
+      "zoom": "3"
+    },
+    "name": "Santiago Calatrava",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🕳️",
+    "key": "metro-tunnels",
+    "name": "Metro Tunnels",
+    "size": "large",
+    "tags": ["reference-first", "auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇨🇿",
+    "key": "t3",
+    "name": "Tatra T3",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏛️",
+    "key": "legislatures",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Legislatures",
+    "size": "small",
+    "sort": ["name", "countries"],
+    "tags": ["auto", "country-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🚀",
+    "key": "shuttles",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Shuttles",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "👬",
+    "key": "co-rulers",
+    "name": "Co-Rulers",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "⛩️",
+    "key": "temples",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Temples",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🚌",
+    "key": "brt",
+    "name": "Bus Rapid Transit",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🤽🏻‍♂️",
+    "key": "swimming",
+    "map": {
+      "lat": "40",
+      "lon": "-20",
+      "zoom": "3"
+    },
+    "name": "Swimming",
+    "script": "swimming.js",
+    "size": "large",
+    "sort": ["iconCount"],
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "header": "A <a href=\"https://en.wikipedia.org/wiki/Grand_union\" class=\"dark\">grand union</a> is a rail junction at a four-way intersection in which trams arriving from any direction can continue in any direction. A three-quarter junction has three of the four curves, while a butterfly has curves on opposite corners.",
+    "icon": "🦋",
+    "key": "grand-unions",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "5"
+    },
+    "name": "Grand Unions",
+    "size": "medium",
+    "sort": "reference",
+    "tags": ["auto", "featured", "fractions", "no-data", "reference-first"],
+    "type": "place"
+  },
+  {
+    "header": "Routes where trains travel back and forth on the same track.",
+    "icon": "1️⃣",
+    "key": "single-track",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Single Track",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🤡",
+    "key": "copies",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Copies",
+    "size": "medium",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "✈️",
+    "key": "airlines",
+    "name": "Airlines",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏡",
+    "key": "airbnb",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Airbnbs",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto", "ordered"],
+    "type": "place"
+  },
+  {
+    "icon": "💸",
+    "key": "non-revenue",
+    "name": "Non-Revenue Tracks",
+    "size": "small",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🌝",
+    "key": "luna-park",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Luna Park",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🛫",
+    "key": "airport-trams",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Airport Trams",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🇲🇽",
+    "key": "mexico",
+    "map": {
+      "cluster": "true",
+      "lat": "23.6345",
+      "lon": "-102.5528",
+      "zoom": "5"
+    },
+    "name": "Estados mexicanos",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "⛲️",
+    "key": "springs",
+    "name": "Springs",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🦫",
+    "key": "buc-ees",
+    "map": {
+      "cluster": "true",
+      "lat": "34",
+      "lon": "-89",
+      "zoom": "5"
+    },
+    "name": "Buc-ee’s",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto", "google", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🌆",
+    "key": "world-cities",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "World Cities",
+    "prefixType": "year",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
+  {
+    "header": "The forty <a href=\"https://en.wikipedia.org/wiki/Boundary_markers_of_the_original_District_of_Columbia\" class=\"dark\">boundary stones</a> were placed at one mile intervals around the original border of the District of Columbia in 1791. Most of them are now behind bars!",
+    "icon": "🪨",
+    "key": "boundary-stones",
+    "map": {
+      "lat": "38.89324513",
+      "lon": "-77.04098558",
+      "zoom": "12"
+    },
+    "name": "Boundary Stones",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto", "ordered"],
+    "type": "place"
+  },
+  {
+    "icon": "🥇",
+    "key": "olympics",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Olympics",
+    "prefixType": "year",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🎙️",
+    "key": "music-places",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Music Places",
+    "size": "large",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🚞",
+    "key": "sloped",
+    "name": "Sloped Platforms",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "👷‍♂️",
+    "key": "planned",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Planned Cities",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Metro stations with only one platform edge.",
+    "icon": "1️⃣",
+    "key": "single-platform",
+    "name": "Single Platform",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🍏",
+    "key": "apple-pay",
+    "name": "Apple Pay",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "🗽",
+    "key": "citizenship",
+    "name": "Citizenship",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇸",
+    "key": "spain",
+    "map": {
+      "cluster": "false",
+      "lat": "40.4637",
+      "lon": "-3.7492",
+      "zoom": "6"
+    },
+    "name": "Comunidades autónomas de España",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🗼",
+    "key": "towers",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Towers",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🌊",
+    "key": "rivers",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Rivers",
+    "size": "medium",
+    "sort": "iconCount",
+    "type": "place"
+  },
+  {
+    "icon": "⏰",
+    "key": "music-time",
+    "name": "Music Time",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "👩🏽",
+    "key": "diverse",
+    "name": "Diverse Bands",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "header": "Trams that serve metro-like stations.",
+    "icon": "🚉",
+    "key": "premetros",
+    "name": "Premetros",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "📷",
+    "key": "anton-corbijn",
+    "map": {
+      "lat": "40",
+      "lon": "-50",
+      "zoom": "3"
+    },
+    "name": "Anton Corbijn",
+    "size": "medium",
+    "sort": ["order", "name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🕌",
+    "key": "mosques",
+    "map": {
+      "lat": "27",
+      "lon": "40",
+      "zoom": "3"
+    },
+    "name": "Mosques",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🔬",
+    "key": "microstates",
+    "name": "Microstates",
+    "size": "large",
+    "tags": ["auto", "country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🍒",
+    "key": "metro-food",
+    "map": {
+      "lat": "40",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Metro Food",
+    "size": "medium",
+    "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "📛",
+    "key": "place-names",
+    "name": "Place Names",
+    "size": "medium",
+    "tags": ["n"],
+    "type": "place"
+  },
+  {
+    "icon": "🪐",
+    "key": "music-space",
+    "name": "Music Space",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "header": "Price of a metro ticket in US dollars.",
+    "icon": "💵",
+    "key": "metro-prices",
+    "name": "Metro Prices",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🎟️",
+    "key": "fare-cards",
+    "name": "Fare Cards",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🎬",
+    "key": "movie-places",
+    "name": "Movie Places",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "⬅️",
+    "key": "lefthand",
+    "name": "Left-Hand Drive",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "📀",
+    "key": "turntables",
+    "name": "Turntables",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🪪",
+    "key": "artist-names",
+    "name": "Real Names",
+    "size": "small",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "♨️",
+    "key": "spa-towns",
+    "map": {
+      "cluster": "false",
+      "lat": "49",
+      "lon": "9",
+      "zoom": "5"
+    },
+    "name": "Spa Towns of Europe",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚡",
+    "key": "cable-cars",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Cable Cars",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🔒",
+    "key": "landlocked",
+    "name": "Landlocked",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🏗",
+    "key": "infill",
+    "name": "Infill Stations",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🚷",
+    "key": "short-platform",
+    "name": "Short Platforms",
+    "size": "large",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🌀",
+    "key": "spirals",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Spirals",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⬇️",
+    "key": "deep-level",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Deep Level",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏭",
+    "key": "factories",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Factories",
+    "size": "medium",
+    "sort": ["name"],
+    "tags": ["auto", "double-flag", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇺",
+    "key": "europe-2003",
+    "map": {
+      "lat": "53",
+      "lon": "10",
+      "zoom": "4"
+    },
+    "name": "Europe 2003",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🍴",
+    "key": "branches",
+    "name": "Branch Lines",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🪣",
+    "key": "bucket",
+    "map": {
+      "lat": "23",
+      "lon": "20",
+      "zoom": "2"
+    },
+    "name": "Bucket List",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🍩",
+    "key": "enclaves",
+    "map": {
+      "lat": "48",
+      "lon": "12",
+      "zoom": "4"
+    },
+    "name": "Enclaves & Exclaves",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🛑",
+    "key": "bumper",
+    "map": {
+      "lat": "42",
+      "lon": "-47",
+      "zoom": "3"
+    },
+    "name": "Bumper Blocks",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🛌",
+    "key": "night-trains",
+    "name": "Night Trains",
+    "size": "large",
+    "tags": ["no-links", "ordered"],
+    "type": "place"
+  },
+  {
+    "icon": "🙋‍♂️",
+    "key": "solo",
+    "name": "Solo Musicians",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "🍔",
+    "key": "hamburgers",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Hamburgers",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🐍",
+    "key": "switchbacks",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Switchbacks",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🛫",
+    "key": "airports",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Airports",
+    "prefixClass": "airport",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "☠️",
+    "key": "closed-lines",
+    "name": "Closed Lines",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🏜️",
+    "key": "endoheric",
+    "name": "Endoheric Basins",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🔄",
+    "key": "left-to-right",
+    "name": "Switched Sides",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🪖",
+    "key": "forts",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "4"
+    },
+    "name": "Fortifications",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇯🇵",
+    "key": "japan",
+    "map": {
+      "lat": "38.5",
+      "lon": "135",
+      "zoom": "5"
+    },
+    "name": "Japanese Prefectures",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "💰",
+    "key": "tariffs",
+    "name": "Tariffs",
+    "prefixType": "percent",
+    "size": "large",
+    "tags": ["no-links", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🅿️",
+    "key": "parking",
+    "name": "Parking",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🎡",
+    "key": "ferris-wheels",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Ferris Wheels",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏊‍♂️",
+    "key": "pools",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Pools",
+    "size": "large",
+    "tags": ["auto", "featured", "google"],
+    "type": "place"
+  },
+  {
+    "icon": "💦",
+    "key": "aqueducts",
+    "map": {
+      "cluster": "true",
+      "lat": "42",
+      "lon": "10",
+      "zoom": "5"
+    },
+    "name": "Aqueducts",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Lines that have switched from one service to another.",
+    "icon": "🔀",
+    "key": "switched",
+    "name": "Switched Service",
+    "prefixType": "year",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🎛",
+    "key": "producers",
+    "name": "Producers",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🛣",
+    "key": "highways",
+    "name": "Highways",
+    "size": "large",
+    "sort": ["countries", "name"],
+    "tags": ["auto", "country-key", "no-coords"],
+    "type": "place"
+  },
+  {
+    "footer": "List of places named <a class=\"link\" href=\"newcastle.html\">Newcastle</a>.",
+    "icon": "🏰",
+    "key": "castles",
+    "map": {
+      "lat": "48.5",
+      "lon": "7",
+      "zoom": "5"
+    },
+    "name": "Castles & Palaces",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🔌",
+    "key": "cable-landings",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Cable Landings",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "<br>See also <a href=\"young-leaders.html\" class=\"dark\">young leaders</a>.",
+    "icon": "👑",
+    "key": "leaders",
+    "name": "Heads of State",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🏛️",
+    "key": "roman-towns",
+    "map": {
+      "cluster": "false",
+      "lat": "45",
+      "lon": "10",
+      "zoom": "4"
+    },
+    "name": "Roman Towns",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚎",
+    "key": "trolleybuses",
+    "name": "Trolleybuses",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🌳",
+    "key": "parks",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Parks",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🧑‍🧑‍🧒‍🧒",
+    "key": "music-family",
+    "name": "Music Family",
+    "size": "medium",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "📏",
+    "key": "gauges",
+    "name": "Track Gauges",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🗺️",
+    "key": "car-places",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Car Places",
+    "size": "medium",
+    "sort": "name",
+    "tags": ["auto", "double-flag", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "footer": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
+    "icon": "👯",
+    "key": "twin-cities",
+    "map": {
+      "lat": "25",
+      "lon": "0",
+      "zoom": "2"
+    },
+    "name": "Twin Cities",
+    "size": "medium",
+    "sort": ["group", "order", "name", "countries"],
+    "tags": ["auto", "featured", "country-key", "todo-icon"],
+    "type": "place"
+  },
+  {
+    "icon": "🛶",
+    "key": "lakes",
+    "map": {
+      "lat": "30",
+      "lon": "-10",
+      "zoom": "2"
+    },
+    "name": "Lakes",
+    "size": "large",
+    "sort": "iconCount",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Locations where live albums were recorded.",
+    "icon": "🏟️",
+    "key": "live",
+    "name": "Live",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🤝",
+    "key": "unification",
+    "name": "Unification",
+    "prefixType": "year",
+    "size": "medium",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🇵🇳",
+    "key": "similar-flags",
+    "name": "Similar Flags",
+    "size": "large",
+    "tags": ["country-flag", "todo-icon"],
+    "type": "place"
+  },
+  {
+    "icon": "🇱🇺",
+    "key": "schengen",
+    "name": "Schengen",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🚝",
+    "key": "people-movers",
+    "name": "People Movers",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "💳",
+    "key": "apple-wallet",
+    "name": "Apple Wallet",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "footer": "For classic trams that run between towns, see <a class=\"dark\" href=\"interurbans.html\">Interurbans</a>.",
+    "group": "date",
+    "header": "Modern trams that run partially on mainline train tracks.",
+    "icon": "🚊",
+    "key": "tram-trains",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Tram-Trains",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚽",
+    "key": "urinals",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Urinals",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "💬",
+    "key": "official-languages",
+    "name": "Official Languages",
+    "size": "large",
+    "sort": ["name", "countries"],
+    "tags": ["auto", "country-key", "no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "💨",
+    "key": "express",
+    "name": "Express Lines",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "👴",
+    "key": "metro-people",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Metro People",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🚟",
+    "key": "suspension",
+    "name": "Suspension Railways",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🚃",
+    "key": "pcc",
+    "name": "PCC Streetcars",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇲🇽",
+    "key": "mexico-city",
+    "map": {
+      "icon": "1",
+      "lat": "19.43",
+      "lon": "-99.12",
+      "zoom": "11"
+    },
+    "name": "Ciudad de México",
+    "size": "large",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "🔀",
+    "key": "left-right",
+    "name": "Left-Right Borders",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🧭",
+    "key": "nato",
+    "name": "NATO",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🇷🇺",
+    "key": "trans-siberian",
+    "map": {
+      "cluster": "false",
+      "lat": "51",
+      "lon": "86",
+      "style": "width:",
+      "zoom": "4"
+    },
+    "name": "Trans-Siberian",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "footer": "See also <a href=\"first-locations.html\" class=\"dark\">first locations</a>.",
+    "icon": "🏚️",
+    "key": "last-locations",
+    "name": "Last Locations",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "header": "Band members who sing lead vocals on a few songs.",
+    "icon": "🎤",
+    "key": "guest-singers",
+    "name": "Lead Vocals",
+    "size": "small",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "⛴️",
+    "key": "ferries",
+    "map": {
+      "lat": "45",
+      "lon": "-45",
+      "zoom": "3"
+    },
+    "name": "Ferries",
+    "size": "large",
+    "tags": ["middleSectionBeen"],
+    "type": "place"
+  },
+  {
+    "icon": "🚠",
+    "key": "funiculars",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Funiculars",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇻🇦",
+    "key": "popes",
+    "name": "Popes",
+    "size": "small",
+    "tags": ["no-coords", "people", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🛂",
+    "key": "border-posts",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Border Posts",
+    "size": "medium",
+    "sort": "order",
+    "tags": ["middleSectionBeen"],
+    "type": "place"
+  },
+  {
+    "icon": "🖼",
+    "key": "museums",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Museums",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏗️",
+    "key": "rebuilt",
+    "name": "Rebuilt Stations",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🤯",
+    "key": "ground-zero",
+    "name": "Ground Zero",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🛍",
+    "key": "malls",
+    "map": {
+      "lat": "36",
+      "lon": "-42",
+      "zoom": "3"
+    },
+    "name": "Shopping Malls",
+    "size": "large",
+    "tags": ["auto", "google"],
+    "type": "place"
+  },
+  {
+    "icon": "🙅",
+    "key": "no-trains",
+    "name": "No Trains",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🕍",
+    "key": "synagogues",
+    "map": {
+      "cluster": "false",
+      "lat": "45.5",
+      "lon": "20",
+      "zoom": "4"
+    },
+    "name": "Synagogues",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "📚",
+    "key": "books",
+    "name": "Books",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇸",
+    "key": "spanish",
+    "name": "Spanish Solution",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🛗",
+    "key": "elevators",
+    "name": "Elevators",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚦",
+    "key": "level-crossings",
+    "name": "Level Crossings",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🗺",
+    "key": "metro-places",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Metro Places",
+    "size": "large",
+    "tags": ["auto", "double-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🎪",
+    "key": "expos",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Expos",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏳️‍🌈",
+    "key": "marriage",
+    "name": "Marriage",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🕺",
+    "key": "music-people",
+    "name": "Music People",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🤑",
+    "key": "fare-free",
+    "name": "Fare Free",
+    "size": "medium",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🚂",
+    "key": "heritage",
+    "map": {
+      "lat": "43",
+      "lon": "-27",
+      "zoom": "3"
+    },
+    "name": "Heritage Railways",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏨",
+    "key": "hotels",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Hotels",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🌴",
+    "key": "greenhouses",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Greenhouses",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🍌",
+    "key": "curved",
+    "name": "Curved Platforms",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "⛲️",
+    "key": "squares",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Squares",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🛞",
+    "key": "rubber",
+    "name": "Rubber Tires",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "✳️",
+    "key": "transfer",
+    "name": "Transfer Stations",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "header": "I have operated the following transit vehicles:",
+    "icon": "🥌",
+    "key": "operating",
+    "map": {
+      "cluster": "false",
+      "lat": "47",
+      "lon": "15",
+      "zoom": "5"
+    },
+    "name": "Operating",
+    "size": "large",
+    "tags": ["featured", "no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "💥",
+    "key": "disputed",
+    "map": {
+      "lat": "16",
+      "lon": "30",
+      "zoom": "2"
+    },
+    "name": "Disputed Territories",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "footer": "",
+    "icon": "🏛",
+    "key": "capitals",
+    "map": {
+      "lat": "18",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Capitals",
+    "size": "large",
+    "tags": ["auto", "city-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🧀",
+    "key": "aop",
+    "map": {
+      "lat": "47",
+      "lon": "4",
+      "zoom": "5"
+    },
+    "name": "Wine & Cheese",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚉",
+    "key": "stations",
+    "name": "Train Stations",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "♨️",
+    "key": "spas",
+    "map": {
+      "lat": "49",
+      "lon": "9",
+      "zoom": "5"
+    },
+    "name": "Spas",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🤖",
+    "key": "automatic",
+    "name": "Automatic Metros",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "📏",
+    "key": "metro-widths",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Metro Widths",
+    "size": "medium",
+    "sort": "size",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🚇",
+    "key": "longest-tunnels",
+    "name": "Longest Tunnels",
+    "size": "small",
+    "tags": ["no-coords", "prefix", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🧱",
+    "key": "walls",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Walls",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "footer": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
+    "icon": "🇲🇰",
+    "key": "alexandria",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Alexandria",
+    "size": "small",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "<br>See also <a href=\"leaders.html\" class=\"dark\">heads of state</a> I have seen in real life.",
+    "icon": "👦🏻",
+    "key": "young-leaders",
+    "name": "Young Leaders",
+    "size": "medium",
+    "tags": ["people", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🗽",
+    "key": "statues",
+    "name": "Statues",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🤏",
+    "key": "closest",
+    "name": "Closest",
+    "size": "small",
+    "sort": "prefix",
+    "tags": ["auto", "prefix", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🎸",
+    "key": "music-origins",
+    "name": "Music Origins",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🕳️",
+    "key": "tunnels",
+    "map": {
+      "lat": "48",
+      "lon": "-45",
+      "zoom": "3"
+    },
+    "name": "Tunnels",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🫏",
+    "key": "car-free",
+    "map": {
+      "lat": "25",
+      "lon": "10",
+      "zoom": "2"
+    },
+    "name": "Car-Free",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚗",
+    "key": "cars",
+    "name": "My Cars",
+    "size": "large",
+    "sort": "order",
+    "tags": ["ordered", "reference-first", "reference-key", "no-links"],
+    "type": "entity"
+  },
+  {
+    "icon": "🔄",
+    "key": "roundabouts",
+    "name": "Roundabouts",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Stations with direct interchange between different modes of transport.",
+    "icon": "🎛️",
+    "key": "intermodal",
+    "name": "Intermodal",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏛",
+    "key": "galleries",
+    "name": "Galleries & Passages",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🌒",
+    "key": "eclipses",
+    "name": "Eclipses",
+    "size": "large",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🦹‍♀️",
+    "key": "female-bassists",
+    "name": "Female Bassists",
+    "size": "medium",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "🇽🇰",
+    "key": "kosovo",
+    "name": "Kosovo",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "👩‍🎤",
+    "key": "artists",
+    "name": "Artists",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "🛫",
+    "key": "airport-trains",
+    "name": "Airport Trains",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🇻🇦",
+    "key": "popemobiles",
+    "name": "Popemobiles",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🏞️",
+    "key": "national-parks",
+    "name": "National Parks",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🤳",
+    "key": "photographers",
+    "name": "Photographers",
+    "size": "large",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "🇲🇰",
+    "key": "directions",
+    "name": "Directions",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "✨",
+    "key": "new-stations",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "New Stations",
+    "prefixClass": "fixed",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["auto", "prefix", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "⛔",
+    "key": "closed-cities",
+    "map": {
+      "cluster": "false",
+      "lat": "53",
+      "lon": "75",
+      "zoom": "3"
+    },
+    "name": "Closed Cities",
+    "size": "large",
+    "tags": ["auto", "city-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🆕",
+    "key": "newcastle",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Newcastle",
+    "size": "small",
+    "type": "place"
+  },
+  {
+    "icon": "🏠",
+    "key": "homes",
+    "name": "Hometowns",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "🚩",
+    "key": "tripoints",
+    "map": {
+      "cluster": "false",
+      "lat": "47",
+      "lon": "15",
+      "zoom": "5"
+    },
+    "name": "Tripoints",
+    "nearDistance": 5,
+    "size": "large",
+    "sort": "countries",
+    "tags": ["auto", "featured", "middleSectionBeen"],
+    "type": "place"
+  },
+  {
+    "icon": "🧊",
+    "key": "foster",
+    "map": {
+      "lat": "48",
+      "lon": "-45",
+      "zoom": "3"
+    },
+    "name": "Norman Foster",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🛟",
+    "key": "reclaimed",
+    "name": "Reclaimed Land",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⛓️‍💥",
+    "key": "break-of-gauge",
+    "name": "Break of Gauge",
+    "size": "medium",
+    "sort": "iconCount",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏛",
+    "key": "state-capitals",
+    "map": {
+      "cluster": "false",
+      "lat": "37",
+      "lon": "-95",
+      "zoom": "4"
+    },
+    "name": "State Capitals",
+    "size": "large",
+    "tags": ["city-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🍏",
+    "key": "apple",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Apple Stores",
+    "size": "large",
+    "tags": ["auto", "featured", "google"],
+    "type": "place"
+  },
+  {
+    "icon": "🏭",
+    "key": "depots",
+    "name": "Depots",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "👨‍👦‍👦",
+    "key": "trios",
+    "name": "Power Trios",
+    "size": "large",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  {
+    "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
+    "icon": "🏚",
+    "key": "abandoned",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Abandoned Stations",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "☢️",
+    "key": "power-stations",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Power Stations",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Classic trams that run between towns over rural tram tracks.",
+    "icon": "🚃",
+    "key": "interurbans",
+    "name": "Interurbans",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🪜",
+    "key": "stairs",
+    "name": "Stairs",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🧭",
+    "key": "extremities",
+    "map": {
+      "cluster": "false",
+      "lat": "40",
+      "lon": "-34",
+      "zoom": "3"
+    },
+    "name": "Extreme Points",
+    "size": "large",
+    "sort": ["countries", "states", "icons"],
+    "tags": ["auto", "featured", "states"],
+    "type": "place"
+  },
+  {
+    "icon": "🇸🇪",
+    "key": "ikea",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "IKEA",
+    "size": "large",
+    "tags": ["google", "middleSectionBeen"],
+    "type": "place"
+  },
+  {
+    "icon": "⛺️",
+    "key": "camping",
+    "name": "Camping",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "🌉",
+    "key": "bridges",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Bridges",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🧬",
+    "key": "old-names",
+    "name": "Old Names",
+    "size": "medium",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "🛗",
+    "key": "elevator-stations",
+    "name": "Elevator Stations",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🧊",
+    "key": "northernmost",
+    "map": {
+      "cluster": "true",
+      "icon": "1",
+      "lat": "62.8",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Northernmost",
+    "prefixClass": "fixed",
+    "size": "small",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🐧",
+    "key": "southernmost",
+    "map": {
+      "cluster": "true",
+      "icon": "1",
+      "lat": "-55",
+      "lon": "45",
+      "zoom": "2"
+    },
+    "name": "Southernmost",
+    "prefixClass": "fixed",
+    "size": "small",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "footer": "For stations on the same metro, see <a class=\"dark\" href=\"duplicate-stations.html\">Duplicate Stations</a>.",
+    "icon": "👯",
+    "key": "twin-stations",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Twin Stations",
+    "size": "medium",
+    "sort": ["group", "countries", "reference"],
+    "tags": ["auto", "reference-key", "todo-icon"],
+    "type": "place"
+  },
+  {
+    "icon": "👷‍♂️",
+    "key": "architects",
+    "name": "Architects",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "header": "Stations where metro services sometimes turn around early to maintain higher frequency on part of the line.",
+    "icon": "↩️",
+    "key": "short-turn",
+    "name": "Short Turn",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🏝️",
+    "key": "islands",
+    "map": {
+      "lat": "25",
+      "lon": "10",
+      "zoom": "2"
+    },
+    "name": "Islands",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⚪️",
+    "key": "spheres",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Spheres",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Metro stations with different names connected inside fare control.",
+    "icon": "⤴️",
+    "key": "connections",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Connections",
+    "size": "small",
+    "tags": ["reference-first"],
+    "type": "place"
+  },
+  {
+    "headlines": ["Cantons suisses", "Kantone der Schweiz", "Cantoni svizzeri", "Chantuns svizzers"],
+    "icon": "🇨🇭",
+    "key": "switzerland",
+    "map": {
+      "cluster": "false",
+      "lat": "47.05",
+      "lon": "8",
+      "zoom": "8"
+    },
+    "name": "Swiss Cantons",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "📺",
+    "key": "tv",
+    "name": "Television",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "💦",
+    "key": "waterfalls",
+    "name": "Waterfalls",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏳️‍🌈",
+    "key": "bi-people",
+    "name": "Bisexual People",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "🗺️",
+    "key": "international-trams",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Cross-Border",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
+    "icon": "🚋",
+    "key": "trams",
+    "map": {
+      "lat": "43",
+      "lon": "-27",
+      "zoom": "3"
+    },
+    "name": "Trams",
+    "sections": ["done", "taken", "seen"],
+    "size": "large",
+    "sort": "-size",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🌙",
+    "key": "late-night",
+    "name": "Late Night",
+    "size": "large",
+    "tags": ["reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🚛",
+    "key": "bi-articulated",
+    "name": "Bi-Articulated Buses",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇺🇳",
+    "key": "unesco",
+    "map": {
+      "lat": "27",
+      "lon": "-1",
+      "zoom": "2"
+    },
+    "name": "World Heritage Sites",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "⚛️",
+    "key": "elements",
+    "map": {
+      "lat": "36.12",
+      "lon": "-115.17",
+      "zoom": "13"
+    },
+    "name": "Elements",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "☸️",
+    "key": "circular",
+    "name": "Circular Grids",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⚓️",
+    "key": "ports",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Ports",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Highways that can be used as emergency runways for military aircraft.",
+    "icon": "🛬",
+    "key": "highway-strips",
+    "map": {
+      "lat": "15",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Highway Strips",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🧗",
+    "key": "highest",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Highest Points",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "prefix", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇭",
+    "key": "western-sahara",
+    "name": "Western Sahara",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🎺",
+    "key": "backing-bands",
+    "name": "Backing Bands",
+    "size": "medium",
+    "tags": ["no-links", "people"],
+    "type": "place"
+  },
+  {
+    "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
+    "icon": "🚸",
+    "key": "confluence",
+    "map": {
+      "clusterLevel": "6",
+      "lat": "43",
+      "lines": "true",
+      "lon": "-27",
+      "zoom": "3"
+    },
+    "name": "Confluence Points",
+    "prefixClass": "fixed",
+    "script": "confluence.js",
+    "size": "large",
+    "sort": "coords",
+    "tags": ["auto", "featured", "lookup-state", "no-data"],
+    "type": "place"
+  },
+  {
+    "header": "Metro stations with the fewest annual passenger entrances.",
+    "icon": "🕸️",
+    "key": "least-used",
+    "name": "Least Used",
+    "prefixClass": "fixed",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["auto", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🏖️",
+    "key": "short-coastline",
+    "map": {
+      "lat": "32",
+      "lon": "15",
+      "zoom": "3"
+    },
+    "name": "Short Coastline",
+    "prefixType": "length_km",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["country-flag", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "💎",
+    "key": "diamond",
+    "name": "Diamond Crossings",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🧂",
+    "key": "salt",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Salt Ponds",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⛔️",
+    "key": "no-exit",
+    "name": "No Exit",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "✌️",
+    "key": "bilingual-stations",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Bilingual Stations",
+    "size": "medium",
+    "sort": "city",
+    "type": "place"
+  },
+  {
+    "icon": "🏔",
+    "key": "mountains",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Mountains & Passes",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🤿",
+    "key": "lowest",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Lowest Points",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "size",
+    "tags": ["auto", "featured", "prefix", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🛕",
+    "key": "pyramids",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Pyramids",
+    "prefixClass": "fixed",
+    "size": "large",
+    "sizeFormat": "meters",
+    "sort": "-size",
+    "tags": ["auto", "featured", "size"],
+    "type": "place"
+  },
+  {
+    "icon": "🪶",
+    "key": "reservations",
+    "map": {
+      "lat": "39",
+      "lon": "-98",
+      "zoom": "4"
+    },
+    "name": "Reservations",
+    "size": "large",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "🤘",
+    "key": "concerts",
+    "name": "Concerts",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["no-links", "people", "prefix", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🚗",
+    "key": "auto-trains",
+    "name": "Auto Trains",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "🏛",
+    "key": "arches",
+    "name": "Arches",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🥈",
+    "key": "records",
+    "map": {
+      "lat": "50",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Records",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🪦",
+    "key": "cemeteries",
+    "name": "Cemeteries",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏝️",
+    "key": "territories",
+    "name": "Territories",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["no-coords"],
+    "type": "place"
+  },
+  {
+    "icon": "🚟",
+    "key": "transporter",
+    "name": "Transporter Bridges",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🥾",
+    "key": "rail-trails",
+    "name": "Rail Trails",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Metro lines where power is collected from overhead lines with a pantograph.",
+    "icon": "🩼",
+    "key": "overhead",
+    "name": "Overhead Lines",
+    "size": "large",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "👻",
+    "key": "least-used-uk",
+    "map": {
+      "cluster": "false",
+      "icon": "1",
+      "lat": "55",
+      "lon": "-3",
+      "zoom": "5"
+    },
+    "name": "Least Used UK",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "⚒️",
+    "key": "mines",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Mines",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🐍",
+    "key": "open-gangways",
+    "name": "Open Gangways",
+    "size": "medium",
+    "tags": ["no-coords", "prefix", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🏭",
+    "key": "industrial",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Industrial Sites",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🥁",
+    "key": "singing-drummers",
+    "name": "Singing Drummers",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  {
+    "header": "Evidence of the <a class=\"dark\" href=\"https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy\">Great Streetcar Conspiracy</a>,<br>as revealed in the film <i><a class=\"dark\" href=\"https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit\">Who Framed Roger Rabbit?</a></i><br><br>",
+    "icon": "🐰",
+    "key": "closed-trams",
+    "map": {
+      "lat": "25",
+      "lon": "10",
+      "zoom": "2"
+    },
+    "name": "Closed Trams",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🎆",
+    "key": "independence",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Independence",
+    "prefixClass": "fixed",
+    "prefixType": "year",
+    "size": "medium",
+    "sort": "prefix",
+    "tags": ["auto", "prefix", "double-flag"],
+    "type": "place"
+  },
+  {
+    "header": "Routes where trains travel both directions in a continuous circle.",
+    "icon": "⭕️",
+    "key": "circle-lines",
+    "name": "Circle Lines",
+    "size": "large",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "header": "Routes where trains travel in a single direction.",
+    "icon": "➡️",
+    "key": "one-way",
+    "name": "One Way",
+    "size": "medium",
+    "tags": ["reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "0️⃣",
+    "key": "zero-points",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Zero Points",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🇫🇷",
+    "key": "france",
+    "map": {
+      "cluster": "false",
+      "lat": "48",
+      "lon": "2",
+      "zoom": "5"
+    },
+    "name": "Départements français",
+    "size": "large",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "👨‍🎓",
+    "key": "universities",
+    "name": "Universities",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🔀",
+    "key": "cross-platform",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Cross-Platform",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🚽",
+    "key": "toilets",
+    "map": {
+      "lat": "35.67",
+      "lon": "139.69222222",
+      "zoom": "13"
+    },
+    "name": "Tokyo Toilets",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🇵🇹",
+    "key": "portuguese",
+    "name": "Portuguese",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "👮🏽‍♂️",
+    "key": "police",
+    "name": "Police Stations",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏴‍☠️",
+    "key": "micronations",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Micronations",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚢",
+    "key": "canals",
+    "name": "Canals",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇬🇧",
+    "key": "united-kingdom",
+    "map": {
+      "lat": "56",
+      "lon": "-3",
+      "zoom": "5"
+    },
+    "name": "UK Counties",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🚘",
+    "key": "congestion",
+    "name": "Congestion Charge",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "flagClass": "icon",
+    "flagFolder": "trains",
+    "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
+    "icon": "🚇",
+    "key": "metros",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Metros",
+    "sections": ["done", "taken", "visited", "want"],
+    "size": "large",
+    "sort": "-size",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "💙",
+    "key": "eurovision",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "4"
+    },
+    "name": "Eurovision",
+    "prefixType": "year",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🚂",
+    "key": "orient-express",
+    "map": {
+      "cluster": "false",
+      "lat": "45.5",
+      "lon": "13",
+      "style": "height:",
+      "zoom": "5"
+    },
+    "name": "Orient Express",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🕯️",
+    "key": "lighthouses",
+    "name": "Lighthouses",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Stations served more than once by the same line.",
+    "icon": "🔂",
+    "key": "loopback",
+    "name": "Loopback",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "📐",
+    "key": "struve",
+    "map": {
+      "cluster": "false",
+      "lat": "61.5",
+      "lon": "23",
+      "zoom": "4"
+    },
+    "name": "Struve Geodetic Arc",
+    "size": "large",
+    "sort": ["coords"],
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🌎",
+    "key": "countries",
+    "name": "Countries",
+    "size": "large",
+    "tags": ["featured"],
+    "type": "country"
+  },
+  {
+    "icon": "3️⃣",
+    "key": "tri-states",
+    "map": {
+      "cluster": "false",
+      "lat": "37",
+      "lon": "-95",
+      "zoom": "4"
+    },
+    "name": "Tri-States",
+    "size": "large",
+    "sort": ["order", "countries", "states"],
+    "tags": ["auto", "featured", "states"],
+    "type": "place"
+  },
+  {
+    "footer": "",
+    "icon": "🚀",
+    "key": "tintin",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Tintin",
+    "size": "large",
+    "tags": ["city-flag"],
+    "type": "place"
+  },
+  {
+    "footer": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
+    "icon": "🍔",
+    "key": "first-locations",
+    "name": "First Locations",
+    "size": "large",
+    "tags": ["auto", "no-coords", "no-link"],
+    "type": "place"
+  },
+  {
+    "icon": "🏳️‍⚧️",
+    "key": "non-binary",
+    "name": "Non-Binary",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🪦",
+    "key": "founded",
+    "name": "Founded",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "header": "Runways designated as Space Shuttle emergency landing sites.",
+    "icon": "🛬",
+    "key": "space-shuttle",
+    "name": "Space Shuttle",
+    "size": "medium",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇨🇿",
+    "key": "czechia",
+    "map": {
+      "cluster": "false",
+      "lat": "49.8175",
+      "lon": "15.4730",
+      "zoom": "7"
+    },
+    "name": "České kraje",
+    "size": "large",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇺",
+    "key": "culture",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "4"
+    },
+    "name": "Culture Capitals",
+    "size": "large",
+    "tags": ["auto", "city-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🇧🇷",
+    "key": "brazil",
+    "map": {
+      "cluster": "false",
+      "lat": "-12",
+      "lon": "-55",
+      "zoom": "4"
+    },
+    "name": "Estados brasileiros",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "✌️",
+    "key": "bilingual",
+    "name": "Bilingual",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇮🇹",
+    "key": "italy",
+    "map": {
+      "cluster": "false",
+      "lat": "42.5",
+      "lon": "12.5",
+      "zoom": "5"
+    },
+    "name": "Regioni italiane",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏖",
+    "key": "beaches",
+    "map": {
+      "lat": "39",
+      "lon": "-45",
+      "zoom": "3"
+    },
+    "name": "Beaches",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "icon": "🛻",
+    "key": "route-20",
+    "map": {
+      "cluster": "false",
+      "lat": "42.6",
+      "lon": "-97",
+      "style": "height:",
+      "zoom": "5"
+    },
+    "name": "Route 20",
+    "size": "large",
+    "sort": "order",
+    "tags": ["auto", "ordered"],
+    "type": "place"
+  },
+  {
+    "header": "Tracks where a train can reverse by performing a three-point turn.",
+    "icon": "🖖",
+    "key": "wyes",
+    "name": "Wyes",
+    "size": "medium",
+    "tags": ["reference-first", "auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🔔",
+    "key": "belfries",
+    "map": {
+      "cluster": "false",
+      "lat": "50.7",
+      "lon": "3.4",
+      "zoom": "8"
+    },
+    "name": "Belfries of Belgium and France",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Projects that were unfinished, unopened or otherwise generally useless.",
+    "icon": "🚧",
+    "key": "useless",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Grands Travaux Inutiles",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🇳🇱",
+    "key": "netherlands",
+    "map": {
+      "cluster": "false",
+      "lat": "52.4",
+      "lon": "5.2913",
+      "zoom": "7"
+    },
+    "name": "Nederlandse provincies",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🥓",
+    "key": "causeways",
+    "name": "Causeways",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "headlines": ["Canadian Provinces and Territories", "Provinces et territoires canadiens"],
+    "icon": "🇨🇦",
+    "key": "canada",
+    "map": {
+      "cluster": "false",
+      "lat": "56.1304",
+      "lon": "-100",
+      "zoom": "4"
+    },
+    "name": "Canadian Provinces and Territories",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🏁",
+    "key": "racetracks",
+    "name": "Racetracks",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🚃",
+    "key": "suburban",
+    "map": {
+      "cluster": "true",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Suburban Trains",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🇺🇸",
+    "key": "states",
+    "map": {
+      "cluster": "false",
+      "lat": "37",
+      "lon": "-95",
+      "zoom": "4"
+    },
+    "name": "US States",
+    "size": "large",
+    "tags": [],
+    "type": "state"
+  },
+  {
+    "icon": "🌋",
+    "key": "volcanoes",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Volcanoes",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "header": "Stations with a transfer from the end of one line to the beginning of another.",
+    "icon": "🔃",
+    "key": "head-on",
+    "name": "Head-On Connections",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🧕",
+    "key": "women-only",
+    "map": {
+      "cluster": "true",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Women Only",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇪🇺",
+    "key": "european-union",
+    "name": "European Union",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🥈",
+    "key": "second-cities",
+    "name": "Second Cities",
+    "prefixType": "population",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🥺",
+    "key": "no-metro",
+    "name": "No Metro",
+    "size": "large",
+    "sort": "prefix",
+    "tags": ["prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🚞",
+    "key": "rack",
+    "name": "Rack Railways",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Lines where trains reverse direction to gain altitude.",
+    "icon": "〽️",
+    "key": "zig-zag",
+    "name": "Zig Zag",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🛁",
+    "key": "baths",
+    "name": "Public Baths",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "🌊",
+    "key": "music-water",
+    "name": "Music Water",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "no-links", "people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🚀",
+    "key": "spaceports",
+    "name": "Spaceports",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Stations where train services reverse direction to continue.",
+    "icon": "◀️",
+    "key": "reverse",
+    "name": "Reverse",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Metro stations with platforms that are not directly opposite one another.",
+    "icon": "⚡️",
+    "key": "offset",
+    "name": "Offset Platforms",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "⏰",
+    "key": "part-time",
+    "name": "Part Time",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "headlines": ["Provinces belges", "Belgische provincies"],
+    "icon": "🇧🇪",
+    "key": "belgium",
+    "map": {
+      "cluster": "false",
+      "lat": "50.65",
+      "lon": "4",
+      "zoom": "8"
+    },
+    "name": "Provinces belges / Belgische provincies",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🇫🇷",
+    "key": "europe-2022",
+    "map": {
+      "lat": "47",
+      "lon": "5",
+      "zoom": "5"
+    },
+    "name": "French Borders",
+    "size": "medium",
+    "type": "place"
+  },
+  {
+    "icon": "🏠",
+    "key": "facades",
+    "map": {
+      "lat": "45",
+      "lon": "-58",
+      "zoom": "3"
+    },
+    "name": "Façades",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "✏️",
+    "key": "songwriters",
+    "name": "Songwriters",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "🚎",
+    "key": "trolley-poles",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Trolley Poles",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🏩",
+    "key": "awa",
+    "map": {
+      "icon": "1",
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Accidentally Wes Anderson",
+    "size": "medium",
+    "tags": ["featured", "middleSectionBeen"],
+    "type": "place"
+  },
+  {
+    "icon": "🏢",
+    "key": "housing",
+    "name": "Housing Projects",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "footer": "For junctions in the form of a roundabout, see <a class=\"dark\" href=\"tram-roundabouts.html\">Tram Roundabouts</a>.",
+    "icon": "🎈",
+    "key": "loops",
+    "map": {
+      "clusterLevel": "9"
+    },
+    "name": "Loops",
+    "size": "medium",
+    "tags": ["reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "💶",
+    "key": "eurozone",
+    "name": "Eurozone",
+    "size": "large",
+    "tags": ["country-flag"],
+    "type": "place"
+  },
+  {
+    "group": "date",
+    "icon": "🚧",
+    "key": "projects",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Projects",
+    "prefixClass": "fixed",
+    "size": "small",
+    "sort": "-prefixDate",
+    "tags": ["auto", "badge-been", "prefix", "project-link", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🎡",
+    "key": "worldsfair",
+    "map": {
+      "lat": "37",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "World’s Fairs",
+    "prefixType": "year",
+    "size": "small",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "👺",
+    "key": "money-heist",
+    "name": "Money Heist",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "🔭",
+    "key": "observatories",
+    "map": {
+      "cluster": "false",
+      "lat": "25",
+      "lon": "0",
+      "zoom": "2"
+    },
+    "name": "Observatories",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🎰",
+    "key": "casinos",
+    "map": {
+      "lat": "36.12",
+      "lon": "-115.17",
+      "zoom": "13"
+    },
+    "name": "Casinos",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "header": "Thousands of people per metro station.",
+    "icon": "🧑‍🧑‍🧒‍🧒",
+    "key": "metro-population",
+    "name": "Metro Population",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🎤",
+    "key": "featuring",
+    "name": "Featuring",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "🛫",
+    "key": "airport-metros",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Airport Metros",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🧺",
+    "key": "emmaus",
+    "map": {
+      "lat": "47",
+      "lon": "3",
+      "style": "height:",
+      "zoom": "6"
+    },
+    "name": "Emmaüs",
+    "size": "large",
+    "tags": ["auto", "google"],
+    "type": "place"
+  },
+  {
+    "icon": "🌊",
+    "key": "flood",
+    "name": "Flood Barriers",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🙉",
+    "key": "cover-songs",
+    "name": "Cover Songs",
+    "size": "large",
+    "sort": ["name", "reference"],
+    "tags": ["auto", "people", "no-links", "reference-key"],
+    "type": "entity"
+  },
+  {
+    "icon": "🚃",
+    "key": "rolling-stock",
+    "name": "Rolling Stock",
+    "script": "map.js",
+    "size": "large",
+    "sort": ["reference", "order"],
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🛴",
+    "key": "moving-walkways",
+    "name": "Moving Walkways",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "headers": ["I’ve been to every station in:", "I’ve taken the light rail in:", "I’ve been to these cities:"],
+    "icon": "🚈",
+    "key": "light-rail",
+    "map": {
+      "lat": "37",
+      "lon": "-42",
+      "zoom": "3"
+    },
+    "name": "Light Rail",
+    "sections": ["done", "taken", "visited"],
+    "size": "large",
+    "sort": "-size",
+    "tags": ["featured", "auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🪸",
+    "key": "metro-themes",
+    "map": {
+      "lat": "40",
+      "lon": "-40",
+      "zoom": "3"
+    },
+    "name": "Metro Themes",
+    "size": "medium",
+    "tags": ["auto", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🏋️",
+    "key": "gyms",
+    "name": "Gyms",
+    "size": "large",
+    "tags": ["no-links"],
+    "type": "place"
+  },
+  {
+    "icon": "↔️",
+    "key": "furthest",
+    "name": "Furthest",
+    "size": "small",
+    "sort": "prefix",
+    "tags": ["prefix", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🚄",
+    "key": "high-speed",
+    "name": "High-Speed Trains",
+    "size": "medium",
+    "tags": ["no-coords", "prefix"],
+    "type": "place"
+  },
+  {
+    "icon": "🇩🇪",
+    "key": "germany",
+    "map": {
+      "cluster": "false",
+      "lat": "52",
+      "lon": "10",
+      "zoom": "6"
+    },
+    "name": "Deutsche Bundesländer",
+    "size": "large",
+    "type": "place"
+  },
+  {
+    "icon": "🌉",
+    "key": "metro-bridges",
+    "map": {
+      "lat": "25",
+      "lon": "5",
+      "zoom": "2"
+    },
+    "name": "Metro Bridges",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "📍",
+    "key": "places",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Places",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🇨🇿",
+    "key": "europe-2023",
+    "map": {
+      "lat": "50",
+      "lon": "16",
+      "zoom": "6"
+    },
+    "name": "Central Europe",
+    "size": "medium",
+    "type": "place"
+  },
+  {
+    "icon": "⛪️",
+    "key": "cathedrals",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "4"
+    },
+    "name": "Cathedrals",
+    "size": "large",
+    "tags": ["auto", "featured"],
+    "type": "place"
+  },
+  {
+    "header": "Lines where different services run in opposite directions.",
+    "icon": "🔁",
+    "key": "opposites",
+    "name": "Opposite Lines",
+    "size": "large",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "↕️",
+    "key": "split-platform",
+    "name": "Split Platforms",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🇵🇸",
+    "key": "palestine",
+    "name": "Palestine",
+    "prefixType": "year",
+    "size": "large",
+    "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
+  {
+    "icon": "🏟️",
+    "key": "stadiums",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Stadiums",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  },
+  {
+    "icon": "🔄",
+    "key": "tram-roundabouts",
+    "map": {
+      "lat": "50.8",
+      "lon": "12",
+      "zoom": "5"
+    },
+    "name": "Tram Roundabouts",
+    "size": "medium",
+    "tags": ["reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🍳",
+    "key": "salients",
+    "map": {
+      "lat": "25",
+      "lon": "15",
+      "zoom": "2"
+    },
+    "name": "Salients",
+    "size": "large",
+    "tags": [],
+    "type": "place"
+  },
+  {
+    "icon": "🚗",
+    "key": "music-cars",
+    "name": "Music Cars",
+    "size": "medium",
+    "sort": ["name", "reference"],
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🎺",
+    "key": "instrumentals",
+    "name": "Instrumentals",
+    "size": "medium",
+    "tags": ["people"],
+    "type": "place"
+  },
+  {
+    "icon": "🚦",
+    "key": "grand-and-union",
+    "map": {
+      "cluster": "true",
+      "lat": "43",
+      "lon": "-98",
+      "zoom": "5"
+    },
+    "name": "Grand & Union",
+    "size": "medium",
+    "tags": ["auto", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🛣",
+    "key": "highway-medians",
+    "name": "Highway Medians",
+    "size": "small",
+    "tags": ["no-coords", "reference-first", "reference-key"],
+    "type": "place"
+  },
+  {
+    "icon": "🏙",
+    "key": "cities",
+    "map": {
+      "lat": "25",
+      "lon": "10",
+      "zoom": "2"
+    },
+    "name": "Cities",
+    "size": "large",
+    "tags": ["featured"],
+    "type": "city"
+  },
+  {
+    "icon": "🐛",
+    "key": "skip-stop",
+    "name": "Skip-Stop Lines",
+    "size": "medium",
+    "tags": ["auto", "reference-first"],
+    "type": "place"
+  },
+  {
+    "icon": "🎸",
+    "key": "singing-bassists",
+    "name": "Singing Bassists",
+    "size": "medium",
+    "tags": ["no-coords", "people"],
+    "type": "place"
+  },
+  {
+    "icon": "📱",
+    "key": "transit-apps",
+    "name": "Transit Apps",
+    "size": "large",
+    "tags": ["auto"],
+    "type": "place"
+  }
+]
