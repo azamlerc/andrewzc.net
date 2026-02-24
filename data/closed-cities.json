@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Cities that are (or were) closed to outsiders.",
     "icon": "⛔",
     "map": {
       "cluster": "false",
@@ -8,6 +9,7 @@
       "zoom": "3"
     },
     "name": "Closed Cities",
+    "notes": ["Most common in the former Soviet Union.", "Usually for military or scientific purposes."],
     "size": "large",
     "tags": ["auto", "city-flag"],
     "type": "place"

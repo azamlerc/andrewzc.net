@@ -10,7 +10,7 @@ function createHeader() {
   places.forEach(place => {
     let cell = document.createElement("th");
     let icon = place.code ? 
-			`<img class="state" src="images/states/${place.code.toLowerCase()}.png">`:
+			`<img class="state" src="images/flags/${place.code.toLowerCase()}.png">`:
 			`<a href="countries/${place.key}.html">${place.icon}</a>`;
     cell.innerHTML = `<div class="tooltip">${icon}<span class="tooltiptext">${place.name}</span></div>`;
     header.appendChild(cell);
@@ -57,7 +57,7 @@ async function bingoMain(type, bingoFilter) {
 		}
     if (page.sort === "been") all.sort((a, b) => b.been - a.been);
     if (page.sort === "reversePrefix") all.sort((a, b) => Number(b.prefix) - Number(a.prefix));
-    if (page.sort === "prefix") all.sort((a, b) => Number(a.prefix.replace("–", "-")) - Number(b.prefix.replace("–", "-")));
+    if (page.sort === "prefix") all.sort((a, b) => Number(a.prefix) - Number(b.prefix));
     all.forEach(p => {
 			p.pageIcon = page.icon;
 			p.pageKey = page.key;
@@ -75,7 +75,7 @@ async function bingoMain(type, bingoFilter) {
 	// let output = "";
   mapPlaces.forEach(p => {
     if (p.pageIcon == "🧭") p.icons.reverse();
-    else p.icons.unshift(p.pageIcon);
+    else if (p.icons && p.icons.length > 0) p.icons.unshift(p.pageIcon);
 		// output += `[${p.coords}], // ${p.name}\n`;
   });
 	// console.log(output);
@@ -146,7 +146,7 @@ function createLists(bingoResults, type) {
 }
 
 function stateFlag(code) {
-  return `<img class="state" src="images/states/${code.toLowerCase()}.png">`;
+  return `<img class="state" src="images/flags/${code.toLowerCase()}.png">`;
 }
 
 async function loadData(filename) {

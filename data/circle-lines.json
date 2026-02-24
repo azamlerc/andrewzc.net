@@ -1,8 +1,9 @@
 {
   "--info--": {
-    "header": "Routes where trains travel both directions in a continuous circle.",
+    "header": "Routes where trains travel in a continuous circle both directions.",
     "icon": "⭕️",
     "name": "Circle Lines",
+    "notes": ["Includes both metros and trams.", "Lines that loop back upon themselves are on the separate loopback list.", "The Circle Line in London was converted from circular to loopback when it was extended to Hammersmith."],
     "size": "large",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"

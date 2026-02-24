@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Stations where you can change from one line to another by walking across a platform.",
     "icon": "🔀",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Cross-Platform",
+    "notes": ["I love discovering these.", "I try to be very strict about what counts.", "Not including stations in New York where you can change from express to local trains on the services of the same color.", "Action: enhance by referencing lines."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"

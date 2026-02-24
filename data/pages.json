@@ -1,6 +1,6 @@
 {
   "abandoned": {
-    "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
+    "header": "Train stations that are no longer in service or have been demolished. For stations that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
     "icon": "🏚",
     "map": {
       "lat": "25",
@@ -8,11 +8,14 @@
       "zoom": "2"
     },
     "name": "Abandoned Stations",
+    "notes": ["This list contains a mix of metro and mainline stations.", "Reference indicates the city and is optional in this list."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "airbnb": {
+    "complete": true,
+    "header": "Airbnbs I have stayed in over the years.",
     "icon": "🏡",
     "map": {
       "lat": "25",
@@ -20,12 +23,14 @@
       "zoom": "2"
     },
     "name": "Airbnbs",
+    "notes": ["The list is sorted in chronological order by when I stayed there.", "Downloaded from Airbnb website.", "This is a complete list—for me.", "My website backend has a /coords API that can extract the location from the Airbnb listing.", "This list only has one section, all entities are marked as been."],
     "size": "large",
     "sort": "order",
     "tags": ["auto", "ordered"],
     "type": "place"
   },
   "airlines": {
+    "header": "Airlines that I have flown on.",
     "icon": "✈️",
     "name": "Airlines",
     "size": "large",
@@ -33,6 +38,7 @@
     "type": "place"
   },
   "airport-metros": {
+    "header": "Metro stations that provide direct service to airports.",
     "icon": "🛫",
     "map": {
       "lat": "25",
@@ -40,18 +46,22 @@
       "zoom": "2"
     },
     "name": "Airport Metros",
+    "notes": ["In most cases, the metro station is named for the airport.", "Ideally you can walk from the metro station to the terminal. In some cases, you have to take a people mover."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "airport-trains": {
+    "header": "Express trains that provide direct service from city center to the airport.",
     "icon": "🛫",
     "name": "Airport Trains",
+    "notes": ["This page is for mainline, often non-stop trains.", "There are separate airport-metros and airport-trams pages for metros and trams, respectively."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "airport-trams": {
+    "header": "Tram stops that provide direct service to airports.",
     "icon": "🛫",
     "map": {
       "lat": "25",
@@ -59,6 +69,7 @@
       "zoom": "2"
     },
     "name": "Airport Trams",
+    "notes": ["Also includes light rail."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
@@ -71,6 +82,7 @@
       "zoom": "2"
     },
     "name": "Airports",
+    "notes": ["The prefix is the three-letter airport code."],
     "prefixClass": "airport",
     "size": "large",
     "sort": "prefix",
@@ -79,6 +91,7 @@
   },
   "alexandria": {
     "footer": "To learn how this page was made, see <a href=\"map-quest.html\" class=\"dark\">Map Quest</a>.",
+    "header": "Places that Alexander the Great named for himself, and places named for those places.",
     "icon": "🇲🇰",
     "map": {
       "lat": "25",
@@ -91,6 +104,7 @@
     "type": "place"
   },
   "alt-power": {
+    "header": "Trams that use power sources other than overhead wires.",
     "icon": "⚡️",
     "map": {
       "cluster": "false",
@@ -100,11 +114,13 @@
       "zoom": "3"
     },
     "name": "Alt Power",
+    "notes": ["Second icon represents type of electrification.", "🛤️ = ground level power, 🔋 = battery, ⚡️ = supercapacitor, ⛽️ = tram train in diesel mode"],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "anton-corbijn": {
+    "header": "Anton Corbijn defined the look of many of my favorite bands. Here are some places where he photographed them.",
     "icon": "📷",
     "map": {
       "lat": "40",
@@ -112,12 +128,14 @@
       "zoom": "3"
     },
     "name": "Anton Corbijn",
+    "notes": ["He had a particularly strong influence on Depeche Mode and U2.", "I went searching for the exact spot where he photographed an S-Bahn train crossing a bridge in Berlin for the cover of Achtung Baby, and recreated the photo.", "I visited Joshua Tree and took a selfie similar to the cover of the U2 album."],
     "size": "medium",
     "sort": ["order", "name", "reference"],
     "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
   "aop": {
+    "header": "Foods that are named after places I have been.",
     "icon": "🧀",
     "map": {
       "lat": "47",
@@ -125,11 +143,14 @@
       "zoom": "5"
     },
     "name": "Wine & Cheese",
+    "notes": ["The second icon is the type of food or drink.", "The list focuses on wine and cheesse, but also contains a few other food and drink types as well as some tongue-in-cheek references.", "Yes I've been to Latte in Italy."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "apple": {
+    "complete": true,
+    "header": "Apple stores that I have visited around the world.",
     "icon": "🍏",
     "map": {
       "lat": "25",
@@ -137,11 +158,13 @@
       "zoom": "2"
     },
     "name": "Apple Stores",
+    "notes": ["This is a complete list of all Apple stores.", "I helped launch Apple Retail when I worked for Apple."],
     "size": "large",
     "tags": ["auto", "featured", "google"],
     "type": "place"
   },
   "apple-pay": {
+    "header": "Metro systems where you can use Apple Pay to pay for rides.",
     "icon": "🍏",
     "name": "Apple Pay",
     "size": "large",
@@ -149,6 +172,7 @@
     "type": "place"
   },
   "apple-wallet": {
+    "header": "Metro systems where you can add a farecard to Apple Wallet.",
     "icon": "💳",
     "name": "Apple Wallet",
     "size": "large",
@@ -164,13 +188,16 @@
       "zoom": "5"
     },
     "name": "Aqueducts",
+    "notes": ["Most of these are aqueducts that survive from the ancient world.", "Names and wikipedia links are typically in local languages, i.e. acquedotto, acueducto, etc."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "arches": {
+    "header": "Monumental arches around the world.",
     "icon": "🏛",
     "name": "Arches",
+    "notes": ["These are typically the largest or most significant monumental arch in a given city, but Paris has several."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -178,18 +205,22 @@
   "architects": {
     "icon": "👷‍♂️",
     "name": "Architects",
+    "notes": ["Architects whose work I admire.", "I also have a few dedicated pages for buildings by Norman Foster and Santiago Calatrava.", "I am thinking of replacing this page with a list of my favorite buildings by these architects, with the name of the architect as the reference."],
     "size": "large",
     "tags": ["no-coords"],
     "type": "place"
   },
   "artist-names": {
+    "header": "Real names of musicians, actors and other celebrities.",
     "icon": "🪪",
     "name": "Real Names",
+    "notes": ["Name is the person's real name, reference is their stage name.", "Some artists are known by their real first name, such as Adele or Madonna, or their real last name, such as Morrissey."],
     "size": "small",
     "tags": ["no-links", "people"],
     "type": "place"
   },
   "artists": {
+    "header": "My favortite musical artists and bands.",
     "icon": "👩‍🎤",
     "name": "Artists",
     "size": "large",
@@ -197,15 +228,19 @@
     "type": "place"
   },
   "auto-trains": {
+    "header": "Train services where you can drive your car onto the train.",
     "icon": "🚗",
     "name": "Auto Trains",
+    "notes": ["This kind of service is increasingly rare.", "Many have been discontinued, indicated with strike flag."],
     "size": "large",
     "tags": ["no-coords"],
     "type": "place"
   },
   "automatic": {
+    "header": "Metro services with grade of automation level 4 (GoA4), full automation.",
     "icon": "🤖",
     "name": "Automatic Metros",
+    "notes": ["Year indicates the first year that automatic trains ran in that metro system.", "Been indicates whether I have taken automatic trains on that line.", "Some lines have been converted to automatic operation, such as Paris lines 1 and 4."],
     "prefixClass": "fixed",
     "size": "large",
     "sort": "prefix",
@@ -213,6 +248,7 @@
     "type": "place"
   },
   "awa": {
+    "header": "Places featured on the Accidentally Wes Anderson instagram account, website and books.",
     "icon": "🏩",
     "map": {
       "icon": "1",
@@ -221,13 +257,16 @@
       "zoom": "2"
     },
     "name": "Accidentally Wes Anderson",
+    "notes": ["I bought the Accidentally Wes Anderson at the Strand bookstore and didn't even open it for a while.", "I saw the Hotel Belvédère from many kilometers away across a glacial valley and said wait, that's on the cover of this book I have!", "Now I'm obsessed about visiting these places, and recreating the exact photos if possible.", "I also take pictures of other places with a similar vibe."],
     "size": "medium",
     "tags": ["featured", "middleSectionBeen"],
     "type": "place"
   },
   "backing-bands": {
+    "header": "Bands with names like “Siouxie and the Banshees”.",
     "icon": "🎺",
     "name": "Backing Bands",
+    "notes": ["Just to mix things up a bit this page focuses on the backing band as the name, with the singer as the reference."],
     "size": "medium",
     "tags": ["no-links", "people"],
     "type": "place"
@@ -235,6 +274,7 @@
   "baths": {
     "icon": "🛁",
     "name": "Public Baths",
+    "notes": "Historical city-run public baths.",
     "size": "large",
     "tags": ["no-links"],
     "type": "place"
@@ -247,11 +287,13 @@
       "zoom": "3"
     },
     "name": "Beaches",
+    "notes": ["Beaches I have been to.", "Most of these are along the ocean, a few are also on lakes."],
     "size": "large",
     "tags": ["auto", "featured"],
     "type": "place"
   },
   "belfries": {
+    "complete": true,
     "icon": "🔔",
     "map": {
       "cluster": "false",
@@ -260,11 +302,13 @@
       "zoom": "8"
     },
     "name": "Belfries of Belgium and France",
+    "notes": ["This is a complete list of properties that collectively make up the UNESCO world heritage site of Belfries of Belgium and France.", "I have seen some of these while passing by on a train."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "belgium": {
+    "complete": true,
     "headlines": ["Provinces belges", "Belgische provincies"],
     "icon": "🇧🇪",
     "map": {
@@ -274,12 +318,14 @@
       "zoom": "8"
     },
     "name": "Provinces belges / Belgische provincies",
+    "notes": ["I've been to every province in Belgium.", "The headlines array indicates that the title of the page is available in both French and Dutch."],
     "size": "large",
     "type": "place"
   },
   "bi-articulated": {
     "icon": "🚛",
     "name": "Bi-Articulated Buses",
+    "notes": ["Buses that have two articulations, three sections, and four axles.", "I find these endlessly fascinating.", "These form the backbone of transit in Bogotá, one of the most amazing BRT systems I have ever seen.", "Bogotá has high-floor “puller” busses with the engine in the front and powered second axle."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -287,11 +333,13 @@
   "bi-people": {
     "icon": "🏳️‍🌈",
     "name": "Bisexual People",
+    "notes": ["Musicians and other celebrities who are known or thought to be bisexual.", "Personally I have deprecated that term and prefer pansexual, as it better represents a lack of strong preference along the gender spectrum."],
     "size": "large",
     "tags": ["people"],
     "type": "place"
   },
   "bilingual": {
+    "header": "Cities that are officially bilingual, with street signs in several languages.",
     "icon": "✌️",
     "name": "Bilingual",
     "size": "large",
@@ -299,6 +347,7 @@
     "type": "place"
   },
   "bilingual-stations": {
+    "header": "Metro stations that have primary names in two or more languages.",
     "icon": "✌️",
     "map": {
       "lat": "25",
@@ -306,11 +355,13 @@
       "zoom": "2"
     },
     "name": "Bilingual Stations",
+    "notes": ["The criterion for inclusion is that the meaning has been translated, like Étangs Noirs / Zwarte Vijvers.", "I do not include stations whose name is simply transliterated from another script.", "This list is sorted by city, as it's more interesting to see these in context of where they are.", "I didn't include the city as the reference because it is obvious in context and would be repetitive."],
     "size": "medium",
     "sort": "city",
     "type": "place"
   },
   "books": {
+    "header": "Some of my favorite authors.",
     "icon": "📚",
     "name": "Books",
     "size": "large",
@@ -318,6 +369,7 @@
     "type": "place"
   },
   "border-posts": {
+    "header": "Land border checkpoints that I have crossed.",
     "icon": "🛂",
     "map": {
       "lat": "25",
@@ -325,12 +377,14 @@
       "zoom": "2"
     },
     "name": "Border Posts",
+    "notes": ["In chronological order.", "Does not count Schengen borders with no formalities."],
     "size": "medium",
     "sort": "order",
     "tags": ["middleSectionBeen"],
     "type": "place"
   },
   "boundary-stones": {
+    "complete": true,
     "header": "The forty <a href=\"https://en.wikipedia.org/wiki/Boundary_markers_of_the_original_District_of_Columbia\" class=\"dark\">boundary stones</a> were placed at one mile intervals around the original border of the District of Columbia in 1791. Most of them are now behind bars!",
     "icon": "🪨",
     "map": {
@@ -339,6 +393,7 @@
       "zoom": "12"
     },
     "name": "Boundary Stones",
+    "notes": ["I visited the forty stones over three days. Each one deserves a whole story.", "Three of them were not reachable."],
     "size": "large",
     "sort": "order",
     "tags": ["auto", "ordered"],
@@ -352,6 +407,7 @@
     "type": "place"
   },
   "brazil": {
+    "complete": true,
     "icon": "🇧🇷",
     "map": {
       "cluster": "false",
@@ -360,13 +416,16 @@
       "zoom": "4"
     },
     "name": "Estados brasileiros",
+    "notes": ["The states of Brazil.", "I haven't been to any of them."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "break-of-gauge": {
+    "header": "Stations or border crossings where people or cargo need to change from tracks of one gauge to another.",
     "icon": "⛓️‍💥",
     "name": "Break of Gauge",
+    "notes": ["I recently changed guagues at Irun / Hendaye when traveling from Spain to France."],
     "size": "medium",
     "sort": "iconCount",
     "tags": ["auto"],
@@ -380,6 +439,7 @@
       "zoom": "2"
     },
     "name": "Bridges",
+    "notes": ["Size property is the total length of the bridge in meters.", "Sorted by size."],
     "prefixClass": "fixed",
     "size": "large",
     "sizeFormat": "meters",
@@ -388,13 +448,16 @@
     "type": "place"
   },
   "brt": {
+    "header": "Cities that have a proper Bus Rapid Transit system, with dedicated lanes and stops.",
     "icon": "🚌",
     "name": "Bus Rapid Transit",
+    "notes": ["Been indicates if I've been to the city / seen the BRT system.", "🚌 badge means I have taken BRT there.", "Popular in Central and South America, such as Mexico City and Bogotá.", "Bogotá system was life changing."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "buc-ees": {
+    "complete": true,
     "icon": "🦫",
     "map": {
       "cluster": "true",
@@ -403,6 +466,7 @@
       "zoom": "5"
     },
     "name": "Buc-ee’s",
+    "notes": ["Iconic gas station chain.", "Definitive list from the Buc-ee’s website.", "Prefix is the store number.", "Sorted by order, which is also the store number as an integer."],
     "prefixClass": "fixed",
     "size": "large",
     "sort": "order",
@@ -417,11 +481,13 @@
       "zoom": "2"
     },
     "name": "Bucket List",
+    "notes": ["My whole website is a list of lists of lists, but if I had to have one bucket list this would be it.", "I try to keep a balance here between been and todo.", "Second icon represents the type of place."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "bumper": {
+    "header": "Metro stations where tracks end at bumper blocks (buffer stops) immediately after the platform.",
     "icon": "🛑",
     "map": {
       "lat": "42",
@@ -429,6 +495,7 @@
       "zoom": "3"
     },
     "name": "Bumper Blocks",
+    "notes": ["Trains must change direction in the station, rather than continuing to overflow tracks.", "Common in elevated stations, as well as stations contstrained by natural elements such as rivers.", "Often the source of operational delays, such as at 8th Avenue."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
@@ -441,11 +508,13 @@
       "zoom": "3"
     },
     "name": "Cable Cars",
+    "notes": ["Also known as aerial trams.", "As distinct from Cable Cars in San Francisco, that's totally different.", "These come in two forms: large cars that go back and forth, and smaller cars that operate in a continuous loop.", "Some are used for urban transit, especially in Central and South America.", "Paris recently opened Câble 1."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "cable-landings": {
+    "header": "Places where undersea cables come ashore.",
     "icon": "🔌",
     "map": {
       "lat": "25",
@@ -453,6 +522,7 @@
       "zoom": "2"
     },
     "name": "Cable Landings",
+    "notes": ["Data from kidorf.com, which maintains a detailed list.", "Inspired by visiting the hut on Cape Cod where one of the first transatlantic cables terminated."],
     "size": "large",
     "sort": "order",
     "tags": ["auto"],
@@ -466,6 +536,7 @@
       "zoom": "3"
     },
     "name": "Santiago Calatrava",
+    "notes": ["Buildings and other structures by architect Santiago Calatrava.", "Well known for the PATH terminal at the World Trade Center, also known as the Oculus."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -473,11 +544,13 @@
   "camping": {
     "icon": "⛺️",
     "name": "Camping",
+    "notes": ["Places where I've gone camping in a tent!", "I don't do this as much as I used to.", "Locations are not exact, these are mostly from a while ago."],
     "size": "large",
     "tags": ["no-links"],
     "type": "place"
   },
   "canada": {
+    "complete": true,
     "headlines": ["Canadian Provinces and Territories", "Provinces et territoires canadiens"],
     "icon": "🇨🇦",
     "map": {
@@ -487,6 +560,7 @@
       "zoom": "4"
     },
     "name": "Canadian Provinces and Territories",
+    "notes": ["Title of the page is in English and French."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -494,11 +568,13 @@
   "canals": {
     "icon": "🚢",
     "name": "Canals",
+    "notes": ["Location is some point along the canal. Could maybe expand to end points."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "capitals": {
+    "complete": true,
     "footer": "",
     "icon": "🏛",
     "map": {
@@ -507,11 +583,13 @@
       "zoom": "2"
     },
     "name": "Capitals",
+    "notes": ["The national capital of every country.", "Some countries have more than one capital for different purposes.", "Also includes former capitals marked as strike."],
     "size": "large",
     "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "car-free": {
+    "header": "Towns where cars are not allowed.",
     "icon": "🫏",
     "map": {
       "lat": "25",
@@ -524,6 +602,7 @@
     "type": "place"
   },
   "car-places": {
+    "header": "Cars that are named for places.",
     "icon": "🗺️",
     "map": {
       "cluster": "false",
@@ -532,14 +611,18 @@
       "zoom": "2"
     },
     "name": "Car Places",
+    "notes": ["There are a lot more of these than you would think!"],
     "size": "medium",
     "sort": "name",
     "tags": ["auto", "double-flag", "reference-first", "reference-key"],
     "type": "place"
   },
   "cars": {
+    "complete": true,
+    "header": "Cars that I have owned.",
     "icon": "🚗",
     "name": "My Cars",
+    "notes": ["In chronological order."],
     "size": "large",
     "sort": "order",
     "tags": ["ordered", "reference-first", "reference-key", "no-links"],
@@ -553,6 +636,7 @@
       "zoom": "13"
     },
     "name": "Casinos",
+    "notes": ["Not into gambling but casinos can be fun in small doses."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -566,6 +650,7 @@
       "zoom": "5"
     },
     "name": "Castles & Palaces",
+    "notes": ["What counts as a castle is rather loose. This list includes anything generally identified as a castle or a palace.", "Some castles have defensive walls. Structures that primarily serve a military purpose are on the list of forts, even if they have castle in the name.", "Some French chateaux are little more than fancy houses."],
     "size": "large",
     "tags": ["auto", "featured"],
     "type": "place"
@@ -578,6 +663,7 @@
       "zoom": "4"
     },
     "name": "Cathedrals",
+    "notes": ["These are mainly Roman Catholic cathedrals, with some exceptions for other denominations.", "Generally listed under the name of the city, even if they are technicaly named after a saint.", "Some have a more common name, such as St. Patrick’s in New York.", "Listed by name in cases where there is more than one per city.", "Cathedral has a very specific meaning in the Catholic church, as the seat of a bishop. A few buildings that look like cathedrals but technically aren't are included."],
     "size": "large",
     "tags": ["auto", "featured"],
     "type": "place"
@@ -585,6 +671,7 @@
   "causeways": {
     "icon": "🥓",
     "name": "Causeways",
+    "notes": ["Not an exhaustive list, just a few that come to mind, some more noteworthy than others."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -592,11 +679,13 @@
   "cemeteries": {
     "icon": "🪦",
     "name": "Cemeteries",
+    "notes": ["Sometimes it's nice to visit cemeteries as they're nice and quiet."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "china-cities": {
+    "complete": true,
     "header": "Cities in China with a population over one million people.",
     "icon": "🇨🇳",
     "map": {
@@ -605,21 +694,25 @@
       "zoom": "4"
     },
     "name": "China Cities",
+    "notes": ["This was a complete list as of the time that I made it, but the population of other cities could pass one million."],
     "size": "large",
     "tags": ["city-flag"],
     "type": "place"
   },
   "circle-lines": {
-    "header": "Routes where trains travel both directions in a continuous circle.",
+    "header": "Routes where trains travel in a continuous circle both directions.",
     "icon": "⭕️",
     "name": "Circle Lines",
+    "notes": ["Includes both metros and trams.", "Lines that loop back upon themselves are on the separate loopback list.", "The Circle Line in London was converted from circular to loopback when it was extended to Hammersmith."],
     "size": "large",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "circular": {
+    "header": "Neighborhoods that have a circular grid pattern.",
     "icon": "☸️",
     "name": "Circular Grids",
+    "notes": ["Some are more regular than others.", "Would be cool to add (satellite) maps of some of these."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -632,11 +725,14 @@
       "zoom": "2"
     },
     "name": "Cities",
+    "notes": ["List of major cities around the world.", "Criteria for inclusion is basically that it sounds like a place people have heard of.", "Other entities should have their city property set to the name of the city they're in, either manually or based on location.", "The city.html page searches for all entities by page in a given city on this list."],
     "size": "large",
     "tags": ["featured"],
     "type": "city"
   },
   "citizenship": {
+    "complete": true,
+    "header": "I am a citizen of:",
     "icon": "🗽",
     "name": "Citizenship",
     "size": "large",
@@ -644,6 +740,7 @@
     "type": "place"
   },
   "closed-cities": {
+    "header": "Cities that are (or were) closed to outsiders.",
     "icon": "⛔",
     "map": {
       "cluster": "false",
@@ -652,18 +749,22 @@
       "zoom": "3"
     },
     "name": "Closed Cities",
+    "notes": ["Most common in the former Soviet Union.", "Usually for military or scientific purposes."],
     "size": "large",
     "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "closed-lines": {
+    "header": "Entire metro lines that have closed completely.",
     "icon": "☠️",
     "name": "Closed Lines",
+    "notes": ["New York has a large number of closed elevanted lines.", "Limited to metro lines; closed tram lines would be uncountable."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "closed-trams": {
+    "closed": true,
     "header": "Evidence of the <a class=\"dark\" href=\"https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy\">Great Streetcar Conspiracy</a>,<br>as revealed in the film <i><a class=\"dark\" href=\"https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit\">Who Framed Roger Rabbit?</a></i><br><br>",
     "icon": "🐰",
     "map": {
@@ -672,20 +773,24 @@
       "zoom": "2"
     },
     "name": "Closed Trams",
+    "notes": ["This is a complete list from Wikipedia of all former tram systems.", "Prefix indicates year of closure.", "A massive number of tram systems closed in the middle of the twentieth century."],
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
     "type": "place"
   },
   "closest": {
+    "header": "Pairs of metro stations that are unusally close together.",
     "icon": "🤏",
     "name": "Closest",
+    "notes": ["Prefix has distance in meters.", "Action: convert distances to integers."],
     "size": "small",
     "sort": "prefix",
     "tags": ["auto", "prefix", "reference-first"],
     "type": "place"
   },
   "co-rulers": {
+    "header": "Places that have dual heads of state.",
     "icon": "👬",
     "name": "Co-Rulers",
     "size": "large",
@@ -693,8 +798,11 @@
     "type": "place"
   },
   "concerts": {
+    "complete": true,
+    "header": "Concerts that I have been to.",
     "icon": "🤘",
     "name": "Concerts",
+    "notes": ["Prefix is year, sorted chronologically.", "Name is location, reference is band."],
     "size": "medium",
     "sort": "prefix",
     "tags": ["no-links", "people", "prefix", "reference-key"],
@@ -702,6 +810,7 @@
   },
   "confluence": {
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
+    "header": "Points on earth where lines of latitude and longitude intersect!",
     "icon": "🚸",
     "map": {
       "clusterLevel": "6",
@@ -711,6 +820,7 @@
       "zoom": "3"
     },
     "name": "Confluence Points",
+    "notes": ["A former manager of mine thought I would be into this, and it turned into an obsession!", "Source data from confluence.org, which has pages for most points on or near land.", "I've gone on several road trips with the goal of visiting many confluence points.", "I have good coverage of a good part of northeastern United States and north-central Europe.", "I've been to every point in several states and countries."],
     "prefixClass": "fixed",
     "script": "confluence.js",
     "size": "large",
@@ -719,6 +829,7 @@
     "type": "place"
   },
   "congestion": {
+    "header": "Cities that charge a toll for driving in the central zone.",
     "icon": "🚘",
     "name": "Congestion Charge",
     "size": "large",
@@ -734,11 +845,13 @@
       "zoom": "2"
     },
     "name": "Connections",
+    "notes": ["Russian transfer stations typically have different names for each line that passes through.", "New York has many stations downtown that are connected by pedestrian passageways.", "Some New York stations are named for an avenue or a street, depending upon the line (14th Street on the ACE, 8th Avenue on the L)."],
     "size": "small",
     "tags": ["reference-first"],
     "type": "place"
   },
   "copies": {
+    "header": "Buildings that are copies of other buildings.",
     "icon": "🤡",
     "map": {
       "lat": "25",
@@ -746,26 +859,32 @@
       "zoom": "2"
     },
     "name": "Copies",
+    "notes": ["Great examples include the Eiffel Tower at Paris Las Vegas and the Leaning Tower of Niles."],
     "size": "medium",
-    "tags": [],
+    "tags": ["reference-key"],
     "type": "place"
   },
   "countries": {
+    "complete": true,
     "icon": "🌎",
     "name": "Countries",
+    "notes": ["Complete list of all countries in the world.", "Critera for inclusion is largely, does it have an emoji?", "Also includes many non-self-governing territories that have an emoji, from before they stopped giving those out.", "Also includes Wales and Scotland, because people in the UK call them countries and they have emoji too.", "Entities have country code set to the two-letter code based on the emoji, or a countries array if they have more than one.", "There is a country.html page that shows a summary of all elements in a given country."],
     "size": "large",
     "tags": ["featured"],
     "type": "country"
   },
   "cover-songs": {
+    "header": "Songs originally recorded by someone else.",
     "icon": "🙉",
     "name": "Cover Songs",
+    "notes": ["Includes both the original and cover versions.", "Reference is the artist.", "All Along the Watchtower is my favorite cover song, original by Bob Dylan, covers by Jimi Hendrix, U2 and Dave Matthews Band."],
     "size": "large",
     "sort": ["name", "reference"],
     "tags": ["auto", "people", "no-links", "reference-key"],
     "type": "entity"
   },
   "cross-platform": {
+    "header": "Stations where you can change from one line to another by walking across a platform.",
     "icon": "🔀",
     "map": {
       "lat": "25",
@@ -773,11 +892,14 @@
       "zoom": "2"
     },
     "name": "Cross-Platform",
+    "notes": ["I love discovering these.", "I try to be very strict about what counts.", "Not including stations in New York where you can change from express to local trains on the services of the same color.", "Action: enhance by referencing lines."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "culture": {
+    "complete": true,
+    "header": "Cities that have been named as European Capital of Culture.",
     "icon": "🇪🇺",
     "map": {
       "lat": "50.8",
@@ -785,18 +907,22 @@
       "zoom": "4"
     },
     "name": "Culture Capitals",
+    "notes": ["Action: add year for each city."],
     "size": "large",
     "tags": ["auto", "city-flag"],
     "type": "place"
   },
   "curved": {
+    "header": "Stations with curved platforms.",
     "icon": "🍌",
     "name": "Curved Platforms",
+    "notes": ["Not widely tracked, mostly discovered in real life.", "Stations on the London Underground with sharp curves often have significant gaps at the ends or in the middle, leading to the famous Mind the Gap warnings.", "Also many in New York and Paris", "Most recent metros have only straight platforms.", "Does not count slight curvature as trains enter stations with island platforms, idea is that the train leaves pointing in a different direction."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "czechia": {
+    "complete": true,
     "icon": "🇨🇿",
     "map": {
       "cluster": "false",
@@ -810,6 +936,7 @@
     "type": "place"
   },
   "deep-level": {
+    "header": "Some of the deepest metro stations.",
     "icon": "⬇️",
     "map": {
       "lat": "25",
@@ -817,6 +944,7 @@
       "zoom": "2"
     },
     "name": "Deep Level",
+    "notes": ["I've tried to include the deepest station in each system, or stations that are known to be particularly deep.", "Definitely not an exhaustive list, and there's no precise criteria for what counts."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -824,24 +952,29 @@
   "depots": {
     "icon": "🏭",
     "name": "Depots",
+    "notes": ["Depots where metros and trams go to sleep at night.", "Sometimes pulled from wikipedia, often discovered while riding trams.", "I try to have coordinates for all entities."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
   "diamond": {
+    "header": "Places where heavy rail tracks cross, or trams cross heavy rail tracks.",
     "icon": "💎",
     "name": "Diamond Crossings",
+    "notes": ["Named for the shape when rails cross at an angle.", "Tram tracks cross each other all the time, so not included.", "Mainline tracks typically merge into each other at points rather than crossing, which creates signaling challenges.", "Coolest examples are when trams cross heavy rail tracks, even at different gagues.", "Action: mark the tram/rail crossings."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "directions": {
+    "header": "Countries and states with north, south, east and west in the name.",
     "icon": "🇲🇰",
     "name": "Directions",
     "size": "large",
     "type": "place"
   },
   "disputed": {
+    "header": "Countries and territories whose sovereignty is disputed.",
     "icon": "💥",
     "map": {
       "lat": "16",
@@ -849,24 +982,30 @@
       "zoom": "2"
     },
     "name": "Disputed Territories",
+    "notes": ["I've actually been to very few of these.", "Visiting Transnistria was totally bizarre."],
     "size": "large",
     "type": "place"
   },
   "diverse": {
+    "header": "Bands that have a mix of people of different races and genders.",
     "icon": "👩🏽",
     "name": "Diverse Bands",
+    "notes": ["Badges include emoji representing the different race/gender combinations."],
     "size": "large",
     "tags": ["people"],
     "type": "place"
   },
   "eclipses": {
+    "header": "A few solar and lunar eclipses that I remember.",
     "icon": "🌒",
     "name": "Eclipses",
+    "notes": ["Action: assign unique names to resolve key clash."],
     "size": "large",
     "tags": ["no-coords", "prefix"],
     "type": "place"
   },
   "elements": {
+    "header": "Places named for chemical elements.",
     "icon": "⚛️",
     "map": {
       "lat": "36.12",
@@ -874,25 +1013,32 @@
       "zoom": "13"
     },
     "name": "Elements",
+    "notes": ["Suprising number of these, but I've been to very few."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "elevator-stations": {
+    "header": "Metro stations where the primary access is by elevator.",
     "icon": "🛗",
     "name": "Elevator Stations",
+    "notes": ["Some stations in London and Paris let you take the stairs if you really want to.", "Overlaps with deep level list somewhat."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "elevators": {
+    "header": "Interesting elevators that are not part of buildings.",
     "icon": "🛗",
     "name": "Elevators",
+    "notes": ["Some of these are diagonal elevators, which are somewhat adjacent to funiculars."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "emmaus": {
+    "complete": true,
+    "header": "List of all Emmaüs charity shops in France.",
     "icon": "🧺",
     "map": {
       "lat": "47",
@@ -901,11 +1047,13 @@
       "zoom": "6"
     },
     "name": "Emmaüs",
+    "notes": ["Street addresses from Emmaus website, coords from Google based on address."],
     "size": "large",
     "tags": ["auto", "google"],
     "type": "place"
   },
   "enclaves": {
+    "header": "Places surrounded by other places, and places with disconnected pieces.",
     "icon": "🍩",
     "map": {
       "lat": "48",
@@ -917,6 +1065,7 @@
     "type": "place"
   },
   "endoheric": {
+    "header": "Places where water flows into an area and evaporates, rather than flowing to the ocean.",
     "icon": "🏜️",
     "name": "Endoheric Basins",
     "size": "large",
@@ -924,6 +1073,7 @@
     "type": "place"
   },
   "europe-2003": {
+    "header": "In 2003 we visited 27 European countries over six months, and I took 10,000 pictures. Here’s a list of where we went each day.",
     "icon": "🇪🇺",
     "map": {
       "lat": "53",
@@ -931,12 +1081,14 @@
       "zoom": "4"
     },
     "name": "Europe 2003",
+    "notes": ["I wrote a Mac program called Shoebox that let you tag photos by date, place, people and things.", "This list was created years later by indexing all the photos tagged by date and place."],
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
     "type": "place"
   },
   "europe-2022": {
+    "header": "A road trip around the borders of France.",
     "icon": "🇫🇷",
     "map": {
       "lat": "47",
@@ -948,6 +1100,7 @@
     "type": "place"
   },
   "europe-2023": {
+    "header": "A train trip to Prague, Brno, Vienna and Graz.",
     "icon": "🇨🇿",
     "map": {
       "lat": "50",
@@ -959,13 +1112,17 @@
     "type": "place"
   },
   "european-union": {
+    "complete": true,
     "icon": "🇪🇺",
     "name": "European Union",
+    "notes": ["The coutries in the European Union.", "UK marked as strike after Brexit."],
     "size": "large",
     "tags": ["country-flag"],
     "type": "place"
   },
   "eurovision": {
+    "complete": true,
+    "header": "Cities that have hosted the Eurovision Song Contest.",
     "icon": "💙",
     "map": {
       "lat": "50.8",
@@ -973,6 +1130,7 @@
       "zoom": "4"
     },
     "name": "Eurovision",
+    "notes": ["Action: sort out cities that have hosted more than once. Keys are clashing.", "Action: link to wiki page for the that year's contest rather than the city's wiki page."],
     "prefixType": "year",
     "size": "large",
     "sort": "prefix",
@@ -980,13 +1138,17 @@
     "type": "place"
   },
   "eurozone": {
+    "complete": true,
+    "header": "Countries that use the euro.",
     "icon": "💶",
     "name": "Eurozone",
+    "notes": ["Four microstates are not members of the ECB, but use the euro by agreement and have their own coins.", "Montenegro and Kosovo use the euro unilaterally.", "I was in Slovenia the day they adopted the euro.", "Action: add year of adoption."],
     "size": "large",
     "tags": ["country-flag"],
     "type": "place"
   },
   "expos": {
+    "header": "Exposition centers around the world.",
     "icon": "🎪",
     "map": {
       "lat": "25",
@@ -994,18 +1156,22 @@
       "zoom": "2"
     },
     "name": "Expos",
+    "notes": ["Badges indicate: 💁‍♂️ = presented at a show, 🖼️ = went to an art show, 🚗 = went to a car show."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "express": {
+    "header": "Metro services that run express, bypassing stops served by local services.",
     "icon": "💨",
     "name": "Express Lines",
+    "notes": ["Almost exclusively a New York thing.", "Baffles people from out of town."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "extremities": {
+    "header": "Points the furthest in each cardinal direction of countries and states.",
     "icon": "🧭",
     "map": {
       "cluster": "false",
@@ -1014,12 +1180,14 @@
       "zoom": "3"
     },
     "name": "Extreme Points",
+    "notes": ["Second icon is an arrow that indicates the direction.", "Including a few diagonal directions too, i.e. northwesternmost point.", "Sorted by country, then state, then direction going clockwise from north."],
     "size": "large",
     "sort": ["countries", "states", "icons"],
     "tags": ["auto", "featured", "states"],
     "type": "place"
   },
   "facades": {
+    "headers": "Utility buildings such as ventilation shafts disguised to look like residential buildings.",
     "icon": "🏠",
     "map": {
       "lat": "45",
@@ -1027,11 +1195,13 @@
       "zoom": "3"
     },
     "name": "Façades",
+    "notes": ["Sourced from wikipedia (which page?)", "Identified by street address."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "factories": {
+    "header": "Automobile factories by brand.",
     "icon": "🏭",
     "map": {
       "lat": "25",
@@ -1039,12 +1209,14 @@
       "zoom": "2"
     },
     "name": "Factories",
+    "notes": ["First flag is country of the brand, second flag is location of the factory. Domestic factories have twice the same flag."],
     "size": "medium",
     "sort": ["name"],
     "tags": ["auto", "double-flag", "reference-first"],
     "type": "place"
   },
   "fare-cards": {
+    "header": "Metro systems that have fare cards that let you tap to ride.",
     "icon": "🎟️",
     "name": "Fare Cards",
     "size": "medium",
@@ -1052,13 +1224,16 @@
     "type": "place"
   },
   "fare-free": {
+    "header": "Transit systems that are free!",
     "icon": "🤑",
     "name": "Fare Free",
+    "notes": ["Prefix is year it became free.", "Reference is a group of people, such as residents or young people."],
     "size": "medium",
     "tags": ["prefix"],
     "type": "place"
   },
   "featuring": {
+    "header": "Artists that have been featured by other artists in a song.",
     "icon": "🎤",
     "name": "Featuring",
     "size": "large",
@@ -1068,6 +1243,7 @@
   "female-bassists": {
     "icon": "🦹‍♀️",
     "name": "Female Bassists",
+    "notes": ["Female bassists are super cool!", "Wikipedia has a long list, these are just the people or bands that I'm familiar with.", "Reference is the band."],
     "size": "medium",
     "tags": ["people"],
     "type": "place"
@@ -1080,6 +1256,7 @@
       "zoom": "3"
     },
     "name": "Ferries",
+    "notes": ["Action: group by taken/visited, like metros page.", "Action: handle two places without HTML markup in info property."],
     "size": "large",
     "tags": ["middleSectionBeen"],
     "type": "place"
@@ -1098,6 +1275,7 @@
   },
   "first-locations": {
     "footer": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
+    "header": "The first location of popular restaurants and other chains.",
     "icon": "🍔",
     "name": "First Locations",
     "size": "large",
@@ -1105,6 +1283,7 @@
     "type": "place"
   },
   "flood": {
+    "header": "Structures that can be deployed to control water flow during floods.",
     "icon": "🌊",
     "name": "Flood Barriers",
     "size": "large",
@@ -1112,6 +1291,7 @@
     "type": "place"
   },
   "forts": {
+    "header": "Forts and other structures whose primary purpose is defensive.",
     "icon": "🪖",
     "map": {
       "lat": "50.8",
@@ -1119,6 +1299,7 @@
       "zoom": "4"
     },
     "name": "Fortifications",
+    "notes": ["Can also include some fortified towns with existing city walls.", "Does not include modern military bases."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -1131,19 +1312,24 @@
       "zoom": "3"
     },
     "name": "Norman Foster",
+    "notes": ["A selection of buildings and other structures by architect Norman Foster.", "Includes the entire Bilbao Metro."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "founded": {
+    "complete": true,
+    "header": "Date that selected countries were founded.",
     "icon": "🪦",
     "name": "Founded",
+    "notes": ["At the exclusion of countries that declared independence from other countries, or are non-self-governing territories. Those are separate lists."],
     "prefixType": "year",
     "size": "large",
     "tags": ["prefix"],
     "type": "place"
   },
   "france": {
+    "complete": true,
     "icon": "🇫🇷",
     "map": {
       "cluster": "false",
@@ -1152,11 +1338,13 @@
       "zoom": "5"
     },
     "name": "Départements français",
+    "notes": ["Second and third icon form the department number.", "I've been to most!", "Action: figure out sorting."],
     "size": "large",
     "tags": [],
     "type": "place"
   },
   "funiculars": {
+    "header": "Counterbalanced rail cars that transport people up and down steep slopes.",
     "icon": "🚠",
     "map": {
       "lat": "37",
@@ -1164,33 +1352,41 @@
       "zoom": "3"
     },
     "name": "Funiculars",
+    "notes": ["In its heydey Pittsburgh had like 17 inclines."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "furthest": {
+    "header": "Metro stations that are particularly far from each other.",
     "icon": "↔️",
     "name": "Furthest",
+    "notes": ["Generally listing the furthest stations in a given system, but also noting several pairs when significant.", "Action: figure out how to better list pairs of stations."],
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first"],
     "type": "place"
   },
   "galleries": {
+    "history": "Ninteenth century predecessor of the shopping mall, like covered streets lined with shops in the middle of a block.",
     "icon": "🏛",
     "name": "Galleries & Passages",
+    "notes": ["https://passagesetgaleries.fr is a great source."],
     "size": "large",
     "type": "place"
   },
   "gauges": {
+    "header": "Train systems that have unusual gauges, narrower or wider than standard gauge.",
     "icon": "📏",
     "name": "Track Gauges",
+    "notes": ["Prefix is number of millimeters.", "1435 is standard gauge.", "Clicking a number on the page converts it from millimeters to feet and fractional inches using a small JS function."],
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],
     "type": "place"
   },
   "germany": {
+    "complete": true,
     "icon": "🇩🇪",
     "map": {
       "cluster": "false",
@@ -1203,6 +1399,7 @@
     "type": "place"
   },
   "grand-and-union": {
+    "header": "Intersectons of streets named Grand and Union.",
     "icon": "🚦",
     "map": {
       "cluster": "true",
@@ -1211,6 +1408,7 @@
       "zoom": "5"
     },
     "name": "Grand & Union",
+    "notes": ["Not to be confused with grand unions, which are a type of tram intersection.", "I'm probably the only person in the world with this list.", "I live near one in Brooklyn.", "I first noticed one near a spa in New Jersey.", "These are hard to find using AI. I asked an early versiob of ChatGPT for a list and it halucinated about 90 that don't exist."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
@@ -1224,6 +1422,7 @@
       "zoom": "5"
     },
     "name": "Grand Unions",
+    "notes": ["I once accidentally found myself in Toronto, remembered something about it having grand unions, looked up what those were, went to visit two, and the rest is history.", "I'll go to a city just for its grand unions.", "I like discovering them by riding trams around, or looking at satellite maps."],
     "size": "medium",
     "sort": "reference",
     "tags": ["auto", "featured", "fractions", "no-data", "reference-first"],
@@ -1237,26 +1436,31 @@
       "zoom": "2"
     },
     "name": "Greenhouses",
+    "notes": ["Significant indoor botanical gardens."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "ground-zero": {
+    "header": "Locations of major nuclear explosions.",
     "icon": "🤯",
     "name": "Ground Zero",
+    "notes": ["Name refers to the point on the ground below the point where the bomb exploded, which is air zero. Circles around it measure distance from the zero point.", "I've been to ground zero in Hiroshima.", "Everyone calls the World Trade Center ground zero but it doesn't fit this list."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
   },
   "guest-singers": {
-    "header": "Band members who sing lead vocals on a few songs.",
+    "header": "Members of a band who sing lead vocals on a few songs.",
     "icon": "🎤",
     "name": "Lead Vocals",
+    "notes": ["Name is person, song title.", "Reference is the band."],
     "size": "small",
     "tags": ["no-links", "people"],
     "type": "place"
   },
   "gyms": {
+    "header": "Gyms I have been a member of.",
     "icon": "🏋️",
     "name": "Gyms",
     "size": "large",
@@ -1271,6 +1475,7 @@
       "zoom": "3"
     },
     "name": "Hamburgers",
+    "notes": ["For some reason I take a picture of every hamburger I eat.", "My iPhone is remarkably good at identifying those pictures."],
     "size": "large",
     "sort": "order",
     "tags": ["auto", "featured"],
@@ -1280,11 +1485,13 @@
     "header": "Stations with a transfer from the end of one line to the beginning of another.",
     "icon": "🔃",
     "name": "Head-On Connections",
+    "notes": ["Info contains lines separated by slashes."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
   },
   "heritage": {
+    "header": "Transport museums and heritage lines.",
     "icon": "🚂",
     "map": {
       "lat": "43",
@@ -1348,6 +1555,7 @@
     "type": "place"
   },
   "homes": {
+    "complete": true,
     "icon": "🏠",
     "name": "Hometowns",
     "size": "large",
@@ -1374,6 +1582,7 @@
     "type": "place"
   },
   "ikea": {
+    "complete": true,
     "icon": "🇸🇪",
     "map": {
       "lat": "25",
@@ -1386,6 +1595,7 @@
     "type": "place"
   },
   "independence": {
+    "complete": true,
     "icon": "🎆",
     "map": {
       "cluster": "false",
@@ -1467,6 +1677,7 @@
     "type": "place"
   },
   "italy": {
+    "complete": true,
     "icon": "🇮🇹",
     "map": {
       "cluster": "false",
@@ -1480,6 +1691,7 @@
     "type": "place"
   },
   "japan": {
+    "complete": true,
     "icon": "🇯🇵",
     "map": {
       "lat": "38.5",
@@ -1493,6 +1705,7 @@
     "type": "place"
   },
   "kosovo": {
+    "complete": true,
     "icon": "🇽🇰",
     "name": "Kosovo",
     "prefixType": "year",
@@ -1522,8 +1735,10 @@
   },
   "last-locations": {
     "footer": "See also <a href=\"first-locations.html\" class=\"dark\">first locations</a>.",
+    "header": "The last remaining location of popular chains.",
     "icon": "🏚️",
     "name": "Last Locations",
+    "notes": ["This list was entirely ChatGPT's idea, based on first locations list."],
     "size": "large",
     "tags": ["no-coords"],
     "type": "place"
@@ -1588,6 +1803,7 @@
     "type": "place"
   },
   "legislatures": {
+    "complete": true,
     "icon": "🏛️",
     "map": {
       "lat": "25",
@@ -1704,6 +1920,7 @@
     "type": "place"
   },
   "marriage": {
+    "complete": true,
     "icon": "🏳️‍🌈",
     "name": "Marriage",
     "size": "large",
@@ -1806,6 +2023,7 @@
     "type": "place"
   },
   "metros": {
+    "complete": true,
     "flagClass": "icon",
     "flagFolder": "trains",
     "headers": ["I’ve been to every station in:", "I’ve taken the metro in:", "I’ve been to these cities:", "Want to visit:"],
@@ -1823,6 +2041,7 @@
     "type": "place"
   },
   "mexico": {
+    "complete": true,
     "icon": "🇲🇽",
     "map": {
       "cluster": "true",
@@ -1835,6 +2054,7 @@
     "type": "place"
   },
   "mexico-city": {
+    "complete": true,
     "icon": "🇲🇽",
     "map": {
       "icon": "1",
@@ -1860,6 +2080,8 @@
     "type": "place"
   },
   "microstates": {
+    "complete": true,
+    "header": "Countries that are smaller than Luxembourg.",
     "icon": "🔬",
     "name": "Microstates",
     "size": "large",
@@ -1879,6 +2101,7 @@
     "type": "place"
   },
   "money-heist": {
+    "complete": true,
     "icon": "👺",
     "name": "Money Heist",
     "size": "large",
@@ -2013,6 +2236,7 @@
     "type": "place"
   },
   "nato": {
+    "complete": true,
     "icon": "🧭",
     "name": "NATO",
     "size": "large",
@@ -2020,6 +2244,7 @@
     "type": "place"
   },
   "netherlands": {
+    "complete": true,
     "icon": "🇳🇱",
     "map": {
       "cluster": "false",
@@ -2129,6 +2354,7 @@
     "type": "place"
   },
   "official-languages": {
+    "complete": true,
     "icon": "💬",
     "name": "Official Languages",
     "size": "large",
@@ -2152,6 +2378,7 @@
     "type": "place"
   },
   "olympics": {
+    "complete": true,
     "icon": "🥇",
     "map": {
       "lat": "25",
@@ -2181,6 +2408,7 @@
     "type": "place"
   },
   "operating": {
+    "complete": true,
     "header": "I have operated the following transit vehicles:",
     "icon": "🥌",
     "map": {
@@ -2224,6 +2452,7 @@
     "type": "place"
   },
   "palestine": {
+    "complete": true,
     "icon": "🇵🇸",
     "name": "Palestine",
     "prefixType": "year",
@@ -2311,6 +2540,7 @@
     "type": "place"
   },
   "police": {
+    "complete": true,
     "icon": "👮🏽‍♂️",
     "name": "Police Stations",
     "size": "large",
@@ -2337,6 +2567,7 @@
     "type": "place"
   },
   "popes": {
+    "complete": true,
     "icon": "🇻🇦",
     "name": "Popes",
     "size": "small",
@@ -2356,6 +2587,7 @@
     "type": "place"
   },
   "portuguese": {
+    "complete": true,
     "icon": "🇵🇹",
     "name": "Portuguese",
     "size": "large",
@@ -2531,6 +2763,7 @@
     "type": "place"
   },
   "route-20": {
+    "complete": true,
     "icon": "🛻",
     "map": {
       "cluster": "false",
@@ -2578,6 +2811,7 @@
     "type": "place"
   },
   "schengen": {
+    "complete": true,
     "icon": "🇱🇺",
     "name": "Schengen",
     "size": "large",
@@ -2585,6 +2819,7 @@
     "type": "place"
   },
   "second-cities": {
+    "complete": true,
     "icon": "🥈",
     "name": "Second Cities",
     "prefixType": "population",
@@ -2594,6 +2829,8 @@
     "type": "place"
   },
   "short-coastline": {
+    "complete": true,
+    "header": "Countries of significant size that have a very short coastline.",
     "icon": "🏖️",
     "map": {
       "lat": "32",
@@ -2721,6 +2958,7 @@
     "type": "place"
   },
   "spa-towns": {
+    "complete": true,
     "icon": "♨️",
     "map": {
       "cluster": "false",
@@ -2734,6 +2972,7 @@
     "type": "place"
   },
   "space-shuttle": {
+    "complete": true,
     "header": "Runways designated as Space Shuttle emergency landing sites.",
     "icon": "🛬",
     "name": "Space Shuttle",
@@ -2749,6 +2988,7 @@
     "type": "place"
   },
   "spain": {
+    "complete": true,
     "icon": "🇪🇸",
     "map": {
       "cluster": "false",
@@ -2865,6 +3105,7 @@
     "type": "place"
   },
   "states": {
+    "complete": true,
     "icon": "🇺🇸",
     "map": {
       "cluster": "false",
@@ -2892,6 +3133,7 @@
     "type": "place"
   },
   "struve": {
+    "complete": true,
     "icon": "📐",
     "map": {
       "cluster": "false",
@@ -2992,6 +3234,7 @@
     "type": "place"
   },
   "tariffs": {
+    "complete": true,
     "icon": "💰",
     "name": "Tariffs",
     "prefixType": "percent",
@@ -3011,6 +3254,7 @@
     "type": "place"
   },
   "territories": {
+    "complete": true,
     "icon": "🏝️",
     "name": "Territories",
     "prefixType": "year",
@@ -3032,6 +3276,7 @@
     "type": "place"
   },
   "toilets": {
+    "complete": true,
     "icon": "🚽",
     "map": {
       "lat": "35.67",
@@ -3085,6 +3330,7 @@
     "type": "place"
   },
   "trams": {
+    "complete": true,
     "headers": ["I’ve been to every stop in:", "I've taken the tram in:", "I've seen trams in:"],
     "icon": "🚋",
     "map": {
@@ -3100,6 +3346,7 @@
     "type": "place"
   },
   "trans-siberian": {
+    "complete": true,
     "icon": "🇷🇺",
     "map": {
       "cluster": "false",
@@ -3206,6 +3453,7 @@
     "type": "place"
   },
   "tv": {
+    "complete": true,
     "icon": "📺",
     "name": "Television",
     "size": "large",
@@ -3273,6 +3521,7 @@
     "type": "place"
   },
   "united-kingdom": {
+    "complete": true,
     "icon": "🇬🇧",
     "map": {
       "lat": "56",
@@ -3345,6 +3594,7 @@
     "type": "place"
   },
   "western-sahara": {
+    "complete": true,
     "icon": "🇪🇭",
     "name": "Western Sahara",
     "prefixType": "year",
@@ -3366,6 +3616,7 @@
     "type": "place"
   },
   "world-cities": {
+    "complete": true,
     "icon": "🌆",
     "map": {
       "lat": "25",

@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "Apple stores that I have visited around the world.",
     "icon": "🍏",
     "map": {
       "lat": "25",
@@ -7,6 +9,7 @@
       "zoom": "2"
     },
     "name": "Apple Stores",
+    "notes": ["This is a complete list of all Apple stores.", "I helped launch Apple Retail when I worked for Apple."],
     "size": "large",
     "tags": ["auto", "featured", "google"],
     "type": "place"

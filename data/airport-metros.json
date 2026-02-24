@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Metro stations that provide direct service to airports.",
     "icon": "🛫",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Airport Metros",
+    "notes": ["In most cases, the metro station is named for the airport.", "Ideally you can walk from the metro station to the terminal. In some cases, you have to take a people mover."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"

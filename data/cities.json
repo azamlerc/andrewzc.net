@@ -7,6 +7,7 @@
       "zoom": "2"
     },
     "name": "Cities",
+    "notes": ["List of major cities around the world.", "Criteria for inclusion is basically that it sounds like a place people have heard of.", "Other entities should have their city property set to the name of the city they're in, either manually or based on location.", "The city.html page searches for all entities by page in a given city on this list."],
     "size": "large",
     "tags": ["featured"],
     "type": "city"

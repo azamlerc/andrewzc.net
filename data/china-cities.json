@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "complete": true,
     "header": "Cities in China with a population over one million people.",
     "icon": "🇨🇳",
     "map": {
@@ -8,6 +9,7 @@
       "zoom": "4"
     },
     "name": "China Cities",
+    "notes": ["This was a complete list as of the time that I made it, but the population of other cities could pass one million."],
     "size": "large",
     "tags": ["city-flag"],
     "type": "place"

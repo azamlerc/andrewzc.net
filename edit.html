@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>✏️ Edit</title>
+  <meta charset="UTF-8">
+  <meta name="andrewzc" content="auto" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.45">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .card {
+      display: inline-block;
+      background: white;
+      margin-left: 10px;
+      min-width: 920px;
+    }
+
+    .row {
+      margin: 14px 0px;
+      white-space: nowrap;
+    }
+
+    .label {
+      display: inline-block;
+      width: 170px;
+      font: 24pt Avenir;
+      color: #999;
+      vertical-align: middle;
+    }
+
+    .input, .textarea {
+      font: 24pt Avenir;
+      color: #444;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      padding: 10px 14px;
+      width: 660px;
+      outline: none;
+      vertical-align: middle;
+      background: white;
+    }
+
+    .input:focus, .textarea:focus {
+      border-color: #999;
+    }
+
+    .textarea {
+      height: 110px;
+      resize: vertical;
+      white-space: pre;
+    }
+
+    .status {
+      font: 24pt Avenir;
+      color: #999;
+      margin-top: 10px;
+      margin-bottom: 16px;
+      margin-left: 10px;
+      min-width: 920px;
+    }
+
+    .error { color: #BA373E; }
+    .ok { color: #55AB3D; }
+
+    .headerLine {
+      font: 70pt Avenir;
+      margin-bottom: 6px;
+      margin-left: 10px;
+    }
+
+    .subheader {
+      font: 30pt Avenir;
+      color: #999;
+      margin-left: 10px;
+      margin-bottom: 18px;
+    }
+
+    .pillWrap {
+      display: inline-block;
+      width: 660px;
+      vertical-align: middle;
+    }
+
+    .pill {
+      display: inline-block;
+      font: 22pt Avenir;
+      padding: 10px 24px;
+      border-radius: 999px;
+      border: 2px solid rgba(0,0,0,0.18);
+      background: transparent;
+      color: #444;
+      cursor: pointer;
+      margin-right: 12px;
+      transition: transform 0.05s ease, background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+      user-select: none;
+    }
+
+    .pill:active { transform: translateY(1px); }
+
+    .pill.on {
+      color: white;
+      border-color: transparent;
+    }
+
+    .pill.been.on { background: #2F74D0; }
+    .pill.strike.on { background: #C93A3A; }
+
+    .pill:not(.been):not(.strike) {
+      border: 2px solid rgba(0,0,0,0.18);
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .pill:not(.been):not(.strike):hover {
+      background: #e9e9e9;
+    }
+      
+    @media (prefers-color-scheme: dark) {
+      .card { background: black; }
+      .input, .textarea {
+        background: black;
+        color: #BBB;
+        border-color: #444;
+      }
+      .btn { background: #222; color: #BBB; }
+      .pill {
+        border-color: rgba(255,255,255,0.22);
+        color: #BBB;
+      }
+      .pill:not(.been):not(.strike) {
+        background: #222;
+        border-color: rgba(255,255,255,0.22);
+        color: #BBB;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="headline" class="headerLine">✏️ Edit</div>
+
+  <div class="status" style="display:flex; align-items:center; gap:20px;">
+    <div>
+      <button id="saveBtn" class="pill" type="button">Save</button>
+      <button id="resetBtn" class="pill" type="button">Reset</button>
+    </div>
+    <div id="status">Loading…</div>
+  </div>
+  
+  <div id="card" class="card" style="display:none;">
+    <div class="row">
+      <span class="label">Icons</span>
+      <input id="icons" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">Name</span>
+      <input id="name" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">Link</span>
+      <input id="link" class="input" type="url" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label"></span>
+      <span class="pillWrap">
+        <button id="wikiBtn" class="pill" type="button">Wiki</button>
+        <button id="openBtn" class="pill" type="button">Open</button>
+      </span>
+    </div>
+    
+    <div class="row">
+      <span class="label">Prefix</span>
+      <input id="prefix" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">Reference</span>
+      <input id="reference" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">Coords</span>
+      <input id="coords" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">City</span>
+      <input id="city" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label">Flags</span>
+      <span class="pillWrap">
+        <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
+        <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
+      </span>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "https://api.andrewzc.net";
+
+    const qs = new URLSearchParams(location.search);
+    const LIST = qs.get("list") || "";
+    let KEY = qs.get("key") || "";
+
+    const elHeadline = document.getElementById("headline");
+    const elStatus = document.getElementById("status");
+    const elCard = document.getElementById("card");
+
+    const elIcons = document.getElementById("icons");
+    const elName = document.getElementById("name");
+    const elPrefix = document.getElementById("prefix");
+    const elReference = document.getElementById("reference");
+    const elLink = document.getElementById("link");
+    const elCoords = document.getElementById("coords");
+    const elCity = document.getElementById("city");
+    const elBeen = document.getElementById("been");
+    const elStrike = document.getElementById("strike");
+
+    const elSaveBtn = document.getElementById("saveBtn");
+    const elResetBtn = document.getElementById("resetBtn");
+    const elWikiBtn = document.getElementById("wikiBtn");
+    const elOpenBtn = document.getElementById("openBtn");
+
+    let original = null;
+    let isCreateMode = false;
+
+    function blankEntity() {
+      return {
+        list: LIST,
+        key: null,
+        icons: [],
+        name: "",
+        prefix: "",
+        reference: "",
+        link: "",
+        coords: "",
+        city: "",
+        been: false,
+        strike: false
+      };
+    }
+
+    function setStatus(text, kind) {
+      elStatus.textContent = text;
+      elStatus.classList.remove("error", "ok");
+      if (kind === "error") elStatus.classList.add("error");
+      if (kind === "ok") elStatus.classList.add("ok");
+    }
+
+    async function api(path, opts = {}) {
+      const res = await fetch(API_BASE + path, {
+        ...opts,
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+          ...(opts.headers || {})
+        }
+      });
+
+      let data = null;
+      try { data = await res.json(); } catch (_) {}
+
+      if (!res.ok) {
+        const msg = (data && (data.message || data.error)) ? (data.message || data.error) : ("HTTP " + res.status);
+        const err = new Error(msg);
+        err.status = res.status;
+        err.data = data;
+        throw err;
+      }
+
+      return data;
+    }
+
+    function iconsArrayToString(arr) {
+      if (!Array.isArray(arr)) return "";
+      return arr.join(" ");
+    }
+
+    function iconsStringToArray(str) {
+      // split by whitespace, drop empties
+      return String(str || "").trim().split(/\s+/).filter(Boolean);
+    }
+
+    function getFlagEmoji(countryCode) {
+      const codePoints = String(countryCode || "")
+        .toUpperCase()
+        .split("")
+        .map(char => 127397 + char.charCodeAt(0));
+      return String.fromCodePoint(...codePoints);
+    }
+
+
+    // Detect country flags (regional indicator pairs) and derive ISO codes.
+    // Returns { country: "CA", countries: ["CA","US"] } depending on count.
+    function deriveCountriesFromIcons(iconsArr) {
+      const iso = [];
+      for (const icon of iconsArr) {
+        // A flag emoji is usually 2 "regional indicator" codepoints.
+        // Example: 🇨🇦 = U+1F1E8 U+1F1E6
+        const cps = Array.from(icon);
+        if (cps.length !== 2) continue;
+
+        const a = cps[0].codePointAt(0);
+        const b = cps[1].codePointAt(0);
+
+        const A = 0x1F1E6;
+        const Z = 0x1F1FF;
+        if (a < A || a > Z || b < A || b > Z) continue;
+
+        const c1 = String.fromCharCode("A".charCodeAt(0) + (a - A));
+        const c2 = String.fromCharCode("A".charCodeAt(0) + (b - A));
+        iso.push(c1 + c2);
+      }
+
+      // unique preserving order
+      const uniq = [];
+      for (const c of iso) if (!uniq.includes(c)) uniq.push(c);
+
+      if (uniq.length === 0) return {};
+      if (uniq.length === 1) return { country: uniq[0], countries: null };
+      return { country: null, countries: uniq };
+    }
+
+    function setHeaderFromEntity(e) {
+      const icons = iconsArrayToString(e.icons || []);
+      elHeadline.textContent = `${icons ? icons + " " : ""}${e.name || "Edit"}`;
+    }
+
+    function setPill(el, on) {
+      if (!el) return;
+      el.classList.toggle("on", !!on);
+      el.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+
+    function isPillOn(el) {
+      return !!el && el.classList.contains("on");
+    }
+
+    function togglePill(el) {
+      setPill(el, !isPillOn(el));
+    }
+
+    function populateForm(e) {
+      elIcons.value = iconsArrayToString(e.icons || []);
+      elName.value = e.name || "";
+      elPrefix.value = e.prefix || "";
+      elReference.value = e.reference || "";
+      elLink.value = e.link || "";
+      elCoords.value = e.coords || "";
+      elCity.value = e.city || "";
+      setPill(elBeen, !!e.been);
+      setPill(elStrike, !!e.strike);
+    }
+
+    function currentFormEntity() {
+      const iconsArr = iconsStringToArray(elIcons.value);
+
+      return {
+        icons: iconsArr,
+        name: elName.value.trim(),
+        prefix: elPrefix.value.trim(),
+        reference: elReference.value.trim(),
+        link: elLink.value.trim(),
+        coords: elCoords.value.trim(),
+        city: elCity.value.trim(),
+        been: isPillOn(elBeen),
+        strike: isPillOn(elStrike)
+      };
+    }
+
+    function diffPatch(orig, cur) {
+      const patch = {};
+
+      // Compare scalars
+      const fields = ["name", "prefix", "reference", "link", "city", "coords", "been", "strike"];
+      for (const f of fields) {
+        const o = orig[f] ?? (typeof cur[f] === "boolean" ? false : "");
+        const c = cur[f];
+        if (o !== c) patch[f] = c;
+      }
+
+      // Compare icons array
+      const oIcons = Array.isArray(orig.icons) ? orig.icons : [];
+      const cIcons = Array.isArray(cur.icons) ? cur.icons : [];
+      if (JSON.stringify(oIcons) !== JSON.stringify(cIcons)) {
+        patch.icons = cIcons;
+
+        // Auto-derive country/countries when icons change
+        const derived = deriveCountriesFromIcons(cIcons);
+        if ("country" in derived) patch.country = derived.country;
+        if ("countries" in derived) {
+          if (derived.countries) patch.countries = derived.countries;
+          else patch.countries = null; // clear if switching back to single
+        }
+      }
+
+      // Never patch these (URL-controlled / derived)
+      delete patch._id;
+      delete patch.list;
+      delete patch.key;
+
+      return patch;
+    }
+
+    async function load() {
+      if (!LIST) {
+        setStatus("Missing ?list=...", "error");
+        return;
+      }
+
+      // Create mode when key is missing
+      if (!KEY) {
+        isCreateMode = true;
+        original = blankEntity();
+        elHeadline.textContent = "✏️ New";
+        populateForm(original);
+        elCard.style.display = "inline-block";
+        elSaveBtn.textContent = "Create";
+        setStatus("New entity.", "ok");
+        return;
+      }
+
+      try {
+        isCreateMode = false;
+        elSaveBtn.textContent = "Save";
+        setStatus("Loading…");
+        const entity = await api(`/entities/${encodeURIComponent(LIST)}/${encodeURIComponent(KEY)}`, { method: "GET" });
+
+        original = entity;
+        setHeaderFromEntity(entity);
+        populateForm(entity);
+
+        elCard.style.display = "inline-block";
+        setStatus("Loaded.", "ok");
+      } catch (err) {
+        setStatus("Load failed. " + err.message, "error");
+      }
+    }
+
+    async function save() {
+      if (!original) return;
+
+      const cur = currentFormEntity();
+      const patch = diffPatch(original, cur);
+
+      const keys = Object.keys(patch);
+      if (keys.length === 0 && !isCreateMode) {
+        setStatus("No changes to save.", "ok");
+        return;
+      }
+
+      elSaveBtn.disabled = true;
+      setStatus("Saving…");
+
+      try {
+        let updated;
+
+        if (isCreateMode) {
+          // Create: server assigns key (POST without key in the URL).
+          updated = await api(`/entities/${encodeURIComponent(LIST)}`, {
+            method: "POST",
+            body: JSON.stringify(cur)
+          });
+
+          // Switch into normal edit mode using returned key.
+          if (updated && updated.key) {
+            KEY = String(updated.key);
+            isCreateMode = false;
+            elSaveBtn.textContent = "Save";
+
+            const nextUrl = new URL(location.href);
+            nextUrl.searchParams.set("list", LIST);
+            nextUrl.searchParams.set("key", KEY);
+            history.replaceState(null, "", nextUrl.toString());
+          }
+        } else {
+          updated = await api(`/entities/${encodeURIComponent(LIST)}/${encodeURIComponent(KEY)}`, {
+            method: "PUT",
+            body: JSON.stringify(patch)
+          });
+        }
+
+        original = updated;
+        setHeaderFromEntity(updated);
+        populateForm(updated);
+
+        setStatus("Saved.", "ok");
+      } catch (err) {
+        if (err.status === 401) {
+          setStatus("Not authenticated. Go to admin.html and sign in.", "error");
+        } else {
+          setStatus("Save failed. " + err.message, "error");
+        }
+      } finally {
+        elSaveBtn.disabled = false;
+      }
+    }
+
+    function resetForm() {
+      if (!original) return;
+      populateForm(original);
+      setStatus("Reset.", null);
+    }
+
+    elSaveBtn.addEventListener("click", save);
+    elResetBtn.addEventListener("click", resetForm);
+
+    elBeen.addEventListener("click", () => togglePill(elBeen));
+    elStrike.addEventListener("click", () => togglePill(elStrike));
+
+    elWikiBtn.addEventListener("click", async () => {
+      const name = elName.value.trim();
+      if (!name) return;
+
+      try {
+        setStatus("Looking up Wikipedia…");
+        const res = await api(`/wiki?q=${encodeURIComponent(name)}`, { method: "GET" });
+
+        if (res && res.link) {
+          elLink.value = res.link;
+          setStatus("Wikipedia link found.", "ok");
+        } else {
+          setStatus("No Wikipedia result.", "error");
+        }
+      } catch (err) {
+        setStatus("Wiki lookup failed. " + err.message, "error");
+      }
+    });
+
+    elOpenBtn.addEventListener("click", () => {
+      const url = (elLink.value || "").trim();
+      if (!url) return;
+      window.open(url, "_blank", "noopener,noreferrer");
+    });
+    
+    // Sugar: convert 2-letter country codes to flag emojis on blur
+    elIcons.addEventListener("blur", () => {
+      const tokens = String(elIcons.value || "")
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean);
+
+      const transformed = tokens.map(t => {
+        // Only replace pure 2-letter alphabetic tokens (e.g., "be")
+        if (/^[a-z]{2}$/i.test(t)) {
+          try {
+            return getFlagEmoji(t);
+          } catch (_) {
+            return t;
+          }
+        }
+        return t;
+      });
+
+      elIcons.value = transformed.join(" ");
+    });
+
+    // Cmd/Ctrl+S to save
+    document.addEventListener("keydown", (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+        save();
+      }
+    });
+
+    load();
+  </script>
+</body>
+</html>

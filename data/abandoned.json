@@ -1,6 +1,6 @@
 {
   "--info--": {
-    "header": "For projects that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
+    "header": "Train stations that are no longer in service or have been demolished. For stations that were unfinished, unopened or otherwise generally useless, see <a class=\"dark\" href=\"useless.html\">Grands Travaux Inutiles</a>.",
     "icon": "🏚",
     "map": {
       "lat": "25",
@@ -8,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Abandoned Stations",
+    "notes": ["This list contains a mix of metro and mainline stations.", "Reference indicates the city and is optional in this list."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"

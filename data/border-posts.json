@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Land border checkpoints that I have crossed.",
     "icon": "🛂",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Border Posts",
+    "notes": ["In chronological order.", "Does not count Schengen borders with no formalities."],
     "size": "medium",
     "sort": "order",
     "tags": ["middleSectionBeen"],

@@ -1,7 +1,9 @@
 {
   "--info--": {
+    "header": "Metro stations that are particularly far from each other.",
     "icon": "↔️",
     "name": "Furthest",
+    "notes": ["Generally listing the furthest stations in a given system, but also noting several pairs when significant.", "Action: figure out how to better list pairs of stations."],
     "size": "small",
     "sort": "prefix",
     "tags": ["prefix", "reference-first"],

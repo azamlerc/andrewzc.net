@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Trams that use power sources other than overhead wires.",
     "icon": "⚡️",
     "map": {
       "cluster": "false",
@@ -9,6 +10,7 @@
       "zoom": "3"
     },
     "name": "Alt Power",
+    "notes": ["Second icon represents type of electrification.", "🛤️ = ground level power, 🔋 = battery, ⚡️ = supercapacitor, ⛽️ = tram train in diesel mode"],
     "size": "large",
     "tags": ["auto"],
     "type": "place"

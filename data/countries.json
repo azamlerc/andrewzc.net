@@ -1,7 +1,9 @@
 {
   "--info--": {
+    "complete": true,
     "icon": "🌎",
     "name": "Countries",
+    "notes": ["Complete list of all countries in the world.", "Critera for inclusion is largely, does it have an emoji?", "Also includes many non-self-governing territories that have an emoji, from before they stopped giving those out.", "Also includes Wales and Scotland, because people in the UK call them countries and they have emoji too.", "Entities have country code set to the two-letter code based on the emoji, or a countries array if they have more than one.", "There is a country.html page that shows a summary of all elements in a given country."],
     "size": "large",
     "tags": ["featured"],
     "type": "country"

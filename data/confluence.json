@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Points on earth where lines of latitude and longitude intersect!",
     "footer": "See an analysis of <a href=\"confluence-countries.html\" class=\"dark\">confluence points in countries</a>.",
     "icon": "🚸",
     "map": {
@@ -10,9 +11,10 @@
       "zoom": "3"
     },
     "name": "Confluence Points",
+    "notes": ["A former manager of mine thought I would be into this, and it turned into an obsession!", "Source data from confluence.org, which has pages for most points on or near land.", "I've gone on several road trips with the goal of visiting many confluence points.", "I have good coverage of a good part of northeastern United States and north-central Europe.", "I've been to every point in several states and countries."],
     "prefixClass": "fixed",
     "script": "confluence.js",
-    "size": "large",
+    "size": "medium",
     "sort": "coords",
     "tags": ["auto", "featured", "lookup-state", "no-data"],
     "type": "place"

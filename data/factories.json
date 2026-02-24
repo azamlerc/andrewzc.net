@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Automobile factories by brand.",
     "icon": "🏭",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Factories",
+    "notes": ["First flag is country of the brand, second flag is location of the factory. Domestic factories have twice the same flag."],
     "size": "medium",
     "sort": ["name"],
     "tags": ["auto", "double-flag", "reference-first"],

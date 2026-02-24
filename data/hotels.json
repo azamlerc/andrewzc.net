@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Hotels where I have stayed.",
     "icon": "🏨",
     "map": {
       "lat": "37",
@@ -7,6 +8,7 @@
       "zoom": "3"
     },
     "name": "Hotels",
+    "notes": ["Links usually point to booking.com", "I have a script that extracts locations from booking.com URLs."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"

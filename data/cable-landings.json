@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Places where undersea cables come ashore.",
     "icon": "🔌",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Cable Landings",
+    "notes": ["Data from kidorf.com, which maintains a detailed list.", "Inspired by visiting the hut on Cape Cod where one of the first transatlantic cables terminated."],
     "size": "large",
     "sort": "order",
     "tags": ["auto"],

@@ -1,7 +1,9 @@
 {
   "--info--": {
+    "header": "Pairs of metro stations that are unusally close together.",
     "icon": "🤏",
     "name": "Closest",
+    "notes": ["Prefix has distance in meters.", "Action: convert distances to integers."],
     "size": "small",
     "sort": "prefix",
     "tags": ["auto", "prefix", "reference-first"],

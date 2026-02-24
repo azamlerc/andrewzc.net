@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "Cities that have been named as European Capital of Culture.",
     "icon": "🇪🇺",
     "map": {
       "lat": "50.8",
@@ -7,6 +9,7 @@
       "zoom": "4"
     },
     "name": "Culture Capitals",
+    "notes": ["Action: add year for each city."],
     "size": "large",
     "tags": ["auto", "city-flag"],
     "type": "place"

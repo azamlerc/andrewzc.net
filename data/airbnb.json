@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "Airbnbs I have stayed in over the years.",
     "icon": "🏡",
     "map": {
       "lat": "25",
@@ -7,6 +9,7 @@
       "zoom": "2"
     },
     "name": "Airbnbs",
+    "notes": ["The list is sorted in chronological order by when I stayed there.", "Downloaded from Airbnb website.", "This is a complete list—for me.", "My website backend has a /coords API that can extract the location from the Airbnb listing.", "This list only has one section, all entities are marked as been."],
     "size": "large",
     "sort": "order",
     "tags": ["auto", "ordered"],

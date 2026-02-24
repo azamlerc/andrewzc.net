@@ -1,7 +1,10 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "Concerts that I have been to.",
     "icon": "🤘",
     "name": "Concerts",
+    "notes": ["Prefix is year, sorted chronologically.", "Name is location, reference is band."],
     "size": "medium",
     "sort": "prefix",
     "tags": ["no-links", "people", "prefix", "reference-key"],

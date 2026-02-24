@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "complete": true,
     "icon": "🦫",
     "map": {
       "cluster": "true",
@@ -8,6 +9,7 @@
       "zoom": "5"
     },
     "name": "Buc-ee’s",
+    "notes": ["Iconic gas station chain.", "Definitive list from the Buc-ee’s website.", "Prefix is the store number.", "Sorted by order, which is also the store number as an integer."],
     "prefixClass": "fixed",
     "size": "large",
     "sort": "order",

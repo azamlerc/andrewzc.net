@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Buildings that are copies of other buildings.",
     "icon": "🤡",
     "map": {
       "lat": "25",
@@ -7,11 +8,12 @@
       "zoom": "2"
     },
     "name": "Copies",
+    "notes": ["Great examples include the Eiffel Tower at Paris Las Vegas and the Leaning Tower of Niles."],
     "size": "medium",
-    "tags": [],
+    "tags": ["reference-key"],
     "type": "place"
   },
-  "big-ben": {
+  "big-ben-mecca": {
     "been": false,
     "city": "London",
     "coords": "51.50070000, -0.12450000",
@@ -21,7 +23,7 @@
     "name": "Big Ben",
     "reference": "Mecca"
   },
-  "chinatown-gate": {
+  "chinatown-gate-washington": {
     "been": true,
     "city": "Washington",
     "countries": ["US", "CN"],
@@ -30,7 +32,7 @@
     "name": "Chinatown Gate",
     "reference": "Washington"
   },
-  "eiffel-tower": {
+  "eiffel-tower-tianducheng": {
     "been": false,
     "city": "Las Vegas",
     "coords": "48.85822222, 2.29450000",
@@ -40,7 +42,7 @@
     "name": "Eiffel Tower",
     "reference": "Tianducheng"
   },
-  "english-village": {
+  "english-village-china": {
     "been": false,
     "coords": "31.03600000, 121.19050000",
     "countries": ["CN", "GB"],
@@ -49,7 +51,7 @@
     "name": "English Village",
     "reference": "China"
   },
-  "global-village": {
+  "global-village-dubai": {
     "been": false,
     "city": "Dubai",
     "coords": "25.07168600, 55.30844200",
@@ -60,10 +62,10 @@
     "name": "Global Village",
     "reference": "Dubai"
   },
-  "great-pyramid": {
+  "great-pyramid-las-vegas": {
     "been": true,
     "city": "Las Vegas",
-    "coords": "36.095555555555556, -115.17583333333333",
+    "coords": "36.09555556, -115.17583333",
     "countries": ["US", "EG"],
     "icons": ["🇺🇸", "🇪🇬", "🛕"],
     "link": "https://en.wikipedia.org/wiki/Luxor_Las_Vegas",
@@ -71,7 +73,7 @@
     "reference": "Las Vegas",
     "wikidata": "Q637389"
   },
-  "hallstatt-village": {
+  "hallstatt-village-guangdong": {
     "been": false,
     "coords": "23.18111111, 114.32655556",
     "countries": ["CN", "AT"],
@@ -80,7 +82,7 @@
     "name": "Hallstatt Village",
     "reference": "Guangdong"
   },
-  "huis-ten-bosch": {
+  "huis-ten-bosch-sasebo": {
     "been": false,
     "coords": "33.08377000, 129.78812000",
     "countries": ["JP", "NL"],
@@ -89,10 +91,10 @@
     "name": "Huis Ten Bosch",
     "reference": "Sasebo"
   },
-  "leaning-tower-of-pisa": {
+  "leaning-tower-of-pisa-niles-il": {
     "been": true,
     "city": "Chicago",
-    "coords": "42.0125, -87.7836",
+    "coords": "42.01250000, -87.78360000",
     "countries": ["US", "IT"],
     "icons": ["🇺🇸", "🇮🇹", "🗼"],
     "link": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Niles",
@@ -100,7 +102,7 @@
     "reference": "Niles, IL",
     "wikidata": "Q6509808"
   },
-  "national-cathedral": {
+  "national-cathedral-washington": {
     "been": true,
     "city": "Washington",
     "coords": "38.93055556, -77.07083333",
@@ -110,7 +112,7 @@
     "name": "National Cathedral",
     "reference": "Washington"
   },
-  "neuschwanstein-castle": {
+  "neuschwanstein-castle-disneyland": {
     "been": false,
     "coords": "47.55750000, 10.74944444",
     "countries": ["US", "DE"],
@@ -119,7 +121,7 @@
     "name": "Neuschwanstein Castle",
     "reference": "Disneyland"
   },
-  "palace-of-versailles": {
+  "palace-of-versailles-windermere-fl": {
     "been": false,
     "coords": "28.47305556, -81.55138889",
     "countries": ["US", "FR"],
@@ -128,7 +130,7 @@
     "name": "Palace of Versailles",
     "reference": "Windermere, FL"
   },
-  "roman-forum": {
+  "roman-forum-las-vegas": {
     "been": true,
     "city": "Las Vegas",
     "coords": "36.11777778, -115.17500000",
@@ -138,7 +140,7 @@
     "name": "Roman Forum",
     "reference": "Las Vegas"
   },
-  "saint-marks-campanile": {
+  "saint-marks-campanile-las-vegas": {
     "been": true,
     "city": "Las Vegas",
     "coords": "36.12138889, -115.16888889",
@@ -148,7 +150,7 @@
     "name": "Saint Mark’s Campanile",
     "reference": "Las Vegas"
   },
-  "saint-peters-basilica": {
+  "saint-peters-basilica-yamoussoukro": {
     "been": false,
     "coords": "6.81111111, -5.29694444",
     "countries": ["CI", "VA"],
@@ -157,7 +159,7 @@
     "name": "Saint Peter’s Basilica",
     "reference": "Yamoussoukro"
   },
-  "statue-of-liberty": {
+  "statue-of-liberty-paris": {
     "been": true,
     "city": "Las Vegas",
     "coords": "36.10200000, -115.17460000",

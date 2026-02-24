@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Metro stations that have primary names in two or more languages.",
     "icon": "✌️",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Bilingual Stations",
+    "notes": ["The criterion for inclusion is that the meaning has been translated, like Étangs Noirs / Zwarte Vijvers.", "I do not include stations whose name is simply transliterated from another script.", "This list is sorted by city, as it's more interesting to see these in context of where they are.", "I didn't include the city as the reference because it is obvious in context and would be repetitive."],
     "size": "medium",
     "sort": "city",
     "type": "place"

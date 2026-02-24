@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "Cities that have hosted the Eurovision Song Contest.",
     "icon": "💙",
     "map": {
       "lat": "50.8",
@@ -7,6 +9,7 @@
       "zoom": "4"
     },
     "name": "Eurovision",
+    "notes": ["Action: sort out cities that have hosted more than once. Keys are clashing.", "Action: link to wiki page for the that year's contest rather than the city's wiki page."],
     "prefixType": "year",
     "size": "large",
     "sort": "prefix",

@@ -1,7 +1,9 @@
 {
   "--info--": {
+    "header": "Train systems that have unusual gauges, narrower or wider than standard gauge.",
     "icon": "📏",
     "name": "Track Gauges",
+    "notes": ["Prefix is number of millimeters.", "1435 is standard gauge.", "Clicking a number on the page converts it from millimeters to feet and fractional inches using a small JS function."],
     "size": "large",
     "sort": "prefix",
     "tags": ["prefix"],

@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Points the furthest in each cardinal direction of countries and states.",
     "icon": "🧭",
     "map": {
       "cluster": "false",
@@ -8,6 +9,7 @@
       "zoom": "3"
     },
     "name": "Extreme Points",
+    "notes": ["Second icon is an arrow that indicates the direction.", "Including a few diagonal directions too, i.e. northwesternmost point.", "Sorted by country, then state, then direction going clockwise from north."],
     "size": "large",
     "sort": ["countries", "states", "icons"],
     "tags": ["auto", "featured", "states"],

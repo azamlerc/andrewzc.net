@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "header": "Countries that have declared independence from other countries.",
+    "complete": true,
     "icon": "🎆",
     "map": {
       "cluster": "false",
@@ -8,6 +10,7 @@
       "zoom": "2"
     },
     "name": "Independence",
+    "notes": ["Generally the second country is the one it declared independence from."],
     "prefixClass": "fixed",
     "prefixType": "year",
     "size": "medium",

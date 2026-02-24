@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Forts and other structures whose primary purpose is defensive.",
     "icon": "🪖",
     "map": {
       "lat": "50.8",
@@ -7,6 +8,7 @@
       "zoom": "4"
     },
     "name": "Fortifications",
+    "notes": ["Can also include some fortified towns with existing city walls.", "Does not include modern military bases."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"

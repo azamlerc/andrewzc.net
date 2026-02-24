@@ -1,5 +1,7 @@
 {
   "--info--": {
+    "complete": true,
+    "header": "List of all Emmaüs charity shops in France.",
     "icon": "🧺",
     "map": {
       "lat": "47",
@@ -8,6 +10,7 @@
       "zoom": "6"
     },
     "name": "Emmaüs",
+    "notes": ["Street addresses from Emmaus website, coords from Google based on address."],
     "size": "large",
     "tags": ["auto", "google"],
     "type": "place"

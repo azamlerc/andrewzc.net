@@ -1,7 +1,9 @@
 {
   "--info--": {
+    "header": "Metro services with grade of automation level 4 (GoA4), full automation.",
     "icon": "🤖",
     "name": "Automatic Metros",
+    "notes": ["Year indicates the first year that automatic trains ran in that metro system.", "Been indicates whether I have taken automatic trains on that line.", "Some lines have been converted to automatic operation, such as Paris lines 1 and 4."],
     "prefixClass": "fixed",
     "size": "large",
     "sort": "prefix",

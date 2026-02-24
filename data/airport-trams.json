@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Tram stops that provide direct service to airports.",
     "icon": "🛫",
     "map": {
       "lat": "25",
@@ -7,6 +8,7 @@
       "zoom": "2"
     },
     "name": "Airport Trams",
+    "notes": ["Also includes light rail."],
     "size": "medium",
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"

@@ -88,10 +88,73 @@ function ensureScript(src) {
   document.head.appendChild(style);
 })();
 
+(function ensureEditModeStyle() {
+  if (document.getElementById("edit-mode-style")) return;
+  const style = document.createElement("style");
+  style.id = "edit-mode-style";
+  style.textContent = `
+    /* Header wrapper (we build this in JS) */
+    .headlineWrap { position: relative; }
+
+    /* Header actions: vertically centered with title */
+    .headerActions {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      z-index: 20; /* above .headline (z-index:10 in styles.css) */
+    }
+
+    .pillToggle {
+      font: 16pt Avenir;
+      padding: 8px 24px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.18);
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .pillToggle.on {
+      background: rgba(47,116,208,0.92);
+      color: white;
+      border-color: transparent;
+    }
+
+    .newEntityBtn {
+      font: 16pt Avenir;
+      padding: 8px 24px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.18);
+      background: transparent;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .pillToggle:active, .newEntityBtn:active { transform: translateY(1px); }
+
+    @media (prefers-color-scheme: dark) {
+      .newEntityBtn { border-color: rgba(255,255,255,0.22); }
+    }
+  `;
+  document.head.appendChild(style);
+})();
+
 // -----------------------------
 // Port of Entity.rowHTML() (entity.swift)
 // -----------------------------
 const FRACTIONS = new Set(["½", "¼", "¾", "⅛", "⅜", "⅝", "⅞"]);
+
+function computePrefixDate(prefix) {
+  const p = (prefix ?? "20??");
+  if (p == "20??") return "2099";
+  if (String(p).length === 4) return `${p}-13-32`;
+  if (String(p).length === 7) return `${p}-32`;
+  return String(p);
+}
 
 function formatDistance(meters) {
   const m = Number(meters);
@@ -184,7 +247,7 @@ function renderRow(entity, listCtx) {
     frag.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
   }
 
-  // link
+  // link (always view link; edit link will be swapped in DOM if needed)
   frag.append(
     el(
       "a",
@@ -217,6 +280,65 @@ function renderRow(entity, listCtx) {
 // -----------------------------
 // Port of List.sortedGroups() + pageHTML()
 // -----------------------------
+// Swift-compatible icon ordering: compass arrows clockwise from up.
+const COMPASS_ARROW_RANK = new Map([
+  ["⬆️", 0],
+  ["↗️", 1],
+  ["➡️", 2],
+  ["↘️", 3],
+  ["⬇️", 4],
+  ["↙️", 5],
+  ["⬅️", 6],
+  ["↖️", 7]
+]);
+
+function compareIcons(a, b) {
+  // Entities may store icons as an array of emoji strings.
+  // Sort lexicographically by per-icon rank, then by raw string; shorter list first.
+  const aa = Array.isArray(a) ? a.map(String) : [];
+  const bb = Array.isArray(b) ? b.map(String) : [];
+
+  const n = Math.min(aa.length, bb.length);
+  for (let i = 0; i < n; i++) {
+    const ar = COMPASS_ARROW_RANK.get(aa[i]) ?? 1000;
+    const br = COMPASS_ARROW_RANK.get(bb[i]) ?? 1000;
+    if (ar !== br) return ar < br ? -1 : 1;
+
+    if (aa[i] !== bb[i]) {
+      const c = aa[i].localeCompare(bb[i], undefined, { numeric: true, sensitivity: "base" });
+      if (c !== 0) return c;
+    }
+  }
+
+  if (aa.length === bb.length) return 0;
+  return aa.length < bb.length ? -1 : 1;
+}
+
+function codesFromEntity(entity, pluralKey, singularKey) {
+  const v = entity?.[pluralKey];
+  if (Array.isArray(v)) return v.map(String);
+
+  const s = entity?.[singularKey];
+  if (typeof s === "string" && s.length) return [s];
+
+  return [];
+}
+
+function compareCodeArrays(aCodes, bCodes) {
+  // Swift's `lexicographicallyPrecedes` behavior.
+  const a = Array.isArray(aCodes) ? aCodes.map(String) : [];
+  const b = Array.isArray(bCodes) ? bCodes.map(String) : [];
+
+  const n = Math.min(a.length, b.length);
+  for (let i = 0; i < n; i++) {
+    if (a[i] === b[i]) continue;
+    const c = a[i].localeCompare(b[i], undefined, { numeric: true, sensitivity: "base" });
+    if (c !== 0) return c;
+  }
+
+  if (a.length === b.length) return 0;
+  return a.length < b.length ? -1 : 1;
+}
 function compareValues(av, bv, { numeric = false, descending = false } = {}) {
   const aU = av == null;
   const bU = bv == null;
@@ -242,27 +364,69 @@ function compareValues(av, bv, { numeric = false, descending = false } = {}) {
   return descending ? -out : out;
 }
 
-function buildComparator(sortSpec) {
-  // Examples: "name", "-size", "section,name", "-size,name"
-  // Leading '-' means descending.
-  const spec = (sortSpec || "").trim();
-  const parts = spec ? spec.split(",").map(s => s.trim()).filter(Boolean) : [];
+function normalizeSortParts(sortSpec, tags) {
+  let parts = [];
+
+  // Accept:
+  //   - string: "section,name" or "-size,name"
+  //   - array:  ["section", "name"] or ["-size", "name"]
+  if (Array.isArray(sortSpec)) {
+    parts = sortSpec.map(s => String(s).trim()).filter(Boolean);
+  } else {
+    const spec = (typeof sortSpec === "string" ? sortSpec : "").trim();
+    parts = spec ? spec.split(",").map(s => s.trim()).filter(Boolean) : [];
+  }
 
   // Default sort if none supplied
   if (parts.length === 0) {
-    parts.push("name");
+    // If reference-first tag is present, sort by reference then name
+    if (Array.isArray(tags) && tags.includes("reference-first")) {
+      parts.push("reference", "name");
+    } else {
+      parts.push("name");
+    }
   }
 
+  return parts;
+}
+
+function buildComparator(sortSpec, tags) {
+  // Supports `sort` as either a string ("-size,name") or an array of strings (["-size","name"]).
+  // Earlier keys take precedence; later keys break ties.
+  const parts = normalizeSortParts(sortSpec, tags);
+
   const keys = parts.map(p => {
+    // Leading '-' means descending. Leading '+' means explicit ascending.
     const descending = p.startsWith("-");
-    const key = descending ? p.slice(1) : p;
+    const key = p.replace(/^[-+]/, "");
     const numeric = ["size", "distance", "lat", "lon", "zoom", "clusterLevel"].includes(key);
-    return { key, descending, numeric };
+    const isIcons = (key === "icons");
+    const isCountries = (key === "countries");
+    const isStates = (key === "states");
+    return { key, descending, numeric, isIcons, isCountries, isStates };
   });
 
   return (a, b) => {
     for (const k of keys) {
-      const c = compareValues(a?.[k.key], b?.[k.key], { numeric: k.numeric, descending: k.descending });
+      let c = 0;
+
+      if (k.isIcons) {
+        c = compareIcons(a?.icons, b?.icons);
+        if (k.descending) c = -c;
+      } else if (k.isCountries) {
+        const ac = codesFromEntity(a, "countries", "country");
+        const bc = codesFromEntity(b, "countries", "country");
+        c = compareCodeArrays(ac, bc);
+        if (k.descending) c = -c;
+      } else if (k.isStates) {
+        const as = codesFromEntity(a, "states", "state");
+        const bs = codesFromEntity(b, "states", "state");
+        c = compareCodeArrays(as, bs);
+        if (k.descending) c = -c;
+      } else {
+        c = compareValues(a?.[k.key], b?.[k.key], { numeric: k.numeric, descending: k.descending });
+      }
+
       if (c !== 0) return c;
     }
     return 0;
@@ -273,7 +437,7 @@ function sortedGroups(listInfo, entities, listCtx) {
   const list = [...entities];
 
   // Sort (supports specs like "name" or "-size"; leading '-' means descending)
-  const comparator = buildComparator(listInfo.sort);
+  const comparator = buildComparator(listInfo.sort, listInfo.tags);
   list.sort(comparator);
 
   let groups = [list];
@@ -289,14 +453,8 @@ function sortedGroups(listInfo, entities, listCtx) {
     groups.push(list.filter(e => e.section == null || !sections.includes(e.section)));
   } else if (listInfo.group === "date") {
     const today = new Date().toISOString().slice(0, 10);
-    const prefixDate = (e) => {
-      const p = e.prefix ?? "20??";
-      if (p.length === 4) return p + "-13-32";
-      if (p.length === 7) return p + "-32";
-      return p;
-    };
-    const future = list.filter(e => prefixDate(e) > today);
-    const past = list.filter(e => prefixDate(e) <= today);
+    const future = list.filter(e => e.prefixDate > today);
+    const past = list.filter(e => e.prefixDate <= today);
     groups = [future, past];
   } else if (typeof listInfo.nearDistance === "number") {
     const nearDistance = listInfo.nearDistance;
@@ -313,9 +471,75 @@ function sortedGroups(listInfo, entities, listCtx) {
   return groups;
 }
 
-function renderPage(listInfo, entities) {
+// --- DOM-based admin controls and edit mode toggling ---
+function applyEditModeToDom(pageId, editMode) {
+  document.body.classList.toggle("edit-mode", !!editMode);
+
+  // Swap entity row links in-place.
+  const links = document.querySelectorAll(".items a[id]");
+  links.forEach(a => {
+    if (!a.dataset.viewHref) a.dataset.viewHref = a.getAttribute("href") || "#";
+    if (editMode) {
+      const key = a.getAttribute("id") || "";
+      a.setAttribute("href", `edit.html?list=${encodeURIComponent(pageId)}&key=${encodeURIComponent(key)}`);
+    } else {
+      a.setAttribute("href", a.dataset.viewHref || "#");
+    }
+  });
+
+  // Toggle header buttons
+  const actions = document.querySelector(".headerActions");
+  if (actions) {
+    const editBtn = actions.querySelector("button.pillToggle");
+    const newBtn = actions.querySelector("a.newEntityBtn");
+    if (editBtn) editBtn.classList.toggle("on", !!editMode);
+    if (newBtn) newBtn.style.display = editMode ? "inline-block" : "none";
+  }
+}
+
+function ensureAdminControls(pageId) {
+  const headlineWrap = document.querySelector(".headlineWrap");
+  if (!headlineWrap) return;
+
+  let actions = headlineWrap.querySelector(".headerActions");
+  if (actions) return; // already mounted
+
+  actions = el("div", { class: "headerActions" });
+
+  const newBtn = el(
+    "a",
+    { class: "newEntityBtn", href: `edit.html?list=${encodeURIComponent(pageId)}` },
+    text("New")
+  );
+  // hidden until edit mode is on
+  newBtn.style.display = "none";
+
+  const editBtn = el(
+    "button",
+    { type: "button", class: "pillToggle" },
+    text("Edit")
+  );
+
+  editBtn.addEventListener("click", () => {
+    const key = `editMode:${pageId}`;
+    const next = !(sessionStorage.getItem(key) === "1");
+    sessionStorage.setItem(key, next ? "1" : "0");
+    applyEditModeToDom(pageId, next);
+  });
+
+  actions.append(newBtn, editBtn);
+  headlineWrap.append(actions);
+
+  // Apply stored state (if any)
+  const stored = (sessionStorage.getItem(`editMode:${pageId}`) === "1");
+  applyEditModeToDom(pageId, stored);
+}
+
+function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   const app = document.getElementById("app");
   clear(app);
+
+  document.body.classList.toggle("edit-mode", !!editMode);
 
   const icon = listInfo.icon || "❓";
   const name = listInfo.name || "Untitled";
@@ -329,18 +553,26 @@ function renderPage(listInfo, entities) {
   if (tags.length) meta.setAttribute("content", tags.join(", "));
   else meta.removeAttribute("content");
 
-  // Headline(s)
   const headlineLines = (Array.isArray(listInfo.headlines) && listInfo.headlines.length > 0)
     ? listInfo.headlines
     : [name];
 
+  // Headline(s)
   const headline = el("div", { class: "headline" });
+
   headlineLines.forEach((h, i) => {
     if (i) headline.append(br());
     headline.append(text(`${icon} ${h}`));
   });
-  app.append(headline);
 
+  // (No inline EDIT badge)
+
+  const headlineWrap = el("div", { class: "headlineWrap" }, headline);
+
+  // (No admin controls here; mounted after auth)
+
+  app.append(headlineWrap);
+  
   // Map container (map.js will read #map attributes)
   if (listInfo.map && typeof listInfo.map === "object") {
     const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
@@ -371,7 +603,9 @@ function renderPage(listInfo, entities) {
     header: listInfo.header || null,
     footer: listInfo.footer || null,
     headlines: listInfo.headlines || null,
-    script: listInfo.script || null
+    script: listInfo.script || null,
+    editMode: !!editMode,
+    listId: pageId
   };
 
   const items = el("div", { class: `items ${listInfo.size || "large"}` });
@@ -408,6 +642,24 @@ function renderPage(listInfo, entities) {
   }
 }
 
+async function isAdminSession() {
+  // Uses the canonical endpoint. Requires cross-site cookies to be allowed for api.andrewzc.net.
+  try {
+    const base = getApiBase().replace(/\/+$/, "");
+    const res = await fetch(`${base}/admin/me`, {
+      method: "GET",
+      credentials: "include",
+      headers: { "Accept": "application/json" }
+    });
+    if (!res.ok) return false;
+
+    const data = await res.json().catch(() => null);
+    return !!data && data.authenticated === true;
+  } catch (_) {
+    return false;
+  }
+}
+
 // -----------------------------
 // Boot: fetch JSON -> render full HTML
 // -----------------------------
@@ -418,14 +670,45 @@ function renderPage(listInfo, entities) {
   try {
     const data = await fetchPageData(pageId);
 
-    // Your API response shape:
-    // { "--info--": {...}, "entities": [...] }
     const info = data["--info--"] || {};
     window.pageInfo = info;
-    const entities = Array.isArray(data.entities) ? data.entities : [];
+
+    let entities = Array.isArray(data.entities) ? data.entities : [];
+
+    window.__isAdmin = false;
+    document.body.classList.remove("admin");
+    const editKey = `editMode:${pageId}`;
+    const storedEditMode = (sessionStorage.getItem(editKey) === "1");
+    
+    // Enrich with Swift-compatible computed property when sorting by prefixDate.
+    const sortSpecRaw = info.sort;
+    const sortSpecStr = Array.isArray(sortSpecRaw)
+      ? sortSpecRaw.map(s => String(s)).join(",")
+      : String(sortSpecRaw ?? "");
+
+    if (sortSpecStr.includes("prefixDate")) {
+      entities = entities.map(e => ({
+        ...e,
+        prefixDate: computePrefixDate(e?.prefix)
+      }));
+    }
+
     window.places = entities;
-      
-    renderPage(info, entities);
+
+    renderPage(info, entities, { pageId, isAdmin: false, editMode: false });
+    applyEditModeToDom(pageId, false);
+
+    // Background admin check (do NOT re-render the whole page — it breaks Leaflet by recreating #map).
+    isAdminSession().then((admin) => {
+      window.__isAdmin = !!admin;
+      document.body.classList.toggle("admin", !!admin);
+
+      if (admin) {
+        ensureAdminControls(pageId);
+      } else {
+        sessionStorage.setItem(editKey, "0");
+      }
+    });
   } catch (err) {
     console.error(err);
     const app = document.getElementById("app");
@@ -434,6 +717,7 @@ function renderPage(listInfo, entities) {
       el("div", { class: "headline" }, text("⚠️ Error")),
       el("div", { class: "items large" }, el("pre", { style: "white-space:pre-wrap" }, text(String(err?.stack || err))))
     );
+    document.body.classList.remove("edit-mode");
     document.title = "Error";
   }
 })();

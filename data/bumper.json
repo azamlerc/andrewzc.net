@@ -1,5 +1,6 @@
 {
   "--info--": {
+    "header": "Metro stations where tracks end at bumper blocks (buffer stops) immediately after the platform.",
     "icon": "🛑",
     "map": {
       "lat": "42",
@@ -7,6 +8,7 @@
       "zoom": "3"
     },
     "name": "Bumper Blocks",
+    "notes": ["Trains must change direction in the station, rather than continuing to overflow tracks.", "Common in elevated stations, as well as stations contstrained by natural elements such as rivers.", "Often the source of operational delays, such as at 8th Avenue."],
     "size": "medium",
     "tags": ["auto", "reference-first"],
     "type": "place"
