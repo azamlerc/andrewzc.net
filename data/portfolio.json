@@ -1,0 +1,1262 @@
+{
+  "meta": {
+    "title": "🖼 Portfolio",
+    "headline": "🖼 Portfolio",
+    "source": "portfolio.html"
+  },
+  "intro": "Hi there, I’m Andrew. I challenge the assumption that you can only be good at one thing, approach something from one point of view, or be one kind of person. Here is a selection of creative and technical projects, both professional and personal, that I’ve worked on over the years.",
+  "sections": [
+    {
+      "name": "Intro",
+      "anchor": "intro",
+      "keys": [
+        "resume",
+        "symsys",
+        "andrewzc",
+        "flags",
+        "countries",
+        "allthethings",
+        "languages"
+      ]
+    },
+    {
+      "name": "KavaSoft",
+      "anchor": "kavasoft",
+      "keys": [
+        "iconquer",
+        "iconqer-maps",
+        "shoebox",
+        "kavatunes",
+        "kavamovies",
+        "hyperimage",
+        "kavaservices",
+        "store"
+      ],
+      "sectionIntroKey": "kavasoft"
+    },
+    {
+      "name": "NDS / Cisco",
+      "anchor": "nds",
+      "keys": [
+        "sdp",
+        "home",
+        "social-zapper",
+        "topgear",
+        "surfaces",
+        "flare",
+        "twitter-tv",
+        "highlights",
+        "privacy",
+        "connections"
+      ],
+      "sectionIntroKey": "nds"
+    },
+    {
+      "name": "Compass",
+      "anchor": "compass",
+      "keys": [
+        "mc",
+        "window-displays",
+        "lefeuil",
+        "marketing-automation",
+        "a3g",
+        "fuzzy-names",
+        "html-to-pdf"
+      ],
+      "sectionIntroKey": "compass"
+    },
+    {
+      "name": "Interview Questions",
+      "anchor": "interviews",
+      "keys": [
+        "fourfours",
+        "subway",
+        "wikilinks",
+        "pontifex",
+        "countdown",
+        "magic-names",
+        "hashcash"
+      ],
+      "sectionIntroKey": "interviews"
+    },
+    {
+      "name": "Apple",
+      "anchor": "apple",
+      "keys": [
+        "asw",
+        "arw",
+        "useradmin",
+        "macupgrades",
+        "macs",
+        "bang"
+      ],
+      "sectionIntroKey": "apple"
+    },
+    {
+      "name": "KavaFoto",
+      "anchor": "kavafoto",
+      "keys": [
+        "concerts",
+        "fashion",
+        "kickthecan",
+        "books",
+        "natgeo"
+      ],
+      "sectionIntroKey": "kavafoto"
+    },
+    {
+      "name": "Etc.",
+      "anchor": "etc",
+      "keys": [
+        "hiking",
+        "shack",
+        "wordle",
+        "dictionary",
+        "painting",
+        "macs",
+        "john-irving"
+      ],
+      "sectionIntroKey": "etc"
+    }
+  ],
+  "projects": [
+    {
+      "key": "resume",
+      "name": "Résumé",
+      "description": "<p>Of the thousands of résumés that have passed across my desk, the ones that stood out showed the candidate’s creativity using color and formatting to tell a story. My <a href=\"resume.pdf\">résumé</a> uses venn diagrams to show, rather than tell, that I’m a multi-disciplinary person. It has a timeline inspired by the Facebook feed to illustrate the journey of my career.</p>",
+      "images": [
+        {
+          "img": "portfolio/resume/venn1.png",
+          "link": "resume.pdf"
+        },
+        {
+          "img": "portfolio/resume/venn2.png",
+          "link": "resume.pdf"
+        },
+        {
+          "img": "portfolio/resume/timeline.png",
+          "link": "resume.pdf"
+        }
+      ]
+    },
+    {
+      "key": "symsys",
+      "name": "Symbolic Systems",
+      "description": "<p>At Stanford I majored in <a href=\"https://symsys.stanford.edu\">Symbolic Systems</a>, an interdisciplinary program that brings together computer science, philosophy, linguistics and psychology. People from diverse backgrounds come together to study the overlaps between these fields, and my concentration was in human computer interaction. One lasting effect was my approach to asking similar questions when comparing the diversity of <a href=\"allthethings.html\">computer languages</a> and <a href=\"song-titles.html\">human languages</a>.</p>\n\n<p>Throughout my career, my most successful projects have been grounded in the type of systemic thinking that I learned in this program. I always try to ask questions like: What are we building? What is its reason for being? What is its nature? What are its principles? If you get these things right at the beginning of a project, it sets you up for success down the road.</p>",
+      "images": []
+    },
+    {
+      "key": "andrewzc",
+      "name": "Website",
+      "description": "<p>I use my website to document my life experiences. I like to make lists of all the places I’ve been, and the places I want to go. These are grouped into categories like <a href=\"cities-index.html\">cities</a>, <a href=\"countries-index.html\">countries</a>, <a href=\"geography.html\">geography</a>, <a href=\"nature.html\">nature</a>, <a href=\"buildings.html\">buildings</a>, <a href=\"infrastructure.html\">infrastructure</a> and <a href=\"trains.html\">trains</a>. Looking back and looking forward, I feel like things are in balance when those lists are about the same length. My website is a manifesto on simplicity, and consists of just HTML and emoji, with almost no images or scripts.</p>",
+      "images": [
+        {
+          "img": "portfolio/website/website1.png",
+          "link": "geography.html"
+        },
+        {
+          "img": "portfolio/website/website2.png",
+          "link": "infrastructure.html"
+        },
+        {
+          "img": "portfolio/website/website3.png",
+          "link": "metros.html"
+        },
+        {
+          "img": "portfolio/website/website4.png",
+          "link": "cities.html"
+        }
+      ]
+    },
+    {
+      "key": "flags",
+      "name": "Flags",
+      "description": "<p>A lot of travel pages on my website have flag emoji that indicate where the things I’ve visted (or want to visit) are. I wrote a program in Swift to read the HTML pages on my website, count the number of flags of each country on each page, and <a href=\"flags.html\">show the totals</a> in an HTML table. About 90% of the program was written using ChatGPT prompts, saving me time and letting me focus on the parts of the program where I was adding the most value.</p>",
+      "images": [
+        {
+          "img": "portfolio/flags/pages.png",
+          "link": "flags.html"
+        },
+        {
+          "img": "portfolio/flags/countries.png",
+          "link": "flags.html"
+        }
+      ]
+    },
+    {
+      "key": "countries",
+      "name": "Countries",
+      "description": "<p>Wouldn’t it be great to have a summary of all the things I’ve visited in <a href=\"countries.html\">each country</a>? Building upon the Flags project, I wrote a <a href=\"https://github.com/azamlerc/andrewzc\">program</a> to parse all the pages on my website and create HTML pages with everything in each country.</p>",
+      "images": [
+        {
+          "img": "portfolio/website/croatia.png",
+          "link": "countries/croatia.html"
+        },
+        {
+          "img": "portfolio/website/estonia.png",
+          "link": "countries/estonia.html"
+        },
+        {
+          "img": "portfolio/website/north-korea.png",
+          "link": "countries/north-korea.html"
+        },
+        {
+          "img": "portfolio/website/countries1.png",
+          "link": "countries.html"
+        },
+        {
+          "img": "portfolio/website/countries2.png",
+          "link": "countries.html"
+        }
+      ]
+    },
+    {
+      "key": "allthethings",
+      "name": "Computer Languages",
+      "description": "<p>I’ve tried to port my interview question solutions to thirteen programming languages. Even while maintaining a reasonable degree of fluency in all of them, it can be hard to remember the subtle differences, so I made a giant cheat sheet of things I do most often in all the <a href=\"allthethings.html\">languages</a>. I even built a mileage chart style graph that shows the precent similarity between different languages, giving me some fascinating insights into how they’re related.</p>",
+      "images": [
+        {
+          "img": "portfolio/allthethings/columns.png",
+          "link": "allthethings.html"
+        },
+        {
+          "img": "portfolio/allthethings/checkboxes.png",
+          "link": "allthethings.html"
+        },
+        {
+          "img": "portfolio/allthethings/mileage.png",
+          "link": "allthethings.html"
+        }
+      ]
+    },
+    {
+      "key": "languages",
+      "name": "Human Languages",
+      "description": "<p>I speak English, Russian, French and Dutch. Sometimes for fun when I’m listening to pop music, I like to translate the song into Dutch in my head in realtime to see if I can keep up. I made a web page that translated the titles of some of my <a href=\"song-titles.html\">favorite songs</a> to Dutch, and a total of nine languages while I was at it. I used the same algorithm for comparing computer lanugages to make a milage chart of human languages, empirically demonstrating the similarity of Germanic, Romance and Slavic languages.</p>",
+      "images": [
+        {
+          "img": "portfolio/languages/langs1.png",
+          "link": "song-titles.html"
+        },
+        {
+          "img": "portfolio/languages/langs2.png",
+          "link": "song-titles.html"
+        },
+        {
+          "img": "portfolio/languages/mileage.png",
+          "link": "song-titles.html"
+        }
+      ]
+    },
+    {
+      "key": "kavasoft",
+      "name": "KavaSoft",
+      "description": "<p>I started <a href=\"https://kavasoft.andrewzc.net\">KavaSoft</a> in 2002, with the dream of writing applications for the brand new Mac OS X operating system. I started by porting one of my favorite games from the original Macintosh, which became iConquer. Over the next nine years I released a suite of apps for organizing your photos by content, sharing your favorite music, downloaded images from websites, sorting your movie collection, translating text in apps and much more. This was a decade before the app store, so I had to work out distribution, payments and software updates in order to make KavaSoft into a profitable enterprise.</p>",
+      "images": [
+        {
+          "img": "portfolio/kavasoft/homepage.png",
+          "link": "https://kavasoft.andrewzc.net"
+        },
+        {
+          "img": "portfolio/kavasoft/download-buy.png",
+          "link": "https://kavasoft.andrewzc.net/Shoebox"
+        },
+        {
+          "img": "portfolio/kavasoft/quotations.png",
+          "link": "https://kavasoft.andrewzc.net/Shoebox"
+        }
+      ]
+    },
+    {
+      "key": "iconquer",
+      "name": "iConquer",
+      "description": "<p>The original game of world conquest for Mac OS X! <a href=\"https://kavasoft.andrewzc.net/iConquer\">iConquer</a> is based on a version of Risk that was one of my favorite games for the original Macintosh. It features stunning high-resolution maps based on satellite photography, and a variety of computer player personalities based on artificial intelligence algorithms. A community of developers contributed maps, player algorithms and language translations.</p>",
+      "images": [
+        {
+          "img": "https://kavasoft.andrewzc.net/images/apps/iConquer-512.png",
+          "link": "https://kavasoft.andrewzc.net/iConquer"
+        },
+        {
+          "img": "portfolio/iconquer/hero.png",
+          "link": "https://kavasoft.andrewzc.net/iConquer"
+        },
+        {
+          "img": "portfolio/iconquer/screenshot.png",
+          "link": "https://kavasoft.andrewzc.net/iConquer/images/screenshot-large.jpg"
+        }
+      ]
+    },
+    {
+      "key": "iconqer-maps",
+      "name": "iConquer Maps",
+      "description": "<p>Making <a href=\"https://kavasoft.andrewzc.net/iConquer/ \">iConquer maps</a> was a graphic design project of its own. Whether mapping countries in the world or neighborhoods in a city, I started by compositing satellite imagery at what was at the time insanely high resolution (using 4K about a decade before it was cool). I created an Xcode plugin that allowed third-party developers to contribute maps to the iConquer ecosystem, and was surprised by their creativity: everything from the solar system to a “boss mode” that let you keep playing on an Excel spreadsheet.<p>\n<div class=\"carousel\">\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/iConquerWorldHD.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Africa.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Antarctica.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Australia.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Circles.jpg\"/>\n<!--<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Classic.png\">-->\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Digital_Conquest.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Dubai.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/EuropeLarge.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Excel.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Fourtress.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Iceland.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/London.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/NewYork.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Paris.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/PeriodicTable.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Shatter.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/SolarSystem.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/SoutheastAsia.jpg\"/>\n<!--<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/Spiral.png\">-->\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Squares.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Switzerland.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Tenochtitlan.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/UnitedStates.png\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps-old/Wheel.jpg\"/>\n<img class=\"iconquer\" src=\"https://kavasoft.andrewzc.net/iConquer/download/maps/iConquerWorld76.png\"/>\n</div>\n<a name=\"shoebox\"></a>\n<h2>Shoebox</h2>\n<p><a href=\"https://kavasoft.andrewzc.net/Shoebox\">Shoebox</a> lets you organize your photos by content, and find the photo you want instantly. It’s like a knowledge base for your photo library, with hierarchical categories that let you define the times, people, places and things that define your world. For example, if you tagged a photo of the Eiffel Tower, you could find it when searching for Paris or France. You could import photos from your camera, back up to DVD, and even create searchable websites.</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/Shoebox\"><img src=\"https://kavasoft.andrewzc.net/images/apps/Shoebox-512.png\"/></a>\n<a href=\"http://kavasoft.com/Shoebox/images/screenshot-large.jpg\"><img src=\"portfolio/shoebox/screenshot.png\"/></a>\n<a href=\"http://kavasoft.com/Shoebox/tour/index.php?page=10\"><img src=\"portfolio/shoebox/typeahead.png\"/></a>\n</div>\n<a name=\"kavatunes\"></a>\n<h2>KavaTunes</h2>\n<p><a href=\"http://www.kavasoft.com/KavaTunes/\">KavaTunes</a> creates interactive websites that look and work just like iTunes on your computer. Visitors can browse through your music and playlists, and even play music by streaming it from your computer. The home page and <a href=\"https://kavasoft.andrewzc.net/KavaTunes/example/?artist=pink_floyd\">artist pages</a> feature personalized top ten lists like most played albums and songs. You can even browse music just as if you were holding an <a href=\"http://www.kavasoft.com/KavaTunes/example/ipod/?model=video&amp;color=black\">iPod</a>! KavaTunes can also search the internet to add cover artwork to your music.</p>\n<div class=\"carousel\">\n<a href=\"http://www.kavasoft.com/KavaTunes/\"><img src=\"https://kavasoft.andrewzc.net/images/apps/KavaTunes-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaTunes/example/\"><img src=\"portfolio/kavatunes/home.png\"/></a>\n<a href=\"http://www.kavasoft.com/KavaTunes/example/ipod/?model=video&amp;color=black\"><img src=\"portfolio/kavatunes/ipod.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaTunes/example/?genre=rock\"><img src=\"portfolio/kavatunes/browser.png\"/></a>\n</div>\n<a name=\"kavamovies\"></a>\n<h2>KavaMovies</h2>\n<p><a href=\"https://kavasoft.andrewzc.net/KavaMovies\">KavaMovies</a> lets you organize the movies you’ve seen, the movies you want to see, and the movies in your collection. It connects to IMDB and downloads tons of information about each of your movies in realtime. Movies are linked together by actor, director, genre, keyword, and more; making it easy to surf through all the movies you care about.<p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/KavaMovies\"><img src=\"https://kavasoft.andrewzc.net/images/apps/KavaMovies-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaMovies\"><img src=\"portfolio/kavamovies/header.jpg\"/></a>\n<a href=\"http://kavasoft.com/KavaMovies/images/screenshot-large.jpg\"><img src=\"portfolio/kavamovies/screenshot.jpg\"/></a>\n</div>\n<a name=\"hyperimage\"></a>\n<h2>HyperImage</h2>\n<p>There are millions of images on the web, but how do you find and download them without clicking on them one at a time? <a href=\"https://kavasoft.andrewzc.net/HyperImage\">HyperImage</a> is an industrial-strength tool for searching the web and downloading entire websites worth of pictures. Just enter an address or keyword, and watch as thousands of pictures stream down to your computer. HyperImage knows about the structure of popular websites, can easily download entire blogs, and is also a full-featured Tumblr client.\n</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/HyperImage\"><img src=\"https://kavasoft.andrewzc.net/images/apps/HyperImage-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/HyperImage\"><img src=\"portfolio/hyperimage/hero.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/HyperImage/images/screenshot-large.jpg\"><img src=\"portfolio/hyperimage/screenshot.jpg\"/></a>\n</div>\n<a name=\"kavaservices\"></a>\n<h2>KavaServices</h2>\n<p><a href=\"https://kavasoft.andrewzc.net/KavaServices\">KavaServices</a> can add commands to the Services menu that let you translate text, search websites, encode special characters, calculate mathematical expressions, process text in numerous ways, and even run terminal commands! These commands replace the selected text in any Mac application, just like magic. You don’t need to switch to a different program, or even copy and paste.</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"https://kavasoft.andrewzc.net/images/apps/KavaServices-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"portfolio/kavaservices/screenshot1.jpg\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"portfolio/kavaservices/screenshot2.jpg\"/></a>\n</div>\n<a name=\"store\"></a>\n<h2>KavaSoft Store</h2>\n<p>It’s hard to believe now, but there was no App Store in 2002. When I started KavaSoft, I had to build out the entire infrastructure for the <a href=\"https://kavasoft.andrewzc.net/store/\">KavaSoft Store</a> to help customers discover, download, purchase and update their apps. The system integrated with APIs from payment processors like PayPal and Kagi. I even wrote a Mac license manager app for monitoring sales and assisting with customer service.</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/store/\"><img src=\"portfolio/licenses/store.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/store/\"><img src=\"portfolio/licenses/paypal.png\"/></a>\n<a href=\"portfolio/licenses/licenses.png\"><img src=\"portfolio/licenses/licenses-tn.png\"/></a>\n</div>\n<a name=\"nds\"></a>\n<h1>NDS / Cisco</h1>\n<p>NDS was the world leader in television set-top box middleware, the operating systems that run on cable and satellite boxes. As part of the New Initiatives team, I helped develop proof-of-concept systems to maintain thought leadership in the television space. When NDS was acquired by Cisco, I engaged with the developer community to build excitement about advanced technologies in telepresence, indoor navigation and smart cities. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/nds/cisco.jpg\"><img src=\"portfolio/nds/cisco-tn.png\"/></a>\n<a href=\"portfolio/nds/field.jpg\"><img src=\"portfolio/nds/field-tn.jpg\"/></a>\n<a href=\"portfolio/nds/box.jpg\"><img src=\"portfolio/nds/box-tn.jpg\"/></a>\n<a href=\"portfolio/nds/live.jpg\"><img src=\"portfolio/nds/live-tn.jpg\"/></a>\n</div>\n<a name=\"sdp\"></a>\n<h2>Service Delivery Platform</h2>\n<p>The world of cable and satellite set-top boxes is completely separate from the world of consumer devices. What if we could build a platform to let developers write apps to a single standard that would make them compatible with television platforms around the world? The NDS Service Delivery Platform offers APIs to get schedule information, see what’s playing, act as a remote control, schedule recordings and play back recorded content.</p>\n<p>I was responsible for developing an ecosystem of client apps to demonstrate the potential of the platform. I worked with marketing to engage with both television providers and app developers to sell the dream and turn it into reality.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp1.png\"/></a>\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp2.png\"/></a>\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp3.png\"/></a>\n</div>\n<a name=\"home\"></a>\n<h2>Home</h2>\n<p>The film <a href=\"https://en.wikipedia.org/wiki/Home_%282009_film%29\">Home</a> by Yann Arthus-Bertrand features stunning aerial photography from around the world. This second screen app for iPad shows satellite maps of the locations featured in the movie, zooming from one location to another as scenes change. The location menu lets you jump between scenes, for a non-linear viewing experience that transforms the way in which you consume content.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/title.jpg\"/></a>\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/tn1.png\"/></a>\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/tn2.png\"/></a>\n</div>\n<a name=\"social-zapper\"></a>\n<h2>Social Zapper</h2>\n<p>If all your friends like a TV show, you probably will enjoy it too. Combining the power of the SDP and Facebook APIs, Social Zapper reinvents the traditional schedule grid by showing which of your friends like each show that’s on right now, even allowing you to reorder the channels based on the popularity. It can also recommend shows that you might want to binge based on the overall popularity in your social network. This prototype was later incorporated as a feature of Bento, our cloud-based STB interface.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/social-zapper/social-zapper.png\"><img src=\"portfolio/social-zapper/tn.png\"/></a>\n<a href=\"portfolio/social-zapper/bento.png\"><img src=\"portfolio/social-zapper/bento-tn.png\"/></a>\n</div>\n<a name=\"topgear\"></a>\n<h2>Top Gear</h2>\n<p>This app demonstrated the potential of SDP for rich syncrhonization of time-based metadata between a set-top box and an iPad second screen. As you watched the “star in a reasonably-priced car” segment in an episode of Top Gear on your TV, you could use your iPad to follow their progress around the race track. Playback state was syncrhonized in both directions, so you could hit fast forward on your remote control or in the app to make the car go faster… or even drag the red dot along the track to scrub back and forth on the TV. The seamless link between the screens was magical.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn1.png\"/></a>\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn2.png\"/></a>\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn3.png\"/></a>\n</div>\n<a name=\"surfaces\"></a>\n<h2>Surfaces</h2>\n<p>Imagine if video screens could be as large as you wanted, the size of an entire wall or table? Surfaces was a project that explored the possibilities of creating scalable displays, pushing the relevant content to a number of tiled screens. I created clients that would allow widgets to span adjacent iPads. You could literally drag a widget from one iPad to another, even if one was running a browser and the other a native client written in Swift.</p>\n<a name=\"flare\"></a>\n<h2>Flare</h2>\n<p><a href=\"https://github.com/azamlerc/flare\">Flare</a> is a concept ecosystem that combines indoor location technologies, wearable devices and an object-oriented data model to help people explore interior spaces and interact with objects in their environment. I implemented the backend in Node, the API layer, and frameworks and demo applications for web, Mac, iOS, Apple Watch, Android, Android Watch and Python. I released an SDK and developer documentation on Ciso’s DevNet developer portal, and hosted hackathons in which external developers used the SDK to develop projects. I presented the platform at the National Retail Federation trade show in New York, giving demos to the engineering leadership of a hundred major retail companies.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/flare/trilateral1.png\"><img src=\"portfolio/flare/trilateral1-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral2.png\"><img src=\"portfolio/flare/trilateral2-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral3.png\"><img src=\"portfolio/flare/trilateral3-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral4.png\"><img src=\"portfolio/flare/trilateral4-tn.png\"/></a>\n</div>\n<a name=\"twitter-tv\"></a>\n<h2>Twitter TV</h2>\n<p>I did a hacakthon project in which I replaced the entire SDP context and control architecture with one based on the Twitter platform. Your set-top box had its own account and would tweet what you were watching, along with the title card and a description of the episode. Then you could DM your STB with messages like “watch @topgear”, and it would find that show in the grid and change channels for you. Got it up and running in four hours.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/twitter/twitter.jpg\"><img src=\"portfolio/twitter/twitter-tn.jpg\"/></a>\n<a href=\"portfolio/twitter/topgear.jpg\"><img src=\"portfolio/twitter/topgear-tn.jpg\"/></a>\n</div>\n<a name=\"highlights\"></a>\n<h2>Social Highlights</h2>\n<p>When watching an Apple keynote, there are parts that are more exciting than others. I tried making a highlight reel of the iPad 3 launch, which took hours of my time. What if we could do this automatically by measuring the volume of tweets on a particular hashtag like #ipad during an event? I wrote an algorithm to do exactly that, and made an auto-generated highlight reel. The money shot? When they announced the pricing. Turns out the reel based on hashtag buzz was pretty much the same as the manually curated one. Proved a point in about half a day of work.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/ipad/ipad1.jpg\"><img src=\"portfolio/ipad/ipad1-tn.jpg\"/></a>\n<a href=\"portfolio/ipad/ipad2.jpg\"><img src=\"portfolio/ipad/ipad2-tn.jpg\"/></a>\n</div>\n<a name=\"privacy\"></a>\n<h2>Privacy</h2>\n<p>I gave a presentation on <a href=\"portfolio/privacy/privacy.pdf\">privacy</a> considerations in the context of building a personalized television platform. In a world where many people want to share everything about what they’re doing, would we consider your television viewing history to be sensitive personally identifiable information? Everyone knows that the Queen watches television, but can you imagine if the shows she watched turned up in the tabloids? The talk covered the important points of what privacy is, why it’s important, how to protect it, and specific learnings applicable to our current projects.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/house-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/google-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/queen-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/pins-tn.png\"/></a>\n</div>\n<a name=\"connections\"></a>\n<h2>Connections</h2>\n<p>I designed a <a href=\"portfolio/objects/objects.jpg\">poster</a> for the 2013 NDS developer conference in Bangkok on the theme of “the power of an object oriented system lies not in the objects themselves, but in the connections between them.”</p>\n<div class=\"carousel\">\n<a href=\"portfolio/objects/objects.jpg\"><img src=\"portfolio/objects/tn1.jpg\"/></a>\n<a href=\"portfolio/objects/objects.jpg\"><img src=\"portfolio/objects/tn2.jpg\"/></a>\n</div>\n<a name=\"compass\"></a>\n<h1>Compass</h1>\n<p>Compass is the #1 real estate brokerage in the United States, and also a tech company that creates software to make its real estate agents successful. I joined when engineering had 60 people and over five years watched it go through a period of hypergrowth to 1200 engineers. It was also my chance to move into engineering management and build several awesome, high-performing teams.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/compass/flag.jpg\"><img src=\"portfolio/compass/flag-tn.jpg\"/></a>\n<a href=\"portfolio/compass/hq.jpg\"><img src=\"portfolio/compass/hq-tn.jpg\"/></a>\n<a href=\"portfolio/compass/taxi.jpg\"><img src=\"portfolio/compass/taxi-tn.jpg\"/></a>\n<a href=\"portfolio/compass/ski.jpg\"><img src=\"portfolio/compass/ski-tn.jpg\"/></a>\n<a href=\"portfolio/compass/dc.jpg\"><img src=\"portfolio/compass/dc-tn.jpg\"/></a>\n<a href=\"portfolio/compass/sign.jpg\"><img src=\"portfolio/compass/sign-tn.jpg\"/></a>\n<a href=\"portfolio/compass/nyse.png\"><img src=\"portfolio/compass/nyse-tn.png\"/></a>\n<a href=\"portfolio/compass/sailors.jpg\"><img src=\"portfolio/compass/sailors-tn.jpg\"/></a>\n<a href=\"portfolio/compass/desk.jpg\"><img src=\"portfolio/compass/desk-tn.jpg\"/></a>\n</div>\n<a name=\"mc\"></a>\n<h2>Marketing Center</h2>\n<p>Beautiful marketing materials are a core part of the Compass brand image, but with the massive growth of the brokerage it became untenable for designers to make them by hand. My team and I worked with marketing to essentially distill the brain of a designer into an app called <a href=\"https://www.compass.com/agents-compass/marketing/\">Marketing Center</a>, so agents could make high-quality materials using a self-service tool. It gave them enough flexibility to differentiate themselves while at the same time keeping everything on-brand.</p>\n<div class=\"carousel\">\n<a href=\"https://www.compass.com/agents-compass/marketing/\"><img src=\"portfolio/compass/mc1.jpg\"/></a>\n<a href=\"portfolio/compass/screenshot.png\"><img src=\"portfolio/compass/screenshot-tn.png\"/></a>\n<a href=\"https://www.compass.com/agents-compass/marketing/\"><img src=\"portfolio/compass/mc2.png\"/></a>\n</div>\n<a name=\"window-displays\"></a>\n<h2>Window Displays</h2>\n<p>Marketing Center lets Compass agents create a variety of kinds of print marketing materials, including the listing cards that are displayed in office windows. I worked with the marketing team to create these layouts and implemented them as templates in Marketing Center. So when you walk by a Compass office and see listings in the window, I made that happen.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/compass/window.jpg\"><img src=\"portfolio/compass/window-tn.jpg\"/></a>\n</div>\n<a name=\"lefeuil\"></a>\n<h2>Farm Brochure</h2>\n<p>When you’re developing software, you tend to run a program over and over in test mode. But the experience is totally different when you’re using it for real. One day I used Marketing Center to make a brochure for my own farmhouse in the south of France, and had it professionally printed. I put a lot of love into that brochure, which gave me an entirely new perspective on the software product that my team had created. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/brochure/brochure1.jpg\"><img src=\"portfolio/brochure/brochure1-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure2.jpg\"><img src=\"portfolio/brochure/brochure2-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure3.jpg\"><img src=\"portfolio/brochure/brochure3-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure4.jpg\"><img src=\"portfolio/brochure/brochure4-tn.jpg\"/></a>\n</div>\n<a name=\"marketing-automation\"></a>\n<h2>Marketing Automation</h2>\n<p>The Compass Marketing Center app made it easy for agents to make any kind of marketing materials, assuming they knew what they wanted to make. But it was still a challenge to remember what materials for what listings they needed to make when, and to decide which collateral types and templates would be most effective. I led the Marketing Automation team in building a system to coordinate an agent’s overall marketing strategy, using AI to give every agent the experience of having a dedicated marketing coach.</p>\n<a name=\"a3g\"></a>\n<h2>Agent at a Glance</h2>\n<p>As Compass scaled organically, agent information was spread across twenty different systems. The first team that I managed built a user adminstration tool called Agent at a Glance (A3G), which let our agent support team get the full picture without having to sign in to multiple systems. We took full advantage of a microservices-based architecture, with each service storing or retrieving a single type of data. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/a3g/a3g.pdf\"><img src=\"portfolio/a3g/a3g-tn.png\"/></a>\n<a href=\"portfolio/a3g/dashboards.pdf\"><img src=\"portfolio/a3g/dash1.png\"/></a>\n</div>\n<a name=\"fuzzy-names\"></a>\n<h2>Fuzzy Name Matching</h2>\n<p>Identifying the same people in different databases can be a tricky problem. In an ideal world, people would all have a unique identifier that we could use to join records across databases. However, when this is not available, it may be necessary to try to use people’s names for matching. As it turns out, people’s names can be messy, and are less suitable for use as unique identifiers than you might hope. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\">fuzzy name matching</a>, and you can look at the <a href=\"https://github.com/azamlerc/fuzzy-names\">source code</a>.</p>\n<div class=\"carousel\">\n<a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\"><img src=\"portfolio/fuzzy/names-tn.png\"/></a>\n<a href=\"https://github.com/azamlerc/fuzzy-names\"><img src=\"portfolio/fuzzy/code-tn.png\"/></a>\n</div>\n<a name=\"html-to-pdf\"></a>\n<h2>HTML to PDF Conversion</h2>\n<p>Marketing Center lets users design print-ready marketing materials such as flyers, brochures, postcards and notecards. It outputs web content, which needs to be converted to a PDF that it can be sent to a print fulfillment vendor. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/go-service-to-convert-web-pages-to-pdf-using-headless-chrome-5fd9ffbae1af\">writing a Go service to convert web pages to PDF</a> using headless Chrome.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/pdf-conversion/chrome.png\"><img src=\"portfolio/pdf-conversion/chrome-tn.png\"/></a>\n<a href=\"portfolio/pdf-conversion/flow.webp\"><img src=\"portfolio/pdf-conversion/flow-tn.png\"/></a>\n</div>\n<a name=\"interviews\"></a>\n<h1>Interview Questions</h1>\n<p>When I was at Compass I developed a set of coding <a href=\"https://github.com/azamlerc/interviews\">interview questions</a> that candidates were unlikely to have encountered before. I tried to make questiosn that were fun and interesting, and related to the real world in some meaningful way. I also wrote up solutions to the questions in thirteen different programming languages, to try to force myself to approach each problem from many different different perspectives.</p>\n<a name=\"fourfours\"></a>\n<h2>🔢 Four Fours</h2>\n<p>When I was young a friend presented me with the <a href=\"https://en.wikipedia.org/wiki/Four_fours\">four fours</a> problem: using just the number four exactly four times, can you write a mathematical expression that evaluates to every number from 1 to 100? I wrote an <a href=\"fourfours/index.html\">interactive explorer</a> in React that helps candidates visualize the question. It’s an exercise in finding the simplicity in what seems like a complex problem, working forwards from what you do know instead of trying to work backwards from what you want to find out. See the <a href=\"https://github.com/azamlerc/interviews/tree/master/fourfours\">solutions</a> in several languages, including an elegant one-liner in <a href=\"https://github.com/azamlerc/interviews/blob/master/fourfours/fourfours.clj#L12\">Clojure</a>.</p>\n<div class=\"carousel\">\n<a href=\"fourfours/index.html\"><img src=\"portfolio/fourfours/fours.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/fourfours\"><img src=\"portfolio/fourfours/code.png\"/></a>\n</div>\n<a name=\"subway\"></a>\n<h2>🧭 Subway Directions</h2>\n<p>This problem asks you to write a program to calculate the time that it would take to commute to the Compass office using the New York City Subway. You can walk to a station, take a train to another station, and from there walk to the office. As an extension, you can add the ability to transfer between trains. I made an <a href=\"subway.html\">interactive subway map</a> that helps people visualize the algorithm. It’s a fun interview question because it gets candidates thinking about coming to Compass!</p>\n<div class=\"carousel\">\n<a href=\"subway.html\"><img src=\"portfolio/subway/subway1.png\"/></a>\n<a href=\"subway.html\"><img src=\"portfolio/subway/subway2.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/subway\"><img src=\"portfolio/subway/code.png\"/></a>\n</div>\n<a name=\"wikilinks\"></a>\n<h2>⛓️ Wiki Links</h2>\n<p>Here’s a fun party trick. Go to any English language Wikipedia page, and click on the first link in the body of the article. Keep doing that, and you’ll go from concrete to increasingly abstract subjects, most likely eventually arriving at the articles on <a href=\"https://en.wikipedia.org/wiki/Existence\">Existence</a> or <a href=\"https://en.wikipedia.org/wiki/Awareness\">Awareness</a>. Given a list of recently featured articles and the artciles they link to, the task is to <a href=\"wikilinks/index.html\">construct an outline</a>. The challenge is that there are no root nodes, as you typically get into a loop of articles that link to each other. I’ve heard candidates remark, “wow, you’ve changed the way I think about existence and awareness!”</p>\n<div class=\"carousel\">\n<a href=\"wikilinks/index.html\"><img src=\"portfolio/wikilinks/outline.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/wikilinks\"><img src=\"portfolio/wikilinks/code.png\"/></a>\n</div>\n<a name=\"pontifex\"></a>\n<h2>🃏 Pontifex</h2>\n<p>Pontifex is an encryption algorithm featured in the book <a href=\"https://en.wikipedia.org/wiki/Cryptonomicon\">Cryptonomicon</a> by Neal Stephenson. It allows two people to exchange encrypted messages, as long as each of them has a deck of cards. <a href=\"pontifex/index.html\">Encrypting and decrypting</a> the message uses a process called shuffling as described in the <a href=\"https://www.schneier.com/academic/solitaire/\">algorithm</a>. In porting my solution to different languages I wound up writing some <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.js\">JavaScript</a> that looked remarkably like <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.clj\">Clojure</a>, the closest I’ve seen to “having an accent” in a programming language.\n</p>\n<div class=\"carousel\">\n<a href=\"pontifex/index.html\"><img src=\"portfolio/pontifex/suits.png\"/></a>\n<a href=\"pontifex/index.html\"><img src=\"portfolio/pontifex/text.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/pontifex\"><img src=\"portfolio/pontifex/code.png\"/></a>\n</div>\n<a name=\"countdown\"></a>\n<h2>🚉 Subway Countdown</h2>\n<p>Train schedules contain a lot of data and can be hard to read. In 1885, EJ Marey invented the <a href=\"https://bagdcontext.myblog.arts.ac.uk/2017/03/31/graphical-train-schedule-•-ej-marey-•-1885/\">graphical train schedule</a>, which represents the entire schedule as a graph of the position over time of each train on the line. For this project I made an <a href=\"countdown/index.html\">animated graph</a> of the New York Subway’s 7 Train, including a display of the train arrival countdown board. You can even simulate the effect of delays, try setting it to ”total chaos”.</p>\n<div class=\"carousel\">\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/countdown.png\"/></a>\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/lines.png\"/></a>\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/totalchaos.png\"/></a>\n</div>\n<a name=\"magic-names\"></a>\n<h2>Magic Names</h2>\n<p>At Compass I noticed that some people had first names that were the same as other people’s last names. I made a directed graph that showed how everyone’s names were connected, and kept it up to date as the company grew over the years. I made a <a href=\"https://github.com/azamlerc/interviews/tree/master/magicnames\">magic names</a> interview question that asked candidates to build a graph structure, count the number of clusters of each size, and find how many people were in the “big cloud”. Seeing how the results changed if they added themself to the graph gave candidates a sense of belonging!</p>\n<div class=\"carousel\">\n<a href=\"interviews/names-2019.pdf\"><img src=\"portfolio/magicnames/2019.png\"/></a>\n<a href=\"interviews/names-2020.pdf\"><img src=\"portfolio/magicnames/2020.png\"/></a>\n<a href=\"interviews/names-2021.pdf\"><img src=\"portfolio/magicnames/2021.png\"/></a>\n</div>\n<a name=\"hashcash\"></a>\n<h2>💵 Hashcash</h2>\n<p>Cryptocurrencies are designed around proof of work algorithms, which essentially prove that a computer burned a certain number of pointless processor cycles. They do this by calculating checksums of a large number of values until they find one that by chance ends with a specific number of zeroes. <a href=\"https://en.wikipedia.org/wiki/Hashcash\">Hashcash</a> is a protocol that uses a similar approach for avoiding spam: if email senders have to waste even a small amount of processor cycles, it’s the digital equivalent of buying a stamp.</p>\n<div class=\"carousel\">\n<a href=\"https://github.com/azamlerc/interviews/blob/master/hashcash\"><img src=\"portfolio/hashcash/swift.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/blob/master/hashcash\"><img src=\"portfolio/hashcash/ts.png\"/></a>\n</div>\n<a name=\"objective-c\"></a>\n<h2>📦 Functional Objective-C</h2>\n<p><a href=\"https://github.com/azamlerc/nsarray-functional\">Functional Objective-C</a> is a category that adds functional programming methods to Objective-C. Going beyond foreach, filter, map and reduce, it adds around 60 methods and was inspired by the <a href=\"https://clojure.org/api/cheatsheet\">Clojure cheatsheet</a>. I even used it to convert my Four Fours implementation into a <a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\">one-liner</a>, as inspired by the Clojure version! The whole project is tongue-in-cheek, a work of art that is beautiful and useless at the same time.</p>\n<div class=\"carousel\">\n<a href=\"https://github.com/azamlerc/nsarray-functional\"><img src=\"portfolio/functional/functions.png\"/></a>\n<a href=\"https://github.com/azamlerc/nsarray-functional#square-map\"><img src=\"portfolio/functional/square.png\"/></a>\n<a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\"><img src=\"portfolio/functional/fours.png\"/></a>\n</div>\n<a name=\"apple\"></a>\n<h1>Apple</h1>\n<p>When I was young I was fascinated by the original Macintosh, and knew I would work for Apple one day. I was ironically still considered “the Apple guy” even when I was working at Apple. It was an incredible time to work there, as the results of Steve Jobs’ transformation bore fruit: Mac OS X, the iPod, the iTunes Store, and retail stores. Oh yeah, and my email address was andrew@apple.com.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/apple/card.jpg\"><img src=\"portfolio/apple/card-tn.jpg\"/></a>\n<a href=\"portfolio/apple/swatches.jpg\"><img src=\"portfolio/apple/swatches-tn.jpg\"/></a>\n</div>\n<a name=\"asw\"></a>\n<h2>Apple Sales Web</h2>\n<p>I was part of team of three software engineers that developed Apple Sales Web, an app that resellers around the world used to connect with the company. It was implemented in WebObjects, a technology that Apple got from NeXT for creating object oriented web apps connected to relational databases using the same foundation that Mac and iOS apps use today. </p>\n<a name=\"arw\"></a>\n<h2>Apple Retail Web</h2>\n<p>My team adapted Apple Sales Web to support the company’s own stores, helping communicate with retail employees and ensure consistency between stores, especially when rolling out design updates and new products. Everyone at Apple is entirely responsible for some small aspect of the business; I wrote the code that got the shopping bags from the warehouses to the stores. Every time I saw someone walking out of a store with their purchase in a bag I felt a little bit proud.</p>\n<a name=\"useradmin\"></a>\n<h2>User Admin Site</h2>\n<p>I developed an internal admin application to help our admin team provide support to our users. One of the great things about building internal tools is that you can observe people using them, and make small improvements that save them a huge amount of time. At Apple even the internal tools are elegant and beautiful, and I made a library of widgets that let our WebObjects apps look just like the recently released Mac OS X operating system and its Aqua interface.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/apple/user.png\"><img src=\"portfolio/apple/user-tn.png\"/></a>\n<a href=\"portfolio/apple/search.png\"><img src=\"portfolio/apple/search-tn.png\"/></a>\n<a href=\"portfolio/apple/store.png\"><img src=\"portfolio/apple/store-tn.png\"/></a>\n</div>\n<a name=\"macupgrades\"></a>\n<h2>MacUpgrades</h2>\n<p>My first job was selling and fixing Macs at a small shop called MacUpgrades. I was particularly good at sales because I was very knowledgable about the products and believed in what I was saying. Back then, memory came in modules that snapped into the logic board, which was easier to do in some models than others. Computers broke all the time and you needed to have them fixed. \nI dyed my hair bondi blue for the launch of the original iMac.\n</p>\n<div class=\"carousel\">\n<a href=\"portfolio/macupgrades/imac.jpg\"><img src=\"portfolio/macupgrades/imac-tn.jpg\"/></a>\n</div>\n<a name=\"macs\"></a>\n<h2>Mac Collection</h2>\n<p>I had a pretty extensive collection of Apple computers and related materials, and donated most of it to the <a href=\"https://ub.fnwi.uva.nl/computermuseum/inventory_part1.html\">Computer Museum</a> of the University of Amsterdam. So you can go visit their Zamler-Carhart wing of Apple technology. Two of the models I’ve kept are a Macintosh Plus (1986) and Macintosh SE (1987), which I spray painted red and purple, respectively.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/macs/plus-se.jpg\"><img src=\"portfolio/macs/plus.png\"/></a>\n<a href=\"portfolio/macs/plus-se.jpg\"><img src=\"portfolio/macs/se.png\"/></a>\n</div>\n<a name=\"bang\"></a>\n<h2>BANG Presentation</h2>\n<p>In 2002 I gave a <a href=\"portfolio/bang/index.html\">presentation</a> at Apple on an early version of <a href=\"#iconquer\">iConquer</a> to the Bay Area NeXT Group (BANG). It focused on things I’d learned as a developer writing an application for the relatively new Mac OS X operating system.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/bang/01.html\"><img class=\"iconquer\" src=\"portfolio/bang/01-tn.jpg\"/></a>\n<a href=\"portfolio/bang/11.html\"><img class=\"iconquer\" src=\"portfolio/bang/11-tn.jpg\"/></a>\n<a href=\"portfolio/bang/12.html\"><img class=\"iconquer\" src=\"portfolio/bang/12-tn.jpg\"/></a>\n<a href=\"portfolio/bang/13.html\"><img class=\"iconquer\" src=\"portfolio/bang/13-tn.jpg\"/></a>\n<a href=\"portfolio/bang/14.html\"><img class=\"iconquer\" src=\"portfolio/bang/14-tn.jpg\"/></a>\n<a href=\"portfolio/bang/15.html\"><img class=\"iconquer\" src=\"portfolio/bang/15-tn.jpg\"/></a>\n<a href=\"portfolio/bang/21.html\"><img class=\"iconquer\" src=\"portfolio/bang/21-tn.jpg\"/></a>\n<a href=\"portfolio/bang/22.html\"><img class=\"iconquer\" src=\"portfolio/bang/22-tn.jpg\"/></a>\n<a href=\"portfolio/bang/23.html\"><img class=\"iconquer\" src=\"portfolio/bang/23-tn.jpg\"/></a>\n</div>\n<a name=\"kavafoto\"></a>\n<h1>KavaFoto</h1>\n<p>KavaFoto was my brand as a photographer. The <a href=\"https://www.kavafoto.com\">KavaFoto</a> website was powered by <a href=\"#shoebox\">Shoebox</a>, letting visitors browse all my photos by category. The home page has a high degree of randomness, pulling random photos from random categories to suprise you every time.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/kavafoto.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/concerts.png\"/></a>\n<a href=\"https://www.kavafoto.com/category.php?id=1872109496-2002930091&amp;photo=2009/06/10/dsc_7445.jpg\"><img src=\"portfolio/kavafoto/rails.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/collection.png\"/></a>\n</div>\n<a name=\"concerts\"></a>\n<h2>Concerts</h2>\n<p>For three years I was the de facto photographer of the composition department at the Royal Conservatoire in the The Hague. I documented over a hundred concerts, using my Shoebox program to organize photos and present them on the KavaFoto website indexed by event, venue, composer, performer and instrument.<p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/genre.png\"/></a>\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/margriet.png\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1680845070-2095023258&amp;photo=2010/05/24/dsc_1377.jpg\"><img src=\"portfolio/concerts/mp3.jpg\"/></a>\n</div>\n<a name=\"composers\"></a>\n<h2>Composers</h2>\n<p>I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com/websites/index.php?site=teodora\"><img src=\"portfolio/kavafoto/teodora.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=nicolekidman\"><img src=\"portfolio/kavafoto/nicolekidman.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=ofir\"><img src=\"portfolio/kavafoto/ofir.jpg\"/></a>\n</div>\n<a name=\"fashion\"></a>\n<h2>Fashion</h2>\n<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=2123343009-264534740&amp;photo=2009/06/25/dsc_0243.jpg\"><img src=\"portfolio/fashion/alexandrina.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=240833070-943625323&amp;photo=2010/05/11/dsc_6549.jpg\"><img src=\"portfolio/fashion/anna.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=490242361-1522585276&amp;photo=2010/05/01/dsc_1154.jpg\"><img src=\"portfolio/fashion/arianne.jpg\"/></a>\n</div>\n<a name=\"kickthecan\"></a>\n<h2>Kick the Can</h2>\n<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=215370494-221690909&amp;photo=2010/04/12/jeremiah.jpg\"><img src=\"portfolio/kickthecan/jeremiah.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=514084999-762964394&amp;photo=2010/04/13/dsc_4208.jpg\"><img src=\"portfolio/kickthecan/kicking.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1771701915-222471455&amp;photo=2010/04/13/dsc_5230.jpg\"><img src=\"portfolio/kickthecan/concert.jpg\"/></a>\n</div>\n<a name=\"books\"></a>\n<h2>Photo Books</h2>\n<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/books/photos1.pdf\"><img src=\"portfolio/books/photos1.png\"/></a>\n<a href=\"portfolio/books/photos2.pdf\"><img src=\"portfolio/books/photos2.png\"/></a>\n<a href=\"portfolio/books/red.pdf\"><img src=\"portfolio/books/red.png\"/></a>\n<a href=\"portfolio/books/newmexico.pdf\"><img src=\"portfolio/books/newmexico.png\"/></a>\n</div>\n<a name=\"natgeo\"></a>\n<h2>National Geographic</h2>\n<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/natgeo/african-architecture.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/african-architecture.jpg\"/></a>\n<a href=\"portfolio/natgeo/boats.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/boats.jpg\"/></a>\n<a href=\"portfolio/natgeo/bugs.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/bugs.jpg\"/></a>\n<a href=\"portfolio/natgeo/children.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/children.jpg\"/></a>\n<a href=\"portfolio/natgeo/coconuts.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/coconuts.jpg\"/></a>\n<a href=\"portfolio/natgeo/flowers.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/flowers.jpg\"/></a>\n<a href=\"portfolio/natgeo/houses.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/houses.jpg\"/></a>\n<a href=\"portfolio/natgeo/marketplaces.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/marketplaces.jpg\"/></a>\n<a href=\"portfolio/natgeo/places-of-worship.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/places-of-worship.jpg\"/></a>\n<a href=\"portfolio/natgeo/transportation.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/transportation.jpg\"/></a>\n<a href=\"portfolio/natgeo/water.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/water.jpg\"/></a>\n</div>\n<a name=\"etc\"></a>\n<h1>Etc.</h1>\n<a name=\"hiking\"></a>\n<h2>Hiking Maps</h2>\n<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs. </p>\n<div class=\"carousel\">\n<a href=\"images/hiking/hiking-may.jpg\"><img src=\"images/hiking/thumbs/hiking-may.jpg\"/></a>\n<a href=\"images/hiking/le-feuil.jpg\"><img src=\"images/hiking/thumbs/le-feuil.jpg\"/></a>\n<a href=\"images/hiking/dakar.jpg\"><img src=\"images/hiking/thumbs/dakar.jpg\"/></a>\n</div>\n<a name=\"shack\"></a>\n<h2>Shake Shack</h2>\n<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/shack\"><img src=\"portfolio/shack/shack.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/model.json\"><img src=\"portfolio/shack/menu.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/package.json\"><img src=\"portfolio/shack/deps.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/shack.js\"><img src=\"portfolio/shack/apis.png\"/></a>\n</div>\n<a name=\"wordle\"></a>\n<h2>Wordle</h2>\n<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/wordle-tn.jpg\"/></a>\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/code.png\"/></a>\n</div>\n<a name=\"dictionary\"></a>\n<h2>Dutch Dictionary</h2>\n<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/dictionary/book.jpg\"><img src=\"portfolio/dictionary/book-tn.jpg\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/achter.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/over.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/staat.png\"/></a>\n</div>\n<a name=\"painting\"></a>\n<h2>Painting</h2>\n<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/lisbon/photo.jpg\"><img src=\"portfolio/lisbon/photo-tn.jpg\"/></a>\n<a href=\"portfolio/lisbon/painting.jpg\"><img src=\"portfolio/lisbon/painting-tn.jpg\"/></a>\n</div>\n<a name=\"history\"></a>\n<h2>History Paper</h2>\n<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/europe/su.jpeg\"><img src=\"portfolio/europe/su-tn.jpeg\"/></a>\n<a href=\"portfolio/europe/eu.jpeg\"><img src=\"portfolio/europe/eu-tn.jpeg\"/></a>\n</div>\n<a name=\"john-irving\"></a>\n<h2>John Irving</h2>\n<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>\n<div class=\"carousel\">\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/books.png\"/></a>\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/checks.png\"/></a>\n</div>\n</p></p></p></p></p></p></p></p></p></p>",
+      "images": []
+    },
+    {
+      "key": "shoebox",
+      "name": "Shoebox",
+      "description": "<p><a href=\"https://kavasoft.andrewzc.net/Shoebox\">Shoebox</a> lets you organize your photos by content, and find the photo you want instantly. It’s like a knowledge base for your photo library, with hierarchical categories that let you define the times, people, places and things that define your world. For example, if you tagged a photo of the Eiffel Tower, you could find it when searching for Paris or France. You could import photos from your camera, back up to DVD, and even create searchable websites.</p>",
+      "images": [
+        {
+          "img": "https://kavasoft.andrewzc.net/images/apps/Shoebox-512.png",
+          "link": "https://kavasoft.andrewzc.net/Shoebox"
+        },
+        {
+          "img": "portfolio/shoebox/screenshot.png",
+          "link": "http://kavasoft.com/Shoebox/images/screenshot-large.jpg"
+        },
+        {
+          "img": "portfolio/shoebox/typeahead.png",
+          "link": "http://kavasoft.com/Shoebox/tour/index.php?page=10"
+        }
+      ]
+    },
+    {
+      "key": "kavatunes",
+      "name": "KavaTunes",
+      "description": "<p><a href=\"http://www.kavasoft.com/KavaTunes/\">KavaTunes</a> creates interactive websites that look and work just like iTunes on your computer. Visitors can browse through your music and playlists, and even play music by streaming it from your computer. The home page and <a href=\"https://kavasoft.andrewzc.net/KavaTunes/example/?artist=pink_floyd\">artist pages</a> feature personalized top ten lists like most played albums and songs. You can even browse music just as if you were holding an <a href=\"http://www.kavasoft.com/KavaTunes/example/ipod/?model=video&amp;color=black\">iPod</a>! KavaTunes can also search the internet to add cover artwork to your music.</p>",
+      "images": [
+        {
+          "img": "https://kavasoft.andrewzc.net/images/apps/KavaTunes-512.png",
+          "link": "http://www.kavasoft.com/KavaTunes/"
+        },
+        {
+          "img": "portfolio/kavatunes/home.png",
+          "link": "https://kavasoft.andrewzc.net/KavaTunes/example/"
+        },
+        {
+          "img": "portfolio/kavatunes/ipod.png",
+          "link": "http://www.kavasoft.com/KavaTunes/example/ipod/?model=video&color=black"
+        },
+        {
+          "img": "portfolio/kavatunes/browser.png",
+          "link": "https://kavasoft.andrewzc.net/KavaTunes/example/?genre=rock"
+        }
+      ]
+    },
+    {
+      "key": "kavamovies",
+      "name": "KavaMovies",
+      "description": "<p><a href=\"https://kavasoft.andrewzc.net/KavaMovies\">KavaMovies</a> lets you organize the movies you’ve seen, the movies you want to see, and the movies in your collection. It connects to IMDB and downloads tons of information about each of your movies in realtime. Movies are linked together by actor, director, genre, keyword, and more; making it easy to surf through all the movies you care about.<p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/KavaMovies\"><img src=\"https://kavasoft.andrewzc.net/images/apps/KavaMovies-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaMovies\"><img src=\"portfolio/kavamovies/header.jpg\"/></a>\n<a href=\"http://kavasoft.com/KavaMovies/images/screenshot-large.jpg\"><img src=\"portfolio/kavamovies/screenshot.jpg\"/></a>\n</div>\n<a name=\"hyperimage\"></a>\n<h2>HyperImage</h2>\n<p>There are millions of images on the web, but how do you find and download them without clicking on them one at a time? <a href=\"https://kavasoft.andrewzc.net/HyperImage\">HyperImage</a> is an industrial-strength tool for searching the web and downloading entire websites worth of pictures. Just enter an address or keyword, and watch as thousands of pictures stream down to your computer. HyperImage knows about the structure of popular websites, can easily download entire blogs, and is also a full-featured Tumblr client.\n</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/HyperImage\"><img src=\"https://kavasoft.andrewzc.net/images/apps/HyperImage-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/HyperImage\"><img src=\"portfolio/hyperimage/hero.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/HyperImage/images/screenshot-large.jpg\"><img src=\"portfolio/hyperimage/screenshot.jpg\"/></a>\n</div>\n<a name=\"kavaservices\"></a>\n<h2>KavaServices</h2>\n<p><a href=\"https://kavasoft.andrewzc.net/KavaServices\">KavaServices</a> can add commands to the Services menu that let you translate text, search websites, encode special characters, calculate mathematical expressions, process text in numerous ways, and even run terminal commands! These commands replace the selected text in any Mac application, just like magic. You don’t need to switch to a different program, or even copy and paste.</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"https://kavasoft.andrewzc.net/images/apps/KavaServices-512.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"portfolio/kavaservices/screenshot1.jpg\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/KavaServices\"><img src=\"portfolio/kavaservices/screenshot2.jpg\"/></a>\n</div>\n<a name=\"store\"></a>\n<h2>KavaSoft Store</h2>\n<p>It’s hard to believe now, but there was no App Store in 2002. When I started KavaSoft, I had to build out the entire infrastructure for the <a href=\"https://kavasoft.andrewzc.net/store/\">KavaSoft Store</a> to help customers discover, download, purchase and update their apps. The system integrated with APIs from payment processors like PayPal and Kagi. I even wrote a Mac license manager app for monitoring sales and assisting with customer service.</p>\n<div class=\"carousel\">\n<a href=\"https://kavasoft.andrewzc.net/store/\"><img src=\"portfolio/licenses/store.png\"/></a>\n<a href=\"https://kavasoft.andrewzc.net/store/\"><img src=\"portfolio/licenses/paypal.png\"/></a>\n<a href=\"portfolio/licenses/licenses.png\"><img src=\"portfolio/licenses/licenses-tn.png\"/></a>\n</div>\n<a name=\"nds\"></a>\n<h1>NDS / Cisco</h1>\n<p>NDS was the world leader in television set-top box middleware, the operating systems that run on cable and satellite boxes. As part of the New Initiatives team, I helped develop proof-of-concept systems to maintain thought leadership in the television space. When NDS was acquired by Cisco, I engaged with the developer community to build excitement about advanced technologies in telepresence, indoor navigation and smart cities. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/nds/cisco.jpg\"><img src=\"portfolio/nds/cisco-tn.png\"/></a>\n<a href=\"portfolio/nds/field.jpg\"><img src=\"portfolio/nds/field-tn.jpg\"/></a>\n<a href=\"portfolio/nds/box.jpg\"><img src=\"portfolio/nds/box-tn.jpg\"/></a>\n<a href=\"portfolio/nds/live.jpg\"><img src=\"portfolio/nds/live-tn.jpg\"/></a>\n</div>\n<a name=\"sdp\"></a>\n<h2>Service Delivery Platform</h2>\n<p>The world of cable and satellite set-top boxes is completely separate from the world of consumer devices. What if we could build a platform to let developers write apps to a single standard that would make them compatible with television platforms around the world? The NDS Service Delivery Platform offers APIs to get schedule information, see what’s playing, act as a remote control, schedule recordings and play back recorded content.</p>\n<p>I was responsible for developing an ecosystem of client apps to demonstrate the potential of the platform. I worked with marketing to engage with both television providers and app developers to sell the dream and turn it into reality.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp1.png\"/></a>\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp2.png\"/></a>\n<a href=\"portfolio/sdp/sdp.png\"><img src=\"portfolio/sdp/sdp3.png\"/></a>\n</div>\n<a name=\"home\"></a>\n<h2>Home</h2>\n<p>The film <a href=\"https://en.wikipedia.org/wiki/Home_%282009_film%29\">Home</a> by Yann Arthus-Bertrand features stunning aerial photography from around the world. This second screen app for iPad shows satellite maps of the locations featured in the movie, zooming from one location to another as scenes change. The location menu lets you jump between scenes, for a non-linear viewing experience that transforms the way in which you consume content.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/title.jpg\"/></a>\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/tn1.png\"/></a>\n<a href=\"portfolio/home/home.png\"><img src=\"portfolio/home/tn2.png\"/></a>\n</div>\n<a name=\"social-zapper\"></a>\n<h2>Social Zapper</h2>\n<p>If all your friends like a TV show, you probably will enjoy it too. Combining the power of the SDP and Facebook APIs, Social Zapper reinvents the traditional schedule grid by showing which of your friends like each show that’s on right now, even allowing you to reorder the channels based on the popularity. It can also recommend shows that you might want to binge based on the overall popularity in your social network. This prototype was later incorporated as a feature of Bento, our cloud-based STB interface.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/social-zapper/social-zapper.png\"><img src=\"portfolio/social-zapper/tn.png\"/></a>\n<a href=\"portfolio/social-zapper/bento.png\"><img src=\"portfolio/social-zapper/bento-tn.png\"/></a>\n</div>\n<a name=\"topgear\"></a>\n<h2>Top Gear</h2>\n<p>This app demonstrated the potential of SDP for rich syncrhonization of time-based metadata between a set-top box and an iPad second screen. As you watched the “star in a reasonably-priced car” segment in an episode of Top Gear on your TV, you could use your iPad to follow their progress around the race track. Playback state was syncrhonized in both directions, so you could hit fast forward on your remote control or in the app to make the car go faster… or even drag the red dot along the track to scrub back and forth on the TV. The seamless link between the screens was magical.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn1.png\"/></a>\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn2.png\"/></a>\n<a href=\"portfolio/topgear/topgear.png\"><img src=\"portfolio/topgear/tn3.png\"/></a>\n</div>\n<a name=\"surfaces\"></a>\n<h2>Surfaces</h2>\n<p>Imagine if video screens could be as large as you wanted, the size of an entire wall or table? Surfaces was a project that explored the possibilities of creating scalable displays, pushing the relevant content to a number of tiled screens. I created clients that would allow widgets to span adjacent iPads. You could literally drag a widget from one iPad to another, even if one was running a browser and the other a native client written in Swift.</p>\n<a name=\"flare\"></a>\n<h2>Flare</h2>\n<p><a href=\"https://github.com/azamlerc/flare\">Flare</a> is a concept ecosystem that combines indoor location technologies, wearable devices and an object-oriented data model to help people explore interior spaces and interact with objects in their environment. I implemented the backend in Node, the API layer, and frameworks and demo applications for web, Mac, iOS, Apple Watch, Android, Android Watch and Python. I released an SDK and developer documentation on Ciso’s DevNet developer portal, and hosted hackathons in which external developers used the SDK to develop projects. I presented the platform at the National Retail Federation trade show in New York, giving demos to the engineering leadership of a hundred major retail companies.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/flare/trilateral1.png\"><img src=\"portfolio/flare/trilateral1-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral2.png\"><img src=\"portfolio/flare/trilateral2-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral3.png\"><img src=\"portfolio/flare/trilateral3-tn.png\"/></a>\n<a href=\"portfolio/flare/trilateral4.png\"><img src=\"portfolio/flare/trilateral4-tn.png\"/></a>\n</div>\n<a name=\"twitter-tv\"></a>\n<h2>Twitter TV</h2>\n<p>I did a hacakthon project in which I replaced the entire SDP context and control architecture with one based on the Twitter platform. Your set-top box had its own account and would tweet what you were watching, along with the title card and a description of the episode. Then you could DM your STB with messages like “watch @topgear”, and it would find that show in the grid and change channels for you. Got it up and running in four hours.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/twitter/twitter.jpg\"><img src=\"portfolio/twitter/twitter-tn.jpg\"/></a>\n<a href=\"portfolio/twitter/topgear.jpg\"><img src=\"portfolio/twitter/topgear-tn.jpg\"/></a>\n</div>\n<a name=\"highlights\"></a>\n<h2>Social Highlights</h2>\n<p>When watching an Apple keynote, there are parts that are more exciting than others. I tried making a highlight reel of the iPad 3 launch, which took hours of my time. What if we could do this automatically by measuring the volume of tweets on a particular hashtag like #ipad during an event? I wrote an algorithm to do exactly that, and made an auto-generated highlight reel. The money shot? When they announced the pricing. Turns out the reel based on hashtag buzz was pretty much the same as the manually curated one. Proved a point in about half a day of work.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/ipad/ipad1.jpg\"><img src=\"portfolio/ipad/ipad1-tn.jpg\"/></a>\n<a href=\"portfolio/ipad/ipad2.jpg\"><img src=\"portfolio/ipad/ipad2-tn.jpg\"/></a>\n</div>\n<a name=\"privacy\"></a>\n<h2>Privacy</h2>\n<p>I gave a presentation on <a href=\"portfolio/privacy/privacy.pdf\">privacy</a> considerations in the context of building a personalized television platform. In a world where many people want to share everything about what they’re doing, would we consider your television viewing history to be sensitive personally identifiable information? Everyone knows that the Queen watches television, but can you imagine if the shows she watched turned up in the tabloids? The talk covered the important points of what privacy is, why it’s important, how to protect it, and specific learnings applicable to our current projects.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/house-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/google-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/queen-tn.jpg\"/></a>\n<a href=\"portfolio/privacy/privacy.pdf\"><img src=\"portfolio/privacy/pins-tn.png\"/></a>\n</div>\n<a name=\"connections\"></a>\n<h2>Connections</h2>\n<p>I designed a <a href=\"portfolio/objects/objects.jpg\">poster</a> for the 2013 NDS developer conference in Bangkok on the theme of “the power of an object oriented system lies not in the objects themselves, but in the connections between them.”</p>\n<div class=\"carousel\">\n<a href=\"portfolio/objects/objects.jpg\"><img src=\"portfolio/objects/tn1.jpg\"/></a>\n<a href=\"portfolio/objects/objects.jpg\"><img src=\"portfolio/objects/tn2.jpg\"/></a>\n</div>\n<a name=\"compass\"></a>\n<h1>Compass</h1>\n<p>Compass is the #1 real estate brokerage in the United States, and also a tech company that creates software to make its real estate agents successful. I joined when engineering had 60 people and over five years watched it go through a period of hypergrowth to 1200 engineers. It was also my chance to move into engineering management and build several awesome, high-performing teams.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/compass/flag.jpg\"><img src=\"portfolio/compass/flag-tn.jpg\"/></a>\n<a href=\"portfolio/compass/hq.jpg\"><img src=\"portfolio/compass/hq-tn.jpg\"/></a>\n<a href=\"portfolio/compass/taxi.jpg\"><img src=\"portfolio/compass/taxi-tn.jpg\"/></a>\n<a href=\"portfolio/compass/ski.jpg\"><img src=\"portfolio/compass/ski-tn.jpg\"/></a>\n<a href=\"portfolio/compass/dc.jpg\"><img src=\"portfolio/compass/dc-tn.jpg\"/></a>\n<a href=\"portfolio/compass/sign.jpg\"><img src=\"portfolio/compass/sign-tn.jpg\"/></a>\n<a href=\"portfolio/compass/nyse.png\"><img src=\"portfolio/compass/nyse-tn.png\"/></a>\n<a href=\"portfolio/compass/sailors.jpg\"><img src=\"portfolio/compass/sailors-tn.jpg\"/></a>\n<a href=\"portfolio/compass/desk.jpg\"><img src=\"portfolio/compass/desk-tn.jpg\"/></a>\n</div>\n<a name=\"mc\"></a>\n<h2>Marketing Center</h2>\n<p>Beautiful marketing materials are a core part of the Compass brand image, but with the massive growth of the brokerage it became untenable for designers to make them by hand. My team and I worked with marketing to essentially distill the brain of a designer into an app called <a href=\"https://www.compass.com/agents-compass/marketing/\">Marketing Center</a>, so agents could make high-quality materials using a self-service tool. It gave them enough flexibility to differentiate themselves while at the same time keeping everything on-brand.</p>\n<div class=\"carousel\">\n<a href=\"https://www.compass.com/agents-compass/marketing/\"><img src=\"portfolio/compass/mc1.jpg\"/></a>\n<a href=\"portfolio/compass/screenshot.png\"><img src=\"portfolio/compass/screenshot-tn.png\"/></a>\n<a href=\"https://www.compass.com/agents-compass/marketing/\"><img src=\"portfolio/compass/mc2.png\"/></a>\n</div>\n<a name=\"window-displays\"></a>\n<h2>Window Displays</h2>\n<p>Marketing Center lets Compass agents create a variety of kinds of print marketing materials, including the listing cards that are displayed in office windows. I worked with the marketing team to create these layouts and implemented them as templates in Marketing Center. So when you walk by a Compass office and see listings in the window, I made that happen.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/compass/window.jpg\"><img src=\"portfolio/compass/window-tn.jpg\"/></a>\n</div>\n<a name=\"lefeuil\"></a>\n<h2>Farm Brochure</h2>\n<p>When you’re developing software, you tend to run a program over and over in test mode. But the experience is totally different when you’re using it for real. One day I used Marketing Center to make a brochure for my own farmhouse in the south of France, and had it professionally printed. I put a lot of love into that brochure, which gave me an entirely new perspective on the software product that my team had created. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/brochure/brochure1.jpg\"><img src=\"portfolio/brochure/brochure1-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure2.jpg\"><img src=\"portfolio/brochure/brochure2-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure3.jpg\"><img src=\"portfolio/brochure/brochure3-tn.jpg\"/></a>\n<a href=\"portfolio/brochure/brochure4.jpg\"><img src=\"portfolio/brochure/brochure4-tn.jpg\"/></a>\n</div>\n<a name=\"marketing-automation\"></a>\n<h2>Marketing Automation</h2>\n<p>The Compass Marketing Center app made it easy for agents to make any kind of marketing materials, assuming they knew what they wanted to make. But it was still a challenge to remember what materials for what listings they needed to make when, and to decide which collateral types and templates would be most effective. I led the Marketing Automation team in building a system to coordinate an agent’s overall marketing strategy, using AI to give every agent the experience of having a dedicated marketing coach.</p>\n<a name=\"a3g\"></a>\n<h2>Agent at a Glance</h2>\n<p>As Compass scaled organically, agent information was spread across twenty different systems. The first team that I managed built a user adminstration tool called Agent at a Glance (A3G), which let our agent support team get the full picture without having to sign in to multiple systems. We took full advantage of a microservices-based architecture, with each service storing or retrieving a single type of data. </p>\n<div class=\"carousel\">\n<a href=\"portfolio/a3g/a3g.pdf\"><img src=\"portfolio/a3g/a3g-tn.png\"/></a>\n<a href=\"portfolio/a3g/dashboards.pdf\"><img src=\"portfolio/a3g/dash1.png\"/></a>\n</div>\n<a name=\"fuzzy-names\"></a>\n<h2>Fuzzy Name Matching</h2>\n<p>Identifying the same people in different databases can be a tricky problem. In an ideal world, people would all have a unique identifier that we could use to join records across databases. However, when this is not available, it may be necessary to try to use people’s names for matching. As it turns out, people’s names can be messy, and are less suitable for use as unique identifiers than you might hope. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\">fuzzy name matching</a>, and you can look at the <a href=\"https://github.com/azamlerc/fuzzy-names\">source code</a>.</p>\n<div class=\"carousel\">\n<a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\"><img src=\"portfolio/fuzzy/names-tn.png\"/></a>\n<a href=\"https://github.com/azamlerc/fuzzy-names\"><img src=\"portfolio/fuzzy/code-tn.png\"/></a>\n</div>\n<a name=\"html-to-pdf\"></a>\n<h2>HTML to PDF Conversion</h2>\n<p>Marketing Center lets users design print-ready marketing materials such as flyers, brochures, postcards and notecards. It outputs web content, which needs to be converted to a PDF that it can be sent to a print fulfillment vendor. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/go-service-to-convert-web-pages-to-pdf-using-headless-chrome-5fd9ffbae1af\">writing a Go service to convert web pages to PDF</a> using headless Chrome.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/pdf-conversion/chrome.png\"><img src=\"portfolio/pdf-conversion/chrome-tn.png\"/></a>\n<a href=\"portfolio/pdf-conversion/flow.webp\"><img src=\"portfolio/pdf-conversion/flow-tn.png\"/></a>\n</div>\n<a name=\"interviews\"></a>\n<h1>Interview Questions</h1>\n<p>When I was at Compass I developed a set of coding <a href=\"https://github.com/azamlerc/interviews\">interview questions</a> that candidates were unlikely to have encountered before. I tried to make questiosn that were fun and interesting, and related to the real world in some meaningful way. I also wrote up solutions to the questions in thirteen different programming languages, to try to force myself to approach each problem from many different different perspectives.</p>\n<a name=\"fourfours\"></a>\n<h2>🔢 Four Fours</h2>\n<p>When I was young a friend presented me with the <a href=\"https://en.wikipedia.org/wiki/Four_fours\">four fours</a> problem: using just the number four exactly four times, can you write a mathematical expression that evaluates to every number from 1 to 100? I wrote an <a href=\"fourfours/index.html\">interactive explorer</a> in React that helps candidates visualize the question. It’s an exercise in finding the simplicity in what seems like a complex problem, working forwards from what you do know instead of trying to work backwards from what you want to find out. See the <a href=\"https://github.com/azamlerc/interviews/tree/master/fourfours\">solutions</a> in several languages, including an elegant one-liner in <a href=\"https://github.com/azamlerc/interviews/blob/master/fourfours/fourfours.clj#L12\">Clojure</a>.</p>\n<div class=\"carousel\">\n<a href=\"fourfours/index.html\"><img src=\"portfolio/fourfours/fours.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/fourfours\"><img src=\"portfolio/fourfours/code.png\"/></a>\n</div>\n<a name=\"subway\"></a>\n<h2>🧭 Subway Directions</h2>\n<p>This problem asks you to write a program to calculate the time that it would take to commute to the Compass office using the New York City Subway. You can walk to a station, take a train to another station, and from there walk to the office. As an extension, you can add the ability to transfer between trains. I made an <a href=\"subway.html\">interactive subway map</a> that helps people visualize the algorithm. It’s a fun interview question because it gets candidates thinking about coming to Compass!</p>\n<div class=\"carousel\">\n<a href=\"subway.html\"><img src=\"portfolio/subway/subway1.png\"/></a>\n<a href=\"subway.html\"><img src=\"portfolio/subway/subway2.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/subway\"><img src=\"portfolio/subway/code.png\"/></a>\n</div>\n<a name=\"wikilinks\"></a>\n<h2>⛓️ Wiki Links</h2>\n<p>Here’s a fun party trick. Go to any English language Wikipedia page, and click on the first link in the body of the article. Keep doing that, and you’ll go from concrete to increasingly abstract subjects, most likely eventually arriving at the articles on <a href=\"https://en.wikipedia.org/wiki/Existence\">Existence</a> or <a href=\"https://en.wikipedia.org/wiki/Awareness\">Awareness</a>. Given a list of recently featured articles and the artciles they link to, the task is to <a href=\"wikilinks/index.html\">construct an outline</a>. The challenge is that there are no root nodes, as you typically get into a loop of articles that link to each other. I’ve heard candidates remark, “wow, you’ve changed the way I think about existence and awareness!”</p>\n<div class=\"carousel\">\n<a href=\"wikilinks/index.html\"><img src=\"portfolio/wikilinks/outline.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/wikilinks\"><img src=\"portfolio/wikilinks/code.png\"/></a>\n</div>\n<a name=\"pontifex\"></a>\n<h2>🃏 Pontifex</h2>\n<p>Pontifex is an encryption algorithm featured in the book <a href=\"https://en.wikipedia.org/wiki/Cryptonomicon\">Cryptonomicon</a> by Neal Stephenson. It allows two people to exchange encrypted messages, as long as each of them has a deck of cards. <a href=\"pontifex/index.html\">Encrypting and decrypting</a> the message uses a process called shuffling as described in the <a href=\"https://www.schneier.com/academic/solitaire/\">algorithm</a>. In porting my solution to different languages I wound up writing some <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.js\">JavaScript</a> that looked remarkably like <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.clj\">Clojure</a>, the closest I’ve seen to “having an accent” in a programming language.\n</p>\n<div class=\"carousel\">\n<a href=\"pontifex/index.html\"><img src=\"portfolio/pontifex/suits.png\"/></a>\n<a href=\"pontifex/index.html\"><img src=\"portfolio/pontifex/text.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/tree/master/pontifex\"><img src=\"portfolio/pontifex/code.png\"/></a>\n</div>\n<a name=\"countdown\"></a>\n<h2>🚉 Subway Countdown</h2>\n<p>Train schedules contain a lot of data and can be hard to read. In 1885, EJ Marey invented the <a href=\"https://bagdcontext.myblog.arts.ac.uk/2017/03/31/graphical-train-schedule-•-ej-marey-•-1885/\">graphical train schedule</a>, which represents the entire schedule as a graph of the position over time of each train on the line. For this project I made an <a href=\"countdown/index.html\">animated graph</a> of the New York Subway’s 7 Train, including a display of the train arrival countdown board. You can even simulate the effect of delays, try setting it to ”total chaos”.</p>\n<div class=\"carousel\">\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/countdown.png\"/></a>\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/lines.png\"/></a>\n<a href=\"countdown/index.html\"><img src=\"portfolio/countdown/totalchaos.png\"/></a>\n</div>\n<a name=\"magic-names\"></a>\n<h2>Magic Names</h2>\n<p>At Compass I noticed that some people had first names that were the same as other people’s last names. I made a directed graph that showed how everyone’s names were connected, and kept it up to date as the company grew over the years. I made a <a href=\"https://github.com/azamlerc/interviews/tree/master/magicnames\">magic names</a> interview question that asked candidates to build a graph structure, count the number of clusters of each size, and find how many people were in the “big cloud”. Seeing how the results changed if they added themself to the graph gave candidates a sense of belonging!</p>\n<div class=\"carousel\">\n<a href=\"interviews/names-2019.pdf\"><img src=\"portfolio/magicnames/2019.png\"/></a>\n<a href=\"interviews/names-2020.pdf\"><img src=\"portfolio/magicnames/2020.png\"/></a>\n<a href=\"interviews/names-2021.pdf\"><img src=\"portfolio/magicnames/2021.png\"/></a>\n</div>\n<a name=\"hashcash\"></a>\n<h2>💵 Hashcash</h2>\n<p>Cryptocurrencies are designed around proof of work algorithms, which essentially prove that a computer burned a certain number of pointless processor cycles. They do this by calculating checksums of a large number of values until they find one that by chance ends with a specific number of zeroes. <a href=\"https://en.wikipedia.org/wiki/Hashcash\">Hashcash</a> is a protocol that uses a similar approach for avoiding spam: if email senders have to waste even a small amount of processor cycles, it’s the digital equivalent of buying a stamp.</p>\n<div class=\"carousel\">\n<a href=\"https://github.com/azamlerc/interviews/blob/master/hashcash\"><img src=\"portfolio/hashcash/swift.png\"/></a>\n<a href=\"https://github.com/azamlerc/interviews/blob/master/hashcash\"><img src=\"portfolio/hashcash/ts.png\"/></a>\n</div>\n<a name=\"objective-c\"></a>\n<h2>📦 Functional Objective-C</h2>\n<p><a href=\"https://github.com/azamlerc/nsarray-functional\">Functional Objective-C</a> is a category that adds functional programming methods to Objective-C. Going beyond foreach, filter, map and reduce, it adds around 60 methods and was inspired by the <a href=\"https://clojure.org/api/cheatsheet\">Clojure cheatsheet</a>. I even used it to convert my Four Fours implementation into a <a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\">one-liner</a>, as inspired by the Clojure version! The whole project is tongue-in-cheek, a work of art that is beautiful and useless at the same time.</p>\n<div class=\"carousel\">\n<a href=\"https://github.com/azamlerc/nsarray-functional\"><img src=\"portfolio/functional/functions.png\"/></a>\n<a href=\"https://github.com/azamlerc/nsarray-functional#square-map\"><img src=\"portfolio/functional/square.png\"/></a>\n<a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\"><img src=\"portfolio/functional/fours.png\"/></a>\n</div>\n<a name=\"apple\"></a>\n<h1>Apple</h1>\n<p>When I was young I was fascinated by the original Macintosh, and knew I would work for Apple one day. I was ironically still considered “the Apple guy” even when I was working at Apple. It was an incredible time to work there, as the results of Steve Jobs’ transformation bore fruit: Mac OS X, the iPod, the iTunes Store, and retail stores. Oh yeah, and my email address was andrew@apple.com.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/apple/card.jpg\"><img src=\"portfolio/apple/card-tn.jpg\"/></a>\n<a href=\"portfolio/apple/swatches.jpg\"><img src=\"portfolio/apple/swatches-tn.jpg\"/></a>\n</div>\n<a name=\"asw\"></a>\n<h2>Apple Sales Web</h2>\n<p>I was part of team of three software engineers that developed Apple Sales Web, an app that resellers around the world used to connect with the company. It was implemented in WebObjects, a technology that Apple got from NeXT for creating object oriented web apps connected to relational databases using the same foundation that Mac and iOS apps use today. </p>\n<a name=\"arw\"></a>\n<h2>Apple Retail Web</h2>\n<p>My team adapted Apple Sales Web to support the company’s own stores, helping communicate with retail employees and ensure consistency between stores, especially when rolling out design updates and new products. Everyone at Apple is entirely responsible for some small aspect of the business; I wrote the code that got the shopping bags from the warehouses to the stores. Every time I saw someone walking out of a store with their purchase in a bag I felt a little bit proud.</p>\n<a name=\"useradmin\"></a>\n<h2>User Admin Site</h2>\n<p>I developed an internal admin application to help our admin team provide support to our users. One of the great things about building internal tools is that you can observe people using them, and make small improvements that save them a huge amount of time. At Apple even the internal tools are elegant and beautiful, and I made a library of widgets that let our WebObjects apps look just like the recently released Mac OS X operating system and its Aqua interface.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/apple/user.png\"><img src=\"portfolio/apple/user-tn.png\"/></a>\n<a href=\"portfolio/apple/search.png\"><img src=\"portfolio/apple/search-tn.png\"/></a>\n<a href=\"portfolio/apple/store.png\"><img src=\"portfolio/apple/store-tn.png\"/></a>\n</div>\n<a name=\"macupgrades\"></a>\n<h2>MacUpgrades</h2>\n<p>My first job was selling and fixing Macs at a small shop called MacUpgrades. I was particularly good at sales because I was very knowledgable about the products and believed in what I was saying. Back then, memory came in modules that snapped into the logic board, which was easier to do in some models than others. Computers broke all the time and you needed to have them fixed. \nI dyed my hair bondi blue for the launch of the original iMac.\n</p>\n<div class=\"carousel\">\n<a href=\"portfolio/macupgrades/imac.jpg\"><img src=\"portfolio/macupgrades/imac-tn.jpg\"/></a>\n</div>\n<a name=\"macs\"></a>\n<h2>Mac Collection</h2>\n<p>I had a pretty extensive collection of Apple computers and related materials, and donated most of it to the <a href=\"https://ub.fnwi.uva.nl/computermuseum/inventory_part1.html\">Computer Museum</a> of the University of Amsterdam. So you can go visit their Zamler-Carhart wing of Apple technology. Two of the models I’ve kept are a Macintosh Plus (1986) and Macintosh SE (1987), which I spray painted red and purple, respectively.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/macs/plus-se.jpg\"><img src=\"portfolio/macs/plus.png\"/></a>\n<a href=\"portfolio/macs/plus-se.jpg\"><img src=\"portfolio/macs/se.png\"/></a>\n</div>\n<a name=\"bang\"></a>\n<h2>BANG Presentation</h2>\n<p>In 2002 I gave a <a href=\"portfolio/bang/index.html\">presentation</a> at Apple on an early version of <a href=\"#iconquer\">iConquer</a> to the Bay Area NeXT Group (BANG). It focused on things I’d learned as a developer writing an application for the relatively new Mac OS X operating system.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/bang/01.html\"><img class=\"iconquer\" src=\"portfolio/bang/01-tn.jpg\"/></a>\n<a href=\"portfolio/bang/11.html\"><img class=\"iconquer\" src=\"portfolio/bang/11-tn.jpg\"/></a>\n<a href=\"portfolio/bang/12.html\"><img class=\"iconquer\" src=\"portfolio/bang/12-tn.jpg\"/></a>\n<a href=\"portfolio/bang/13.html\"><img class=\"iconquer\" src=\"portfolio/bang/13-tn.jpg\"/></a>\n<a href=\"portfolio/bang/14.html\"><img class=\"iconquer\" src=\"portfolio/bang/14-tn.jpg\"/></a>\n<a href=\"portfolio/bang/15.html\"><img class=\"iconquer\" src=\"portfolio/bang/15-tn.jpg\"/></a>\n<a href=\"portfolio/bang/21.html\"><img class=\"iconquer\" src=\"portfolio/bang/21-tn.jpg\"/></a>\n<a href=\"portfolio/bang/22.html\"><img class=\"iconquer\" src=\"portfolio/bang/22-tn.jpg\"/></a>\n<a href=\"portfolio/bang/23.html\"><img class=\"iconquer\" src=\"portfolio/bang/23-tn.jpg\"/></a>\n</div>\n<a name=\"kavafoto\"></a>\n<h1>KavaFoto</h1>\n<p>KavaFoto was my brand as a photographer. The <a href=\"https://www.kavafoto.com\">KavaFoto</a> website was powered by <a href=\"#shoebox\">Shoebox</a>, letting visitors browse all my photos by category. The home page has a high degree of randomness, pulling random photos from random categories to suprise you every time.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/kavafoto.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/concerts.png\"/></a>\n<a href=\"https://www.kavafoto.com/category.php?id=1872109496-2002930091&amp;photo=2009/06/10/dsc_7445.jpg\"><img src=\"portfolio/kavafoto/rails.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/collection.png\"/></a>\n</div>\n<a name=\"concerts\"></a>\n<h2>Concerts</h2>\n<p>For three years I was the de facto photographer of the composition department at the Royal Conservatoire in the The Hague. I documented over a hundred concerts, using my Shoebox program to organize photos and present them on the KavaFoto website indexed by event, venue, composer, performer and instrument.<p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/genre.png\"/></a>\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/margriet.png\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1680845070-2095023258&amp;photo=2010/05/24/dsc_1377.jpg\"><img src=\"portfolio/concerts/mp3.jpg\"/></a>\n</div>\n<a name=\"composers\"></a>\n<h2>Composers</h2>\n<p>I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com/websites/index.php?site=teodora\"><img src=\"portfolio/kavafoto/teodora.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=nicolekidman\"><img src=\"portfolio/kavafoto/nicolekidman.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=ofir\"><img src=\"portfolio/kavafoto/ofir.jpg\"/></a>\n</div>\n<a name=\"fashion\"></a>\n<h2>Fashion</h2>\n<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=2123343009-264534740&amp;photo=2009/06/25/dsc_0243.jpg\"><img src=\"portfolio/fashion/alexandrina.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=240833070-943625323&amp;photo=2010/05/11/dsc_6549.jpg\"><img src=\"portfolio/fashion/anna.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=490242361-1522585276&amp;photo=2010/05/01/dsc_1154.jpg\"><img src=\"portfolio/fashion/arianne.jpg\"/></a>\n</div>\n<a name=\"kickthecan\"></a>\n<h2>Kick the Can</h2>\n<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=215370494-221690909&amp;photo=2010/04/12/jeremiah.jpg\"><img src=\"portfolio/kickthecan/jeremiah.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=514084999-762964394&amp;photo=2010/04/13/dsc_4208.jpg\"><img src=\"portfolio/kickthecan/kicking.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1771701915-222471455&amp;photo=2010/04/13/dsc_5230.jpg\"><img src=\"portfolio/kickthecan/concert.jpg\"/></a>\n</div>\n<a name=\"books\"></a>\n<h2>Photo Books</h2>\n<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/books/photos1.pdf\"><img src=\"portfolio/books/photos1.png\"/></a>\n<a href=\"portfolio/books/photos2.pdf\"><img src=\"portfolio/books/photos2.png\"/></a>\n<a href=\"portfolio/books/red.pdf\"><img src=\"portfolio/books/red.png\"/></a>\n<a href=\"portfolio/books/newmexico.pdf\"><img src=\"portfolio/books/newmexico.png\"/></a>\n</div>\n<a name=\"natgeo\"></a>\n<h2>National Geographic</h2>\n<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/natgeo/african-architecture.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/african-architecture.jpg\"/></a>\n<a href=\"portfolio/natgeo/boats.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/boats.jpg\"/></a>\n<a href=\"portfolio/natgeo/bugs.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/bugs.jpg\"/></a>\n<a href=\"portfolio/natgeo/children.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/children.jpg\"/></a>\n<a href=\"portfolio/natgeo/coconuts.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/coconuts.jpg\"/></a>\n<a href=\"portfolio/natgeo/flowers.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/flowers.jpg\"/></a>\n<a href=\"portfolio/natgeo/houses.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/houses.jpg\"/></a>\n<a href=\"portfolio/natgeo/marketplaces.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/marketplaces.jpg\"/></a>\n<a href=\"portfolio/natgeo/places-of-worship.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/places-of-worship.jpg\"/></a>\n<a href=\"portfolio/natgeo/transportation.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/transportation.jpg\"/></a>\n<a href=\"portfolio/natgeo/water.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/water.jpg\"/></a>\n</div>\n<a name=\"etc\"></a>\n<h1>Etc.</h1>\n<a name=\"hiking\"></a>\n<h2>Hiking Maps</h2>\n<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs. </p>\n<div class=\"carousel\">\n<a href=\"images/hiking/hiking-may.jpg\"><img src=\"images/hiking/thumbs/hiking-may.jpg\"/></a>\n<a href=\"images/hiking/le-feuil.jpg\"><img src=\"images/hiking/thumbs/le-feuil.jpg\"/></a>\n<a href=\"images/hiking/dakar.jpg\"><img src=\"images/hiking/thumbs/dakar.jpg\"/></a>\n</div>\n<a name=\"shack\"></a>\n<h2>Shake Shack</h2>\n<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/shack\"><img src=\"portfolio/shack/shack.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/model.json\"><img src=\"portfolio/shack/menu.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/package.json\"><img src=\"portfolio/shack/deps.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/shack.js\"><img src=\"portfolio/shack/apis.png\"/></a>\n</div>\n<a name=\"wordle\"></a>\n<h2>Wordle</h2>\n<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/wordle-tn.jpg\"/></a>\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/code.png\"/></a>\n</div>\n<a name=\"dictionary\"></a>\n<h2>Dutch Dictionary</h2>\n<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/dictionary/book.jpg\"><img src=\"portfolio/dictionary/book-tn.jpg\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/achter.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/over.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/staat.png\"/></a>\n</div>\n<a name=\"painting\"></a>\n<h2>Painting</h2>\n<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/lisbon/photo.jpg\"><img src=\"portfolio/lisbon/photo-tn.jpg\"/></a>\n<a href=\"portfolio/lisbon/painting.jpg\"><img src=\"portfolio/lisbon/painting-tn.jpg\"/></a>\n</div>\n<a name=\"history\"></a>\n<h2>History Paper</h2>\n<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/europe/su.jpeg\"><img src=\"portfolio/europe/su-tn.jpeg\"/></a>\n<a href=\"portfolio/europe/eu.jpeg\"><img src=\"portfolio/europe/eu-tn.jpeg\"/></a>\n</div>\n<a name=\"john-irving\"></a>\n<h2>John Irving</h2>\n<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>\n<div class=\"carousel\">\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/books.png\"/></a>\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/checks.png\"/></a>\n</div>\n</p></p></p></p></p></p></p></p>",
+      "images": []
+    },
+    {
+      "key": "hyperimage",
+      "name": "HyperImage",
+      "description": "<p>There are millions of images on the web, but how do you find and download them without clicking on them one at a time? <a href=\"https://kavasoft.andrewzc.net/HyperImage\">HyperImage</a> is an industrial-strength tool for searching the web and downloading entire websites worth of pictures. Just enter an address or keyword, and watch as thousands of pictures stream down to your computer. HyperImage knows about the structure of popular websites, can easily download entire blogs, and is also a full-featured Tumblr client.</p>",
+      "images": [
+        {
+          "img": "https://kavasoft.andrewzc.net/images/apps/HyperImage-512.png",
+          "link": "https://kavasoft.andrewzc.net/HyperImage"
+        },
+        {
+          "img": "portfolio/hyperimage/hero.png",
+          "link": "https://kavasoft.andrewzc.net/HyperImage"
+        },
+        {
+          "img": "portfolio/hyperimage/screenshot.jpg",
+          "link": "https://kavasoft.andrewzc.net/HyperImage/images/screenshot-large.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kavaservices",
+      "name": "KavaServices",
+      "description": "<p><a href=\"https://kavasoft.andrewzc.net/KavaServices\">KavaServices</a> can add commands to the Services menu that let you translate text, search websites, encode special characters, calculate mathematical expressions, process text in numerous ways, and even run terminal commands! These commands replace the selected text in any Mac application, just like magic. You don’t need to switch to a different program, or even copy and paste.</p>",
+      "images": [
+        {
+          "img": "https://kavasoft.andrewzc.net/images/apps/KavaServices-512.png",
+          "link": "https://kavasoft.andrewzc.net/KavaServices"
+        },
+        {
+          "img": "portfolio/kavaservices/screenshot1.jpg",
+          "link": "https://kavasoft.andrewzc.net/KavaServices"
+        },
+        {
+          "img": "portfolio/kavaservices/screenshot2.jpg",
+          "link": "https://kavasoft.andrewzc.net/KavaServices"
+        }
+      ]
+    },
+    {
+      "key": "store",
+      "name": "KavaSoft Store",
+      "description": "<p>It’s hard to believe now, but there was no App Store in 2002. When I started KavaSoft, I had to build out the entire infrastructure for the <a href=\"https://kavasoft.andrewzc.net/store/\">KavaSoft Store</a> to help customers discover, download, purchase and update their apps. The system integrated with APIs from payment processors like PayPal and Kagi. I even wrote a Mac license manager app for monitoring sales and assisting with customer service.</p>",
+      "images": [
+        {
+          "img": "portfolio/licenses/store.png",
+          "link": "https://kavasoft.andrewzc.net/store/"
+        },
+        {
+          "img": "portfolio/licenses/paypal.png",
+          "link": "https://kavasoft.andrewzc.net/store/"
+        },
+        {
+          "img": "portfolio/licenses/licenses-tn.png",
+          "link": "portfolio/licenses/licenses.png"
+        }
+      ]
+    },
+    {
+      "key": "nds",
+      "name": "NDS / Cisco",
+      "description": "<p>NDS was the world leader in television set-top box middleware, the operating systems that run on cable and satellite boxes. As part of the New Initiatives team, I helped develop proof-of-concept systems to maintain thought leadership in the television space. When NDS was acquired by Cisco, I engaged with the developer community to build excitement about advanced technologies in telepresence, indoor navigation and smart cities.</p>",
+      "images": [
+        {
+          "img": "portfolio/nds/cisco-tn.png",
+          "link": "portfolio/nds/cisco.jpg"
+        },
+        {
+          "img": "portfolio/nds/field-tn.jpg",
+          "link": "portfolio/nds/field.jpg"
+        },
+        {
+          "img": "portfolio/nds/box-tn.jpg",
+          "link": "portfolio/nds/box.jpg"
+        },
+        {
+          "img": "portfolio/nds/live-tn.jpg",
+          "link": "portfolio/nds/live.jpg"
+        }
+      ]
+    },
+    {
+      "key": "sdp",
+      "name": "Service Delivery Platform",
+      "description": "<p>The world of cable and satellite set-top boxes is completely separate from the world of consumer devices. What if we could build a platform to let developers write apps to a single standard that would make them compatible with television platforms around the world? The NDS Service Delivery Platform offers APIs to get schedule information, see what’s playing, act as a remote control, schedule recordings and play back recorded content.</p>\n\n<p>I was responsible for developing an ecosystem of client apps to demonstrate the potential of the platform. I worked with marketing to engage with both television providers and app developers to sell the dream and turn it into reality.</p>",
+      "images": [
+        {
+          "img": "portfolio/sdp/sdp1.png",
+          "link": "portfolio/sdp/sdp.png"
+        },
+        {
+          "img": "portfolio/sdp/sdp2.png",
+          "link": "portfolio/sdp/sdp.png"
+        },
+        {
+          "img": "portfolio/sdp/sdp3.png",
+          "link": "portfolio/sdp/sdp.png"
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "name": "Home",
+      "description": "<p>The film <a href=\"https://en.wikipedia.org/wiki/Home_%282009_film%29\">Home</a> by Yann Arthus-Bertrand features stunning aerial photography from around the world. This second screen app for iPad shows satellite maps of the locations featured in the movie, zooming from one location to another as scenes change. The location menu lets you jump between scenes, for a non-linear viewing experience that transforms the way in which you consume content.</p>",
+      "images": [
+        {
+          "img": "portfolio/home/title.jpg",
+          "link": "portfolio/home/home.png"
+        },
+        {
+          "img": "portfolio/home/tn1.png",
+          "link": "portfolio/home/home.png"
+        },
+        {
+          "img": "portfolio/home/tn2.png",
+          "link": "portfolio/home/home.png"
+        }
+      ]
+    },
+    {
+      "key": "social-zapper",
+      "name": "Social Zapper",
+      "description": "<p>If all your friends like a TV show, you probably will enjoy it too. Combining the power of the SDP and Facebook APIs, Social Zapper reinvents the traditional schedule grid by showing which of your friends like each show that’s on right now, even allowing you to reorder the channels based on the popularity. It can also recommend shows that you might want to binge based on the overall popularity in your social network. This prototype was later incorporated as a feature of Bento, our cloud-based STB interface.</p>",
+      "images": [
+        {
+          "img": "portfolio/social-zapper/tn.png",
+          "link": "portfolio/social-zapper/social-zapper.png"
+        },
+        {
+          "img": "portfolio/social-zapper/bento-tn.png",
+          "link": "portfolio/social-zapper/bento.png"
+        }
+      ]
+    },
+    {
+      "key": "topgear",
+      "name": "Top Gear",
+      "description": "<p>This app demonstrated the potential of SDP for rich syncrhonization of time-based metadata between a set-top box and an iPad second screen. As you watched the “star in a reasonably-priced car” segment in an episode of Top Gear on your TV, you could use your iPad to follow their progress around the race track. Playback state was syncrhonized in both directions, so you could hit fast forward on your remote control or in the app to make the car go faster… or even drag the red dot along the track to scrub back and forth on the TV. The seamless link between the screens was magical.</p>",
+      "images": [
+        {
+          "img": "portfolio/topgear/tn1.png",
+          "link": "portfolio/topgear/topgear.png"
+        },
+        {
+          "img": "portfolio/topgear/tn2.png",
+          "link": "portfolio/topgear/topgear.png"
+        },
+        {
+          "img": "portfolio/topgear/tn3.png",
+          "link": "portfolio/topgear/topgear.png"
+        }
+      ]
+    },
+    {
+      "key": "surfaces",
+      "name": "Surfaces",
+      "description": "<p>Imagine if video screens could be as large as you wanted, the size of an entire wall or table? Surfaces was a project that explored the possibilities of creating scalable displays, pushing the relevant content to a number of tiled screens. I created clients that would allow widgets to span adjacent iPads. You could literally drag a widget from one iPad to another, even if one was running a browser and the other a native client written in Swift.</p>",
+      "images": []
+    },
+    {
+      "key": "flare",
+      "name": "Flare",
+      "description": "<p><a href=\"https://github.com/azamlerc/flare\">Flare</a> is a concept ecosystem that combines indoor location technologies, wearable devices and an object-oriented data model to help people explore interior spaces and interact with objects in their environment. I implemented the backend in Node, the API layer, and frameworks and demo applications for web, Mac, iOS, Apple Watch, Android, Android Watch and Python. I released an SDK and developer documentation on Ciso’s DevNet developer portal, and hosted hackathons in which external developers used the SDK to develop projects. I presented the platform at the National Retail Federation trade show in New York, giving demos to the engineering leadership of a hundred major retail companies.</p>",
+      "images": [
+        {
+          "img": "portfolio/flare/trilateral1-tn.png",
+          "link": "portfolio/flare/trilateral1.png"
+        },
+        {
+          "img": "portfolio/flare/trilateral2-tn.png",
+          "link": "portfolio/flare/trilateral2.png"
+        },
+        {
+          "img": "portfolio/flare/trilateral3-tn.png",
+          "link": "portfolio/flare/trilateral3.png"
+        },
+        {
+          "img": "portfolio/flare/trilateral4-tn.png",
+          "link": "portfolio/flare/trilateral4.png"
+        }
+      ]
+    },
+    {
+      "key": "twitter-tv",
+      "name": "Twitter TV",
+      "description": "<p>I did a hacakthon project in which I replaced the entire SDP context and control architecture with one based on the Twitter platform. Your set-top box had its own account and would tweet what you were watching, along with the title card and a description of the episode. Then you could DM your STB with messages like “watch @topgear”, and it would find that show in the grid and change channels for you. Got it up and running in four hours.</p>",
+      "images": [
+        {
+          "img": "portfolio/twitter/twitter-tn.jpg",
+          "link": "portfolio/twitter/twitter.jpg"
+        },
+        {
+          "img": "portfolio/twitter/topgear-tn.jpg",
+          "link": "portfolio/twitter/topgear.jpg"
+        }
+      ]
+    },
+    {
+      "key": "highlights",
+      "name": "Social Highlights",
+      "description": "<p>When watching an Apple keynote, there are parts that are more exciting than others. I tried making a highlight reel of the iPad 3 launch, which took hours of my time. What if we could do this automatically by measuring the volume of tweets on a particular hashtag like #ipad during an event? I wrote an algorithm to do exactly that, and made an auto-generated highlight reel. The money shot? When they announced the pricing. Turns out the reel based on hashtag buzz was pretty much the same as the manually curated one. Proved a point in about half a day of work.</p>",
+      "images": [
+        {
+          "img": "portfolio/ipad/ipad1-tn.jpg",
+          "link": "portfolio/ipad/ipad1.jpg"
+        },
+        {
+          "img": "portfolio/ipad/ipad2-tn.jpg",
+          "link": "portfolio/ipad/ipad2.jpg"
+        }
+      ]
+    },
+    {
+      "key": "privacy",
+      "name": "Privacy",
+      "description": "<p>I gave a presentation on <a href=\"portfolio/privacy/privacy.pdf\">privacy</a> considerations in the context of building a personalized television platform. In a world where many people want to share everything about what they’re doing, would we consider your television viewing history to be sensitive personally identifiable information? Everyone knows that the Queen watches television, but can you imagine if the shows she watched turned up in the tabloids? The talk covered the important points of what privacy is, why it’s important, how to protect it, and specific learnings applicable to our current projects.</p>",
+      "images": [
+        {
+          "img": "portfolio/privacy/house-tn.jpg",
+          "link": "portfolio/privacy/privacy.pdf"
+        },
+        {
+          "img": "portfolio/privacy/google-tn.jpg",
+          "link": "portfolio/privacy/privacy.pdf"
+        },
+        {
+          "img": "portfolio/privacy/queen-tn.jpg",
+          "link": "portfolio/privacy/privacy.pdf"
+        },
+        {
+          "img": "portfolio/privacy/pins-tn.png",
+          "link": "portfolio/privacy/privacy.pdf"
+        }
+      ]
+    },
+    {
+      "key": "connections",
+      "name": "Connections",
+      "description": "<p>I designed a <a href=\"portfolio/objects/objects.jpg\">poster</a> for the 2013 NDS developer conference in Bangkok on the theme of “the power of an object oriented system lies not in the objects themselves, but in the connections between them.”</p>",
+      "images": [
+        {
+          "img": "portfolio/objects/tn1.jpg",
+          "link": "portfolio/objects/objects.jpg"
+        },
+        {
+          "img": "portfolio/objects/tn2.jpg",
+          "link": "portfolio/objects/objects.jpg"
+        }
+      ]
+    },
+    {
+      "key": "compass",
+      "name": "Compass",
+      "description": "<p>Compass is the #1 real estate brokerage in the United States, and also a tech company that creates software to make its real estate agents successful. I joined when engineering had 60 people and over five years watched it go through a period of hypergrowth to 1200 engineers. It was also my chance to move into engineering management and build several awesome, high-performing teams.</p>",
+      "images": [
+        {
+          "img": "portfolio/compass/flag-tn.jpg",
+          "link": "portfolio/compass/flag.jpg"
+        },
+        {
+          "img": "portfolio/compass/hq-tn.jpg",
+          "link": "portfolio/compass/hq.jpg"
+        },
+        {
+          "img": "portfolio/compass/taxi-tn.jpg",
+          "link": "portfolio/compass/taxi.jpg"
+        },
+        {
+          "img": "portfolio/compass/ski-tn.jpg",
+          "link": "portfolio/compass/ski.jpg"
+        },
+        {
+          "img": "portfolio/compass/dc-tn.jpg",
+          "link": "portfolio/compass/dc.jpg"
+        },
+        {
+          "img": "portfolio/compass/sign-tn.jpg",
+          "link": "portfolio/compass/sign.jpg"
+        },
+        {
+          "img": "portfolio/compass/nyse-tn.png",
+          "link": "portfolio/compass/nyse.png"
+        },
+        {
+          "img": "portfolio/compass/sailors-tn.jpg",
+          "link": "portfolio/compass/sailors.jpg"
+        },
+        {
+          "img": "portfolio/compass/desk-tn.jpg",
+          "link": "portfolio/compass/desk.jpg"
+        }
+      ]
+    },
+    {
+      "key": "mc",
+      "name": "Marketing Center",
+      "description": "<p>Beautiful marketing materials are a core part of the Compass brand image, but with the massive growth of the brokerage it became untenable for designers to make them by hand. My team and I worked with marketing to essentially distill the brain of a designer into an app called <a href=\"https://www.compass.com/agents-compass/marketing/\">Marketing Center</a>, so agents could make high-quality materials using a self-service tool. It gave them enough flexibility to differentiate themselves while at the same time keeping everything on-brand.</p>",
+      "images": [
+        {
+          "img": "portfolio/compass/mc1.jpg",
+          "link": "https://www.compass.com/agents-compass/marketing/"
+        },
+        {
+          "img": "portfolio/compass/screenshot-tn.png",
+          "link": "portfolio/compass/screenshot.png"
+        },
+        {
+          "img": "portfolio/compass/mc2.png",
+          "link": "https://www.compass.com/agents-compass/marketing/"
+        }
+      ]
+    },
+    {
+      "key": "window-displays",
+      "name": "Window Displays",
+      "description": "<p>Marketing Center lets Compass agents create a variety of kinds of print marketing materials, including the listing cards that are displayed in office windows. I worked with the marketing team to create these layouts and implemented them as templates in Marketing Center. So when you walk by a Compass office and see listings in the window, I made that happen.</p>",
+      "images": [
+        {
+          "img": "portfolio/compass/window-tn.jpg",
+          "link": "portfolio/compass/window.jpg"
+        }
+      ]
+    },
+    {
+      "key": "lefeuil",
+      "name": "Farm Brochure",
+      "description": "<p>When you’re developing software, you tend to run a program over and over in test mode. But the experience is totally different when you’re using it for real. One day I used Marketing Center to make a brochure for my own farmhouse in the south of France, and had it professionally printed. I put a lot of love into that brochure, which gave me an entirely new perspective on the software product that my team had created.</p>",
+      "images": [
+        {
+          "img": "portfolio/brochure/brochure1-tn.jpg",
+          "link": "portfolio/brochure/brochure1.jpg"
+        },
+        {
+          "img": "portfolio/brochure/brochure2-tn.jpg",
+          "link": "portfolio/brochure/brochure2.jpg"
+        },
+        {
+          "img": "portfolio/brochure/brochure3-tn.jpg",
+          "link": "portfolio/brochure/brochure3.jpg"
+        },
+        {
+          "img": "portfolio/brochure/brochure4-tn.jpg",
+          "link": "portfolio/brochure/brochure4.jpg"
+        }
+      ]
+    },
+    {
+      "key": "marketing-automation",
+      "name": "Marketing Automation",
+      "description": "<p>The Compass Marketing Center app made it easy for agents to make any kind of marketing materials, assuming they knew what they wanted to make. But it was still a challenge to remember what materials for what listings they needed to make when, and to decide which collateral types and templates would be most effective. I led the Marketing Automation team in building a system to coordinate an agent’s overall marketing strategy, using AI to give every agent the experience of having a dedicated marketing coach.</p>",
+      "images": []
+    },
+    {
+      "key": "a3g",
+      "name": "Agent at a Glance",
+      "description": "<p>As Compass scaled organically, agent information was spread across twenty different systems. The first team that I managed built a user adminstration tool called Agent at a Glance (A3G), which let our agent support team get the full picture without having to sign in to multiple systems. We took full advantage of a microservices-based architecture, with each service storing or retrieving a single type of data.</p>",
+      "images": [
+        {
+          "img": "portfolio/a3g/a3g-tn.png",
+          "link": "portfolio/a3g/a3g.pdf"
+        },
+        {
+          "img": "portfolio/a3g/dash1.png",
+          "link": "portfolio/a3g/dashboards.pdf"
+        }
+      ]
+    },
+    {
+      "key": "fuzzy-names",
+      "name": "Fuzzy Name Matching",
+      "description": "<p>Identifying the same people in different databases can be a tricky problem. In an ideal world, people would all have a unique identifier that we could use to join records across databases. However, when this is not available, it may be necessary to try to use people’s names for matching. As it turns out, people’s names can be messy, and are less suitable for use as unique identifiers than you might hope. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\">fuzzy name matching</a>, and you can look at the <a href=\"https://github.com/azamlerc/fuzzy-names\">source code</a>.</p>",
+      "images": [
+        {
+          "img": "portfolio/fuzzy/names-tn.png",
+          "link": "https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19"
+        },
+        {
+          "img": "portfolio/fuzzy/code-tn.png",
+          "link": "https://github.com/azamlerc/fuzzy-names"
+        }
+      ]
+    },
+    {
+      "key": "html-to-pdf",
+      "name": "HTML to PDF Conversion",
+      "description": "<p>Marketing Center lets users design print-ready marketing materials such as flyers, brochures, postcards and notecards. It outputs web content, which needs to be converted to a PDF that it can be sent to a print fulfillment vendor. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/go-service-to-convert-web-pages-to-pdf-using-headless-chrome-5fd9ffbae1af\">writing a Go service to convert web pages to PDF</a> using headless Chrome.</p>",
+      "images": [
+        {
+          "img": "portfolio/pdf-conversion/chrome-tn.png",
+          "link": "portfolio/pdf-conversion/chrome.png"
+        },
+        {
+          "img": "portfolio/pdf-conversion/flow-tn.png",
+          "link": "portfolio/pdf-conversion/flow.webp"
+        }
+      ]
+    },
+    {
+      "key": "interviews",
+      "name": "Interview Questions",
+      "description": "<p>When I was at Compass I developed a set of coding <a href=\"https://github.com/azamlerc/interviews\">interview questions</a> that candidates were unlikely to have encountered before. I tried to make questiosn that were fun and interesting, and related to the real world in some meaningful way. I also wrote up solutions to the questions in thirteen different programming languages, to try to force myself to approach each problem from many different different perspectives.</p>",
+      "images": []
+    },
+    {
+      "key": "fourfours",
+      "name": "🔢 Four Fours",
+      "description": "<p>When I was young a friend presented me with the <a href=\"https://en.wikipedia.org/wiki/Four_fours\">four fours</a> problem: using just the number four exactly four times, can you write a mathematical expression that evaluates to every number from 1 to 100? I wrote an <a href=\"fourfours/index.html\">interactive explorer</a> in React that helps candidates visualize the question. It’s an exercise in finding the simplicity in what seems like a complex problem, working forwards from what you do know instead of trying to work backwards from what you want to find out. See the <a href=\"https://github.com/azamlerc/interviews/tree/master/fourfours\">solutions</a> in several languages, including an elegant one-liner in <a href=\"https://github.com/azamlerc/interviews/blob/master/fourfours/fourfours.clj#L12\">Clojure</a>.</p>",
+      "images": [
+        {
+          "img": "portfolio/fourfours/fours.png",
+          "link": "fourfours/index.html"
+        },
+        {
+          "img": "portfolio/fourfours/code.png",
+          "link": "https://github.com/azamlerc/interviews/tree/master/fourfours"
+        }
+      ]
+    },
+    {
+      "key": "subway",
+      "name": "🧭 Subway Directions",
+      "description": "<p>This problem asks you to write a program to calculate the time that it would take to commute to the Compass office using the New York City Subway. You can walk to a station, take a train to another station, and from there walk to the office. As an extension, you can add the ability to transfer between trains. I made an <a href=\"subway.html\">interactive subway map</a> that helps people visualize the algorithm. It’s a fun interview question because it gets candidates thinking about coming to Compass!</p>",
+      "images": [
+        {
+          "img": "portfolio/subway/subway1.png",
+          "link": "subway.html"
+        },
+        {
+          "img": "portfolio/subway/subway2.png",
+          "link": "subway.html"
+        },
+        {
+          "img": "portfolio/subway/code.png",
+          "link": "https://github.com/azamlerc/interviews/tree/master/subway"
+        }
+      ]
+    },
+    {
+      "key": "wikilinks",
+      "name": "⛓️ Wiki Links",
+      "description": "<p>Here’s a fun party trick. Go to any English language Wikipedia page, and click on the first link in the body of the article. Keep doing that, and you’ll go from concrete to increasingly abstract subjects, most likely eventually arriving at the articles on <a href=\"https://en.wikipedia.org/wiki/Existence\">Existence</a> or <a href=\"https://en.wikipedia.org/wiki/Awareness\">Awareness</a>. Given a list of recently featured articles and the artciles they link to, the task is to <a href=\"wikilinks/index.html\">construct an outline</a>. The challenge is that there are no root nodes, as you typically get into a loop of articles that link to each other. I’ve heard candidates remark, “wow, you’ve changed the way I think about existence and awareness!”</p>",
+      "images": [
+        {
+          "img": "portfolio/wikilinks/outline.png",
+          "link": "wikilinks/index.html"
+        },
+        {
+          "img": "portfolio/wikilinks/code.png",
+          "link": "https://github.com/azamlerc/interviews/tree/master/wikilinks"
+        }
+      ]
+    },
+    {
+      "key": "pontifex",
+      "name": "🃏 Pontifex",
+      "description": "<p>Pontifex is an encryption algorithm featured in the book <a href=\"https://en.wikipedia.org/wiki/Cryptonomicon\">Cryptonomicon</a> by Neal Stephenson. It allows two people to exchange encrypted messages, as long as each of them has a deck of cards. <a href=\"pontifex/index.html\">Encrypting and decrypting</a> the message uses a process called shuffling as described in the <a href=\"https://www.schneier.com/academic/solitaire/\">algorithm</a>. In porting my solution to different languages I wound up writing some <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.js\">JavaScript</a> that looked remarkably like <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.clj\">Clojure</a>, the closest I’ve seen to “having an accent” in a programming language.</p>",
+      "images": [
+        {
+          "img": "portfolio/pontifex/suits.png",
+          "link": "pontifex/index.html"
+        },
+        {
+          "img": "portfolio/pontifex/text.png",
+          "link": "pontifex/index.html"
+        },
+        {
+          "img": "portfolio/pontifex/code.png",
+          "link": "https://github.com/azamlerc/interviews/tree/master/pontifex"
+        }
+      ]
+    },
+    {
+      "key": "countdown",
+      "name": "🚉 Subway Countdown",
+      "description": "<p>Train schedules contain a lot of data and can be hard to read. In 1885, EJ Marey invented the <a href=\"https://bagdcontext.myblog.arts.ac.uk/2017/03/31/graphical-train-schedule-•-ej-marey-•-1885/\">graphical train schedule</a>, which represents the entire schedule as a graph of the position over time of each train on the line. For this project I made an <a href=\"countdown/index.html\">animated graph</a> of the New York Subway’s 7 Train, including a display of the train arrival countdown board. You can even simulate the effect of delays, try setting it to ”total chaos”.</p>",
+      "images": [
+        {
+          "img": "portfolio/countdown/countdown.png",
+          "link": "countdown/index.html"
+        },
+        {
+          "img": "portfolio/countdown/lines.png",
+          "link": "countdown/index.html"
+        },
+        {
+          "img": "portfolio/countdown/totalchaos.png",
+          "link": "countdown/index.html"
+        }
+      ]
+    },
+    {
+      "key": "magic-names",
+      "name": "Magic Names",
+      "description": "<p>At Compass I noticed that some people had first names that were the same as other people’s last names. I made a directed graph that showed how everyone’s names were connected, and kept it up to date as the company grew over the years. I made a <a href=\"https://github.com/azamlerc/interviews/tree/master/magicnames\">magic names</a> interview question that asked candidates to build a graph structure, count the number of clusters of each size, and find how many people were in the “big cloud”. Seeing how the results changed if they added themself to the graph gave candidates a sense of belonging!</p>",
+      "images": [
+        {
+          "img": "portfolio/magicnames/2019.png",
+          "link": "interviews/names-2019.pdf"
+        },
+        {
+          "img": "portfolio/magicnames/2020.png",
+          "link": "interviews/names-2020.pdf"
+        },
+        {
+          "img": "portfolio/magicnames/2021.png",
+          "link": "interviews/names-2021.pdf"
+        }
+      ]
+    },
+    {
+      "key": "hashcash",
+      "name": "💵 Hashcash",
+      "description": "<p>Cryptocurrencies are designed around proof of work algorithms, which essentially prove that a computer burned a certain number of pointless processor cycles. They do this by calculating checksums of a large number of values until they find one that by chance ends with a specific number of zeroes. <a href=\"https://en.wikipedia.org/wiki/Hashcash\">Hashcash</a> is a protocol that uses a similar approach for avoiding spam: if email senders have to waste even a small amount of processor cycles, it’s the digital equivalent of buying a stamp.</p>",
+      "images": [
+        {
+          "img": "portfolio/hashcash/swift.png",
+          "link": "https://github.com/azamlerc/interviews/blob/master/hashcash"
+        },
+        {
+          "img": "portfolio/hashcash/ts.png",
+          "link": "https://github.com/azamlerc/interviews/blob/master/hashcash"
+        }
+      ]
+    },
+    {
+      "key": "objective-c",
+      "name": "📦 Functional Objective-C",
+      "description": "<p><a href=\"https://github.com/azamlerc/nsarray-functional\">Functional Objective-C</a> is a category that adds functional programming methods to Objective-C. Going beyond foreach, filter, map and reduce, it adds around 60 methods and was inspired by the <a href=\"https://clojure.org/api/cheatsheet\">Clojure cheatsheet</a>. I even used it to convert my Four Fours implementation into a <a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\">one-liner</a>, as inspired by the Clojure version! The whole project is tongue-in-cheek, a work of art that is beautiful and useless at the same time.</p>",
+      "images": [
+        {
+          "img": "portfolio/functional/functions.png",
+          "link": "https://github.com/azamlerc/nsarray-functional"
+        },
+        {
+          "img": "portfolio/functional/square.png",
+          "link": "https://github.com/azamlerc/nsarray-functional#square-map"
+        },
+        {
+          "img": "portfolio/functional/fours.png",
+          "link": "https://github.com/azamlerc/nsarray-functional#four-fours"
+        }
+      ]
+    },
+    {
+      "key": "apple",
+      "name": "Apple",
+      "description": "<p>When I was young I was fascinated by the original Macintosh, and knew I would work for Apple one day. I was ironically still considered “the Apple guy” even when I was working at Apple. It was an incredible time to work there, as the results of Steve Jobs’ transformation bore fruit: Mac OS X, the iPod, the iTunes Store, and retail stores. Oh yeah, and my email address was andrew@apple.com.</p>",
+      "images": [
+        {
+          "img": "portfolio/apple/card-tn.jpg",
+          "link": "portfolio/apple/card.jpg"
+        },
+        {
+          "img": "portfolio/apple/swatches-tn.jpg",
+          "link": "portfolio/apple/swatches.jpg"
+        }
+      ]
+    },
+    {
+      "key": "asw",
+      "name": "Apple Sales Web",
+      "description": "<p>I was part of team of three software engineers that developed Apple Sales Web, an app that resellers around the world used to connect with the company. It was implemented in WebObjects, a technology that Apple got from NeXT for creating object oriented web apps connected to relational databases using the same foundation that Mac and iOS apps use today.</p>",
+      "images": []
+    },
+    {
+      "key": "arw",
+      "name": "Apple Retail Web",
+      "description": "<p>My team adapted Apple Sales Web to support the company’s own stores, helping communicate with retail employees and ensure consistency between stores, especially when rolling out design updates and new products. Everyone at Apple is entirely responsible for some small aspect of the business; I wrote the code that got the shopping bags from the warehouses to the stores. Every time I saw someone walking out of a store with their purchase in a bag I felt a little bit proud.</p>",
+      "images": []
+    },
+    {
+      "key": "useradmin",
+      "name": "User Admin Site",
+      "description": "<p>I developed an internal admin application to help our admin team provide support to our users. One of the great things about building internal tools is that you can observe people using them, and make small improvements that save them a huge amount of time. At Apple even the internal tools are elegant and beautiful, and I made a library of widgets that let our WebObjects apps look just like the recently released Mac OS X operating system and its Aqua interface.</p>",
+      "images": [
+        {
+          "img": "portfolio/apple/user-tn.png",
+          "link": "portfolio/apple/user.png"
+        },
+        {
+          "img": "portfolio/apple/search-tn.png",
+          "link": "portfolio/apple/search.png"
+        },
+        {
+          "img": "portfolio/apple/store-tn.png",
+          "link": "portfolio/apple/store.png"
+        }
+      ]
+    },
+    {
+      "key": "macupgrades",
+      "name": "MacUpgrades",
+      "description": "<p>My first job was selling and fixing Macs at a small shop called MacUpgrades. I was particularly good at sales because I was very knowledgable about the products and believed in what I was saying. Back then, memory came in modules that snapped into the logic board, which was easier to do in some models than others. Computers broke all the time and you needed to have them fixed. \nI dyed my hair bondi blue for the launch of the original iMac.</p>",
+      "images": [
+        {
+          "img": "portfolio/macupgrades/imac-tn.jpg",
+          "link": "portfolio/macupgrades/imac.jpg"
+        }
+      ]
+    },
+    {
+      "key": "macs",
+      "name": "Mac Collection",
+      "description": "<p>I had a pretty extensive collection of Apple computers and related materials, and donated most of it to the <a href=\"https://ub.fnwi.uva.nl/computermuseum/inventory_part1.html\">Computer Museum</a> of the University of Amsterdam. So you can go visit their Zamler-Carhart wing of Apple technology. Two of the models I’ve kept are a Macintosh Plus (1986) and Macintosh SE (1987), which I spray painted red and purple, respectively.</p>",
+      "images": [
+        {
+          "img": "portfolio/macs/plus.png",
+          "link": "portfolio/macs/plus-se.jpg"
+        },
+        {
+          "img": "portfolio/macs/se.png",
+          "link": "portfolio/macs/plus-se.jpg"
+        }
+      ]
+    },
+    {
+      "key": "bang",
+      "name": "BANG Presentation",
+      "description": "<p>In 2002 I gave a <a href=\"portfolio/bang/index.html\">presentation</a> at Apple on an early version of <a href=\"#iconquer\">iConquer</a> to the Bay Area NeXT Group (BANG). It focused on things I’d learned as a developer writing an application for the relatively new Mac OS X operating system.</p>",
+      "images": [
+        {
+          "img": "portfolio/bang/01-tn.jpg",
+          "link": "portfolio/bang/01.html"
+        },
+        {
+          "img": "portfolio/bang/11-tn.jpg",
+          "link": "portfolio/bang/11.html"
+        },
+        {
+          "img": "portfolio/bang/12-tn.jpg",
+          "link": "portfolio/bang/12.html"
+        },
+        {
+          "img": "portfolio/bang/13-tn.jpg",
+          "link": "portfolio/bang/13.html"
+        },
+        {
+          "img": "portfolio/bang/14-tn.jpg",
+          "link": "portfolio/bang/14.html"
+        },
+        {
+          "img": "portfolio/bang/15-tn.jpg",
+          "link": "portfolio/bang/15.html"
+        },
+        {
+          "img": "portfolio/bang/21-tn.jpg",
+          "link": "portfolio/bang/21.html"
+        },
+        {
+          "img": "portfolio/bang/22-tn.jpg",
+          "link": "portfolio/bang/22.html"
+        },
+        {
+          "img": "portfolio/bang/23-tn.jpg",
+          "link": "portfolio/bang/23.html"
+        }
+      ]
+    },
+    {
+      "key": "kavafoto",
+      "name": "KavaFoto",
+      "description": "<p>KavaFoto was my brand as a photographer. The <a href=\"https://www.kavafoto.com\">KavaFoto</a> website was powered by <a href=\"#shoebox\">Shoebox</a>, letting visitors browse all my photos by category. The home page has a high degree of randomness, pulling random photos from random categories to suprise you every time.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/kavafoto.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/concerts.png\"/></a>\n<a href=\"https://www.kavafoto.com/category.php?id=1872109496-2002930091&amp;photo=2009/06/10/dsc_7445.jpg\"><img src=\"portfolio/kavafoto/rails.png\"/></a>\n<a href=\"https://www.kavafoto.com\"><img src=\"portfolio/kavafoto/collection.png\"/></a>\n</div>\n<a name=\"concerts\"></a>\n<h2>Concerts</h2>\n<p>For three years I was the de facto photographer of the composition department at the Royal Conservatoire in the The Hague. I documented over a hundred concerts, using my Shoebox program to organize photos and present them on the KavaFoto website indexed by event, venue, composer, performer and instrument.<p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/genre.png\"/></a>\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/margriet.png\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1680845070-2095023258&amp;photo=2010/05/24/dsc_1377.jpg\"><img src=\"portfolio/concerts/mp3.jpg\"/></a>\n</div>\n<a name=\"composers\"></a>\n<h2>Composers</h2>\n<p>I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com/websites/index.php?site=teodora\"><img src=\"portfolio/kavafoto/teodora.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=nicolekidman\"><img src=\"portfolio/kavafoto/nicolekidman.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=ofir\"><img src=\"portfolio/kavafoto/ofir.jpg\"/></a>\n</div>\n<a name=\"fashion\"></a>\n<h2>Fashion</h2>\n<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=2123343009-264534740&amp;photo=2009/06/25/dsc_0243.jpg\"><img src=\"portfolio/fashion/alexandrina.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=240833070-943625323&amp;photo=2010/05/11/dsc_6549.jpg\"><img src=\"portfolio/fashion/anna.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=490242361-1522585276&amp;photo=2010/05/01/dsc_1154.jpg\"><img src=\"portfolio/fashion/arianne.jpg\"/></a>\n</div>\n<a name=\"kickthecan\"></a>\n<h2>Kick the Can</h2>\n<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=215370494-221690909&amp;photo=2010/04/12/jeremiah.jpg\"><img src=\"portfolio/kickthecan/jeremiah.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=514084999-762964394&amp;photo=2010/04/13/dsc_4208.jpg\"><img src=\"portfolio/kickthecan/kicking.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1771701915-222471455&amp;photo=2010/04/13/dsc_5230.jpg\"><img src=\"portfolio/kickthecan/concert.jpg\"/></a>\n</div>\n<a name=\"books\"></a>\n<h2>Photo Books</h2>\n<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/books/photos1.pdf\"><img src=\"portfolio/books/photos1.png\"/></a>\n<a href=\"portfolio/books/photos2.pdf\"><img src=\"portfolio/books/photos2.png\"/></a>\n<a href=\"portfolio/books/red.pdf\"><img src=\"portfolio/books/red.png\"/></a>\n<a href=\"portfolio/books/newmexico.pdf\"><img src=\"portfolio/books/newmexico.png\"/></a>\n</div>\n<a name=\"natgeo\"></a>\n<h2>National Geographic</h2>\n<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/natgeo/african-architecture.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/african-architecture.jpg\"/></a>\n<a href=\"portfolio/natgeo/boats.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/boats.jpg\"/></a>\n<a href=\"portfolio/natgeo/bugs.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/bugs.jpg\"/></a>\n<a href=\"portfolio/natgeo/children.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/children.jpg\"/></a>\n<a href=\"portfolio/natgeo/coconuts.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/coconuts.jpg\"/></a>\n<a href=\"portfolio/natgeo/flowers.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/flowers.jpg\"/></a>\n<a href=\"portfolio/natgeo/houses.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/houses.jpg\"/></a>\n<a href=\"portfolio/natgeo/marketplaces.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/marketplaces.jpg\"/></a>\n<a href=\"portfolio/natgeo/places-of-worship.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/places-of-worship.jpg\"/></a>\n<a href=\"portfolio/natgeo/transportation.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/transportation.jpg\"/></a>\n<a href=\"portfolio/natgeo/water.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/water.jpg\"/></a>\n</div>\n<a name=\"etc\"></a>\n<h1>Etc.</h1>\n<a name=\"hiking\"></a>\n<h2>Hiking Maps</h2>\n<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs. </p>\n<div class=\"carousel\">\n<a href=\"images/hiking/hiking-may.jpg\"><img src=\"images/hiking/thumbs/hiking-may.jpg\"/></a>\n<a href=\"images/hiking/le-feuil.jpg\"><img src=\"images/hiking/thumbs/le-feuil.jpg\"/></a>\n<a href=\"images/hiking/dakar.jpg\"><img src=\"images/hiking/thumbs/dakar.jpg\"/></a>\n</div>\n<a name=\"shack\"></a>\n<h2>Shake Shack</h2>\n<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/shack\"><img src=\"portfolio/shack/shack.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/model.json\"><img src=\"portfolio/shack/menu.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/package.json\"><img src=\"portfolio/shack/deps.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/shack.js\"><img src=\"portfolio/shack/apis.png\"/></a>\n</div>\n<a name=\"wordle\"></a>\n<h2>Wordle</h2>\n<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/wordle-tn.jpg\"/></a>\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/code.png\"/></a>\n</div>\n<a name=\"dictionary\"></a>\n<h2>Dutch Dictionary</h2>\n<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/dictionary/book.jpg\"><img src=\"portfolio/dictionary/book-tn.jpg\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/achter.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/over.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/staat.png\"/></a>\n</div>\n<a name=\"painting\"></a>\n<h2>Painting</h2>\n<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/lisbon/photo.jpg\"><img src=\"portfolio/lisbon/photo-tn.jpg\"/></a>\n<a href=\"portfolio/lisbon/painting.jpg\"><img src=\"portfolio/lisbon/painting-tn.jpg\"/></a>\n</div>\n<a name=\"history\"></a>\n<h2>History Paper</h2>\n<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/europe/su.jpeg\"><img src=\"portfolio/europe/su-tn.jpeg\"/></a>\n<a href=\"portfolio/europe/eu.jpeg\"><img src=\"portfolio/europe/eu-tn.jpeg\"/></a>\n</div>\n<a name=\"john-irving\"></a>\n<h2>John Irving</h2>\n<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>\n<div class=\"carousel\">\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/books.png\"/></a>\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/checks.png\"/></a>\n</div>\n</p></p></p></p></p></p>",
+      "images": []
+    },
+    {
+      "key": "concerts",
+      "name": "Concerts",
+      "description": "<p>For three years I was the de facto photographer of the composition department at the Royal Conservatoire in the The Hague. I documented over a hundred concerts, using my Shoebox program to organize photos and present them on the KavaFoto website indexed by event, venue, composer, performer and instrument.<p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/genre.png\"/></a>\n<a href=\"http://kavafoto.com/concerts/\"><img src=\"portfolio/concerts/margriet.png\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1680845070-2095023258&amp;photo=2010/05/24/dsc_1377.jpg\"><img src=\"portfolio/concerts/mp3.jpg\"/></a>\n</div>\n<a name=\"composers\"></a>\n<h2>Composers</h2>\n<p>I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com/websites/index.php?site=teodora\"><img src=\"portfolio/kavafoto/teodora.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=nicolekidman\"><img src=\"portfolio/kavafoto/nicolekidman.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=ofir\"><img src=\"portfolio/kavafoto/ofir.jpg\"/></a>\n</div>\n<a name=\"fashion\"></a>\n<h2>Fashion</h2>\n<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=2123343009-264534740&amp;photo=2009/06/25/dsc_0243.jpg\"><img src=\"portfolio/fashion/alexandrina.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=240833070-943625323&amp;photo=2010/05/11/dsc_6549.jpg\"><img src=\"portfolio/fashion/anna.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=490242361-1522585276&amp;photo=2010/05/01/dsc_1154.jpg\"><img src=\"portfolio/fashion/arianne.jpg\"/></a>\n</div>\n<a name=\"kickthecan\"></a>\n<h2>Kick the Can</h2>\n<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=215370494-221690909&amp;photo=2010/04/12/jeremiah.jpg\"><img src=\"portfolio/kickthecan/jeremiah.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=514084999-762964394&amp;photo=2010/04/13/dsc_4208.jpg\"><img src=\"portfolio/kickthecan/kicking.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1771701915-222471455&amp;photo=2010/04/13/dsc_5230.jpg\"><img src=\"portfolio/kickthecan/concert.jpg\"/></a>\n</div>\n<a name=\"books\"></a>\n<h2>Photo Books</h2>\n<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/books/photos1.pdf\"><img src=\"portfolio/books/photos1.png\"/></a>\n<a href=\"portfolio/books/photos2.pdf\"><img src=\"portfolio/books/photos2.png\"/></a>\n<a href=\"portfolio/books/red.pdf\"><img src=\"portfolio/books/red.png\"/></a>\n<a href=\"portfolio/books/newmexico.pdf\"><img src=\"portfolio/books/newmexico.png\"/></a>\n</div>\n<a name=\"natgeo\"></a>\n<h2>National Geographic</h2>\n<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/natgeo/african-architecture.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/african-architecture.jpg\"/></a>\n<a href=\"portfolio/natgeo/boats.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/boats.jpg\"/></a>\n<a href=\"portfolio/natgeo/bugs.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/bugs.jpg\"/></a>\n<a href=\"portfolio/natgeo/children.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/children.jpg\"/></a>\n<a href=\"portfolio/natgeo/coconuts.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/coconuts.jpg\"/></a>\n<a href=\"portfolio/natgeo/flowers.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/flowers.jpg\"/></a>\n<a href=\"portfolio/natgeo/houses.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/houses.jpg\"/></a>\n<a href=\"portfolio/natgeo/marketplaces.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/marketplaces.jpg\"/></a>\n<a href=\"portfolio/natgeo/places-of-worship.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/places-of-worship.jpg\"/></a>\n<a href=\"portfolio/natgeo/transportation.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/transportation.jpg\"/></a>\n<a href=\"portfolio/natgeo/water.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/water.jpg\"/></a>\n</div>\n<a name=\"etc\"></a>\n<h1>Etc.</h1>\n<a name=\"hiking\"></a>\n<h2>Hiking Maps</h2>\n<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs. </p>\n<div class=\"carousel\">\n<a href=\"images/hiking/hiking-may.jpg\"><img src=\"images/hiking/thumbs/hiking-may.jpg\"/></a>\n<a href=\"images/hiking/le-feuil.jpg\"><img src=\"images/hiking/thumbs/le-feuil.jpg\"/></a>\n<a href=\"images/hiking/dakar.jpg\"><img src=\"images/hiking/thumbs/dakar.jpg\"/></a>\n</div>\n<a name=\"shack\"></a>\n<h2>Shake Shack</h2>\n<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/shack\"><img src=\"portfolio/shack/shack.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/model.json\"><img src=\"portfolio/shack/menu.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/package.json\"><img src=\"portfolio/shack/deps.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/shack.js\"><img src=\"portfolio/shack/apis.png\"/></a>\n</div>\n<a name=\"wordle\"></a>\n<h2>Wordle</h2>\n<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/wordle-tn.jpg\"/></a>\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/code.png\"/></a>\n</div>\n<a name=\"dictionary\"></a>\n<h2>Dutch Dictionary</h2>\n<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/dictionary/book.jpg\"><img src=\"portfolio/dictionary/book-tn.jpg\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/achter.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/over.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/staat.png\"/></a>\n</div>\n<a name=\"painting\"></a>\n<h2>Painting</h2>\n<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/lisbon/photo.jpg\"><img src=\"portfolio/lisbon/photo-tn.jpg\"/></a>\n<a href=\"portfolio/lisbon/painting.jpg\"><img src=\"portfolio/lisbon/painting-tn.jpg\"/></a>\n</div>\n<a name=\"history\"></a>\n<h2>History Paper</h2>\n<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/europe/su.jpeg\"><img src=\"portfolio/europe/su-tn.jpeg\"/></a>\n<a href=\"portfolio/europe/eu.jpeg\"><img src=\"portfolio/europe/eu-tn.jpeg\"/></a>\n</div>\n<a name=\"john-irving\"></a>\n<h2>John Irving</h2>\n<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>\n<div class=\"carousel\">\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/books.png\"/></a>\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/checks.png\"/></a>\n</div>\n</p></p></p></p>",
+      "images": []
+    },
+    {
+      "key": "composers",
+      "name": "Composers",
+      "description": "<p>I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.<p>\n<div class=\"carousel\">\n<a href=\"https://www.kavafoto.com/websites/index.php?site=teodora\"><img src=\"portfolio/kavafoto/teodora.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=nicolekidman\"><img src=\"portfolio/kavafoto/nicolekidman.jpg\"/></a>\n<a href=\"https://www.kavafoto.com/websites/index.php?site=ofir\"><img src=\"portfolio/kavafoto/ofir.jpg\"/></a>\n</div>\n<a name=\"fashion\"></a>\n<h2>Fashion</h2>\n<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=2123343009-264534740&amp;photo=2009/06/25/dsc_0243.jpg\"><img src=\"portfolio/fashion/alexandrina.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=240833070-943625323&amp;photo=2010/05/11/dsc_6549.jpg\"><img src=\"portfolio/fashion/anna.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=490242361-1522585276&amp;photo=2010/05/01/dsc_1154.jpg\"><img src=\"portfolio/fashion/arianne.jpg\"/></a>\n</div>\n<a name=\"kickthecan\"></a>\n<h2>Kick the Can</h2>\n<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>\n<div class=\"carousel\">\n<a href=\"http://kavafoto.com/category.php?id=215370494-221690909&amp;photo=2010/04/12/jeremiah.jpg\"><img src=\"portfolio/kickthecan/jeremiah.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=514084999-762964394&amp;photo=2010/04/13/dsc_4208.jpg\"><img src=\"portfolio/kickthecan/kicking.jpg\"/></a>\n<a href=\"http://kavafoto.com/category.php?id=1771701915-222471455&amp;photo=2010/04/13/dsc_5230.jpg\"><img src=\"portfolio/kickthecan/concert.jpg\"/></a>\n</div>\n<a name=\"books\"></a>\n<h2>Photo Books</h2>\n<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/books/photos1.pdf\"><img src=\"portfolio/books/photos1.png\"/></a>\n<a href=\"portfolio/books/photos2.pdf\"><img src=\"portfolio/books/photos2.png\"/></a>\n<a href=\"portfolio/books/red.pdf\"><img src=\"portfolio/books/red.png\"/></a>\n<a href=\"portfolio/books/newmexico.pdf\"><img src=\"portfolio/books/newmexico.png\"/></a>\n</div>\n<a name=\"natgeo\"></a>\n<h2>National Geographic</h2>\n<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/natgeo/african-architecture.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/african-architecture.jpg\"/></a>\n<a href=\"portfolio/natgeo/boats.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/boats.jpg\"/></a>\n<a href=\"portfolio/natgeo/bugs.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/bugs.jpg\"/></a>\n<a href=\"portfolio/natgeo/children.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/children.jpg\"/></a>\n<a href=\"portfolio/natgeo/coconuts.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/coconuts.jpg\"/></a>\n<a href=\"portfolio/natgeo/flowers.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/flowers.jpg\"/></a>\n<a href=\"portfolio/natgeo/houses.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/houses.jpg\"/></a>\n<a href=\"portfolio/natgeo/marketplaces.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/marketplaces.jpg\"/></a>\n<a href=\"portfolio/natgeo/places-of-worship.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/places-of-worship.jpg\"/></a>\n<a href=\"portfolio/natgeo/transportation.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/transportation.jpg\"/></a>\n<a href=\"portfolio/natgeo/water.jpg\"><img class=\"natgeo\" src=\"portfolio/natgeo/tn/water.jpg\"/></a>\n</div>\n<a name=\"etc\"></a>\n<h1>Etc.</h1>\n<a name=\"hiking\"></a>\n<h2>Hiking Maps</h2>\n<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs. </p>\n<div class=\"carousel\">\n<a href=\"images/hiking/hiking-may.jpg\"><img src=\"images/hiking/thumbs/hiking-may.jpg\"/></a>\n<a href=\"images/hiking/le-feuil.jpg\"><img src=\"images/hiking/thumbs/le-feuil.jpg\"/></a>\n<a href=\"images/hiking/dakar.jpg\"><img src=\"images/hiking/thumbs/dakar.jpg\"/></a>\n</div>\n<a name=\"shack\"></a>\n<h2>Shake Shack</h2>\n<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/shack\"><img src=\"portfolio/shack/shack.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/model.json\"><img src=\"portfolio/shack/menu.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/package.json\"><img src=\"portfolio/shack/deps.png\"/></a>\n<a href=\"https://github.com/azamlerc/shack/blob/master/shack.js\"><img src=\"portfolio/shack/apis.png\"/></a>\n</div>\n<a name=\"wordle\"></a>\n<h2>Wordle</h2>\n<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>\n<div class=\"wordle\">\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/wordle-tn.jpg\"/></a>\n<a href=\"https://github.com/azamlerc/wordle\"><img src=\"portfolio/wordle/code.png\"/></a>\n</div>\n<a name=\"dictionary\"></a>\n<h2>Dutch Dictionary</h2>\n<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/dictionary/book.jpg\"><img src=\"portfolio/dictionary/book-tn.jpg\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/achter.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/over.png\"/></a>\n<a href=\"dictionary.html\"><img src=\"portfolio/dictionary/staat.png\"/></a>\n</div>\n<a name=\"painting\"></a>\n<h2>Painting</h2>\n<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/lisbon/photo.jpg\"><img src=\"portfolio/lisbon/photo-tn.jpg\"/></a>\n<a href=\"portfolio/lisbon/painting.jpg\"><img src=\"portfolio/lisbon/painting-tn.jpg\"/></a>\n</div>\n<a name=\"history\"></a>\n<h2>History Paper</h2>\n<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>\n<div class=\"carousel\">\n<a href=\"portfolio/europe/su.jpeg\"><img src=\"portfolio/europe/su-tn.jpeg\"/></a>\n<a href=\"portfolio/europe/eu.jpeg\"><img src=\"portfolio/europe/eu-tn.jpeg\"/></a>\n</div>\n<a name=\"john-irving\"></a>\n<h2>John Irving</h2>\n<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>\n<div class=\"carousel\">\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/books.png\"/></a>\n<a href=\"john-irving.html\"><img src=\"portfolio/irving/checks.png\"/></a>\n</div>\n</p></p>",
+      "images": []
+    },
+    {
+      "key": "fashion",
+      "name": "Fashion",
+      "description": "<p>Considering I’m more likely to take pictures of rocks than people, it was ironic that I had a fifteen minute career as a fashion photographer. I shot a fashion show at <a href=\"https://www.dehaagsehogeschool.nl\">De Haagse Hogeschool</a> and worked with a number of models in The Hague.</p>",
+      "images": [
+        {
+          "img": "portfolio/fashion/alexandrina.jpg",
+          "link": "http://kavafoto.com/category.php?id=2123343009-264534740&photo=2009/06/25/dsc_0243.jpg"
+        },
+        {
+          "img": "portfolio/fashion/anna.jpg",
+          "link": "http://kavafoto.com/category.php?id=240833070-943625323&photo=2010/05/11/dsc_6549.jpg"
+        },
+        {
+          "img": "portfolio/fashion/arianne.jpg",
+          "link": "http://kavafoto.com/category.php?id=490242361-1522585276&photo=2010/05/01/dsc_1154.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kickthecan",
+      "name": "Kick the Can",
+      "description": "<p>Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven’t had this kind of spirit around here since the sixties.”</p>",
+      "images": [
+        {
+          "img": "portfolio/kickthecan/jeremiah.jpg",
+          "link": "http://kavafoto.com/category.php?id=215370494-221690909&photo=2010/04/12/jeremiah.jpg"
+        },
+        {
+          "img": "portfolio/kickthecan/kicking.jpg",
+          "link": "http://kavafoto.com/category.php?id=514084999-762964394&photo=2010/04/13/dsc_4208.jpg"
+        },
+        {
+          "img": "portfolio/kickthecan/concert.jpg",
+          "link": "http://kavafoto.com/category.php?id=1771701915-222471455&photo=2010/04/13/dsc_5230.jpg"
+        }
+      ]
+    },
+    {
+      "key": "books",
+      "name": "Photo Books",
+      "description": "<p>Here are some books that I made of my photo portfolio in 2005-2006.</p>",
+      "images": [
+        {
+          "img": "portfolio/books/photos1.png",
+          "link": "portfolio/books/photos1.pdf"
+        },
+        {
+          "img": "portfolio/books/photos2.png",
+          "link": "portfolio/books/photos2.pdf"
+        },
+        {
+          "img": "portfolio/books/red.png",
+          "link": "portfolio/books/red.pdf"
+        },
+        {
+          "img": "portfolio/books/newmexico.png",
+          "link": "portfolio/books/newmexico.pdf"
+        }
+      ]
+    },
+    {
+      "key": "natgeo",
+      "name": "National Geographic",
+      "description": "<p>In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn’t get the joke and thought it was a legit magazine cover.</p>",
+      "images": [
+        {
+          "img": "portfolio/natgeo/tn/african-architecture.jpg",
+          "link": "portfolio/natgeo/african-architecture.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/boats.jpg",
+          "link": "portfolio/natgeo/boats.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/bugs.jpg",
+          "link": "portfolio/natgeo/bugs.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/children.jpg",
+          "link": "portfolio/natgeo/children.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/coconuts.jpg",
+          "link": "portfolio/natgeo/coconuts.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/flowers.jpg",
+          "link": "portfolio/natgeo/flowers.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/houses.jpg",
+          "link": "portfolio/natgeo/houses.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/marketplaces.jpg",
+          "link": "portfolio/natgeo/marketplaces.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/places-of-worship.jpg",
+          "link": "portfolio/natgeo/places-of-worship.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/transportation.jpg",
+          "link": "portfolio/natgeo/transportation.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/water.jpg",
+          "link": "portfolio/natgeo/water.jpg"
+        }
+      ]
+    },
+    {
+      "key": "etc",
+      "name": "Etc.",
+      "description": "",
+      "images": []
+    },
+    {
+      "key": "hiking",
+      "name": "Hiking Maps",
+      "description": "<p>When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs.</p>",
+      "images": [
+        {
+          "img": "images/hiking/thumbs/hiking-may.jpg",
+          "link": "images/hiking/hiking-may.jpg"
+        },
+        {
+          "img": "images/hiking/thumbs/le-feuil.jpg",
+          "link": "images/hiking/le-feuil.jpg"
+        },
+        {
+          "img": "images/hiking/thumbs/dakar.jpg",
+          "link": "images/hiking/dakar.jpg"
+        }
+      ]
+    },
+    {
+      "key": "shack",
+      "name": "Shake Shack",
+      "description": "<p>The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don’t!</p>",
+      "images": [
+        {
+          "img": "portfolio/shack/shack.png",
+          "link": "https://github.com/azamlerc/shack"
+        },
+        {
+          "img": "portfolio/shack/menu.png",
+          "link": "https://github.com/azamlerc/shack/blob/master/model.json"
+        },
+        {
+          "img": "portfolio/shack/deps.png",
+          "link": "https://github.com/azamlerc/shack/blob/master/package.json"
+        },
+        {
+          "img": "portfolio/shack/apis.png",
+          "link": "https://github.com/azamlerc/shack/blob/master/shack.js"
+        }
+      ]
+    },
+    {
+      "key": "wordle",
+      "name": "Wordle",
+      "description": "<p>I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I’m not cheating: I just took my own strategy and taught the computer to do it for me.</p>",
+      "images": [
+        {
+          "img": "portfolio/wordle/wordle-tn.jpg",
+          "link": "https://github.com/azamlerc/wordle"
+        },
+        {
+          "img": "portfolio/wordle/code.png",
+          "link": "https://github.com/azamlerc/wordle"
+        }
+      ]
+    },
+    {
+      "key": "dictionary",
+      "name": "Dutch Dictionary",
+      "description": "<p>I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.</p>",
+      "images": [
+        {
+          "img": "portfolio/dictionary/book-tn.jpg",
+          "link": "portfolio/dictionary/book.jpg"
+        },
+        {
+          "img": "portfolio/dictionary/achter.png",
+          "link": "dictionary.html"
+        },
+        {
+          "img": "portfolio/dictionary/over.png",
+          "link": "dictionary.html"
+        },
+        {
+          "img": "portfolio/dictionary/staat.png",
+          "link": "dictionary.html"
+        }
+      ]
+    },
+    {
+      "key": "painting",
+      "name": "Painting",
+      "description": "<p>I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.</p>",
+      "images": [
+        {
+          "img": "portfolio/lisbon/photo-tn.jpg",
+          "link": "portfolio/lisbon/photo.jpg"
+        },
+        {
+          "img": "portfolio/lisbon/painting-tn.jpg",
+          "link": "portfolio/lisbon/painting.jpg"
+        }
+      ]
+    },
+    {
+      "key": "history",
+      "name": "History Paper",
+      "description": "<p>I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.</p>",
+      "images": [
+        {
+          "img": "portfolio/europe/su-tn.jpeg",
+          "link": "portfolio/europe/su.jpeg"
+        },
+        {
+          "img": "portfolio/europe/eu-tn.jpeg",
+          "link": "portfolio/europe/eu.jpeg"
+        }
+      ]
+    },
+    {
+      "key": "john-irving",
+      "name": "John Irving",
+      "description": "<p>The author John Irving refers to a number of recurring themes in his novels. I made a table, based on data from Wikipedia, on which themes occur in which books. With his most recent book <i>The Last Chairlift</i>, he’s obviously trolling his fans because it contains all the themes.</p>",
+      "images": [
+        {
+          "img": "portfolio/irving/books.png",
+          "link": "john-irving.html"
+        },
+        {
+          "img": "portfolio/irving/checks.png",
+          "link": "john-irving.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>🖼 Portfolio</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background: #fff; color: #111; }
+    .headline { font-size: 32px; font-weight: 700; padding: 20px 20px 10px; }
+    .portfolio { max-width: 920px; margin: 0 auto; padding: 0 20px 60px; line-height: 1.55; }
+    .intro { font-size: 16px; margin: 0 0 18px; }
+    .toc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 18px 0 30px; }
+    .toc { border: 1px solid #eee; border-radius: 10px; padding: 12px; background: #fafafa; }
+    .toc .section-title { font-weight: 700; margin-bottom: 6px; }
+    .toc a { color: #0b57d0; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    h1 { font-size: 28px; margin: 40px 0 10px; }
+    h2 { font-size: 22px; margin: 28px 0 8px; }
+    .carousel { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 26px; }
+    .carousel img { height: 140px; border-radius: 10px; border: 1px solid #eee; }
+    .carousel img.iconquer { height: 110px; }
+    .muted { color: #555; }
+  </style>
+</head>
+<body>
+  <div class="headline" id="headline"></div>
+  <div class="portfolio">
+    <div class="intro" id="intro"></div>
+    <div class="toc-grid" id="toc"></div>
+    <div id="content"></div>
+  </div>
+
+<script>
+async function main() {
+  const res = await fetch('data/portfolio.json', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to load portfolio.json');
+  const data = await res.json();
+
+  document.title = data?.meta?.headline || 'Portfolio';
+  document.getElementById('headline').textContent = data?.meta?.headline || 'Portfolio';
+  document.getElementById('intro').innerHTML = data?.intro || '';
+
+  // Build TOC
+  const tocEl = document.getElementById('toc');
+  (data.sections || []).forEach(sec => {
+    const card = document.createElement('div');
+    card.className = 'toc';
+    const title = document.createElement('div');
+    title.className = 'section-title';
+    if (sec.sectionIntroKey) {
+      const a = document.createElement('a');
+      a.href = '#' + sec.sectionIntroKey;
+      a.textContent = sec.name;
+      title.appendChild(a);
+    } else {
+      title.textContent = sec.name;
+    }
+    card.appendChild(title);
+
+    const ul = document.createElement('ul');
+    ul.style.margin = '0';
+    ul.style.paddingLeft = '18px';
+    (sec.keys || []).forEach(k => {
+      const proj = (data.projects || []).find(p => p.key === k);
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#' + k;
+      a.textContent = proj?.name || k;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    card.appendChild(ul);
+    tocEl.appendChild(card);
+  });
+
+  // Build content
+  const contentEl = document.getElementById('content');
+  const projectMap = new Map((data.projects || []).map(p => [p.key, p]));
+
+  function renderProject(p, headingTag) {
+    const anchor = document.createElement('a');
+    anchor.id = p.key;
+    contentEl.appendChild(anchor);
+
+    const h = document.createElement(headingTag);
+    h.textContent = p.name;
+    contentEl.appendChild(h);
+
+    if (p.description) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = p.description;
+      contentEl.appendChild(wrapper);
+    }
+
+    if (p.images && p.images.length) {
+      const car = document.createElement('div');
+      car.className = 'carousel';
+      p.images.forEach(img => {
+        const image = document.createElement('img');
+        image.src = img.img;
+        if (image.src.includes('iConquer/download/maps')) image.classList.add('iconquer');
+        if (img.link) {
+          const a = document.createElement('a');
+          a.href = img.link;
+          a.appendChild(image);
+          car.appendChild(a);
+        } else {
+          car.appendChild(image);
+        }
+      });
+      contentEl.appendChild(car);
+    }
+  }
+
+  // Render sections in the same order as the TOC
+  (data.sections || []).forEach(sec => {
+    if (sec.sectionIntroKey && projectMap.has(sec.sectionIntroKey)) {
+      renderProject(projectMap.get(sec.sectionIntroKey), 'h1');
+    } else {
+      // If no intro key, still show section heading
+      const h1 = document.createElement('h1');
+      h1.textContent = sec.name;
+      contentEl.appendChild(h1);
+    }
+    (sec.keys || []).forEach(k => {
+      const p = projectMap.get(k);
+      if (p) renderProject(p, 'h2');
+    });
+  });
+}
+
+main().catch(err => {
+  console.error(err);
+  document.getElementById('content').innerHTML = '<p class="muted">Error loading portfolio.json. If you opened this file directly, try serving it with a local web server so fetch() can read JSON.</p>';
+});
+</script>
+</body>
+</html>
