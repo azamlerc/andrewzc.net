@@ -22,8 +22,14 @@
     {
       "name": "Synamedia",
       "anchor": "synamedia",
-      "keys": ["senza-shaka-player", "hackathon", "sample-code", "video-tutorials", "senza-console",  "device-simulator", "typeahead","auto-background", "developer-documentation", "senza-direct", "senza-agent", "senza-engagement", "casablanca", "content-hub", "analytics", "aquarium", "banner-pro", "bistro", "chocolate", "comics", "dunnet.js", "flags", "flights", "video-wall", "gateway", "imagine", "local-services", "train-arrivals", "photo-stream", "popup-ads", "product-finder", "product-placement", "remote", "signs", "stopwatch", "subway-status", "tv-guide", "vertical", "video-tutorials", "watch-party", "zombies", "zoom", "senza-developer-context", "senza-devices-mcp-server", "bigquery-mcp-server"],
+      "keys": ["senza-shaka-player", "auto-background", "sample-code", "hackathon", "video-tutorials", "senza-console",  "device-simulator", "typeahead","developer-documentation", "senza-direct", "senza-agent", "engagement-report", "senza-devices-mcp", "casablanca", "content-hub", "analytics-strategy"],
       "sectionIntroKey": "synamedia"
+    },
+    {
+      "name": "Senza Apps",
+      "anchor": "senza-apps",
+      "keys": ["analytics-module", "aquarium", "banner-pro", "bistro", "chocolate", "comics", "dunnet.js", "flags", "flights", "video-wall", "gateway", "imagine", "local-services", "train-arrivals", "photo-stream", "popup-ads", "product-finder", "product-placement", "remote", "signs", "stopwatch", "subway-status", "tv-guide", "vertical", "video-tutorials", "watch-party", "zombies", "zoom"],
+      "sectionIntroKey": ""
     },
     {
       "name": "KavaSoft",
@@ -461,7 +467,7 @@
         "mcp"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/senza-developer-mcp-server.git",
+        "repo": "https://github.com/synamedia-senza/senza-developer-context.git",
         "demo": "https://agent.senza.andrewzc.net/mcp"
       },
       "name": "Senza Agent",
@@ -472,14 +478,33 @@
       "description": "I developed an automated weekly engagement reporting system that transformed how our team monitored customer activity across the Senza platform. Previously, analyzing user behavior required manual database queries with no visibility into critical signals like new user signups, login patterns, or device usage. By building custom MCP connectors that integrated our APIs and analytics platforms with Claude, I enabled live data correlation across multiple sources and generated comprehensive weekly reports with actionable insights. This workflow revealed a key architectural insight: rather than centralizing disparate data into a CRM (a year-long effort that stalled), AI excels as the natural integration layer for business intelligence—pulling from multiple sources, making inferences, and identifying patterns that would otherwise remain hidden.",
       "format": "",
       "images": [],
-      "key": "senza-engagement",
+      "key": "engagement-report",
       "keywords": [
         "senza",
         "ai",
         "map"
       ],
-      "name": "Senza Engagement Report",
+      "name": "Engagement Report",
       "year": 2025
+    },
+    {
+      "description": "The Senza Devices MCP Server wraps the Senza Devices API as a natural language tool for Claude, letting any developer manage their device fleet through conversation rather than scripts. Ask it to list all devices in a tenant, check when a specific device last connected, update a description, or move a device between the Alpha, Beta, and Stable release channels — and it just handles the OAuth authentication and API calls invisibly. The tutorial is itself a simulated conversation between a developer and Claude, walking through building the server from scratch and then immediately using it — ending with a developer managing fifty devices by typing plain English.",
+      "format": "node",
+      "images": [],
+      "key": "senza-devices-mcp",
+      "keywords": [
+        "senza",
+        "vibe",
+        "ai",
+        "mcp"
+      ],
+      "links": {
+        "repo": "https://github.com/synamedia-senza/senza-devices-mcp-server",
+        "tutorial": "https://developer.synamedia.com/senza/docs/devices-ai-tool"
+      },
+      "name": "Senza Devices MCP",
+      "summary": "MCP tool for connecting to the Senza Devices API",
+      "year": 2026
     },
     {
       "description": "The first commercial deployment of Senza is beIN Stream, launched in Morocco. Seemed like a good excuse to visit a new country, and when my marketing partner suggested I make a video, I accepted the challenge! I flew to Marrakesh, took the train to Casablanca, and spent two days hunting for our product in the wild. I recorded segments on the plane, on the train, taking the tram, crossing Mohammed V Square — building the suspense of the search, getting lost twice on the way to the shop, and doing a full product unboxing when I finally found it. The next day I tracked down the beIN flagship store, and interviewed the salesperson in French about his experience selling the product. I’m probably the first person at Synamedia who has ever seen Senza for sale in a shop with their own eyes!",
@@ -494,7 +519,7 @@
       "links": {
         "youtube": "https://youtu.be/bA2_-fOFQWo"
       },
-      "name": "Casablanca",
+      "name": "Casablanca Video",
       "year": 2025
     },
     {
@@ -509,10 +534,26 @@
       "year": 2025
     },
     {
+      "description": "Customers needed to know how to handle analytics on Senza, and I was trusted to set the strategic direction. The core position: because Senza runs a standard browser, customers should use the same tools they already use for their websites — Google Analytics, BigQuery, Looker Studio — rather than waiting for a proprietary solution. The strategy addressed the genuine complexities: the disconnect event that enables clean session-end summaries, three player configurations that each require different instrumentation, and the geolocation problem caused by the app running in a cloud data center. I then built the reference implementation myself: a drop-in JavaScript analytics module, four tutorials, and eventually the GA4 → BigQuery → Claude pipeline that powers the weekly engagement reports — a turnkey solution that uses AI to surface meaningful intelligence from live platform data.",
+      "format": "doc",
+      "images": [],
+      "key": "analytics-strategy",
+      "keywords": [
+        "senza",
+        "analytics"
+      ],
+      "links": {
+        "repo": "https://github.com/synamedia-senza/analytics.git",
+        "tutorial": "https://developer.synamedia.com/senza/docs/analytics-module"
+      },
+      "name": "Analytics Strategy",
+      "year": 2025
+    },
+    {
       "description": "A JavaScript module for apps running on the Senza platform that collects session statistics and viewing activity and sends it to all Google Analytics. Once you plug it in and turn it on, the rest is completely automatic and requires no changes to the app. It takes advantage of a special feature of the Senza cloud browser that allows it to reliably send an end-of-session summary after the client disconnects. The analytics platform doesn't need to interpret lots of low-level events: just a nice clean summary of how much time the app spent in each lifecycle state and what the viewer watched. 100% vibe coded and production ready!",
       "format": "script",
       "images": [],
-      "key": "analytics",
+      "key": "analytics-module",
       "keywords": [
         "senza",
         "analytics",
@@ -522,7 +563,7 @@
         "repo": "https://github.com/synamedia-senza/analytics.git",
         "tutorial": "https://developer.synamedia.com/senza/docs/analytics-module"
       },
-      "name": "Analytics",
+      "name": "Analytics Module",
       "summary": "Sends lifecycle and playback stats to Google Analytics",
       "year": 2025
     },
@@ -561,7 +602,7 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "Bistro is a fork of the Signs app built to spec for a hospitality customer who needed restaurant menu signage across four screens, with content that changes automatically based on the time of day. A central config defines the schedule — breakfast, daytime, dinner, overnight — and maps each screen to a different image or video for each period, so the right content is always showing without anyone touching anything. The app has a neat demo mode baked in: up and down arrows cycle each screen through its four “channels,” and left and right arrows scrub the server clock forward and backward so you can preview the full setup at any hour without waiting. The customer used it successfully for internal demos to build momentum behind the platform. A few hours forking an existing app led to a concrete customer win.",
       "format": "node",
       "images": [],
       "key": "bistro",
@@ -578,7 +619,7 @@
         "youtube": "https://youtu.be/k_ihfQ02Sqg"
       },
       "name": "Bistro",
-      "summary": "Menu signage use case for Marriott",
+      "summary": "Menu signage use case for hospitality customer",
       "year": 2025
     },
     {
@@ -1043,65 +1084,8 @@
         "youtube": "https://youtu.be/nymzmOR6uMM"
       },
       "name": "Zoom",
-      "summary": "Switch two videos between PIP and full screen (needs RTP audio)",
+      "summary": "Switch two videos between PIP and full screen",
       "year": 2024
-    },
-    {
-      "description": "",
-      "format": "md",
-      "images": [],
-      "key": "senza-developer-context",
-      "keywords": [
-        "senza",
-        "ai",
-        "mcp"
-      ],
-      "links": {
-        "repo": "https://github.com/synamedia-senza/senza-developer-context.git",
-        "demo": "—"
-      },
-      "name": "Senza Developer Context",
-      "summary": "Senza developer documentation in AI readable markdown format",
-      "year": 2026
-    },
-    {
-      "description": "",
-      "format": "node",
-      "images": [],
-      "key": "senza-devices-mcp-server",
-      "keywords": [
-        "senza",
-        "vibe",
-        "ai",
-        "mcp"
-      ],
-      "links": {
-        "repo": "https://github.com/synamedia-senza/senza-devices-mcp-server",
-        "tutorial": "https://developer.synamedia.com/senza/docs/devices-ai-tool"
-      },
-      "name": "Senza Devices MCP Server",
-      "summary": "MCP tool for connecting to the Senza Devices API",
-      "year": 2026
-    },
-    {
-      "description": "",
-      "format": "node",
-      "images": [],
-      "key": "bigquery-mcp-server",
-      "keywords": [
-        "senza",
-        "vibe",
-        "analytics",
-        "ai",
-        "mcp"
-      ],
-      "links": {
-        "repo": "https://github.com/synamedia-senza/bigquery-mcp-server",
-        "tutorial": "https://developer.synamedia.com/senza/docs/google-analytics-mcp-server"
-      },
-      "name": "Bigquery MCP Server",
-      "summary": "MCP tool for getting stats from Google Analytics via BigQuery",
-      "year": 2026
     },
     {
       "description": "I started <a href=\"https://kavasoft.andrewzc.net\">KavaSoft</a> in 2002, with the dream of writing applications for the brand new Mac OS X operating system. I started by porting one of my favorite games from the original Macintosh, which became iConquer. Over the next nine years I released a suite of apps for organizing your photos by content, sharing your favorite music, downloaded images from websites, sorting your movie collection, translating text in apps and much more. This was a decade before the app store, so I had to work out distribution, payments and software updates in order to make KavaSoft into a profitable enterprise.",
