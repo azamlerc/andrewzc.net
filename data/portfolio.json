@@ -22,7 +22,7 @@
     {
       "name": "Synamedia",
       "anchor": "synamedia",
-      "keys": ["senza-shaka-player", "hackathon", "sample-code", "video-turorials", "senza-console", "typeahead", "device-simulator", "auto-background", "developer-documentation", "senza-direct", "senza-agent", "senza-engagement", "casablanca", "content-hub", "analytics", "aquarium", "banner-pro", "bistro", "chocolate", "comics", "dunnet.js", "flags", "flights", "video-wall", "gateway", "imagine", "local-services", "train-arrivals", "photo-stream", "popup-ads", "product-finder", "product-placement", "remote", "signs", "stopwatch", "subway-status", "tv-guide", "vertical", "video-tutorials", "watch-party", "zombies", "zoom", "senza-developer-context", "senza-agent", "senza-devices-mcp-server", "bigquery-mcp-server"],
+      "keys": ["senza-shaka-player", "hackathon", "sample-code", "video-tutorials", "senza-console",  "device-simulator", "typeahead","auto-background", "developer-documentation", "senza-direct", "senza-agent", "senza-engagement", "casablanca", "content-hub", "analytics", "aquarium", "banner-pro", "bistro", "chocolate", "comics", "dunnet.js", "flags", "flights", "video-wall", "gateway", "imagine", "local-services", "train-arrivals", "photo-stream", "popup-ads", "product-finder", "product-placement", "remote", "signs", "stopwatch", "subway-status", "tv-guide", "vertical", "video-tutorials", "watch-party", "zombies", "zoom", "senza-developer-context", "senza-devices-mcp-server", "bigquery-mcp-server"],
       "sectionIntroKey": "synamedia"
     },
     {
@@ -324,7 +324,15 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "Synamedia is the successor to NDS, the world leader in set-top box middleware, which was acquired by Cisco before spinning out as an independent company. I joined in 2023 as Director of Product, where I was responsible for all customer-facing interfaces for their cloud video platform, Senza. Unlike traditional set-top box software, Senza runs web apps in the cloud and streams the rendered interface as a video signal directly to TVs—a fundamentally different architecture that required a fundamentally different developer experience.</p><p>I built that developer experience from the ground up: defining all public APIs and SDK interfaces, creating the documentation, sample applications, and video tutorials that every Senza customer and partner uses to build on the platform. I also organized the first Senza hackathon, bringing together external developers to build on the platform and demonstrate its potential. And I created over thirty reference apps spanning digital signage, AI-powered experiences, multi-screen synchronization, and interactive TV—more portfolio-worthy projects than the rest of my career combined.",
+      "images": [],
+      "key": "synamedia",
+      "keywords": ["senza"],
+      "name": "Synamedia",
+      "year": 2023
+    },
+    {
+      "description": "One of the trickiest parts of building on Senza is managing the transition between the rich HTML foreground and the high-quality background video player. I recognized this as the single biggest friction point in the developer experience and took it upon myself to solve it. The result was a drop-in subclass of the Shaka player that handles all the complexity automatically—developers go from wrestling with a difficult integration to a seamless, production-ready implementation with just two lines of code. That kind of leverage is what separates an experimental platform from one that people actually build on.",
       "format": "script",
       "images": [],
       "key": "senza-shaka-player",
@@ -335,7 +343,7 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "I organized the first-ever Senza developer hackathon, a three-day event held at Hacker Dojo in Mountain View, CA. I was responsible for every aspect of the event: securing the venue, managing logistics, defining the format, marketing to the developer community, and getting the platform’s sample code and documentation into shape so participants could hit the ground running. Despite a modest turnout, the energy in the room was exceptional. It was amazing to see all the creative projects developed in just hours: arcade games controlled by a TV remote, an AI-powered product recognition app, a live audience participation platform, and more. The defining theme that emerged: everybody vibe coded everything, validating the bet that AI-assisted development is how software gets written today, annd you don't even need to be a programmer.",
       "format": "event",
       "images": [],
       "key": "hackathon",
@@ -343,13 +351,14 @@
         "senza"
       ],
       "links": {
-        "demo": "https://senza.devpost.com/"
+        "demo": "https://senza.devpost.com/project-gallery",
+        "youtube": "https://www.youtube.com/watch?v=BfeilgRBrYc"
       },
       "name": "Hackathon",
       "year": 2025
     },
     {
-      "description": "",
+      "description": "One of the most important things you can do for a developer platform is give developers something to learn from. I created over thirty sample applications for Senza, each demonstrating a specific technique in clear, readable vanilla JavaScript—short modular functions that developers can understand at a glance and drop straight into their own projects. Some tackle the basics of remote control navigation, a paradigm unfamiliar to most web developers. Others demonstrate Senza's commercial potential for digital signage, from restaurant menus to airport departure boards. And others are more playful explorations of what becomes possible when you combine a powerful cloud browser with modern AI—image recognition, image generation, and real-time app generation from a spoken prompt. Most come with a written tutorial walking through the code step by step, and many have an accompanying video as well. The goal throughout was to make learning the platform not just easy, but genuinely fun.",
       "format": "html",
       "images": [],
       "key": "sample-code",
@@ -360,18 +369,18 @@
       "year": 2023
     },
     {
-      "description": "",
+      "description": "Not every developer learns by reading documentation—many do most of their learning on YouTube, so I brought the tutorials to them. I produced nineteen video tutorials covering everything from platform fundamentals to advanced techniques like AI image generation, multi-screen synchronization, and emergency alerts. Each one is a screen-recorded walkthrough designed to show, not just tell—watching the code come together in real time is a fundamentally different experience from reading about it. I also built a Video Tutorials app that lets developers watch all the tutorials directly on the Senza platform—there's even a tutorial that shows how that app was built.",
       "format": "video",
       "images": [],
-      "key": "video-turorials",
+      "key": "video-tutorials",
       "keywords": [
         "senza"
       ],
-      "name": "Video Turorials",
+      "name": "Video Tutorials",
       "year": 2024
     },
     {
-      "description": "",
+      "description": "When I arrived, the Senza Console was little more than a thin wrapper on a database — functional, but barely. The homepage greeted developers with “You have 1 tenants,” a grammatical error that said everything about how much thought had gone into the experience. I worked with the design team to rebuild it from the ground up with a clear guiding principle: 90% of the time a developer visits the console, they should be able to accomplish what they came to do directly on the home page or one click away. The result was a night and day transformation — a polished, intuitive interface that put device management, simulator access, debugging tools, and tenant configuration all within immediate reach. For the first time, the console looked and felt like a professional cloud developer tool, and set the tone for everything else we built around it.",
       "format": "html",
       "images": [],
       "key": "senza-console",
@@ -382,7 +391,18 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "The Device Simulator lets developers test their Senza apps in a browser without needing physical hardware—but when I arrived, it looked like a science project. Raw debug output, no visual polish, nothing that resembled a product a developer would actually want to use. I worked with the design team to rebuild it from the ground up: a clean, browser-based interface with a polished toolbar, proper branding, and an on-screen remote control modeled directly on the physical device. That last detail mattered more than it might seem — for developers who had never built for a TV remote before, seeing the virtual and physical remotes side by side made the paradigm click immediately. The result was a tool that went from something you tolerated to something you actually enjoyed using, and that set the standard for how the rest of the developer experience should look and feel.",
+      "format": "html",
+      "images": [],
+      "key": "device-simulator",
+      "keywords": [
+        "senza"
+      ],
+      "name": "Device Simulator",
+      "year": 2024
+    },
+    {
+      "description": "For many web developers, making an app navigable with a TV remote is one of the most disorienting parts of building for Senza — there's no mouse, no touch, just four arrow keys, an OK button, and a back button. I woke up one night with an idea: what if a single script could solve this for everyone? Drop it into any existing web app, and it automatically finds all the links on the page, makes them navigable with the arrow keys, follows them with OK, and goes back with the back button — zero code changes required. The resulting script is fewer than a hundred lines of vanilla JavaScript, and it works on any page with links. As a bonus, desktop users get typeahead selection: start typing the first few letters of a link and it jumps straight to it. One script, any app, instantly remote-control friendly.",
       "format": "script",
       "images": [],
       "key": "typeahead",
@@ -397,18 +417,7 @@
       "year": 2024
     },
     {
-      "description": "",
-      "format": "html",
-      "images": [],
-      "key": "device-simulator",
-      "keywords": [
-        "senza"
-      ],
-      "name": "Device Simulator",
-      "year": 2024
-    },
-    {
-      "description": "",
+      "description": "My second major platform contribution followed the same philosophy as the Senza Shaka Player: take something that was always an exercise for the reader, hide the complexity, and make it work out of the box. To run efficiently on Senza, apps need to switch between foreground mode — where the browser is active and rendering — and background mode, where the GPU shuts off and video streams directly from the CDN at no cost. Managing these transitions was entirely the developer's responsibility, which meant understanding a fairly daunting set of lifecycle states before you could even get started. I designed an auto-background feature that handles all of this automatically after a configurable period of inactivity, with sensible defaults that work for most use cases, then worked with engineering to incorporate it directly into the SDK. What had been a potential dealbreaker became a single line of configuration — and for many apps, something developers never had to think about at all.",
       "format": "script",
       "images": [],
       "key": "auto-background",
@@ -419,7 +428,7 @@
       "year": 2025
     },
     {
-      "description": "",
+      "description": "The developer documentation I built for Senza is organized into three layers: deep conceptual context covering every aspect of the platform, step-by-step workflow guides for common tasks, and thirty tutorial walkthroughs tied directly to the sample apps. The company had documentation when I arrived, but it was sparse, inconsistent, and written for people who already understood the platform. I rebuilt it from the ground up until it reached the point where several people — internal engineers and external developers alike — told me it was the best developer documentation they had ever seen. Every page reflects the way I think about the platform, the questions I know developers will ask, and the order in which concepts need to land to make sense. It's an extract of the part of my brain that understands Senza completely — which is why, when you talk to the Senza Agent AI chatbot that I also built, and it explains something to you, it sounds a little bit like me.",
       "format": "md",
       "images": [],
       "key": "developer-documentation",
@@ -430,7 +439,7 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "As the company looked for new ways to grow adoption, I was asked to explore turning Senza into a proper self-serve SaaS platform — the kind where a developer could discover the product, create an account, order hardware, and deploy to production with a credit card, without ever talking to anyone at Synamedia. For a company with deep roots in bespoke enterprise sales, this was genuinely uncharted territory. The first milestone was a proof-of-concept onboarding flow: pay a fee, answer a few questions, and land on your new Senza Console home page in just a few clicks. Our leadership said he'd never seen us ship anything like it. The self-serve tidal wave never materialized — enterprise TV platforms are sold by the sales team — but the exercise forced us to optimize all aspects of the developer experience.",
       "format": "",
       "images": [],
       "key": "senza-direct",
@@ -441,18 +450,26 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "The Senza Agent is an AI-powered chatbot that gives any developer instant access to everything there is to know about building on Senza. Add a single URL to your Claude settings and you can ask it anything — how the lifecycle works, how to implement a specific feature, how to optimize an existing app for the platform — and get answers that sound like they came from a Senza expert. It comes pre-loaded with guided workflows for common tasks and can walk you through any of the sample app tutorials step by step. I built and deployed the whole thing in a single day. For a developer ecosystem that was still finding its footing, having an always-on expert available to every developer is exactly the kind of force multiplier that makes a small team punch above its weight.",
       "format": "node",
       "images": [],
       "key": "senza-agent",
       "keywords": [
-        "senza"
+        "senza",
+        "vibe",
+        "ai",
+        "mcp"
       ],
+      "links": {
+        "repo": "https://github.com/synamedia-senza/senza-developer-mcp-server.git",
+        "demo": "https://agent.senza.andrewzc.net/mcp"
+      },
       "name": "Senza Agent",
+      "summary": "MCP tool for accessing the developer docs using AI",
       "year": 2026
     },
     {
-      "description": "",
+      "description": "I developed an automated weekly engagement reporting system that transformed how our team monitored customer activity across the Senza platform. Previously, analyzing user behavior required manual database queries with no visibility into critical signals like new user signups, login patterns, or device usage. By building custom MCP connectors that integrated our APIs and analytics platforms with Claude, I enabled live data correlation across multiple sources and generated comprehensive weekly reports with actionable insights. This workflow revealed a key architectural insight: rather than centralizing disparate data into a CRM (a year-long effort that stalled), AI excels as the natural integration layer for business intelligence—pulling from multiple sources, making inferences, and identifying patterns that would otherwise remain hidden.",
       "format": "",
       "images": [],
       "key": "senza-engagement",
@@ -465,7 +482,7 @@
       "year": 2025
     },
     {
-      "description": "",
+      "description": "The first commercial deployment of Senza is beIN Stream, launched in Morocco. Seemed like a good excuse to visit a new country, and when my marketing partner suggested I make a video, I accepted the challenge! I flew to Marrakesh, took the train to Casablanca, and spent two days hunting for our product in the wild. I recorded segments on the plane, on the train, taking the tram, crossing Mohammed V Square — building the suspense of the search, getting lost twice on the way to the shop, and doing a full product unboxing when I finally found it. The next day I tracked down the beIN flagship store, and interviewed the salesperson in French about his experience selling the product. I’m probably the first person at Synamedia who has ever seen Senza for sale in a shop with their own eyes!",
       "format": "video",
       "images": [],
       "key": "casablanca",
@@ -481,7 +498,7 @@
       "year": 2025
     },
     {
-      "description": "",
+      "description": "The Content Hub is the app launcher built into the Senza platform — accessible from any app via the apps button on the remote. When I arrived, it was driven by a sprawling collection of static JSON config files committed to source control, with a new variant for every possible customer configuration. I wrote a spec for a proper database-driven backend: given a tenant, return exactly the right set of apps for that context, taking into account geographic territories, account ownership, production stage, and per-tenant overrides. My preferred way to write a spec is to build a prototype first, so I wired up the frontend to my new API and delivered a fully working dynamic system alongside the spec. The Content Hub hasn't yet grown to the point where the old approach breaks down, but when that day comes, the architecture is designed and the code is already written.",
       "format": "",
       "images": [],
       "key": "content-hub",
@@ -510,7 +527,7 @@
       "year": 2025
     },
     {
-      "description": "",
+      "description": "One of the quirks of running a cloud browser on Linux is that it has basic fonts, so emoji render as rectangles. I wanted a sample app to show developers how to import a Google emoji font as a practical workaround — but why not make it fun? I vibe coded an animated aquarium screensaver: a sandy seabed with swaying plants and coral, bubbles rising through the water, and a full cast of sea creatures — fish, dolphins, sharks, whales, a mermaid, a pufferfish that inflates and deflates — all swimming across the screen using GPU-accelerated CSS transitions. Each creature is its own object, responsible for its own motion, facing the direction it's swimming. I could watch them swimming around all day.",
       "format": "html",
       "images": [],
       "key": "aquarium",
@@ -528,7 +545,7 @@
       "year": 2025
     },
     {
-      "description": "The Banner app is the canonical reference implementation for playing video on Senza — the app every developer looks at first to understand how foreground and background modes work together. It's deliberately, almost stubbornly simple: load a video, show a banner on top, press OK to hand off seamlessly to the background player, press any key to come back. The Senza ShakaPlayer handles the sync between the browser player and the remote player automatically, and the auto-background feature makes the whole thing production-ready with a single configuration call. The pro version adds URL configuration for DRM, audio tracks, subtitles, and more. Keeping this app simple was a feature, not a limitation — and after watching Big Buck Bunny with a burned-in timecode approximately one million times, the seamless frame-accurate handoff between foreground and background never gets old.",
+      "description": "The Banner app is the canonical reference implementation for playing video on Senza—the app every developer looks at first to understand how foreground and background modes work together. It's deliberately, almost stubbornly simple: load a video, show a banner on top, press OK to hand off seamlessly to the background player, press any key to come back. The Senza ShakaPlayer handles the sync between the browser player and the remote player automatically, and the auto-background feature makes the whole thing production-ready with a single configuration call. The pro version adds URL configuration for DRM, audio tracks, subtitles, and more. Keeping this app simple was a feature, not a limitation—and after watching Big Buck Bunny with a burned-in timecode approximately one million times, the seamless frame-accurate handoff between foreground and background never gets old.",
       "format": "html",
       "images": [],
       "key": "banner-pro",
@@ -565,7 +582,7 @@
       "year": 2025
     },
     {
-      "description": "A digital signage experience that showcases one of the most elegant features of the Senza platform: the ability to seamlessly hand off between a rich HTML foreground and full-quality streaming video. The app displays a single evocative word — smooth, delicious, dark — in a custom font with dissolve animations and randomized chocolate-palette colors, then hands off to a streaming video of tempting chocolate before cycling back again. Drop in the analytics module and it captures the whole story with a single function call: which videos played, which words appeared, and how the foreground/background ratio stabilized at exactly the 23% you'd predict from the scripted timing.",
+      "description": "A digital signage experience that showcases one of the most elegant features of the Senza platform: the ability to seamlessly hand off between a rich HTML foreground and full-quality streaming video. The app displays a single evocative word—smooth, delicious, dark—in a custom font with dissolve animations and randomized chocolate-palette colors, then hands off to a streaming video of tempting chocolate before cycling back again. Drop in the analytics module and it captures the whole story with a single function call: which videos played, which words appeared, and how the foreground/background ratio stabilized at exactly the 23% you'd predict from the scripted timing.",
       "format": "html",
       "images": [],
       "key": "chocolate",
@@ -605,7 +622,7 @@
       "year": 2026
     },
     {
-      "description": "Dunnet is a classic 1980s text adventure game that shipped with macOS as part of the Emacs distribution all the way through version 10.14 — yes, really. This port is equal parts ridiculous and delightful: a six-button TV remote turns out to be a surprisingly natural way to play. Arrow keys handle movement in all four directions, and the Back button drops into a command menu where you can navigate through every available verb and noun combination — the same Escape key that triggers command mode in Emacs. The implementation is a genuine example of how to make an existing web app fully navigable with a remote control, wrapped in the excuse of doing something completely absurd. You can pick up the shovel, eat the shovel, or do basically anything with the shovel. Just know that some commands end the game faster than others.",
+      "description": "Dunnet is a classic 1980s text adventure game that shipped with macOS as part of the Emacs distribution all the way through version 10.14—yes, really. This port is equal parts ridiculous and delightful: a six-button TV remote turns out to be a surprisingly natural way to play. Arrow keys handle movement in all four directions, and the Back button drops into a command menu where you can navigate through every available verb and noun combination—the same Escape key that triggers command mode in Emacs. The implementation is a genuine example of how to make an existing web app fully navigable with a remote control, wrapped in the excuse of doing something completely absurd. You can pick up the shovel, eat the shovel, or do basically anything with the shovel. Just know that some commands end the game faster than others.",
       "format": "html",
       "images": [],
       "key": "dunnet.js",
@@ -622,7 +639,7 @@
       "year": 2023
     },
     {
-      "description": "A deceptively simple app that solves a real platform problem: because Senza apps run in a cloud browser, a geolocation service would normally place every user in a data center. The Flags app demonstrates how the Senza SDK exposes the physical device's real IP and country code — the entire app is essentially one line to get the country code and one line to display the flag. Developers can spoof the country in the simulator to test how their app behaves anywhere in the world. The video tutorial makes this concrete in the most memorable way possible: it opens with a ridiculous fake British accent, and when the VPN disconnects mid-recording and the country flips back to the US, so does the voice.",
+      "description": "A deceptively simple app that solves a real platform problem: because Senza apps run in a cloud browser, a geolocation service would normally place every user in a data center. The Flags app demonstrates how the Senza SDK exposes the physical device's real IP and country code—the entire app is essentially one line to get the country code and one line to display the flag. Developers can spoof the country in the simulator to test how their app behaves anywhere in the world. The video tutorial makes this concrete in the most memorable way possible: it opens with a ridiculous fake British accent, and when the VPN disconnects mid-recording and the country flips back to the US, so does the voice.",
       "format": "html",
       "images": [],
       "key": "flags",
@@ -662,7 +679,7 @@
       "year": 2024
     },
     {
-      "description": "A video wall built with surprisingly little code, named after a trade show demo from a previous life — a wink to anyone who was there. The trick is pure CSS: send a 4K video to all four Senza screens, make each one overflow-crop its assigned quadrant with a negative margin offset, and let a tiny Socket.IO server keep the timecodes in sync. Play, pause, skip — it all works seamlessly across the wall. The elegant part is what it isn't: a colleague's attempt to do the same thing by hacking deep into the Senza platform took roughly 100 times the code. Sometimes the best engineering is knowing which layer to work at.",
+      "description": "A video wall built with surprisingly little code, named after a trade show demo from a previous life—a wink to anyone who was there. The trick is pure CSS: send a 4K video to all four Senza screens, make each one overflow-crop its assigned quadrant with a negative margin offset, and let a tiny Socket.IO server keep the timecodes in sync. Play, pause, skip—it all works seamlessly across the wall. The elegant part is what it isn't: a colleague's attempt to do the same thing by hacking deep into the Senza platform took roughly 100 times the code. Sometimes the best engineering is knowing which layer to work at.",
       "format": "node",
       "images": [],
       "key": "video-wall",
@@ -681,7 +698,7 @@
       "year": 2024
     },
     {
-      "description": "A real problem, solved in real time: at a Senza hackathon, every device in a tenant loads the same URL — so how do you support a room full of developers each hacking on their own device simultaneously? The Gateway app is a vibe-coded redirect service that uses the Senza SDK to read each device's ID the moment it connects, looks it up in a shared mapping, and bounces it to whatever URL that developer has registered. A clean admin UI lets anyone on the team point their device at their local environment without touching config files or the Remote Debugger. There's even a one-command ngrok integration that restarts your tunnel and updates your device's entry in the gateway automatically. It saved the day at the hackathon, and it's been running in production ever since.",
+      "description": "A real problem, solved in real time: at a Senza hackathon, every device in a tenant loads the same URL—so how do you support a room full of developers each hacking on their own device simultaneously? The Gateway app is a vibe-coded redirect service that uses the Senza SDK to read each device's ID the moment it connects, looks it up in a shared mapping, and bounces it to whatever URL that developer has registered. A clean admin UI lets anyone on the team point their device at their local environment without touching config files or the Remote Debugger. There's even a one-command ngrok integration that restarts your tunnel and updates your device's entry in the gateway automatically. It saved the day at the hackathon, and it's been running in production ever since.",
       "format": "node",
       "images": [],
       "key": "gateway",
@@ -742,7 +759,7 @@
       "year": 2025
     },
     {
-      "description": "A real-time Washington Metro arrivals app built for a pitch at the DC-area headquarters of a major hospitality company. The app is totally simple: a three-screen navigation flow (pick a line, pick a station, see live arrivals) powered by the WMATA API, with a metro station wallpaper and typography that looks like it belongs in the system. The whole thing is driven by a reusable typeahead.js script — drop it into any page with links and it instantly becomes remote-control navigable. \"Did you use AI?\" they asked. \"No, it was so simple I didn't have to!\" My colleagues did the heavy lifting that day, but showing up with something polished, working, and fun helped set the tone for the whole conversation.",
+      "description": "A real-time Washington Metro arrivals app built for a pitch at the DC-area headquarters of a major hospitality company. The app is totally simple: a three-screen navigation flow (pick a line, pick a station, see live arrivals) powered by the WMATA API, with a metro station wallpaper and typography that looks like it belongs in the system. The whole thing is driven by a reusable typeahead.js script—drop it into any page with links and it instantly becomes remote-control navigable. \"Did you use AI?\" they asked. \"No, it was so simple I didn't have to!\" My colleagues did the heavy lifting that day, but showing up with something polished, working, and fun helped set the tone for the whole conversation.",
       "format": "html",
       "images": [],
       "key": "train-arrivals",
@@ -762,7 +779,7 @@
       "year": 2025
     },
     {
-      "description": "During a pitch to a major mobile operator, someone asked: \"Could you build a lifestyle app where you snap photos on your phone while traveling and they show up as a screensaver on your parents' TV?\" Yup, I can vibe code that. The Photo Stream app does exactly this: the TV generates a persistent QR code, family members scan it on their phones, tap to upload a photo, and it appears on screen within seconds. The implementation is clean end-to-end — the phone gets a pre-signed S3 URL from the server and uploads directly, bypassing the server entirely for the image bytes, then pings via Socket.IO to notify the TV in real time. Photos persist across sessions so the stream just keeps growing. The customer was delighted, and the use case basically sold itself.",
+      "description": "During a pitch to a major mobile operator, someone asked: \"Could you build a lifestyle app where you snap photos on your phone while traveling and they show up as a screensaver on your parents' TV?\" Yup, I can vibe code that. The Photo Stream app does exactly this: the TV generates a persistent QR code, family members scan it on their phones, tap to upload a photo, and it appears on screen within seconds. The implementation is clean end-to-end—the phone gets a pre-signed S3 URL from the server and uploads directly, bypassing the server entirely for the image bytes, then pings via Socket.IO to notify the TV in real time. Photos persist across sessions so the stream just keeps growing. The customer was delighted, and the use case basically sold itself.",
       "format": "node",
       "images": [],
       "key": "photo-stream",
@@ -781,7 +798,7 @@
       "year": 2025
     },
     {
-      "description": "A demonstration of contextual video overlays built on top of Big Buck Bunny — because at this point the bunny deserves a revenue stream. Cheeky ads appear at specific timecodes tied to moments in the video: a bird on screen triggers a \"find out what people are tweeting!\" popup, the bunny gets an XL rabbit ad, and so on. The real Senza trick is the AlarmManager: video plays in background mode most of the time, but a platform alarm wakes the app and fires the popup right on cue — something setTimeout can't do when the app is suspended.",
+      "description": "A demonstration of contextual video overlays built on top of Big Buck Bunny—because at this point the bunny deserves a revenue stream. Cheeky ads appear at specific timecodes tied to moments in the video: a bird on screen triggers a \"find out what people are tweeting!\" popup, the bunny gets an XL rabbit ad, and so on. The real Senza trick is the AlarmManager: video plays in background mode most of the time, but a platform alarm wakes the app and fires the popup right on cue—something setTimeout can't do when the app is suspended.",
       "format": "html",
       "images": [],
       "key": "popup-ads",
@@ -820,7 +837,7 @@
       "year": 2025
     },
     {
-      "description": "A playful proof of concept for AI-powered digital signage: what if every store location could show a locally relevant lifestyle image featuring your product, generated fresh each time? The app builds a simple prompt — a person with a product, in an artistic style, on the street in the device's geolocated city — and hands it to DALL-E. The whole thing is about 50 lines of code, and the results are surprisingly cinematic. No two runs are the same, which is either a feature or a bug depending on your brand guidelines.",
+      "description": "A playful proof of concept for AI-powered digital signage: what if every store location could show a locally relevant lifestyle image featuring your product, generated fresh each time? The app builds a simple prompt—a person with a product, in an artistic style, on the street in the device's geolocated city—and hands it to DALL-E. The whole thing is about 50 lines of code, and the results are surprisingly cinematic. No two runs are the same, which is either a feature or a bug depending on your brand guidelines.",
       "format": "node",
       "images": [],
       "key": "product-placement",
@@ -862,7 +879,7 @@
       "year": 2024
     },
     {
-      "description": "A four-screen synchronized digital signage demo for restaurants, with a mouth-watering lineup of food photography that will make you seriously question your lunch plans. A Node.js server with Socket.IO keeps all screens in lockstep, advancing slides on a shared timer and broadcasting state to every display simultaneously. Images can cascade across all four screens like a carousel, advance one screen at a time, or jump randomly — all configurable from an on-screen settings panel that lets you dial in slide order, transition style (fade, slide, slide-over), and speed without touching the code.",
+      "description": "A four-screen synchronized digital signage demo for restaurants, with a mouth-watering lineup of food photography that will make you seriously question your lunch plans. A Node.js server with Socket.IO keeps all screens in lockstep, advancing slides on a shared timer and broadcasting state to every display simultaneously. Images can cascade across all four screens like a carousel, advance one screen at a time, or jump randomly—all configurable from an on-screen settings panel that lets you dial in slide order, transition style (fade, slide, slide-over), and speed without touching the code.",
       "format": "node",
       "images": [],
       "key": "signs",
@@ -919,7 +936,7 @@
       "year": 2024
     },
     {
-      "description": "A major TV operator's pitch requirement was refreshingly honest: our customers don't like change, so can you make something that looks like our old thing? Eye roll. \"Make a TV guide grid from the 1990s\" — and this is what came back. The font, the blue grid, the sticky channel column, the 60-minute show spanning two cells — all of it, conjured from a single prompt. It even picked the program names, pretty much capturing the vibe of TV in the 1990s.",
+      "description": "A major TV operator's pitch requirement was refreshingly honest: our customers don't like change, so can you make something that looks like our old thing? Eye roll. \"Make a TV guide grid from the 1990s\"—and this is what came back. The font, the blue grid, the sticky channel column, the 60-minute show spanning two cells—all of it, conjured from a single prompt. It even picked the program names, pretty much capturing the vibe of TV in the 1990s.",
       "format": "html",
       "images": [],
       "key": "tv-guide",
@@ -955,10 +972,10 @@
       "year": 2024
     },
     {
-      "description": "",
+      "description": "A scrollable list of all the Senza video tutorials, watchable directly on the platform — complete with thumbnails, titles, and descriptions. Navigate with the arrow keys, press OK to play, press OK again to return to the list. It's a deliberately simple app that demonstrates the essentials of remote control navigation in clean, readable code. The meta touch: there's a tutorial explaining exactly how this app was built. The whole thing sits on a slowly animated deep-space gradient background, because black is boring.",
       "format": "html",
       "images": [],
-      "key": "video-tutorials",
+      "key": "video-tutorials-app",
       "keywords": [
         "senza",
         "video"
@@ -968,7 +985,7 @@
         "demo": "https://senza.andrewzc.net/video-tutorials",
         "tutorial": "https://developer.synamedia.com/senza/docs/video-tutorials-app"
       },
-      "name": "Video Tutorials",
+      "name": "Video Tutorials App",
       "summary": "Watch the Senza video tutorials on Senza, how meta",
       "year": 2024
     },
@@ -991,7 +1008,7 @@
       "year": 2025
     },
     {
-      "description": "Some streaming apps that replace broadcast TV are required to support emergency alerts — and Senza has a group messaging API just for this. Compose an alert in the handy dashboard, pick a disaster icon (tsunami, wildfire, zombie apocalypse), select some groups to target, and broadcast it to all devices in those groups simultaneously. The TV app wakes up if it's in background mode and displays the alert. The demo keeps the disaster selection appropriately lighthearted given the times—but the infrastructure is real, and Senza customers will be well prepared for the next asteroid impact.",
+      "description": "Some streaming apps that replace broadcast TV are required to support emergency alerts—and Senza has a group messaging API just for this. Compose an alert in the handy dashboard, pick a disaster icon (tsunami, wildfire, zombie apocalypse), select some groups to target, and broadcast it to all devices in those groups simultaneously. The TV app wakes up if it's in background mode and displays the alert. The demo keeps the disaster selection appropriately lighthearted given the times—but the infrastructure is real, and Senza customers will be well prepared for the next asteroid impact.",
       "format": "node",
       "images": [],
       "key": "zombies",
@@ -1045,25 +1062,6 @@
       },
       "name": "Senza Developer Context",
       "summary": "Senza developer documentation in AI readable markdown format",
-      "year": 2026
-    },
-    {
-      "description": "",
-      "format": "node",
-      "images": [],
-      "key": "senza-agent",
-      "keywords": [
-        "senza",
-        "vibe",
-        "ai",
-        "mcp"
-      ],
-      "links": {
-        "repo": "https://github.com/synamedia-senza/senza-developer-mcp-server.git",
-        "demo": "https://agent.senza.andrewzc.net/mcp"
-      },
-      "name": "Senza Agent",
-      "summary": "MCP tool for accessing the developer docs using AI",
       "year": 2026
     },
     {
