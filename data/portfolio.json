@@ -22,13 +22,59 @@
     {
       "name": "Synamedia",
       "anchor": "synamedia",
-      "keys": ["senza-shaka-player", "auto-background", "sample-code", "hackathon", "video-tutorials", "senza-console",  "device-simulator", "typeahead","developer-documentation", "senza-direct", "senza-agent", "engagement-report", "senza-devices-mcp", "casablanca", "content-hub", "analytics-strategy"],
+      "keys": [
+        "senza-shaka-player",
+        "auto-background",
+        "sample-code",
+        "hackathon",
+        "video-tutorials",
+        "senza-console",
+        "device-simulator",
+        "typeahead",
+        "developer-documentation",
+        "senza-direct",
+        "senza-agent",
+        "engagement-report",
+        "senza-devices-mcp",
+        "casablanca",
+        "content-hub",
+        "analytics-strategy"
+      ],
       "sectionIntroKey": "synamedia"
     },
     {
       "name": "Senza Apps",
       "anchor": "senza-apps",
-      "keys": ["analytics-module", "aquarium", "banner-pro", "bistro", "chocolate", "comics", "dunnet.js", "flags", "flights", "video-wall", "gateway", "imagine", "local-services", "train-arrivals", "photo-stream", "popup-ads", "product-finder", "product-placement", "remote", "signs", "stopwatch", "subway-status", "tv-guide", "vertical", "video-tutorials", "watch-party", "zombies", "zoom"],
+      "keys": [
+        "analytics-module",
+        "aquarium",
+        "banner-pro",
+        "bistro",
+        "chocolate",
+        "comics",
+        "dunnet.js",
+        "flags",
+        "flights",
+        "video-wall",
+        "gateway",
+        "imagine",
+        "local-services",
+        "train-arrivals",
+        "photo-stream",
+        "popup-ads",
+        "product-finder",
+        "product-placement",
+        "remote",
+        "signs",
+        "stopwatch",
+        "subway-status",
+        "tv-guide",
+        "vertical",
+        "video-tutorials",
+        "watch-party",
+        "zombies",
+        "zoom"
+      ],
       "sectionIntroKey": ""
     },
     {
@@ -155,7 +201,8 @@
       "key": "resume",
       "keywords": [],
       "name": "Résumé",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "At Stanford I majored in <a href=\"https://symsys.stanford.edu\">Symbolic Systems</a>, an interdisciplinary program that brings together computer science, philosophy, linguistics and psychology. People from diverse backgrounds come together to study the overlaps between these fields, and my concentration was in human computer interaction. One lasting effect was my approach to asking similar questions when comparing the diversity of <a href=\"allthethings.html\">computer languages</a> and <a href=\"song-titles.html\">human languages</a>.</p>\n\n<p>Throughout my career, my most successful projects have been grounded in the type of systemic thinking that I learned in this program. I always try to ask questions like: What are we building? What is its reason for being? What is its nature? What are its principles? If you get these things right at the beginning of a project, it sets you up for success down the road.",
@@ -163,7 +210,8 @@
       "key": "symsys",
       "keywords": [],
       "name": "Symbolic Systems",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "I use my website to document my life experiences. I like to make lists of all the places I've been, and the places I want to go. These are grouped into categories like <a href=\"cities-index.html\">cities</a>, <a href=\"countries-index.html\">countries</a>, <a href=\"geography.html\">geography</a>, <a href=\"nature.html\">nature</a>, <a href=\"buildings.html\">buildings</a>, <a href=\"infrastructure.html\">infrastructure</a> and <a href=\"trains.html\">trains</a>. Looking back and looking forward, I feel like things are in balance when those lists are about the same length. My website is a manifesto on simplicity, and consists of just HTML and emoji, with almost no images or scripts.",
@@ -188,7 +236,8 @@
       "key": "andrewzc",
       "keywords": [],
       "name": "Website",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "A lot of travel pages on my website have flag emoji that indicate where the things I've visted (or want to visit) are. I wrote a program in Swift to read the HTML pages on my website, count the number of flags of each country on each page, and <a href=\"flags.html\">show the totals</a> in an HTML table. About 90% of the program was written using ChatGPT prompts, saving me time and letting me focus on the parts of the program where I was adding the most value.",
@@ -205,7 +254,8 @@
       "key": "flags",
       "keywords": [],
       "name": "Flags",
-      "year": 0
+      "year": 0,
+      "section": "senza-apps"
     },
     {
       "description": "Wouldn't it be great to have a summary of all the things I've visited in <a href=\"countries.html\">each country</a>? Building upon the Flags project, I wrote a <a href=\"https://github.com/azamlerc/andrewzc\">program</a> to parse all the pages on my website and create HTML pages with everything in each country.",
@@ -234,7 +284,8 @@
       "key": "countries",
       "keywords": [],
       "name": "Countries",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "I've tried to port my interview question solutions to thirteen programming languages. Even while maintaining a reasonable degree of fluency in all of them, it can be hard to remember the subtle differences, so I made a giant cheat sheet of things I do most often in all the <a href=\"allthethings.html\">languages</a>. I even built a mileage chart style graph that shows the precent similarity between different languages, giving me some fascinating insights into how they're related.",
@@ -255,7 +306,8 @@
       "key": "allthethings",
       "keywords": [],
       "name": "Computer Languages",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "I speak English, Russian, French and Dutch. Sometimes for fun when I'm listening to pop music, I like to translate the song into Dutch in my head in realtime to see if I can keep up. I made a web page that translated the titles of some of my <a href=\"song-titles.html\">favorite songs</a> to Dutch, and a total of nine languages while I was at it. I used the same algorithm for comparing computer lanugages to make a milage chart of human languages, empirically demonstrating the similarity of Germanic, Romance and Slavic languages.",
@@ -276,7 +328,8 @@
       "key": "languages",
       "keywords": [],
       "name": "Human Languages",
-      "year": 0
+      "year": 0,
+      "section": "intro"
     },
     {
       "description": "",
@@ -289,7 +342,8 @@
         "music"
       ],
       "name": "Achtung Baby",
-      "year": 2024
+      "year": 2024,
+      "section": "etc"
     },
     {
       "description": "",
@@ -303,7 +357,8 @@
         "photos"
       ],
       "name": "S-Bahn Bridge",
-      "year": 2025
+      "year": 2025,
+      "section": "etc"
     },
     {
       "description": "",
@@ -315,7 +370,8 @@
         "image-generation"
       ],
       "name": "Fingers",
-      "year": 2024
+      "year": 2024,
+      "section": "etc"
     },
     {
       "description": "",
@@ -327,13 +383,16 @@
         "image-generation"
       ],
       "name": "Animals",
-      "year": 2024
+      "year": 2024,
+      "section": "etc"
     },
     {
       "description": "Synamedia is the successor to NDS, the world leader in set-top box middleware, which was acquired by Cisco before spinning out as an independent company. I joined in 2023 as Director of Product, where I was responsible for all customer-facing interfaces for their cloud video platform, Senza. Unlike traditional set-top box software, Senza runs web apps in the cloud and streams the rendered interface as a video signal directly to TVs—a fundamentally different architecture that required a fundamentally different developer experience.</p><p>I built that developer experience from the ground up: defining all public APIs and SDK interfaces, creating the documentation, sample applications, and video tutorials that every Senza customer and partner uses to build on the platform. I also organized the first Senza hackathon, bringing together external developers to build on the platform and demonstrate its potential. And I created over thirty reference apps spanning digital signage, AI-powered experiences, multi-screen synchronization, and interactive TV—more portfolio-worthy projects than the rest of my career combined.",
       "images": [],
       "key": "synamedia",
-      "keywords": ["senza"],
+      "keywords": [
+        "senza"
+      ],
       "name": "Synamedia",
       "year": 2023
     },
@@ -346,7 +405,8 @@
         "senza"
       ],
       "name": "Senza Shaka Player",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "I organized the first-ever Senza developer hackathon, a three-day event held at Hacker Dojo in Mountain View, CA. I was responsible for every aspect of the event: securing the venue, managing logistics, defining the format, marketing to the developer community, and getting the platform’s sample code and documentation into shape so participants could hit the ground running. Despite a modest turnout, the energy in the room was exceptional. It was amazing to see all the creative projects developed in just hours: arcade games controlled by a TV remote, an AI-powered product recognition app, a live audience participation platform, and more. The defining theme that emerged: everybody vibe coded everything, validating the bet that AI-assisted development is how software gets written today, annd you don't even need to be a programmer.",
@@ -361,7 +421,8 @@
         "youtube": "https://www.youtube.com/watch?v=BfeilgRBrYc"
       },
       "name": "Hackathon",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "One of the most important things you can do for a developer platform is give developers something to learn from. I created over thirty sample applications for Senza, each demonstrating a specific technique in clear, readable vanilla JavaScript—short modular functions that developers can understand at a glance and drop straight into their own projects. Some tackle the basics of remote control navigation, a paradigm unfamiliar to most web developers. Others demonstrate Senza's commercial potential for digital signage, from restaurant menus to airport departure boards. And others are more playful explorations of what becomes possible when you combine a powerful cloud browser with modern AI—image recognition, image generation, and real-time app generation from a spoken prompt. Most come with a written tutorial walking through the code step by step, and many have an accompanying video as well. The goal throughout was to make learning the platform not just easy, but genuinely fun.",
@@ -372,7 +433,8 @@
         "senza"
       ],
       "name": "Sample Code",
-      "year": 2023
+      "year": 2023,
+      "section": "synamedia"
     },
     {
       "description": "Not every developer learns by reading documentation—many do most of their learning on YouTube, so I brought the tutorials to them. I produced nineteen video tutorials covering everything from platform fundamentals to advanced techniques like AI image generation, multi-screen synchronization, and emergency alerts. Each one is a screen-recorded walkthrough designed to show, not just tell—watching the code come together in real time is a fundamentally different experience from reading about it. I also built a Video Tutorials app that lets developers watch all the tutorials directly on the Senza platform—there's even a tutorial that shows how that app was built.",
@@ -383,7 +445,8 @@
         "senza"
       ],
       "name": "Video Tutorials",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "When I arrived, the Senza Console was little more than a thin wrapper on a database — functional, but barely. The homepage greeted developers with “You have 1 tenants,” a grammatical error that said everything about how much thought had gone into the experience. I worked with the design team to rebuild it from the ground up with a clear guiding principle: 90% of the time a developer visits the console, they should be able to accomplish what they came to do directly on the home page or one click away. The result was a night and day transformation — a polished, intuitive interface that put device management, simulator access, debugging tools, and tenant configuration all within immediate reach. For the first time, the console looked and felt like a professional cloud developer tool, and set the tone for everything else we built around it.",
@@ -394,7 +457,8 @@
         "senza"
       ],
       "name": "Senza Console",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "The Device Simulator lets developers test their Senza apps in a browser without needing physical hardware—but when I arrived, it looked like a science project. Raw debug output, no visual polish, nothing that resembled a product a developer would actually want to use. I worked with the design team to rebuild it from the ground up: a clean, browser-based interface with a polished toolbar, proper branding, and an on-screen remote control modeled directly on the physical device. That last detail mattered more than it might seem — for developers who had never built for a TV remote before, seeing the virtual and physical remotes side by side made the paradigm click immediately. The result was a tool that went from something you tolerated to something you actually enjoyed using, and that set the standard for how the rest of the developer experience should look and feel.",
@@ -405,7 +469,8 @@
         "senza"
       ],
       "name": "Device Simulator",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "For many web developers, making an app navigable with a TV remote is one of the most disorienting parts of building for Senza — there's no mouse, no touch, just four arrow keys, an OK button, and a back button. I woke up one night with an idea: what if a single script could solve this for everyone? Drop it into any existing web app, and it automatically finds all the links on the page, makes them navigable with the arrow keys, follows them with OK, and goes back with the back button — zero code changes required. The resulting script is fewer than a hundred lines of vanilla JavaScript, and it works on any page with links. As a bonus, desktop users get typeahead selection: start typing the first few letters of a link and it jumps straight to it. One script, any app, instantly remote-control friendly.",
@@ -420,7 +485,8 @@
         "tutorial": "https://developer.synamedia.com/senza/docs/making-your-website-remote-control-friendly"
       },
       "name": "Typeahead",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "My second major platform contribution followed the same philosophy as the Senza Shaka Player: take something that was always an exercise for the reader, hide the complexity, and make it work out of the box. To run efficiently on Senza, apps need to switch between foreground mode — where the browser is active and rendering — and background mode, where the GPU shuts off and video streams directly from the CDN at no cost. Managing these transitions was entirely the developer's responsibility, which meant understanding a fairly daunting set of lifecycle states before you could even get started. I designed an auto-background feature that handles all of this automatically after a configurable period of inactivity, with sensible defaults that work for most use cases, then worked with engineering to incorporate it directly into the SDK. What had been a potential dealbreaker became a single line of configuration — and for many apps, something developers never had to think about at all.",
@@ -431,7 +497,8 @@
         "senza"
       ],
       "name": "Auto Background",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "The developer documentation I built for Senza is organized into three layers: deep conceptual context covering every aspect of the platform, step-by-step workflow guides for common tasks, and thirty tutorial walkthroughs tied directly to the sample apps. The company had documentation when I arrived, but it was sparse, inconsistent, and written for people who already understood the platform. I rebuilt it from the ground up until it reached the point where several people — internal engineers and external developers alike — told me it was the best developer documentation they had ever seen. Every page reflects the way I think about the platform, the questions I know developers will ask, and the order in which concepts need to land to make sense. It's an extract of the part of my brain that understands Senza completely — which is why, when you talk to the Senza Agent AI chatbot that I also built, and it explains something to you, it sounds a little bit like me.",
@@ -442,7 +509,8 @@
         "senza"
       ],
       "name": "Developer Documentation",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "As the company looked for new ways to grow adoption, I was asked to explore turning Senza into a proper self-serve SaaS platform — the kind where a developer could discover the product, create an account, order hardware, and deploy to production with a credit card, without ever talking to anyone at Synamedia. For a company with deep roots in bespoke enterprise sales, this was genuinely uncharted territory. The first milestone was a proof-of-concept onboarding flow: pay a fee, answer a few questions, and land on your new Senza Console home page in just a few clicks. Our leadership said he'd never seen us ship anything like it. The self-serve tidal wave never materialized — enterprise TV platforms are sold by the sales team — but the exercise forced us to optimize all aspects of the developer experience.",
@@ -453,7 +521,8 @@
         "senza"
       ],
       "name": "Senza Direct",
-      "year": 2024
+      "year": 2024,
+      "section": "synamedia"
     },
     {
       "description": "The Senza Agent is an AI-powered chatbot that gives any developer instant access to everything there is to know about building on Senza. Add a single URL to your Claude settings and you can ask it anything — how the lifecycle works, how to implement a specific feature, how to optimize an existing app for the platform — and get answers that sound like they came from a Senza expert. It comes pre-loaded with guided workflows for common tasks and can walk you through any of the sample app tutorials step by step. I built and deployed the whole thing in a single day. For a developer ecosystem that was still finding its footing, having an always-on expert available to every developer is exactly the kind of force multiplier that makes a small team punch above its weight.",
@@ -472,7 +541,8 @@
       },
       "name": "Senza Agent",
       "summary": "MCP tool for accessing the developer docs using AI",
-      "year": 2026
+      "year": 2026,
+      "section": "synamedia"
     },
     {
       "description": "I developed an automated weekly engagement reporting system that transformed how our team monitored customer activity across the Senza platform. Previously, analyzing user behavior required manual database queries with no visibility into critical signals like new user signups, login patterns, or device usage. By building custom MCP connectors that integrated our APIs and analytics platforms with Claude, I enabled live data correlation across multiple sources and generated comprehensive weekly reports with actionable insights. This workflow revealed a key architectural insight: rather than centralizing disparate data into a CRM (a year-long effort that stalled), AI excels as the natural integration layer for business intelligence—pulling from multiple sources, making inferences, and identifying patterns that would otherwise remain hidden.",
@@ -485,7 +555,8 @@
         "map"
       ],
       "name": "Engagement Report",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "The Senza Devices MCP Server wraps the Senza Devices API as a natural language tool for Claude, letting any developer manage their device fleet through conversation rather than scripts. Ask it to list all devices in a tenant, check when a specific device last connected, update a description, or move a device between the Alpha, Beta, and Stable release channels — and it just handles the OAuth authentication and API calls invisibly. The tutorial is itself a simulated conversation between a developer and Claude, walking through building the server from scratch and then immediately using it — ending with a developer managing fifty devices by typing plain English.",
@@ -504,7 +575,8 @@
       },
       "name": "Senza Devices MCP",
       "summary": "MCP tool for connecting to the Senza Devices API",
-      "year": 2026
+      "year": 2026,
+      "section": "synamedia"
     },
     {
       "description": "The first commercial deployment of Senza is beIN Stream, launched in Morocco. Seemed like a good excuse to visit a new country, and when my marketing partner suggested I make a video, I accepted the challenge! I flew to Marrakesh, took the train to Casablanca, and spent two days hunting for our product in the wild. I recorded segments on the plane, on the train, taking the tram, crossing Mohammed V Square — building the suspense of the search, getting lost twice on the way to the shop, and doing a full product unboxing when I finally found it. The next day I tracked down the beIN flagship store, and interviewed the salesperson in French about his experience selling the product. I’m probably the first person at Synamedia who has ever seen Senza for sale in a shop with their own eyes!",
@@ -520,7 +592,8 @@
         "youtube": "https://youtu.be/bA2_-fOFQWo"
       },
       "name": "Casablanca Video",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "The Content Hub is the app launcher built into the Senza platform — accessible from any app via the apps button on the remote. When I arrived, it was driven by a sprawling collection of static JSON config files committed to source control, with a new variant for every possible customer configuration. I wrote a spec for a proper database-driven backend: given a tenant, return exactly the right set of apps for that context, taking into account geographic territories, account ownership, production stage, and per-tenant overrides. My preferred way to write a spec is to build a prototype first, so I wired up the frontend to my new API and delivered a fully working dynamic system alongside the spec. The Content Hub hasn't yet grown to the point where the old approach breaks down, but when that day comes, the architecture is designed and the code is already written.",
@@ -531,7 +604,8 @@
         "senza"
       ],
       "name": "Content Hub",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "Customers needed to know how to handle analytics on Senza, and I was trusted to set the strategic direction. The core position: because Senza runs a standard browser, customers should use the same tools they already use for their websites — Google Analytics, BigQuery, Looker Studio — rather than waiting for a proprietary solution. The strategy addressed the genuine complexities: the disconnect event that enables clean session-end summaries, three player configurations that each require different instrumentation, and the geolocation problem caused by the app running in a cloud data center. I then built the reference implementation myself: a drop-in JavaScript analytics module, four tutorials, and eventually the GA4 → BigQuery → Claude pipeline that powers the weekly engagement reports — a turnkey solution that uses AI to surface meaningful intelligence from live platform data.",
@@ -547,7 +621,8 @@
         "tutorial": "https://developer.synamedia.com/senza/docs/analytics-module"
       },
       "name": "Analytics Strategy",
-      "year": 2025
+      "year": 2025,
+      "section": "synamedia"
     },
     {
       "description": "A JavaScript module for apps running on the Senza platform that collects session statistics and viewing activity and sends it to all Google Analytics. Once you plug it in and turn it on, the rest is completely automatic and requires no changes to the app. It takes advantage of a special feature of the Senza cloud browser that allows it to reliably send an end-of-session summary after the client disconnects. The analytics platform doesn't need to interpret lots of low-level events: just a nice clean summary of how much time the app spent in each lifecycle state and what the viewer watched. 100% vibe coded and production ready!",
@@ -565,7 +640,8 @@
       },
       "name": "Analytics Module",
       "summary": "Sends lifecycle and playback stats to Google Analytics",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "One of the quirks of running a cloud browser on Linux is that it has basic fonts, so emoji render as rectangles. I wanted a sample app to show developers how to import a Google emoji font as a practical workaround — but why not make it fun? I vibe coded an animated aquarium screensaver: a sandy seabed with swaying plants and coral, bubbles rising through the water, and a full cast of sea creatures — fish, dolphins, sharks, whales, a mermaid, a pufferfish that inflates and deflates — all swimming across the screen using GPU-accelerated CSS transitions. Each creature is its own object, responsible for its own motion, facing the direction it's swimming. I could watch them swimming around all day.",
@@ -583,7 +659,8 @@
       },
       "name": "Aquarium",
       "summary": "Screensaver that shows how to use emoji",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "The Banner app is the canonical reference implementation for playing video on Senza—the app every developer looks at first to understand how foreground and background modes work together. It's deliberately, almost stubbornly simple: load a video, show a banner on top, press OK to hand off seamlessly to the background player, press any key to come back. The Senza ShakaPlayer handles the sync between the browser player and the remote player automatically, and the auto-background feature makes the whole thing production-ready with a single configuration call. The pro version adds URL configuration for DRM, audio tracks, subtitles, and more. Keeping this app simple was a feature, not a limitation—and after watching Big Buck Bunny with a burned-in timecode approximately one million times, the seamless frame-accurate handoff between foreground and background never gets old.",
@@ -599,7 +676,8 @@
       },
       "name": "Banner Pro",
       "summary": "More configurable version of bannner",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "Bistro is a fork of the Signs app built to spec for a hospitality customer who needed restaurant menu signage across four screens, with content that changes automatically based on the time of day. A central config defines the schedule — breakfast, daytime, dinner, overnight — and maps each screen to a different image or video for each period, so the right content is always showing without anyone touching anything. The app has a neat demo mode baked in: up and down arrows cycle each screen through its four “channels,” and left and right arrows scrub the server clock forward and backward so you can preview the full setup at any hour without waiting. The customer used it successfully for internal demos to build momentum behind the platform. A few hours forking an existing app led to a concrete customer win.",
@@ -620,7 +698,8 @@
       },
       "name": "Bistro",
       "summary": "Menu signage use case for hospitality customer",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "A digital signage experience that showcases one of the most elegant features of the Senza platform: the ability to seamlessly hand off between a rich HTML foreground and full-quality streaming video. The app displays a single evocative word—smooth, delicious, dark—in a custom font with dissolve animations and randomized chocolate-palette colors, then hands off to a streaming video of tempting chocolate before cycling back again. Drop in the analytics module and it captures the whole story with a single function call: which videos played, which words appeared, and how the foreground/background ratio stabilized at exactly the 23% you'd predict from the scripted timing.",
@@ -638,7 +717,8 @@
       },
       "name": "Chocolate",
       "summary": "Digital signage that alternates between HTML and video streams",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "",
@@ -660,7 +740,8 @@
       },
       "name": "Comics",
       "summary": "Creates comic books in any style from video frames",
-      "year": 2026
+      "year": 2026,
+      "section": "senza-apps"
     },
     {
       "description": "Dunnet is a classic 1980s text adventure game that shipped with macOS as part of the Emacs distribution all the way through version 10.14—yes, really. This port is equal parts ridiculous and delightful: a six-button TV remote turns out to be a surprisingly natural way to play. Arrow keys handle movement in all four directions, and the Back button drops into a command menu where you can navigate through every available verb and noun combination—the same Escape key that triggers command mode in Emacs. The implementation is a genuine example of how to make an existing web app fully navigable with a remote control, wrapped in the excuse of doing something completely absurd. You can pick up the shovel, eat the shovel, or do basically anything with the shovel. Just know that some commands end the game faster than others.",
@@ -677,7 +758,8 @@
       },
       "name": "Dunnet",
       "summary": "Use arrows to play a command line adventure game",
-      "year": 2023
+      "year": 2023,
+      "section": "senza-apps"
     },
     {
       "description": "A deceptively simple app that solves a real platform problem: because Senza apps run in a cloud browser, a geolocation service would normally place every user in a data center. The Flags app demonstrates how the Senza SDK exposes the physical device's real IP and country code—the entire app is essentially one line to get the country code and one line to display the flag. Developers can spoof the country in the simulator to test how their app behaves anywhere in the world. The video tutorial makes this concrete in the most memorable way possible: it opens with a ridiculous fake British accent, and when the VPN disconnects mid-recording and the country flips back to the US, so does the voice.",
@@ -696,7 +778,8 @@
       },
       "name": "Flags",
       "summary": "Shows flag of current country using geolocation",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A digital signage example that shows what flight departure boards could look like if they ran on a powerful platform like Senza. The app alternates between departure information in multiple languages and stunning wallpaper of featured destinations. The data is fake but the pipeline is real, with the frontend loading airports, airlines and flights over clean APIs from a node backend. Languages change with subtle animations, text is rendered with high-quality fonts, and the interface is flipped for right-aligned languages. The app is optimized for the Senza platform, and runs in a loop with one second of GPU-powered animations followed by seven seconds of efficient static content. You wish airport signage looked this good!",
@@ -717,7 +800,8 @@
       },
       "name": "Flights",
       "summary": "Flight arrivals board for an aiport",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A video wall built with surprisingly little code, named after a trade show demo from a previous life—a wink to anyone who was there. The trick is pure CSS: send a 4K video to all four Senza screens, make each one overflow-crop its assigned quadrant with a negative margin offset, and let a tiny Socket.IO server keep the timecodes in sync. Play, pause, skip—it all works seamlessly across the wall. The elegant part is what it isn't: a colleague's attempt to do the same thing by hacking deep into the Senza platform took roughly 100 times the code. Sometimes the best engineering is knowing which layer to work at.",
@@ -736,7 +820,8 @@
       },
       "name": "Video Wall",
       "summary": "Play a video across four screens",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A real problem, solved in real time: at a Senza hackathon, every device in a tenant loads the same URL—so how do you support a room full of developers each hacking on their own device simultaneously? The Gateway app is a vibe-coded redirect service that uses the Senza SDK to read each device's ID the moment it connects, looks it up in a shared mapping, and bounces it to whatever URL that developer has registered. A clean admin UI lets anyone on the team point their device at their local environment without touching config files or the Remote Debugger. There's even a one-command ngrok integration that restarts your tunnel and updates your device's entry in the gateway automatically. It saved the day at the hackathon, and it's been running in production ever since.",
@@ -755,7 +840,8 @@
       },
       "name": "Gateway",
       "summary": "Configure devices in a tenant to load different web apps",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "Ever wish you could just talk to your TV and it would show you whatever you want? With the Imagine app, the user scans a QR code, speaks a prompt, and seconds later an image of whatever they imagined appears on the screen. But what if they want something more engaging? Pivot! I upgraded the app so that instead of generating an image, it can spin up an entire app experience from a spoken request. A minute later, they can be using it—optimized for display on TV with remote control input. Welcome to the world of software on demand that is written for the user right when they need it.",
@@ -778,7 +864,8 @@
       },
       "name": "Imagine",
       "summary": "Speak a prompt to generate an image or app using AI",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "Think of it as a TV version of those mailers with phone numbers for local services. It geolocates the user, searches Google Places for the nearest hospital, pharmacy, dentist, etc. and displays them in a navigable grid with address and phone number. Select any tile and it drops a pin on a full-screen map. Small but important detail: the emergency number automatically displays as 999, 911 or 112 depending on the country. Nothing earth-shattering, but a practical demonstration of how a TV app can be composed from a handful of simple functions snapped together.",
@@ -797,7 +884,8 @@
       },
       "name": "Local Services",
       "summary": "Show local services like doctors near you",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "A real-time Washington Metro arrivals app built for a pitch at the DC-area headquarters of a major hospitality company. The app is totally simple: a three-screen navigation flow (pick a line, pick a station, see live arrivals) powered by the WMATA API, with a metro station wallpaper and typography that looks like it belongs in the system. The whole thing is driven by a reusable typeahead.js script—drop it into any page with links and it instantly becomes remote-control navigable. \"Did you use AI?\" they asked. \"No, it was so simple I didn't have to!\" My colleagues did the heavy lifting that day, but showing up with something polished, working, and fun helped set the tone for the whole conversation.",
@@ -817,7 +905,8 @@
       },
       "name": "Train Arrivals",
       "summary": "Live metro arrivals for Washington Metro",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "During a pitch to a major mobile operator, someone asked: \"Could you build a lifestyle app where you snap photos on your phone while traveling and they show up as a screensaver on your parents' TV?\" Yup, I can vibe code that. The Photo Stream app does exactly this: the TV generates a persistent QR code, family members scan it on their phones, tap to upload a photo, and it appears on screen within seconds. The implementation is clean end-to-end—the phone gets a pre-signed S3 URL from the server and uploads directly, bypassing the server entirely for the image bytes, then pings via Socket.IO to notify the TV in real time. Photos persist across sessions so the stream just keeps growing. The customer was delighted, and the use case basically sold itself.",
@@ -836,7 +925,8 @@
       },
       "name": "Photo Stream",
       "summary": "Upload pictures from a phone to view on TV",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "A demonstration of contextual video overlays built on top of Big Buck Bunny—because at this point the bunny deserves a revenue stream. Cheeky ads appear at specific timecodes tied to moments in the video: a bird on screen triggers a \"find out what people are tweeting!\" popup, the bunny gets an XL rabbit ad, and so on. The real Senza trick is the AlarmManager: video plays in background mode most of the time, but a platform alarm wakes the app and fires the popup right on cue—something setTimeout can't do when the app is suspended.",
@@ -855,7 +945,8 @@
       },
       "name": "Popup Ads",
       "summary": "Display popups at specific timecodes in a video",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "What if you could watch a car commercial, press a button, and instantly see where to buy that car near you? That's the Product Finder—a TV app that grabs a still frame from whatever video is playing, uses ChatGPT to identify the product, looks up nearby retailers with the Google Places API, and drops a pin on a Google Map, all in a few seconds. Each piece is a simple function; the magic is in the pipeline. It's also a great example of a real-world vibe coding session: start with a rough idea, compose a handful of API calls together, and iterating until the result feels cinematic—a smooth animated overlay that grows from a thumbnail preview into a full map without interrupting the video underneath.",
@@ -875,7 +966,8 @@
       },
       "name": "Product Finder",
       "summary": "Identifies products in a video and shows a map where to buy them",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "A playful proof of concept for AI-powered digital signage: what if every store location could show a locally relevant lifestyle image featuring your product, generated fresh each time? The app builds a simple prompt—a person with a product, in an artistic style, on the street in the device's geolocated city—and hands it to DALL-E. The whole thing is about 50 lines of code, and the results are surprisingly cinematic. No two runs are the same, which is either a feature or a bug depending on your brand guidelines.",
@@ -895,7 +987,8 @@
       },
       "name": "Product Placement",
       "summary": "Generates product images with configurable styles in current location",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A demo that shows what's possible when you pair a smartphone with a Senza TV app. Scan a QR code on the TV and your phone instantly becomes a smart remote with four input modes: tappable buttons that work just like the physical remote, a trackpad that translates finger gestures into smooth on-screen movement, a keyboard that forwards every keystroke in real time, and a microphone that listens for voice commands and maps them to actions. Under the hood it's elegantly simple—a 15-line Socket.IO server that reflects events between the phone and TV. The TV and physical remote share the same event handler, so the smart remote is a drop-in addition to any existing app.",
@@ -917,7 +1010,8 @@
       },
       "name": "Remote",
       "summary": "Smart remote with buttons, trackpad, keyboard and voice input",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A four-screen synchronized digital signage demo for restaurants, with a mouth-watering lineup of food photography that will make you seriously question your lunch plans. A Node.js server with Socket.IO keeps all screens in lockstep, advancing slides on a shared timer and broadcasting state to every display simultaneously. Images can cascade across all four screens like a carousel, advance one screen at a time, or jump randomly—all configurable from an on-screen settings panel that lets you dial in slide order, transition style (fade, slide, slide-over), and speed without touching the code.",
@@ -939,7 +1033,8 @@
       },
       "name": "Signs",
       "summary": "Digital signage with images carousel that slides between screens",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "",
@@ -957,7 +1052,8 @@
       },
       "name": "Stopwatch",
       "summary": "Displays time spent in foreground, background and suspended ",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "",
@@ -974,7 +1070,8 @@
       },
       "name": "Subway Status",
       "summary": "Digital signage with fake alerts from New York City Subway",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A major TV operator's pitch requirement was refreshingly honest: our customers don't like change, so can you make something that looks like our old thing? Eye roll. \"Make a TV guide grid from the 1990s\"—and this is what came back. The font, the blue grid, the sticky channel column, the 60-minute show spanning two cells—all of it, conjured from a single prompt. It even picked the program names, pretty much capturing the vibe of TV in the 1990s.",
@@ -992,7 +1089,8 @@
       },
       "name": "TV Guide",
       "summary": "Vibe coded TV guide from the 90s",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "",
@@ -1010,7 +1108,8 @@
       },
       "name": "Vertical",
       "summary": "Shows how to use CSS to rotate the screen for digital signage",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A scrollable list of all the Senza video tutorials, watchable directly on the platform — complete with thumbnails, titles, and descriptions. Navigate with the arrow keys, press OK to play, press OK again to return to the list. It's a deliberately simple app that demonstrates the essentials of remote control navigation in clean, readable code. The meta touch: there's a tutorial explaining exactly how this app was built. The whole thing sits on a slowly animated deep-space gradient background, because black is boring.",
@@ -1046,7 +1145,8 @@
       },
       "name": "Watch Party",
       "summary": "Fork of program guide that keeps multiple instances synced",
-      "year": 2025
+      "year": 2025,
+      "section": "senza-apps"
     },
     {
       "description": "Some streaming apps that replace broadcast TV are required to support emergency alerts—and Senza has a group messaging API just for this. Compose an alert in the handy dashboard, pick a disaster icon (tsunami, wildfire, zombie apocalypse), select some groups to target, and broadcast it to all devices in those groups simultaneously. The TV app wakes up if it's in background mode and displays the alert. The demo keeps the disaster selection appropriately lighthearted given the times—but the infrastructure is real, and Senza customers will be well prepared for the next asteroid impact.",
@@ -1066,7 +1166,8 @@
       },
       "name": "Zombies",
       "summary": "Warn viewers of zombie apocalypse using Alarm Manager",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "A picture-in-picture demo that showcases two simultaneous video decodes in the cloud browser. Two streams play at once—one fullscreen, one tucked in the corner—and pressing a button swaps them with a smooth CSS animation. What makes it feel magical is the audio cross-fade: as one video shrinks, its volume fades out; as the other expands, it fades in. The result feels less like a UI transition and more like a mixing board. Demonstrates that Senza's cloud browser is genuinely powerful enough to handle multi-video experiences that would be unthinkable on a traditional set-top box.",
@@ -1085,7 +1186,8 @@
       },
       "name": "Zoom",
       "summary": "Switch two videos between PIP and full screen",
-      "year": 2024
+      "year": 2024,
+      "section": "senza-apps"
     },
     {
       "description": "I started <a href=\"https://kavasoft.andrewzc.net\">KavaSoft</a> in 2002, with the dream of writing applications for the brand new Mac OS X operating system. I started by porting one of my favorite games from the original Macintosh, which became iConquer. Over the next nine years I released a suite of apps for organizing your photos by content, sharing your favorite music, downloaded images from websites, sorting your movie collection, translating text in apps and much more. This was a decade before the app store, so I had to work out distribution, payments and software updates in order to make KavaSoft into a profitable enterprise.",
@@ -1127,40 +1229,90 @@
       "key": "iconquer",
       "keywords": [],
       "name": "iConquer",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
-      "description": "Making <a href=\"https://kavasoft.andrewzc.net/iConquer/ \">iConquer maps</a> was a graphic design project of its own. Whether mapping countries in the world or neighborhoods in a city, I started by compositing satellite imagery at what was at the time insanely high resolution (using 4K about a decade before it was cool). I created an Xcode plugin that allowed third-party developers to contribute maps to the iConquer ecosystem, and was surprised by their creativity: everything from the solar system to a \u201cboss mode\u201d that let you keep playing on an Excel spreadsheet.",
+      "description": "Making <a href=\"https://kavasoft.andrewzc.net/iConquer/ \">iConquer maps</a> was a graphic design project of its own. Whether mapping countries in the world or neighborhoods in a city, I started by compositing satellite imagery at what was at the time insanely high resolution (using 4K about a decade before it was cool). I created an Xcode plugin that allowed third-party developers to contribute maps to the iConquer ecosystem, and was surprised by their creativity: everything from the solar system to a “boss mode” that let you keep playing on an Excel spreadsheet.",
       "images": [
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/iConquerWorldHD.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Africa.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Antarctica.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Australia.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Circles.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Digital_Conquest.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Dubai.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/EuropeLarge.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Excel.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Fourtress.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Iceland.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/London.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/NewYork.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Paris.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/PeriodicTable.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Shatter.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/SolarSystem.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/SoutheastAsia.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Squares.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Switzerland.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Tenochtitlan.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/UnitedStates.png"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Wheel.jpg"},
-        {"img": "https://kavasoft.andrewzc.net/iConquer/download/maps/iConquerWorld76.png"}
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/iConquerWorldHD.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Africa.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Antarctica.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Australia.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Circles.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Digital_Conquest.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Dubai.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/EuropeLarge.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Excel.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Fourtress.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Iceland.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/London.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/NewYork.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/Paris.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/PeriodicTable.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Shatter.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/SolarSystem.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/SoutheastAsia.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Squares.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Switzerland.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Tenochtitlan.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/UnitedStates.png"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps-old/Wheel.jpg"
+        },
+        {
+          "img": "https://kavasoft.andrewzc.net/iConquer/download/maps/iConquerWorld76.png"
+        }
       ],
       "key": "iconqer-maps",
       "keywords": [],
       "name": "iConquer Maps",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "<a href=\"https://kavasoft.andrewzc.net/Shoebox\">Shoebox</a> lets you organize your photos by content, and find the photo you want instantly. It's like a knowledge base for your photo library, with hierarchical categories that let you define the times, people, places and things that define your world. For example, if you tagged a photo of the Eiffel Tower, you could find it when searching for Paris or France. You could import photos from your camera, back up to DVD, and even create searchable websites.",
@@ -1181,7 +1333,8 @@
       "key": "shoebox",
       "keywords": [],
       "name": "Shoebox",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "<a href=\"http://www.kavasoft.com/KavaTunes/\">KavaTunes</a> creates interactive websites that look and work just like iTunes on your computer. Visitors can browse through your music and playlists, and even play music by streaming it from your computer. The home page and <a href=\"https://kavasoft.andrewzc.net/KavaTunes/example/?artist=pink_floyd\">artist pages</a> feature personalized top ten lists like most played albums and songs. You can even browse music just as if you were holding an <a href=\"http://www.kavasoft.com/KavaTunes/example/ipod/?model=video&amp;color=black\">iPod</a>! KavaTunes can also search the internet to add cover artwork to your music.",
@@ -1206,7 +1359,8 @@
       "key": "kavatunes",
       "keywords": [],
       "name": "KavaTunes",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "<a href=\"https://kavasoft.andrewzc.net/KavaMovies\">KavaMovies</a> lets you organize the movies you've seen, the movies you want to see, and the movies in your collection. It connects to IMDB and downloads tons of information about each of your movies in realtime. Movies are linked together by actor, director, genre, keyword, and more; making it easy to surf through all the movies you care about.",
@@ -1227,7 +1381,8 @@
       "key": "kavamovies",
       "keywords": [],
       "name": "KavaMovies",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "There are millions of images on the web, but how do you find and download them without clicking on them one at a time? <a href=\"https://kavasoft.andrewzc.net/HyperImage\">HyperImage</a> is an industrial-strength tool for searching the web and downloading entire websites worth of pictures. Just enter an address or keyword, and watch as thousands of pictures stream down to your computer. HyperImage knows about the structure of popular websites, can easily download entire blogs, and is also a full-featured Tumblr client.",
@@ -1248,7 +1403,8 @@
       "key": "hyperimage",
       "keywords": [],
       "name": "HyperImage",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "<a href=\"https://kavasoft.andrewzc.net/KavaServices\">KavaServices</a> can add commands to the Services menu that let you translate text, search websites, encode special characters, calculate mathematical expressions, process text in numerous ways, and even run terminal commands! These commands replace the selected text in any Mac application, just like magic. You don't need to switch to a different program, or even copy and paste.",
@@ -1269,7 +1425,8 @@
       "key": "kavaservices",
       "keywords": [],
       "name": "KavaServices",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "It's hard to believe now, but there was no App Store in 2002. When I started KavaSoft, I had to build out the entire infrastructure for the <a href=\"https://kavasoft.andrewzc.net/store/\">KavaSoft Store</a> to help customers discover, download, purchase and update their apps. The system integrated with APIs from payment processors like PayPal and Kagi. I even wrote a Mac license manager app for monitoring sales and assisting with customer service.",
@@ -1290,7 +1447,8 @@
       "key": "store",
       "keywords": [],
       "name": "KavaSoft Store",
-      "year": 0
+      "year": 0,
+      "section": "kavasoft"
     },
     {
       "description": "NDS was the world leader in television set-top box middleware, the operating systems that run on cable and satellite boxes. As part of the New Initiatives team, I helped develop proof-of-concept systems to maintain thought leadership in the television space. When NDS was acquired by Cisco, I engaged with the developer community to build excitement about advanced technologies in telepresence, indoor navigation and smart cities.",
@@ -1336,7 +1494,8 @@
       "key": "sdp",
       "keywords": [],
       "name": "Service Delivery Platform",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "The film <a href=\"https://en.wikipedia.org/wiki/Home_%282009_film%29\">Home</a> by Yann Arthus-Bertrand features stunning aerial photography from around the world. This second screen app for iPad shows satellite maps of the locations featured in the movie, zooming from one location to another as scenes change. The location menu lets you jump between scenes, for a non-linear viewing experience that transforms the way in which you consume content.",
@@ -1357,7 +1516,8 @@
       "key": "home",
       "keywords": [],
       "name": "Home",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "If all your friends like a TV show, you probably will enjoy it too. Combining the power of the SDP and Facebook APIs, Social Zapper reinvents the traditional schedule grid by showing which of your friends like each show that's on right now, even allowing you to reorder the channels based on the popularity. It can also recommend shows that you might want to binge based on the overall popularity in your social network. This prototype was later incorporated as a feature of Bento, our cloud-based STB interface.",
@@ -1374,10 +1534,11 @@
       "key": "social-zapper",
       "keywords": [],
       "name": "Social Zapper",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
-      "description": "This app demonstrated the potential of SDP for rich syncrhonization of time-based metadata between a set-top box and an iPad second screen. As you watched the \u201cstar in a reasonably-priced car\u201d segment in an episode of Top Gear on your TV, you could use your iPad to follow their progress around the race track. Playback state was syncrhonized in both directions, so you could hit fast forward on your remote control or in the app to make the car go faster\u2026 or even drag the red dot along the track to scrub back and forth on the TV. The seamless link between the screens was magical.",
+      "description": "This app demonstrated the potential of SDP for rich syncrhonization of time-based metadata between a set-top box and an iPad second screen. As you watched the “star in a reasonably-priced car” segment in an episode of Top Gear on your TV, you could use your iPad to follow their progress around the race track. Playback state was syncrhonized in both directions, so you could hit fast forward on your remote control or in the app to make the car go faster… or even drag the red dot along the track to scrub back and forth on the TV. The seamless link between the screens was magical.",
       "images": [
         {
           "img": "portfolio/topgear/tn1.png",
@@ -1395,7 +1556,8 @@
       "key": "topgear",
       "keywords": [],
       "name": "Top Gear",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "Imagine if video screens could be as large as you wanted, the size of an entire wall or table? Surfaces was a project that explored the possibilities of creating scalable displays, pushing the relevant content to a number of tiled screens. I created clients that would allow widgets to span adjacent iPads. You could literally drag a widget from one iPad to another, even if one was running a browser and the other a native client written in Swift.",
@@ -1403,7 +1565,8 @@
       "key": "surfaces",
       "keywords": [],
       "name": "Surfaces",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "<a href=\"https://github.com/azamlerc/flare\">Flare</a> is a concept ecosystem that combines indoor location technologies, wearable devices and an object-oriented data model to help people explore interior spaces and interact with objects in their environment. I implemented the backend in Node, the API layer, and frameworks and demo applications for web, Mac, iOS, Apple Watch, Android, Android Watch and Python. I released an SDK and developer documentation on Ciso's DevNet developer portal, and hosted hackathons in which external developers used the SDK to develop projects. I presented the platform at the National Retail Federation trade show in New York, giving demos to the engineering leadership of a hundred major retail companies.",
@@ -1428,10 +1591,11 @@
       "key": "flare",
       "keywords": [],
       "name": "Flare",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
-      "description": "I did a hacakthon project in which I replaced the entire SDP context and control architecture with one based on the Twitter platform. Your set-top box had its own account and would tweet what you were watching, along with the title card and a description of the episode. Then you could DM your STB with messages like \u201cwatch @topgear\u201d, and it would find that show in the grid and change channels for you. Got it up and running in four hours.",
+      "description": "I did a hacakthon project in which I replaced the entire SDP context and control architecture with one based on the Twitter platform. Your set-top box had its own account and would tweet what you were watching, along with the title card and a description of the episode. Then you could DM your STB with messages like “watch @topgear”, and it would find that show in the grid and change channels for you. Got it up and running in four hours.",
       "images": [
         {
           "img": "portfolio/twitter/twitter-tn.jpg",
@@ -1445,7 +1609,8 @@
       "key": "twitter-tv",
       "keywords": [],
       "name": "Twitter TV",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "When watching an Apple keynote, there are parts that are more exciting than others. I tried making a highlight reel of the iPad 3 launch, which took hours of my time. What if we could do this automatically by measuring the volume of tweets on a particular hashtag like #ipad during an event? I wrote an algorithm to do exactly that, and made an auto-generated highlight reel. The money shot? When they announced the pricing. Turns out the reel based on hashtag buzz was pretty much the same as the manually curated one. Proved a point in about half a day of work.",
@@ -1462,7 +1627,8 @@
       "key": "highlights",
       "keywords": [],
       "name": "Social Highlights",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "I gave a presentation on <a href=\"portfolio/privacy/privacy.pdf\">privacy</a> considerations in the context of building a personalized television platform. In a world where many people want to share everything about what they're doing, would we consider your television viewing history to be sensitive personally identifiable information? Everyone knows that the Queen watches television, but can you imagine if the shows she watched turned up in the tabloids? The talk covered the important points of what privacy is, why it's important, how to protect it, and specific learnings applicable to our current projects.",
@@ -1487,10 +1653,11 @@
       "key": "privacy",
       "keywords": [],
       "name": "Privacy",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
-      "description": "I designed a <a href=\"portfolio/objects/objects.jpg\">poster</a> for the 2013 NDS developer conference in Bangkok on the theme of \u201cthe power of an object oriented system lies not in the objects themselves, but in the connections between them.\u201d",
+      "description": "I designed a <a href=\"portfolio/objects/objects.jpg\">poster</a> for the 2013 NDS developer conference in Bangkok on the theme of “the power of an object oriented system lies not in the objects themselves, but in the connections between them.”",
       "images": [
         {
           "img": "portfolio/objects/tn1.jpg",
@@ -1504,7 +1671,8 @@
       "key": "connections",
       "keywords": [],
       "name": "Connections",
-      "year": 0
+      "year": 0,
+      "section": "nds"
     },
     {
       "description": "Compass is the #1 real estate brokerage in the United States, and also a tech company that creates software to make its real estate agents successful. I joined when engineering had 60 people and over five years watched it go through a period of hypergrowth to 1200 engineers. It was also my chance to move into engineering management and build several awesome, high-performing teams.",
@@ -1570,7 +1738,8 @@
       "key": "mc",
       "keywords": [],
       "name": "Marketing Center",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "Marketing Center lets Compass agents create a variety of kinds of print marketing materials, including the listing cards that are displayed in office windows. I worked with the marketing team to create these layouts and implemented them as templates in Marketing Center. So when you walk by a Compass office and see listings in the window, I made that happen.",
@@ -1583,7 +1752,8 @@
       "key": "window-displays",
       "keywords": [],
       "name": "Window Displays",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "When you're developing software, you tend to run a program over and over in test mode. But the experience is totally different when you're using it for real. One day I used Marketing Center to make a brochure for my own farmhouse in the south of France, and had it professionally printed. I put a lot of love into that brochure, which gave me an entirely new perspective on the software product that my team had created.",
@@ -1608,7 +1778,8 @@
       "key": "lefeuil",
       "keywords": [],
       "name": "Farm Brochure",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "The Compass Marketing Center app made it easy for agents to make any kind of marketing materials, assuming they knew what they wanted to make. But it was still a challenge to remember what materials for what listings they needed to make when, and to decide which collateral types and templates would be most effective. I led the Marketing Automation team in building a system to coordinate an agent's overall marketing strategy, using AI to give every agent the experience of having a dedicated marketing coach.",
@@ -1616,7 +1787,8 @@
       "key": "marketing-automation",
       "keywords": [],
       "name": "Marketing Automation",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "As Compass scaled organically, agent information was spread across twenty different systems. The first team that I managed built a user adminstration tool called Agent at a Glance (A3G), which let our agent support team get the full picture without having to sign in to multiple systems. We took full advantage of a microservices-based architecture, with each service storing or retrieving a single type of data.",
@@ -1633,7 +1805,8 @@
       "key": "a3g",
       "keywords": [],
       "name": "Agent at a Glance",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "Identifying the same people in different databases can be a tricky problem. In an ideal world, people would all have a unique identifier that we could use to join records across databases. However, when this is not available, it may be necessary to try to use people's names for matching. As it turns out, people's names can be messy, and are less suitable for use as unique identifiers than you might hope. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19\">fuzzy name matching</a>, and you can look at the <a href=\"https://github.com/azamlerc/fuzzy-names\">source code</a>.",
@@ -1650,7 +1823,8 @@
       "key": "fuzzy-names",
       "keywords": [],
       "name": "Fuzzy Name Matching",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "Marketing Center lets users design print-ready marketing materials such as flyers, brochures, postcards and notecards. It outputs web content, which needs to be converted to a PDF that it can be sent to a print fulfillment vendor. I wrote a blog post about <a href=\"https://medium.com/compass-true-north/go-service-to-convert-web-pages-to-pdf-using-headless-chrome-5fd9ffbae1af\">writing a Go service to convert web pages to PDF</a> using headless Chrome.",
@@ -1667,7 +1841,8 @@
       "key": "html-to-pdf",
       "keywords": [],
       "name": "HTML to PDF Conversion",
-      "year": 0
+      "year": 0,
+      "section": "compass"
     },
     {
       "description": "When I was at Compass I developed a set of coding <a href=\"https://github.com/azamlerc/interviews\">interview questions</a> that candidates were unlikely to have encountered before. I tried to make questiosn that were fun and interesting, and related to the real world in some meaningful way. I also wrote up solutions to the questions in thirteen different programming languages, to try to force myself to approach each problem from many different different perspectives.",
@@ -1692,7 +1867,8 @@
       "key": "fourfours",
       "keywords": [],
       "name": "🔢 Four Fours",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
       "description": "This problem asks you to write a program to calculate the time that it would take to commute to the Compass office using the New York City Subway. You can walk to a station, take a train to another station, and from there walk to the office. As an extension, you can add the ability to transfer between trains. I made an <a href=\"subway.html\">interactive subway map</a> that helps people visualize the algorithm. It's a fun interview question because it gets candidates thinking about coming to Compass!",
@@ -1712,11 +1888,12 @@
       ],
       "key": "subway",
       "keywords": [],
-      "name": "\ud83e\udded Subway Directions",
-      "year": 0
+      "name": "🧭 Subway Directions",
+      "year": 0,
+      "section": "interviews"
     },
     {
-      "description": "Here's a fun party trick. Go to any English language Wikipedia page, and click on the first link in the body of the article. Keep doing that, and you'll go from concrete to increasingly abstract subjects, most likely eventually arriving at the articles on <a href=\"https://en.wikipedia.org/wiki/Existence\">Existence</a> or <a href=\"https://en.wikipedia.org/wiki/Awareness\">Awareness</a>. Given a list of recently featured articles and the artciles they link to, the task is to <a href=\"wikilinks/index.html\">construct an outline</a>. The challenge is that there are no root nodes, as you typically get into a loop of articles that link to each other. I've heard candidates remark, \u201cwow, you've changed the way I think about existence and awareness!\u201d",
+      "description": "Here's a fun party trick. Go to any English language Wikipedia page, and click on the first link in the body of the article. Keep doing that, and you'll go from concrete to increasingly abstract subjects, most likely eventually arriving at the articles on <a href=\"https://en.wikipedia.org/wiki/Existence\">Existence</a> or <a href=\"https://en.wikipedia.org/wiki/Awareness\">Awareness</a>. Given a list of recently featured articles and the artciles they link to, the task is to <a href=\"wikilinks/index.html\">construct an outline</a>. The challenge is that there are no root nodes, as you typically get into a loop of articles that link to each other. I've heard candidates remark, “wow, you've changed the way I think about existence and awareness!”",
       "images": [
         {
           "img": "portfolio/wikilinks/outline.png",
@@ -1730,10 +1907,11 @@
       "key": "wikilinks",
       "keywords": [],
       "name": "⛓️ Wiki Links",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
-      "description": "Pontifex is an encryption algorithm featured in the book <a href=\"https://en.wikipedia.org/wiki/Cryptonomicon\">Cryptonomicon</a> by Neal Stephenson. It allows two people to exchange encrypted messages, as long as each of them has a deck of cards. <a href=\"pontifex/index.html\">Encrypting and decrypting</a> the message uses a process called shuffling as described in the <a href=\"https://www.schneier.com/academic/solitaire/\">algorithm</a>. In porting my solution to different languages I wound up writing some <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.js\">JavaScript</a> that looked remarkably like <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.clj\">Clojure</a>, the closest I've seen to \u201chaving an accent\u201d in a programming language.",
+      "description": "Pontifex is an encryption algorithm featured in the book <a href=\"https://en.wikipedia.org/wiki/Cryptonomicon\">Cryptonomicon</a> by Neal Stephenson. It allows two people to exchange encrypted messages, as long as each of them has a deck of cards. <a href=\"pontifex/index.html\">Encrypting and decrypting</a> the message uses a process called shuffling as described in the <a href=\"https://www.schneier.com/academic/solitaire/\">algorithm</a>. In porting my solution to different languages I wound up writing some <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.js\">JavaScript</a> that looked remarkably like <a href=\"https://github.com/azamlerc/interviews/blob/master/pontifex/pontifex.clj\">Clojure</a>, the closest I've seen to “having an accent” in a programming language.",
       "images": [
         {
           "img": "portfolio/pontifex/suits.png",
@@ -1751,10 +1929,11 @@
       "key": "pontifex",
       "keywords": [],
       "name": "🃏 Pontifex",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
-      "description": "Train schedules contain a lot of data and can be hard to read. In 1885, EJ Marey invented the <a href=\"https://bagdcontext.myblog.arts.ac.uk/2017/03/31/graphical-train-schedule-\u2022-ej-marey-\u2022-1885/\">graphical train schedule</a>, which represents the entire schedule as a graph of the position over time of each train on the line. For this project I made an <a href=\"countdown/index.html\">animated graph</a> of the New York Subway's 7 Train, including a display of the train arrival countdown board. You can even simulate the effect of delays, try setting it to \u201ctotal chaos\u201d.",
+      "description": "Train schedules contain a lot of data and can be hard to read. In 1885, EJ Marey invented the <a href=\"https://bagdcontext.myblog.arts.ac.uk/2017/03/31/graphical-train-schedule-•-ej-marey-•-1885/\">graphical train schedule</a>, which represents the entire schedule as a graph of the position over time of each train on the line. For this project I made an <a href=\"countdown/index.html\">animated graph</a> of the New York Subway's 7 Train, including a display of the train arrival countdown board. You can even simulate the effect of delays, try setting it to “total chaos”.",
       "images": [
         {
           "img": "portfolio/countdown/countdown.png",
@@ -1772,10 +1951,11 @@
       "key": "countdown",
       "keywords": [],
       "name": "🚉 Subway Countdown",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
-      "description": "At Compass I noticed that some people had first names that were the same as other people's last names. I made a directed graph that showed how everyone's names were connected, and kept it up to date as the company grew over the years. I made a <a href=\"https://github.com/azamlerc/interviews/tree/master/magicnames\">magic names</a> interview question that asked candidates to build a graph structure, count the number of clusters of each size, and find how many people were in the \u201cbig cloud\u201d. Seeing how the results changed if they added themself to the graph gave candidates a sense of belonging!",
+      "description": "At Compass I noticed that some people had first names that were the same as other people's last names. I made a directed graph that showed how everyone's names were connected, and kept it up to date as the company grew over the years. I made a <a href=\"https://github.com/azamlerc/interviews/tree/master/magicnames\">magic names</a> interview question that asked candidates to build a graph structure, count the number of clusters of each size, and find how many people were in the “big cloud”. Seeing how the results changed if they added themself to the graph gave candidates a sense of belonging!",
       "images": [
         {
           "img": "portfolio/magicnames/2019.png",
@@ -1793,7 +1973,8 @@
       "key": "magic-names",
       "keywords": [],
       "name": "Magic Names",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
       "description": "Cryptocurrencies are designed around proof of work algorithms, which essentially prove that a computer burned a certain number of pointless processor cycles. They do this by calculating checksums of a large number of values until they find one that by chance ends with a specific number of zeroes. <a href=\"https://en.wikipedia.org/wiki/Hashcash\">Hashcash</a> is a protocol that uses a similar approach for avoiding spam: if email senders have to waste even a small amount of processor cycles, it's the digital equivalent of buying a stamp.",
@@ -1810,7 +1991,8 @@
       "key": "hashcash",
       "keywords": [],
       "name": "💵 Hashcash",
-      "year": 0
+      "year": 0,
+      "section": "interviews"
     },
     {
       "description": "<a href=\"https://github.com/azamlerc/nsarray-functional\">Functional Objective-C</a> is a category that adds functional programming methods to Objective-C. Going beyond foreach, filter, map and reduce, it adds around 60 methods and was inspired by the <a href=\"https://clojure.org/api/cheatsheet\">Clojure cheatsheet</a>. I even used it to convert my Four Fours implementation into a <a href=\"https://github.com/azamlerc/nsarray-functional#four-fours\">one-liner</a>, as inspired by the Clojure version! The whole project is tongue-in-cheek, a work of art that is beautiful and useless at the same time.",
@@ -1834,7 +2016,7 @@
       "year": 0
     },
     {
-      "description": "When I was young I was fascinated by the original Macintosh, and knew I would work for Apple one day. I was ironically still considered \u201cthe Apple guy\u201d even when I was working at Apple. It was an incredible time to work there, as the results of Steve Jobs' transformation bore fruit: Mac OS X, the iPod, the iTunes Store, and retail stores. Oh yeah, and my email address was andrew@apple.com.",
+      "description": "When I was young I was fascinated by the original Macintosh, and knew I would work for Apple one day. I was ironically still considered “the Apple guy” even when I was working at Apple. It was an incredible time to work there, as the results of Steve Jobs' transformation bore fruit: Mac OS X, the iPod, the iTunes Store, and retail stores. Oh yeah, and my email address was andrew@apple.com.",
       "images": [
         {
           "img": "portfolio/apple/card-tn.jpg",
@@ -1856,7 +2038,8 @@
       "key": "asw",
       "keywords": [],
       "name": "Apple Sales Web",
-      "year": 0
+      "year": 0,
+      "section": "apple"
     },
     {
       "description": "My team adapted Apple Sales Web to support the company's own stores, helping communicate with retail employees and ensure consistency between stores, especially when rolling out design updates and new products. Everyone at Apple is entirely responsible for some small aspect of the business; I wrote the code that got the shopping bags from the warehouses to the stores. Every time I saw someone walking out of a store with their purchase in a bag I felt a little bit proud.",
@@ -1864,7 +2047,8 @@
       "key": "arw",
       "keywords": [],
       "name": "Apple Retail Web",
-      "year": 0
+      "year": 0,
+      "section": "apple"
     },
     {
       "description": "I developed an internal admin application to help our admin team provide support to our users. One of the great things about building internal tools is that you can observe people using them, and make small improvements that save them a huge amount of time. At Apple even the internal tools are elegant and beautiful, and I made a library of widgets that let our WebObjects apps look just like the recently released Mac OS X operating system and its Aqua interface.",
@@ -1885,7 +2069,8 @@
       "key": "useradmin",
       "keywords": [],
       "name": "User Admin Site",
-      "year": 0
+      "year": 0,
+      "section": "apple"
     },
     {
       "description": "My first job was selling and fixing Macs at a small shop called MacUpgrades. I was particularly good at sales because I was very knowledgable about the products and believed in what I was saying. Back then, memory came in modules that snapped into the logic board, which was easier to do in some models than others. Computers broke all the time and you needed to have them fixed. \nI dyed my hair bondi blue for the launch of the original iMac.",
@@ -1898,7 +2083,8 @@
       "key": "macupgrades",
       "keywords": [],
       "name": "MacUpgrades",
-      "year": 0
+      "year": 0,
+      "section": "apple"
     },
     {
       "description": "I had a pretty extensive collection of Apple computers and related materials, and donated most of it to the <a href=\"https://ub.fnwi.uva.nl/computermuseum/inventory_part1.html\">Computer Museum</a> of the University of Amsterdam. So you can go visit their Zamler-Carhart wing of Apple technology. Two of the models I've kept are a Macintosh Plus (1986) and Macintosh SE (1987), which I spray painted red and purple, respectively.",
@@ -1915,25 +2101,54 @@
       "key": "macs",
       "keywords": [],
       "name": "Mac Collection",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "In 2002 I gave a <a href=\"portfolio/bang/index.html\">presentation</a> at Apple on an early version of <a href=\"#iconquer\">iConquer</a> to the Bay Area NeXT Group (BANG). It focused on things I'd learned as a developer writing an application for the relatively new Mac OS X operating system.",
       "images": [
-        {"img": "portfolio/bang/01-tn.jpg", "link": "portfolio/bang/01.html"},
-        {"img": "portfolio/bang/11-tn.jpg", "link": "portfolio/bang/11.html"},
-        {"img": "portfolio/bang/12-tn.jpg", "link": "portfolio/bang/12.html"},
-        {"img": "portfolio/bang/13-tn.jpg", "link": "portfolio/bang/13.html"},
-        {"img": "portfolio/bang/14-tn.jpg", "link": "portfolio/bang/14.html"},
-        {"img": "portfolio/bang/15-tn.jpg", "link": "portfolio/bang/15.html"},
-        {"img": "portfolio/bang/21-tn.jpg", "link": "portfolio/bang/21.html"},
-        {"img": "portfolio/bang/22-tn.jpg", "link": "portfolio/bang/22.html"},
-        {"img": "portfolio/bang/23-tn.jpg", "link": "portfolio/bang/23.html"}
+        {
+          "img": "portfolio/bang/01-tn.jpg",
+          "link": "portfolio/bang/01.html"
+        },
+        {
+          "img": "portfolio/bang/11-tn.jpg",
+          "link": "portfolio/bang/11.html"
+        },
+        {
+          "img": "portfolio/bang/12-tn.jpg",
+          "link": "portfolio/bang/12.html"
+        },
+        {
+          "img": "portfolio/bang/13-tn.jpg",
+          "link": "portfolio/bang/13.html"
+        },
+        {
+          "img": "portfolio/bang/14-tn.jpg",
+          "link": "portfolio/bang/14.html"
+        },
+        {
+          "img": "portfolio/bang/15-tn.jpg",
+          "link": "portfolio/bang/15.html"
+        },
+        {
+          "img": "portfolio/bang/21-tn.jpg",
+          "link": "portfolio/bang/21.html"
+        },
+        {
+          "img": "portfolio/bang/22-tn.jpg",
+          "link": "portfolio/bang/22.html"
+        },
+        {
+          "img": "portfolio/bang/23-tn.jpg",
+          "link": "portfolio/bang/23.html"
+        }
       ],
       "key": "bang",
       "keywords": [],
       "name": "BANG Presentation",
-      "year": 0
+      "year": 0,
+      "section": "apple"
     },
     {
       "description": "KavaFoto was my brand as a photographer. The <a href=\"https://www.kavafoto.com\">KavaFoto</a> website was powered by <a href=\"#shoebox\">Shoebox</a>, letting visitors browse all my photos by category. The home page has a high degree of randomness, pulling random photos from random categories to suprise you every time.",
@@ -1979,7 +2194,8 @@
       "key": "concerts",
       "keywords": [],
       "name": "Concerts",
-      "year": 0
+      "year": 0,
+      "section": "kavafoto"
     },
     {
       "description": "I made microsites for some of my composer friends that pulled content dynamically from my own site. Whenever I took a picture of them or one of their compositions, it would automatically add fresh content to their microsites without any additional work on my part.",
@@ -2021,10 +2237,11 @@
       "key": "fashion",
       "keywords": [],
       "name": "Fashion",
-      "year": 0
+      "year": 0,
+      "section": "kavafoto"
     },
     {
-      "description": "Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on \u201cYes We Can\u201d), and documented the protest concert. One professor remarked, \u201cwe haven't had this kind of spirit around here since the sixties.\u201d",
+      "description": "Kick the Can was a protest against the intrusion of commercialism in the Dutch academic music scene. To make the point, two friends and I physically kicked a can 22 kilometers from Rotterdam to The Hague. I designed a poster series to promote the event (patterned on “Yes We Can”), and documented the protest concert. One professor remarked, “we haven't had this kind of spirit around here since the sixties.”",
       "images": [
         {
           "img": "portfolio/kickthecan/jeremiah.jpg",
@@ -2042,7 +2259,8 @@
       "key": "kickthecan",
       "keywords": [],
       "name": "Kick the Can",
-      "year": 0
+      "year": 0,
+      "section": "kavafoto"
     },
     {
       "description": "Here are some books that I made of my photo portfolio in 2005-2006.",
@@ -2067,27 +2285,62 @@
       "key": "books",
       "keywords": [],
       "name": "Photo Books",
-      "year": 0
+      "year": 0,
+      "section": "kavafoto"
     },
     {
       "description": "In 2001 we sent photo albums to all of our family members, each with a card in the format of a National Geographic cover that highlighted the selection of photos. We must have done something right because one of my aunts didn't get the joke and thought it was a legit magazine cover.",
       "images": [
-        {"img": "portfolio/natgeo/tn/african-architecture.jpg", "link": "portfolio/natgeo/african-architecture.jpg"},
-        {"img": "portfolio/natgeo/tn/boats.jpg", "link": "portfolio/natgeo/boats.jpg"},
-        {"img": "portfolio/natgeo/tn/bugs.jpg", "link": "portfolio/natgeo/bugs.jpg"},
-        {"img": "portfolio/natgeo/tn/children.jpg", "link": "portfolio/natgeo/children.jpg"},
-        {"img": "portfolio/natgeo/tn/coconuts.jpg", "link": "portfolio/natgeo/coconuts.jpg"},
-        {"img": "portfolio/natgeo/tn/flowers.jpg", "link": "portfolio/natgeo/flowers.jpg"},
-        {"img": "portfolio/natgeo/tn/houses.jpg", "link": "portfolio/natgeo/houses.jpg"},
-        {"img": "portfolio/natgeo/tn/marketplaces.jpg", "link": "portfolio/natgeo/marketplaces.jpg"},
-        {"img": "portfolio/natgeo/tn/places-of-worship.jpg", "link": "portfolio/natgeo/places-of-worship.jpg"},
-        {"img": "portfolio/natgeo/tn/transportation.jpg", "link": "portfolio/natgeo/transportation.jpg"},
-        {"img": "portfolio/natgeo/tn/water.jpg", "link": "portfolio/natgeo/water.jpg"}
+        {
+          "img": "portfolio/natgeo/tn/african-architecture.jpg",
+          "link": "portfolio/natgeo/african-architecture.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/boats.jpg",
+          "link": "portfolio/natgeo/boats.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/bugs.jpg",
+          "link": "portfolio/natgeo/bugs.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/children.jpg",
+          "link": "portfolio/natgeo/children.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/coconuts.jpg",
+          "link": "portfolio/natgeo/coconuts.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/flowers.jpg",
+          "link": "portfolio/natgeo/flowers.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/houses.jpg",
+          "link": "portfolio/natgeo/houses.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/marketplaces.jpg",
+          "link": "portfolio/natgeo/marketplaces.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/places-of-worship.jpg",
+          "link": "portfolio/natgeo/places-of-worship.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/transportation.jpg",
+          "link": "portfolio/natgeo/transportation.jpg"
+        },
+        {
+          "img": "portfolio/natgeo/tn/water.jpg",
+          "link": "portfolio/natgeo/water.jpg"
+        }
       ],
       "key": "natgeo",
       "keywords": [],
       "name": "National Geographic",
-      "year": 2001
+      "year": 2001,
+      "section": "kavafoto"
     },
     {
       "description": "",
@@ -2098,7 +2351,7 @@
       "year": 0
     },
     {
-      "description": "When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphig\u00e9nie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun \u201cstreet art\u201d designs.",
+      "description": "When I was in the French countryside during the first wave of covid, I adapted that hobby to exploring every trail around our house. I recorded every walk with my Apple Watch, imported the route into a program called <a href=\"https://en.iphigen.ie\">Iphigénie</a>, overlaid the paths on topographic and satellite <a href=\"hiking.html\">maps</a>, and printed posters that I could hang on my wall. I even made walking patterns in the fields, like spirals, fans, zigzags and figure eights. When I lived in Dakar for three months during the second wave, I adapted the same approach to an urban environment, walking the perimter and all the major streets of the city, and making some fun “street art” designs.",
       "images": [
         {
           "img": "images/hiking/thumbs/hiking-may.jpg",
@@ -2116,7 +2369,8 @@
       "key": "hiking",
       "keywords": [],
       "name": "Hiking Maps",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "The <a href=\"https://github.com/azamlerc/shack\">Shake Shack</a> project is designed for teaching students who are new to programming how to build a full-stack web app. It can store the menu in a MongoDB database, load the data in a backend service and serve it up with a REST API, and connect to the API to load a dynamic web page. It's everything you need and nothing you don't!",
@@ -2141,7 +2395,8 @@
       "key": "shack",
       "keywords": [],
       "name": "Shake Shack",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "I wrote a <a href=\"https://github.com/azamlerc/wordle\">Wordle solver</a> in Swift that basically plays the game for you. Each time you guess a word, you enter in the response that indicates which letters are in the right place, wrong place or not in the word. It will then provide a list of the best words for you to play next. From my point of view, I'm not cheating: I just took my own strategy and taught the computer to do it for me.",
@@ -2158,7 +2413,8 @@
       "key": "wordle",
       "keywords": [],
       "name": "Wordle",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "I significantly improved my Dutch comprehension by reading the book De Ontdekking van de Hemel by Harry Mulisch, considered to be the master work of twentieth century Dutch literature. I wrote a program in Objective-C to process the text of the book, break apart compound and conjugated words, translate them to English, and create a dictionary of Dutch as used in the book. The dictionary is in the form of a tag cloud, with more frequently used words in larger text, and words with common prefixes grouped together.",
@@ -2183,7 +2439,8 @@
       "key": "dictionary",
       "keywords": [],
       "name": "Dutch Dictionary",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "I did a wine and painting team building event one time in which I painted a photo I took of a vintage tram in Lisbon. My phone kept going to sleep and I had paint all over my hands, so I wound up kind of painting it from memory rather than looking at the original while I was working. It turned out a bit abstract, but not bad considering that I was in a rush to finish in 45 minutes. I had the original photo printed on canvas so the two could be displayed side by side.",
@@ -2200,7 +2457,8 @@
       "key": "painting",
       "keywords": [],
       "name": "Painting",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     },
     {
       "description": "I like to stay in touch with my high school teachers at <a href=\"https://www.stalbansschool.org\">St. Albans</a>. While I mostly think of myself as a techie, I think that my European history teacher Ted Eagles had the biggest effect on shaping my world view. On a visit in 2010, I wrote Ted a twenty page paper on the <a href=\"portfolio/europe/europe.pdf\">Evolution of European Empire Building</a>, constrasting the European Union with the Soviet Union. As one does, just for old times sake.",
@@ -2234,7 +2492,8 @@
       "key": "john-irving",
       "keywords": [],
       "name": "John Irving",
-      "year": 0
+      "year": 0,
+      "section": "etc"
     }
   ]
 }
