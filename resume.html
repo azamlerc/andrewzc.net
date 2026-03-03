@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Zamler-Carhart — Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Avenir, 'Avenir Next', sans-serif;
+      background: white;
+      color: #222;
+      padding: 20px;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      font-size: 48pt;
+      font-weight: 500;
+      letter-spacing: -0.5px;
+      display: inline;
+    }
+
+    .pronouns {
+      font-size: 18pt;
+      color: #999;
+      font-weight: 400;
+      margin-left: 18px;
+      margin-bottom: 10px;
+    }
+
+    /* ── Two-column layout ── */
+    .layout {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 200px;
+      flex-shrink: 0;
+      font-size: 12pt;
+      color: #444;
+      line-height: 1.7;
+    }
+
+    .sidebar .venn {
+      margin-bottom: 28px;
+    }
+
+    .sidebar-section {
+      margin-bottom: 20px;
+    }
+
+    .sidebar-section h3 {
+      font-size: 10pt;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #bbb;
+      margin-bottom: 4px;
+    }
+
+    .sidebar-section a {
+      color: #444;
+      text-decoration: none;
+    }
+
+    .sidebar-section a {
+      color: #0066cc;
+    }
+
+    /* ── Venn Diagram ── */
+    .venn svg {
+      display: block;
+    }
+
+    /* ── Experience ── */
+    .experience {
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* Each entry is a table */
+    .entry {
+      width: 100%;
+    }
+
+    /* Header row: year | logo | company+titles | location+url */
+    .entry-header {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .col-year {
+      display: table-cell;
+      width: 50px;
+      vertical-align: middle;
+      text-align: right;
+      padding-right: 10px;
+
+      font-size: 11pt;
+      font-weight: 500;
+      line-height: 1.3;
+      color: #bbb;
+    }
+
+    .col-logo {
+      display: table-cell;
+      width: 92px;
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+    }
+
+    .col-company {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 8px;
+    }
+
+    .col-location {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      padding-left: 8px;
+    }
+
+    /* Company name */
+    .company-name {
+      font-size: 26pt;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: -0.3px;
+    }
+
+    .titles-row {
+      display: flex;
+      margin-top: 2px;
+      flex-wrap: wrap;
+    }
+
+    .title-item {
+      font-size: 14pt;
+      color: #999;
+      padding-left: 1px;
+      white-space: nowrap;
+    }
+
+    .title-years {
+      font-size: 8.5pt;
+      color: #bbb;
+      margin-left: 3px;
+    }
+
+    .location-text {
+      font-size: 12pt;
+      color: #888;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+
+    .url-link {
+      font-size: 12pt;
+      color: #0066cc;
+      text-decoration: none;
+      display: block;
+    }
+
+    .url-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Content row */
+    .entry-content {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .content-spacer-year {
+      display: table-cell;
+      width: 50px;
+    }
+
+    .content-spacer-logo {
+      display: table-cell;
+      width: 92px;
+      position: relative;
+    }
+
+    /* The vertical line runs through the logo column */
+    .content-spacer-logo::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 4px;
+      bottom: 4px;
+      width: 4px;
+      background: #ddd;
+      transform: translateX(-50%);
+    }
+
+    .content-body {
+      display: table-cell;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      vertical-align: top;
+      font-size: 12pt;
+      color: #333;
+    }
+
+    .content-body ul {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 10px 0;
+    }
+
+    .content-body ul li {
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .content-body ul li::before {
+      content: '•';
+      position: absolute;
+      left: 2px;
+      color: #aaa;
+    }
+
+    .content-body .outro {
+      margin-top: 12px;
+      color: #333;
+    }
+
+    /* Logo circle */
+    .logo-wrap {
+      position: relative;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      z-index: 2;
+    }
+
+    .logo-wrap img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: contain;
+      background: white;
+      border: 4px solid #ccc;
+      display: block;
+      padding: 6px;
+    }
+
+    .logo-placeholder {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #f0f0f0;
+      border: 4px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9pt;
+      color: #999;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    /* The vertical line in the logo column of the header row */
+    .col-logo-inner {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    /* Divider between entries — none needed, vertical line handles it */
+
+    @media print {
+      body { padding: 20px; }
+      .url-link { color: #0066cc; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Static Header ── -->
+  <div class="header">
+    <h1>Andrew Zamler-Carhart</h1>
+    <span class="pronouns">they/them</span>
+  </div>
+
+  <div class="layout">
+
+    <!-- ── Static Sidebar ── -->
+    <div class="sidebar">
+
+      <div class="venn">
+        <img width="250" style="margin-top: 30px" src="images/work/venn.png">
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Contact</h3>
+        76 Oscawana Heights Rd<br>
+        Putnam Valley, NY 10579<br>
+        917-743-4969<br>
+        <a href="mailto:azc@mac.com">azc@mac.com</a><br>
+        <a href="https://andrewzc.net">andrewzc.net</a><br>
+        <a href="https://github.com/azamlerc">github.com/azamlerc</a>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Languages</h3>
+        🇺🇸 English<br>
+        🇫🇷 French<br>
+        🇳🇱 Dutch<br>
+        🇷🇺 Russian
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Citizenship</h3>
+        🇺🇸 United States<br>
+        🇫🇷 France
+      </div>
+
+    </div>
+
+    <!-- ── Dynamic Experience ── -->
+    <div class="experience" id="experience">
+      <!-- Rendered by JS -->
+    </div>
+
+  </div>
+
+  <script>
+    const LOGO_BASE = 'images/work/';
+
+    async function loadResume() {
+      const res = await fetch('data/resume.json');
+      const entries = await res.json();
+
+      // Apply patches from ?custom=foo,bar query parameter
+      const params = new URLSearchParams(window.location.search);
+      const custom = params.get('custom');
+      if (custom) {
+        const names = custom.split(',').map(s => s.trim()).filter(Boolean);
+        for (const name of names) {
+          try {
+            const patchRes = await fetch(`resume/custom/${name}.json`);
+            if (!patchRes.ok) { console.warn(`Patch not found: ${name}.json`); continue; }
+            const patches = await patchRes.json();
+            applyPatches(entries, patches);
+          } catch (err) {
+            console.warn(`Failed to load patch: ${name}.json`, err);
+          }
+        }
+      }
+
+      render(entries);
+    }
+
+    // Merge patch objects into base entries, matched by company name.
+    // Scalar fields are replaced; bullets array is replaced wholesale if present.
+    function applyPatches(entries, patches) {
+      for (const patch of patches) {
+        const entry = entries.find(e => e.company === patch.company);
+        if (!entry) {
+          // New entry not in base — insert at position if specified, else append
+          const clone = Object.assign({}, patch);
+          if (patch.index !== undefined) {
+            entries.splice(patch.index, 0, clone);
+          } else {
+            entries.push(clone);
+          }
+          continue;
+        }
+        // Merge all fields from patch into entry
+        for (const [key, value] of Object.entries(patch)) {
+          if (key === 'company') continue; // identifier, don't overwrite
+          entry[key] = value;             // replaces scalars and arrays wholesale
+        }
+      }
+    }
+
+    function logoCell(company, isFirst, isLast) {
+      const logoFile = company.toLowerCase() + '.png';
+      const imgHtml = logoFile
+        ? `<img src="${LOGO_BASE}${logoFile}" alt="${company} logo">`
+        : `<div class="logo-placeholder">${company.substring(0,3).toUpperCase()}</div>`;
+
+      // Calculate line heights based on whether first/last
+      const lineAbove = isFirst ? '' : `<div class="line-above" style="height:calc(50% - 42px)"></div>`;
+      const lineBelow = isLast  ? '' : `<div class="line-below" style="height:calc(50% - 42px)"></div>`;
+
+      return `
+        <div class="col-logo-inner">
+          ${lineAbove}
+          <div class="logo-wrap">${imgHtml}</div>
+          ${lineBelow}
+        </div>`;
+    }
+
+    function render(entries) {
+      const container = document.getElementById('experience');
+
+      entries.forEach((e, i) => {
+        const isFirst = i === 0;
+        const isLast  = i === entries.length - 1;
+
+        // Build titles HTML
+        const titlesHtml = e.titles.map(t => {
+          // Split "Title (years)" if years are embedded
+          const match = t.match(/^(.+?)\s+\((\d{4}[–\-]\d{4})\)$/);
+          if (match) {
+            return `<span class="title-item">${match[1]}<span class="title-years">${match[2]}</span></span>`;
+          }
+          // Split "Title Year–Year" for Cisco
+          const match2 = t.match(/^(.+?)\s+(\d{4}\s*[–\/]\s*\d{4})$/);
+          if (match2) {
+            return `<span class="title-item">${match2[1]}<span class="title-years">${match2[2]}</span></span>`;
+          }
+          return `<span class="title-item">${t}</span>`;
+        }).join('');
+
+        // Build bullets
+        const bulletsHtml = e.bullets
+          ? `<ul>${e.bullets.map(b => `<li>${b}</li>`).join('')}</ul>`
+          : '';
+
+        // Outro
+        const outroHtml = e.outro
+          ? `<p class="outro">${e.outro}</p>`
+          : '';
+
+        // Details (Stanford)
+        const detailsHtml = e.details
+          ? e.details.map(d => `<p style="margin:0;line-height:1.5">${d}</p>`).join('')
+          : '';
+
+        // URL display — show original url, but link to altUrl if specified
+        const urlDisplay = e.url;
+        const urlTarget = e.altUrl || e.url;
+        const urlHref = urlTarget.startsWith('http') ? urlTarget : `https://${urlTarget}`;
+
+        const html = `
+          <div class="entry">
+            <div class="entry-header">
+              <div class="col-year">${(() => {
+                const parts = e.years.split('–');
+                return parts.length === 2
+                  ? `${parts[0]}<br>${parts[1]}`
+                  : parts[0];
+              })()}</div>
+              <div class="col-logo" style="height:92px">${logoCell(e.company, isFirst, isLast)}</div>
+              <div class="col-company">
+                <div class="company-name">${e.company}</div>
+                <div class="titles-row">${titlesHtml}</div>
+              </div>
+              <div class="col-location">
+                <div class="location-text">${e.location}</div>
+                <a class="url-link" href="${urlHref}" target="_blank">${urlDisplay}</a>
+              </div>
+            </div>
+            <div class="entry-content">
+              <div class="content-spacer-year"></div>
+              <div class="content-spacer-logo"></div>
+              <div class="content-body">
+                ${e.intro ? `<p>${e.intro}</p>` : ''}
+                ${bulletsHtml}
+                ${outroHtml}
+                ${detailsHtml}
+              </div>
+            </div>
+          </div>`;
+
+        container.insertAdjacentHTML('beforeend', html);
+      });
+    }
+
+    loadResume();
+  </script>
+
+</body>
+</html>
