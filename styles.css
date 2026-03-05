@@ -573,9 +573,18 @@ a {
 	.portfolio a, .portfolio h1 {
 		color: white;
 	}
-	
+
 	.portfolio h2, .portfolio p {
 		color: #666;
+	}
+
+	.search-bar input[type="search"] {
+		color: #666;
+		border-bottom-color: #333;
+	}
+
+	.search-bar button {
+		color: white;
 	}
 }
 
@@ -683,4 +692,49 @@ input[type="checkbox"].bingo {
   vertical-align: middle;
   margin-right: 6px;
   cursor: pointer;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.search-bar input[type="search"] {
+  font: 24pt Avenir;
+  color: #999;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  width: 800px;
+}
+
+.search-bar button {
+  font: 24pt Avenir;
+  color: black;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sort-option {
+  cursor: pointer;
+}
+
+.history-item {
+  display: block;
+}
+
+.history-remove {
+  visibility: hidden;
+  cursor: pointer;
+  margin-left: 14px;
+  color: #ccc;
+}
+
+.history-item:hover .history-remove {
+  visibility: visible;
 }

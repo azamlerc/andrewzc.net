@@ -66,13 +66,28 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
   }
 }
 
-// Iterate pages in order, rendering a section for each that has hits.
+// Iterate pages, rendering a section for each that has hits.
+// sort: null (pages array order) | "alphabetical" | "encounter" | "count"
 // Returns true if at least one section was rendered.
 function renderSections(captionEl, pages, byList, options = {}) {
-  const { pageName = null, maxItems = 10, dedupeLists = new Set() } = options;
+  const { pageName = null, maxItems = 10, dedupeLists = new Set(), sort = null } = options;
   let any = false;
 
-  for (const page of pages) {
+  let orderedPages = pages;
+  if (sort === "alphabetical") {
+    orderedPages = pages
+      .filter(p => byList.has(p?.key))
+      .sort((a, b) => (a.name || a.key || "").localeCompare(b.name || b.key || "", undefined, { sensitivity: "base" }));
+  } else if (sort === "encounter") {
+    const pagesByKey = new Map(pages.filter(p => p?.key).map(p => [p.key, p]));
+    orderedPages = [...byList.keys()].map(k => pagesByKey.get(k)).filter(Boolean);
+  } else if (sort === "count") {
+    orderedPages = pages
+      .filter(p => byList.has(p?.key))
+      .sort((a, b) => (byList.get(b.key)?.length || 0) - (byList.get(a.key)?.length || 0));
+  }
+
+  for (const page of orderedPages) {
     const hits = byList.get(page?.key);
     if (!hits?.length) continue;
     if (any) captionEl.appendChild(UI.smallSpace());
