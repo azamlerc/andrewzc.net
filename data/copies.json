@@ -15,22 +15,24 @@
   },
   "big-ben-mecca": {
     "been": false,
-    "city": "London",
-    "coords": "51.50070000, -0.12450000",
+    "coords": "21.41888889, 39.82638889",
     "countries": ["SA", "GB"],
     "icons": ["🇸🇦", "🇬🇧", "🕰"],
     "link": "https://en.wikipedia.org/wiki/Abraj_Al_Bait",
     "name": "Big Ben",
-    "reference": "Mecca"
+    "reference": "Mecca",
+    "wikidata": "Q189476"
   },
   "chinatown-gate-washington": {
     "been": true,
     "city": "Washington",
+    "coords": "47.50000000, -120.50000000",
     "countries": ["US", "CN"],
     "icons": ["🇺🇸", "🇨🇳", "⛩️"],
     "link": "https://en.wikipedia.org/wiki/Chinatown_Gate_(Washington,_D.C.)",
     "name": "Chinatown Gate",
-    "reference": "Washington"
+    "reference": "Washington",
+    "wikidata": "Q1223"
   },
   "eiffel-tower-tianducheng": {
     "been": false,
@@ -55,7 +57,6 @@
     "been": false,
     "city": "Dubai",
     "coords": "25.07168600, 55.30844200",
-    "countries": ["AE", ""],
     "country": "AE",
     "icons": ["🇦🇪", "🌍", "🕌"],
     "link": "https://en.wikipedia.org/wiki/Global_Village_(Dubai)",

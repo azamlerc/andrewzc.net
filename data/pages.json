@@ -274,7 +274,7 @@
   "baths": {
     "icon": "🛁",
     "name": "Public Baths",
-    "notes": "Historical city-run public baths.",
+    "notes": ["This contains a complete list of public baths in New York, most of which are demolished or derelict, some of which have evolved into recreation centers.", "As distinct from spas, these are typically for hygiene rather than pleasure.", "Baths in New York contained private stalls with bath tubs!"],
     "size": "large",
     "tags": ["no-links"],
     "type": "place"
@@ -823,7 +823,7 @@
     "notes": ["A former manager of mine thought I would be into this, and it turned into an obsession!", "Source data from confluence.org, which has pages for most points on or near land.", "I've gone on several road trips with the goal of visiting many confluence points.", "I have good coverage of a good part of northeastern United States and north-central Europe.", "I've been to every point in several states and countries."],
     "prefixClass": "fixed",
     "script": "confluence.js",
-    "size": "large",
+    "size": "medium",
     "sort": "coords",
     "tags": ["auto", "featured", "lookup-state", "no-data"],
     "type": "place"
@@ -933,6 +933,14 @@
     "name": "České kraje",
     "size": "large",
     "tags": [],
+    "type": "place"
+  },
+  "deaths": {
+    "header": "See also members of the <a href=\"27.html\" class=\"dark\">27 Club</a>.",
+    "icon": "☠️",
+    "name": "Deaths",
+    "size": "large",
+    "tags": ["dateComment", "people"],
     "type": "place"
   },
   "deep-level": {
@@ -1506,6 +1514,7 @@
   "high-speed": {
     "icon": "🚄",
     "name": "High-Speed Trains",
+    "notes": ["props.speed is the maximum speed of the line."],
     "size": "medium",
     "tags": ["no-coords", "prefix"],
     "type": "place"
@@ -1518,6 +1527,7 @@
       "zoom": "2"
     },
     "name": "Highest Points",
+    "notes": ["The highest points in countries and states.", "Reference specifies the state or other entity if not a country.", "props.elevation is the altitude of the point", "Been is generally set to true if I've been to the highest point.", "a 👀 badge indicates that I've seen the summit but not scaled it."],
     "prefixClass": "fixed",
     "size": "large",
     "sizeFormat": "meters",
@@ -1526,6 +1536,7 @@
     "type": "place"
   },
   "highway-medians": {
+    "header": "Metro lines that run down the median of a highway.",
     "icon": "🛣",
     "name": "Highway Medians",
     "size": "small",
@@ -1541,6 +1552,7 @@
       "zoom": "2"
     },
     "name": "Highway Strips",
+    "notes": ["I didn't even know this was a thing until I stumbled upon the one in Vatla while driving around the Baltics."],
     "size": "large",
     "sort": "order",
     "tags": ["auto"],
@@ -1549,6 +1561,7 @@
   "highways": {
     "icon": "🛣",
     "name": "Highways",
+    "notes": ["Highways I have taken in various countries.", "The country-key tag indicates that the key includes the two letter country code. Many countries have an A1 highway."],
     "size": "large",
     "sort": ["countries", "name"],
     "tags": ["auto", "country-key", "no-coords"],
@@ -1556,6 +1569,7 @@
   },
   "homes": {
     "complete": true,
+    "header": "Places I have lived.",
     "icon": "🏠",
     "name": "Hometowns",
     "size": "large",
@@ -1563,6 +1577,7 @@
     "type": "place"
   },
   "hotels": {
+    "header": "Hotels where I have stayed.",
     "icon": "🏨",
     "map": {
       "lat": "37",
@@ -1570,6 +1585,7 @@
       "zoom": "3"
     },
     "name": "Hotels",
+    "notes": ["Links usually point to booking.com", "I have a script that extracts locations from booking.com URLs."],
     "size": "large",
     "tags": ["auto"],
     "type": "place"
@@ -1590,12 +1606,14 @@
       "zoom": "2"
     },
     "name": "IKEA",
+    "notes": ["Action: differentiate between IKEA locations where I've shopped vs. just driven past."],
     "size": "large",
     "tags": ["google", "middleSectionBeen"],
     "type": "place"
   },
   "independence": {
     "complete": true,
+    "header": "Countries that have declared independence from other countries.",
     "icon": "🎆",
     "map": {
       "cluster": "false",
@@ -1604,6 +1622,7 @@
       "zoom": "2"
     },
     "name": "Independence",
+    "notes": ["Generally the second country is the one it declared independence from."],
     "prefixClass": "fixed",
     "prefixType": "year",
     "size": "medium",
@@ -2573,6 +2592,9 @@
     "size": "small",
     "tags": ["no-coords", "people", "prefix"],
     "type": "place"
+  },
+  "portfolio": {
+
   },
   "ports": {
     "icon": "⚓️",

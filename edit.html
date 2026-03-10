@@ -143,6 +143,7 @@
     <div>
       <button id="saveBtn" class="pill" type="button">Save</button>
       <button id="resetBtn" class="pill" type="button">Reset</button>
+      <button id="deleteBtn" class="pill" type="button" style="display:none;">Delete</button>
     </div>
     <div id="status">Loading…</div>
   </div>
@@ -159,36 +160,30 @@
     </div>
 
     <div class="row">
-      <span class="label">Link</span>
+      <span class="label" id="linkLabel" style="cursor:pointer;" title="Click to look up Wikipedia link">Link</span>
       <input id="link" class="input" type="url" spellcheck="false">
-    </div>
-
-    <div class="row">
-      <span class="label"></span>
-      <span class="pillWrap">
-        <button id="wikiBtn" class="pill" type="button">Wiki</button>
-        <button id="openBtn" class="pill" type="button">Open</button>
-      </span>
+      <button id="openBtn" class="pill" type="button" style="margin-left:12px;">Open</button>
     </div>
     
     <div class="row">
-      <span class="label">Prefix</span>
-      <input id="prefix" class="input" type="text" spellcheck="false">
+      <span class="label" id="coordsLabel" style="cursor:pointer;" title="Click to look up coords from link">Coords</span>
+      <input id="coords" class="input" type="text" spellcheck="false">
+      <button id="mapBtn" class="pill" type="button" style="margin-left:12px;">Map</button>
     </div>
 
     <div class="row">
-      <span class="label">Reference</span>
+      <span class="label" id="cityLabel" style="cursor:pointer;" title="Click to look up nearest city from coords">City</span>
+      <input id="city" class="input" type="text" spellcheck="false">
+    </div>
+
+    <div class="row">
+      <span class="label" id="referenceLabel" style="cursor:pointer;" title="Click to copy city to reference">Reference</span>
       <input id="reference" class="input" type="text" spellcheck="false">
     </div>
 
     <div class="row">
-      <span class="label">Coords</span>
-      <input id="coords" class="input" type="text" spellcheck="false">
-    </div>
-
-    <div class="row">
-      <span class="label">City</span>
-      <input id="city" class="input" type="text" spellcheck="false">
+      <span class="label">Prefix</span>
+      <input id="prefix" class="input" type="text" spellcheck="false">
     </div>
 
     <div class="row">
@@ -223,8 +218,13 @@
 
     const elSaveBtn = document.getElementById("saveBtn");
     const elResetBtn = document.getElementById("resetBtn");
-    const elWikiBtn = document.getElementById("wikiBtn");
+    const elDeleteBtn = document.getElementById("deleteBtn");
+    const elLinkLabel = document.getElementById("linkLabel");
+    const elCityLabel = document.getElementById("cityLabel");
+    const elCoordsLabel = document.getElementById("coordsLabel");
+    const elReferenceLabel = document.getElementById("referenceLabel");
     const elOpenBtn = document.getElementById("openBtn");
+    const elMapBtn = document.getElementById("mapBtn");
 
     let original = null;
     let isCreateMode = false;
@@ -436,6 +436,7 @@
         populateForm(entity);
 
         elCard.style.display = "inline-block";
+        elDeleteBtn.style.display = "";
         setStatus("Loaded.", "ok");
       } catch (err) {
         setStatus("Load failed. " + err.message, "error");
@@ -472,6 +473,7 @@
             KEY = String(updated.key);
             isCreateMode = false;
             elSaveBtn.textContent = "Save";
+            elDeleteBtn.style.display = "";
 
             const nextUrl = new URL(location.href);
             nextUrl.searchParams.set("list", LIST);
@@ -507,13 +509,37 @@
       setStatus("Reset.", null);
     }
 
+    async function deleteEntity() {
+      if (!KEY || isCreateMode) return;
+      if (!confirm(`Delete "${original.name}"? This cannot be undone.`)) return;
+
+      elDeleteBtn.disabled = true;
+      setStatus("Deleting…");
+
+      try {
+        await api(`/entities/${encodeURIComponent(LIST)}/${encodeURIComponent(KEY)}`, { method: "DELETE" });
+        setStatus("Deleted.", "ok");
+        setTimeout(() => {
+          location.href = `./page.html?id=${LIST}`
+        }, 800);
+      } catch (err) {
+        if (err.status === 401) {
+          setStatus("Not authenticated. Go to admin.html and sign in.", "error");
+        } else {
+          setStatus("Delete failed. " + err.message, "error");
+        }
+        elDeleteBtn.disabled = false;
+      }
+    }
+
     elSaveBtn.addEventListener("click", save);
     elResetBtn.addEventListener("click", resetForm);
+    elDeleteBtn.addEventListener("click", deleteEntity);
 
     elBeen.addEventListener("click", () => togglePill(elBeen));
     elStrike.addEventListener("click", () => togglePill(elStrike));
 
-    elWikiBtn.addEventListener("click", async () => {
+    elLinkLabel.addEventListener("click", async () => {
       const name = elName.value.trim();
       if (!name) return;
 
@@ -536,6 +562,59 @@
       const url = (elLink.value || "").trim();
       if (!url) return;
       window.open(url, "_blank", "noopener,noreferrer");
+    });
+
+    elCoordsLabel.addEventListener("click", async () => {
+      const url = elLink.value.trim();
+      if (!url) { setStatus("No link to look up coords from.", "error"); return; }
+      if (elCoords.value.trim()) { setStatus("Coords already set.", "error"); return; }
+
+      try {
+        setStatus("Looking up coords…");
+        const res = await api(`/coords?url=${encodeURIComponent(url)}&list=${encodeURIComponent(LIST)}`, { method: "GET" });
+        if (!res?.coords) { setStatus("No coords found for this URL.", "error"); return; }
+        elCoords.value = res.coords;
+        setStatus("Coords set.", "ok");
+      } catch (err) {
+        setStatus("Coords lookup failed. " + err.message, "error");
+      }
+    });
+
+    elReferenceLabel.addEventListener("click", () => {
+      const city = elCity.value.trim();
+      if (!city) { setStatus("No city to copy to reference.", "error"); return; }
+      elReference.value = city;
+      setStatus(`Reference set to "${city}".`, "ok");
+    });
+
+    elCityLabel.addEventListener("click", async () => {
+      const raw = (elCoords.value || "").trim();
+      if (!raw) { setStatus("No coords to look up city from.", "error"); return; }
+      const [latStr, lonStr] = raw.split(",");
+      const lat = parseFloat(latStr);
+      const lon = parseFloat(lonStr);
+      if (isNaN(lat) || isNaN(lon)) { setStatus("Invalid coords format (expected: lat, lon).", "error"); return; }
+
+      try {
+        setStatus("Looking up nearest city…");
+        const res = await api(`/entities/nearby?lat=${lat}&lon=${lon}&radius=20&list=cities&limit=1`, { method: "GET" });
+        const city = res?.results?.[0];
+        if (!city) { setStatus("No city found within 20 km.", "error"); return; }
+        elCity.value = city.name;
+        setStatus(`City set to ${city.name} (${city.distanceKm} km away).`, "ok");
+      } catch (err) {
+        setStatus("City lookup failed. " + err.message, "error");
+      }
+    });
+
+    elMapBtn.addEventListener("click", () => {
+      const raw = (elCoords.value || "").trim();
+      if (!raw) return;
+      const [latStr, lonStr] = raw.split(",");
+      const lat = parseFloat(latStr);
+      const lon = parseFloat(lonStr);
+      if (isNaN(lat) || isNaN(lon)) { setStatus("Invalid coords format (expected: lat, lon).", "error"); return; }
+      window.open(`https://maps.apple.com/?ll=${lat},${lon}&t=m`, "_blank", "noopener,noreferrer");
     });
     
     // Sugar: convert 2-letter country codes to flag emojis on blur

@@ -324,10 +324,26 @@ function codesFromEntity(entity, pluralKey, singularKey) {
   return [];
 }
 
+// Sort overrides for country codes whose ISO code doesn't match the common English name.
+// Maps ISO 3166-1 alpha-2 → sort key used in place of the raw code.
+const COUNTRY_SORT_OVERRIDES = {
+  AE: "UAE",        // United Arab Emirates sorts as U, not A
+  CH: "Switzerland", // Switzerland sorts as S, not C
+  DE: "Germany",    // Germany sorts as G, not D
+  ES: "Spain",      // Spain sorts as S, not E
+  HR: "Croatia",    // Croatia sorts as C, not H
+  MK: "North Macedonia", // North Macedonia sorts as N, not M
+  RS: "Serbia",     // Serbia sorts as S, not R
+};
+
+function countrySortKey(code) {
+  return COUNTRY_SORT_OVERRIDES[code] ?? code;
+}
+
 function compareCodeArrays(aCodes, bCodes) {
-  // Swift's `lexicographicallyPrecedes` behavior.
-  const a = Array.isArray(aCodes) ? aCodes.map(String) : [];
-  const b = Array.isArray(bCodes) ? bCodes.map(String) : [];
+  // Swift's `lexicographicallyPrecedes` behavior, with sort key overrides applied.
+  const a = Array.isArray(aCodes) ? aCodes.map(c => countrySortKey(String(c))) : [];
+  const b = Array.isArray(bCodes) ? bCodes.map(c => countrySortKey(String(c))) : [];
 
   const n = Math.min(a.length, b.length);
   for (let i = 0; i < n; i++) {
@@ -462,9 +478,12 @@ function sortedGroups(listInfo, entities, listCtx) {
     const near = list.filter(e => e.been === true && (Number(e.distance) || 0) >= nearDistance);
     const todo = list.filter(e => e.been === false);
     groups = [been, near, todo];
+  } else if (listCtx.tags.includes("people")) {
+    // People lists: been is not meaningful; render everything in one section.
+    groups = [list];
   } else if (["place", "country"].includes(listInfo.type)) {
     const been = list.filter(e => e.been === true);
-    const todo = list.filter(e => e.been === false);
+    const todo = list.filter(e => e.been === false || e.been == null);
     if (todo.length > 0) groups = [been, todo];
   }
 
@@ -481,7 +500,8 @@ function applyEditModeToDom(pageId, editMode) {
     if (!a.dataset.viewHref) a.dataset.viewHref = a.getAttribute("href") || "#";
     if (editMode) {
       const key = a.getAttribute("id") || "";
-      a.setAttribute("href", `edit.html?list=${encodeURIComponent(pageId)}&key=${encodeURIComponent(key)}`);
+      const editList = window.pageInfo?.propertyOf || pageId;
+      a.setAttribute("href", `edit.html?list=${encodeURIComponent(editList)}&key=${encodeURIComponent(key)}`);
     } else {
       a.setAttribute("href", a.dataset.viewHref || "#");
     }
@@ -589,7 +609,9 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   // Optional header caption
   if (listInfo.header) {
-    app.append(el("div", { class: "caption" }, text(listInfo.header)));
+    const headerEl = el("div", { class: "caption" });
+    headerEl.innerHTML = listInfo.header;
+    app.append(headerEl);
   }
 
   const listCtx = {
@@ -633,7 +655,9 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   // Optional footer caption
   if (listInfo.footer) {
-    app.append(el("div", { class: "caption" }, text(listInfo.footer)));
+    const footerEl = el("div", { class: "caption" });
+    footerEl.innerHTML = listInfo.footer;
+    app.append(footerEl);
   }
 
   // Optional per-page script
