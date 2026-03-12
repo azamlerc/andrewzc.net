@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loading…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.45" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+  .headline {
+    text-align: right;
+  }
+
+  #map {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .headerActions {
+    right: auto;
+    left: 10px;
+  }
+
+  .items.rtl-list {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .items.rtl-list a {
+    direction: ltr;
+    unicode-bidi: embed;
+  }
+
+  .items.rtl-list .dark {
+    color: black;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .items.rtl-list .dark {
+      color: white;
+    }
+  }
+</style>
+<body>
+  <div id="app"></div>
+
+  <script src="page.js"></script>
+  <script>
+    // Override renderRow to emit RTL layout:
+    //   [link] [flag] [reference in script]
+    // This mirrors the static mosques.html / synagogues.html pattern.
+    const _origRenderRow = renderRow;
+    window.renderRow = function renderRowRtl(entity, listCtx) {
+      const frag = document.createDocumentFragment();
+
+      frag.append(
+        el("a",
+          {
+            href: entity.link || "#",
+            id: entity.key || null,
+            class: entity.strike ? "strike" : null
+          },
+          text(entity.name || "untitled")
+        )
+      );
+
+      const icons = Array.isArray(entity.icons) ? entity.icons.join(" ") : "";
+      if (icons) {
+        frag.append(text(" "), text(icons));
+      }
+
+      if (entity.reference) {
+        frag.append(
+          text(" "),
+          el("span", { class: "dark" }, text(entity.reference))
+        );
+      }
+
+      frag.append(br(), text("\n"));
+      return frag;
+    };
+
+    // After renderPage builds the DOM, reverse the headline to "Name Icon"
+    // and add the rtl-list class to the items container.
+    const _origRenderPage = renderPage;
+    window.renderPage = function renderPageRtl(listInfo, entities, opts) {
+      _origRenderPage(listInfo, entities, opts);
+
+      // Reverse headline: page.js writes "${icon} ${name}", we want "${name} ${icon}"
+      const headline = document.querySelector(".headline");
+      if (headline) {
+        const icon = listInfo.icon || "";
+        for (const node of headline.childNodes) {
+          if (node.nodeType === Node.TEXT_NODE) {
+            node.textContent = node.textContent.replace(
+              new RegExp(`^${escapeRegExp(icon)}\\s+`),
+              ""
+            ) + " " + icon;
+          }
+        }
+      }
+
+      const items = document.querySelector(".items");
+      if (items) items.classList.add("rtl-list");
+    };
+
+    function escapeRegExp(s) {
+      return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+  </script>
+  <script src="flags.js"></script>
+  <script src="typeahead.js"></script>
+</body>
+</html>
