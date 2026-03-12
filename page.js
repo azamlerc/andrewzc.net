@@ -243,7 +243,8 @@ function renderRow(entity, listCtx) {
   }
 
   const referenceFirst = listCtx.tags.includes("reference-first");
-  if (entity.reference && referenceFirst) {
+  const noReference = listCtx.tags.includes("no-reference");
+  if (entity.reference && referenceFirst && !noReference) {
     frag.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
   }
 
@@ -260,7 +261,7 @@ function renderRow(entity, listCtx) {
     )
   );
 
-  if (entity.reference && !referenceFirst) {
+  if (entity.reference && !referenceFirst && !noReference) {
     frag.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
   }
 
@@ -618,7 +619,8 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     tags: Array.isArray(listInfo.tags) ? listInfo.tags : [],
     flagFolder: listInfo.flagFolder || "flags",
     flagClass: listInfo.flagClass || "state",
-    prefixClass: listInfo.prefixClass || null,
+    // "fixed" is the default; individual pages can override by setting prefixClass explicitly
+    prefixClass: listInfo.prefixClass || "fixed",
     todoIcon: Boolean(listInfo.todoIcon),
     // subtle grouping for twin-* pages
     groupSeparator: (listInfo.todoIcon ? "gap" : "hr"),
@@ -749,4 +751,3 @@ async function isAdminSession() {
 function commented(text) {
   return document.createComment(text ?? "");
 }
- 

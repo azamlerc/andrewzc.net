@@ -373,6 +373,64 @@
       };
     }
 
+    // ---- Coords parsing ----
+
+    function parseDMSComponent(s) {
+      s = s.trim();
+      const decMatch = s.match(/^([+-]?\d+(?:\.\d+)?)°?\s*([NSEWOnsew]?)$/);
+      if (decMatch) {
+        let v = parseFloat(decMatch[1]);
+        const dir = decMatch[2].toUpperCase();
+        if (dir === "S" || dir === "W" || dir === "O") v = -v;
+        return v;
+      }
+      const dmsMatch = s.match(/^(\d+(?:\.\d+)?)°(?:(\d+(?:\.\d+)?)[′'`])?(?:(\d+(?:\.\d+)?)[″"])?\s*([NSEWOnsew]?)$/);
+      if (dmsMatch) {
+        const deg = parseFloat(dmsMatch[1]) || 0;
+        const min = parseFloat(dmsMatch[2]) || 0;
+        const sec = parseFloat(dmsMatch[3]) || 0;
+        let v = deg + min / 60 + sec / 3600;
+        const dir = (dmsMatch[4] || "").toUpperCase();
+        if (dir === "S" || dir === "W" || dir === "O") v = -v;
+        return v;
+      }
+      return null;
+    }
+
+    // Parses "lat, lon" or "latDMS lonDMS" style strings.
+    // Returns { lat, lon } or null.
+    function parseCoordsInput(s) {
+      if (!s) return null;
+      s = s.trim();
+
+      // Try splitting on comma first
+      const commaIdx = s.indexOf(",");
+      if (commaIdx !== -1) {
+        const lat = parseDMSComponent(s.slice(0, commaIdx));
+        const lon = parseDMSComponent(s.slice(commaIdx + 1));
+        if (lat != null && lon != null && !isNaN(lat) && !isNaN(lon)) return { lat, lon };
+      }
+
+      // Try splitting on whitespace between two DMS tokens (e.g. "40°45′24″N 73°59′28″W")
+      const spaceMatch = s.match(/^(\S+[NSns])\s+(\S+[EWOewo])$/);
+      if (spaceMatch) {
+        const lat = parseDMSComponent(spaceMatch[1]);
+        const lon = parseDMSComponent(spaceMatch[2]);
+        if (lat != null && lon != null && !isNaN(lat) && !isNaN(lon)) return { lat, lon };
+      }
+
+      return null;
+    }
+
+    function normalizeCoords(s) {
+      const parsed = parseCoordsInput(s);
+      if (!parsed) return null;
+      const fmt = n => parseFloat(n.toFixed(8)).toString();
+      return { lat: parsed.lat, lon: parsed.lon, coords: `${fmt(parsed.lat)}, ${fmt(parsed.lon)}` };
+    }
+
+    // ---- Diff / patch ----
+
     function diffPatch(orig, cur) {
       const patch = {};
 
@@ -382,6 +440,12 @@
         const o = orig[f] ?? (typeof cur[f] === "boolean" ? false : "");
         const c = cur[f];
         if (o !== c) patch[f] = c;
+      }
+
+      // When coords change, also derive location as GeoJSON
+      if ("coords" in patch) {
+        const parsed = parseCoordsInput(patch.coords);
+        patch.location = parsed ? { type: "Point", coordinates: [parsed.lon, parsed.lat] } : null;
       }
 
       // Compare icons array
@@ -597,7 +661,7 @@
 
       try {
         setStatus("Looking up nearest city…");
-        const res = await api(`/entities/nearby?lat=${lat}&lon=${lon}&radius=20&list=cities&limit=1`, { method: "GET" });
+        const res = await api(`/entities/nearby?lat=${lat}&lon=${lon}&radius=30&list=cities&limit=1`, { method: "GET" });
         const city = res?.results?.[0];
         if (!city) { setStatus("No city found within 20 km.", "error"); return; }
         elCity.value = city.name;
@@ -617,6 +681,18 @@
       window.open(`https://maps.apple.com/?ll=${lat},${lon}&t=m`, "_blank", "noopener,noreferrer");
     });
     
+    // Normalize coords on blur
+    elCoords.addEventListener("blur", () => {
+      const raw = elCoords.value.trim();
+      if (!raw) return;
+      const result = normalizeCoords(raw);
+      if (result) {
+        elCoords.value = result.coords;
+      } else {
+        setStatus("Could not parse coords — expected \"lat, lon\" or DMS format.", "error");
+      }
+    });
+
     // Sugar: convert 2-letter country codes to flag emojis on blur
     elIcons.addEventListener("blur", () => {
       const tokens = String(elIcons.value || "")
