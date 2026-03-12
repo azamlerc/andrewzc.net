@@ -54,6 +54,10 @@ function br() {
   return document.createElement("br");
 }
 
+function smallSpace() {
+  return el("div", { class: "smallSpace" }, br());
+}
+
 function clear(node) {
   while (node.firstChild) node.removeChild(node.firstChild);
 }
@@ -172,7 +176,13 @@ function renderIcons(entity, listCtx) {
     return [commented(icons)];
   }
 
-  return icons ? [text(icons)] : [];
+  if (!icons) return [];
+
+  if (listCtx.todoIcon && entity.been === false) {
+    return [el("span", { class: "todo" }, text(icons))];
+  }
+
+  return [text(icons)];
 }
 
 function renderFlags(entity, listCtx) {
@@ -180,15 +190,18 @@ function renderFlags(entity, listCtx) {
 
   // Twin-* pages show TODO flags at 50% opacity (keyed off todoIcon).
   const isTodo = entity.been === false;
-  const opacity = (listCtx.todoIcon && isTodo) ? 0.5 : 1;
-
-  return entity.flags.map(f =>
+  const flags = entity.flags.map(f =>
     el("img", {
       class: listCtx.flagClass,
-      src: `images/${listCtx.flagFolder}/${f}.png`,
-      style: opacity < 1 ? `opacity:${opacity}` : null
+      src: `images/${listCtx.flagFolder}/${f}.png`
     })
   );
+
+  if (listCtx.todoIcon && isTodo) {
+    return [el("span", { class: "todo" }, flags)];
+  }
+
+  return flags;
 }
 
 function renderBadges(entity, listCtx) {
@@ -450,6 +463,29 @@ function buildComparator(sortSpec, tags) {
   };
 }
 
+function groupPlaces(entities) {
+  const groups = [];
+  let currentGroup = [];
+  let lastGroupKey = Symbol("initial-group");
+
+  for (const entity of entities) {
+    const groupKey = entity?.group ?? null;
+    if (currentGroup.length === 0 || groupKey === lastGroupKey) {
+      currentGroup.push(entity);
+    } else {
+      groups.push(currentGroup);
+      currentGroup = [entity];
+    }
+    lastGroupKey = groupKey;
+  }
+
+  if (currentGroup.length > 0) {
+    groups.push(currentGroup);
+  }
+
+  return groups;
+}
+
 function sortedGroups(listInfo, entities, listCtx) {
   const list = [...entities];
 
@@ -459,10 +495,7 @@ function sortedGroups(listInfo, entities, listCtx) {
 
   let groups = [list];
 
-  // Swift branches:
-  // todoIcon => groupPlaces(...) (not included in your snippet; skip unless you need it)
   if (listCtx.todoIcon) {
-    // twin-cities / twin-stations: group adjacent items with same `.group`
     groups = groupPlaces(list);
   } else if (Array.isArray(listInfo.sections)) {
     const sections = listInfo.sections;
@@ -621,9 +654,9 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     flagClass: listInfo.flagClass || "state",
     // "fixed" is the default; individual pages can override by setting prefixClass explicitly
     prefixClass: listInfo.prefixClass || "fixed",
-    todoIcon: Boolean(listInfo.todoIcon),
+    todoIcon: Boolean(listInfo.todoIcon) || (Array.isArray(listInfo.tags) && listInfo.tags.includes("todo-icon")),
     // subtle grouping for twin-* pages
-    groupSeparator: (listInfo.todoIcon ? "gap" : "hr"),
+    groupSeparator: ((Boolean(listInfo.todoIcon) || (Array.isArray(listInfo.tags) && listInfo.tags.includes("todo-icon"))) ? "gap" : "hr"),
     header: listInfo.header || null,
     footer: listInfo.footer || null,
     headlines: listInfo.headlines || null,
@@ -643,7 +676,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
     if (idx > 0) {
       if (listCtx.groupSeparator === "hr") items.append(el("hr"));
-      else items.append(el("div", { class: "group-gap" }));
+      else items.append(smallSpace());
     }
 
     if (headers && idx < headers.length) {

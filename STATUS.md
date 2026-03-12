@@ -34,3 +34,24 @@ Implemented direct image upload from the website edit page and refactored the ed
 ## Result
 
 The website can now upload images directly from the edit page without manual S3 steps, and the edit page code is substantially cleaner and easier to maintain.
+
+## March 12, 2026 Update
+
+### Summary
+
+Implemented the `todo-icon` rendering path in the shared dynamic page renderer so `twin-stations` and `twin-cities` now match the old static grouped layout.
+
+### Changes Made
+
+- Updated `page.js` so pages whose `tags` contain `todo-icon` use the legacy twin-page behavior.
+- Stopped those pages from splitting entities into been/todo sections with an `<hr>`.
+- Grouped adjacent entities by shared `group` so related names stay together.
+- Rendered todo icons and flags inside a `<span class="todo">...</span>` wrapper so unvisited entries appear faded.
+- Inserted `<div class="smallSpace"><br></div>` between adjacent groups to match the legacy spacing.
+- Verified the renderer change against `twin-stations` and `twin-cities`.
+- Confirmed a separate data issue in the API response: many `twin-stations` entities were missing `group`, which caused an ungrouped tail section.
+- After the data was fixed outside this repo, confirmed the dynamic pages now render as expected.
+
+### Result
+
+The shared dynamic renderer now supports the special `todo-icon` twin-page layout, and `twin-stations` / `twin-cities` render correctly once the API data includes consistent `group` values.
