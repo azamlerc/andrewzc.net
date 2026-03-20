@@ -1,20 +1,63 @@
 .card {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
   background: white;
   margin-left: 10px;
-  min-width: 920px;
+  width: min(920px, calc(100vw - 20px));
 }
 
 .row {
   margin: 14px 0px;
-  white-space: nowrap;
+}
+
+.rowCompact {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.field {
+  width: 100%;
+}
+
+.fieldCompact {
+  flex: 0 0 200px;
+  width: 200px;
+}
+
+.fieldHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  min-height: 52px;
 }
 
 .label {
-  display: inline-block;
-  width: 170px;
+  display: block;
   font: 24pt Avenir;
   color: #999;
+  min-width: 0;
+}
+
+.fieldActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.inputWithButton {
+  width: calc(100% - 112px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inlineFieldButton {
+  margin-left: 12px;
   vertical-align: middle;
 }
 
@@ -24,10 +67,15 @@
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 10px 14px;
-  width: 660px;
+  width: 100%;
+  box-sizing: border-box;
   outline: none;
-  vertical-align: middle;
   background: white;
+}
+
+.inputCompact {
+  width: 200px;
+  max-width: 100%;
 }
 
 .input:focus, .textarea:focus {
@@ -46,17 +94,13 @@
   margin-top: 10px;
   margin-bottom: 16px;
   margin-left: 10px;
-  min-width: 920px;
+  width: min(920px, calc(100vw - 20px));
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .error { color: #BA373E; }
 .ok { color: #55AB3D; }
-
-.headerLine {
-  font: 70pt Avenir;
-  margin-bottom: 6px;
-  margin-left: 10px;
-}
 
 .subheader {
   font: 30pt Avenir;
@@ -66,22 +110,23 @@
 }
 
 .pillWrap {
-  display: inline-block;
-  width: 660px;
-  vertical-align: middle;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .imagesWrap {
-  display: inline-block;
-  width: 660px;
-  vertical-align: top;
+  display: block;
+  width: 100%;
 }
 
 .imagesToolbar {
   display: flex;
   align-items: center;
-  gap: 12px;
+  justify-content: flex-end;
   margin-bottom: 12px;
+  min-height: 20px;
 }
 
 .imagesHelp {
@@ -125,9 +170,9 @@
   background: transparent;
   color: #444;
   cursor: pointer;
-  margin-right: 12px;
   transition: transform 0.05s ease, background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   user-select: none;
+  margin: 0;
 }
 
 .pill:active { transform: translateY(1px); }
@@ -152,6 +197,7 @@
 
 @media (prefers-color-scheme: dark) {
   .card { background: black; }
+  .label { color: #666; }
   .input, .textarea {
     background: black;
     color: #BBB;
@@ -169,5 +215,27 @@
   }
   .thumbLink {
     background: #222;
+  }
+}
+
+@media (max-width: 720px) {
+  .rowCompact {
+    flex-wrap: wrap;
+  }
+
+  .fieldCompact,
+  .inputCompact {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .inputWithButton {
+    width: 100%;
+    display: block;
+  }
+
+  .inlineFieldButton {
+    margin-left: 0;
+    margin-top: 12px;
   }
 }

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div id="headline" class="headerLine">✏️ Edit</div>
+  <div id="headline" class="headline">✏️ Edit</div>
 
   <div class="status" style="display:flex; align-items:center; gap:20px;">
     <div>
@@ -22,61 +22,126 @@
   </div>
   
   <div id="card" class="card" style="display:none;">
-    <div class="row">
-      <span class="label">Icons</span>
-      <input id="icons" class="input" type="text" spellcheck="false">
+    <div class="row rowCompact">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Icons</span>
+        </div>
+        <input id="icons" class="input inputCompact" type="text" spellcheck="false">
+      </div>
     </div>
 
     <div class="row">
-      <span class="label">Name</span>
-      <input id="name" class="input" type="text" spellcheck="false">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Name</span>
+        </div>
+        <input id="name" class="input" type="text" spellcheck="false">
+      </div>
     </div>
 
     <div class="row">
-      <span class="label" id="linkLabel" style="cursor:pointer;" title="Click to look up Wikipedia link">Link</span>
-      <input id="link" class="input" type="url" spellcheck="false">
-      <button id="openBtn" class="pill" type="button" style="margin-left:12px;">Open</button>
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label" id="linkLabel" style="cursor:pointer;" title="Click to look up Wikipedia link">Link</span>
+					<button id="openBtn" class="pill inlineFieldButton" type="button">Open</button>
+        </div>
+        <input id="link" class="input inputWithButton" type="url" spellcheck="false">
+      </div>
     </div>
     
     <div class="row">
-      <span class="label" id="coordsLabel" style="cursor:pointer;" title="Click to look up coords from link">Coords</span>
-      <input id="coords" class="input" type="text" spellcheck="false">
-      <button id="mapBtn" class="pill" type="button" style="margin-left:12px;">Map</button>
-    </div>
-
-    <div class="row">
-      <span class="label" id="cityLabel" style="cursor:pointer;" title="Click to look up nearest city from coords">City</span>
-      <input id="city" class="input" type="text" spellcheck="false">
-    </div>
-
-    <div class="row">
-      <span class="label" id="referenceLabel" style="cursor:pointer;" title="Click to copy city to reference">Reference</span>
-      <input id="reference" class="input" type="text" spellcheck="false">
-    </div>
-
-    <div class="row">
-      <span class="label">Prefix</span>
-      <input id="prefix" class="input" type="text" spellcheck="false">
-    </div>
-
-    <div class="row">
-      <span class="label">Flags</span>
-      <span class="pillWrap">
-        <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
-        <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
-      </span>
-    </div>
-
-    <div class="row">
-      <span class="label">Images</span>
-      <span class="imagesWrap">
-        <div class="imagesToolbar">
-          <button id="uploadImagesBtn" class="pill" type="button">Upload</button>
-          <span id="imagesHelp" class="imagesHelp">Save new entities before uploading images.</span>
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label" id="coordsLabel" style="cursor:pointer;" title="Click to look up coords from link">Coords</span>
+					<button id="mapBtn" class="pill inlineFieldButton" type="button">Map</button>
         </div>
-        <div id="imageGrid" class="thumbGrid"></div>
-        <input id="imageInput" type="file" accept="image/*" multiple style="display:none;">
-      </span>
+        <input id="coords" class="input inputWithButton" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label" id="cityLabel" style="cursor:pointer;" title="Click to look up nearest city from coords">City</span>
+        </div>
+        <input id="city" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label" id="referenceLabel" style="cursor:pointer;" title="Click to copy city to reference">Reference</span>
+        </div>
+        <input id="reference" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Prefix</span>
+        </div>
+        <input id="prefix" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Info</span>
+        </div>
+        <input id="info" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row rowCompact">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Badges</span>
+        </div>
+        <input id="badges" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Caption</span>
+        </div>
+        <input id="caption" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Flags</span>
+        </div>
+        <span class="pillWrap">
+          <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
+          <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Images</span>
+          <span class="fieldActions">
+            <button id="uploadImagesBtn" class="pill" type="button">Upload</button>
+          </span>
+        </div>
+        <span class="imagesWrap">
+          <div class="imagesToolbar">
+            <span id="imagesHelp" class="imagesHelp">Save new entities before uploading images.</span>
+          </div>
+          <div id="imageGrid" class="thumbGrid"></div>
+          <input id="imageInput" type="file" accept="image/*" multiple style="display:none;">
+        </span>
+      </div>
     </div>
   </div>
 

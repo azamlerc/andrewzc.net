@@ -19,7 +19,7 @@ function getApiBase() {
 
 async function fetchPageData(pageId) {
   const base = getApiBase().replace(/\/+$/, "");
-  const url = `${base}/pages/${encodeURIComponent(pageId)}`;
+  const url = `${base}/pages/${encodeURIComponent(pageId)}/entities`;
   const res = await fetch(url, { headers: { "Accept": "application/json" } });
   if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
   return await res.json();
@@ -127,22 +127,12 @@ function ensureScript(src) {
       border-color: transparent;
     }
 
-    .newEntityBtn {
-      font: 16pt Avenir;
-      padding: 8px 24px;
-      border-radius: 999px;
-      border: 1px solid rgba(0,0,0,0.18);
-      background: transparent;
+    .headerActions a.pillToggle {
       text-decoration: none;
       color: inherit;
-      cursor: pointer;
     }
 
-    .pillToggle:active, .newEntityBtn:active { transform: translateY(1px); }
-
-    @media (prefers-color-scheme: dark) {
-      .newEntityBtn { border-color: rgba(255,255,255,0.22); }
-    }
+    .pillToggle:active { transform: translateY(1px); }
   `;
   document.head.appendChild(style);
 })();
@@ -369,7 +359,11 @@ function compareCodeArrays(aCodes, bCodes) {
   if (a.length === b.length) return 0;
   return a.length < b.length ? -1 : 1;
 }
-function compareValues(av, bv, { numeric = false, descending = false } = {}) {
+function stripSortableArticle(value) {
+  return String(value ?? "").replace(/^The\s+/i, "");
+}
+
+function compareValues(av, bv, { numeric = false, descending = false, ignoreLeadingThe = false } = {}) {
   const aU = av == null;
   const bU = bv == null;
   if (aU && bU) return 0;
@@ -388,7 +382,9 @@ function compareValues(av, bv, { numeric = false, descending = false } = {}) {
     else if (bBad) out = -1;
     else out = an === bn ? 0 : (an < bn ? -1 : 1);
   } else {
-    out = String(av).localeCompare(String(bv), undefined, { numeric: true, sensitivity: "base" });
+    const aValue = ignoreLeadingThe ? stripSortableArticle(av) : String(av);
+    const bValue = ignoreLeadingThe ? stripSortableArticle(bv) : String(bv);
+    out = aValue.localeCompare(bValue, undefined, { numeric: true, sensitivity: "base" });
   }
 
   return descending ? -out : out;
@@ -454,7 +450,11 @@ function buildComparator(sortSpec, tags) {
         c = compareCodeArrays(as, bs);
         if (k.descending) c = -c;
       } else {
-        c = compareValues(a?.[k.key], b?.[k.key], { numeric: k.numeric, descending: k.descending });
+        c = compareValues(a?.[k.key], b?.[k.key], {
+          numeric: k.numeric,
+          descending: k.descending,
+          ignoreLeadingThe: k.key === "name"
+        });
       }
 
       if (c !== 0) return c;
@@ -545,7 +545,7 @@ function applyEditModeToDom(pageId, editMode) {
   const actions = document.querySelector(".headerActions");
   if (actions) {
     const editBtn = actions.querySelector("button.pillToggle");
-    const newBtn = actions.querySelector("a.newEntityBtn");
+    const newBtn = actions.querySelector("a.pillToggle");
     if (editBtn) editBtn.classList.toggle("on", !!editMode);
     if (newBtn) newBtn.style.display = editMode ? "inline-block" : "none";
   }
@@ -562,7 +562,7 @@ function ensureAdminControls(pageId) {
 
   const newBtn = el(
     "a",
-    { class: "newEntityBtn", href: `edit.html?list=${encodeURIComponent(pageId)}` },
+    { class: "pillToggle", href: `edit.html?list=${encodeURIComponent(pageId)}` },
     text("New")
   );
   // hidden until edit mode is on

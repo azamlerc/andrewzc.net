@@ -22,8 +22,11 @@ const elStatus = document.getElementById("status");
 const elCard = document.getElementById("card");
 
 const elIcons = document.getElementById("icons");
+const elBadges = document.getElementById("badges");
 const elName = document.getElementById("name");
 const elPrefix = document.getElementById("prefix");
+const elInfo = document.getElementById("info");
+const elCaption = document.getElementById("caption");
 const elReference = document.getElementById("reference");
 const elLink = document.getElementById("link");
 const elCoords = document.getElementById("coords");
@@ -52,8 +55,11 @@ function blankEntity() {
     list: LIST,
     key: null,
     icons: [],
+    badges: [],
     name: "",
     prefix: "",
+    info: "",
+    caption: "",
     reference: "",
     link: "",
     coords: "",
@@ -185,8 +191,11 @@ async function uploadImages(files) {
 
 function populateForm(e) {
   elIcons.value = iconsArrayToString(e.icons || []);
+  elBadges.value = iconsArrayToString(e.badges || []);
   elName.value = e.name || "";
   elPrefix.value = e.prefix || "";
+  elInfo.value = e.info || "";
+  elCaption.value = e.caption || "";
   elReference.value = e.reference || "";
   elLink.value = e.link || "";
   elCoords.value = e.coords || "";
@@ -198,11 +207,15 @@ function populateForm(e) {
 
 function currentFormEntity() {
   const iconsArr = iconsStringToArray(elIcons.value);
+  const badgesArr = iconsStringToArray(elBadges.value);
 
   return {
     icons: iconsArr,
+    badges: badgesArr,
     name: elName.value.trim(),
     prefix: elPrefix.value.trim(),
+    info: elInfo.value.trim(),
+    caption: elCaption.value.trim(),
     reference: elReference.value.trim(),
     link: elLink.value.trim(),
     coords: elCoords.value.trim(),
@@ -265,7 +278,7 @@ function normalizeCoords(s) {
 function diffPatch(orig, cur) {
   const patch = {};
 
-  const fields = ["name", "prefix", "reference", "link", "city", "coords", "been", "strike"];
+  const fields = ["name", "prefix", "info", "caption", "reference", "link", "city", "coords", "been", "strike"];
   for (const f of fields) {
     const o = orig[f] ?? (typeof cur[f] === "boolean" ? false : "");
     const c = cur[f];
@@ -288,6 +301,12 @@ function diffPatch(orig, cur) {
       if (derived.countries) patch.countries = derived.countries;
       else patch.countries = null;
     }
+  }
+
+  const oBadges = Array.isArray(orig.badges) ? orig.badges : [];
+  const cBadges = Array.isArray(cur.badges) ? cur.badges : [];
+  if (JSON.stringify(oBadges) !== JSON.stringify(cBadges)) {
+    patch.badges = cBadges;
   }
 
   delete patch._id;
@@ -521,8 +540,8 @@ elCoords.addEventListener("blur", () => {
   }
 });
 
-elIcons.addEventListener("blur", () => {
-  const tokens = String(elIcons.value || "")
+function normalizeEmojiField(input) {
+  const tokens = String(input.value || "")
     .trim()
     .split(/\s+/)
     .filter(Boolean);
@@ -538,8 +557,11 @@ elIcons.addEventListener("blur", () => {
     return t;
   });
 
-  elIcons.value = transformed.join(" ");
-});
+  input.value = transformed.join(" ");
+}
+
+elIcons.addEventListener("blur", () => normalizeEmojiField(elIcons));
+elBadges.addEventListener("blur", () => normalizeEmojiField(elBadges));
 
 document.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {

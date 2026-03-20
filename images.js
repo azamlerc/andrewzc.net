@@ -51,13 +51,6 @@ export function renderImages({ list, entity, pendingFiles = [], imageGrid, uploa
     imageGrid.appendChild(a);
   }
 
-  if (imageGrid.children.length === 0) {
-    const empty = document.createElement("div");
-    empty.className = "imagesHelp";
-    empty.textContent = "No images yet.";
-    imageGrid.appendChild(empty);
-  }
-
   uploadButton.disabled = !canUpload;
   imagesHelp.textContent = canUpload ? "" : "Save new entities before uploading images.";
 }
