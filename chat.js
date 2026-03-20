@@ -112,9 +112,10 @@
   // ---- Public init ----
 
   window.initChat = function (config) {
-    const chatPath   = config.chatPath   || "/chat/hello";
+    const chatPath    = config.chatPath    || "/chat/hello";
     const placeholder = config.placeholder || "Ask me anything…";
-    const greeting   = config.greeting   || "Hi!";
+    const greeting    = config.greeting    ?? "Hi!";
+    const credentials = config.credentials || "same-origin";  // "include" for admin bots
 
     const chatEl = document.getElementById("chat");
     let history  = [];
@@ -207,9 +208,10 @@
 
       try {
         const res = await fetch(`${apiBase}${chatPath}`, {
-          method:  "POST",
-          headers: { "Content-Type": "application/json" },
-          body:    JSON.stringify({ history, message: text }),
+          method:      "POST",
+          credentials,
+          headers:     { "Content-Type": "application/json" },
+          body:        JSON.stringify({ history, message: text }),
         });
 
         thinking.remove();
@@ -242,8 +244,9 @@
     }
 
     // ---- Boot ----
+    // greeting: null means no opening message — bot waits for input.
 
-    apiReady.then(() => send(greeting, true));
+    apiReady.then(() => { if (greeting) send(greeting, true); });
     input.focus();
   };
 

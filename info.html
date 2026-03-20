@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>✏️ Page Info</title>
+  <meta charset="UTF-8">
+  <meta name="andrewzc" content="auto" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.45">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="edit.css">
+</head>
+
+<body>
+  <div id="headline" class="headline">✏️ Page Info</div>
+
+  <div class="status" style="display:flex; align-items:center; gap:20px;">
+    <div>
+      <button id="saveBtn" class="pill" type="button">Save</button>
+      <button id="resetBtn" class="pill" type="button">Reset</button>
+    </div>
+    <div id="status">Loading…</div>
+  </div>
+
+  <div id="card" class="card" style="display:none;">
+    <div class="row rowCompact">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Icon</span>
+        </div>
+        <input id="icon" class="input inputCompact" type="text" spellcheck="false" maxlength="8">
+      </div>
+
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Name</span>
+        </div>
+        <input id="name" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row rowCompact">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Type</span>
+        </div>
+        <select id="type" class="input inputCompact">
+          <option value="place">place</option>
+          <option value="city">city</option>
+          <option value="country">country</option>
+          <option value="state">state</option>
+          <option value="entity">entity</option>
+        </select>
+      </div>
+
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Size</span>
+        </div>
+        <select id="size" class="input inputCompact">
+          <option value="large">large</option>
+          <option value="medium">medium</option>
+          <option value="small">small</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Property Of</span>
+        </div>
+        <input id="propertyOf" class="input" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Tags</span>
+        </div>
+        <input id="tags" class="input" type="text" spellcheck="false" placeholder="auto reference-key featured">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Sort</span>
+        </div>
+        <input id="sort" class="input" type="text" spellcheck="false" placeholder="name reference">
+      </div>
+    </div>
+
+    <div class="row rowCompact">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Map Lat</span>
+        </div>
+        <input id="mapLat" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Map Lon</span>
+        </div>
+        <input id="mapLon" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Map Zoom</span>
+        </div>
+        <input id="mapZoom" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Header</span>
+        </div>
+        <textarea id="header" class="textarea" spellcheck="false"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Footer</span>
+        </div>
+        <textarea id="footer" class="textarea" spellcheck="false"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Flags</span>
+        </div>
+        <span class="pillWrap">
+          <button id="complete" class="pill been" type="button" aria-pressed="false">Complete</button>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Notes</span>
+          <span class="fieldActions">
+            <button id="addNoteBtn" class="pill" type="button">Add Note</button>
+          </span>
+        </div>
+        <div id="notes"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="info.js"></script>
+</body>
+</html>

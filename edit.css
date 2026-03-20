@@ -85,7 +85,8 @@
 .textarea {
   height: 110px;
   resize: vertical;
-  white-space: pre;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 .status {

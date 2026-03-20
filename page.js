@@ -544,10 +544,8 @@ function applyEditModeToDom(pageId, editMode) {
   // Toggle header buttons
   const actions = document.querySelector(".headerActions");
   if (actions) {
-    const editBtn = actions.querySelector("button.pillToggle");
-    const newBtn = actions.querySelector("a.pillToggle");
+    const editBtn = actions.querySelector(".editToggle");
     if (editBtn) editBtn.classList.toggle("on", !!editMode);
-    if (newBtn) newBtn.style.display = editMode ? "inline-block" : "none";
   }
 }
 
@@ -560,17 +558,21 @@ function ensureAdminControls(pageId) {
 
   actions = el("div", { class: "headerActions" });
 
+  const infoBtn = el(
+    "a",
+    { class: "pillToggle pageInfoBtn", href: `info.html?id=${encodeURIComponent(pageId)}` },
+    text("Info")
+  );
+
   const newBtn = el(
     "a",
-    { class: "pillToggle", href: `edit.html?list=${encodeURIComponent(pageId)}` },
+    { class: "pillToggle newEntityBtn", href: `edit.html?list=${encodeURIComponent(pageId)}` },
     text("New")
   );
-  // hidden until edit mode is on
-  newBtn.style.display = "none";
 
   const editBtn = el(
     "button",
-    { type: "button", class: "pillToggle" },
+    { type: "button", class: "pillToggle editToggle" },
     text("Edit")
   );
 
@@ -581,7 +583,7 @@ function ensureAdminControls(pageId) {
     applyEditModeToDom(pageId, next);
   });
 
-  actions.append(newBtn, editBtn);
+  actions.append(infoBtn, newBtn, editBtn);
   headlineWrap.append(actions);
 
   // Apply stored state (if any)

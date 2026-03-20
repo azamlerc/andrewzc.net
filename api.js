@@ -71,3 +71,21 @@ export function completeImages(list, key, filenames) {
     body: JSON.stringify({ filenames })
   });
 }
+
+export function getPage(key) {
+  return api(`/pages/${encodeURIComponent(key)}`, { method: "GET" });
+}
+
+export function createPage(payload) {
+  return api(`/pages`, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+
+export function updatePage(key, patch) {
+  return api(`/pages/${encodeURIComponent(key)}`, {
+    method: "PUT",
+    body: JSON.stringify(patch)
+  });
+}
