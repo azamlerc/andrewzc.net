@@ -94,6 +94,7 @@
     .chat-bot th { font-weight: 500; }
     .chat-bot strong { font-weight: 500; color: #888; }
     .chat-bot hr { border: none; border-top: 1px solid #eee; margin: 0.8em 0; }
+    .chat-bot a { color: #444; text-decoration: underline; }
 
     @media (prefers-color-scheme: dark) {
       .chat-user { color: white; }
@@ -105,6 +106,7 @@
       .chat-bot hr   { border-top-color: #333; }
       .chat-bot strong { color: #aaa; }
       .chat-bot h1, .chat-bot h2, .chat-bot h3 { color: #777; }
+      .chat-bot a { color: #bbb; }
     }
   `;
   document.head.appendChild(style);

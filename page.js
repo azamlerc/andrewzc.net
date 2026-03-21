@@ -212,8 +212,49 @@ function renderBadges(entity, listCtx) {
   });
 }
 
+function imageLayoutClass(images) {
+  const count = Array.isArray(images) ? images.length : 0;
+  if (count <= 0) return null;
+  if (count === 1) return "images single";
+  if (count === 2) return "images double";
+  if (count === 3) return "images triple";
+  return "images";
+}
+
+function renderEntityMedia(entity, listCtx) {
+  const frag = document.createDocumentFragment();
+
+  if (entity.caption) {
+    const captionEl = el("div", { class: "caption" });
+    captionEl.innerHTML = entity.caption;
+    frag.append(captionEl);
+  }
+
+  const images = Array.isArray(entity.images) ? entity.images : [];
+  const imagesClass = imageLayoutClass(images);
+  if (imagesClass) {
+    const imagesEl = el("div", { class: imagesClass });
+    images.forEach((filename) => {
+      const full = `https://images.andrewzc.net/${listCtx.listId}/${filename}`;
+      const thumb = `https://images.andrewzc.net/${listCtx.listId}/tn/${filename}`;
+      imagesEl.append(
+        el(
+          "a",
+          { href: full, target: "_blank", rel: "noopener" },
+          el("img", { src: thumb, alt: entity.name || "" })
+        )
+      );
+    });
+    frag.append(imagesEl);
+  }
+
+  return frag;
+}
+
 function renderRow(entity, listCtx) {
   const frag = document.createDocumentFragment();
+  const line = document.createDocumentFragment();
+  const hasMedia = Boolean(entity.caption) || (Array.isArray(entity.images) && entity.images.length > 0);
 
   // prefix logic
   let prefix = entity.prefix ?? null;
@@ -223,61 +264,66 @@ function renderRow(entity, listCtx) {
 
   if (prefix != null) {
     if (listCtx.prefixClass) {
-      frag.append(el("span", { class: listCtx.prefixClass }, text(prefix)), text(" "));
+      line.append(el("span", { class: listCtx.prefixClass }, text(prefix)), text(" "));
     } else {
-      frag.append(text(prefix), text(" "));
+      line.append(text(prefix), text(" "));
     }
   }
 
   // icons
   const icons = renderIcons(entity, listCtx);
   if (icons.length) {
-    frag.append(...icons, text(" "));
+    line.append(...icons, text(" "));
   }
 
   // flags
   const flags = renderFlags(entity, listCtx);
   if (flags.length) {
     flags.forEach((imgNode, idx) => {
-      if (idx) frag.append(text(" "));
-      frag.append(imgNode);
+      if (idx) line.append(text(" "));
+      line.append(imgNode);
     });
-    frag.append(text(" "));
+    line.append(text(" "));
   }
 
   const referenceFirst = listCtx.tags.includes("reference-first");
   const noReference = listCtx.tags.includes("no-reference");
   if (entity.reference && referenceFirst && !noReference) {
-    frag.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
+    line.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
   }
 
   // link (always view link; edit link will be swapped in DOM if needed)
-  frag.append(
+  line.append(
     el(
       "a",
       {
         href: entity.link || "#",
         id: entity.key || null,
-        class: entity.strike ? "strike" : null
+        class: [entity.strike ? "strike" : null, hasMedia ? "withImages" : null].filter(Boolean).join(" ") || null
       },
       text(entity.name || "untitled")
     )
   );
 
   if (entity.reference && !referenceFirst && !noReference) {
-    frag.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
+    line.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
   }
 
   if (entity.info) {
-    frag.append(text(" "), text(entity.info));
+    line.append(text(" "), text(entity.info));
   }
 
   const badges = renderBadges(entity, listCtx);
   if (badges.length) {
-    frag.append(text(" "), ...badges);
+    line.append(text(" "), ...badges);
   }
 
-  frag.append(br(), text("\n"));
+  frag.append(line, br(), text("\n"));
+
+  if (hasMedia) {
+    frag.append(renderEntityMedia(entity, listCtx));
+  }
+
   return frag;
 }
 
@@ -624,13 +670,25 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   // (No inline EDIT badge)
 
   const headlineWrap = el("div", { class: "headlineWrap" }, headline);
+  const hasMap = Boolean(listInfo.map && typeof listInfo.map === "object");
 
   // (No admin controls here; mounted after auth)
 
   app.append(headlineWrap);
-  
+
+  // Optional header caption
+  if (listInfo.header) {
+    const headerEl = el("div", { class: "caption" });
+    headerEl.innerHTML = listInfo.header;
+    app.append(headerEl);
+
+    if (!hasMap && listInfo.size === "small") {
+      app.append(smallSpace());
+    }
+  }
+
   // Map container (map.js will read #map attributes)
-  if (listInfo.map && typeof listInfo.map === "object") {
+  if (hasMap) {
     const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
     const attrs = { id: "map" };
     for (const f of fields) {
@@ -641,13 +699,6 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     // Load map.js (once)
     // map.js can now reuse window.pageInfo / window.places without fetching data/*.json
     ensureScript("map.js").catch(() => {});
-  }
-
-  // Optional header caption
-  if (listInfo.header) {
-    const headerEl = el("div", { class: "caption" });
-    headerEl.innerHTML = listInfo.header;
-    app.append(headerEl);
   }
 
   const listCtx = {
