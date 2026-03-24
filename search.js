@@ -139,7 +139,7 @@
     }
   }
 
-  function render() {
+  async function render() {
     saveToHistory(query, icon);
 
     const displayQuery = query.replace(/\b\w/g, c => c.toUpperCase());
@@ -158,5 +158,6 @@
     const maxItems = byList.size === 1 ? Infinity : 10;
     const any = Results.renderSections(captionEl, pages, byList, { sort, maxItems });
     if (!any) Results.renderEmpty(captionEl);
+    await Results.enableAdminControls({ headlineEl, storageKey: "search" });
   }
 })();

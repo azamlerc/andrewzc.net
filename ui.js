@@ -76,7 +76,12 @@
 
     // Link vs plain text
     if (entity.link) {
-      const a = el("a", { href: entity.link });
+      const a = el("a", {
+        href: entity.link,
+        id: entity.key || null,
+        "data-entity-key": entity.key || null,
+        "data-entity-list": entity.list || null,
+      });
       a.textContent = label;
       row.appendChild(a);
     } else {

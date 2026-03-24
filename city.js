@@ -59,6 +59,7 @@
     });
 
     if (!any) Results.renderEmpty(captionEl);
+    await Results.enableAdminControls({ headlineEl, storageKey: `city:${cityKey}` });
 
   } catch (err) {
     Results.renderError(headlineEl, captionEl, err);

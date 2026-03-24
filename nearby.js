@@ -89,6 +89,7 @@ function fitZoom(minLat, maxLat, minLon, maxLon) {
         const maxItems = byList.size === 1 ? Infinity : 10;
         const any = Results.renderSections(captionEl, pages, byList, { sort: "count", maxItems });
         if (!any) Results.renderEmpty(captionEl);
+        await Results.enableAdminControls({ headlineEl, storageKey: "nearby" });
 
       } catch (err) {
         Results.renderError(headlineEl, captionEl, err);

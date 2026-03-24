@@ -278,8 +278,78 @@ function renderBadges(entity, listCtx) {
   });
 }
 
+function fullImageUrl(listId, filename) {
+  const raw = `https://images.andrewzc.net/${listId}/${filename}`;
+  return raw.includes(".pdf.") ? raw.slice(0, raw.indexOf(".pdf.") + 4) : raw;
+}
+
+function thumbImageUrl(listId, filename) {
+  return `https://images.andrewzc.net/${listId}/tn/${filename}`;
+}
+
+function shuffleCopy(arr, rng = Math.random) {
+  const copy = Array.isArray(arr) ? arr.slice() : [];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function pickRandom(arr, count, rng = Math.random) {
+  if (!Array.isArray(arr) || count <= 0) return [];
+  if (arr.length <= count) return arr.slice();
+  return shuffleCopy(arr, rng).slice(0, count);
+}
+
+function pickRowImages(entity, listCtx) {
+  const images = Array.isArray(entity?.images) ? entity.images.filter(Boolean) : [];
+  if (images.length === 0) return [];
+
+  if (listCtx.listId === "metros") {
+    const [first, ...rest] = images;
+    return first ? [first, ...pickRandom(rest, 2)] : [];
+  }
+
+  return pickRandom(images, 3);
+}
+
+function highlightDistanceCaption(el) {
+  const escapeHTML = s =>
+    s.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[ch]));
+
+  const DIST_RE = /\b(?:\d+(?:[.,]\d+)?\skm|\d+m|exact)\b/gi;
+  const raw = el.textContent || "";
+  const escaped = escapeHTML(raw);
+  const matches = [...escaped.matchAll(DIST_RE)];
+  if (matches.length === 0) return;
+
+  const lastMatch = matches[matches.length - 1];
+  el.innerHTML =
+    escaped.slice(0, lastMatch.index) +
+    `<span class="dark">${lastMatch[0]}</span>` +
+    escaped.slice(lastMatch.index + lastMatch[0].length);
+}
+
 function renderRow(entity, listCtx) {
   const frag = document.createDocumentFragment();
+  const chosenImages = pickRowImages(entity, listCtx);
+
+  if (chosenImages.length) {
+    const imagesDiv = el("div", { class: "images" });
+    chosenImages.forEach((filename) => {
+      const full = fullImageUrl(listCtx.listId, filename);
+      const thumb = thumbImageUrl(listCtx.listId, filename);
+      imagesDiv.append(
+        el(
+          "a",
+          { href: full, target: "_blank", rel: "noopener" },
+          el("img", { src: thumb, alt: entity.name || "image" })
+        )
+      );
+    });
+    frag.append(imagesDiv);
+  }
 
   // prefix logic
   let prefix = entity.prefix ?? null;
@@ -324,7 +394,7 @@ function renderRow(entity, listCtx) {
       {
         href: entity.link || "#",
         id: entity.key || null,
-        class: entity.strike ? "strike" : null
+        class: [entity.strike ? "strike" : null, chosenImages.length ? "withImages" : null].filter(Boolean).join(" ") || null
       },
       text(entity.name || "untitled")
     )
@@ -344,6 +414,13 @@ function renderRow(entity, listCtx) {
   }
 
   frag.append(br(), text("\n"));
+
+  if (entity.caption) {
+    const caption = el("div", { class: "caption" }, text(entity.caption));
+    highlightDistanceCaption(caption);
+    frag.append(caption);
+  }
+
   return frag;
 }
 

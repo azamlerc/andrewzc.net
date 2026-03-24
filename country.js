@@ -57,6 +57,7 @@
     const any    = Results.renderSections(captionEl, pages, byList);
 
     if (!any) Results.renderEmpty(captionEl);
+    await Results.enableAdminControls({ headlineEl, storageKey: `country:${code}` });
 
   } catch (err) {
     Results.renderError(headlineEl, captionEl, err);
