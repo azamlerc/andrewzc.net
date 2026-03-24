@@ -11,6 +11,13 @@ function getPageId() {
   return last.replace(/\.html$/i, "") || "apple";
 }
 
+function getSortOverride() {
+  const u = new URL(window.location.href);
+  const raw = u.searchParams.get("sort");
+  if (!raw) return [];
+  return raw.split(",").map(s => s.trim()).filter(Boolean);
+}
+
 function getApiBase() {
   // optional override: ?api=https://api.andrewzc.net
   const u = new URL(window.location.href);
@@ -157,6 +164,66 @@ function formatDistance(meters) {
   return `${Math.round(m)}m`;
 }
 
+function entityCoords(entity) {
+  const loc = entity?.location;
+  if (loc?.type === "Point" && Array.isArray(loc.coordinates) && loc.coordinates.length >= 2) {
+    const [lon, lat] = loc.coordinates.map(Number);
+    if (Number.isFinite(lat) && Number.isFinite(lon)) return { lat, lon };
+  }
+
+  if (typeof entity?.coords === "string") {
+    const parts = entity.coords.split(",").map(s => Number(s.trim()));
+    if (parts.length >= 2 && Number.isFinite(parts[0]) && Number.isFinite(parts[1])) {
+      return { lat: parts[0], lon: parts[1] };
+    }
+  }
+
+  return null;
+}
+
+function haversineMeters(a, b) {
+  const R = 6_371_000;
+  const toRad = (deg) => deg * Math.PI / 180;
+  const dLat = toRad(b.lat - a.lat);
+  const dLon = toRad(b.lon - a.lon);
+  const lat1 = toRad(a.lat);
+  const lat2 = toRad(b.lat);
+
+  const sinDLat = Math.sin(dLat / 2);
+  const sinDLon = Math.sin(dLon / 2);
+  const h = sinDLat * sinDLat + Math.cos(lat1) * Math.cos(lat2) * sinDLon * sinDLon;
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+
+function effectiveSortSpec(sortSpec, sortOverride) {
+  const base = normalizeSortParts(sortSpec, []);
+  if (!Array.isArray(sortOverride) || sortOverride.length === 0) return base;
+  return [...sortOverride, ...base];
+}
+
+function sortSpecIncludes(sortSpec, key) {
+  return effectiveSortSpec(sortSpec, []).some(part => part.replace(/^[-+]/, "") === key);
+}
+
+async function getCurrentPosition() {
+  if (!navigator.geolocation) {
+    throw new Error("Geolocation is not supported by this browser.");
+  }
+
+  return new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => resolve({ lat: coords.latitude, lon: coords.longitude }),
+      (err) => {
+        if (err?.code === err.PERMISSION_DENIED) {
+          reject(new Error("Location access was denied."));
+        } else {
+          reject(new Error("Could not get your location."));
+        }
+      }
+    );
+  });
+}
+
 function renderIcons(entity, listCtx) {
   const icons = Array.isArray(entity.icons) ? entity.icons.join(" ") : "";
 
@@ -205,56 +272,14 @@ function renderBadges(entity, listCtx) {
   // Fractions: wrap fraction glyphs in nested divs like the Swift output
   return badges.flatMap((b, i) => {
     if (FRACTIONS.has(b)) {
-      const inner = el("div", null, el("div", null, text(b)));
-      return [i ? text(" ") : null, el("div", { class: "fraction" }, inner)].filter(Boolean);
+      return [i ? text(" ") : null, el("div", { class: "fraction" }, el("div", null, text(b)))].filter(Boolean);
     }
     return [i ? text(" ") : null, text(b)].filter(Boolean);
   });
 }
 
-function imageLayoutClass(images) {
-  const count = Array.isArray(images) ? images.length : 0;
-  if (count <= 0) return null;
-  if (count === 1) return "images single";
-  if (count === 2) return "images double";
-  if (count === 3) return "images triple";
-  return "images";
-}
-
-function renderEntityMedia(entity, listCtx) {
-  const frag = document.createDocumentFragment();
-
-  if (entity.caption) {
-    const captionEl = el("div", { class: "caption" });
-    captionEl.innerHTML = entity.caption;
-    frag.append(captionEl);
-  }
-
-  const images = Array.isArray(entity.images) ? entity.images : [];
-  const imagesClass = imageLayoutClass(images);
-  if (imagesClass) {
-    const imagesEl = el("div", { class: imagesClass });
-    images.forEach((filename) => {
-      const full = `https://images.andrewzc.net/${listCtx.listId}/${filename}`;
-      const thumb = `https://images.andrewzc.net/${listCtx.listId}/tn/${filename}`;
-      imagesEl.append(
-        el(
-          "a",
-          { href: full, target: "_blank", rel: "noopener" },
-          el("img", { src: thumb, alt: entity.name || "" })
-        )
-      );
-    });
-    frag.append(imagesEl);
-  }
-
-  return frag;
-}
-
 function renderRow(entity, listCtx) {
   const frag = document.createDocumentFragment();
-  const line = document.createDocumentFragment();
-  const hasMedia = Boolean(entity.caption) || (Array.isArray(entity.images) && entity.images.length > 0);
 
   // prefix logic
   let prefix = entity.prefix ?? null;
@@ -264,66 +289,61 @@ function renderRow(entity, listCtx) {
 
   if (prefix != null) {
     if (listCtx.prefixClass) {
-      line.append(el("span", { class: listCtx.prefixClass }, text(prefix)), text(" "));
+      frag.append(el("span", { class: listCtx.prefixClass }, text(prefix)), text(" "));
     } else {
-      line.append(text(prefix), text(" "));
+      frag.append(text(prefix), text(" "));
     }
   }
 
   // icons
   const icons = renderIcons(entity, listCtx);
   if (icons.length) {
-    line.append(...icons, text(" "));
+    frag.append(...icons, text(" "));
   }
 
   // flags
   const flags = renderFlags(entity, listCtx);
   if (flags.length) {
     flags.forEach((imgNode, idx) => {
-      if (idx) line.append(text(" "));
-      line.append(imgNode);
+      if (idx) frag.append(text(" "));
+      frag.append(imgNode);
     });
-    line.append(text(" "));
+    frag.append(text(" "));
   }
 
   const referenceFirst = listCtx.tags.includes("reference-first");
   const noReference = listCtx.tags.includes("no-reference");
   if (entity.reference && referenceFirst && !noReference) {
-    line.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
+    frag.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
   }
 
   // link (always view link; edit link will be swapped in DOM if needed)
-  line.append(
+  frag.append(
     el(
       "a",
       {
         href: entity.link || "#",
         id: entity.key || null,
-        class: [entity.strike ? "strike" : null, hasMedia ? "withImages" : null].filter(Boolean).join(" ") || null
+        class: entity.strike ? "strike" : null
       },
       text(entity.name || "untitled")
     )
   );
 
   if (entity.reference && !referenceFirst && !noReference) {
-    line.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
+    frag.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
   }
 
   if (entity.info) {
-    line.append(text(" "), text(entity.info));
+    frag.append(text(" "), text(entity.info));
   }
 
   const badges = renderBadges(entity, listCtx);
   if (badges.length) {
-    line.append(text(" "), ...badges);
+    frag.append(text(" "), ...badges);
   }
 
-  frag.append(line, br(), text("\n"));
-
-  if (hasMedia) {
-    frag.append(renderEntityMedia(entity, listCtx));
-  }
-
+  frag.append(br(), text("\n"));
   return frag;
 }
 
@@ -475,7 +495,8 @@ function buildComparator(sortSpec, tags) {
     const isIcons = (key === "icons");
     const isCountries = (key === "countries");
     const isStates = (key === "states");
-    return { key, descending, numeric, isIcons, isCountries, isStates };
+    const valueKey = (key === "distance") ? "locationDistance" : key;
+    return { key, valueKey, descending, numeric, isIcons, isCountries, isStates };
   });
 
   return (a, b) => {
@@ -496,7 +517,7 @@ function buildComparator(sortSpec, tags) {
         c = compareCodeArrays(as, bs);
         if (k.descending) c = -c;
       } else {
-        c = compareValues(a?.[k.key], b?.[k.key], {
+        c = compareValues(a?.[k.valueKey], b?.[k.valueKey], {
           numeric: k.numeric,
           descending: k.descending,
           ignoreLeadingThe: k.key === "name"
@@ -676,17 +697,6 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   app.append(headlineWrap);
 
-  // Optional header caption
-  if (listInfo.header) {
-    const headerEl = el("div", { class: "caption" });
-    headerEl.innerHTML = listInfo.header;
-    app.append(headerEl);
-
-    if (!hasMap && listInfo.size === "small") {
-      app.append(smallSpace());
-    }
-  }
-
   // Map container (map.js will read #map attributes)
   if (hasMap) {
     const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
@@ -699,6 +709,17 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     // Load map.js (once)
     // map.js can now reuse window.pageInfo / window.places without fetching data/*.json
     ensureScript("map.js").catch(() => {});
+  }
+
+  // Optional header caption
+  if (listInfo.header) {
+    const headerEl = el("div", { class: "caption" });
+    headerEl.innerHTML = listInfo.header;
+    app.append(headerEl);
+
+    if (!hasMap && listInfo.size === "small") {
+      app.append(smallSpace());
+    }
   }
 
   const listCtx = {
@@ -778,11 +799,14 @@ async function isAdminSession() {
 (async function main() {
   const app = document.getElementById("app");
   const pageId = getPageId();
+  const sortOverride = getSortOverride();
 
   try {
     const data = await fetchPageData(pageId);
 
     const info = data["--info--"] || {};
+    const effectiveSort = effectiveSortSpec(info.sort, sortOverride);
+    const renderInfo = { ...info, sort: effectiveSort };
     window.pageInfo = info;
 
     let entities = Array.isArray(data.entities) ? data.entities : [];
@@ -793,7 +817,7 @@ async function isAdminSession() {
     const storedEditMode = (sessionStorage.getItem(editKey) === "1");
     
     // Enrich with Swift-compatible computed property when sorting by prefixDate.
-    const sortSpecRaw = info.sort;
+    const sortSpecRaw = effectiveSort;
     const sortSpecStr = Array.isArray(sortSpecRaw)
       ? sortSpecRaw.map(s => String(s)).join(",")
       : String(sortSpecRaw ?? "");
@@ -805,9 +829,21 @@ async function isAdminSession() {
       }));
     }
 
+    if (sortSpecIncludes(effectiveSort, "distance")) {
+      const origin = await getCurrentPosition();
+      entities = entities.map(e => {
+        const point = entityCoords(e);
+        return {
+          ...e,
+          locationDistance: point ? haversineMeters(origin, point) : e.locationDistance
+        };
+      });
+    }
+
     window.places = entities;
 
-    renderPage(info, entities, { pageId, isAdmin: false, editMode: false });
+    window.pageInfo = renderInfo;
+    renderPage(renderInfo, entities, { pageId, isAdmin: false, editMode: false });
     applyEditModeToDom(pageId, false);
 
     // Background admin check (do NOT re-render the whole page — it breaks Leaflet by recreating #map).
