@@ -124,3 +124,57 @@ Refined the edit workflow for entity enrichment, expanded dynamic city and count
 ### Result
 
 The edit experience is faster and more explicit, dynamic city and country pages are now the primary navigation targets, results-driven maps can fit their content intelligently, and shared rendering no longer depends on brittle post-processing hacks for country links or section anchors.
+
+## March 27, 2026 Update (Latest)
+
+### Summary
+
+Expanded the results-based frontend with dedicated trip and artist pages, admin edit controls across aggregated result views, and several renderer refinements for maps, sorting, and reference linking.
+
+### Changes Made
+
+- Added `trip.html` / `trip.js` to render grouped trip results from `GET /trips/:key`, including optional page-level maps from `page.map`.
+- Added `artist.html` / `artist.js` to render grouped artist results from `GET /artists/:key` without a map, using the artist entity as the page header.
+- Added shared admin controls for results-based pages in `results.js`, including attached `Info` / `Edit` buttons, edit-mode link interception, and support across `city`, `country`, `nearby`, `search`, `trip`, and `artist`.
+- Updated the results-page HTML shells to include a stable `headlineWrap` and `headerActions` container so admin controls mount reliably.
+- Updated `results.js` and `ui.js` so results-page entity links carry explicit entity metadata and can switch cleanly to `edit.html?list=...&key=...` in edit mode.
+- Updated results-page entity enrichment so pages tagged `regions` mark their entities as `hide: true`, which suppresses imprecise region pins on maps.
+- Updated `trip.js` so trip sections sort alphabetically, and display names drop a leading `Music ` before sorting and rendering on the artist page.
+- Updated `artist.js` so redundant references equal to the artist name are omitted, and artist pages no longer show place-style visited/not-visited badges.
+- Updated `page.js` so references become internal links when a page is tagged `city-reference` or `artist-reference`, using simplified city or artist keys.
+
+### Result
+
+The frontend now has first-class trip and artist views, results-based pages support admin edit mode consistently, map-heavy aggregate views avoid misleading region pins, and shared page rendering better matches the site's navigation conventions.
+
+## March 27, 2026 Update (Bingo)
+
+### Summary
+
+Rebuilt the bingo pages to use the new API-driven bingo endpoint, reuse the shared `results.js` and `ui.js` helpers, and drop the old static JSON loading path.
+
+### Changes Made
+
+- Reworked `bingo.js` to call `POST /entities/bingo` with the page list plus either country or state codes instead of fetching `data/<page>.json` files.
+- Reused shared frontend helpers from `results.js` and `ui.js`, including:
+  - API base resolution
+  - parallel `/pages` plus data fetch
+  - page-icon enrichment
+  - list bucketing
+  - hash-anchor scrolling
+  - shared DOM helper utilities
+- Kept only bingo-specific logic in `bingo.js` for:
+  - grid count rendering
+  - manual include/exclude handling
+  - country/state place matching
+  - state-flag row rendering
+  - map checkbox filtering
+- Added a reusable POST-capable `fetchPagesAndJson(...)` helper to `results.js`.
+- Updated `euro-bingo.html`, `balkan-bingo.html`, `baltic-bingo.html`, and `usa-bingo.html` to load `ui.js` and `results.js` before `bingo.js`.
+- Hid the bingo table until the API-backed render completes so the header flags do not flash before the rest of the page is ready.
+- Added Spain to `euro-bingo.html` with a manual confluence total of `73`.
+- Briefly tried applying card styling to the full table, then reverted that change after confirming it affected the header row and label column in the wrong way.
+
+### Result
+
+The bingo pages now load from live API data through a shared rendering/data-fetch path, with much less bespoke code and no dependency on prebuilt local JSON files for their main content.
