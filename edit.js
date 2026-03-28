@@ -27,6 +27,7 @@ const elName = document.getElementById("name");
 const elPrefix = document.getElementById("prefix");
 const elInfo = document.getElementById("info");
 const elCaption = document.getElementById("caption");
+const elTrips = document.getElementById("trips");
 const elReference = document.getElementById("reference");
 const elLink = document.getElementById("link");
 const elCoords = document.getElementById("coords");
@@ -37,12 +38,13 @@ const elStrike = document.getElementById("strike");
 const elSaveBtn = document.getElementById("saveBtn");
 const elResetBtn = document.getElementById("resetBtn");
 const elDeleteBtn = document.getElementById("deleteBtn");
-const elLinkLabel = document.getElementById("linkLabel");
-const elCityLabel = document.getElementById("cityLabel");
-const elCoordsLabel = document.getElementById("coordsLabel");
-const elReferenceLabel = document.getElementById("referenceLabel");
+const elLinkAutoBtn = document.getElementById("linkAutoBtn");
+const elCoordsAutoBtn = document.getElementById("coordsAutoBtn");
+const elCityAutoBtn = document.getElementById("cityAutoBtn");
+const elReferenceAutoBtn = document.getElementById("referenceAutoBtn");
 const elOpenBtn = document.getElementById("openBtn");
 const elMapBtn = document.getElementById("mapBtn");
+const elCityOpenBtn = document.getElementById("cityOpenBtn");
 const elUploadImagesBtn = document.getElementById("uploadImagesBtn");
 const elImageInput = document.getElementById("imageInput");
 const elImageGrid = document.getElementById("imageGrid");
@@ -60,6 +62,7 @@ function blankEntity() {
     prefix: "",
     info: "",
     caption: "",
+    trips: [],
     reference: "",
     link: "",
     coords: "",
@@ -84,6 +87,54 @@ function iconsArrayToString(arr) {
 
 function iconsStringToArray(str) {
   return String(str || "").trim().split(/\s+/).filter(Boolean);
+}
+
+function wordsToArray(value) {
+  return String(value || "").trim().split(/\s+/).filter(Boolean);
+}
+
+function arrayToWords(value) {
+  if (Array.isArray(value)) return value.map(String).filter(Boolean).join(" ");
+  if (typeof value === "string") return value.trim();
+  return "";
+}
+
+function tripsValue(entity) {
+  if (Array.isArray(entity?.trips)) return entity.trips;
+  if (typeof entity?.trips === "string") return wordsToArray(entity.trips);
+  if (Array.isArray(entity?.trip)) return entity.trip;
+  if (typeof entity?.trip === "string") return wordsToArray(entity.trip);
+  return [];
+}
+
+function normalizeEntity(entity) {
+  return {
+    ...entity,
+    trips: tripsValue(entity),
+  };
+}
+
+function simplify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/’/g, "")
+    .replace(/\./g, "")
+    .replace(/,/g, "")
+    .replace(/\*/g, "")
+    .replace(/"/g, "")
+    .replace(/</g, "")
+    .replace(/>/g, "")
+    .replace(/\(/g, "")
+    .replace(/\)/g, "")
+    .replace(/\//g, "-")
+    .replace(/&/g, "-")
+    .replace(/–/g, "-")
+    .replace(/—/g, "-")
+    .replace(/---/g, "-")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/the-/, "");
 }
 
 function getFlagEmoji(countryCode) {
@@ -171,7 +222,7 @@ async function uploadImages(files) {
         updateImageSection(original, pendingFiles);
       },
       onComplete(entity) {
-        original = entity;
+        original = normalizeEntity(entity);
         setHeaderFromEntity(original);
         populateForm(original);
       }
@@ -196,6 +247,7 @@ function populateForm(e) {
   elPrefix.value = e.prefix || "";
   elInfo.value = e.info || "";
   elCaption.value = e.caption || "";
+  elTrips.value = arrayToWords(tripsValue(e));
   elReference.value = e.reference || "";
   elLink.value = e.link || "";
   elCoords.value = e.coords || "";
@@ -216,6 +268,7 @@ function currentFormEntity() {
     prefix: elPrefix.value.trim(),
     info: elInfo.value.trim(),
     caption: elCaption.value.trim(),
+    trips: wordsToArray(elTrips.value),
     reference: elReference.value.trim(),
     link: elLink.value.trim(),
     coords: elCoords.value.trim(),
@@ -309,6 +362,12 @@ function diffPatch(orig, cur) {
     patch.badges = cBadges;
   }
 
+  const oTrips = Array.isArray(orig.trips) ? orig.trips : [];
+  const cTrips = Array.isArray(cur.trips) ? cur.trips : [];
+  if (JSON.stringify(oTrips) !== JSON.stringify(cTrips)) {
+    patch.trips = cTrips;
+  }
+
   delete patch._id;
   delete patch.list;
   delete patch.key;
@@ -339,9 +398,9 @@ async function load() {
     setStatus("Loading…");
         const entity = await getEntity(LIST, KEY);
 
-    original = entity;
-    setHeaderFromEntity(entity);
-    populateForm(entity);
+    original = normalizeEntity(entity);
+    setHeaderFromEntity(original);
+    populateForm(original);
 
     elCard.style.display = "inline-block";
     elDeleteBtn.style.display = "";
@@ -387,9 +446,9 @@ async function save() {
           updated = await updateEntity(LIST, KEY, patch);
     }
 
-    original = updated;
-    setHeaderFromEntity(updated);
-    populateForm(updated);
+    original = normalizeEntity(updated);
+    setHeaderFromEntity(original);
+    populateForm(original);
 
     setStatus("Saved.", "ok");
   } catch (err) {
@@ -439,17 +498,17 @@ elDeleteBtn.addEventListener("click", deleteEntity);
 elBeen.addEventListener("click", () => togglePill(elBeen));
 elStrike.addEventListener("click", () => togglePill(elStrike));
 
-elLinkLabel.addEventListener("click", async () => {
+elLinkAutoBtn.addEventListener("click", async () => {
   const name = elName.value.trim();
   if (!name) return;
 
   try {
     setStatus("Looking up Wikipedia…");
-        const res = await lookupWiki(name);
+    const res = await lookupWiki(name);
 
     if (res && res.link) {
       elLink.value = res.link;
-      setStatus("Wikipedia link found.", "ok");
+      await save();
     } else {
       setStatus("No Wikipedia result.", "error");
     }
@@ -464,6 +523,14 @@ elOpenBtn.addEventListener("click", () => {
   window.open(url, "_blank", "noopener,noreferrer");
 });
 
+elCityOpenBtn.addEventListener("click", () => {
+  const city = (elCity.value || "").trim();
+  if (!city) return;
+  const key = simplify(city);
+  if (!key) return;
+  window.open(`city.html?key=${encodeURIComponent(key)}`, "_blank", "noopener,noreferrer");
+});
+
 elUploadImagesBtn.addEventListener("click", () => {
   if (!KEY || isCreateMode) {
     setStatus("Save this entity before uploading images.", "error");
@@ -476,30 +543,30 @@ elImageInput.addEventListener("change", (e) => {
   uploadImages(e.target.files);
 });
 
-elCoordsLabel.addEventListener("click", async () => {
+elCoordsAutoBtn.addEventListener("click", async () => {
   const url = elLink.value.trim();
   if (!url) { setStatus("No link to look up coords from.", "error"); return; }
   if (elCoords.value.trim()) { setStatus("Coords already set.", "error"); return; }
 
   try {
     setStatus("Looking up coords…");
-        const res = await lookupCoords(url, LIST);
+    const res = await lookupCoords(url, LIST);
     if (!res?.coords) { setStatus("No coords found for this URL.", "error"); return; }
     elCoords.value = res.coords;
-    setStatus("Coords set.", "ok");
+    await save();
   } catch (err) {
     setStatus("Coords lookup failed. " + err.message, "error");
   }
 });
 
-elReferenceLabel.addEventListener("click", () => {
+elReferenceAutoBtn.addEventListener("click", async () => {
   const city = elCity.value.trim();
   if (!city) { setStatus("No city to copy to reference.", "error"); return; }
   elReference.value = city;
-  setStatus(`Reference set to "${city}".`, "ok");
+  await save();
 });
 
-elCityLabel.addEventListener("click", async () => {
+elCityAutoBtn.addEventListener("click", async () => {
   const raw = (elCoords.value || "").trim();
   if (!raw) { setStatus("No coords to look up city from.", "error"); return; }
   const [latStr, lonStr] = raw.split(",");
@@ -509,11 +576,11 @@ elCityLabel.addEventListener("click", async () => {
 
   try {
     setStatus("Looking up nearest city…");
-        const res = await lookupNearestCity(lat, lon);
+    const res = await lookupNearestCity(lat, lon);
     const city = res?.results?.[0];
     if (!city) { setStatus("No city found within 20 km.", "error"); return; }
     elCity.value = city.name;
-    setStatus(`City set to ${city.name} (${city.distanceKm} km away).`, "ok");
+    await save();
   } catch (err) {
     setStatus("City lookup failed. " + err.message, "error");
   }

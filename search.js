@@ -129,7 +129,7 @@
       const sd = await sRes.json();
 
       pages  = pd.pages || [];
-      byList = Results.bucketByList(sd.results || []);
+      byList = Results.bucketByList(Results.withPageIcons(sd.results || [], pages));
       tool   = Array.isArray(sd.tool) ? sd.tool.join(", ") : (sd.tool || "");
       icon   = sd.icon || "";
 
@@ -151,6 +151,26 @@
     if (tool) {
       captionEl.appendChild(document.createTextNode(`🛠 ${tool}`));
       captionEl.appendChild(UI.br());
+    }
+
+    const results = Array.from(byList.values()).flat();
+    const mapped = Results.withPageIcons(results, pages);
+    const mapEntities = mapped.filter(e => UI.parseCoords(e.coords) || (e.location?.type === "Point" && Array.isArray(e.location.coordinates)));
+    if (mapEntities.length > 0) {
+      window.places = mapEntities;
+      window.pageInfo = { key: "search", usePageIconsOnMap: true };
+
+      const mapDiv = UI.el("div", { id: "map" });
+      mapDiv.setAttribute("lat", "20");
+      mapDiv.setAttribute("lon", "0");
+      mapDiv.setAttribute("zoom", "3");
+      mapDiv.setAttribute("fit", "results");
+      captionEl.appendChild(mapDiv);
+
+      const mapScript = document.createElement("script");
+      mapScript.src = "map.js";
+      captionEl.appendChild(mapScript);
+      captionEl.appendChild(document.createTextNode("\n"));
     }
 
     captionEl.appendChild(UI.smallSpace());

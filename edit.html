@@ -22,6 +22,18 @@
   </div>
   
   <div id="card" class="card" style="display:none;">
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Flags</span>
+        </div>
+        <span class="pillWrap">
+          <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
+          <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
+        </span>
+      </div>
+    </div>
+
     <div class="row rowCompact">
       <div class="field fieldCompact">
         <div class="fieldHeader">
@@ -43,27 +55,37 @@
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label" id="linkLabel" style="cursor:pointer;" title="Click to look up Wikipedia link">Link</span>
-					<button id="openBtn" class="pill inlineFieldButton" type="button">Open</button>
+          <span class="label">Link</span>
+          <span class="fieldActions">
+            <button id="openBtn" class="pill" type="button">Open</button>
+            <button id="linkAutoBtn" class="pill" type="button">Auto</button>
+          </span>
         </div>
-        <input id="link" class="input inputWithButton" type="url" spellcheck="false">
+        <input id="link" class="input" type="url" spellcheck="false">
       </div>
     </div>
     
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label" id="coordsLabel" style="cursor:pointer;" title="Click to look up coords from link">Coords</span>
-					<button id="mapBtn" class="pill inlineFieldButton" type="button">Map</button>
+          <span class="label">Coords</span>
+          <span class="fieldActions">
+            <button id="mapBtn" class="pill" type="button">Map</button>
+            <button id="coordsAutoBtn" class="pill" type="button">Auto</button>
+          </span>
         </div>
-        <input id="coords" class="input inputWithButton" type="text" spellcheck="false">
+        <input id="coords" class="input" type="text" spellcheck="false">
       </div>
     </div>
 
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label" id="cityLabel" style="cursor:pointer;" title="Click to look up nearest city from coords">City</span>
+          <span class="label">City</span>
+          <span class="fieldActions">
+            <button id="cityOpenBtn" class="pill" type="button">Open</button>
+            <button id="cityAutoBtn" class="pill" type="button">Auto</button>
+          </span>
         </div>
         <input id="city" class="input" type="text" spellcheck="false">
       </div>
@@ -72,7 +94,10 @@
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label" id="referenceLabel" style="cursor:pointer;" title="Click to copy city to reference">Reference</span>
+          <span class="label">Reference</span>
+          <span class="fieldActions">
+            <button id="referenceAutoBtn" class="pill" type="button">Auto</button>
+          </span>
         </div>
         <input id="reference" class="input" type="text" spellcheck="false">
       </div>
@@ -117,12 +142,9 @@
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label">Flags</span>
+          <span class="label">Trips</span>
         </div>
-        <span class="pillWrap">
-          <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
-          <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
-        </span>
+        <input id="trips" class="input" type="text" spellcheck="false">
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 (async function main() {
   const params  = new URLSearchParams(location.search);
-  const cityKey = (params.get("city") || params.get("key") || params.get("name") || "").trim();
+  const cityKey = (params.get("city") || params.get("key") || params.get("id") || params.get("name") || "").trim();
 
   const headlineEl = document.getElementById("headline");
   const captionEl  = document.getElementById("caption");
@@ -18,7 +18,7 @@
     );
 
     const city     = data.city     || null;
-    const entities = data.entities || [];
+    const entities = Results.withPageIcons(data.entities || [], pages);
 
     if (!city) throw new Error(`Missing city entity for ${cityKey}`);
 
@@ -26,12 +26,12 @@
 
     // Expose for map.js
     window.places   = entities;
-    window.pageInfo = city;
+    window.pageInfo = { ...city, usePageIconsOnMap: true };
 
     Results.renderHeader(headlineEl, captionEl, {
       name:  cityName,
       icons: city.icons,
-      been:  city.been,
+      been:  null,
     });
 
     // Map
@@ -48,6 +48,15 @@
     script.src = "map.js";
     captionEl.appendChild(script);
     captionEl.appendChild(document.createTextNode("\n"));
+
+    captionEl.appendChild(document.createTextNode(city.been === true ? "✅ Visited" : "📝 Not visited"));
+    captionEl.appendChild(UI.br());
+
+    if (city.link) {
+      captionEl.appendChild(document.createTextNode("🌍 "));
+      captionEl.appendChild(UI.el("a", { href: city.link, target: "_blank", rel: "noopener noreferrer" }, document.createTextNode("Wikipedia")));
+      captionEl.appendChild(UI.br());
+    }
 
     captionEl.appendChild(UI.smallSpace());
 

@@ -24,6 +24,8 @@
   <div id="lists"></div>
 </div>
 <script src="map.js"></script>
+<script src="ui.js"></script>
+<script src="results.js"></script>
 <script src="bingo.js"></script>
 <script>
   
@@ -224,7 +226,7 @@ function routeLengthKm(points) {
 // console.log(routeLengthKm(route).toFixed(1), 'km');
 
 (async function init() {
-  createHeader();
+  createHeader("countries");
   await bingoMain("countries");
   showPlaces(mapPlaces);
 })();

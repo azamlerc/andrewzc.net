@@ -24,6 +24,8 @@
   <script src="map.js"></script>
   <div id="lists"></div>
 </div>
+<script src="ui.js"></script>
+<script src="results.js"></script>
 <script src="bingo.js"></script>
 <script>
 const places = [
@@ -34,6 +36,7 @@ const places = [
   { key: "germany", name: "Germany", icon: "🇩🇪", confluences: 48 },
   { key: "luxembourg", name: "Luxembourg", icon: "🇱🇺", confluences: 1 },
   { key: "netherlands", name: "Netherlands", icon: "🇳🇱", confluences: 4 },
+  { key: "spain", name: "Spain", icon: "🇪🇸", confluences: 73 },
   { key: "switzerland", name: "Switzerland", icon: "🇨🇭", confluences: 5 },
   // { key: "poland", name: "Poland", icon: "🇵🇱", confluences: 41 },
   // { key: "slovakia", name: "Slovakia", icon: "🇸🇰", confluences: 6 },
@@ -52,7 +55,7 @@ const pages = [
 ];
 
 (async function init() {
-  createHeader();
+  createHeader("countries");
   await bingoMain("countries");
   showPlaces(mapPlaces);
 })();

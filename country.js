@@ -17,7 +17,7 @@
     );
 
     const country  = data.country  || null;
-    const entities = data.entities || [];
+    const entities = Results.withPageIcons(data.entities || [], pages);
 
     if (!country) throw new Error(`Missing country entity for ${code}`);
 
@@ -31,8 +31,30 @@
     Results.renderHeader(headlineEl, captionEl, {
       name:  countryName,
       icons: countryIcon,
-      been:  country.been,
+      been:  null,
     });
+
+    const mapEntities = entities.filter(e => UI.parseCoords(e.coords) || (e.location?.type === "Point" && Array.isArray(e.location.coordinates)));
+    if (mapEntities.length > 0) {
+      window.places = mapEntities;
+      window.pageInfo = { ...country, usePageIconsOnMap: true };
+
+      const mapDiv = UI.el("div", { id: "map" });
+      mapDiv.setAttribute("lat", "20");
+      mapDiv.setAttribute("lon", "0");
+      mapDiv.setAttribute("zoom", "3");
+      mapDiv.setAttribute("fit", "results");
+      captionEl.appendChild(mapDiv);
+
+      const script = document.createElement("script");
+      script.src = "map.js";
+      captionEl.appendChild(script);
+      captionEl.appendChild(document.createTextNode("\n"));
+
+      captionEl.appendChild(document.createTextNode(country.been === true ? "✅ Visited" : "📝 Not visited"));
+      captionEl.appendChild(UI.br());
+      captionEl.appendChild(UI.smallSpace());
+    }
 
     // Props badges — links to the property sub-pages this country belongs to
     const pagesByKey = new Map(pages.filter(p => p?.key).map(p => [p.key, p]));

@@ -180,16 +180,28 @@ async function enableAdminControls(options = {}) {
 
 // Fetch /pages and a data endpoint in parallel.
 // Returns { pages, data } or throws.
-async function fetchPagesAndData(dataUrl) {
+async function fetchPagesAndJson(dataUrl, fetchOptions = {}) {
+  const headers = {
+    Accept: "application/json",
+    ...(fetchOptions.headers || {}),
+  };
+  if (fetchOptions.body != null && headers["Content-Type"] == null) {
+    headers["Content-Type"] = "application/json";
+  }
+
   const [pagesRes, dataRes] = await Promise.all([
-    fetch(`${API_BASE}/pages`),
-    fetch(dataUrl),
+    fetch(`${API_BASE}/pages`, { headers: { Accept: "application/json" } }),
+    fetch(dataUrl, { ...fetchOptions, headers }),
   ]);
   if (!pagesRes.ok) throw new Error(`Failed /pages: ${pagesRes.status}`);
   if (!dataRes.ok)  throw new Error(`Failed ${dataUrl}: ${dataRes.status}`);
   const pagesPayload = await pagesRes.json();
   const data         = await dataRes.json();
   return { pages: pagesPayload.pages || [], data };
+}
+
+async function fetchPagesAndData(dataUrl) {
+  return fetchPagesAndJson(dataUrl);
 }
 
 // Group an array of entities into a Map keyed by list.
@@ -203,6 +215,35 @@ function bucketByList(entities) {
   return map;
 }
 
+function withPageIcons(entities, pages) {
+  const pageMeta = new Map(
+    (pages || [])
+      .filter(p => p?.key)
+      .map(p => [
+        p.key,
+        {
+          icon: p.icon || p.emoji || "",
+          hide: Array.isArray(p.tags) && p.tags.includes("regions"),
+        },
+      ])
+  );
+
+  return (entities || []).map((entity) => ({
+    ...entity,
+    pageIcon: entity?.pageIcon || pageMeta.get(entity?.list)?.icon || "",
+    hide: entity?.hide === true || pageMeta.get(entity?.list)?.hide === true,
+  }));
+}
+
+function scrollToHashAnchor() {
+  const rawHash = window.location.hash || "";
+  const id = decodeURIComponent(rawHash.replace(/^#/, ""));
+  if (!id) return;
+
+  const target = document.getElementById(id);
+  if (target) target.scrollIntoView({ block: "start" });
+}
+
 // Render the page title, document.title, and visited line into headlineEl / captionEl.
 function renderHeader(headlineEl, captionEl, { name, icons, been }) {
   const iconStr = Array.isArray(icons) ? icons.join(" ") : (icons || "");
@@ -211,8 +252,26 @@ function renderHeader(headlineEl, captionEl, { name, icons, been }) {
   document.title         = title;
   headlineEl.textContent = title;
 
-  captionEl.appendChild(document.createTextNode(been === true ? "✅ Visited" : "📝 Not visited"));
-  captionEl.appendChild(UI.br());
+  if (typeof been === "boolean") {
+    captionEl.appendChild(document.createTextNode(been ? "✅ Visited" : "📝 Not visited"));
+    captionEl.appendChild(UI.br());
+  }
+}
+
+function visitedFirstRows(rows) {
+  const visited = [];
+  const todo = [];
+
+  for (const row of rows || []) {
+    if (row?.been === false) todo.push(row);
+    else visited.push(row);
+  }
+
+  return [...visited, ...todo];
+}
+
+function pagePathForKey(listKey) {
+  return ["mosques", "synagogues"].includes(listKey) ? "page-rtl.html" : "page.html";
 }
 
 // Render a single section: anchor + icon + page link (+ count) + entity rows.
@@ -220,13 +279,11 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
   const listKey  = page.key;
   const pageIcon = page.icon || page.emoji || "";
   const name     = page.name || listKey;
-  const rows     = dedupe ? UI.dedupeEntities(hits) : hits;
+  const rows     = visitedFirstRows(dedupe ? UI.dedupeEntities(hits) : hits);
 
-  captionEl.appendChild(UI.el("a", { name: listKey }));
-  captionEl.appendChild(document.createTextNode(" "));
   captionEl.appendChild(document.createTextNode(pageIcon ? `${pageIcon} ` : ""));
 
-  const a = UI.el("a", { href: `${listKey}.html`, className: "link" });
+  const a = UI.el("a", { href: `${pagePathForKey(listKey)}?id=${encodeURIComponent(listKey)}`, className: "link", id: listKey });
   a.textContent = name;
   captionEl.appendChild(a);
 
@@ -237,7 +294,7 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
   captionEl.appendChild(UI.br());
 
   for (const ent of rows.slice(0, maxItems)) {
-    captionEl.appendChild(UI.renderEntityRow(ent, pageName ? { pageName } : {}));
+    captionEl.appendChild(UI.renderEntityRow(ent, { ...(pageName ? { pageName } : {}), sectionKey: listKey }));
   }
 }
 
@@ -278,6 +335,7 @@ function renderSections(captionEl, pages, byList, options = {}) {
     any = true;
   }
 
+  if (any) scrollToHashAnchor();
   return any;
 }
 
@@ -297,8 +355,11 @@ function renderError(headlineEl, captionEl, err) {
 
 window.Results = {
   API_BASE,
+  fetchPagesAndJson,
   fetchPagesAndData,
   bucketByList,
+  withPageIcons,
+  scrollToHashAnchor,
   renderHeader,
   renderSection,
   renderSections,

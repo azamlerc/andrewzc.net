@@ -24,6 +24,8 @@
   <script src="map.js"></script>
   <div id="lists"></div>
 </div>
+<script src="ui.js"></script>
+<script src="results.js"></script>
 <script src="bingo.js"></script>
 <script>
 const places = [
@@ -51,7 +53,7 @@ const pages = [
 ];
 
 (async function init() {
-  createHeader();
+  createHeader("states");
   await bingoMain("states");
   showPlaces(mapPlaces);
 })();

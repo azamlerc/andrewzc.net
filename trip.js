@@ -39,7 +39,7 @@
     );
 
     const page     = data.page || null;
-    const entities = data.entities || [];
+    const entities = Results.withPageIcons(data.entities || [], pages);
 
     const tripName = page?.name || UI.titleCase(tripKey.replace(/-/g, " "));
     const tripIcon = page?.icon || page?.emoji || "";
@@ -50,7 +50,7 @@
 
     // Expose for map.js
     window.places   = entities;
-    window.pageInfo = page;
+    window.pageInfo = { ...page, usePageIconsOnMap: true };
 
     if (tripMap?.lat != null && tripMap?.lon != null && tripMap?.zoom != null) {
       const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];

@@ -50,17 +50,6 @@
   margin-left: auto;
 }
 
-.inputWithButton {
-  width: calc(100% - 112px);
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.inlineFieldButton {
-  margin-left: 12px;
-  vertical-align: middle;
-}
-
 .input, .textarea {
   font: 24pt Avenir;
   color: #444;
@@ -230,13 +219,4 @@
     flex-basis: 100%;
   }
 
-  .inputWithButton {
-    width: 100%;
-    display: block;
-  }
-
-  .inlineFieldButton {
-    margin-left: 0;
-    margin-top: 12px;
-  }
 }

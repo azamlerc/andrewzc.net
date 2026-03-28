@@ -55,12 +55,12 @@ function fitZoom(minLat, maxLat, minLon, maxLon) {
         const ed = await eRes.json();
 
         const pages    = pd.pages || [];
-        const entities = ed.results || ed;
+        const entities = Results.withPageIcons(ed.results || ed, pages);
         const byList   = Results.bucketByList(entities);
 
         // Expose places for map.js; default been=false so markers pass map.js filters
         window.places   = entities.map(e => ({ ...e, been: e.been ?? false }));
-        window.pageInfo = { key: "nearby" };
+        window.pageInfo = { key: "nearby", usePageIconsOnMap: true };
 
         // Derive map center + zoom from the bounding box of result coordinates
         const pts = entities.map(entityCoords).filter(Boolean);

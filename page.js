@@ -164,6 +164,22 @@ function formatDistance(meters) {
   return `${Math.round(m)}m`;
 }
 
+function countryCodeFromFlagEmoji(icon) {
+  const cps = Array.from(String(icon || ""));
+  if (cps.length !== 2) return null;
+
+  const a = cps[0].codePointAt(0);
+  const b = cps[1].codePointAt(0);
+  const A = 0x1F1E6;
+  const Z = 0x1F1FF;
+  if (a < A || a > Z || b < A || b > Z) return null;
+
+  return String.fromCharCode(
+    "A".charCodeAt(0) + (a - A),
+    "A".charCodeAt(0) + (b - A)
+  );
+}
+
 function entityCoords(entity) {
   const loc = entity?.location;
   if (loc?.type === "Point" && Array.isArray(loc.coordinates) && loc.coordinates.length >= 2) {
@@ -195,14 +211,14 @@ function haversineMeters(a, b) {
   return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
 }
 
-function effectiveSortSpec(sortSpec, sortOverride) {
-  const base = normalizeSortParts(sortSpec, []);
+function effectiveSortSpec(sortSpec, sortOverride, tags = []) {
+  const base = normalizeSortParts(sortSpec, tags);
   if (!Array.isArray(sortOverride) || sortOverride.length === 0) return base;
   return [...sortOverride, ...base];
 }
 
-function sortSpecIncludes(sortSpec, key) {
-  return effectiveSortSpec(sortSpec, []).some(part => part.replace(/^[-+]/, "") === key);
+function sortSpecIncludes(sortSpec, key, tags = []) {
+  return effectiveSortSpec(sortSpec, [], tags).some(part => part.replace(/^[-+]/, "") === key);
 }
 
 async function getCurrentPosition() {
@@ -225,21 +241,30 @@ async function getCurrentPosition() {
 }
 
 function renderIcons(entity, listCtx) {
-  const icons = Array.isArray(entity.icons) ? entity.icons.join(" ") : "";
+  const icons = Array.isArray(entity.icons) ? entity.icons : [];
 
   // Swift behavior: if flags present and flagClass == "icon", suppress icons.
   const flags = entity.flags;
   if (Array.isArray(flags) && flags.length > 0 && listCtx.flagClass === "icon") {
-    return [commented(icons)];
+    return [commented(icons.join(" "))];
   }
 
-  if (!icons) return [];
+  if (icons.length === 0) return [];
+
+  const iconNodes = icons.flatMap((icon, idx) => {
+    const code = countryCodeFromFlagEmoji(icon);
+    const sectionHash = listCtx.listId ? `#${encodeURIComponent(listCtx.listId)}` : "";
+    const node = code
+      ? el("a", { href: `country.html?code=${encodeURIComponent(code.toLowerCase())}${sectionHash}` }, text(icon))
+      : text(icon);
+    return idx ? [text(" "), node] : [node];
+  });
 
   if (listCtx.todoIcon && entity.been === false) {
-    return [el("span", { class: "todo" }, text(icons))];
+    return [el("span", { class: "todo" }, iconNodes)];
   }
 
-  return [text(icons)];
+  return iconNodes;
 }
 
 function renderFlags(entity, listCtx) {
@@ -331,9 +356,52 @@ function highlightDistanceCaption(el) {
     escaped.slice(lastMatch.index + lastMatch[0].length);
 }
 
+function simplifyForReference(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/’/g, "")
+    .replace(/\./g, "")
+    .replace(/,/g, "")
+    .replace(/\*/g, "")
+    .replace(/"/g, "")
+    .replace(/</g, "")
+    .replace(/>/g, "")
+    .replace(/\(/g, "")
+    .replace(/\)/g, "")
+    .replace(/\//g, "-")
+    .replace(/&/g, "-")
+    .replace(/–/g, "-")
+    .replace(/—/g, "-")
+    .replace(/---/g, "-")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/the-/, "");
+}
+
+function renderReference(reference, listCtx) {
+  const value = String(reference || "");
+  if (!value) return null;
+
+  if (listCtx.tags.includes("city-reference")) {
+    return el("a", { href: `city.html?city=${encodeURIComponent(simplifyForReference(value))}`, class: "dark" }, text(value));
+  }
+
+  if (listCtx.tags.includes("artist-reference")) {
+    return el("a", { href: `artist.html?id=${encodeURIComponent(simplifyForReference(value))}`, class: "dark" }, text(value));
+  }
+
+  return el("span", { class: "dark" }, text(value));
+}
+
 function renderRow(entity, listCtx) {
   const frag = document.createDocumentFragment();
   const chosenImages = pickRowImages(entity, listCtx);
+  const entityHref = listCtx.listId === "cities"
+    ? `city.html?city=${encodeURIComponent(entity.key || "")}`
+    : listCtx.listId === "countries"
+      ? `country.html?code=${encodeURIComponent(entity.country || "")}`
+      : (entity.link || "#");
 
   if (chosenImages.length) {
     const imagesDiv = el("div", { class: "images" });
@@ -384,7 +452,7 @@ function renderRow(entity, listCtx) {
   const referenceFirst = listCtx.tags.includes("reference-first");
   const noReference = listCtx.tags.includes("no-reference");
   if (entity.reference && referenceFirst && !noReference) {
-    frag.append(el("span", { class: "dark" }, text(entity.reference)), text(" "));
+    frag.append(renderReference(entity.reference, listCtx), text(" "));
   }
 
   // link (always view link; edit link will be swapped in DOM if needed)
@@ -392,7 +460,7 @@ function renderRow(entity, listCtx) {
     el(
       "a",
       {
-        href: entity.link || "#",
+        href: entityHref,
         id: entity.key || null,
         class: [entity.strike ? "strike" : null, chosenImages.length ? "withImages" : null].filter(Boolean).join(" ") || null
       },
@@ -401,7 +469,7 @@ function renderRow(entity, listCtx) {
   );
 
   if (entity.reference && !referenceFirst && !noReference) {
-    frag.append(text(" "), el("span", { class: "dark" }, text(entity.reference)));
+    frag.append(text(" "), renderReference(entity.reference, listCtx));
   }
 
   if (entity.info) {
@@ -533,6 +601,23 @@ function compareValues(av, bv, { numeric = false, descending = false, ignoreLead
   return descending ? -out : out;
 }
 
+function compareCoords(aEntity, bEntity, descending = false) {
+  const a = entityCoords(aEntity);
+  const b = entityCoords(bEntity);
+
+  if (!a && !b) return 0;
+  if (!a) return 1;
+  if (!b) return -1;
+
+  const latCompare = compareValues(a.lat, b.lat, { numeric: true, descending: true });
+  if (latCompare !== 0) return descending ? -latCompare : latCompare;
+
+  const lonCompare = compareValues(a.lon, b.lon, { numeric: true, descending: false });
+  if (lonCompare !== 0) return descending ? -lonCompare : lonCompare;
+
+  return 0;
+}
+
 function normalizeSortParts(sortSpec, tags) {
   let parts = [];
 
@@ -572,8 +657,9 @@ function buildComparator(sortSpec, tags) {
     const isIcons = (key === "icons");
     const isCountries = (key === "countries");
     const isStates = (key === "states");
+    const isCoords = (key === "coords");
     const valueKey = (key === "distance") ? "locationDistance" : key;
-    return { key, valueKey, descending, numeric, isIcons, isCountries, isStates };
+    return { key, valueKey, descending, numeric, isIcons, isCountries, isStates, isCoords };
   });
 
   return (a, b) => {
@@ -593,6 +679,8 @@ function buildComparator(sortSpec, tags) {
         const bs = codesFromEntity(b, "states", "state");
         c = compareCodeArrays(as, bs);
         if (k.descending) c = -c;
+      } else if (k.isCoords) {
+        c = compareCoords(a, b, k.descending);
       } else {
         c = compareValues(a?.[k.valueKey], b?.[k.valueKey], {
           numeric: k.numeric,
@@ -659,7 +747,7 @@ function sortedGroups(listInfo, entities, listCtx) {
   } else if (listCtx.tags.includes("people")) {
     // People lists: been is not meaningful; render everything in one section.
     groups = [list];
-  } else if (["place", "country"].includes(listInfo.type)) {
+  } else if (["place", "country", "city"].includes(listInfo.type)) {
     const been = list.filter(e => e.been === true);
     const todo = list.filter(e => e.been === false || e.been == null);
     if (todo.length > 0) groups = [been, todo];
@@ -882,7 +970,7 @@ async function isAdminSession() {
     const data = await fetchPageData(pageId);
 
     const info = data["--info--"] || {};
-    const effectiveSort = effectiveSortSpec(info.sort, sortOverride);
+    const effectiveSort = effectiveSortSpec(info.sort, sortOverride, info.tags);
     const renderInfo = { ...info, sort: effectiveSort };
     window.pageInfo = info;
 
@@ -906,7 +994,7 @@ async function isAdminSession() {
       }));
     }
 
-    if (sortSpecIncludes(effectiveSort, "distance")) {
+    if (sortSpecIncludes(effectiveSort, "distance", info.tags)) {
       const origin = await getCurrentPosition();
       entities = entities.map(e => {
         const point = entityCoords(e);

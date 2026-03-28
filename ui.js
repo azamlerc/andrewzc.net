@@ -48,6 +48,22 @@
     }
   }
 
+  function countryCodeFromFlagEmoji(icon) {
+    const cps = Array.from(String(icon || ""));
+    if (cps.length !== 2) return null;
+
+    const a = cps[0].codePointAt(0);
+    const b = cps[1].codePointAt(0);
+    const A = 0x1f1e6;
+    const Z = 0x1f1ff;
+    if (a < A || a > Z || b < A || b > Z) return null;
+
+    return String.fromCharCode(
+      "A".charCodeAt(0) + (a - A),
+      "A".charCodeAt(0) + (b - A)
+    );
+  }
+
   // This is a *generic* “inline row” renderer that matches your site’s vibe:
   // prefix (if any) + icons + link/name, with todo + strike support.
   function renderEntityRow(entity, opts = {}) {
@@ -63,13 +79,30 @@
 
     // Icons (flags/emojis/etc)
     if (Array.isArray(entity.icons) && entity.icons.length) {
-      row.appendChild(document.createTextNode(entity.icons.join(" ") + " "));
+      const sectionKey = opts.sectionKey || entity.list || "";
+      const iconNodes = entity.icons.flatMap((icon, idx) => {
+        const code = countryCodeFromFlagEmoji(icon);
+        const hash = sectionKey ? `#${encodeURIComponent(sectionKey)}` : "";
+        const node = code
+          ? el("a", { href: `country.html?code=${encodeURIComponent(code.toLowerCase())}${hash}` }, icon)
+          : document.createTextNode(icon);
+        return idx ? [document.createTextNode(" "), node] : [node];
+      });
+      const iconWrap = isTodo ? el("span", { className: "todo" }, iconNodes) : el("span", {}, iconNodes);
+      row.appendChild(iconWrap);
+      row.appendChild(document.createTextNode(" "));
     }
 
     // Some records use `country` / `countries` without `icons`
     // (optional — you might not need this)
     if ((!entity.icons || entity.icons.length === 0) && entity.country) {
-      row.appendChild(document.createTextNode(flagEmojiFromCountryCode(entity.country) + " "));
+      const flagText = document.createTextNode(flagEmojiFromCountryCode(entity.country));
+      if (isTodo) {
+        row.appendChild(el("span", { className: "todo" }, flagText));
+        row.appendChild(document.createTextNode(" "));
+      } else {
+        row.appendChild(document.createTextNode(flagEmojiFromCountryCode(entity.country) + " "));
+      }
     }
 
     const label = entity.name ?? entity.key ?? "";
@@ -99,15 +132,7 @@
       row.style.textDecoration = "line-through";
     }
 
-    // Todo styling:
-    // - for general pages you’ve been using <span class="todo">…</span>
-    // - for twin pages you mentioned 50% opacity for flag; but countries can keep classic todo.
-    if (isTodo) {
-      const todo = el("span", { className: "todo" }, row);
-      wrap.appendChild(todo);
-    } else {
-      wrap.appendChild(row);
-    }
+    wrap.appendChild(row);
 
     wrap.appendChild(br());
     return wrap;
@@ -153,6 +178,7 @@
     renderEntityRow,
     parseCoords,
     round,
-    dedupeEntities
+    dedupeEntities,
+    countryCodeFromFlagEmoji
   };
 })();
