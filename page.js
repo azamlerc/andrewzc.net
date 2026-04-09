@@ -731,8 +731,11 @@ function sortedGroups(listInfo, entities, listCtx) {
     groups = groupPlaces(list);
   } else if (Array.isArray(listInfo.sections)) {
     const sections = listInfo.sections;
-    groups = sections.map(section => list.filter(e => e.section === section));
-    groups.push(list.filter(e => e.section == null || !sections.includes(e.section)));
+    const ungrouped = list.filter(e => e.section == null || !sections.includes(e.section));
+    const ungroupedBeen = ungrouped.filter(e => e.been === true);
+    const sectionGroups = sections.map(section => list.filter(e => e.section === section));
+    const ungroupedTodo = ungrouped.filter(e => e.been === false || e.been == null);
+    groups = [ungroupedBeen, ...sectionGroups, ungroupedTodo];
   } else if (listInfo.group === "date") {
     const today = new Date().toISOString().slice(0, 10);
     const future = list.filter(e => e.prefixDate > today);
