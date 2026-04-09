@@ -24,8 +24,11 @@ function fitZoom(minLat, maxLat, minLon, maxLon) {
 
 function queryCoords() {
   const params = new URLSearchParams(window.location.search);
-  const lat = Number(params.get("lat"));
-  const lon = Number(params.get("lon"));
+  const latRaw = params.get("lat");
+  const lonRaw = params.get("lon");
+  if (latRaw == null || lonRaw == null) return null;
+  const lat = Number(latRaw);
+  const lon = Number(lonRaw);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
   return { lat, lon };
 }
