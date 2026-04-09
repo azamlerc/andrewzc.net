@@ -10,7 +10,7 @@ function appendCountryHeaders(countries) {
     const tooltipDiv = document.createElement('div');
     tooltipDiv.className = 'tooltip';
     const anchor = document.createElement('a');
-    anchor.href = `countries/${country.key}.html`;
+    anchor.href = `country.html?code=${country.country}`;
     anchor.innerHTML = country.icon;
     const tooltipText = document.createElement('span');
     tooltipText.className = 'tooltiptext';
@@ -55,7 +55,7 @@ function appendTableRows(flags, filter) {
       const tr = document.createElement('tr');
     
       const pageCell = document.createElement('td');
-      pageCell.appendChild(link(`${page.key}.html`, `${page.icon} ${shortNames[page.name] || page.name}`));
+      pageCell.appendChild(link(`page.html?id=${page.key}`, `${page.icon} ${shortNames[page.name] || page.name}`));
       tr.appendChild(pageCell);
 
       const countCell = document.createElement('td');
@@ -69,9 +69,9 @@ function appendTableRows(flags, filter) {
       while (counts.length < flags.countries.length) counts.push(0);
       counts.forEach((count, index) => {
         const td = document.createElement('td');
-        let countryKey = flags.countries[index].key;
+        let countryCode = flags.countries[index].country;
         if (count) {
-          td.appendChild(link(`countries/${countryKey}.html#${page.key}`, count));
+          td.appendChild(link(`country.html?code=${countryCode}#${page.key}`, count));
         } else {
           td.innerHTML = "–";
         }
@@ -85,9 +85,8 @@ function appendTableRows(flags, filter) {
 
 document.addEventListener('DOMContentLoaded', function() {
   let filter = getParam("filter");
-  fetch(`data/flags.json`)
-    .then(response => response.json())
-    .then(flags => {
+  import('./api.js').then(({ getFlags }) => getFlags()).then(flags => {
+      console.log(`Flags query: ${flags.queryTimeMs}ms`);
       total.innerHTML = formatNumber(flags.totalCount);
       appendCountryHeaders(flags.countries);
       appendCountryTotals(flags.countries);

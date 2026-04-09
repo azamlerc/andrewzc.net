@@ -89,3 +89,7 @@ export function updatePage(key, patch) {
     body: JSON.stringify(patch)
   });
 }
+
+export function getFlags() {
+  return api("/flags", { method: "GET" });
+}
