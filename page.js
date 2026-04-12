@@ -486,6 +486,11 @@ function renderRow(entity, listCtx) {
   if (entity.caption) {
     const caption = el("div", { class: "caption" }, text(entity.caption));
     highlightDistanceCaption(caption);
+    if (entity.challenge != null) {
+      const CIRCLED = ["\u24EA", "\u2460", "\u2461", "\u2462", "\u2463", "\u2464", "\u2465"];
+      const glyph = CIRCLED[Math.min(Math.max(Math.round(entity.challenge), 0), 6)] ?? "";
+      if (glyph) caption.append(text(" " + glyph));
+    }
     frag.append(caption);
   }
 
