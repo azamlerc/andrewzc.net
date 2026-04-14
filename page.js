@@ -57,6 +57,12 @@ function text(s) {
   return document.createTextNode(String(s ?? ""));
 }
 
+function htmlFragment(html) {
+  const template = document.createElement("template");
+  template.innerHTML = String(html ?? "");
+  return template.content.cloneNode(true);
+}
+
 function br() {
   return document.createElement("br");
 }
@@ -473,7 +479,7 @@ function renderRow(entity, listCtx) {
   }
 
   if (entity.info) {
-    frag.append(text(" "), text(entity.info));
+    frag.append(text(" "), htmlFragment(entity.info));
   }
 
   const badges = renderBadges(entity, listCtx);
