@@ -229,6 +229,7 @@
 
         anchor.name = item.id;
         titleDiv.textContent  = item.emoji.join(" ") + " " + item.name;
+        titleDiv.classList.add("prompt");
         promptDiv.textContent = item.prompt;
         promptDiv.classList.add("prompt");
         itemDiv.appendChild(anchor);
