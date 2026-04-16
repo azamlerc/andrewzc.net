@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🐸 Depeche Toad</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=800" />
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    input[type="checkbox"] {
+      transform: scale(2.0);
+      position: relative;
+      bottom: 5px;
+      margin-right: 6px;
+    }
+    .options td {
+      padding-right: 20px;
+      font: 18pt Avenir;
+    }
+    .normalWrap { white-space: normal; }
+    .singleImage { width: 900px; height: 900px; }
+  </style>
+</head>
+<body>
+<div class="headline">🐸 Depeche Toad</div>
+
+<table class="options">
+  <tr class="caption" id="styles">
+    <td class="dark">styles:</td>
+    <td><input type="checkbox" id="style-photo" name="style" value="photo" checked> photo</td>
+    <td><input type="checkbox" id="style-lego"  name="style" value="lego">  lego</td>
+    <td><input type="checkbox" id="style-anime" name="style" value="anime"> anime</td>
+  </tr>
+  <tr class="caption" id="artists-row">
+    <td class="dark">artists:</td>
+    <!-- Artist checkboxes injected here by JS -->
+  </tr>
+</table>
+<br>
+
+<div id="main" class="items normalWrap"></div>
+
+<script src="../imagine/image-viewer.js"></script>
+<script src="config.js"></script>
+<script>
+
+  // imageSet: Set of `${artistId}|${animal}|${style}` for fast existence checks
+  let imageSet  = new Set();
+  let allArtists = [];
+
+  async function init() {
+    const [artistsRes, imagesRes] = await Promise.all([
+      fetch(`${API_BASE}/animals/artists`),
+      fetch(`${API_BASE}/animals/images`),
+    ]);
+    const [artistsData, imagesData] = await Promise.all([artistsRes.json(), imagesRes.json()]);
+
+    allArtists = artistsData.artists || [];
+    for (const img of (imagesData.images || [])) {
+      imageSet.add(`${img.artistId}|${img.animal}|${img.style}`);
+    }
+
+    buildArtistCheckboxes();
+    loadCheckboxState();
+    update();
+  }
+
+  function buildArtistCheckboxes() {
+    const row = document.getElementById("artists-row");
+    // Clear placeholder content (keep the label cell)
+    while (row.children.length > 1) row.removeChild(row.lastChild);
+
+    // Show only primary artists (corbijn, lachapelle, von-gloeden, saudek, picasso, hope)
+    // in the checkbox row — matching the original list.html filter selection.
+    const primary = allArtists.filter(a => !a.short);
+    for (const artist of primary) {
+      const td    = document.createElement("td");
+      const cb    = document.createElement("input");
+      cb.type     = "checkbox";
+      cb.id       = `artist-${artist.id}`;
+      cb.name     = "artist";
+      cb.value    = artist.id;
+      cb.checked  = ["corbijn", "lachapelle", "von-gloeden"].includes(artist.id);
+      cb.addEventListener("change", () => { saveCheckboxState(); update(); });
+      td.appendChild(cb);
+      td.appendChild(document.createTextNode(" " + artist.name));
+      row.appendChild(td);
+    }
+  }
+
+  function hasImage(artistId, animal, style) {
+    return imageSet.has(`${artistId}|${animal}|${style}`);
+  }
+
+  function update() {
+    const selectedArtists = checkedBoxes("artists-row");
+    const selectedStyles  = checkedBoxes("styles");
+    const singleImageMode = selectedArtists.length === 1 && selectedStyles.length === 1;
+
+    main.innerHTML = "";
+
+    animals.forEach(item => {
+      const animalName = item[1];
+      const emoji      = item[0];
+
+      // Check if any selected artist×style combo has this animal
+      const hasAny = selectedArtists.some(a => selectedStyles.some(s => hasImage(a, animalName, s)));
+      if (!hasAny) return;
+
+      const anchor   = document.createElement("a");
+      const itemDiv  = document.createElement("div");
+      const titleDiv = document.createElement("div");
+      anchor.name        = animalName;
+      titleDiv.textContent = emoji + " " + animalName;
+      itemDiv.appendChild(anchor);
+      itemDiv.appendChild(titleDiv);
+
+      for (const artistId of selectedArtists) {
+        const artistObj = allArtists.find(a => a.id === artistId);
+        if (!artistObj) continue;
+
+        for (const style of selectedStyles) {
+          if (!hasImage(artistId, animalName, style)) continue;
+
+          const suffix    = style === "photo" ? "" : `-${style}`;
+          const subfolder = singleImageMode ? "" : "/tn";
+          const link = document.createElement("a");
+          const img  = document.createElement("img");
+
+          link.href   = `${IMAGE_BASE}/animals/${artistId}/${artistId}-${animalName}${suffix}.jpg`;
+          img.src     = `${IMAGE_BASE}/animals/${artistId}${subfolder}/${artistId}-${animalName}${suffix}.jpg`;
+          img.classList.add("hike");
+          if (singleImageMode) img.classList.add("singleImage");
+          img.loading = "lazy";
+
+          link.appendChild(img);
+          itemDiv.appendChild(link);
+        }
+      }
+
+      main.appendChild(itemDiv);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("#styles input[type=checkbox]").forEach(cb => {
+      cb.addEventListener("change", () => { saveCheckboxState(); update(); });
+    });
+  });
+
+  init();
+
+</script>
+</body>
+</html>

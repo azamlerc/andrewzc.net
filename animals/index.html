@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🐸 Animals</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=880" />
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .selected {
+      float: left;
+      width: 820px;
+      height: 820px;
+    }
+    .textBox {
+      padding-top: 25px;
+      padding-left: 25px;
+      height: 365px;
+      width: 365px;
+      vertical-align: top;
+      margin: 6px 10px 14px 10px;
+      background-color: #EEE;
+    }
+    .title {
+      font: 64pt Avenir;
+      color: black;
+      line-height: 120%;
+      vertical-align: bottom;
+      hyphens: auto;
+    }
+    @media (prefers-color-scheme: dark) {
+      .textBox { background-color: #222; }
+      .title { color: white; }
+    }
+  </style>
+</head>
+<body>
+<div id="main"></div>
+<script src="config.js"></script>
+<script>
+
+  let artists = [];
+  let imgs    = [];
+
+  async function init() {
+    const res  = await fetch(`${API_BASE}/animals/artists`);
+    const data = await res.json();
+    artists = data.artists || [];
+    buildGrid();
+  }
+
+  function buildGrid() {
+    // Split artists into two groups: primary (not short) and secondary (short).
+    // Each group is shuffled independently, matching the original two-group layout.
+    const primary   = shuffleArray(artists.filter(a => !a.short));
+    const secondary = shuffleArray(artists.filter(a =>  a.short));
+
+    let first = true;
+
+    for (const group of [primary, secondary]) {
+      for (const artist of group) {
+        const animalList = artist.short ? shortAnimals : animals;
+        const animal = randomObject(animalList);
+        const style  = randomObject(artist.styles);
+        const suffix = style === "photo" ? "" : `-${style}`;
+
+        const tnUrl   = `${IMAGE_BASE}/animals/${artist.id}/tn/${artist.id}-${animal[1]}${suffix}.jpg`;
+        const fullUrl = `${IMAGE_BASE}/animals/${artist.id}/${artist.id}-${animal[1]}${suffix}.jpg`;
+
+        const link  = document.createElement("a");
+        const link2 = document.createElement("a");
+        const img   = document.createElement("img");
+
+        img.src = tnUrl;
+        img.classList.add("hike");
+        img.onerror = () => img.style.display = "none";
+        imgs.push(img);
+
+        if (first) {
+          img.classList.add("selected");
+          img.src = fullUrl;
+          first = false;
+        }
+
+        const href = `image.html?artist=${artist.id}&animal=${encodeURIComponent(animal[1])}`;
+        link.href  = href;
+        link2.href = href;
+        link.appendChild(img);
+
+        const titleDiv = document.createElement("div");
+        titleDiv.classList.add("hike", "textBox", "title");
+        titleDiv.innerHTML = artist.name;
+        link2.appendChild(titleDiv);
+
+        if (randomNumber(0, 1)) {
+          main.appendChild(link);
+          main.appendChild(link2);
+        } else {
+          main.appendChild(link2);
+          main.appendChild(link);
+        }
+      }
+    }
+  }
+
+  function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function randomObject(array) {
+    if (!array || array.length === 0) return null;
+    return array[Math.floor(Math.random() * array.length)];
+  }
+
+  function shuffleArray(array) {
+    const a = array.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  init();
+
+</script>
+</body>
+</html>

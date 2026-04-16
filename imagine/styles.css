@@ -1,0 +1,126 @@
+.selected {
+  float: left;
+  width: 820px;
+  height: 820px;
+}
+
+.textBox {
+  padding-top: 25px;
+  padding-left: 25px;
+  height: 365px;
+  width: 365px;
+  vertical-align: top;
+  margin: 6px 10px 14px 10px;
+  vertical-align: top;
+  background-color: #EEE;
+}
+    
+.emojiBox {
+	font: 113pt Avenir, 'Apple Color Emoji', 'Noto Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Android Emoji', 'Noto Sans'; 
+	color: #999;
+  line-height: 120%;
+  vertical-align: bottom;
+}
+
+.title {
+	font: 64pt Avenir, "Noto Sans"; 
+	color: black;
+  line-height: 108%;
+  vertical-align: bottom;
+  hyphens: auto;
+}
+
+.stretch {
+  overflow: visible;
+  height: unset;
+  min-height: 365px;
+}
+
+#controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  font: 32pt Avenir, "Noto Sans"; 
+}
+
+#mobile-controls {
+  font: 115pt Avenir, "Noto Sans"; 
+  line-height: 120%;
+  display: none;
+}
+
+@media (any-pointer: coarse) {
+  #controls {
+    display: none;
+  }
+  
+  #mobile-controls {
+    display: inline-block;
+  }
+}
+
+@media (min-width:1920px) and (max-width:1920px) {
+  body {
+    background-color: black;
+    overflow: hidden;
+    zoom: 1.11;
+  }
+  
+  #controls {
+    display: none;
+  }
+  
+  .emojiBox {
+  	font: 92pt Avenir, 'Apple Color Emoji', 'Noto Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Android Emoji', 'Noto Sans'; 
+  }
+}
+
+@media (prefers-color-scheme: dark), (min-width:1920px) and (max-width:1920px) {
+  .textBox {
+    background-color: #222;
+    color: #999;
+  }
+  
+  a, .caption {
+    color: #999;
+  }
+  
+  .title {
+    color: white;
+  }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.0;
+        transform: scale(0.9);
+    }
+    20% {
+        opacity: 0.0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1.0;
+        transform: scale(1.0);
+    }
+}
+
+.fadeIn {
+    animation: fadeInAnimation 1.0s ease-in-out;
+}
+
+@keyframes fadeInStartAnimation {
+    0% {
+        opacity: 0.0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1.0;
+        transform: scale(1.0);
+    }
+}
+
+.fadeInStart {
+    animation: fadeInStartAnimation 0.5s ease-in-out;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🖐️ Fingers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=800" />
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    input[type="checkbox"] {
+      transform: scale(2.0);
+      position: relative;
+      bottom: 5px;
+      margin-right: 6px;
+    }
+    .options td {
+      padding-right: 20px;
+      font: 18pt Avenir;
+      white-space: nowrap;
+    }
+    .prompt { font: 18pt Avenir; }
+    #searchField, select { font: 18pt Avenir; background-color: white; }
+    .emoji { letter-spacing: 5px; }
+    .emoji2 { font: 48pt Avenir; margin-bottom: -10px; }
+    .items { white-space: normal; }
+    .singleImage { width: 900px; height: 900px; }
+  </style>
+</head>
+<body>
+<div id="header">
+  <div class="headline">🖐️ Fingers</div>
+  <table class="options">
+    <tr class="caption" id="models">
+      <td class="dark">models:</td>
+      <td><input type="checkbox" id="model-openai"  name="model" value="openai"  checked> openai</td>
+      <td><input type="checkbox" id="model-getimg"  name="model" value="getimg"  checked> getimg</td>
+      <td><input type="checkbox" id="model-meta"    name="model" value="meta">    meta</td>
+      <td><input type="checkbox" id="model-gemini"  name="model" value="gemini">  gemini</td>
+    </tr>
+    <tr class="caption" id="styles">
+      <td class="dark">styles:</td>
+      <td><input type="checkbox" id="style-photo"   name="style" value="photo"   checked> photo</td>
+      <td><input type="checkbox" id="style-art"     name="style" value="art"     checked> artistic</td>
+      <td><input type="checkbox" id="style-lego"    name="style" value="lego">   lego</td>
+      <td><input type="checkbox" id="style-anime"   name="style" value="anime">  anime</td>
+      <td><input type="checkbox" id="style-pixar"   name="style" value="pixar">  pixar</td>
+    </tr>
+    <tr class="caption" id="themes">
+      <td class="dark">theme:</td>
+      <td colspan="4">
+        <select id="themeMenu" name="themes" onchange="selectTheme()">
+          <option value="">all</option>
+          <option value="activities">activities</option>
+          <option value="africa">africa</option>
+          <option value="aliens">aliens</option>
+          <option value="animals">animals</option>
+          <option value="apple">apple</option>
+          <option value="bathing">bathing</option>
+          <option value="boats">boats</option>
+          <option value="boys">boys</option>
+          <option value="buildings">buildings</option>
+          <option value="california">california</option>
+          <option value="cars">cars</option>
+          <option value="chaos">chaos</option>
+          <option value="desert">desert</option>
+          <option value="england">england</option>
+          <option value="food">food</option>
+          <option value="girls">girls</option>
+          <option value="japan">japan</option>
+          <option value="korea">korea</option>
+          <option value="music">music</option>
+          <option value="new york">new york</option>
+          <option value="octopus">octopus</option>
+          <option value="people">people</option>
+          <option value="phone">phone</option>
+          <option value="places">places</option>
+          <option value="plants">plants</option>
+          <option value="space">space</option>
+          <option value="sports">sports</option>
+          <option value="stories">stories</option>
+          <option value="tech">tech</option>
+          <option value="things">things</option>
+          <option value="transport">transport</option>
+        </select>
+        &nbsp;
+        <input type="text" size="18" id="searchField" placeholder="" onblur="doSearch()">
+      </td>
+    </tr>
+  </table>
+  <br>
+</div>
+<div id="main" class="items"></div>
+<script src="image-viewer.js"></script>
+<script src="config.js"></script>
+<script>
+
+  // modelStyles defines which styles are valid for each model.
+  // This mirrors the 2024 generation config and is used to filter the grid.
+  const modelStyles = {
+    openai: ["photo", "lego", "anime", "art", "pixar"],
+    meta:   ["photo", "lego", "anime", "pixar"],
+    getimg: ["photo", "art", "anime"],
+    gemini: ["photo", "lego"],
+  };
+
+  let allPrompts = [];
+  // imageSet: Map of `${promptId}|${model}|${style}` → true, for fast existence checks
+  let imageSet = new Set();
+
+  let selectedId = (window.location.hash || "#").substring(1);
+  let singleImageMode = false;
+  let selectedModel = null;
+  let selectedStyle = null;
+
+  const urlParams   = new URLSearchParams(window.location.search);
+  let selectedTheme = urlParams.get("theme") || localStorage.getItem("selectedTheme") || "";
+  let searchTerm    = urlParams.get("search") || localStorage.getItem("searchTerm")   || "";
+  searchField.value = searchTerm;
+
+  let displayedVersions  = [];
+  let selectedVersionIdx = 0;
+  let selectedVersionLabel;
+
+  async function init() {
+    const [promptsRes, imagesRes] = await Promise.all([
+      fetch(`${API_BASE}/imagine/prompts`),
+      fetch(`${API_BASE}/imagine/images`),
+    ]);
+    const [promptsData, imagesData] = await Promise.all([promptsRes.json(), imagesRes.json()]);
+
+    allPrompts = moveRandomToFront(promptsData.prompts || []);
+    for (const img of (imagesData.images || [])) {
+      imageSet.add(`${img.promptId}|${img.model}|${img.style}`);
+    }
+
+    loadCheckboxState();
+    selectOptionById(themeMenu, selectedTheme);
+    searchField.value = searchTerm;
+    update();
+  }
+
+  function hasImage(promptId, model, style) {
+    return imageSet.has(`${promptId}|${model}|${style}`);
+  }
+
+  function containsSearchTerm(item) {
+    const cats = item.categories || [];
+    return (
+      (!searchTerm.length ||
+        item.id.includes(searchTerm) ||
+        item.name.toLowerCase().includes(searchTerm) ||
+        cats.includes(searchTerm) ||
+        (item.prompt || "").toLowerCase().includes(searchTerm)) &&
+      (!selectedTheme.length ||
+        item.id.includes(selectedTheme) ||
+        item.name.toLowerCase().includes(selectedTheme) ||
+        cats.includes(selectedTheme) ||
+        (item.prompt || "").toLowerCase().includes(selectedTheme))
+    );
+  }
+
+  function update() {
+    const selectedModels = checkedBoxes("models");
+    const selectedStyles = checkedBoxes("styles");
+
+    main.innerHTML = "";
+    header.style.display = singleImageMode ? "none" : "";
+
+    const filteredPrompts = allPrompts.filter(containsSearchTerm);
+    const imageIds = filteredPrompts.map(p => p.id);
+
+    if ((!selectedId || !imageIds.includes(selectedId)) && filteredPrompts.length) {
+      selectedId = filteredPrompts[0].id;
+    }
+
+    if (singleImageMode && filteredPrompts.length) {
+      const selected = filteredPrompts.find(p => p.id === selectedId);
+      if (!selected) return;
+
+      const itemDiv = document.createElement("div");
+      displayedVersions = [];
+      let found = false;
+
+      for (const model of selectedModels) {
+        for (const style of selectedStyles) {
+          if (!(modelStyles[model] || []).includes(style)) continue;
+          if (!hasImage(selected.id, model, style)) continue;
+
+          const suffix = style === "photo" ? "" : `-${style}`;
+          const img    = document.createElement("img");
+          const imageData = { img, model, style };
+          displayedVersions.push(imageData);
+
+          img.src   = `${IMAGE_BASE}/imagine/${model}/${selected.id}${suffix}.jpg`;
+          img.style.height      = "min(calc(100vh - 40px), calc(100vw - 40px))";
+          img.style.float       = "left";
+          img.style.marginRight = "20px";
+
+          if (model === selectedModel && style === selectedStyle) {
+            found = true;
+            selectedVersionIdx = displayedVersions.length - 1;
+          } else {
+            img.style.display = "none";
+          }
+          itemDiv.appendChild(img);
+        }
+      }
+
+      if (!found && displayedVersions.length) {
+        selectedVersionIdx = 0;
+        displayedVersions[0].img.style.display = "";
+        selectedModel = displayedVersions[0].model;
+        selectedStyle = displayedVersions[0].style;
+      }
+
+      const emoji = selected.emoji.join(" ");
+      itemDiv.appendChild(div("emoji2", emoji));
+      itemDiv.appendChild(div("emoji2", selected.name));
+      selectedVersionLabel = div("prompt", `<br>${selectedModel} / ${selectedStyle}`);
+      itemDiv.appendChild(selectedVersionLabel);
+      itemDiv.appendChild(div("prompt", "<br>" + selected.prompt));
+      main.appendChild(itemDiv);
+
+    } else {
+      for (const item of filteredPrompts) {
+        const itemDiv  = document.createElement("div");
+        const anchor   = document.createElement("a");
+        const titleDiv = document.createElement("div");
+        const promptDiv = document.createElement("div");
+
+        anchor.name = item.id;
+        titleDiv.textContent  = item.emoji.join(" ") + " " + item.name;
+        promptDiv.textContent = item.prompt;
+        promptDiv.classList.add("prompt");
+        itemDiv.appendChild(anchor);
+        itemDiv.appendChild(titleDiv);
+        itemDiv.appendChild(promptDiv);
+
+        for (const model of selectedModels) {
+          for (const style of selectedStyles) {
+            if (!(modelStyles[model] || []).includes(style)) continue;
+            if (!hasImage(item.id, model, style)) continue;
+
+            const suffix = style === "photo" ? "" : `-${style}`;
+            const folder = "tn/";
+            const link = document.createElement("a");
+            const img  = document.createElement("img");
+
+            link.addEventListener("click", () => {
+              selectedModel    = model;
+              selectedStyle    = style;
+              selectedId       = item.id;
+              singleImageMode  = true;
+              update();
+            });
+
+            img.src     = `${IMAGE_BASE}/imagine/${model}/${folder}${item.id}${suffix}.jpg`;
+            img.alt     = `${item.name} / ${model} / ${style}`;
+            img.loading = "lazy";
+            img.classList.add("hike");
+
+            link.appendChild(img);
+            itemDiv.appendChild(link);
+          }
+        }
+
+        main.appendChild(itemDiv);
+      }
+    }
+  }
+
+  function selectTheme() {
+    selectedTheme = themeMenu.options[themeMenu.selectedIndex].value;
+    localStorage.setItem("selectedTheme", selectedTheme);
+    update();
+  }
+
+  function doSearch() {
+    if (searchTerm !== searchField.value) {
+      searchTerm = searchField.value.toLowerCase();
+      localStorage.setItem("searchTerm", searchTerm);
+      update();
+    }
+  }
+
+  document.querySelectorAll("input[type=checkbox]").forEach(cb => cb.addEventListener("change", update));
+
+  function selectOptionById(menu, optionId) {
+    for (let i = 0; i < menu.options.length; i++) {
+      if (menu.options[i].value === optionId) { menu.selectedIndex = i; break; }
+    }
+  }
+
+  function div(klass, text) {
+    const el = document.createElement("div");
+    el.classList.add(klass);
+    el.innerHTML = text;
+    return el;
+  }
+
+  function prevString(arr, target) {
+    if (!arr.length) return null;
+    const idx = arr.indexOf(target);
+    return arr[(idx <= 0 ? arr.length : idx) - 1];
+  }
+
+  function nextString(arr, target) {
+    if (!arr.length) return null;
+    const idx = arr.indexOf(target);
+    return arr[(idx + 1) % arr.length];
+  }
+
+  function selectPrev() {
+    const ids = allPrompts.filter(containsSearchTerm).map(p => p.id);
+    selectedId = prevString(ids, selectedId);
+    window.location.hash = selectedId;
+    if (singleImageMode) update();
+  }
+
+  function selectNext() {
+    const ids = allPrompts.filter(containsSearchTerm).map(p => p.id);
+    selectedId = nextString(ids, selectedId);
+    window.location.hash = selectedId;
+    if (singleImageMode) update();
+  }
+
+  function selectPrevStyle() {
+    selectedVersionIdx = (selectedVersionIdx - 1 + displayedVersions.length) % displayedVersions.length;
+    while (displayedVersions[selectedVersionIdx].skip) {
+      selectedVersionIdx = (selectedVersionIdx - 1 + displayedVersions.length) % displayedVersions.length;
+    }
+    selectedModel = displayedVersions[selectedVersionIdx].model;
+    selectedStyle = displayedVersions[selectedVersionIdx].style;
+    selectedVersionLabel.innerHTML = `<br>${selectedModel} / ${selectedStyle}`;
+    update();
+  }
+
+  function selectNextStyle() {
+    selectedVersionIdx = (selectedVersionIdx + 1) % displayedVersions.length;
+    while (displayedVersions[selectedVersionIdx].skip) {
+      selectedVersionIdx = (selectedVersionIdx + 1) % displayedVersions.length;
+    }
+    selectedModel = displayedVersions[selectedVersionIdx].model;
+    selectedStyle = displayedVersions[selectedVersionIdx].style;
+    selectedVersionLabel.innerHTML = `<br>${selectedModel} / ${selectedStyle}`;
+    update();
+  }
+
+  function back() {
+    singleImageMode = false;
+    update();
+  }
+
+  init();
+
+</script>
+</body>
+</html>
