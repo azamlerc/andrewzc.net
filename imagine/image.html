@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>💭 Imagine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=880" />
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400..700&family=Noto+Color+Emoji&display=swap">
+</head>
+<body>
+<div id="main"></div>
+<div id="controls">
+  <a href="index.html">🏠</a><br>
+  <a onclick="selectPrev()">⬅️</a><br>
+  <a onclick="selectNext()">➡️</a><br>
+  <a onclick="selectRandom()">🔀</a><br>
+  <a onclick="selectPrevStyle()">⬆️</a><br>
+  <a onclick="selectNextStyle()">⬇️</a><br>
+</div>
+<script src="config.js"></script>
+<script>
+
+  const params      = new URLSearchParams(window.location.search);
+  const category    = params.get("q") || "";
+  const promptId    = params.get("id") || "";
+  const showOuttakes = params.has("outtakes");
+
+  let prompt = null;
+  let images = [];
+  let prevId = null;
+  let nextId = null;
+  let imgs   = [];
+  let selectedStyle = null;
+  let startAnimations = false;
+
+  async function init() {
+    const catParam = category ? `?category=${encodeURIComponent(category)}` : "";
+    const res  = await fetch(`${API_BASE}/imagine/prompts/${promptId}${catParam}`);
+    if (!res.ok) { main.innerHTML = "Prompt not found."; return; }
+
+    const data = await res.json();
+    prompt = data.prompt;
+    images = data.images || [];
+    prevId = data.prevId;
+    nextId = data.nextId;
+
+    document.title = prompt.emoji.join("") + " " + prompt.name;
+    update();
+  }
+
+  function update() {
+    main.innerHTML = "";
+    imgs = [];
+
+    const emojiIndex = randomNumber(0, Math.max(images.length - 1, 0));
+    const titleIndex = randomNumber(0, Math.max(images.length - 1, 0));
+
+    const emojiStr  = prompt.emoji.join(" ");
+    const emojiLinks = emojiStr.split(" ").map(e =>
+      `<a href="image.html?q=${encodeURIComponent(e)}">${e}</a>`
+    ).join(" ");
+
+    const title = replaceSubstrings(prompt.name, hyphenations).replace(/ /g, "<br>");
+    const combo = emojiStr.split(" ").length < 3 && title.split("<br").length < 3 && prompt.combo !== false;
+
+    let count = 0;
+    for (const img_rec of images) {
+      const { model, style } = img_rec;
+      const suffix  = style === "photo" ? "" : `-${style}`;
+      const tnUrl   = `${IMAGE_BASE}/imagine/${model}/tn/${prompt.id}${suffix}.jpg`;
+      const fullUrl = `${IMAGE_BASE}/imagine/${model}/${prompt.id}${suffix}.jpg`;
+
+      addImage(model, style, tnUrl, fullUrl);
+
+      if (showOuttakes) {
+        const altTn   = `${IMAGE_BASE}/imagine/${model}/tn/${prompt.id}${suffix}-alt.jpg`;
+        const altFull = `${IMAGE_BASE}/imagine/${model}/${prompt.id}${suffix}-alt.jpg`;
+        addImage(model, style, altTn, altFull);
+      }
+
+      if (count === emojiIndex) {
+        const emojiDiv = document.createElement("div");
+        emojiDiv.innerHTML = emojiLinks;
+        if (combo) {
+          const titleDiv = document.createElement("div");
+          titleDiv.classList.add("title");
+          titleDiv.innerHTML = title;
+          if (prompt.hyphens) titleDiv.style.hyphens = prompt.hyphens;
+          if (prompt.text)    titleDiv.style.color   = prompt.text;
+          emojiDiv.appendChild(titleDiv);
+        }
+        emojiDiv.classList.add("hike", "textBox", "emojiBox");
+        if (prompt.color) emojiDiv.style.backgroundColor = prompt.color;
+        fadeIn(emojiDiv);
+        main.appendChild(emojiDiv);
+      }
+
+      if (count === titleIndex && !combo) {
+        const titleDiv = document.createElement("div");
+        titleDiv.innerHTML = title;
+        titleDiv.classList.add("hike", "textBox", "title");
+        if (prompt.hyphens) titleDiv.style.hyphens = prompt.hyphens;
+        if (prompt.color)   titleDiv.style.backgroundColor = prompt.color;
+        if (prompt.text)    titleDiv.style.color = prompt.text;
+        titleDiv.addEventListener("click", selectNext);
+        fadeIn(titleDiv);
+        main.appendChild(titleDiv);
+      }
+
+      count++;
+    }
+
+    const mobileControls = document.createElement("div");
+    mobileControls.innerHTML = `<a href="index.html">🏠</a> <a onclick="selectRandom()">🔀</a> <a onclick="selectPrev()">⬅️</a> <a onclick="selectNext()">➡️</a>`;
+    mobileControls.id = "mobile-controls";
+    mobileControls.classList.add("hike", "textBox", "emojiBox");
+    fadeIn(mobileControls);
+    main.appendChild(mobileControls);
+
+    const promptDiv = document.createElement("div");
+    promptDiv.innerHTML = prompt.prompt + "<br>";
+    promptDiv.classList.add("hike", "caption", "textBox", "stretch");
+    fadeIn(promptDiv);
+    main.appendChild(promptDiv);
+
+    if (prompt.outtakes && !showOuttakes) {
+      const link = document.createElement("a");
+      link.innerHTML = "Show outtakes";
+      link.href = `image.html?q=${encodeURIComponent(category)}&id=${prompt.id}&outtakes=true`;
+      promptDiv.appendChild(link);
+    }
+
+    if (prompt.comment) {
+      const commentDiv = document.createElement("div");
+      commentDiv.innerHTML = prompt.comment;
+      commentDiv.classList.add("hike", "caption", "textBox");
+      fadeIn(commentDiv);
+      main.appendChild(commentDiv);
+    }
+
+    selectImage(randomObject(imgs), false);
+    setTimeout(() => startAnimations = true, 500);
+  }
+
+  function addImage(model, style, tnUrl, fullUrl) {
+    const link = document.createElement("a");
+    const img  = document.createElement("img");
+    link.addEventListener("click", () => {
+      if (img.classList.contains("selected")) {
+        selectNextStyle();
+      } else {
+        selectedStyle = style;
+        imgs.forEach(i => i.classList.remove("selected"));
+        selectImage(img);
+      }
+    });
+    img.src     = tnUrl;
+    img.fullSrc = fullUrl;
+    img.classList.add("hike");
+    fadeIn(img);
+    imgs.push(img);
+    link.appendChild(img);
+    main.appendChild(link);
+  }
+
+  function fadeIn(el) {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (startAnimations) entry.target.classList.add("fadeIn");
+          obs.unobserve(entry.target);
+        }
+      });
+    });
+    observer.observe(el);
+  }
+
+  document.addEventListener("keydown", function(event) {
+    switch (event.key) {
+      case "ArrowUp":    selectPrevStyle(); break;
+      case "ArrowDown":  selectNextStyle(); break;
+      case "ArrowLeft":  selectPrev();      break;
+      case "ArrowRight": selectNext();      break;
+      case "r":
+      case "Enter":      selectRandom();    break;
+      case "Escape":     window.location = "index.html"; break;
+      default: return;
+    }
+    event.preventDefault();
+  });
+
+  function navigate(id) {
+    if (!id) return;
+    const q = category ? `q=${encodeURIComponent(category)}&` : "";
+    window.location = `image.html?${q}id=${id}`;
+  }
+
+  function selectNext()   { navigate(nextId); }
+  function selectPrev()   { navigate(prevId); }
+  function selectRandom() {
+    // Navigate to a random sibling by re-fetching the list
+    const catParam = category ? `?category=${encodeURIComponent(category)}` : "";
+    fetch(`${API_BASE}/imagine/prompts${catParam}`)
+      .then(r => r.json())
+      .then(data => {
+        const others = (data.prompts || []).filter(p => p.id !== promptId);
+        const pick   = randomObject(others.length ? others : (data.prompts || []));
+        if (pick) navigate(pick.id);
+      });
+  }
+
+  function selectNextStyle() { selectVisibleImage(imgs, +1); }
+  function selectPrevStyle() { selectVisibleImage(imgs, -1); }
+
+  function selectVisibleImage(images, direction) {
+    let selectedIndex = images.findIndex(img => img.classList.contains("selected"));
+
+    if (selectedIndex === -1) {
+      const idx = direction === 1
+        ? images.findIndex(img => img.style.display !== "none")
+        : [...images].reverse().findIndex(img => img.style.display !== "none");
+      if (idx !== -1) selectImage(direction === 1 ? images[idx] : images[images.length - 1 - idx]);
+      return;
+    }
+
+    images[selectedIndex].classList.remove("selected");
+    let next = selectedIndex;
+    do {
+      next = (next + direction + images.length) % images.length;
+    } while (images[next].style.display === "none" && next !== selectedIndex);
+    selectImage(images[next]);
+  }
+
+  function selectImage(img, scroll = true) {
+    if (!img) return;
+    img.src = img.fullSrc;
+    img.classList.add("selected");
+    if (scroll) img.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+  }
+
+  function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function randomObject(array) {
+    if (!array || array.length === 0) return null;
+    return array[Math.floor(Math.random() * array.length)];
+  }
+
+  function replaceSubstrings(str, replacements) {
+    for (const key in replacements) {
+      str = str.replace(new RegExp(key, "g"), replacements[key]);
+    }
+    return str;
+  }
+
+  init();
+
+</script>
+</body>
+</html>

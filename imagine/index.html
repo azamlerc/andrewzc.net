@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>💭 Imagine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=880" />
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400..700&family=Noto+Color+Emoji&display=swap">
+</head>
+<body>
+<div id="main"></div>
+<script src="config.js"></script>
+<script>
+
+  let imgs = [];
+  let startAnimations = false;
+  let allPrompts = [];       // all prompts from API, indexed by id
+  let newPrompts = [];       // most-recently-imaged prompts
+  let promptsByCategory = {}; // category id → prompt array
+
+  async function init() {
+    // Fetch all prompts and "new" prompts in parallel
+    const [allRes, newRes] = await Promise.all([
+      fetch(`${API_BASE}/imagine/prompts`),
+      fetch(`${API_BASE}/imagine/prompts?category=new`),
+    ]);
+    const allData = await allRes.json();
+    const newData = await newRes.json();
+
+    allPrompts = allData.prompts || [];
+    newPrompts = newData.prompts || [];
+
+    // Build category index
+    for (const prompt of allPrompts) {
+      for (const cat of (prompt.categories || [])) {
+        if (!promptsByCategory[cat]) promptsByCategory[cat] = [];
+        promptsByCategory[cat].push(prompt);
+      }
+    }
+
+    buildGrid();
+  }
+
+  function buildGrid() {
+    // Group 0 is always shown in full (just "new").
+    // Group 1: shuffle and show all.
+    // Group 2: shuffle and sample 10.
+    const selected = [];
+    for (let groupIndex = 0; groupIndex < categories.length; groupIndex++) {
+      let group = shuffleArray(categories[groupIndex]);
+      if (groupIndex === 2) group = group.slice(0, 10);
+      for (const category of group) {
+        const promptList = category.id === "new" ? newPrompts : (promptsByCategory[category.id] || []);
+        if (promptList.length === 0) continue;
+
+        const prompt = randomObject(promptList);
+        const style  = randomObject(["photo", "lego", "anime", "art"]);
+        const model  = bestModel(prompt);
+        const suffix = style === "photo" ? "" : `-${style}`;
+        const tnUrl  = `${IMAGE_BASE}/imagine/${model}/tn/${prompt.id}${suffix}.jpg`;
+        const fullUrl = `${IMAGE_BASE}/imagine/${model}/${prompt.id}${suffix}.jpg`;
+
+        const link  = document.createElement("a");
+        const link2 = document.createElement("a");
+        const img   = document.createElement("img");
+
+        img.src      = tnUrl;
+        img.fullSrc  = fullUrl;
+        img.classList.add("hike");
+        img.category = category.id;
+        img.promptId = prompt.id;
+        img.onerror  = () => img.style.display = "none";
+        fadeIn(img);
+        imgs.push(img);
+
+        if (category.id === "new") img.classList.add("selected");
+
+        // Occasionally load the full-size image directly
+        if (randomNumber(1, 10) === 1) {
+          img.classList.add("selected");
+          img.src = fullUrl;
+        }
+
+        const href = `image.html?q=${encodeURIComponent(category.id)}&id=${prompt.id}`;
+        link.href  = href;
+        link2.href = href;
+        link.appendChild(img);
+
+        const emojiDiv = document.createElement("div");
+        emojiDiv.innerHTML = category.emoji;
+        const titleDiv = document.createElement("div");
+        titleDiv.classList.add("title");
+        titleDiv.innerHTML = category.id === "new" ? "imagine" : category.id;
+        emojiDiv.appendChild(titleDiv);
+        emojiDiv.classList.add("hike", "textBox", "emojiBox");
+        fadeIn(emojiDiv);
+        link2.appendChild(emojiDiv);
+
+        if (randomNumber(0, 1)) {
+          main.appendChild(link);
+          main.appendChild(link2);
+        } else {
+          main.appendChild(link2);
+          main.appendChild(link);
+        }
+      }
+    }
+
+    setTimeout(() => startAnimations = true, 500);
+  }
+
+  // Pick the highest-priority model slug that appears in this prompt's image records.
+  // Falls back to "openai" (the primary 2024 model) if we don't have image records yet.
+  function bestModel(prompt) {
+    return "openai";
+  }
+
+  function fadeIn(el) {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(startAnimations ? "fadeIn" : "fadeInStart");
+          obs.unobserve(entry.target);
+        }
+      });
+    });
+    observer.observe(el);
+  }
+
+  document.addEventListener("keydown", function(event) {
+    switch (event.key) {
+      case "ArrowUp":
+      case "ArrowLeft":  selectVisibleImage(imgs, -1); break;
+      case "ArrowRight":
+      case "ArrowDown":  selectVisibleImage(imgs, +1); break;
+      case "Enter":      showCategory();               break;
+      default: return;
+    }
+    event.preventDefault();
+  });
+
+  function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function randomObject(array) {
+    if (!array || array.length === 0) return null;
+    return array[Math.floor(Math.random() * array.length)];
+  }
+
+  function shuffleArray(array) {
+    const a = array.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function selectVisibleImage(images, direction) {
+    let selectedIndex = images.findIndex(img => img.classList.contains("selected"));
+
+    if (selectedIndex === -1) {
+      const idx = direction === 1
+        ? images.findIndex(img => img.style.display !== "none")
+        : [...images].reverse().findIndex(img => img.style.display !== "none");
+      if (idx !== -1) selectImage(direction === 1 ? images[idx] : images[images.length - 1 - idx]);
+      return;
+    }
+
+    images[selectedIndex].classList.remove("selected");
+
+    let next = selectedIndex;
+    do {
+      next = (next + direction + images.length) % images.length;
+    } while (images[next].style.display === "none" && next !== selectedIndex);
+
+    selectImage(images[next]);
+  }
+
+  function selectImage(img, scroll = true) {
+    img.src = img.fullSrc;
+    img.classList.add("selected");
+    if (scroll) img.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+  }
+
+  function selectedImage() {
+    return imgs.find(img => img.classList.contains("selected")) || imgs[0];
+  }
+
+  function showCategory() {
+    const img = selectedImage();
+    window.location = `image.html?q=${encodeURIComponent(img.category)}&id=${img.promptId}`;
+  }
+
+  init();
+
+</script>
+</body>
+</html>
