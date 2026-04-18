@@ -43,7 +43,13 @@
 
     const data = await res.json();
     prompt = data.prompt;
-    images = data.images || [];
+    images = (data.images || []).sort((a, b) => {
+      const ai = MODEL_PRIORITY.indexOf(a.model);
+      const bi = MODEL_PRIORITY.indexOf(b.model);
+      const av = ai === -1 ? 999 : ai;
+      const bv = bi === -1 ? 999 : bi;
+      return av !== bv ? av - bv : a.style.localeCompare(b.style);
+    });
     prevId = data.prevId;
     nextId = data.nextId;
 

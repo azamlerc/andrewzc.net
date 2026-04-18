@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🖐️ Fingers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #000;
+      color: #ccc;
+      font-family: Avenir, Helvetica, sans-serif;
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Main area: sidebar + image ─────────────────────────────────────────── */
+    #content {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      min-height: 0;
+      padding: 20px 20px 0;
+      gap: 24px;
+    }
+    #sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      overflow: hidden;
+    }
+    #sidebar-name {
+      font-size: 18pt;
+      color: #888;
+      line-height: 1.2;
+    }
+    #sidebar-prompt {
+      font-size: 11pt;
+      color: #444;
+      line-height: 1.5;
+    }
+    #img-area {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      min-height: 0;
+    }
+    #img-area img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    /* ── Bottom bar ──────────────────────────────────────────────────────────── */
+    #bar {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 12px 20px;
+      border-top: 1px solid #1a1a1a;
+    }
+    #model-label { font-size: 11pt; color: #555; flex: 1; }
+
+    /* Stars */
+    #rating {
+      font-size: 24pt;
+      letter-spacing: 3px;
+      user-select: none;
+      color: #2a2a2a;
+    }
+    #rating span {
+      cursor: pointer;
+      transition: color 0.1s;
+    }
+    #rating span:hover ~ span { color: #2a2a2a !important; }
+    #rating:hover span         { color: #f90; }
+    #rating span.off           { color: #2a2a2a; }
+    #rating.rated span.lit     { color: #f90; }
+
+    /* Delete button */
+    #delete-btn {
+      background: none;
+      border: 1px solid #2a2a2a;
+      color: #444;
+      font-size: 15pt;
+      width: 38px;
+      height: 38px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.15s, color 0.15s;
+      flex-shrink: 0;
+    }
+    #delete-btn:hover { border-color: #c0392b; color: #c0392b; }
+    #delete-btn.deleting { opacity: 0.4; pointer-events: none; }
+
+    #counter { font-size: 11pt; color: #333; white-space: nowrap; }
+    #hint    { font-size: 10pt; color: #252525; white-space: nowrap; }
+
+    /* ── Login overlay ───────────────────────────────────────────────────────── */
+    #login-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    #login-overlay.visible { display: flex; }
+    #login-box {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 32px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      width: 280px;
+    }
+    #login-box h2 { font-size: 14pt; color: #aaa; font-weight: normal; }
+    #login-box input {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 5px;
+      color: #ccc;
+      font: 12pt Avenir, Helvetica, sans-serif;
+      padding: 8px 10px;
+      width: 100%;
+    }
+    #login-box input:focus { outline: none; border-color: #555; }
+    #login-submit {
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 5px;
+      color: #aaa;
+      font: 12pt Avenir, Helvetica, sans-serif;
+      padding: 8px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    #login-submit:hover { background: #2a2a2a; }
+    #login-error { font-size: 10pt; color: #c0392b; min-height: 16px; }
+    #login-cancel { font-size: 10pt; color: #444; cursor: pointer; text-align: center; }
+    #login-cancel:hover { color: #666; }
+  </style>
+</head>
+<body>
+
+<!-- Main content: sidebar + image -->
+<div id="content">
+  <div id="sidebar">
+    <div id="sidebar-name"></div>
+    <div id="sidebar-prompt"></div>
+  </div>
+  <div id="img-area">
+    <img id="main-img" src="" alt="">
+  </div>
+</div>
+
+<!-- Bottom bar -->
+<div id="bar">
+  <div id="model-label"></div>
+  <div id="rating">
+    <span data-n="1">☆</span><span data-n="2">☆</span><span data-n="3">☆</span><span data-n="4">☆</span><span data-n="5">☆</span>
+  </div>
+  <button id="delete-btn" title="Delete image (regenerate next run)">🗑</button>
+  <div id="counter"></div>
+  <div id="hint">← → &nbsp;·&nbsp; 1–5 rate &nbsp;·&nbsp; 0 clear</div>
+</div>
+
+<!-- Login overlay -->
+<div id="login-overlay">
+  <div id="login-box">
+    <h2>Sign in</h2>
+    <input type="text"     id="login-username" placeholder="Username" autocomplete="username">
+    <input type="password" id="login-password" placeholder="Password" autocomplete="current-password">
+    <button id="login-submit">Sign in</button>
+    <div id="login-error"></div>
+    <div id="login-cancel">Cancel</div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+
+  const params    = new URLSearchParams(location.search);
+  const promptId  = params.get("id")    || "";
+  const initModel = params.get("model") || "";
+  const initStyle = params.get("style") || "";
+
+  let prompt      = null;
+  let variants    = [];
+  let currentIdx  = 0;
+  let isAuth      = false;
+  let pendingAction = null;  // function to call after login
+
+  // ── Helpers ──────────────────────────────────────────────────────────────────
+
+  function suffix(style) {
+    return style === "photo" ? "" : `-${style}`;
+  }
+
+  function imageUrl(model, style) {
+    return `${IMAGE_BASE}/imagine/${model}/${promptId}${suffix(style)}.jpg`;
+  }
+
+  function imageApiUrl(v) {
+    return `${API_BASE}/imagine/images/${encodeURIComponent(promptId)}/${encodeURIComponent(v.model)}/${encodeURIComponent(v.style)}`;
+  }
+
+  // ── Stars rendering ──────────────────────────────────────────────────────────
+
+  function renderStars(rating) {
+    const n = (rating >= 1 && rating <= 5) ? rating : 0;
+    const ratingEl = document.getElementById("rating");
+    ratingEl.classList.toggle("rated", n > 0);
+    ratingEl.querySelectorAll("span").forEach((s, i) => {
+      const filled = i < n;
+      s.textContent = filled ? "★" : "☆";
+      s.classList.toggle("lit", filled);
+      s.classList.toggle("off", !filled);
+    });
+  }
+
+  // ── Variant display ──────────────────────────────────────────────────────────
+
+  function showVariant(idx) {
+    const v = variants[idx];
+    if (!v) return;
+
+    const img  = document.getElementById("main-img");
+    img.src    = imageUrl(v.model, v.style);
+    img.alt    = `${prompt.name} / ${v.model} / ${v.style}`;
+
+    document.getElementById("model-label").textContent = `${v.model}  /  ${v.style}`;
+    document.getElementById("counter").textContent     = `${idx + 1} / ${variants.length}`;
+    renderStars(v.rating || 0);
+
+    history.replaceState({}, "",
+      `?id=${encodeURIComponent(promptId)}&model=${encodeURIComponent(v.model)}&style=${encodeURIComponent(v.style)}`
+    );
+  }
+
+  // ── Navigation ───────────────────────────────────────────────────────────────
+
+  function navigate(dir) {
+    currentIdx = (currentIdx + dir + variants.length) % variants.length;
+    showVariant(currentIdx);
+  }
+
+  // ── Auth ──────────────────────────────────────────────────────────────────────
+
+  function requireAuth(action) {
+    if (isAuth) { action(); return; }
+    pendingAction = action;
+    document.getElementById("login-username").value = "";
+    document.getElementById("login-password").value = "";
+    document.getElementById("login-error").textContent = "";
+    document.getElementById("login-overlay").classList.add("visible");
+    document.getElementById("login-username").focus();
+  }
+
+  // ── Rating ───────────────────────────────────────────────────────────────────
+
+  async function rate(n) {
+    const v = variants[currentIdx];
+    if (!v) return;
+    const rating = (n >= 1 && n <= 5) ? n : null;
+
+    v.rating = rating;
+    renderStars(rating || 0);
+
+    const res = await fetch(imageApiUrl(v), {
+      method:      "PATCH",
+      credentials: "include",
+      headers:     { "content-type": "application/json" },
+      body:        JSON.stringify({ rating }),
+    });
+
+    if (res.status === 401) {
+      isAuth = false;
+      requireAuth(() => rate(n));
+    } else if (!res.ok) {
+      console.error("Failed to save rating:", await res.text());
+    }
+  }
+
+  // ── Delete ───────────────────────────────────────────────────────────────────
+
+  async function deleteVariant() {
+    const v = variants[currentIdx];
+    if (!v) return;
+
+    const btn = document.getElementById("delete-btn");
+    btn.classList.add("deleting");
+
+    const res = await fetch(imageApiUrl(v), {
+      method:      "DELETE",
+      credentials: "include",
+    });
+
+    btn.classList.remove("deleting");
+
+    if (res.status === 401) {
+      isAuth = false;
+      requireAuth(deleteVariant);
+      return;
+    }
+
+    if (!res.ok) {
+      console.error("Failed to delete image:", await res.text());
+      return;
+    }
+
+    // Remove from variants list and advance
+    variants.splice(currentIdx, 1);
+    if (variants.length === 0) {
+      document.getElementById("main-img").src = "";
+      document.getElementById("model-label").textContent = "No images remaining";
+      document.getElementById("counter").textContent = "";
+      renderStars(0);
+      return;
+    }
+    currentIdx = Math.min(currentIdx, variants.length - 1);
+    showVariant(currentIdx);
+  }
+
+  // ── Keyboard ──────────────────────────────────────────────────────────────────
+
+  document.addEventListener("keydown", e => {
+    // Don't intercept when typing in the login form
+    if (e.target.tagName === "INPUT") return;
+
+    switch (e.key) {
+      case "ArrowLeft":  navigate(-1); break;
+      case "ArrowRight": navigate(1);  break;
+      case "1": case "2": case "3": case "4": case "5":
+        requireAuth(() => rate(parseInt(e.key, 10))); break;
+      case "0": case "Backspace":
+        requireAuth(() => rate(0)); break;
+      default: return;
+    }
+    e.preventDefault();
+  });
+
+  // ── Star click / hover ────────────────────────────────────────────────────────
+
+  document.getElementById("rating").addEventListener("click", e => {
+    const star = e.target.closest("span[data-n]");
+    if (!star) return;
+    const n = parseInt(star.dataset.n, 10);
+    requireAuth(() => rate(n));
+  });
+
+  // Hover preview: light up stars up to the hovered one
+  document.getElementById("rating").addEventListener("mouseover", e => {
+    const star = e.target.closest("span[data-n]");
+    if (!star) return;
+    const n = parseInt(star.dataset.n, 10);
+    document.getElementById("rating").querySelectorAll("span").forEach((s, i) => {
+      s.style.color = i < n ? "#f90" : "#2a2a2a";
+    });
+  });
+  document.getElementById("rating").addEventListener("mouseleave", () => {
+    // Remove inline styles so CSS classes take over again
+    document.getElementById("rating").querySelectorAll("span").forEach(s => {
+      s.style.color = "";
+    });
+  });
+
+  // ── Delete button ────────────────────────────────────────────────────────────
+
+  document.getElementById("delete-btn").addEventListener("click", () => {
+    requireAuth(deleteVariant);
+  });
+
+  // ── Login form ───────────────────────────────────────────────────────────────
+
+  async function submitLogin() {
+    const username = document.getElementById("login-username").value.trim();
+    const password = document.getElementById("login-password").value;
+    const errorEl  = document.getElementById("login-error");
+
+    if (!username || !password) { errorEl.textContent = "Please enter username and password."; return; }
+
+    errorEl.textContent = "";
+    const res = await fetch(`${API_BASE}/admin/login`, {
+      method:      "POST",
+      credentials: "include",
+      headers:     { "content-type": "application/json" },
+      body:        JSON.stringify({ username, password }),
+    });
+
+    if (res.ok) {
+      isAuth = true;
+      document.getElementById("login-overlay").classList.remove("visible");
+      if (pendingAction) { const fn = pendingAction; pendingAction = null; fn(); }
+    } else {
+      const json = await res.json().catch(() => ({}));
+      errorEl.textContent = json.message || "Invalid credentials.";
+    }
+  }
+
+  document.getElementById("login-submit").addEventListener("click", submitLogin);
+  document.getElementById("login-password").addEventListener("keydown", e => {
+    if (e.key === "Enter") submitLogin();
+  });
+  document.getElementById("login-cancel").addEventListener("click", () => {
+    pendingAction = null;
+    document.getElementById("login-overlay").classList.remove("visible");
+  });
+  document.getElementById("login-overlay").addEventListener("click", e => {
+    if (e.target === document.getElementById("login-overlay")) {
+      pendingAction = null;
+      document.getElementById("login-overlay").classList.remove("visible");
+    }
+  });
+
+  // ── Init ──────────────────────────────────────────────────────────────────────
+
+  async function init() {
+    if (!promptId) {
+      document.getElementById("sidebar-name").textContent = "No prompt specified.";
+      return;
+    }
+
+    const [promptRes, authRes] = await Promise.all([
+      fetch(`${API_BASE}/imagine/prompts/${encodeURIComponent(promptId)}`),
+      fetch(`${API_BASE}/admin/me`, { credentials: "include" }),
+    ]);
+    const [promptData, authData] = await Promise.all([
+      promptRes.json(),
+      authRes.json(),
+    ]);
+
+    isAuth = authData.authenticated === true;
+
+    prompt = promptData.prompt;
+    if (!prompt) {
+      document.getElementById("sidebar-name").textContent = "Prompt not found.";
+      return;
+    }
+
+    document.title = `🖐️ ${prompt.name}`;
+    document.getElementById("sidebar-name").textContent = prompt.emoji.join(" ") + "  " + prompt.name;
+    document.getElementById("sidebar-prompt").textContent = prompt.prompt || "";
+
+    // Sort variants by MODEL_PRIORITY, then style order
+    const styleOrder = ["photo", "art", "lego", "anime", "pixar"];
+    variants = (promptData.images || []).slice().sort((a, b) => {
+      const mi = MODEL_PRIORITY.indexOf(a.model), mj = MODEL_PRIORITY.indexOf(b.model);
+      const mdi = mi === -1 ? 999 : mi, mdj = mj === -1 ? 999 : mj;
+      if (mdi !== mdj) return mdi - mdj;
+      const si = styleOrder.indexOf(a.style), sj = styleOrder.indexOf(b.style);
+      return (si === -1 ? 99 : si) - (sj === -1 ? 99 : sj);
+    });
+
+    if (variants.length === 0) {
+      document.getElementById("model-label").textContent = "No images yet";
+      return;
+    }
+
+    currentIdx = variants.findIndex(v => v.model === initModel && v.style === initStyle);
+    if (currentIdx === -1) currentIdx = 0;
+
+    showVariant(currentIdx);
+  }
+
+  init();
+
+</script>
+</body>
+</html>

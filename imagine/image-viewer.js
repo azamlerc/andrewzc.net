@@ -48,19 +48,6 @@ function moveRandomToFront(arr) {
   return arr;
 }
 
-document.addEventListener("keydown", async function(event) {
-	switch (event.key) {
-    case "ArrowUp": selectPrev(); break;      
-    case "ArrowDown": selectNext(); break;
-    case "ArrowLeft": selectPrevStyle(); break;      
-    case "ArrowRight": selectNextStyle(); break;
-    case "Enter": search(); break;
-    case "Escape": back(); break;
-		default: return;
-	}
-	event.preventDefault();
-});
-
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }

@@ -4,10 +4,10 @@
 const API_BASE = "https://api.andrewzc.net";
 const IMAGE_BASE = "https://images.andrewzc.net";
 
-// Model priority for selecting the best image to display on the index page.
-// Higher-priority models are preferred when a prompt has images from multiple models.
+// Model display order — used on image.html to sort images and on index.html
+// to pick the best representative image. Earlier entries take priority.
 const MODEL_PRIORITY = [
-  "openai-2026", "gemini-2026", "flux", "banana", "wan", "minimax", "qwen", "grok", "zimage",
+  "gpt", "nano", "seedream", "flux",
   "openai", "getimg", "gemini", "meta",
 ];
 
