@@ -1,0 +1,987 @@
+{
+  "--info--": {
+    "icon": "🏜️",
+    "map": {
+      "lat": "37",
+      "lon": "-95",
+      "zoom": "4"
+    },
+    "name": "Routes",
+    "size": "large",
+    "tags": ["reference", "reference-first"],
+    "type": "place"
+  },
+  "us 01": {
+    "been": false,
+    "coords": "47.24194444, -68.57222222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Key_West_Florida\">Key West FL</a>",
+    "link": "https://en.wikipedia.org/wiki/Key_West,_Florida",
+    "name": "US 01",
+    "state": "FL"
+  },
+  "us 02": {
+    "been": false,
+    "coords": "47.97916667, -122.20166667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/St._Ignace_Michigan\">Saint Ignace MI</a>",
+    "link": "https://en.wikipedia.org/wiki/St._Ignace,_Michigan",
+    "name": "US 02",
+    "state": "MI"
+  },
+  "us 03": {
+    "been": false,
+    "coords": "42.37361111, -71.11055556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Pittsburg_New_Hampshire\">Pittsburg NH</a>",
+    "link": "https://en.wikipedia.org/wiki/Pittsburg,_New_Hampshire",
+    "name": "US 03",
+    "state": "NH"
+  },
+  "us 04": {
+    "been": false,
+    "coords": "43.05805556, -70.78250000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Albany_New_York\">Albany NY</a> (4 km)",
+    "link": "https://en.wikipedia.org/wiki/Albany,_New_York",
+    "name": "US 04",
+    "state": "NY"
+  },
+  "us 05": {
+    "been": false,
+    "coords": "41.30833333, -72.92500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Derby_Line_Vermont\">Derby Line VT</a>",
+    "link": "https://en.wikipedia.org/wiki/Derby_Line,_Vermont",
+    "name": "US 05",
+    "state": "VT"
+  },
+  "us 06": {
+    "been": false,
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Bishop_California\">Bishop CA</a>",
+    "link": "https://en.wikipedia.org/wiki/Bishop,_California",
+    "name": "US 06",
+    "state": "CA"
+  },
+  "us 07": {
+    "been": false,
+    "coords": "41.09388889, -73.41972222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Swanton_(town)_Vermont\">Swanton VT</a>",
+    "link": "https://en.wikipedia.org/wiki/Swanton_(town),_Vermont",
+    "name": "US 07",
+    "state": "VT"
+  },
+  "us 08": {
+    "been": false,
+    "coords": "45.25361111, -92.95833333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Norway_Michigan\">Norway MI</a>",
+    "link": "https://en.wikipedia.org/wiki/Norway,_Michigan",
+    "name": "US 08",
+    "state": "MI"
+  },
+  "us 09": {
+    "been": false,
+    "coords": "38.55638889, -75.57138889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Champlain_New_York\">Champlain NY</a>",
+    "link": "https://en.wikipedia.org/wiki/Champlain,_New_York",
+    "name": "US 09",
+    "state": "NY"
+  },
+  "us 10": {
+    "been": false,
+    "coords": "43.59500000, -83.88861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/West_Fargo_North_Dakota\">West Fargo ND</a>",
+    "link": "https://en.wikipedia.org/wiki/West_Fargo,_North_Dakota",
+    "name": "US 10",
+    "state": "ND"
+  },
+  "us 101": {
+    "been": true,
+    "coords": "34.05000000, -118.25000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Tumwater_Washington\">Tumwater WA</a>",
+    "link": "https://en.wikipedia.org/wiki/Tumwater,_Washington",
+    "name": "US 101",
+    "state": "WA"
+  },
+  "us 11": {
+    "been": false,
+    "coords": "29.976111111111113, -90.07833333333333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Rouses_Point_New_York\">Rouses Point NY</a>",
+    "link": "https://en.wikipedia.org/wiki/Rouses_Point,_New_York",
+    "name": "US 11",
+    "state": "NY",
+    "wikidata": "Q34404"
+  },
+  "us 12": {
+    "been": true,
+    "coords": "46.95861111, -123.81055556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Detroit_Michigan\">Detroit MI</a>",
+    "link": "https://en.wikipedia.org/wiki/Detroit,_Michigan",
+    "name": "US 12",
+    "state": "MI"
+  },
+  "us 13": {
+    "been": false,
+    "coords": "40.20750000, -74.78000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Fayetteville_North_Carolina\">Fayetteville NC</a>",
+    "link": "https://en.wikipedia.org/wiki/Fayetteville,_North_Carolina",
+    "name": "US 13",
+    "state": "NC"
+  },
+  "us 14": {
+    "been": false,
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Yellowstone_National_Park\">Yellowstone National Park WY</a>",
+    "link": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+    "name": "US 14",
+    "state": "WY"
+  },
+  "us 15": {
+    "been": false,
+    "coords": "42.16111111, -77.09138889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Walterboro_South_Carolina\">Walterboro SC</a>",
+    "link": "https://en.wikipedia.org/wiki/Walterboro,_South_Carolina",
+    "name": "US 15",
+    "state": "SC"
+  },
+  "us 16": {
+    "been": false,
+    "coords": "44.07138889, -103.22083333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Yellowstone_National_Park\">Yellowstone National Park WY</a>",
+    "link": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+    "name": "US 16",
+    "state": "WY"
+  },
+  "us 17": {
+    "been": false,
+    "coords": "39.18333333, -78.16666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Punta_Gorda_Florida\">Punta Gorda FL</a>",
+    "link": "https://en.wikipedia.org/wiki/Punta_Gorda,_Florida",
+    "name": "US 17",
+    "state": "FL"
+  },
+  "us 17-1": {
+    "been": false,
+    "coords": "37.23000000, -77.40500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Wilmington_North_Carolina\">Wilmington NC</a>",
+    "link": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina",
+    "name": "US 17-1",
+    "state": "NC"
+  },
+  "us 18": {
+    "been": false,
+    "coords": "43.05000000, -87.95000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Orin_Wyoming\">Orin WY</a>",
+    "link": "https://en.wikipedia.org/wiki/Orin,_Wyoming",
+    "name": "US 18",
+    "state": "WY"
+  },
+  "us 19": {
+    "been": false,
+    "coords": "42.12944444, -80.08500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Palmetto_Florida\">Palmetto FL</a>",
+    "link": "https://en.wikipedia.org/wiki/Palmetto,_Florida",
+    "name": "US 19",
+    "state": "FL"
+  },
+  "us 20": {
+    "been": false,
+    "coords": "42.36027778, -71.05777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Newport_Oregon\">Newport OR</a>",
+    "link": "https://en.wikipedia.org/wiki/Newport,_Oregon",
+    "name": "US 20",
+    "state": "OR"
+  },
+  "us 21": {
+    "been": false,
+    "coords": "36.94777778, -81.08694444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Hunting_Island_State_Park\">Hunting Island SC</a>",
+    "link": "https://en.wikipedia.org/wiki/Hunting_Island_State_Park",
+    "name": "US 21",
+    "state": "SC"
+  },
+  "us 22": {
+    "been": false,
+    "coords": "40.73555555555556, -74.17222222222222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Cincinnati_Ohio\">Cincinnati OH</a>",
+    "link": "https://en.wikipedia.org/wiki/Cincinnati,_Ohio",
+    "name": "US 22",
+    "state": "OH",
+    "wikidata": "Q25395"
+  },
+  "us 23": {
+    "been": false,
+    "coords": "30.27222222, -81.59444444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Mackinaw_City_Michigan\">Mackinaw City MI</a>",
+    "link": "https://en.wikipedia.org/wiki/Mackinaw_City,_Michigan",
+    "name": "US 23",
+    "state": "MI"
+  },
+  "us 24": {
+    "been": false,
+    "coords": "42.73583333, -83.41916667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Minturn_Colorado\">Minturn CO</a>",
+    "link": "https://en.wikipedia.org/wiki/Minturn,_Colorado",
+    "name": "US 24",
+    "state": "CO"
+  },
+  "us 25": {
+    "been": false,
+    "coords": "31.14972222, -81.49138889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Covington_Kentucky\">Covington KY</a>",
+    "link": "https://en.wikipedia.org/wiki/Covington,_Kentucky",
+    "name": "US 25",
+    "state": "KY"
+  },
+  "us 26": {
+    "been": false,
+    "coords": "45.99555556, -123.91388889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Ogallala_Nebraska\">Ogallala NE</a>",
+    "link": "https://en.wikipedia.org/wiki/Ogallala,_Nebraska",
+    "name": "US 26",
+    "state": "NE"
+  },
+  "us 27": {
+    "been": false,
+    "coords": "25.77416667, -80.19361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Fort_Wayne_Indiana\">Fort Wayne IN</a>",
+    "link": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana",
+    "name": "US 27",
+    "state": "IN"
+  },
+  "us 28": {
+    "been": false,
+    "coords": "44.05638889, -123.11750000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Ontario_Oregon\">Ontario OR</a>",
+    "link": "https://en.wikipedia.org/wiki/Ontario,_Oregon",
+    "name": "US 28",
+    "state": "OR"
+  },
+  "us 29": {
+    "been": false,
+    "coords": "39.26805556, -76.79888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Pensacola_Florida\">Pensacola FL</a>",
+    "link": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+    "name": "US 29",
+    "state": "FL"
+  },
+  "us 30": {
+    "been": true,
+    "coords": "46.18833333, -123.81000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Atlantic_City_New_Jersey\">Atlantic City NJ</a>",
+    "link": "https://en.wikipedia.org/wiki/Atlantic_City,_New_Jersey",
+    "name": "US 30",
+    "state": "NJ"
+  },
+  "us 31": {
+    "been": false,
+    "coords": "45.78388889, -84.72777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Spanish_Fort_Alabama\">Spanish Fort AL</a>",
+    "link": "https://en.wikipedia.org/wiki/Spanish_Fort,_Alabama",
+    "name": "US 31",
+    "state": "AL"
+  },
+  "us 32": {
+    "been": false,
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Council_Bluffs_Iowa\">Council Bluffs IA</a>",
+    "link": "https://en.wikipedia.org/wiki/Council_Bluffs,_Iowa",
+    "name": "US 32",
+    "state": "IA"
+  },
+  "us 33": {
+    "been": false,
+    "coords": "37.54083333, -77.43666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Elkhart_Indiana\">Elkhart IN</a>",
+    "link": "https://en.wikipedia.org/wiki/Elkhart,_Indiana",
+    "name": "US 33",
+    "state": "IN"
+  },
+  "us 34": {
+    "been": false,
+    "coords": "41.84250000, -87.79000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Granby_Colorado\">Granby CO</a>",
+    "link": "https://en.wikipedia.org/wiki/Granby,_Colorado",
+    "name": "US 34",
+    "state": "CO"
+  },
+  "us 35": {
+    "been": false,
+    "coords": "41.73444444, -86.87305556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Teays_Valley_West_Virginia\">Teays Valley WV</a>",
+    "link": "https://en.wikipedia.org/wiki/Teays_Valley,_West_Virginia",
+    "name": "US 35",
+    "state": "WV"
+  },
+  "us 36": {
+    "been": false,
+    "coords": "40.39360000, -105.49470000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Uhrichsville_Ohio\">Uhrichsville OH</a>",
+    "link": "https://en.wikipedia.org/wiki/Uhrichsville,_Ohio",
+    "name": "US 36",
+    "state": "OH"
+  },
+  "us 37": {
+    "been": false,
+    "coords": "35.06595800, -85.24838600",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Sellersburg_Indiana\">Sellersburg IN</a>",
+    "link": "https://en.wikipedia.org/wiki/Sellersburg,_Indiana",
+    "name": "US 37",
+    "state": "IN"
+  },
+  "us 38": {
+    "been": false,
+    "coords": "40.42330000, -104.70910000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Omaha_Nebraska\">Omaha NE</a>",
+    "link": "https://en.wikipedia.org/wiki/Omaha,_Nebraska",
+    "name": "US 38",
+    "state": "NE"
+  },
+  "us 40": {
+    "been": false,
+    "coords": "39.36250000, -74.42500000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Park_City_Utah\">Park City UT</a>",
+    "link": "https://en.wikipedia.org/wiki/Park_City,_Utah",
+    "name": "US 40",
+    "state": "UT"
+  },
+  "us 41": {
+    "been": false,
+    "coords": "25.77416667, -80.19361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Copper_Harbor_Michigan\">Copper Harbor MI</a>",
+    "link": "https://en.wikipedia.org/wiki/Copper_Harbor,_Michigan",
+    "name": "US 41",
+    "state": "MI"
+  },
+  "us 42": {
+    "been": false,
+    "coords": "41.49916666666667, -81.69472222222223",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Louisville_Kentucky\">Louisville KY</a>",
+    "link": "https://en.wikipedia.org/wiki/Louisville,_Kentucky",
+    "name": "US 42",
+    "state": "KY",
+    "wikidata": "Q37320"
+  },
+  "us 43": {
+    "been": false,
+    "coords": "35.61500000, -87.04444444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Mobile_Alabama\">Mobile AL</a>",
+    "link": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+    "name": "US 43",
+    "state": "AL"
+  },
+  "us 44": {
+    "been": false,
+    "coords": "41.95833333, -70.66777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Ellenville_New_York\">Ellenville NY</a>",
+    "link": "https://en.wikipedia.org/wiki/Ellenville,_New_York",
+    "name": "US 44",
+    "state": "NY"
+  },
+  "us 45": {
+    "been": false,
+    "coords": "30.66750000, -88.10111111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Ontonagon_Michigan\">Ontonagon MI</a>",
+    "link": "https://en.wikipedia.org/wiki/Ontonagon,_Michigan",
+    "name": "US 45",
+    "state": "MI"
+  },
+  "us 46": {
+    "been": true,
+    "coords": "40.92586800, -75.09406200",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Fort_Lee_New_Jersey\">Fort Lee NJ</a>",
+    "link": "https://en.wikipedia.org/wiki/Fort_Lee,_New_Jersey",
+    "name": "US 46",
+    "state": "NJ"
+  },
+  "us 48": {
+    "been": false,
+    "coords": "37.33611111, -121.89055556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Weston_West_Virginia\">Weston WV</a>",
+    "link": "https://en.wikipedia.org/wiki/Weston,_West_Virginia",
+    "name": "US 48",
+    "state": "WV"
+  },
+  "us 49": {
+    "been": false,
+    "coords": "30.40166667, -89.07611111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Piggott_Arkansas\">Piggott AR</a>",
+    "link": "https://en.wikipedia.org/wiki/Piggott,_Arkansas",
+    "name": "US 49",
+    "state": "AR"
+  },
+  "us 50": {
+    "been": false,
+    "coords": "38.39138889, -75.06972222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/West_Sacramento_California\">West Sacramento CA</a>",
+    "link": "https://en.wikipedia.org/wiki/West_Sacramento,_California",
+    "name": "US 50",
+    "state": "CA"
+  },
+  "us 51": {
+    "been": false,
+    "coords": "46.45027778, -90.18972222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/LaPlace_Louisiana\">LaPlace LA</a>",
+    "link": "https://en.wikipedia.org/wiki/LaPlace,_Louisiana",
+    "name": "US 51",
+    "state": "LA"
+  },
+  "us 52": {
+    "been": false,
+    "coords": "32.81388889, -79.93194444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Portal_North_Dakota\">Portal ND</a>",
+    "link": "https://en.wikipedia.org/wiki/Portal,_North_Dakota",
+    "name": "US 52",
+    "state": "ND"
+  },
+  "us 53": {
+    "been": false,
+    "coords": "48.59166667, -93.40527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/La_Crosse_Wisconsin\">La Crosse WI</a>",
+    "link": "https://en.wikipedia.org/wiki/La_Crosse,_Wisconsin",
+    "name": "US 53",
+    "state": "WI"
+  },
+  "us 54": {
+    "been": false,
+    "coords": "31.75916667, -106.48861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Griggsville_Illinois\">Griggsville IL</a>",
+    "link": "https://en.wikipedia.org/wiki/Griggsville,_Illinois",
+    "name": "US 54",
+    "state": "IL"
+  },
+  "us 55": {
+    "been": false,
+    "coords": "41.55682000, -90.60394800",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Minneapolis_Minnesota\">Minneapolis MN</a>",
+    "link": "https://en.wikipedia.org/wiki/Minneapolis,_Minnesota",
+    "name": "US 55",
+    "state": "MN"
+  },
+  "us 56": {
+    "been": false,
+    "coords": "39.09972222, -94.57833333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Springer_New_Mexico\">Springer NM</a>",
+    "link": "https://en.wikipedia.org/wiki/Springer,_New_Mexico",
+    "name": "US 56",
+    "state": "NM"
+  },
+  "us 57": {
+    "been": false,
+    "coords": "28.71055556, -100.48944444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Moore_Texas\">Moore TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Moore,_Texas",
+    "name": "US 57",
+    "state": "TX"
+  },
+  "us 58": {
+    "been": false,
+    "coords": "36.59888889, -83.66722222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Virginia_Beach_Virginia\">Virginia Beach VA</a> (15 km)",
+    "link": "https://en.wikipedia.org/wiki/Virginia_Beach,_Virginia",
+    "name": "US 58",
+    "state": "VA"
+  },
+  "us 59": {
+    "been": false,
+    "coords": "48.85888889, -96.80472222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Laredo_Texas\">Laredo TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Laredo,_Texas",
+    "name": "US 59",
+    "state": "TX"
+  },
+  "us 60": {
+    "been": false,
+    "coords": "33.67222222, -113.93777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Virginia_Beach_Virginia\">Virginia Beach VA</a> (15 km)",
+    "link": "https://en.wikipedia.org/wiki/Virginia_Beach,_Virginia",
+    "name": "US 60",
+    "state": "VA"
+  },
+  "us 61": {
+    "been": false,
+    "coords": "29.976111111111113, -90.07833333333333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Wyoming_Minnesota\">Wyoming MN</a>",
+    "link": "https://en.wikipedia.org/wiki/Wyoming,_Minnesota",
+    "name": "US 61",
+    "state": "MN",
+    "wikidata": "Q34404"
+  },
+  "us 62": {
+    "been": false,
+    "coords": "43.10000000, -79.01666667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/El_Paso_Texas\">El Paso TX</a>",
+    "link": "https://en.wikipedia.org/wiki/El_Paso,_Texas",
+    "name": "US 62",
+    "state": "TX"
+  },
+  "us 63": {
+    "been": false,
+    "coords": "46.59000000, -90.88000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Ruston_Louisiana\">Ruston LA</a>",
+    "link": "https://en.wikipedia.org/wiki/Ruston,_Louisiana",
+    "name": "US 63",
+    "state": "LA"
+  },
+  "us 64": {
+    "been": false,
+    "coords": "36.92194444, -109.07527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Nags_Head_North_Carolina\">Nags Head NC</a>",
+    "link": "https://en.wikipedia.org/wiki/Nags_Head,_North_Carolina",
+    "name": "US 64",
+    "state": "NC"
+  },
+  "us 65": {
+    "been": false,
+    "coords": "43.65500000, -93.36416667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Clayton_Louisiana\">Clayton LA</a>",
+    "link": "https://en.wikipedia.org/wiki/Clayton,_Louisiana",
+    "name": "US 65",
+    "state": "LA"
+  },
+  "us 66": {
+    "been": true,
+    "coords": "41.88194444, -87.62777778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Santa_Monica_California\">Santa Monica CA</a>",
+    "link": "https://en.wikipedia.org/wiki/Santa_Monica,_California",
+    "name": "US 66",
+    "state": "CA"
+  },
+  "us 67": {
+    "been": false,
+    "coords": "29.56138889, -104.36638889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Sabula_Iowa\">Sabula IA</a>",
+    "link": "https://en.wikipedia.org/wiki/Sabula,_Iowa",
+    "name": "US 67",
+    "state": "IA"
+  },
+  "us 68": {
+    "been": false,
+    "coords": "41.04277778, -83.64222222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Reidland_Kentucky\">Reidland KY</a>",
+    "link": "https://en.wikipedia.org/wiki/Reidland,_Kentucky",
+    "name": "US 68",
+    "state": "KY"
+  },
+  "us 69": {
+    "been": false,
+    "coords": "43.65500000, -93.36416667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Port_Arthur_Texas\">Port Arthur TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Port_Arthur,_Texas",
+    "name": "US 69",
+    "state": "TX"
+  },
+  "us 70": {
+    "been": false,
+    "coords": "34.87638889, -76.31916667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Globe_Arizona\">Globe AZ</a>",
+    "link": "https://en.wikipedia.org/wiki/Globe,_Arizona",
+    "name": "US 70",
+    "state": "AZ"
+  },
+  "us 71": {
+    "been": false,
+    "coords": "48.59166667, -93.40527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Krotz_Springs_Louisiana\">Krotz Springs LA</a>",
+    "link": "https://en.wikipedia.org/wiki/Krotz_Springs,_Louisiana",
+    "name": "US 71",
+    "state": "LA"
+  },
+  "us 72": {
+    "been": false,
+    "coords": "35.06595800, -85.24838600",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Memphis_Tennessee\">Memphis TN</a> (4 km)",
+    "link": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+    "name": "US 72",
+    "state": "TN"
+  },
+  "us 73": {
+    "been": false,
+    "coords": "39.08166667, -94.87750000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Dawson_Nebraska\">Dawson NE</a>",
+    "link": "https://en.wikipedia.org/wiki/Dawson,_Nebraska",
+    "name": "US 73",
+    "state": "NE"
+  },
+  "us 74": {
+    "been": false,
+    "coords": "35.06595800, -85.24838600",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Wrightsville_Beach_North_Carolina\">Wrightsville Beach NC</a>",
+    "link": "https://en.wikipedia.org/wiki/Wrightsville_Beach,_North_Carolina",
+    "name": "US 74",
+    "state": "NC"
+  },
+  "us 75": {
+    "been": false,
+    "coords": "32.77916667, -96.80888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Noyes_Minnesota\">Noyes MN</a>",
+    "link": "https://en.wikipedia.org/wiki/Noyes,_Minnesota",
+    "name": "US 75",
+    "state": "MN"
+  },
+  "us 76": {
+    "been": false,
+    "coords": "35.06595800, -85.24838600",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Wrightsville_Beach_North_Carolina\">Wrightsville Beach NC</a>",
+    "link": "https://en.wikipedia.org/wiki/Wrightsville_Beach,_North_Carolina",
+    "name": "US 76",
+    "state": "NC"
+  },
+  "us 77": {
+    "been": false,
+    "coords": "39.50000000, -98.35000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Sioux_City_Iowa\">Sioux City IA</a>",
+    "link": "https://en.wikipedia.org/wiki/Sioux_City,_Iowa",
+    "name": "US 77",
+    "state": "IA"
+  },
+  "us 78": {
+    "been": false,
+    "coords": "35.80111111, -90.93166667",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Charleston_South_Carolina\">Charleston SC</a>",
+    "link": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina",
+    "name": "US 78",
+    "state": "SC"
+  },
+  "us 79": {
+    "been": false,
+    "coords": "30.52694444, -97.66388889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Russellville_Kentucky\">Russellville KY</a>",
+    "link": "https://en.wikipedia.org/wiki/Russellville,_Kentucky",
+    "name": "US 79",
+    "state": "KY"
+  },
+  "us 80": {
+    "been": false,
+    "coords": "32.77916667, -96.80888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Tybee_Island_Georgia\">Tybee Island GA</a>",
+    "link": "https://en.wikipedia.org/wiki/Tybee_Island,_Georgia",
+    "name": "US 80",
+    "state": "GA"
+  },
+  "us 81": {
+    "been": false,
+    "coords": "32.75638889, -97.33250000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Pembina_North_Dakota\">Pembina ND</a>",
+    "link": "https://en.wikipedia.org/wiki/Pembina,_North_Dakota",
+    "name": "US 81",
+    "state": "ND"
+  },
+  "us 82": {
+    "been": false,
+    "coords": "32.85611111, -105.97444444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Brunswick_Georgia\">Brunswick GA</a>",
+    "link": "https://en.wikipedia.org/wiki/Brunswick,_Georgia",
+    "name": "US 82",
+    "state": "GA"
+  },
+  "us 83": {
+    "been": false,
+    "coords": "39.50000000, -98.35000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Westhope_North_Dakota\">Westhope ND</a>",
+    "link": "https://en.wikipedia.org/wiki/Westhope,_North_Dakota",
+    "name": "US 83",
+    "state": "ND"
+  },
+  "us 84": {
+    "been": false,
+    "coords": "31.80000000, -81.41222222",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Pagosa_Springs_Colorado\">Pagosa Springs CO</a>",
+    "link": "https://en.wikipedia.org/wiki/Pagosa_Springs,_Colorado",
+    "name": "US 84",
+    "state": "CO"
+  },
+  "us 85": {
+    "been": false,
+    "coords": "31.75916667, -106.48861111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Fortuna_North_Dakota\">Fortuna ND</a>",
+    "link": "https://en.wikipedia.org/wiki/Fortuna,_North_Dakota",
+    "name": "US 85",
+    "state": "ND"
+  },
+  "us 87": {
+    "been": false,
+    "coords": "48.54277778, -109.68027778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Port_Lavaca_Texas\">Port Lavaca TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Port_Lavaca,_Texas",
+    "name": "US 87",
+    "state": "TX"
+  },
+  "us 89": {
+    "been": false,
+    "coords": "35.18055556, -111.62000000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Babb_Montana\">Babb MT</a>",
+    "link": "https://en.wikipedia.org/wiki/Babb,_Montana",
+    "name": "US 89",
+    "state": "MT"
+  },
+  "us 90": {
+    "been": false,
+    "coords": "30.27944444, -81.38750000",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Van_Horn_Texas\">Van Horn TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Van_Horn,_Texas",
+    "name": "US 90",
+    "state": "TX"
+  },
+  "us 91": {
+    "been": false,
+    "coords": "41.50277778, -112.03888889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Idaho_Falls_Idaho\">Idaho Falls ID</a>",
+    "link": "https://en.wikipedia.org/wiki/Idaho_Falls,_Idaho",
+    "name": "US 91",
+    "state": "ID"
+  },
+  "us 92": {
+    "been": false,
+    "coords": "29.21083333, -81.08944444",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/St._Petersburg_Florida\">Saint Petersburg FL</a>",
+    "link": "https://en.wikipedia.org/wiki/St._Petersburg,_Florida",
+    "name": "US 92",
+    "state": "FL"
+  },
+  "us 93": {
+    "been": false,
+    "coords": "48.87666667, -115.04555556",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Wickenburg_Arizona\">Wickenburg AZ</a>",
+    "link": "https://en.wikipedia.org/wiki/Wickenburg,_Arizona",
+    "name": "US 93",
+    "state": "AZ"
+  },
+  "us 94": {
+    "been": false,
+    "coords": "25.77416667, -80.19361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Naples_Florida\">Naples FL</a>",
+    "link": "https://en.wikipedia.org/wiki/Naples,_Florida",
+    "name": "US 94",
+    "state": "FL"
+  },
+  "us 95": {
+    "been": false,
+    "coords": "48.99944444, -116.18138889",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/San_Luis_Arizona\">San Luis AZ</a>",
+    "link": "https://en.wikipedia.org/wiki/San_Luis,_Arizona",
+    "name": "US 95",
+    "state": "AZ"
+  },
+  "us 96": {
+    "been": false,
+    "coords": "29.75666667, -95.36527778",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Tenaha_Texas\">Tenaha TX</a>",
+    "link": "https://en.wikipedia.org/wiki/Tenaha,_Texas",
+    "name": "US 96",
+    "state": "TX"
+  },
+  "us 97": {
+    "been": false,
+    "coords": "49.03250000, -119.46833333",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Weed_California\">Weed CA</a>",
+    "link": "https://en.wikipedia.org/wiki/Weed,_California",
+    "name": "US 97",
+    "state": "CA"
+  },
+  "us 98": {
+    "been": false,
+    "coords": "26.74694444, -80.13111111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Natchez_Mississippi\">Natchez MS</a>",
+    "link": "https://en.wikipedia.org/wiki/Natchez,_Mississippi",
+    "name": "US 98",
+    "state": "MS"
+  },
+  "us 99": {
+    "been": false,
+    "coords": "48.98805556, -122.74361111",
+    "country": "US",
+    "icons": ["🇺🇸"],
+    "info": "<a href=\"https://en.wikipedia.org/wiki/Calexico_California\">Calexico CA</a>",
+    "link": "https://en.wikipedia.org/wiki/Calexico,_California",
+    "name": "US 99",
+    "state": "CA"
+  }
+}
