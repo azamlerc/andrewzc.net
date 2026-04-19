@@ -119,6 +119,12 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "america-2022": {
+    "icon": "🇺🇸",
+    "name": "Mid Atlantic",
+    "size": "medium",
+    "type": "place"
+  },
   "anton-corbijn": {
     "header": "Anton Corbijn defined the look of many of my favorite bands. Here are some places where he photographed them.",
     "icon": "📷",
@@ -573,6 +579,12 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "cape-cod": {
+    "icon": "🦀",
+    "name": "Cape Cod",
+    "size": "medium",
+    "type": "place"
+  },
   "capitals": {
     "complete": true,
     "footer": "",
@@ -1003,6 +1015,12 @@
     "tags": ["people"],
     "type": "place"
   },
+  "eastern-shore": {
+    "icon": "🏖",
+    "name": "Eastern Shore",
+    "size": "medium",
+    "type": "place"
+  },
   "eclipses": {
     "header": "A few solar and lunar eclipses that I remember.",
     "icon": "🌒",
@@ -1281,6 +1299,12 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "finger-lakes": {
+    "icon": "🍁",
+    "name": "Finger Lakes",
+    "size": "medium",
+    "type": "place"
+  },
   "first-locations": {
     "footer": "See also <a href=\"last-locations.html\" class=\"dark\">last locations</a>.",
     "header": "The first location of popular restaurants and other chains.",
@@ -1290,12 +1314,21 @@
     "tags": ["auto", "no-coords", "no-link"],
     "type": "place"
   },
+  "flags-old": {
+
+  },
   "flood": {
     "header": "Structures that can be deployed to control water flow during floods.",
     "icon": "🌊",
     "name": "Flood Barriers",
     "size": "large",
     "tags": ["auto"],
+    "type": "place"
+  },
+  "florida": {
+    "icon": "🌴",
+    "name": "Florida",
+    "size": "medium",
     "type": "place"
   },
   "forts": {
@@ -2179,6 +2212,13 @@
     "tags": ["auto"],
     "type": "place"
   },
+  "music-animals": {
+    "icon": "🦄",
+    "name": "Music Animals",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
   "music-cars": {
     "icon": "🚗",
     "name": "Music Cars",
@@ -2187,11 +2227,32 @@
     "tags": ["people", "reference-key"],
     "type": "place"
   },
+  "music-colors": {
+    "icon": "🌈",
+    "name": "Music Colors",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
   "music-family": {
     "icon": "🧑‍🧑‍🧒‍🧒",
     "name": "Music Family",
     "size": "medium",
     "tags": ["people"],
+    "type": "place"
+  },
+  "music-food": {
+    "icon": "🌶️",
+    "name": "Music Food",
+    "size": "large",
+    "tags": ["people"],
+    "type": "place"
+  },
+  "music-numbers": {
+    "icon": "🔢",
+    "name": "Music Numbers",
+    "size": "small",
+    "tags": ["duplicate-icons", "people", "reference-key"],
     "type": "place"
   },
   "music-origins": {
@@ -2223,12 +2284,26 @@
     "tags": ["auto", "people", "reference-key"],
     "type": "place"
   },
+  "music-plants": {
+    "icon": "🌳",
+    "name": "Music Plants",
+    "size": "medium",
+    "tags": ["people", "reference-key"],
+    "type": "place"
+  },
   "music-space": {
     "icon": "🪐",
     "name": "Music Space",
     "size": "medium",
     "sort": ["name", "reference"],
     "tags": ["auto", "people", "reference-key"],
+    "type": "place"
+  },
+  "music-tech": {
+    "icon": "📻",
+    "name": "Music Technology",
+    "size": "large",
+    "tags": ["people", "reference-key"],
     "type": "place"
   },
   "music-time": {
@@ -2273,6 +2348,12 @@
     },
     "name": "Nederlandse provincies",
     "size": "large",
+    "type": "place"
+  },
+  "new-england": {
+    "icon": "🇺🇸",
+    "name": "New England",
+    "size": "medium",
     "type": "place"
   },
   "new-stations": {
@@ -2470,6 +2551,12 @@
     "tags": ["auto", "reference-first", "reference-key"],
     "type": "place"
   },
+  "pacific-northwest": {
+    "icon": "🌲",
+    "name": "Pacific Northwest",
+    "size": "medium",
+    "type": "place"
+  },
   "palestine": {
     "complete": true,
     "icon": "🇵🇸",
@@ -2477,6 +2564,12 @@
     "prefixType": "year",
     "size": "large",
     "tags": ["prefix", "country-flag"],
+    "type": "place"
+  },
+  "panhandle": {
+    "icon": "🍳",
+    "name": "Panhandle",
+    "size": "medium",
     "type": "place"
   },
   "parking": {
@@ -2798,6 +2891,18 @@
     "size": "large",
     "sort": "order",
     "tags": ["auto", "ordered"],
+    "type": "place"
+  },
+  "routes": {
+    "icon": "🏜️",
+    "map": {
+      "lat": "37",
+      "lon": "-95",
+      "zoom": "4"
+    },
+    "name": "Routes",
+    "size": "large",
+    "tags": ["reference", "reference-first"],
     "type": "place"
   },
   "rubber": {
@@ -3595,6 +3700,12 @@
     },
     "name": "Volcanoes",
     "size": "large",
+    "type": "place"
+  },
+  "vulkaneifel": {
+    "icon": "🌋",
+    "name": "Vulkaneifel",
+    "size": "medium",
     "type": "place"
   },
   "walls": {
