@@ -6,6 +6,7 @@ import {
   lookupWiki,
   lookupCoords,
   lookupNearestCity,
+  getPageEntities,
 } from "./api.js";
 import {
   renderImages,
@@ -29,6 +30,7 @@ const elInfo = document.getElementById("info");
 const elCaption = document.getElementById("caption");
 const elTrips = document.getElementById("trips");
 const elReference = document.getElementById("reference");
+const elReferenceSuggestions = document.getElementById("referenceSuggestions");
 const elLink = document.getElementById("link");
 const elCoords = document.getElementById("coords");
 const elCity = document.getElementById("city");
@@ -52,6 +54,8 @@ const elImagesHelp = document.getElementById("imagesHelp");
 
 let original = null;
 let isCreateMode = false;
+let referenceAutocompleteNames = [];
+
 function blankEntity() {
   return {
     list: LIST,
@@ -78,6 +82,50 @@ function setStatus(text, kind) {
   elStatus.classList.remove("error", "ok");
   if (kind === "error") elStatus.classList.add("error");
   if (kind === "ok") elStatus.classList.add("ok");
+}
+
+function normalizeAutocompleteText(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function updateReferenceSuggestions() {
+  if (!elReferenceSuggestions) return;
+
+  const prefix = normalizeAutocompleteText(elReference.value);
+  const matches = prefix.length >= 2
+    ? referenceAutocompleteNames.filter(name => normalizeAutocompleteText(name).startsWith(prefix)).slice(0, 20)
+    : [];
+
+  elReferenceSuggestions.innerHTML = "";
+  for (const name of matches) {
+    const option = document.createElement("option");
+    option.value = name;
+    elReferenceSuggestions.appendChild(option);
+  }
+}
+
+async function loadReferenceAutocomplete() {
+  try {
+    const [cities, artists] = await Promise.all([
+      getPageEntities("cities"),
+      getPageEntities("artists"),
+    ]);
+
+    const names = [...(cities?.entities || []), ...(artists?.entities || [])]
+      .map(entity => String(entity?.name || "").trim())
+      .filter(Boolean);
+
+    referenceAutocompleteNames = [...new Set(names)]
+      .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+    updateReferenceSuggestions();
+  } catch (err) {
+    console.warn("Could not load reference autocomplete data.", err);
+  }
 }
 
 function iconsArrayToString(arr) {
@@ -566,6 +614,9 @@ elReferenceAutoBtn.addEventListener("click", async () => {
   await save();
 });
 
+elReference.addEventListener("focus", updateReferenceSuggestions);
+elReference.addEventListener("input", updateReferenceSuggestions);
+
 elCityAutoBtn.addEventListener("click", async () => {
   const raw = (elCoords.value || "").trim();
   if (!raw) { setStatus("No coords to look up city from.", "error"); return; }
@@ -641,4 +692,5 @@ window.addEventListener("beforeunload", () => {
   clearPendingThumbUrls();
 });
 
+loadReferenceAutocomplete();
 load();

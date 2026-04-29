@@ -93,3 +93,7 @@ export function updatePage(key, patch) {
 export function getFlags() {
   return api("/flags", { method: "GET" });
 }
+
+export function getPageEntities(pageId) {
+  return api(`/pages/${encodeURIComponent(pageId)}/entities`, { method: "GET" });
+}
