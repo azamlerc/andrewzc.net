@@ -48,7 +48,15 @@ a {
 	text-decoration: line-through;
 }
 
-.smallSpace {
+.large .smallSpace {
+	font: 14pt Avenir; 
+}
+
+.medium .smallSpace {
+	font: 12pt Avenir; 
+}
+
+.small .smallSpace {
 	font: 10pt Avenir; 
 }
 
@@ -74,16 +82,29 @@ a {
 	color: #999;
 }
 
-.caption, .small {
-	font: 24pt Avenir; 
-	color: #999;
-	white-space: normal;
-}
-
 .medium {
 	font: 36pt Avenir; 
 	color: #999;
-/*  white-space: nowrap;*/
+}
+
+.small {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.caption, .large .caption {
+	font: 24pt Avenir; 
+	color: #999;
+}
+
+.medium .caption {
+	font: 18pt Avenir; 
+	color: #999;
+}
+
+.small .caption {
+	font: 12pt Avenir; 
+	color: #999;
 }
 
 .portfolio h1 {

@@ -345,6 +345,14 @@ function pickRowImages(entity, listCtx) {
   return pickRandom(images, 3);
 }
 
+function buildRowRenderState(entity, listCtx) {
+  const chosenImages = pickRowImages(entity, listCtx);
+  return {
+    chosenImages,
+    hasCaption: Boolean(entity?.caption),
+  };
+}
+
 function highlightDistanceCaption(el) {
   const escapeHTML = s =>
     s.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[ch]));
@@ -400,9 +408,10 @@ function renderReference(reference, listCtx) {
   return el("span", { class: "dark" }, text(value));
 }
 
-function renderRow(entity, listCtx) {
+function renderRow(entity, listCtx, renderState = null) {
   const frag = document.createDocumentFragment();
-  const chosenImages = pickRowImages(entity, listCtx);
+  const state = renderState || buildRowRenderState(entity, listCtx);
+  const chosenImages = state.chosenImages;
   const entityHref = listCtx.listId === "cities"
     ? `city.html?city=${encodeURIComponent(entity.key || "")}`
     : listCtx.listId === "countries"
@@ -489,7 +498,7 @@ function renderRow(entity, listCtx) {
 
   frag.append(br(), text("\n"));
 
-  if (entity.caption) {
+  if (state.hasCaption) {
     const caption = el("div", { class: "caption" }, text(entity.caption));
     highlightDistanceCaption(caption);
     if (entity.challenge != null) {
@@ -936,8 +945,14 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
       items.append(el("div", { class: "caption" }, text(headers[idx])));
     }
 
+    let prevState = null;
     for (const e of group) {
-      items.append(renderRow(e, listCtx));
+      const state = buildRowRenderState(e, listCtx);
+      if (prevState && (prevState.hasCaption || state.chosenImages.length > 0)) {
+        items.append(smallSpace());
+      }
+      items.append(renderRow(e, listCtx, state));
+      prevState = state;
     }
   });
 
