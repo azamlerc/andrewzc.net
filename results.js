@@ -280,6 +280,7 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
   const pageIcon = page.icon || page.emoji || "";
   const name     = page.name || listKey;
   const rows     = visitedFirstRows(dedupe ? UI.dedupeEntities(hits) : hits);
+  const suppressTodoIcons = Array.isArray(page?.tags) && page.tags.includes("people");
 
   captionEl.appendChild(document.createTextNode(pageIcon ? `${pageIcon} ` : ""));
 
@@ -294,7 +295,11 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
   captionEl.appendChild(UI.br());
 
   for (const ent of rows.slice(0, maxItems)) {
-    captionEl.appendChild(UI.renderEntityRow(ent, { ...(pageName ? { pageName } : {}), sectionKey: listKey }));
+    captionEl.appendChild(UI.renderEntityRow(ent, {
+      ...(pageName ? { pageName } : {}),
+      sectionKey: listKey,
+      suppressTodoIcons,
+    }));
   }
 }
 

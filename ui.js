@@ -69,12 +69,13 @@
   function renderEntityRow(entity, opts = {}) {
     const wrap = document.createDocumentFragment();
 
-    const isTodo = entity.been === false;
+    const isTodo = entity.been === false && opts.suppressTodoIcons !== true;
     const row = el("span");
 
     // Prefix (years, sizes, etc.)
     if (entity.prefix) {
-      row.appendChild(document.createTextNode(entity.prefix + " "));
+      row.appendChild(el("span", { className: "fixed", text: entity.prefix }));
+      row.appendChild(document.createTextNode(" "));
     }
 
     // Icons (flags/emojis/etc)

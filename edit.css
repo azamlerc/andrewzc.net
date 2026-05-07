@@ -3,7 +3,9 @@
   flex-direction: column;
   background: white;
   margin-left: 10px;
-  width: min(920px, calc(100vw - 20px));
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  transition: box-shadow 0.15s ease, outline-color 0.15s ease;
 }
 
 .row {
@@ -78,13 +80,17 @@
   overflow-wrap: anywhere;
 }
 
+.captionInput {
+  min-height: 96px;
+}
+
 .status {
   font: 24pt Avenir;
   color: #999;
   margin-top: 10px;
   margin-bottom: 16px;
   margin-left: 10px;
-  width: min(920px, calc(100vw - 20px));
+  width: calc(100% - 20px);
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -151,6 +157,16 @@
   opacity: 0.7;
 }
 
+body.drag-active .card {
+  outline: 4px dashed rgba(47,116,208,0.45);
+  outline-offset: 10px;
+  box-shadow: 0 0 0 10px rgba(47,116,208,0.08);
+}
+
+body.drag-active .imagesHelp::before {
+  content: "Drop images anywhere on the page to upload. ";
+}
+
 .pill {
   display: inline-block;
   font: 22pt Avenir;
@@ -205,6 +221,10 @@
   }
   .thumbLink {
     background: #222;
+  }
+  body.drag-active .card {
+    outline-color: rgba(255,255,255,0.35);
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.06);
   }
 }
 

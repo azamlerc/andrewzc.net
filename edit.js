@@ -39,6 +39,7 @@ const elStrike = document.getElementById("strike");
 
 const elSaveBtn = document.getElementById("saveBtn");
 const elResetBtn = document.getElementById("resetBtn");
+const elDuplicateBtn = document.getElementById("duplicateBtn");
 const elDeleteBtn = document.getElementById("deleteBtn");
 const elLinkAutoBtn = document.getElementById("linkAutoBtn");
 const elCoordsAutoBtn = document.getElementById("coordsAutoBtn");
@@ -55,6 +56,7 @@ const elImagesHelp = document.getElementById("imagesHelp");
 let original = null;
 let isCreateMode = false;
 let referenceAutocompleteNames = [];
+let dragDepth = 0;
 
 function blankEntity() {
   return {
@@ -82,6 +84,12 @@ function setStatus(text, kind) {
   elStatus.classList.remove("error", "ok");
   if (kind === "error") elStatus.classList.add("error");
   if (kind === "ok") elStatus.classList.add("ok");
+}
+
+function syncModeButtons() {
+  elSaveBtn.textContent = isCreateMode ? "Create" : "Save";
+  elDuplicateBtn.style.display = isCreateMode ? "none" : "";
+  elDeleteBtn.style.display = isCreateMode ? "none" : "";
 }
 
 function normalizeAutocompleteText(value) {
@@ -256,7 +264,7 @@ async function uploadImages(files) {
     return;
   }
 
-  const picked = Array.from(files || []).filter(Boolean);
+  const picked = Array.from(files || []).filter(file => file && String(file.type || "").startsWith("image/"));
   if (picked.length === 0) return;
 
   try {
@@ -286,6 +294,20 @@ async function uploadImages(files) {
     elUploadImagesBtn.disabled = false;
     elImageInput.value = "";
   }
+}
+
+function setDragActive(active) {
+  document.body.classList.toggle("drag-active", !!active);
+}
+
+function hasDraggedFiles(event) {
+  const types = Array.from(event?.dataTransfer?.types || []);
+  return types.includes("Files");
+}
+
+function getDroppedImageFiles(event) {
+  const files = Array.from(event?.dataTransfer?.files || []);
+  return files.filter(file => String(file.type || "").startsWith("image/"));
 }
 
 function populateForm(e) {
@@ -324,6 +346,22 @@ function currentFormEntity() {
     been: isPillOn(elBeen),
     strike: isPillOn(elStrike)
   };
+}
+
+function pruneCreatePayload(entity) {
+  const payload = { ...entity };
+
+  for (const [key, value] of Object.entries(payload)) {
+    if (value === "") {
+      delete payload[key];
+      continue;
+    }
+    if (Array.isArray(value) && value.length === 0) {
+      delete payload[key];
+    }
+  }
+
+  return payload;
 }
 
 function parseDMSComponent(s) {
@@ -435,14 +473,14 @@ async function load() {
     elHeadline.textContent = "✏️ New";
     populateForm(original);
     elCard.style.display = "inline-block";
-    elSaveBtn.textContent = "Create";
+    syncModeButtons();
     setStatus("New entity.", "ok");
     return;
   }
 
   try {
     isCreateMode = false;
-    elSaveBtn.textContent = "Save";
+    syncModeButtons();
     setStatus("Loading…");
         const entity = await getEntity(LIST, KEY);
 
@@ -451,7 +489,7 @@ async function load() {
     populateForm(original);
 
     elCard.style.display = "inline-block";
-    elDeleteBtn.style.display = "";
+    syncModeButtons();
     setStatus("Loaded.", "ok");
   } catch (err) {
     setStatus("Load failed. " + err.message, "error");
@@ -477,13 +515,12 @@ async function save() {
     let updated;
 
     if (isCreateMode) {
-          updated = await createEntity(LIST, cur);
+          updated = await createEntity(LIST, pruneCreatePayload(cur));
 
       if (updated && updated.key) {
         KEY = String(updated.key);
         isCreateMode = false;
-        elSaveBtn.textContent = "Save";
-        elDeleteBtn.style.display = "";
+        syncModeButtons();
 
         const nextUrl = new URL(location.href);
         nextUrl.searchParams.set("list", LIST);
@@ -516,6 +553,29 @@ function resetForm() {
   setStatus("Reset.", null);
 }
 
+function duplicateEntity() {
+  if (!original || isCreateMode) return;
+
+  original = normalizeEntity({
+    ...blankEntity(),
+    ...currentFormEntity(),
+    images: [],
+  });
+  KEY = "";
+  isCreateMode = true;
+
+  populateForm(original);
+  elHeadline.textContent = "✏️ New";
+  syncModeButtons();
+
+  const nextUrl = new URL(location.href);
+  nextUrl.searchParams.set("list", LIST);
+  nextUrl.searchParams.delete("key");
+  history.replaceState(null, "", nextUrl.toString());
+
+  setStatus("Duplicated.", "ok");
+}
+
 async function deleteEntity() {
   if (!KEY || isCreateMode) return;
   if (!confirm(`Delete "${original.name}"? This cannot be undone.`)) return;
@@ -541,6 +601,7 @@ async function deleteEntity() {
 
 elSaveBtn.addEventListener("click", save);
 elResetBtn.addEventListener("click", resetForm);
+elDuplicateBtn.addEventListener("click", duplicateEntity);
 elDeleteBtn.addEventListener("click", deleteEntity);
 
 elBeen.addEventListener("click", () => togglePill(elBeen));
@@ -589,6 +650,35 @@ elUploadImagesBtn.addEventListener("click", () => {
 
 elImageInput.addEventListener("change", (e) => {
   uploadImages(e.target.files);
+});
+
+document.addEventListener("dragenter", (event) => {
+  if (!hasDraggedFiles(event)) return;
+  dragDepth += 1;
+  event.preventDefault();
+  setDragActive(true);
+});
+
+document.addEventListener("dragover", (event) => {
+  if (!hasDraggedFiles(event)) return;
+  event.preventDefault();
+  if (event.dataTransfer) event.dataTransfer.dropEffect = "copy";
+  setDragActive(true);
+});
+
+document.addEventListener("dragleave", (event) => {
+  if (!hasDraggedFiles(event)) return;
+  dragDepth = Math.max(0, dragDepth - 1);
+  if (dragDepth === 0) setDragActive(false);
+});
+
+document.addEventListener("drop", (event) => {
+  const files = getDroppedImageFiles(event);
+  if (files.length === 0) return;
+  event.preventDefault();
+  dragDepth = 0;
+  setDragActive(false);
+  uploadImages(files);
 });
 
 elCoordsAutoBtn.addEventListener("click", async () => {
@@ -690,6 +780,7 @@ document.addEventListener("keydown", (e) => {
 
 window.addEventListener("beforeunload", () => {
   clearPendingThumbUrls();
+  setDragActive(false);
 });
 
 loadReferenceAutocomplete();

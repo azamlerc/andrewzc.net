@@ -17,12 +17,19 @@
       `${Results.API_BASE}/cities/${encodeURIComponent(cityKey)}`
     );
 
-    const city     = data.city     || null;
-    const entities = Results.withPageIcons(data.entities || [], pages);
+    const city = data.city || null;
 
     if (!city) throw new Error(`Missing city entity for ${cityKey}`);
 
     const cityName = city.name || UI.titleCase(cityKey.replace(/-/g, " "));
+    const entities = Results.withPageIcons(data.entities || [], pages).map((entity) => ({
+      ...entity,
+      name: entity.name === cityName && entity.reference ? entity.reference : entity.name,
+      reference: (
+        entity.reference === cityName ||
+        (entity.name === cityName && entity.reference)
+      ) ? null : entity.reference,
+    }));
 
     // Expose for map.js
     window.places   = entities;
