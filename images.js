@@ -17,11 +17,14 @@ export function clearPendingThumbUrls() {
   pendingThumbUrls = [];
 }
 
-export function renderImages({ list, entity, pendingFiles = [], imageGrid, uploadButton, imagesHelp, canUpload }) {
+export function renderImages({ list, entity, pendingFiles = [], imageGrid, uploadButton, imagesHelp, canUpload, onRemoveImage = null }) {
   imageGrid.innerHTML = "";
 
   const filenames = Array.isArray(entity?.images) ? entity.images : [];
   for (const filename of filenames) {
+    const wrap = document.createElement("div");
+    wrap.className = "thumbItem";
+
     const a = document.createElement("a");
     a.className = "thumbLink";
     a.href = imageUrl(list, filename);
@@ -33,10 +36,30 @@ export function renderImages({ list, entity, pendingFiles = [], imageGrid, uploa
     img.alt = filename;
 
     a.appendChild(img);
-    imageGrid.appendChild(a);
+
+    wrap.appendChild(a);
+
+    if (typeof onRemoveImage === "function") {
+      const removeBtn = document.createElement("button");
+      removeBtn.type = "button";
+      removeBtn.className = "thumbRemove";
+      removeBtn.setAttribute("aria-label", `Remove ${filename}`);
+      removeBtn.textContent = "×";
+      removeBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        onRemoveImage(filename);
+      });
+      wrap.appendChild(removeBtn);
+    }
+
+    imageGrid.appendChild(wrap);
   }
 
   for (const pendingUrl of pendingFiles) {
+    const wrap = document.createElement("div");
+    wrap.className = "thumbItem";
+
     const a = document.createElement("a");
     a.className = "thumbLink thumbPending";
     a.href = pendingUrl;
@@ -48,7 +71,8 @@ export function renderImages({ list, entity, pendingFiles = [], imageGrid, uploa
     img.alt = "Uploading image";
 
     a.appendChild(img);
-    imageGrid.appendChild(a);
+    wrap.appendChild(a);
+    imageGrid.appendChild(wrap);
   }
 
   uploadButton.disabled = !canUpload;

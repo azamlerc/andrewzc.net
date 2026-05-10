@@ -274,8 +274,20 @@ function pagePathForKey(listKey) {
   return ["mosques", "synagogues"].includes(listKey) ? "page-rtl.html" : "page.html";
 }
 
+function buildPageHref(listKey, extraParams = {}) {
+  const href = new URL(pagePathForKey(listKey), window.location.href);
+  href.searchParams.set("id", listKey);
+
+  for (const [key, value] of Object.entries(extraParams || {})) {
+    if (value == null || value === "") continue;
+    href.searchParams.set(key, String(value));
+  }
+
+  return `${href.pathname}${href.search}`;
+}
+
 // Render a single section: anchor + icon + page link (+ count) + entity rows.
-function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, dedupe = false } = {}) {
+function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, dedupe = false, pageQuery = {} } = {}) {
   const listKey  = page.key;
   const pageIcon = page.icon || page.emoji || "";
   const name     = page.name || listKey;
@@ -284,7 +296,7 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
 
   captionEl.appendChild(document.createTextNode(pageIcon ? `${pageIcon} ` : ""));
 
-  const a = UI.el("a", { href: `${pagePathForKey(listKey)}?id=${encodeURIComponent(listKey)}`, className: "link", id: listKey });
+  const a = UI.el("a", { href: buildPageHref(listKey, pageQuery), className: "link", id: listKey });
   a.textContent = name;
   captionEl.appendChild(a);
 
@@ -307,7 +319,7 @@ function renderSection(captionEl, page, hits, { pageName = null, maxItems = 10, 
 // sort: null (pages array order) | "alphabetical" | "encounter" | "count" | "count-asc"
 // Returns true if at least one section was rendered.
 function renderSections(captionEl, pages, byList, options = {}) {
-  const { pageName = null, maxItems = 10, dedupeLists = new Set(), sort = null } = options;
+  const { pageName = null, maxItems = 10, dedupeLists = new Set(), sort = null, pageQuery = {} } = options;
   let any = false;
 
   let orderedPages = pages;
@@ -336,6 +348,7 @@ function renderSections(captionEl, pages, byList, options = {}) {
       pageName,
       maxItems,
       dedupe: dedupeLists.has(page.key),
+      pageQuery,
     });
     any = true;
   }

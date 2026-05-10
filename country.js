@@ -76,7 +76,9 @@
 
     // Entity sections
     const byList = Results.bucketByList(entities);
-    const any    = Results.renderSections(captionEl, pages, byList);
+    const any    = Results.renderSections(captionEl, pages, byList, {
+      pageQuery: { country: code.toLowerCase() },
+    });
 
     if (!any) Results.renderEmpty(captionEl);
     await Results.enableAdminControls({ headlineEl, storageKey: `country:${code}` });

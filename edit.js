@@ -255,6 +255,7 @@ function updateImageSection(entity, pendingFiles = []) {
     uploadButton: elUploadImagesBtn,
     imagesHelp: elImagesHelp,
     canUpload: !!KEY && !isCreateMode,
+    onRemoveImage: !isCreateMode ? removeImage : null,
   });
 }
 
@@ -278,9 +279,11 @@ async function uploadImages(files) {
         updateImageSection(original, pendingFiles);
       },
       onComplete(entity) {
+        const draft = currentFormEntity();
         original = normalizeEntity(entity);
-        setHeaderFromEntity(original);
-        populateForm(original);
+        populateFields(draft);
+        setHeaderFromEntity(draft);
+        updateImageSection(original);
       }
     });
   } catch (err) {
@@ -293,6 +296,28 @@ async function uploadImages(files) {
   } finally {
     elUploadImagesBtn.disabled = false;
     elImageInput.value = "";
+  }
+}
+
+async function removeImage(filename) {
+  if (!KEY || isCreateMode || !original) return;
+
+  const nextImages = (Array.isArray(original.images) ? original.images : []).filter(name => name !== filename);
+  if (nextImages.length === (Array.isArray(original.images) ? original.images.length : 0)) return;
+
+  setStatus("Removing image…");
+  try {
+    const updated = await updateEntity(LIST, KEY, { images: nextImages });
+    original = normalizeEntity(updated);
+    setHeaderFromEntity(original);
+    populateForm(original);
+    setStatus("Image removed.", "ok");
+  } catch (err) {
+    if (err.status === 401) {
+      setStatus("Not authenticated. Go to admin.html and sign in.", "error");
+    } else {
+      setStatus("Remove image failed. " + err.message, "error");
+    }
   }
 }
 
@@ -310,7 +335,7 @@ function getDroppedImageFiles(event) {
   return files.filter(file => String(file.type || "").startsWith("image/"));
 }
 
-function populateForm(e) {
+function populateFields(e) {
   elIcons.value = iconsArrayToString(e.icons || []);
   elBadges.value = iconsArrayToString(e.badges || []);
   elName.value = e.name || "";
@@ -324,6 +349,10 @@ function populateForm(e) {
   elCity.value = e.city || "";
   setPill(elBeen, !!e.been);
   setPill(elStrike, !!e.strike);
+}
+
+function populateForm(e) {
+  populateFields(e);
   updateImageSection(e);
 }
 

@@ -23,8 +23,22 @@
   </div>
   
   <div id="card" class="card" style="display:none;">
-    <div class="row">
-      <div class="field">
+    <div class="row rowCompact rowTriple">
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Icons</span>
+        </div>
+        <input id="icons" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+
+      <div class="field fieldCompact">
+        <div class="fieldHeader">
+          <span class="label">Badges</span>
+        </div>
+        <input id="badges" class="input inputCompact" type="text" spellcheck="false">
+      </div>
+
+      <div class="field fieldFlags">
         <div class="fieldHeader">
           <span class="label">Flags</span>
         </div>
@@ -32,15 +46,6 @@
           <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
           <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
         </span>
-      </div>
-    </div>
-
-    <div class="row rowCompact">
-      <div class="field fieldCompact">
-        <div class="fieldHeader">
-          <span class="label">Icons</span>
-        </div>
-        <input id="icons" class="input inputCompact" type="text" spellcheck="false">
       </div>
     </div>
 
@@ -123,21 +128,12 @@
       </div>
     </div>
 
-    <div class="row rowCompact">
-      <div class="field fieldCompact">
-        <div class="fieldHeader">
-          <span class="label">Badges</span>
-        </div>
-        <input id="badges" class="input inputCompact" type="text" spellcheck="false">
-      </div>
-    </div>
-
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
           <span class="label">Caption</span>
         </div>
-        <textarea id="caption" class="textarea captionInput" spellcheck="false" rows="2"></textarea>
+        <textarea id="caption" class="textarea captionInput" spellcheck="false" rows="3"></textarea>
       </div>
     </div>
 

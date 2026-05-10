@@ -18,6 +18,11 @@ function getSortOverride() {
   return raw.split(",").map(s => s.trim()).filter(Boolean);
 }
 
+function hasEntityFilters() {
+  const u = new URL(window.location.href);
+  return !!(u.searchParams.get("q") || u.searchParams.get("country"));
+}
+
 function getApiBase() {
   // optional override: ?api=https://api.andrewzc.net
   const u = new URL(window.location.href);
@@ -25,8 +30,16 @@ function getApiBase() {
 }
 
 async function fetchPageData(pageId) {
+  const pageUrl = new URL(window.location.href);
   const base = getApiBase().replace(/\/+$/, "");
-  const url = `${base}/pages/${encodeURIComponent(pageId)}/entities`;
+  const apiUrl = new URL(`${base}/pages/${encodeURIComponent(pageId)}/entities`);
+
+  const q = pageUrl.searchParams.get("q");
+  const country = pageUrl.searchParams.get("country");
+  if (q) apiUrl.searchParams.set("q", q);
+  if (country) apiUrl.searchParams.set("country", country);
+
+  const url = apiUrl.toString();
   const res = await fetch(url, { headers: { "Accept": "application/json" } });
   if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
   return await res.json();
@@ -549,6 +562,13 @@ function compareIcons(a, b) {
   return aa.length < bb.length ? -1 : 1;
 }
 
+function compareIconCount(a, b) {
+  const aCount = Array.isArray(a) ? a.length : 0;
+  const bCount = Array.isArray(b) ? b.length : 0;
+  if (aCount === bCount) return 0;
+  return aCount < bCount ? -1 : 1;
+}
+
 function codesFromEntity(entity, pluralKey, singularKey) {
   const v = entity?.[pluralKey];
   if (Array.isArray(v)) return v.map(String);
@@ -671,15 +691,16 @@ function buildComparator(sortSpec, tags) {
 
   const keys = parts.map(p => {
     // Leading '-' means descending. Leading '+' means explicit ascending.
-    const descending = p.startsWith("-");
     const key = p.replace(/^[-+]/, "");
+    const descending = p.startsWith("-") || (!/^[+-]/.test(p) && key === "iconCount");
     const numeric = ["size", "distance", "lat", "lon", "zoom", "clusterLevel"].includes(key);
     const isIcons = (key === "icons");
+    const isIconCount = (key === "iconCount");
     const isCountries = (key === "countries");
     const isStates = (key === "states");
     const isCoords = (key === "coords");
     const valueKey = (key === "distance") ? "locationDistance" : key;
-    return { key, valueKey, descending, numeric, isIcons, isCountries, isStates, isCoords };
+    return { key, valueKey, descending, numeric, isIcons, isIconCount, isCountries, isStates, isCoords };
   });
 
   return (a, b) => {
@@ -688,6 +709,9 @@ function buildComparator(sortSpec, tags) {
 
       if (k.isIcons) {
         c = compareIcons(a?.icons, b?.icons);
+        if (k.descending) c = -c;
+      } else if (k.isIconCount) {
+        c = compareIconCount(a?.icons, b?.icons);
         if (k.descending) c = -c;
       } else if (k.isCountries) {
         const ac = codesFromEntity(a, "countries", "country");
@@ -892,6 +916,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     for (const f of fields) {
       if (listInfo.map[f] != null) attrs[f] = listInfo.map[f];
     }
+    if (hasEntityFilters()) attrs.fit = "results";
     app.append(el("div", attrs));
 
     // Load map.js (once)
