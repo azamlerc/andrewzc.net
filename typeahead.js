@@ -1,4 +1,21 @@
+function isEditableTarget(target) {
+  if (!target || !(target instanceof Element)) return false;
+  if (target.closest('input, textarea, select, [contenteditable="true"], [contenteditable=""], [contenteditable]')) return true;
+  return false;
+}
+
+function areTypeaheadShortcutsSuspended(event) {
+  if (document.querySelector('[role="dialog"][aria-modal="true"]')) return true;
+  if (isEditableTarget(event.target)) return true;
+  if (isEditableTarget(document.activeElement)) return true;
+  return false;
+}
+
 document.addEventListener("keydown", function(event) {
+  if (areTypeaheadShortcutsSuspended(event)) {
+    return;
+  }
+
 	if (event.key === "ArrowUp") {
     up();
   } else if (event.key === "ArrowDown") {
@@ -107,4 +124,3 @@ function deselect(link) {
 function scrollToMiddle(link) {
   link.scrollIntoView({behavior: 'auto', block: 'center', inline: 'center'});
 }
-

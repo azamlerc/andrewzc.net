@@ -18,9 +18,40 @@ function getSortOverride() {
   return raw.split(",").map(s => s.trim()).filter(Boolean);
 }
 
+const FILTER_SORT_OPTIONS = [
+  { value: "", label: "Default" },
+  { value: "name", label: "Name" },
+  { value: "reference", label: "Reference" },
+  { value: "distance", label: "Distance" },
+  { value: "countries", label: "Country" },
+  { value: "states", label: "State" },
+];
+
 function hasEntityFilters() {
   const u = new URL(window.location.href);
-  return !!(u.searchParams.get("q") || u.searchParams.get("country"));
+  return !!(u.searchParams.get("q") || u.searchParams.get("country") || u.searchParams.get("sort"));
+}
+
+function getEntityFilterState() {
+  const u = new URL(window.location.href);
+  const q = (u.searchParams.get("q") || "").trim();
+  const countries = (u.searchParams.get("country") || "")
+    .split(",")
+    .map(code => code.trim().toUpperCase())
+    .filter(Boolean);
+  const sortParts = getSortOverride();
+  const firstSort = sortParts[0] || "";
+  const reverse = firstSort.startsWith("-");
+  const normalizedSort = firstSort.replace(/^[-+]/, "");
+  const supportedSorts = new Set(FILTER_SORT_OPTIONS.map(option => option.value).filter(Boolean));
+  const sort = supportedSorts.has(normalizedSort) ? normalizedSort : "";
+
+  return {
+    q,
+    countries: Array.from(new Set(countries)),
+    sort,
+    reverse: sort ? reverse : false,
+  };
 }
 
 function getApiBase() {
@@ -40,6 +71,14 @@ async function fetchPageData(pageId) {
   if (country) apiUrl.searchParams.set("country", country);
 
   const url = apiUrl.toString();
+  const res = await fetch(url, { headers: { "Accept": "application/json" } });
+  if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+  return await res.json();
+}
+
+async function fetchPageCountries(pageId) {
+  const base = getApiBase().replace(/\/+$/, "");
+  const url = `${base}/pages/${encodeURIComponent(pageId)}/countries`;
   const res = await fetch(url, { headers: { "Accept": "application/json" } });
   if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
   return await res.json();
@@ -159,6 +198,300 @@ function ensureScript(src) {
     }
 
     .pillToggle:active { transform: translateY(1px); }
+  `;
+  document.head.appendChild(style);
+})();
+
+(function ensureFilterOverlayStyle() {
+  if (document.getElementById("filter-overlay-style")) return;
+  const style = document.createElement("style");
+  style.id = "filter-overlay-style";
+  style.textContent = `
+    .pillToggle.filterToggle.active {
+      background: rgba(47,116,208,0.92);
+      color: white;
+      border-color: transparent;
+    }
+
+    .filterBackdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 72px 24px 32px;
+      z-index: 1000;
+      box-sizing: border-box;
+    }
+
+    .filterPanel {
+      width: min(760px, calc(100vw - 48px));
+      max-height: calc(100vh - 104px);
+      overflow: auto;
+      background: rgba(255,255,255,0.97);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 34px;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.15);
+      padding: 28px 30px 30px;
+      box-sizing: border-box;
+    }
+
+    .filterPanelHeader {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 26px;
+    }
+
+    .filterPanelTitle {
+      font: 28pt Avenir;
+      color: black;
+    }
+
+    .filterPanelSubtitle {
+      font: 14pt Avenir;
+      color: #8a8a8a;
+    }
+
+    .filterClose {
+      font: 16pt Avenir;
+      padding: 8px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: transparent;
+      cursor: pointer;
+      color: #666;
+    }
+
+    .filterHeaderMain {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .filterField {
+      margin-bottom: 24px;
+    }
+
+    .filterLabel {
+      display: block;
+      margin-bottom: 10px;
+      font: 14pt Avenir;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #777;
+    }
+
+    .filterSearchInput {
+      width: 100%;
+      font: 20pt Avenir;
+      color: black;
+      padding: 16px 20px;
+      border-radius: 22px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: rgba(247,247,247,0.95);
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .filterSearchInput:focus {
+      border-color: rgba(47,116,208,0.4);
+      box-shadow: 0 0 0 4px rgba(47,116,208,0.08);
+      background: white;
+    }
+
+    .filterSortRow {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .filterSortSelect {
+      min-width: 220px;
+      font: 18pt Avenir;
+      color: black;
+      padding: 12px 18px;
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: rgba(247,247,247,0.95);
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .filterSortSelect:focus {
+      border-color: rgba(47,116,208,0.4);
+      box-shadow: 0 0 0 4px rgba(47,116,208,0.08);
+      background: white;
+    }
+
+    .filterCheckbox {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font: 15pt Avenir;
+      color: #555;
+      padding: 12px 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: rgba(249,249,249,0.92);
+      cursor: pointer;
+    }
+
+    .filterCheckbox input {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      accent-color: rgba(47,116,208,0.94);
+    }
+
+    .filterCountryGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .filterCountryOption {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: rgba(249,249,249,0.92);
+      cursor: pointer;
+      transition: background 120ms ease, border-color 120ms ease, transform 120ms ease;
+    }
+
+    .filterCountryOption:hover {
+      transform: translateY(-1px);
+      border-color: rgba(0,0,0,0.14);
+      background: white;
+    }
+
+    .filterCountryOption.selected {
+      background: rgba(47,116,208,0.1);
+      border-color: rgba(47,116,208,0.28);
+    }
+
+    .filterCountryOption input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .filterCountryIcon {
+      font-size: 24pt;
+      line-height: 1;
+    }
+
+    .filterCountryMeta {
+      min-width: 0;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .filterCountryName {
+      font: 15pt Avenir;
+      color: black;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+
+    .filterCountryCount {
+      font: 12pt "SF Mono", Menlo;
+      color: #7a7a7a;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    .filterPanelFooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(0,0,0,0.07);
+    }
+
+    .filterSummary {
+      font: 14pt Avenir;
+      color: #8a8a8a;
+      margin-top: 6px;
+    }
+
+    .filterActions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .filterAction {
+      font: 16pt Avenir;
+      padding: 10px 22px;
+      min-width: 92px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: transparent;
+      cursor: pointer;
+      color: #555;
+    }
+
+    .filterAction.primary {
+      background: rgba(47,116,208,0.94);
+      border-color: rgba(47,116,208,0.94);
+      color: white;
+    }
+
+    .filterStatus {
+      font: 16pt Avenir;
+      color: #888;
+      padding: 10px 2px;
+    }
+
+    @media (max-width: 700px) {
+      .filterBackdrop {
+        padding: 18px 14px 14px;
+        align-items: stretch;
+      }
+
+      .filterPanel {
+        width: 100%;
+        max-height: 100%;
+        border-radius: 26px;
+        padding: 22px 18px 24px;
+      }
+
+      .filterPanelHeader,
+      .filterPanelFooter {
+        display: block;
+      }
+
+      .filterActions {
+        margin-top: 16px;
+        justify-content: stretch;
+      }
+
+      .filterAction,
+      .filterClose,
+      .filterSortSelect {
+        width: 100%;
+      }
+
+      .filterCheckbox {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
   `;
   document.head.appendChild(style);
 })();
@@ -591,8 +924,20 @@ const COUNTRY_SORT_OVERRIDES = {
   RS: "Serbia",     // Serbia sorts as S, not R
 };
 
+const FILTER_COUNTRY_NAME_OVERRIDES = {
+  "United States": "USA",
+  "United Kingdom": "UK",
+  "Bosnia and Herzegovina": "Bosnia",
+  "North Macedonia": "Macedonia",
+};
+
 function countrySortKey(code) {
   return COUNTRY_SORT_OVERRIDES[code] ?? code;
+}
+
+function shortFilterCountryName(name) {
+  const value = String(name || "");
+  return FILTER_COUNTRY_NAME_OVERRIDES[value] || value;
 }
 
 function compareCodeArrays(aCodes, bCodes) {
@@ -828,14 +1173,89 @@ function applyEditModeToDom(pageId, editMode) {
   }
 }
 
-function ensureAdminControls(pageId) {
+function getBasePageUrl(pageId) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("q");
+  url.searchParams.delete("country");
+  url.searchParams.delete("sort");
+
+  if (url.searchParams.get("id")) {
+    url.searchParams.set("id", pageId);
+  }
+
+  return url;
+}
+
+function buildFilteredPageUrl(pageId, filters) {
+  const url = getBasePageUrl(pageId);
+  const q = String(filters?.q || "").trim();
+  const countries = Array.from(new Set(
+    (Array.isArray(filters?.countries) ? filters.countries : [])
+      .map(code => String(code || "").trim().toUpperCase())
+      .filter(Boolean)
+  ));
+  const sort = String(filters?.sort || "").trim();
+  const reverse = !!filters?.reverse;
+
+  if (q) url.searchParams.set("q", q);
+  if (countries.length > 0) url.searchParams.set("country", countries.join(",").toLowerCase());
+  if (sort) url.searchParams.set("sort", `${reverse ? "-" : ""}${sort}`);
+
+  return url;
+}
+
+function describeFilterState(filters) {
+  const q = String(filters?.q || "").trim();
+  const countries = Array.isArray(filters?.countries) ? filters.countries.filter(Boolean) : [];
+  const sort = String(filters?.sort || "").trim();
+  const reverse = !!filters?.reverse;
+  const parts = [];
+
+  if (q) parts.push(`query "${q}"`);
+  if (sort) {
+    const option = FILTER_SORT_OPTIONS.find(item => item.value === sort);
+    const label = option ? option.label.toLowerCase() : sort;
+    parts.push(reverse ? `${label} reversed` : `sorted by ${label}`);
+  }
+  if (countries.length === 1) parts.push("1 country");
+  else if (countries.length > 1) parts.push(`${countries.length} countries`);
+
+  return parts.length > 0 ? parts.join(" and ") : "No filters applied";
+}
+
+function ensureHeaderActions(pageId) {
   const headlineWrap = document.querySelector(".headlineWrap");
   if (!headlineWrap) return;
 
   let actions = headlineWrap.querySelector(".headerActions");
-  if (actions) return; // already mounted
+  if (actions) return actions;
 
   actions = el("div", { class: "headerActions" });
+  const filterBtn = el(
+    "button",
+    { type: "button", class: "pillToggle filterToggle" },
+    text("Filter")
+  );
+
+  filterBtn.addEventListener("click", () => {
+    openFilterOverlay(pageId);
+  });
+
+  actions.append(filterBtn);
+  headlineWrap.append(actions);
+  syncFilterButtonState(actions);
+  return actions;
+}
+
+function ensureAdminControls(pageId) {
+  const actions = ensureHeaderActions(pageId);
+  if (!actions) return;
+
+  if (actions.querySelector(".pageInfoBtn")) {
+    const stored = (sessionStorage.getItem(`editMode:${pageId}`) === "1");
+    applyEditModeToDom(pageId, stored);
+    return;
+  }
 
   const infoBtn = el(
     "a",
@@ -863,11 +1283,204 @@ function ensureAdminControls(pageId) {
   });
 
   actions.append(infoBtn, newBtn, editBtn);
-  headlineWrap.append(actions);
 
   // Apply stored state (if any)
   const stored = (sessionStorage.getItem(`editMode:${pageId}`) === "1");
   applyEditModeToDom(pageId, stored);
+}
+
+function syncFilterButtonState(scope = document) {
+  const btn = scope.querySelector ? scope.querySelector(".filterToggle") : null;
+  if (!btn) return;
+
+  const active = hasEntityFilters();
+  btn.classList.toggle("active", active);
+  btn.textContent = "Filter";
+}
+
+function buildCountryOption(country, selectedCodes) {
+  const code = String(country?.country || "").toUpperCase();
+  const checked = selectedCodes.has(code);
+  const label = el("label", {
+    class: `filterCountryOption${checked ? " selected" : ""}`,
+    dataset: { code }
+  });
+  const input = el("input", {
+    type: "checkbox",
+    value: code,
+    checked: checked ? "checked" : null
+  });
+  const icon = el("span", { class: "filterCountryIcon" }, text(country?.icon || " "));
+  const meta = el(
+    "span",
+    { class: "filterCountryMeta" },
+    el("span", { class: "filterCountryName" }, text(shortFilterCountryName(country?.name || code))),
+    el("span", { class: "filterCountryCount" }, text(String(country?.count || 0)))
+  );
+
+  label.append(input, icon, meta);
+  input.addEventListener("change", () => {
+    label.classList.toggle("selected", input.checked);
+  });
+  return label;
+}
+
+function openFilterOverlay(pageId) {
+  if (document.querySelector(".filterBackdrop")) return;
+
+  const currentFilters = getEntityFilterState();
+  const selectedCodes = new Set(currentFilters.countries);
+  const backdrop = el("div", { class: "filterBackdrop" });
+  const panel = el("div", {
+    class: "filterPanel",
+    role: "dialog",
+    "aria-modal": "true",
+    "aria-label": "Filter entities"
+  });
+  const summary = el("div", { class: "filterSummary" }, text(describeFilterState(currentFilters)));
+  const clearBtn = el("button", { type: "button", class: "filterAction" }, text("Clear"));
+  const applyBtn = el("button", { type: "button", class: "filterAction primary" }, text("OK"));
+  const header = el(
+    "div",
+    { class: "filterPanelHeader" },
+    el(
+      "div",
+      { class: "filterHeaderMain" },
+      el("div", { class: "filterPanelTitle" }, text("Filter & Sort")),
+      summary
+    ),
+    el("div", { class: "filterActions" }, clearBtn, applyBtn)
+  );
+
+  const searchInput = el("input", {
+    id: "filter-search-input",
+    class: "filterSearchInput",
+    type: "text",
+    placeholder: "name",
+    value: currentFilters.q || ""
+  });
+  const searchField = el(
+    "div",
+    { class: "filterField" },
+    el("label", { class: "filterLabel", for: "filter-search-input" }, text("Search")),
+    searchInput
+  );
+
+  const sortSelect = el(
+    "select",
+    { id: "filter-sort-select", class: "filterSortSelect" },
+    FILTER_SORT_OPTIONS.map(option =>
+      el(
+        "option",
+        {
+          value: option.value,
+          selected: currentFilters.sort === option.value ? "selected" : null
+        },
+        text(option.label)
+      )
+    )
+  );
+  const reverseInput = el("input", {
+    type: "checkbox",
+    checked: currentFilters.sort && currentFilters.reverse ? "checked" : null
+  });
+  const reverseLabel = el(
+    "label",
+    { class: "filterCheckbox" },
+    reverseInput,
+    el("span", null, text("Reverse"))
+  );
+  reverseInput.disabled = !currentFilters.sort;
+  const sortField = el(
+    "div",
+    { class: "filterField" },
+    el("label", { class: "filterLabel", for: "filter-sort-select" }, text("Sort")),
+    el("div", { class: "filterSortRow" }, sortSelect, reverseLabel)
+  );
+
+  const countryContent = el("div", { class: "filterStatus" }, text("Loading countries…"));
+  const countryField = el(
+    "div",
+    { class: "filterField" },
+    el("div", { class: "filterLabel" }, text("Countries")),
+    countryContent
+  );
+
+  panel.append(header, searchField, sortField, countryField);
+  backdrop.append(panel);
+
+  function closeOverlay() {
+    document.removeEventListener("keydown", onKeyDown);
+    backdrop.remove();
+  }
+
+  function readOverlayFilters() {
+    const q = searchInput.value.trim();
+    const countries = [...panel.querySelectorAll('.filterCountryOption input[type="checkbox"]:checked')]
+      .map(input => String(input.value || "").toUpperCase())
+      .filter(Boolean);
+    const sort = sortSelect.value || "";
+    return { q, countries, sort, reverse: !!(sort && reverseInput.checked) };
+  }
+
+  function updateSummary() {
+    summary.textContent = describeFilterState(readOverlayFilters());
+  }
+
+  function onKeyDown(event) {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      closeOverlay();
+    }
+  }
+
+  backdrop.addEventListener("click", (event) => {
+    if (event.target === backdrop) closeOverlay();
+  });
+  document.addEventListener("keydown", onKeyDown);
+  searchInput.addEventListener("input", updateSummary);
+  sortSelect.addEventListener("change", () => {
+    reverseInput.disabled = !sortSelect.value;
+    if (!sortSelect.value) reverseInput.checked = false;
+    updateSummary();
+  });
+  reverseInput.addEventListener("change", updateSummary);
+
+  clearBtn.addEventListener("click", () => {
+    window.location.assign(getBasePageUrl(pageId).toString());
+  });
+
+  applyBtn.addEventListener("click", () => {
+    window.location.assign(buildFilteredPageUrl(pageId, readOverlayFilters()).toString());
+  });
+
+  document.body.append(backdrop);
+  searchInput.focus();
+  updateSummary();
+
+  fetchPageCountries(pageId).then((data) => {
+    const countries = Array.isArray(data?.countries) ? data.countries : [];
+    clear(countryContent);
+
+    if (countries.length === 0) {
+      countryContent.append(el("div", { class: "filterStatus" }, text("No country filters are available for this page yet.")));
+      return;
+    }
+
+    const grid = el("div", { class: "filterCountryGrid" });
+    countries.forEach((country) => {
+      const option = buildCountryOption(country, selectedCodes);
+      const input = option.querySelector("input");
+      input.addEventListener("change", updateSummary);
+      grid.append(option);
+    });
+    countryContent.append(grid);
+    updateSummary();
+  }).catch((err) => {
+    console.error(err);
+    clear(countryContent);
+    countryContent.append(el("div", { class: "filterStatus" }, text("Could not load country filters.")));
+  });
 }
 
 function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
@@ -905,9 +1518,8 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   const headlineWrap = el("div", { class: "headlineWrap" }, headline);
   const hasMap = Boolean(listInfo.map && typeof listInfo.map === "object");
 
-  // (No admin controls here; mounted after auth)
-
   app.append(headlineWrap);
+  ensureHeaderActions(pageId);
 
   // Map container (map.js will read #map attributes)
   if (hasMap) {
@@ -1064,6 +1676,7 @@ async function isAdminSession() {
     window.pageInfo = renderInfo;
     renderPage(renderInfo, entities, { pageId, isAdmin: false, editMode: false });
     applyEditModeToDom(pageId, false);
+    syncFilterButtonState(document);
 
     // Background admin check (do NOT re-render the whole page — it breaks Leaflet by recreating #map).
     isAdminSession().then((admin) => {
