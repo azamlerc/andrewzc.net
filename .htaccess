@@ -1,0 +1,10 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /andrewzc/
+
+# Don't rewrite requests for existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite /andrewzc/airports → /andrewzc/page.html?id=airports
+RewriteRule ^([a-z0-9-]+)/?$ page.html?id=$1 [L,QSA,NC]

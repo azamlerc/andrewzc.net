@@ -125,13 +125,17 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 12px;
-  min-height: 20px;
+  margin-bottom: 0;
+  min-height: 0;
 }
 
 .imagesHelp {
   font: 16pt Avenir;
   color: #999;
+}
+
+.imagesHelp:empty {
+  display: none;
 }
 
 .thumbGrid {

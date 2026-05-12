@@ -23,6 +23,24 @@
   </div>
   
   <div id="card" class="card" style="display:none;">
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
+          <span class="label">Images</span>
+          <span class="fieldActions">
+            <button id="uploadImagesBtn" class="pill" type="button">Upload</button>
+          </span>
+        </div>
+        <span class="imagesWrap">
+          <div class="imagesToolbar">
+            <span id="imagesHelp" class="imagesHelp">Save new entities before uploading images.</span>
+          </div>
+          <div id="imageGrid" class="thumbGrid"></div>
+          <input id="imageInput" type="file" accept="image/*" multiple style="display:none;">
+        </span>
+      </div>
+    </div>
+
     <div class="row rowCompact rowTriple">
       <div class="field fieldCompact">
         <div class="fieldHeader">
@@ -113,6 +131,15 @@
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
+          <span class="label">Caption</span>
+        </div>
+        <textarea id="caption" class="textarea captionInput" spellcheck="false" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <div class="fieldHeader">
           <span class="label">Prefix</span>
         </div>
         <input id="prefix" class="input" type="text" spellcheck="false">
@@ -131,36 +158,9 @@
     <div class="row">
       <div class="field">
         <div class="fieldHeader">
-          <span class="label">Caption</span>
-        </div>
-        <textarea id="caption" class="textarea captionInput" spellcheck="false" rows="3"></textarea>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="field">
-        <div class="fieldHeader">
           <span class="label">Trips</span>
         </div>
         <input id="trips" class="input" type="text" spellcheck="false">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="field">
-        <div class="fieldHeader">
-          <span class="label">Images</span>
-          <span class="fieldActions">
-            <button id="uploadImagesBtn" class="pill" type="button">Upload</button>
-          </span>
-        </div>
-        <span class="imagesWrap">
-          <div class="imagesToolbar">
-            <span id="imagesHelp" class="imagesHelp">Save new entities before uploading images.</span>
-          </div>
-          <div id="imageGrid" class="thumbGrid"></div>
-          <input id="imageInput" type="file" accept="image/*" multiple style="display:none;">
-        </span>
       </div>
     </div>
   </div>

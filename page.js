@@ -4,9 +4,9 @@
 function getPageId() {
   const u = new URL(window.location.href);
   const qs = u.searchParams.get("id");
-  if (qs) return qs;
+  if (qs) return qs.replace(/\/+$/, "");
 
-  // fallback: /apple or /apple.html
+  // fallback: /apple or /apple/ or /apple.html
   const last = u.pathname.split("/").filter(Boolean).pop() || "";
   return last.replace(/\.html$/i, "") || "apple";
 }
@@ -1234,7 +1234,7 @@ function ensureHeaderActions(pageId) {
   const filterBtn = el(
     "button",
     { type: "button", class: "pillToggle filterToggle" },
-    text("Filter")
+    text("Options")
   );
 
   filterBtn.addEventListener("click", () => {
@@ -1295,7 +1295,7 @@ function syncFilterButtonState(scope = document) {
 
   const active = hasEntityFilters();
   btn.classList.toggle("active", active);
-  btn.textContent = "Filter";
+  btn.textContent = "Options";
 }
 
 function buildCountryOption(country, selectedCodes) {
@@ -1346,7 +1346,7 @@ function openFilterOverlay(pageId) {
     el(
       "div",
       { class: "filterHeaderMain" },
-      el("div", { class: "filterPanelTitle" }, text("Filter & Sort")),
+      el("div", { class: "filterPanelTitle" }, text("Options")),
       summary
     ),
     el("div", { class: "filterActions" }, clearBtn, applyBtn)
@@ -1677,6 +1677,16 @@ async function isAdminSession() {
     renderPage(renderInfo, entities, { pageId, isAdmin: false, editMode: false });
     applyEditModeToDom(pageId, false);
     syncFilterButtonState(document);
+
+    // Scroll to hash anchor after render, since the DOM didn't exist when the
+    // browser first tried to resolve it during initial page load.
+    const hash = window.location.hash;
+    if (hash) {
+      requestAnimationFrame(() => {
+        const target = document.getElementById(hash.slice(1));
+        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
 
     // Background admin check (do NOT re-render the whole page — it breaks Leaflet by recreating #map).
     isAdminSession().then((admin) => {

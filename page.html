@@ -4,12 +4,15 @@
   <meta charset="UTF-8" />
   <title>Loading…</title>
   <meta name="viewport" content="width=device-width, initial-scale=0.45" />
+  <script>
+    const base = location.pathname.endsWith("/") ? "../" : "./";
+    document.write(`<base href="${base}">`);
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div id="app"></div>
-
   <script src="page.js"></script>
-    <script src="typeahead.js"></script>
+  <script src="typeahead.js"></script>
 </body>
 </html>
