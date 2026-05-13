@@ -516,6 +516,22 @@ function formatDistance(meters) {
   return `${Math.round(m)}m`;
 }
 
+function formatCompactNumber(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return String(value ?? "");
+
+  const abs = Math.abs(n);
+  if (abs >= 1_000_000) {
+    const decimals = abs >= 10_000_000 ? 1 : 2;
+    return `${Number((n / 1_000_000).toFixed(decimals)).toString()}M`;
+  }
+  if (abs >= 1_000) {
+    const decimals = abs >= 100_000 ? 0 : 1;
+    return `${Number((n / 1_000).toFixed(decimals)).toString()}K`;
+  }
+  return `${Math.round(n)}`;
+}
+
 function countryCodeFromFlagEmoji(icon) {
   const cps = Array.from(String(icon || ""));
   if (cps.length !== 2) return null;
@@ -758,6 +774,7 @@ function renderRow(entity, listCtx, renderState = null) {
   const frag = document.createDocumentFragment();
   const state = renderState || buildRowRenderState(entity, listCtx);
   const chosenImages = state.chosenImages;
+  const imageListId = entity?.list || listCtx.listId;
   const entityHref = listCtx.listId === "cities"
     ? `city.html?city=${encodeURIComponent(entity.key || "")}`
     : listCtx.listId === "countries"
@@ -767,8 +784,8 @@ function renderRow(entity, listCtx, renderState = null) {
   if (chosenImages.length) {
     const imagesDiv = el("div", { class: "images" });
     chosenImages.forEach((filename) => {
-      const full = fullImageUrl(listCtx.listId, filename);
-      const thumb = thumbImageUrl(listCtx.listId, filename);
+      const full = fullImageUrl(imageListId, filename);
+      const thumb = thumbImageUrl(imageListId, filename);
       imagesDiv.append(
         el(
           "a",
@@ -784,6 +801,9 @@ function renderRow(entity, listCtx, renderState = null) {
   let prefix = entity.prefix ?? null;
   if (listCtx.tags.includes("size") && prefix == null && entity.size != null) {
     prefix = formatDistance(entity.size);
+  }
+  if (listCtx.tags.includes("prefix-number") && prefix != null) {
+    prefix = formatCompactNumber(prefix);
   }
 
   if (prefix != null) {
@@ -1569,11 +1589,19 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   const groups = sortedGroups(listInfo, entities, listCtx);
   const headers = Array.isArray(listInfo.headers) ? listInfo.headers : null;
+  const hasNamedSections = Array.isArray(listInfo.sections);
+  let renderedGroupCount = 0;
 
   groups.forEach((group, idx) => {
     if (!group || group.length === 0) return;
 
-    if (idx > 0) {
+    const needsLeadingSeparator = (
+      !hasNamedSections &&
+      renderedGroupCount === 0 &&
+      idx > 0
+    );
+
+    if (renderedGroupCount > 0 || needsLeadingSeparator) {
       if (listCtx.groupSeparator === "hr") items.append(el("hr"));
       else items.append(smallSpace());
     }
@@ -1591,6 +1619,8 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
       items.append(renderRow(e, listCtx, state));
       prevState = state;
     }
+
+    renderedGroupCount += 1;
   });
 
   // Optional footer caption
