@@ -24,6 +24,7 @@ const elCard = document.getElementById("card");
 
 const elIcons = document.getElementById("icons");
 const elBadges = document.getElementById("badges");
+const elDateVisited = document.getElementById("dateVisited");
 const elName = document.getElementById("name");
 const elPrefix = document.getElementById("prefix");
 const elInfo = document.getElementById("info");
@@ -46,6 +47,8 @@ const elCoordsAutoBtn = document.getElementById("coordsAutoBtn");
 const elCityAutoBtn = document.getElementById("cityAutoBtn");
 const elReferenceAutoBtn = document.getElementById("referenceAutoBtn");
 const elOpenBtn = document.getElementById("openBtn");
+const elHereBtn = document.getElementById("hereBtn");
+const elDateNowBtn = document.getElementById("dateNowBtn");
 const elMapBtn = document.getElementById("mapBtn");
 const elCityOpenBtn = document.getElementById("cityOpenBtn");
 const elUploadImagesBtn = document.getElementById("uploadImagesBtn");
@@ -64,6 +67,7 @@ function blankEntity() {
     key: null,
     icons: [],
     badges: [],
+    dateVisited: "",
     name: "",
     prefix: "",
     info: "",
@@ -84,6 +88,20 @@ function setStatus(text, kind) {
   elStatus.classList.remove("error", "ok");
   if (kind === "error") elStatus.classList.add("error");
   if (kind === "ok") elStatus.classList.add("ok");
+}
+
+function openExternalUrl(url) {
+  const href = String(url || "").trim();
+  if (!href) return;
+
+  const link = document.createElement("a");
+  link.href = href;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
 }
 
 function syncModeButtons() {
@@ -229,7 +247,9 @@ function deriveCountriesFromIcons(iconsArr) {
 
 function setHeaderFromEntity(e) {
   const icons = iconsArrayToString(e.icons || []);
-  elHeadline.textContent = `${icons ? icons + " " : ""}${e.name || "Edit"}`;
+  const title = `${icons ? icons + " " : ""}${e.name || "Edit"}`;
+  elHeadline.textContent = title;
+  document.title = title;
 }
 
 function setPill(el, on) {
@@ -338,6 +358,7 @@ function getDroppedImageFiles(event) {
 function populateFields(e) {
   elIcons.value = iconsArrayToString(e.icons || []);
   elBadges.value = iconsArrayToString(e.badges || []);
+  elDateVisited.value = e.dateVisited || "";
   elName.value = e.name || "";
   elPrefix.value = e.prefix || "";
   elInfo.value = e.info || "";
@@ -363,6 +384,7 @@ function currentFormEntity() {
   return {
     icons: iconsArr,
     badges: badgesArr,
+    dateVisited: elDateVisited.value.trim(),
     name: elName.value.trim(),
     prefix: elPrefix.value.trim(),
     info: elInfo.value.trim(),
@@ -446,7 +468,7 @@ function normalizeCoords(s) {
 function diffPatch(orig, cur) {
   const patch = {};
 
-  const fields = ["name", "prefix", "info", "caption", "reference", "link", "city", "coords", "been", "strike"];
+  const fields = ["name", "prefix", "info", "caption", "reference", "link", "city", "coords", "dateVisited", "been", "strike"];
   for (const f of fields) {
     const o = orig[f] ?? (typeof cur[f] === "boolean" ? false : "");
     const c = cur[f];
@@ -500,6 +522,7 @@ async function load() {
     isCreateMode = true;
     original = blankEntity();
     elHeadline.textContent = "✏️ New";
+    document.title = "✏️ New";
     populateForm(original);
     elCard.style.display = "inline-block";
     syncModeButtons();
@@ -595,6 +618,7 @@ function duplicateEntity() {
 
   populateForm(original);
   elHeadline.textContent = "✏️ New";
+  document.title = "✏️ New";
   syncModeButtons();
 
   const nextUrl = new URL(location.href);
@@ -658,7 +682,7 @@ elLinkAutoBtn.addEventListener("click", async () => {
 elOpenBtn.addEventListener("click", () => {
   const url = (elLink.value || "").trim();
   if (!url) return;
-  window.open(url, "_blank", "noopener,noreferrer");
+  openExternalUrl(url);
 });
 
 elCityOpenBtn.addEventListener("click", () => {
@@ -666,7 +690,7 @@ elCityOpenBtn.addEventListener("click", () => {
   if (!city) return;
   const key = simplify(city);
   if (!key) return;
-  window.open(`city.html?key=${encodeURIComponent(key)}`, "_blank", "noopener,noreferrer");
+  openExternalUrl(`city.html?key=${encodeURIComponent(key)}`);
 });
 
 elUploadImagesBtn.addEventListener("click", () => {
@@ -763,7 +787,7 @@ elMapBtn.addEventListener("click", () => {
   const lat = parseFloat(latStr);
   const lon = parseFloat(lonStr);
   if (isNaN(lat) || isNaN(lon)) { setStatus("Invalid coords format (expected: lat, lon).", "error"); return; }
-  window.open(`https://maps.apple.com/?ll=${lat},${lon}&t=m`, "_blank", "noopener,noreferrer");
+  openExternalUrl(`https://maps.apple.com/?ll=${lat},${lon}&t=m`);
 });
 
 elCoords.addEventListener("blur", () => {
@@ -775,6 +799,53 @@ elCoords.addEventListener("blur", () => {
   } else {
     setStatus("Could not parse coords — expected \"lat, lon\" or DMS format.", "error");
   }
+});
+
+elHereBtn.addEventListener("click", async () => {
+  if (!navigator.geolocation) {
+    setStatus("Location is not supported in this browser.", "error");
+    return;
+  }
+
+  setStatus("Getting current location…");
+
+  try {
+    const position = await new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject, {
+        enableHighAccuracy: true,
+        maximumAge: 0,
+        timeout: 15000,
+      });
+    });
+
+    const lat = position?.coords?.latitude;
+    const lon = position?.coords?.longitude;
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+      setStatus("Could not get your current location.", "error");
+      return;
+    }
+
+    const fmt = n => parseFloat(n.toFixed(8)).toString();
+    elCoords.value = `${fmt(lat)}, ${fmt(lon)}`;
+    setStatus("Current location added.", "ok");
+  } catch (err) {
+    if (err?.code === err.PERMISSION_DENIED) {
+      setStatus("Location permission was denied.", "error");
+    } else if (err?.code === err.TIMEOUT) {
+      setStatus("Location lookup timed out.", "error");
+    } else {
+      setStatus("Could not get your current location.", "error");
+    }
+  }
+});
+
+elDateNowBtn.addEventListener("click", () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  elDateVisited.value = `${year}-${month}-${day}`;
+  setStatus("Date visited updated.", "ok");
 });
 
 function normalizeEmojiField(input) {

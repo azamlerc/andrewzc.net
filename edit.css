@@ -14,12 +14,16 @@
 
 .rowCompact {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: flex-start;
 }
 
-.rowTriple .fieldFlags {
-  flex: 1 1 0;
+.rowTriple {
+  display: grid;
+  grid-template-columns: 160px 160px max-content 280px;
+  gap: 16px;
+  align-items: start;
 }
 
 .field {
@@ -29,6 +33,23 @@
 .fieldCompact {
   flex: 0 0 200px;
   width: 200px;
+}
+
+.fieldEmojiCompact {
+  flex-basis: 160px;
+  width: 160px;
+}
+
+.fieldDateCompact {
+  flex: 0 0 280px;
+  width: 280px;
+}
+
+.compactInputRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
 }
 
 .fieldHeader {
@@ -71,6 +92,27 @@
 .inputCompact {
   width: 200px;
   max-width: 100%;
+}
+
+.compactAction {
+  flex: 0 0 auto;
+  font-size: 18pt;
+  padding: 10px 18px;
+}
+
+.rowTriple .fieldFlags {
+  width: auto;
+}
+
+.rowTriple .pillWrap {
+  width: auto;
+}
+
+@media (max-width: 1100px) {
+  .rowTriple {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .input:focus, .textarea:focus {

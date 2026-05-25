@@ -23,9 +23,14 @@ const FILTER_SORT_OPTIONS = [
   { value: "name", label: "Name" },
   { value: "reference", label: "Reference" },
   { value: "distance", label: "Distance" },
+  { value: "dateVisited", label: "Date Visited", descending: true },
   { value: "countries", label: "Country" },
   { value: "states", label: "State" },
 ];
+
+function getFilterSortOption(value) {
+  return FILTER_SORT_OPTIONS.find(option => option.value === value) || null;
+}
 
 function hasEntityFilters() {
   const u = new URL(window.location.href);
@@ -41,10 +46,12 @@ function getEntityFilterState() {
     .filter(Boolean);
   const sortParts = getSortOverride();
   const firstSort = sortParts[0] || "";
-  const reverse = firstSort.startsWith("-");
   const normalizedSort = firstSort.replace(/^[-+]/, "");
-  const supportedSorts = new Set(FILTER_SORT_OPTIONS.map(option => option.value).filter(Boolean));
-  const sort = supportedSorts.has(normalizedSort) ? normalizedSort : "";
+  const option = getFilterSortOption(normalizedSort);
+  const sort = option?.value || "";
+  const descending = firstSort.startsWith("-");
+  const defaultDescending = !!option?.descending;
+  const reverse = sort ? (descending !== defaultDescending) : false;
 
   return {
     q,
@@ -565,6 +572,16 @@ function entityCoords(entity) {
   return null;
 }
 
+function appleMapsHrefForEntity(entity) {
+  const point = entityCoords(entity);
+  if (!point) return null;
+  return `https://maps.apple.com/?ll=${point.lat},${point.lon}&t=m`;
+}
+
+function isGeoHackHref(href) {
+  return /:\/\/geohack\.toolforge\.org\/geohack\.php\b/i.test(String(href || ""));
+}
+
 function haversineMeters(a, b) {
   const R = 6_371_000;
   const toRad = (deg) => deg * Math.PI / 180;
@@ -708,10 +725,10 @@ function pickRowImages(entity, listCtx) {
 }
 
 function buildRowRenderState(entity, listCtx) {
-  const chosenImages = pickRowImages(entity, listCtx);
+  const chosenImages = listCtx.hideMedia ? [] : pickRowImages(entity, listCtx);
   return {
     chosenImages,
-    hasCaption: Boolean(entity?.caption),
+    hasCaption: !listCtx.hideMedia && Boolean(entity?.caption),
   };
 }
 
@@ -775,11 +792,12 @@ function renderRow(entity, listCtx, renderState = null) {
   const state = renderState || buildRowRenderState(entity, listCtx);
   const chosenImages = state.chosenImages;
   const imageListId = entity?.list || listCtx.listId;
+  const fallbackMapsHref = appleMapsHrefForEntity(entity);
   const entityHref = listCtx.listId === "cities"
     ? `city.html?city=${encodeURIComponent(entity.key || "")}`
     : listCtx.listId === "countries"
       ? `country.html?code=${encodeURIComponent(entity.country || "")}`
-      : (entity.link || "#");
+      : ((!entity.link || isGeoHackHref(entity.link)) && fallbackMapsHref ? fallbackMapsHref : (entity.link || "#"));
 
   if (chosenImages.length) {
     const imagesDiv = el("div", { class: "images" });
@@ -854,7 +872,7 @@ function renderRow(entity, listCtx, renderState = null) {
   }
 
   if (entity.info) {
-    frag.append(text(" "), htmlFragment(entity.info));
+    frag.append(text(" "), el("span", { class: "infoText" }, htmlFragment(entity.info)));
   }
 
   const badges = renderBadges(entity, listCtx);
@@ -1216,10 +1234,12 @@ function buildFilteredPageUrl(pageId, filters) {
   ));
   const sort = String(filters?.sort || "").trim();
   const reverse = !!filters?.reverse;
+  const option = getFilterSortOption(sort);
+  const descending = !!option?.descending !== reverse;
 
   if (q) url.searchParams.set("q", q);
   if (countries.length > 0) url.searchParams.set("country", countries.join(",").toLowerCase());
-  if (sort) url.searchParams.set("sort", `${reverse ? "-" : ""}${sort}`);
+  if (sort) url.searchParams.set("sort", `${descending ? "-" : ""}${sort}`);
 
   return url;
 }
@@ -1233,7 +1253,7 @@ function describeFilterState(filters) {
 
   if (q) parts.push(`query "${q}"`);
   if (sort) {
-    const option = FILTER_SORT_OPTIONS.find(item => item.value === sort);
+    const option = getFilterSortOption(sort);
     const label = option ? option.label.toLowerCase() : sort;
     parts.push(reverse ? `${label} reversed` : `sorted by ${label}`);
   }
@@ -1580,6 +1600,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     footer: listInfo.footer || null,
     headlines: listInfo.headlines || null,
     script: listInfo.script || null,
+    hideMedia: Boolean(listInfo.propertyOf),
     editMode: !!editMode,
     listId: pageId
   };

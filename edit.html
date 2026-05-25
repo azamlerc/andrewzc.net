@@ -42,14 +42,14 @@
     </div>
 
     <div class="row rowCompact rowTriple">
-      <div class="field fieldCompact">
+      <div class="field fieldCompact fieldEmojiCompact">
         <div class="fieldHeader">
           <span class="label">Icons</span>
         </div>
         <input id="icons" class="input inputCompact" type="text" spellcheck="false">
       </div>
 
-      <div class="field fieldCompact">
+      <div class="field fieldCompact fieldEmojiCompact">
         <div class="fieldHeader">
           <span class="label">Badges</span>
         </div>
@@ -64,6 +64,16 @@
           <button id="been" class="pill been" type="button" aria-pressed="false">Been</button>
           <button id="strike" class="pill strike" type="button" aria-pressed="false">Strike</button>
         </span>
+      </div>
+
+      <div class="field fieldCompact fieldDateCompact">
+        <div class="fieldHeader">
+          <span class="label">Date Visited</span>
+        </div>
+        <div class="compactInputRow">
+          <input id="dateVisited" class="input inputCompact" type="text" spellcheck="false">
+          <button id="dateNowBtn" class="pill compactAction" type="button">Now</button>
+        </div>
       </div>
     </div>
 
@@ -94,7 +104,8 @@
         <div class="fieldHeader">
           <span class="label">Coords</span>
           <span class="fieldActions">
-            <button id="mapBtn" class="pill" type="button">Map</button>
+            <button id="hereBtn" class="pill" type="button">Here</button>
+            <button id="mapBtn" class="pill" type="button">Open</button>
             <button id="coordsAutoBtn" class="pill" type="button">Auto</button>
           </span>
         </div>

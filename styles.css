@@ -44,6 +44,11 @@ a {
 	color: #444;
 }
 
+.infoText,
+.infoText a {
+	color: #bbb;
+}
+
 .strike {
 	text-decoration: line-through;
 }
@@ -579,6 +584,11 @@ a {
 		color: #BBB;
 	}
 	
+	.infoText,
+	.infoText a {
+		color: #333;
+	}
+
 	.items, .fours, .caption, .medium, .text, .tiny {
 		color: #666;
 	}
