@@ -314,7 +314,10 @@ function addEmojiMarker(map, place, test, tag, filename) {
             if (place.images) text = `<img src="https://images.andrewzc.net/${filename}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
             if (place.reference) text += "<br>" + place.reference;
             if (place.info) text += "<br>" + place.info;
-            if (place.caption) text += '<br><div class="mapcap">' + firstSentence(place.caption) + "</div>";
+            if (place.caption) {
+              const challenge = challengeGlyph(place.challenge);
+              text += '<br><div class="mapcap">' + firstSentence(place.caption) + (challenge ? ` ${challenge}` : "") + "</div>";
+            }
       if (place.images) text = `<div class="imagepopup">${text}</div>`;
       
             const usePageIcons = window.pageInfo && window.pageInfo.usePageIconsOnMap === true;
@@ -345,6 +348,12 @@ function firstSentence(text) {
   // split on ". " but keep the period on the first part
   const match = text.match(/(.*?[.!?])(\s|$)/);
   return match ? match[1] : text;
+}
+
+function challengeGlyph(challenge) {
+  if (challenge == null) return "";
+  const CIRCLED = ["\u24EA", "\u2460", "\u2461", "\u2462", "\u2463", "\u2464", "\u2465"];
+  return CIRCLED[Math.min(Math.max(Math.round(challenge), 0), 6)] ?? "";
 }
 
 function refreshMap(places) {

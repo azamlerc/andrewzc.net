@@ -1186,6 +1186,21 @@ function sortedGroups(listInfo, entities, listCtx) {
   return groups;
 }
 
+function groupHeaderForIndex(listInfo, groupIndex) {
+  const headers = Array.isArray(listInfo.headers) ? listInfo.headers : null;
+  if (!headers) return null;
+
+  if (Array.isArray(listInfo.sections)) {
+    const sectionCount = listInfo.sections.length;
+    if (groupIndex >= 1 && groupIndex <= sectionCount) {
+      return headers[groupIndex - 1] ?? null;
+    }
+    return null;
+  }
+
+  return headers[groupIndex] ?? null;
+}
+
 // --- DOM-based admin controls and edit mode toggling ---
 function applyEditModeToDom(pageId, editMode) {
   document.body.classList.toggle("edit-mode", !!editMode);
@@ -1609,7 +1624,6 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   app.append(items);
 
   const groups = sortedGroups(listInfo, entities, listCtx);
-  const headers = Array.isArray(listInfo.headers) ? listInfo.headers : null;
   const hasNamedSections = Array.isArray(listInfo.sections);
   let renderedGroupCount = 0;
 
@@ -1627,8 +1641,9 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
       else items.append(smallSpace());
     }
 
-    if (headers && idx < headers.length) {
-      items.append(el("div", { class: "caption" }, text(headers[idx])));
+    const groupHeader = groupHeaderForIndex(listInfo, idx);
+    if (groupHeader) {
+      items.append(el("div", { class: "caption" }, text(groupHeader)));
     }
 
     let prevState = null;
