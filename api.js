@@ -76,6 +76,10 @@ export function getPage(key) {
   return api(`/pages/${encodeURIComponent(key)}`, { method: "GET" });
 }
 
+export function getPagesByDataset(dataset) {
+  return api(`/pages?dataset=${encodeURIComponent(dataset)}`, { method: "GET" });
+}
+
 export function createPage(payload) {
   return api(`/pages`, {
     method: "POST",

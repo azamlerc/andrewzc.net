@@ -91,6 +91,26 @@ async function fetchPageCountries(pageId) {
   return await res.json();
 }
 
+async function fetchPageInfo(pageId) {
+  const base = getApiBase().replace(/\/+$/, "");
+  const url = `${base}/pages/${encodeURIComponent(pageId)}`;
+  const res = await fetch(url, { headers: { "Accept": "application/json" } });
+  if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+  return await res.json();
+}
+
+async function getPageDisplayName(pageKey) {
+  const key = String(pageKey || "").trim();
+  if (!key) return "";
+  const pageNameCache = window.__pageNameCache || (window.__pageNameCache = new Map());
+  if (!pageNameCache.has(key)) {
+    pageNameCache.set(key, fetchPageInfo(key)
+      .then(info => String(info?.name || key))
+      .catch(() => key));
+  }
+  return await pageNameCache.get(key);
+}
+
 // -----------------------------
 // DOM helpers (idiomatic JS)
 // -----------------------------
@@ -120,6 +140,44 @@ function htmlFragment(html) {
   const template = document.createElement("template");
   template.innerHTML = String(html ?? "");
   return template.content.cloneNode(true);
+}
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  }[ch]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value);
+}
+
+function renderRichTextHtml(value) {
+  return String(value ?? "")
+    .replace(/\[\[([^[\]]+)\]\]/g, (_, rawKey) => {
+      const key = String(rawKey || "").trim();
+      if (!key) return _;
+      return `<a href="./${escapeAttr(key)}" class="dark internalPageLink" data-page-key="${escapeAttr(key)}">${escapeHtml(key)}</a>`;
+    })
+    .replace(/(^|[^\[])\[([^\]]+)\]\(([^)\s]+)\)/g, (_, prefix, label, href) => {
+      const display = String(label || "").trim();
+      const url = String(href || "").trim();
+      if (!display || !url) return _;
+      return `${prefix}<a href="${escapeAttr(url)}" class="dark">${escapeHtml(display)}</a>`;
+    });
+}
+
+async function resolveInternalPageLinks(root) {
+  const links = [...(root?.querySelectorAll?.("a.internalPageLink[data-page-key]") || [])];
+  await Promise.all(links.map(async (link) => {
+    const key = link.dataset.pageKey || "";
+    if (!key) return;
+    link.textContent = await getPageDisplayName(key);
+  }));
 }
 
 function br() {
@@ -733,12 +791,10 @@ function buildRowRenderState(entity, listCtx) {
 }
 
 function highlightDistanceCaption(el) {
-  const escapeHTML = s =>
-    s.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[ch]));
-
+  if (el.querySelector("*")) return;
   const DIST_RE = /\b(?:\d+(?:[.,]\d+)?\skm|\d+m|exact)\b/gi;
   const raw = el.textContent || "";
-  const escaped = escapeHTML(raw);
+  const escaped = escapeHtml(raw);
   const matches = [...escaped.matchAll(DIST_RE)];
   if (matches.length === 0) return;
 
@@ -883,7 +939,8 @@ function renderRow(entity, listCtx, renderState = null) {
   frag.append(br(), text("\n"));
 
   if (state.hasCaption) {
-    const caption = el("div", { class: "caption" }, text(entity.caption));
+    const caption = el("div", { class: "caption" });
+    caption.append(htmlFragment(renderRichTextHtml(entity.caption)));
     highlightDistanceCaption(caption);
     if (entity.challenge != null) {
       const CIRCLED = ["\u24EA", "\u2460", "\u2461", "\u2462", "\u2463", "\u2464", "\u2465"];
@@ -1315,7 +1372,7 @@ function ensureAdminControls(pageId) {
   const infoBtn = el(
     "a",
     { class: "pillToggle pageInfoBtn", href: `info.html?id=${encodeURIComponent(pageId)}` },
-    text("Info")
+    text("Page")
   );
 
   const newBtn = el(
@@ -1594,7 +1651,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   // Optional header caption
   if (listInfo.header) {
     const headerEl = el("div", { class: "caption" });
-    headerEl.innerHTML = listInfo.header;
+    headerEl.innerHTML = renderRichTextHtml(listInfo.header);
     app.append(headerEl);
 
     if (!hasMap && listInfo.size === "small") {
@@ -1662,7 +1719,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   // Optional footer caption
   if (listInfo.footer) {
     const footerEl = el("div", { class: "caption" });
-    footerEl.innerHTML = listInfo.footer;
+    footerEl.innerHTML = renderRichTextHtml(listInfo.footer);
     app.append(footerEl);
   }
 
@@ -1741,6 +1798,7 @@ async function isAdminSession() {
 
     window.pageInfo = renderInfo;
     renderPage(renderInfo, entities, { pageId, isAdmin: false, editMode: false });
+    resolveInternalPageLinks(app).catch(console.error);
     applyEditModeToDom(pageId, false);
     syncFilterButtonState(document);
 

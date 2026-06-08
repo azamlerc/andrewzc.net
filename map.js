@@ -316,7 +316,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
             if (place.info) text += "<br>" + place.info;
             if (place.caption) {
               const challenge = challengeGlyph(place.challenge);
-              text += '<br><div class="mapcap">' + firstSentence(place.caption) + (challenge ? ` ${challenge}` : "") + "</div>";
+              text += '<br><div class="mapcap">' + renderRichTextHtml(firstSentence(place.caption)) + (challenge ? ` ${challenge}` : "") + "</div>";
             }
       if (place.images) text = `<div class="imagepopup">${text}</div>`;
       
@@ -336,6 +336,9 @@ function addEmojiMarker(map, place, test, tag, filename) {
             })
       
       marker.bindPopup(text);
+      marker.on("popupopen", (event) => {
+        resolveInternalPageLinks(event.popup?.getElement?.()).catch(console.error);
+      });
             return marker;
         } else {
             console.log(`Invalid coordinates: ${place.name}, ${place.coords}`);
@@ -348,6 +351,87 @@ function firstSentence(text) {
   // split on ". " but keep the period on the first part
   const match = text.match(/(.*?[.!?])(\s|$)/);
   return match ? match[1] : text;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  }[ch]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value);
+}
+
+function simplifyForReference(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/’/g, "")
+    .replace(/\./g, "")
+    .replace(/,/g, "")
+    .replace(/\*/g, "")
+    .replace(/"/g, "")
+    .replace(/</g, "")
+    .replace(/>/g, "")
+    .replace(/\(/g, "")
+    .replace(/\)/g, "")
+    .replace(/\//g, "-")
+    .replace(/&/g, "-")
+    .replace(/–/g, "-")
+    .replace(/—/g, "-")
+    .replace(/---/g, "-")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/the-/, "");
+}
+
+function renderRichTextHtml(value) {
+  return String(value ?? "")
+    .replace(/\[\[([^[\]]+)\]\]/g, (_, rawKey) => {
+      const key = String(rawKey || "").trim();
+      if (!key) return _;
+      return `<a href="./${escapeAttr(key)}" class="dark internalPageLink" data-page-key="${escapeAttr(key)}">${escapeHtml(key)}</a>`;
+    })
+    .replace(/(^|[^\[])\[([^\]]+)\]\(([^)\s]+)\)/g, (_, prefix, label, href) => {
+      const display = String(label || "").trim();
+      const url = String(href || "").trim();
+      if (!display || !url) return _;
+      return `${prefix}<a href="${escapeAttr(url)}" class="dark">${escapeHtml(display)}</a>`;
+    });
+}
+
+async function fetchPageInfo(pageId) {
+  const base = (new URL(window.location.href).searchParams.get("api") || "https://api.andrewzc.net").replace(/\/+$/, "");
+  const url = `${base}/pages/${encodeURIComponent(pageId)}`;
+  const res = await fetch(url, { headers: { "Accept": "application/json" } });
+  if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+  return await res.json();
+}
+
+async function getPageDisplayName(pageKey) {
+  const key = String(pageKey || "").trim();
+  if (!key) return "";
+  const pageNameCache = window.__pageNameCache || (window.__pageNameCache = new Map());
+  if (!pageNameCache.has(key)) {
+    pageNameCache.set(key, fetchPageInfo(key)
+      .then(info => String(info?.name || key))
+      .catch(() => key));
+  }
+  return await pageNameCache.get(key);
+}
+
+async function resolveInternalPageLinks(root) {
+  const links = [...(root?.querySelectorAll?.("a.internalPageLink[data-page-key]") || [])];
+  await Promise.all(links.map(async (link) => {
+    const key = link.dataset.pageKey || "";
+    if (!key) return;
+    link.textContent = await getPageDisplayName(key);
+  }));
 }
 
 function challengeGlyph(challenge) {

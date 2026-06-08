@@ -7,6 +7,7 @@ import {
   lookupCoords,
   lookupNearestCity,
   getPageEntities,
+  getPagesByDataset,
 } from "./api.js";
 import {
   renderImages,
@@ -30,6 +31,7 @@ const elPrefix = document.getElementById("prefix");
 const elInfo = document.getElementById("info");
 const elCaption = document.getElementById("caption");
 const elTrips = document.getElementById("trips");
+const elTripSuggestions = document.getElementById("tripSuggestions");
 const elReference = document.getElementById("reference");
 const elReferenceSuggestions = document.getElementById("referenceSuggestions");
 const elLink = document.getElementById("link");
@@ -39,6 +41,7 @@ const elBeen = document.getElementById("been");
 const elStrike = document.getElementById("strike");
 
 const elSaveBtn = document.getElementById("saveBtn");
+const elDoneBtn = document.getElementById("doneBtn");
 const elResetBtn = document.getElementById("resetBtn");
 const elDuplicateBtn = document.getElementById("duplicateBtn");
 const elDeleteBtn = document.getElementById("deleteBtn");
@@ -59,6 +62,7 @@ const elImagesHelp = document.getElementById("imagesHelp");
 let original = null;
 let isCreateMode = false;
 let referenceAutocompleteNames = [];
+let tripAutocompleteKeys = [];
 let dragDepth = 0;
 
 function blankEntity() {
@@ -104,10 +108,21 @@ function openExternalUrl(url) {
   link.remove();
 }
 
+function doneHref() {
+  const base = `./${encodeURIComponent(LIST)}`;
+  return KEY ? `${base}#${encodeURIComponent(KEY)}` : base;
+}
+
+function syncDoneButton() {
+  if (!elDoneBtn) return;
+  elDoneBtn.setAttribute("href", doneHref());
+}
+
 function syncModeButtons() {
   elSaveBtn.textContent = isCreateMode ? "Create" : "Save";
   elDuplicateBtn.style.display = isCreateMode ? "none" : "";
   elDeleteBtn.style.display = isCreateMode ? "none" : "";
+  syncDoneButton();
 }
 
 function normalizeAutocompleteText(value) {
@@ -116,6 +131,44 @@ function normalizeAutocompleteText(value) {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
+}
+
+function normalizeApostrophes(value) {
+  return String(value || "").replace(/'/g, "’");
+}
+
+function normalizeApostrophesInInput(input) {
+  if (!input) return;
+  input.value = normalizeApostrophes(input.value);
+}
+
+function nameFromWikipediaUrl(url) {
+  const href = String(url || "").trim();
+  if (!href) return "";
+
+  try {
+    const parsed = new URL(href);
+    if (!/\.wikipedia\.org$/i.test(parsed.hostname)) return "";
+    if (!parsed.pathname.startsWith("/wiki/")) return "";
+
+    const rawTitle = parsed.pathname.slice("/wiki/".length);
+    if (!rawTitle) return "";
+
+    const decoded = decodeURIComponent(rawTitle)
+      .replace(/_/g, " ")
+      .trim();
+
+    return decoded;
+  } catch (_) {
+    return "";
+  }
+}
+
+function maybePopulateNameFromLink() {
+  if (elName.value.trim()) return;
+  const derivedName = nameFromWikipediaUrl(elLink.value);
+  if (!derivedName) return;
+  elName.value = derivedName;
 }
 
 function updateReferenceSuggestions() {
@@ -151,6 +204,44 @@ async function loadReferenceAutocomplete() {
     updateReferenceSuggestions();
   } catch (err) {
     console.warn("Could not load reference autocomplete data.", err);
+  }
+}
+
+function updateTripSuggestions() {
+  if (!elTripSuggestions) return;
+
+  const raw = String(elTrips.value || "");
+  const tokens = raw.split(/\s+/);
+  const currentToken = tokens[tokens.length - 1] || "";
+  const prefix = normalizeAutocompleteText(currentToken);
+  const baseTokens = currentToken ? tokens.slice(0, -1) : tokens.filter(Boolean);
+
+  const matches = prefix.length >= 2
+    ? tripAutocompleteKeys.filter(key => normalizeAutocompleteText(key).startsWith(prefix)).slice(0, 20)
+    : [];
+
+  elTripSuggestions.innerHTML = "";
+  for (const key of matches) {
+    const option = document.createElement("option");
+    option.value = [...baseTokens, key].join(" ");
+    elTripSuggestions.appendChild(option);
+  }
+}
+
+async function loadTripAutocomplete() {
+  try {
+    const data = await getPagesByDataset("roadtrip");
+    const pages = Array.isArray(data) ? data : (Array.isArray(data?.pages) ? data.pages : []);
+
+    tripAutocompleteKeys = [...new Set(
+      pages
+        .map(page => String(page?.key || "").trim())
+        .filter(Boolean)
+    )].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+    updateTripSuggestions();
+  } catch (err) {
+    console.warn("Could not load trip autocomplete data.", err);
   }
 }
 
@@ -385,12 +476,12 @@ function currentFormEntity() {
     icons: iconsArr,
     badges: badgesArr,
     dateVisited: elDateVisited.value.trim(),
-    name: elName.value.trim(),
+    name: normalizeApostrophes(elName.value).trim(),
     prefix: elPrefix.value.trim(),
-    info: elInfo.value.trim(),
-    caption: elCaption.value.trim(),
+    info: normalizeApostrophes(elInfo.value).trim(),
+    caption: normalizeApostrophes(elCaption.value).trim(),
     trips: wordsToArray(elTrips.value),
-    reference: elReference.value.trim(),
+    reference: normalizeApostrophes(elReference.value).trim(),
     link: elLink.value.trim(),
     coords: elCoords.value.trim(),
     city: elCity.value.trim(),
@@ -640,7 +731,7 @@ async function deleteEntity() {
         await deleteEntityApi(LIST, KEY);
     setStatus("Deleted.", "ok");
     setTimeout(() => {
-      location.href = `./page.html?id=${LIST}`;
+      location.href = `./${encodeURIComponent(LIST)}`;
     }, 800);
   } catch (err) {
     if (err.status === 401) {
@@ -759,6 +850,10 @@ elReferenceAutoBtn.addEventListener("click", async () => {
 
 elReference.addEventListener("focus", updateReferenceSuggestions);
 elReference.addEventListener("input", updateReferenceSuggestions);
+elTrips.addEventListener("focus", updateTripSuggestions);
+elTrips.addEventListener("input", updateTripSuggestions);
+elLink.addEventListener("change", maybePopulateNameFromLink);
+elLink.addEventListener("blur", maybePopulateNameFromLink);
 
 elCityAutoBtn.addEventListener("click", async () => {
   const raw = (elCoords.value || "").trim();
@@ -870,6 +965,10 @@ function normalizeEmojiField(input) {
 
 elIcons.addEventListener("blur", () => normalizeEmojiField(elIcons));
 elBadges.addEventListener("blur", () => normalizeEmojiField(elBadges));
+elName.addEventListener("blur", () => normalizeApostrophesInInput(elName));
+elInfo.addEventListener("blur", () => normalizeApostrophesInInput(elInfo));
+elReference.addEventListener("blur", () => normalizeApostrophesInInput(elReference));
+elCaption.addEventListener("blur", () => normalizeApostrophesInInput(elCaption));
 
 document.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
@@ -884,4 +983,5 @@ window.addEventListener("beforeunload", () => {
 });
 
 loadReferenceAutocomplete();
+loadTripAutocomplete();
 load();

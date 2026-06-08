@@ -15,6 +15,7 @@
   <div class="status" style="display:flex; align-items:center; gap:20px;">
     <div>
       <button id="saveBtn" class="pill" type="button">Save</button>
+      <a id="doneBtn" class="pill" href="#">Done</a>
       <button id="resetBtn" class="pill" type="button">Reset</button>
       <button id="duplicateBtn" class="pill" type="button" style="display:none;">Duplicate</button>
       <button id="deleteBtn" class="pill" type="button" style="display:none;">Delete</button>
@@ -171,7 +172,8 @@
         <div class="fieldHeader">
           <span class="label">Trips</span>
         </div>
-        <input id="trips" class="input" type="text" spellcheck="false">
+        <input id="trips" class="input" type="text" spellcheck="false" list="tripSuggestions" autocomplete="off">
+        <datalist id="tripSuggestions"></datalist>
       </div>
     </div>
   </div>
