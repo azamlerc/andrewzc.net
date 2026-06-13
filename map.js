@@ -142,15 +142,26 @@ const markerLayers = [
 
 let map;
 
+function parseBooleanQueryValue(value) {
+  if (value == null) return null;
+  const normalized = String(value).trim().toLowerCase();
+  if (normalized === "true") return true;
+  if (normalized === "false") return false;
+  return null;
+}
+
 function showPlaces(places, filename) {
     let element = document.getElementById('map');
+    const url = new URL(window.location.href);
     let lat = element.getAttribute('lat') || 37;
     let lon = element.getAttribute('lon') || -40;
     let zoom = element.getAttribute('zoom') || 3;
     let fitMode = element.getAttribute('fit') || "";
     iconIndex = Number(element.getAttribute('icon')) || 0;
-  let cluster = (element.getAttribute('cluster') || "true") == "true";
-  let lines = (element.getAttribute('lines') || "false") == "true";
+  const clusterOverride = parseBooleanQueryValue(url.searchParams.get("cluster"));
+  const linesOverride = parseBooleanQueryValue(url.searchParams.get("lines"));
+  let cluster = clusterOverride ?? ((element.getAttribute('cluster') || "true") == "true");
+  let lines = linesOverride ?? ((element.getAttribute('lines') || "false") == "true");
     let maxClusterRadius = 60;
   let disableClusteringAtZoom = element.getAttribute('clusterLevel') || 8;
   let overrideClick = false;

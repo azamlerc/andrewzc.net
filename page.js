@@ -34,7 +34,30 @@ function getFilterSortOption(value) {
 
 function hasEntityFilters() {
   const u = new URL(window.location.href);
-  return !!(u.searchParams.get("q") || u.searchParams.get("country") || u.searchParams.get("sort"));
+  return !!(
+    u.searchParams.get("q") ||
+    u.searchParams.get("country") ||
+    u.searchParams.get("sort") ||
+    u.searchParams.get("cluster") ||
+    u.searchParams.get("lines")
+  );
+}
+
+function parseBooleanQueryValue(value) {
+  if (value == null) return null;
+  const normalized = String(value).trim().toLowerCase();
+  if (normalized === "true") return true;
+  if (normalized === "false") return false;
+  return null;
+}
+
+function getDefaultMapOptionState(listInfo = window.pageInfo) {
+  const map = listInfo?.map && typeof listInfo.map === "object" ? listInfo.map : null;
+  return {
+    hasMap: !!map,
+    cluster: map?.cluster != null ? String(map.cluster) === "true" : true,
+    lines: map?.lines != null ? String(map.lines) === "true" : false,
+  };
 }
 
 function getEntityFilterState() {
@@ -52,12 +75,17 @@ function getEntityFilterState() {
   const descending = firstSort.startsWith("-");
   const defaultDescending = !!option?.descending;
   const reverse = sort ? (descending !== defaultDescending) : false;
+  const defaultMap = getDefaultMapOptionState();
+  const cluster = parseBooleanQueryValue(u.searchParams.get("cluster")) ?? defaultMap.cluster;
+  const lines = parseBooleanQueryValue(u.searchParams.get("lines")) ?? defaultMap.lines;
 
   return {
     q,
     countries: Array.from(new Set(countries)),
     sort,
     reverse: sort ? reverse : false,
+    cluster,
+    lines,
   };
 }
 
@@ -1308,10 +1336,15 @@ function buildFilteredPageUrl(pageId, filters) {
   const reverse = !!filters?.reverse;
   const option = getFilterSortOption(sort);
   const descending = !!option?.descending !== reverse;
+  const defaultMap = getDefaultMapOptionState();
+  const cluster = filters?.cluster ?? defaultMap.cluster;
+  const lines = filters?.lines ?? defaultMap.lines;
 
   if (q) url.searchParams.set("q", q);
   if (countries.length > 0) url.searchParams.set("country", countries.join(",").toLowerCase());
   if (sort) url.searchParams.set("sort", `${descending ? "-" : ""}${sort}`);
+  if (cluster !== defaultMap.cluster) url.searchParams.set("cluster", String(cluster));
+  if (lines !== defaultMap.lines) url.searchParams.set("lines", String(lines));
 
   return url;
 }
@@ -1328,6 +1361,13 @@ function describeFilterState(filters) {
     const option = getFilterSortOption(sort);
     const label = option ? option.label.toLowerCase() : sort;
     parts.push(reverse ? `${label} reversed` : `sorted by ${label}`);
+  }
+  const defaultMap = getDefaultMapOptionState();
+  if (filters?.cluster !== defaultMap.cluster) {
+    parts.push(filters?.cluster ? "clustered map" : "unclustered map");
+  }
+  if (filters?.lines !== defaultMap.lines) {
+    parts.push(filters?.lines ? "gridlines on" : "gridlines off");
   }
   if (countries.length === 1) parts.push("1 country");
   else if (countries.length > 1) parts.push(`${countries.length} countries`);
@@ -1510,6 +1550,34 @@ function openFilterOverlay(pageId) {
     el("div", { class: "filterSortRow" }, sortSelect, reverseLabel)
   );
 
+  const defaultMap = getDefaultMapOptionState();
+  const clusterInput = el("input", {
+    type: "checkbox",
+    checked: currentFilters.cluster ? "checked" : null
+  });
+  const clusterLabel = el(
+    "label",
+    { class: "filterCheckbox" },
+    clusterInput,
+    el("span", null, text("Cluster"))
+  );
+  const linesInput = el("input", {
+    type: "checkbox",
+    checked: currentFilters.lines ? "checked" : null
+  });
+  const linesLabel = el(
+    "label",
+    { class: "filterCheckbox" },
+    linesInput,
+    el("span", null, text("Lines"))
+  );
+  const mapField = defaultMap.hasMap ? el(
+    "div",
+    { class: "filterField" },
+    el("div", { class: "filterLabel" }, text("Map")),
+    el("div", { class: "filterSortRow" }, clusterLabel, linesLabel)
+  ) : null;
+
   const countryContent = el("div", { class: "filterStatus" }, text("Loading countries…"));
   const countryField = el(
     "div",
@@ -1518,7 +1586,9 @@ function openFilterOverlay(pageId) {
     countryContent
   );
 
-  panel.append(header, searchField, sortField, countryField);
+  panel.append(header, searchField, sortField);
+  if (mapField) panel.append(mapField);
+  panel.append(countryField);
   backdrop.append(panel);
 
   function closeOverlay() {
@@ -1532,7 +1602,14 @@ function openFilterOverlay(pageId) {
       .map(input => String(input.value || "").toUpperCase())
       .filter(Boolean);
     const sort = sortSelect.value || "";
-    return { q, countries, sort, reverse: !!(sort && reverseInput.checked) };
+    return {
+      q,
+      countries,
+      sort,
+      reverse: !!(sort && reverseInput.checked),
+      cluster: !!clusterInput.checked,
+      lines: !!linesInput.checked,
+    };
   }
 
   function updateSummary() {
@@ -1557,6 +1634,8 @@ function openFilterOverlay(pageId) {
     updateSummary();
   });
   reverseInput.addEventListener("change", updateSummary);
+  clusterInput.addEventListener("change", updateSummary);
+  linesInput.addEventListener("change", updateSummary);
 
   clearBtn.addEventListener("click", () => {
     window.location.assign(getBasePageUrl(pageId).toString());
