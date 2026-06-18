@@ -250,51 +250,6 @@ function ensureScript(src) {
   document.head.appendChild(style);
 })();
 
-(function ensureEditModeStyle() {
-  if (document.getElementById("edit-mode-style")) return;
-  const style = document.createElement("style");
-  style.id = "edit-mode-style";
-  style.textContent = `
-    /* Header wrapper (we build this in JS) */
-    .headlineWrap { position: relative; }
-
-    /* Header actions: vertically centered with title */
-    .headerActions {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      z-index: 20; /* above .headline (z-index:10 in styles.css) */
-    }
-
-    .pillToggle {
-      font: 16pt Avenir;
-      padding: 8px 24px;
-      border-radius: 999px;
-      border: 1px solid rgba(0,0,0,0.18);
-      background: transparent;
-      cursor: pointer;
-    }
-
-    .pillToggle.on {
-      background: rgba(47,116,208,0.92);
-      color: white;
-      border-color: transparent;
-    }
-
-    .headerActions a.pillToggle {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .pillToggle:active { transform: translateY(1px); }
-  `;
-  document.head.appendChild(style);
-})();
-
 (function ensureFilterOverlayStyle() {
   if (document.getElementById("filter-overlay-style")) return;
   const style = document.createElement("style");
@@ -1410,16 +1365,22 @@ function ensureAdminControls(pageId) {
   }
 
   const infoBtn = el(
-    "a",
-    { class: "pillToggle pageInfoBtn", href: `info.html?id=${encodeURIComponent(pageId)}` },
+    "button",
+    { type: "button", class: "pillToggle pageInfoBtn" },
     text("Page")
   );
+  infoBtn.addEventListener("click", () => {
+    window.location.assign(`info.html?id=${encodeURIComponent(pageId)}`);
+  });
 
   const newBtn = el(
-    "a",
-    { class: "pillToggle newEntityBtn", href: `edit.html?list=${encodeURIComponent(pageId)}` },
+    "button",
+    { type: "button", class: "pillToggle newEntityBtn" },
     text("New")
   );
+  newBtn.addEventListener("click", () => {
+    window.location.assign(`edit.html?list=${encodeURIComponent(pageId)}`);
+  });
 
   const editBtn = el(
     "button",
@@ -1434,7 +1395,7 @@ function ensureAdminControls(pageId) {
     applyEditModeToDom(pageId, next);
   });
 
-  actions.append(infoBtn, newBtn, editBtn);
+  actions.prepend(editBtn, newBtn, infoBtn);
 
   // Apply stored state (if any)
   const stored = (sessionStorage.getItem(`editMode:${pageId}`) === "1");
