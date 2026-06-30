@@ -16,7 +16,9 @@
         "flags",
         "countries",
         "allthethings",
-        "languages"
+        "languages",
+        "everyone",
+        "portfolio"
       ]
     },
     {
@@ -38,7 +40,9 @@
         "senza-devices-mcp",
         "casablanca",
         "content-hub",
-        "analytics-strategy"
+        "analytics-strategy",
+        "senza-developer-context",
+        "bigquery-mcp-server"
       ],
       "sectionIntroKey": "synamedia"
     },
@@ -201,8 +205,14 @@
           "link": "resume.pdf"
         }
       ],
-      "keywords": [],
-      "year": 2023
+      "keywords": [
+        "vibe",
+        "mongodb"
+      ],
+      "year": 2023,
+      "company": "personal",
+      "type": "website",
+      "summary": "Where I've worked throughout my career"
     },
     {
       "key": "symsys",
@@ -343,7 +353,8 @@
         "image-generation",
         "music"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "personal"
     },
     {
       "key": "s-bahn-bridge",
@@ -356,9 +367,11 @@
         "ai",
         "metros",
         "music",
-        "photos"
+        "photos",
+        "transit"
       ],
-      "year": 2025
+      "year": 2025,
+      "company": "personal"
     },
     {
       "key": "fingers",
@@ -371,7 +384,11 @@
         "ai",
         "image-generation"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "personal",
+      "links": {
+        "demo": "imagine/index.html"
+      }
     },
     {
       "key": "animals",
@@ -384,7 +401,11 @@
         "ai",
         "image-generation"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "personal",
+      "links": {
+        "demo": "animals/index.html"
+      }
     },
     {
       "key": "synamedia",
@@ -406,7 +427,10 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sdk feature",
+      "summary": "Shaka Player subclass that automatically switches video sources"
     },
     {
       "key": "hackathon",
@@ -416,13 +440,15 @@
       "format": "event",
       "images": [],
       "keywords": [
-        "senza"
+        "senza",
+        "hackathon"
       ],
       "links": {
         "demo": "https://senza.devpost.com/project-gallery",
         "youtube": "https://www.youtube.com/watch?v=BfeilgRBrYc"
       },
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia"
     },
     {
       "key": "sample-code",
@@ -434,7 +460,9 @@
       "keywords": [
         "senza"
       ],
-      "year": 2023
+      "year": 2023,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "video-tutorials",
@@ -446,7 +474,13 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "video",
+      "links": {
+        "tutorial": "https://developer.synamedia.com/senza/docs/video-tutorials",
+        "youtube": "https://www.youtube.com/playlist?list=PLKAsBSD9ULIV4Svvfetsv-J3Xme_Zj9kB"
+      }
     },
     {
       "key": "senza-console",
@@ -458,7 +492,11 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "links": {
+        "tutorial": "https://developer.synamedia.com/senza/docs/senza-console"
+      }
     },
     {
       "key": "device-simulator",
@@ -470,7 +508,9 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "developer tool"
     },
     {
       "key": "typeahead",
@@ -484,9 +524,12 @@
       ],
       "links": {
         "repo": "https://andrewzc.net/typeahead.js",
-        "tutorial": "https://developer.synamedia.com/senza/docs/making-your-website-remote-control-friendly"
+        "tutorial": "https://developer.synamedia.com/senza/docs/making-your-website-remote-control-friendly",
+        "demo": "https://andrewzc.net"
       },
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "auto-background",
@@ -498,7 +541,9 @@
       "keywords": [
         "senza"
       ],
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sdk feature"
     },
     {
       "key": "developer-documentation",
@@ -510,7 +555,12 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "summary": "Comprehensive documentation for integrating web apps with the Senza platform",
+      "links": {
+        "demo": "https://developer.synamedia.com/senza"
+      }
     },
     {
       "key": "senza-direct",
@@ -522,7 +572,12 @@
       "keywords": [
         "senza"
       ],
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "summary": "Self-service workflow for creating a Senza developer account",
+      "links": {
+        "demo": "https://senza.synamedia.com"
+      }
     },
     {
       "key": "senza-agent",
@@ -538,11 +593,13 @@
         "mcp"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/senza-developer-context.git",
+        "repo": "https://github.com/azamlerc/senza-developer-mcp-server",
         "demo": "https://agent.senza.andrewzc.net/mcp"
       },
       "summary": "MCP tool for accessing the developer docs using AI",
-      "year": 2026
+      "year": 2026,
+      "company": "synamedia",
+      "type": "mcp tool"
     },
     {
       "key": "engagement-report",
@@ -556,7 +613,10 @@
         "ai",
         "map"
       ],
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "mcp tool",
+      "summary": "Produce weekly customer engagement reports from account, tenant, user, device, and app analytics data"
     },
     {
       "key": "senza-devices-mcp",
@@ -572,11 +632,13 @@
         "mcp"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/senza-devices-mcp-server",
+        "repo": "https://github.com/azamlerc/senza-devices-mcp-server",
         "tutorial": "https://developer.synamedia.com/senza/docs/devices-ai-tool"
       },
       "summary": "MCP tool for connecting to the Senza Devices API",
-      "year": 2026
+      "year": 2026,
+      "company": "synamedia",
+      "type": "mcp tool"
     },
     {
       "key": "casablanca",
@@ -593,7 +655,10 @@
       "links": {
         "youtube": "https://youtu.be/bA2_-fOFQWo"
       },
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "video",
+      "summary": "Video documenting my quest to find Senza for sale in Casablanca"
     },
     {
       "key": "content-hub",
@@ -605,7 +670,13 @@
       "keywords": [
         "senza"
       ],
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "developer tool",
+      "summary": "Launcher for Senza apps",
+      "links": {
+        "demo": "https://senza.andrewzc.net"
+      }
     },
     {
       "key": "analytics-strategy",
@@ -622,7 +693,9 @@
         "repo": "https://github.com/synamedia-senza/analytics.git",
         "tutorial": "https://developer.synamedia.com/senza/docs/analytics-module"
       },
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "documentation"
     },
     {
       "key": "analytics-module",
@@ -637,11 +710,13 @@
         "vibe"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/analytics.git",
+        "repo": "https://github.com/azamlerc/analytics",
         "tutorial": "https://developer.synamedia.com/senza/docs/analytics-module"
       },
       "summary": "Sends lifecycle and playback stats to Google Analytics",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "aquarium",
@@ -656,11 +731,13 @@
         "emoji"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/aquarium",
+        "repo": "https://github.com/azamlerc/aquarium",
         "demo": "https://senza.andrewzc.net/aquarium"
       },
       "summary": "Screensaver that shows how to use emoji",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "banner-pro",
@@ -673,11 +750,13 @@
         "senza"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/banner-pro.git",
+        "repo": "https://github.com/azamlerc/banner-pro",
         "demo": "https://senza.andrewzc.net/banner"
       },
       "summary": "More configurable version of bannner",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "bistro",
@@ -694,12 +773,15 @@
         "multiscreen"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/bistro.git",
+        "repo": "https://github.com/azamlerc/bistro",
         "demo": "https://bistro-2rqn.onrender.com",
-        "youtube": "https://youtu.be/k_ihfQ02Sqg"
+        "youtube": "https://youtu.be/k_ihfQ02Sqg",
+        "google": "https://bistro-475714.ue.r.appspot.com"
       },
       "summary": "Menu signage use case for hospitality customer",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "demo app"
     },
     {
       "key": "chocolate",
@@ -713,12 +795,14 @@
         "signage"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/chocolate.git",
+        "repo": "https://github.com/azamlerc/chocolate",
         "demo": "https://senza.andrewzc.net/chocolate",
         "tutorial": "https://developer.synamedia.com/senza/docs/video-signage"
       },
       "summary": "Digital signage that alternates between HTML and video streams",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "comics",
@@ -734,16 +818,17 @@
         "image-recognition",
         "ai",
         "image-generation",
-        "ai",
         "node",
         "apis"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/comics",
+        "repo": "https://github.com/azamlerc/comics",
         "demo": "https://comics-h30d.onrender.com"
       },
       "summary": "Creates comic books in any style from video frames",
-      "year": 2026
+      "year": 2026,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "dunnet.js",
@@ -757,11 +842,13 @@
         "fun"
       ],
       "links": {
-        "repo": "https://github.com/azamlerc/dunnet.js.git",
+        "repo": "https://github.com/azamlerc/dunnet.js",
         "demo": "https://senza.andrewzc.net/dunnet"
       },
       "summary": "Use arrows to play a command line adventure game",
-      "year": 2023
+      "year": 2023,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "flags",
@@ -775,13 +862,16 @@
         "geolocation"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/flags.git",
+        "repo": "https://github.com/azamlerc/flags",
         "demo": "https://senza.andrewzc.net/flags",
         "tutorial": "https://developer.synamedia.com/senza/docs/geolocation",
-        "youtube": "https://youtu.be/rc75GhrWpe8"
+        "youtube": "https://youtu.be/rc75GhrWpe8",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/flags/flags.mpd"
       },
       "summary": "Shows flag of current country using geolocation",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "flights",
@@ -797,13 +887,17 @@
         "apis"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/flights.git",
+        "repo": "https://github.com/azamlerc/flights",
         "demo": "https://flights-p266.onrender.com/",
         "tutorial": "https://developer.synamedia.com/senza/docs/flight-departures",
-        "youtube": "https://youtu.be/JfgyqYaEf0M"
+        "youtube": "https://youtu.be/JfgyqYaEf0M",
+        "google": "https://flights-421914.ue.r.appspot.com",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/flights/flights.mpd"
       },
       "summary": "Flight arrivals board for an aiport",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "video-wall",
@@ -818,12 +912,15 @@
         "node"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/fresco.git",
+        "repo": "https://github.com/azamlerc/fresco",
         "demo": "https://fresco-mquc.onrender.com",
-        "tutorial": "https://developer.synamedia.com/senza/docs/video-wall"
+        "tutorial": "https://developer.synamedia.com/senza/docs/video-wall",
+        "google": "https://fresco-415221.ue.r.appspot.com"
       },
       "summary": "Play a video across four screens",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "gateway",
@@ -838,12 +935,16 @@
         "node"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/gateway.git",
+        "repo": "https://github.com/azamlerc/gateway",
         "tutorial": "https://developer.synamedia.com/senza/docs/device-gateway",
-        "youtube": "https://youtu.be/PIrt9kJne5s"
+        "youtube": "https://youtu.be/PIrt9kJne5s",
+        "google": "https://gateway-455317.ue.r.appspot.com",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/gateway/gateway.mpd"
       },
       "summary": "Configure devices in a tenant to load different web apps",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "imagine",
@@ -862,13 +963,17 @@
         "socket.io"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/imagine.git",
+        "repo": "https://github.com/azamlerc/imagine",
         "demo": "https://imagine-o86j.onrender.com",
         "tutorial": "https://developer.synamedia.com/senza/docs/voice-input",
-        "youtube": "https://youtu.be/jcu1ePzoHMw"
+        "youtube": "https://youtu.be/jcu1ePzoHMw",
+        "google": "https://imagine-429122.ue.r.appspot.com",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/speech-recognition/speech-recognition.mpd"
       },
       "summary": "Speak a prompt to generate an image or app using AI",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "local-services",
@@ -883,12 +988,14 @@
         "maps"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/local-services.git",
+        "repo": "https://github.com/azamlerc/local-services",
         "demo": "https://senza.andrewzc.net/local-services",
         "tutorial": "https://developer.synamedia.com/senza/docs/local-services"
       },
       "summary": "Show local services like doctors near you",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "train-arrivals",
@@ -900,16 +1007,20 @@
       "keywords": [
         "senza",
         "metros",
-        "apis"
+        "apis",
+        "transit"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/metro.git",
+        "repo": "https://github.com/azamlerc/metro",
         "demo": "https://senza.andrewzc.net/metro",
         "tutorial": "https://developer.synamedia.com/senza/docs/train-arrivals",
-        "youtube": "https://youtu.be/ll20b4bSRTU"
+        "youtube": "https://youtu.be/ll20b4bSRTU",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/metro/metro.mpd"
       },
       "summary": "Live metro arrivals for Washington Metro",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "demo app"
     },
     {
       "key": "photo-stream",
@@ -925,11 +1036,14 @@
         "mobile"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/photo-stream.git",
-        "demo": "https://photo-stream-zm9d.onrender.com"
+        "repo": "https://github.com/azamlerc/photo-stream",
+        "demo": "https://photo-stream-zm9d.onrender.com",
+        "google": "https://photo-stream-480823.ue.r.appspot.com"
       },
       "summary": "Upload pictures from a phone to view on TV",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "demo app"
     },
     {
       "key": "popup-ads",
@@ -943,13 +1057,16 @@
         "advertising"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/popup-ads.git",
+        "repo": "https://github.com/azamlerc/popup-ads",
         "demo": "https://senza.andrewzc.net/popup-ads",
         "tutorial": "https://developer.synamedia.com/senza/docs/popup-ads",
-        "youtube": "https://youtu.be/SLUkT0Z9sfQ"
+        "youtube": "https://youtu.be/SLUkT0Z9sfQ",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/popup-ads/popup-ads.mpd"
       },
       "summary": "Display popups at specific timecodes in a video",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "product-finder",
@@ -967,11 +1084,14 @@
         "maps"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/product-finder.git",
-        "demo": "https://product-finder-clc7.onrender.com"
+        "repo": "https://github.com/azamlerc/product-finder",
+        "demo": "https://product-finder-clc7.onrender.com",
+        "google": "https://product-finder-462420.ue.r.appspot.com"
       },
       "summary": "Identifies products in a video and shows a map where to buy them",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "product-placement",
@@ -988,12 +1108,15 @@
         "geolocation"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/product-placement",
+        "repo": "https://github.com/azamlerc/product-placement",
         "demo": "https://product-placement.onrender.com",
-        "youtube": "https://youtu.be/pJaGrwZbmkk"
+        "youtube": "https://youtu.be/pJaGrwZbmkk",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/product-placement/product-placement.mpd"
       },
       "summary": "Generates product images with configurable styles in current location",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "remote",
@@ -1010,13 +1133,17 @@
         "voice"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/remote.git",
+        "repo": "https://github.com/azamlerc/remote",
         "demo": "https://smart-remote-rsqt.onrender.com",
         "tutorial": "https://developer.synamedia.com/senza/docs/smart-remote",
-        "youtube": "https://youtu.be/UlalQ_njUTA"
+        "youtube": "https://youtu.be/UlalQ_njUTA",
+        "google": "https://remote-429122.ue.r.appspot.com",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/remote/remote.mpd"
       },
       "summary": "Smart remote with buttons, trackpad, keyboard and voice input",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "signs",
@@ -1033,13 +1160,16 @@
         "multiscreen"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/signs.git",
+        "repo": "https://github.com/azamlerc/signs",
         "demo": "https://signs-9fxo.onrender.com",
         "tutorial": "https://developer.synamedia.com/senza/docs/slideshow",
-        "youtube": "https://youtu.be/hH9v1v9mLwc"
+        "youtube": "https://youtu.be/hH9v1v9mLwc",
+        "google": "https://signs-415221.ue.r.appspot.com"
       },
       "summary": "Digital signage with images carousel that slides between screens",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "stopwatch",
@@ -1053,12 +1183,14 @@
         "analytics"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/stopwatch.git",
+        "repo": "https://github.com/azamlerc/stopwatch",
         "demo": "https://senza.andrewzc.net/stopwatch",
         "tutorial": "https://developer.synamedia.com/senza/docs/stopwatch"
       },
       "summary": "Displays time spent in foreground, background and suspended ",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "subway-status",
@@ -1069,14 +1201,17 @@
       "images": [],
       "keywords": [
         "senza",
-        "metros"
+        "metros",
+        "transit"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/subway-status.git",
+        "repo": "https://github.com/azamlerc/subway-status",
         "demo": "https://senza.andrewzc.net/subway-status"
       },
       "summary": "Digital signage with fake alerts from New York City Subway",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "tv-guide",
@@ -1090,12 +1225,15 @@
         "vibe"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/tv-guide.git",
+        "repo": "https://github.com/azamlerc/tv-guide",
         "demo": "https://senza.andrewzc.net/tv-guide",
-        "youtube": "https://youtu.be/hXc9z4itxuQ"
+        "youtube": "https://youtu.be/hXc9z4itxuQ",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/tv-guide/tv-guide.mpd"
       },
       "summary": "Vibe coded TV guide from the 90s",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "vertical",
@@ -1109,12 +1247,14 @@
         "signage"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/vertical.git",
+        "repo": "https://github.com/azamlerc/vertical",
         "demo": "https://senza.andrewzc.net/vertical",
         "tutorial": "https://developer.synamedia.com/senza/docs/vertical-screens"
       },
       "summary": "Shows how to use CSS to rotate the screen for digital signage",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "video-tutorials-app",
@@ -1127,12 +1267,14 @@
         "video"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/video-tutorials.git",
+        "repo": "https://github.com/azamlerc/video-tutorials",
         "demo": "https://senza.andrewzc.net/video-tutorials",
         "tutorial": "https://developer.synamedia.com/senza/docs/video-tutorials-app"
       },
       "summary": "Watch the Senza video tutorials on Senza, how meta",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "watch-party",
@@ -1147,11 +1289,13 @@
         "multiscreen"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/program-guide.git",
+        "repo": "https://github.com/azamlerc/program-guide",
         "demo": "https://senza.andrewzc.net/watch-party"
       },
       "summary": "Fork of program guide that keeps multiple instances synced",
-      "year": 2025
+      "year": 2025,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "zombies",
@@ -1166,13 +1310,17 @@
         "socket.io"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/zombies.git",
+        "repo": "https://github.com/azamlerc/zombies",
         "demo": "https://senza.andrewzc.net/zombies",
         "tutorial": "https://developer.synamedia.com/senza/docs/emergency-alerts",
-        "youtube": "https://youtu.be/Rbff6acXnHQ"
+        "youtube": "https://youtu.be/Rbff6acXnHQ",
+        "google": "https://zombies-420520.ue.r.appspot.com",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/zombies/zombies.mpd"
       },
       "summary": "Warn viewers of zombie apocalypse using Alarm Manager",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "zoom",
@@ -1186,13 +1334,16 @@
         "multiple-videos"
       ],
       "links": {
-        "repo": "https://github.com/synamedia-senza/zoom.git",
+        "repo": "https://github.com/azamlerc/zoom",
         "demo": "https://senza.andrewzc.net/zoom",
         "tutorial": "https://developer.synamedia.com/senza/docs/picture-in-picture",
-        "youtube": "https://youtu.be/nymzmOR6uMM"
+        "youtube": "https://youtu.be/nymzmOR6uMM",
+        "dash": "https://senza-developer.s3.amazonaws.com/streams/zoom/zoom.mpd"
       },
       "summary": "Switch two videos between PIP and full screen",
-      "year": 2024
+      "year": 2024,
+      "company": "synamedia",
+      "type": "sample code"
     },
     {
       "key": "kavasoft",
@@ -2499,6 +2650,82 @@
       ],
       "keywords": [],
       "year": 2007
+    },
+    {
+      "key": "senza-developer-context",
+      "name": "Senza Developer Context",
+      "section": "synamedia",
+      "description": "",
+      "images": [],
+      "keywords": [
+        "senza",
+        "ai",
+        "mcp"
+      ],
+      "year": 2026,
+      "company": "synamedia",
+      "type": "documentation",
+      "summary": "Senza developer documentation in AI readable markdown format",
+      "links": {
+        "repo": "https://github.com/azamlerc/senza-developer-context"
+      }
+    },
+    {
+      "key": "bigquery-mcp-server",
+      "name": "Bigquery MCP Server",
+      "section": "synamedia",
+      "description": "",
+      "images": [],
+      "keywords": [
+        "senza",
+        "vibe",
+        "analytics",
+        "ai",
+        "mcp"
+      ],
+      "year": 2026,
+      "company": "synamedia",
+      "type": "mcp tool",
+      "summary": "MCP tool for getting stats from Google Analytics via BigQuery",
+      "links": {
+        "repo": "https://github.com/azamlerc/bigquery-mcp-server",
+        "tutorial": "https://developer.synamedia.com/senza/docs/google-analytics-mcp-server"
+      }
+    },
+    {
+      "key": "everyone",
+      "name": "AI ❤️ Databases, for Everyone",
+      "section": "intro",
+      "description": "",
+      "images": [],
+      "keywords": [
+        "vibe",
+        "ai",
+        "mongodb",
+        "mcp"
+      ],
+      "year": 2026,
+      "company": "personal",
+      "type": "documentation",
+      "summary": "Learn how everyone can connect Claude to MongoDB",
+      "links": {
+        "repo": "https://github.com/azamlerc/everyone"
+      }
+    },
+    {
+      "key": "portfolio",
+      "name": "Portfolio",
+      "section": "intro",
+      "description": "",
+      "images": [],
+      "keywords": [
+        "vibe",
+        "mongodb"
+      ],
+      "year": 2026,
+      "company": "personal",
+      "type": "website",
+      "summary": "Portfolio of work and personal projects spanning my whole career. In other words, this page."
     }
   ]
 }
