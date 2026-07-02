@@ -32,17 +32,35 @@
 
 <script>
 async function main() {
-  const res = await fetch('data/portfolio.json', { cache: 'no-store' });
-  if (!res.ok) throw new Error('Failed to load portfolio.json');
-  const data = await res.json();
+  const [staticRes, projectsRes] = await Promise.all([
+    fetch('data/portfolio.json', { cache: 'no-store' }),
+    fetch('https://api.andrewzc.net/portfolio', { cache: 'no-store' }),
+  ]);
+
+  if (!staticRes.ok) throw new Error('Failed to load portfolio.json');
+  if (!projectsRes.ok) throw new Error('Failed to load portfolio projects');
+
+  const staticData = await staticRes.json();
+  const projectsData = await projectsRes.json();
+  const data = {
+    ...staticData,
+    projects: projectsData?.projects || [],
+  };
 
   document.title = data?.meta?.headline || 'Portfolio';
   document.getElementById('headline').textContent = data?.meta?.headline || 'Portfolio';
   document.getElementById('intro').innerHTML = data?.intro || '';
 
+  const projectMap = new Map((data.projects || []).map(p => [p.key, p]));
+  const getSectionProjects = sec =>
+    (data.projects || [])
+      .filter(p => (p.section || '') === (sec.anchor || ''))
+      .sort((a, b) => (a.name || a.key || '').localeCompare(b.name || b.key || ''));
+
   // Build TOC
   const tocEl = document.getElementById('toc');
   (data.sections || []).forEach(sec => {
+    const sectionProjects = getSectionProjects(sec);
     const card = document.createElement('div');
     card.className = 'toc';
     const title = document.createElement('div');
@@ -60,12 +78,11 @@ async function main() {
     const ul = document.createElement('ul');
     ul.style.margin = '0';
     ul.style.paddingLeft = '18px';
-    (sec.keys || []).forEach(k => {
-      const proj = (data.projects || []).find(p => p.key === k);
+    sectionProjects.forEach(proj => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = '#' + k;
-      a.textContent = proj?.name || k;
+      a.href = '#' + proj.key;
+      a.textContent = proj?.name || proj.key;
       li.appendChild(a);
       ul.appendChild(li);
     });
@@ -75,7 +92,6 @@ async function main() {
 
   // Build content
   const contentEl = document.getElementById('content');
-  const projectMap = new Map((data.projects || []).map(p => [p.key, p]));
 
   function renderProject(p, headingTag) {
     const anchor = document.createElement('a');
@@ -114,6 +130,7 @@ async function main() {
 
   // Render sections in the same order as the TOC
   (data.sections || []).forEach(sec => {
+    const sectionProjects = getSectionProjects(sec);
     if (sec.sectionIntroKey && projectMap.has(sec.sectionIntroKey)) {
       renderProject(projectMap.get(sec.sectionIntroKey), 'h1');
     } else {
@@ -122,16 +139,15 @@ async function main() {
       h1.textContent = sec.name;
       contentEl.appendChild(h1);
     }
-    (sec.keys || []).forEach(k => {
-      const p = projectMap.get(k);
-      if (p) renderProject(p, 'h2');
+    sectionProjects.forEach(p => {
+      if (p.key !== sec.sectionIntroKey) renderProject(p, 'h2');
     });
   });
 }
 
 main().catch(err => {
   console.error(err);
-  document.getElementById('content').innerHTML = '<p class="muted">Error loading portfolio.json. If you opened this file directly, try serving it with a local web server so fetch() can read JSON.</p>';
+  document.getElementById('content').innerHTML = '<p class="muted">Error loading portfolio data.</p>';
 });
 </script>
 </body>

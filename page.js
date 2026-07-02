@@ -1194,15 +1194,15 @@ function sortedGroups(listInfo, entities, listCtx) {
 
   let groups = [list];
 
-  if (listCtx.todoIcon) {
-    groups = groupPlaces(list);
-  } else if (Array.isArray(listInfo.sections)) {
+  if (Array.isArray(listInfo.sections)) {
     const sections = listInfo.sections;
     const ungrouped = list.filter(e => e.section == null || !sections.includes(e.section));
     const ungroupedBeen = ungrouped.filter(e => e.been === true);
     const sectionGroups = sections.map(section => list.filter(e => e.section === section));
     const ungroupedTodo = ungrouped.filter(e => e.been === false || e.been == null);
     groups = [ungroupedBeen, ...sectionGroups, ungroupedTodo];
+  } else if (listCtx.todoIcon) {
+    groups = groupPlaces(list);
   } else if (listInfo.group === "date") {
     const today = new Date().toISOString().slice(0, 10);
     const future = list.filter(e => e.prefixDate > today);
@@ -1673,6 +1673,17 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
   app.append(headlineWrap);
   ensureHeaderActions(pageId);
 
+  // Optional header caption
+  if (listInfo.header) {
+    const headerEl = el("div", { class: "caption pageHeader" });
+    headerEl.innerHTML = renderRichTextHtml(listInfo.header);
+    app.append(headerEl);
+
+    if (!hasMap && listInfo.size === "small") {
+      app.append(smallSpace());
+    }
+  }
+
   // Map container (map.js will read #map attributes)
   if (hasMap) {
     const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
@@ -1686,17 +1697,6 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     // Load map.js (once)
     // map.js can now reuse window.pageInfo / window.places without fetching data/*.json
     ensureScript("map.js").catch(() => {});
-  }
-
-  // Optional header caption
-  if (listInfo.header) {
-    const headerEl = el("div", { class: "caption" });
-    headerEl.innerHTML = renderRichTextHtml(listInfo.header);
-    app.append(headerEl);
-
-    if (!hasMap && listInfo.size === "small") {
-      app.append(smallSpace());
-    }
   }
 
   const listCtx = {
