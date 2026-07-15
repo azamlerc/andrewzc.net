@@ -1207,7 +1207,7 @@ function sortedGroups(listInfo, entities, listCtx) {
     const today = new Date().toISOString().slice(0, 10);
     const future = list.filter(e => e.prefixDate > today);
     const past = list.filter(e => e.prefixDate <= today);
-    groups = [future, past];
+    groups = [past, future.slice().reverse()];
   } else if (typeof listInfo.nearDistance === "number") {
     const nearDistance = listInfo.nearDistance;
     const been = list.filter(e => e.been === true && (Number(e.distance) || 0) < nearDistance);

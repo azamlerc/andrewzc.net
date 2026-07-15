@@ -2,14 +2,20 @@
   display: inline-flex;
   flex-direction: column;
   background: white;
-  margin-left: 10px;
-  width: calc(100% - 20px);
+  margin-left: 0;
+  width: 100%;
   box-sizing: border-box;
   transition: box-shadow 0.15s ease, outline-color 0.15s ease;
 }
 
+.headline {
+  font-size: clamp(40px, 5.5vw, 72px);
+  line-height: 1.05;
+  white-space: normal;
+}
+
 .row {
-  margin: 14px 0px;
+  margin: 10px 0;
 }
 
 .rowCompact {
@@ -21,9 +27,29 @@
 
 .rowTriple {
   display: grid;
-  grid-template-columns: 160px 160px max-content 280px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 16px;
   align-items: start;
+}
+
+.rowTriple .fieldEmojiCompact:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.rowTriple .fieldEmojiCompact:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.rowTriple .fieldFlags {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.rowTriple .fieldDateCompact {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .field {
@@ -36,13 +62,13 @@
 }
 
 .fieldEmojiCompact {
-  flex-basis: 160px;
-  width: 160px;
+  flex-basis: auto;
+  width: auto;
 }
 
 .fieldDateCompact {
-  flex: 0 0 280px;
-  width: 280px;
+  flex: 0 0 auto;
+  width: auto;
 }
 
 .compactInputRow {
@@ -56,14 +82,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 8px;
-  min-height: 52px;
+  gap: 8px;
+  margin-bottom: 6px;
+  min-height: 0;
 }
 
 .label {
   display: block;
-  font: 24pt Avenir;
+  font: 20pt Avenir;
   color: #999;
   min-width: 0;
 }
@@ -72,13 +98,13 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
   margin-left: auto;
 }
 
 .input, .textarea {
-  font: 24pt Avenir;
+  font: 20pt Avenir;
   color: #444;
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -96,7 +122,7 @@
 
 .compactAction {
   flex: 0 0 auto;
-  font-size: 18pt;
+  font-size: 16px;
   padding: 10px 18px;
 }
 
@@ -106,13 +132,6 @@
 
 .rowTriple .pillWrap {
   width: auto;
-}
-
-@media (max-width: 1100px) {
-  .rowTriple {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .input:focus, .textarea:focus {
@@ -131,12 +150,12 @@
 }
 
 .status {
-  font: 24pt Avenir;
+  font: 18px Avenir;
   color: #999;
   margin-top: 10px;
   margin-bottom: 16px;
-  margin-left: 10px;
-  width: calc(100% - 20px);
+  margin-left: 0;
+  width: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -145,7 +164,7 @@
 .ok { color: #55AB3D; }
 
 .subheader {
-  font: 30pt Avenir;
+  font: 22px Avenir;
   color: #999;
   margin-left: 10px;
   margin-bottom: 18px;
@@ -172,7 +191,7 @@
 }
 
 .imagesHelp {
-  font: 16pt Avenir;
+  font: 14px Avenir;
   color: #999;
 }
 
@@ -253,8 +272,8 @@ body.drag-active .imagesHelp::before {
 
 .pill {
   display: inline-block;
-  font: 22pt Avenir;
-  padding: 10px 24px;
+  font: 20pt Avenir;
+  padding: 8px 20px;
   border-radius: 999px;
   border: 2px solid rgba(0,0,0,0.18);
   background: transparent;
@@ -283,6 +302,25 @@ body.drag-active .imagesHelp::before {
 
 .pill:not(.been):not(.strike):hover {
   background: #e9e9e9;
+}
+
+@media (max-width: 700px) {
+  .fieldCompact,
+  .fieldEmojiCompact,
+  .fieldDateCompact {
+    width: auto;
+    flex-basis: auto;
+  }
+
+  .rowTriple .fieldFlags {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .rowTriple .fieldDateCompact {
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

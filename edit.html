@@ -4,7 +4,7 @@
   <title>✏️ Edit</title>
   <meta charset="UTF-8">
   <meta name="andrewzc" content="auto" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.45">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="edit.css">
 </head>
@@ -82,6 +82,9 @@
       <div class="field">
         <div class="fieldHeader">
           <span class="label">Name</span>
+          <span class="fieldActions">
+            <button id="namePasteBtn" class="pill" type="button">Paste</button>
+          </span>
         </div>
         <input id="name" class="input" type="text" spellcheck="false">
       </div>
@@ -94,6 +97,7 @@
           <span class="fieldActions">
             <button id="openBtn" class="pill" type="button">Open</button>
             <button id="linkAutoBtn" class="pill" type="button">Auto</button>
+            <button id="linkPasteBtn" class="pill" type="button">Paste</button>
           </span>
         </div>
         <input id="link" class="input" type="url" spellcheck="false">
@@ -108,6 +112,7 @@
             <button id="hereBtn" class="pill" type="button">Here</button>
             <button id="mapBtn" class="pill" type="button">Open</button>
             <button id="coordsAutoBtn" class="pill" type="button">Auto</button>
+            <button id="coordsPasteBtn" class="pill" type="button">Paste</button>
           </span>
         </div>
         <input id="coords" class="input" type="text" spellcheck="false">

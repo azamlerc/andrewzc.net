@@ -45,8 +45,11 @@ const elDoneBtn = document.getElementById("doneBtn");
 const elResetBtn = document.getElementById("resetBtn");
 const elDuplicateBtn = document.getElementById("duplicateBtn");
 const elDeleteBtn = document.getElementById("deleteBtn");
+const elNamePasteBtn = document.getElementById("namePasteBtn");
 const elLinkAutoBtn = document.getElementById("linkAutoBtn");
+const elLinkPasteBtn = document.getElementById("linkPasteBtn");
 const elCoordsAutoBtn = document.getElementById("coordsAutoBtn");
+const elCoordsPasteBtn = document.getElementById("coordsPasteBtn");
 const elCityAutoBtn = document.getElementById("cityAutoBtn");
 const elReferenceAutoBtn = document.getElementById("referenceAutoBtn");
 const elOpenBtn = document.getElementById("openBtn");
@@ -106,6 +109,72 @@ function openExternalUrl(url) {
   document.body.appendChild(link);
   link.click();
   link.remove();
+}
+
+async function readClipboardText() {
+  if (navigator.clipboard?.readText) {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (text) {
+				console.log("text", text);
+				return String(text);
+			} else {
+				console.log("No text");
+			}
+    } catch (_) {
+			console.log("Couldn't read clipboard!");
+      // Fall through to the legacy paste path below.
+    }
+  }
+	
+
+  return new Promise((resolve, reject) => {
+    const helper = document.createElement("textarea");
+    helper.setAttribute("aria-hidden", "true");
+    helper.style.position = "fixed";
+    helper.style.opacity = "0";
+    helper.style.pointerEvents = "none";
+    helper.style.left = "-9999px";
+    helper.style.top = "0";
+
+    let settled = false;
+
+    function cleanup() {
+      clearTimeout(timeout);
+      helper.remove();
+    }
+
+    function finish(fn) {
+      if (settled) return;
+      settled = true;
+      cleanup();
+      fn();
+    }
+
+    helper.addEventListener("paste", (event) => {
+      const text = event.clipboardData?.getData("text/plain") || "";
+      finish(() => {
+        if (text) resolve(text);
+        else reject(new Error("Clipboard was empty."));
+      });
+    }, { once: true });
+
+    document.body.appendChild(helper);
+    helper.focus();
+
+    const timeout = setTimeout(() => {
+      finish(() => reject(new Error("Clipboard paste is not available here. Try tapping into the field and using Paste.")));
+    }, 250);
+
+    try {
+      const ok = document.execCommand("paste");
+      if (!ok) {
+        finish(() => reject(new Error("Clipboard paste is not available here. Try tapping into the field and using Paste.")));
+      }
+    } catch (_) {
+      finish(() => reject(new Error("Clipboard paste is not available here. Try tapping into the field and using Paste.")));
+    }
+  });
 }
 
 function doneHref() {
@@ -770,10 +839,33 @@ elLinkAutoBtn.addEventListener("click", async () => {
   }
 });
 
+elNamePasteBtn.addEventListener("click", async () => {
+  try {
+		console.log("paste name");
+    const text = await readClipboardText();
+    elName.value = text;
+    setStatus("Pasted.", "ok");
+  } catch (err) {
+    setStatus(err.message || "Could not read from clipboard.", "error");
+  }
+});
+console.log("elNamePasteBtn", elNamePasteBtn);
+
 elOpenBtn.addEventListener("click", () => {
   const url = (elLink.value || "").trim();
   if (!url) return;
   openExternalUrl(url);
+});
+
+elLinkPasteBtn.addEventListener("click", async () => {
+  try {
+    const text = await readClipboardText();
+    elLink.value = text;
+    maybePopulateNameFromLink();
+    setStatus("Pasted.", "ok");
+  } catch (err) {
+    setStatus(err.message || "Could not read from clipboard.", "error");
+  }
 });
 
 elCityOpenBtn.addEventListener("click", () => {
@@ -838,6 +930,20 @@ elCoordsAutoBtn.addEventListener("click", async () => {
     await save();
   } catch (err) {
     setStatus("Coords lookup failed. " + err.message, "error");
+  }
+});
+
+elCoordsPasteBtn.addEventListener("click", async () => {
+  try {
+    const text = await readClipboardText();
+    elCoords.value = text;
+    const result = normalizeCoords(elCoords.value);
+    if (result) {
+      elCoords.value = result.coords;
+    }
+    setStatus("Pasted.", "ok");
+  } catch (err) {
+    setStatus(err.message || "Could not read from clipboard.", "error");
   }
 });
 
