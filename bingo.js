@@ -216,7 +216,7 @@ function createLists(bingoResults, type) {
     section.appendChild(UI.smallSpace());
     section.appendChild(UI.el("a", { name: page.key, id: page.key }));
     section.appendChild(document.createTextNode(page.icon ? `${page.icon} ` : ""));
-    section.appendChild(UI.el("a", { href: `${page.key}.html`, className: "link" }, page.name));
+    section.appendChild(UI.el("a", { href: page.key, className: "link" }, page.name));
     section.appendChild(UI.br());
 
     all.forEach((entity) => {
@@ -306,7 +306,7 @@ async function bingoMain(type, bingoFilter) {
       });
       labelCell.appendChild(checkbox);
       labelCell.appendChild(document.createTextNode(` ${page.icon} `));
-      labelCell.appendChild(UI.el("a", { href: `${page.key}.html` }, page.name));
+      labelCell.appendChild(UI.el("a", { href: page.key }, page.name));
       labelCell.appendChild(document.createTextNode("\u00a0\u00a0"));
     }
 

@@ -271,7 +271,7 @@ function visitedFirstRows(rows) {
 }
 
 function pagePathForKey(listKey) {
-  return ["mosques", "synagogues"].includes(listKey) ? "page-rtl.html" : "page.html";
+  return ["mosques", "synagogues"].includes(listKey) ? "page-rtl.html" : listKey;
 }
 
 function buildPageHref(listKey, extraParams = {}) {
