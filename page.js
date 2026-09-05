@@ -506,7 +506,8 @@ function ensureScript(src) {
       padding: 10px 2px;
     }
 
-    @media (max-width: 700px) {
+    /* The site uses a scaled viewport on phones, so width alone can appear desktop-sized. */
+    @media (max-width: 700px), (hover: none) and (pointer: coarse) {
       .filterBackdrop {
         padding: 18px 14px 14px;
         align-items: stretch;
@@ -1692,6 +1693,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
       if (listInfo.map[f] != null) attrs[f] = listInfo.map[f];
     }
     if (hasEntityFilters()) attrs.fit = "results";
+    else if (listInfo.map?.fit === "auto") attrs.fit = "auto";
     app.append(el("div", attrs));
 
     // Load map.js (once)

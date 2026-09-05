@@ -90,16 +90,17 @@ function applyEditModeToDom(storageKey) {
   const editMode = sessionStorage.getItem(`editMode:${storageKey}`) === "1";
   document.body.classList.toggle("edit-mode", editMode);
 
-  const links = document.querySelectorAll("a[data-entity-key][data-entity-list]");
-  links.forEach((a) => {
-    if (!a.dataset.viewHref) a.dataset.viewHref = a.getAttribute("href") || "#";
+  const entityNodes = document.querySelectorAll("[data-entity-key][data-entity-list]");
+  entityNodes.forEach((node) => {
+    if (node.tagName !== "A") return;
+    if (!node.dataset.viewHref) node.dataset.viewHref = node.getAttribute("href") || "#";
 
     if (editMode) {
-      const key  = a.dataset.entityKey || "";
-      const list = a.dataset.entityList || "";
-      a.setAttribute("href", `edit.html?list=${encodeURIComponent(list)}&key=${encodeURIComponent(key)}`);
+      const key  = node.dataset.entityKey || "";
+      const list = node.dataset.entityList || "";
+      node.setAttribute("href", `edit.html?list=${encodeURIComponent(list)}&key=${encodeURIComponent(key)}`);
     } else {
-      a.setAttribute("href", a.dataset.viewHref || "#");
+      node.setAttribute("href", node.dataset.viewHref || "#");
     }
   });
 
@@ -113,12 +114,12 @@ function ensureEditClickHandler() {
   editClickHandlerInstalled = true;
 
   document.addEventListener("click", (event) => {
-    const link = event.target?.closest?.("a[data-entity-key][data-entity-list]");
-    if (!link) return;
+    const entityNode = event.target?.closest?.("[data-entity-key][data-entity-list]");
+    if (!entityNode) return;
     if (!document.body.classList.contains("edit-mode")) return;
 
-    const key = link.dataset.entityKey || "";
-    const list = link.dataset.entityList || "";
+    const key = entityNode.dataset.entityKey || "";
+    const list = entityNode.dataset.entityList || "";
     if (!key || !list) return;
 
     event.preventDefault();

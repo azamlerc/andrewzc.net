@@ -1,5 +1,52 @@
 // ui.js
 (function () {
+  (function ensureResultsMediaStyle() {
+    if (document.getElementById("results-media-style")) return;
+    const style = document.createElement("style");
+    style.id = "results-media-style";
+    style.textContent = `
+      .resultsEntityMedia {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 10px 0 6px 0;
+      }
+
+      .resultsEntityMedia a {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+        background: #f5f5f5;
+      }
+
+      .resultsEntityMedia img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .resultsEntityCaption {
+        font: 16pt Avenir;
+        color: #999;
+        line-height: 1.25;
+        margin: 0 0 20px 0;
+      }
+
+      .resultsEntityCaption a {
+        color: #444;
+      }
+
+      body.edit-mode .resultsEntityLabel[data-entity-key][data-entity-list] {
+        cursor: pointer;
+      }
+    `;
+    document.head.appendChild(style);
+  })();
+
   function el(tag, attrs = {}, children = []) {
     const node = document.createElement(tag);
 
@@ -64,6 +111,65 @@
     );
   }
 
+  function htmlFragment(html) {
+    const template = document.createElement("template");
+    template.innerHTML = String(html ?? "");
+    return template.content.cloneNode(true);
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, ch => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      "\"": "&quot;",
+      "'": "&#39;"
+    }[ch]));
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value);
+  }
+
+  function renderRichTextHtml(value) {
+    return String(value ?? "")
+      .replace(/\[\[([^[\]]+)\]\]/g, (_, rawKey) => {
+        const key = String(rawKey || "").trim();
+        if (!key) return _;
+        return `<a href="./${escapeAttr(key)}" class="dark">${escapeHtml(key)}</a>`;
+      })
+      .replace(/(^|[^\[])\[([^\]]+)\]\(([^)\s]+)\)/g, (_, prefix, label, href) => {
+        const display = String(label || "").trim();
+        const url = String(href || "").trim();
+        if (!display || !url) return _;
+        return `${prefix}<a href="${escapeAttr(url)}" class="dark">${escapeHtml(display)}</a>`;
+      });
+  }
+
+  function highlightDistanceCaption(node) {
+    if (node.querySelector("*")) return;
+    const distanceRe = /\b(?:\d+(?:[.,]\d+)?\skm|\d+m|exact)\b/gi;
+    const raw = node.textContent || "";
+    const escaped = escapeHtml(raw);
+    const matches = [...escaped.matchAll(distanceRe)];
+    if (matches.length === 0) return;
+
+    const lastMatch = matches[matches.length - 1];
+    node.innerHTML =
+      escaped.slice(0, lastMatch.index) +
+      `<span class="dark">${lastMatch[0]}</span>` +
+      escaped.slice(lastMatch.index + lastMatch[0].length);
+  }
+
+  function fullImageUrl(listId, filename) {
+    const raw = `https://images.andrewzc.net/${listId}/${filename}`;
+    return raw.includes(".pdf.") ? raw.slice(0, raw.indexOf(".pdf.") + 4) : raw;
+  }
+
+  function thumbImageUrl(listId, filename) {
+    return `https://images.andrewzc.net/${listId}/tn/${filename}`;
+  }
+
   // This is a *generic* “inline row” renderer that matches your site’s vibe:
   // prefix (if any) + icons + link/name, with todo + strike support.
   function renderEntityRow(entity, opts = {}) {
@@ -113,13 +219,19 @@
       const a = el("a", {
         href: entity.link,
         id: entity.key || null,
+        className: "resultsEntityLabel",
         "data-entity-key": entity.key || null,
         "data-entity-list": entity.list || null,
       });
       a.textContent = label;
       row.appendChild(a);
     } else {
-      row.appendChild(document.createTextNode(label));
+      row.appendChild(el("span", {
+        className: "resultsEntityLabel",
+        "data-entity-key": entity.key || null,
+        "data-entity-list": entity.list || null,
+        text: label,
+      }));
     }
 
     // Reference (dark, like old output)
@@ -133,9 +245,31 @@
       row.style.textDecoration = "line-through";
     }
 
-    wrap.appendChild(row);
+    const imageListId = entity?.list || opts.sectionKey || "";
+    const images = Array.isArray(entity?.images) ? entity.images.filter(Boolean).slice(0, 3) : [];
+    if (imageListId && images.length > 0) {
+      const media = el("div", { className: "resultsEntityMedia" });
+      images.forEach((filename) => {
+        media.appendChild(
+          el(
+            "a",
+            { href: fullImageUrl(imageListId, filename), target: "_blank", rel: "noopener" },
+            el("img", { src: thumbImageUrl(imageListId, filename), alt: entity.name || "image", loading: "lazy" })
+          )
+        );
+      });
+      wrap.appendChild(media);
+    }
 
+    wrap.appendChild(row);
     wrap.appendChild(br());
+
+    if (entity.caption) {
+      const caption = el("div", { className: "resultsEntityCaption" });
+      caption.appendChild(htmlFragment(renderRichTextHtml(entity.caption)));
+      highlightDistanceCaption(caption);
+      wrap.appendChild(caption);
+    }
     return wrap;
   }
   

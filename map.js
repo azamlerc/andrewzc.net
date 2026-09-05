@@ -1,7 +1,8 @@
 let iconIndex = 0;
 
 function isNear(place) {
-  return (place.distance || (place.info && place.info.endsWith("%")));
+  const hasAsteriskBadge = Array.isArray(place?.badges) && place.badges.includes("*");
+  return hasAsteriskBadge || place.distance || (place.info && place.info.endsWith("%"));
 }
 
 addStylesheets([
@@ -214,7 +215,7 @@ function showPlaces(places, filename) {
         addMarkers(map, layer.group, places, layer.filter, layer.tag, filename);
     });
 
-  if (fitMode === "results") {
+  if (fitMode === "results" || fitMode === "auto") {
     const points = getPlacesBounds(places);
     if (points.length > 1) {
       map.fitBounds(points, { padding: [30, 30] });
@@ -322,7 +323,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
             let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
             if (place.icons) text = place.icons.join(' ') + ' ' + text;
             if (place.prefix) text = place.prefix + "<br>" + text;
-            if (place.images) text = `<img src="https://images.andrewzc.net/${filename}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
+            if (place.images) text = `<img src="https://images.andrewzc.net/${place.list}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
             if (place.reference) text += "<br>" + place.reference;
             if (place.info) text += "<br>" + place.info;
             if (place.caption) {

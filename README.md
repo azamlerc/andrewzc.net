@@ -57,6 +57,7 @@ In practice, the center of gravity for ongoing work is:
 - `city.js` shows page-grouped entities for a city.
 - `country.js` shows page-grouped entities for a country.
 - `nearby.js` shows nearby places based on current location.
+- `recent.js` shows recently visited places based on `dateVisited`.
 
 ### Chat
 

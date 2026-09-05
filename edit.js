@@ -55,6 +55,7 @@ const elReferenceAutoBtn = document.getElementById("referenceAutoBtn");
 const elOpenBtn = document.getElementById("openBtn");
 const elHereBtn = document.getElementById("hereBtn");
 const elDateNowBtn = document.getElementById("dateNowBtn");
+const elDateYesterdayBtn = document.getElementById("dateYesterdayBtn");
 const elMapBtn = document.getElementById("mapBtn");
 const elCityOpenBtn = document.getElementById("cityOpenBtn");
 const elUploadImagesBtn = document.getElementById("uploadImagesBtn");
@@ -1040,13 +1041,22 @@ elHereBtn.addEventListener("click", async () => {
   }
 });
 
-elDateNowBtn.addEventListener("click", () => {
+function setDateVisitedRelativeToToday(days) {
   const now = new Date();
+  now.setDate(now.getDate() + days);
   const year = now.getFullYear();
   const month = String(now.getMonth() + 1).padStart(2, "0");
   const day = String(now.getDate()).padStart(2, "0");
   elDateVisited.value = `${year}-${month}-${day}`;
   setStatus("Date visited updated.", "ok");
+}
+
+elDateNowBtn.addEventListener("click", () => {
+  setDateVisitedRelativeToToday(0);
+});
+
+elDateYesterdayBtn.addEventListener("click", () => {
+  setDateVisitedRelativeToToday(-1);
 });
 
 function normalizeEmojiField(input) {

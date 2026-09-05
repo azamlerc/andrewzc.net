@@ -166,7 +166,12 @@ a {
 	color: #999;
 }
 
-.pageHeader {
+.caption.pageHeader,
+.small .caption.pageHeader,
+.medium .caption.pageHeader,
+.large .caption.pageHeader {
+	font: 24pt Avenir;
+	color: #999;
 	margin-top: -10px;
 	margin-bottom: 20px;
 }

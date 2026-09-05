@@ -58,6 +58,10 @@ export function lookupNearestCity(lat, lon) {
   return api(`/entities/nearby?lat=${lat}&lon=${lon}&radius=30&list=cities&limit=1`, { method: "GET" });
 }
 
+export function getRecentEntities(days = 30) {
+  return api(`/entities/recent?days=${encodeURIComponent(days)}`, { method: "GET" });
+}
+
 export function presignImages(list, key, count) {
   return api(`/entities/${encodeURIComponent(list)}/${encodeURIComponent(key)}/images/presign`, {
     method: "POST",
