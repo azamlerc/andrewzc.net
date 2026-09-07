@@ -105,36 +105,118 @@ async function canvasToJpegBlob(canvas, quality = 0.9) {
   });
 }
 
+const THUMB_SIZE = 600;
+
+// Downscale a square source to THUMB_SIZE and return the canvas.
+//
+// The obvious implementation — one drawImage() straight from full resolution
+// to 600px — is what this used to do, and it aliases badly. Canvas defaults to
+// imageSmoothingQuality "low" (roughly bilinear), which samples too few source
+// pixels when the reduction is large. That was tolerable on 12MP photos (a 5x
+// reduction) and became visibly chunky at 24MP (7x), which is why thumbnails
+// appeared to degrade without the code ever changing.
+//
+// createImageBitmap does the resize inside the browser's own image pipeline
+// with a proper filter. Support for resizeWidth/resizeQuality is not universal,
+// so we check what actually came back rather than trusting it, and fall back to
+// halving repeatedly — each step is a 2x reduction, where bilinear is fine.
+async function squareThumbCanvas(bitmap, sx, sy, size) {
+  const canvas = document.createElement("canvas");
+  canvas.width = THUMB_SIZE;
+  canvas.height = THUMB_SIZE;
+  const ctx = canvas.getContext("2d");
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+
+  if (typeof createImageBitmap === "function") {
+    let resized = null;
+    try {
+      resized = await createImageBitmap(bitmap, sx, sy, size, size, {
+        resizeWidth: THUMB_SIZE,
+        resizeHeight: THUMB_SIZE,
+        resizeQuality: "high",
+      });
+    } catch {
+      resized = null;
+    }
+    // Some browsers accept the options and ignore them. Only trust the result
+    // if it is actually the size we asked for.
+    if (resized && resized.width === THUMB_SIZE && resized.height === THUMB_SIZE) {
+      ctx.drawImage(resized, 0, 0);
+      resized.close?.();
+      return canvas;
+    }
+    resized?.close?.();
+  }
+
+  // Fallback: halve until within 2x of the target, then draw.
+  let stepCanvas = document.createElement("canvas");
+  let stepCtx = stepCanvas.getContext("2d");
+  stepCanvas.width = size;
+  stepCanvas.height = size;
+  stepCtx.imageSmoothingEnabled = true;
+  stepCtx.imageSmoothingQuality = "high";
+  stepCtx.drawImage(bitmap, sx, sy, size, size, 0, 0, size, size);
+
+  let current = size;
+  while (current > THUMB_SIZE * 2) {
+    const next = Math.max(THUMB_SIZE, Math.floor(current / 2));
+    const half = document.createElement("canvas");
+    half.width = next;
+    half.height = next;
+    const halfCtx = half.getContext("2d");
+    halfCtx.imageSmoothingEnabled = true;
+    halfCtx.imageSmoothingQuality = "high";
+    halfCtx.drawImage(stepCanvas, 0, 0, current, current, 0, 0, next, next);
+    stepCanvas = half;
+    stepCtx = halfCtx;
+    current = next;
+  }
+
+  ctx.drawImage(stepCanvas, 0, 0, current, current, 0, 0, THUMB_SIZE, THUMB_SIZE);
+  return canvas;
+}
+
 async function makeUploadBlobs(file) {
-  const img = await fileToImageElement(file);
-  const width = img.naturalWidth || img.width;
-  const height = img.naturalHeight || img.height;
+  // Decode once, honouring EXIF orientation. The <img> element did this
+  // implicitly; createImageBitmap does not unless asked, and getting it wrong
+  // would silently rotate every portrait photo.
+  let bitmap = null;
+  if (typeof createImageBitmap === "function") {
+    try {
+      bitmap = await createImageBitmap(file, { imageOrientation: "from-image" });
+    } catch {
+      bitmap = null;
+    }
+  }
+  const source = bitmap || await fileToImageElement(file);
+
+  const width = source.width || source.naturalWidth;
+  const height = source.height || source.naturalHeight;
   if (!width || !height) {
     throw new Error(`Invalid image: ${file.name}`);
   }
 
+  // Full size is drawn 1:1, so no resampling happens here and the smoothing
+  // setting is irrelevant. The re-encode is kept deliberately: it normalises
+  // orientation into pixels and strips EXIF, including GPS, before upload.
   const originalCanvas = document.createElement("canvas");
   originalCanvas.width = width;
   originalCanvas.height = height;
-  originalCanvas.getContext("2d").drawImage(img, 0, 0, width, height);
+  originalCanvas.getContext("2d").drawImage(source, 0, 0, width, height);
 
   const size = Math.min(width, height);
   const sx = Math.floor((width - size) / 2);
   const sy = Math.floor((height - size) / 2);
 
-  const thumbCanvas = document.createElement("canvas");
-  thumbCanvas.width = 600;
-  thumbCanvas.height = 600;
-  thumbCanvas.getContext("2d").drawImage(
-    img,
-    sx, sy, size, size,
-    0, 0, 600, 600
-  );
+  const thumbCanvas = await squareThumbCanvas(source, sx, sy, size);
 
   const [originalBlob, thumbBlob] = await Promise.all([
     canvasToJpegBlob(originalCanvas, 0.9),
     canvasToJpegBlob(thumbCanvas, 0.85),
   ]);
+
+  bitmap?.close?.();
 
   return {
     originalBlob,
