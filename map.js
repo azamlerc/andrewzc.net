@@ -359,7 +359,8 @@ function addEmojiMarker(map, place, test, tag, filename) {
 }
 
 function firstSentence(text) {
-  if (!text) return "";
+  // Ignore non-text API values so a malformed caption cannot abort marker rendering.
+  if (typeof text !== "string" || !text) return "";
   // split on ". " but keep the period on the first part
   const match = text.match(/(.*?[.!?])(\s|$)/);
   return match ? match[1] : text;
