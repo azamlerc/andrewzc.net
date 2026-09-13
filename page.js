@@ -39,7 +39,18 @@ function hasEntityFilters() {
     u.searchParams.get("country") ||
     u.searchParams.get("sort") ||
     u.searchParams.get("cluster") ||
-    u.searchParams.get("lines")
+    u.searchParams.get("lines") ||
+    u.searchParams.get("images") ||
+    u.searchParams.get("captions")
+  );
+}
+
+function hasMapResultFilters() {
+  const u = new URL(window.location.href);
+  return !!(
+    u.searchParams.get("q") ||
+    u.searchParams.get("country") ||
+    u.searchParams.get("sort")
   );
 }
 
@@ -78,6 +89,8 @@ function getEntityFilterState() {
   const defaultMap = getDefaultMapOptionState();
   const cluster = parseBooleanQueryValue(u.searchParams.get("cluster")) ?? defaultMap.cluster;
   const lines = parseBooleanQueryValue(u.searchParams.get("lines")) ?? defaultMap.lines;
+  const images = parseBooleanQueryValue(u.searchParams.get("images")) ?? true;
+  const captions = parseBooleanQueryValue(u.searchParams.get("captions")) ?? true;
 
   return {
     q,
@@ -86,6 +99,8 @@ function getEntityFilterState() {
     reverse: sort ? reverse : false,
     cluster,
     lines,
+    images,
+    captions,
   };
 }
 
@@ -767,10 +782,12 @@ function pickRowImages(entity, listCtx) {
 }
 
 function buildRowRenderState(entity, listCtx) {
-  const chosenImages = listCtx.hideMedia ? [] : pickRowImages(entity, listCtx);
+  const showImages = !listCtx.hideMedia && listCtx.showImages !== false;
+  const showCaptions = !listCtx.hideMedia && listCtx.showCaptions !== false;
+  const chosenImages = showImages ? pickRowImages(entity, listCtx) : [];
   return {
     chosenImages,
-    hasCaption: !listCtx.hideMedia && Boolean(entity?.caption),
+    hasCaption: showCaptions && Boolean(entity?.caption),
   };
 }
 
@@ -1269,9 +1286,9 @@ function applyEditModeToDom(pageId, editMode) {
 
 function getBasePageUrl(pageId) {
   const url = new URL(window.location.href);
-  url.searchParams.delete("q");
-  url.searchParams.delete("country");
-  url.searchParams.delete("sort");
+  ["q", "country", "sort", "cluster", "lines", "images", "captions"].forEach((name) => {
+    url.searchParams.delete(name);
+  });
 
   if (url.searchParams.get("id")) {
     url.searchParams.set("id", pageId);
@@ -1295,12 +1312,16 @@ function buildFilteredPageUrl(pageId, filters) {
   const defaultMap = getDefaultMapOptionState();
   const cluster = filters?.cluster ?? defaultMap.cluster;
   const lines = filters?.lines ?? defaultMap.lines;
+  const images = filters?.images ?? true;
+  const captions = filters?.captions ?? true;
 
   if (q) url.searchParams.set("q", q);
   if (countries.length > 0) url.searchParams.set("country", countries.join(",").toLowerCase());
   if (sort) url.searchParams.set("sort", `${descending ? "-" : ""}${sort}`);
   if (cluster !== defaultMap.cluster) url.searchParams.set("cluster", String(cluster));
   if (lines !== defaultMap.lines) url.searchParams.set("lines", String(lines));
+  if (!images) url.searchParams.set("images", "false");
+  if (!captions) url.searchParams.set("captions", "false");
 
   return url;
 }
@@ -1325,6 +1346,8 @@ function describeFilterState(filters) {
   if (filters?.lines !== defaultMap.lines) {
     parts.push(filters?.lines ? "gridlines on" : "gridlines off");
   }
+  if (filters?.images === false) parts.push("images hidden");
+  if (filters?.captions === false) parts.push("captions hidden");
   if (countries.length === 1) parts.push("1 country");
   else if (countries.length > 1) parts.push(`${countries.length} countries`);
 
@@ -1540,6 +1563,33 @@ function openFilterOverlay(pageId) {
     el("div", { class: "filterSortRow" }, clusterLabel, linesLabel)
   ) : null;
 
+  const imagesInput = el("input", {
+    type: "checkbox",
+    checked: currentFilters.images ? "checked" : null
+  });
+  const imagesLabel = el(
+    "label",
+    { class: "filterCheckbox" },
+    imagesInput,
+    el("span", null, text("Images"))
+  );
+  const captionsInput = el("input", {
+    type: "checkbox",
+    checked: currentFilters.captions ? "checked" : null
+  });
+  const captionsLabel = el(
+    "label",
+    { class: "filterCheckbox" },
+    captionsInput,
+    el("span", null, text("Captions"))
+  );
+  const placesField = el(
+    "div",
+    { class: "filterField" },
+    el("div", { class: "filterLabel" }, text("Places")),
+    el("div", { class: "filterSortRow" }, imagesLabel, captionsLabel)
+  );
+
   const countryContent = el("div", { class: "filterStatus" }, text("Loading countries…"));
   const countryField = el(
     "div",
@@ -1550,6 +1600,7 @@ function openFilterOverlay(pageId) {
 
   panel.append(header, searchField, sortField);
   if (mapField) panel.append(mapField);
+  panel.append(placesField);
   panel.append(countryField);
   backdrop.append(panel);
 
@@ -1571,6 +1622,8 @@ function openFilterOverlay(pageId) {
       reverse: !!(sort && reverseInput.checked),
       cluster: !!clusterInput.checked,
       lines: !!linesInput.checked,
+      images: !!imagesInput.checked,
+      captions: !!captionsInput.checked,
     };
   }
 
@@ -1598,6 +1651,8 @@ function openFilterOverlay(pageId) {
   reverseInput.addEventListener("change", updateSummary);
   clusterInput.addEventListener("change", updateSummary);
   linesInput.addEventListener("change", updateSummary);
+  imagesInput.addEventListener("change", updateSummary);
+  captionsInput.addEventListener("change", updateSummary);
 
   clearBtn.addEventListener("click", () => {
     window.location.assign(getBasePageUrl(pageId).toString());
@@ -1692,7 +1747,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     for (const f of fields) {
       if (listInfo.map[f] != null) attrs[f] = listInfo.map[f];
     }
-    if (hasEntityFilters()) attrs.fit = "results";
+    if (hasMapResultFilters()) attrs.fit = "results";
     else if (listInfo.map?.fit === "auto") attrs.fit = "auto";
     app.append(el("div", attrs));
 
@@ -1715,6 +1770,8 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
     headlines: listInfo.headlines || null,
     script: listInfo.script || null,
     hideMedia: Boolean(listInfo.propertyOf),
+    showImages: getEntityFilterState().images,
+    showCaptions: getEntityFilterState().captions,
     editMode: !!editMode,
     listId: pageId
   };

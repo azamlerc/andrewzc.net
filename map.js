@@ -178,7 +178,7 @@ function showPlaces(places, filename) {
     });
   
   const darkTiles = L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_3jh3_1_9faaa58de57c1b253ba542f0',
     {subdomains: 'abcd', maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors & CartoDB'}
   );
   const lightTiles = L.tileLayer(
