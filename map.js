@@ -11,15 +11,18 @@ addStylesheets([
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
 ]);
 
-// Convert an array of place entities into the object shape this file expects:
-// { [key]: place }
+// Convert an array of place entities into the object shape this file expects.
+// Entity keys are unique within a list, not across the whole database, so use
+// the canonical list/key pair when combining entities from multiple lists.
 function placesArrayToObject(arr) {
   const out = {};
   (arr || []).forEach(p => {
     if (!p) return;
-    const k = p.key || simplify(p.name || "");
-    if (!k) return;
-    out[k] = p;
+    const key = p.key || simplify(p.name || "");
+    if (!key) return;
+    const list = String(p.list || "").trim();
+    const objectKey = list ? `${list}/${key}` : key;
+    out[objectKey] = p;
   });
   return out;
 }
