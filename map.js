@@ -262,7 +262,9 @@ function showPlaces(places, filename) {
     }
   });
         
-  var event = new CustomEvent('mapReady', { detail: { map, places } });
+  // Let optional map features initialize even when their scripts arrive later.
+  window.__ANDREWZC_MAP_CONTEXT__ = { map, places };
+  var event = new CustomEvent('mapReady', { detail: window.__ANDREWZC_MAP_CONTEXT__ });
   document.dispatchEvent(event);
   console.log('Map ready');
 }

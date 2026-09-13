@@ -34,6 +34,8 @@
   }
 
   try {
+    // The trip endpoint resolves the page's include/exclude criteria, then merges
+    // explicit trip tags. Use that same final set for both sections and the map.
     const { pages, data } = await Results.fetchPagesAndData(
       `${Results.API_BASE}/trips/${encodeURIComponent(tripKey)}`
     );
@@ -53,6 +55,7 @@
     window.pageInfo = { ...page, usePageIconsOnMap: true };
 
     if (tripMap?.lat != null && tripMap?.lon != null && tripMap?.zoom != null) {
+      MapRoutes.showWhenReady({ trip: tripKey });
       const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
       const mapDiv = UI.el("div", { id: "map" });
       for (const field of fields) {

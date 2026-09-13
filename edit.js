@@ -68,6 +68,7 @@ let isCreateMode = false;
 let referenceAutocompleteNames = [];
 let tripAutocompleteKeys = [];
 let dragDepth = 0;
+let linkEnrichment = null;
 
 function blankEntity() {
   return {
@@ -239,6 +240,79 @@ function maybePopulateNameFromLink() {
   const derivedName = nameFromWikipediaUrl(elLink.value);
   if (!derivedName) return;
   elName.value = derivedName;
+}
+
+async function enrichFromLink({
+  lookUpLink = false,
+  saveAfter = false,
+  wikipediaOnly = false,
+  includeCoords = true,
+  includeCity = true,
+} = {}) {
+  if (linkEnrichment) return linkEnrichment;
+
+  linkEnrichment = (async () => {
+    let url = elLink.value.trim();
+    let changed = false;
+
+    if (!url && lookUpLink) {
+      const name = elName.value.trim();
+      if (!name) throw new Error("Enter a name before looking up Wikipedia.");
+
+      setStatus("Looking up Wikipedia…");
+      const result = await lookupWiki(name);
+      if (!result?.link) throw new Error("No Wikipedia result.");
+
+      elLink.value = result.link;
+      url = result.link;
+      changed = true;
+    }
+
+    if (!url && includeCoords) throw new Error("No link to enrich from.");
+    if (wikipediaOnly && (!url || !nameFromWikipediaUrl(url))) return false;
+
+    if (url) {
+      const nameBefore = elName.value.trim();
+      maybePopulateNameFromLink();
+      changed ||= elName.value.trim() !== nameBefore;
+    }
+
+    if (includeCoords && !elCoords.value.trim()) {
+      setStatus("Looking up coords…");
+      const result = await lookupCoords(url, LIST);
+      if (result?.coords) {
+        const normalized = normalizeCoords(result.coords);
+        elCoords.value = normalized?.coords || result.coords;
+        changed = true;
+      } else {
+        setStatus("No coords found for this URL.", "error");
+      }
+    }
+
+    if (includeCity && !elCity.value.trim() && elCoords.value.trim()) {
+      const point = parseCoordsInput(elCoords.value);
+      if (point) {
+        setStatus("Looking up nearest city…");
+        const result = await lookupNearestCity(point.lat, point.lon);
+        const city = result?.results?.[0];
+        if (city?.name) {
+          elCity.value = city.name;
+          changed = true;
+        }
+      }
+    }
+
+    if (saveAfter && changed) await save();
+    else if (changed) setStatus("Link details updated.", "ok");
+
+    return changed;
+  })();
+
+  try {
+    return await linkEnrichment;
+  } finally {
+    linkEnrichment = null;
+  }
 }
 
 function updateReferenceSuggestions() {
@@ -822,21 +896,10 @@ elBeen.addEventListener("click", () => togglePill(elBeen));
 elStrike.addEventListener("click", () => togglePill(elStrike));
 
 elLinkAutoBtn.addEventListener("click", async () => {
-  const name = elName.value.trim();
-  if (!name) return;
-
   try {
-    setStatus("Looking up Wikipedia…");
-    const res = await lookupWiki(name);
-
-    if (res && res.link) {
-      elLink.value = res.link;
-      await save();
-    } else {
-      setStatus("No Wikipedia result.", "error");
-    }
+    await enrichFromLink({ lookUpLink: true, saveAfter: true });
   } catch (err) {
-    setStatus("Wiki lookup failed. " + err.message, "error");
+    setStatus("Link enrichment failed. " + err.message, "error");
   }
 });
 
@@ -862,8 +925,7 @@ elLinkPasteBtn.addEventListener("click", async () => {
   try {
     const text = await readClipboardText();
     elLink.value = text;
-    maybePopulateNameFromLink();
-    setStatus("Pasted.", "ok");
+    await enrichFromLink({ wikipediaOnly: true });
   } catch (err) {
     setStatus(err.message || "Could not read from clipboard.", "error");
   }
@@ -919,18 +981,10 @@ document.addEventListener("drop", (event) => {
 });
 
 elCoordsAutoBtn.addEventListener("click", async () => {
-  const url = elLink.value.trim();
-  if (!url) { setStatus("No link to look up coords from.", "error"); return; }
-  if (elCoords.value.trim()) { setStatus("Coords already set.", "error"); return; }
-
   try {
-    setStatus("Looking up coords…");
-    const res = await lookupCoords(url, LIST);
-    if (!res?.coords) { setStatus("No coords found for this URL.", "error"); return; }
-    elCoords.value = res.coords;
-    await save();
+    await enrichFromLink({ saveAfter: true, includeCity: false });
   } catch (err) {
-    setStatus("Coords lookup failed. " + err.message, "error");
+    setStatus("Coords enrichment failed. " + err.message, "error");
   }
 });
 
@@ -959,26 +1013,29 @@ elReference.addEventListener("focus", updateReferenceSuggestions);
 elReference.addEventListener("input", updateReferenceSuggestions);
 elTrips.addEventListener("focus", updateTripSuggestions);
 elTrips.addEventListener("input", updateTripSuggestions);
-elLink.addEventListener("change", maybePopulateNameFromLink);
-elLink.addEventListener("blur", maybePopulateNameFromLink);
+elLink.addEventListener("change", () => {
+  enrichFromLink({ wikipediaOnly: true }).catch((err) => {
+    setStatus("Link enrichment failed. " + err.message, "error");
+  });
+});
+elLink.addEventListener("paste", () => {
+  setTimeout(() => {
+    enrichFromLink({ wikipediaOnly: true }).catch((err) => {
+      setStatus("Link enrichment failed. " + err.message, "error");
+    });
+  }, 0);
+});
 
 elCityAutoBtn.addEventListener("click", async () => {
-  const raw = (elCoords.value || "").trim();
-  if (!raw) { setStatus("No coords to look up city from.", "error"); return; }
-  const [latStr, lonStr] = raw.split(",");
-  const lat = parseFloat(latStr);
-  const lon = parseFloat(lonStr);
-  if (isNaN(lat) || isNaN(lon)) { setStatus("Invalid coords format (expected: lat, lon).", "error"); return; }
+  if (!elCoords.value.trim()) {
+    setStatus("No coords to look up city from.", "error");
+    return;
+  }
 
   try {
-    setStatus("Looking up nearest city…");
-    const res = await lookupNearestCity(lat, lon);
-    const city = res?.results?.[0];
-    if (!city) { setStatus("No city found within 20 km.", "error"); return; }
-    elCity.value = city.name;
-    await save();
+    await enrichFromLink({ saveAfter: true, includeCoords: false });
   } catch (err) {
-    setStatus("City lookup failed. " + err.message, "error");
+    setStatus("City enrichment failed. " + err.message, "error");
   }
 });
 
