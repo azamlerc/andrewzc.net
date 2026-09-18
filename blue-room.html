@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Room</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌀%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="blue-room.css">
+</head>
+<body class="blue-room">
+  <main>
+    <header><h1>🌀 Blue Room</h1>
+      <p class="intro">A conversation between two people. Who are they, and what's the situation?</p></header>
+    <form id="casting-form">
+      <fieldset id="casting-fields">
+        <textarea id="scenario" required rows="3" aria-label="The situation">You find yourself together with another passenger in a compartment on an overnight sleeper train from Paris to Berlin. Get to know each other as you pass the time.</textarea>
+        <div class="casting-options"><button type="submit" class="primary">Start a conversation</button></div>
+      </fieldset>
+    </form>
+    <p id="notice" role="status" aria-live="polite"></p>
+    <section id="session-panel" hidden aria-labelledby="session-title">
+      <div class="session-heading"><h2 id="session-title"></h2><button type="button" id="run-control">Resume</button></div>
+      <p id="progress" role="status" aria-live="polite"></p>
+      <div class="casting-options"><button type="button" id="show-now" hidden>Show message now</button></div>
+      <div id="transcript" role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions"></div>
+    </section>
+    <section class="history" aria-labelledby="history-title"><h2 id="history-title">Previous conversations</h2><p id="history-notice"></p><ul id="sessions"></ul></section>
+  </main>
+  <dialog id="persona-dialog" aria-labelledby="persona-title"><form method="dialog"><button class="dialog-close" aria-label="Close character brief">Close</button></form><h2 id="persona-title"></h2><p class="hint">Private self-portrait · visible to you, never shared with the other character.</p><p id="persona-brief" class="verbatim"></p></dialog>
+  <script src="blue-room-loop.js"></script>
+  <script src="blue-room-reveal.js"></script>
+  <script src="blue-room.js"></script>
+</body>
+</html>
