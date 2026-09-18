@@ -1742,6 +1742,12 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   // Map container (map.js will read #map attributes)
   if (hasMap) {
+    window.__ANDREWZC_MAP_EDIT_CONTEXT__ = {
+      storageKey: pageId,
+      editList: listInfo.propertyOf || pageId,
+      useEntityList: false,
+    };
+
     const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
     const attrs = { id: "map" };
     for (const f of fields) {

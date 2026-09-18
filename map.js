@@ -302,16 +302,96 @@ function addMarkers(map, layer, places, test, tag, filename) {
   }
 }
 
+function mapPopupEditContext() {
+  const configured = window.__ANDREWZC_MAP_EDIT_CONTEXT__;
+  const storageKey = String(configured?.storageKey || window.pageInfo?.key || "").trim();
+  if (!storageKey) return null;
+
+  return {
+    storageKey,
+    editList: String(configured?.editList || window.pageInfo?.propertyOf || window.pageInfo?.key || "").trim(),
+    // Maps without an explicit page.html context are result maps, whose
+    // markers should always edit their source entity.
+    useEntityList: configured?.useEntityList !== false,
+  };
+}
+
+function mapPopupEditHref(list, key) {
+  return `edit.html?list=${encodeURIComponent(list)}&key=${encodeURIComponent(key)}`;
+}
+
+function isMapPopupEditMode(context) {
+  return !!context && sessionStorage.getItem(`editMode:${context.storageKey}`) === "1";
+}
+
+function mapPopupEditList(context, entityList) {
+  return context?.useEntityList ? entityList : (context?.editList || entityList);
+}
+
+function mapPopupEntityLink(place) {
+  const context = mapPopupEditContext();
+  const key = String(place?.key || simplifyForReference(place?.name)).trim();
+  const entityList = String(place?.list || "").trim();
+  const list = mapPopupEditList(context, entityList);
+  const viewHref = String(place?.link || "#");
+  const editMode = isMapPopupEditMode(context) && key && list;
+  const href = editMode ? mapPopupEditHref(list, key) : viewHref;
+  const target = editMode ? "" : ' target="_blank"';
+
+  return `<a class="mapEntityLink" href="${escapeAttr(href)}"${target}`
+    + ` data-entity-key="${escapeAttr(key)}"`
+    + ` data-entity-list="${escapeAttr(entityList)}"`
+    + ` data-view-href="${escapeAttr(viewHref)}">${escapeHtml(place?.name || "")}</a>`;
+}
+
+function updateMapPopupEntityLinks(root = document) {
+  const context = mapPopupEditContext();
+  const editMode = isMapPopupEditMode(context);
+  const links = root?.querySelectorAll?.("a.mapEntityLink[data-entity-key][data-entity-list]") || [];
+
+  links.forEach((link) => {
+    const key = link.dataset.entityKey || "";
+    const list = mapPopupEditList(context, link.dataset.entityList || "");
+    if (editMode && key && list) {
+      link.href = mapPopupEditHref(list, key);
+      link.removeAttribute("target");
+    } else {
+      link.href = link.dataset.viewHref || "#";
+      link.target = "_blank";
+    }
+  });
+}
+
+// Popup contents are generated before the Edit toggle can be changed. Resolve the
+// destination at click time too, so an already-open popup cannot use a stale link.
+document.addEventListener("click", (event) => {
+  const link = event.target?.closest?.("a.mapEntityLink[data-entity-key][data-entity-list]");
+  if (!link) return;
+
+  const context = mapPopupEditContext();
+  if (!isMapPopupEditMode(context)) return;
+
+  const key = link.dataset.entityKey || "";
+  const list = mapPopupEditList(context, link.dataset.entityList || "");
+  if (!key || !list) return;
+
+  event.preventDefault();
+  window.location.href = mapPopupEditHref(list, key);
+});
+
 function addMarker(map, place, test, tag) {
     if (test(place)) {
         let latLong = getLatLong(place);
         if (latLong && latLong.length == 2) {
-            let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
+            let text = mapPopupEntityLink(place);
             if (place.icons) text = place.icons.join(' ') + ' ' + text;
             if (place.prefix) text = place.prefix + "<br>" + text;
             if (place.reference) text += "<br>" + place.reference;
             if (place.info) text += "<br>" + place.info;
             let marker = L.marker(latLong).addTo(map).bindPopup(text);
+            marker.on("popupopen", (event) => {
+              updateMapPopupEntityLinks(event.popup?.getElement?.());
+            });
             marker._icon.classList.add(tag);
             if (place.strike) marker._icon.classList.add("markerStrike");
             return marker;
@@ -325,7 +405,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
     if (test(place)) {
         let latLong = getLatLong(place);
         if (latLong && latLong.length === 2) {
-            let text = `<a href="${place.link}" target="_blank">${place.name}</a>`;
+            let text = mapPopupEntityLink(place);
             if (place.icons) text = place.icons.join(' ') + ' ' + text;
             if (place.prefix) text = place.prefix + "<br>" + text;
             if (place.images) text = `<img src="https://images.andrewzc.net/${place.list}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
@@ -354,6 +434,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
       
       marker.bindPopup(text);
       marker.on("popupopen", (event) => {
+        updateMapPopupEntityLinks(event.popup?.getElement?.());
         resolveInternalPageLinks(event.popup?.getElement?.()).catch(console.error);
       });
             return marker;

@@ -242,6 +242,20 @@ function maybePopulateNameFromLink() {
   elName.value = derivedName;
 }
 
+async function populateCityFromCoords() {
+  if (elCity.value.trim()) return false;
+
+  const point = parseCoordsInput(elCoords.value);
+  if (!point) return false;
+
+  const result = await lookupNearestCity(point.lat, point.lon);
+  const city = result?.results?.[0];
+  if (!city?.name) return false;
+
+  elCity.value = city.name;
+  return true;
+}
+
 async function enrichFromLink({
   lookUpLink = false,
   saveAfter = false,
@@ -290,16 +304,8 @@ async function enrichFromLink({
     }
 
     if (includeCity && !elCity.value.trim() && elCoords.value.trim()) {
-      const point = parseCoordsInput(elCoords.value);
-      if (point) {
-        setStatus("Looking up nearest city…");
-        const result = await lookupNearestCity(point.lat, point.lon);
-        const city = result?.results?.[0];
-        if (city?.name) {
-          elCity.value = city.name;
-          changed = true;
-        }
-      }
+      setStatus("Looking up nearest city…");
+      changed ||= await populateCityFromCoords();
     }
 
     if (saveAfter && changed) await save();
@@ -996,7 +1002,13 @@ elCoordsPasteBtn.addEventListener("click", async () => {
     if (result) {
       elCoords.value = result.coords;
     }
-    setStatus("Pasted.", "ok");
+
+    let cityAdded = false;
+    if (!elCity.value.trim()) {
+      setStatus("Looking up nearest city…");
+      cityAdded = await populateCityFromCoords();
+    }
+    setStatus(cityAdded ? "Coords and city pasted." : "Pasted.", "ok");
   } catch (err) {
     setStatus(err.message || "Could not read from clipboard.", "error");
   }

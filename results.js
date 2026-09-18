@@ -166,6 +166,13 @@ async function enableAdminControls(options = {}) {
   const { storageKey } = options;
   if (!storageKey) return false;
 
+  // Result pages combine entities from multiple lists, so map markers must edit
+  // the source entity rather than the page used to display the results.
+  window.__ANDREWZC_MAP_EDIT_CONTEXT__ = {
+    storageKey,
+    useEntityList: true,
+  };
+
   ensureEditClickHandler();
 
   const admin = await isAdminSession();
