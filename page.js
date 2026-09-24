@@ -1235,7 +1235,7 @@ function sortedGroups(listInfo, entities, listCtx) {
   } else if (listCtx.tags.includes("people")) {
     // People lists: been is not meaningful; render everything in one section.
     groups = [list];
-  } else if (["place", "country", "city"].includes(listInfo.type)) {
+  } else if (["place", "country", "city", "state"].includes(listInfo.type)) {
     const been = list.filter(e => e.been === true);
     const todo = list.filter(e => e.been === false || e.been == null);
     if (todo.length > 0) groups = [been, todo];

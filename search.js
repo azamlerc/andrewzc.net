@@ -2,6 +2,7 @@
   const headlineEl = document.getElementById("headline");
   const captionEl  = document.getElementById("caption");
   const inputEl    = document.getElementById("search-input");
+  const searchButton = document.getElementById("search-button");
 
   let pages  = [];
   let byList = null;
@@ -74,6 +75,7 @@
   if (q0) { inputEl.value = q0; runSearch(q0); }
 
   inputEl.addEventListener("keydown", e => { if (e.key === "Enter") submit(); });
+  searchButton.addEventListener("click", submit);
   inputEl.addEventListener("input", () => {
     if (!inputEl.value) {
       document.title         = "🔍 Search";

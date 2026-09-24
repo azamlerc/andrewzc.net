@@ -847,28 +847,19 @@ input[type="checkbox"].bingo {
 
 .search-bar {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .search-bar input[type="search"] {
   font: 24pt Avenir;
-  color: #999;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background: none;
-  outline: none;
-  -webkit-appearance: none;
-  appearance: none;
-  padding: 0;
-  width: 800px;
+  box-sizing: border-box;
+  width: min(800px, calc(100vw - 60px));
 }
 
 .search-bar button {
-  font: 24pt Avenir;
-  color: black;
-  border: none;
-  background: none;
   cursor: pointer;
-  padding: 0;
 }
 
 .sort-option {
