@@ -72,12 +72,17 @@ a {
 .headline {
 	margin-bottom: 0;
 	font: 48pt Avenir;
-	white-space: nowrap;
+	white-space: normal;
+	overflow-wrap: anywhere;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 18px;
 	max-width: 100%;
+}
+
+.headlineWrap.hasActions .headline {
+	max-width: calc(100% - 220px);
 }
 
 .headlineWrap {

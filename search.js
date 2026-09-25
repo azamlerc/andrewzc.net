@@ -132,7 +132,12 @@
 
       pages  = pd.pages || [];
       byList = Results.bucketByList(Results.withPageIcons(sd.results || [], pages));
-      tool   = Array.isArray(sd.tool) ? sd.tool.join(", ") : (sd.tool || "");
+      tool   = Array.isArray(sd.tool)
+        ? [...new Set(sd.tool)].map(name => {
+            const count = sd.tool.filter(t => t === name).length;
+            return count > 1 ? `${name} ×${count}` : name;
+          }).join(", ")
+        : (sd.tool || "");
       icon   = sd.icon || "";
 
       render();
