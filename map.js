@@ -214,9 +214,10 @@ function showPlaces(places, filename) {
     overlays["Gridlines"] = graticule;
     const layerControl = L.control.layers(null, overlays).addTo(map);
   
-    markerLayers.forEach(layer => {
+  markerLayers.forEach(layer => {
         addMarkers(map, layer.group, places, layer.filter, layer.tag, filename);
     });
+  window.__ANDREWZC_MAP_MARKER_LAYERS__ = markerLayers;
 
   if (fitMode === "results" || fitMode === "auto") {
     const points = getPlacesBounds(places);
@@ -443,6 +444,26 @@ function addEmojiMarker(map, place, test, tag, filename) {
         }
     }
 }
+
+// Results pages can change an entity's visited state without leaving the page.
+// Move its marker between the visited/to-do layers so the pin color is current.
+document.addEventListener("entityBeenChanged", (event) => {
+  const change = event.detail || {};
+  const places = window.places;
+  if (!Array.isArray(places) || !change.list || !change.key) return;
+
+  const place = places.find((entry) => String(entry?.list || "") === String(change.list)
+    && String(entry?.key || "") === String(change.key));
+  if (!place) return;
+
+  place.been = !!change.been;
+  if (!Array.isArray(window.__ANDREWZC_MAP_MARKER_LAYERS__)) return;
+
+  for (const layer of window.__ANDREWZC_MAP_MARKER_LAYERS__) {
+    layer.group.clearLayers();
+    addMarkers(map, layer.group, places, layer.filter, layer.tag, "results");
+  }
+});
 
 function firstSentence(text) {
   // Ignore non-text API values so a malformed caption cannot abort marker rendering.

@@ -109,12 +109,34 @@ function applyEditModeToDom(storageKey) {
   });
 }
 
+async function setEntityBeen(list, key, been) {
+  const res = await fetch(`${API_BASE}/entities/${encodeURIComponent(list)}/${encodeURIComponent(key)}`, {
+    method: "PUT",
+    credentials: "include",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ been: !!been }),
+  });
+
+  if (!res.ok) {
+    const data = await res.json().catch(() => null);
+    const err = new Error(data?.message || data?.error || `HTTP ${res.status}`);
+    err.status = res.status;
+    throw err;
+  }
+
+  return res.json().catch(() => null);
+}
+
 function ensureEditClickHandler() {
   if (editClickHandlerInstalled) return;
   editClickHandlerInstalled = true;
 
   document.addEventListener("click", (event) => {
-    const entityNode = event.target?.closest?.("[data-entity-key][data-entity-list]");
+    if (event.target?.closest?.("input.resultsBeenToggle")) return;
+    const entityNode = event.target?.closest?.("a[data-entity-key][data-entity-list]");
     if (!entityNode) return;
     if (!document.body.classList.contains("edit-mode")) return;
 
@@ -391,5 +413,6 @@ window.Results = {
   renderSections,
   renderEmpty,
   renderError,
+  setEntityBeen,
   enableAdminControls,
 };

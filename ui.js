@@ -43,6 +43,26 @@
       body.edit-mode .resultsEntityLabel[data-entity-key][data-entity-list] {
         cursor: pointer;
       }
+
+      .resultsEntityRow {
+        display: inline;
+      }
+
+      .resultsBeenToggle {
+        display: none;
+        width: 20px;
+        height: 20px;
+        margin: 0 8px 0 0;
+        position: relative;
+        top: -4px;
+        vertical-align: middle;
+        accent-color: #228b22;
+        cursor: pointer;
+      }
+
+      body.edit-mode .resultsBeenToggle {
+        display: inline-block;
+      }
     `;
     document.head.appendChild(style);
   })();
@@ -176,7 +196,20 @@
     const wrap = document.createDocumentFragment();
 
     const isTodo = entity.been === false && opts.suppressTodoIcons !== true;
-    const row = el("span");
+    const row = el("span", {
+      className: "resultsEntityRow",
+      "data-entity-key": entity.key || null,
+      "data-entity-list": entity.list || null,
+    });
+    row.dataset.been = entity.been === true ? "1" : "0";
+
+    const beenToggle = el("input", {
+      type: "checkbox",
+      className: "resultsBeenToggle",
+      "aria-label": `Mark ${entity.name ?? entity.key ?? "entity"} as been`,
+    });
+    beenToggle.checked = entity.been === true;
+    row.appendChild(beenToggle);
 
     // Prefix (years, sizes, etc.)
     if (entity.prefix) {
@@ -195,7 +228,7 @@
           : document.createTextNode(icon);
         return idx ? [document.createTextNode(" "), node] : [node];
       });
-      const iconWrap = isTodo ? el("span", { className: "todo" }, iconNodes) : el("span", {}, iconNodes);
+      const iconWrap = isTodo ? el("span", { className: "todo resultsEntityIcons" }, iconNodes) : el("span", { className: "resultsEntityIcons" }, iconNodes);
       row.appendChild(iconWrap);
       row.appendChild(document.createTextNode(" "));
     }
@@ -205,10 +238,11 @@
     if ((!entity.icons || entity.icons.length === 0) && entity.country) {
       const flagText = document.createTextNode(flagEmojiFromCountryCode(entity.country));
       if (isTodo) {
-        row.appendChild(el("span", { className: "todo" }, flagText));
+        row.appendChild(el("span", { className: "todo resultsEntityIcons" }, flagText));
         row.appendChild(document.createTextNode(" "));
       } else {
-        row.appendChild(document.createTextNode(flagEmojiFromCountryCode(entity.country) + " "));
+        row.appendChild(el("span", { className: "resultsEntityIcons" }, flagText));
+        row.appendChild(document.createTextNode(" "));
       }
     }
 
@@ -244,6 +278,23 @@
     if (entity.strike) {
       row.style.textDecoration = "line-through";
     }
+
+    beenToggle.addEventListener("change", async (event) => {
+      event.stopPropagation();
+      if (!entity.list || !entity.key || !window.Results?.setEntityBeen) return;
+      const nextBeen = beenToggle.checked;
+      const previousBeen = row.dataset.been === "1";
+      UI.setEntityRowBeen(row, nextBeen);
+      entity.been = nextBeen;
+      try {
+        await window.Results.setEntityBeen(entity.list, entity.key, nextBeen);
+      } catch (err) {
+        beenToggle.checked = previousBeen;
+        UI.setEntityRowBeen(row, previousBeen);
+        entity.been = previousBeen;
+        console.error("Could not update been state", err);
+      }
+    });
 
     const imageListId = entity?.list || opts.sectionKey || "";
     const images = Array.isArray(entity?.images) ? entity.images.filter(Boolean).slice(0, 3) : [];
@@ -303,6 +354,27 @@
     }
     return out;
   };
+
+  function setEntityRowBeen(row, been) {
+    if (!row) return;
+    const list = row.dataset.entityList || "";
+    const key = row.dataset.entityKey || "";
+    document.querySelectorAll(".resultsEntityRow").forEach((candidate) => {
+      if (candidate.dataset.entityList !== list || candidate.dataset.entityKey !== key) return;
+      candidate.querySelectorAll(".resultsEntityIcons")
+        .forEach((icon) => icon.classList.toggle("todo", !been));
+      candidate.querySelectorAll(".resultsBeenToggle")
+        .forEach((toggle) => { toggle.checked = !!been; });
+      candidate.dataset.been = been ? "1" : "0";
+    });
+    document.dispatchEvent(new CustomEvent("entityBeenChanged", {
+      detail: {
+        list,
+        key,
+        been: !!been,
+      },
+    }));
+  }
   
   window.UI = {
     el,
@@ -314,6 +386,7 @@
     parseCoords,
     round,
     dedupeEntities,
+    setEntityRowBeen,
     countryCodeFromFlagEmoji
   };
 })();
