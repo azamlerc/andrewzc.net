@@ -109,7 +109,18 @@ function applyEditModeToDom(storageKey) {
   });
 }
 
-async function setEntityBeen(list, key, been) {
+function todayDate() {
+  const now = new Date();
+  const pad = value => String(value).padStart(2, "0");
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+}
+
+async function setEntityBeen(list, key, been, existingDateVisited = "") {
+  const patch = { been: !!been };
+  if (been && !String(existingDateVisited || "").trim()) {
+    patch.dateVisited = todayDate();
+  }
+
   const res = await fetch(`${API_BASE}/entities/${encodeURIComponent(list)}/${encodeURIComponent(key)}`, {
     method: "PUT",
     credentials: "include",
@@ -117,7 +128,7 @@ async function setEntityBeen(list, key, been) {
       "Accept": "application/json",
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ been: !!been }),
+    body: JSON.stringify(patch),
   });
 
   if (!res.ok) {

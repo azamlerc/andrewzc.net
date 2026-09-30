@@ -284,14 +284,22 @@
       if (!entity.list || !entity.key || !window.Results?.setEntityBeen) return;
       const nextBeen = beenToggle.checked;
       const previousBeen = row.dataset.been === "1";
+      const previousDateVisited = entity.dateVisited || "";
       UI.setEntityRowBeen(row, nextBeen);
       entity.been = nextBeen;
       try {
-        await window.Results.setEntityBeen(entity.list, entity.key, nextBeen);
+        const updated = await window.Results.setEntityBeen(
+          entity.list,
+          entity.key,
+          nextBeen,
+          previousDateVisited,
+        );
+        if (updated?.dateVisited) entity.dateVisited = updated.dateVisited;
       } catch (err) {
         beenToggle.checked = previousBeen;
         UI.setEntityRowBeen(row, previousBeen);
         entity.been = previousBeen;
+        entity.dateVisited = previousDateVisited;
         console.error("Could not update been state", err);
       }
     });
