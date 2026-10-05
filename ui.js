@@ -248,25 +248,17 @@
 
     const label = entity.name ?? entity.key ?? "";
 
-    // Link vs plain text
-    if (entity.link) {
-      const a = el("a", {
-        href: entity.link,
-        id: entity.key || null,
-        className: "resultsEntityLabel",
-        "data-entity-key": entity.key || null,
-        "data-entity-list": entity.list || null,
-      });
-      a.textContent = label;
-      row.appendChild(a);
-    } else {
-      row.appendChild(el("span", {
-        className: "resultsEntityLabel",
-        "data-entity-key": entity.key || null,
-        "data-entity-list": entity.list || null,
-        text: label,
-      }));
-    }
+    // Keep an anchor even without an external link so results edit mode can
+    // switch its destination to the entity editor, just like page.html.
+    const a = el("a", {
+      href: entity.link || "#",
+      id: entity.key || null,
+      className: "resultsEntityLabel",
+      "data-entity-key": entity.key || null,
+      "data-entity-list": entity.list || null,
+    });
+    a.textContent = label;
+    row.appendChild(a);
 
     // Reference (dark, like old output)
     if (entity.reference) {

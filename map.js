@@ -146,6 +146,42 @@ const markerLayers = [
 
 let map;
 
+function mapViewStorageKey(url = new URL(window.location.href)) {
+  // Include query parameters: results pages share a pathname but show different
+  // trips, cities, countries, searches, date ranges, or nearby coordinates.
+  const params = new URLSearchParams(url.search);
+  params.sort();
+  const query = params.toString();
+  return `mapView:v1:${url.pathname}${query ? `?${query}` : ""}`;
+}
+
+function readMapView(storageKey) {
+  try {
+    const view = JSON.parse(sessionStorage.getItem(storageKey));
+    if (!view || ![view.lat, view.lon, view.zoom].every(Number.isFinite)) return null;
+    if (Math.abs(view.lat) > 90 || view.zoom < 0 || view.zoom > 19) return null;
+    return view;
+  } catch {
+    // Storage can be blocked, or contain an invalid value. Keep the defaults.
+    return null;
+  }
+}
+
+function rememberMapView(currentMap, storageKey) {
+  currentMap.on('moveend', () => {
+    const center = currentMap.getCenter();
+    try {
+      sessionStorage.setItem(storageKey, JSON.stringify({
+        lat: center.lat,
+        lon: center.lng,
+        zoom: currentMap.getZoom(),
+      }));
+    } catch {
+      // A storage failure must not interfere with map interaction.
+    }
+  });
+}
+
 function parseBooleanQueryValue(value) {
   if (value == null) return null;
   const normalized = String(value).trim().toLowerCase();
@@ -157,6 +193,8 @@ function parseBooleanQueryValue(value) {
 function showPlaces(places, filename) {
     let element = document.getElementById('map');
     const url = new URL(window.location.href);
+    const viewStorageKey = mapViewStorageKey(url);
+    const savedView = readMapView(viewStorageKey);
     let lat = element.getAttribute('lat') || 37;
     let lon = element.getAttribute('lon') || -40;
     let zoom = element.getAttribute('zoom') || 3;
@@ -191,7 +229,7 @@ function showPlaces(places, filename) {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const initialTiles = prefersDark ? darkTiles : lightTiles;
 
-    map = L.map('map', {center: [lat, lon], zoom: zoom, scrollWheelZoom: false, zoomSnap: 1, wheelDebounceTime: 150, wheelPxPerZoomLevel: 2000, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
+    map = L.map('map', {center: savedView ? [savedView.lat, savedView.lon] : [lat, lon], zoom: savedView ? savedView.zoom : zoom, scrollWheelZoom: false, zoomSnap: 1, wheelDebounceTime: 150, wheelPxPerZoomLevel: 2000, layers: [initialTiles, ...(markerLayers.map(l => l.group))]});
     const baseLayers = { 'OpenStreetMap': initialTiles };
   const graticule = L.latlngGraticule({
     showLabel: false,
@@ -219,7 +257,7 @@ function showPlaces(places, filename) {
     });
   window.__ANDREWZC_MAP_MARKER_LAYERS__ = markerLayers;
 
-  if (fitMode === "results" || fitMode === "auto") {
+  if (!savedView && (fitMode === "results" || fitMode === "auto")) {
     const points = getPlacesBounds(places);
     if (points.length > 1) {
       map.fitBounds(points, { padding: [30, 30] });
@@ -227,6 +265,7 @@ function showPlaces(places, filename) {
       map.setView(points[0], Math.max(Number(zoom) || 3, 10));
     }
   }
+  rememberMapView(map, viewStorageKey);
   
   if (filename == "route-20") {
   
@@ -389,7 +428,9 @@ function addMarker(map, place, test, tag) {
             if (place.prefix) text = place.prefix + "<br>" + text;
             if (place.reference) text += "<br>" + place.reference;
             if (place.info) text += "<br>" + place.info;
-            let marker = L.marker(latLong).addTo(map).bindPopup(text);
+            let marker = L.marker(latLong, {
+                opacity: place.strike ? 0.5 : 1
+            }).addTo(map).bindPopup(text);
             marker.on("popupopen", (event) => {
               updateMapPopupEntityLinks(event.popup?.getElement?.());
             });
@@ -424,6 +465,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
               : ((place.icons && place.icons.length > iconIndex) ? place.icons[iconIndex] : "");
 
             let marker = L.marker(latLong, {
+                opacity: place.strike ? 0.5 : 1,
                 icon: L.divIcon({
                     className: `emoji-pin ${tag} ${place.strike ? 'markerStrike' : ''}`,
                     html: `<div class="pin-emoji ${tag}">${emoji}</div>`,

@@ -1,21 +1,28 @@
-// Shared database-backed route layer for airport and trip maps.
+// Shared database-backed route layer for airport, trip, and transit maps.
 (function () {
   if (window.MapRoutes) return;
   let selection = null;
+  let styleDefaults = {};
   let geodesicPromise;
   const rendered = new WeakMap();
 
-  function style(route) {
+  function style(route, defaults = {}) {
+    const appearance = { ...defaults, ...(route.style || {}) };
+    const defaultDash = route.path && Object.hasOwn(route.path, "dashArray")
+      ? route.path.dashArray
+      : route.mode === "rail" ? "14,10" : route.mode === "road" ? "1,8" : null;
     return {
-      color: route.been === true ? "#228b22" : "#dc2626",
-      weight: 2.5,
+      color: appearance.color || route.color || (route.been === true ? "#228b22" : "#dc2626"),
+      weight: Number.isFinite(appearance.weight) && appearance.weight > 0 ? appearance.weight : 2.5,
       opacity: 0.8,
-      dashArray: route.mode === "rail" ? "14,10" : route.mode === "road" ? "1,8" : null,
+      dashArray: appearance.lineType === "solid" ? null
+        : appearance.lineType === "dashed" ? "14,10"
+        : appearance.lineType === "dotted" ? "1,8" : defaultDash,
       lineCap: "round",
     };
   }
 
-  async function draw(map, { routes = [], entities = [] }) {
+  async function draw(map, { routes = [], entities = [] }, defaults = {}) {
     const byRef = new Map(entities.map(entity => [JSON.stringify([entity.list, entity.key]), entity]));
     const layer = L.layerGroup().addTo(map);
     let geodesicAvailable = true;
@@ -43,10 +50,10 @@
         continue;
       }
       const line = greatCircle
-        ? L.geodesic([points], { ...style(route), wrap: true, steps: 4 })
-        : L.polyline(points, style(route));
+        ? L.geodesic([points], { ...style(route, defaults), wrap: true, steps: 4 })
+        : L.polyline(points, style(route, defaults));
       const label = document.createElement("span");
-      label.textContent = `${route.name || route.key} · ${route.been === true ? "Travelled" : "Planned"}`;
+      label.textContent = `${route.name || route.key}${typeof route.been === "boolean" ? ` · ${route.been ? "Travelled" : "Planned"}` : ""}`;
       line.bindTooltip(label).addTo(layer);
     }
     return layer;
@@ -61,7 +68,7 @@
       const base = (new URL(location.href).searchParams.get("api") || "https://api.andrewzc.net").replace(/\/+$/, "");
       const response = await fetch(`${base}/routes?${query}`, { headers: { Accept: "application/json" } });
       if (!response.ok) throw new Error(`Routes request failed (${response.status})`);
-      await draw(context.map, await response.json());
+      await draw(context.map, await response.json(), styleDefaults);
     } catch (err) {
       rendered.delete(context.map);
       console.error("Could not display map routes", err);
@@ -74,8 +81,9 @@
 
   window.MapRoutes = {
     style, draw,
-    showWhenReady(filter) {
+    showWhenReady(filter, defaults = {}) {
       selection = filter;
+      styleDefaults = defaults;
       void show(window.__ANDREWZC_MAP_CONTEXT__);
     },
   };
