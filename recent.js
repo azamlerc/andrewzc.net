@@ -21,7 +21,7 @@ function setIntro(captionEl, text) {
 
   try {
     const { pages, data } = await Results.fetchPagesAndData(
-      `${Results.API_BASE}/entities/recent?days=${encodeURIComponent(days)}`
+      `${Results.API_BASE}/entities/recent?days=${encodeURIComponent(days)}&limit=300`
     );
 
     const entities = Results.withPageIcons(data.results || data, pages);
