@@ -42,8 +42,8 @@
     });
 
     // Map
-    const center = UI.parseCoords(city.coords);
-    if (!center) throw new Error(`City entity is missing coords for ${cityName} (${cityKey})`);
+    const center = UI.entityLocation(city);
+    if (!center) throw new Error(`City entity is missing location for ${cityName} (${cityKey})`);
 
     const mapDiv = UI.el("div", { id: "map" });
     mapDiv.setAttribute("lat",  String(UI.round(center.lat, 4)));

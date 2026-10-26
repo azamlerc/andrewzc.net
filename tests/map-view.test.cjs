@@ -50,7 +50,7 @@ function setup(href, storage = new Map(), attributes = {}) {
   vm.runInContext(fs.readFileSync(require.resolve('../map.js'), 'utf8'), context);
   // Marker rendering is unrelated to view persistence; retain real bounds logic.
   context.addMarkers = () => {};
-  const places = { a: { coords: '45, 5' }, b: { coords: '55, 15' } };
+  const places = { a: { location: { type: 'Point', coordinates: [5, 45] } }, b: { location: { type: 'Point', coordinates: [15, 55] } } };
   return { context, maps, storage, show: () => context.showPlaces(places, 'example') };
 }
 

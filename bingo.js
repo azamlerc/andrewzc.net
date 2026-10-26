@@ -53,10 +53,10 @@ async function fetchIncludedEntities(page) {
     }));
 }
 
-function sortByCoords(list) {
+function sortByLocation(list) {
   list.sort((a, b) => {
-    const coordsA = UI.parseCoords(a.coords);
-    const coordsB = UI.parseCoords(b.coords);
+    const coordsA = UI.entityLocation(a);
+    const coordsB = UI.entityLocation(b);
     if (!coordsA || !coordsB) return String(a.name || "").localeCompare(String(b.name || ""));
     return coordsB.lat !== coordsA.lat ? coordsB.lat - coordsA.lat : coordsA.lon - coordsB.lon;
   });
@@ -69,7 +69,7 @@ function sortPageEntities(page, list) {
   }
 
   if (page.key === "confluence") {
-    sortByCoords(list);
+    sortByLocation(list);
     return;
   }
 

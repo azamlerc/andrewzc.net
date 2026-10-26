@@ -58,18 +58,16 @@ const pages = [
 ];
 
 function inRect(place, minLat, maxLat, minLon, maxLon) {
-  if (!place.coords) return false;
-  let coords = place.coords.split(",").map(c => Number(c.trim()));
-  if (coords.length != 2) return false;
-  let lat = coords[0];
-  let lon = coords[1];
+  const point = getLatLong(place);
+  if (!point) return false;
+  const [lat, lon] = point;
   return lat >= minLat && lat <= maxLat && lon >= minLon && lon <= maxLon;
 }
 
 function bingoFilter(place) {
   if (["Madrid", "Bilbao", "Bordeaux"].includes(place.city)) return true;
   if (place.name == "Vitoria") {
-    console.log(place.name, place.coords, "inRect", inRect(place, 42, 46, -4, 0));
+    console.log(place.name, place.location, "inRect", inRect(place, 42, 46, -4, 0));
   }
   if (inRect(place, 42, 46, -4, 0)) return true;
   return false;

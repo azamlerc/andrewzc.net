@@ -17,7 +17,7 @@ shared `map-routes.js` layer.
    every route stop it resolves the `{ list, key }` reference against the
    `entities` collection and returns `{ routes, entities }`.
 5. The browser indexes those endpoint entities by their list/key pair,
-   converts `location` or legacy `coords` to Leaflet latitude/longitude
+   converts GeoJSON `location` to Leaflet latitude/longitude
    points, and draws a polyline through the ordered `stops` array. A route with
    a missing or coordinate-less stop is skipped rather than drawing a false
    connection.

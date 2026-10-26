@@ -50,8 +50,8 @@ export function lookupWiki(name) {
   return api(`/wiki?q=${encodeURIComponent(name)}`, { method: "GET" });
 }
 
-export function lookupCoords(url, list) {
-  return api(`/coords?url=${encodeURIComponent(url)}&list=${encodeURIComponent(list)}`, { method: "GET" });
+export function lookupLocation(url, list) {
+  return api(`/location?url=${encodeURIComponent(url)}&list=${encodeURIComponent(list)}`, { method: "GET" });
 }
 
 export function lookupNearestCity(lat, lon) {

@@ -1,14 +1,12 @@
-// Extract {lat, lon} from an entity, matching the two formats map.js supports.
-function entityCoords(e) {
-  const loc = e.location;
-  if (loc?.type === "Point" && Array.isArray(loc.coordinates)) {
-    return { lat: loc.coordinates[1], lon: loc.coordinates[0] };
-  }
-  if (typeof e.coords === "string") {
-    const [a, b] = e.coords.split(",").map(Number);
-    if (isFinite(a) && isFinite(b)) return { lat: a, lon: b };
-  }
-  return null;
+// Extract the canonical GeoJSON Point for map bounds.
+function entityCoords(entity) {
+  const location = entity?.location;
+  if (location?.type !== "Point" || !Array.isArray(location.coordinates)
+      || location.coordinates.length !== 2) return null;
+  const [lon, lat] = location.coordinates;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)
+      || Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  return { lat, lon };
 }
 
 // Return the Leaflet zoom level that fits a bounding box in the #map div (1260×600px).

@@ -27,35 +27,15 @@ function placesArrayToObject(arr) {
   return out;
 }
 
-// Prefer GeoJSON location over legacy coords for marker placement
+// GeoJSON stores longitude first; Leaflet expects latitude first.
 function getLatLong(place) {
-  // Prefer GeoJSON location: { type: "Point", coordinates: [lon, lat] }
-  const loc = place && place.location;
-  if (loc && loc.type === "Point" && Array.isArray(loc.coordinates) && loc.coordinates.length >= 2) {
-    const lon = Number(loc.coordinates[0]);
-    const lat = Number(loc.coordinates[1]);
-    if (Number.isFinite(lat) && Number.isFinite(lon)) {
-      return [lat, lon]; // Leaflet expects [lat, lon]
-    }
-  }
-
-  // Fallback to legacy coords string: "lat, lon" (supports DMS via convertToDecimal)
-  if (place && typeof place.coords === "string") {
-    const parts = place.coords.split(',').map(s => s.trim()).filter(Boolean);
-    if (parts.length >= 2) {
-      try {
-        const lat = convertToDecimal(parts[0]);
-        const lon = convertToDecimal(parts[1]);
-        if (Number.isFinite(lat) && Number.isFinite(lon)) {
-          return [lat, lon];
-        }
-      } catch (e) {
-        // handled by caller
-      }
-    }
-  }
-
-  return null;
+  const location = place?.location;
+  if (location?.type !== "Point" || !Array.isArray(location.coordinates)
+      || location.coordinates.length !== 2) return null;
+  const [lon, lat] = location.coordinates;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)
+      || Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  return [lat, lon];
 }
 
 function getPlacesBounds(places) {
@@ -97,15 +77,14 @@ async function loadPlaces(filename) {
   const fromGlobals = getPlacesFromGlobals(filename);
   if (fromGlobals) return fromGlobals;
 
-  // Fallback to the legacy static JSON location
-  const res = await fetch(`data/${filename}.json`);
+  // Standalone maps use the same canonical entity data as dynamic pages.
+  const res = await fetch(`https://api.andrewzc.net/pages/${encodeURIComponent(filename)}/entities`);
   if (!res.ok) {
-    throw new Error(`Failed to load data/${filename}.json (${res.status})`);
+    throw new Error(`Failed to load map entities for ${filename} (${res.status})`);
   }
 
   const json = await res.json();
-  // Accept either an object-map or an array
-  return Array.isArray(json) ? placesArrayToObject(json) : json;
+  return placesArrayToObject(json.entities || []);
 }
 
 loadScripts([
@@ -438,7 +417,7 @@ function addMarker(map, place, test, tag) {
             if (place.strike) marker._icon.classList.add("markerStrike");
             return marker;
         } else {
-            console.log(`Invalid coordinates: ${place.name}, ${place.coords}`);
+            console.log(`Invalid coordinates: ${place.name}, ${JSON.stringify(place.location)}`);
         }
     }
 }
@@ -482,7 +461,7 @@ function addEmojiMarker(map, place, test, tag, filename) {
       });
             return marker;
         } else {
-            console.log(`Invalid coordinates: ${place.name}, ${place.coords}`);
+            console.log(`Invalid coordinates: ${place.name}, ${JSON.stringify(place.location)}`);
         }
     }
 }

@@ -162,7 +162,7 @@
 
     const results = Array.from(byList.values()).flat();
     const mapped = Results.withPageIcons(results, pages);
-    const mapEntities = mapped.filter(e => UI.parseCoords(e.coords) || (e.location?.type === "Point" && Array.isArray(e.location.coordinates)));
+    const mapEntities = mapped.filter(e => UI.entityLocation(e));
     if (mapEntities.length > 0) {
       window.places = mapEntities;
       window.pageInfo = { key: "search", usePageIconsOnMap: true };

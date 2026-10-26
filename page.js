@@ -613,20 +613,13 @@ function countryCodeFromFlagEmoji(icon) {
 }
 
 function entityCoords(entity) {
-  const loc = entity?.location;
-  if (loc?.type === "Point" && Array.isArray(loc.coordinates) && loc.coordinates.length >= 2) {
-    const [lon, lat] = loc.coordinates.map(Number);
-    if (Number.isFinite(lat) && Number.isFinite(lon)) return { lat, lon };
-  }
-
-  if (typeof entity?.coords === "string") {
-    const parts = entity.coords.split(",").map(s => Number(s.trim()));
-    if (parts.length >= 2 && Number.isFinite(parts[0]) && Number.isFinite(parts[1])) {
-      return { lat: parts[0], lon: parts[1] };
-    }
-  }
-
-  return null;
+  const location = entity?.location;
+  if (location?.type !== "Point" || !Array.isArray(location.coordinates)
+      || location.coordinates.length !== 2) return null;
+  const [lon, lat] = location.coordinates;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)
+      || Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  return { lat, lon };
 }
 
 function appleMapsHrefForEntity(entity) {
@@ -1082,7 +1075,7 @@ function compareValues(av, bv, { numeric = false, descending = false, ignoreLead
   return descending ? -out : out;
 }
 
-function compareCoords(aEntity, bEntity, descending = false) {
+function compareLocations(aEntity, bEntity, descending = false) {
   const a = entityCoords(aEntity);
   const b = entityCoords(bEntity);
 
@@ -1139,9 +1132,10 @@ function buildComparator(sortSpec, tags) {
     const isIconCount = (key === "iconCount");
     const isCountries = (key === "countries");
     const isStates = (key === "states");
-    const isCoords = (key === "coords");
+    // Accept the old page sort name as metadata; entity data uses location only.
+    const isLocation = (key === "location" || key === "coords");
     const valueKey = (key === "distance") ? "locationDistance" : key;
-    return { key, valueKey, descending, numeric, isIcons, isIconCount, isCountries, isStates, isCoords };
+    return { key, valueKey, descending, numeric, isIcons, isIconCount, isCountries, isStates, isLocation };
   });
 
   return (a, b) => {
@@ -1164,8 +1158,8 @@ function buildComparator(sortSpec, tags) {
         const bs = codesFromEntity(b, "states", "state");
         c = compareCodeArrays(as, bs);
         if (k.descending) c = -c;
-      } else if (k.isCoords) {
-        c = compareCoords(a, b, k.descending);
+      } else if (k.isLocation) {
+        c = compareLocations(a, b, k.descending);
       } else {
         c = compareValues(a?.[k.valueKey], b?.[k.valueKey], {
           numeric: k.numeric,

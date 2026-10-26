@@ -26,7 +26,7 @@ function setIntro(captionEl, text) {
 
     const entities = Results.withPageIcons(data.results || data, pages);
     const byList   = Results.bucketByList(entities);
-    const mapEntities = entities.filter(e => UI.parseCoords(e.coords) || (e.location?.type === "Point" && Array.isArray(e.location.coordinates)));
+    const mapEntities = entities.filter(e => UI.entityLocation(e));
 
     setIntro(captionEl, introText);
 

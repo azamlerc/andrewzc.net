@@ -1,10 +1,11 @@
+import { formatLocation, parseLocationInput, normalizeLocationInput } from "./location-input.js";
 import {
   getEntity,
   createEntity,
   updateEntity,
   deleteEntityApi,
   lookupWiki,
-  lookupCoords,
+  lookupLocation,
   lookupNearestCity,
   getPageEntities,
   getPagesByDataset,
@@ -35,7 +36,7 @@ const elTripSuggestions = document.getElementById("tripSuggestions");
 const elReference = document.getElementById("reference");
 const elReferenceSuggestions = document.getElementById("referenceSuggestions");
 const elLink = document.getElementById("link");
-const elCoords = document.getElementById("coords");
+const elLocation = document.getElementById("location");
 const elCity = document.getElementById("city");
 const elBeen = document.getElementById("been");
 const elStrike = document.getElementById("strike");
@@ -48,8 +49,8 @@ const elDeleteBtn = document.getElementById("deleteBtn");
 const elNamePasteBtn = document.getElementById("namePasteBtn");
 const elLinkAutoBtn = document.getElementById("linkAutoBtn");
 const elLinkPasteBtn = document.getElementById("linkPasteBtn");
-const elCoordsAutoBtn = document.getElementById("coordsAutoBtn");
-const elCoordsPasteBtn = document.getElementById("coordsPasteBtn");
+const elLocationAutoBtn = document.getElementById("locationAutoBtn");
+const elLocationPasteBtn = document.getElementById("locationPasteBtn");
 const elCityAutoBtn = document.getElementById("cityAutoBtn");
 const elReferenceAutoBtn = document.getElementById("referenceAutoBtn");
 const elOpenBtn = document.getElementById("openBtn");
@@ -84,7 +85,7 @@ function blankEntity() {
     trips: [],
     reference: "",
     link: "",
-    coords: "",
+    location: null,
     city: "",
     images: [],
     been: false,
@@ -242,10 +243,10 @@ function maybePopulateNameFromLink() {
   elName.value = derivedName;
 }
 
-async function populateCityFromCoords() {
+async function populateCityFromLocation() {
   if (elCity.value.trim()) return false;
 
-  const point = parseCoordsInput(elCoords.value);
+  const point = parseLocationInput(elLocation.value);
   if (!point) return false;
 
   const result = await lookupNearestCity(point.lat, point.lon);
@@ -260,7 +261,7 @@ async function enrichFromLink({
   lookUpLink = false,
   saveAfter = false,
   wikipediaOnly = false,
-  includeCoords = true,
+  includeLocation = true,
   includeCity = true,
 } = {}) {
   if (linkEnrichment) return linkEnrichment;
@@ -282,7 +283,7 @@ async function enrichFromLink({
       changed = true;
     }
 
-    if (!url && includeCoords) throw new Error("No link to enrich from.");
+    if (!url && includeLocation) throw new Error("No link to enrich from.");
     if (wikipediaOnly && (!url || !nameFromWikipediaUrl(url))) return false;
 
     if (url) {
@@ -291,21 +292,21 @@ async function enrichFromLink({
       changed ||= elName.value.trim() !== nameBefore;
     }
 
-    if (includeCoords && !elCoords.value.trim()) {
-      setStatus("Looking up coords…");
-      const result = await lookupCoords(url, LIST);
-      if (result?.coords) {
-        const normalized = normalizeCoords(result.coords);
-        elCoords.value = normalized?.coords || result.coords;
+    if (includeLocation && !elLocation.value.trim()) {
+      setStatus("Looking up location…");
+      const result = await lookupLocation(url, LIST);
+      if (result?.location) {
+        elLocation.value = formatLocation(result.location);
         changed = true;
       } else {
-        setStatus("No coords found for this URL.", "error");
+        setStatus("No location found for this URL.", "error");
       }
     }
 
-    if (includeCity && !elCity.value.trim() && elCoords.value.trim()) {
+    if (includeCity && !elCity.value.trim() && elLocation.value.trim()) {
       setStatus("Looking up nearest city…");
-      changed ||= await populateCityFromCoords();
+      const cityAdded = await populateCityFromLocation();
+      changed ||= cityAdded;
     }
 
     if (saveAfter && changed) await save();
@@ -607,7 +608,7 @@ function populateFields(e) {
   elTrips.value = arrayToWords(tripsValue(e));
   elReference.value = e.reference || "";
   elLink.value = e.link || "";
-  elCoords.value = e.coords || "";
+  elLocation.value = formatLocation(e.location);
   elCity.value = e.city || "";
   setPill(elBeen, !!e.been);
   setPill(elStrike, !!e.strike);
@@ -621,6 +622,10 @@ function populateForm(e) {
 function currentFormEntity() {
   const iconsArr = iconsStringToArray(elIcons.value);
   const badgesArr = iconsStringToArray(elBadges.value);
+  const input = elLocation.value.trim();
+  const point = input ? parseLocationInput(input) : null;
+  if (input && !point) throw new Error('Invalid location. Enter latitude, longitude or DMS coordinates.');
+  const location = point ? { type: "Point", coordinates: [point.lon, point.lat] } : null;
 
   return {
     icons: iconsArr,
@@ -633,7 +638,7 @@ function currentFormEntity() {
     trips: wordsToArray(elTrips.value),
     reference: normalizeApostrophes(elReference.value).trim(),
     link: elLink.value.trim(),
-    coords: elCoords.value.trim(),
+    location,
     city: elCity.value.trim(),
     been: isPillOn(elBeen),
     strike: isPillOn(elStrike)
@@ -656,69 +661,23 @@ function pruneCreatePayload(entity) {
   return payload;
 }
 
-function parseDMSComponent(s) {
-  s = s.trim();
-  const decMatch = s.match(/^([+-]?\d+(?:\.\d+)?)°?\s*([NSEWOnsew]?)$/);
-  if (decMatch) {
-    let v = parseFloat(decMatch[1]);
-    const dir = decMatch[2].toUpperCase();
-    if (dir === "S" || dir === "W" || dir === "O") v = -v;
-    return v;
-  }
-  const dmsMatch = s.match(/^(\d+(?:\.\d+)?)°(?:(\d+(?:\.\d+)?)[′'`])?(?:(\d+(?:\.\d+)?)[″"])?\s*([NSEWOnsew]?)$/);
-  if (dmsMatch) {
-    const deg = parseFloat(dmsMatch[1]) || 0;
-    const min = parseFloat(dmsMatch[2]) || 0;
-    const sec = parseFloat(dmsMatch[3]) || 0;
-    let v = deg + min / 60 + sec / 3600;
-    const dir = (dmsMatch[4] || "").toUpperCase();
-    if (dir === "S" || dir === "W" || dir === "O") v = -v;
-    return v;
-  }
-  return null;
-}
-
-function parseCoordsInput(s) {
-  if (!s) return null;
-  s = s.trim();
-
-  const commaIdx = s.indexOf(",");
-  if (commaIdx !== -1) {
-    const lat = parseDMSComponent(s.slice(0, commaIdx));
-    const lon = parseDMSComponent(s.slice(commaIdx + 1));
-    if (lat != null && lon != null && !isNaN(lat) && !isNaN(lon)) return { lat, lon };
-  }
-
-  const spaceMatch = s.match(/^(\S+[NSns])\s+(\S+[EWOewo])$/);
-  if (spaceMatch) {
-    const lat = parseDMSComponent(spaceMatch[1]);
-    const lon = parseDMSComponent(spaceMatch[2]);
-    if (lat != null && lon != null && !isNaN(lat) && !isNaN(lon)) return { lat, lon };
-  }
-
-  return null;
-}
-
-function normalizeCoords(s) {
-  const parsed = parseCoordsInput(s);
-  if (!parsed) return null;
-  const fmt = n => parseFloat(n.toFixed(8)).toString();
-  return { lat: parsed.lat, lon: parsed.lon, coords: `${fmt(parsed.lat)}, ${fmt(parsed.lon)}` };
-}
-
 function diffPatch(orig, cur) {
   const patch = {};
 
-  const fields = ["name", "prefix", "info", "caption", "reference", "link", "city", "coords", "dateVisited", "been", "strike"];
+  const fields = ["name", "prefix", "info", "caption", "reference", "link", "city", "dateVisited", "been", "strike"];
   for (const f of fields) {
     const o = orig[f] ?? (typeof cur[f] === "boolean" ? false : "");
     const c = cur[f];
     if (o !== c) patch[f] = c;
   }
 
-  if ("coords" in patch) {
-    const parsed = parseCoordsInput(patch.coords);
-    patch.location = parsed ? { type: "Point", coordinates: [parsed.lon, parsed.lat] } : null;
+  const previousLocation = orig.location ?? null;
+  const nextLocation = cur.location ?? null;
+  const sameLocation = previousLocation === nextLocation
+    || (previousLocation?.type === "Point" && nextLocation?.type === "Point"
+      && JSON.stringify(previousLocation.coordinates) === JSON.stringify(nextLocation.coordinates));
+  if (!sameLocation) {
+    patch.location = cur.location;
   }
 
   const oIcons = Array.isArray(orig.icons) ? orig.icons : [];
@@ -792,7 +751,9 @@ async function load() {
 async function save() {
   if (!original) return;
 
-  const cur = currentFormEntity();
+  let cur;
+  try { cur = currentFormEntity(); }
+  catch (err) { setStatus(err.message, "error"); return; }
   const patch = diffPatch(original, cur);
 
   const keys = Object.keys(patch);
@@ -849,9 +810,12 @@ function resetForm() {
 function duplicateEntity() {
   if (!original || isCreateMode) return;
 
+  let draft;
+  try { draft = currentFormEntity(); }
+  catch (err) { setStatus(err.message, "error"); return; }
   original = normalizeEntity({
     ...blankEntity(),
-    ...currentFormEntity(),
+    ...draft,
     images: [],
   });
   KEY = "";
@@ -986,29 +950,29 @@ document.addEventListener("drop", (event) => {
   uploadImages(files);
 });
 
-elCoordsAutoBtn.addEventListener("click", async () => {
+elLocationAutoBtn.addEventListener("click", async () => {
   try {
     await enrichFromLink({ saveAfter: true, includeCity: false });
   } catch (err) {
-    setStatus("Coords enrichment failed. " + err.message, "error");
+    setStatus("Location enrichment failed. " + err.message, "error");
   }
 });
 
-elCoordsPasteBtn.addEventListener("click", async () => {
+elLocationPasteBtn.addEventListener("click", async () => {
   try {
     const text = await readClipboardText();
-    elCoords.value = text;
-    const result = normalizeCoords(elCoords.value);
+    elLocation.value = text;
+    const result = normalizeLocationInput(elLocation.value);
     if (result) {
-      elCoords.value = result.coords;
+      elLocation.value = result.text;
     }
 
     let cityAdded = false;
     if (!elCity.value.trim()) {
       setStatus("Looking up nearest city…");
-      cityAdded = await populateCityFromCoords();
+      cityAdded = await populateCityFromLocation();
     }
-    setStatus(cityAdded ? "Coords and city pasted." : "Pasted.", "ok");
+    setStatus(cityAdded ? "Location and city pasted." : "Pasted.", "ok");
   } catch (err) {
     setStatus(err.message || "Could not read from clipboard.", "error");
   }
@@ -1039,36 +1003,35 @@ elLink.addEventListener("paste", () => {
 });
 
 elCityAutoBtn.addEventListener("click", async () => {
-  if (!elCoords.value.trim()) {
-    setStatus("No coords to look up city from.", "error");
+  if (!elLocation.value.trim()) {
+    setStatus("No location to look up city from.", "error");
     return;
   }
 
   try {
-    await enrichFromLink({ saveAfter: true, includeCoords: false });
+    await enrichFromLink({ saveAfter: true, includeLocation: false });
   } catch (err) {
     setStatus("City enrichment failed. " + err.message, "error");
   }
 });
 
 elMapBtn.addEventListener("click", () => {
-  const raw = (elCoords.value || "").trim();
+  const raw = (elLocation.value || "").trim();
   if (!raw) return;
-  const [latStr, lonStr] = raw.split(",");
-  const lat = parseFloat(latStr);
-  const lon = parseFloat(lonStr);
-  if (isNaN(lat) || isNaN(lon)) { setStatus("Invalid coords format (expected: lat, lon).", "error"); return; }
+  const point = parseLocationInput(raw);
+  if (!point) { setStatus("Invalid location (expected: latitude, longitude).", "error"); return; }
+  const { lat, lon } = point;
   openExternalUrl(`https://maps.apple.com/?ll=${lat},${lon}&t=m`);
 });
 
-elCoords.addEventListener("blur", () => {
-  const raw = elCoords.value.trim();
+elLocation.addEventListener("blur", () => {
+  const raw = elLocation.value.trim();
   if (!raw) return;
-  const result = normalizeCoords(raw);
+  const result = normalizeLocationInput(raw);
   if (result) {
-    elCoords.value = result.coords;
+    elLocation.value = result.text;
   } else {
-    setStatus("Could not parse coords — expected \"lat, lon\" or DMS format.", "error");
+    setStatus("Could not parse location — expected \"lat, lon\" or DMS format.", "error");
   }
 });
 
@@ -1097,7 +1060,7 @@ elHereBtn.addEventListener("click", async () => {
     }
 
     const fmt = n => parseFloat(n.toFixed(8)).toString();
-    elCoords.value = `${fmt(lat)}, ${fmt(lon)}`;
+    elLocation.value = `${fmt(lat)}, ${fmt(lon)}`;
     setStatus("Current location added.", "ok");
   } catch (err) {
     if (err?.code === err.PERMISSION_DENIED) {

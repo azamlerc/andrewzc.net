@@ -34,7 +34,7 @@
       been:  null,
     });
 
-    const mapEntities = entities.filter(e => UI.parseCoords(e.coords) || (e.location?.type === "Point" && Array.isArray(e.location.coordinates)));
+    const mapEntities = entities.filter(e => UI.entityLocation(e));
     if (mapEntities.length > 0) {
       window.places = mapEntities;
       window.pageInfo = { ...country, usePageIconsOnMap: true };

@@ -324,16 +324,15 @@
     return wrap;
   }
   
-  // Parse "52.08635, 4.29770" -> {lat, lon}
-  function parseCoords(s) {
-    if (!s || typeof s !== "string") return null;
-    const parts = s.split(",").map(x => x.trim());
-    if (parts.length < 2) return null;
-    const lat = Number(parts[0]);
-    const lon = Number(parts[1]);
-    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-    return { lat, lon };
-  };
+function entityLocation(entity) {
+  const location = entity?.location;
+  if (location?.type !== "Point" || !Array.isArray(location.coordinates)
+      || location.coordinates.length !== 2) return null;
+  const [lon, lat] = location.coordinates;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)
+      || Math.abs(lat) > 90 || Math.abs(lon) > 180) return null;
+  return { lat, lon };
+}
 
   function round(n, digits = 2) {
     const p = Math.pow(10, digits);
@@ -383,7 +382,7 @@
     flagEmojiFromCountryCode,
     countryNameFromCode,
     renderEntityRow,
-    parseCoords,
+    entityLocation,
     round,
     dedupeEntities,
     setEntityRowBeen,
