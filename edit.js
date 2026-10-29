@@ -461,6 +461,11 @@ function getFlagEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
+const FLAG_COUNTRY_CODE_ALIASES = {
+  // Unicode reserves IC for the Canary Islands; this site uses the ISO 3166-2 code.
+  IC: "ES-CN",
+};
+
 function deriveCountriesFromIcons(iconsArr) {
   const iso = [];
   for (const icon of iconsArr) {
@@ -476,7 +481,8 @@ function deriveCountriesFromIcons(iconsArr) {
 
     const c1 = String.fromCharCode("A".charCodeAt(0) + (a - A));
     const c2 = String.fromCharCode("A".charCodeAt(0) + (b - A));
-    iso.push(c1 + c2);
+    const code = c1 + c2;
+    iso.push(FLAG_COUNTRY_CODE_ALIASES[code] || code);
   }
 
   const uniq = [];

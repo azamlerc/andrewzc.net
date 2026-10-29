@@ -606,10 +606,11 @@ function countryCodeFromFlagEmoji(icon) {
   const Z = 0x1F1FF;
   if (a < A || a > Z || b < A || b > Z) return null;
 
-  return String.fromCharCode(
+  const code = String.fromCharCode(
     "A".charCodeAt(0) + (a - A),
     "A".charCodeAt(0) + (b - A)
   );
+  return code === "IC" ? "ES-CN" : code;
 }
 
 function entityCoords(entity) {

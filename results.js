@@ -316,8 +316,9 @@ function pagePathForKey(listKey) {
 }
 
 function buildPageHref(listKey, extraParams = {}) {
-  const href = new URL(pagePathForKey(listKey), window.location.href);
-  href.searchParams.set("id", listKey);
+  const pagePath = pagePathForKey(listKey);
+  const href = new URL(pagePath, window.location.href);
+  if (pagePath !== listKey) href.searchParams.set("id", listKey);
 
   for (const [key, value] of Object.entries(extraParams || {})) {
     if (value == null || value === "") continue;

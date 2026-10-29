@@ -84,3 +84,15 @@ supplies its line color.
 
 Mexico City follows this workflow in `mexico-city.js`; its route records are
 created by `andrewzc-v4/migrations/import-mexico-city-routes.js`.
+
+## Ferries
+
+The Ferries page (`ferries.js`) shows every `mode: "sea"` route with dashed
+straight lines. Each `ferries` entity is a single port/terminal: its `been`
+means Andrew visited the terminal, while the route’s `been` means he took
+that ferry (a “been to one port” line is a been port, a not-been port, and a
+not-been route). Terminals close enough to act as one complex share an entity,
+so one port can sit on several routes (South Ferry → Staten Island and
+Governors Island; Dover → Calais and Dunkirk). The page, entities and routes
+were created directly in MongoDB (2026-10-28); correct positions by editing
+the `ferries` entities' `location`.
