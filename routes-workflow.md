@@ -96,3 +96,15 @@ so one port can sit on several routes (South Ferry → Staten Island and
 Governors Island; Dover → Calais and Dunkirk). The page, entities and routes
 were created directly in MongoDB (2026-10-28); correct positions by editing
 the `ferries` entities' `location`.
+
+## Qibla
+
+`qibla` is a database page with `script: "qibla.js"`. Its only entity is
+`qibla/mecca`, at the Kaaba, with `been: false` and `strike: false`.
+Inaccessibility is described in `info`; it does not mean the place no longer qualifies.
+The page selects `trip=qibla` routes. Each route stores its example origin as
+`{ name, location: { type: "Point", coordinates: [longitude, latitude] } }`
+and references `qibla/mecca` as its destination. The shared renderer accepts
+inline GeoJSON stops as well as canonical entity references. This keeps example
+origins out of personal visit lists and marker layers. Routes have no `been`
+field; gold styling lives in each database route’s `style` object.

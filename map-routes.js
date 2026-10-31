@@ -37,7 +37,7 @@
     }
     for (const route of routes) {
       const stops = Array.isArray(route.stops) ? route.stops : [];
-      const points = stops.map(stop => getLatLong(byRef.get(JSON.stringify([stop?.list, stop?.key]))));
+      const points = stops.map(stop => getLatLong(byRef.get(JSON.stringify([stop?.list, stop?.key])) || stop));
       // Never join across a missing intermediate stop and invent a connection.
       if (points.length < 2 || points.some(point => !point)) {
         console.warn("Route has missing endpoint coordinates:", route.key);
