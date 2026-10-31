@@ -1818,7 +1818,7 @@ function renderPage(listInfo, entities, { pageId, isAdmin, editMode }) {
 
   // Optional footer caption
   if (listInfo.footer) {
-    const footerEl = el("div", { class: "caption" });
+    const footerEl = el("div", { class: "caption pageFooter" });
     footerEl.innerHTML = renderRichTextHtml(listInfo.footer);
     app.append(footerEl);
   }
