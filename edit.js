@@ -652,7 +652,7 @@ function currentFormEntity() {
 }
 
 function pruneCreatePayload(entity) {
-  const payload = { ...entity };
+  const payload = { ...entity, ...deriveCountriesFromIcons(entity.icons || []) };
 
   for (const [key, value] of Object.entries(payload)) {
     if (value === "") {
