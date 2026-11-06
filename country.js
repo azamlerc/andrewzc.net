@@ -34,6 +34,9 @@
       been:  null,
     });
 
+    // Select every transport mode matching the route country metadata.
+    MapRoutes.showWhenReady({ country: code });
+
     const mapEntities = entities.filter(e => UI.entityLocation(e));
     if (mapEntities.length > 0) {
       window.places = mapEntities;
