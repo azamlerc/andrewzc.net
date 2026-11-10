@@ -122,3 +122,14 @@ test('an old map continues saving to its own query after the page URL changes', 
   assert.equal(JSON.parse(app.storage.get(firstKey)).zoom, 9);
   assert.equal(app.storage.has(secondKey), false);
 });
+
+
+test('ready map initializes routes from top-level page context', () => {
+  const app = setup('https://example.com/page.html?id=any-new-page');
+  const page = { key: 'any-new-page', routes: { mode: 'car' } };
+  app.context.window.pageInfo = page;
+  let config;
+  app.context.showPageRoutes = () => { config = app.context.window.pageInfo.routes; };
+  app.show();
+  assert.deepEqual(config, page.routes);
+});

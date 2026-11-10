@@ -10,7 +10,8 @@
     const appearance = { ...defaults, ...(route.style || {}) };
     const defaultDash = route.path && Object.hasOwn(route.path, "dashArray")
       ? route.path.dashArray
-      : route.mode === "rail" ? "14,10" : route.mode === "road" ? "1,8" : null;
+      : route.mode === "train" ? "14,10"
+      : route.mode === "bus" ? "1,8" : null;
     return {
       color: appearance.color || route.color || (route.been === true ? "#228b22" : "#dc2626"),
       weight: Number.isFinite(appearance.weight) && appearance.weight > 0 ? appearance.weight : 2.5,

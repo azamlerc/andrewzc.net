@@ -34,13 +34,14 @@
       been:  null,
     });
 
-    // Select every transport mode matching the route country metadata.
-    MapRoutes.showWhenReady({ country: code });
-
     const mapEntities = entities.filter(e => UI.entityLocation(e));
     if (mapEntities.length > 0) {
       window.places = mapEntities;
-      window.pageInfo = { ...country, usePageIconsOnMap: true };
+      window.pageInfo = {
+        ...country,
+        routes: country.routes === undefined ? { country: code } : country.routes,
+        usePageIconsOnMap: true,
+      };
 
       const mapDiv = UI.el("div", { id: "map" });
       mapDiv.setAttribute("lat", "20");

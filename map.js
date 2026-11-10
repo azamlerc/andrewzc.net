@@ -84,7 +84,39 @@ async function loadPlaces(filename) {
   }
 
   const json = await res.json();
+  window.pageInfo ||= json["--info--"];
   return placesArrayToObject(json.entities || []);
+}
+
+// Route context belongs to the page, independently of Leaflet view settings.
+let pageRoutesPromise;
+async function showPageRoutes(info = window.pageInfo) {
+  const config = info?.routes;
+  if (config == null || config === false) return;
+  try {
+    if (typeof config !== "object" || Array.isArray(config)) {
+      throw new Error("Page routes must be an object or false");
+    }
+    const filter = {};
+    for (const key of Object.keys(config)) {
+      if (key === "style") continue;
+      if (!["mode", "trip", "country"].includes(key)
+          || typeof config[key] !== "string" || !config[key].trim()) {
+        throw new Error("Invalid page route filter: " + key);
+      }
+      filter[key] = config[key].trim();
+    }
+    if (!window.MapRoutes) {
+      pageRoutesPromise ||= loadScript("map-routes.js").catch(error => {
+        pageRoutesPromise = null;
+        throw error;
+      });
+      await pageRoutesPromise;
+    }
+    window.MapRoutes.showWhenReady(filter, config.style || {});
+  } catch (error) {
+    console.error("Could not initialize page routes", error);
+  }
 }
 
 loadScripts([
@@ -288,6 +320,7 @@ function showPlaces(places, filename) {
   window.__ANDREWZC_MAP_CONTEXT__ = { map, places };
   var event = new CustomEvent('mapReady', { detail: window.__ANDREWZC_MAP_CONTEXT__ });
   document.dispatchEvent(event);
+  void showPageRoutes();
   console.log('Map ready');
 }
 

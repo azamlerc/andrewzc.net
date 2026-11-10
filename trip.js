@@ -52,10 +52,13 @@
 
     // Expose for map.js
     window.places   = entities;
-    window.pageInfo = { ...page, usePageIconsOnMap: true };
+    window.pageInfo = {
+      ...page,
+      routes: page?.routes === undefined ? { trip: tripKey } : page.routes,
+      usePageIconsOnMap: true,
+    };
 
     if (tripMap?.lat != null && tripMap?.lon != null && tripMap?.zoom != null) {
-      MapRoutes.showWhenReady({ trip: tripKey });
       const fields = ["lat", "lon", "zoom", "cluster", "clusterLevel", "icon", "lines"];
       const mapDiv = UI.el("div", { id: "map" });
       for (const field of fields) {
