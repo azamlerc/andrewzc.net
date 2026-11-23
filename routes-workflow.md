@@ -21,7 +21,7 @@ Filters mode, trip and country can be combined (all must match). Examples:
 ```json
 { "routes": { "mode": "bus" } }
 { "routes": { "mode": "car", "trip": "my-road-trip" } }
-{ "routes": { "mode": "metro", "trip": "mexico-city", "style": { "lineType": "solid", "weight": 6 } } }
+{ "routes": { "mode": "metro", "trip": "mexico-city", "style": { "weight": 6 } } }
 ```
 
 Omit routes on an ordinary page to show no route layer. Set routes to false to
@@ -46,11 +46,11 @@ for rendering their pages.
 ## Transport modes and styling
 
 - air: flights, normally using great-circle paths.
-- train: mainline trains, dashed by default.
+- train: mainline trains.
 - metro: metro systems; route/page styling can specify solid colored lines.
-- bus: buses, dotted by default.
-- car: road trips, solid by default.
-- sea: ferries; their page supplies dashed defaults.
+- bus: buses.
+- car: road trips.
+- sea: ferries.
 
 The redundant rail and road modes have been removed: classify railway journeys as
 train or metro, and road journeys as bus or car. All ten existing road journeys were
@@ -58,8 +58,9 @@ confirmed buses and migrated to bus on 10 November 2026, preserving dotted styli
 Tirana–Pristina is explicitly confirmed as bus. Bus Stations has a world map and
 routes: {mode: "bus"}. The API rejects modes rail and road after deployment.
 
-Optional routes.style supplies page defaults for lineType (solid, dashed, dotted),
-weight and color. A route's own style overrides these. Existing been true/false
+The shared renderer supplies the solid line default for every mode. Omit lineType
+on pages and routes that use the default. Optional routes.style supplies page
+overrides for lineType (solid, dashed, dotted), weight and color. A route's own style overrides these. Existing been true/false
 colors and route tooltips are preserved. Keep styling in route records when it is
 specific to one journey or transit line. map.lines still means gridlines, not routes.
 
@@ -68,9 +69,9 @@ specific to one journey or transit line. map.lines still means gridlines, not ro
 | Page | Current compatibility script | Top-level routes configuration |
 | --- | --- | --- |
 | Airports | airports.js | {mode: "air"} |
-| Ferries | ferries.js | {mode: "sea", style: {lineType: "dashed"}} |
-| Train Stations | train-stations.js | {mode: "train", style: {lineType: "dashed"}} |
-| Mexico City | mexico-city.js | {mode: "metro", trip: "mexico-city", style: {lineType: "solid", weight: 6}} |
+| Ferries | ferries.js | {mode: "sea"} |
+| Train Stations | train-stations.js | {mode: "train"} |
+| Mexico City | mexico-city.js | {mode: "metro", trip: "mexico-city", style: {weight: 6}} |
 | Stopovers | stopovers.js | {mode: "air", trip: "stopovers"} |
 | Qibla | qibla.js | {trip: "qibla"} |
 | Bus Stations | None needed | {mode: "bus"} |
@@ -118,7 +119,7 @@ HTML page or migration framework is needed.
 
 ## Ferries
 
-The Ferries page (top-level routes mode sea) shows every `mode: "sea"` route with dashed
+The Ferries page (top-level routes mode sea) shows every `mode: "sea"` route with solid
 straight lines. Each `ferries` entity is a single port/terminal: its `been`
 means Andrew visited the terminal, while the route’s `been` means he took
 that ferry (a “been to one port” line is a been port, a not-been port, and a
@@ -146,7 +147,7 @@ field; gold styling lives in each database route’s `style` object.
 Use `mode: "train"` for mainline train journeys and `mode: "metro"` for metro
 lines. `train-stations.js` follows `airports.js`, selecting `{mode: "train"}`
 with dashed defaults in the original implementation. The page now stores
-top-level `routes: {mode: "train", style: {lineType: "dashed"}}`.
+top-level `routes: {mode: "train"}`.
 Mexico City selects `mode: "metro"` and its
 importer writes that mode. The API accepts train and metro as distinct modes. The redundant rail mode
 was removed on 10 November 2026 after confirming no route or page still used it. These small code changes require normal deployment.

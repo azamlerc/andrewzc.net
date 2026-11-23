@@ -9,5 +9,5 @@
       document.head.appendChild(script);
     });
   }
-  MapRoutes.showWhenReady({ mode: "sea" }, { lineType: "dashed" });
+  MapRoutes.showWhenReady({ mode: "sea" });
 })().catch(error => console.error("Could not initialize ferry routes", error));

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connections</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧩%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="connections.css">
+  <script src="connections.js" defer></script>
+</head>
+<body>
+  <main class="arena">
+    <header class="headlineWrap">
+      <h1 class="headline"><span id="game-emoji" aria-hidden="true">🧩</span> <span id="game-title">Connections</span></h1>
+      <div class="headerActions" aria-label="Game controls">
+        <div id="lobby-actions" class="game-actions">
+          <button id="new-game" class="pillToggle" type="button">New game</button>
+        </div>
+        <div id="game-actions" class="game-actions" hidden>
+          <button id="run" class="pillToggle" type="button" hidden>Pause</button>
+          <button id="end" class="pillToggle" type="button" hidden>End game</button>
+          <button id="replay" class="pillToggle" type="button" hidden>Replay</button>
+          <button id="again" class="pillToggle" type="button" hidden>New game</button>
+          <button id="back" class="pillToggle" type="button">Back</button>
+        </div>
+      </div>
+    </header>
+
+    <p id="notice" class="notice" role="status" hidden></p>
+
+    <section id="lobby" aria-label="Games">
+      <div class="history">
+        <p id="history-note" class="muted" role="status"></p>
+        <ul id="games" class="items large games" aria-label="Saved games"></ul>
+        <button id="more" class="pillToggle" type="button" hidden>More games</button>
+      </div>
+    </section>
+
+    <section id="game" aria-labelledby="game-title" hidden>
+      <p id="phase" class="caption pageHeader" role="status"></p>
+      <div class="game-layout">
+        <section class="board-panel" aria-label="Board">
+          <div id="board-placeholder" class="board-placeholder" aria-hidden="true"></div>
+          <div id="solved" class="solved" aria-label="Solved categories"></div>
+          <ul id="tiles" class="tiles" aria-label="Remaining tiles"></ul>
+          <div id="statistics" class="statistics" hidden>
+            <span id="mistake-label">Mistakes remaining</span>
+            <span id="mistakes" class="mistakes" aria-hidden="true"></span>
+            <span id="mistake-number" class="sr-only"></span>
+            <span id="hints" class="hint-count"></span>
+          </div>
+          <p id="move" class="move" role="status" aria-atomic="true"></p>
+          <section id="solution" class="solution" aria-labelledby="solution-title" hidden>
+            <h2 id="solution-title" class="caption pageHeader">Solution</h2>
+            <div id="explanations"></div>
+          </section>
+        </section>
+
+        <section class="chat-panel" aria-label="Conversation">
+          <div id="chat" class="chat" aria-live="polite" aria-relevant="additions" hidden></div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

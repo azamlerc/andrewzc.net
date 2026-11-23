@@ -133,8 +133,8 @@ function animateTrain(routeCoords, map) {
 
 document.addEventListener('mapReady', (e) => {
   var map = e.detail.map; 
-  L.polyline(orientExpressClassic, { color: 'red', weight: 3, opacity: 0.7, dashArray: '8,8' }).addTo(map);
-  L.polyline(simplonOrientExpress, { color: 'green', weight: 3, opacity: 0.7, dashArray: '8,8' }).addTo(map);
-  L.polyline(veniceSimplon, { color: 'blue', weight: 3, opacity: 0.7, dashArray: '8,8' }).addTo(map);
+  L.polyline(orientExpressClassic, { color: 'red', weight: 3, opacity: 0.7 }).addTo(map);
+  L.polyline(simplonOrientExpress, { color: 'green', weight: 3, opacity: 0.7 }).addTo(map);
+  L.polyline(veniceSimplon, { color: 'blue', weight: 3, opacity: 0.7 }).addTo(map);
   animateTrain(orientExpressClassic, map);
 });

@@ -146,10 +146,10 @@ for (const [routes, expected] of [[undefined, { trip: 'sample-trip' }], [false, 
   });
 }
 
-for (const [mode, dashArray] of [['bus', '1,8'], ['car', null], ['train', '14,10'], ['metro', null]]) {
-  test(`${mode} routes have their own default line style`, async () => {
+for (const mode of ['air', 'train', 'metro', 'bus', 'car', 'sea']) {
+  test(`${mode} routes default to solid lines`, async () => {
     const app = setup({ loaded: true });
-    assert.equal(app.context.MapRoutes.style({ mode, been: true }).dashArray, dashArray);
+    assert.equal(app.context.MapRoutes.style({ mode, been: true }).dashArray, null);
     await app.context.showPageRoutes({ routes: { mode } });
     await settle();
     assert.equal(new URL(app.requests[0]).searchParams.get('mode'), mode);

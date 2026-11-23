@@ -304,6 +304,26 @@ body.drag-active .imagesHelp::before {
   background: #e9e9e9;
 }
 
+.pill.pillDanger,
+.pill:not(.been):not(.strike).pillDanger {
+  background: #C93A3A;
+  border-color: #C93A3A;
+  color: white;
+}
+
+.pill.pillDanger:hover,
+.pill:not(.been):not(.strike).pillDanger:hover {
+  background: #A92E2E;
+  border-color: #A92E2E;
+}
+
+.editActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 18px 0 10px;
+}
+
 @media (max-width: 700px) {
   .fieldCompact,
   .fieldEmojiCompact,

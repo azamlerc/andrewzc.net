@@ -25,7 +25,6 @@ document.addEventListener('mapReady', (e) => {
   ], {
     color: '#097969',
     weight: 4,
-    opacity: 0.7,
-    dashArray: '8,8'
+    opacity: 0.7
   }).addTo(map);
 });

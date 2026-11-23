@@ -11,6 +11,18 @@ addStylesheets([
   "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
 ]);
 
+(function ensureMapEditStyle() {
+  if (document.getElementById("map-edit-style")) return;
+  const style = document.createElement("style");
+  style.id = "map-edit-style";
+  style.textContent = `
+    .mapBeenToggleWrap { display: none; align-items: center; margin-right: 6px; vertical-align: middle; }
+    body.edit-mode .mapBeenToggleWrap { display: inline-flex; }
+    .mapBeenToggle { width: 18px; height: 18px; accent-color: #228b22; cursor: pointer; }
+  `;
+  document.head.appendChild(style);
+})();
+
 // Convert an array of place entities into the object shape this file expects.
 // Entity keys are unique within a list, not across the whole database, so use
 // the canonical list/key pair when combining entities from multiple lists.
@@ -380,6 +392,15 @@ function mapPopupEditList(context, entityList) {
   return context?.useEntityList ? entityList : (context?.editList || entityList);
 }
 
+function findMapPlace(list, key) {
+  const places = window.places;
+  if (!Array.isArray(places)) return null;
+  const context = mapPopupEditContext();
+  return places.find((entry) => String(entry?.key || "") === String(key)
+    && (String(entry?.list || "") === String(list)
+      || mapPopupEditList(context, String(entry?.list || "")) === String(list))) || null;
+}
+
 function mapPopupEntityLink(place) {
   const context = mapPopupEditContext();
   const key = String(place?.key || simplifyForReference(place?.name)).trim();
@@ -394,6 +415,44 @@ function mapPopupEntityLink(place) {
     + ` data-entity-key="${escapeAttr(key)}"`
     + ` data-entity-list="${escapeAttr(entityList)}"`
     + ` data-view-href="${escapeAttr(viewHref)}">${escapeHtml(place?.name || "")}</a>`;
+}
+
+function mapPopupBeenToggle(place) {
+  const context = mapPopupEditContext();
+  const key = String(place?.key || simplifyForReference(place?.name)).trim();
+  const entityList = String(place?.list || "").trim();
+  const list = mapPopupEditList(context, entityList);
+  if (!key || !list) return "";
+
+  return `<span class="mapBeenToggleWrap">`
+    + `<input class="mapBeenToggle" type="checkbox"`
+    + ` data-entity-key="${escapeAttr(key)}" data-entity-list="${escapeAttr(list)}"`
+    + ` aria-label="Mark ${escapeAttr(place?.name || key)} as been"`
+    + `${place?.been === true ? " checked" : ""}></span>`;
+}
+
+function mapTodayDate() {
+  const now = new Date();
+  const pad = value => String(value).padStart(2, "0");
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+}
+
+async function setMapEntityBeen(list, key, been, existingDateVisited = "") {
+  if (window.Results?.setEntityBeen) {
+    return window.Results.setEntityBeen(list, key, been, existingDateVisited);
+  }
+
+  const patch = { been: !!been };
+  if (been && !String(existingDateVisited || "").trim()) patch.dateVisited = mapTodayDate();
+  const base = (new URL(window.location.href).searchParams.get("api") || "https://api.andrewzc.net").replace(/\/+$/, "");
+  const res = await fetch(`${base}/entities/${encodeURIComponent(list)}/${encodeURIComponent(key)}`, {
+    method: "PUT",
+    credentials: "include",
+    headers: { "Accept": "application/json", "Content-Type": "application/json" },
+    body: JSON.stringify(patch),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json().catch(() => null);
 }
 
 function updateMapPopupEntityLinks(root = document) {
@@ -431,12 +490,47 @@ document.addEventListener("click", (event) => {
   window.location.href = mapPopupEditHref(list, key);
 });
 
+document.addEventListener("change", async (event) => {
+  const toggle = event.target?.closest?.("input.mapBeenToggle");
+  if (!toggle) return;
+
+  const list = toggle.dataset.entityList || "";
+  const key = toggle.dataset.entityKey || "";
+  if (!list || !key) return;
+
+  const place = findMapPlace(list, key);
+  const previousBeen = place?.been === true;
+  const previousDateVisited = place?.dateVisited || "";
+  const nextBeen = toggle.checked;
+
+  if (place) place.been = nextBeen;
+  document.dispatchEvent(new CustomEvent("entityBeenChanged", {
+    detail: { list, key, been: nextBeen },
+  }));
+
+  try {
+    const updated = await setMapEntityBeen(list, key, nextBeen, previousDateVisited);
+    if (place && updated?.dateVisited) place.dateVisited = updated.dateVisited;
+  } catch (err) {
+    toggle.checked = previousBeen;
+    if (place) {
+      place.been = previousBeen;
+      place.dateVisited = previousDateVisited;
+    }
+    document.dispatchEvent(new CustomEvent("entityBeenChanged", {
+      detail: { list, key, been: previousBeen },
+    }));
+    console.error("Could not update map pin been state", err);
+  }
+});
+
 function addMarker(map, place, test, tag) {
     if (test(place)) {
         let latLong = getLatLong(place);
         if (latLong && latLong.length == 2) {
-            let text = mapPopupEntityLink(place);
-            if (place.icons) text = place.icons.join(' ') + ' ' + text;
+            let text = mapPopupBeenToggle(place);
+            if (place.icons) text += place.icons.join(' ') + ' ';
+            text += mapPopupEntityLink(place);
             if (place.prefix) text = place.prefix + "<br>" + text;
             if (place.reference) text += "<br>" + place.reference;
             if (place.info) text += "<br>" + place.info;
@@ -459,8 +553,9 @@ function addEmojiMarker(map, place, test, tag, filename) {
     if (test(place)) {
         let latLong = getLatLong(place);
         if (latLong && latLong.length === 2) {
-            let text = mapPopupEntityLink(place);
-            if (place.icons) text = place.icons.join(' ') + ' ' + text;
+            let text = mapPopupBeenToggle(place);
+            if (place.icons) text += place.icons.join(' ') + ' ';
+            text += mapPopupEntityLink(place);
             if (place.prefix) text = place.prefix + "<br>" + text;
             if (place.images) text = `<img src="https://images.andrewzc.net/${place.list}/tn/${place.images[0]}" width="120" style="float: left; margin: 0px 10px 10px 0px;">` + ' ' + text;
             if (place.reference) text += "<br>" + place.reference;
@@ -506,8 +601,7 @@ document.addEventListener("entityBeenChanged", (event) => {
   const places = window.places;
   if (!Array.isArray(places) || !change.list || !change.key) return;
 
-  const place = places.find((entry) => String(entry?.list || "") === String(change.list)
-    && String(entry?.key || "") === String(change.key));
+  const place = findMapPlace(change.list, change.key);
   if (!place) return;
 
   place.been = !!change.been;

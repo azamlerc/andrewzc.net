@@ -43,7 +43,6 @@ const elStrike = document.getElementById("strike");
 
 const elSaveBtn = document.getElementById("saveBtn");
 const elDoneBtn = document.getElementById("doneBtn");
-const elResetBtn = document.getElementById("resetBtn");
 const elDuplicateBtn = document.getElementById("duplicateBtn");
 const elDeleteBtn = document.getElementById("deleteBtn");
 const elNamePasteBtn = document.getElementById("namePasteBtn");
@@ -118,18 +117,11 @@ async function readClipboardText() {
   if (navigator.clipboard?.readText) {
     try {
       const text = await navigator.clipboard.readText();
-      if (text) {
-				console.log("text", text);
-				return String(text);
-			} else {
-				console.log("No text");
-			}
+      if (text) return String(text);
     } catch (_) {
-			console.log("Couldn't read clipboard!");
       // Fall through to the legacy paste path below.
     }
   }
-	
 
   return new Promise((resolve, reject) => {
     const helper = document.createElement("textarea");
@@ -755,17 +747,17 @@ async function load() {
 }
 
 async function save() {
-  if (!original) return;
+  if (!original) return false;
 
   let cur;
   try { cur = currentFormEntity(); }
-  catch (err) { setStatus(err.message, "error"); return; }
+  catch (err) { setStatus(err.message, "error"); return false; }
   const patch = diffPatch(original, cur);
 
   const keys = Object.keys(patch);
   if (keys.length === 0 && !isCreateMode) {
     setStatus("No changes to save.", "ok");
-    return;
+    return true;
   }
 
   elSaveBtn.disabled = true;
@@ -796,21 +788,17 @@ async function save() {
     populateForm(original);
 
     setStatus("Saved.", "ok");
+    return true;
   } catch (err) {
     if (err.status === 401) {
       setStatus("Not authenticated. Go to admin.html and sign in.", "error");
     } else {
       setStatus("Save failed. " + err.message, "error");
     }
+    return false;
   } finally {
     elSaveBtn.disabled = false;
   }
-}
-
-function resetForm() {
-  if (!original) return;
-  populateForm(original);
-  setStatus("Reset.", null);
 }
 
 function duplicateEntity() {
@@ -864,7 +852,11 @@ async function deleteEntity() {
 }
 
 elSaveBtn.addEventListener("click", save);
-elResetBtn.addEventListener("click", resetForm);
+elDoneBtn.addEventListener("click", async (event) => {
+  event.preventDefault();
+  const saved = await save();
+  if (saved) location.href = doneHref();
+});
 elDuplicateBtn.addEventListener("click", duplicateEntity);
 elDeleteBtn.addEventListener("click", deleteEntity);
 
@@ -881,7 +873,6 @@ elLinkAutoBtn.addEventListener("click", async () => {
 
 elNamePasteBtn.addEventListener("click", async () => {
   try {
-		console.log("paste name");
     const text = await readClipboardText();
     elName.value = text;
     setStatus("Pasted.", "ok");
@@ -889,7 +880,6 @@ elNamePasteBtn.addEventListener("click", async () => {
     setStatus(err.message || "Could not read from clipboard.", "error");
   }
 });
-console.log("elNamePasteBtn", elNamePasteBtn);
 
 elOpenBtn.addEventListener("click", () => {
   const url = (elLink.value || "").trim();
@@ -898,12 +888,22 @@ elOpenBtn.addEventListener("click", () => {
 });
 
 elLinkPasteBtn.addEventListener("click", async () => {
+  let text;
   try {
-    const text = await readClipboardText();
-    elLink.value = text;
-    await enrichFromLink({ wikipediaOnly: true });
+    text = await readClipboardText();
   } catch (err) {
     setStatus(err.message || "Could not read from clipboard.", "error");
+    return;
+  }
+
+  elLink.value = text;
+  setStatus("Pasted.", "ok");
+
+  try {
+    // Pasting must succeed even if the optional Wikipedia lookup cannot.
+    await enrichFromLink({ wikipediaOnly: true });
+  } catch (err) {
+    setStatus(`Link pasted, but automatic lookup failed. ${err.message}`, "error");
   }
 });
 

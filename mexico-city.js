@@ -11,6 +11,6 @@
   }
   MapRoutes.showWhenReady(
     { mode: "metro", trip: "mexico-city" },
-    { lineType: "solid", weight: 6 }
+    { weight: 6 }
   );
 })().catch(error => console.error("Could not initialize Mexico City routes", error));

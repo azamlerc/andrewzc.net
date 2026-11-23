@@ -9,5 +9,5 @@
       document.head.appendChild(script);
     });
   }
-  MapRoutes.showWhenReady({ mode: "train" }, { lineType: "dashed" });
+  MapRoutes.showWhenReady({ mode: "train" });
 })().catch(error => console.error("Could not initialize train routes", error));
